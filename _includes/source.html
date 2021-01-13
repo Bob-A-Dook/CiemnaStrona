@@ -1,0 +1,14 @@
+{% assign track_elems = include.trackers | split: "|" %}
+{% assign track_num = track_elems | size %}
+
+<p style="margin-bottom:0px"> <a href="{{include.url}}">{{include.name}}</a> </p>
+
+{% if track_num > 0 %}
+<div class="text-with-hover">Elementy śledzące: {{track_elems | size }}
+  <div class="hover-text">
+  {% for elem in track_elems %}
+  <p>{{elem}}</p>
+  {% endfor %}
+  </div>
+</div>
+{% endif %} 

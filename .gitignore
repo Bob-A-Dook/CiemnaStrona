@@ -1,0 +1,5 @@
+_site
+_drafts
+assets/_draft
+.sass-cache
+.jekyll-metadata

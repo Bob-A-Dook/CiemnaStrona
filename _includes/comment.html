@@ -1,0 +1,53 @@
+
+{% assign avatar_decoration = "" %}
+{% assign author_style = "author_base" %}
+{% assign avatar_size = "big_avatar" %}
+{% assign comment_type="" %}
+{% assign comment_style = "fb_comment" %}
+{% assign comment_text = "fb_comment_text" %}
+{% assign avatar_path = "/assets/creepy_emoji.svg" %}
+{% assign avatar_shape = "round-avatar" %}
+
+
+{% if include.source == "wykop" %}
+  {% assign avatar_path = "/assets/wykop_avatar.jpg" %}
+  {% assign avatar_shape = "" %}
+  {% assign comment_style = "wykop_comment" %}
+  {% assign comment_text = "wykop_text" %}
+  {% assign author_style = "wykop_author" %}
+
+  {% if include.gender == 'male' %}
+    {% assign avatar_decoration = "wykop_avatar_male" %}
+  {% elsif include.gender == 'female' %}
+    {% assign avatar_decoration = "wykop_avatar_female" %}
+  {% else %}
+    {% assign avatar_decoration = "wykop_avatar" %}
+  {% endif %}
+
+{% elsif include.source == "twitter" %}
+  {% assign avatar_path = "/assets/twitter_avatar.png" %}
+  {% assign comment_style = "wykop_comment" %}
+  {% assign comment_text = "fb_comment_text" %}
+
+{% elsif include.source == "facebook" %}
+  {% assign comment_style = "fb_comment" %}
+  {% assign comment_text = "fb_comment_text" %}
+  {% assign avatar_path = "/assets/fb_avatar.jpg" %}
+
+{% endif %}
+
+
+{% if include.type == "reply" %}
+  {% assign comment_type = "subcomment" %}
+  {% assign avatar_size = "small_avatar" %}
+{% endif %}
+
+<div class="comment_container {{comment_type}}">
+  <img src="{{avatar_path}}" class="{{avatar_shape}} {{avatar_decoration}} {{avatar_size}}" />
+  <div class="{{comment_style}}"> 
+    <div class="{{comment_text}}">
+      <p class="{{author_style}}" markdown="1">{{ include.author | default: "Anonim" }}</p>
+      <span markdown="1">{{ include.text }}</span>     
+    </div>
+  </div>
+</div>

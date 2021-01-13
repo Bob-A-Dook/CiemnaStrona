@@ -1,0 +1,14 @@
+<div style="margin-top:3em;margin-bottom:3em">
+  <div class="subcontent-heading">
+    <img src="/assets/creepy_emoji.svg" style="display:inline-block;padding-bottom:5px;height:25px;width:25px;vertical-align:middle"/>
+<span style="padding-left: 10px; padding-right: 15px">
+{{include.type}}
+</span>
+  </div>
+  <div class="bold-border" style="padding:10px;border-radius:0px 10px 10px 0px">
+    <p style="margin-bottom:0px" markdown="1">{{include.text}}</p>
+    {% if include.trailer %}
+    {{include.trailer}}
+    {% endif %}
+  </div>
+</div>
