@@ -4,12 +4,13 @@ title:  "Internetowa inwigilacja 2 – referer"
 subtitle: "„Skąd przybywasz?”"
 date:   2021-01-12 19:39:35 +0100
 tags: [Internet, Inwigilacja, Poradnik]
+firmy: [Google]
 keep_referers: true
 ---
 
 W poprzednim wpisie pokazałem krótko nagłówki HTTP -- rodzaj naszej wizytówki przesyłanej za każdym razem, kiedy odwiedzamy jakąś stronę. 
  
-Teraz skupię się na jednym z&nbsp;tych nagłówków, *refererze*. Jego działanie było dla mnie kompletną niespodzianką. Mimo że jest czymś absolutnie powszechnym.
+Teraz skupię się na jednym z&nbsp;tych nagłówków, *refererze*. Jego działanie było dla mnie kompletną niespo&shy;dzianką. Mimo że jest czymś absolutnie powszechnym.
 
 Krótko: **kiedy przechodzimy między stronami internetowymi, właściciele drugiej strony często się dowiadują, jaka była ta pierwsza. I&nbsp;przekazują to innym**.
 

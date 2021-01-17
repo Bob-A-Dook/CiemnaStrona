@@ -20,7 +20,7 @@ Blogowi przyświeca kilka założeń:
 
 3. **Brak polskiej polityki**
 
-   Polityka to ciekawy, ale strasznie śliski temat. Wystarczy kilka słów, żeby zostać zaszufladkowanym i&nbsp;stracić sympatię czytelników, niezależnie od poziomu treści. Dlatego będę unikał poruszania spraw politycznych, chyba że będą ściśle związane z&nbsp;czymś bardziej uniwersalnym.
+   Polityka to ciekawy, ale strasznie śliski temat. Wystarczy kilka słów, żeby zostać zaszufladkowanym i&nbsp;stracić sympatię czytelników, niezależnie od poziomu treści. Dlatego będę unikał poruszania spraw politycznych, chyba że będą związane z&nbsp;szerszymi zjawiskami.
 
 4. **Kwestie techniczne są uproszczone**
    
@@ -63,7 +63,7 @@ Nauczenie się czegoś nowego, wychylenie się i&nbsp;wkładanie w&nbsp;coś pra
 
 * Silnik blogowy [Jekyll](https://github.com/jekyll/jekyll) z motywem [Minima](https://github.com/jekyll/minima), zmodyfikowanym przez mnie;
 * Czcionka [Fira Sans](http://mozilla.github.io/Fira/) od Mozilli (pobrana z witryny [Font Squirrell](https://www.fontsquirrel.com/fonts/fira-sans));
-* Logo strony to darmowa emotka autorstwa <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> ze strony <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> (przerobiona przez mnie).
+* Logo strony to darmowa [emotka](https://www.flaticon.com/free-icon/happy_742923) autorstwa <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> ze strony <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> (przerobiona przez mnie).
 
 Dodatkowe wyróżnienia dla umilaczy pracy:
 

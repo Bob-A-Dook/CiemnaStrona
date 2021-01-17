@@ -11,7 +11,7 @@ Zdarzyło Wam się podczas przeglądania internetu zderzyć się z&nbsp;blokad�
 {:.bigspace}
 <img src="/assets/posts/internetowa-inwigilacja-1-podstawy/wstep_kolaz.webp"/>
 
-Czasem stronki nie chcą nam czegoś pokazać. Albo jedna i&nbsp;ta sama reklama chodzi za nami po różnych, niezwiązanych ze sobą stronach. Albo wyświetla się (ale tylko na telefonie!) ponaglenie, żebyśmy zamiast stronki użyli aplikacji mobilnej.
+Czasem stronki nie chcą nam czegoś pokazać. Albo jedna i&nbsp;ta sama reklama chodzi za nami po różnych, niezwią&shy;zanych ze sobą stronach. Albo wyświetla się (ale tylko na telefonie!) ponaglenie, żebyśmy zamiast stronki użyli aplikacji mobilnej.
 
 Skąd oni to wszystko wiedzą?
 
@@ -21,8 +21,7 @@ To pierwszy z&nbsp;tych wpisów. Wprowadzę tutaj analogię ułatwiającą zrozu
 
 ## Internet jako poczta
 
-Zacznę od odrobiny słowotwórstwa. *Inter* oznacza *między*, a&nbsp;*net* oznacza *sieć*.  
-*Sieć* komputerów komunikujących się *między* sobą.
+Zacznę od odrobiny słowotwórstwa. *Inter* oznacza *między*, a&nbsp;*net* oznacza *sieć*. Czyli: *sieć* komputerów komunikujących się *między* sobą.
 
 Jaki jest inny, bardziej swojski przykład sieci komunikacyjnej? Poczta!
 
@@ -32,7 +31,7 @@ Jaki jest inny, bardziej swojski przykład sieci komunikacyjnej? Poczta!
 * Na kopertach/opakowaniach można umieszczać różnorodne informacje. Ale, żeby była możliwa dwustronna komunikacja, wśród tych informacji muszą być adresy odbiorcy i&nbsp;nadawcy (**adresy IP**).
 * W&nbsp;odróżnieniu od prawdziwej poczty, biurokracja jest minimalna. Wszystko załatwiamy przez zaufaną panią z&nbsp;okienka (**przeglądarkę**), która już zna potrzebne informacje, sprawdzi adresy w&nbsp;katalogach itp. Wystarczy że powiemy, kogo i&nbsp;o co chcemy prosić.
 
-Analogia nie jest w&nbsp;100% moja, podpatrzyłem różne jej części w&nbsp;internecie. Na przykład motyw wysyłanych kopert pojawia się m.in. [w tym filmiku](https://www.youtube.com/watch?v=ewrBalT_eBM).
+Analogia nie jest w&nbsp;100% moja, podpatrzyłem różne jej części w&nbsp;internecie. Na przykład motyw wysyłanych kopert pojawia się m.in. [w&nbsp;tym filmiku](https://www.youtube.com/watch?v=ewrBalT_eBM).
 
 {% include info.html type="Uwaga" text="Pomijam w&nbsp;tej analogii sporo rzeczy, jak na przykład to że dane są wysyłane w&nbsp;częściach, czasem następuje ponowne wysłanie, adres IP ma inne miejsce w&nbsp;hierarchii niż reszta informacji itp.  
 Przyjmiemy dla uproszczenia, że **jeden list/paczka = wszystkie rzeczy wysłane podczas jednej interakcji**." %}
@@ -56,7 +55,7 @@ Oprócz nich na opakowaniu -- ale w&nbsp;innym miejscu -- znajduje się równie�
 
 Po wysłaniu naszej przesyłki tracimy nad nią kontrolę. Nie wiemy, co się z&nbsp;nią dalej dzieje. Odbiera ją adresat albo jakiś jego pełnomocnik -- w&nbsp;przypadku Ciemnej Strony serwer należący do amerykańskiej firmy, Githuba.
 
-Nie wiemy, na które informacje z&nbsp;"etykiety" zwróci uwagę ani co z&nbsp;nimi zrobi. Może na ich podstawie na przykład:
+Nie wiemy, na które informacje z&nbsp;„etykiety” zwróci uwagę ani co z&nbsp;nimi zrobi. Może na ich podstawie na przykład:
 
 * Uszanować prośbę.
 
@@ -111,15 +110,15 @@ Chcesz sprawdzić, co jest naklejone na Twoją przesyłkę?
 
 Najprostsze rozwiązanie -- możesz to zrobić na przykład przez stronkę [Web Sniffer](https://websniffer.cc/my). Pod linijką *Request Header* zobaczysz, co wysłało Twoje urządzenie na jej serwer. To dobra opcja, jeśli korzystasz z&nbsp;urządzenia mobilnego.
 
-{% include info.html type="Ciekawostka" text="Strona zawiera jedną reklamę Google'a, bo nie znalazłem niczego, co by pokazywało informacje z&nbsp;nagłówków HTTP i&nbsp;było wolne od reklam/analityki. Waga strony bez reklamy to ok. 4 kB. Waga strony po załadowaniu całej reklamy to ok. 1,5 MB (ponad 375 razy więcej) :roll_eyes:" %}
+{% include info.html type="Ciekawostka" text="Na stronie znajduje się reklama Google'a, bo nie znalazłem niczego, co by pokazywało informacje z&nbsp;nagłówków HTTP i&nbsp;było wolne od reklam/analityki. Waga strony bez reklamy to ok. 4 kB. Waga strony po załadowaniu całej reklamy, to ok. 1,5 MB (ponad 375 razy więcej; głównie elementy śledzące) :roll_eyes:" %}
 
 Jeśli natomiast masz dostęp do komputera, to nie trzeba odwiedzać żadnej strony, wszystkie informacje masz na miejscu.
 
 Pokażę to na przykładzie Firefoksa, ale narzędzia Chrome'a są bliźniaczo podobne.
 
-Najpierw naciskamy `Ctrl+Shift+I` (jak „Irena”). Pojawi się okno ze szczegółowymi informacjami (w Firefoksie na dole, w&nbsp;Chrome'ie po prawej stronie ekranu).
+Najpierw naciskamy `Ctrl+Shift+I` (jak „Irena”). Pojawi się okno ze szczegółowymi informacjami -- w Firefoksie na dole, w&nbsp;Chrome'ie po prawej stronie ekranu.
 
-Okno na dole jest moim zdaniem mało wygodne. W&nbsp;obu przeglądarkach możemy zmienić układ, klikając w&nbsp;opcje w&nbsp;prawym górnym rogu i&nbsp;wybierając np. *Wyświetlaj z&nbsp;prawej*:
+Okno na dole jest moim zdaniem mało wygodne. W&nbsp;obu przeglądarkach możemy zmienić układ, klikając w&nbsp;opcje w&nbsp;prawym górnym rogu i&nbsp;wybierając np. `Wyświetlaj z&nbsp;prawej`:
 
 {:.figure .bigspace}
 <img src="/assets/posts/internetowa-inwigilacja-1-podstawy/devtools_layout.webp"/>
