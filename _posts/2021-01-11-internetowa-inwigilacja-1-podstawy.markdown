@@ -15,7 +15,7 @@ Czasem stronki nie chcą nam czegoś pokazać. Albo jedna i&nbsp;ta sama reklama
 
 Skąd oni to wszystko wiedzą?
 
-Tej kwestii poświęcę serię wpisów *Internetowa inwigilacja*. Pokażę w&nbsp;nich różne metody, dzięki którym właściciele odwiedzanych stron mogą nas rozpoznawać i&nbsp;zbierać o&nbsp;nas informacje.
+Tej kwestii poświęcę serię wpisów *Internetowa inwigilacja*. Pokażę w&nbsp;nich różne metody, dzięki którym właściciele odwiedzanych stron mogą nas rozpoz&shy;nawać i&nbsp;zbierać o&nbsp;nas informacje.
 
 To pierwszy z&nbsp;tych wpisów. Wprowadzę tutaj analogię ułatwiającą zrozumienie komunikacji przez internet. I&nbsp;pokażę, ile informacji wysyłamy właścicielom stron przy pierwszym kontakcie -- kiedy dopiero się „przedstawiamy” innemu komputerowi i&nbsp;jeszcze nawet nic nam nie odesłał.
 
@@ -110,7 +110,7 @@ Chcesz sprawdzić, co jest naklejone na Twoją przesyłkę?
 
 Najprostsze rozwiązanie -- możesz to zrobić na przykład przez stronkę [Web Sniffer](https://websniffer.cc/my). Pod linijką *Request Header* zobaczysz, co wysłało Twoje urządzenie na jej serwer. To dobra opcja, jeśli korzystasz z&nbsp;urządzenia mobilnego.
 
-{% include info.html type="Ciekawostka" text="Na stronie znajduje się reklama Google'a, bo nie znalazłem niczego, co by pokazywało informacje z&nbsp;nagłówków HTTP i&nbsp;było wolne od reklam/analityki. Waga strony bez reklamy to ok. 4 kB. Waga strony po załadowaniu całej reklamy, to ok. 1,5 MB (ponad 375 razy więcej; głównie elementy śledzące) :roll_eyes:" %}
+{% include info.html type="Ciekawostka" text="Na stronie znajduje się jedna reklama Google'a, bo nie znalazłem niczego, co by pokazywało informacje z&nbsp;nagłówków HTTP i&nbsp;było wolne od reklam/analityki. Waga strony bez reklamy to ok. 4 kB. Waga strony po załadowaniu całej reklamy, to ok. 1,5 MB (ponad 375 razy więcej; głównie elementy śledzące) :roll_eyes:" %}
 
 Jeśli natomiast masz dostęp do komputera, to nie trzeba odwiedzać żadnej strony, wszystkie informacje masz na miejscu.
 
@@ -118,7 +118,7 @@ Pokażę to na przykładzie Firefoksa, ale narzędzia Chrome'a są bliźniaczo p
 
 Najpierw naciskamy `Ctrl+Shift+I` (jak „Irena”). Pojawi się okno ze szczegółowymi informacjami -- w Firefoksie na dole, w&nbsp;Chrome'ie po prawej stronie ekranu.
 
-Okno na dole jest moim zdaniem mało wygodne. W&nbsp;obu przeglądarkach możemy zmienić układ, klikając w&nbsp;opcje w&nbsp;prawym górnym rogu i&nbsp;wybierając np. `Wyświetlaj z&nbsp;prawej`:
+Okno na dole jest moim zdaniem mało wygodne. W&nbsp;obu przeglądarkach możemy zmienić układ, klikając w&nbsp;opcje w&nbsp;prawym górnym rogu i&nbsp;wybierając np. `Wyświetlaj z prawej`:
 
 {:.figure .bigspace}
 <img src="/assets/posts/internetowa-inwigilacja-1-podstawy/devtools_layout.webp"/>

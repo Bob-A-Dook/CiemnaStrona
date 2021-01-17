@@ -6,7 +6,7 @@ permalink: /about/
 
 Witajcie na blogu osobistym o ciemniejszej stronie świata!
 
-Pokazuję tu – być może mniej znane – zjawiska społeczne i gospodarcze, które w&nbsp;moich oczach szczególnie psują świat. Będzie też sporo krytyki międzynarodowych firm oraz ich metod działania. A&nbsp;także przystępne poradniki dotyczące ochrony swojej prywatności w&nbsp;sieci.
+Pokazuję tu – być może mniej znane – zjawiska społeczne i&nbsp;gospodarcze, które w&nbsp;moich oczach szczególnie psują świat. Będzie też sporo krytyki między&shy;narodowych firm oraz ich metod działania. A&nbsp;także przystępne poradniki dotyczące ochrony swojej prywatności w&nbsp;sieci.
 
 Blogowi przyświeca kilka założeń:
 
@@ -48,7 +48,7 @@ Mam zamiar porządkować informacje i&nbsp;opinie z sensownych źródeł, uprasz
 
 Chcę być po lepszej stronie spektrum.
 
-Po jednej jego stronie są ludzie naprawdę dobrzy w swoim fachu, którzy pewnie by się nieźle ustawili (w&nbsp;rozumieniu popularnym), gdyby szli z prądem. Ale zamiast tego poszli za ideałami i sporo poświęcili.  
+Po jednej jego stronie są ludzie naprawdę dobrzy w swoim fachu, którzy pewnie by się nieźle ustawili (w&nbsp;rozumieniu popularnym), gdyby szli z&nbsp;prądem. Ale zamiast tego poszli za ideałami i&nbsp;sporo poświęcili.  
 To ludzie tacy jak Snowden, Assange, Ełbakjan, Swartz, Stallman. Często ekscentryczni, czasem trudni do zrozumienia, ale żyjący prawdziwie. Pewnie jeszcze o nich wspomnę na blogu.
 
 Na przeciwnym biegunie są pozerzy. Wygadani, ale pozbawieni faktycznej odwagi i&nbsp;przemyśleń. Nachalnie propagujący olewactwo, materializm lub bucowatość. Zakrzykujący rzeczywistość prostymi *gad-demn!* czy *iks de*. Ale pod swoim napuszeniem chowający jedynie konformizm i bylejakość.
@@ -59,7 +59,7 @@ Nauczenie się czegoś nowego, wychylenie się i&nbsp;wkładanie w&nbsp;coś pra
 
 * Hosting przez Github Pages od platformy [Github](https://github.com).
 
-  Github wprawdzie należy do Microsoftu, czyli megakorpo i zapewne celu przyszłej krytyki... Ale jestem w&nbsp;tych kwestiach pragmatyczny. Jeśli coś jest przydatne, to bierę.
+  Github wprawdzie należy do Microsoftu, czyli megakorpo i&nbsp;zapewne celu przyszłej krytyki... Ale jestem w&nbsp;tych kwestiach pragmatyczny. Jeśli coś jest przydatne, to bierę.
 
 * Silnik blogowy [Jekyll](https://github.com/jekyll/jekyll) z motywem [Minima](https://github.com/jekyll/minima), zmodyfikowanym przez mnie;
 * Czcionka [Fira Sans](http://mozilla.github.io/Fira/) od Mozilli (pobrana z witryny [Font Squirrell](https://www.fontsquirrel.com/fonts/fira-sans));
@@ -74,6 +74,6 @@ Dodatkowe wyróżnienia dla umilaczy pracy:
 
 Macie jakieś uwagi, propozycje tematów? Piszcie na adres <a  href="mailto:bob.adook@tutanota.com">bob.adook@tutanota.com</a>.
 
-Kod źródłowy bloga jest na Githubie.
+Kod źródłowy bloga jest [na Githubie](https://github.com/Bob-A-Dook/CiemnaStrona).
 
  <p class="rss-subscribe">Wpisy możecie <a href="{{ "/feed.xml" | relative_url }}">subskrybować przez RSS</a>.</p>
