@@ -45,5 +45,18 @@ layout: default
     {{ content }}
   </div>
 
+  <div>
+    {% if page.previous %}
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between">
+      <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    </div>
+    {% endif %}
+    {% if page.next %}
+    <div style="text-align: right; margin-top:1em">
+      <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    </div>
+    {% endif %}
+  </div>
+
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
