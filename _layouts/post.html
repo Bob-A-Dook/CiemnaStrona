@@ -45,18 +45,58 @@ layout: default
     {{ content }}
   </div>
 
-  <div>
+<!-- Snippet from https://github.com/jekyll/jekyll/issues/260, modified by me -->
+{% if page.category %}
+  {% assign category = page.category %}
+  {% assign posts = site.categories[category] %}
+
+  {% for post in posts %}
+    {% if post.url == page.url %}
+      {% assign post_index0 = forloop.index0 %}
+      {% assign post_index1 = forloop.index %}
+    {% endif %}
+  {% endfor %}
+
+  {% for post in posts %}
+    {% if post_index1 == forloop.index0 %}
+      {% assign prev_post = post.url %}
+    {% endif %}
+
+    {% if post_index0 == forloop.index %}
+      {% assign next_post = post.url %}
+    {% endif %}    
+  {% endfor %}
+
+  <p class="link-nav-heading" style="margin-bottom:0px; text-align:center; padding: 5px 0px 5px 0px" markdown="1">Czytaliście wpis z serii <i>{{page.category_readable}}</i></p>
+
+  <div style="display: flex; flex-wrap: wrap; flex-direction:row; margin-bottom:4em">
+    {% if prev_post %}
+    <div class="bold-border" style="margin-bottom:0px; min-width:0; flex: 1 300px;padding: 5px 5px 5px 5px"> 
+      <a href="{{prev_post}}">&lt; Poprzedni wpis</a>
+    </div>
+    {% endif %}
+
+    {% if next_post %}
+    <div class="bold-border" style="text-align: right; margin-bottom:0px; min-width:0px; flex: 1 300px; padding: 5px 5px 5px 5px">
+      <a href="{{next_post}}">Kolejny wpis &gt;</a>   
+    </div>
+    {% endif %}
+    
+  </div>
+{% endif %}
+
+<!-- Snippet end -->
+
     {% if page.previous %}
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between">
-      <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    <div>
+      <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
     </div>
     {% endif %}
     {% if page.next %}
-    <div style="text-align: right; margin-top:1em">
-      <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    <div style="text-align: right;margin-top:1em">
+      <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
     </div>
     {% endif %}
-  </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

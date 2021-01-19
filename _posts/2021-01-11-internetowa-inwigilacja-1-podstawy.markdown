@@ -4,6 +4,8 @@ title:  "Internetowa inwigilacja 1 – podstawy"
 subtitle: "Nasze wizytówki, czyli nagłówki (HTTP)"
 date:   2021-01-11 16:28:41 +0100
 tags: [Internet, Inwigilacja, Poradnik]
+category: internetowa_inwigilacja
+category_readable: "Internetowa inwigilacja"
 ---
 
 Zdarzyło Wam się podczas przeglądania internetu zderzyć się z&nbsp;blokadą? Albo odnieść wrażenie, że jakaś strona wie o&nbsp;Was więcej, niż byście chcieli?
