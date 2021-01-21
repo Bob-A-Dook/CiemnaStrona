@@ -118,7 +118,7 @@ Jeśli natomiast masz dostęp do komputera, to nie trzeba odwiedzać żadnej str
 
 Pokażę to na przykładzie Firefoksa, ale narzędzia Chrome'a są bliźniaczo podobne.
 
-Najpierw naciskamy `Ctrl+Shift+I` (jak „Irena”). Pojawi się okno ze szczegółowymi informacjami -- w Firefoksie na dole, w&nbsp;Chrome'ie po prawej stronie ekranu.
+Najpierw naciskamy `Ctrl+Shift+I` (jak „Irena”). Pojawi się okno ze szczegółowymi informacjami -- w&nbsp;Firefoksie na dole, w&nbsp;Chrome'ie po prawej stronie ekranu.
 
 Okno na dole jest moim zdaniem mało wygodne. W&nbsp;obu przeglądarkach możemy zmienić układ, klikając w&nbsp;opcje w&nbsp;prawym górnym rogu i&nbsp;wybierając np. `Wyświetlaj z prawej`:
 

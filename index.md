@@ -5,7 +5,7 @@
 layout: home
 ---
 
-{% include info.html type="Witaj!" text="Informacje o blogu znajdziesz [tutaj](/about).  
-Poniżej znajduje się lista wpisów i serii. Możesz je również przeszukiwać po [tagach](/tags)." %}
+{% include info.html type="Witaj!" text="Informacje o&nbsp;blogu znajdziesz [tutaj](/about).  
+Poniżej znajduje się lista wpisów i&nbsp;serii. Możesz je również przeszukiwać po [tagach](/tags)." %}
 
 

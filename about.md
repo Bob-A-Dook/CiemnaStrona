@@ -4,7 +4,7 @@ title: O blogu
 permalink: /about/
 ---
 
-Witajcie na blogu osobistym o ciemniejszej stronie świata!
+Witajcie na blogu osobistym o&nbsp;ciemniejszej stronie świata!
 
 Pokazuję tu – być może mniej znane – zjawiska społeczne i&nbsp;gospodarcze, które w&nbsp;moich oczach szczególnie psują świat. Będzie też sporo krytyki między&shy;narodowych firm oraz ich metod działania. A&nbsp;także przystępne poradniki dotyczące ochrony swojej prywatności w&nbsp;sieci.
 
@@ -34,7 +34,7 @@ Skoro już wiemy na czym stoimy, możecie zdecydować czy przewijać dalej :grin
 
 ## Motywacja
 
-Dlaczego zabrałem się za tego bloga? Z&nbsp;dwóch powodów -- praktycznego i idealistycznego.
+Dlaczego zabrałem się za tego bloga? Z&nbsp;dwóch powodów -- praktycznego i&nbsp;idealistycznego.
 
 **Powód praktyczny:**
 
