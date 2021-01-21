@@ -39,6 +39,10 @@ layout: default
       </div>
     {% endif %}
 
+    {% if page.category %}
+  <div class="post-categories post-meta"> Seria: <a href="/serie/{{page.category}}">{{page.category_readable}}</a></p>
+  {% endif %}</div>
+
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

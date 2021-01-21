@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<h1 class="post-title">{{page.readable_name}}</h1>
+
+{{content}}
+
+<div id="archives">
+{% for category in site.categories %}
+  <h1>Wpisy z tej serii</h1>
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    {% for post in site.categories[category_name] %}
+      <article class="archive-item">
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      </article>
+    {% endfor %}
+{% endfor %}
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /categories/
+permalink: /tags/
 title: Tagi
 ---
 
@@ -21,9 +21,10 @@ The following part extracts all the tags from your posts and sort tags, so that 
 
 {% comment %}
 =======================
-The following part removes dulpicated tags and invalid tags like blank tag.
+The following part removes duplicate tags and invalid tags like a blank tag.
 =======================
 {% endcomment %}
+
 {% assign tags = "" %}
 {% for tag in rawtags %}
   {% if tag != "" %}

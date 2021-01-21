@@ -12,7 +12,7 @@ category_readable: "Internetowa inwigilacja"
 
 W poprzednim wpisie pokazałem krótko nagłówki HTTP -- rodzaj naszej wizytówki przesyłanej za każdym razem, kiedy odwiedzamy jakąś stronę. 
  
-Teraz skupię się na jednym z&nbsp;tych nagłówków, *refererze*. Jego działanie było dla mnie kompletną niespo&shy;dzianką. Mimo że jest czymś absolutnie powszechnym.
+Teraz skupię się na jednym z&nbsp;tych nagłówków, *refererze* (po polsku *strona odsyłająca*). Jego działanie było dla mnie kompletną niespo&shy;dzianką. Mimo że jest czymś absolutnie powszechnym.
 
 Krótko: **kiedy przechodzimy między stronami internetowymi, właściciele drugiej strony często się dowiadują, jaka była ta pierwsza. I&nbsp;przekazują to innym**.
 
@@ -47,13 +47,13 @@ Robiąc to, „poniesiesz” ze sobą na stronę B&nbsp;informację o&nbsp;tym, 
 Co więcej, strona B&nbsp;sama może pobierać część rzeczy ze stron C, D&nbsp;i kolejnych  
 (często np. strony nie trzymają własnych czcionek, tylko proszą o&nbsp;nie Google Fonts; nie analizują ruchu samodzielnie, tylko odsyłają go do Google Analytics itp.).
 
-Chcieliśmy tylko odwiedzić jedną stronę przez link. A&nbsp;ta papla **przesłała obcym stronom nasz nagłówek, razem z&nbsp;refererem**. Więc, tak jak w&nbsp;przypadku plotkar z&nbsp;prawdziwego życia, teraz wiedzą już wszyscy.
+Chcieliśmy tylko odwiedzić jedną stronę przez link. A&nbsp;ta papla **przesłała obcym stronom nasz nagłówek, razem z&nbsp;refererem**. Więc, tak jak w&nbsp;przypadku plotkar i plotkarzy z&nbsp;prawdziwego życia, teraz wiedzą już wszyscy.
 
 Co więcej, tak się dzieje nawet wtedy, kiedy zależy nam na prywatności. **Przeglądanie w&nbsp;trybie prywatnym/incognito nie wyłącza przekazywania refererów**.
 
 Zdziwieni?
 
-Na pocieszenie powiem, że na niektórych stronach linki mają wyłączone referery. Poza tym są one przesyłane **tylko wtedy, kiedy klikamy w&nbsp;linki**. Chodzenie między stronami przez „Wstecz” i&nbsp;„Dalej”, odświeżanie strony, wklejanie adresu w&nbsp;pasek przeglądarki -- żadna z&nbsp;tych rzeczy nie wyśle informacji o&nbsp;tym, gdzie byliśmy poprzednio.
+Na pocieszenie powiem, że na niektórych stronach przekazywanie refererów jest wyłączone. Poza tym są one przesyłane **tylko wtedy, kiedy klikamy w&nbsp;linki**. Chodzenie między stronami przez „Wstecz” i&nbsp;„Dalej”, odświeżanie strony, wklejanie adresu w&nbsp;pasek przeglądarki -- żadna z&nbsp;tych rzeczy nie wyśle informacji o&nbsp;tym, gdzie byliśmy poprzednio.
 
 ## Ciemne strony referera
 
@@ -72,11 +72,12 @@ Mimo to jest kilka sposobów, w&nbsp;jakie może zostać użyty przeciwko nam:
 
 * **Zdradza popularność stron**.
 
-  Czasami popularność nie jest fajną rzeczą. Firmy analizujące ruch sieciowy mogą zauważyć np. że częściej pojawiają się użytkownicy z&nbsp;nazwą jakiejś konkretnej strony w&nbsp;refererze. Mogą wtedy zacząć baczniej się jej przyglądać, a&nbsp;stąd tylko krok do innych zachowań (zwłaszcza jeśli uznają nową stronę za konkurencję).
+  Odpowiednik takiego „kto przeglądał twój profil” na LinkedInie.  
+  Czasami popularność nie jest fajną rzeczą. Jeśli jakaś strona A analizuje referery, to może zobaczyć, że trafia na nią coraz więcej użytkowników ze stronki B i ją sprawdzić. A co, jeśli strona B to na przykład forum, na którym często beszta się stronę A? Albo konkurencja? W ten sposób strona A może podjąć działania przeciw B, o której by się może nie dowiedziała, gdyby nie referery.
 
 * **Umacnia kontrolę internetowych gigantów**.
 
-  Związane niejako z&nbsp;poprzednim punktem, ale w&nbsp;wersji na dużą skalę. Referery to cenne informacje o&nbsp;dynamice powiązań w&nbsp;internecie. Firmy takie jak Google mogą oferować innym elementy od siebie, zbierać przez nie referery i&nbsp;mieć wgląd w&nbsp;kawał internetu.  
+  Trochę jak poprzedni punkt, ale w&nbsp;wersji na dużą skalę. Referery to cenne informacje o&nbsp;dynamice powiązań w&nbsp;internecie. Firmy takie jak Google mogą dawać innym [możliwość analizowania ruchu](https://support.google.com/google-ads/answer/2382957?hl=pl-PL) na stronie. Ale kto im zabroni liczyć przy tym referery i&nbsp;mieć wgląd w&nbsp;kawał internetu?  
 Dzięki temu widzą jako jedni z&nbsp;pierwszych, jakie strony (a zatem również poglądy, organizacje itp.) rosną w&nbsp;siłę, a&nbsp;jakie słabną. I&nbsp;w jakie dziedziny warto włożyć ręce, żeby jeszcze bardziej umocnić swoją pozycję.  
 Czy tak robią? Na chwilę obecną chcę bardziej wczytać się w&nbsp;temat, więc nie powiem. Ale sama możliwość nie napawa optymizmem.
 
@@ -92,7 +93,7 @@ Można to zrobić bardzo łatwo. Zależy od tego, do której grupy należysz:
 
 ...W sumie niezbyt Cię obchodzą te całe referery. Albo może nie używasz swojego komputera i&nbsp;nie chcesz tak po prostu czegoś na nim zmieniać.
 
-Ale załóżmy, że chcesz jednorazowo ukryć referera. Na przykład jesteś na jakiejś dość "osobistej" stronce A. Jest na niej link do strony B. I&nbsp;trochę jednak nie chcesz, żeby ktoś ze strony B&nbsp;zobaczył, skąd przychodzisz.
+Ale załóżmy, że chcesz jednorazowo ukryć referera. Na przykład jesteś na jakiejś dość „osobistej” stronce A. Jest na niej link do strony B. I&nbsp;trochę jednak nie chcesz, żeby ktoś ze strony B&nbsp;zobaczył, skąd przychodzisz.
 
 Rozwiązanie: **zamiast klikać w&nbsp;link, skopiuj go do głównego paska przeglądarki**.  
 Znane mi przeglądarki (Firefox, mobilny Firefox Focus i&nbsp;Chrome, a&nbsp;pewnie wiele innych) nie wysyłają wtedy referera. A&nbsp;na stronkę wejdziesz.
