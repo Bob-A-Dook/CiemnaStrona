@@ -3,7 +3,7 @@ layout: post
 title:  "Internetowa inwigilacja 1 – podstawy"
 subtitle: "Nasze wizytówki, czyli nagłówki (HTTP)"
 date:   2021-01-11 16:28:41 +0100
-tags: [Internet, Inwigilacja, Poradnik]
+tags: [Internet, Inwigilacja, Porady]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
 ---

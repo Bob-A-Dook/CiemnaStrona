@@ -195,22 +195,25 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid black;
   border-radius: 3px;
-  background-color: $grey-color-dark; //#eef;
   font-style: normal;
 }
 
 code {
   padding: 1px 5px;
+  background-color: $grey-color-dark
 }
 
 pre {
   padding: 8px 12px;
   overflow-x: auto;
+  margin-top: 3em !important;
+  margin-bottom: 3em !important;
 
   > code {
     border: 0;
     padding-right: 0;
     padding-left: 0;
+    background-color: black;
   }
 }
 

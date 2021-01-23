@@ -3,7 +3,7 @@ layout: post
 title:  "Internetowa inwigilacja 2 – referer"
 subtitle: "„Skąd przybywasz?”"
 date:   2021-01-12 19:39:35 +0100
-tags: [Internet, Inwigilacja, Poradnik]
+tags: [Internet, Inwigilacja, Porady]
 firmy: [Google]
 keep_referers: true
 category: internetowa_inwigilacja
