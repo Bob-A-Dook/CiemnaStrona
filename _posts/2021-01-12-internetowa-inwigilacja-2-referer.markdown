@@ -47,7 +47,7 @@ Robiąc to, „poniesiesz” ze sobą na stronę B&nbsp;informację o&nbsp;tym, 
 Co więcej, strona B&nbsp;sama może pobierać część rzeczy ze stron C, D&nbsp;i kolejnych  
 (często np. strony nie trzymają własnych czcionek, tylko proszą o&nbsp;nie Google Fonts; nie analizują ruchu samodzielnie, tylko odsyłają go do Google Analytics itp.).
 
-Chcieliśmy tylko odwiedzić jedną stronę przez link. A&nbsp;ta papla **przesłała obcym stronom nasz nagłówek, razem z&nbsp;refererem**. Więc, tak jak w&nbsp;przypadku plotkar i plotkarzy z&nbsp;prawdziwego życia, teraz wiedzą już wszyscy.
+Chcieliśmy tylko odwiedzić jedną stronę przez link. A&nbsp;ta papla **przesłała obcym stronom nasz nagłówek, razem z&nbsp;refererem**. Więc, tak jak w&nbsp;przypadku plotkar i&nbsp;plotkarzy z&nbsp;prawdziwego życia, teraz wiedzą już wszyscy.
 
 Co więcej, tak się dzieje nawet wtedy, kiedy zależy nam na prywatności. **Przeglądanie w&nbsp;trybie prywatnym/incognito nie wyłącza przekazywania refererów**.
 
@@ -73,7 +73,7 @@ Mimo to jest kilka sposobów, w&nbsp;jakie może zostać użyty przeciwko nam:
 * **Zdradza popularność stron**.
 
   Odpowiednik takiego „kto przeglądał twój profil” na LinkedInie.  
-  Czasami popularność nie jest fajną rzeczą. Jeśli jakaś strona A analizuje referery, to może zobaczyć, że trafia na nią coraz więcej użytkowników ze stronki B i ją sprawdzić. A co, jeśli strona B to na przykład forum, na którym często beszta się stronę A? Albo konkurencja? W ten sposób strona A może podjąć działania przeciw B, o której by się może nie dowiedziała, gdyby nie referery.
+  Czasami popularność nie jest fajną rzeczą. Jeśli administrator jakiejś strony A analizuje referery, to może zobaczyć, że trafia na nią coraz więcej użytkowników ze stronki B. Zaciekawiony może ją sprawdzić. A co, jeśli strona B to na przykład forum, na którym często beszta się stronę A? Albo konkurencja? W ten sposób strona A może podjąć działania przeciw B. O&nbsp;której by się nie dowiedziała, gdyby nie referery.
 
 * **Umacnia kontrolę internetowych gigantów**.
 
@@ -149,9 +149,9 @@ Sam natomiast zachęcam do trollowania podglądaczy czymś krótkim, treściwym 
    {:.figure .bigspace}
    <img src="/assets/posts/internetowa-inwigilacja-2-referer/referer_modifier_remove.webp"/>
 
-5. **Ważne!** Klikamy przycisk `Save configuration`. Nic się nie pojawi, ale ustawienia zostaną zapisane.
+5. **Ważne!** Klikamy przycisk `Save configuration`. Nic się nie wyświetli, ale nasze ustawienia zostaną zapisane.
 
-   Referer nie będzie się pokazywał między stronami, ale będzie działał w&nbsp;obrębie jednej strony (czyli np. Ciemna Strona → Ciemna Strona).
+   Referer nie będzie wysyłany, jeśli klikniemy na stronie A link do strony B. Ale będzie działał w&nbsp;obrębie jednej strony (czyli np. Ciemna Strona → Ciemna Strona).
 
 6. Testujemy na linkach z&nbsp;tej strony, czy wszystkie referery usunięte.
 
@@ -178,7 +178,7 @@ Możesz też wyłączyć wszystkie referery za jednym zamachem. Wystarczy że **
 
 Jeśli ją dodasz -- i&nbsp;nie wyłączysz żadną inną regułką -- referery będą działały tylko w&nbsp;obrębie Twojej stronki, a&nbsp;w przypadku linków do stron zewnętrznych będą usuwane. Obce strony nie zobaczą, że ktoś przyszedł od Ciebie.
 
-Taką właśnie metodę wybrałem dla Ciemnej Strony. Do szablonu dodałem regułkę wskazującą, żeby usunąć referery. W&nbsp;tym poście wyjątkowo jej nie ma, żeby demonstracja działała.
+Taką właśnie metodę wybrałem dla Ciemnej Strony. Do szablonu dodałem regułkę wskazującą, żeby usunąć referery. W&nbsp;tym poście wyjątkowo jej nie dodałem, żeby dało się pokazać działanie refererów.
 
 Możesz natomiast wejść na dowolną inną podstronkę -- na przykład stronę główną -- i&nbsp;spojrzeć w&nbsp;źródło strony (`prawy przycisk myszy → Pokaż źródło`).  
 O ile nic nie zmieniałem, element wyłączający referery będzie w&nbsp;linijce 7 od góry.
