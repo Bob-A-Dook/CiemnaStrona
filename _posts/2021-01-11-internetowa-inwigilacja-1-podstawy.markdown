@@ -11,7 +11,7 @@ category_readable: "Internetowa inwigilacja"
 Zdarzyło Wam się podczas przeglądania internetu zderzyć się z&nbsp;blokadą? Albo odnieść wrażenie, że jakaś strona wie o&nbsp;Was więcej, niż byście chcieli?
 
 {:.bigspace}
-<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/wstep_kolaz.webp"/>
+<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/wstep_kolaz.webp" alt="Różne komunikaty świadczące o tym, że strona rozpoznaje urządzenie albo lokalizację użytkownika. Między innymi 'Logowanie na nowym urządzeniu' i 'Ta treść nie jest dostępna w twoim regionie'."/>
 
 Czasem stronki nie chcą nam czegoś pokazać. Albo jedna i&nbsp;ta sama reklama chodzi za nami po różnych, niezwią&shy;zanych ze sobą stronach. Albo wyświetla się (ale tylko na telefonie!) ponaglenie, żebyśmy zamiast stronki użyli aplikacji mobilnej.
 
@@ -51,7 +51,7 @@ Trzymając się analogii pocztowej: już nas znają na poczcie i&nbsp;wiedzą, �
 Przykładowy zestaw nagłówków w&nbsp;formie etykiety na paczce:
 
 {:.bigspace}
-<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/http_header_example.webp"/>
+<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/http_header_example.webp" alt="Lista nagłówków HTTP stylizowana na etykietę na paczce. Między innymi: User Agent, referer, pliki cookies, język."/>
 
 Oprócz nich na opakowaniu -- ale w&nbsp;innym miejscu -- znajduje się również nasz adres IP.
 
@@ -89,7 +89,7 @@ Wtedy ktoś analizujący logi może słusznie założyć, że jesteśmy jedną i
 Potem, nawet jeśli nie znają naszej tożsamości, mogą ująć nas w&nbsp;statystykach jako pojedynczego bywalca. Trochę w&nbsp;stylu Spotify'a:
 
 {:.figure}
-<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/spotify_reklama.webp"/>
+<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/spotify_reklama.webp" alt="Billboard z napisem 'Dear Person in TriBeCa who listened to Cheap Thrills 955 times this year. Were all the expensive thrills taken?'"/>
 
 {:.figcaption}
 Źródło: [Tribeca Citizen](https://tribecacitizen.com/2017/01/02/seen-heard-did-disney-bail-on-the-world-trade-center-mall/)
@@ -123,27 +123,27 @@ Najpierw naciskamy `Ctrl+Shift+I` (jak „Irena”). Pojawi się okno ze szczeg�
 Okno na dole jest moim zdaniem mało wygodne. W&nbsp;obu przeglądarkach możemy zmienić układ, klikając w&nbsp;opcje w&nbsp;prawym górnym rogu i&nbsp;wybierając np. `Wyświetlaj z prawej`:
 
 {:.figure .bigspace}
-<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/devtools_layout.webp"/>
+<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/devtools_layout.webp" alt=""/>
 
 Klikamy zakładkę `Sieć` w&nbsp;górnym pasku:
 
 {:.figure .bigspace}
-<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/devtools_network.webp"/>
+<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/devtools_network.webp" alt="Górny pasek narzędzi przeglądarki Firefoksa z zaznaczoną opcją 'Sieć'"/>
 
 Naciskamy `F5`, żeby odświeżyć stronę. Okno zapełni się listą rzeczy, o&nbsp;które poprosiła nasza przeglądarka. Klikamy dowolną z nich, na przykład pierwszą od góry:
 
 {:.figure .bigspace}
-<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/devtools_first_file.webp"/>
+<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/devtools_first_file.webp" alt="Lista stron, do których przeglądarka wysłała żądanie. Zaznaczony główny plik html."/>
 
 Pojawi się okno ze szczegółowymi informacjami. Klikamy w nim zakładkę `Nagłówki`:
 
 {:.figure .bigspace}
-<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/devtools_headers.webp"/>
+<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/devtools_headers.webp" alt="Dolny pasek narzędzi przeglądarki Firefoksa z zaznaczoną opcją 'Nagłówki'"/>
 
 Pod spodem wyświetlą się dwie listy -- najpierw lista nagłówków, jakie dostaliśmy od serwera (*Nagłówki odpowiedzi*), a&nbsp;pod spodem nagłówki wysłane przez nas, nasza „etykieta” (*Nagłówki żądania*). To o&nbsp;tym mówiłem przez cały wpis.
 
 {:.figure .bigspace}
-<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/naglowki_odpowiedzi.webp"/>
+<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/naglowki_odpowiedzi.webp" alt="Lista nagłówków żądania"/>
 
 {% include info.html type="Ciekawostka" text="Jeśli spojrzysz na kolumnę 2 głównej listy (*Domena*), to zobaczysz że większość rzeczy pochodzi z&nbsp;*ciemnastrona.com.pl*. Część jednak przybyła z&nbsp;domeny *github.githubassets.com*.  
 To strona zewnętrzna i&nbsp;to nie ją odwiedzasz. Mimo to, jeśli spojrzysz na nagłówki, zobaczysz że dostała prawie wszystko to, co nasza Ciemna Strona.  
