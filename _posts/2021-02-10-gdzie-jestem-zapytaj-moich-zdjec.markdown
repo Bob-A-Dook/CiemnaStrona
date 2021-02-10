@@ -18,7 +18,7 @@ Historia jeszcze świeża, więc pewnie wiele osób ją kojarzy. Ale dla formaln
 
 1. W&nbsp;2018 roku powstaje [Parler](https://en.wikipedia.org/wiki/Parler), portal społecznościowy reklamujący się jako ostoja wolności słowa.
 2. Parler stopniowo zyskuje popularność wśród amerykańskiej prawicy. Szczególnie w&nbsp;związku z&nbsp;cenzurowaniem wypowiedzi republikańskiego prezydenta, Donalda Trumpa, przez większe organizacje.
-3. Trump przegrywa w&nbsp;wyborach, nowym prezydentem ma zostać demokrata Joe Biden.
+3. Trump przegrywa wybory, nowym prezydentem ma zostać demokrata Joe Biden.
 4. 6 stycznia 2021 r. w&nbsp;Waszyngtonie grupa protestujących zwolenników Donalda Trumpa [wchodzi siłą do budynku Kapitolu](https://pl.wikipedia.org/wiki/Atak_na_Kapitol_Stan%C3%B3w_Zjednoczonych).
 5. W&nbsp;stronę Parlera padają oskarżenia. Przeciwnicy zarzucają mu, że był jednym z&nbsp;miejsc, w&nbsp;których buntownicy koordynowali swoje działania. Google i&nbsp;Apple blokują możliwość pobierania aplikacji Parlera.
 6. Badacze szybko zlatują się pobierać dane, zanim strona upadnie. W&nbsp;tym dowody obciążające ekipę z&nbsp;Kapitolu. Jak się okazuje, strona Parlera była słabo zabezpieczona i&nbsp;można było automatycznie pobrać całą treść.
@@ -37,14 +37,14 @@ Mnie natomiast, bardziej niż same wydarzenia, zaciekawiła sprawa danych o&nbsp
 Na potrzeby tego wpisu włączyłem w&nbsp;telefonie geotagowanie. I&nbsp;zrobiłem takie jedno niewyraźne zdjęcie:
 
 {:.figure .bigspace}
-<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/test_gimp_resize.jpg">
+<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/test_gimp_resize.jpg" alt="Zdjęcie wykonane w nocy, z punktu kilka metrów nad ruchliwą dwupasmową jezdnią. Widać kilka jadących po niej pojazdów. Po prawej stronie na budynku jest neonowy napis 'Agata'. W tle wysoki budynek o nieregularnym kształcie.">
 
 Co to za miasto? Co to za korpowieża w&nbsp;tle wyglądająca, jakby ktoś grał w&nbsp;Jengę? Niektórzy może rozpoznają.
 
 Domyślna aplikacja, Galeria, daje mi możliwość przeglądania na mapie miejsc, w&nbsp;których dodałem znaczniki. W&nbsp;tym wypadku pokazuje:
 
 {:.figure .bigspace}
-<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/tel_exif_znacznik.webp">
+<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/tel_exif_znacznik.webp" alt="Screenshot prostej mapy pokazujący czerwony znacznik lokalizacji na jezdni. Blisko niego, po lewej stronie, oznaczenie kładki nad drogą. Podpisana nazwa ulicy: Sokolska.">
 
 Czyli miejsce wykonania zdjęcia to **Katowice**. Kładka na ul. Sokolskiej, niedaleko Spodka i&nbsp;Oka Miasta.  
 Owszem, nieco mnie przesunęło i&nbsp;wychodzi na to, że zamiast na kładce stałem sobie na środku ruchliwej drogi. Ale to tylko kilkanaście metrów różnicy.
@@ -61,7 +61,7 @@ Takie informacje uzupełniające to właśnie metadane EXIF. Mają pewne zastoso
 Zresztą spójrzmy sami. Biorę to swoje zdjęcie, otwieram je w&nbsp;zwykłym Eksploratorze Windowsa, klikam prawym przyciskiem, wybieram `Właściwości` z&nbsp;dołu, a&nbsp;potem zakładkę `Szczegóły`. Pokazują się metadane zawarte w&nbsp;pliku, w&nbsp;tym również informacje o&nbsp;lokalizacji:
 
 {:.figure .bigspace}
-<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/exif_info.webp">
+<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/exif_info.webp" alt="Okno Windowsa pokazujące listę informacji o zdjęciu, pogrupowanych pod nagłówkami. Dorysowana czerwona ramka otacza nagłówek 'GPS' oraz wartości 'długość' i  'szerokość' znajdujące się pod nim.">
 
 To współrzędne w&nbsp;tzw. formacie DMS (stopnie, minuty i&nbsp;sekundy długości/szerokości geograficznej).
 
@@ -69,19 +69,19 @@ Domyślne okno Windowsa, z&nbsp;tego co widzę, nie daje możliwości ich skopio
 
 Ale mogę też otworzyć sobie Google Maps i&nbsp;wklepać liczby „z palca” w&nbsp;pasek wyszukiwarki. Najpierw szerokość, potem długość, oddzielone przecinkiem. Po pierwszej liczbie daję znak stopnia (`°`), po drugiej pojedynczy apostrof, kropkę jako oddzielenie części dziesiętnej:
 
-```
+<div class="black-bg">
 50°15'54.7805, 19°1'10.0309
-```
+</div>
 
 Gdybym nigdzie nie mógł znaleźć znaku stopnia, to mógłbym otworzyć jakiś internetowy konwerter, na przykład [ten od amerykańskiej agencji FCC](https://www.fcc.gov/media/radio/dms-decimal), wpisać liczby dla szerokości geograficznej w&nbsp;polach dla *latitude* i&nbsp;te dla wysokości w&nbsp;polach dla *longitude*. A&nbsp;na koniec wkleić w&nbsp;Mapy wyliczone wartości: `50.265217, 19.019453`.
 
 {:.figure .bigspace}
-<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/lat_long_konwersja.webp">
+<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/lat_long_konwersja.webp" alt="Fragment strony internetowej, pokazujący białe pola na pomarańczowym tle. Wpisane są w nie liczby, elementy długości i szerokości geograficznej. W dwóch białych polach poniżej wyświetlają się wartości przeliczone na zapis dziesiętny.">
 
 Po wyszukaniu w&nbsp;Mapsach znacznik pokazuje się dokładnie tam, gdzie umieszczała go aplikacja do zdjęć na moim telefonie. Jako punkt orientacyjny oznaczyłem również pawilon „Agata”, którego neon widać na zdjęciu.
 
 {:.figure .bigspace}
-<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/lokalizacja_google_maps.webp">
+<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/lokalizacja_google_maps.webp" alt="Zrzut ekranu z Google Maps. Czerwony znacznik lokalizacji wyświetla się na jezdni obok kładki, tak jak poprzednio na telefonie. Nad prostokątem (budynkiem) na południowy wschód od znacznika widać napis 'Agata'. Jest on otoczony czerwonym prostokątem.">
 
 Wniosek: każda osoba, która dostałaby oryginał mojego zdjęcia, mogłaby się dowiedzieć po danych EXIF, w&nbsp;jakim dokładnie miejscu je zrobiłem.
 
@@ -143,19 +143,19 @@ Na początek wyłączmy dodawanie znaczników lokalizacji. Pokażę na przykład
 Prawie zawsze gdzieś w&nbsp;opcjach będzie „pstryczek” mówiący coś o&nbsp;lokalizacji. To jego najłatwiej wyłączyć, żeby nas nie tagowało. W&nbsp;przypadku mojego telefonu miałem coś takiego w&nbsp;menu aplikacji Aparat (pod ikoną koła zębatego):
 
 {:.figure .bigspace}
-<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/tel_aparat_ustawienia_znacznika.webp">
+<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/tel_aparat_ustawienia_znacznika.webp" alt="Menu z ustawieniami aplikacji Aparat na telefonie. Dorysowany czerwony kwadrat otacza opcję znaczników lokalizacji, którą można włączać lub wyłączać suwakiem.">
 
 Tyle na poziomie aplikacji. Ale z&nbsp;nimi różnie bywa, dla pewności warto też użyć pstryczków systemowych.
 
 Nowsze Androidy pozwalają ustawić szczegółowe pozwolenia aplikacjom. Wszedłem w&nbsp;`Ustawienia` z&nbsp;głównego ekranu, potem `Prywatność` i&nbsp;`Menedżer uprawnień`. Tam miałem zakładkę `Lokalizacja` z&nbsp;ikoną znacznika. Po wejściu w&nbsp;nią mogłem poblokować aplikacjom, w&nbsp;tym Aparatowi, dostęp do danych GPS-a:
 
 {:.figure .bigspace}
-<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/tel_uprawnienia_aparatu.webp">
+<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/tel_uprawnienia_aparatu.webp" alt="Ekran Menedżera Uprawnień systemu Android. Widać na nim nagłówek 'Lokalizacja', ikonę aplikacji 'Aparat' oraz trzy opcje: włączenie, włączenie tylko podczas korzystania albo wyłączenie.">
 
 A jeśli chcemy ostatecznie dobić GPS-a, to można też wyłączyć lokalizację dla całego telefonu. W&nbsp;moim przypadku po powrocie do głównego ekranu dało się paroma ruchami „ściągnąć” menu z&nbsp;góry, jak żaluzję. Tam był przełącznik:
 
 {:.figure .bigspace}
-<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/tel_wylaczona_lokalizacja.webp">
+<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/tel_wylaczona_lokalizacja.webp" alt="Menu główne Anroida, z ikonami odpowiadającymi różnym funkcjom. Dorysowany czerwony prostokąt otacza ikonę znacznika GPS, podpisaną 'Lokalizacja' i mającą szary kolor (co oznacza, że opcja jest wyłączona).">
 
 ...I zrobione. O&nbsp;ile nasz system nie jest nieposłuszny lub nie ma jakiejś poważnej luki, to od teraz zdjęcia nie będą zawierały informacji od GPS-a.
 
@@ -181,9 +181,9 @@ Może przez słuchanie o&nbsp;takich rzeczach tracimy nieco beztroski... ale zys
 
 Aha, i&nbsp;mówiłem na początku, że będzie historyjka z&nbsp;morałem? No to morał:
 
-```
+<div class="black-bg">
 Tnij EXIF do zera – nie będzie dla stalkera.
-```
+</div>
 
 Z najprzystępniejszych informacji to tyle, dzięki za lekturę! :smile:
 
@@ -214,7 +214,7 @@ I tak bez odrobiny zaufania się nie obejdzie, ale prawie 8200 gwiazdek (pozytyw
 Całe okno po zainstalowaniu PIL-a powinno wyglądać tak:
 
 {:.figure .bigspace}
-<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/pip.webp">
+<img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/pip.webp" alt="Obrazek pokazujący okno programu Powershell. W jednej z linijek wpisana komenda 'pip install pillow', pod spodem wypełniony pasek ładowania i informacja, że pobrano 1,9 MB i zainstalowano bibliotekę PIL.">
 
 * Oprócz tego przyda Wam się jakiś obrazek z&nbsp;metadanymi. Możecie na przykład użyć <a href="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/test_gimp_resize.jpg" download>tego mojego z&nbsp;Katowic</a>.
 
@@ -237,10 +237,9 @@ Jeśli wszystko dobrze poszło, powstanie plik *metadane_exif.txt*. **W tym samy
 
 W tym pliku będą po kolei wymienione z&nbsp;nazwy obrazki, w&nbsp;których znaleziono metadane. Pod spodem będzie ich dokładna lista. A&nbsp;także, w&nbsp;przypadku znalezienia danych z&nbsp;GPS-a,  położenie podane w&nbsp;jednostkach dziesiętnych:
 
-```
-LOKALIZACJA:
-50.265216827222226, 19.01945304861111
-```
+<div class="black-bg">
+<p>LOKALIZACJA:<br/>50.265216827222226, 19.01945304861111</p>
+</div>
 
 Wystarczy taką linijkę zaznaczyć, skopiować i&nbsp;wkleić na stronkach z&nbsp;mapami :wink: Dowiecie się, ile zdradzają o&nbsp;Was zdjęcia -- zanim wpadną w&nbsp;niepowołane ręce.
 
