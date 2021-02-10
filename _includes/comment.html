@@ -42,8 +42,8 @@
   {% assign avatar_size = "small_avatar" %}
 {% endif %}
 
-<div class="comment_container {{comment_type}}">
-  <img src="{{avatar_path}}" class="{{avatar_shape}} {{avatar_decoration}} {{avatar_size}}" />
+<div class="comment_container {{comment_type}}" aria-label="Komentarz ze strony {{include.source}}">
+  <img src="{{avatar_path}}" class="{{avatar_shape}} {{avatar_decoration}} {{avatar_size}}" alt=""/>
   <div class="{{comment_style}}"> 
     <div class="{{comment_text}}">
       <p class="{{author_style}}" markdown="1">{{ include.author | default: "Anonim" }}</p>

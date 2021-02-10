@@ -4,6 +4,8 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
+
+    <!-- Post title, sub-heading and date of publication -->
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
 
     {% if page.subtitle %}
@@ -17,6 +19,7 @@ layout: default
       </time>
      </p>
     
+    <!-- List of generic tags -->
     <div class="post-categories post-meta">
      Tagi: 
      {% if post %}
@@ -30,15 +33,19 @@ layout: default
      {% endfor %}
     </div>
 
+    <!-- List of company tags -->
     {% if page.firmy %}
     <div class="post-categories post-meta">
       Firmy:
       {% for firma in page.firmy %}
         <a class="firma-tag" href="{{site.baseurl}}/tags/#{{firma|slugify}}">{{firma}}</a>
+      {% unless forloop.last %}, {% endunless %}
       {% endfor %}
       </div>
     {% endif %}
 
+
+    <!-- The series the post belongs to (if any) -->
     {% if page.category %}
     <div class="post-categories post-meta"> Seria: <a href="/serie/{{page.category}}">{{page.category_readable}}</a></p>
     </div>
@@ -46,10 +53,12 @@ layout: default
 
   </header>
 
+  <!-- Main post content -->
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
+<!-- Navigation to other posts within the same series (if any) -->
 <!-- Snippet from https://github.com/jekyll/jekyll/issues/260, modified by me -->
 {% if page.category %}
   {% assign category = page.category %}
@@ -72,36 +81,58 @@ layout: default
     {% endif %}    
   {% endfor %}
 
-  <p class="link-nav-heading" style="margin-bottom:0px; text-align:center; padding: 5px 0px 5px 0px" markdown="1">Czytaliście wpis z serii <i>{{page.category_readable}}</i></p>
-
-  <div style="display: flex; flex-wrap: wrap; flex-direction:row; margin-bottom:4em">
+  <p class="link-nav-heading" markdown="1">Czytaliście wpis z serii <i>{{page.category_readable}}</i></p>
+  <div class="series-nav-container">
     {% if prev_post %}
-    <div class="bold-border" style="margin-bottom:0px; min-width:0; flex: 1 300px;padding: 5px 5px 5px 5px"> 
-      <a href="{{prev_post}}">&lt; Poprzedni wpis</a>
+    <div class="bold-border navigation-link"> 
+      <a href="{{prev_post}}">&lt; Poprzedni z tej serii</a>
     </div>
     {% endif %}
-
     {% if next_post %}
-    <div class="bold-border" style="text-align: right; margin-bottom:0px; min-width:0px; flex: 1 300px; padding: 5px 5px 5px 5px">
-      <a href="{{next_post}}">Kolejny wpis &gt;</a>   
+    <div class="bold-border navigation-link" style="text-align: right">
+      <a href="{{next_post}}">Kolejny z tej serii &gt;</a>   
     </div>
-    {% endif %}
-    
+    {% endif %} 
   </div>
+
 {% endif %}
 
-<!-- Snippet end -->
+<!-- Navigation to next and previous blog posts -->
 
-    {% if page.previous %}
-    <div>
-      <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-    </div>
-    {% endif %}
-    {% if page.next %}
-    <div style="text-align: right;margin-top:1em">
-      <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-    </div>
-    {% endif %}
+{% if page.previous %}
+<div>
+  <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+</div>
+{% endif %}
+
+{% if page.next %}
+<div style="text-align: right;margin-top:1em">
+  <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+</div>
+{% endif %}
+
+<!-- Information sources, if any -->
+
+  {% if page.datafile %}
+      <h1>Źródła:</h1>
+      <ol>
+      {% for source in site.data[page.datafile] %}
+          <li class="nospace"><a href="{{source.www}}">{{source.name}}</a></li>
+
+          {% assign tracker_num = source.trackers| size %}
+          {% if tracker_num > 0 %}
+            <div class="text-with-hover">Elementy śledzące: {{tracker_num}}
+            <div class="hover-text">
+            {% for elem in source.trackers %}
+                <p>{{elem}}</p>
+            {% endfor %}
+           </div>
+           </div>
+         {% endif %} 
+         
+      {% endfor %}
+      </ol>
+  {% endif %}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

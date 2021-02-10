@@ -115,6 +115,7 @@ img {
   margin-top: 3em !important
 }
 
+.nospace { margin-bottom: 0px !important }
 
 //Lists
 
@@ -127,7 +128,7 @@ ul, ol {
 li {
   > ul,
   > ol {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 }
 
@@ -524,10 +525,25 @@ strong {
 
 .link-nav-heading {
   background-color: $note-bg-color;
-  padding:5px 5px 5px 5px;
   color: $bold-color;
   box-shadow: 0px -1px 2px $bold-color;
+  margin-bottom: 0px;
+  text-align:center;
+  padding: 5px 0px 5px 0px
 }
+
+.series-nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  margin-bottom:4em
+}
+
+.navigation-link {
+  margin-bottom:0px;
+  min-width:0;
+  flex: 1 300px;
+  padding: 5px 5px 5px 5px }
 
 .text-with-hover {
   position: relative;

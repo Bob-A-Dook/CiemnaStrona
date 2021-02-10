@@ -116,12 +116,12 @@ Zachęcam! To minuta klikania, a&nbsp;uwolni Cię od refererów na dobre.
 2. Wchodzimy w&nbsp;menu tego dodatku, na przykład klikając ikonę po prawej stronie od górnego paska z&nbsp;adresem:
 
    {:.figure .bigspace}
-   <img src="/assets/posts/internetowa-inwigilacja-2-referer/chrome_extensions.webp"/>
+   <img src="/assets/posts/internetowa-inwigilacja-2-referer/chrome_extensions.webp" alt="Ikona dodatku Referer Control na górnym pasku."/>
 
 3. Otworzy się strona z&nbsp;opcjami dodatku. Klikamy opcję `Block` w&nbsp;dolnej części menu. Nie zmieniamy niczego innego.
 
    {:.figure .bigspace}
-   <img src="/assets/posts/internetowa-inwigilacja-2-referer/referer_control_block.webp"/>
+   <img src="/assets/posts/internetowa-inwigilacja-2-referer/referer_control_block.webp" alt="Zaznaczona opcja 'Block' w opcjach Referer Controla."/>
 
 4. Klikamy w&nbsp;linki na tej stronie, żeby sprawdzić czy działa jak powinno.
 
@@ -130,7 +130,7 @@ Natomiast po kliknięciu w&nbsp;link do zewnętrznej stronki (*whatismyreferer*)
 
 {% include info.html type="Heheszki" text="Jeśli masz nastrój na śmieszkowanie, możesz ustawić jako referer dowolny tekst, jaki tylko się Ci podoba -- wystarczy kliknąć zakładkę `Custom` i&nbsp;wpisać go w&nbsp;polu.  
 Według [tego źródła](https://stackoverflow.com/questions/11798451/what-is-the-maximum-length-of-referer) referer może liczyć do 2000 znaków, więc całkiem długa rozprawka by się zmieściła.  
-Sam natomiast zachęcam do trollowania podglądaczy czymś krótkim, treściwym i&nbsp;wyglądającym jak prawdziwy adres strony:" trailer="<p class='figure'><img src='/assets/posts/internetowa-inwigilacja-2-referer/referer-control-custom.webp'/></p>" %}
+Sam natomiast zachęcam do trollowania podglądaczy czymś krótkim, treściwym i&nbsp;wyglądającym jak prawdziwy adres strony:" trailer="<p class='figure'><img src='/assets/posts/internetowa-inwigilacja-2-referer/referer-control-custom.webp' alt='Menu Referer Controla z ustawioną opcją Custom i wpisanym tekstem google-is-evil.com.'/></p>" %}
 
 **W przypadku Firefoksa**:
 
@@ -142,12 +142,12 @@ Sam natomiast zachęcam do trollowania podglądaczy czymś krótkim, treściwym 
 3. Wybieramy go z&nbsp;listy i&nbsp;klikamy w&nbsp;zakładkę `Preferencje`:
 
    {:.figure .bigspace}
-   <img src="/assets/posts/internetowa-inwigilacja-2-referer/referer_modifier_preferencje.webp"/>
+   <img src="/assets/posts/internetowa-inwigilacja-2-referer/referer_modifier_preferencje.webp" alt="Środkowa zakładka 'preferencje' w opcjach dodatku."/>
 
 4. Patrzymy na opcje, naciskamy guzik na prawo od napisu *ANY* i&nbsp;wybieramy opcję `Remove`. Przy *SAME* najbezpieczniejsza jest z&nbsp;kolei opcja `Keep`:
 
    {:.figure .bigspace}
-   <img src="/assets/posts/internetowa-inwigilacja-2-referer/referer_modifier_remove.webp"/>
+   <img src="/assets/posts/internetowa-inwigilacja-2-referer/referer_modifier_remove.webp" alt="Opcje zaznaczone w ustawieniach Referer Modifiera"/>
 
 5. **Ważne!** Klikamy przycisk `Save configuration`. Nic się nie wyświetli, ale nasze ustawienia zostaną zapisane.
 
