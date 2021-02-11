@@ -60,6 +60,7 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
 =======================
 {% endcomment %}
 
+{%- assign date_format = site.minima.date_format | default: "%d.%m.%Y r." -%}
 {% for tag in tags %}
 
         {% if site.tags contains tag %}
@@ -69,8 +70,9 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
         {% endif %}
 
 	<ul>
-	 {% for post in site.posts %}
-               {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y r." -%}
+        
+	{% for post in site.posts %}
+               
 	       {% if post.tags contains tag %}	 
 		 <p>
                  <a href="{{ post.url }}">{{ post.title }}</a>
