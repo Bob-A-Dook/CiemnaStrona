@@ -11,9 +11,17 @@ Przyznam się, że ten wpis tak naprawdę nie powstał jako pierwszy, tylko jako
 
 Na blogu mam na tę chwilę głównie poradniki i&nbsp;sprawy bardziej prywatnościowe, z&nbsp;różnymi korpo niejako w&nbsp;tle. Ale od początku, jak zresztą napisałem w&nbsp;stopce, planowałem też wpisy bardziej krytyczne wobec rzeczywistości. Ten będzie pierwszym z&nbsp;nich.
 
-To takie pobieżne omówienie kilku najważniejszych zjawisk, z&nbsp;którymi będę się mierzył na łamach bloga.
+To takie pobieżne omówienie czterech najważniejszych zjawisk, z&nbsp;którymi będę się mierzył na łamach bloga.
 
-{% include info.html type="Porada" text="Tekst zawiera pełno odnośników do źródeł zewnętrznych. Ale to informacje uzupełniające, nie są potrzebne do zrozumienia całości. Możecie raz przewertować wpis, a&nbsp;potem wracać do tych, które Was zaciekawiły." %}
+{% include info.html type="Porada" text="Tekst zawiera pełno odnośników do źródeł zewnętrznych. Ale to informacje uzupełniające, nie są potrzebne do zrozumienia całości. Możecie raz przewertować wpis, a&nbsp;potem wracać do tych, które Was zaciekawiły.  
+Poza tym każdą z czterech części wpisu można czytać niezależnie od innych. Odnośniki poniżej." %}
+
+# Spis treści
+
+* <a href="#sprzedawanie-prywatności">Sprzedawanie prywatności</a>,
+* <a href="#reklamy">Reklamy</a>,
+* <a href="#centralizacja-imonopole">Centralizacja i monopole</a>,
+* <a href="#amerykanizacja">Amerykanizacja</a>.
 
 ## Sprzedawanie prywatności
 
@@ -129,7 +137,7 @@ A co do wolności wyboru...
 
 Może ktoś powiedzieć „nie chcesz to nie używaj, proste”. To zasadniczo prawdziwe słowa, ale dużo spłycają. Wybór mamy zawsze, ale czasem jedna opcja jest tak niekorzystna, że w&nbsp;praktyce nie istnieje. Kiedy Facebook stał się jedynym miejscem spotkań i&nbsp;źródłem informacji, to „nie używaj” oznaczało, że nie będę brał udziału w&nbsp;życiu studenckim. Czy byłem na to gotów dla samej idei? Kiedyś nie.
 
-Istniej coś takiego jak **efekt sieciowy**. Kiedy w&nbsp;jednym miejscu zbiera się wiele osób, to [strasznie ciężko stamtąd odejść](https://pl.wikipedia.org/wiki/Efekt_sieciowy).  
+Istnieje coś takiego jak **efekt sieciowy**. Kiedy w&nbsp;jednym miejscu zbiera się wiele osób, to [strasznie ciężko stamtąd odejść](https://pl.wikipedia.org/wiki/Efekt_sieciowy).  
 Przykład: próbuję przekonać paru znajomych do alternatywnego komunikatora. Przez chwilę popiszemy, ale lwia część ich znajomych pozostaje na Messengerze. Nie chcąc dzielić czasu między dwie aplikacje, z&nbsp;czasem wracają na Messengera. Na nowym komunikatorze zostaję sam.
 
 Inna sprawa to syndrom **FOMO (_Fear of Missing Out_)**. Obawa przed tym, że bez bieżącego sprawdzania internetu coś nas ominie. Według badań w&nbsp;postaci dość zaawansowanej występuje [u 16% polskich internautów](https://pulsmedycyny.pl/syndrom-fomo-gdy-nie-mozemy-zyc-bez-internetu-967460).
@@ -185,7 +193,7 @@ Spójrzmy na przykłady kilku rzeczy typowych dla Ameryki:
 * Przeciętny poziom wiedzy nie powala.
 
   Jeszcze do niedawna [14% populacji było analfabetami, a&nbsp;40 milionów umiało czytać tylko na poziomie podstawowym](https://www.creditdonkey.com/illiteracy-in-america.html).  
-  Jest też nienajlepiej, jeśli chodzi o&nbsp;poziom znajomości komputera i&nbsp;prywatności w&nbsp;sieci (np. [tylko 29% wie](https://www.pewresearch.org/internet/2019/10/09/americans-and-digital-knowledge/), że WhatsApp i&nbsp;Instagram należą do Facebooka)
+  Jest też nienajlepiej, jeśli chodzi o&nbsp;poziom znajomości komputera i&nbsp;prywatności w&nbsp;sieci (np. [tylko 29% ankietowanych wie](https://www.pewresearch.org/internet/2019/10/09/americans-and-digital-knowledge/), że WhatsApp i&nbsp;Instagram należą do Facebooka).
 
 * Niesłychanie silne podziały polityczne.
 
@@ -193,17 +201,17 @@ Spójrzmy na przykłady kilku rzeczy typowych dla Ameryki:
 
 * Internetowe lincze i&nbsp;działania na pokaz.
   
-  Zjawiskiem typowo amerykańskim jest ostracyzm w&nbsp;internecie. Miał różne nazwy, ale aktualną angielską jest *cancel culture* („kultura unieważniania”). Polega na tym, że ludzie skrzykują się przez Twittera i&nbsp;wywierają presję na pracodawców, żeby usunęli niewygodne osoby. Albo w&nbsp;inny sposób uprzykrzają im życie.  
+  Zjawiskiem typowo amerykańskim jest ostracyzm w&nbsp;internecie. Miał różne nazwy, ale aktualną angielską jest *cancel culture* („kultura unieważniania”). Polega na tym, że ludzie skrzykują się, np. przez Twittera, i&nbsp;wywierają presję na pracodawców, żeby usunęli niewygodne osoby. Albo w&nbsp;inny sposób uprzykrzają im życie.  
   [Artykuł z&nbsp;Forbesa](https://www.forbes.com/sites/evangerstmann/2020/09/13/cancel-culture-is-only-getting-worse/) pokazuje, jak groteskowe jest to w&nbsp;praktyce. Tłum nie patrzy na kontekst. Wykładowca użył chińskiego słowa, które trochę przypominało z&nbsp;brzmienia rasistowski wyraz, ale nie miało nic wspólnego z&nbsp;rasizmem. Oburzony tłum się na niego rzuca. Szkolny stróż użył obraźliwego słowa, **cytując ucznia, który go obraził**? Nie ma znaczenia, użył słowa.  
   Innym razem grupa trolli z&nbsp;forum 4Chan wypromowała teorię, jakoby emoji z&nbsp;dłonią pokazującą znak OK było rasistowskie. Głupota? A&nbsp;jednak co najmniej jeden nieświadomy dostawca, który ułożył palce w&nbsp;podobny znak, został za ten gest [zwolniony z&nbsp;pracy](https://thehill.com/blogs/blog-briefing-room/news/502975-california-man-fired-over-alleged-white-power-sign-says-he-was).  
-  Mimo wielu jaskrawych przykładów ostracyzm ma się dobrze. Twitterowi bojownicy nie muszą myśleć o&nbsp;faktycznej zmianie systemu, o&nbsp;złożonych sprawach. Wystarczy znaleźć coś, w&nbsp;czym jest choć cień kontrowersji i&nbsp;rzucić się na to z&nbsp;tłumem. Wierząc, że się Czyni Dobro©.
+  Mimo wielu przykładów na jego szkodliwość, ostracyzm ma się dobrze. Twitterowi bojownicy nie muszą myśleć o&nbsp;faktycznej zmianie systemu, o&nbsp;złożonych sprawach. Wystarczy znaleźć coś, w&nbsp;czym jest choć cień kontrowersji i&nbsp;rzucić się na to z&nbsp;tłumem. Wierząc, że się Czyni Dobro©.
 
 * Duże znaczenie prawników, ostrożność przed pozwami.
 
   Krążą głosy, że w&nbsp;USA każdy może swobodnie pozwać każdego. Nie będę tego weryfikował, ale fakt faktem, że prawnicy u&nbsp;nich silni -- [jest ich ponad milion, do tego 40 milionów pozwów na rok](https://www.onelegal.com/blog/top-court-filing-statistics-from-around-the-country/) (przy 330 mln mieszkańców).  
   Nawet ludzie na forach, tu głównie z&nbsp;grupy programistów i&nbsp;światka startupowego, [często dodają](https://hn.algolia.com/?dateRange=all&page=9&prefix=false&query=IANAL&sort=byPopularity&type=comment) do wypowiedzi akronim *IANAL* (*I am not a&nbsp;lawyer*) -- żeby mieć asekurację i&nbsp;nie dostać od jakiegoś narwańca pozwem za udzielenie porady prawnej bez upoważnień.
 
-...To właśnie ta Ameryka, w&nbsp;której często dorastają założyciele wielkich firm. Kultura, w&nbsp;której raczej nie ma większej refleksji, a&nbsp;odejście od ostrożnych PR-owych działań kończy się pozwami albo nalotem tłumu z&nbsp;Twittera.
+To właśnie ta Ameryka, w&nbsp;której często dorastają założyciele wielkich firm. Kultura, w&nbsp;której raczej nie ma większej refleksji, a&nbsp;odejście od ostrożnych PR-owych działań kończy się pozwami albo nalotem tłumu z&nbsp;Twittera.
 
 Teraz wyobraźmy sobie pewien cykl:
 
