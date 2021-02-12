@@ -61,7 +61,7 @@ Nauczenie się czegoś nowego, wychylenie się i&nbsp;wkładanie w&nbsp;coś pra
 
   Github wprawdzie należy do Microsoftu, czyli megakorpo i&nbsp;zapewne celu przyszłej krytyki... Ale jestem w&nbsp;tych kwestiach pragmatyczny. Jeśli coś jest przydatne, to bierę.
 
-* Silnik blogowy [Jekyll](https://github.com/jekyll/jekyll) z motywem [Minima](https://github.com/jekyll/minima), zmodyfikowanym przez mnie;
+* Silnik blogowy [Jekyll](https://github.com/jekyll/jekyll) z motywem [Minima](https://github.com/jekyll/minima), zmodyfikowanym przeze mnie;
 * Czcionka [Fira Sans](http://mozilla.github.io/Fira/) od Mozilli (pobrana z witryny [Font Squirrell](https://www.fontsquirrel.com/fonts/fira-sans));
 * Logo strony to darmowa [emotka](https://www.flaticon.com/free-icon/happy_742923) autorstwa <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> ze strony <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> (przerobiona przez mnie).
 
