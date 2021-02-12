@@ -112,7 +112,7 @@ Chcesz sprawdzić, co jest naklejone na Twoją przesyłkę?
 
 Najprostsze rozwiązanie -- możesz to zrobić na przykład przez stronkę [Web Sniffer](https://websniffer.cc/my). Pod linijką *Request Header* zobaczysz, co wysłało Twoje urządzenie na jej serwer. To dobra opcja, jeśli korzystasz z&nbsp;urządzenia mobilnego.
 
-{% include info.html type="Ciekawostka" text="Na stronie znajduje się jedna reklama Google'a, bo nie znalazłem niczego, co by pokazywało informacje z&nbsp;nagłówków HTTP i&nbsp;było wolne od reklam/analityki. Waga strony bez reklamy to ok. 4 kB. Waga strony po załadowaniu całej reklamy, to ok. 1,5 MB (ponad 375 razy więcej; głównie elementy śledzące) :roll_eyes:" %}
+{% include info.html type="Ciekawostka" text="Tę stronkę już podawałem jako przykład w&nbsp;pierwszym wpisie. Jest na niej jedna reklama Google'a, bo nie znalazłem niczego, co by pokazywało informacje z&nbsp;nagłówków HTTP i&nbsp;było wolne od reklam/analityki. Waga strony bez reklamy to ok. 4 kB. Waga strony po załadowaniu całej reklamy, to ok. 1,5 MB (ponad 375 razy więcej; głównie elementy śledzące) :roll_eyes:" %}
 
 Jeśli natomiast masz dostęp do komputera, to nie trzeba odwiedzać żadnej strony, wszystkie informacje masz na miejscu.
 
