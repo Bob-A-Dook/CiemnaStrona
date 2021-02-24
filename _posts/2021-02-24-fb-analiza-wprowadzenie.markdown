@@ -209,11 +209,21 @@ Zajrzyjcie w&nbsp;swoje pliki, też na pewno znajdziecie coś ciekawego :wink: 
 
 Czas na gwóźdź programu. Połączyłem rozwiązania ze wszystkich podpunktów, dodałem trochę kodu do zbierania elementów ze stemplami czasowymi, trochę uogólniłem i&nbsp;uprościłem.
 
-Moim głównym osiągnięciem było zebranie aktywności z&nbsp;różnych plików -- o&nbsp;ile tylko zawierały stemple czasowe -- i&nbsp;ułożenie ich w&nbsp;sposób chronologiczny. Taka **oś czasu, tylko że o&nbsp;nas, a&nbsp;nie o innych**.
+Oprócz tego zdecydowałem się nie uwzględniać danych z trzech plików, mimo że też zawierały stemple czasowe:
+
+* *notifications.json* -- bo nie widziałem w powiadomieniach cennych informacji;
+* *used_ip_addresses.json* -- bo powtarzają się z innymi informacjami;
+* *viewed.json* -- bo to, że coś nam się wyświetliło na tablicy, nie wynika z naszego bezpośredniego działania.
+
+Zostawiłem w skrypcie opcję łatwego włączenia tych plików do analizy, gdybym zmienił zdanie.
+
+Po tej czystce zebrałem listę swoich działań z&nbsp;pozostałych plików -- o&nbsp;ile tylko zawierały stemple czasowe -- i&nbsp;ułożyłem je w&nbsp;sposób chronologiczny. Powstała taka **oś czasu, tylko że o&nbsp;mnie, a&nbsp;nie o&nbsp;innych**.
 
 W podobny sposób może nas za kulisami postrzegać Facebook (chociaż oczywiście ma więcej danych; przypominam, że na razie użyłem tylko 150 kB z&nbsp;ponad 2 GB).
 
-Mój skrypt, po odpaleniu w&nbsp;folderze z&nbsp;danymi, tworzy plik tekstowy z&nbsp;prostymi informacjami ułożonymi według dat. Tu fragment tej osi czasu:
+Mój skrypt, po odpaleniu w&nbsp;folderze z&nbsp;danymi, tworzy plik tekstowy z&nbsp;prostymi informacjami ułożonymi według dat. **3014 wydarzeń z mojego facebookowego życia**.
+
+Tu fragment mojej osi czasu:
 
 {:.figure .bigspace}
 <img src="/assets/posts/fb-analiza-wprowadzenie/os-czasu-przyklad.webp" alt="Zrzut ekranu z&nbsp;Notatnika, pokazujący oś czasu. Po lewej stronie znajdują się daty, z&nbsp;dokładnością do sekund. Po prawej stronie, odpowiednio wcięte, odpowiadające tym datom działania. Nagłówki tych działań to „WYSZUKANE” albo „ODWIEDZONA STRONA/PROFIL”. Łącznie widać informacje dla trzech wyszukań, potem odwiedzonej strony, kolejnego wyszukania i&nbsp;innej odwiedzonej strony."/>
@@ -238,7 +248,7 @@ Takie przypominajki z&nbsp;danych dałoby się też wykorzystać w&nbsp;bardziej
 Przyjmijmy, że jest pewien człowiek płci dowolnej. Nazwijmy go Anonek. Pewnego dnia ktoś napisał komentarz, który Anonka strasznie wkurzył. Na przykład szkalujący pizzę hawajską. Anonek z&nbsp;gniewu aż wszedł na profil tej osoby, planując zemstę.
 
 Jednak być może nie udało mu się odegrać. Omyłkowo się wylogował, potem wyczyściło mu historię przeglądarki. Nie pamiętał już imienia osoby, na której chciał się zemścić. A&nbsp;profili przeglądał bardzo wiele, więc nawet gdyby pobrał dane, nie chciałoby mu się grzebać w&nbsp;samym *visited.json* w&nbsp;surowej formie.  
-W normalnych warunkach, nie mając punkty zaczepienia, może by odpuścił.
+W normalnych warunkach, nie mając punktu zaczepienia, może by odpuścił.
 
 Ale, korzystając z&nbsp;naszej osi czasu, mógłby wyszukać inne zdarzenie, które miało miejsce w&nbsp;tamtym czasie. Może na przykład pamięta, że tamtego dnia szukał przez FB fanklubów hawajskiej?
 
