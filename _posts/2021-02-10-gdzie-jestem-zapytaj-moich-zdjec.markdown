@@ -231,7 +231,10 @@ Pobierzcie zatem mój skrypt, <i><a href="/assets/posts/gdzie-jestem-zapytaj-moi
 
 Następnie wrzućcie go do tego samego folderu co obrazki. Kliknijcie prawym przyciskiem, wybierzcie `Otwórz za pomocą > IDLE (cośtam, cośtam)`. Pokaże się kod źródłowy. Warto go przelecieć wzrokiem, żeby widzieć co robimy.
 
-Potem można nacisnąć `F5`, żeby odpalić skrypt.
+Gdyby IDLE'a nie było w opcjach, to możecie go otworzyć w dowolny inny sposób, na przykład przez menu `Start` (ikona Windowsa w lewym dolnym rogu; będzie w zakładce `Python...`).  
+Po otwarciu IDLE'a klikacie `Plik → Otwórz` lub naciskacie `Ctrl+O`. I przeklikujecie się przez foldery do naszego skryptu.
+
+Po otwarciu skryptu w&nbsp;IDLE'u i&nbsp;przejrzeniu go wzrokiem można nacisnąć `F5`, żeby go odpalić.
 
 Jeśli wszystko dobrze poszło, powstanie plik *metadane_exif.txt*. **W tym samym folderze, w&nbsp;którym znajdował się skrypt**.
 

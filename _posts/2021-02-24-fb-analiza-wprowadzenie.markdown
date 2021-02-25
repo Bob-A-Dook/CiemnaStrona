@@ -280,7 +280,8 @@ Dobra wiadomość -- **oprócz samego Pythona nie trzeba nic instalować**. Moje
 3. W&nbsp;tym samym folderze X&nbsp;umieszczamy mój skrypt.
 4. Klikamy prawym przyciskiem na skrypt i&nbsp;wybieramy `Otwórz za pomocą → IDLE (...)`. Patrzymy, czy nie ma tam jawnych wirusów. Potem naciskamy `F5`, żeby odpalić skrypt.
 
-   Da się też odpalać skrypty Pythona „w ciemno”, dwukrotnym kliknięciem na plik *py*. Ale odradzam, zawsze lepiej zweryfikować.
+   Gdyby IDLE'a nie było w opcjach, to można go otworzyć w inny sposób, na przykład przez menu Start z lewego dolnego rogu (w zakładce `Python...`).  
+   A potem wybrać w nim `Plik → Otwórz` lub nacisnąć `Ctrl+O` i przeklikać się przez foldery do naszego skryptu.
 
 Po odpaleniu skryptu w&nbsp;folderze X&nbsp;powinien powstać plik tekstowy *fb_moja_os_czasu.txt* z&nbsp;Twoją osią czasu. Możesz go otworzyć w&nbsp;Notatniku czy dowolnym innym programie, przeszukiwać, robisz co chcesz. Teraz Twoja oś czasu jest Twoja.
 
