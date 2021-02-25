@@ -8,15 +8,16 @@ category: facebook_dane
 category_readable: "Kochajmy się jak bracia, analizujmy się jak Facebooki"
 ---
 
-W poprzednim wpisie opisałem, jak pobrać swoje dane z&nbsp;Facebooka. Kiedy już znajdą się u&nbsp;mnie na dysku, mogę je w&nbsp;fajny sposób analizować.
+W <a href="/facebook_dane/2021/02/11/bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka">poprzednim wpisie</a> opisałem, jak pobrać swoje dane z&nbsp;Facebooka. Kiedy już znajdą się u&nbsp;mnie na dysku, mogę je w&nbsp;fajny sposób analizować.
 
 Na gwoźdź programu, czyli wiadomości z&nbsp;Messengera, jeszcze chwilę poczekamy. Cierpliwości! :wink:
 
 Póki co oswoimy się z&nbsp;JSON-em (formatem danych), rozwiążemy podstawowe problemy i&nbsp;połączymy informacje z&nbsp;różnych plików od Fejsa we własną oś czasu, pokazującą między innymi, czego szukaliśmy i&nbsp;jakie profile odwiedzaliśmy.
 
 {% include info.html type="Dla niecierpliwych" text="Wpis zawiera trochę fragmentów kodu. Jeśli Was nie interesują, swobodnie można je przeskakiwać. Nie są potrzebne do zrozumienia całości.  
-Jeśli chcecie sam skrypt do tworzenia własnej „osi czasu”, to znajdziecie go <a href='#twoja-oś-czasu'>na końcu strony</a>.  
-**Uwaga:** Skrypt dopasowany tylko do danych z&nbsp;kategorii „Informacje o&nbsp;Tobie”. Nie jest w&nbsp;stanie obrobić innych, w&nbsp;tym w&nbsp;szczególności wiadomości z&nbsp;Messengera." %}
+Jeśli wolicie całkiem ominąć sprawy techniczne, to możecie zacząć <a href='#ciekawostki-z-moich-danych'>od wniosków z&nbsp;analizy</a>.  
+Jeśli natomiast chcecie sam skrypt do tworzenia własnej „osi czasu”, to znajdziecie go <a href='#twoja-oś-czasu'>na końcu strony</a>.  
+**Uwaga:** Skrypt jest dopasowany tylko do danych z&nbsp;kategorii „Informacje o&nbsp;Tobie”. Nie jest w&nbsp;stanie obrobić innych, w&nbsp;tym w&nbsp;szczególności wiadomości z&nbsp;Messengera." %}
 
 ## Reklamy na Facebooku -- wprowadzenie
 
@@ -49,7 +50,7 @@ Ten wpis opisuje pierwszy krok w&nbsp;tę stronę. Patrzę na względnie suche d
 
 ## Przygotowanie danych
 
-Na początku pobrałem dane, zgodnie z&nbsp;metodą z&nbsp;poprzedniego wpisu. Do tej analizy wziąłem z&nbsp;Facebooka **tylko dział „Informacje o&nbsp;Tobie”, z&nbsp;samego dołu listy plików do pobrania**:
+Na początku pobrałem dane, zgodnie z&nbsp;<a href="/facebook_dane/2021/02/11/bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka.html#jak-pobrać-swoje-dane-od-fejsika">metodą z&nbsp;poprzedniego wpisu</a>. Do tej analizy wziąłem z&nbsp;Facebooka **tylko dział „Informacje o&nbsp;Tobie”, z&nbsp;samego dołu listy plików do pobrania**:
 
 {:.figure .bigspace}
 <img src="/assets/posts/fb-analiza-wprowadzenie/fb-informacje-o-tobie.webp" alt="Lista danych do pobrania z&nbsp;Facebooka, zebranych pod nagłówkiem 'Informacje o&nbsp;Tobie'. Wśród nich: reklamy i&nbsp;firmy, historia wyszukiwania, lokalizacja, informacje o&nbsp;Tobie, informacje dotyczące logowania, twoje tematy, nagranie głosowe i&nbsp;transkrypcja."/>
@@ -142,7 +143,7 @@ Gdyby program miał się rozkraczyć podczas wyświetlania tekstu, to zamieni em
 
 # Nieregularność w&nbsp;danych
 
-Bez wchodzenia w&nbsp;szczegóły: dane w&nbsp;formacie JSON są pogrupowane w&nbsp;słowniki (oznaczone nawiaszami wąsatymi, `{}`) i&nbsp;listy (nawiasy kwadratowe, `[]`). Jedne elementy mogą być zawarte w&nbsp;drugich -- w&nbsp;liście słownik, w&nbsp;tym słowniku kolejne listy itd.
+Bez wchodzenia w&nbsp;szczegóły: dane w&nbsp;formacie JSON są pogrupowane w&nbsp;słowniki (oznaczone nawiasami wąsatymi, `{}`) i&nbsp;listy (nawiasy kwadratowe, `[]`). Jedne elementy mogą być zawarte w&nbsp;drugich -- w&nbsp;liście słownik, w&nbsp;tym słowniku kolejne listy itd.
 
 Żeby wyciągnąć z&nbsp;tego dane, trzeba robić to co w&nbsp;„Incepcji” -- zagłębiać się poziom po poziomie w&nbsp;kolejne warstwy, aż znajdziemy szukany element.
 
@@ -186,9 +187,9 @@ W ten sposób dowiedziałem się kilku rzeczy, które może nie znajdą miejsca 
   Dowiedziałem się na przykład, że interesują mnie tematy: *Coaching*, *Dizziness*, *Most*, *Dominika*, *Ramię*, *Staw (akwen)*, *Zatoka (geografia)* :roll_eyes:  
   Reklam mostów jeszcze na profilu nie widziałem. Szkoda, kupowałbym.
 
-* Jest też plik z&nbsp;informacjami o&nbsp;reklamodawcach, którzy załadowali plik z&nbsp;informacjami o&nbsp;mnie.
+* Jest też JSON z&nbsp;listą reklamodawców, którzy załadowali plik z&nbsp;informacjami o&nbsp;mnie.
 
-  Dziwnie tam **dużo zestawów samochód + miasto**: *Acura of Rochester*, *Audi Columbia*, *Chrysler Dodge Jeep Ram of Calallen* (to ostatnie kojarzy mi się z&nbsp;jakimś brytyjskim szlachcicem).
+  **Dziwnie tam dużo zestawów samochód + miasto**: *Acura of Rochester*, *Audi Columbia*, *Chrysler Dodge Jeep Ram of Calallen* (to ostatnie kojarzy mi się z&nbsp;jakimś brytyjskim szlachcicem) i wiele innych.
 
 * ...Z drugiej strony przypisane mi szersze tematy (*your_topics.json*) były zadziwiająco trafne.
 
@@ -207,7 +208,7 @@ Zajrzyjcie w&nbsp;swoje pliki, też na pewno znajdziecie coś ciekawego :wink: 
 
 ## Moja oś czasu
 
-Czas na gwóźdź programu. Połączyłem rozwiązania ze wszystkich podpunktów, dodałem trochę kodu do zbierania elementów ze stemplami czasowymi, trochę uogólniłem i&nbsp;uprościłem.
+Czas na gwóźdź programu. Po rozwiązaniu problemów z&nbsp;danymi trochę wszystko uogólniłem, uprościłem i&nbsp;zebrałem w&nbsp;jeden skrypt Pythona.
 
 Oprócz tego zdecydowałem się nie uwzględniać danych z trzech plików, mimo że też zawierały stemple czasowe:
 
@@ -217,31 +218,32 @@ Oprócz tego zdecydowałem się nie uwzględniać danych z trzech plików, mimo 
 
 Zostawiłem w skrypcie opcję łatwego włączenia tych plików do analizy, gdybym zmienił zdanie.
 
-Po tej czystce zebrałem listę swoich działań z&nbsp;pozostałych plików -- o&nbsp;ile tylko zawierały stemple czasowe -- i&nbsp;ułożyłem je w&nbsp;sposób chronologiczny. Powstała taka **oś czasu, tylko że o&nbsp;mnie, a&nbsp;nie o&nbsp;innych**.
+Gotowy skrypt zbiera listę moich działań z&nbsp;pozostałych plików -- o&nbsp;ile tylko zawierały stemple czasowe -- i&nbsp;układa je w&nbsp;sposób chronologiczny. Powstaje taka **oś czasu, tylko że o&nbsp;mnie, a&nbsp;nie o&nbsp;innych**.
 
 W podobny sposób może nas za kulisami postrzegać Facebook (chociaż oczywiście ma więcej danych; przypominam, że na razie użyłem tylko 150 kB z&nbsp;ponad 2 GB).
 
 Mój skrypt, po odpaleniu w&nbsp;folderze z&nbsp;danymi, tworzy plik tekstowy z&nbsp;prostymi informacjami ułożonymi według dat. **3014 wydarzeń z mojego facebookowego życia**.
 
-Tu fragment mojej osi czasu:
+Tu fragment mojej tekstowej osi czasu:
 
 {:.figure .bigspace}
 <img src="/assets/posts/fb-analiza-wprowadzenie/os-czasu-przyklad.webp" alt="Zrzut ekranu z&nbsp;Notatnika, pokazujący oś czasu. Po lewej stronie znajdują się daty, z&nbsp;dokładnością do sekund. Po prawej stronie, odpowiednio wcięte, odpowiadające tym datom działania. Nagłówki tych działań to „WYSZUKANE” albo „ODWIEDZONA STRONA/PROFIL”. Łącznie widać informacje dla trzech wyszukań, potem odwiedzonej strony, kolejnego wyszukania i&nbsp;innej odwiedzonej strony."/>
 
-Łącząc informacje o&nbsp;szukanych hasłach, odwiedzonych profilach i&nbsp;datach, ukazuję krótką historię z życia:
+Dzięki połączeniu dwóch rodzajów informacji ukazuje się tutaj krótka historia z&nbsp;mojego życia:
 
 1. Nie miałem co robić po północy 9.01 (w noc z&nbsp;piątku na sobotę, jeśli wierzyć kalendarzowi).
-2. Szukałem strony, która mi się kojarzyła. Dwa razy wpisałem w&nbsp;wyszukiwarkę fragment jej nazwy.
-3. Pewnie zobaczyłem coś w&nbsp;podpowiedziach, bo przeszedłem na inną stronkę o&nbsp;zbliżonej nazwie. Spędziłem na niej ok. 7 minut.
-4. Potem pewnie kliknąłem w&nbsp;inną podpowiedź (bo w&nbsp;ostatnich wyszukanych mam pełną nazwę, co do litery).
-5. Trafiłem na stronę, której szukałem na początku.
+2. Szukałem strony, która mi się kojarzyła. Wpisałem w&nbsp;wyszukiwarkę Fejsa fragment jej nazwy.
+3. Chyba nic się nie pojawiło, bo wyszukałem ponownie, po dopisaniu jednego słowa.
+4. Pewnie zobaczyłem coś w&nbsp;podpowiedziach, bo przeszedłem na inną stronkę o&nbsp;zbliżonej nazwie. Spędziłem na niej ok. 7 minut.
+5. Potem pewnie kliknąłem w&nbsp;inną podpowiedź (bo w&nbsp;wyszukiwaniach mam pełną nazwę strony, co do litery).
+6. Trafiłem na stronę, której szukałem na początku.
 
 Ogranicza mnie oczywiście to, że widzę tylko najnowsze odwiedziny na stronie. Ale mimo wszystko da się całkiem znośnie wykorzystać te dane.
 
 Inna historia to wizyta w&nbsp;Hiszpanii w&nbsp;2020 r. W&nbsp;pierwszych dniach, kiedy byliśmy na odludziu, zero aktywności. Potem wyszukiwanie i&nbsp;zwiedzanie lokalnych grup polskich. Interakcje z&nbsp;zewnętrznymi stronami biur podróży (których szukaliśmy na szybko).  
 **Dane układają się w spójną historię**, jeśli się je umieści w&nbsp;szerszym kontekście.
 
-# Ciemna strona danych
+## Ciemna strona danych
 
 Takie przypominajki z&nbsp;danych dałoby się też wykorzystać w&nbsp;bardziej złowieszczy sposób.
 

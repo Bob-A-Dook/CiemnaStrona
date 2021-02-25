@@ -45,7 +45,7 @@ Mając na uwadze, że Facebook pewnie i&nbsp;tak wie więcej.
 Chcąc je zweryfikować, wyszukałem jego pierwszy człon, *[kochajmy się jak bracia](https://duckduckgo.com/?q=kochajmy+si%C4%99+jak+bracia)*. Podpowiedzi z&nbsp;wyszukiwaniami innych użytkowników były... ciekawe :sweat_smile:  
 (Na dzień 11.02 są nieco inne, ale też w&nbsp;ten deseń)." trailer="<p class='figure'><img src='/assets/posts/bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka/podpowiedzi_heheszki.webp' alt='Screen podpowiedzi wyszukiwania z&nbsp;DuckDuckGo dla hasła „Kochajmy się jak bracia”. Wśród nich między innymi „jak się kochać pozycje”, „kiedy facet kocha naprawdę”, „jak namówić koleżankę na macanie”.'/></p>" %}
 
-# Jak pobrać swoje dane od Fejsika
+## Jak pobrać swoje dane od Fejsika
 
 Przejdźmy do rzeczy. Wchodzimy [na stronę główną Facebooka](facebook.com). Jeśli nie jesteśmy zalogowani, to się logujemy.
 
