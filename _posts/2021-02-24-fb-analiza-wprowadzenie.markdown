@@ -77,9 +77,9 @@ O JSON-ie ogólnie nie musicie nic wiedzieć, poza tym że jest dość czytelny 
 {:.figure .bigspace}
 <img src="/assets/posts/fb-analiza-wprowadzenie/facebook-json-przyklad.webp" alt="Fragment pliku 'visited.json' otwarty w&nbsp;notatniku. Widać hierarchię elementów. Dorysowany prostokąt o&nbsp;bordowych brzegach otacza tekst, w&nbsp;którym zamiast polskich znaków są ciągi ukośników, cyfr i&nbsp;liter. Prostokąt o&nbsp;pomarańczowych brzegach otacza liczbę obok nazwy 'timestamp'."/>
 
-Pomarańczowym kolorem otoczyłem liczbę zwaną *stemplem czasowym*, kluczową dla naszej analizy. Bordowym przykład tekstu, który niestety nie uznaje polskich liter. Te i&nbsp;inne kwestie muszę rozwiązać, zanim będę w&nbsp;stanie wyciągnąć z&nbsp;danych coś sensownego.
+Pomarańczowym kolorem otoczyłem liczbę zwaną *znacznikiem czasu* (dosł. *stemplem z czasem*), kluczową dla naszej analizy. Bordowym przykład tekstu, który niestety nie uznaje polskich liter. Te i&nbsp;inne kwestie muszę rozwiązać, zanim będę w&nbsp;stanie wyciągnąć z&nbsp;danych coś sensownego.
 
-# Stemple czasowe
+# Znacznik czasu
 
 Te liczby przy atrybucie `timestamp`, jak nazwa wskazuje, pewnie mówią nam coś o&nbsp;czasie. Są dla nas bardzo ważne. Ale w&nbsp;jaki sposób przekształcić je na daty?
 
@@ -91,7 +91,7 @@ def _convert_timestamp( timestamp ):
     return datetime.fromtimestamp( timestamp )
 ```
 
-{% include info.html type="Ciekawostka" text="Zastanawialiście się, co by się stało, gdybyśmy jako stempel czasowy przyjęli *0* i&nbsp;odpalili naszą funkcję? Zobaczymy wtedy, **co jest dla komputerów początkiem czasu**, takim *punktem zero* dla dat!  
+{% include info.html type="Ciekawostka" text="Co by się stało, gdybyśmy jako znacznik czasu przyjęli *0* i&nbsp;odpalili naszą funkcję? Zobaczymy wtedy, **co jest dla komputerów początkiem czasu**, takim *punktem zero* dla dat!  
 Okazuje się, że nasze `_convert_timestamp(0)` dałoby datę... **1.01.1970 r.**! To nasza *data zerowa*.  
 Dlaczego taka? [Z prozaicznych powodów](https://unix.stackexchange.com/questions/26205/why-does-unix-time-start-at-1970-01-01) -- ponoć to we wczesnych latach 70. określano standardy dla komputerów. Dla autorów wygodna była data: *a)* jak najokrąglejsza i&nbsp;*b)* nie sięgająca zbyt daleko w&nbsp;przeszłość.  
 Jeśli czasem zdarzyło Wam się spotkać absurdalne daty i&nbsp;gdzieś było w&nbsp;nich 1970, to już wiecie, skąd się to wzięło.   
@@ -150,9 +150,9 @@ Bez wchodzenia w&nbsp;szczegóły: dane w&nbsp;formacie JSON są pogrupowane w&n
 W moim przypadku tym elementem było słowo *timestamp*. Gdyby wszystkie pliki miały podobną budowę, to mógłbym się po prostu zatrzymać po dotarciu do niego i&nbsp;zgarnąć wszystko wokół. Niestety tak nie jest:
 
 * W&nbsp;niektórych plikach dane są podzielone na podgrupy (np. osobno odwiedziny na profilach, osobno na wydarzeniach);
-* W&nbsp;pliku *your_search_history.json* na tym poziomie co stempel czasowy jest element *data*, w&nbsp;nim jeszcze parę zagnieżdżonych rzeczy. Te wartościowe najgłębiej.  
+* W&nbsp;pliku *your_search_history.json* na tym poziomie co znacznik czasu jest element *data*, w&nbsp;nim jeszcze parę zagnieżdżonych rzeczy. Te wartościowe najgłębiej.  
   Do tego jest tam element *attachments*, który w&nbsp;ogóle wydaje się niepotrzebny, bo zawiera to samo co *data*.
-* W&nbsp;pliku *your_off-facebook_activity* mamy na odwrót -- nazwę strony na wyższym poziomie, a&nbsp;zdarzenia (wraz z&nbsp;ich stemplami czasowymi) niżej. Czekając na stempel, przegapilibyśmy istotne informacje.
+* W&nbsp;pliku *your_off-facebook_activity* mamy na odwrót -- nazwę strony na wyższym poziomie, a&nbsp;zdarzenia (wraz z&nbsp;ich znacznikami czasu) niżej. Czekając na znacznik, przegapilibyśmy istotne informacje.
 
 Na pewno dałoby się stworzyć jakiś elastyczny program -- zapamiętujący informacje z&nbsp;wyższych poziomów podczas schodzenia w&nbsp;głąb albo nawet odgadujący ich rodzaj.
 
@@ -210,7 +210,7 @@ Zajrzyjcie w&nbsp;swoje pliki, też na pewno znajdziecie coś ciekawego :wink: 
 
 Czas na gwóźdź programu. Po rozwiązaniu problemów z&nbsp;danymi trochę wszystko uogólniłem, uprościłem i&nbsp;zebrałem w&nbsp;jeden skrypt Pythona.
 
-Oprócz tego zdecydowałem się nie uwzględniać danych z trzech plików, mimo że też zawierały stemple czasowe:
+Oprócz tego zdecydowałem się nie uwzględniać danych z trzech plików, mimo że też zawierały znaczniki czasu:
 
 * *notifications.json* -- bo nie widziałem w powiadomieniach cennych informacji;
 * *used_ip_addresses.json* -- bo powtarzają się z innymi informacjami;
@@ -218,7 +218,7 @@ Oprócz tego zdecydowałem się nie uwzględniać danych z trzech plików, mimo 
 
 Zostawiłem w skrypcie opcję łatwego włączenia tych plików do analizy, gdybym zmienił zdanie.
 
-Gotowy skrypt zbiera listę moich działań z&nbsp;pozostałych plików -- o&nbsp;ile tylko zawierały stemple czasowe -- i&nbsp;układa je w&nbsp;sposób chronologiczny. Powstaje taka **oś czasu, tylko że o&nbsp;mnie, a&nbsp;nie o&nbsp;innych**.
+Gotowy skrypt zbiera listę moich działań z&nbsp;pozostałych plików -- o&nbsp;ile tylko zawierały znaczniki czasu -- i&nbsp;układa je w&nbsp;sposób chronologiczny. Powstaje taka **oś czasu, tylko że o&nbsp;mnie, a&nbsp;nie o&nbsp;innych**.
 
 W podobny sposób może nas za kulisami postrzegać Facebook (chociaż oczywiście ma więcej danych; przypominam, że na razie użyłem tylko 150 kB z&nbsp;ponad 2 GB).
 
