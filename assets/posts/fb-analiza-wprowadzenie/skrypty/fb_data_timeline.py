@@ -123,7 +123,7 @@ def _get_json_files( folder, files_to_get=None, files_to_skip=None ):
 def _load_json( file, folder):
     '''An abstraction for loading both standalone and zipped files'''
     if isinstance(folder, ZipFile):
-        return json_load( folder.open(str(file)) )
+        return json_load( folder.open( str(file.as_posix())) )
     else:
         with open(file) as datafile:
             return json_load(datafile)
@@ -243,7 +243,7 @@ def save_events_to_file( fb_events ):
     '''Formats FB events as text and saves them a text file'''
     if not fb_events: return
     
-    with open( OUT_FILE, 'w') as out:
+    with open( OUT_FILE, 'w', encoding='utf-8') as out:
         for event in fb_events:
             event.write_to_file( out )          
     print('Zapisano zdarzenia z FB do pliku "{}"'.format(OUT_FILE))
