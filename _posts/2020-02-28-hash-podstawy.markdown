@@ -96,6 +96,8 @@ Okej. Wiemy już czym jest hasz, że jest absolutnie powszechny. Pewnie jeszcze 
 
 Możliwe że faktycznie nigdy go nie użyjecie. Dlatego oznaczyłem tę część jako *bonus*. Ale mam dwa mniej lub bardziej naciągane pomysły, kiedy porównywanie haszy może się przydać.
 
+Jeśli chcecie przejść prosto do nich, to <a href="#sprawdzanie-programów">są tutaj</a>.
+
 # Jak to zrobić na Windowsie?
 
 Najpierw o&nbsp;tym, w&nbsp;jaki sposób można sprawdzić hasz. Pokażę na przykładzie Windowsa.
@@ -159,7 +161,7 @@ Z **MacOS (systemem Apple'a)** nie mam doświadczenia, więc muszę polegać na 
 * `shasum -a 256 'PLIK'`, żeby policzyć metodą SHA256;
 * `md5 PLIK`, żeby policzyć metodą MD5.
 
-Potem możemy porównać wynik z&nbsp;innym haszem "na oko".
+Potem możemy porównać wynik z&nbsp;innym haszem „na oko”.
 
 Brzmi łatwo i&nbsp;przyjemnie. Problem w&nbsp;tym, że podobno trudniej jest otworzyć Terminal w&nbsp;folderze, w&nbsp;którym aktualnie jesteśmy i&nbsp;w którym jest nasz plik. Taką opcję [trzeba specjalnie włączyć](https://www.stugon.com/open-terminal-in-current-folder-location-mac/).
 
