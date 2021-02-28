@@ -2,7 +2,7 @@
 layout: post
 title:  "Bobby kontra JSON – dane od Facebooka"
 date:   2021-02-24 19:32:00 +0100
-tags: [Analiza danych, Poradnik]
+tags: [Analiza danych, Porady]
 firmy: [Facebook]
 category: facebook_dane
 category_readable: "Kochajmy się jak bracia, analizujmy się jak Facebooki"
