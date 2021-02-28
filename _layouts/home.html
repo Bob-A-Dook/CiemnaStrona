@@ -34,9 +34,11 @@ layout: default
   {% for seria in site.serie %}
     <p><a href="{{seria.permalink}}">{{seria.readable_name}}</a></p>   
   {% endfor %}
-
-  <a href="/feed.xml" >
-    <img class="svg-icon" src="/assets/feed-icon.png"/> RSS
+  
+  <p style="margin-top: 60px">
+  <a href="/feed.xml">
+    <img class="svg-icon" src="/assets/feed-icon.png"/>RSS
   </a>
+  </p>
 
 </div>

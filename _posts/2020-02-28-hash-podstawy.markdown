@@ -46,12 +46,12 @@ Ma dwie kluczowe właściwości:
 
 Te dwie cechy sprawiają, że obliczone hasze są idealne do porównywania, czy dwie rzeczy są dokładnie tym samym.
 
-Poza tym funkcja haszująca **działa w&nbsp;jedną stronę**. Praktycznie nie da się na podstawie uzyskanego hasza ustalić, jakie dane mieliśmy na początku.
+Poza tym funkcja haszująca **działa tylko w&nbsp;jedną stronę**. Praktycznie nie da się na podstawie uzyskanego hasza ustalić, jakie dane mieliśmy na początku.
 
 Dzięki tej własności możemy bez obaw, jawnie, wymieniać się haszami. Nie dojdzie do tego, że ktoś z&nbsp;nich wyczyta pierwotne informacje -- takie jak nasze hasła albo treść magisterki.  
 (Metody odwracania haszy istnieją, ale, nawet dla krótkich haseł, są [niesamowicie niewydajne](https://pl.wikipedia.org/wiki/T%C4%99czowe_tablice)).
 
-Jako wisienka na torcie jeszcze to, że [hasz ma stałą długość](https://crypto.stackexchange.com/questions/2144/does-the-sha-hash-function-always-generate-a-fixed-length-hash), niezależnie od rozmiaru danych wejściowych. Możemy więc łatwo ścisnąć treść całej książki w&nbsp;krótki hasz. I&nbsp;porównać go z&nbsp;haszem dla samego słowa "Książka". Oba hasze będą takiej samej długości. Ale będą się różnić.
+Jako wisienka na torcie jeszcze to, że [hasz ma stałą długość](https://crypto.stackexchange.com/questions/2144/does-the-sha-hash-function-always-generate-a-fixed-length-hash), niezależnie od rozmiaru danych wejściowych. Możemy więc łatwo ścisnąć treść całego listu, całej książki, a nawet całej biblioteki w&nbsp;krótki hasz. I&nbsp;przesłać znajomym w&nbsp;jednej wiadomości, na pewno się ucieszą.
 
 {% include info.html type="Ciekawostka" text="Funkcje haszujące występują w&nbsp;wielu różnych odmianach.  
 Na przykład ta z&nbsp;Pythona daje inny wynik za każdym razem, kiedy go uruchomimy. Byłaby nieprzydatna do zadań wymagających stabilności, np. do weryfikacji haseł.  
