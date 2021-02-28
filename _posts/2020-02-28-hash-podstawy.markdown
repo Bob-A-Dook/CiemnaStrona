@@ -39,7 +39,7 @@ Ma dwie kluczowe właściwości:
 * ...Ale **jeśli wrzucimy inne dane, to wypluje coś całkiem innego**.
 
   {:.figure}
-  <img src="/assets/posts/haszowanie/python-hash.webp" alt="Konsola interaktywna Pythona, linijka po linijce. Widać że po użyciu funkcji hash na tekście 'Ciemna strona' wyświetliło dwa razy taką samą długą liczbę. Ale kiedy użyto jej na tekście z literą 'o' zmienioną na '0', to liczba jest całkiem inna."/>
+  <img src="/assets/posts/haszowanie/python-hash.webp" alt="Konsola interaktywna Pythona, linijka po linijce. Widać że po użyciu funkcji hash na tekście 'Ciemna strona' wyświetliło dwa razy taką samą długą liczbę. Ale kiedy użyto jej na tekście z&nbsp;literą 'o' zmienioną na '0', to liczba jest całkiem inna."/>
 
   {:.figcaption}
   Wystarczyła zmiana jednej litery, żeby funkcja haszująca dała zupełnie inny wynik.
@@ -51,7 +51,7 @@ Poza tym funkcja haszująca **działa tylko w&nbsp;jedną stronę**. Praktycznie
 Dzięki tej własności możemy bez obaw, jawnie, wymieniać się haszami. Nie dojdzie do tego, że ktoś z&nbsp;nich wyczyta pierwotne informacje -- takie jak nasze hasła albo treść magisterki.  
 (Metody odwracania haszy istnieją, ale, nawet dla krótkich haseł, są [niesamowicie niewydajne](https://pl.wikipedia.org/wiki/T%C4%99czowe_tablice)).
 
-Jako wisienka na torcie jeszcze to, że [hasz ma stałą długość](https://crypto.stackexchange.com/questions/2144/does-the-sha-hash-function-always-generate-a-fixed-length-hash), niezależnie od rozmiaru danych wejściowych. Możemy więc łatwo ścisnąć treść całego listu, całej książki, a nawet całej biblioteki w&nbsp;krótki hasz. I&nbsp;przesłać znajomym w&nbsp;jednej wiadomości, na pewno się ucieszą.
+Jako wisienka na torcie jeszcze to, że [hasz ma stałą długość](https://crypto.stackexchange.com/questions/2144/does-the-sha-hash-function-always-generate-a-fixed-length-hash), niezależnie od rozmiaru danych wejściowych. Możemy więc łatwo ścisnąć treść całego listu, całej książki, a&nbsp;nawet całej biblioteki w&nbsp;krótki hasz. I&nbsp;przesłać znajomym w&nbsp;jednej wiadomości, na pewno się ucieszą.
 
 {% include info.html type="Ciekawostka" text="Funkcje haszujące występują w&nbsp;wielu różnych odmianach.  
 Na przykład ta z&nbsp;Pythona daje inny wynik za każdym razem, kiedy go uruchomimy. Byłaby nieprzydatna do zadań wymagających stabilności, np. do weryfikacji haseł.  
@@ -96,7 +96,7 @@ Okej. Wiemy już czym jest hasz, że jest absolutnie powszechny. Pewnie jeszcze 
 
 Możliwe że faktycznie nigdy go nie użyjecie. Dlatego oznaczyłem tę część jako *bonus*. Ale mam dwa mniej lub bardziej naciągane pomysły, kiedy porównywanie haszy może się przydać.
 
-# Jak to robić?
+# Jak to zrobić na Windowsie?
 
 Najpierw o&nbsp;tym, w&nbsp;jaki sposób można sprawdzić hasz. Pokażę na przykładzie Windowsa.
 
@@ -106,7 +106,7 @@ Potem przechodzicie do dowolnego folderu z&nbsp;jakimś plikiem.
 Na potrzeby pokazu stworzyłem folder *hash_test*, a&nbsp;w&nbsp;nim jedną rzecz -- *plik testowy.txt*, zawierający jedynie słowa „Jakiś tekst”:
 
 {:.bigspace}
-<img src="/assets/posts/haszowanie/hasz-plik-pokaz.webp" alt="Zrzut ekranu dwóch okien Windowsa. Pierwsze pokazuje dużą ikonę pliku tekstowego w Eksploratorze. Drugie pokazuje otwarty program Notatnik, z widocznym tekstem 'Jakiś tekst'."/>
+<img src="/assets/posts/haszowanie/hasz-plik-pokaz.webp" alt="Zrzut ekranu dwóch okien Windowsa. Pierwsze pokazuje dużą ikonę pliku tekstowego w&nbsp;Eksploratorze. Drugie pokazuje otwarty program Notatnik, z&nbsp;widocznym tekstem 'Jakiś tekst'."/>
 
 Klikacie w&nbsp;zakładkę `Plik` w&nbsp;lewym górnym rogu, a&nbsp;następnie na `Otwórz program Windows PowerShell`:
 
@@ -122,7 +122,7 @@ Jeśli chcemy po prostu zobaczyć, jaki hasz ma plik, to najprościej tam wpisa�
 gdzie zamiast <span class="red">PLIK</span> wpisujemy nazwę naszego pliku. Potwierdzamy, naciskając `Enter`. W&nbsp;moim przypadku wychodzi coś takiego:
 
 {:.figure .bigspace}
-<img src="/assets/posts/haszowanie/plik-testowy-hash.webp" alt="Zrzut ekranu PowerShella. Na ciemnoniebieskim tle widać u góry, za strzałką, wpisany tekst 'Get-FileHash plik testowy.txt'. Tekst poniżej zawiera tekst SHA256 pod nagłówkiem 'Algorithm' oraz długi ciąg liter i cyfr pod nagłówkiem 'Hash'."/>
+<img src="/assets/posts/haszowanie/plik-testowy-hash.webp" alt="Zrzut ekranu PowerShella. Na ciemnoniebieskim tle widać u&nbsp;góry, za strzałką, wpisany tekst 'Get-FileHash plik testowy.txt'. Tekst poniżej zawiera tekst SHA256 pod nagłówkiem 'Algorithm' oraz długi ciąg liter i&nbsp;cyfr pod nagłówkiem 'Hash'."/>
 
 Zobaczymy hasz wraz z&nbsp;dodatkowymi informacjami o&nbsp;użytym algorytmie. Możemy go sobie zaznaczyć i&nbsp;skopiować przez `Ctrl+C`.
 
@@ -151,6 +151,35 @@ Albo, dla MD5:
 <span class="red">PLIK</span> to ponownie nazwa pliku, którego hasz określamy. A&nbsp;<span class="red">HASH</span> to jakiś inny hasz, który sami wklejamy w&nbsp;PowerShella.
 
 Jeśli plik ma taki sam hasz co ten, który sami podaliśmy, to wyświetli nam napis `True`.
+
+# Jak to zrobić na innych systemach?
+
+Z **MacOS (systemem Apple'a)** nie mam doświadczenia, więc muszę polegać na wpisach innych. Według [tego wpisu](https://www.modmy.com/how-verify-file-hashes-macos) musimy otworzyć Terminal (odpowiednik PowerShella), a&nbsp;tam wpisać:
+
+* `shasum -a 256 'PLIK'`, żeby policzyć metodą SHA256;
+* `md5 PLIK`, żeby policzyć metodą MD5.
+
+Potem możemy porównać wynik z&nbsp;innym haszem "na oko".
+
+Brzmi łatwo i&nbsp;przyjemnie. Problem w&nbsp;tym, że podobno trudniej jest otworzyć Terminal w&nbsp;folderze, w&nbsp;którym aktualnie jesteśmy i&nbsp;w którym jest nasz plik. Taką opcję [trzeba specjalnie włączyć](https://www.stugon.com/open-terminal-in-current-folder-location-mac/).
+
+...Albo, jeśli nam się nie chce, można (podobno) przeciągnąć plik do Terminala, żeby wstawiło nam pełną ścieżkę do niego. Wtedy nie ma znaczenia, że Terminal nie otworzył się w&nbsp;tym samym miejscu co plik.
+
+**Linux** pod tym względem jest przyjemniejszy -- a&nbsp;przynajmniej mój Mint, bo ogólnie dystrybucji (tzn. wersji systemu) jest mnóstwo. Wyjaśnię na jego przykładzie, używając angielskich nazw.
+
+Wystarczy w&nbsp;nim przejść do określonego folderu, używając odpowiednika Eksploratora. Potem można kliknąć prawym przyciskiem i&nbsp;wybrać `Open in Terminal`.
+
+Tam wpisujemy:
+
+* `sha256sum PLIK`, żeby policzyło SHA256;
+* `md5sum PLIK`, żeby policzyło MD5.
+
+A jeśli chcemy porównać hasze, to [można użyć](https://askubuntu.com/questions/442960/how-to-automate-comparison-of-md5sum-hash-values-for-a-large-number-of-files) takiego zaklęcia: `md5sum -c <<< "HASH *PLIK"`.  
+(niestety trzeba pamiętać o&nbsp;trzech strzałkach i&nbsp;cudzysłowach; gdyby w&nbsp;nazwie pliku były spacje, to dodatkowo otaczamy ją cudzysłowami pojedynczymi; gwiazdkę można pominąć, jeśli tworzymy hasz dla pliku tekstowego).
+
+Jeśli hasz się zgadza z&nbsp;tym podanym, to wyświetli nazwę pliku i&nbsp;`OK`.
+
+{% include info.html type="Porada" text="W przypadku Terminala na Linuksie trzeba pamiętać o&nbsp;dodatkowych Shiftach! Kopiujemy tekst przez `Ctrl+Shift+C`, a&nbsp;wklejamy przez `Ctrl+Shift+V`." %}
 
 A teraz czas na praktyczne zastosowania.
 
