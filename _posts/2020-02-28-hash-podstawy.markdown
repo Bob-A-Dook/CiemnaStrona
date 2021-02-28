@@ -39,7 +39,7 @@ Ma dwie kluczowe właściwości:
 * ...Ale **jeśli wrzucimy inne dane, to wypluje coś całkiem innego**.
 
   {:.figure}
-  <img src="/assets/posts/haszowanie/python-hash.webp"/>
+  <img src="/assets/posts/haszowanie/python-hash.webp" alt="Konsola interaktywna Pythona, linijka po linijce. Widać że po użyciu funkcji hash na tekście 'Ciemna strona' wyświetliło dwa razy taką samą długą liczbę. Ale kiedy użyto jej na tekście z literą 'o' zmienioną na '0', to liczba jest całkiem inna."/>
 
   {:.figcaption}
   Wystarczyła zmiana jednej litery, żeby funkcja haszująca dała zupełnie inny wynik.
@@ -80,7 +80,7 @@ Ich przykłady w&nbsp;naturze:
   Kiedy zakładamy konto na jakiejś platformie, prawie zawsze ustalamy do niego hasło.  
   Gdyby jej właściciele nie dbali o&nbsp;bezpieczeństwo, to mogliby przechowywać nazwę użytkownika razem z&nbsp;hasłem jako tekst. Wtedy, gdyby ich baza danych wyciekła, każdy mógłby skopiować nazwę i&nbsp;hasło. I&nbsp;po prostu się zalogować jako my.  
   Strony bardziej dbające o&nbsp;bezpieczeństwo przechowują zamiast tego hasze. Przy każdym naszym logowaniu serwer przekształca hasło w&nbsp;hasz i&nbsp;sprawdza, czy ma go przy naszej nazwie użytkownika. Jeśli tak, to nas przepuszcza.  
-  Gdyby w&nbsp;takim przypadku nastąpił wyciek bazy, to nie byłby taki groźny. **Mając nazwę użytkownika i&nbsp;hasz, włamywacz i&nbsp;tak nie będzie wiedział, co wpisać w&nbsp;polu "Hasło"**!
+  Gdyby w&nbsp;takim przypadku nastąpił wyciek bazy, to nie byłby taki groźny. **Mając nazwę użytkownika i&nbsp;hasz, włamywacz i&nbsp;tak nie będzie wiedział, co wpisać w&nbsp;polu „Hasło”**!
 
 * Inwigilacja podczas ruchu w&nbsp;internecie
 
@@ -100,18 +100,18 @@ Możliwe że faktycznie nigdy go nie użyjecie. Dlatego oznaczyłem tę część
 
 Najpierw o&nbsp;tym, w&nbsp;jaki sposób można sprawdzić hasz. Pokażę na przykładzie Windowsa.
 
-Otwieracie Eksplorator (ikona <img style="display:inline-block" src="/assets/posts/haszowanie/eksplorator-ikona.webp"/>).
+Otwieracie Eksplorator (ikona <img style="display:inline-block" src="/assets/posts/haszowanie/eksplorator-ikona.webp" alt="Żółta ikona Eksploratora Windowsa"/>).
 
 Potem przechodzicie do dowolnego folderu z&nbsp;jakimś plikiem.  
-Na potrzeby pokazu stworzyłem folder *hash_test*, a&nbsp;nim jedną rzecz -- *plik testowy.txt*, zawierający jedynie słowa „Jakiś tekst”:
+Na potrzeby pokazu stworzyłem folder *hash_test*, a&nbsp;w&nbsp;nim jedną rzecz -- *plik testowy.txt*, zawierający jedynie słowa „Jakiś tekst”:
 
 {:.bigspace}
-<img src="/assets/posts/haszowanie/hasz-plik-pokaz.webp"/>
+<img src="/assets/posts/haszowanie/hasz-plik-pokaz.webp" alt="Zrzut ekranu dwóch okien Windowsa. Pierwsze pokazuje dużą ikonę pliku tekstowego w Eksploratorze. Drugie pokazuje otwarty program Notatnik, z widocznym tekstem 'Jakiś tekst'."/>
 
 Klikacie w&nbsp;zakładkę `Plik` w&nbsp;lewym górnym rogu, a&nbsp;następnie na `Otwórz program Windows PowerShell`:
 
 {:.figure .bigspace}
-<img src="/assets/posts/haszowanie/powershell-menu.webp"/>
+<img src="/assets/posts/haszowanie/powershell-menu.webp" alt="Menu Eksploratora. Druga opcja od góry, 'Otwórz program Windows PowerShell', jest otoczona czerwoną ramką."/>
 
 Otworzy się konsola. Możecie w&nbsp;nią, za znakiem `>`, wpisywać różne rzeczy. A&nbsp;komputer będzie je robił.
 
@@ -122,7 +122,7 @@ Jeśli chcemy po prostu zobaczyć, jaki hasz ma plik, to najprościej tam wpisa�
 gdzie zamiast <span class="red">PLIK</span> wpisujemy nazwę naszego pliku. Potwierdzamy, naciskając `Enter`. W&nbsp;moim przypadku wychodzi coś takiego:
 
 {:.figure .bigspace}
-<img src="/assets/posts/haszowanie/plik-testowy-hash.webp"/>
+<img src="/assets/posts/haszowanie/plik-testowy-hash.webp" alt="Zrzut ekranu PowerShella. Na ciemnoniebieskim tle widać u góry, za strzałką, wpisany tekst 'Get-FileHash plik testowy.txt'. Tekst poniżej zawiera tekst SHA256 pod nagłówkiem 'Algorithm' oraz długi ciąg liter i cyfr pod nagłówkiem 'Hash'."/>
 
 Zobaczymy hasz wraz z&nbsp;dodatkowymi informacjami o&nbsp;użytym algorytmie. Możemy go sobie zaznaczyć i&nbsp;skopiować przez `Ctrl+C`.
 
