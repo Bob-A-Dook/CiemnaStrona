@@ -381,8 +381,8 @@ strong {
 }
 
 .comment_container {
-  display: flex;
-  flex-direction: row;
+  //display: flex;
+  //flex-direction: row;
   margin-top: 3em;
   margin-bottom: 15px;
   margin-right: 20px;
@@ -398,13 +398,15 @@ strong {
 
 
 .comment-body {
+  //float: right;
+  //display: inline;
   word-wrap: break-word;
   text-shadow:none;
   width: 100%;
   box-shadow: 0px 0px 2px lightgray;
   background-color: white;
   color: black;
-  margin-left: 10px;
+  margin-left: 50px;
   padding: 5px
 }
 
@@ -433,9 +435,11 @@ strong {
 }
 
 .big_avatar {
-  align-self: flex-start;
-  height: 40px;
-  width: 40px;
+  //align-self: flex-start;
+  float: left;
+  display: inline;
+  height: 40px !important;
+  width: 40px !important;
 }
 
 .small_avatar {
