@@ -234,6 +234,11 @@ Jeśli natomiast były słuszne, to dosyłacie też oryginalny plik. I&nbsp;poka
 
 Wniosek: przemyślenia opisane w&nbsp;pliku mieliście jeszcze przed całym zajściem. Wiedzieliście, co się kroi.
 
+{% include info.html type="Ciekawostka" text="Niedawno taką metodę zastosowały trzy znane portale o&nbsp;cyberbezpieczeństwie: Niebezpiecznik, Zaufana Trzecia Strona oraz Informatyk Zakładowy.  
+Wiedzieli, że mogą pojawić się przeciw nim oskarżenia, które chcieli od razu zdementować.  
+20 lutego każda z tych stron wrzuciła na swoje konto społecznościowe [sam hasz](https://www.facebook.com/niebezpiecznik/posts/10157705388896821).  
+A 2&nbsp;marca [pełną treść oświadczenia](https://www.facebook.com/niebezpiecznik/posts/10157729024811821)." %}
+
 Wadą rozwiązania jest to, że inni muszą mieć przynajmniej podstawowe pojęcie o&nbsp;haszach (a przynajmniej wiedzieć, że są nie do podrobienia). *Drugą wadą*{:.corr-del}Zaletą to, że zapewne zostaniecie uznani za nerdów.
 
 I z&nbsp;tymi nerdowskimi metodami Was zostawiam. Miłego haszowania i&nbsp;do zobaczenia przy kolejnych wpisach! :smile:

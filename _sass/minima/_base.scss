@@ -463,8 +463,6 @@ strong {
   @extend .big_avatar;
   border-bottom: 2px solid $background-color;
   box-shadow: 0px 2px 0px 0px rgba(229, 231, 233, 1);
-  height: 40px;
-  width: 40px;
 }
 .wykop_avatar_male {
   @extend .wykop_avatar;

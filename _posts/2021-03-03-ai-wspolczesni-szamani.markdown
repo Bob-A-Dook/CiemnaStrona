@@ -55,6 +55,12 @@ Nie, prawdziwy powód jest prostszy -- **nie istnieje obecnie żadne „AI” w&
 
 W tym wpisie przedstawię kilka rzeczy związanych z&nbsp;metodą szumnie nazywaną „AI”, obalę popularne mity i&nbsp;pokażę, dlaczego sposób mówienia o&nbsp;niej uważam za przekłamany.
 
+Mit 1 jest tuż poniżej. Tu linki do pozostałych, jeśli nie macie czasu na wszystko:
+
+* <a href="#mit-2-ai-to-coś-nowego">Mit 2: AI to coś nowego</a>;
+* <a href="#mit-3-ai-to-coś-dla-wybranych">Mit 3: AI to coś dla wybranych</a>;
+* <a href="#mit-4-roboty-facebooka-zaczęły-tworzyć-własny-język">Mit 4: roboty Facebooka tworzyły własny język</a>.
+
 ## Mit 1: AI może zyskać świadomość
 
 Najłatwiej mi będzie obalić ten mit, pokazując w&nbsp;praktyce, czym jest to „AI”.
@@ -296,10 +302,11 @@ Jeśli jest jakieś bingo dla clickbaitów z&nbsp;AI, to chyba je mamy! Co gorsz
 Sposób opisywania tej całej sprawy w&nbsp;mediach osobiście **skrytykował jeden z&nbsp;autorów opisywanego badania**:
 
 {% include comment.html source="facebook" author="Dhruv Batra" text="I find such coverage clickbaity and irresponsible.  
-(...) Analyzing the reward function and changing the parameters of an experiment is NOT the same as “unplugging” or “shutting down AI”. If that were the case, every AI researcher has been “shutting down AI” every time they kill a&nbsp;job on a&nbsp;machine."%}
+(...)  
+Analyzing the reward function and changing the parameters of an experiment is NOT the same as “unplugging” or “shutting down AI”. If that were the case, every AI researcher has been “shutting down AI” every time they kill a&nbsp;job on a&nbsp;machine."%}
 
 {:.figcaption}
-Źródło: [post autora na FB](https://www.facebook.com/dhruv.batra.dbatra/posts/1943791229195215?pnref=story)
+Źródło: [post autora na FB](https://www.facebook.com/dhruv.batra.dbatra/posts/1943791229195215?pnref=story). Skróty moje.
 
 Przedstawianie AI w&nbsp;taki sposób robi ludziom wodę z&nbsp;mózgu. I&nbsp;jak tu się dziwić, że potem otrzymujemy chaos, zdjęcia robotów, debaty o&nbsp;dobroduszności albo złej woli maszyn?
 
