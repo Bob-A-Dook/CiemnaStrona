@@ -156,7 +156,7 @@ Jeśli plik ma taki sam hasz co ten, który sami podaliśmy, to wyświetli nam n
 
 # Jak to zrobić na innych systemach?
 
-Z **MacOS (systemem Apple'a)** nie mam doświadczenia, więc muszę polegać na wpisach innych. Według [tego wpisu](https://www.modmy.com/how-verify-file-hashes-macos) musimy otworzyć Terminal (odpowiednik PowerShella), a&nbsp;tam wpisać:
+Z **OS X (systemem Apple'a)** nie mam doświadczenia, więc muszę polegać na wpisach innych. Według [tego wpisu](https://www.modmy.com/how-verify-file-hashes-macos) musimy otworzyć Terminal (odpowiednik PowerShella), a&nbsp;tam wpisać:
 
 * `shasum -a 256 'PLIK'`, żeby policzyć metodą SHA256;
 * `md5 PLIK`, żeby policzyć metodą MD5.

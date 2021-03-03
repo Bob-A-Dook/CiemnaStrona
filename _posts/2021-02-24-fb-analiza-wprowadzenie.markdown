@@ -116,7 +116,7 @@ def _fix_fb_text_encoding(text):
 
 # Wyświetlanie znaków emoji
 
-Oprócz polskich znaków na FB mamy też pełno różnych emotek. Wglądają ładnie, ale za kulisami są utrapieniem (tym razem nie z&nbsp;winy Fejsa).
+Oprócz polskich znaków na FB mamy też pełno różnych emotek. Wyglądają ładnie, ale za kulisami są utrapieniem (tym razem nie z&nbsp;winy Fejsa).
 
 Zacznijmy od tego, że są „większe”. Jeśli je zapisać w&nbsp;formie bajtów:
 
