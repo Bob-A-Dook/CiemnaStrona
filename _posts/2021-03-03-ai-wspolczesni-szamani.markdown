@@ -44,9 +44,10 @@ Nasuwają się pytania: czym jest to powszechnie reklamowane AI? Dlaczego tak na
 
 Krótko na dwa ostatnie: **nie**.
 
-I nie dlatego, że „sztuczna inteligencja nie zbuntowałaby się przeciw swoim twórcom”.  
-Ani nie dlatego że „to mądrzy naukowcy tworzą, na pewno dodali zabezpieczenia”.  
-(Protip: lepiej nie ufać w&nbsp;cudzy rozsądek).
+I nie dlatego, że „sztuczna inteligencja nie zbuntowałaby się przeciw swoim twórcom”.
+  
+Ani nie dlatego że „to mądrzy naukowcy tworzą, na pewno dodali zabezpie&shy;czenia”  
+(protip: lepiej nie zdawać się na cudzy rozsądek).
 
 Nie, prawdziwy powód jest prostszy -- **nie istnieje obecnie żadne „AI” w&nbsp;tym znaczeniu, które kojarzymy z&nbsp;popkultury. To nazwa czysto marketingowa**.
 
@@ -205,7 +206,7 @@ Ciekawi wielka przewaga ML nad AI. Może to jakiś pośredni dowodzik na to, że
 
 Ale my nie o&nbsp;tym. Ważniejszy jest sam fakt, że tagi stają się popularniejsze, a&nbsp;`machine-learning` przeżył prawdziwą eksplozję w&nbsp;ostatnich latach. Czyli programiści częściej o&nbsp;to pytają, branża się rozwija.
 
-Również [liczba artykułów przyjętych na NeurIPS](https://github.com/hoya012/NeurIPS-2020-Paper-Statistics), jedną z&nbsp;największych konferencji na temat uczenia maszynowego, cały czas rośnie. **Z 569 (2016 r.) na 1899 (2020 r.)**.
+Również [liczba artykułów przyjętych na NeurIPS](https://github.com/hoya012/NeurIPS-2020-Paper-Statistics), jedną z&nbsp;największych konferencji na temat uczenia maszynowego, cały czas rośnie. **Z 569&nbsp;(2016 r.) na 1899&nbsp;(2020 r.)**.
 
 Na chwilę obecną wystarczy przykładów i&nbsp;można już chyba obalić mit. Częściowo. Bo **AI jest stare, ale eksplozja zainteresowania jest nowa**.
 
@@ -214,9 +215,9 @@ Możemy się zastanowić -- co się zmieniło, nie dało się tak dawniej?
 Jedną z&nbsp;przyczyn na pewno jest dostępność mocniejszych komputerów. Nowe możliwości pozwoliły nakręcić samonapędzającą się falę -- badań, wdrożeń, zapotrzebowania, nowych badań itd.  
 Kiedyś tego nie było, a wyczerpujące trenowanie modeli było ponad siły komputerów.
 
-Ale było coś jeszcze -- **zima AI z lat 80. i 90.** A właściwie zimy. Kilka razy na długi czas odkładano badania nad sztuczną inteligencją, a branża zamierała. Z&nbsp;przyczyn, których na razie nie ujawnię.
+Ale było coś jeszcze -- **zima AI z lat 80. i&nbsp;90.** A właściwie zimy. Kilka razy na długi czas odkładano badania nad sztuczną inteligencją, a branża zamierała.
 
-Zapamiętajcie to pojęcie, jeszcze do niego wrócę na końcu.
+Dlaczego? Na razie jeszcze nie powiem. Czytajcie dalej, wrócę do tego na końcu.
 
 ## Mit 3: AI to coś dla wybranych
 
@@ -263,7 +264,7 @@ Tak, nowoczesne AI to drogi biznes." %}
 
 Podsumowując: **mit o&nbsp;niedostępności AI w&nbsp;większości do obalenia**. Chyba że mówimy o&nbsp;naprawdę nowoczesnych i&nbsp;specjalistycznych modelach.
 
-W każdym razie nie, w&nbsp;żadnym razie nie trzeba robić „wow”, kiedy ktoś stwierdzi, że u&nbsp;niego w&nbsp;firmie używa się sztucznej inteligencji. Teraz sporo osób tak mówi.
+W każdym razie -- nie, nie trzeba robić „wow”, kiedy ktoś stwierdzi, że u&nbsp;niego w&nbsp;firmie używa się sztucznej inteligencji. Teraz jest łatwo to robić. A jeszcze łatwiej mówić.
 
 ## Mit 4: Roboty Facebooka zaczęły tworzyć własny język
 
