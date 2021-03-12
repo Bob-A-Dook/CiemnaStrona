@@ -48,7 +48,7 @@ Ich oświadczenia:
 
 Z oświadczeń oraz poprzednich artykułów wynikało, że od kilku lat zwracali uwagę na luki bezpieczeństwa w&nbsp;komunikatorze UseCrypt. Spotykało się to z&nbsp;polemiką, oporem, a&nbsp;nawet wysyłaniem do nich sprostowań.
 
-Po czym nagle do gazety Puls Biznesu i kilku innych trafiła informacja, że redakcje są zorganizowaną grupą przestępczą i&nbsp;że toczy się przeciwko nim postępowanie.
+Po czym nagle do gazety Puls Biznesu i kilku innych trafiła anonimowa informacja, że redakcje są zorganizowaną grupą przestępczą i&nbsp;że toczy się przeciwko nim postępowanie.
 
 Zaciekawiło mnie to i&nbsp;zagłębiłem się w&nbsp;całą sprawę. Wróciłem między innymi do tej [reklamy UseCrypta](https://www.youtube.com/watch?v=5L1wT2yE2dc), o&nbsp;której widywałem dyskusje.
 
@@ -203,7 +203,7 @@ Po drugie: zwraca uwagę na to, że jeden z&nbsp;nich wykorzystuje dokładnie ta
 Nie wymieniają tej firmy z&nbsp;nazwy, więc zróbmy małe śledztwo. Tu fragment maila:
 
 {:.figure .bigspace}
-<img src="/assets/posts/usecrypt/anna-j.webp" alt=""/>
+<img src="/assets/posts/usecrypt/anna-j.webp" alt="Fragment nagłówka maila. Widać na nim jedynie całe imię, a nazwisko jest zamazane, ale spod zamazanego pola wystaje kawałek pierwszej litery."/>
 
 Nie wiem jak Wam, ale mnie ten haczyk przy nazwisku pasuje tylko do litery J. Czyli Anna J, *PR Manager*, okolice 2018 roku. Wyszukałem, dopisując do tych informacji `usecrypt`.
 
@@ -385,7 +385,7 @@ Zajrzałem z&nbsp;ciekawości na stronę unijnego IPO i&nbsp;rejestracje od UseC
 A znalazłem tylko lakoniczne informacje z&nbsp;jednym schematem:
 
 {:.figure .bigspace}
-<img src="/assets/posts/usecrypt/hvkm.webp" alt=""/>
+<img src="/assets/posts/usecrypt/hvkm.webp" alt="Zrzut ekranu z wyniku wyszukiwania na stronie IPO. Po lewej stronie widać obrazek schematu, utrzymany w zielonawej kolorystyce. Po prawej stronie znajdują się różne mniej istotne informacje."/>
 
 Czemu tak? W&nbsp;sumie to nie pamiętam już zbyt wiele o&nbsp;wzorach przemysłowych, więc wyszukałem na szybko, czym są.
 
@@ -480,7 +480,7 @@ Nurkujemy coraz głębiej, ku podstawom lodowca! Ruch w&nbsp;internecie, komenta
 Jeden z&nbsp;najwcześniejszych wpisów z&nbsp;Instagrama otagowany `#usecrypt` pokazuje ich program w&nbsp;otoczeniu produktów dwóch innych firm:
 
 {:.figure}
-<img src="/assets/posts/usecrypt/usecrypt-dronhouse-ime.webp" alt=""/>
+<img src="/assets/posts/usecrypt/usecrypt-dronhouse-ime.webp" alt="Post z Instagrama. Po lewej stronie widać zdjęcie biurka, na którym stoi laptop z wyświetlonym ekranem aplikacji UseCrypt Safe. Oprócz tego na biurku leży kolorowa podkładka z napisem iMe i stoi na nim lśniący dron w złotawym kolorze, ozdobiony logiem Dron House. Po prawej stronie znajduje się wiele hasztagów odsyłających między innymi do profili tych firm."/>
 
 {:.figcaption}
 Źródło: [Instagram](https://www.instagram.com/p/BXGGsOEggb7/)
@@ -495,7 +495,7 @@ Dodajmy do tego ważną informację -- cały czas mówię „UseCrypt”, ale *
 Na stronie *rejestr.io* można fajnie wizualizować połączenia między firmami. Zróbmy to dla naszej V440:
 
 {:.figure}
-<img src="/assets/posts/usecrypt/v440-powiazania.webp" alt=""/>
+<img src="/assets/posts/usecrypt/v440-powiazania.webp" alt="Schemat złożony z ikon ludzkich sylwetek (reprezentujących ludzi) oraz ikon budynków (reprezentujących firmy). Ikony są ze sobą połączone strzałkami, a nazwiska ludzi są zasłonięte. Postać w centrum jest podpisana Sandra i połączona z kilkoma firmami, w tym IME POLAND, V440, W660 oraz Q330."/>
 
 {:.figcaption}
 Źródło: [rejestr.io](https://rejestr.io/krs/577049/v440).
