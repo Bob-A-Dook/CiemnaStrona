@@ -383,10 +383,11 @@ strong {
 .comment_container {
   //display: flex;
   //flex-direction: row;
+  width: 100%;
   margin-top: 3em;
   margin-bottom: 15px;
-  margin-right: 20px;
-  margin-left: 20px
+  //margin-right: 20px;
+  //margin-left: 20px
 }
 
 .subcomment {
@@ -402,7 +403,7 @@ strong {
   //display: inline;
   word-wrap: break-word;
   text-shadow:none;
-  width: 100%;
+  //width: 100%;
   box-shadow: 0px 0px 2px lightgray;
   background-color: white;
   color: black;
