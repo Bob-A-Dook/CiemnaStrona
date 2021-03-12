@@ -575,9 +575,9 @@ Wszystkie opisane wyżej inwestycje związane z&nbsp;Kancelarią Nikodemus dopro
 
 Art Fund i&nbsp;Art News skojarzyły mi się ze sztuką. A&nbsp;sztuka -- z&nbsp;jeszcze inną nazwą, również wałkowaną w&nbsp;kilku komentarzach pod oświadczeniami bezpieczników. Był to Dom Aukcyjny Abbey House.
 
-Jego prezesem był właśnie **Jakub Jerzy K. od Nikodemusa**. A&nbsp;głównym założycielem **Paweł M. od UseCrypta**.
+Jego prezesem był właśnie **Jakub Jerzy K. od sprawy Nikodemusa**. A&nbsp;głównym założycielem **Paweł M. od UseCrypta i Berkeley Funds**.
 
-Tak się składa, że powstał arcyciekawy [wpis na blogu fromtheheartworld](http://fromtheartworld.blogspot.com/2021/03/abbey-house-i-use-crypt-o-co-chodzi.html). Opisuje powstanie, wzlot i&nbsp;upadek tego domu aukcyjnego, handlującego polskimi obrazami za dziesiątki tysięcy złotych.
+Tak się składa, że powstał arcyciekawy [wpis na blogu fromtheartworld](http://fromtheartworld.blogspot.com/2021/03/abbey-house-i-use-crypt-o-co-chodzi.html). Opisuje powstanie, wzlot i&nbsp;upadek tego domu aukcyjnego, handlującego polskimi obrazami za dziesiątki tysięcy złotych.
 
 {:.bigspace}
 > Podbijając narrację o&nbsp;ogromnym potencjale i&nbsp;niedoszacowaniu rodzimego rynku sztuki, (...) pojawił się Dom Aukcyjny Abbey House
