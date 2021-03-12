@@ -172,17 +172,17 @@ Wyszukałem `usecrypt site:spidersweb.pl`, żeby wyświetlało tylko wyniki ze s
 
 Do tego po wejściu w&nbsp;linki widzimy w&nbsp;pasku przeglądarki adres <https://spidersweb.pl/2020/02/komisja-europejska-signal.html> -- inny niż adresy, w&nbsp;które wchodziliśmy.
 
-Co się stało? To tak zwane **przekierowanie** -- spod tych dwóch adresów usunięto artykuły i&nbsp;zamiast nich zostawiono instrukcję dla przeglądarki, żeby przeszła gdzie indziej.
-
-Źeby była jasność -- coś takiego administratorzy Spider's Weba musieli ustawić świadomie, prawie na pewno nie ma mowy o&nbsp;pomyłce.
+Co się stało? To tak zwane *przekierowanie* -- spod tych dwóch adresów usunięto artykuły i&nbsp;zamiast nich zostawiono instrukcję dla przeglądarki, żeby przeszła gdzie indziej. Źeby była jasność -- coś takiego administratorzy Spider's Weba musieli ustawić świadomie, nie ma mowy o&nbsp;pomyłce.
 
 Oprócz tego pokazał mi się link do listy artykułów z&nbsp;tagiem `usecrypt` -- <https://spidersweb.pl/tag/usecrypt>. Ale kiedy w&nbsp;niego kliknąłem, przeniosło mnie na stronę z&nbsp;komunikatem *500. Internal Server Error*.
 
 Znalazłem też linki do podstron Spider's Weba z&nbsp;ogólniejszymi tagami. Te z&nbsp;kolei działają, ale na liście nie ma już artykułów na temat UseCrypta.
 
-Wygląda to tak, jakby **stronka Spider's Web odcięła się od UseCrypta i&nbsp;artykułów o&nbsp;nim**. Ale niewątpliwie przez chwilę je miała.
+Jakie jest wyjaśnienie tego wszystkiego? Można je znaleźć w&nbsp;komentarzach pod tym artykułem, do którego odsyła przekierowanie:
 
-Na szczęście w&nbsp;internecie nic nie ginie, kiedy *archive.is* czuwa. Tak wyglądał [ten artykuł z&nbsp;2020 roku](https://archive.is/CrcRc). Oceńcie sami, na ile wydaje się spontaniczny i&nbsp;obiektywny.
+{%include comment.html author="Mateusz N*????*{:.cover}" text="Cześć, Emil, tekst został opublikowany jakiś czas temu na bazie informacji prasowej i nie mieliśmy wtedy wiedzy o problemach związanych z Usecryptem. Później pojawiły się kontrowersje, które potraktowaliśmy poważnie, dlatego **postanowiliśmy zrezygnować z korzystnej finansowo propozycji współpracy z tą marką**. Natomiast w związku z najnowszymi informacjami postanowiliśmy skasować wskazany przez Ciebie tekst."%}
+
+A jeśli chcecie przeczytać, o czym był usunięty artykuł, to na szczęście *archive.is* czuwa. Tak wyglądał [ten nowszy z&nbsp;2020 roku](https://archive.is/CrcRc). Oceńcie sami, na ile jest obiektywny.
 
 # Wprost
 
