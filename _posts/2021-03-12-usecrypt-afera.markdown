@@ -48,7 +48,7 @@ Ich oświadczenia:
 
 Z oświadczeń oraz poprzednich artykułów wynikało, że od kilku lat zwracali uwagę na luki bezpieczeństwa w&nbsp;komunikatorze UseCrypt. Spotykało się to z&nbsp;polemiką, oporem, a&nbsp;nawet wysyłaniem do nich sprostowań.
 
-Po czym nagle jedna z&nbsp;osób związanych z&nbsp;UseCryptem **złożyła zawiadomienie do prokuratury** o&nbsp;tym, że trzy redakcje zmówiły się i&nbsp;próbowały ich szantażować. Dokładnie w&nbsp;tym samym czasie do gazety Puls Biznesu trafiła informacja (od paru godzin prawdziwa!), że takie postępowanie się toczy.
+Po czym nagle do gazety Puls Biznesu i kilku innych trafiła informacja, że redakcje są zorganizowaną grupą przestępczą i&nbsp;że toczy się przeciwko nim postępowanie.
 
 Zaciekawiło mnie to i&nbsp;zagłębiłem się w&nbsp;całą sprawę. Wróciłem między innymi do tej [reklamy UseCrypta](https://www.youtube.com/watch?v=5L1wT2yE2dc), o&nbsp;której widywałem dyskusje.
 
