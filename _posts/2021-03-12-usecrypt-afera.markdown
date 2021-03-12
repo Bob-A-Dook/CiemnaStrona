@@ -330,11 +330,11 @@ Czy w&nbsp;takim układzie można szczerze nazwać EY klientem UseCrypta? Umiesz
 
 # Partnerstwa -- podsumowanie
 
-Lista partnerów, przynajmniej jeśli chodzi o&nbsp;duże międzynarodowe firmy, jest dość jednostronna. To znaczy **UseCrypt o&nbsp;tym wspomina, o&nbsp;one nie**. Przynajmniej na oficjalnych stronach.
+Lista partnerów, przynajmniej jeśli chodzi o&nbsp;duże międzynarodowe firmy, jest dość jednostronna. To znaczy **UseCrypt o&nbsp;partnerstwie wspomina, a&nbsp;one nie**. Przynajmniej na oficjalnych stronach.
 
-Natomiast moim zdaniem nie musi to jeszcze o&nbsp;niczym przesądzać. W&nbsp;przypadku dużych korpo często na oficjalnych stronach można zostać co najwyżej jednym z&nbsp;wielu elementów na jakiejś liście *vendorów*, w&nbsp;jakimś zapomnianym pliku.
+Natomiast moim zdaniem niczego to jeszcze o&nbsp;nie przesądza. W&nbsp;przypadku dużych korpo często na oficjalnych stronach można zostać co najwyżej jednym z&nbsp;wielu elementów na jakiejś liście *vendorów*, w&nbsp;jakimś zapomnianym pliku.
 
-Poza tym polskie organizacje, takie jak Netia, istotnie mają z&nbsp;UseCryptem umowy.
+Poza tym polskie organizacje, takie jak Netia, istotnie zawarły z&nbsp;UseCryptem umowy.
 
 Kwestia partnerstw to sprawa z&nbsp;gatunku tych, że mam przeczucie, ale pewności raczej nie zyskam. Kopmy dalej.
 
@@ -358,7 +358,7 @@ Zaciekawiła mnie jednak wymiana maili Kamila K. z&nbsp;Zaufaną Trzecią Stron�
 
 Później Kamil K. przesyła ZTS [sprostowanie](https://zaufanatrzeciastrona.pl/post/sprostowanie-2/), w&nbsp;którym odpowiada na kilka rzeczy. Ale nie kwestionuje tej, na której my się tutaj skupiamy.
 
-Wniosek: prezentacja UseCrypta dla inwestorów **zawierała nieprawdziwy tytuł naukowy i&nbsp;stanowisko**. Wydawały się brzmieć atrakcyjniej niż w&nbsp;rzeczywistości.
+Wniosek: prezentacja UseCrypta dla inwestorów **prawdopodobnie zawierała nieprawdziwy tytuł naukowy i&nbsp;stanowisko**. Wydawały się brzmieć atrakcyjniej niż w&nbsp;rzeczywistości.
 
 # Technologia HVKM
 
@@ -380,7 +380,7 @@ Wyszukałem w&nbsp;nim słowo `HVKM` i&nbsp;znalazłem fragment:
 Ponadto, Emitent złożył cztery wnioski w&nbsp;sprawie udzielenia ochrony patentu do Europejskiego Urzędu Patentowego oraz cztery wnioski do Urzędu Patentów i&nbsp;Znaków Towarowych Stanów Zjednoczonych (...)  
 [na funkcjonalności]: "Messaging privacy", "Panic code", "Data at rest", "Survaillance [sic] check"
 
-Zajrzałem z&nbsp;ciekawości na stronę unijnego IPO i&nbsp;rejestracje od UseCrypta. Wpisałem w&nbsp;[ich wyszukiwarkę „hvkm”](https://euipo.europa.eu/eSearch/#basic/1+1+1+1/100+100+100+100/hvkm). Spodziewałem się niezrozumiałych opisów i&nbsp;schematów, jak to w&nbsp;patentach bywa.
+Zajrzałem na stronę unijnego IPO. Wpisałem w&nbsp;[ich wyszukiwarkę „hvkm”](https://euipo.europa.eu/eSearch/#basic/1+1+1+1/100+100+100+100/hvkm). Spodziewałem się niezrozumiałych opisów i&nbsp;schematów, jak to w&nbsp;patentach bywa.
 
 A znalazłem tylko lakoniczne informacje z&nbsp;jednym schematem:
 
@@ -409,9 +409,9 @@ Natomiast tak na logikę. Jeśli:
 
 ...to czy można tu mówić o&nbsp;„opatentowanej technologii HVKM”?
 
-Ale przyznam, że mam o&nbsp;tych sprawach bardzo pobieżne pojęcie, więc powstrzymam się od interpretacji. Przejdźmy do sporów UseCrypta z&nbsp;innymi, żeby dodać trochę pikanterii.
+Ale przyznam, że mam o&nbsp;tych sprawach bardzo małe pojęcie, więc powstrzymam się od interpretacji. Przejdźmy do sporów UseCrypta z&nbsp;innymi, żeby dodać trochę pikanterii.
 
-{%include info.html type="Ciekawostka" text="Jedna z&nbsp;[prac pewnego użytkownika na Dribbble](https://dribbble.com/shots/3756945-Hybrid-Virtual-Key-Management-WIP-P-17) nazywa się *Hybrid Virtual Key Management*. Ta nazwa nie pojawia się poza kontekstem UseCrypta. Do tego rysunek ma znajome zielonkawe kolorki.  
+{%include info.html type="Ciekawostka" text="Jedna z&nbsp;[prac pewnego użytkownika na Dribbble](https://dribbble.com/shots/3756945-Hybrid-Virtual-Key-Management-WIP-P-17) nazywa się *Hybrid Virtual Key Management*. Ta nazwa nie pojawia się poza kontekstem UseCrypta. Do tego rysunek ma znajome zielonkawe kolorki ich marki.  
 Natomiast samo konto wydaje się niezwiązane z&nbsp;historią, według poszlak to rzeczywisty grafik spoza Polski. Może zewnętrzny wykonawca."%}
 
 ## Spory z&nbsp;udziałem UseCrypta
