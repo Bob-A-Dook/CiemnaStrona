@@ -235,7 +235,7 @@ Nie sprawdziłem wszystkich, ale podobno **żadna z&nbsp;tych stron nie oznaczy�
 
 Jeśli teraz spojrzymy na całość -- komentarze, recenzje, artykuły -- to można odnieść wrażenie, że ktoś bardzo mocno próbuje się przebić. I&nbsp;mówić o&nbsp;UseCrypcie głośno.
 
-A co mówi o&nbsp;sobie sam UseCrypt? Zajrzyjmy do autorskich materiałów.
+A co mówi o&nbsp;sobie sam UseCrypt? Zajrzyjmy do ich autorskich materiałów.
 
 ## Prezentacja inwestorska
 
@@ -258,9 +258,9 @@ Ale po obejrzeniu filmu wzrok kieruje się w&nbsp;dół. 1 038 050 wyświetleń.
 Tylko co z&nbsp;tą liczbą ocen? Są 223 kciuki w&nbsp;górę i&nbsp;33 kciuki w&nbsp;dół. Wiem że nie każdy reaguje, sam bardzo rzadko to robię. Ale 256 reakcji przy tylu wyświetleniach oznacza, że przeciętnie **kciuka w&nbsp;górę lub w&nbsp;dół zostawiało 0,02% widzów**.
 
 Taka proporcja wydaje się dość niska. Na przykład [ten artykuł](https://tubularlabs.com/blog/3-metrics-youtube-success/) wspomina, żeby celować przynajmniej w&nbsp;4% kciuków w&nbsp;górę.  
-UseCrypt nawet po zliczeniu wszystkich kciuków łącznie **miał ok. 200 razy mniej reakcji niż liczba dla „zdrowego” filmu**.
+UseCrypt, nawet po dodaniu kciuków w dół, łącznie **miał ok. 200 razy mniej reakcji niż liczba dla „zdrowego” filmu**.
 
-Dla porównania reklama z&nbsp;Vegą, też od nich, ma ok. 10 200 kciuków przy 363 386 wyświetleń. Reagowało prawie 3% widzów.  
+Dla porównania reklama z&nbsp;Vegą, też od nich, miała w tym samym czasie ok. 10 200 kciuków przy 363 386 wyświetleń. Reagowało prawie 3% widzów.  
 Tak wyglądają proporcje dla czegoś, co faktycznie było oglądane przez wielu ludzi. Dla manifestu z&nbsp;milionem widzów wartości są drastycznie niższe.
 
 Można zadać zatem pytanie -- czy ten milion wyświetleń został zebrany w&nbsp;sposób naturalny?
@@ -303,7 +303,7 @@ Tylko czy jeśli UseCrypt zapłacił za takie coś, to nie jest **po prostu klie
 
 Czyli EY z&nbsp;listy klientów.
 
-Jest kilka artykułów w&nbsp;mediach internetowych na temat powiązań UseCrypta z&nbsp;EY. We wszystkich, które znalazłem chwali go jedna osoba:
+Jest kilka artykułów w&nbsp;mediach internetowych na temat powiązań UseCrypta z&nbsp;EY. We wszystkich, które znalazłem, chwali go jedna osoba:
 
 > Nasz zespół ds. innowacji używa UseCrypt Messenger do komunikowania najważniejszych kwestii strategicznych, operacyjnych, a&nbsp;także ustalania zgodności dotyczących naszych projektów – podkreśla Krzysztof W*????????*{:.cover}, Associate Partner EY i&nbsp;szef EYnovation.
 
@@ -324,7 +324,7 @@ O, jest powiązanie! A&nbsp;czym jest program EYnovation?
 {:.figcaption}
 Źródło: [it-manager.pl](http://it-manager.pl/eynovation-ey-startuje-z-oferta-adresowana-do-polskich-startupow/)
 
-Wygląda na to, że **EYnovation to tylko cząstka dużego korpo**, jeden z&nbsp;wielu projektów pod jego parasolem. Coś w&nbsp;rodzaju klubu dla startupów. A&nbsp;częścią tego klubu jest/był UseCrypt. Dzięki temu mógł liczyć na odrobinę promocji ze strony szefa programu.
+Wygląda na to, że **EYnovation to tylko cząstka dużego korpo**, jeden z&nbsp;wielu projektów pod jego parasolem. Coś w&nbsp;rodzaju klubu dla startupów, do tego dział tylko dla polskich. A&nbsp;częścią tego klubu jest/był UseCrypt. Dzięki temu mógł liczyć na odrobinę promocji ze strony szefa programu.
 
 Czy w&nbsp;takim układzie można szczerze nazwać EY klientem UseCrypta? Umieszczając na stronie logo całego wielkiego korpo? Zostawiam Waszemu osądowi.
 
@@ -332,7 +332,7 @@ Czy w&nbsp;takim układzie można szczerze nazwać EY klientem UseCrypta? Umiesz
 
 Lista partnerów, przynajmniej jeśli chodzi o&nbsp;duże międzynarodowe firmy, jest dość jednostronna. To znaczy **UseCrypt o&nbsp;partnerstwie wspomina, a&nbsp;one nie**. Przynajmniej na oficjalnych stronach.
 
-Natomiast moim zdaniem niczego to jeszcze o&nbsp;nie przesądza. W&nbsp;przypadku dużych korpo często na oficjalnych stronach można zostać co najwyżej jednym z&nbsp;wielu elementów na jakiejś liście *vendorów*, w&nbsp;jakimś zapomnianym pliku.
+Natomiast moim zdaniem niczego to jeszcze nie przesądza. W&nbsp;przypadku dużych korpo często na oficjalnych stronach można zostać co najwyżej jednym z&nbsp;wielu elementów na jakiejś liście *vendorów*, w&nbsp;jakimś zapomnianym pliku.
 
 Poza tym polskie organizacje, takie jak Netia, istotnie zawarły z&nbsp;UseCryptem umowy.
 
@@ -356,7 +356,7 @@ Zaciekawiła mnie jednak wymiana maili Kamila K. z&nbsp;Zaufaną Trzecią Stron�
 {:.figcaption}
 Źródło: [Zaufana Trzecia Strona](https://zaufanatrzeciastrona.pl/post/kto-zarejestrowal-domene-przez-ktora-przechodzi-ruch-uzytkownikow-usecrypt-messengera/)
 
-Później Kamil K. przesyła ZTS [sprostowanie](https://zaufanatrzeciastrona.pl/post/sprostowanie-2/), w&nbsp;którym odpowiada na kilka rzeczy. Ale nie kwestionuje tej, na której my się tutaj skupiamy.
+Później Kamil K. przesyła ZTS [sprostowanie](https://zaufanatrzeciastrona.pl/post/sprostowanie-2/), w&nbsp;którym kwestionuje kilka rzeczy. Ale nie tę, na której się tutaj skupiamy.
 
 Wniosek: prezentacja UseCrypta dla inwestorów **prawdopodobnie zawierała nieprawdziwy tytuł naukowy i&nbsp;stanowisko**. Wydawały się brzmieć atrakcyjniej niż w&nbsp;rzeczywistości.
 
@@ -537,7 +537,7 @@ Z tej notki wynika, że Lazar Vision Fund nazywał się wcześniej Berkeley Fund
 
 A Berkeley Funds [inwestowało w&nbsp;CryptoMind](https://tracxn.com/explore/Data-Security-Startups-in-Poland) -- czyli UseCrypt S.A pod dawną nazwą.
 
-Co więcej, **fundusz Berkeley Funds należał do Krzysztofa M.**, prezesa UseCrypt S.A. Sugerowałoby to, że LVF nie jest takim znów zewnętrznym graczem, a&nbsp;współpraca jest bardzo ścisła.
+Co więcej, **fundusz Berkeley Funds należał do Krzysztofa M., prezesa UseCrypt S.A**. Sugerowałoby to, że LVF nie jest takim znów zewnętrznym graczem, a&nbsp;współpraca jest bardzo ścisła.
 
 Ogólnie Berkeley Funds było funduszem *private equity* inwestującym w&nbsp;nowe technologie. Czytając [wywiad z&nbsp;Krzysztofem M.](https://echodnia.eu/o-polaku-ktory-jest-jak-krol-midas-czego-nie-dotknie-zamienia-sie-w-zloto/ar/c3-10162506) (porównywanym tu do Króla Midasa) dowiadujemy się, w&nbsp;jakie dokładnie.
 
