@@ -622,16 +622,16 @@ Jestem pewien, że dałoby się sięgać jeszcze głębiej. W&nbsp;komentarzach 
 
 * Adrianna P. i&nbsp;celebryci
 
-  Opisana w&nbsp;pewnym komentarzu jako naganiaczka influencerek, związana z&nbsp;klubami. W jednym z&nbsp;filmów promocyjnych robi wywiad z&nbsp;dziewczyną znanego boksera, Przemysława S.;  
+  Opisana w&nbsp;pewnym komentarzu jako naganiaczka influencerek, związana z&nbsp;klubami. W jednym z&nbsp;filmów promocyjnych robi wywiad z&nbsp;dziewczyną znanego boksera, Przemysława S.  
   Oprócz tego na Instagramie można znaleźć reklamy z&nbsp;udziałem dość znanych celebrytów. Zostali nieświadomie wciągnięci czy wiedzieli?
 
 * Wszystkie firmy związane ze sprawą Kancelarii Nikodemus;
   
-  Było ich tam mnóstwo. Jeśli przy tych kilku opisanych jeszcze dawałem radę, to na tym etapie siatka powiązań była już zbyt gęsta. Ale może ktoś mądrzejszy by rozplótł?
+  Było ich tam mnóstwo. O&nbsp;ile przy tych kilku z&nbsp;tego wpisu jeszcze dawałem radę, to w&nbsp;sprawie Kancelarii siatka powiązań była już zbyt gęsta. Ale może ktoś mądrzejszy by rozplótł?
 
 * **Miejski filtr Oxygen**
   
-  Na ich kanale na YT jest [filmik](https://www.youtube.com/watch?v=j2qmvQVMyZk), na którym prezes rozmawia z&nbsp;osobą ściśle związaną z&nbsp;UseCryptem.  
+  Na ich kanale na YT jest [filmik](https://www.youtube.com/watch?v=j2qmvQVMyZk), na którym prezes Oxygen City sp. z&nbsp;o.o. rozmawia ze znaną nam Sandrą od UseCrypta.  
   [Wsparł ich](https://www.instagram.com/p/CIndFKwgzow/) Patryk Vega.  
   Określają się na zdjęciu z&nbsp;Facebooka jako **„filtr antysmogowy i&nbsp;antypandemiczny”**. Sprawy na czasie, przemawiające do miastowych?  
   Wszędzie ingliszowe nazwy i&nbsp;nowoczesny dizajn.  
