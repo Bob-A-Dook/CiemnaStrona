@@ -138,9 +138,9 @@ Czy tak wyglądają naturalne, entuzjastyczne recenzje nowej aplikacji?
 
 W chwili tworzenia tego wpisu na Instagramie znajdowało się 208 postów otagowanych `#usecrypt` i&nbsp;144 z&nbsp;`#usecryptmessenger`. Są również dwa konta, `usecryptpoland` i&nbsp;`usecryptglobal`.
 
-Jest wśród nich sporo postów reklamujących UseCrypta. Najczęściej zostały zamieszczone przez różnych użytkowników Instagrama, a nia sam UseCrypt. Ich znakiem rozpoznawczym są białe bluzy z&nbsp;czerwonym napisem, czapki z&nbsp;daszkiem albo smartfon, na którym wyświetlone jest zielone logo aplikacji.
+Jest wśród nich sporo postów reklamujących UseCrypta. Najczęściej zostały zamieszczone przez różnych użytkowników Instagrama, a nie przez konto UseCrypta. Znakiem rozpoznawczym tych postów są białe bluzy z&nbsp;czerwonym napisem, czapki z&nbsp;daszkiem albo smartfony, na których widać zielone logo aplikacji.
 
-Poza tym prawie każdy z&nbsp;tych wpisów zawiera dość długi opis mówiący o&nbsp;prywatności w&nbsp;obecnych czasach i&nbsp;zachęcający do użycia aplikacji.
+Poza tym prawie każdy z&nbsp;tych postów zawiera dość długi opis mówiący o&nbsp;prywatności w&nbsp;obecnych czasach i&nbsp;zachęcający do użycia aplikacji.
 
 Konto `usecryptpoland` zawiera trochę konkretów, w&nbsp;tym filmiki instruktażowe. Konto `usecryptglobal` to głównie zdjęcia i&nbsp;cytaty znanych postaci oraz hasełka coachowato-motywacyjne:
 
@@ -186,7 +186,7 @@ A jeśli chcecie przeczytać, o czym był usunięty artykuł, to na szczęście 
 
 # Wprost
 
-W tekście bloga na stronie „Wprost” mamy tekst zawierający głównie fakty, ale także wplecioną wzmiankę o&nbsp;UseCrypcie:
+W tekście pewnego bloga na stronie „Wprost” mamy głównie fakty związane z&nbsp;wojną cybernetyczną, ale wpleciono między nie również wzmiankę o&nbsp;UseCrypcie:
 
 > I&nbsp;tu dobra nowina, choć zaskakująco mało znana – jedna z&nbsp;polskich firm (z polskim kapitałem) wyspecjalizowanych w&nbsp;profesjonalnej ochronie danych, wyprodukowała system kryptograficzny pod nazwą UseCrypt, z&nbsp;którym mogą się równać jedynie nieliczne systemy kilku potężnych amerykańskich firm
 
@@ -197,8 +197,8 @@ W tekście bloga na stronie „Wprost” mamy tekst zawierający głównie fakty
 
 Niebezpiecznik we [wpisie z&nbsp;2018 roku](https://niebezpiecznik.pl/post/prostujemy-nieprawdziwe-sformulowania-o-komunikatorach-signal-i-whatsapp-w-rzeczpospolitej/) krytykuje trzy artykuły z&nbsp;„Rzeczpospolitej”.
 
-Po pierwsze: punktuje w&nbsp;nich sposób potraktowania tematu.  
-Po drugie: zwraca uwagę na to, że jeden z&nbsp;nich wykorzystuje dokładnie takie materiały, jakie próbowała im upchnąć w&nbsp;mailu pracownica działu PR „pewnej firmy”.
+Po pierwsze: krytykuje w&nbsp;nich sposób przedstawienia tematu.  
+Po drugie: zwraca uwagę na to, że jeden z&nbsp;artykułów wykorzystuje dokładnie takie materiały, jakie również im (Niebezpiecznikowi) próbowała upchnąć w&nbsp;mailu pracownica działu PR „pewnej firmy”.
 
 Nie wymieniają tej firmy z&nbsp;nazwy, więc zróbmy małe śledztwo. Tu fragment maila:
 
