@@ -75,7 +75,7 @@ Chodźmy na Wykop, bo tam się sporo mówi o&nbsp;komputerach.
 
 Po wyszukaniu hasła `usecrypt` można znaleźć wątki jeszcze sprzed kilku lat. A&nbsp;pod nimi entuzjastyczne komentarze:
 
-{% include comment.html source="wykop" author="alex-*_________*{:.cover}"  text="Znakomita rozwiązanie, korzystamy w&nbsp;firmie do wymiany danych. Nie wyobrażam sobie pracy bez wspólnej szyfrowanej przestrzeni. Odkąd zaczęliśmy korzystać z&nbsp;UseCrypt Safe ryzyko wycieku danych jest dużo mniejsze niż dotychczas. " %}
+{% include comment.html source="wykop" author="alex-*??????????*{:.cover}"  text="Znakomita rozwiązanie, korzystamy w&nbsp;firmie do wymiany danych. Nie wyobrażam sobie pracy bez wspólnej szyfrowanej przestrzeni. Odkąd zaczęliśmy korzystać z&nbsp;UseCrypt Safe ryzyko wycieku danych jest dużo mniejsze niż dotychczas. " %}
 
 {:.figcaption}
 Źródło: [Wykop](https://www.wykop.pl/link/3679401/usecrypt-polski-system-kryptograficzny/)
@@ -84,7 +84,7 @@ Wykop ma opcję przeglądania wszystkich komentarzy danego użytkownika, więc m
 Okazuje się, że ta sama osoba udzielała się w&nbsp;innych tematach, za każdym razem chwaląc komunikator. Niekiedy rozwlekle:
 
 {:.bigspace}
-{% include comment.html author="alex-*_________*{:.cover}" source="wykop" text="Autorskie rozwiązanie na pisane w&nbsp;jezyku c++ korzytące ze znanych algorytmów szyfrujących AES, RSA. Największą zaletą jest to, że klucz RSA prywatny jest podzielony na dwie części, jedna część jest na urządzeniu końcowym druga na serwerze, takiego zastosowania nie oferuje żadne inne rozwiązanie, mało tego UseCrypt ma taki podział klucza opatentowany. Dzięki takiemu rozwiązaniu nikt inny po za zaufanymi osobami nie ma wglądu do danych szyfrowanych za pomocą UseCrypt Safe." %}
+{% include comment.html author="alex-*??????????*{:.cover}" source="wykop" text="Autorskie rozwiązanie na pisane w&nbsp;jezyku c++ korzytące ze znanych algorytmów szyfrujących AES, RSA. Największą zaletą jest to, że klucz RSA prywatny jest podzielony na dwie części, jedna część jest na urządzeniu końcowym druga na serwerze, takiego zastosowania nie oferuje żadne inne rozwiązanie, mało tego UseCrypt ma taki podział klucza opatentowany. Dzięki takiemu rozwiązaniu nikt inny po za zaufanymi osobami nie ma wglądu do danych szyfrowanych za pomocą UseCrypt Safe." %}
 
 Takich użytkowników jest więcej. Ktoś wkurzył się na jednego z&nbsp;nich i&nbsp;zrobił [całą kompilację komentarzy](https://www.wykop.pl/cdn/c3201142/comment_X29YKqDeOaIa5BxnxMhG2o5oMCrBdI9L.jpg). Widać, że ktoś uczynił chwalenie komunikatora swoją misją i&nbsp;powołaniem.
 
@@ -443,13 +443,14 @@ Sprawa zgłoszenia do prokuratury i&nbsp;okazjonalne prztyczki to nie wszystko, 
 Na Twitterze możemy również znaleźć informację od Piotra K., redaktora naczelnego Niebezpiecznika. Cytuje wiadomość, jaką od kogoś dostał. Wynikałoby z&nbsp;niej, że ktoś się na niego powołał, polecając UseCrypta:
 
 {% include comment.html source="twitter" author="Piotr K*???????*{:.cover}" text="*(cytat)*  
-Piszę, bo chciałem potwierdzić informacje o&nbsp;rozwiązaniu UseCrypt. Chwalą się, że ich chwalisz :->
+Piszę, bo chciałem potwierdzić informacje o&nbsp;rozwiązaniu UseCrypt. Chwalą się, że ich chwalisz :-).
 *(koniec cytatu)*  
+Otrzymałem takie pytanie na LinkedIn...  
 OFICJALNIE DEMENTUJĘ że chwalę ten komunikator.  
 Uważam, że najlepszym komunikatorem jest Signal i&nbsp;tylko jego polecam."%}
 
 {:.figcaption}
-Źródło: [Twitter](https://twitter.com/konieczny/status/1111201731407474688)
+Źródło: [Twitter](https://twitter.com/konieczny/status/1111201731407474688) (skróty moje).
 
 # Twitterowa prośba o&nbsp;wynik audytu
 
