@@ -37,7 +37,7 @@ Ale monitorowanie, kto potem w&nbsp;te linki kliknie? To już trudniejsza sprawa
 Przeglądarki mają własną metodę postępowania z&nbsp;linkami. Nawet jeśli jesteśmy na stronie A, to po kliknięciu w&nbsp;link do strony B&nbsp;przeglądarka po prostu opuszcza A&nbsp;i wysyła B&nbsp;informację, że chce ją odwiedzić.
 
 {:.figure}
-<img src='/assets/draft_imgs/przekierowania/distracted-boyfriend-mem.webp' alt="Znany mem pokazujący chłopaka idącego za rękę z&nbsp;dziewczyną, który ogląda się za inną dziewczyną. A&nbsp;ta, z&nbsp;którą szedł, patrzy na niego ze złością. Na postać chłopaka nałożone jest logo Firefoksa. Na postać dziewczyny, z&nbsp;którą szedł, napis facebook.com. A&nbsp;na postać dziewczyny, za którą się ogląda -- ciemnastrona.com.pl."/>
+<img src='/assets/posts/przekierowania/distracted-boyfriend-mem.webp' alt="Znany mem pokazujący chłopaka idącego za rękę z&nbsp;dziewczyną, który ogląda się za inną dziewczyną. A&nbsp;ta, z&nbsp;którą szedł, patrzy na niego ze złością. Na postać chłopaka nałożone jest logo Firefoksa. Na postać dziewczyny, z&nbsp;którą szedł, napis facebook.com. A&nbsp;na postać dziewczyny, za którą się ogląda -- ciemnastrona.com.pl."/>
 
 {:.figcaption}
 Mem nie jest w&nbsp;100% trafny -- strona A&nbsp;tak łatwo się nie dowie, że przeglądarka przechodzi na B.
@@ -46,7 +46,7 @@ Strona A&nbsp;nie może zmienić działania przeglądarki. Ale może stosować s
 
 Spójrzmy najpierw na schemat. Gdyby Twitter zachowywał się jak typowe strony, to interakcje z&nbsp;linkami wyglądałyby w&nbsp;taki sposób:
 
-<img src='/assets/draft_imgs/przekierowania/linki-demo1.webp' alt="Schemat pokazujący dwa prostokątne pola odpowiadające dwóm stronom internetowym. U&nbsp;góry widać pole jasnoniebieskie, ozdobione po lewej stronie dużym logiem Twittera. Wewnątrz pola znajduje się zrzut ekranu tweeta. Widać na nim link, wyróżniony tu ciemnoniebieską obwódką. Dolne prostokątne pole, jasnopomarańczowe, zawiera zrzut ekranu z&nbsp;forum Hacker News, z&nbsp;podstrony do którego prowadził wyróżniony link. Po lewej stronie pole jest ozdobione logiem tego forum. Oba pola są połączone grubą, ciemnoniebieską strzałką. Jest przy niej ikona paczki -- miniatura obrazka z&nbsp;pierwszego wpisu z&nbsp;tej serii, symbolizująca nagłówki HTTP."/>
+<img src='/assets/posts/przekierowania/linki-demo1.webp' alt="Schemat pokazujący dwa prostokątne pola odpowiadające dwóm stronom internetowym. U&nbsp;góry widać pole jasnoniebieskie, ozdobione po lewej stronie dużym logiem Twittera. Wewnątrz pola znajduje się zrzut ekranu tweeta. Widać na nim link, wyróżniony tu ciemnoniebieską obwódką. Dolne prostokątne pole, jasnopomarańczowe, zawiera zrzut ekranu z&nbsp;forum Hacker News, z&nbsp;podstrony do którego prowadził wyróżniony link. Po lewej stronie pole jest ozdobione logiem tego forum. Oba pola są połączone grubą, ciemnoniebieską strzałką. Jest przy niej ikona paczki -- miniatura obrazka z&nbsp;pierwszego wpisu z&nbsp;tej serii, symbolizująca nagłówki HTTP."/>
 
 {:.figcaption}
 Treść tweeta to lekki spoiler odnośnie jednego z najbliższych wpisów.
@@ -79,7 +79,7 @@ Dzięki temu, że Twitter podmienił źródło linku na samym początku, będzie
 Etap drugi, czyli interakcja z&nbsp;podmienionym linkiem, wygląda tak:
 
 {:.bigspace}
-<img src='/assets/draft_imgs/przekierowania/linki-demo2.webp' alt="Rozbudowana wersja poprzedniego schematu. Z&nbsp;pola odpowiadającego Twitterowi wychodzi przerywana linia zakończona grotem, zmierzająca do jego loga. Obok grotu strzałki narysowany jest symbol nagłówków HTTP. Druga przerywana linia odchodzi z&nbsp;loga Twittera i&nbsp;kieruje się do małego pola ze skróconym adresem zaczynającym się na t.co. To pole ma taki sam kolor tła jak to duże dlas Twittera. Dopiero z&nbsp;tego pola odchodzi duża strzałka połączona z&nbsp;polem Hacker News."/>
+<img src='/assets/posts/przekierowania/linki-demo2.webp' alt="Rozbudowana wersja poprzedniego schematu. Z&nbsp;pola odpowiadającego Twitterowi wychodzi przerywana linia zakończona grotem, zmierzająca do jego loga. Obok grotu strzałki narysowany jest symbol nagłówków HTTP. Druga przerywana linia odchodzi z&nbsp;loga Twittera i&nbsp;kieruje się do małego pola ze skróconym adresem zaczynającym się na t.co. To pole ma taki sam kolor tła jak to duże dlas Twittera. Dopiero z&nbsp;tego pola odchodzi duża strzałka połączona z&nbsp;polem Hacker News."/>
 
 1. Ktoś klika w&nbsp;link z&nbsp;tweeta.
 
@@ -145,7 +145,7 @@ Jeśli widzimy pełen adres strony w&nbsp;formie tekstu, ale ukryty pod nim link
 
 {% include info.html type="Porada" text="Czasami widoczny adres strony jest przycięty, ale pokazuje się w całości po najechaniu kursorem. Tak jest w&nbsp;przypadku tego linka z&nbsp;Twittera (obrazek poniżej; widać, że po najechaniu pokazują się obie brakujące cyfry).  
 Jeśli boimy się techniki, to możemy skopiować do paska przeglądarki tę część, którą się da, a&nbsp;resztę wyświetlić i&nbsp;dopisać ręcznie.  
-Ale lepiej kliknąć link prawym przyciskiem, wybrać `Zbadaj element` i&nbsp;skopiować potrzebny tekst prosto z&nbsp;kodu strony (w razie potrzeby klikając w&nbsp;strzałki, żeby rozwinąć elementy)." trailer="<p class='figure'><img src='/assets/draft_imgs/przekierowania/twitter-link-prawdziwy.webp' alt='Mały zrzut ekranu pokazujący fragment linka z&nbsp;poprzednich przykładów z&nbsp;Twittera. Pod tekstem, który jest częściowo ucięty, widać pasek z&nbsp;tekstem na szarym tle, który pokazał się po najechaniu kursorem na link. Ten tekst zawiera link w&nbsp;całości, razem z&nbsp;uciętymi cyframi.'/></p>"%}
+Ale lepiej kliknąć link prawym przyciskiem, wybrać `Zbadaj element` i&nbsp;skopiować potrzebny tekst prosto z&nbsp;kodu strony (w razie potrzeby klikając w&nbsp;strzałki, żeby rozwinąć elementy)." trailer="<p class='figure'><img src='/assets/posts/przekierowania/twitter-link-prawdziwy.webp' alt='Mały zrzut ekranu pokazujący fragment linka z&nbsp;poprzednich przykładów z&nbsp;Twittera. Pod tekstem, który jest częściowo ucięty, widać pasek z&nbsp;tekstem na szarym tle, który pokazał się po najechaniu kursorem na link. Ten tekst zawiera link w&nbsp;całości, razem z&nbsp;uciętymi cyframi.'/></p>"%}
 
 No, ale czasem szczęście nam nie sprzyja. Widzimy tylko skrócony link, bez żadnej wskazówki dokąd prowadzi. Albo używamy urządzenia mobilnego i&nbsp;ciężko zajrzeć w&nbsp;kod strony.
 
@@ -163,7 +163,7 @@ Najpierw klikamy prawym przyciskiem na link (na mobilnym: przytrzymujemy palec) 
 Potem odwiedzamy *getlinkinfo.com*, wklejamy adres w&nbsp;puste pole i&nbsp;klikamy przycisk `Get Link Info`. Ich serwery wezmą na klatę podrobiony link, odwiedzą go i&nbsp;pokażą nam, dokąd prowadził (zaznaczyłem na czerwono):
 
 {:.figure .bigspace}
-<img src='/assets/draft_imgs/przekierowania/getlinkinfo-wynik.webp' alt="Zrzut ekranu ze strony GetLinkInfo. W&nbsp;środkowym pasku wklejony skrócony adres strony. Pod nim widać listę wyświetlonych informacji. Wśród nich zaznaczona czerwoną ramką informacja nazwana 'Effective URL' -- o&nbsp;adresie, do którego tak naprawdę prowadził link."/>
+<img src='/assets/posts/przekierowania/getlinkinfo-wynik.webp' alt="Zrzut ekranu ze strony GetLinkInfo. W&nbsp;środkowym pasku wklejony skrócony adres strony. Pod nim widać listę wyświetlonych informacji. Wśród nich zaznaczona czerwoną ramką informacja nazwana 'Effective URL' -- o&nbsp;adresie, do którego tak naprawdę prowadził link."/>
 
 Teraz wystarczy tylko w&nbsp;niego kliknąć... Albo go skopiować i&nbsp;wkleić w&nbsp;pasek przeglądarki (żeby nie wysyłać w&nbsp;refererze informacji, że przybywamy z&nbsp;*getlinkinfo.com* :sunglasses:).
 
