@@ -18,7 +18,7 @@ W tym odcinku nadal trzymamy się tematu linków. Poznamy coś, co można uznać
 Gwiazdą wieczoru będzie Twitter, który takie coś uskutecznia.
 
 {% include info.html type="Podstawy" text="Ogólnie wpis nie wymaga żadnej wiedzy o&nbsp;Twitterze.  
-Wystarczy wiedzieć, że to amerykański portal społecznościowy. Można na nim pisać krótkie wiadomości zwane *tweetami* (liczące na dzień dzisiejszy maksymalnie 280 znaków). Wiadomości mogą zawierać linki, obrazki i&nbsp;inne dodatki." %}
+Wystarczy wiedzieć, że to amerykański portal społecznościowy. Można na nim tworzyć krótkie, widoczne dla każdego wpisy zwane *tweetami* (liczące na dzień dzisiejszy maksymalnie 280 znaków). Tweety mogą zawierać linki, obrazki i&nbsp;inne dodatki." %}
 
 ## Wprowadzenie
 
@@ -162,7 +162,7 @@ I tak źle, i&nbsp;tak niedobrze. Czy jest jakieś rozwiązanie?
 
 # GetLinkInfo
 
-Otóż jest -- ale wymaga odrobiny spychologii. **Jeśli ktoś musi w&nbsp;ten link wejść, to niech to będzie ktoś inny**. Na przykład [strona GetLinkInfo.com](www.getlinkinfo.com).
+Otóż jest -- ale wymaga odrobiny spychologii. **Jeśli ktoś musi w&nbsp;ten link wejść, to niech to będzie ktoś inny**. Na przykład [strona GetLinkInfo.com](https://www.getlinkinfo.com).
 
 Najpierw klikamy prawym przyciskiem na link (na mobilnym: przytrzymujemy palec) i&nbsp;wybieramy `Kopiuj adres odnośnika`. W&nbsp;ten sposób skopiujemy do schowka ten skrócony adres, *t.co...* w&nbsp;przypadku Twittera.
 
