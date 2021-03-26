@@ -115,7 +115,12 @@ Wystarczyłoby podmienić odpowiednie mini-stronki z&nbsp;serii *t.co*. Żeby za
 
 Użytkownicy nieobeznani z&nbsp;takimi trikami mogliby wtedy pomyśleć, że to ze stronką *krytyka-dyktatora* jest coś nie tak -- w&nbsp;końcu linki do tej strony na Twitterze miały jej normalną nazwę. Kliknęli, a&nbsp;tu informacja o&nbsp;zagrożeniu wyskakuje!
 
-Mogłoby im nie przyjść do głowy, że to władca Twittera stosuje cenzurę. Jeden pstryczek, jedna strona odcięta. Uroki scentralizowanej władzy.
+Mogłoby im nie przyjść do głowy, że to władca Twittera stosuje cenzurę. Jeden pstryczek, jedna strona odcięta. Nic nie wymknie się poza Twittera bez jego wiedzy. Uroki scentralizowanej władzy.
+
+<img src='/assets/posts/przekierowania/twitter-tco.webp' alt=""/>
+
+{:.figcaption}
+Źródło obrazka: [Reddit](https://www.reddit.com/r/blender/comments/7ij4ir/geodesic_force_field/). Przeróbka moja.
 
 {% include info.html type="Ciekawostka" text="W&nbsp;USA skierowali nawet [pozew zbiorowy](https://www.dailydot.com/debug/twitter-short-url-lawsuit/) przeciw Twitterowi, argumentując że wysyłanie po kryjomu danych o&nbsp;klikniętych linkach narusza kalifornijskie przepisy o&nbsp;ochronie prywatności (odpowiednik polskiego RODO)."%}
 
