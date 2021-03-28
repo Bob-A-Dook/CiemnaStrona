@@ -17,7 +17,8 @@ plugins:
 collections:
   serie:
     output: true
-    
+  tutorials:
+    output: true
 
 #emoji:
 #  src: "/assets/images/"
