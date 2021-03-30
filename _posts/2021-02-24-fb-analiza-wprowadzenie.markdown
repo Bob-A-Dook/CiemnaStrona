@@ -267,23 +267,16 @@ Możecie najechać kursorem na jej imię i&nbsp;spojrzeć w&nbsp;lewy dolny róg
 
 ## Twoja oś czasu
 
-Na koniec <a href="/assets/posts/fb-analiza-wprowadzenie/skrypty/fb_data_timeline.py" download>mój skrypt w&nbsp;Pythonie</a>, efekt działań z&nbsp;tego wpisu. Oddaję go w&nbsp;Twoje ręce, możesz używać i&nbsp;modyfikować do woli.
+Na koniec mój skrypt w&nbsp;Pythonie, efekt działań z&nbsp;tego wpisu:
 
-Dobra wiadomość -- **oprócz samego Pythona nie trzeba nic instalować**. Moje poprzednie skrypty, do wyciągania metadanych ze zdjęć, wymagały dodatkowego modułu do obrazków. Tym razem jest łatwiej.
+{% include pyscript.html name="fb_data_timeline.py" link="/assets/posts/fb-analiza-wprowadzenie/skrypty/fb_data_timeline.py" info="Instrukcja:
+<ul style='margin-top:0px;margin-bottom:0px'>
+<li>Najpierw <a href='/facebook_dane/2021/02/11/bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka.html'>pobieramy swoje dane z&nbsp;Facebooka</a>.</li>
+<li>Uzyskany plik <i>zip</i> dajemy do jakiegoś folderu. Możemy go rozpakować, ale nie musimy.</li>
+<li>W tym samym folderze umieszczamy mój skrypt i&nbsp;go odpalamy.</li>
+<li>Jeśli wszystko dobrze poszło, powstanie plik tekstowy <i>fb_moja_os_czasu.txt</i>. Można go otworzyć np. w&nbsp;Notatniku. Zawiera listę różnych naszych działań ułożonych chronologicznie.</li></ul>"%}
 
-1. Jeśli jeszcze nie instalowaliśmy Pythona, to go pobieramy z&nbsp;[oficjalnej strony](https://www.python.org/downloads/).
-
-   Powinno automatycznie podpowiedzieć najnowszą wersję, odpowiednią dla Twojego systemu operacyjnego.  
-   Podczas instalacji pamiętaj o&nbsp;zaznaczeniu opcji zainstalowania IDLE (domyślnego edytora).
-
-2. Pobieramy swoje dane z&nbsp;Facebooka i&nbsp;umieszczamy plik *zip* w&nbsp;jakimś osobnym folderze X. Możemy go rozpakować, ale nie musimy.
-3. W&nbsp;tym samym folderze X&nbsp;umieszczamy mój skrypt.
-4. Klikamy prawym przyciskiem na skrypt i&nbsp;wybieramy `Otwórz za pomocą → IDLE (...)`. Patrzymy, czy nie ma tam jawnych wirusów. Potem naciskamy `F5`, żeby odpalić skrypt.
-
-   Gdyby IDLE'a nie było w opcjach, to można go otworzyć w inny sposób, na przykład przez menu Start z lewego dolnego rogu (w zakładce `Python...`).  
-   A potem wybrać w nim `Plik → Otwórz` lub nacisnąć `Ctrl+O` i przeklikać się przez foldery do naszego skryptu.
-
-Po odpaleniu skryptu w&nbsp;folderze X&nbsp;powinien powstać plik tekstowy *fb_moja_os_czasu.txt* z&nbsp;Twoją osią czasu. Możesz go otworzyć w&nbsp;Notatniku czy dowolnym innym programie, przeszukiwać, robisz co chcesz. Teraz Twoja oś czasu jest Twoja.
+Oddaję skrypt w&nbsp;Twoje ręce, możesz używać i&nbsp;modyfikować do woli. Teraz Twoja oś czasu jest Twoja.
 
 To tyle na dziś. W&nbsp;kolejnym wpisie mój „konik”, czyli analiza tekstu (wiadomości z&nbsp;Messengera). Będzie się działo! :metal:
 

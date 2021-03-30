@@ -48,7 +48,7 @@ Każdy z&nbsp;moich skryptów zawsze zapewniam w&nbsp;formie pojedynczego pliku 
 
 Jeśli ma jakieś szczególne wymagania (np. potrzebuje dodatkowych modułów), to zawsze o&nbsp;tym wspominam.
 
-Na potrzeby wprowadzenia naszykowałem dla Was <a href="/assets/tutorials/python-basics/witaj.py" download>skrypt przykładowy <i>witaj.py</i></a>.
+Na potrzeby wprowadzenia naszykowałem dla Was <a href="/assets/tutorials/python-basics/witaj.py" download>skrypt przykładowy: <i>witaj.py</i></a>.
 
 Cała jego zawartość to:
 

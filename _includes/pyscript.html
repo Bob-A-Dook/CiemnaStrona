@@ -1,0 +1,27 @@
+<div style="margin-top:3em;margin-bottom:3em">
+  <div class="subcontent-heading">
+    <img src="/assets/py-icon.png" style="display:inline-block;padding-bottom:5px;height:25px;width:25px;vertical-align:middle" alt=""/>
+<span style="padding-left: 10px; padding-right: 15px">
+Skrypt <i>{{include.name}}</i> <span style="padding-left:10px">(<a href="{{include.link}}" download>pobierz</a>)</span>
+</span>
+  </div>
+  <div class="bold-border" style="padding:10px;border-radius:0px 10px 10px 0px">
+
+    <div class="post-meta" style="margin-bottom:30px">
+    Mogą się Wam przydać samouczki:
+    <ul style="margin-top:0px;margin-bottom:0px">
+    <li><a href="{{site.url}}/tutorials/using-python">instalowanie Pythona i używanie skryptów</a></li>
+    {% if include.external %}
+    <li><a href="{{site.url}}/tutorials/using-pip">pobieranie dodatkowych modułów</a></li>
+    {% endif %}
+    </ul>
+    </div>
+
+    {{include.info}}
+
+    {% if include.trailer %}
+      <div markdown="1">{{include.trailer}}</div>
+    {% endif %}
+    
+  </div>
+</div>
