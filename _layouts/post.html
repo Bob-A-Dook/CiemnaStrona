@@ -44,16 +44,16 @@ layout: default
       </div>
     {% endif %}
 
-
-    <!-- The series the post belongs to (if any) -->
-    {% if page.category %}
-    <div class="post-categories post-meta"> Seria: <a href="/serie/{{page.category}}">{{page.category_readable}}</a></p>
-    </div>
-    {% endif %}
-
   </header>
 
-  <!-- Main post content -->
+<!-- Series info (if any) -->
+{% if page.category %}
+   {% assign series_name = page.category_readable %}
+
+    <p class="link-nav-heading bigspace" markdown="1">Wpis z serii <i><a href="/serie/{{page.category}}">{{series_name}}</a></i></p>
+{% endif %}
+
+<!-- Main post content -->
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>

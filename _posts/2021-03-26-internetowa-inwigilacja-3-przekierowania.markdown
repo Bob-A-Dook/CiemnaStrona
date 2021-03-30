@@ -6,7 +6,7 @@ date:   2021-03-26 00:00:15 +0100
 tags: [Internet, Inwigilacja, Centralizacja, Porady]
 firmy: [Twitter]
 category: internetowa_inwigilacja
-category_readable: "Internetowa inwigilacja"
+category_readable: "Internetowa&nbsp;inwigilacja"
 ---
 
 W poprzednich częściach „Internetowej inwigilacji” porównałem informacje, jakie wysyłamy innym stronom internetowym, do etykiet naklejanych na paczki i&nbsp;listy.

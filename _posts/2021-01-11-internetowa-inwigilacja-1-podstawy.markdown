@@ -5,7 +5,7 @@ subtitle: "Nasze wizytówki, czyli nagłówki (HTTP)"
 date:   2021-01-11 16:28:41 +0100
 tags: [Internet, Inwigilacja, Porady]
 category: internetowa_inwigilacja
-category_readable: "Internetowa inwigilacja"
+category_readable: "Internetowa&nbsp;inwigilacja"
 ---
 
 Zdarzyło Wam się podczas przeglądania internetu zderzyć się z&nbsp;blokadą? Albo odnieść wrażenie, że jakaś strona wie o&nbsp;Was więcej, niż byście chcieli?

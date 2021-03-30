@@ -7,7 +7,7 @@ tags: [Internet, Inwigilacja, Porady]
 firmy: [Google]
 keep_referers: true
 category: internetowa_inwigilacja
-category_readable: "Internetowa inwigilacja"
+category_readable: "Internetowa&nbsp;inwigilacja"
 ---
 
 W poprzednim wpisie pokazałem krótko nagłówki HTTP -- rodzaj naszej wizytówki przesyłanej za każdym razem, kiedy odwiedzamy jakąś stronę. 
