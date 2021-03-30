@@ -526,8 +526,9 @@ strong {
   border: 1px solid $note-bg-color;
   background-color: $note-bg-color;
   padding:0px 0px 5px 5px;
-  height:30px;
+  min-height:30px;
   width:max-content;
+  max-width:100%;
   border-radius:10px 10px 0px 0px;
   font-size:25px;
   color: $bold-color;
