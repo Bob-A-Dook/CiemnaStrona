@@ -90,6 +90,8 @@ Naciskamy `F5`, żeby odpalić skrypt. Wyświetli się kolejne okno w&nbsp;trybi
 
 Czyli wszystko działa, a&nbsp;świat Pythona stoi otworem.
 
+Jeśli chcecie pójść o krok dalej i trochę ułatwić sobie pracę ze skryptami, to zapraszam do [rozszerzonego samouczka]({{site.url}}/tutorials/python-extended).
+
 # A&nbsp;jeśli nie działa?
 
 W tym prostym przykładzie musicie się bardzo postarać, żeby coś nie zadziałało :wink:
