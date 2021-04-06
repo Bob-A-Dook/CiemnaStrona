@@ -7,9 +7,9 @@ readable_name: "Internetowa inwigilacja"
 
 Czy zdarzyło Ci się odnieść wrażenie, że strony internetowe wiedzą o&nbsp;Tobie trochę zbyt wiele?
 
-*Internetowa inwigilacja* to seria omawiająca w uproszczeniu metody, z&nbsp;jakich korzystają strony internetowe (a&nbsp;raczej: stojące za nimi serwery), żeby zbierać o&nbsp;nas informacje, kiedy surfujemy po sieci. I&nbsp;pokazująca sposoby, w&nbsp;jakie możemy się chronić.
+*Internetowa inwigilacja* to seria omawiająca w&nbsp;uproszczeniu metody, z&nbsp;jakich korzystają strony internetowe (a&nbsp;raczej: stojące za nimi serwery), żeby zbierać o&nbsp;nas informacje, kiedy surfujemy po sieci. I&nbsp;pokazująca sposoby, w&nbsp;jakie możemy się chronić.
 
-Omawiam w niej rolę:
+Omawiam w&nbsp;niej rolę:
 
 * nagłówków HTTP wysyłanych za każdym razem, kiedy łączymy się z&nbsp;jakąś stroną,
 * plików *cookies*,
