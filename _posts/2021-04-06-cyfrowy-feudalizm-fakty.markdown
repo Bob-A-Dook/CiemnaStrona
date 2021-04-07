@@ -60,7 +60,7 @@ Kiedyś były wypożyczalnie kaset VHS (zresztą sam Netflix tym się parał). T
 Ale Netflix jest kolosem na glinianych nogach. [Ten artykuł](https://www.forbes.com/sites/stephenmcbride1/2019/11/11/in-24-hours-netflix-could-lose-25-of-its-subscribers/) pokazuje kilka niepokojących statystyk z&nbsp;końca 2019 roku:
 
 * Aż 63% filmów to treści na licencji. Czyli Netflix nie jest właścicielem i&nbsp;może używać ich tylko dopóki, dopóty jest dogadany z&nbsp;twórcami.
-* A&nbsp;to dogadanie kosztuje. W&nbsp;2019 r. zapłacił m.in. 100 mln dolarów za licencję na "Przyjaciół". Rok wcześniej trzy razy mniej.
+* A&nbsp;to dogadanie kosztuje. W&nbsp;2019 r. zapłacił m.in. 100 mln dolarów za licencję na „Przyjaciół”. Rok wcześniej trzy razy mniej.
 * Inne platformy również mają dość pośrednika i&nbsp;same wchodzą na rynek. Disney otworzył własną platformę streamingową Disney+. A&nbsp;że jest właścicielem mnóstwa marek, to odbierze Netflixowi pokaźny kawałek tortu.
 
 Netflix pewnie nie upadnie (obecny tryb zdalnego życia mu sprzyja), ale jest spora szansa, że lubiane przez Was filmy na licencji wyparują i&nbsp;znajdą się na innych platformach. Nigdy nie były Wasze. I, jak się okazuje, nigdy nie były również Netflixa.
@@ -92,7 +92,7 @@ Ogólnie DRM (*Digital Rights Management*) odnosi się do [wszelkich technicznyc
 
 Zacznijmy od tego, jak to wygląda w&nbsp;przypadku plików komputerowych. W&nbsp;uproszczeniu: pliki chronione DRM-em są zaszyfrowane. Żeby je odtworzyć, musimy mieć po swojej stronie program-dekoder, który zamienia je w&nbsp;czytelną postać.
 
-Jednym z&nbsp;takich "dekoderów" jest **Widevine**. Rzekomo przyjęty jako otwarty standard w&nbsp;sieci (w [kontrowersyjnych](https://www.theregister.com/2017/03/06/berners_lee_web_drm_w3c/) okolicznościach). Ale w&nbsp;praktyce kontrolowany przez Google.
+Jednym z&nbsp;takich „dekoderów” jest **Widevine**. Rzekomo przyjęty jako otwarty standard w&nbsp;sieci (w [kontrowersyjnych](https://www.theregister.com/2017/03/06/berners_lee_web_drm_w3c/) okolicznościach). Ale w&nbsp;praktyce kontrolowany przez Google.
 
 {:.figure}
 <img src="/assets/posts/cyfrowy-feudalizm-fakty/widevine-users.webp" alt="Loga firm wykorzystujących Widevine. Na liście klientów widać między innymi Disneya i&nbsp;Warner Bros. Na liście firm i&nbsp;produktów wykorzystujących rozwiązanie są Sony, Google, Firefox."/>
@@ -213,7 +213,7 @@ Mnóstwo stron przestało działać. Po analizie sytuacji okazało się, że **j
 Infrastruktura to jedno. Ale firmy, podobnie jak zwykli cywile, często są zależne również od internetowych platform dużych graczy. Tak jak zwykli cywile, cenią sobie wygodę i&nbsp;niskie koszty.  
 I, tak jak cywile, potrafią się na tej zależności przejechać.
 
-Przykład? Poleganie przez firmy na platformie Google. Kiedy w&nbsp;grudniu 2020 roku coś im się [popsuło w&nbsp;uwierzytelnianiu](https://en.wikipedia.org/wiki/2020_Google_services_outages) i&nbsp;wiele osób straciło dostęp do kont i&nbsp;usług, to od razu zrobił się wzmożony ruch na korpo-grupkach i&nbsp;forach dyskusyjnych.
+Przykład? Poleganie przez firmy na platformie Google. Kiedy w&nbsp;grudniu 2020 roku coś im się [popsuło w&nbsp;uwierzy&shy;telnianiu](https://en.wikipedia.org/wiki/2020_Google_services_outages) i&nbsp;wiele osób straciło dostęp do kont i&nbsp;usług, to od razu zrobił się wzmożony ruch na korpo-grupkach i&nbsp;forach dyskusyjnych.
 
 Ale błędy się zdarzają, może nie ma co się tego czepiać. No to spójrzmy na świadomą zmianę warunków. Przykładem **podwyżka cen Google Maps**.
 
@@ -236,8 +236,8 @@ Choć współczesny internet nazywa się siecią, to jednak pod wieloma względa
 
 >  a&nbsp;spider's web is organized to sacrifice local areas so that failure will not prevent the remaining web from functioning
 
-{:figcaption}
-Źródło: [Science Daily](https://www.sciencedaily.com/releases/2012/02/120201140004.htm)
+{:.figcaption}
+Źródło: [Science Daily](https://www.sciencedaily.com/releases/2012/02/120201140004.htm).
 
 A ludzki internet? Jak się okazuje, ma kilka kluczowych punktów. Zazwyczaj należących do dużych firm z&nbsp;USA.  
 Jeśli im się coś dzieje -- albo lekko zmienią warunki -- to mnóstwo mniejszych organizacji z&nbsp;całego świata przeżywa armageddon. Czy tak wygląda zdrowa sieć powiązań?
@@ -267,7 +267,7 @@ Jak się okazuje, [nie dotrzymali umowy](https://www.extremetech.com/electronics
 Ta sytuacja jest na swój sposób gorsza niż subskrypcje. Tam wprawdzie wypchnięcie wszystkiego do chmury odbiera nam dostęp do programu... ale płacimy mało, tylko za okres korzystania z&nbsp;usługi.  
 Tutaj zaś ludzie płacą miliony monet za te traktory. Licząc, że będą ich, tak jak każde inne narzędzia. Nie wiedząc, że producent nie planuje nigdy wypuszczać ich z&nbsp;rąk.
 
-Fajnie obrazują słowa Kyle'a Wiensa, założyciela serwisu naprawczego iFixit:
+Fajnie obrazują to słowa Kyle'a Wiensa, założyciela serwisu naprawczego iFixit:
 
 > John Deere i&nbsp;General Motors chcą zniszczyć pojęcie własności. Jasne, płacimy za ich pojazdy. Ale nie są naszą własnością. (...) Traktor należy do Johna Deere’a, moi mili. Wy nim tylko jeździcie.
 
