@@ -221,7 +221,8 @@ Na początku Mapy były darmowe -- nie tylko dla użytkowników, ale również d
 
 Nie było konkurencji, więc nikomu nie chciało się rozwijać alternatyw, wszystko stało na Mapsach. A&nbsp;te, kiedy już osiągnęły wysoki poziom uzależnienia od siebie, drastycznie zwiększyły ceny.
 
-Na stronie [gdziepolek.pl](https://www.gdziepolek.pl/blog/pozegnanie-z-google-maps), startupu pomagającego znaleźć najbliższe apteki, opisują swoje przygody z&nbsp;nagłą zmianą cennika.
+Na stronie [gdziepolek.pl](https://www.gdziepolek.pl/blog/pozegnanie-z-google-maps), startupu pomagającego znaleźć najbliższe apteki, opisują swoje przygody z&nbsp;nagłą zmianą cennika. Google, już po umocnieniu swojej pozycji i&nbsp;wyduszeniu konkurencji, **30-krotnie obniżyło limit bezpłatnych wyświetleń i&nbsp;14-krotnie podniosło ceny po jego przekroczeniu**.
+Gdzie tu zasada „ewolucja zamiast rewolucji”? Gdzie Po Lek zaczęli szukać na szybko nowego rozwiązania, wiele innych firm pewnie też. Ciężko zbudować coś stabilnego, kiedy Twój fundament żyje i&nbsp;może się ruszać.
 
 {% include info.html type="Polemika" text="Choć strona Gdzie Po Lek dość fajnie opisuje historię odejścia od Google Maps, mam do nich jedno zastrzeżenie. Zastanawiając się nad alternatywą, piszą:  
 „OpenStreetMap nie wypada bezpośrednio używać w&nbsp;serwisie komercyjnym”.  
