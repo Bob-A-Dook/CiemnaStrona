@@ -338,7 +338,7 @@ Poza tym polskie organizacje, takie jak Netia, istotnie zawarły z&nbsp;UseCrypt
 
 Kwestia partnerstw to sprawa z&nbsp;gatunku tych, że mam przeczucie, ale pewności raczej nie zyskam. Kopmy dalej.
 
-{% include info.html type="Ciekawostka" text="W&nbsp;stopce oficjalnej strony UseCrypta znajduje się zakładka „Inwestorzy”. Prowadzi jednak do [strony aftermarket.pl](https://www.aftermarket.pl/domena/investors-usecrypt.com). Domena *investors-usecrypt.com* jest już nieaktywna i&nbsp;wystawiona na sprzedaż za ok. 10 000 brutto."%}
+{% include info.html type="Ciekawostka" text="W&nbsp;stopce oficjalnej strony UseCrypta znajduje się zakładka „Inwestorzy”. Prowadzi jednak do [strony aftermarket.pl](https://www.aftermarket.pl/domena/investors-usecrypt.com). Domena *investors-usecrypt.com* jest już nieaktywna i&nbsp;wystawiona na sprzedaż za ok. 10&nbsp;000 brutto."%}
 
 # WAT i&nbsp;Dyrektor ds. technicznych
 
