@@ -26,7 +26,7 @@ Zapraszam na przegląd zjawisk, które stopniowo odbierają nam wpływ na otacza
 ## Przenoszenie wszystkiego do chmury
 
 Na początek: czym jest ta cała tajemnicza „chmura”?  
-To proste: kiedy mówimy, że coś jest „w chmurze”, to znaczy że **nie jest na naszym urządzeniu, tylko na cudzym serwerze**.
+To proste: kiedy mówimy, że coś jest „w&nbsp;chmurze”, to znaczy że **nie jest na naszym urządzeniu, tylko na cudzym serwerze**.
 
 {:.figure}
 <img src="/assets/posts/cyfrowy-feudalizm-fakty/what-is-cloud.webp" width="500px" alt="Kadr pokazuje rysowane ręcznie postacie. Ojciec trzyma córkę na ramieniu. Ta pokazuje palcem na chmurę i&nbsp;pyta (tłumaczenie moje): 'Tatusiu, z&nbsp;czego są zrobione chmury?'. A&nbsp;ojciec odpowiada: 'Głównie z&nbsp;serwerów z&nbsp;Linuxem'."/>
@@ -114,9 +114,9 @@ Bez Netflixa ludzie nie uznają Waszej przeglądarki? Peszek.
 Uważny obserwator może się zastanowić: czy takie zabezpieczenia mogą w&nbsp;ogóle być skuteczne w&nbsp;przypadku filmów?  
 Przecież w&nbsp;którymś momencie komputer musi je odszyfrować, żeby mogły się wyświetlić na ekranie! Czy nie wystarczy ich wtedy automatycznie kopiować? Albo zrobić screena?
 
-Okazuje się, [że nie](https://www.osnews.com/story/28176/why-rosyna-cant-take-a-movie-screenshot/). Producenci procesorów i&nbsp;kart graficznych, tacy jak Intel, dogadali się z producentami filmów. Nie jesteście w&nbsp;stanie nic zrobić, bo **w momencie włączenia DRM-a Wasz własny procesor Was wyklucza** i&nbsp;mówi „To ja tu rządzę”.
+Okazuje się, [że nie](https://www.osnews.com/story/28176/why-rosyna-cant-take-a-movie-screenshot/). Producenci procesorów i&nbsp;kart graficznych, tacy jak Intel, dogadali się z producentami filmów. Nie jesteście w&nbsp;stanie nic zrobić, bo **w momencie włączenia DRM&#8209;a Wasz własny procesor Was wyklucza** i&nbsp;mówi „To ja tu rządzę”.
 
-Jednocześnie, dodając taki tryb, podarowali hakerom potencjalną furtkę. Jeśli ci raz odkryją jakieś luki w&nbsp;zabezpieczeniach, to nie będzie się ich dało załatać zwykłymi programami. Bo system operacyjny stoi w&nbsp;hierarchii niżej niż *firmware* (samo "serce" maszyny) i&nbsp;nie ma na niego wpływu.
+Jednocześnie, dodając taki tryb, podarowali hakerom potencjalną furtkę. Jeśli ci raz odkryją jakieś luki w&nbsp;zabezpieczeniach, to nie będzie się ich dało załatać zwykłymi programami. Bo system operacyjny stoi w&nbsp;hierarchii niżej niż *firmware* (samo „serce” maszyny) i&nbsp;nie ma na niego wpływu.
 
 Czy warto było odbierać użytkownikom kontrolę nad sprzętem w&nbsp;zamian za obłaskawienie gigantów streamingowych? Wiele wskazuje na to, [że nie](https://teleread.org/2017/05/01/is-drms-future-in-doubt-or-is-it-just-wishful-thinking/) -- kto chce, to i&nbsp;tak złamie zabezpieczenia.
 
@@ -131,7 +131,7 @@ DRM oczywiście dotyczy nie tylko komputerów. Znajdziemy te zabezpieczenia w&nb
 * Nowoczesne **kuwety dla kotów** [wymagają do działania](https://www.ifixit.com/News/6900/drm-kitty-litter) roztworu czyszczącego od producenta.
 * I&nbsp;wiele, wiele innych przypadków.
 
-Gdzie jedni widzą ograniczenia, inni widzą możliwości. „To może poczytam coś o&nbsp;tym? Założę własną małą firmę i&nbsp;zrobię podobny produkt, ale bez DRM-a”?
+Gdzie jedni widzą ograniczenia, inni widzą możliwości. „To może poczytam coś o&nbsp;tym? Założę własną małą firmę i&nbsp;zrobię podobny produkt, ale bez DRM&#8209;a”?
 
 Niestety wiedza również potrafi być zastrzeżona dla wybranych. Są organizacje, które pilnują jej skuteczniej niż wszelkie moduły DRM.
 
@@ -155,7 +155,7 @@ Tak działają wielkie korpo-wydawnictwa naukowe [takie jak Elsevier](https://ww
 {:.figcaption}
 Źródło: [giantbomb.com](https://www.giantbomb.com/smaug/3005-24871/images/) (przeróbki moje).
 
-Wydawnictwo jest właścicielem prestiżowych publikacji. Masz ambicje, chcesz zaistnieć w&nbsp;świecie nauki? Nie obędzie się bez czytania artykułów „z linii frontu”. A&nbsp;te kosztują. Np. [ponad 30 dolarów](https://www.sciencedirect.com/science/article/abs/pii/S1357303921000128) za jednego PDF-a.
+Wydawnictwo jest właścicielem prestiżowych publikacji. Masz ambicje, chcesz zaistnieć w&nbsp;świecie nauki? Nie obędzie się bez czytania artykułów „z&nbsp;linii frontu”. A&nbsp;te kosztują. Np. [ponad 30 dolarów](https://www.sciencedirect.com/science/article/abs/pii/S1357303921000128) za jednego PDF-a.
 
 Eliminuje to hobbystów chcących się dokształcić. Ale może uczelnie udźwigną? W&nbsp;końcu wychodzi im taniej, na zasadzie subskrypcji. I&nbsp;są finansowane z&nbsp;pieniędzy podatników (nic to, że ci sami podatnicy potem nie mają dostępu do efektów).
 
@@ -183,7 +183,7 @@ Czemu inne branże nie pójdą w&nbsp;ich ślady? Nie zbuntują się, nie dogada
 
 Zmiana tego systemu to dla mnie jedna z&nbsp;tych ciekawych kwestii, które w&nbsp;moich oczach mogłyby pogodzić wolnorynkowców (bo mniej barier dla swobodnej działalności gospodarczej) ze zwolennikami wspólnej własności (bo wiedza jako dobro dzielone całej ludzkości).
 
-Ale na razie *status quo* się trzyma, a&nbsp;mniejsze i&nbsp;większe organizacje dzielnie płacą możnowładcom "dobrowolną" daninę.
+Ale na razie *status quo* się trzyma, a&nbsp;mniejsze i&nbsp;większe organizacje dzielnie płacą możnowładcom „dobrowolną” daninę.
 
 ## Zależność od cudzych usług
 
@@ -294,7 +294,7 @@ Poza tym: warto nie przyklaskiwać bucom i&nbsp;snobom wyśmiewającym cudzy św
 OK, na daną chwilę mogą nie być dla nas praktyczne, rozumiem doskonale! Ale warto pamiętać, że każde z&nbsp;nich jest w&nbsp;stanie zyskać więcej współtwórców niż jakikolwiek zamknięty produkt. Czasem nawet pomoc od większych korpo.
 
 Nie mówię tu o&nbsp;oporze dla zasady, bo ten może być ciężki (prosta sprawa: firma nie skorzysta z&nbsp;norm / licencji / platform / partnerstwa, to nie rozwinie skrzydeł).  
-Ale naprawdę nie trzeba się puszyć, gdakać "Noo, u&nbsp;nas to używamy rozwiązań od  NAJLEPSZYCH firm. Prawie jak partnerstwo!".  
+Ale naprawdę nie trzeba się puszyć, gdakać „Noo, u&nbsp;nas to używamy rozwiązań od  NAJLEPSZYCH firm. Prawie jak partnerstwo!”.  
 Zależność to potencjalne ryzyko, a&nbsp;nie siła. Poza tym takie słowa są jak marketing szeptany. Umacniają organizacje, które jadą na prestiżu, a&nbsp;mogą być tylko zbędnymi pośrednikami.
 
 To tyle na dziś, bo i&nbsp;tak był spory natłok informacji. Więcej w&nbsp;pozostałych wpisach z&nbsp;tej serii :wink:
