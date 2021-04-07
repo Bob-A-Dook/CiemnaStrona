@@ -117,7 +117,7 @@ Użytkownicy nieobeznani z&nbsp;takimi trikami mogliby wtedy pomyśleć, że to 
 
 Mogłoby im nie przyjść do głowy, że to władca Twittera stosuje cenzurę. Jeden pstryczek, jedna strona odcięta. Nic nie wymknie się poza Twittera bez jego wiedzy. Uroki scentralizowanej władzy.
 
-<img src='/assets/posts/przekierowania/twitter-tco.webp' alt=""/>
+<img src='/assets/posts/przekierowania/twitter-tco.webp' alt="Rysunek pokazuje logo Twittera otoczone z każdej strony półprzezroczystą, zielonkawą sferą wyglądającą jak pole siłowe. Sfera jest podpisaną nazwą twitterowego przycinacza linków."/>
 
 {:.figcaption}
 Źródło obrazka: [Reddit](https://www.reddit.com/r/blender/comments/7ij4ir/geodesic_force_field/). Przeróbka moja.
@@ -156,7 +156,7 @@ Jeśli widzimy pełen adres strony w&nbsp;formie tekstu, ale ukryty pod nim link
 
 {% include info.html type="Porada" text="Czasami widoczny adres strony jest przycięty, ale pokazuje się w całości po najechaniu kursorem. Tak jest w&nbsp;przypadku tego linka z&nbsp;Twittera (obrazek poniżej; widać, że po najechaniu pokazują się obie brakujące cyfry).  
 Jeśli boimy się techniki, to możemy skopiować do paska przeglądarki tę część, którą się da, a&nbsp;resztę wyświetlić i&nbsp;dopisać ręcznie.  
-Ale lepiej kliknąć link prawym przyciskiem, wybrać `Zbadaj element` i&nbsp;skopiować potrzebny tekst prosto z&nbsp;kodu strony (w razie potrzeby klikając w&nbsp;strzałki, żeby rozwinąć elementy)." trailer="<p class='figure'><img src='/assets/posts/przekierowania/twitter-link-prawdziwy.webp' alt='Mały zrzut ekranu pokazujący fragment linka z&nbsp;poprzednich przykładów z&nbsp;Twittera. Pod tekstem, który jest częściowo ucięty, widać pasek z&nbsp;tekstem na szarym tle, który pokazał się po najechaniu kursorem na link. Ten tekst zawiera link w&nbsp;całości, razem z&nbsp;uciętymi cyframi.'/></p>"%}
+Ale lepiej kliknąć link prawym przyciskiem, wybrać `Zbadaj element` i&nbsp;skopiować potrzebny tekst prosto z&nbsp;kodu strony (w razie potrzeby klikając w&nbsp;strzałki, żeby rozwinąć elementy)." trailer="<p class='figure'><img src='/assets/posts/przekierowania/twitter-link-prawdziwy.webp' alt='Mały zrzut ekranu pokazujący fragment linka z&nbsp;poprzednich przykładów z&nbsp;Twittera. Pod tekstem, który jest częściowo ucięty, widać pasek z&nbsp;tekstem na szarym tle, który pokazał się po najechaniu kursorem na link. Ten tekst zawiera link w&nbsp;całości, razem z&nbsp;uciętymi cyframi.' width='500px'/></p>"%}
 
 No, ale czasem szczęście nam nie sprzyja. Widzimy tylko skrócony link, bez żadnej wskazówki dokąd prowadzi. Albo używamy urządzenia mobilnego i&nbsp;ciężko zajrzeć w&nbsp;kod strony.
 
