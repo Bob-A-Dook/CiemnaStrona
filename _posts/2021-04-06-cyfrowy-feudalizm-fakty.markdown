@@ -10,7 +10,7 @@ category_readable: "Cyfrowy&nbsp;feudalizm"
 
 W poprzednim wpisie z&nbsp;tej serii trochę pośmieszkowałem z&nbsp;teorii sugerującej, że słowa *„You'll own nothing”* oznaczają, że spiskujące elity z&nbsp;World Economic Forum chcą nas pozbawić własności.
 
-Jednak napisałem też, że istnieje realne zagrożenie. Tyle że ze strony wielu mniejszych graczy, a&nbsp;nie jednej organizacji. W&nbsp;tym wpisie rozwijam tę myśl.
+Jednak napisałem też, że centralizacja i monopole to realne zagrożenie. Tyle że ze strony wielu mniejszych graczy, a&nbsp;nie jednej organizacji. W&nbsp;tym wpisie rozwijam tę myśl.
 
 Zapraszam na przegląd zjawisk, które stopniowo odbierają nam wpływ na otaczający świat.
 
@@ -51,7 +51,7 @@ Pierwszy przykład: **Google**. Można u&nbsp;nich przechowywać mnóstwo różn
 * Często przycinają swoją ofertę. Przykładem może być [Reader](https://www.ibtimes.com/google-reader-dies-end-internet-1329741), który pozwalał w&nbsp;przystępny sposób śledzić wiadomości na świecie.
 
   Google zresztą ogólnie ma w&nbsp;zwyczaju eksperymentować z&nbsp;mnóstwem projektów i&nbsp;ucinać te, które się nie przyjęły. Stronka *[Killed by Google](https://killedbygoogle.com/)* zbiera takie przypadki.  
-**Od roku 2006 Google "zabiło" 227 projektów. To średnio 1,3 projektu na miesiąc**.
+**Od roku 2006 Google „zabiło” 227 projektów. To średnio 1,3 projektu na miesiąc**.
 
 Jeśli wychylamy się poza kluczowe usługi, to relacja z&nbsp;Google'em przypomina ruletkę. Nigdy nie wiadomo, czy ograniczeniu lub unicestwieniu nie ulegnie coś, czemu poświęciliśmy czas i&nbsp;siły.
 
@@ -91,7 +91,7 @@ Problem w&nbsp;tym, że te czasem aktywnie blokują taką możliwość. Na przyk
 ## DRM
 
 {:.post-meta}
-Powrót do [spisu treści](#spis-treści)
+([do spisu treści](#spis-treści))
 
 Ogólnie DRM (*Digital Rights Management*) odnosi się do [wszelkich technicznych zabezpieczeń](https://www.comparitech.com/blog/information-security/a-beginners-guide-to-drm/), które pozwalają ograniczyć korzystanie z&nbsp;produktów do sposobów określonych przez producenta.
 
@@ -143,7 +143,7 @@ Niestety wiedza również potrafi być zastrzeżona dla wybranych. Są organizac
 ## Blokowanie dostępu do wiedzy
 
 {:.post-meta}
-Powrót do [spisu treści](#spis-treści)
+([do spisu treści](#spis-treści))
 
 To w&nbsp;żadnym razie nie jest nowe, ale dokłada swoją cegiełkę do budowy barier.
 
@@ -196,7 +196,7 @@ Ale na razie *status quo* się trzyma, a&nbsp;mniejsze i&nbsp;większe organizac
 ## Zależność od cudzych usług
 
 {:.post-meta}
-Powrót do [spisu treści](#spis-treści)
+([do spisu treści](#spis-treści))
 
 Załóżmy, że ambitni założyciele firmy jakoś pokonali barierę dostępu do wiedzy i&nbsp;sobie tę firmę założyli. Teraz czas wejść do internetu. Najpierw trzeba znaleźć partnerów, ktorzy pomogą przy infrastrukturze.
 
@@ -258,7 +258,7 @@ No i&nbsp;powoli zbliżamy się do końca wpisu. Cała seria nazywa się „Cyfr
 ## Walka z&nbsp;prawem do naprawy
 
 {:.post-meta}
-Powrót do [spisu treści](#spis-treści)
+([do spisu treści](#spis-treści))
 
 Było o&nbsp;rzeczach niematerialnych (programach i&nbsp;przepisach), więc na koniec trochę świata realnego. Chociaż pojawia się tu również wspomniany wcześniej DRM.
 
@@ -293,6 +293,9 @@ Jak się to skończyło? Amerykańscy rolnicy zaczęli **pobierać pirackie wers
 Prawo do samodzielnej naprawy to zresztą temat-rzeka. Nie będę już rozwlekał tego wpisu. Ale na odchodnym tylko powiem, że Apple i&nbsp;niektórzy inni producenci elektroniki są pod tym względem jeszcze gorsi (lutowanie elementów do siebie, brak możliwości łatwego otwarcia obudowy, cyfrowe zabezpieczenia przed wymianą na inny element itp.).
 
 ## Podsumowanie
+
+{:.post-meta}
+([do spisu treści](#spis-treści))
 
 Moim zdaniem przykłady z&nbsp;życia prawdziwego są nawet bardziej niepokojące niż ta cała teoria spiskowa, na której się wyżyłem w&nbsp;pierwszej części.
 
