@@ -14,6 +14,8 @@ Jednak napisałem też, że istnieje realne zagrożenie. Tyle że ze strony wiel
 
 Zapraszam na przegląd zjawisk, które stopniowo odbierają nam wpływ na otaczający świat.
 
+{% include info.html type="Porada" text="Wpis jest długi, ale składa się z&nbsp;kilku dość niezależnych fragmentów. Możecie czytać je na raty i&nbsp;w&nbsp;dowolnej kolejności"%}
+
 # Spis treści
 
 * [Przenoszenie wszystkiego do chmury](#przenoszenie-wszystkiego-do-chmury)
@@ -88,6 +90,9 @@ Problem w&nbsp;tym, że te czasem aktywnie blokują taką możliwość. Na przyk
 
 ## DRM
 
+{:.post-meta}
+Powrót do [spisu treści](#spis-treści)
+
 Ogólnie DRM (*Digital Rights Management*) odnosi się do [wszelkich technicznych zabezpieczeń](https://www.comparitech.com/blog/information-security/a-beginners-guide-to-drm/), które pozwalają ograniczyć korzystanie z&nbsp;produktów do sposobów określonych przez producenta.
 
 Zacznijmy od tego, jak to wygląda w&nbsp;przypadku plików komputerowych. W&nbsp;uproszczeniu: pliki chronione DRM-em są zaszyfrowane. Żeby je odtworzyć, musimy mieć po swojej stronie program-dekoder, który zamienia je w&nbsp;czytelną postać.
@@ -136,6 +141,9 @@ Gdzie jedni widzą ograniczenia, inni widzą możliwości. „To może poczytam 
 Niestety wiedza również potrafi być zastrzeżona dla wybranych. Są organizacje, które pilnują jej skuteczniej niż wszelkie moduły DRM.
 
 ## Blokowanie dostępu do wiedzy
+
+{:.post-meta}
+Powrót do [spisu treści](#spis-treści)
 
 To w&nbsp;żadnym razie nie jest nowe, ale dokłada swoją cegiełkę do budowy barier.
 
@@ -186,6 +194,9 @@ Zmiana tego systemu to dla mnie jedna z&nbsp;tych ciekawych kwestii, które w&nb
 Ale na razie *status quo* się trzyma, a&nbsp;mniejsze i&nbsp;większe organizacje dzielnie płacą możnowładcom „dobrowolną” daninę.
 
 ## Zależność od cudzych usług
+
+{:.post-meta}
+Powrót do [spisu treści](#spis-treści)
 
 Załóżmy, że ambitni założyciele firmy jakoś pokonali barierę dostępu do wiedzy i&nbsp;sobie tę firmę założyli. Teraz czas wejść do internetu. Najpierw trzeba znaleźć partnerów, ktorzy pomogą przy infrastrukturze.
 
@@ -245,6 +256,9 @@ Jeśli im się coś dzieje -- albo lekko zmienią warunki -- to mnóstwo mniejs
 No i&nbsp;powoli zbliżamy się do końca wpisu. Cała seria nazywa się „Cyfrowy feudalizm”. Jak feudalizm, to chłopi. Jak chłopi, to uprawa roli. Więc przejdźmy do rolnictwa.
 
 ## Walka z&nbsp;prawem do naprawy
+
+{:.post-meta}
+Powrót do [spisu treści](#spis-treści)
 
 Było o&nbsp;rzeczach niematerialnych (programach i&nbsp;przepisach), więc na koniec trochę świata realnego. Chociaż pojawia się tu również wspomniany wcześniej DRM.
 

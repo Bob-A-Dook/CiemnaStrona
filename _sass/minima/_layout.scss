@@ -218,6 +218,10 @@
   margin-bottom: 5px;
 }
 
+h2 + .post-meta {
+  margin-bottom: 3em
+}
+
 .post-link {
   display: block;
   @include relative-font-size(1.1);
