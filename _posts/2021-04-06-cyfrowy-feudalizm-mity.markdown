@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  “You'll own nothing” 1 – mity
-date:   2021-04-04 15:49:00 +0100
+date:   2021-04-06 15:49:00 +0100
 tags: [Centralizacja, Manipulacja, Ogłupianie]
 category: cyfrowy_feudalizm
 category_readable: "Cyfrowy&nbsp;feudalizm"
@@ -123,7 +123,7 @@ Samojezdne samochody? Na razie dominuje w&nbsp;tym Waymo (= Google). A&nbsp;Goog
 Sztuczna inteligencja? Mam o&nbsp;tym [osobny wpis]({% post_url 2021-03-03-ai-wspolczesni-szamani %}). Pojęcie głównie marketingowe ma w&nbsp;ciągu 9 lat przejąć znaczną część ludzkiej pracy? Nie widzę tego :wink:  
 Dzielenie przestrzeni biurowych? Coś może o tym powiedzieć WeWork, który [otarł się o bankructwo](https://www.businessinsider.com/weworks-nightmare-ipo?IR=T).
 
-Jak ma wyglądać przejście od korpo radykalnie dbających o&nbsp;swój interes do pełnego współdzielenia z&nbsp;wizji autorki? Od niedoskonałej metody do maszyn zastąpujących ludzi?  
+Poza tym jak ma wyglądać przejście od korpo radykalnie dbających o&nbsp;swój interes do pełnego współdzielenia z&nbsp;wizji autorki? Od niedoskonałych algorytmów do zastąpienia ludzi przez maszyny?  
 Widzę tu dość spory przeskok myślowy. Nie wydaje się wiarygodny.
 
 Dlatego nie będę się sugerował wizją utopijną, wizją spiskową ani żadną inną. Po prostu wezmę sobie słowa z&nbsp;tytułu i&nbsp;pokażę obrazki z&nbsp;rzeczywistości. Zapraszam do części drugiej.

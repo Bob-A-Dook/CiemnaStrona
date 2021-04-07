@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  “You'll own nothing” 2 – fakty
-date:   2021-04-06 12:49:00 +0100
+date:   2021-04-07 12:49:00 +0100
 tags: [Centralizacja, DRM, Internet, IoT]
 firmy: [Adobe, Apple, Cloudflare, Google, Intel, Netflix, Spotify, Wydawnictwa naukowe]
 category: cyfrowy_feudalizm
@@ -10,11 +10,11 @@ category_readable: "Cyfrowy&nbsp;feudalizm"
 
 W poprzednim wpisie z&nbsp;tej serii trochę pośmieszkowałem z&nbsp;teorii sugerującej, że słowa *„You'll own nothing”* oznaczają, że spiskujące elity z&nbsp;World Economic Forum chcą nas pozbawić własności.
 
-Jednak napisałem też, że centralizacja i monopole to realne zagrożenie. Tyle że ze strony wielu mniejszych graczy, a&nbsp;nie jednej organizacji. W&nbsp;tym wpisie rozwijam tę myśl.
+Jednak napisałem też, że centralizacja i&nbsp;monopole to realne zagrożenie. Tyle że ze strony wielu mniejszych graczy, a&nbsp;nie jednej organizacji. W&nbsp;tym wpisie rozwijam tę myśl.
 
 Zapraszam na przegląd zjawisk, które stopniowo odbierają nam wpływ na otaczający świat.
 
-{% include info.html type="Porada" text="Wpis jest długi, ale składa się z&nbsp;kilku dość niezależnych fragmentów. Możecie czytać je na raty i&nbsp;w&nbsp;dowolnej kolejności"%}
+{% include info.html type="Porada" text="Wpis jest długi, ale składa się z&nbsp;kilku dość niezależnych fragmentów. Możecie czytać je na raty i&nbsp;w&nbsp;dowolnej kolejności."%}
 
 # Spis treści
 
