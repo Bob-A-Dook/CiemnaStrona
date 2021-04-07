@@ -3,8 +3,8 @@ layout: post
 title:  "Żyjemy w ciekawych czasach"
 subtitle: "Pobieżny przegląd przeciwników."
 date:   2021-01-10 13:37:37 +0100
-tags: [Prywatność, Inwigilacja, Centralizacja]
-firmy: [Google, Facebook, Apple, Twitter]
+tags: [Inwigilacja, Centralizacja, IoT]
+firmy: [Google, Facebook, Adobe, Apple, Twitter]
 ---
 
 Przyznam się, że ten wpis tak naprawdę nie powstał jako pierwszy, tylko jako piąty -- ale uznałem, że coś takiego powinno pojawić się na początku, więc podrasowałem datę. *Mea culpa*.

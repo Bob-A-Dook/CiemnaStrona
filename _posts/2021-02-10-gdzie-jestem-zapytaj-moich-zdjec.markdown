@@ -3,7 +3,7 @@ layout: post
 title:  "Gdzie jestem? Zapytaj moich zdjęć"
 subtitle: "...czyli dlaczego przed marszem na Kapitol wyłączamy geotagowanie."
 date:   2021-02-10 03:12:18 +0100
-tags: [Porady, Prywatność, Analiza danych]
+tags: [Porady, Inwigilacja, Analiza danych]
 ---
 
 Wydarzenia z&nbsp;pierwszych dni stycznia 2021 r. -- mówię tu o&nbsp;wtargnięciu do Kapitolu -- pokazały wiele rzeczy. Zwłaszcza jeśli chodzi o&nbsp;obecny stan USA i&nbsp;potęgę informatycznych korporacji.

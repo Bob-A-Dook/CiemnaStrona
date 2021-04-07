@@ -2,7 +2,7 @@
 layout: post
 title:  “You'll own nothing” 1 – mity
 date:   2021-04-04 15:49:00 +0100
-tags: [Centralizacja, Manipulacja]
+tags: [Centralizacja, Manipulacja, Ogłupianie]
 category: cyfrowy_feudalizm
 category_readable: "Cyfrowy&nbsp;feudalizm"
 ---
@@ -117,9 +117,9 @@ Przejdę do tego, co myślę o&nbsp;samym felietonie.
 
 Z jednej strony: fajnie widzieć prognozę biorącą pod uwagę kilka równoległych, na razie raczkujących zjawisk i&nbsp;łączącą je w&nbsp;całość. Lubię eksperymenty myślowe.
 
-Z drugiej: jest moim zdaniem dość płytki i&nbsp;utopijny. Patrzy na pozytywne strony dzielenia własności -- rowery miejskie, tymczasowe mieszkania i biura -- i&nbsp;na tej podstawie prognozuje. Traktuje pewne technologie tak, jakby ich marketing był prawdziwy.
+Z drugiej: jest moim zdaniem dość płytki i&nbsp;utopijny. Patrzy na pozytywne strony dzielenia własności -- rowery miejskie, tymczasowe mieszkania i biura -- i&nbsp;na tej podstawie prognozuje. Gloryfikuje rzeczy, które nie do końca się obecnie sprawdzają.
 
-Samojezdne samochody? Na razie dominuje w&nbsp;tym Waymo (= Google). A&nbsp;są jacy są. Inni, tacy jak Tesla i Uber, to częściowo wydmuszki.  
+Samojezdne samochody? Na razie dominuje w&nbsp;tym Waymo (= Google). A&nbsp;Google jest jakie jest. Inni, tacy jak Tesla i Uber, to w tej kwestii częściowo wydmuszki.  
 Sztuczna inteligencja? Mam o&nbsp;tym [osobny wpis]({% post_url 2021-03-03-ai-wspolczesni-szamani %}). Pojęcie głównie marketingowe ma w&nbsp;ciągu 9 lat przejąć znaczną część ludzkiej pracy? Nie widzę tego :wink:  
 Dzielenie przestrzeni biurowych? Coś może o tym powiedzieć WeWork, który [otarł się o bankructwo](https://www.businessinsider.com/weworks-nightmare-ipo?IR=T).
 

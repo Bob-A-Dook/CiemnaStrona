@@ -3,7 +3,7 @@ layout: post
 title:  "UseCrypt kontra bezpieczniki – kulisy afery"
 subtitle: "Od prostego sporu do sieci powiązań."
 date:   2021-03-12 00:06:00 +0100
-tags: [UseCrypt, Afera]
+tags: [UseCrypt, Afera, Manipulacja, Media]
 ---
 
 Powitajmy na Ciemnej Stronie pierwszą relację z&nbsp;aferki! :sunglasses:
