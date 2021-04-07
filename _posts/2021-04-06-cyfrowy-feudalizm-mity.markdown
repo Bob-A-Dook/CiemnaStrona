@@ -4,7 +4,7 @@ title:  “You'll own nothing” 1 – mity
 date:   2021-04-04 15:49:00 +0100
 tags: [Centralizacja, Manipulacja]
 category: cyfrowy_feudalizm
-category_readable: "Cyfrowy feudalizm"
+category_readable: "Cyfrowy&nbsp;feudalizm"
 ---
 
 Ten wpis to wprowadzenie do nowej serii, „Cyfrowego feudalizmu”. Jej tematem jest **centralizacja i&nbsp;powstawanie monopoli**, jedno z&nbsp;czterech negatywnych zjawisk, jakie wskazałem w&nbsp;[pierwszym wpisie na Ciemnej Stronie]({% post_url 2021-01-10-ciekawe-czasy %}).
@@ -18,9 +18,9 @@ Nie lubię takiego podejścia, bo strasznie spłyca rzeczywistość. Łatwo mów
 A co, jeśli nie ma jednego wroga? Jeśli każdy działa na swój interes, a&nbsp;dopiero wypadkowa tych działań prowadzi do negatywnych skutków? Jeśli nie rozwiąże się tego na chłopski rozum, tylko trzeba pogłówkować?  
 Tak wolę na to patrzeć.
 
-Dlatego w&nbsp;pierwszej części wpisu „odczaruję” słowa o&nbsp;utracie własności. Pokażę artykuł, z&nbsp;którego pochodzą i&nbsp;sposób, w&nbsp;jaki przekręcono ich znaczenie.
+Dlatego w&nbsp;tym wpisie „odczaruję” słowa o&nbsp;utracie własności. Pokażę artykuł, z&nbsp;którego pochodzą i&nbsp;sposób, w&nbsp;jaki przekręcono ich znaczenie.
 
-Ale odarcie problemu z&nbsp;sensacyjno-spiskowej otoczki w&nbsp;żadnym razie nie sprawi, że zniknie. Bo trend ku centralizacji i&nbsp;uzależnianiu się od dużych organizacji **uważam za realne zagrożenie**. O&nbsp;tym będzie w&nbsp;części drugiej wpisu.
+Ale odarcie problemu z&nbsp;sensacyjno-spiskowej otoczki w&nbsp;żadnym razie nie sprawi, że zniknie. Bo trend ku centralizacji i&nbsp;uzależnianiu się od dużych organizacji **uważam za realne zagrożenie**. O&nbsp;tym będzie w&nbsp;kolejnych wpisach z&nbsp;tej serii.
 
 Zapraszam do świata *cyfrowego feudalizmu*.
 
@@ -81,7 +81,7 @@ Czyli mamy dwie strony medalu. Cały felieton wygląda na luźne przemyślenia o
 ## Szerszy kontekst
 
 Przyjrzyjmy się też autorce. Tutaj znajdziecie [jej CV](https://www.thedanishparliament.dk/members/ida-auken).  
-Widać dużo wzmianek o&nbsp;sprawach ekologicznych i&nbsp;*circular economy*:
+W nazwach piastowanych przez nią stanowisk widać dużo wzmianek o&nbsp;sprawach ekologicznych i&nbsp;*circular economy*:
 
 * \[Member of\] Meta-Council for Circular Economy from 2014
 * \[Member of\] green think tank, 2014-2015.
@@ -90,7 +90,7 @@ Widać dużo wzmianek o&nbsp;sprawach ekologicznych i&nbsp;*circular economy*:
 
 A czym to pojęcie w&nbsp;ogóle jest? To [gospodarka o&nbsp;obiegu zamkniętym](https://pl.wikipedia.org/wiki/Gospodarka_o_obiegu_zamkni%C4%99tym) -- model, w&nbsp;którym jak najwięcej rzeczy wykorzystuje się powtórnie. Została również wspomniana w&nbsp;samym felietonie.
 
-Wygląda na to, że autorka po prostu napisała tekst zgodny ze swoim długoletnim „konikiem”, czyli sprawami środowiska. Chwalący taki model gospodarki, jaki od dawna uznawała. Tak, niektóre zwroty są dość prowokacyjne, ale żeby od razu to przyjmować za jakiś manifest WEF?
+Wygląda na to, że autorka po prostu napisała tekst zgodny ze swoim długoletnim „konikiem”, czyli sprawami środowiska. Chwalący taki model gospodarki, jaki od dawna uznawała. Tak, niektóre zwroty są dość prowokacyjne, ale żeby od razu to nazywać jakimś manifestem WEF...
 
 A jak samo WEF odnosi się do tego artykułu?
 
@@ -104,23 +104,26 @@ W tym streszczeniu również przedstawiają wizję z&nbsp;tekstu jako coś, co n
 
 Gdyby dla ludzi z&nbsp;WEF był to oficjalny plan i&nbsp;ideał, to czy w&nbsp;taki sposób by go przedstawiali?
 
-Jeśli moja weryfikacja Was nie przekonuje, to możecie też się zapoznać z&nbsp;[tą od Reutersa](https://www.reuters.com/article/uk-factcheck-wef-idUSKBN2AP2T0). Pokazują dodatkowo, że słowa nie wychodzą poza materiały PR-owe, a&nbsp;oficjalne wytyczne nie mówią o&nbsp;zakończeniu własności prywatnej.
+Jeśli moja próba weryfikacji Was nie przekonuje, to możecie też się zapoznać z&nbsp;[tą od Reutersa](https://www.reuters.com/article/uk-factcheck-wef-idUSKBN2AP2T0). Pokazują tam, że cytowane słowa nie wychodzą poza materiały PR-owe, a&nbsp;oficjalne wytyczne WEF nie mówią o&nbsp;zakończeniu własności prywatnej.
 
 ## Podsumowanie
 
 Przedstawianie słów *“You'll own nothing”* jako oficjalnej deklaracji WEF uważam za straszną przesadę. Od początku były nazwane prognozą, autorka napisała sprostowanie, nie są odzwierciedlone w&nbsp;ważniejszych dokumentach.
 
-Dla jasności powtórzę: **o&nbsp;WEF poczytałem tylko pobieżnie, więc nie oceniam samej organizacji**. Tylko te jedne, konkretne słowa.  
+Przypomnę: **o&nbsp;WEF poczytałem tylko pobieżnie, więc nie oceniam samej organizacji**. Tylko sposób przedstawiania jednego cytatu.  
 Ale, no... Jeśli artykuł dość jasno pokazuje A, ale ktoś bierze z&nbsp;niego kilka słów i&nbsp;mówi że pokazują B, to jak to nazwać? Kłamstwem, manipulacją, *fake newsem*?
 
 Przejdę do tego, co myślę o&nbsp;samym felietonie.
 
 Z jednej strony: fajnie widzieć prognozę biorącą pod uwagę kilka równoległych, na razie raczkujących zjawisk i&nbsp;łączącą je w&nbsp;całość. Lubię eksperymenty myślowe.
 
-Z drugiej: jest moim zdaniem dość płytki i&nbsp;utopijny. Patrzy na pozytywne strony dzielenia własności -- rowery miejskie, efektywne wykorzystanie przestrzeni -- i&nbsp;na tej podstawie prognozuje. 
+Z drugiej: jest moim zdaniem dość płytki i&nbsp;utopijny. Patrzy na pozytywne strony dzielenia własności -- rowery miejskie, tymczasowe mieszkania i biura -- i&nbsp;na tej podstawie prognozuje. Traktuje pewne technologie tak, jakby ich marketing był prawdziwy.
 
-A inne kwestie? Samojezdne samochody? Na razie dominuje w&nbsp;tym Waymo (= Google). A&nbsp;są jacy są. Sztuczna inteligencja? Mam o&nbsp;tym [osobny wpis]({% post_url 2021-03-03-ai-wspolczesni-szamani %}). Pojęcie głównie marketingowe ma w&nbsp;ciągu 9 lat przejąć znaczną część ludzkiej pracy? Nie widzę tego :wink:
+Samojezdne samochody? Na razie dominuje w&nbsp;tym Waymo (= Google). A&nbsp;są jacy są. Inni, tacy jak Tesla i Uber, to częściowo wydmuszki.  
+Sztuczna inteligencja? Mam o&nbsp;tym [osobny wpis]({% post_url 2021-03-03-ai-wspolczesni-szamani %}). Pojęcie głównie marketingowe ma w&nbsp;ciągu 9 lat przejąć znaczną część ludzkiej pracy? Nie widzę tego :wink:  
+Dzielenie przestrzeni biurowych? Coś może o tym powiedzieć WeWork, który [otarł się o bankructwo](https://www.businessinsider.com/weworks-nightmare-ipo?IR=T).
 
-Jak ma wyglądać przejście od korpo radykalnie dbających o&nbsp;swój interes do pełnego współdzielenia z&nbsp;wizji autorki? Od raczkującej metody do zastąpienia ludzi? Widzę tu dość spory przeskok myślowy. Nie wydaje się wiarygodny.
+Jak ma wyglądać przejście od korpo radykalnie dbających o&nbsp;swój interes do pełnego współdzielenia z&nbsp;wizji autorki? Od niedoskonałej metody do maszyn zastąpujących ludzi?  
+Widzę tu dość spory przeskok myślowy. Nie wydaje się wiarygodny.
 
 Dlatego nie będę się sugerował wizją utopijną, wizją spiskową ani żadną inną. Po prostu wezmę sobie słowa z&nbsp;tytułu i&nbsp;pokażę obrazki z&nbsp;rzeczywistości. Zapraszam do części drugiej.
