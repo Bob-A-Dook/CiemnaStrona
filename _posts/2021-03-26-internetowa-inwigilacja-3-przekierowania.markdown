@@ -4,7 +4,7 @@ title:  "Internetowa inwigilacja 3 – przekierowania"
 subtitle: "„Do kogo idziesz?”"
 date:   2021-03-26 00:00:15 +0100
 tags: [Internet, Inwigilacja, Centralizacja, Porady]
-firmy: [Twitter]
+firmy: [Twitter, Google]
 category: internetowa_inwigilacja
 category_readable: "Internetowa&nbsp;inwigilacja"
 ---
@@ -13,7 +13,9 @@ W poprzednich częściach „Internetowej inwigilacji” porównałem informacje
 
 Przyjrzeliśmy się również refererowi, jednej z&nbsp;tych informacji -- zdradzającej stronie B, że przybywamy na nią po kliknięciu w&nbsp;link na stronie A.
 
-W tym odcinku nadal trzymamy się tematu linków. Poznamy coś, co można uznać za odwrócony referer -- podmianę linków, dzięki której **strona A&nbsp;może się dowiedzieć, że odchodzimy z&nbsp;niej na stronę B**.
+W tym odcinku nadal trzymamy się tematu linków. Tym razem nie omówię kolejnych rodzajów informacji, jakie mogą się znaleźć na naszej etykiecie, tylko **sztuczkę**, dzięki której istniejące informacje mogą trafić do innej strony.
+
+To trochę jak odwrócony referer -- on mówił, skąd przychodzimy. Zaś dzięki podmianie linków i przekierowaniom **strona A&nbsp;może się dowiedzieć, że odchodzimy z&nbsp;niej na stronę B**.
 
 Gwiazdą wieczoru będzie Twitter, który takie coś uskutecznia.
 
@@ -178,6 +180,27 @@ Potem odwiedzamy *getlinkinfo.com*, wklejamy adres w&nbsp;puste pole i&nbsp;klik
 
 Teraz wystarczy tylko w&nbsp;niego kliknąć... Albo go skopiować i&nbsp;wkleić w&nbsp;pasek przeglądarki (żeby nie wysyłać w&nbsp;refererze informacji, że przybywamy z&nbsp;*getlinkinfo.com* :sunglasses:).
 
-Metoda jest uniwersalna i&nbsp;powinna skutecznie działać, kiedy musimy wejść w&nbsp;nieznane, skrócone linki. Ale życzę nam, żeby takie myki nie były potrzebne, a&nbsp;wszystkie linki -- jak drogi do Rzymu -- prowadziły tam, dokąd powinny.
+Metoda jest uniwersalna i&nbsp;powinna skutecznie działać, kiedy musimy wejść w&nbsp;nieznane, skrócone linki. Warto dodać GetLinkInfo gdzieś do zakładek.
+
+# Dodatek Universal Bypass
+
+**(Dodano 8.04.2021 r.)**
+
+Odkryłem ten dodatek do przeglądarki jakiś czas po stworzeniu wpisu. To zdecydowanie najprzyjaźniejsze rozwiązanie do obchodzenia popularnych przekierowań (*t.co*, *bit.ly*...), ponieważ nie wymaga każdorazowego odwiedzania GetLinkInfo. Wszystko dzieje się w tle. 
+
+Ma jednak jedno ograniczenie -- **nie ma go w oficjalnym archiwum Chrome'a** (którego i&nbsp;tak warto zmienić; robienie z&nbsp;niego przeglądarki chroniącej prywatność to jak robienie wyścigówki z malucha).  
+Możecie go za to łatwo pobrać i&nbsp;zainstalować na PC [dla Firefoxa](https://addons.mozilla.org/en-US/firefox/addon/universal-bypass/) i&nbsp;[dla Edge'a](https://microsoftedge.microsoft.com/addons/detail/ckiidekccfgninkobmmofopbbdgdclgg). Z&nbsp;przeglądarek mobilnych wspiera go podobno Kiwi Browser na Androidzie (nie testowałem).
+
+{% include info.html type="Niedobry Google" text="Dlaczego nie ma tego dodatku na Chrome'ie? Okazuje się, że to **Google go usunął odgórną decyzją**. Jako wyjaśnienie podają, że może służyć do omijania płatności na stronach.  
+Tylko że ciężko spotkać się z takim zastosowaniem przekierowań, dużo częściej są używane do śledzenia. Brzmi to jak wymówka. No ale takie uroki monopolu..."
+trailer="
+<blockquote>Google took it down for apparently 'circumventing paywalls.' I&nbsp;have clarified that Universal Bypass is more of an adblocker and asked for details of where paywalls are circumvented, but it's Google, so of course I&nbsp;didn't get a response.
+</blockquote>
+<p class='figcaption' style='margin-bottom:0px'>Źródło: <a href='https://universal-bypass.org/faq'>strona Universal Bypass</a>
+</p>"%}
+
+Gdybyście bardzo chcieli mimo wszystko zainstalować Bypassa na Chrome'ie, to można to zrobić [okrężnym sposobem](https://universal-bypass.org/install). Muszę kiedyś stworzyć o tym samouczek.
+
+Ale póki co życzę nam, żeby takie myki nie były potrzebne, a&nbsp;wszystkie linki -- jak drogi do Rzymu -- prowadziły tam, dokąd powinny.
 
 Do zobaczenia w&nbsp;kolejnym wpisie!
