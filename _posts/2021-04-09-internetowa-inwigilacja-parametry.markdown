@@ -83,7 +83,7 @@ Dzięki parametrom wszystkie te organizacje mogą łatwo monitorować, w&nbsp;ja
 
 # Przypadek Facebooka
 
-Spójrzmy dokładniej na jeszcze jeden przykład z&nbsp;Facebooka. Wspominałem już, w&nbsp;jaki sposób można tam pobierać i&nbsp;przeglądać swoje dane.
+Spójrzmy dokładniej na jeszcze jeden przykład z&nbsp;Facebooka. Wspominałem [w pewnym wpisie]({% post_url 2021-02-11-bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka %}), w&nbsp;jaki sposób można tam pobierać i&nbsp;przeglądać swoje dane.
 
 Tak to wygląda, kiedy wejdziemy w&nbsp;tryb przeglądania i&nbsp;chcemy wejść w&nbsp;całą listę swoich aktywności:
 
@@ -92,7 +92,7 @@ Tak to wygląda, kiedy wejdziemy w&nbsp;tryb przeglądania i&nbsp;chcemy wejść
 
 Pod zaznaczonym polem ukrywa się link:
 
-<div class="black-bg mono">https://www.facebook.com/MOJA_NAZWA_KONTA/allactivity?category_key=allapps&privacy_source=access_hub&entry_point=ayi_hub</div>
+<div class="black-bg mono">https://www.facebook.com/MOJA_NAZWA_KONTA/allactivity<span class="red">?category_key=allapps&privacy_source=access_hub&entry_point=ayi_hub</span></div>
 
 
 Link prowadzi do podstrony `allactivity`. Zawiera trzy parametry:
@@ -122,7 +122,7 @@ Dzięki parametrom można naszykować jedną i&nbsp;tę samą stronę dla wszyst
 
 Tutaj przykład z&nbsp;chatu platformy Steam znaleziony na [stronie dodatku Link Cleaner](https://addons.mozilla.org/en-US/firefox/addon/link-cleaner/):
 
-<div class="black-bg mono">https://steamcommunity.com/linkfilter/?url=https://getfedora.org/</div>
+<div class="black-bg mono">https://steamcommunity.com/linkfilter/<span class="red">?url=https://getfedora.org/</span></div>
 
 Link prowadzi do podstrony `linkfilter` w&nbsp;domenie *steamcommunity.com*.  
 Ma jeden parametr: `url`, o&nbsp;wartości `https://getfedora.org/`. To link docelowy.
