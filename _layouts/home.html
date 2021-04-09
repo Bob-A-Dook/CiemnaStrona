@@ -30,7 +30,7 @@ layout: default
   {%- endif -%}
 
   
-  <h2 class="post-list-heading">Serie</h2>
+  <h2 id="serie" class="post-list-heading">Serie</h2>
   {% for seria in site.serie %}
     <p><a href="{{seria.permalink}}">{{seria.readable_name}}</a></p>   
   {% endfor %}
