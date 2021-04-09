@@ -68,7 +68,8 @@ Kiedy użytkownicy będą w&nbsp;nie klikali, to po parametrach poznamy, z&nbsp;
 
 Spójrzmy, kto w&nbsp;praktyce używa parametrów. Pewnie nie zdziwi nas widok samych znanych graczy:
 
-* parametry śledzące od Google'a zaczynają się często na *utm* (`utm_source`, `utm_medium`...);
+* uniwersalne [parametry śledzące UTM](https://pl.wikipedia.org/wiki/Parametry_UTM), wspierane m.in. przez Google Analytics, zaczynają się często od *utm* (`utm_source`, `utm_medium`...);
+* te stricte od stron Google'a zaczynają się m.in. od `gclid`;
 * Facebooka -- od `fbclid`;
   
   Zresztą Facebook niczego się nie wstydzi i&nbsp;[sam o&nbsp;tych parametrach wspomina](https://www.facebook.com/business/help/1016122818401732) w&nbsp;swoich materiałach dla firm.
@@ -76,10 +77,13 @@ Spójrzmy, kto w&nbsp;praktyce używa parametrów. Pewnie nie zdziwi nas widok s
 * Instagrama -- od `igshid`.
 * Amazona...
   
-  Ci to dorzucają całe mnóstwo, w&nbsp;tym wyszukiwane słowa kluczowe, dział, identyfikator:  
+  Ci to dorzucają całe mnóstwo, w&nbsp;tym wyszukiwane słowa kluczowe, dział strony, identyfikator:  
   `?s=amazonbasics&srs=10112675011&ie=UTF8&qid=1489067885&sr=8-1&keywords=usb-c`
 
 Dzięki parametrom wszystkie te organizacje mogą łatwo monitorować, w&nbsp;jaki sposób przemieszczamy się po ich stronach. I&nbsp;mówić stronom zewnętrznym, że to od nich przychodzimy.
+
+{% include info.html type="Ciekawostka" text="Gdyby interesowało Was więcej parametrów śledzących różnych stron, to [tu znajduje się ogromna lista](https://github.com/AmanoTeam/Unalix/blob/master/unalix/package_data/rulesets/data.min.json).  
+Ogólny format to nazwa kategorii/organizacji (np. *\"google\"*), pod nią *\"rules\"*. A wszystko co pod *rules* to lista parametrów na danej stronie (nie zawsze są czytelne, bo czasem to ogólne regułki oznaczające np. dowolną cyfrę)."%}
 
 # Przypadek Facebooka
 
