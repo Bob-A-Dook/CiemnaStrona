@@ -6,7 +6,7 @@ layout: default
 {{content}}
 
 <h1>Wpisy z tej serii</h1>
-{%- assign date_format = site.minima.date_format | default: "%d.%m.%Y r." -%}
+{%- assign date_format = site.minima.date_format | default: "%d.%m.%Y&nbsp;r." -%}
 {% for post in site.posts %}
   {% if post.category == page.seria %}
     <p>
