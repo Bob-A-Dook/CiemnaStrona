@@ -73,9 +73,11 @@ Zajmuje się głównie muzyką, ale ja skupię się na podcastach, żeby poka
 Spotify zawarł umowę na 100 mln dolarów z&nbsp;podcastowym gigantem, Joe Roganem, który wcześniej prowadził kanał na YouTubie. Jego tematem były wywiady z&nbsp;różnymi postaciami. Czasem kontrowersyjnymi, czasem radykalnymi.
 
 Jednym z&nbsp;warunków umowy było zamknięcie kanału na YouTubie i&nbsp;przejście wyłącznie na Spotify.  
-Ale okazało się, że nie wszystko przeszło. Spotify [usunęło również kilka wywiadów](https://www.newsweek.com/joe-rogan-spotify-podcast-censorship-alex-jones-mark-dice-missing-episodes-1579754) z&nbsp;osobami, które im się nie podobały. Rogan nie protestował.
+Ale okazało się, że nie wszystko przeszło. Spotify [usunęło również część wywiadów](https://www.newsweek.com/joe-rogan-spotify-podcast-censorship-alex-jones-mark-dice-missing-episodes-1579754) z&nbsp;osobami, które im się nie podobały. Rogan nie protestował.
 
-Nie będę oceniał samych postaci, a&nbsp;wywiadów nie słuchałem. Ale mamy tu czarno na białym: może dochodzić do sytuacji, w&nbsp;której **treści znikają ze względów politycznych** i&nbsp;żadnej ze stron umowy nie zależy na ich przywróceniu.  
+Aktualizacja: według najnowszych informacji Spotify usuwa na bieżąco. [Łącznie 42 wywiady](https://www.digitalmusicnews.com/2021/04/06/joe-rogan-spotify-removing-shows/), z czego niektóre zawierały tylko pojedyncze niezręczne żarty.
+
+Nie będę oceniał samych rozmówców Rogana, a&nbsp;wywiadów nie słuchałem. Ale mamy tu czarno na białym: może dochodzić do sytuacji, w&nbsp;której **treści znikają przez nacisk ze strony urażonych osób** i&nbsp;żadnej ze stron umowy nie zależy na ich przywróceniu.  
 Gdyby nie było osób archiwizujących te podcasty, to przepadłyby bezpowrotnie. Bo nigdy nie były nasze.
 
 Było o&nbsp;rozrywce, to teraz trochę o&nbsp;pracy. Bo ją również ostro spycha się do chmury.
