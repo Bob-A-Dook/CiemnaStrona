@@ -74,12 +74,12 @@ Spójrzmy, kto w&nbsp;praktyce używa parametrów. Pewnie nie zdziwi nas widok s
   Zresztą Facebook niczego się nie wstydzi i&nbsp;[sam o&nbsp;tych parametrach wspomina](https://www.facebook.com/business/help/1016122818401732) w&nbsp;swoich materiałach dla firm.
 
 * Instagrama -- od `igshid`.
-* Amazona
+* Amazona...
   
   Ci to dorzucają całe mnóstwo, w&nbsp;tym wyszukiwane słowa kluczowe, dział, identyfikator:  
   `?s=amazonbasics&srs=10112675011&ie=UTF8&qid=1489067885&sr=8-1&keywords=usb-c`
 
-Dzięki parametrom wszystkie te organizacje mogą łatwo monitorować, w&nbsp;jaki sposób przemieszczamy się po ich stronach.
+Dzięki parametrom wszystkie te organizacje mogą łatwo monitorować, w&nbsp;jaki sposób przemieszczamy się po ich stronach. I&nbsp;mówić stronom zewnętrznym, że to od nich przychodzimy.
 
 # Przypadek Facebooka
 
@@ -88,7 +88,7 @@ Spójrzmy dokładniej na jeszcze jeden przykład z&nbsp;Facebooka. Wspominałem 
 Tak to wygląda, kiedy wejdziemy w&nbsp;tryb przeglądania i&nbsp;chcemy wejść w&nbsp;całą listę swoich aktywności:
 
 {:.figure .bigspace}
-<img src="/assets/posts/linki-parametry/fb-aktywnosc-poza.webp" alt=""/>
+<img src="/assets/posts/linki-parametry/fb-aktywnosc-poza.webp" alt="Zrzut ekranu z Facebooka, z zakładki przeglądania swoich informacji. Jest tu pięć opcji, które można kliknąć. Jedna z nich, 'Posty z aplikacji i witryn', jest otoczona czerwoną ramką."/>
 
 Pod zaznaczonym polem ukrywa się link:
 
@@ -185,7 +185,7 @@ Innym razem parametry są wręcz niezbędne i&nbsp;strona bez nich nie działa. 
 Jeśli usuniemy z&nbsp;linku parametry, czyli wszystko po znaku zapytania, to zostaniemy praktycznie z niczym. A po wejściu w&nbsp;taki link wyświetli nam błąd:
 
 {:.bigspace}
-<img src="/assets/posts/linki-parametry/po-co-parametry.webp" alt=""/>
+<img src="/assets/posts/linki-parametry/po-co-parametry.webp" alt="Fragmenty dwóch screenów. Jeden pokazuje stronę Hackernews, kiedy w pasku adresu jest pełen link. Parametr id jest w nim podkreślony na czerwono. Drugi pokazuje tę samą stronę bez parametrów. Widać wyświetlony komunikat o błędzie."/>
 
 Jak widać, **bez parametru _id_ z&nbsp;określoną wartością nie dostaniemy tego, na co liczyliśmy**. Gdybyśmy automatycznie usuwali wszystkie parametry, to strona by w&nbsp;ogóle nie działała.
 
@@ -212,7 +212,7 @@ Oczywiście możecie wypróbować oba i&nbsp;wybrać ten, który lepiej Wam pasu
 Tutaj z&nbsp;kolei jest *ClearURLs* [na Firefoxa](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) i&nbsp;[na Chrome'a](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/).
 
 {% include info.html type="Niedobry Google" text="Niedawno miała miejsce aferka z&nbsp;udziałem ClearURLs i&nbsp;Google'a.  
-Niedawno dodatek **został usunięty przez Google z&nbsp;Chrome Web Store'a** (ich archiwum dodatków do przeglądarki) z&nbsp;dość naciąganych przyczyn. Po [burzliwej dyskusji](https://github.com/ClearURLs/Addon/issues/102) i&nbsp;odwołaniu się przez autora został przywrócony.  
+Dodatek **został usunięty przez Google z&nbsp;Chrome Web Store'a** (ich archiwum dodatków do przeglądarki) z&nbsp;dość naciąganych przyczyn. Po [burzliwej dyskusji](https://github.com/ClearURLs/Addon/issues/102) i&nbsp;odwołaniu się przez autora został przywrócony.  
 Tym niemniej cała sytuacja pokazuje, jak dużą władzę nad przeglądarką ma Google. Kiedy pobieramy dodatki, to je „instalujemy” (z nazwy), ale nie ma to nic wspólnego z&nbsp;trwałą instalacją normalnych programów.  
 Wystarczy że Google przełączy po swojej stronie jeden pstryczek, a&nbsp;nasz dodatek do Chrome'a przestaje działać."%}
 
@@ -234,7 +234,7 @@ Takie „ABC” prywatności w&nbsp;sieci nie wydaje się poza zasięgiem, a&nbs
 
 Ale koniec rozważań, robota czeka :smile:
 
-W kolejnym wpisie będzie chwila uspokojenia od linków i&nbsp;powrót do "etykiety" (nagłówków HTTP).  
+W kolejnym wpisie będzie chwila uspokojenia od linków i&nbsp;powrót do „etykiety” (nagłówków HTTP).  
 Omówię rzecz ciekawą, ale nieco mniejszego kalibru -- *user agenta*, czyli informacje o&nbsp;urządzeniu i&nbsp;przeglądarce. Do zobaczenia! 
 
 <script>
