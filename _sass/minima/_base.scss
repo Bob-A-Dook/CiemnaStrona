@@ -341,7 +341,6 @@ strong {
 
 .red {
   color: #d56f6a !important;
-  word-wrap: break-word
 }
 
 .spoiler { 
@@ -520,6 +519,7 @@ strong {
   background-color:black;
   min-height:30px;
   padding:5px;
+  word-wrap: break-word;
   margin: 1em 0px 1em 0px;
 }
 
