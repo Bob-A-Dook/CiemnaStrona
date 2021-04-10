@@ -17,18 +17,18 @@ Najpierw odwiedzamy [oficjalną stronę Pythona](https://www.python.org/download
 Powinno samo Wam podpowiedzieć najnowszą wersję:
 
 {:.figure .bigspace}
-<img src="/assets/tutorials/python-basics/1-download.webp" alt="Zrzut ekranu ze strony Pythona."/>
+<img src="/assets/tutorials/python-basics/1-download.webp" alt="Zrzut ekranu ze strony Pythona. Na jaskrawym tle widać wersję proponowaną dla naszego systemu operacyjnego."/>
 
 Pobieracie instalator -- w&nbsp;przypadku Windowsa będzie miał końcówkę *.exe*. Znajdujecie go w&nbsp;folderze z&nbsp;pobranymi rzeczami i&nbsp;włączacie podwójnym kliknięciem.
 
 {% include info.html type="Porada" text="Nie musicie nawet chodzić po folderach. Od razu po pobraniu, pozostając w&nbsp;przeglądarce, kliknijcie w&nbsp;ikonę pobrania z&nbsp;górnego paska (u mnie na przykładzie Firefoksa). Wyświetli się miniaturka pobranego pliku.  
 Tutaj możecie po prostu kliknąć nazwę pliku *exe*, żeby go odpalić." trailer="<p class='figure'>
-<img src='/assets/tutorials/python-basics/2-run.webp' alt=''/></p>"%}
+<img src='/assets/tutorials/python-basics/2-run.webp' alt='Rozwinięta zakładka z pobranymi plikami w przeglądarce Firefox. Wyróżniono nazwę pobranego pliku exe, w którą należy kliknąć.'/></p>"%}
 
 Po włączeniu instalatora **najpierw zaznaczcie dolną opcję**, dodanie Pythona do zmiennych systemowych:
 
 {:.figure .bigspace}
-<img src="/assets/tutorials/python-basics/3-installer.webp" alt=""/>
+<img src="/assets/tutorials/python-basics/3-installer.webp" alt="Okno instalatora Pythona na Windowsie. Opcja na dole jest zaznaczona czerwoną ramką i widnieje przy niej cyfra 1. Zaznaczona jest też największa z opcji, mówiąca o domyślnej instalacji. Widać przy niej cyfrę 2."/>
 
 Nie jest to obowiązkowe, ale ogromnie ułatwia życie -- gdybyśmy tego nie zrobili, to musielibyśmy czasem podawać pełną ścieżkę do jego plików.
 
@@ -67,26 +67,26 @@ Przyznam, że niefajne pierwsze wrażenie. Ale na szczęście skrypty działają
 Aby go otworzyć, wchodzimy w&nbsp;menu Start (ikona w&nbsp;lewym dolnym rogu). Zakładki są tam ułożone alfabetycznie. Znajdujemy zakładkę `Python...` i&nbsp;ją rozwijamy:
 
 {:.figure .bigspace}
-<img src="/assets/tutorials/python-basics/4-idle-run.webp" alt=""/>
+<img src="/assets/tutorials/python-basics/4-idle-run.webp" alt="Menu Start z Windowsa, zakładka dla Pythona."/>
 
 Klikamy na `IDLE...`. Włączymy w&nbsp;ten sposób edytor IDLE w&nbsp;trybie ogólnym, interaktywnym:
 
 {:.figure .bigspace}
-<img src="/assets/tutorials/python-basics/5-idle1.webp" alt=""/>
+<img src="/assets/tutorials/python-basics/5-idle1.webp" alt="IDLE w trybie konsoli. Widać trzy brązowe strzałki, a za nimi puste pole, w które można wpisywać komendy."/>
 
 Żeby otworzyć w&nbsp;nim teraz konkretny skrypt, wybieramy z&nbsp;górnego menu `File`, potem `Open` (albo naciskamy `Ctrl+O`, jak *"Open"*).
 
 Pojawi się domyślne menu Windowsa od wybierania plików. Dzielnie przeklikujemy się do naszego skryptu *witaj.py* i&nbsp;go wybieramy. IDLE wyświetli go w&nbsp;drugim ze swoich trybów, trybie edycji:
 
 {:.figure .bigspace}
-<img src="/assets/tutorials/python-basics/6-idle2.webp" alt="" width="500px"/>
+<img src="/assets/tutorials/python-basics/6-idle2.webp" alt="Otwarte okno IDLE w trybie edycji (pusta przestrzeń, w którą można wpisywać kod." width="500px"/>
 
 Teraz możemy przejrzeć sobie treść skryptu, co w&nbsp;tym przypadku nie zajmie dużo czasu.
 
 Naciskamy `F5`, żeby odpalić skrypt. Wyświetli się kolejne okno w&nbsp;trybie interaktywnym, pokazujące komunikaty. Wyświetlą Wam się słowa „Witaj po ciemnej stronie!”.
 
 {:.figure .bigspace}
-<img src="/assets/tutorials/python-basics/7-idle3.webp" alt=""/>
+<img src="/assets/tutorials/python-basics/7-idle3.webp" alt="IDLE w trybie konsoli z wyświetlonymi słowami."/>
 
 Czyli wszystko działa, a&nbsp;świat Pythona stoi otworem.
 

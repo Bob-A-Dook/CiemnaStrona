@@ -227,24 +227,17 @@ Teraz macie już wszystko co potrzebne, można odpalać skrypciory :sunglasses:
 
 Tak jak pokazywałem, czasem system domyślnie pozwala nam zajrzeć w&nbsp;metadane. Ale skryptem można to zrobić szybciej, przyjemniej i&nbsp;w taki sam sposób na różnych komputerach.
 
-Pobierzcie zatem mój skrypt, <i><a href="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/skrypty/get_exif.py" download>get_exif.py</a></i>.
-
-Następnie wrzućcie go do tego samego folderu co obrazki. Kliknijcie prawym przyciskiem, wybierzcie `Otwórz za pomocą > IDLE (cośtam, cośtam)`. Pokaże się kod źródłowy. Warto go przelecieć wzrokiem, żeby widzieć co robimy.
-
-Gdyby IDLE'a nie było w opcjach, to możecie go otworzyć w dowolny inny sposób, na przykład przez menu `Start` (ikona Windowsa w lewym dolnym rogu; będzie w zakładce `Python...`).  
-Po otwarciu IDLE'a klikacie `Plik → Otwórz` lub naciskacie `Ctrl+O`. I przeklikujecie się przez foldery do naszego skryptu.
-
-Po otwarciu skryptu w&nbsp;IDLE'u i&nbsp;przejrzeniu go wzrokiem można nacisnąć `F5`, żeby go odpalić.
-
-Jeśli wszystko dobrze poszło, powstanie plik *metadane_exif.txt*. **W tym samym folderze, w&nbsp;którym znajdował się skrypt**.
-
-W tym pliku będą po kolei wymienione z&nbsp;nazwy obrazki, w&nbsp;których znaleziono metadane. Pod spodem będzie ich dokładna lista. A&nbsp;także, w&nbsp;przypadku znalezienia danych z&nbsp;GPS-a,  położenie podane w&nbsp;jednostkach dziesiętnych:
-
-<div class="black-bg">
+{% include pyscript.html name="get_exif.py" link="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/skrypty/get_exif.py" external="True" info="
+<p>Wrzućcie go do tego samego folderu co obrazki, które chcecie sprawdzić. Następnie otwórzcie go w&nbsp;IDLE i&nbsp;odpalcie, np. naciskając <code>F5</code> (wszystko opisałem w podstawowym samouczku, link wyżej).</p>
+<p>Aby skrypt działał, trzeba zainstalować moduł dodatkowy <code>pillow</code> (opisałem to dokładniej w&nbsp;drugim podlinkowanym samouczku).</p>
+<p>Jeśli wszystko dobrze poszło, po odpaleniu skryptu <strong>w tym samym folderze</strong> powstanie plik <i>metadane_exif.txt</i>.</p>
+<p>W&nbsp;tym pliku wyróżnionymi nagłówkami będą nazwy obrazków, w&nbsp;których znaleziono metadane. Pod każdym nagłówkiem będzie ich dokładna lista. A&nbsp;także, w&nbsp;przypadku znalezienia danych z&nbsp;GPS-a, położenie przeliczone na jednostki dziesiętne:</p>
+<div class='black-bg mono'>
 <p>LOKALIZACJA:<br/>50.265216827222226, 19.01945304861111</p>
 </div>
+"%}
 
-Wystarczy taką linijkę zaznaczyć, skopiować i&nbsp;wkleić na stronkach z&nbsp;mapami :wink: Dowiecie się, ile zdradzają o&nbsp;Was zdjęcia -- zanim wpadną w&nbsp;niepowołane ręce.
+Wystarczy taką linijkę z&nbsp;liczbami zaznaczyć, skopiować i&nbsp;wkleić na stronkach z&nbsp;mapami :wink: Dowiecie się, ile zdradzają o&nbsp;Was zdjęcia -- zanim wpadną w&nbsp;niepowołane ręce.
 
 # Usuwanie metadanych
 
@@ -267,12 +260,11 @@ W każdym razie fakt pozostaje faktem: **trzy linijki wystarczyły, żeby usuną
 
 OK. Chwila refleksji była, teraz skrypt.
 
-Pobierzcie <i><a href="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/skrypty/remove_exif.py" download>remove_exif.py</a></i>.
-
-Tak jak poprzednio, wystarczy go upuścić w&nbsp;tym samym folderze co zdjęcia, najlepiej pobieżnie przejrzeć i&nbsp;odpalić.
-
-Skrypt nie nadpisuje zdjęć (żeby przypadkiem czegoś nie usunąć), tylko tworzy ich kopie. W&nbsp;podfolderze o&nbsp;nazwie `Bez_metadanych`.  
-Stąd uwaga: gdybyście chcieli odpalić go w&nbsp;folderze, w&nbsp;którym znajduje się dużo ciężkich zdjęć, to sprawdźcie wcześniej ilość miejsca na dysku.
+{% include pyscript.html name="remove_exif.py" link="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/skrypty/remove_exif.py" external="True" info="Instrukcja:
+<p>Tak jak poprzednio, wystarczy go upuścić w&nbsp;tym samym folderze co zdjęcia, najlepiej pobieżnie przejrzeć i&nbsp;odpalić.<br/>
+Do działania potrzebuje modułu dodatkowego <code>pillow</code> (opis instalacji wyżej).</p>
+<p>Skrypt nie nadpisuje zdjęć (żeby przypadkiem czegoś nie usunąć), tylko tworzy ich kopie. W&nbsp;podfolderze o&nbsp;nazwie <code>Bez_metadanych</code>.</p>
+<p>Stąd uwaga: gdybyście chcieli odpalić go w&nbsp;folderze, w&nbsp;którym znajduje się dużo ciężkich zdjęć, to sprawdźcie wcześniej ilość miejsca na dysku.</p>"%}
 
 Tak „wykastrowane” zdjęcia z&nbsp;podfolderu można z&nbsp;czystym sumieniem wrzucać w&nbsp;sieć. 
 
