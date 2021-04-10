@@ -2,7 +2,7 @@
 
 Blog o ochronie prywatności i przekrętach korporacji. Bez teorii spiskowych.
 
-Jeśli chcecie po prostu poczytać bloga, to znajdziecie go pod adresem *[www.ciemnastrona.com.pl](www.ciemnastrona.com.pl)*, natomiast ta strona zawiera jego kod źródłowy.
+Jeśli chcecie po prostu poczytać bloga, to znajdziecie go pod adresem *[ciemnastrona.com.pl](https://www.ciemnastrona.com.pl)*, natomiast ta strona zawiera jego kod źródłowy.
 
 Kod może się przydać, gdybyście byli ciekawi jak to działa. Albo chcieli umieścić treść bloga na własnym serwerze (w razie gdyby we mnie jakiś piorun siarczysty-łognisty strzelił albo krew nagła zalała).
 
