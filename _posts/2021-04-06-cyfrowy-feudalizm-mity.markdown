@@ -120,8 +120,8 @@ Z jednej strony: fajnie widzieć prognozę biorącą pod uwagę kilka równoleg
 Z drugiej: jest moim zdaniem dość płytki i&nbsp;utopijny. Patrzy na pozytywne strony dzielenia własności -- rowery miejskie, tymczasowe mieszkania i biura -- i&nbsp;na tej podstawie prognozuje. Gloryfikuje rzeczy, które nie do końca się obecnie sprawdzają.
 
 Samojezdne samochody? Na razie dominuje w&nbsp;tym Waymo (= Google). A&nbsp;Google jest jakie jest. Inni, tacy jak Tesla i Uber, to w tej kwestii częściowo wydmuszki.  
-Sztuczna inteligencja? Mam o&nbsp;tym [osobny wpis]({% post_url 2021-03-03-ai-wspolczesni-szamani %}). Pojęcie głównie marketingowe ma w&nbsp;ciągu 9 lat przejąć znaczną część ludzkiej pracy? Nie widzę tego :wink:  
-Dzielenie przestrzeni biurowych? Coś może o tym powiedzieć WeWork, który [otarł się o bankructwo](https://www.businessinsider.com/weworks-nightmare-ipo?IR=T).
+Sztuczna inteligencja? Mam o&nbsp;tym [osobny wpis]({% post_url 2021-03-03-ai-wspolczesni-szamani %}). Pojęcie głównie marketingowe ma w&nbsp;ciągu 9&nbsp;lat przejąć znaczną część ludzkiej pracy? Nie widzę tego :wink:  
+Dzielenie przestrzeni biurowych? Coś może o&nbsp;tym powiedzieć WeWork, który [otarł się o bankructwo](https://www.businessinsider.com/weworks-nightmare-ipo?IR=T).
 
 Poza tym jak ma wyglądać przejście od korpo radykalnie dbających o&nbsp;swój interes do pełnego współdzielenia z&nbsp;wizji autorki? Od niedoskonałych algorytmów do zastąpienia ludzi przez maszyny?  
 Widzę tu dość spory przeskok myślowy. Nie wydaje się wiarygodny.
