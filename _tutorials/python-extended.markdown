@@ -33,7 +33,7 @@ Otwieramy menu Start. Przewijając kolumnę po lewej, znajdujemy tam zakładkę 
 Klikamy tę opcję prawym przyciskiem myszy, wybieramy `Pokaż więcej`, a&nbsp;potem `Otwórz lokalizację pliku`:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/1-1-python-lokalizacja.webp"/>
+<img src="/assets/tutorials/python-extended/1-1-python-lokalizacja.webp" width="400px"/>
 
 Włączy się okno Eksploratora Windows z&nbsp;kilkoma skrótami do różnych elementów Pythona. Klikamy dowolny z&nbsp;nich prawym przyciskiem i&nbsp;znów wybieramy `Otwórz lokalizację pliku`.
 
@@ -50,7 +50,7 @@ Spoiler: później skorzystamy z&nbsp;podfolderów *Lib*, *libs* oraz *Scripts*.
 Teraz fajna sztuczka, o&nbsp;której sam wcześniej nie wiedziałem. Kliknijcie w&nbsp;puste pole **po prawej stronie górnego paska** (ale przed strzałką):
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/1-4-sciezka.webp"/>
+<img src="/assets/tutorials/python-extended/1-4-sciezka.webp" width="400px" alt="Górny pasek Eksploratora. Puste miejsce po prawej stronie od ostatniego elementu otoczono czerwoną ramką. Jest w nią wpisane słowo 'KLIK'."/>
 
 W ten sposób pełna ścieżka do folderu zaznaczy się Wam na niebiesko, w&nbsp;formie tekstu. Wystarczy jedno `Ctrl+C`, żeby ją skopiować. Przyda się później w&nbsp;paru miejscach!
 
@@ -62,13 +62,13 @@ Otwieramy IDLE w&nbsp;taki sposób, w&nbsp;jaki tylko chcemy. Powinien się wł�
 
 Wpisujemy (albo kopiujemy i&nbsp;wklejamy):
 
-```
+```python
 import sys
 ```
 
 Potwierdzamy, naciskając `Enter`. Potem wpisujemy:
 
-```
+```python
 for p in sys.path: print(p)
 ```
 
@@ -137,7 +137,7 @@ Otwieramy główny folder Pythona i&nbsp;wybieramy w&nbsp;nim podfolder `libs`, 
 Mój folder `site_packages` wygląda tak (praktycznie zaraz po nowej instalacji, dodałem tylko jeden moduł):
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/3-1-site-packages.webp"/>
+<img src="/assets/tutorials/python-extended/3-1-site-packages.webp" alt="Wnętrze folderu site packages."/>
 
 To jeden z&nbsp;folderów, w&nbsp;których Python szuka swoich skryptów. Możemy wziąć nasz skrypt *witaj.py* -- albo wszelkie inne -- i&nbsp;**po prostu je tutaj dorzucić**.
 
@@ -146,7 +146,7 @@ Co nam to dało? Od teraz nasz skrypt jest dostępny z&nbsp;każdego miejsca w&n
 Możemy od teraz wpisać w&nbsp;IDLE nazwę skryptu bez końcówki *.py*. W&nbsp;naszym przypadku `import witaj`. W&nbsp;jakim folderze byśmy nie byli, odpali nam nasz kod:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/3-2-witaj-import.webp"/>
+<img src="/assets/tutorials/python-extended/3-2-witaj-import.webp" width="400px" alt="Konsola z IDLE z wpisaną komendą 'import witaj' i wyświetlonymi poniżej słowami 'Witaj po ciemnej stronie'."/>
 
 Z tym że jeśli chcemy wykorzystać w&nbsp;pełni dostępność skryptu z&nbsp;każdego miejsca, to **warto odejść od IDLE'a na rzecz PowerShella**. Jego można łatwo odpalić w&nbsp;każdym folderze. Nawet jeśli nie ma tam żadnych skryptów Pythona. IDLE'a nie.
 
@@ -159,7 +159,7 @@ python -m witaj
 Pamiętajmy o&nbsp;`-m`, bo bez tego nie zadziała. A&nbsp;jeśli działa, to wyświetli nasz kod:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/3-3-witaj-powershell.webp"/>
+<img src="/assets/tutorials/python-extended/3-3-witaj-powershell.webp" width="400px" alt="PowerShell z wpisaną powyższą komendą i wyświetlonymi pod nią słowami 'Witaj po ciemnej stronie'."/>
 
 Jeśli chcemy pozostać przy dorzucaniu plików do `site_packages`, to można sobie gdzieś przypiąć skrót do tego folderu. Ale możemy też wydzielić osobny folder na swoje pythonowe skrypty. Pokażę to w&nbsp;kolejnym kroku.
 
@@ -180,11 +180,11 @@ Potem przechodzimy do `site_packages`. Tam tworzymy nowy plik tekstowy. O&nbsp;d
 Otwieramy ten plik w&nbsp;Notatniku i&nbsp;wklejamy tam ścieżkę do naszego folderu. Zapisujemy. Zmieniamy rozszerzenie pliku z&nbsp;*.txt* na *.pth*. Całość wygląda tak:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/4-1-pth-file.webp"/>
+<img src="/assets/tutorials/python-extended/4-1-pth-file.webp"/ alt="Kolaż pokazujący kawałek folderu site_packages z dodanym plikiem pth, a także sam ten plik otwarty w notatniku. Zawiera jedną linijkę, C Skrypty.">
 
 Sprawdzamy czy działa. Powtarzamy krok z&nbsp;punktu 0, czyli wpisujemy w&nbsp;IDLE linijka po linijce:
 
-```
+```python
 import sys
 for p in sys.path: print(p)
 ```
@@ -192,7 +192,7 @@ for p in sys.path: print(p)
 Tym razem na liście powinno wyświetlić również ścieżkę do naszego folderu:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/4-2-wlasny-folder.webp"/>
+<img src="/assets/tutorials/python-extended/4-2-wlasny-folder.webp" width="400px" alt="Zrzut ekranu z IDLE pokazujący konsolę, a w niej wpisaną powyższą komendę. Widać, że pierwszy wyświetlony folder to 'C, skrypty'."/>
 
 Od teraz możemy do niego dorzucać wszystkie swoje skrypty.
 
@@ -213,7 +213,7 @@ Poza tym da się jeszcze szybciej! Skrótami klawiszowymi, które niestety zale�
 PowerShell w&nbsp;sekundę, w&nbsp;dowolnym folderze!
 
 {% include info.html type="Porada" text="Jeśli macie wersję Windowsa w&nbsp;innym języku, to możecie po prostu przytrzymać `Alt` przez dłuższą chwilę, żeby wyświetliły się litery odpowiadające różnym elementom Eksploratora.  
-Potem patrzycie, jakie klawisze odpowiadają opcji `Plik` i&nbsp;otwieraniu PowerShella. To te klawisze musicie nacisnąć w&nbsp;swojej wersji." trailer="<p class='bigspace'><img src='/assets/tutorials/python-extended/5-1-skroty-powershell.webp' alt='Zrzut ekranu z&nbsp;Eksploratora'/></p>"%}
+Potem patrzycie, jakie klawisze odpowiadają opcji `Plik` i&nbsp;otwieraniu PowerShella. To te klawisze musicie nacisnąć w&nbsp;swojej wersji." trailer="<p class='bigspace' style='margin-bottom:0px'><img src='/assets/tutorials/python-extended/5-1-skroty-powershell.webp' alt='Zrzut ekranu z&nbsp;Eksploratora' width='400px'/></p>"%}
 
 Jeśli z&nbsp;kolei chcemy **szybko włączyć PowerShella w&nbsp;jego domyślnym miejscu** - bez otwierania Eksploratora - to naciskamy `Windows+X`, żeby wyświetlić okno z&nbsp;opcjami, a&nbsp;potem `I` (literę podkreśloną w&nbsp;nazwie odpowiadającej PowerShellowi).
 
@@ -225,14 +225,15 @@ Wyczerpaliśmy najłatwiejsze zmiany, teraz zrobi się dziwniej.
 
 Niby wszystko jest cudownie, możemy odpalać skrypty z&nbsp;każdego folderu... Ale za każdym razem musimy wpisywać `python -m nazwa_skryptu`.
 
-To co najmniej 11 znaków ze spacjami, nawet jeśli skrypt będzie miał najkrótszą możliwą nazwę (*a.py*...). Z&nbsp;czasem może się znudzić!
+To co najmniej 11 znaków ze spacjami, nawet jeśli skrypt będzie miał najkrótszą jednoliterową nazwę. Z&nbsp;czasem może się znudzić!
 
 Czy da się to przyspieszyć jeszcze bardziej? Bez grzebania w&nbsp;systemie i&nbsp;zmieniania czegoś na stałe?
 
-Odpowiedź: tak. Da się zejść **do jednego znaku**.  
+Odpowiedź: tak. Da się zejść **do jednego znaku** w PowerShellu.  
 Ale w&nbsp;tym celu trzeba zrobić lekką incepcję i&nbsp;stworzyć **skrypt Windowsa odpalający skrypt Pythona**.
 
-Okazuje się, że Windows w tzw. *zmiennej PATH* przechowuje listę folderów, do których ma szybki dostęp. Mam dobrą wiadomość: nie musimy tu nic dodawać, Python sam podczas instalacji dodaje do *PATH* kilka folderów. Proponuję dorzucić się do jednego z nich, `Scripts`.
+Okazuje się, że Windows w tzw. *zmiennej PATH* przechowuje listę folderów, do których ma szybki dostęp. To tam trzeba się wprosić.  
+Mam dobrą wiadomość: nie musimy w&nbsp;niczym grzebać, Python sam podczas instalacji dodaje do *PATH* kilka folderów. Proponuję dorzucić się do jednego z nich, `Scripts`.
 
 {% include info.html type="Porada" text="Jeśli chcecie się upewnić, że Python dodał folder *Scripts* do *PATH*, to wpiszcie w PowerShellu:" trailer="<div class='black-bg mono'>$env:path -split \";\"</div>" %}
 
@@ -252,12 +253,12 @@ A druga linijka to dokładnie ta sama komenda, jaką byśmy sami odpalali skrypt
 Całość wygląda tak:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/6-2-bat-file.webp"/>
+<img src="/assets/tutorials/python-extended/6-2-bat-file.webp"/ alt="Kolaż z trzech okien Windowsa. U góry widać pełną ścieżkę do folderu Scripts, poniżej jego zawartość z jednym dodanym plikiem 'z.txt'. Na samym dole znajduje się okno pokazujące plik z.txt otwarty w Notatniku, z podanym wyżej tekstem.">
 
 Zmieniamy nazwę pliku na *z.bat*. Od teraz po otwarciu PowerShella dałoby się po prostu nacisnąć `z` i&nbsp;`Enter`, żeby odpalić nasz skrypt. Jednoliterkowiec! :metal:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/6-3-witaj-bat.webp"/>
+<img src="/assets/tutorials/python-extended/6-3-witaj-bat.webp" width="300px"/ alt="Zrzut ekranu z PowerShella pokazujący wpisaną komendę 'z' i wyświetlone pod spodem słowa 'Witaj po ciemnej stronie'.">
 
 Gdybyśmy chcieli jeszcze bardziej ułatwić pracę, to już by mogło wymagać grzebania w&nbsp;systemie albo instalacji dodatków, takich jak AutoHotKey. Dlatego na tym etapie się zatrzymam.
 

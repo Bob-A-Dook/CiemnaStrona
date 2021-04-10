@@ -39,7 +39,7 @@ Ma dwie kluczowe właściwości:
 * ...Ale **jeśli wrzucimy inne dane, to wypluje coś całkiem innego**.
 
   {:.figure}
-  <img src="/assets/posts/haszowanie/python-hash.webp" alt="Konsola interaktywna Pythona, linijka po linijce. Widać że po użyciu funkcji hash na tekście 'Ciemna strona' wyświetliło dwa razy taką samą długą liczbę. Ale kiedy użyto jej na tekście z&nbsp;literą 'o' zmienioną na '0', to liczba jest całkiem inna."/>
+  <img src="/assets/posts/haszowanie/python-hash.webp" alt="Konsola interaktywna Pythona, linijka po linijce. Widać że po użyciu funkcji hash na tekście 'Ciemna strona' wyświetliło dwa razy taką samą długą liczbę. Ale kiedy użyto jej na tekście z&nbsp;literą 'o' zmienioną na '0', to liczba jest całkiem inna." width="400px"/>
 
   {:.figcaption}
   Wystarczyła zmiana jednej litery, żeby funkcja haszująca dała zupełnie inny wynik.

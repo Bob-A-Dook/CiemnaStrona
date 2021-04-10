@@ -79,7 +79,7 @@ Klikamy na `IDLE...`. Włączymy w&nbsp;ten sposób edytor IDLE w&nbsp;trybie og
 Pojawi się domyślne menu Windowsa od wybierania plików. Dzielnie przeklikujemy się do naszego skryptu *witaj.py* i&nbsp;go wybieramy. IDLE wyświetli go w&nbsp;drugim ze swoich trybów, trybie edycji:
 
 {:.figure .bigspace}
-<img src="/assets/tutorials/python-basics/6-idle2.webp" alt=""/>
+<img src="/assets/tutorials/python-basics/6-idle2.webp" alt="" width="500px"/>
 
 Teraz możemy przejrzeć sobie treść skryptu, co w&nbsp;tym przypadku nie zajmie dużo czasu.
 
