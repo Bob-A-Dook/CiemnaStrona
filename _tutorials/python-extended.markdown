@@ -180,7 +180,7 @@ Potem przechodzimy do `site_packages`. Tam tworzymy nowy plik tekstowy. O&nbsp;d
 Otwieramy ten plik w&nbsp;Notatniku i&nbsp;wklejamy tam ścieżkę do naszego folderu. Zapisujemy. Zmieniamy rozszerzenie pliku z&nbsp;*.txt* na *.pth*. Całość wygląda tak:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/4-1-pth-file.webp"/ alt="Kolaż pokazujący kawałek folderu site_packages z dodanym plikiem pth, a także sam ten plik otwarty w notatniku. Zawiera jedną linijkę, C Skrypty.">
+<img src="/assets/tutorials/python-extended/4-1-pth-file.webp" alt="Kolaż pokazujący kawałek folderu site_packages z dodanym plikiem pth, a także sam ten plik otwarty w notatniku. Zawiera jedną linijkę, C Skrypty."/>
 
 Sprawdzamy czy działa. Powtarzamy krok z&nbsp;punktu 0, czyli wpisujemy w&nbsp;IDLE linijka po linijce:
 
@@ -253,12 +253,12 @@ A druga linijka to dokładnie ta sama komenda, jaką byśmy sami odpalali skrypt
 Całość wygląda tak:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/6-2-bat-file.webp"/ alt="Kolaż z trzech okien Windowsa. U góry widać pełną ścieżkę do folderu Scripts, poniżej jego zawartość z jednym dodanym plikiem 'z.txt'. Na samym dole znajduje się okno pokazujące plik z.txt otwarty w Notatniku, z podanym wyżej tekstem.">
+<img src="/assets/tutorials/python-extended/6-2-bat-file.webp" alt="Kolaż z trzech okien Windowsa. U góry widać pełną ścieżkę do folderu Scripts, poniżej jego zawartość z jednym dodanym plikiem 'z.txt'. Na samym dole znajduje się okno pokazujące plik z.txt otwarty w Notatniku, z podanym wyżej tekstem."/>
 
 Zmieniamy nazwę pliku na *z.bat*. Od teraz po otwarciu PowerShella dałoby się po prostu nacisnąć `z` i&nbsp;`Enter`, żeby odpalić nasz skrypt. Jednoliterkowiec! :metal:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/6-3-witaj-bat.webp" width="300px"/ alt="Zrzut ekranu z PowerShella pokazujący wpisaną komendę 'z' i wyświetlone pod spodem słowa 'Witaj po ciemnej stronie'.">
+<img src="/assets/tutorials/python-extended/6-3-witaj-bat.webp" width="300px" alt="Zrzut ekranu z PowerShella pokazujący wpisaną komendę 'z' i wyświetlone pod spodem słowa 'Witaj po ciemnej stronie'."/>
 
 Gdybyśmy chcieli jeszcze bardziej ułatwić pracę, to już by mogło wymagać grzebania w&nbsp;systemie albo instalacji dodatków, takich jak AutoHotKey. Dlatego na tym etapie się zatrzymam.
 
