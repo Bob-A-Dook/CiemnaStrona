@@ -196,7 +196,7 @@ Tym razem na liście powinno wyświetlić również ścieżkę do naszego folder
 
 Od teraz możemy do niego dorzucać wszystkie swoje skrypty.
 
-{% include info.html type="Uwaga" text="Jeśli ścieżka się nie pojawia, to możecie wyłączyć IDLE i&nbsp;włączyć go ponownie. Być może się nie zaktualizowało od poprzedniej sesji"%}
+{% include info.html type="Uwaga" text="Jeśli ścieżka się nie pojawia, to możecie wyłączyć IDLE i&nbsp;włączyć go ponownie. Być może się nie zaktualizowało od poprzedniej sesji."%}
 
 ## 4. Szybkie włączanie PowerShella
 
@@ -215,9 +215,9 @@ PowerShell w&nbsp;sekundę, w&nbsp;dowolnym folderze!
 {% include info.html type="Porada" text="Jeśli macie wersję Windowsa w&nbsp;innym języku, to możecie po prostu przytrzymać `Alt` przez dłuższą chwilę, żeby wyświetliły się litery odpowiadające różnym elementom Eksploratora.  
 Potem patrzycie, jakie klawisze odpowiadają opcji `Plik` i&nbsp;otwieraniu PowerShella. To te klawisze musicie nacisnąć w&nbsp;swojej wersji." trailer="<p class='bigspace' style='margin-bottom:0px'><img src='/assets/tutorials/python-extended/5-1-skroty-powershell.webp' alt='Zrzut ekranu z&nbsp;Eksploratora' width='400px'/></p>"%}
 
-Jeśli z&nbsp;kolei chcemy **szybko włączyć PowerShella w&nbsp;jego domyślnym miejscu** - bez otwierania Eksploratora - to naciskamy `Windows+X`, żeby wyświetlić okno z&nbsp;opcjami, a&nbsp;potem `I` (literę podkreśloną w&nbsp;nazwie odpowiadającej PowerShellowi).
+Z&nbsp;kolei żeby **szybko włączyć PowerShella w&nbsp;jego domyślnym miejscu** -- bez otwierania Eksploratora -- naciskamy `Przycisk z ikoną Windowsa+X`, żeby wyświetlić okno z&nbsp;opcjami. A&nbsp;następnie `I` (literę podkreśloną w&nbsp;nazwie odpowiadającej PowerShellowi).
 
-Takie coś się przydaje, jeśli mamy skrypt niezależny od folderów. U&nbsp;mnie jest to na przykład skrypt odpalający w&nbsp;Firefoksie kilka stron z&nbsp;pogodą w&nbsp;górach.
+Przydaje się to, jeśli chcemy szybko odpalić przez PS skrypt robiący zawsze to samo, niezależnie od folderów. U&nbsp;mnie jest to na przykład skrypt otwierający w&nbsp;Firefoksie kilka stron z&nbsp;pogodą w&nbsp;górach.
 
 ## 5. Skrócenie komend dzięki plikowi BAT
 
@@ -235,12 +235,12 @@ Ale w&nbsp;tym celu trzeba zrobić lekką incepcję i&nbsp;stworzyć **skrypt Wi
 Okazuje się, że Windows w tzw. *zmiennej PATH* przechowuje listę folderów, do których ma szybki dostęp. To tam trzeba się wprosić.  
 Mam dobrą wiadomość: nie musimy w&nbsp;niczym grzebać, Python sam podczas instalacji dodaje do *PATH* kilka folderów. Proponuję dorzucić się do jednego z nich, `Scripts`.
 
-{% include info.html type="Porada" text="Jeśli chcecie się upewnić, że Python dodał folder *Scripts* do *PATH*, to wpiszcie w PowerShellu:" trailer="<div class='black-bg mono'>$env:path -split \";\"</div>" %}
+{% include info.html type="Porada" text="Jeśli chcecie się upewnić, że Python dodał folder *Scripts* do *PATH*, to wyświetlcie w PowerShellu zawartość *PATH*. Wpiszcie:" trailer="<div class='black-bg mono'>$env:path -split \";\"</div>" %}
 
 Przechodzimy zatem do folderu `Scripts` w głównym folderze Pythona.  
 Tak jak wcześniej tworzyliśmy dla Pythona plik *.pth* ze ścieżką do folderu, tak teraz stworzymy plik *.bat* -- skrót do konkretnego skryptu przeznaczony dla PowerShella.
 
-Tworzymy plik o&nbsp;takiej nazwie, jaka nam pasuje, na przykład *z.txt*. Wpisujemy w&nbsp;nim:
+Tworzymy plik o&nbsp;takiej nazwie, jaka nam pasuje, na przykład *z.txt* (to tę nazwę będziemy wpisywać, żeby odpalić skrypt). Wpisujemy w&nbsp;pliku:
 
 ```
 @ECHO OFF
@@ -263,18 +263,18 @@ Zmieniamy nazwę pliku na *z.bat*. Od teraz po otwarciu PowerShella dałoby się
 Gdybyśmy chcieli jeszcze bardziej ułatwić pracę, to już by mogło wymagać grzebania w&nbsp;systemie albo instalacji dodatków, takich jak AutoHotKey. Dlatego na tym etapie się zatrzymam.
 
 {% include info.html type="Porada" text="Jeśli chcecie, żeby wasze pliki BAT miały bardziej opisowe nazwy, a&nbsp;nie jednoliterkowce, to da się to zrobić bez większej straty szybkości. Upewnijcie się tylko, że ich nazwy nie będą kolidowały z&nbsp;innymi programami dostępnymi przez PATH.  
-Jeśli po wpisaniu w&nbsp;PowerShellu pierwszych liter nazwy naciśniecie `Tab` (a początek nie koliduje z&nbsp;początkiem innego pliku), to wstawi Wam pełną nazwę pliku."%}
+Jeśli po wpisaniu w&nbsp;PowerShellu pierwszych liter nazwy naciśniecie `Tab` (a&nbsp;żaden inny plik z&nbsp;PATH się tak samo nie zaczyna), to wstawi Wam pełną nazwę pliku."%}
 
 ## Podsumowanie
 
 W tym wpisie przeszliśmy długą drogę. Od świeżaków kopiujących skrypty i&nbsp;żmudnie klikających w&nbsp;okienka, gdy chcą ich użyć...  
-Aż po „hakierów”, którym wystarczy pięć klawiszy (tu: `Ctrl`, `P`, `O`, literka, `Enter`), żeby przeczesać skryptem dowolny folder.
+Aż po „hakierów”, którym wystarczy pięć klawiszy (tu: `Alt`+`P`+`O`, literka, `Enter`), żeby przeczesać skryptem dowolny folder.
 
-Porada o&nbsp;łatwiejszym otwieraniu skryptów powinna przydać się każdemu, w&nbsp;tym moim czytelnikom. Natomiast te o&nbsp;ułatwianiu pracy mogą pomóc również przy codziennych zadaniach.
+Porada o&nbsp;łatwiejszym otwieraniu skryptów powinna przydać się każdemu, w&nbsp;tym moim czytelnikom. Natomiast te o&nbsp;ułatwianiu pracy mogą pomóc przy codziennych żmudnych zadaniach.
 
 A jeśli nie używacie skryptów? Gorąco zachęcam, żeby je poznać. To jedna z&nbsp;tych rzeczy, które dają kontrolę nad swoją pracą. I&nbsp;sporo radochy, bo w&nbsp;końcu tworzymy je dla własnego pożytku.
 
-Jeśli czujecie się zawaleni powtarzalną robotą, to życzę gorąco, żeby skrypty pomogły Wam odetchnąć. I&nbsp;wydrzeć trochę swojego czasu z&nbsp;rąk *lyderów byznesu*, którzy naobiecywali innym cudów i&nbsp;teraz zawalają robotą.
+Jeśli czujecie się zawaleni powtarzalną robotą, to życzę gorąco, żeby skrypty pomogły Wam odetchnąć. I&nbsp;wydrzeć trochę swojego czasu z&nbsp;rąk *lyderów byznesu*, którzy naobiecywali klientom cudów i&nbsp;teraz zawalają Was robotą.
 
 A jeśli też darzycie ich antypatią? Zapraszam do czytania moich wpisów :smile:
 
@@ -282,4 +282,4 @@ A jeśli też darzycie ich antypatią? Zapraszam do czytania moich wpisów :smil
 Nie trzeba specjalnie zmieniać nazw plików, żeby móc je edytować w&nbsp;notatniku.  
 Nie trzeba szukać IDLE'a po folderach. Jest domyślną opcją do otwierania plików.  
 Nie trzeba dopisywać żadnego *ECHO OFF*. Skrypty Linuxa (*.sh*, odpowiednik *.bat*) nie wyświetlają nic od siebie i&nbsp;wystarczy wpisać do nich samą nazwę komendy.  
-...Zresztą w&nbsp;ogóle nie trzeba plików pośrednich. Wystarczy jeden pstryczek, żeby każdy plik (w tym skrypty Pythona) dało się odpalać samą jego nazwą."%}
+...Zresztą w&nbsp;ogóle nie trzeba plików pośrednich. Wystarczy szybka zmiana, żeby każdy plik (w tym skrypty Pythona) dało się odpalać samą jego nazwą."%}
