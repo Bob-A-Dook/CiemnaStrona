@@ -1,0 +1,36 @@
+<div style="margin-top:3em;margin-bottom:3em">
+  <div class="subcontent-heading" style="padding:5px">
+    <img src="/assets/extension-icon.png" style="display:inline-block;height:25px;width:25px" alt=""/>
+    <span style="margin-left:5px;margin-right:15px">Pomocne dodatki</span>
+  </div>
+  <div class="bold-border" style="padding:10px;border-radius:0px 10px 10px 0px">
+
+    <div>{{include.info}}</div>
+
+    {% if include.firefox %}
+    <p class="with-next"><strong>Firefox:</strong></p>
+    {{include.firefox}}
+    {% endif %}
+
+    {% if include.chrome %}
+    <p class="with-next"><strong>Chrome:</strong></p>
+    {{include.chrome}}
+    {% endif %}
+
+    {% if include.inne-pc %}
+    <p class="with-next"><strong>Inne przeglądarki na PC:</strong></p>
+    {{include.inne-pc}}
+    {% endif %}
+
+    {% if include.android %}
+    <p class="with-next"><strong>Na Androida:</strong></p>
+    {{include.android}}
+    {% endif %}
+
+    {% if include.inne-mobile %}
+    <p class="with-next"><strong>Inne mobilne:</strong></p>
+    {{include.inne-mobile}}
+    {% endif %}
+    
+  </div>
+</div>

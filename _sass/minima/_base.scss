@@ -218,6 +218,7 @@ pre {
   }
 }
 
+
 //Wrapper
 
 .wrapper {
@@ -584,4 +585,8 @@ strong {
 .text-with-hover:hover .hover-text {
   visibility: visible;
 }
-  
+
+.with-next {
+  margin-top: 20px !important;
+  margin-bottom: 0px !important
+}

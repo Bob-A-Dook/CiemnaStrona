@@ -29,8 +29,10 @@ Zademonstruję tu parę z&nbsp;nich, używając screenów z&nbsp;Windowsa jako p
 
 Sposób graficzny na przykładzie **Windowsa** (na innych systemach niestety będzie inaczej). Powinien działać niezależnie od tego, w&nbsp;jakim folderze zainstalujemy Pythona.
 
-Otwieramy menu Start. Przewijając kolumnę po lewej, znajdujemy tam zakładkę `Python`. Rozwijamy ją, wyświetlając m.in. IDLE.  
-Klikamy tę opcję prawym przyciskiem myszy, wybieramy `Pokaż więcej`, a&nbsp;potem `Otwórz lokalizację pliku`:
+Otwieramy menu Start (ikona w lewym dolnym rogu).
+
+Przewijając listę po lewej, znajdujemy tam zakładkę `Python`. Rozwijamy ją, wyświetlając m.in. IDLE.  
+Klikamy tę opcję prawym przyciskiem myszy, najeżdżamy na opcję `Więcej`, a&nbsp;potem klikamy `Otwórz lokalizację pliku`:
 
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/1-1-python-lokalizacja.webp" width="400px"/>
@@ -56,7 +58,8 @@ W ten sposób pełna ścieżka do folderu zaznaczy się Wam na niebiesko, w&nbsp
 
 # Zapytanie przez IDLE
 
-Sposób bardziej „hakerski”, bo wymaga skopiowania całych dwóch linijek kodu! Zaleta: uniwersalny i&nbsp;powinien zadziałać na wszystkich systemach (**Windows, Linux, MacOS...**).
+Sposób bardziej „hakerski”, bo wymaga skopiowania całych dwóch linijek kodu!  
+Zaleta: uniwersalny i&nbsp;powinien zadziałać na wszystkich systemach (**Windows, Linux, MacOS...**).
 
 Otwieramy IDLE w&nbsp;taki sposób, w&nbsp;jaki tylko chcemy. Powinien się włączyć w&nbsp;trybie interaktywnym. W&nbsp;ostatniej linijce, za trzema strzałkami (`>>>`), możemy wpisywać swoje komendy. 
 
@@ -90,7 +93,7 @@ Nadal możemy otwierać skrypty przez IDLE, domyślny edytor Pythona. Ale w&nbsp
 
 Jeśli pobieracie tylko parę skryptów raz na ruski rok (np. ode mnie), to taka klikanina jest do przyjęcia. Ale jeśli musicie otwierać je częściej, to staje się to uciążliwe.
 
-Ale mam dobrą wiadomość -- można łatwo sprawić, że dwukrotne kliknięcie na każdym pliku *py* od razu go otworzy w&nbsp;IDLE. +100 do komfortu pracy.
+Ale mam dobrą wiadomość -- **można łatwo sprawić, że dwukrotne kliknięcie na każdym pliku _py_ od razu go otworzy w&nbsp;IDLE**. +100 do komfortu pracy.
 
 To do dzieła! Klikamy prawym przyciskiem na jakikolwiek plik *py* i&nbsp;wybieramy `Otwórz za pomocą > Wybierz inną aplikację`.
 
@@ -105,7 +108,7 @@ Tam najpierw zaznaczamy opcję, żeby zawsze otwierać pliki w&nbsp;taki sposób
 
 Włączy się okno wyboru pliku. Jeśli nie chcemy klikać przez foldery, przyda nam się tutaj **ścieżka do folderu Pythona, skopiowana w&nbsp;poprzednim punkcie**.
 
-Znów możemy kliknąć po prawej stronie paska, żeby przełączył się w&nbsp;tryb tekstu:
+Żeby ją wkleić, klikamy po prawej stronie paska, żeby przełączył się w&nbsp;tryb tekstu:
 
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/2-3-sciezki.webp"/>
@@ -129,7 +132,7 @@ I zrobione! Od teraz, przeglądając pliki w&nbsp;Eksploratorze, możemy po pros
 
 Do tej pory musieliśmy kopiować skrypty do tego samego folderu, w&nbsp;którym chcemy ich użyć. Na dłuższą metę to niepraktyczne, więc mam kolejny ułatwiacz życia. Sprawimy, żeby dało się je odpalać przez samo wpisanie ich nazwy w&nbsp;PowerShella.
 
-Żeby to zrobić, trzeba sprawić, żeby Python zawsze "widział" nasz skrypt. Na szczęście to nic trudnego, wystarczy go włożyć do jednego konkretnego folderu. 
+Żeby to zrobić, trzeba sprawić, żeby Python zawsze „widział” nasz skrypt. Na szczęście to nic trudnego, wystarczy go włożyć do jednego konkretnego folderu. 
 
 Otwieramy główny folder Pythona i&nbsp;wybieramy w&nbsp;nim podfolder `libs`, a&nbsp;potem `site_packages`.  
 **Uwaga!** Zwracajcie uwagę na nazwy. W&nbsp;folderze macie zarówno *libs*, jak też *Lib*.
@@ -148,7 +151,7 @@ Możemy od teraz wpisać w&nbsp;IDLE nazwę skryptu bez końcówki *.py*. W&nbsp
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/3-2-witaj-import.webp" width="400px" alt="Konsola z IDLE z wpisaną komendą 'import witaj' i wyświetlonymi poniżej słowami 'Witaj po ciemnej stronie'."/>
 
-Z tym że jeśli chcemy wykorzystać w&nbsp;pełni dostępność skryptu z&nbsp;każdego miejsca, to **warto odejść od IDLE'a na rzecz PowerShella**. Jego można łatwo odpalić w&nbsp;każdym folderze. Nawet jeśli nie ma tam żadnych skryptów Pythona. IDLE'a nie.
+Jeśli chcemy wykorzystać w&nbsp;pełni dostępność skryptu z&nbsp;każdego miejsca, to **warto odejść od IDLE'a na rzecz PowerShella**. PS-a można łatwo odpalić w&nbsp;każdym folderze. Nawet jeśli nie ma tam żadnych skryptów Pythona. IDLE'a nie.
 
 Jak wygląda praca z&nbsp;PowerShellem? Możemy w&nbsp;Eksploratorze przejść do dowolnego folderu, włączyć PowerShella i&nbsp;wpisać:
 
@@ -160,6 +163,8 @@ Pamiętajmy o&nbsp;`-m`, bo bez tego nie zadziała. A&nbsp;jeśli działa, to wy
 
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/3-3-witaj-powershell.webp" width="400px" alt="PowerShell z wpisaną powyższą komendą i wyświetlonymi pod nią słowami 'Witaj po ciemnej stronie'."/>
+
+W ten sposób, po prostu dorzucając skrypty do konkretnego folderu, mamy do nich szybki dostęp.
 
 Jeśli chcemy pozostać przy dorzucaniu plików do `site_packages`, to można sobie gdzieś przypiąć skrót do tego folderu. Ale możemy też wydzielić osobny folder na swoje pythonowe skrypty. Pokażę to w&nbsp;kolejnym kroku.
 
@@ -179,8 +184,10 @@ Potem przechodzimy do `site_packages`. Tam tworzymy nowy plik tekstowy. O&nbsp;d
 
 Otwieramy ten plik w&nbsp;Notatniku i&nbsp;wklejamy tam ścieżkę do naszego folderu. Zapisujemy. Zmieniamy rozszerzenie pliku z&nbsp;*.txt* na *.pth*. Całość wygląda tak:
 
-{:.bigspace}
 <img src="/assets/tutorials/python-extended/4-1-pth-file.webp" alt="Kolaż pokazujący kawałek folderu site_packages z dodanym plikiem pth, a także sam ten plik otwarty w notatniku. Zawiera jedną linijkę, C Skrypty."/>
+
+{:.figcaption}
+Jeden plik, w nim jedna ścieżka. To wszystko.
 
 Sprawdzamy czy działa. Powtarzamy krok z&nbsp;punktu 0, czyli wpisujemy w&nbsp;IDLE linijka po linijce:
 
@@ -233,9 +240,9 @@ Odpowiedź: tak. Da się zejść **do jednego znaku** w PowerShellu.
 Ale w&nbsp;tym celu trzeba zrobić lekką incepcję i&nbsp;stworzyć **skrypt Windowsa odpalający skrypt Pythona**.
 
 Okazuje się, że Windows w tzw. *zmiennej PATH* przechowuje listę folderów, do których ma szybki dostęp. To tam trzeba się wprosić.  
-Mam dobrą wiadomość: nie musimy w&nbsp;niczym grzebać, Python sam podczas instalacji dodaje do *PATH* kilka folderów. Proponuję dorzucić się do jednego z nich, `Scripts`.
+Mam dobrą wiadomość: **nie musimy w&nbsp;niczym grzebać, Python sam podczas instalacji dodaje do _PATH_ kilka folderów**. Proponuję dorzucić się do jednego z nich, `Scripts`.
 
-{% include info.html type="Porada" text="Jeśli chcecie się upewnić, że Python dodał folder *Scripts* do *PATH*, to wyświetlcie w PowerShellu zawartość *PATH*. Wpiszcie:" trailer="<div class='black-bg mono'>$env:path -split \";\"</div>" %}
+{% include info.html type="Porada" text="Jeśli chcecie się upewnić, że Python dodał folder *Scripts* do *PATH*, to wyświetlcie w&nbsp;PowerShellu zawartość *PATH*. Wpiszcie:" trailer="<div class='black-bg mono'>$env:path -split \";\"</div>" %}
 
 Przechodzimy zatem do folderu `Scripts` w głównym folderze Pythona.  
 Tak jak wcześniej tworzyliśmy dla Pythona plik *.pth* ze ścieżką do folderu, tak teraz stworzymy plik *.bat* -- skrót do konkretnego skryptu przeznaczony dla PowerShella.
@@ -270,7 +277,8 @@ Jeśli po wpisaniu w&nbsp;PowerShellu pierwszych liter nazwy naciśniecie `Tab` 
 W tym wpisie przeszliśmy długą drogę. Od świeżaków kopiujących skrypty i&nbsp;żmudnie klikających w&nbsp;okienka, gdy chcą ich użyć...  
 Aż po „hakierów”, którym wystarczy pięć klawiszy (tu: `Alt`+`P`+`O`, literka, `Enter`), żeby przeczesać skryptem dowolny folder.
 
-Porada o&nbsp;łatwiejszym otwieraniu skryptów powinna przydać się każdemu, w&nbsp;tym moim czytelnikom. Natomiast te o&nbsp;ułatwianiu pracy mogą pomóc przy codziennych żmudnych zadaniach.
+Porada o&nbsp;szybkim otwieraniu skryptów w IDLE powinna przydać się każdemu, w&nbsp;tym moim czytelnikom.  
+Natomiast te o&nbsp;ułatwianiu pracy mogą pomóc przy codziennych żmudnych zadaniach.
 
 A jeśli nie używacie skryptów? Gorąco zachęcam, żeby je poznać. To jedna z&nbsp;tych rzeczy, które dają kontrolę nad swoją pracą. I&nbsp;sporo radochy, bo w&nbsp;końcu tworzymy je dla własnego pożytku.
 
@@ -280,6 +288,6 @@ A jeśli też darzycie ich antypatią? Zapraszam do czytania moich wpisów :smil
 
 {% include info.html type="Dygresja" text="Moje słowa raczej nic nie zmienią, ale **Linux (u mnie: Mint) jest dużo przyjemniejszy w&nbsp;pracy z&nbsp;Pythonem niż Windows**.  
 Nie trzeba specjalnie zmieniać nazw plików, żeby móc je edytować w&nbsp;notatniku.  
-Nie trzeba szukać IDLE'a po folderach. Jest domyślną opcją do otwierania plików.  
+Nie trzeba szukać IDLE'a po folderach. Jest domyślną opcją do otwierania plików *py*.  
 Nie trzeba dopisywać żadnego *ECHO OFF*. Skrypty Linuxa (*.sh*, odpowiednik *.bat*) nie wyświetlają nic od siebie i&nbsp;wystarczy wpisać do nich samą nazwę komendy.  
-...Zresztą w&nbsp;ogóle nie trzeba plików pośrednich. Wystarczy szybka zmiana, żeby każdy plik (w tym skrypty Pythona) dało się odpalać samą jego nazwą."%}
+...Zresztą w&nbsp;ogóle nie trzeba plików pośrednich. Wystarczy szybka zmiana, żeby każdy plik (w tym skrypty Pythona) dało się odpalać przez samo wpisanie jego nazwy."%}

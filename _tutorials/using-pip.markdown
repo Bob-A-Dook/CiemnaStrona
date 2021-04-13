@@ -40,9 +40,7 @@ Jeden z&nbsp;wielu sposobów na włączenie PowerShella.
 Super, mamy okno konsoli! Teraz możemy w&nbsp;nie wpisywać dowolne rzeczy.  
 Chcemy pobrać `pillow`, więc w&nbsp;tym wypadku wpisujemy:
 
-```
-pip install pillow
-```
+<div class="black-bg mono">pip install pillow</div>
 
 {:.figcaption}
 Możecie po prostu skopiować tę linijkę i&nbsp;wkleić do PowerShella, wciskając `Ctrl+V`.

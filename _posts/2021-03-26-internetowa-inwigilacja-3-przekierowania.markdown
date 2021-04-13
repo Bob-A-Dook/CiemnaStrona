@@ -186,12 +186,15 @@ Metoda jest uniwersalna i&nbsp;powinna skutecznie działać, kiedy musimy wejś�
 
 **(Dodano 8.04.2021 r.)**
 
-Odkryłem ten dodatek do przeglądarki jakiś czas po stworzeniu wpisu. To zdecydowanie najprzyjaźniejsze rozwiązanie do obchodzenia popularnych przekierowań (*t.co*, *bit.ly*...), ponieważ nie wymaga każdorazowego odwiedzania GetLinkInfo. Wszystko dzieje się w tle. 
+{% include web-extension.html
+info="Dodatek do przeglądarki <strong>Universal Bypass</strong> odkryłem jakiś czas po stworzeniu wpisu. Jest darmowy i&nbsp;otwartoźródłowy.<br/>To może być najprzyjaźniejsze rozwiązanie do obchodzenia popularnych przekierowań (<i>t.co</i>, <i>bit.ly</i>…), ponieważ nie wymaga każdorazowego odwiedzania GetLinkInfo. Wszystko dzieje się w tle."
+firefox="Możecie zainstalować go bez problemu <a href='https://addons.mozilla.org/en-US/firefox/addon/universal-bypass/'>z&nbsp;oficjalnego archiwum dodatków</a>."
+chrome = "Bypassa <strong>nie ma</strong> w&nbsp;uniwersalnym archiwum Chrome'a. Więcej informacji w&nbsp;ramce poniżej. Jeśli Was to nie zraża, to twórcy <a href='https://universal-bypass.org/install'>opisują na stronce</a>, w&nbsp;jaki sposób zainstalować Bypassa ręcznie.<br/>(Ale i&nbsp;tak nalepiej zmienić Chrome'a; robienie z&nbsp;niego przeglądarki chroniącej prywatność to jak robienie wyścigówki z&nbsp;malucha)."
+inne-pc="Dostępna jest wersja <a href='https://microsoftedge.microsoft.com/addons/detail/ckiidekccfgninkobmmofopbbdgdclgg'>na Edge'a</a>.<br/>Poza tym wszystkie przeglądarki oparte na Chromium (Brave, Vivaldi, Opera…) powinny dać radę. Może jednak być konieczna ręczna instalacja dodatku."
+android="Wspiera go podobno Kiwi Browser (nie testowałem). Inne przeglądarki niestety kuleją ze wspieraniem dodatków."
+%}
 
-Ma jednak jedno ograniczenie -- **nie ma go w oficjalnym archiwum Chrome'a** (którego i&nbsp;tak warto zmienić; robienie z&nbsp;niego przeglądarki chroniącej prywatność to jak robienie wyścigówki z malucha).  
-Możecie go za to łatwo pobrać i&nbsp;zainstalować na PC [dla Firefoxa](https://addons.mozilla.org/en-US/firefox/addon/universal-bypass/) i&nbsp;[dla Edge'a](https://microsoftedge.microsoft.com/addons/detail/ckiidekccfgninkobmmofopbbdgdclgg). Z&nbsp;przeglądarek mobilnych wspiera go podobno Kiwi Browser na Androidzie (nie testowałem).
-
-{% include info.html type="Niedobry Google" text="Dlaczego nie ma tego dodatku na Chrome'ie? Okazuje się, że to **Google go usunął odgórną decyzją**. Jako wyjaśnienie podają, że może służyć do omijania płatności na stronach.  
+{% include info.html type="Niedobry Google" text="Dlaczego wspomnianego dodatku Universal Bypass nie ma na Chrome'ie? Okazuje się, że to **Google go usunął odgórną decyzją**. Jako wyjaśnienie podają, że może służyć do omijania płatności na stronach.  
 Tylko że ciężko spotkać się z takim zastosowaniem przekierowań, dużo częściej są używane do śledzenia. Brzmi to jak wymówka. No ale takie uroki monopolu..."
 trailer="
 <blockquote>Google took it down for apparently 'circumventing paywalls.' I&nbsp;have clarified that Universal Bypass is more of an adblocker and asked for details of where paywalls are circumvented, but it's Google, so of course I&nbsp;didn't get a response.
@@ -199,8 +202,8 @@ trailer="
 <p class='figcaption' style='margin-bottom:0px'>Źródło: <a href='https://universal-bypass.org/faq'>strona Universal Bypass</a>
 </p>"%}
 
-Gdybyście bardzo chcieli mimo wszystko zainstalować Bypassa na Chrome'ie, to można to zrobić [okrężnym sposobem](https://universal-bypass.org/install). Muszę kiedyś stworzyć o tym samouczek.
+Widać zatem, że nie jesteśmy bezbronni w walce z przekierowaniami. Jest od tego dodatek. Jeśli nie chcemy dodatku (albo przeglądarka go blokuje), to stronka *GetLinkInfo*. Jeśli jesteśmy tradycjonalistami i da się skopiować adres, to wklejanie w pasek.
 
-Ale póki co życzę nam, żeby takie myki nie były potrzebne, a&nbsp;wszystkie linki -- jak drogi do Rzymu -- prowadziły tam, dokąd powinny.
+Ale póki co życzę nam, żeby te myki nie były potrzebne, a&nbsp;wszystkie linki -- jak drogi do Rzymu -- od razu prowadziły tam, dokąd powinny.
 
 Do zobaczenia w&nbsp;kolejnym wpisie!

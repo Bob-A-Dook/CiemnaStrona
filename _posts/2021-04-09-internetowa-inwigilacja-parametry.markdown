@@ -62,7 +62,7 @@ Podobnie jest z&nbsp;parametrami. Jeśli strona jakimiś metodami zidentyfikuje 
 Kiedy ofiara go kliknie, to trafi na tę samą stronę, na którą by trafiła, gdyby link nie zawierał parametrów. Niczego nie zauważy.  
 Ale w momencie połączenia serwer dostanie komplet informacji, w&nbsp;tym parametry. Wie, czego w&nbsp;nich wypatrywać. Znajdzie tam informacje, że to konkretna osoba przyszła w&nbsp;odwiedziny...
 
-Nie trzeba zresztą aż tak dokładnej identyfikacji. Czasem wystarczy podrzucić kilka różnych linków na różne strony albo wysłać w różnych mailach.
+Nie trzeba zresztą aż tak dokładnej identyfikacji. Czasem wystarczy podrzucić na różne strony albo wysłać w różnych mailach te same linki, różniące się jedynie parametrami.
 
 Kiedy użytkownicy będą w&nbsp;nie klikali, to po parametrach poznamy, z&nbsp;jakich źródeł do nas przychodzą (nawet jeśli będą ukrywali referery!). A&nbsp;jeśli ich dane z&nbsp;„etykiety” są dość unikalne, to można ich nawet rozpoznać.
 
@@ -203,17 +203,15 @@ Pewnym rozwiązaniem jest tworzenie i&nbsp;aktualizowanie na bieżąco list z&nb
 
 Dodatków jest na szczęście sporo. Wystarczy wejść na stronę odpowiednią dla swojej przeglądarki i&nbsp;je sobie zainstalować.
 
-Wśród nich wyróżniają się natomiast dwa -- *ClearURLs* i&nbsp;*NeatURL*  
-Pod względem ocen i&nbsp;opinii na forach idą praktycznie łeb w&nbsp;łeb. Oba sprawnie usuwają znane parametry śledzące.
-
-Różnice między nimi? *ClearURLs* jest częściej aktualizowany, ale listy parametrów do usunięcia zapewnia społeczność.  
-Z kolei *NeatURL* jest mniej aktywny, ale pozwala dodawać własne reguły usuwające. Więc może nam wiernie służyć, nawet gdyby społeczność straciła zainteresowanie.
-
-Sam jako zwolennik odrobiny majsterkowania wybrałem **Neat URL**.  
-Ma wersje dla [Firefoxa](https://addons.mozilla.org/en-US/firefox/addon/neat-url/) i&nbsp;dla [Chrome'a](https://chrome.google.com/webstore/detail/neat-url/jchobbjgibcahbheicfocecmhocglkco).
-
-Oczywiście możecie wypróbować oba i&nbsp;wybrać ten, który lepiej Wam pasuje!  
-Tutaj z&nbsp;kolei jest *ClearURLs* [na Firefoxa](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) i&nbsp;[na Chrome'a](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/).
+{% include web-extension.html info="<p>Wśród dostępnych opcji wyróżniają się dwa dodatki – <i>ClearURLs</i> i&nbsp;<i>NeatURL</i><br/>Pod względem ocen i&nbsp;opinii na forach idą praktycznie łeb w&nbsp;łeb. Oba sprawnie usuwają znane parametry śledzące.</p>
+<p>Różnice między nimi? <i>ClearURLs</i> jest częściej aktualizowany, ale listy parametrów do usunięcia zapewnia społeczność.<br/>
+Z kolei <i>NeatURL</i> jest mniej aktywny, ale pozwala dodawać własne reguły usuwające. Więc może nam wiernie służyć, nawet gdyby społeczność straciła zainteresowanie.</p>
+<p>Sam jako zwolennik odrobiny majsterkowania wybrałem <strong>Neat&nbsp;URL</strong>.<br/>Oczywiście możecie sprawdzić oba i wybrać ten, który się spodoba (rym :sunglasses: ).</p>"
+firefox="Oba dodatki dostępne w oficjalnym archiwum.
+<br/>NeatURL <a href='https://addons.mozilla.org/en-US/firefox/addon/neat-url/'>tutaj</a>, zaś ClearURLs <a href='https://addons.mozilla.org/en-US/firefox/addon/clearurls/'>tutaj</a>."
+chrome="Również znajdziemy oba dodatki w oficjalnym archiwum Chrome'a<br/>(chociaż Google trochę rzucał im kłody pod nogi, szczegóły poniżej).<br/>
+Tutaj <a href='https://chrome.google.com/webstore/detail/neat-url/jchobbjgibcahbheicfocecmhocglkco'>Neat URL</a>, zaś tutaj <a href='https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/'>Clear URLs</a>."
+inne-pc="Nie testowałem innych przeglądarek, ale zwykle to co działa na Chrome'ie działa też na przeglądarkach na tym samym silniku (Edge, Brave, Vivaldi, Opera)."%}
 
 {% include info.html type="Niedobry Google" text="Niedawno miała miejsce aferka z&nbsp;udziałem ClearURLs i&nbsp;Google'a.  
 Dodatek **został usunięty przez Google z&nbsp;Chrome Web Store'a** (ich archiwum dodatków do przeglądarki) z&nbsp;dość naciąganych przyczyn. Po [burzliwej dyskusji](https://github.com/ClearURLs/Addon/issues/102) i&nbsp;odwołaniu się przez autora został przywrócony.  
@@ -226,10 +224,10 @@ Parametry to dość ciekawy przykład tego, że **granica między śledzeniem a&
 
 W takiej sytuacji możemy oczywiście zdać się na autorów bezpiecznych przeglądarek i&nbsp;dodatków blokujących. I&nbsp;wierzyć, że będą na bieżąco aktualizowali listy blokowanych rzeczy.
 
-Ale to tylko ludzie, a&nbsp;przeciwko sobie mają kilka wielkich organizacji. Kiedy zablokują jakiś element śledzący, to ich adwersarze mogą łatwo zmienić jego nazwę. Albo nawet wyłączyć ich dodatek.  
+Ale to tylko ludzie, a&nbsp;przeciwko sobie mają kilka wielkich organizacji. Kiedy zablokują jakiś parametr śledzący, to ich adwersarze mogą łatwo zmienić jego nazwę. Albo nawet całkiem wyłączyć ich dodatek.  
 Prywatność domyślna, za kulisami i&nbsp;bez kiwnięcia palcem ze strony użytkowników, to moim zdaniem utopia.
 
-Dlatego **jedyną trwalszą ochroną jest moim zdaniem własna wiedza**.
+Dlatego **jedyną trwalszą ochroną jest własna wiedza**.
 
 Żeby osoba chcąca prywatności wiedziała przynajmniej, żeby korzystać z&nbsp;jak najsilniejszej blokady. A&nbsp;kiedy jakieś strony nie będą działały, to żeby umiała tę blokadę tymczasowo wyłączyć.
 
