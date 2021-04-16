@@ -382,13 +382,9 @@ strong {
 }
 
 .comment_container {
-  //display: flex;
-  //flex-direction: row;
   width: 100%;
   margin-top: 3em;
   margin-bottom: 15px;
-  //margin-right: 20px;
-  //margin-left: 20px
 }
 
 .subcomment {
@@ -400,11 +396,8 @@ strong {
 
 
 .comment-body {
-  //float: right;
-  //display: inline;
   word-wrap: break-word;
   text-shadow:none;
-  //width: 100%;
   box-shadow: 0px 0px 2px lightgray;
   background-color: white;
   color: black;
@@ -437,7 +430,6 @@ strong {
 }
 
 .big_avatar {
-  //align-self: flex-start;
   float: left;
   display: inline;
   height: 40px !important;
@@ -529,6 +521,10 @@ strong {
   background-color: $note-bg-color;
   padding:0px 0px 5px 5px;
   width:max-content;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: -o-max-content;
+  width: -ms-max-content;
   max-width:95%;
   border-radius:10px 10px 0px 0px;
   font-size:25px;
