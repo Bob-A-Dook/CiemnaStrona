@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Przyjemniejsza praca z Pythonem
+description: "Samouczek o tym, jak sprawnie używać Pythona na Windowsie. Skróty klawiszowe, własny folder na skrypty, PowerShell i pliki BAT."
 ---
 
 Do swoich wpisów dorzucam czasem autorskie skrypty Pythona, które pozwalają Wam sprawdzić pewne rzeczy na własną rękę.

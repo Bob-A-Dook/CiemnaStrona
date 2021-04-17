@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Internetowa inwigilacja 3 – przekierowania"
+description: "Podmiana linków i zastąpienie ich przekierowaniami – sposób na śledzenie użytkowników."
 subtitle: "„Do kogo idziesz?”"
 date:   2021-03-26 00:00:15 +0100
 tags: [Internet, Inwigilacja, Centralizacja, Porady]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "AI i współcześni szamani"
+description: "Dlaczego pojęcie AI (sztuczna inteligencja) jest głównie ogłupiającym sloganem marketingowym."
 date:   2021-03-03 15:00:34 +0100
 tags: [AI, Media, Ogłupianie]
 firmy: [Facebook]

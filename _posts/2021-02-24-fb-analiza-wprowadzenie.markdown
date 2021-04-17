@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Bobby kontra JSON – dane od Facebooka"
+description: "Dzięki danym pobranym z Facebooka stworzyłem swoją oś czasu z różnych interakcji na tym portalu."
 date:   2021-02-24 19:32:00 +0100
 tags: [Analiza danych, Porady]
 firmy: [Facebook]

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Pierwsze kroki z Pythonem
+description: "Samouczek o tym, w jaki sposób pobrać, zainstalować i po raz pierwszy użyć języka programowania Python."
 ---
 
 Niektóre wpisy z&nbsp;Ciemnej Strony zawierają linki do skryptów w&nbsp;języku Python. Dzięki nim możecie na własne oczy zobaczyć pewne rzeczy.

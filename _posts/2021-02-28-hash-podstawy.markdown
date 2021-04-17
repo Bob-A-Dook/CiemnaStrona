@@ -2,6 +2,7 @@
 layout: post
 title:  "O haszach bez tagów*"
 subtitle: "Czyli o tym, jak komputer porównuje rzeczy."
+description: "Czym są funkcje haszujące i jakie są ich zastosowania. Dla absolutnie początkujących."
 date:   2021-02-28 16:40:37 +0100
 tags: [Podstawy]
 ---

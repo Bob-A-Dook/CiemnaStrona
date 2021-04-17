@@ -2,6 +2,7 @@
 layout: post
 title:  "Żyjemy w ciekawych czasach"
 subtitle: "Pobieżny przegląd przeciwników."
+description: "O wyciekach danych, reklamach śledzących, centralizacji władzy w rękach firm i narzucaniu amerykańskiej kultury."
 date:   2021-01-10 13:37:37 +0100
 tags: [Inwigilacja, Centralizacja, IoT]
 firmy: [Google, Facebook, Adobe, Apple, Twitter]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Bierzemy co nasze – odzyskiwanie danych z Facebooka"
+description: "W jaki sposób możemy pobrać wszystkie swoje dane z Facebooka."
 date:   2021-02-11 5:30:07 +0100
 tags: [Porady, Internet, Analiza danych]
 firmy: [Facebook]

@@ -1,6 +1,8 @@
 ---
 seria: cyfrowy_feudalizm
 permalink: "serie/cyfrowy_feudalizm/"
+title: Cyfrowy feudalizm – linki do wpisów
+description: "Wpisy poświęcone monopolom i nadużywaniu władzy przez zamknięte platformy internetowe."
 layout: seria
 readable_name: "Cyfrowy feudalizm"
 ---

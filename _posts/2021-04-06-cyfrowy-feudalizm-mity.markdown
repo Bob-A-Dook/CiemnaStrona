@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  “You'll own nothing” 1 – mity
+description: "Zanim przejdę do faktycznych zagrożeń związanych z centralizacją, obalam teorię spiskową o słowach World Economic Forum."
 date:   2021-04-06 15:49:00 +0100
 tags: [Centralizacja, Manipulacja, Ogłupianie]
 category: cyfrowy_feudalizm

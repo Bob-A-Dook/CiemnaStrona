@@ -1,6 +1,8 @@
 ---
 seria: facebook_dane
 permalink: "serie/facebook_dane/"
+title: Analiza danych z Facebooka – lista wpisów z tej serii
+description: "Linki do wpisów pokazujących, jakie informacje znajdziemy w swoich danych z Facebooka."
 layout: seria
 readable_name: "Kochajmy się jak bracia, analizujmy się jak Facebooki"
 ---

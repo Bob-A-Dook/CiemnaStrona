@@ -2,6 +2,7 @@
 layout: post
 title:  "Internetowa inwigilacja 2 – referer"
 subtitle: "„Skąd przybywasz?”"
+description: "Referer, czyli informacja pozwalająca na śledzić. Mówi stronie B, z jakiej strony A przychodzimy."
 date:   2021-01-12 19:39:35 +0100
 tags: [Internet, Inwigilacja, Porady]
 firmy: [Google]

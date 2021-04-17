@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Python – pobieranie dodatkowych modułów
+description: "Samouczek o tym, jak używać modułu pip do pobierania dodatkowych modułów Pythona"
 ---
 
 {:.figcaption}

@@ -2,6 +2,7 @@
 layout: post
 title:  "Gdzie jestem? Zapytaj moich zdjęć"
 subtitle: "...czyli dlaczego przed marszem na Kapitol wyłączamy geotagowanie."
+description: "Metadane EXIF w zdjęciach mogą zdradzić naszą dokładną lokalizację. Pokazuję przykłady i zagrożenia."
 date:   2021-02-10 03:12:18 +0100
 tags: [Porady, Inwigilacja, Analiza danych]
 ---

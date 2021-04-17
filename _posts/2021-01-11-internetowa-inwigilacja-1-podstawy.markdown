@@ -2,6 +2,7 @@
 layout: post
 title:  "Internetowa inwigilacja 1 – podstawy"
 subtitle: "Nasze wizytówki, czyli nagłówki (HTTP)"
+description: "Czym są nagłówki HTTP i w jaki sposób pozwalają nas zidentyfikować."
 date:   2021-01-11 16:28:41 +0100
 tags: [Internet, Inwigilacja, Porady]
 category: internetowa_inwigilacja

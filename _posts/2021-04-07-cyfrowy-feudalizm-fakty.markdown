@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  “You'll own nothing” 2 – fakty
+description: "Centralizacja wiele ma imion. Takich jak zamknięte platformy internetowe, DRM, blokowanie wiedzy, zależność od dużych firm."
 date:   2021-04-07 12:49:00 +0100
 tags: [Centralizacja, DRM, Internet, IoT]
 firmy: [Adobe, Apple, Cloudflare, Google, Intel, Netflix, Spotify, Wydawnictwa naukowe]

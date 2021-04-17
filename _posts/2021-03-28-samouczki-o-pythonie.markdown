@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Korzystanie ze skryptów Pythona – samouczki"
+description: "Przedstawienie kilku moich samouczków o języku Python, które ułatwią korzystanie ze skryptów."
 subtitle: "Pierwsze kroki zaklinaczy węży."
 date:   2021-03-28 20:15:00 +0100
 tags: [Podstawy, Porady, Python]

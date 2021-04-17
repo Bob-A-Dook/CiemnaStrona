@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Internetowa inwigilacja 4 – parametry w linkach"
+description: "Parametry dodawane do linków pozwalają dyskretnie śledzić użytkowników. Pokazuję tutaj ich działanie."
 subtitle: "„Chcesz coś dodać?”"
 date:   2021-04-09 01:22:00 +0100
 tags: [Internet, Inwigilacja, Porady]

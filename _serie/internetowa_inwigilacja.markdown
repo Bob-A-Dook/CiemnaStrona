@@ -1,6 +1,8 @@
 ---
 seria: internetowa_inwigilacja
 permalink: "serie/internetowa_inwigilacja/"
+title: Internetowa inwigilacja – wpisy z tej serii
+description: "Jakich metod używają firmy żeby nas śledzić, gdy korzystamy z przeglądarki."
 layout: seria
 readable_name: "Internetowa inwigilacja"
 ---

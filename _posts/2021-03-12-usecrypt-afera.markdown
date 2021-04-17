@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "UseCrypt kontra bezpieczniki – kulisy afery"
+description: "Świeża afera z Polski. Od firmy UseCrypt aż po dawną sprawę Abbey House. Pozwy, fundusze i startupy."
 subtitle: "Od prostego sporu do sieci powiązań."
 date:   2021-03-12 00:06:00 +0100
 tags: [UseCrypt, Afera, Analiza danych, Manipulacja, Media]
