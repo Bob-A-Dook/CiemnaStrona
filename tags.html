@@ -75,13 +75,13 @@ The purpose of this snippet is to list all your posts posted with a certain tag.
                
 	       {% if post.tags contains tag %}	 
 		 <p>
-                 <a href="{{ post.url }}">{{ post.title }}</a>
+                 <a href="{{ post.url | remove: '.html' }}">{{ post.title }}</a>
                  <span class="post-meta">({{ post.date | date:date_format }})</span>
                  </p>
 	 	 
                {% elsif post.firmy contains tag %}
                  <p>
-                 <a href="{{ post.url }}">{{ post.title }}</a>
+                 <a href="{{ post.url | remove: '.html' }}">{{ post.title }}</a>
                  <span class="post-meta">({{ post.date | date:date_format }})</span>
                  </p>
 		 
