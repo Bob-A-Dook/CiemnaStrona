@@ -2,7 +2,7 @@
 title: Ciemna strona
 email: bob-adook@tutanota.com
 description: >- # this means to ignore newlines until "baseurl:"
-  blog o ochronie prywatności i przekrętach korporacji.
+  Blog o ochronie prywatności i przekrętach korporacji.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Bob-A-Dook

@@ -30,7 +30,7 @@ Przyjrzyj mu się. Potem kliknij <a href="?strona=ciemna_strona&seria=internetow
 
 <p style="margin-bottom:100px"/>
 
-Spostrzegawcze oko zauważy, że to cały czas ten sam link, tylko że na końcu dodało tekst `?nazwa=ciemna_strona&seria=internetowa_inwigilacja`.
+Spostrzegawcze oko zauważy, że to cały czas ten sam link, tylko że na końcu dodało tekst `?strona=ciemna_strona&seria=internetowa_inwigilacja`.
 
 Wszystko po znaku zapytania to właśnie **parametry**, czyli elementy opcjonalne dodawane do linków.  
 Parametry mają prostą budowę:
