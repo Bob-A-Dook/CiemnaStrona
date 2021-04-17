@@ -4,7 +4,7 @@ email: bob-adook@tutanota.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog o ochronie prywatności i przekrętach korporacji.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.ciemnastrona.com.pl" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Bob-A-Dook
 
 # Build settings
