@@ -88,7 +88,7 @@ Ogólny format to nazwa kategorii/organizacji (np. *\"google\"*), pod nią *\"ru
 
 # Przypadek Facebooka
 
-Spójrzmy dokładniej na jeszcze jeden przykład z&nbsp;Facebooka. Wspominałem [w pewnym wpisie]({% post_url 2021-02-11-bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka %}), w&nbsp;jaki sposób można tam pobierać i&nbsp;przeglądać swoje dane.
+Spójrzmy dokładniej na jeszcze jeden przykład z&nbsp;Facebooka. Wspominałem [w pewnym wpisie]({% post_url 2021-02-11-nasze-dane-facebooka %}), w&nbsp;jaki sposób można tam pobierać i&nbsp;przeglądać swoje dane.
 
 Tak to wygląda, kiedy wejdziemy w&nbsp;tryb przeglądania i&nbsp;chcemy wejść w&nbsp;całą listę swoich aktywności:
 

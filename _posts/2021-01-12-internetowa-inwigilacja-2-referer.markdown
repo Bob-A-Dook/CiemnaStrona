@@ -54,7 +54,7 @@ Co więcej, tak się dzieje nawet wtedy, kiedy zależy nam na prywatności. **Pr
 
 Zdziwieni?
 
-Na pocieszenie powiem, że na niektórych stronach przekazywanie refererów jest wyłączone. Poza tym są one przesyłane **tylko wtedy, kiedy klikamy w&nbsp;linki**. Chodzenie między stronami przez „Wstecz” i&nbsp;„Dalej”, odświeżanie strony, wklejanie adresu w&nbsp;pasek przeglądarki -- żadna z&nbsp;tych rzeczy nie wyśle informacji o&nbsp;tym, gdzie byliśmy poprzednio.
+Na pocieszenie powiem, że na niektórych stronach przekazywanie refererów jest wyłączone. Poza tym są one przesyłane **tylko wtedy, kiedy klikamy w&nbsp;linki**. Chodzenie między stronami przez `Wstecz` i&nbsp;`Dalej`, odświeżanie strony, wklejanie adresu w&nbsp;pasek przeglądarki -- żadna z&nbsp;tych rzeczy nie wyśle informacji o&nbsp;tym, gdzie byliśmy poprzednio.
 
 ## Ciemne strony referera
 
@@ -106,66 +106,67 @@ Jeśli używasz komórki, przytrzymaj palec na linku i&nbsp;pasku, żeby wyświe
 
 # Możesz użyć dodatku do przeglądarki
 
-Zachęcam! To minuta klikania, a&nbsp;uwolni Cię od refererów na dobre.
+Zachęcam! To minuta klikania, a&nbsp;uwolni Cię od refererów na dobre.  
+W&nbsp;ramkach poniżej opisałem, jak je instalować w&nbsp;różnych przeglądarkach.
 
-**W przypadku Chrome'a**:
+{% include web-extension.html chrome="<ol>
+<li><p>Instalujemy <a href='https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin'>dodatek <i>Referer Control</i></a> z&nbsp;oficjalnej stronki Google'a.<br/>
+Pójdzie szybko i&nbsp;bezboleśnie, do tego na początku nic Ci się nie zmieni.</p>
+</li>
+<li>
+<p>Wchodzimy w&nbsp;menu tego dodatku, na przykład klikając ikonę po prawej stronie od górnego paska z&nbsp;adresem:</p>
+<p class='figure bigspace'>
+<img src='/assets/posts/internetowa-inwigilacja-2-referer/chrome_extensions.webp' alt='Ikona dodatku Referer Control na górnym pasku.'/>
+</p></li>
+<li>
+<p>Otworzy się strona z&nbsp;opcjami dodatku. Klikamy opcję <code class='language-plaintext highlighter-rouge'>Block</code> w&nbsp;dolnej części menu. Nie zmieniamy niczego innego.</p>
+<p class='figure bigspace'>
+<img src='/assets/posts/internetowa-inwigilacja-2-referer/referer-control-block.webp' alt='Zaznaczona opcja Block w opcjach Referer Controla.'/>
+</p></li>
+<li>
+<p>Klikamy w&nbsp;linki na tej stronie, żeby sprawdzić czy działa jak powinno.</p>
+<p>Takie ustawienie nie usuwa refererów w&nbsp;obrębie tej samej strony.<br/>Zatem linki do Ciemnej Strony z&nbsp;początku wpisu powinny pokazywać to co poprzednio.<br/>A po kliknięciu w&nbsp;link do zewnętrznej stronki (<em>whatismyreferer</em>) powinno pokazywać brak referera.</p>
+</li>
+</ol>" %}
 
-1. Instalujemy [dodatek *Referer Control*](https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin) z&nbsp;oficjalnej stronki Google'a.
-
-   Pójdzie szybko i&nbsp;bezboleśnie, do tego na początku nic Ci się nie zmieni.
-
-2. Wchodzimy w&nbsp;menu tego dodatku, na przykład klikając ikonę po prawej stronie od górnego paska z&nbsp;adresem:
-
-   {:.figure .bigspace}
-   <img src="/assets/posts/internetowa-inwigilacja-2-referer/chrome_extensions.webp" alt="Ikona dodatku Referer Control na górnym pasku."/>
-
-3. Otworzy się strona z&nbsp;opcjami dodatku. Klikamy opcję `Block` w&nbsp;dolnej części menu. Nie zmieniamy niczego innego.
-
-   {:.figure .bigspace}
-   <img src="/assets/posts/internetowa-inwigilacja-2-referer/referer_control_block.webp" alt="Zaznaczona opcja 'Block' w opcjach Referer Controla."/>
-
-4. Klikamy w&nbsp;linki na tej stronie, żeby sprawdzić czy działa jak powinno.
-
-   Włączone ustawienie nie usuwa refererów w&nbsp;obrębie tej samej strony, więc wszystkie moje linki odświeżające stronę powinny pokazywać to co poprzednio.  
-Natomiast po kliknięciu w&nbsp;link do zewnętrznej stronki (*whatismyreferer*) powinno pokazywać brak referera.
-
-{% include info.html type="Heheszki" text="Jeśli masz nastrój na śmieszkowanie, możesz ustawić jako referer dowolny tekst, jaki tylko się Ci podoba -- wystarczy kliknąć zakładkę `Custom` i&nbsp;wpisać go w&nbsp;polu.  
+{% include info.html type="Heheszki" text="Jeśli masz nastrój na śmieszkowanie, możesz ustawić jako referer dowolny tekst, jaki tylko Ci się podoba -- wystarczy kliknąć zakładkę `Custom` i&nbsp;wpisać go w&nbsp;polu.  
 Według [tego źródła](https://stackoverflow.com/questions/11798451/what-is-the-maximum-length-of-referer) referer może liczyć do 2000 znaków, więc całkiem długa rozprawka by się zmieściła.  
 Sam natomiast zachęcam do trollowania podglądaczy czymś krótkim, treściwym i&nbsp;wyglądającym jak prawdziwy adres strony:" trailer="<p class='figure'><img src='/assets/posts/internetowa-inwigilacja-2-referer/referer-control-custom.webp' alt='Menu Referer Controla z ustawioną opcją Custom i wpisanym tekstem google-is-evil.com.'/></p>" %}
 
-**W przypadku Firefoksa**:
 
-1. Instalujemy [dodatek *Referer Modifier*](https://addons.mozilla.org/en-US/firefox/addon/referer-modifier/) z&nbsp;oficjalnej stronki.
-   
-   (Na Firefoksie tez można użyć *Referer Controla*, ale według opinii użytkowników coś w&nbsp;nim nie działa. Dlatego osobiście korzystam z&nbsp;zamiennika).
+{% include web-extension.html firefox="
+<ol>
+  <li>
+    <p>Instalujemy <a href='https://addons.mozilla.org/en-US/firefox/addon/referer-modifier/'>dodatek <em>Referer Modifier</em></a> z&nbsp;oficjalnej stronki.</p>
 
-2. Dodatek będzie niewidoczny na pasku, więc musimy wejść do menu dodatków (np. przez menu główne albo naciskając `Ctrl+Shift+A`).
-3. Wybieramy go z&nbsp;listy i&nbsp;klikamy w&nbsp;zakładkę `Preferencje`:
+    <p>(Na Firefoksie też można użyć <em>Referer Controla</em>, ale według opinii użytkowników coś w&nbsp;nim nie działa. Dlatego osobiście korzystam z&nbsp;zamiennika).</p>
+  </li>
+  <li>Dodatek będzie niewidoczny na pasku, więc musimy wejść do menu dodatków (np. przez menu główne albo naciskając <code class='language-plaintext highlighter-rouge'>Ctrl+Shift+A</code>).</li>
+  <li>
+    <p>Wybieramy go z&nbsp;listy i&nbsp;klikamy w&nbsp;zakładkę <code class='language-plaintext highlighter-rouge'>Preferencje</code>:</p>
 
-   {:.figure .bigspace}
-   <img src="/assets/posts/internetowa-inwigilacja-2-referer/referer_modifier_preferencje.webp" alt="Środkowa zakładka 'preferencje' w opcjach dodatku."/>
+    <p class='figure bigspace'><img src='/assets/posts/internetowa-inwigilacja-2-referer/referer_modifier_preferencje.webp' alt='Środkowa zakładka Preferencje w opcjach dodatku.'></p>
+  </li>
+  <li>
+    <p>Patrzymy na opcje, naciskamy guzik na prawo od napisu <em>ANY</em> i&nbsp;wybieramy opcję <code class='language-plaintext highlighter-rouge'>Remove</code>. Przy <em>SAME</em> najbezpieczniejsza jest z&nbsp;kolei opcja <code class='language-plaintext highlighter-rouge'>Keep</code>:</p>
 
-4. Patrzymy na opcje, naciskamy guzik na prawo od napisu *ANY* i&nbsp;wybieramy opcję `Remove`. Przy *SAME* najbezpieczniejsza jest z&nbsp;kolei opcja `Keep`:
+    <p class='figure bigspace'><img src='/assets/posts/internetowa-inwigilacja-2-referer/referer_modifier_remove.webp' alt='Opcje zaznaczone w ustawieniach Referer Modifiera'></p>
+  </li>
+  <li>
+    <p><strong>Ważne!</strong> Klikamy przycisk <code class='language-plaintext highlighter-rouge'>Save configuration</code>. Nic się nie wyświetli, ale nasze ustawienia zostaną zapisane.</p>
 
-   {:.figure .bigspace}
-   <img src="/assets/posts/internetowa-inwigilacja-2-referer/referer_modifier_remove.webp" alt="Opcje zaznaczone w ustawieniach Referer Modifiera"/>
-
-5. **Ważne!** Klikamy przycisk `Save configuration`. Nic się nie wyświetli, ale nasze ustawienia zostaną zapisane.
-
-   Referer nie będzie wysyłany, jeśli klikniemy na stronie A link do strony B. Ale będzie działał w&nbsp;obrębie jednej strony (czyli np. Ciemna Strona → Ciemna Strona).
-
-6. Testujemy na linkach z&nbsp;tej strony, czy wszystkie referery usunięte.
-
-**W przypadku innych przeglądarek**:
-
-Wiele innych przeglądarek na komputery (Edge, Brave, Opera, Vivaldi...) opiera się na tym samym silniku co Chrome, więc *Referer Control* powinien w&nbsp;nich działać tak samo.  
-O Safari od Apple trudno mi się wypowiadać, bo nie korzystałem.
-
-Na telefonie jest trudniej, ponieważ większość przeglądarek nie daje Wam możliwości instalowania dodatków.
-
-Chwalebnym wyjątkiem na Androidzie jest Firefox (nie *Focus/Klar* ani inne wyspecjalizowane wersje, tylko ta główna). Nie sprawdzałem, ale powinno dać się na nim zainstalować *Referer Modifiera*, o&nbsp;którym wcześniej wspominałem.
-
-Nie wiem, jak jest na iOS (iPhone'ach). Wiem jedynie, że wszystkie przeglądarki na tym systemie muszą korzystać z&nbsp;silnika Safari (również Chrome i&nbsp;Firefox!). Więc jeśli Safari nie daje możliwości usuwania refererów, to niestety mamy pecha.
+    <p>Referer nie będzie wysyłany, jeśli klikniemy na stronie A link do strony B. Ale będzie działał w&nbsp;obrębie jednej strony (czyli np. Ciemna Strona → Ciemna Strona).</p>
+  </li>
+  <li>Testujemy na linkach z&nbsp;tej strony, czy wszystkie referery usunięte.</li>
+</ol>
+" 
+inne-pc="
+<p>Wiele innych przeglądarek na komputery (Edge, Brave, Opera, Vivaldi...) opiera się na tym samym silniku co Chrome, więc <em>Referer Control</em> powinien w&nbsp;nich działać tak samo.<br/>
+O Safari od Apple trudno mi się wypowiadać, bo nie korzystałem.</p>
+<p>Na telefonie jest trudniej, ponieważ większość przeglądarek nie daje Wam możliwości instalowania dodatków.</p>
+<p>Chwalebnym wyjątkiem na Androidzie jest Firefox (nie <em>Focus/Klar</em> ani inne wyspecjalizowane wersje, tylko ta główna). Nie sprawdzałem, ale powinno dać się na nim zainstalować <em>Referer Modifiera</em>, o&nbsp;którym wcześniej wspominałem.</p>
+<p>Nie wiem, jak jest na iOS (iPhone'ach). Wiem jedynie, że wszystkie przeglądarki na tym systemie muszą korzystać z&nbsp;silnika Safari (również Chrome i&nbsp;Firefox!). Więc jeśli Safari nie daje możliwości usuwania refererów, to niestety mamy pecha.</p>
+"%}
 
 # Masz swoją stronkę i&nbsp;nie chcesz zdradzać refererów użytkowników.
 
@@ -173,9 +174,15 @@ To się ceni! :+1:
 
 Jeśli używasz do tworzenia swojej strony popularnego Wordpressa, to możliwe że nie musisz nic robić. Według [tego artykułu](https://www.reliablesoft.net/noreferrer-noopener/) **Wordpress automatycznie wyłącza przekazywanie refererów**.
 
-Natomiast jeśli musisz samodzielnie usunąć referery, jednym ze sposobów jest dodanie atrybutu `rel="noreferrer"` do tych linków, które nie powinny ich przekazywać. Czyli zamiast `<a href="TWÓJ_LINK">` dajesz `<a href="TWÓJ_LINK" rel="noreferrer">`.
+Natomiast jeśli musisz samodzielnie usunąć referery, jednym ze sposobów jest dodanie atrybutu `rel="noreferrer"` do tych linków, które nie powinny ich przekazywać. Wyglądają wtedy tak:
 
-Możesz też wyłączyć wszystkie referery za jednym zamachem. Wystarczy że **dodasz jedną linijkę do głównego szablonu swojej strony**, w&nbsp;jej elemencie `head`. Ta linijka to `<meta name="referrer" content="same-origin"/>`.
+<div class="black-bg mono">&lt;a href="TWÓJ_LINK" <span class="red">rel="noreferrer"</span>&gt;</div>
+
+Możesz też wyłączyć wszystkie referery za jednym zamachem. Wystarczy że **dodasz jedną linijkę do głównego szablonu swojej strony**, w&nbsp;jej elemencie `head`. Ta linijka to:
+
+```
+<meta name="referrer" content="same-origin"/>
+```
 
 Jeśli ją dodasz -- i&nbsp;nie wyłączysz żadną inną regułką -- referery będą działały tylko w&nbsp;obrębie Twojej stronki, a&nbsp;w przypadku linków do stron zewnętrznych będą usuwane. Obce strony nie zobaczą, że ktoś przyszedł od Ciebie.
 
