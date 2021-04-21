@@ -99,7 +99,7 @@ Ale załóżmy, że chcesz jednorazowo ukryć referera. Na przykład jesteś na 
 Rozwiązanie: **zamiast klikać w&nbsp;link, skopiuj go do głównego paska przeglądarki**.  
 Znane mi przeglądarki (Firefox, mobilny Firefox Focus i&nbsp;Chrome, a&nbsp;pewnie wiele innych) nie wysyłają wtedy referera. A&nbsp;na stronkę wejdziesz.
 
-Możesz to przetestować, kopiując do paska <a href="https://www.whatismyreferer.com">ten link, który normalnie przesłałby referera</a> (do *whatismyreferer.com*).
+Możesz to przetestować, kopiując do paska <a href="https://www.whatismyreferer.com">ten link, który normalnie przesłałby referera</a> (do *whatismy&shy;referer.com*).
 
 {% include info.html type="Porada" text="Na komputerze klikasz link prawym przyciskiem myszy i&nbsp;wybierasz `Kopiuj adres odnośnika`. Potem klikasz górny pasek adresu i&nbsp;tam wklejasz adres.  
 Jeśli używasz komórki, przytrzymaj palec na linku i&nbsp;pasku, żeby wyświetliły się opcje kopiowania i&nbsp;wklejania." %}
@@ -162,9 +162,11 @@ Sam natomiast zachęcam do trollowania podglądaczy czymś krótkim, treściwym 
 " 
 inne-pc="
 <p>Wiele innych przeglądarek na komputery (Edge, Brave, Opera, Vivaldi...) opiera się na tym samym silniku co Chrome, więc <em>Referer Control</em> powinien w&nbsp;nich działać tak samo.<br/>
-O Safari od Apple trudno mi się wypowiadać, bo nie korzystałem.</p>
+O Safari od Apple trudno mi się wypowiadać, bo nie korzystałem.</p>"
+inne-mobile="
 <p>Na telefonie jest trudniej, ponieważ większość przeglądarek nie daje Wam możliwości instalowania dodatków.</p>
-<p>Chwalebnym wyjątkiem na Androidzie jest Firefox (nie <em>Focus/Klar</em> ani inne wyspecjalizowane wersje, tylko ta główna). Nie sprawdzałem, ale powinno dać się na nim zainstalować <em>Referer Modifiera</em>, o&nbsp;którym wcześniej wspominałem.</p>
+<p>Chwalebnym wyjątkiem na Androidzie jest Firefox (nie <em>Focus/Klar</em> ani inne specjalne wersje, tylko ta główna). Powinno dać się na nim zainstalować <em>Referer Modifiera</em>, o&nbsp;którym wcześniej wspominałem.<br/>
+<strong>Aktualizacja:</strong> Sprawdziłem i&nbsp;niestety trzeba użyć albo starszej wersji, albo pogmerać w&nbsp;ustawieniach najnowszej nieoficjalnej (tzw. <em>Nightly</em>); wersje aktualne dopuszczają póki co tylko kilka wybranych dodatków.</p>
 <p>Nie wiem, jak jest na iOS (iPhone'ach). Wiem jedynie, że wszystkie przeglądarki na tym systemie muszą korzystać z&nbsp;silnika Safari (również Chrome i&nbsp;Firefox!). Więc jeśli Safari nie daje możliwości usuwania refererów, to niestety mamy pecha.</p>
 "%}
 
@@ -184,12 +186,12 @@ Możesz też wyłączyć wszystkie referery za jednym zamachem. Wystarczy że **
 <meta name="referrer" content="same-origin"/>
 ```
 
-Jeśli ją dodasz -- i&nbsp;nie wyłączysz żadną inną regułką -- referery będą działały tylko w&nbsp;obrębie Twojej stronki, a&nbsp;w przypadku linków do stron zewnętrznych będą usuwane. Obce strony nie zobaczą, że ktoś przyszedł od Ciebie.
+Jeśli ją dodasz -- i&nbsp;nie wyłączysz żadną inną regułką -- referery będą działały tylko w&nbsp;obrębie Twojej stronki, a&nbsp;w&nbsp;przypadku linków do stron zewnętrznych będą usuwane. Obce strony nie zobaczą, że ktoś przyszedł od Ciebie.
 
-Taką właśnie metodę wybrałem dla Ciemnej Strony. Do szablonu dodałem regułkę wskazującą, żeby usunąć referery. W&nbsp;tym poście wyjątkowo jej nie dodałem, żeby dało się pokazać działanie refererów.
+Taką właśnie metodę wybrałem dla Ciemnej Strony. Do szablonu dodałem regułkę wskazującą, żeby zawsze usuwać referery. Na&nbsp;tej stronie wyjątkowo jej nie ma, żeby dało się pokazać ich działanie.
 
 Możesz natomiast wejść na dowolną inną podstronkę -- na przykład stronę główną -- i&nbsp;spojrzeć w&nbsp;źródło strony (`prawy przycisk myszy → Pokaż źródło`).  
-O ile nic nie zmieniałem, element wyłączający referery będzie w&nbsp;linijce 7 od góry.
+O ile nic nie zmieniałem, element wyłączający referery będzie w&nbsp;linijce 7&nbsp;od góry.
 
 <script>
 var referrer = document.referrer;
