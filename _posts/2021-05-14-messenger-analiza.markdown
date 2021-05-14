@@ -2,6 +2,7 @@
 layout: post
 title:  "Statystyki z Messengera"
 subtitle: "Co mówią o nas wiadomości."
+description: "Co mówią o nas nasze wiadomości"
 date:   2021-05-14 20:32:00 +0100
 tags: [Analiza danych, Porady]
 firmy: [Facebook]
@@ -192,11 +193,11 @@ Jeśli zaznaczyliśmy na Fejsie, że chcemy w&nbsp;pakiecie z&nbsp;naszymi danym
 W nim mamy pięć podfolderów:
 
 <table>
-<tr><td><code>used_stickers</code></td><td>folder z&nbsp;obrazkami dodawanymi do wiadomości jako tzw. naklejki</td></tr>
-<tr><td><code>inbox</code></td><td>główny folder z&nbsp;konwersacjami</td></tr>
-<tr><td><code>message_requests</code></td><td>konwersacje z&nbsp;facebookowej zakładki "Inne". Czyli np. wiadomości od osób spoza grona znajomych, na które nie odpowiedzieliśmy</td></tr>
-<tr><td><code>filtered_threads</code></td><td>taki śmietnik na te konwersacje, które sami wybraliśmy, żeby nam się nie wyświetlały. Stopień wyżej od wyciszenia</td></tr>
-<tr><td><code>archived_threads</code></td><td>konwersacje, w&nbsp;których już nie bierzemy udziału -- wiadomości do momentu, kiedy z&nbsp;nich odeszliśmy</td></tr>
+<tr><td>used<wbr>_stickers</td><td>folder z&nbsp;obrazkami dodawanymi do wiadomości jako tzw. naklejki</td></tr>
+<tr><td>inbox</td><td>główny folder z&nbsp;konwersacjami</td></tr>
+<tr><td>message<wbr>_requests</td><td>konwersacje z&nbsp;facebookowej zakładki "Inne". Czyli np. wiadomości od osób spoza grona znajomych, na które nie odpowiedzieliśmy</td></tr>
+<tr><td>filtered<wbr>_threads</td><td>taki śmietnik na te konwersacje, które sami wybraliśmy, żeby nam się nie wyświetlały. Stopień wyżej od wyciszenia</td></tr>
+<tr><td>archived<wbr>_threads</td><td>konwersacje, w&nbsp;których już nie bierzemy udziału -- wiadomości do momentu, kiedy z&nbsp;nich odeszliśmy</td></tr>
 </table>
 
 Wyjaśnię też krótko, czym jest Messengerowa konwersacja. Nie musi być prywatna, między dwiema osobami. Ma formę *czatu*. Można w&nbsp;dowolnym momencie dodawać nowe osoby albo opuszczać "pokój rozmów". Każda z&nbsp;osób uczestniczących może dodawać tekst, pliki, nagrania głosowe itp.
