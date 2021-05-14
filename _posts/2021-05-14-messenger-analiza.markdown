@@ -126,7 +126,7 @@ Potem dowalą im jakieś *review*, *coaching*, *Performance Improvement Plan* al
 W tych przypadkach, na które patrzyłem -- w&nbsp;tym moim własnym -- najczęściej do wiadomości dodaje się zdjęcia i&nbsp;naklejki. Bez większego zaskoczenia.
 
 Ujawnia się natomiast moja awersja do filmów i&nbsp;GIF-ów, są rzadkie (pojawiły się odpowiednio 9&nbsp;i&nbsp;5&nbsp;razy).  
-Jakoś nie przekonałem się do tych wszystkich Tenorów i innych bibliotek z GIF-ami. Jeśli wstawiam taki plik, to częściej skopiowany z&nbsp;przeglądarki.  
+Jakoś nie przekonałem się do tych wszystkich Tenorów i&nbsp;innych bibliotek z&nbsp;GIF-ami. Jeśli wstawiam taki plik, to częściej skopiowany z&nbsp;przeglądarki.  
 W&nbsp;miarę często podrzucam za to pliki i&nbsp;linki do różnych rzeczy. Może dlatego, że na komputerze to kwestia paru kliknięć? A&nbsp;używam go częściej niż telefonu.
 
 U niektórych te proporcje wyglądają zgoła odwrotnie -- linki i&nbsp;pliki szorują po dnie, są najrzadszym załącznikiem.
@@ -134,7 +134,7 @@ U niektórych te proporcje wyglądają zgoła odwrotnie -- linki i&nbsp;pliki sz
 Czy może to wynikać z&nbsp;faktu, że takie osoby częściej używają aplikacji na telefonie? Przez co dodanie linka wymagałoby od nich:
 
 * wyjścia z Messengera,
-* otwarcia przeglądarki i jakiejś strony,
+* otwarcia przeglądarki i&nbsp;jakiejś strony,
 * skopiowania linka (niektórzy nawet nie wiedzą jak!),
 * ponownego otwarcia Messengera,
 * wklejenia linka?
