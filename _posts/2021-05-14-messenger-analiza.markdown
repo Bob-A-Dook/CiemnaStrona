@@ -101,20 +101,18 @@ Poniżej porównanie takich dwóch wykresów, mojego i&nbsp;cudzego.
 
 Zaznaczam jednak, że moje dane dla innych osób mogą być obarczone błędem, bo zależą od mojego trybu życia. W&nbsp;końcu nie napiszę do kogoś, kiedy sam śpię! A&nbsp;zatem nie dostanę odpowiedzi, która by się liczyła do statystyk.
 
-Odrobinę tutaj pomagają konwersacje grupowe, ponieważ ludzie mogą pisać o&nbsp;różnych godzinach. I&nbsp;jeśli ktoś faktycznie nie śpi, to odpisuje, dając cenne punkty danych.  
-Tym niemniej -- przy tych statystykach największą dokładność osiągnie się dla dużej próby własnych wiadomości.
+Odrobinę tutaj pomagają konwersacje grupowe, ponieważ ludzie mogą pisać o&nbsp;różnych godzinach. I&nbsp;jeśli ktoś faktycznie nie śpi, to odpisuje, dając cenne punkty danych.
 
-No i&nbsp;marzenie nadgorliwego menedżera -- mając znacznik czasu, można łatwo przeliczyć, czy wiadomość wysłano w&nbsp;czasie pracy!
+No i&nbsp;marzenie nadgorliwego menedżera -- mając znacznik czasu, można łatwo sprawdzić, czy ktoś wysłał wiadomość w&nbsp;czasie pracy!
 
 Wprowadziłem osobną statystykę: **jaki procent wszystkich wiadomości został wysłany między poniedziałkiem a&nbsp;piątkiem i&nbsp;między 8:00 a&nbsp;16:00**? Zobaczymy, kto się messengeruje zamiast pracować!
 
-U mnie wyszło nudne 25%, z&nbsp;czego część zapewne w&nbsp;czasie wolnym.  
+U mnie wyszło 25%, z&nbsp;czego część zapewne w&nbsp;czasie wolnym. Nuuda.  
 Ale u&nbsp;rekordzistki to już 70,5%. Bez obaw, M., nie wypaplam nikomu.
 
-Żeby dopracować metodę, mógłbym zebrać listę dni ustawowo wolnych i&nbsp;nie liczyć tego, co napisano w&nbsp;ich trakcie.  
-Ale nie mam niestety sposobu na odjęcie dni urlopowych, które mogą wypadać kiedykolwiek.
+Żeby dopracować metodę, mógłbym zebrać listę dni ustawowo wolnych i&nbsp;nie liczyć tego, co napisano w&nbsp;ich trakcie. Ale wciąż nie miałbym sposobu na odjęcie dni urlopowych, które mogą wypadać kiedykolwiek.
 
-Natomiast, jeśli kiedyś korpolobby zniesie przepisy o&nbsp;ochronie danych, to mam taką wizję:
+Natomiast, jeśli kiedyś korpolobby zniesie kiedyś przepisy o&nbsp;ochronie danych, to mam taką wizję:
 
 > Facebook zakłada usługę *Employee Productivity by Facebook*.  
 Korpo w&nbsp;ramach subskrypcji mogą im wysyłać arkusze z grafikiem swoich pracowników sprzed jakiegoś czasu. A&nbsp;w odpowiedzi dostaną elegancki raporcik z&nbsp;informacją, ile wiadomości wysłały te osoby przez Messengera w&nbsp;czasie pracy.  
@@ -126,7 +124,8 @@ Potem dowalą im jakieś *review*, *coaching*, *Performance Improvement Plan* al
 W tych przypadkach, na które patrzyłem -- w&nbsp;tym moim własnym -- najczęściej do wiadomości dodaje się zdjęcia i&nbsp;naklejki. Bez większego zaskoczenia.
 
 Ujawnia się natomiast moja awersja do filmów i&nbsp;GIF-ów, są rzadkie (pojawiły się odpowiednio 9&nbsp;i&nbsp;5&nbsp;razy).  
-Jakoś nie przekonałem się do tych wszystkich Tenorów i&nbsp;innych bibliotek z&nbsp;GIF-ami. Jeśli wstawiam taki plik, to częściej skopiowany z&nbsp;przeglądarki.  
+Jakoś nie przekonałem się do tych wszystkich Tenorów i&nbsp;innych bibliotek z&nbsp;GIF-ami. Jeśli wstawiam taki plik, to częściej skopiowany z&nbsp;przeglądarki.
+
 W&nbsp;miarę często podrzucam za to pliki i&nbsp;linki do różnych rzeczy. Może dlatego, że na komputerze to kwestia paru kliknięć? A&nbsp;używam go częściej niż telefonu.
 
 U niektórych te proporcje wyglądają zgoła odwrotnie -- linki i&nbsp;pliki szorują po dnie, są najrzadszym załącznikiem.
@@ -146,7 +145,7 @@ Okazało się, że ten atrybut nazywał się `ip` i zawierał... mój adres IP. 
 
 # Reakcje i&nbsp;emoji
 
-**Po reakcjach można poznać, czy ktoś używa Messengera przez telefon**. Wersja komputerowa daje możliwość wybrania jednej z&nbsp;7&nbsp;reakcji. Przez aplikację można wybrać oprócz tego dowolną z&nbsp;przybornika z&nbsp;emotami.
+**Po reakcjach można poznać, czy ktoś używa Messengera przez telefon**. Wersja komputerowa daje możliwość wybrania jednej z&nbsp;7&nbsp;reakcji. Przez aplikację można wybrać oprócz tego dowolną emoji z&nbsp;przybornika.
 
 Wniosek? Jeśli ktoś daje jako reakcję coś niestandardowego, to wiemy że właśnie używa aplikacji.
 
@@ -154,12 +153,12 @@ Wniosek? Jeśli ktoś daje jako reakcję coś niestandardowego, to wiemy że wł
 Zatem, gdyby w&nbsp;roli reakcji pojawiły się serca w&nbsp;oczach, to nie znaczy że ktoś używa niestandardowych emot. Po prostu pisał w&nbsp;czasach, gdy niektórych jeszcze na świecie nie było. Sam na przykład zebrałem 224 sercookie reakcje.  
 Zresztą reakcje jako takie też są względnie nowe, pojawiły się [w 2017 roku](https://about.fb.com/news/2017/03/introducing-message-reactions-and-mentions-for-messenger/)." %}
 
-Kolejna rzecz -- najwięcej zebrałem reakcji domyślnych (polubienie, śmiejąca się emota, serce, zdziwko). Każda z nich pojawiała się kilkadziesiąt razy więcej niż te niestandardowe.  
+Kolejna ciekawostka: najwięcej zebrałem reakcji domyślnych (polubienie, śmiejąca się emota, serce, zdziwiona emota). Każda z&nbsp;nich pojawiała się kilkadziesiąt razy więcej niż te niestandardowe.  
 Mimo dostępu do pełnego przybornika z&nbsp;emotami, ludzie jednak trzymają się podstaw.
 
-Przejdźmy do emoji.
+Tyle tytułem reakcji, przejdźmy do emoji w&nbsp;tekście.
 
-W ich przypadku przede wszystkim można sprawdzić skłonność do ich stosowania. Niektórzy dodają je notorycznie, a&nbsp;inni mają raczej alergiczny stosunek.
+W ich przypadku przede wszystkim można sprawdzić, jak często ktoś ich używa. Niektórzy dodają je notorycznie, a&nbsp;inni mają raczej alergiczny stosunek.
 
 I tak rekordzistka z&nbsp;moich konwersacji używa emot w&nbsp;70,4% wiadomości. U&nbsp;mnie też goszczą często, w&nbsp;58,1%.
 
@@ -177,7 +176,7 @@ Dla porównania bardziej *emojionalna* znajoma nabiła 219 unikalnych ciągów n
 
 Niby zwykłe głupie obrazki, a&nbsp;ile radochy z&nbsp;analizy!
 
-A samą analizę już może na tym zakończę. Myślę, że pokazałem już, że nawet samo liczenie rzeczy, bez większych cudów, może zdradzić ciekawe informacje i&nbsp;zwyczaje ludzkie.
+A samą analizę może na tym zakończę. Myślę, że pokazałem już, że nawet samo liczenie rzeczy, bez większych bajerów, może zdradzić ciekawe informacje i&nbsp;zwyczaje ludzkie.
 
 Jeśli chcecie stworzyć taki sam raport dla siebie, to [łapcie skrypt](#skrypt).  
 A jeśli ciekawią Was kulisy moich analiz, to czytajcie dalej.
