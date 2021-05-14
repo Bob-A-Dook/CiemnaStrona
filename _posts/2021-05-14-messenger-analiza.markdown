@@ -326,7 +326,7 @@ TOKENIZE = lambda text: TOKENIZER_RE.split( text )
 
 # Później
 all_words = [ TOKENIZE(text) for text in msgs_with_text]
-all_words = [w.lower() for words in all_words for w&nbsp;in words if w.isalpha()]
+all_words = [w.lower() for words in all_words for w in words if w.isalpha()]
 ```
 
 Gubię w&nbsp;ten sposób liczby i&nbsp;nazwy własne (np. *Dąb* jako nazwisko i&nbsp;*dąb* jako drzewo skończą jako to samo słowo).  

@@ -268,6 +268,7 @@ pre {
 table {
   margin-bottom: $spacing-unit;
   width: 100%;
+  overflow-x:auto;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
