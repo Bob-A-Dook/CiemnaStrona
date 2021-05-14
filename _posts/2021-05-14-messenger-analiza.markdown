@@ -251,7 +251,7 @@ Zatem po prostu dzielę taką liczbę przez *1000*, żeby przeliczyć na sekundy
 ```python
 from datetime import datetime
 
-# A&nbsp;przy czytaniu danych...
+# A przy czytaniu danych...
 timestamp = data[ "timestamp_ms" ] // 1000
 date = datetime.fromtimestamp( timestamp )
 ```
@@ -374,9 +374,9 @@ Komputer zagląda do indeksu, bierze listę plików, w&nbsp;których ta osoba co
 Porównajmy, ile czasu zajmują poszczególne przypadki:
 
 <table>
-<tr><td>Stworzenie od zera indeksu dla 782 osób<br/>+ wczytanie 704 konwersacji ze mną:</td><td>5,73 s</td></tr>
-<tr><td>Wczytanie z&nbsp;indeksu moich konwersacji (705):</td><td>4,5 s</td></tr>
-<tr><td>Wczytanie z&nbsp;indeksu konwersacji innej osoby (79):</td><td>0,78 s</td></tr>
+<tr><td>Stworzenie od zera indeksu dla 782 osób<br/>+ wczytanie 704 konwersacji ze mną:</td><td>5,73&nbsp;s</td></tr>
+<tr><td>Wczytanie z&nbsp;indeksu moich konwersacji (705):</td><td>4,5&nbsp;s</td></tr>
+<tr><td>Wczytanie z&nbsp;indeksu konwersacji innej osoby (79):</td><td>0,78&nbsp;s</td></tr>
 </table>
 
 Wszystko to na dość wątłym laptopie (Windows 10, 64-bitowy, Intel Core i5-3210M 2,5 GHz, 4 GB RAM).
