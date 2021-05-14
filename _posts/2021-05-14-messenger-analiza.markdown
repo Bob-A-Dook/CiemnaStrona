@@ -125,9 +125,9 @@ Potem dowalą im jakieś *review*, *coaching*, *Performance Improvement Plan* al
 
 W tych przypadkach, na które patrzyłem -- w&nbsp;tym moim własnym -- najczęściej do wiadomości dodaje się zdjęcia i&nbsp;naklejki. Bez większego zaskoczenia.
 
-Ujawnia się natomiast moja awersja do filmów i&nbsp;GIF-ów, są rzadkie (pojawiły się odpowiednio 9 i 5 razy).  
-Jakoś nie przekonałem się do tych wszystkich Tenorów i innych bibliotek z GIF-ami. Jeśli wstawiam taki plik, to częściej skopiowany z przeglądarki.  
-W miarę często podrzucam za to pliki i&nbsp;linki do różnych rzeczy. Może dlatego, że na komputerze to kwestia paru kliknięć? A tak najczęściej korzystam z Messengera.
+Ujawnia się natomiast moja awersja do filmów i&nbsp;GIF-ów, są rzadkie (pojawiły się odpowiednio 9&nbsp;i&nbsp;5&nbsp;razy).  
+Jakoś nie przekonałem się do tych wszystkich Tenorów i innych bibliotek z GIF-ami. Jeśli wstawiam taki plik, to częściej skopiowany z&nbsp;przeglądarki.  
+W&nbsp;miarę często podrzucam za to pliki i&nbsp;linki do różnych rzeczy. Może dlatego, że na komputerze to kwestia paru kliknięć? A&nbsp;używam go częściej niż telefonu.
 
 U niektórych te proporcje wyglądają zgoła odwrotnie -- linki i&nbsp;pliki szorują po dnie, są najrzadszym załącznikiem.
 
@@ -141,7 +141,7 @@ Czy może to wynikać z&nbsp;faktu, że takie osoby częściej używają aplikac
 
 Linki mogą się nie lubić z telefonami. Taka hipoteza.
 
-Wyszła mi też ciekawa rzecz -- niektóre z&nbsp;moich starszych wiadomości, skądinąd całkiem zwyczajne i&nbsp;pozbawione załączników, dostały atrybut "Nieznany rodzaj" (czyli nazwę, jaką zostawiłem dla nierozpoznanych).  
+Wyszła mi też ciekawa rzecz -- niektóre z&nbsp;moich starszych wiadomości, skądinąd całkiem zwyczajne i&nbsp;pozbawione załączników, dostały atrybut „Nieznany rodzaj” (czyli nazwę, jaką zostawiłem dla nierozpoznanych).  
 Okazało się, że ten atrybut nazywał się `ip` i zawierał... mój adres IP. Nie mam pojęcia, skąd się wziął i&nbsp;czemu akurat w&nbsp;tych wiadomościach. Sprawa do zbadania.
 
 # Reakcje i&nbsp;emoji
@@ -152,18 +152,18 @@ Wniosek? Jeśli ktoś daje jako reakcję coś niestandardowego, to wiemy że wł
 
 {% include info.html type="Ciekawostka" text="Na początku zamiast emoji czerwonego serca **jedną z&nbsp;kilku domyślnych reakcji była buźka z&nbsp;sercami w&nbsp;oczach**. Serce stopniowo ją wyparło.  
 Zatem, gdyby w&nbsp;roli reakcji pojawiły się serca w&nbsp;oczach, to nie znaczy że ktoś używa niestandardowych emot. Po prostu pisał w&nbsp;czasach, gdy niektórych jeszcze na świecie nie było. Sam na przykład zebrałem 224 sercookie reakcje.  
-Zresztą same reakcje też są względnie nowe, pojawiły się [w 2017 roku](https://about.fb.com/news/2017/03/introducing-message-reactions-and-mentions-for-messenger/)." %}
+Zresztą reakcje jako takie też są względnie nowe, pojawiły się [w 2017 roku](https://about.fb.com/news/2017/03/introducing-message-reactions-and-mentions-for-messenger/)." %}
 
 Kolejna rzecz -- najwięcej zebrałem reakcji domyślnych (polubienie, śmiejąca się emota, serce, zdziwko). Każda z nich pojawiała się kilkadziesiąt razy więcej niż te niestandardowe.  
-Mimo dostępu do pełnego przybornika z emotami, ludzie jednak trzymają się podstaw.
+Mimo dostępu do pełnego przybornika z&nbsp;emotami, ludzie jednak trzymają się podstaw.
 
 Przejdźmy do emoji.
 
 W ich przypadku przede wszystkim można sprawdzić skłonność do ich stosowania. Niektórzy dodają je notorycznie, a&nbsp;inni mają raczej alergiczny stosunek.
 
-I tak rekordzistka z&nbsp;moich konwersacji używa emot w&nbsp;70,4% wiadomości. U&nbsp;mnie też goszczą często, w 58,1%.
+I tak rekordzistka z&nbsp;moich konwersacji używa emot w&nbsp;70,4% wiadomości. U&nbsp;mnie też goszczą często, w&nbsp;58,1%.
 
-Kolejna sprawa to rozróżnienie między emotami "tekstowymi" (jak `:D`) a&nbsp;obrazkowymi, wybranymi z&nbsp;przybornika. Dokładniej to opisuję w dalszej części wpisu.
+Kolejna sprawa to rozróżnienie między emotami „tekstowymi” (jak `:D`) a&nbsp;obrazkowymi, wybranymi z&nbsp;przybornika. Dokładniej to opisuję w&nbsp;dalszej części wpisu.
 
 Jaskrawym przykładem jest jedna z&nbsp;moich znajomych, która użycie emot ma całkiem spore (637, w&nbsp;62,5% wiadomości)... ale jest wśród nich dokładnie 0 emot obrazkowych. Wszystko wpisane z&nbsp;klawiatury.
 
@@ -171,12 +171,13 @@ Gdyby kiedyś zaczęła wysyłać obrazkowe, to jest ryzyko, że ktoś się pods
 
 Kolejna rzecz? Powtarzalność. Można sprawdzić, **kto lubi urozmaicenie i&nbsp;często daje różne kombinacje emot**. A&nbsp;kto woli trzymać się kilku takich samych.
 
-Osobiście nie mam duszy do eksperymentów. 418 unikalnych ciągów w&nbsp;całej historii wiadomości (na prawie 33 000 wszystkich wysłanych).  
+Osobiście nie mam duszy do eksperymentów. 418 unikalnych ciągów emoji w&nbsp;całej historii wiadomości (na prawie 33 000 wszystkich).
+
 Dla porównania bardziej *emojionalna* znajoma nabiła 219 unikalnych ciągów na 1815 wszystkich. Gdyby sprawdziła wszystkie swoje dane, to ta liczba na pewno jeszcze by wzrosła.
 
 Niby zwykłe głupie obrazki, a&nbsp;ile radochy z&nbsp;analizy!
 
-A samą analizę już może na tym zakończę. Myślę, że pokazałem już, że nawet samo liczenie rzeczy, bez większych cudów, może zdradzić ciekawe informacje.
+A samą analizę już może na tym zakończę. Myślę, że pokazałem już, że nawet samo liczenie rzeczy, bez większych cudów, może zdradzić ciekawe informacje i&nbsp;zwyczaje ludzkie.
 
 Jeśli chcecie stworzyć taki sam raport dla siebie, to [łapcie skrypt](#skrypt).  
 A jeśli ciekawią Was kulisy moich analiz, to czytajcie dalej.
@@ -195,14 +196,14 @@ W nim mamy pięć podfolderów:
 <table>
 <tr><td>used<wbr>_stickers</td><td>folder z&nbsp;obrazkami dodawanymi do wiadomości jako tzw. naklejki</td></tr>
 <tr><td>inbox</td><td>główny folder z&nbsp;konwersacjami</td></tr>
-<tr><td>message<wbr>_requests</td><td>konwersacje z&nbsp;facebookowej zakładki "Inne". Czyli np. wiadomości od osób spoza grona znajomych, na które nie odpowiedzieliśmy</td></tr>
+<tr><td>message<wbr>_requests</td><td>konwersacje z&nbsp;facebookowej zakładki „Inne”. Czyli np. wiadomości od osób spoza grona znajomych, na które nie odpowiedzieliśmy</td></tr>
 <tr><td>filtered<wbr>_threads</td><td>taki śmietnik na te konwersacje, które sami wybraliśmy, żeby nam się nie wyświetlały. Stopień wyżej od wyciszenia</td></tr>
-<tr><td>archived<wbr>_threads</td><td>konwersacje, w&nbsp;których już nie bierzemy udziału -- wiadomości do momentu, kiedy z&nbsp;nich odeszliśmy</td></tr>
+<tr><td>archived<wbr>_threads</td><td>konwersacje, które opuściliśmy – wiadomości tylko do momentu odejścia</td></tr>
 </table>
 
-Wyjaśnię też krótko, czym jest Messengerowa konwersacja. Nie musi być prywatna, między dwiema osobami. Ma formę *czatu*. Można w&nbsp;dowolnym momencie dodawać nowe osoby albo opuszczać "pokój rozmów". Każda z&nbsp;osób uczestniczących może dodawać tekst, pliki, nagrania głosowe itp.
+Przypomnę też krótko, czym jest Messengerowa konwersacja. Nie musi być prywatna, między dwiema osobami. Ma formę *czatu*. Można w&nbsp;dowolnym momencie dodawać nowe osoby albo opuszczać „pokój rozmów”. Każda z&nbsp;osób uczestniczących może dodawać tekst, pliki, nagrania głosowe itp.
 
-W głównych folderach znajdują się podfoldery. Każdy odpowiada jednej konwersacji. Zawiera materiały dodatkowe (wysłane w&nbsp;tej konwersacji zdjęcia, GIF-y itp.). A&nbsp;także plik albo pliki w&nbsp;formacie JSON z&nbsp;wiadomościami wymienionymi w&nbsp;konwersacji.
+W głównych folderach znajdują się podfoldery. Każdy odpowiada jednej konwersacji i&nbsp;zawiera materiały dodatkowe (wysłane w&nbsp;tej konwersacji zdjęcia, GIF-y itp.). A&nbsp;także plik albo pliki w&nbsp;formacie JSON z&nbsp;wiadomościami wymienionymi w&nbsp;konwersacji.
 
 To te pliki JSON analizujemy.
 
@@ -211,21 +212,21 @@ To te pliki JSON analizujemy.
 Tak wygląda treść przykładowego pliku z&nbsp;konwersacją dwóch osób w&nbsp;formacie JSON:
 
 {:.figure .bigspace}
-<img src="/assets/posts/messenger-analiza/json-wiadomosc.webp" alt="Zrzut ekranu z&nbsp;pliku JSON z&nbsp;wiadomościami. Kolorem zaznaczono element pierwszy, nazwany 'participants', oraz treść jednej z&nbsp;kilku wiadomości z&nbsp;listy."/>
+<img src="/assets/posts/messenger-analiza/json-wiadomosc.webp" alt="Zrzut ekranu z&nbsp;pliku JSON z&nbsp;wiadomościami. Kolorem pomarańczowym otoczono element pierwszy, nazwany 'participants', a zielonym treść jednej z&nbsp;kilku wiadomości z&nbsp;listy."/>
 
-Nawiasy kwadratowe wydzielają proste listy, a&nbsp;nawiasy wąsate -- tzw. słowniki (listy złożone z par nazwa-wartość). Te dwa rodzaje elementów mogą być w sobie zagnieżdżone.
+Nawiasy kwadratowe wydzielają proste listy, a&nbsp;nawiasy wąsate -- tzw. słowniki (listy złożone z par nazwa-wartość). Te dwa rodzaje elementów mogą być w&nbsp;sobie zagnieżdżone.
 
-W pliku są dwa najważniejsze elementy -- `participants` (uczestnicy) i&nbsp;`messages` (wiadomości). Jest też parę innych rzeczy, ale nie znalazłem dla nich zastosowania.
+W pliku są dwa najważniejsze elementy: `participants` (uczestnicy) i&nbsp;`messages` (wiadomości). Jest też parę innych rzeczy, ale nie znalazłem dla nich zastosowania.
 
-Na zielono oznaczyłem z&nbsp;kolei przykładową wiadomość. Jej atrybuty to:
+Zieloną ramką otoczyłem z&nbsp;kolei przykładową wiadomość. Jej atrybuty to:
 
 <table>
-<tr><td><code>sender_name</code></td><td>Kto wysłał wiadomość.</td></tr>
-<tr><td><code>timestamp_ms</code></td><td>Znacznik czasu; kiedy wysłano.</td></tr>
+<tr><td><code>sender<wbr>_name</code></td><td>Kto wysłał wiadomość.</td></tr>
+<tr><td><code>time<wbr>stamp_ms</code></td><td>Znacznik czasu; kiedy wysłano.</td></tr>
 <tr><td><code>content</code></td><td>Tekst wiadomości.</td></tr>
 <tr><td><code>reactions</code></td><td>Lista reakcji w&nbsp;formie emoji pod wiadomością. Każda z&nbsp;nich ma atrybut <code>reaction</code> (jaka to emota) oraz <code>actor</code> (kto ją wysłał).</td></tr>
 <tr><td><code>type</code></td><td>Mówi, czy to wiadomość od kogoś czy komunikat od Messengera.</td></tr>
-<tr><td><code>is_unsent</code></td><td>Czy wiadomość została usunięta.</td></tr>
+<tr><td><code>is_<wbr>unsent</code></td><td>Czy wiadomość została usunięta.</td></tr>
 </table>
 
 Oprócz tego niektóre wiadomości mogą mieć dodatkowe atrybuty (takie jak załączniki -- zdjęcia, GIFY, pliki, nagranie itp.). Sam nie znam i&nbsp;nie znalazłem ich pełnej listy, więc eksperymentowałem.
@@ -244,7 +245,7 @@ A co z&nbsp;samymi wiadomościami? Każda zawiera kilka cennych elementów, któ
 
 Elementy `timestamp_ms` to daty wysłania wiadomości. W&nbsp;takim dość popularnym formacie -- jako liczba jednostek czasu, jakie upłynęły od punktu zero (ustalonego umownie na rok 1970).
 
-Na odczytywanie dat ze znaczników czasu już znalazłem sposób w&nbsp;pierwszym wpisie, ale te są nieco inne. Tutaj mamy `timestamp_ms`. **W milisekundach, a&nbsp;nie sekundach**.
+Na odczytywanie dat ze znaczników czasu już znalazłem sposób w&nbsp;pierwszym wpisie, ale te są nieco inne. Tutaj mamy `timestamp_ms`. **W&nbsp;milisekundach, a&nbsp;nie sekundach**.
 
 Zatem po prostu dzielę taką liczbę przez *1000*, żeby przeliczyć na sekundy. A&nbsp;potem wrzucam do konwertera, domyślnie dostępnego w&nbsp;Pythonie. Otrzymuję datę wysłania wiadomości.
 
@@ -260,7 +261,7 @@ date = datetime.fromtimestamp( timestamp )
 
 Mogą pojawiać się zarówno w&nbsp;samym tekście wiadomości, jak i&nbsp;na liście otrzymanych reakcji.
 
-Reakcje muszą być "prawilnymi" emoji z&nbsp;zamkniętej listy, więc nie sprawiają kłopotów. Pewien niuans pojawia się za to przy wiadomościach.
+Reakcje muszą być „prawilnymi” emoji z&nbsp;zamkniętej listy, więc nie sprawiają kłopotów. Pewien niuans pojawia się za to przy wiadomościach.
 
 Z punktu widzenia użytkownika sprawa jest prosta. Korzystając z&nbsp;Messengera, wpisujemy skrót emoty z klawiatury (np. `:P`, `:|` itp.) albo wybieramy ją z&nbsp;przybornika. Emota się pojawia.
 
@@ -281,14 +282,14 @@ Poniżej przykład (z popsutym kodowaniem Facebooka):
 Dlaczego? Bo sam z&nbsp;siebie prawie nie dodaje emot obrazkowych. Za to w&nbsp;jednej konwersacji, z&nbsp;motywem „rzygania tęczą”, ktoś ustawił ją jako polubienie. Znajomy dał parę lajków i&nbsp;emota tęczy zdominowała mu statystyki :smiling_imp:</p>" %}
 
 Jak się później okaże, rozróżnienie na emoty tekstowe i&nbsp;obrazkowe może być źródłem cennych informacji.  
-Ale bywa to też trochę uciążliwe. Żeby nie przegapić takich tekstowych emot, muszę znajdować ich listę w internetach, żeby potem je rozpoznawać w&nbsp;tekście.  
+Ale bywa to też trochę uciążliwe. Żeby nie przegapić takich tekstowych emot, muszę znajdować ich listę w&nbsp;internetach, żeby potem je rozpoznawać w&nbsp;tekście.  
 Czasem te listy, [takie jak ta](https://www.webnots.com/facebook-emoji-keyboard-shortcuts/), zawierają nieprawdziwe informacje (tu na przykład nie działa pingwin).
 
 Kolejna sprawa to złożone emoty. Niektóre z&nbsp;nich, **choć wydają się jednym obrazkiem, za kulisami składają się z&nbsp;kilku pomniejszych znaków**.
 
 To na przykład wszelkie emoty pokazujące postacie o&nbsp;jakimś odcieniu skóry. Tworzy się je przez połączenie emoty głównej z&nbsp;emotą odpowiadającą kolorowi. Jeśli ktoś wyśle ciemnoskórego kciuka w&nbsp;górę, to w&nbsp;danych wygląda to tak, jakby wysłał ogólnego kciuka, a&nbsp;zaraz po nim koło wypełnione ciemnym kolorem.
 
-Na chwilę obecną nie rozwiązałem jeszcze tej sprawy. Znalazłem kod, który pozwala dokładniej grupować emoty, ale wymaga dodatkowego modułu Pythona (więc zdradziłbym ideę "pobierz i&nbsp;odpal"). Do tego działa raczej powoli. Dlatego póki co nastawcie się na rozszczepione emotki.
+Na chwilę obecną nie rozwiązałem jeszcze tej sprawy. Znalazłem kod, który pozwala dokładniej grupować emoty, ale wymaga dodatkowego modułu Pythona (więc zdradziłbym ideę „pobierz i&nbsp;odpal”). Do tego działa raczej powoli. Dlatego póki co nastawcie się na rozszczepione emotki.
 
 Ostatnia zagwozdka to dłuższe ciągi emoji.  
 Czasem kilka emot wysłanych pod rząd ma po prostu zwiększać efekt (tak jak np. potrójny wykrzyknik w&nbsp;zdaniu).  
@@ -304,7 +305,8 @@ Jesli chcę patrzeć tylko na liczbę znaków, to sprawa wydaje się prosta -- g
 
 I tak obecnie robię, ale jest tu wiele możliwości poprawy. Przede wszystkim, kiedy ktoś wrzuca długiego linka, a&nbsp;ja liczę go jako normalny tekst, tu sztucznie zawyżam długość wiadomości. Perfekcyjny analizator by **zbierał i&nbsp;odsiewał linki z&nbsp;tekstu wiadomości**.
 
-Poza tym to, co w&nbsp;JSON-ie widnieje jako tekst wiadomości bywa jedynie komunikatem. "Dodałeś(aś) do konwersacji X". "Y opuścił(-a) grupę".
+Poza tym to, co w&nbsp;JSON-ie widnieje jako tekst wiadomości, bywa jedynie komunikatem.  
+*„Dodałeś(aś) do konwersacji X"”. *„Y opuścił(-a) grupę”*.
 
 Takie wiadomości szczególnie by nam nie psuły statystyk, bo są względnie rzadkie na tle całej naszej skrzynki. Mimo to postanowiłem je  odfiltrować. Jeśli wiadomość ma atrybut `users`, to oznacza że jest interakcją. Wtedy jej tekst ustawiam jako inny atrybut. Żeby się wyświetlał w&nbsp;trybie interaktywnym, ale nie psuł statystyk.
 
@@ -331,7 +333,7 @@ all_words = [w.lower() for words in all_words for w in words if w.isalpha()]
 ```
 
 Gubię w&nbsp;ten sposób liczby i&nbsp;nazwy własne (np. *Dąb* jako nazwisko i&nbsp;*dąb* jako drzewo skończą jako to samo słowo).  
-Ale wydaje mi się, że częściej jednak zyskuję, traktując takie słowa jako jedno i&nbsp;to samo.
+Ale wydaje mi się, że częściej jednak zyskuję, traktując je jako tę samą rzecz.
 
 {% include info.html type="Ciekawostka" text="Mimo wszelkich trudności i&nbsp;tak mamy łatwiej niż Azjaci.  
 W przypadku języków chińskiego i&nbsp;japońskiego (może innych też?) nie ma przerw między znakami. Rozbijanie zdań na słowa wymaga czasem sprawdzenia wszystkich możliwych kombinacji, szeregowania ich według prawdopodobieństw itp.  
@@ -351,7 +353,7 @@ Efekt? Odpaliłem skrypt i&nbsp;wyszło mi, że najczęściej dodawana rzecz to 
 
 # Indeksowanie
 
-Problemy mniej więcej rozwiązane, wszystko działa! :smile:
+Problemy mniej więcej rozwiązane, działa! :smile:
 
 Ale wszystko jest fajnie, dopóki ładuję tylko konwersacje, w&nbsp;których brałem udział (czyli *de facto* wszystko).  
 A co, jeśli chcę sprawdzić wiadomości dla innej osoby?
@@ -374,7 +376,7 @@ Komputer zagląda do indeksu, bierze listę plików, w&nbsp;których ta osoba co
 Porównajmy, ile czasu zajmują poszczególne przypadki:
 
 <table>
-<tr><td>Stworzenie od zera indeksu dla 782 osób<br/>+ wczytanie 704 konwersacji ze mną:</td><td>5,73&nbsp;s</td></tr>
+<tr><td>Stworzenie od zera indeksu dla 782 osób<br/>+ wczytanie 705 konwersacji ze mną:</td><td>5,73&nbsp;s</td></tr>
 <tr><td>Wczytanie z&nbsp;indeksu moich konwersacji (705):</td><td>4,5&nbsp;s</td></tr>
 <tr><td>Wczytanie z&nbsp;indeksu konwersacji innej osoby (79):</td><td>0,78&nbsp;s</td></tr>
 </table>
@@ -405,7 +407,7 @@ A tutaj efekt moich prac, skrypt w&nbsp;Pythonie. Dzięki niemu możecie sprawdz
   <li>
     <p>Plik tekstowy zawiera wszystkie wiadomości jednej osoby, ułożone w&nbsp;kolejności chronologicznej.</p>
 
-    <p>Można ten plik otworzyć w&nbsp;zwykłym notatniku i&nbsp;np. wyszukiwać w&nbsp;nich konkretnych słów, żeby zobaczyć, jak często ich używamy.</p>
+    <p>Można ten plik otworzyć w&nbsp;zwykłym notatniku i&nbsp;np. wyszukiwać w&nbsp;nim konkretnych słów, żeby zobaczyć, jak często ich używamy.</p>
   </li>
   <li>
     <p>I najważniejsze – podsumowanie statystyk w&nbsp;formacie HTML. Kiedy klikniemy ten plik, powinien się otworzyć w&nbsp;przeglądarce.</p>
@@ -436,17 +438,17 @@ Albo wiadomości zawierające reakcje...
 {:.figure .bigspace}
 <img src="/assets/posts/messenger-analiza/msg-reactions.webp" alt="Zrzut ekranu z&nbsp;interaktywnej konsoli IDLE"/>
 
-Albo w&nbsp;ilu wiadomościach pojawia się słowo "piwo"...
+Albo w&nbsp;ilu wiadomościach pojawia się słowo „piwo”...
 
 {:.figure .bigspace}
 <img src="/assets/posts/messenger-analiza/msg-piwo.webp" alt="Zrzut ekranu z&nbsp;interaktywnej konsoli IDLE"/>
 
 Dokładniej o&nbsp;tym ostatnim przypadku:
 
-* zawsze dajemy `[m for m&nbsp;in messages]`, żeby przeczesywać listę wiadomości;
+* zawsze dajemy `[m for m in messages]`, żeby przeczesywać listę wiadomości;
 * do tego na końcu możemy dodawać `if <WARUNEK>`, żeby zbierać tylko część wiadomości
-* każda z&nbsp;wiadomości ma tekst, do którego "sięgamy", wpisując `m.text`. Dlatego możemy dać `if "piwo" in m.text`, żeby sprawdzić czy taki ciąg znaków jest w&nbsp;tekście;
-* ale uwaga! W&nbsp;ten sposób by znajdowało też wiadomości z&nbsp;innymi słowami, takie jak "piwonia" albo "spiwor" (przejęzyczenie od *śpiwór*).  
+* każda z&nbsp;wiadomości ma tekst, do którego „sięgamy”, wpisując `m.text`. Dlatego możemy dać `if "piwo" in m.text`, żeby sprawdzić czy taki ciąg znaków jest w&nbsp;tekście;
+* ale uwaga! W&nbsp;ten sposób by znajdowało też wiadomości z&nbsp;innymi słowami, takie jak „piwonia” albo „spiwor” (*śpiwór* z&nbsp;literówką).  
   Dlatego rozbijam tekst funkcyjką pomocniczą `tok`, która go dzieli na słowa.
 
 Możemy też wyświetlać treść wiadomości, zadbałem o&nbsp;ich czytelne formatowanie. Aby je wyświetlić jedną pod drugą, możemy wpisać:
@@ -473,7 +475,7 @@ Jestem teraz w&nbsp;stanie wyciągać różne rzeczy z&nbsp;wiadomości z&nbsp;M
 2. Rozbudować oś czasu z&nbsp;poprzedniego wpisu.
 
    Skoro jestem w&nbsp;stanie odczytywać już wszystkie daty z&nbsp;facebookowych plików, to mogę rozwinąć poprzedni wpis i&nbsp;stworzyć wielką oś czasu. Wiadomości plus inne interakcje.  
-   Będzie widać jak na dłoni, jeśli np. o&nbsp;czymś napisaliśmy, potem tego szukaliśmy na FB oraz innych stronach (na których FB też założył swoje "podsłuchy"), a&nbsp;potem napisaliśmy jeszcze innej osobie.
+   Będzie widać jak na dłoni, jeśli np. o&nbsp;czymś napisaliśmy, potem tego szukaliśmy na FB oraz innych stronach (na których FB też założył swoje „podsłuchy”), a&nbsp;potem napisaliśmy jeszcze innej osobie.
 
 Obie rzeczy wydają się kuszące, którą by tu się zająć? Oczywiście:
 
