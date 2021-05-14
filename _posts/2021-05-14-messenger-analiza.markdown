@@ -222,7 +222,7 @@ Zieloną ramką otoczyłem z&nbsp;kolei przykładową wiadomość. Jej atrybuty 
 
 <table>
 <tr><td><code>sender<wbr>_name</code></td><td>Kto wysłał wiadomość.</td></tr>
-<tr><td><code>time<wbr>stamp_ms</code></td><td>Znacznik czasu; kiedy wysłano.</td></tr>
+<tr><td><code>timestamp<wbr>_ms</code></td><td>Znacznik czasu; kiedy wysłano.</td></tr>
 <tr><td><code>content</code></td><td>Tekst wiadomości.</td></tr>
 <tr><td><code>reactions</code></td><td>Lista reakcji w&nbsp;formie emoji pod wiadomością. Każda z&nbsp;nich ma atrybut <code>reaction</code> (jaka to emota) oraz <code>actor</code> (kto ją wysłał).</td></tr>
 <tr><td><code>type</code></td><td>Mówi, czy to wiadomość od kogoś czy komunikat od Messengera.</td></tr>
@@ -306,7 +306,7 @@ Jesli chcę patrzeć tylko na liczbę znaków, to sprawa wydaje się prosta -- g
 I tak obecnie robię, ale jest tu wiele możliwości poprawy. Przede wszystkim, kiedy ktoś wrzuca długiego linka, a&nbsp;ja liczę go jako normalny tekst, tu sztucznie zawyżam długość wiadomości. Perfekcyjny analizator by **zbierał i&nbsp;odsiewał linki z&nbsp;tekstu wiadomości**.
 
 Poza tym to, co w&nbsp;JSON-ie widnieje jako tekst wiadomości, bywa jedynie komunikatem.  
-*„Dodałeś(aś) do konwersacji X"”. *„Y opuścił(-a) grupę”*.
+*„Dodałeś(aś) do konwersacji X”*. *„Y opuścił(-a) grupę”*.
 
 Takie wiadomości szczególnie by nam nie psuły statystyk, bo są względnie rzadkie na tle całej naszej skrzynki. Mimo to postanowiłem je  odfiltrować. Jeśli wiadomość ma atrybut `users`, to oznacza że jest interakcją. Wtedy jej tekst ustawiam jako inny atrybut. Żeby się wyświetlał w&nbsp;trybie interaktywnym, ale nie psuł statystyk.
 
