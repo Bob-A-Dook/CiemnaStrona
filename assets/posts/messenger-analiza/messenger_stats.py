@@ -562,7 +562,6 @@ def get_all_messages( name=None ):
             messages = _load_messages( msg_f, msg_dir, name_to_get=name )
             all_messages += messages
         except Exception as e:
-            raise e
             error('Błąd przy ładowaniu pliku {}'.format(msg_f))
     
     all_messages = __remove_duplicates( all_messages )
