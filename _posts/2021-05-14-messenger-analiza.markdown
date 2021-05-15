@@ -92,14 +92,16 @@ Mam pełne informacje o datach i&nbsp;godzinach wysłania wiadomości. Skupiłem
 Zrobiłem tutaj wykresy częstości, żeby dało się porównywać dane -- czyli **ile procent wszystkich wiadomości wysłano o&nbsp;określonej godzinie**  
 (gdybym brał suchą liczbę wiadomości, przytłoczyłbym innych. W&nbsp;końcu mam kilkadziesiąt tysięcy, a oni kilka).
 
-W przypadku moich danych widać wyraźnie dwie górki. Mniejsza rano, mniej więcej po pełnym dobudzeniu. Druga w&nbsp;godzinach wieczornych i&nbsp;nocnych. To wtedy się uaktywniam.
+W przypadku moich danych widać wyraźnie dwie górki. Mniejsza koło południa, mniej więcej po pełnym dobudzeniu. Druga w&nbsp;godzinach wieczornych i&nbsp;nocnych. To wtedy się uaktywniam.
 
 Niektóre osoby są z&nbsp;kolei bardziej wyważone i&nbsp;można je dorwać o&nbsp;dowolnych godzinach w&nbsp;ciągu dnia.  
-Poniżej porównanie takich dwóch wykresów, mojego i&nbsp;cudzego.
+Poniżej porównanie takich dwóch wykresów, mojego (u góry) i&nbsp;cudzego.
 
 <img src="/assets/posts/messenger-analiza/wykresy-porownanie.webp" alt="Dwa wykresy słupkowe ustawione jeden pod drugim. W&nbsp;przypadku górnego najwyższy słupek wypada o&nbsp;godzinie 21, a&nbsp;poranne są względnie niskie. W&nbsp;przypadku dolnego słupki od godziny 11 mają zbliżoną wysokość"/>
 
-Zaznaczam jednak, że moje dane dla innych osób mogą być obarczone błędem, bo zależą od mojego trybu życia. W&nbsp;końcu nie napiszę do kogoś, kiedy sam śpię! A&nbsp;zatem nie dostanę odpowiedzi, która by się liczyła do statystyk.
+Ten drugi histogram by sugerował, że mam do czynienia ze skowronkiem, a nie sową. Rano ta osoba jest znacznie bardziej aktywna niż ja, ale po północy prawie nic nie pisze. Dla mnie północ jest jeszcze w miarę częsta, 1:00 się zdarza, a&nbsp;potem też się wyłączam.
+
+Zaznaczam jednak, że moje wiadomości od innych osób mogą być obarczone błędem, bo zależą od mojego trybu życia. W&nbsp;końcu nie napiszę do kogoś, kiedy sam śpię! A&nbsp;zatem nie dostanę odpowiedzi, która by się liczyła do statystyk.
 
 Odrobinę tutaj pomagają konwersacje grupowe, ponieważ ludzie mogą pisać o&nbsp;różnych godzinach. I&nbsp;jeśli ktoś faktycznie nie śpi, to odpisuje, dając cenne punkty danych.
 
@@ -112,7 +114,7 @@ Ale u&nbsp;rekordzistki to już 70,5%. Bez obaw, M., nie wypaplam nikomu.
 
 Żeby dopracować metodę, mógłbym zebrać listę dni ustawowo wolnych i&nbsp;nie liczyć tego, co napisano w&nbsp;ich trakcie. Ale wciąż nie miałbym sposobu na odjęcie dni urlopowych, które mogą wypadać kiedykolwiek.
 
-Natomiast, jeśli kiedyś korpolobby zniesie kiedyś przepisy o&nbsp;ochronie danych, to mam taką wizję:
+Natomiast, jeśli korpolobby zniesie kiedyś przepisy o&nbsp;ochronie danych, to mam taką wizję:
 
 > Facebook zakłada usługę *Employee Productivity by Facebook*.  
 Korpo w&nbsp;ramach subskrypcji mogą im wysyłać arkusze z grafikiem swoich pracowników sprzed jakiegoś czasu. A&nbsp;w odpowiedzi dostaną elegancki raporcik z&nbsp;informacją, ile wiadomości wysłały te osoby przez Messengera w&nbsp;czasie pracy.  
