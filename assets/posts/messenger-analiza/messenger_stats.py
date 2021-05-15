@@ -788,7 +788,10 @@ def _make_html_report( out, name, results ):
         rows = '\n'.join(TABLE_ROW.format(l,s) for (l,s) in data)
         return wrap( rows, 'table' )
     
-    for heading, stats in results:
+    for res in results:
+        if not res: continue
+        heading, stats = res
+        
         out.write( wrap(heading, 'h2'))
 
         # Format the data and sort into two types
