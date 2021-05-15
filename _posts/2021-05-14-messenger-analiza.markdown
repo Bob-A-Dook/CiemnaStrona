@@ -175,7 +175,7 @@ Gdyby kiedyś zaczęła wysyłać obrazkowe, to jest ryzyko, że ktoś się pods
 
 Kolejna rzecz? Powtarzalność. Można sprawdzić, **kto lubi urozmaicenie i&nbsp;często daje różne kombinacje emot**. A&nbsp;kto woli trzymać się kilku takich samych.
 
-Osobiście nie mam duszy do eksperymentów. 418 unikalnych ciągów emoji w&nbsp;całej historii wiadomości (na prawie 33 000 wszystkich).
+Osobiście nie mam duszy do eksperymentów. Na prawie 33&nbsp;000 wysłanych ciągów emoji tylko 418 się nie powtarza.
 
 Dla porównania bardziej *emojionalna* znajoma nabiła 219 unikalnych ciągów na 1815 wszystkich. Gdyby sprawdziła wszystkie swoje dane, to ta liczba na pewno jeszcze by wzrosła.
 
