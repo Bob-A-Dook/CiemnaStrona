@@ -203,7 +203,7 @@ def __test_emoji_support( display=False ):
 
 is_imported = (__name__ != '__main__') # Skip further checks if just importing
 CAN_DISPLAY_EMOJI = __test_emoji_support( display=is_imported )
-if not CAN_DISPLAY_EMOJI:
+if not CAN_DISPLAY_EMOJI and not EMOJI_MODULE:
     warning('Nie znaleziono modułu `emoji`, ich opisy nie będą wyświetlane. '\
             'Można go pobrać przez `pip install emoji`.)')
 
