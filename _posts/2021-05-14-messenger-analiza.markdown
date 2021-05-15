@@ -101,7 +101,10 @@ Poniżej porównanie takich dwóch wykresów, mojego (u góry) i&nbsp;cudzego.
 
 Ten drugi histogram by sugerował, że mam do czynienia ze skowronkiem, a nie sową. Rano ta osoba jest znacznie bardziej aktywna niż ja, ale po północy prawie nic nie pisze. Dla mnie północ jest jeszcze w miarę częsta, 1:00 się zdarza, a&nbsp;potem też się wyłączam.
 
-Zaznaczam jednak, że moje wiadomości od innych osób mogą być obarczone błędem, bo zależą od mojego trybu życia. W&nbsp;końcu nie napiszę do kogoś, kiedy sam śpię! A&nbsp;zatem nie dostanę odpowiedzi, która by się liczyła do statystyk.
+{% include info.html type="Uwaga" text="Facebook nie podaje informacji o&nbsp;tym, z&nbsp;jakiej strefy czasowej wysłano wiadomość. Komputer oblicza godzinę wysłania na podstawie aktualnie ustawionej strefy.  
+Dlatego, gdybym teraz wyprowadził się do Australii, ustawił strefę australijską i&nbsp;wygenerował nowe podsumowanie, to wszystkie godziny byłyby przesunięte i&nbsp;nie oddawałyby rzeczywistości." %}
+
+Dane dotyczące godzin od innych osób mogą być nieco skrzywione, bo zależą od mojego trybu życia. W&nbsp;końcu nie napiszę do kogoś, kiedy sam śpię! A&nbsp;zatem nie dostanę odpowiedzi, które by się liczyły do statystyk i&nbsp;np. pokazały, że ktoś często zarywa nocki.
 
 Odrobinę tutaj pomagają konwersacje grupowe, ponieważ ludzie mogą pisać o&nbsp;różnych godzinach. I&nbsp;jeśli ktoś faktycznie nie śpi, to odpisuje, dając cenne punkty danych.
 
