@@ -197,7 +197,6 @@ def __test_emoji_support( display=False ):
               'użyć innego terminala')
         return True  
     except UnicodeEncodeError:
-        if not PRINT_EMOJI_TEST: return False
         warning('Twój obecny terminal nie wyświetla poprawnie emoji.'\
                 'Najlepiej użyj innego, takiego jak PowerShell.\n')
         return False
