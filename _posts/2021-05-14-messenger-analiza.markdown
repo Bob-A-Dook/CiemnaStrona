@@ -97,6 +97,7 @@ W przypadku moich danych widać wyraźnie dwie górki. Mniejsza koło południa,
 Niektóre osoby są z&nbsp;kolei bardziej wyważone i&nbsp;można je dorwać o&nbsp;dowolnych godzinach w&nbsp;ciągu dnia.  
 Poniżej porównanie takich dwóch wykresów, mojego (u góry) i&nbsp;cudzego.
 
+{:.bigspace}
 <img src="/assets/posts/messenger-analiza/wykresy-porownanie.webp" alt="Dwa wykresy słupkowe ustawione jeden pod drugim. W&nbsp;przypadku górnego najwyższy słupek wypada o&nbsp;godzinie 21, a&nbsp;poranne są względnie niskie. W&nbsp;przypadku dolnego słupki od godziny 11 mają zbliżoną wysokość"/>
 
 Ten drugi histogram by sugerował, że mam do czynienia ze skowronkiem, a nie sową. Rano ta osoba jest znacznie bardziej aktywna niż ja, ale po północy prawie nic nie pisze. Dla mnie północ jest jeszcze w miarę częsta, 1:00 się zdarza, a&nbsp;potem też się wyłączam.
@@ -145,8 +146,8 @@ Czy może to wynikać z&nbsp;faktu, że takie osoby częściej używają aplikac
 
 Linki mogą się nie lubić z telefonami. Taka hipoteza.
 
-Wyszła mi też ciekawa rzecz -- niektóre z&nbsp;moich starszych wiadomości, skądinąd całkiem zwyczajne i&nbsp;pozbawione załączników, dostały atrybut „Nieznany rodzaj” (czyli nazwę, jaką zostawiłem dla nierozpoznanych).  
-Okazało się, że ten atrybut nazywał się `ip` i zawierał... mój adres IP. Nie mam pojęcia, skąd się wziął i&nbsp;czemu akurat w&nbsp;tych wiadomościach. Sprawa do zbadania.
+Wyszła mi też ciekawa rzecz -- niektóre z&nbsp;moich starszych wiadomości, skądinąd całkiem zwyczajne i&nbsp;pozbawione załączników, program oznaczał jako „Nieznany rodzaj” (czyli nazwą, jaką zostawiłem dla nierozpoznanych).  
+Okazało się, że miały one atrybut `ip` zawierający... mój adres IP. Nie mam pojęcia, skąd się wziął i&nbsp;czemu akurat w&nbsp;tych wiadomościach. Sprawa do zbadania.
 
 # Reakcje i&nbsp;emoji
 
@@ -205,13 +206,13 @@ W nim mamy pięć podfolderów:
 <tr><td>archived<wbr>_threads</td><td>konwersacje, które opuściliśmy – wiadomości tylko do momentu odejścia</td></tr>
 </table>
 
-Przypomnę też krótko, czym jest Messengerowa konwersacja. Nie musi być prywatna, między dwiema osobami. Ma formę *czatu*. Można w&nbsp;dowolnym momencie dodawać nowe osoby albo opuszczać „pokój rozmów”. Każda z&nbsp;osób uczestniczących może dodawać tekst, pliki, nagrania głosowe itp.
-
-W głównych folderach znajdują się podfoldery. Każdy odpowiada jednej konwersacji i&nbsp;zawiera materiały dodatkowe (wysłane w&nbsp;tej konwersacji zdjęcia, GIF-y itp.). A&nbsp;także plik albo pliki w&nbsp;formacie JSON z&nbsp;wiadomościami wymienionymi w&nbsp;konwersacji.
+W czterech ostatnich folderach znajdują się podfoldery. Każdy odpowiada jednej konwersacji i&nbsp;zawiera materiały dodatkowe (wysłane w&nbsp;tej konwersacji zdjęcia, GIF-y itp.). A&nbsp;także plik albo pliki w&nbsp;formacie JSON z&nbsp;wiadomościami wymienionymi w&nbsp;konwersacji.
 
 To te pliki JSON analizujemy.
 
 # Budowa plików
+
+Przypomnę krótko, czym jest Messengerowa konwersacja. Nie musi być prywatna, między dwiema osobami. Ma formę *czatu*. Można w&nbsp;dowolnym momencie dodawać nowe osoby albo opuszczać „pokój rozmów”. Każda z&nbsp;osób uczestniczących może dodawać tekst, pliki, nagrania głosowe itp.
 
 Tak wygląda treść przykładowego pliku z&nbsp;konwersacją dwóch osób w&nbsp;formacie JSON:
 
@@ -220,9 +221,9 @@ Tak wygląda treść przykładowego pliku z&nbsp;konwersacją dwóch osób w&nbs
 
 Nawiasy kwadratowe wydzielają proste listy, a&nbsp;nawiasy wąsate -- tzw. słowniki (listy złożone z par nazwa-wartość). Te dwa rodzaje elementów mogą być w&nbsp;sobie zagnieżdżone.
 
-W pliku są dwa najważniejsze elementy: `participants` (uczestnicy) i&nbsp;`messages` (wiadomości). Jest też parę innych rzeczy, ale nie znalazłem dla nich zastosowania.
+W pliku są dwa najważniejsze elementy: `participants` (lista uczestników) i&nbsp;`messages` (wiadomości). Jest też parę innych rzeczy, ale nie znalazłem dla nich zastosowania.
 
-Zieloną ramką otoczyłem z&nbsp;kolei przykładową wiadomość. Jej atrybuty to:
+Zieloną ramką otoczyłem przykładową wiadomość. Jej atrybuty to:
 
 <table>
 <tr><td><code>sender<wbr>_name</code></td><td>Kto wysłał wiadomość.</td></tr>
@@ -295,9 +296,11 @@ To na przykład wszelkie emoty pokazujące postacie o&nbsp;jakimś odcieniu skó
 
 Na chwilę obecną nie rozwiązałem jeszcze tej sprawy. Znalazłem kod, który pozwala dokładniej grupować emoty, ale wymaga dodatkowego modułu Pythona (więc zdradziłbym ideę „pobierz i&nbsp;odpal”). Do tego działa raczej powoli. Dlatego póki co nastawcie się na rozszczepione emotki.
 
-Ostatnia zagwozdka to dłuższe ciągi emoji.  
-Czasem kilka emot wysłanych pod rząd ma po prostu zwiększać efekt (tak jak np. potrójny wykrzyknik w&nbsp;zdaniu).  
-Ale niektóre kombinacje mają specjalne znaczenie -- choćby [zestaw oko-usta-oko](https://knowyourmeme.com/memes/eye-mouth-eye-emoji-%F0%9F%91%81%F0%9F%91%84%F0%9F%91%81), który lubią młodsze pokolenia.
+Ostatnia zagwozdka to dłuższe ciągi emoji. Liczyć każdy z&nbsp;nich jako osobną rzecz czy patrzeć tylko na emoty, z&nbsp;jakich się składa?
+
+Jeśli ktoś używa dwóch rodzajów uśmieszków, ale urozmaica (raz da jeden, raz kilka identycznych, czasem wymiesza), to ma sztucznie zawyżoną liczbę. Bo często kilka emot pod rząd ma tylko zwiększać efekt (tak jak np. potrójny wykrzyknik w&nbsp;zdaniu).
+
+Ale niektóre takie kombinacje mają specjalne znaczenie -- choćby [zestaw oko-usta-oko](https://knowyourmeme.com/memes/eye-mouth-eye-emoji-%F0%9F%91%81%F0%9F%91%84%F0%9F%91%81), który lubią młodsze pokolenia.
 
 Gdybym chciał tu być perfekcjonistą, to bym musiał przechowywać listę takich specjalnych kombinacji. A&nbsp;i tak nie byłoby to stuprocentowo skuteczne.
 
@@ -310,9 +313,10 @@ Jesli chcę patrzeć tylko na liczbę znaków, to sprawa wydaje się prosta -- g
 I tak obecnie robię, ale jest tu wiele możliwości poprawy. Przede wszystkim, kiedy ktoś wrzuca długiego linka, a&nbsp;ja liczę go jako normalny tekst, tu sztucznie zawyżam długość wiadomości. Perfekcyjny analizator by **zbierał i&nbsp;odsiewał linki z&nbsp;tekstu wiadomości**.
 
 Poza tym to, co w&nbsp;JSON-ie widnieje jako tekst wiadomości, bywa jedynie komunikatem.  
-*„Dodałeś(aś) do konwersacji X”*. *„Y opuścił(-a) grupę”*.
+*„Dodałeś(aś) do konwersacji X”*.  
+*„Y opuścił(-a) grupę”*.
 
-Takie wiadomości szczególnie by nam nie psuły statystyk, bo są względnie rzadkie na tle całej naszej skrzynki. Mimo to postanowiłem je  odfiltrować. Jeśli wiadomość ma atrybut `users`, to oznacza że jest interakcją. Wtedy jej tekst ustawiam jako inny atrybut. Żeby się wyświetlał w&nbsp;trybie interaktywnym, ale nie psuł statystyk.
+Takie wiadomości szczególnie by nam nie psuły statystyk, bo są względnie rzadkie na tle całej naszej skrzynki. Mimo to postanowiłem je  odfiltrować. Jeśli wiadomość ma atrybut `users`, to oznacza że jest interakcją. Wtedy jej tekst ustawiam jako alternatywny, a&nbsp;nie główny. Żeby się wyświetlał w&nbsp;trybie interaktywnym, ale nie wchodził do statystyk.
 
 **Żeby wyniki były odporniejsze na wahania, liczę dodatkowo medianę**. Pojedyncze wahania w&nbsp;długości tekstu nie są w&nbsp;stanie jej oszukać, ponieważ patrzy tylko na wartości środkowe. Jeśli ktoś parę razy wrzucił wpis liczący tysiące znaków, to nic nie szkodzi.
 
@@ -347,9 +351,9 @@ Więcej o&nbsp;wyzwaniach związanych z&nbsp;chińskim jest na przykład [tutaj]
 
 To różne rzeczy specjalne dodawane do wiadomości. Mogą to być zdjęcia i&nbsp;inne grafiki, GIF-y, filmy, dowolne pliki, linki przekształcone na format Facebooka...
 
-Zasadniczo nic trudnego. W&nbsp;ich przypadku po prostu przeglądałem interaktywnie dane, aż zobaczyłem, jakim rzeczom odpowiadają różne dodatkowe atrybuty. Na przykład wiadomość z&nbsp;atrybutem `sticker` zawiera naklejkę (obrazek dodany z&nbsp;dostępnych kolekcji Facebooka), `gif` to plik GIF itp.
+W&nbsp;ich przypadku po prostu przeglądałem dane, aż ustaliłem, jakim rzeczom odpowiadają określone atrybuty. Na przykład wiadomość z&nbsp;atrybutem `sticker` zawiera naklejkę (obrazek dodany z&nbsp;dostępnych kolekcji Facebooka), `gif` to plik GIF itp.
 
-Na razie po prostu wypisuję, ile rodzajów poszczególnych elementów ktoś wysłał. Ale mogę też kiedyś to rozwinąć i&nbsp;np. wyciągać z&nbsp;archiwum odpowiednie naklejki i&nbsp;dodawać do pliku HTML, żeby powstała lista najczęściej używanych.
+Na razie tylko liczę, ile rodzajów poszczególnych elementów ktoś wysłał. Ale mogę też kiedyś to rozwinąć i&nbsp;np. wyciągać z&nbsp;archiwum odpowiednie naklejki i&nbsp;dodawać do pliku HTML, żeby powstała lista najczęściej używanych.
 
 Miałem tu również próbkę tego, że Messenger potrafi zmieniać swój format. Poprzednio pracowałem na danych pobranych kilka miesięcy temu. Od tego czasu Facebook wprowadził atrybut `is_unsent`, którego wcześniej nie było.
 
