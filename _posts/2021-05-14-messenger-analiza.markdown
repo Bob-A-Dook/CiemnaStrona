@@ -368,7 +368,7 @@ Wtedy jest sporo marnotrawstwa. Program ładuje i&nbsp;sprawdza wszystkie 700+ k
 
 Potem zapisuje sobie w&nbsp;jednym miejscu (u mnie: do pliku *index.json*), w&nbsp;jakich plikach znajdzie wiadomości poszczególnych osób.
 
-Teraz poszukiwania "rzadszych" osób są dużo szybsze! Wpisuję na przykład, że chcę wszystko od Adama Kowalskiego:
+Teraz poszukiwania „rzadszych” osób są dużo szybsze! Wpisuję na przykład, że chcę wszystko od Adama Kowalskiego:
 
 ```python
 # Na końcu skryptu
@@ -385,7 +385,7 @@ Porównajmy, ile czasu zajmują poszczególne przypadki:
 <tr><td>Wczytanie z&nbsp;indeksu konwersacji innej osoby (79):</td><td>0,78&nbsp;s</td></tr>
 </table>
 
-Wszystko to na dość wątłym laptopie (Windows 10, 64-bitowy, Intel Core i5-3210M 2,5 GHz, 4 GB RAM).
+Wszystko to na dość wątłym laptopie (Windows 10, 64-bitowy, Intel Core i5-3210M 2,5 GHz, 4&nbsp;GB RAM).
 
 Jak widać, mój bida-indeks trochę przyspieszył sprawy. Czasy i&nbsp;tak nie były jakieś drastyczne, nawet w&nbsp;najgorszym przypadku, ale zawsze to kilka zyskanych sekund życia. Jeśli chcemy analizować wielu znajomych, to oszczędność czasu będzie całkiem spora :wink:
 
@@ -411,7 +411,7 @@ A tutaj efekt moich prac, skrypt w&nbsp;Pythonie. Dzięki niemu możecie sprawdz
   <li>
     <p>Plik tekstowy zawiera wszystkie wiadomości jednej osoby, ułożone w&nbsp;kolejności chronologicznej.</p>
 
-    <p>Można ten plik otworzyć w&nbsp;zwykłym notatniku i&nbsp;np. wyszukiwać w&nbsp;nim konkretnych słów, żeby zobaczyć, jak często ich używamy.</p>
+    <p>Można ten plik otworzyć w&nbsp;zwykłym notatniku i&nbsp;np. wyszukiwać w&nbsp;nim konkretne słowa, żeby zobaczyć, jak często ich używamy.</p>
   </li>
   <li>
     <p>I najważniejsze – podsumowanie statystyk w&nbsp;formacie HTML. Kiedy klikniemy ten plik, powinien się otworzyć w&nbsp;przeglądarce.</p>
