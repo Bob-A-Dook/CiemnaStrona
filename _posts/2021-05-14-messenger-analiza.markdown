@@ -26,7 +26,7 @@ Wystarczy go pobrać i&nbsp;odpalić, żebyście również dla swoich danych stw
 
 W tym taki sympatyczny histogram dla godzin, w&nbsp;których wysłaliście wiadomości:
 
-<img src="/assets/posts/messenger-analiza/statystyki-baner.jpg"/>
+<img src="/assets/posts/messenger-analiza/statystyki-baner.jpg" alt="Wykres słupkowy utrzymany w kolorystyce Ciemnej Strony. Pokazuje dwie wyraźne górki, mniejszą i większą."/>
 
 {% include info.html type="Porada" text="Jeśli interesuje Was tylko część z&nbsp;powyższych rzeczy, to możecie swobodnie do niej przeskoczyć. Są od siebie raczej niezależne."%}
 
@@ -277,8 +277,8 @@ Poniżej przykład (z popsutym kodowaniem Facebooka):
 
 <table style="text-align:center">
 <tr><th>Co wstawiamy</th><th>Co widać</th><th>Co widać w&nbsp;danych</th></tr>
-<tr><td>:D</td><td><img src="/assets/posts/messenger-analiza/fb-emoji.webp"/></td><td>:D</td></tr>
-<tr><td><img src="/assets/posts/messenger-analiza/fb-emoji-kot.webp"/></td><td><img src="/assets/posts/messenger-analiza/fb-emoji-kot.webp"/></td><td class="mono">\u00f0\u009f\u0090\u00b1</td></tr>
+<tr><td>:D</td><td><img src="/assets/posts/messenger-analiza/fb-emoji.webp" alt="Najprostsza uśmiechnięta emota"/></td><td>:D</td></tr>
+<tr><td><img src="/assets/posts/messenger-analiza/fb-emoji-kot.webp" alt="Emota z uśmiechniętym kotem"/></td><td><img src="/assets/posts/messenger-analiza/fb-emoji-kot.webp" alt="Emota z uśmiechniętym kotem"/></td><td class="mono">\u00f0\u009f\u0090\u00b1</td></tr>
 </table>
 
 {% include info.html type="Heheszki" trailer="<p>Na Messengerze da się zamiast domyślnego polubienia (kciuka w&nbsp;górę) ustawić własną emotę. Na przykład głowę kota z&nbsp;przykładu.</p>
@@ -456,7 +456,7 @@ Dokładniej o&nbsp;tym ostatnim przypadku:
 * zawsze dajemy `[m for m in messages]`, żeby przeczesywać listę wiadomości;
 * do tego na końcu możemy dodawać `if <WARUNEK>`, żeby zbierać tylko część wiadomości
 * każda z&nbsp;wiadomości ma tekst, do którego „sięgamy”, wpisując `m.text`. Dlatego możemy dać `if "piwo" in m.text`, żeby sprawdzić czy taki ciąg znaków jest w&nbsp;tekście;
-* ale uwaga! W&nbsp;ten sposób by znajdowało też wiadomości z&nbsp;innymi słowami, takie jak „piwonia” albo „spiwor” (*śpiwór* z&nbsp;literówką).  
+* ale uwaga! W&nbsp;ten sposób by znajdowało też wiadomości z&nbsp;innymi słowami, takie jak „<span class="red">piwo</span>nia” albo „s<span class="red">piwo</span>r” (*śpiwór* z&nbsp;literówką).  
   Dlatego rozbijam tekst funkcyjką pomocniczą `tok`, która go dzieli na słowa.
 
 Możemy też wyświetlać treść wiadomości, zadbałem o&nbsp;ich czytelne formatowanie. Aby je wyświetlić jedną pod drugą, możemy wpisać:

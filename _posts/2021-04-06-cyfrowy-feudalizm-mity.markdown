@@ -32,7 +32,7 @@ Jest sobie taka organizacja [World Economic Forum](https://en.wikipedia.org/wiki
 Według moich subiektywnych obserwacji zrobiło się o&nbsp;nich głośniej w&nbsp;mediach społecznościowych od wybuchu pandemii. To właśnie od nich pochodzą słowa z&nbsp;tytułu:
 
 {:.figure}
-<img src="/assets/posts/cyfrowy-feudalizm-mity/own-nothing.webp"/>
+<img src="/assets/posts/cyfrowy-feudalizm-mity/own-nothing.webp" alt="Zdjęcie pokazujące twarz uśmiechniętego młodego mężczyzny. W dolnej części zdjęcia znajduje się napis 'You'll own nothing. And you'll be happy'. Słowa 'nothing i 'be happy' są wyróżnione kolorem."/>
 
 {:.figcaption}
 Źrodło: [strona WEF na Facebooku](https://www.facebook.com/watch/?v=10153920524981479)
@@ -42,7 +42,7 @@ Ten cytat można czasem spotkać pod różnymi komentarzami mówiącymi o&nbsp;p
 Zwykle ludzie wrzucają go w&nbsp;jednym konkretnym celu -- żeby przedstawić pandemię jako coś zaplanowanego.  
 „To oni \[światowe elity\] za tym stoją”. „Chcą nam wszystko odebrać”. „Otwórzcie oczy”.
 
-Tak jak pisałem -- **to nadinterpretacja**. Słowa padły w&nbsp;nieco innym, mniej sensacyjnym kontekście. Spójrzmy do ich źródła, pewnego artykułu ze strony WEF.
+Tak jak pisałem -- **to nadinterpretacja**. Słowa padły w&nbsp;nieco innym, mniej sensacyjnym kontekście. Spójrzmy do ich źródła, artykułu ze strony WEF.
 
 {:.post-meta}
 Nie będę się tu odnosił do samego WEF, bo nie mam solidnej wiedzy na temat tej organizacji. Może ma coś za uszami, a&nbsp;może nie. Zachęcam do wyrobienia sobie własnego zdania.  
@@ -50,22 +50,20 @@ Skupię się tylko na jednym konkretnym cytacie z&nbsp;jednego artykułu. I&nbsp
 
 ## Treść felietonu
 
-Źródłem zwrotu jest [felieton Idy Auken ze strony WEF](https://www.weforum.org/agenda/2016/11/how-life-could-change-2030/).
+Źródłem zwrotu jest [felieton Idy Auken ze strony WEF](https://www.weforum.org/agenda/2016/11/how-life-could-change-2030/) opisujący, jak zdaniem autorki mogłoby wyglądać życie w 2030 roku.
 
 Zacznijmy od daty dodania (po lewej), bo jest jedną z&nbsp;pierwszych rzeczy na stronie. Listopad, rok 2016. Czyli **czasy zdecydowanie przed pandemią**. Jakikolwiek by nie był zamysł tekstu, nie mógł być pochwałą obostrzeń (a w&nbsp;takim kontekście się go przywołuje).
 
-Lećmy dalej. Jak pisze sama autorka:
+Lećmy dalej. Na początku felietonu, jak i pod jego treścią, znajdziemy takie wyjaśnienie:
 
 > Some people have read this blog as my utopia or dream of the future. It is not. It is a&nbsp;scenario showing where we could be heading - for better and for worse. I&nbsp;wrote this piece to start a&nbsp;discussion about some of the pros and cons of the current technological development.
 
-Identyczne wyjaśnienie jest również pod koniec tekstu.
+Czy autorka dodałaby coś takiego, gdyby ten tekst miał przedstawiać agendę WEF?  
+To nie jest nieznaczący dupochronik w&nbsp;stylu „tekst zawiera moje osobiste poglądy i&nbsp;nie jest oficjalnym stanowiskiem World Economic Forum”. Nie; Ida Auken wprost pisze, że nie chciała tworzyć peanu na cześć zniknięcia własności prywatnej.
 
-Czy dodałaby coś takiego, gdyby ten tekst miał przedstawiać agendę WEF?  
-To nie jest nieznaczący dupochronik w&nbsp;stylu „tekst zawiera moje osobiste poglądy i&nbsp;nie jest oficjalnym stanowiskiem World Economic Forum”. Nie; wprost tu mówi, że to nie miał być pean na cześć zniknięcia własności prywatnej.
+Ktoś sceptyczny powie, że mogła dodać wyjaśnienie dla zmyły. Już po tym, jak się zrobił szum. No OK, to spójrzmy na samą treść.
 
-Ktoś sceptyczny powie, że dodała wyjaśnienie dla zmyły. Już po tym, jak się zrobił szum. No OK, to spójrzmy na samą treść.
-
-Tekst faktycznie przedstawia realia, w&nbsp;których ma się mniej wszystkiego, w&nbsp;dość utopijny sposób. Ale wspomina też o&nbsp;ciemnych stronach. Jak o&nbsp;odejściu od ważniejszych spraw na rzecz rozrywki:
+Tekst faktycznie przedstawia realia, w&nbsp;których ma się mniej wszystkiego, w&nbsp;dość utopijny sposób. Ale wspomina też o&nbsp;ciemnych stronach takiego stanu rzeczy. Jak o&nbsp;odejściu od ważniejszych spraw na rzecz rozrywki:
 
 > For a&nbsp;while, everything was turned into entertainment and people did not want to bother themselves with difficult issues.
 
@@ -91,7 +89,7 @@ W nazwach piastowanych przez nią stanowisk widać dużo wzmianek o&nbsp;sprawac
 
 A czym to pojęcie w&nbsp;ogóle jest? To [gospodarka o&nbsp;obiegu zamkniętym](https://pl.wikipedia.org/wiki/Gospodarka_o_obiegu_zamkni%C4%99tym) -- model, w&nbsp;którym jak najwięcej rzeczy wykorzystuje się powtórnie. Została również wspomniana w&nbsp;samym felietonie.
 
-Wygląda na to, że autorka po prostu napisała tekst zgodny ze swoim długoletnim „konikiem”, czyli sprawami środowiska. Chwalący taki model gospodarki, jaki od dawna uznawała. Tak, niektóre zwroty są dość prowokacyjne, ale żeby od razu to nazywać jakimś manifestem WEF...
+Wygląda na to, że autorka po prostu napisała tekst zgodny ze swoim długoletnim „konikiem”, czyli sprawami środowiska. Chwalący taki model gospodarki, jaki od dawna uznawała. Tak, niektóre zwroty są dość prowokacyjne. Ale żeby od razu to nazywać manifestem całego WEF...
 
 A jak samo WEF odnosi się do tego artykułu?
 
@@ -120,11 +118,11 @@ Z jednej strony: fajnie widzieć prognozę biorącą pod uwagę kilka równoleg
 
 Z drugiej: jest moim zdaniem dość płytki i&nbsp;utopijny. Patrzy na pozytywne strony dzielenia własności -- rowery miejskie, tymczasowe mieszkania i biura -- i&nbsp;na tej podstawie prognozuje. Gloryfikuje rzeczy, które nie do końca się obecnie sprawdzają.
 
-Samojezdne samochody? Na razie dominuje w&nbsp;tym Waymo (= Google). A&nbsp;Google jest jakie jest. Inni, tacy jak Tesla i Uber, to w tej kwestii częściowo wydmuszki.  
+Samojezdne samochody? Na razie dominuje w&nbsp;tym Waymo (= Google). A&nbsp;Google jest jakie jest. Inni, tacy jak Tesla i&nbsp;Uber, robią wielkie oczekiwania bez wielkich efektów.  
 Sztuczna inteligencja? Mam o&nbsp;tym [osobny wpis]({% post_url 2021-03-03-ai-wspolczesni-szamani %}). Pojęcie głównie marketingowe ma w&nbsp;ciągu 9&nbsp;lat przejąć znaczną część ludzkiej pracy? Nie widzę tego :wink:  
 Dzielenie przestrzeni biurowych? Coś może o&nbsp;tym powiedzieć WeWork, który [otarł się o bankructwo](https://www.businessinsider.com/weworks-nightmare-ipo?IR=T).
 
 Poza tym jak ma wyglądać przejście od korpo radykalnie dbających o&nbsp;swój interes do pełnego współdzielenia z&nbsp;wizji autorki? Od niedoskonałych algorytmów do zastąpienia ludzi przez maszyny?  
 Widzę tu dość spory przeskok myślowy. Nie wydaje się wiarygodny.
 
-Dlatego nie będę się sugerował wizją utopijną, wizją spiskową ani żadną inną. Po prostu wezmę sobie słowa z&nbsp;tytułu i&nbsp;pokażę obrazki z&nbsp;rzeczywistości. Zapraszam do części drugiej.
+Dlatego nie będę się sugerował wizją utopijną, wizją spiskową ani żadną inną. Po prostu wezmę sobie słowa z&nbsp;tytułu (bo fajne) i&nbsp;pokażę obrazki z&nbsp;rzeczywistości. Zapraszam do części drugiej.

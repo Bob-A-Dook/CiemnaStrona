@@ -213,7 +213,7 @@ Ciekawi wielka przewaga ML nad AI. Może to jakiś pośredni dowodzik na to, że
 
 Ale my nie o&nbsp;tym. Ważniejszy jest sam fakt, że tagi stają się popularniejsze, a&nbsp;`machine-learning` przeżył prawdziwą eksplozję w&nbsp;ostatnich latach. Czyli programiści częściej o&nbsp;to pytają, branża się rozwija.
 
-Również [liczba artykułów przyjętych na NeurIPS](https://github.com/hoya012/NeurIPS-2020-Paper-Statistics), jedną z&nbsp;największych konferencji na temat uczenia maszynowego, cały czas rośnie. **Z 569&nbsp;(2016 r.) na 1899&nbsp;(2020 r.)**.
+Również [liczba artykułów przyjętych na NeurIPS](https://github.com/hoya012/NeurIPS-2020-Paper-Statistics), jedną z&nbsp;największych konferencji na temat uczenia maszynowego, cały czas rośnie. **Z&nbsp;569&nbsp;(2016 r.) na 1899&nbsp;(2020 r.)**.
 
 Na chwilę obecną wystarczy przykładów i&nbsp;można już chyba obalić mit. Częściowo. Bo **AI jest stare, ale eksplozja zainteresowania jest nowa**.
 
@@ -222,9 +222,9 @@ Możemy się zastanowić -- co się zmieniło, nie dało się tak dawniej?
 Jedną z&nbsp;przyczyn na pewno jest dostępność mocniejszych komputerów. Nowe możliwości pozwoliły nakręcić samonapędzającą się falę -- badań, wdrożeń, zapotrzebowania, nowych badań itd.  
 Kiedyś tego nie było, a wyczerpujące trenowanie modeli było ponad siły komputerów.
 
-Ale było coś jeszcze -- **zima AI z lat 80. i&nbsp;90.** A właściwie zimy. Kilka razy na długi czas odkładano badania nad sztuczną inteligencją, a branża zamierała.
+Ale było coś jeszcze -- **zima AI z&nbsp;lat 80. i&nbsp;90.** A właściwie zimy. Kilka razy na dłuższy czas odkładano badania nad sztuczną inteligencją, a&nbsp;branża zamierała.
 
-Dlaczego? Na razie jeszcze nie powiem. Czytajcie dalej, wrócę do tego na końcu.
+Dlaczego? Czytajcie dalej, wrócę do tego na końcu.
 
 ## Mit 3: AI to coś dla wybranych
 
@@ -242,10 +242,10 @@ Jeśli chcemy własnego OCR-a, mamy darmową bibliotekę -- [Tesseract](https://
 
 Przyjmijmy teraz, że mamy pomysł na startup sprzedający dużym korpo usługi analizowania dokumentów. Robimy następujące rzeczy:
 
-* Pobieramy Pythona;
-* Pobieramy Tesseracta i&nbsp;modele dopasowane do języka polskiego;
-* Pobieramy bibliotekę *pytesseract*, żeby było jeszcze łatwiej;
-* Dodajemy gdzieś do kodu trzy krótkie linijki:
+* pobieramy Pythona;
+* pobieramy Tesseracta i&nbsp;modele dopasowane do języka polskiego;
+* pobieramy bibliotekę *pytesseract*, żeby było jeszcze łatwiej;
+* dodajemy gdzieś do kodu trzy krótkie linijki:
 
   ```python
   import pytesseract
@@ -260,18 +260,19 @@ Powiecie, że trochę lekceważę branżę? Że na pewno robią coś bardziej am
 
 Być może. Ale pewne fakty nie napawają optymizmem. **40% europejskich startupów deklarujących, że stosuje sztuczną inteligencję, w&nbsp;rzeczywistości nie używa takich metod** ([źródło](https://www.legalcheek.com/2019/03/40-of-ai-start-ups-dont-use-ai/)).
 
-Dlaczego wciskają kit? Może dlatego, że to tam jest kasa i&nbsp;uwaga inwestorów. Rekiny wodne można zbawić zapachem krwi, a&nbsp;rekiny byznesu słówkami, które są *trendy*. Jak *AI* czy *blockchain*. Obecnie jeden na 12 startupów twierdzi, że AI jest w&nbsp;centrum ich działalności (źródło to samo).
+Dlaczego wciskają kit? Może dlatego, że to tam jest kasa i&nbsp;uwaga inwestorów.  
+Rekiny wodne można zwabić zapachem krwi, a&nbsp;rekiny byznesu słówkami, które są *trendy*. Jak *AI* czy *blockchain*. Obecnie jeden na 12 startupów twierdzi, że AI jest w&nbsp;centrum ich działalności (źródło jak wyżej).
 
-Żeby już tak nie dokładać tej branży -- czasem faktycznie muszą dać coś od siebie. Zwłaszcza w&nbsp;kwestii metod zbierania i&nbsp;przerabiania danych. Ale zaryzykuję stwierdzenie, że firm działających „na froncie” AI jest dość mało, a&nbsp;większość korzysta z&nbsp;darmowych gotowców.
+Żeby już tak nie jechać po tej branży -- czasem faktycznie muszą wymyślić coś sami. Zwłaszcza w&nbsp;kwestii metod zbierania i&nbsp;obróbki danych. Ale zaryzykuję stwierdzenie, że firm innowacyjnych działających „na froncie” AI jest dość mało, a&nbsp;większość korzysta z&nbsp;gotowców.
 
 {% include info.html type="Ciekawostka" text="A jak się przedstawia sytuacja na tym froncie -- tam gdzie tworzy się najnowocześniejsze rozwiązania?  
 Tam faktycznie jest ciekawie, a&nbsp;warunki dość zaporowe. Weźmy taki GPT-3 od organizacji OpenAI -- obecnie najnowszy i&nbsp;najlepszy model do losowego generowania tekstu. Według [wyliczeń](https://bdtechtalks.com/2020/09/21/gpt-3-economy-business-model/) **koszt samego treningu modelu to ok. 4,6 mln dolarów.**.  
 ...A do tego dochodzi przecież koszt treningu wielu prototypów, wynagrodzenia dla badaczy, reszta infrastruktury... Sam Altman, prezes OpenAI, [mówi wprost o&nbsp;dziesiątkach milionów dolarów](https://www.nytimes.com/2020/11/24/science/artificial-intelligence-ai-gpt3.html).  
 Tak, nowoczesne AI to drogi biznes." %}
 
-Podsumowując: **mit o&nbsp;niedostępności AI w&nbsp;większości do obalenia**. Chyba że mówimy o&nbsp;naprawdę nowoczesnych i&nbsp;specjalistycznych modelach.
+Podsumowując: **mit o&nbsp;niedostępności AI można obalić**. Chyba że mówimy o&nbsp;naprawdę nowoczesnych i&nbsp;specjalistycznych modelach.
 
-W każdym razie -- nie, nie trzeba robić „wow”, kiedy ktoś stwierdzi, że u&nbsp;niego w&nbsp;firmie używa się sztucznej inteligencji. Teraz jest łatwo to robić. A jeszcze łatwiej mówić.
+Wracając do wcześniejszego pytania -- nie, nie trzeba robić „wow”, kiedy ktoś stwierdzi, że u&nbsp;niego w&nbsp;firmie używa się sztucznej inteligencji. Teraz łatwo to robić. A&nbsp;jeszcze łatwiej mówić.
 
 ## Mit 4: Roboty Facebooka zaczęły tworzyć własny język
 
