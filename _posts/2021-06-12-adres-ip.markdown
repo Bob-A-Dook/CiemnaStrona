@@ -1,0 +1,303 @@
+---
+layout: post
+title:  "Internetowa inwigilacja 6 – adres IP"
+subtitle: "„Gdzie mieszkasz?”"
+date:   2021-06-11 19:57:00 +0100
+tags: [Internet, Inwigilacja, Porady]
+firmy: [Netflix]
+category: internetowa_inwigilacja
+category_readable: "Internetowa inwigilacja"
+image: "adres-ip/adres-ip-baner.jpg"
+image-width: 765
+image-height: 556
+---
+
+W pierwszym, drugim i piątym wpisie z „Internetowej inwigilacji” wałkowałem sprawę nagłówków HTTP -- informacji, które ujawniamy za każdym razem, kiedy wchodzimy na jakąś stronkę. Czegoś w rodzaju „etykiety” na przesyłce pocztowej.
+
+Do tej pory wszystkie te informacje dało się zmieniać, zwykle bez większych konsekwencji. Teraz natomiast czas na coś wredniejszego, bo niezbędnego do sprawnego działania internetu.
+
+To adres IP. **Ciąg znaków, który nas identyfikuje i pozwala określić przybliżoną lokalizację**.
+
+{% include info.html type="Spoilery!" text="Niektóre obrazki z tego wpisu to przeróbki paneli z mangi *Kengan Ashura* (o ironio, ekranizowanej na besztanym tu Netfliksie).  
+Jeśli planujecie ją czytać albo oglądać adaptację, to uwaga na spoilery z późniejszej walki."%}
+
+## Wprowadzenie
+
+W przeciwieństwie do niektórych poprzednich wpisów, nie zrobię tutaj interaktywnej demonstracji i nie pokażę Wam, jaki macie adres IP.
+
+To dlatego, że nie mam dostępu do serwera, na którym znajdują się pliki Ciemnej Strony. A bez niego nie mam jak sprawdzić IP -- chyba że bym przesyłał Wasze informacje zewnętrznej stronie, czego nie planuję :sunglasses:
+
+Jeśli chcecie sprawdzić, co zdradza Wasz adres IP, możecie wejść na [stronkę IPlocation](https://iplocation.com/).  
+Rozpoznaje ona między innymi, od kogo mam internet (*Orange*) i gdzie jestem.
+
+Na szczęście nie zna szczegółów -- wyświetliła mi **lokalizację trafną co do województwa, ale w mieście oddalonym o 15 km**. Uff.
+
+Poza tym w wielu przypadkach (zwłaszcza gdy korzystamy z mobilnego neta) **adresy IP nie są przypisane na stałe**. Co pewien czas dostajemy nowy.
+
+Czy mimo tych ograniczeń ktoś może użyć adresu IP przeciwko nam? Spójrzmy na dwa rodzaje możliwych adwersarzy:
+
+* Państwo
+
+  Być może obiło Wam się o uszy „policja namierzyła kogoś po adresie IP”.  
+  Służby państwowe mogą zwrócić się do dostawców internetu i zebrać więcej danych niż inne podmioty. W ich rękach adres IP jest dużo groźniejszy, pamiętajmy o tym.  
+  Ale w tym wpisie nie skupię się na nich.
+
+* Firmy i osoby prywatne
+
+  Nie mają chodów u dostawców internetu, więc ich możliwości są ograniczone.  
+  Mimo to mogą nas trollować, blokować albo identyfikować (tzn. ustalać, że różne konta należą do jednej osoby). To głównie temu poświęcę wpis.
+
+Przejdźmy do przykładów użycia adresu IP przeciwko nam.
+
+# Przykład stalkerski
+
+Wyobraźcie sobie, że piszecie na anonimowym czacie, nikogo nie znacie. I **nagle ktoś Wam mówi, że wie z jakiego jesteście miasta**. Przestraszeni?
+
+Dokładnie taka historia spotkała [pewną osobę z Reddita](https://www.reddit.com/r/privacy/comments/n0ugpk/so_a_guy_on_omegle_told_me_the_city_i_live_in_and/), korzystającą z Omegle -- aplikacji do wideorozmów .
+
+Jak do tego doszło? Otóż Omegle pełni tylko rolę „swatki”. Po wylosowaniu pary ludzi łączy ich ze sobą. Zaczynają przesyłać informacje bezpośrednio między swoimi komputerami, a nie przez serwery Omegle (to tzw. połączenie *peer-to-peer*).
+
+Ale podczas takiego bezpośredniego przesyłania ludzie wysyłają również swoje adresy IP.  
+Jeśli ktoś ma odpowiedni program, to może taki adres odczytać. A stąd już tylko krok do ustalenia, w jakiej okolicy ktoś mieszka. I do udanego trollingu.
+
+Czy jest się czego bać? Kiedy już znacie sztuczkę, to wiecie że nie. Na podstawie samego IP nikt nie pozna dokładniejszej lokalizacji niż miasto.  
+Będzie dobrze! O ile z zaskoczenia nie dacie się pociągnąć za język i nie zdradzicie więcej szczegółów.
+
+{% include info.html type="Uwaga" text="Warto przy tym pamiętać, że są inne, bardziej zaskakujące sposoby na ustalenie Waszej lokalizacji. Choćby metadane w zdjęciach, o których już pisałem.  
+Dlatego, gdyby taki troll z wideorozmowy poprosił o zdjęcie, to go nie wysyłajcie. Albo pamiętajcie, żeby usunąć wcześniej metadane GPS-a." %}
+
+# Przykład korporacyjny
+
+Większe organizacje są bardziej upierdliwe niż trolle.  
+Patrząc na nasz adres IP, mogą różnie nas traktować w zależności od naszej lokalizacji. Ta praktyka to tak zwany *geo-fencing* (od *fence*, czyli płotu) albo *geo-blocking*.
+
+Czasem używają tej metody do wprowadzania dyskryminacji cenowej (to [termin z ekonomii](https://pl.wikipedia.org/wiki/Dyskryminacja_cenowa), a nie moje wyrzuty!). Osobom z pewnych krajów każą płacą więcej za ten sam produkt.
+
+Na terenie Unii wprowadzili [trochę przepisów](https://www.consilium.europa.eu/en/policies/geo-blocking/) walczących z geo-blockingiem, więc jako konsumenci mamy choć odrobinę ochrony.
+
+Ale z zakazów są zwolnione niektóre organizacje, między innymi serwisy streamingowe. Takie jak Netflix.  
+Ze względu na umowy z wytwórniami, Netflix udostępnia różnym krajom świata odmienne repertuary.
+
+Prosta sytuacja: chcemy obejrzeć z Polski jakiś film, na przykład klasykę kina. Netflix nie chce, żebyśmy go obejrzeli. Walka!
+
+{:.bigspace}
+<img src="/assets/posts/adres-ip/1-netflix-wstep.webp" alt="Obrazek z mangi, podzielony na pół. Pośrodku znajduje się czarny dymek z okładkami trzech znanych filmów. Po lewej stronie w pozycji bojowej stoi drobniejsza postać, na twarz ma naklejoną maskę Anonymous. Po prawej stronie stoi postać masywniejsza, z twarzą zakrytą N z logo Netflixa."/>
+
+Możemy używać innej przeglądarki, internetu telefonicznego, hotspota na dworcu, komputera z biblioteki... Nie ma to znaczenia. Netflix po IP zawsze pozna Polaka. Zablokuje wszystko.
+
+{:.bigspace}
+<img src="/assets/posts/adres-ip/2-netflix-obrona.webp" alt="Panel z mangi pokazujący postać z logiem Netflixa zamiast głowy. Postać odbija rękami liczne uderzenia. Na jej ręce naklejono prostokątne okna z komunikatem, jaki wyświetla Netflix, kiedy film jest niedostępny w naszym rejonie."/>
+
+Nasz adres IP jest nam kulą u nogi. Co zrobimy?
+
+## A może by go zmienić?
+
+Czy się da? Oczywiście, w końcu to nasz komputer go wysyła! Możemy w nim zmieniać co chcemy, również adres IP.
+
+...Tylko że to nie ma sensu.
+
+Pamiętajmy, że internet jest jak sieć placówek pocztowych. Adres IP to odpowiednik adresu nadawcy na listach i paczkach.
+
+Co by się stało w prawdziwym życiu, gdybyśmy wpisali jakieś bzdury jako adres nadawcy? Nasza przesyłka pewnie by dotarła do odbiorcy, ale **nie mielibyśmy szans dostać żadnej odpowiedzi**.
+
+{% include info.html type="Ciekawostka" text="A czy dałoby się, podając fałszywy adres IP, wysłać komuś na komputer stronkę, której nie zamawiał? Jak pizzę w czasach gimbazy?  
+Z tego co znalazłem -- nie :cry: W przypadku internetu różne „punkty przesiadkowe” po drodze mogą [odsiewać ruch spoza wybranych adresów IP](https://en.wikipedia.org/wiki/Egress_filtering). Nie mamy pewności, czy przesyłka ze zmyślonym adresem w ogóle do kogoś dotrze.  
+Kolejna przeszkoda: komunikacja często musi być dwustronna. Przy pierwszym kontakcie obcy serwer odeśle nam tylko minimum danych, a nie całą stronę.
+"%}
+
+Nie możemy podać fikcyjnego adresu. Ale jeśli podamy nasz prawdziwy, to nas dyskryminują. Co zrobić? 
+
+Rozwiązanie, kiedy nad tym pomyślimy, jest całkiem logiczne. Wyobraźmy sobie inną sytuację z życia.  
+Chcemy zwrócić się z pewną prośbą do kogoś, kto bardzo nie lubi Polaków. Jeśli dostanie list z Polski, to go wyrzuci do kosza. Przyjmuje tylko przesyłki z Ameryki.
+
+Co byśmy zrobili w prawdziwym świecie? **Można znaleźć pośrednika**.  
+Ktoś znajomy z USA (albo opłacona osoba) przyjmie nasz list, wyjmie go z koperty polskiej i przełoży do amerykańskiej, prześle do adresata.
+
+Dokładnie to samo robimy w świecie wirtualnym. Znajdujemy pośrednika, który przekazuje informacje od nas ze swoim IP. 
+
+W świecie komputerów takiego pośrednika nazywamy *serwerem proxy*.  
+Oprócz tego może słyszeliście o czymś takim jak VPN? Zasadniczo VPN to _proxy_ z odrobiną bajerów. Jeszcze je kiedyś omówię dokładniej.  
+Póki co pamiętajmy: **dopóki mowa _wyłącznie_ o maskowaniu adresu IP, to VPN i _proxy_ są dokładnie tym samym**.
+
+Druga próba!
+
+{:.bigspace}
+<img src="/assets/posts/adres-ip/3-netflix-atak.webp" alt="Dwa przerobione panele z mangi. Na pierwszym widać postać z logo Netflixa zamiast głowy i mniejszą postać, która pędzi ku niej, mając za plecami flagę Unii Europejskiej. Na drugim panelu widać rzut z lotu ptaka, na którym biegnąca postać nagle zmienia kierunek (obok dymku 'IP z EU', odbija się od flagi USA (obok dymku 'IP z USA') i biegnie w stronę postaci-Netflixa."/>
+
+{% include info.html type="Ciekawostka" text="Słowo *proxy* wydaje się dość egzotyczne, bo ma korzenie łacińskie. Ale [dosłownie oznacza pośrednika](https://www.etymonline.com/word/proxy). W języku angielskim to pojęcie ogólniejsze, niekoniecznie informatyczne. Określa się nim m.in. przedstawiciela prawnego." %}
+
+Czasem, mimo użycia pośrednika, można jednak się naciąć. Z jakiegoś powodu Netflix rozpoznał, że próbujemy się przemknąć.
+
+{:.bigspace}
+<img src="/assets/posts/adres-ip/4-netflix-kontra.webp" alt="Panel z mangi pokazujący, jak postać symbolizująca Netflixa zadaje mniejszej postaci-użytkownikowi dwa szybkie ciosy. W tle znajduje się komunikat mówiący, że wykryto korzystanie z serwera proxy."/>
+
+Jak to robią? Otóż pula adresów IP jest ograniczona. Nawet największym potentatom w maskowaniu IP kiedyś się wyczerpią.
+
+Korporacje mogą śledzić, z jakich adresów IP logują się odwiedzający. Zorientować się, że z pewnych adresów korzysta wiele różnych kont. I dodać takie adresy na czarną listę.
+
+Kiedy potem przyjdą wymuskani kontrolerzy z Hollywood i zapytają Netflixa: „Jak tam zgodność z naszą umową? Nie obejrzą tego filmu Polaki-biedaki bez licencji?”, to Netflix może odpowiedzieć:
+„Wszystko zgodne, blokujemy ich! Przelew prosim”.
+
+Na szczęście firmom nie zawsze się opłaca wojna totalna z „ukrywaczami IP”.  
+Jeśli będą zbyt zajadle blokować i przypadkiem nie przepuszczą potencjalnych klientów, to stracą.
+
+Dlatego dobór pośrednika jest kluczowy -- powinien być na tyle duży, żeby mieć rezerwy na wypadek blokowania... albo na tyle mały, żeby Netflix go przeoczył.
+
+## Zmiana IP w praktyce
+
+Skoro liznęliśmy trochę teorii, to czas na praktyczny przykład.
+
+Nie wezmę do niego Netflixa, bo to akurat grubszy zwierz. Za dużo czynników może mieć wpływ na to, czy ominiemy blokadę.  
+Zamiast tego spójrzmy na inną, drobniejszą stronę -- amerykańską gazetę *[Orlando Sentinel](https://www.tribpub.com/gdpr/orlandosentinel.com/)*.
+
+Jeśli spróbujemy ją odwiedzić z polskiego IP, zobaczymy taki komunikat:
+
+{:.figure}
+<img src="/assets/posts/adres-ip/orlando-sentinel-blokada.webp" alt="Komunikat mówiący, że strona jest niedostępna z naszego regionu i że nad tym pracują." width="500px"/>
+
+{:.figcaption}
+Źródło: [Orlando Sentinel](https://www.orlandosentinel.com), gdy mamy europejskie IP.
+
+Oczywiście “*We continue to identify...*” trwa już od lat :wink:
+
+Dlaczego strona nie wpuszcza Europejczyków?  
+Bo w Europie wprowadzono GDPR (u nas znane jako RODO), przepisy regulujące przetwarzanie danych osobowych. Firmy w USA często są maksymalnie wścibskie i opierają swoją działalność na reklamach śledzących.
+
+Żeby nie dostać kary, **niektórzy właściciele stronek z USA całkiem zablokowali Europę**. Pewnie i tak nic im nie groziło, ale w krainie pozwów ludzie są wyczuleni. 
+
+No ale nie będzie nam Wujek Sam mówił, jak mamy żyć! Mój tajemniczy kolega sprawdził kilka prostych sposobów na ominięcie blokady.
+
+# VPN zintegrowany z Operą
+
+Przeglądarka Opera ma bardzo przyjazną opcję łączenia się przez VPN.
+
+Zagram w otwarte karty -- ten VPN jest bardzo nisko oceniany, ma miejsce 76 na 78 na [jednej stronce porównującej](https://thebestvpn.com/reviews/opera-vpn/).
+
+...Tylko że największą krytykę zbiera za brak bajerów, szyfrowania, mało regionów do wyboru:
+
+> And to top it all off, it’s not even a VPN.  
+It’s a proxy misrepresenting itself.  
+Which means there is no encryption, no tunneling, no protection, and no device support.
+
+Ale my tu chcemy go użyć **tylko do ukrycia europejskiego IP**. I niczego więcej.  
+Póki ta funkcja działa, niska ocena nie stanowi przeszkody.
+
+Poza tym ten VPN jest darmowy i bardzo prosty w obsłudze. Dlatego to właśnie jego kolega wziął na pierwszy ogień.
+
+Aby użyć VPN-a, najpierw pobieramy Operę [z oficjalnej strony](https://www.opera.com/pl). Instalujemy jak każdy inny program.  
+Potem wchodzimy w ustawienia Opery i tam zaznaczamy odpowiednią opcję.
+
+{:.figure .bigspace}
+<img src="/assets/posts/adres-ip/opera-vpn-switch.webp" alt="Zrzut ekranu pokazujący przełącznik w opcjach Opery, uruchamiający VPN-a."/>
+
+Od teraz w górnej części ekranu, na lewo od paska, zobaczymy ikonę z napisem *VPN*.  
+Po kliknięciu w nią najpierw wybieramy opcję u góry, żeby naszego VPN-a włączyć (ikonka przyjmie niebieski kolor).  
+Poza tym z listy rejonów na dole wybieramy ten, który nam pasuje. **W tym przykładzie obie Ameryki**.
+
+{:.figure .bigspace}
+<img src="/assets/posts/adres-ip/opera-vpn-wlaczanie.webp" alt="Zrzut ekranu z Opery pokazujący opcje VPN-a. Zaznaczono pierwszy suwak u góry, który pozwala go włączyć. A także opcje z dołu, umożliwiające wybór rejonu."/>
+
+Dla pewności możemy jeszcze sprawdzić na jakiejś stronce, takiej jak [IPlocation](https://iplocation.com/), czy wykrywa nam lokalizację gdzieś w USA.
+
+Jeśli z naszym nowym IP spróbujemy odwiedzić Orlando Sentinel, to zamiast komunikatu dla europejskich biedaków zobaczymy sam portal.  
+Taki ładny, *'merykański* :metal:
+
+{:.figure}
+<img src="/assets/posts/adres-ip/orlando-sentinel-opera.webp" alt="Zrzut ekranu pokazujący górną część strony Orlando Sentinel, otwartą w Operze."/>
+
+{:.figcaption}
+*We are living in America!*
+
+Na pytanie, czy warto było (szaleć tak), musimy odpowiedzieć sobie sami.
+
+# Tor Browser
+
+Jeśli regiony oferowane przez Operę są dla nas zbyt ogólne, kolejną możliwością jest Tor Browser (przeglądarka oparta na Firefoksie).
+
+To rozwiązanie nieco bardziej pracochłonne niż poprzednie (bo wymaga dopisania jednej linijki w jednym pliku). Ale daje dużo więcej możliwości.
+
+Tor, czyli skrót od *The Onion Router*. Cebulowy router. Nazwa zobowiązuje, bo jest całkiem darmowy.
+
+Tor to właściwie cały protokół, metoda działania. Jego główną siłą jest specjalny sposób, w jaki łączy się z siecią. Robi to z grubsza przez puszczanie danych przez losowe serwery, żeby utrudnić wykrycie ich źródła.
+
+Efekt uboczny? **Kończymy z innym IP niż na początku**. Na razie wykorzystamy tylko tę właściwość, a w przyszłości Tor otrzyma dokładniejszy wpis. Zasłużył.
+
+Pobieramy Tora [z oficjalnej strony](https://www.torproject.org/) i instalujemy jak każdy inny program. Uruchamiamy.
+
+{:.figure .bigspace}
+<img src="/assets/posts/adres-ip/tor-welcome.webp" alt="Zrzut ekranu pokazujący uruchamiającego się Tora."/>
+
+Przy każdym uruchomieniu Tor daje nam inną „tożsamość”, czyli m.in. przydziela losowy adres IP z puli. Aby wymusić nowe losowanie, możemy kliknąć ikonę w górnym prawym rogu.
+
+Mój kolega trafił jednak na problem! Losując dla siebie adresy IP, cały czas dostawał europejskie.  
+W innym wypadku by mu to nie przeszkadzało, ale tym razem całą Europę blokowało.
+
+Żeby uniknąć tego problemu, można **wymusić dobór serwerów końcowych (a więc IP) z konkretnego kraju**.
+
+W tym celu musimy choć raz uruchomić Tora (żeby stworzył sobie foldery).  
+Następnie znajdujemy w jego folderach plik o nazwie *torrc*. Według [oficjalnej strony](https://support.torproject.org/tbb/tbb-editing-torrc/) powinien być w takich miejscach:
+
+* Na Windowsie i Linuksie: `Browser/TorBrowser/Data/Tor`.
+* Na MacOS: `~/Library/Application Support/TorBrowser-Data/Tor`  
+  (przy czym folder *Library* jest ukryty).
+
+Otwieramy plik *torrc* w zwykłym notatniku i wklejamy na dole linijkę:
+
+<div class="black-bg mono">ExitNodes {us} StrictNodes 1</div>
+
+...Po czym zapisujemy zmiany.
+
+Cały proces, razem z listą kodów dla różnych krajów, opisano również [w tym zarchiwizowanym wpisie](https://web.archive.org/web/20180328074444/http://www.b3rn3d.com/blog/2014/03/05/tor-country-codes/).
+
+Czy to działa? Jeszcze jak!
+
+{:.figure}
+<img src="/assets/posts/adres-ip/orlando-sentinel-tor.webp" alt="Zrzut ekranu pokazujący stronę Orlando Sentinel otwartą w przeglądarce Tor Browser."/>
+
+{:.figcaption}
+*Orlando Sentinel* odwiedzony przez Tora z amerykańskim IP
+
+{% include info.html type="Uwaga" text="Losowość jest siłą Tora. Robiąc tę zmianę, którą tu opisałem, ograniczamy się do serwerów z USA, więc nieco osłabiamy swoją ochronę.  
+Dlatego, jeśli kiedykolwiek będziecie chcieli użyć Tora do zyskania anonimowości, to pamiętajcie o usunięciu tej jednej linijki (dla pewności możecie to zrobić od razu po użyciu, żeby nie zapomnieć)." %}
+
+Przeglądanie z Torem ma parę wad:
+
+* Wszystko w nim działa wolniej.
+
+  Nic dziwnego, bo ruch musi przejść przez wiele serwerów. Zwykłe przeglądanie działa, ale bez mocnego internetu raczej nie postreamujemy filmów.
+
+* Niektóre strony już poznały pulę serwerów Tora i je blokują.
+* ...A niektóre z góry zakładają, że *Tor = hakerzy* i rzucają kłody pod nogi (Captche, dodatkowa weryfikacja itp.).
+
+# Inne VPN-y
+
+Jeśli mały wybór regionów u Opery albo powolność Tora są dla Was przeszkodą, to pozostają popularniejsze VPN-y.
+
+Zastanawiałem się, czy w ogóle o nich wspomnieć.
+
+Przede wszystkim VPN-y zasługują na osobny wpis, i to nie całkiem pozytywny.  
+Obecnie przeszły do mainstreamu, a **ich reklamy potrafią robić wodę z mózgu i obiecywać niestworzone rzeczy**. Sugerując m.in. że chronią przed jakimiś hakerami.
+
+Fajną, rzeczową krytykę z nutą parodii znajdziecie np. [w tym filmiku](https://www.youtube.com/watch?v=WVDQEoe6ZWY). Albo w [tym wpisie](https://gist.github.com/joepie91/5a9909939e6ce7d09e29).
+
+Poza tym wśród dostawców VPN-ów nie brak szemranych firm, czasem oferujących własne aplikacje. A te potrafią być poziom wyżej w zbieraniu danych niż metody z „Internetowej inwigilacji”.
+
+Na szczęście **jeśli chodzi nam tylko o zmianę IP, możemy wybrać dowolnego VPN-a**. Jakiego tylko chcemy. Płatne, darmowe... Obojętne! Byle nie wymagały instalowania czegoś podejrzanego.
+
+Nie będę polecał niczego konkretnego, żeby Was w coś nie wkopać.  
+Jeśli naprawdę nie pasuje Wam ani Opera, ani Tor, to poszukajcie na własną rękę. Na przykład na podforum o prywatności na Reddicie albo na HackerNews. Tam jest sporo faktów i szczerych opinii.
+
+Subiektywna rada: jak duża by nie była pokusa i wygoda, **nie wierzcie VPN-om i nie róbcie z nich stałych lokatorów**. Używajcie ich jak narzędzi. Tylko wtedy, kiedy trzeba zmienić IP.
+
+## Podsumowanie
+
+Powoli kończymy omawiać informacje wysyłane domyślnie przez przeglądarkę. Jeśli śledziliście poprzednie wpisy, to widzicie że:
+
+* Był *referer*, *user agent* i parametry w linkach.  
+  Rzeczy mogące zdradzać o nas ciekawe rzeczy. Ale często łatwe do zmiany.
+* Teraz był adres IP. Trudniejszy do zmiany, ale sam w sobie nie mówiący zbyt wiele.
+
+Na deser zostały nam *pliki cookies*. Identyfikujące nas jednoznacznie i przypisane do różnych naszych kont.
+
+To taki odpowiednik identyfikatora noszonego na smyczce (w korpojęzyku: *badge'a*).  
+Z nimi to dopiero można robić cuda inwigilacji! Zresztą sami zobaczycie w kolejnym wpisie.

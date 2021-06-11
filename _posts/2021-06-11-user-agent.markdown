@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  "Internetowa inwigilacja 4 – User Agent"
+title:  "Internetowa inwigilacja 5 – User Agent"
 subtitle: "„Kim jesteś?”"
 date:   2021-06-11 01:13:00 +0100
 tags: [Internet, Inwigilacja, Porady]
 firmy: [Facebook, Google, Microsoft, Reddit]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
+image: "user-agent/user-agent-baner.jpg"
+image-width: 1600
+image-height: 900
 ---
 
 Zdarzyło Wam się, że jakaś strona rozpoznała Wasze urządzenie? Albo nawet utrudniła Wam życie, bo coś jej w&nbsp;nim nie pasowało?
@@ -252,9 +255,9 @@ A jeśli nie boimy się bardziej niszowych rzeczy -- jest *[Ungoogled Chromium](
 Tutaj nie ma zastosowania porada „po prostu miej wiele przeglądarek”.  
 Niestety nie da się łatwo zainstalować wersji komputerowej na telefonie.
 
-Na szczęście rozwiązanie może być proste -- **niektóre przeglądarki same umożliwiają łatwą zmianę**.  
-Na Androidzie taką funkcję ma na przykład Firefox (w&nbsp;wersji Focus i&nbsp;zwykłej).
+Na szczęście rozwiązanie może być proste -- **niektóre przeglądarki same umożliwiają łatwą zmianę**.
 
+Na Androidzie taką funkcję ma na przykład Firefox (w&nbsp;wersji Focus i&nbsp;zwykłej).  
 W każdej z&nbsp;nich można kliknąć ikonę ustawień w&nbsp;prawym górnym rogu i&nbsp;zaznaczyć tam opcję „Wersja na komputery”:
 
 {:.figure .bigspace}
@@ -264,7 +267,7 @@ Za kulisami nasza przeglądarka będzie wysyłała lekko zmienionego *user agent
 
 Czyli, w&nbsp;przypadku Messengera, zobaczymy ekran logowania zamiast przycisku odsyłającego do apki. Możemy przeglądać wiadomości, nie oddając się w&nbsp;całości Fejsowi :metal:
 
-Wada: w&nbsp;tej wersji strony mogą być nieco cięższe, wolniejsze i&nbsp;niedopasowane do rozmiaru ekranu. Wyświetlając taką wersję, liczmy się z&nbsp;koniecznością częstego przewijania i&nbsp;przybliżania ekranu.
+Wada: w&nbsp;tej wersji strony mogą być nieco cięższe, wolniejsze i&nbsp;niedopasowane do rozmiaru ekranu. Wyświetlając je, liczmy się z&nbsp;koniecznością częstego przewijania i&nbsp;przybliżania ekranu.
 
 # Ogólne rozwiązanie
 
@@ -274,12 +277,12 @@ Przykładem jest sytuacja, gdy nie jesteśmy w stanie zainstalować wymaganej pr
 
 Może np. chcemy odwiedzić stronę wpuszczającą tylko ludzi z&nbsp;przeglądarką Safari. A&nbsp;to program od Apple. Działa na ich sprzęcie, ale na innych systemach operacyjnych łatwo jej nie odpalimy.
 
-Inny przykład: strona nie działa na jednej przeglądarce. A&nbsp;ta, na której działa, nie ma przydatnych funkcji.
+Inny przykład: chcemy używać konkretnej przeglądarki, bo lubimy jej funkcje. Ale strona jej nie wpuszcza.
 
 Sam tego doświadczyłem w&nbsp;pracy. Nie wchodząc w&nbsp;szczegóły: potrzebowałem możliwości łatwego robienia długich screenów i&nbsp;otwierania ramek (*iframe*) w&nbsp;osobnych oknach.  
 Dałby mi to Firefox, ale strona przepuszczała tylko Chromium, dużo uboższe pod tym względem. 
 
-W każdym razie, jeśli już nam się coś takiego zdarzy, możemy użyć dodatku do przeglądarki.
+Jeśli znajdziemy się w takich sytuacjach i&nbsp;musimy zmienić UA, możemy użyć dodatku do przeglądarki.
 
 {% include web-extension.html firefox="<p>Sprawdza się tutaj <a href='https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/'>User Agent Switcher</a>.</p>"
 chrome="<p>Również <a href='https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg'>User Agent Switcher</a>.</p>"
