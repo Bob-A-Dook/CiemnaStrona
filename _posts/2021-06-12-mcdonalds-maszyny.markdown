@@ -30,7 +30,7 @@ Najpierw pewna rzecz kluczowa do zrozumienia tego wpisu -- **McDonald's działa 
 Co to w&nbsp;praktyce oznacza? Że wiele restauracji McD należy do prywatnych właścicieli (tzw. *franczyzobiorców*), którzy [zawarli umowy z&nbsp;centralą](https://mcdonalds.pl/o-mcdonalds/zasady/).
 
 Nieruchomości należą do McDonald's, a&nbsp;franczyzobiorca nimi zarządza.  
-**Wiele rzeczy jest narzuconych odgórnie przez centralę**. Wystrój restauracji, procedury, dostawcy składników, mble, ubiór pracowników... Można korzystać tylko z&nbsp;usług firm namaszczonych przez McD.
+**Wiele rzeczy jest narzuconych odgórnie przez centralę**. Wystrój restauracji, procedury, dostawcy składników, meble, ubiór pracowników... Można korzystać tylko z&nbsp;usług firm namaszczonych przez McD.
 
 Gdyby franczyzobiorca próbował się wyłamać i&nbsp;na przykład zamawiać mundurki dla pracowników od innej zaufanej firmy, to zapewne McD za karę rozwiąże z&nbsp;nim umowę.
 
@@ -220,7 +220,7 @@ Monopol wygrał tę bitwę.
 ## Podsumowanie
 
 Czy sprawa z&nbsp;maszynami Taylora dotyczy Polski? Niestety nie mam wiedzy w&nbsp;tej kwestii.  
-Jeśli wierzyć komentarzom, to mamy nieco inną sytuację:
+Jeśli wierzyć paru komentarzom, mamy nieco inną sytuację:
 
 {%include comment.html source="wykop" text="
 nic dziwnego, że nie trafiłeś. W&nbsp;USA maszyny do lodów są firmy TAYLOR ,natomiast w&nbsp;Polsce - Franke.
@@ -232,7 +232,7 @@ nic dziwnego, że nie trafiłeś. W&nbsp;USA maszyny do lodów są firmy TAYLOR 
 
 Natomiast i&nbsp;tak warto na nią patrzeć i&nbsp;wyciągać wnioski. Ta aferka to taki kolejny przykład cyfrowego (cyfrowo-analogowego?) feudalizmu. Na pewno podobne historie są wszędzie wokół nas.
 
-Większy gracz oferuje współpracę, ale **narzuca dostawców, wyznacza konkretne reguły, podsuwa swoich znajomków**. Władza jest scentralizowana w&nbsp;jego rękach, a&nbsp;franczyzobiorcy są słabszą stroną.
+Większy gracz oferuje współpracę, ale **narzuca dostawców, wyznacza reguły, podsuwa swoich znajomków**. Władza jest scentralizowana w&nbsp;jego rękach, a&nbsp;franczyzobiorcy są słabszą stroną.
 
 Postawię tu małego chochoła -- młodego gniewnego, który gdzieś usłyszał o&nbsp;pojęciu wolnego rynku, ale niekoniecznie je zrozumiał.  
 Ktoś taki mógłby mówić: „Skoro tak się stało, to widocznie tak jest dobrze!”. „Widocznie rynek tak chciał!”.
