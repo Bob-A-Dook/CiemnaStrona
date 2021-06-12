@@ -199,7 +199,9 @@ Produkt zyskał powszechną akceptację, kilkuset klientów wśród franczyzobio
 
 Ale Taylorowi się to nie spodobało. Całą sprawę dokładniej opisuje [artykuł z&nbsp;Wired](https://www.wired.com/story/they-hacked-mcdonalds-ice-cream-makers-started-cold-war/).
 
-Kytch działał tylko z&nbsp;maszynami Taylora, więc twórcy starali się go sprzedawać tylko zweryfikowanym restauracjom McD. Zauważyli jednak parę podejrzanych prób kupna -- raz od kancelarii adwokackiej, innym razem od prywatnej firmy.
+Kytch działał tylko z&nbsp;maszynami Taylora, więc twórcy starali się go sprzedawać tylko zweryfikowanym restauracjom McD.
+
+Zauważyli jednak parę podejrzanych prób kupna -- raz od osoby wysoko postawionej w&nbsp;Taylorze, później od ich kancelarii adwokackiej, innym razem od firmy zajmującej się własnością intelektualną.
 
 Ich wniosek: ktoś (zapewne Taylor) chciał przeanalizować ich produkt. Może w&nbsp;celu uderzenia w&nbsp;nich pozwem?  
 A może w&nbsp;celu podrobienia?
@@ -209,7 +211,7 @@ W listopadzie 2020 r. przyszedł grom z&nbsp;jasnego nieba. McDonald's rozesła�
 Była tam formułka o&nbsp;względach bezpieczeństwa -- używając zewnętrznej aplikacji, ktoś mógłby sterować maszyną w&nbsp;niebezpieczny sposób.  
 Tylko że Kytch z&nbsp;założenia miał być tylko czujnikiem. Dającym statystyki, a&nbsp;nie kontrolę.
 
-Co gorsza, w&nbsp;tym samym mailu McD **zareklamował produkt działający dokładnie jak Kytch. Opracowany przez Taylora**.
+Co gorsza, dzień później McD **zareklamował produkt działający dokładnie jak Kytch. Opracowany przez Taylora**.
 
 Tą jedną decyzją zabili plany firmy Kytch. A&nbsp;buntowniczy właściciele McDonaldów stracili okruch niezależności i&nbsp;wrócili w&nbsp;łapy Taylora.
 
