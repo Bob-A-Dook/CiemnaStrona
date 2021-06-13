@@ -23,6 +23,9 @@ U mnie będzie o&nbsp;czymś innym. Nowszej i&nbsp;mniej znanej „aferze lodowe
 
 Dotyka ona głównie McDonaldów w&nbsp;USA. I&nbsp;doskonale pokazuje, w&nbsp;jaki sposób centralizacja pozwala dogadanym ze sobą gigantom doić mniejsze firmy.
 
+{:.post-meta}
+Jeśli chcecie przeskoczyć wstęp i przejść od razu do afery, to jest [tutaj](#ujawnienie-monopolu).
+
 ## Jak działa McDonald's
 
 Najpierw pewna rzecz kluczowa do zrozumienia tego wpisu -- **McDonald's działa na zasadzie franczyzy**.
@@ -113,11 +116,11 @@ Nazwa łudząco podobna do tego poprzedniego, od Mashed. Czyżby celowy ukłon? 
 
 Mimo podobnych tytułów filmiki dzieli kilka rzeczy. Ten od Harrisa trwa 10 razy dłużej. Jest w&nbsp;nim mniej radosnych melodyjek, a&nbsp;dużo więcej faktów. 
 
-Co się okazuje? Otóż **Taylorowi jest na rękę, żeby maszyny się psuły. A&nbsp;dzięki centrali McDonald's ma monopol na serwis**.
+Co się okazuje? Otóż **firmie Taylor jest na rękę, żeby maszyny się psuły. A&nbsp;wymagania centrali McDonald's zapewniają im monopol na serwis**.
 
 # Dlaczego im to na rękę?
 
-Właścicieli restauracji w&nbsp;USA wiąże ścisła umowa z&nbsp;centralą McD. Muszą używać maszyn od Taylora.
+Właścicieli restauracji McD w&nbsp;USA wiąże ścisła umowa z&nbsp;centralą. Muszą używać maszyn od Taylora.
 
 Jeśli taka maszyna wymaga serwisu, to muszą się zwrócić do techników namaszczonych przez Taylora. Zwróciliby się do kogoś innego? Stracą gwarancję na drogą maszynę. Albo jeszcze gorzej -- jeśli McD uzna to za naruszenie umowy, to może ją zerwać.  
 Pozostanie bieda i&nbsp;solenie ziemniaków łzami.
@@ -127,7 +130,7 @@ Według [filmiku](https://youtu.be/SrDEtSlqJC4?t=869) wezwanie technika kosztuje
 Jak to wygląda w&nbsp;skali całego Taylora? Filmik [pokazuje](https://youtu.be/SrDEtSlqJC4?t=948), że wprost chwalą się tym, że około 25% ich przychodów pochodzi z&nbsp;regularnego serwisowania maszyn i&nbsp;sprzedaży części.
 
 Dla takich firm jak Taylor przewidywalność jest dobra. Atrakcyjna dla inwestorów.  
-Maszyny czasem się sprzedają, czasem nie. Oferowanie serwisu pozwala wyciskać z&nbsp;nich więcej kasy już po sprzedaży.
+Maszyny czasem się sprzedają, czasem nie. Zaś oferowanie serwisu pozwala wyciskać z&nbsp;nich więcej kasy już po sprzedaży.
 
 A jeśli mają na ten serwis monopol, tak jak dzięki współpracy z&nbsp;McD? To już ideał.
 
@@ -149,16 +152,18 @@ Na ich drodze do samodzielnej naprawy stoją:
 <img src="/assets/posts/mcdonald-lody/taylor-komunikaty.webp" alt="Kolaż pokazujący dwa niezrozumiałe komunikaty wyświetlane na maszynie Taylora, a&nbsp;pod spodem zdjęcie instrukcji, na którym zakreślone trzy przypadki, kiedy każe dzwonić po technika." width="600px"/>
 
 {:.figcaption}
-Ciężkie życie właściciela maszyny do lodów.
+Ciężkie życie właściciela maszyny do lodów.  
+Źródło: [filmik Harrisa](https://youtu.be/SrDEtSlqJC4).
 
 Przykładowa sytuacja: zbyt duża ilość śmietanki w&nbsp;zbiorniku. Ale pracownik widzi tylko `Error`.  
 Zgłasza sprawę kierownikowi, ten każe odpalić maszynę ponownie. Oczywiście bez skutku.  
 Co robimy? Dzwońmy po technika.
 
-Co więcej, występuje tutaj *asymetria informacji* -- technicy Taylora mają do dyspozycji **osobne, dużo praktyczniejsze instrukcje i&nbsp;ukryte menu**.
+Oprócz niejasnych komunikatów występuje tu *asymetria informacji* -- technicy Taylora mają do dyspozycji **osobne, dużo praktyczniejsze instrukcje i&nbsp;ukryte menu**.
 
 Instrukcje są do tego stopnia osobne, że mają na pierwszych stronach tekst:
 
+{:.bigspace}
 > Information in this manual is intended to be used by Taylor Authorized Service Technicians only.
 
 A menu do tego stopnia ukryte, że nawet [zamazali na filmiku kod pozwalający je włączyć](https://youtu.be/SrDEtSlqJC4?t=1148).
@@ -183,7 +188,7 @@ Filmik zniknął. A&nbsp;Andrzej, zapytany o&nbsp;całą sprawę, odpisał:
 
 Gdzie pojawia się potrzeba, tam może narodzić się produkt.
 
-Jeremy O'Sullivan i&nbsp;Melissa Nelson dostrzegli taką potrzebę, widząc problemy pracowników i&nbsp;właścicieli restauracji McD z&nbsp;maszynami Taylora.
+Jeremy O'Sullivan i&nbsp;Melissa Nelson dostrzegli taką potrzebę, widząc problemy pracowników i&nbsp;franczyzobiorców z&nbsp;maszynami Taylora.
 
 Para stworzyła zatem urządzenie nazwane Kytch. Gadżet, który można podłączyć do maszyn Taylora.  
 A ten wtedy przetwarza dane i&nbsp;pokazuje je w&nbsp;bardziej czytelny sposób. Oszczędzając właścicielom restauracji ciągłego wzywania serwisantów.
@@ -195,7 +200,7 @@ A ten wtedy przetwarza dane i&nbsp;pokazuje je w&nbsp;bardziej czytelny sposób.
 Kytch pokazywał bardziej zrozumiały komunikat -- maszyna przepełniona.  
 Źródło: [filmik Harrisa](https://youtu.be/SrDEtSlqJC4?t=1441).
 
-Produkt zyskał powszechną akceptację, kilkuset klientów wśród franczyzobiorców McDonalda. Ludzie z&nbsp;McD też nie wydawali się nastawieni negatywnie.
+Produkt zyskał powszechną akceptację, kilkuset klientów wśród franczyzobiorców McDonalda. Ludzie z&nbsp;centrali też nie wydawali się nastawieni negatywnie.
 
 Ale Taylorowi się to nie spodobało. Całą sprawę dokładniej opisuje [artykuł z&nbsp;Wired](https://www.wired.com/story/they-hacked-mcdonalds-ice-cream-makers-started-cold-war/).
 
@@ -238,10 +243,10 @@ Postawię tu małego chochoła -- młodego gniewnego, który gdzieś usłyszał 
 Ktoś taki mógłby mówić: „Skoro tak się stało, to widocznie tak jest dobrze!”. „Widocznie rynek tak chciał!”.
 
 Tylko że w&nbsp;tej historii wolnym rynkiem byłaby krytyka klientów w&nbsp;mediach społecznościowych.  
-Albo popyt klientów na stronkę do sprawdzania dostępności lodów.  
-Albo niezależne urządzenie pozwalające samodzielnie naprawić maszyny.
+Albo popyt na stronkę do sprawdzania dostępności lodów.  
+I na urządzenie pozwalające samodzielnie naprawić maszyny.
 
-Wszystkie te rzeczy zostały (w sposób autorytarny) zignorowane, zakazane albo skopiowane przez duet McDonald's i&nbsp;Taylor.
+Wszystkie te rzeczy zostały (w sposób dość dyktatorski) zignorowane, zakazane albo skopiowane przez duet McDonald's i&nbsp;Taylor.
 
 Ten pierwszy już jest ustawiony, nie obchodzi go czy klienci dostaną lody.  
 Ten drugi zarobi tym więcej, im bardziej zepsute będą maszyny.  
