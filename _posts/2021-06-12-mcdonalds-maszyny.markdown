@@ -254,6 +254,7 @@ Więcej wolności widziałbym w&nbsp;walce z&nbsp;takimi układami niż w&nbsp;p
 
 I jeszcze jeden przytyk. Do tamtego nieszczęsnego komentarza o&nbsp;aplikacji pokazującej zepsute maszyny:
 
+{:.bigspace}
 > jaki faktyczny pozytyw jast z&nbsp;tej aplikacji bo nie rozumiem (...)  
 chlopie opowiedz o&nbsp;tym psychologowi. zaufaj mi to nie jest normalne!
 

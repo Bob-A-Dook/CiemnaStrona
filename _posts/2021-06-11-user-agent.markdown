@@ -267,7 +267,7 @@ Za kulisami nasza przeglądarka będzie wysyłała lekko zmienionego *user agent
 
 Czyli, w&nbsp;przypadku Messengera, zobaczymy ekran logowania zamiast przycisku odsyłającego do apki. Możemy przeglądać wiadomości, nie oddając się w&nbsp;całości Fejsowi :metal:
 
-Wada: w&nbsp;tej wersji strony mogą być nieco cięższe, wolniejsze i&nbsp;niedopasowane do rozmiaru ekranu. Wyświetlając je, liczmy się z&nbsp;koniecznością częstego przewijania i&nbsp;przybliżania ekranu.
+Wada: w&nbsp;tej wersji strony mogą być nieco cięższe, wolniejsze i&nbsp;niedopasowane do rozmiaru ekranu. Wyświetlając je, liczmy się z&nbsp;koniecznością częstego przewijania i&nbsp;przybliżania obrazu.
 
 # Ogólne rozwiązanie
 
