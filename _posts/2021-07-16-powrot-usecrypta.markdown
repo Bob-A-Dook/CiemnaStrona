@@ -23,7 +23,7 @@ Czas na rundę drugą!
 # Streszczenie poprzedniego wpisu
 
 Na rynku pojawił się UseCrypt Messenger. Komunikator reklamowany jako bezpieczna alternatywa dla Signala, facebookowego Messengera czy WhatsAppa.  
-W telewizji chwalił go **Patryk Vega**. Mówiono że inwestuje w&nbsp;niego izraelsko-amerykański fundusz, **Lazar Vision Fund**.
+W telewizji chwalił go **Patryk Vega** ([filmik](https://www.youtube.com/watch?v=5L1wT2yE2dc)). Mówiono że inwestuje w&nbsp;niego izraelsko-amerykański fundusz, **Lazar Vision Fund**.
 
 Ale trzy portale o&nbsp;cyberbezpieczeństwie (*Niebezpiecznik*, *Zaufana Trzecia Strona*, *Informatyk Zakładowy*) studziły zapał, punktując różne słabości UseCrypta. 
 
@@ -289,7 +289,7 @@ Uff, dużo tego! Patrząc na wykresy i całą historię, można dostrzec kilka r
 
 Po pierwsze: losy Pawła M., Jakuba K. i&nbsp;Jacka K. często się przeplatają. Ale to już wiemy.
 
-Po drugie: **Lazar Vision Fund (LP) działał już w&nbsp;2019 roku, sporo przed głośną reklamą Vegi, na poziomie lokalnym** (tzn. obejmując rolę wspólnika w istniejących wcześniej spółkach z o.o; w&nbsp;tym co najmniej dwóch niebędących UseCryptem).
+Po drugie: **Lazar Vision Fund (LP) działał już w&nbsp;2019 roku, prawie 2&nbsp;lata przed filmikiem Vegi o&nbsp;UC, na poziomie lokalnym** (tzn. obejmując rolę wspólnika w istniejących wcześniej spółkach z o.o; w&nbsp;tym co najmniej dwóch niebędących UseCryptem).
 
 W maju 2019, zgodnie z artykułem z BJ (przypomnę: [tym](https://businessjournal.pl/polska-traci-jednorozca-bo-polscy-inwestorzy-sie-boja/)), mieli startować z globalną ekspansją.  
 Mimo to trzeba było czekać prawie rok, do maja 2020 r., aż powstanie Lazar Vision Fund Sp. z o.o. (czyżby polski oddział?). Również nie stworzono go od zera, tylko z istniejącej firmy.
@@ -406,9 +406,9 @@ A jeśli w&nbsp;międzyczasie pojawiła się jakaś dobra dusza, gotowa zainwest
 
 ## Bonus: o&nbsp;Yuvalu R. 
 
-Yuval R., syn premiera Izraela Icchaka Rabina, laureata pokojowej nagrody Nobla. Taką rekomendację dostał UseCrypt Messenger. Oprócz tego Yuvala widać w&nbsp;KRS-ie jako współwłaściciela Lazar Vision Fund, więc coś musi być na rzeczy.
+Yuval R., syn premiera Izraela Icchaka Rabina, laureata pokojowej nagrody Nobla. Według różnych artykułów i&nbsp;filmiku Vegi zainwestował w&nbsp;UseCrypt Messengera. Oprócz tego Yuvala widać w&nbsp;KRS-ie w radzie nadzorczej V440 (poprzednio Usecrypt S.A.), więc dane to potwierdzają.
 
-Tylko że, według [artykułu z&nbsp;izraelskiej gazety Haaretz](https://www.haaretz.com/israel-news/business/.premium-yuval-rabins-fall-from-grace-1.5364433) (po angielsku), tak solidne nazwisko nie dało Yuvalowi szczególnego powodzenia w&nbsp;interesach. 
+Tylko że, według [artykułu z&nbsp;izraelskiej gazety Haaretz](https://www.haaretz.com/israel-news/business/.premium-yuval-rabins-fall-from-grace-1.5364433) (po angielsku), solidne nazwisko nie dało Yuvalowi szczególnego powodzenia w&nbsp;interesach. 
 
 Według artykułu był zamieszany w&nbsp;konflikty rodzinne, rozwód, długi. Często dołączał do firm głównie jako twarz, syn byłego premiera:
 
