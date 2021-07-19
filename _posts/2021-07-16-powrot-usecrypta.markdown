@@ -198,7 +198,7 @@ Spółkom bliżej związanym z&nbsp;UseCryptem przyjrzałem się już poprzednio
 
 # Usecrypt USA
 
-UseCrypt powstał w&nbsp;Polsce. Ale w&nbsp;2019 roku zainteresował się nim fundusz amerykańsko-izraelski Lazar Vision Fund, a&nbsp;firma przeniosła się za granicę. Taka jest oficjalna wersja.
+UseCrypt powstał w&nbsp;Polsce. Ale w&nbsp;2019 roku zainteresował się nim fundusz amerykańsko-izraelski Lazar Vision Fund, a&nbsp;firma rozpoczęła ekspansję za granicę. Taka jest [oficjalna wersja](https://businessjournal.pl/polska-traci-jednorozca-bo-polscy-inwestorzy-sie-boja/).
 
 Tylko ciekawić może jedno. Idąc tropem jednego komentarza ze strony *nikodemus-klienci*, wszedłem w&nbsp;amerykańską wyszukiwarkę firm. A&nbsp;tam:
 
@@ -217,7 +217,7 @@ Spoglądając na informacje z&nbsp;KRS-u i&nbsp;opartych na nim stron (w szczeg�
 Przy tej firmie jest o&nbsp;tyle ciekawie, że tak naprawdę **są co najmniej trzy Largo Capitale**, zmieniające po drodze nazwy. Splatające się z&nbsp;historią Abbey House, Pawła M., Jakuba K., Lazar Vision Fund i&nbsp;ogólnie wszystkich ich firm, od początku aż do teraz.
 
 **Aktualizacja**: podobno obrazki mówią więcej niż tysiąc słów, więc opracowałem dane w&nbsp;formie wykresów. Każdy z&nbsp;nich pokazuje, jak zmieniała się nazwa spółki (pasek u góry) i&nbsp;jacy wchodzili w nią wspólnicy (dolny wykres).  
-Uwaga! Każdy z&nbsp;trzech głównych wykresów pokazuje dane dla innego przedział czasu.
+Uwaga! Każdy z&nbsp;trzech głównych wykresów pokazuje dane dla innego przedziału czasu.
 
 {%include info.html type="Porada" text="Obrazki są małe, ale jeśli klikniecie prawym przyciskiem i&nbsp;wybierzecie `Pokaż obraz`, to możecie je sprawdzić w pełnej rozdzielczości.  
 Poza tym zachęcam do zweryfikowania informacji! Podałem numery KRS dla każdej z&nbsp;firm z&nbsp;*serii Largo*. Możecie je wpisać [w wyszukiwarkę KRS](https://ekrs.ms.gov.pl/), a&nbsp;potem wejść w&nbsp;dane szczegółowe (dolny róg) i&nbsp;wybrać `Pobierz pełny odpis`."%}
