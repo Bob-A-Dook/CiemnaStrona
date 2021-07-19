@@ -289,9 +289,14 @@ Uff, dużo tego! Patrząc na wykresy i całą historię, można dostrzec kilka r
 
 Po pierwsze: losy Pawła M., Jakuba K. i&nbsp;Jacka K. często się przeplatają. Ale to już wiemy.
 
-Po drugie: **Lazar Vision Fund działał już w&nbsp;2019 roku, przed sprawą UseCrypt Messengera, na poziomie lokalnym**. Dlaczego dopiero rok później zrobiło się o&nbsp;nim głośno -- jako o&nbsp;inwestorze amerykańsko-izraelskim?
+Po drugie: **Lazar Vision Fund (LP) działał już w&nbsp;2019 roku, sporo przed głośną reklamą Vegi, na poziomie lokalnym** (tzn. obejmując rolę wspólnika w istniejących wcześniej spółkach z o.o; w&nbsp;tym co najmniej dwóch niebędących UseCryptem).
 
-Po trzecie: po wyszukaniu można zauważyć, że niektórzy wspólnicy w różnych odmianach Largo Capital to spółki założone na Cyprze:
+W maju 2019, zgodnie z artykułem z BJ (przypomnę: [tym](https://businessjournal.pl/polska-traci-jednorozca-bo-polscy-inwestorzy-sie-boja/)), mieli startować z globalną ekspansją.  
+Mimo to trzeba było czekać prawie rok, do maja 2020 r., aż powstanie Lazar Vision Fund Sp. z o.o. (czyżby polski oddział?). Również nie stworzono go od zera, tylko z istniejącej firmy.
+
+Z ciekawości sprawdziłbym, na ile częsty jest taki recykling spółek w świecie startupów i&nbsp;funduszy. Na moje amatorskie oko to dość... nietuzinkowe rozwiązanie.
+
+Po trzecie: po odrobinie wyszukiwania można odkryć, że niektórzy wspólnicy w&nbsp;różnych odmianach Largo Capital to spółki założone na Cyprze:
 
 {:.bigspace}
 <div class="black-bg mono">ARGOVEST HOLDINGS LIMITED; COSTANSIA SERVICES LIMITED; ERMITANO CAPITAL LIMITED</div>
