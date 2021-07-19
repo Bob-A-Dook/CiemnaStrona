@@ -214,52 +214,87 @@ Spoglądając na informacje z&nbsp;KRS-u i&nbsp;opartych na nim stron (w szczeg�
 
 # Largo Capital (obecnie Q220)
 
-Przy tej firmie jest o&nbsp;tyle ciekawie, że tak naprawdę **są co najmniej dwa Largo Capitale**, zmieniające po drodze nazwy. Splatające się z&nbsp;historią Abbey House, Pawła M., Jakuba K. i&nbsp;ogólnie wszystkich ich firm, od początku aż do teraz.
+Przy tej firmie jest o&nbsp;tyle ciekawie, że tak naprawdę **są co najmniej trzy Largo Capitale**, zmieniające po drodze nazwy. Splatające się z&nbsp;historią Abbey House, Pawła M., Jakuba K., Lazar Vision Fund i&nbsp;ogólnie wszystkich ich firm, od początku aż do teraz.
 
-Żeby było nieco łatwiej, stworzyłem listę w&nbsp;kolejności chronologicznej. Do tego jedno wcielenie nazywam LC1 i&nbsp;oznaczam kolorem domyślnym, a&nbsp;drugie LC2 i&nbsp;zapisuję kolorem czerwonym.
+**Aktualizacja**: podobno obrazki mówią więcej niż tysiąc słów, więc opracowałem dane w&nbsp;formie wykresów. Każdy z&nbsp;nich pokazuje, jak zmieniała się nazwa spółki (pasek u góry) i&nbsp;jacy wchodzili w nią wspólnicy (dolny wykres).  
+Uwaga! Każdy z&nbsp;trzech głównych wykresów pokazuje dane dla innego przedział czasu.
 
-Poza tym „wspólnikiem zostaje” oznacza w&nbsp;praktyce zmianę właściciela; bo zawsze po wejściu wspólnika wykreślano poprzedniego.
+{%include info.html type="Porada" text="Obrazki są małe, ale jeśli klikniecie prawym przyciskiem i&nbsp;wybierzecie `Pokaż obraz`, to możecie je sprawdzić w pełnej rozdzielczości.  
+Poza tym zachęcam do zweryfikowania informacji! Podałem numery KRS dla każdej z&nbsp;firm z&nbsp;*serii Largo*. Możecie je wpisać [w wyszukiwarkę KRS](https://ekrs.ms.gov.pl/), a&nbsp;potem wejść w&nbsp;dane szczegółowe (dolny róg) i&nbsp;wybrać `Pobierz pełny odpis`."%}
 
-A więc tak:
+Wykres dla pierwszego Largo (numer KRS 0000337116):
 
-* (LC1) 16.09.2009 r. -- zarejestrowana zostaje spółka *LARGO CAPITAL SPÓŁKA Z&nbsp;OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ*
-* *(LC2)*{:.red} 20.04.2012 r. zarejestrowana zostaje spółka *ABBEY ASSET MANAGEMENT SPÓŁKA Z&nbsp;OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ 3 SPÓŁKA KOMANDYTOWO-AKCYJNA*
+<img src="/assets/posts/usecrypt-dwa/lc1.webp" alt="Wykres pokazujący historię spółki, która zaczęła jako Largo Capital Sp. z o.o, a potem zmieniła nazwę na Q220. Widać, że w swojej historii miała 9 różnych wspólników. W 2016 roku jednym z nich na krótko została firma Barkeley Funds. We wrześniu 2019 r. Paweł M., prezes UseCrypta. Po nim, od kwietnia 2019 roku, była to firma Lazar Vision Fund Lp."/>
 
-  (wiem że to dwa różne rodzaje spółek; ale taka oficjalna nazwa w&nbsp;KRS, co poradzę :roll_eyes:).  
-  Ważne: **prezesem zarządu jest Jakub Jerzy K.**
+Dla drugiego (numer KRS 0000418572):
 
-* *(LC2)*{:.red} 22.08.2013 Jakub K. przestaje być prezesem.
+<img src="/assets/posts/usecrypt-dwa/lc2.webp" alt="Wykres pokazujący historię spółki nazwanej LC2, która zaczęła jako Abbey Asset Management, potem zmieniła nazwę na Dimerra Spółka z o.o spółka komandytowo-akcyjna, a potem na Largo Capital (UK) Limited spółka komandytowo-akcyjna. Przy każdej ze zmian zmieniał się też jedyny wspólnik, zawsze mający podobną nazwę do LC2."/>
 
-  Od tego czasu reprezentacja spółki zmienia się jeszcze kilka razy, ale nie pojawiają się znane nazwiska.
+I dla trzeciego (numer KRS 0000674581):
 
-* (LC1) 13.11.2014 -- prezesem zarządu zostaje **Jacek K.**
- 
-  W&nbsp;poprzednim wpisie o&nbsp;nim nie pisałem, bo nie było go przy UseCrypcie. Ale przy Abbey House i&nbsp;tych różnych finansowych pojawia się nieco częściej.
+<img src="/assets/posts/usecrypt-dwa/lc3.webp" alt="Wykres pokazujący historię zmian w spółce LC3, pierwotnie Largo 1 Sp. z o.o. W 2019 roku zmieniła nazwę na Grosvenor Capital Sp. z o.o., a w 2020 roku na Lazar Vision Fund Sp. z o.o. Jednocześnie, wraz ze zmianą nazwy na Grosvenor, jedynym wspólnikiem w firmie została spółka Lazar Vision Fund LP."/>
 
-* (LC1) 26.09.2016 r. wspólnikiem w&nbsp;tej firmie zostaje *BARKELEY FUNDS LLC*
+Jeśli wolicie formę tekstową, to rozwińcie poniższy element.
 
-  (w poprzednim wpisie pisałem, że Berkeley Funds to jedna z&nbsp;firm Pawła M. od UseCrypta. Ale tutaj mamy B**a**rkeley. Skąd literówka? Było więcej firm? Sprawa do zbadania.
+{:.bigspace}
+<details>
+<summary>Szczegóły (poprzedni, tekstowy opis)</summary>
+<p class="post-meta">W opisie pominąłem niektóre rzeczy; większość wydarzeń w najmniej aktywnej ze spółek Largo (LC3) i niektórych wspólników w LC1, sprzed Jacka K.</p>
+<ul>
+  <li>(LC1) 16.09.2009 r. – zarejestrowana zostaje spółka <em>LARGO CAPITAL SPÓŁKA Z&nbsp;OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ</em>
+</li>
+  <li>
+    <p><em class="red">(LC2)</em> 20.04.2012 r. – zarejestrowana zostaje spółka <em>ABBEY ASSET MANAGEMENT SPÓŁKA Z&nbsp;OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ 3 SPÓŁKA KOMANDYTOWO-AKCYJNA</em></p>
 
-* (LC1) 27.10.2016 r. wspólnikiem zostaje **Jacek K.**, poprzednio prezes.
-* (LC1) 20.01.2017 r. -- wspólnikiem zostaje *LARGO INVESTMENT CAPITAL LIMITED*
-* (LC1) 22.09.2017 -- wspólnikiem zostaje **Paweł M. (prezes UseCrypta)**.
-* *(LC2)*{:.red} 20.10.2017 r. zmienia nazwę na *DIMERRA SPÓŁKA Z&nbsp;OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ 5 SPÓŁKA KOMANDYTOWO-AKCYJNA*
-* (LC1) 30.04.2019 r. -- **wspólnikiem zostaje _LAZAR VISION FUND LP_. Zmiana nazwy na Q220**.
-* (LC1) 08.07.2019 -- Jacek K. wykreślony z&nbsp;zarządu.
-* *(LC2)*{:.red} 17.11.2020 r. zmienia nazwę na *LARGO CAPITAL (UK) LIMITED SPÓŁKA KOMANDYTOWO-AKCYJNA*
-* (LC1) 23.11.2020 -- brak zarządu, kontrolę nad spółką przejmuje kurator sądowy. Koniec.
+    <p>(wiem że to dwa różne rodzaje spółek; ale taka oficjalna nazwa w&nbsp;KRS, co poradzę <img class="emoji" title=":roll_eyes:" alt=":roll_eyes:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f644.png" width="20" height="20">).<br>
+Ważne: <strong>prezesem zarządu jest Jakub Jerzy K.</strong></p>
+  </li>
+  <li>
+    <p><em class="red">(LC2)</em> 22.08.2013 – Jakub K. przestaje być prezesem.</p>
 
-Uff, dużo tego. A&nbsp;to nie wszystko, bo niektórych właścicieli LC1 (przed wejściem Jacka K. do zarządu) pominąłem. Dla porządku pozostałe spółki sprawujące władzę wymienię tutaj. Kolejno, ale bez dat:
+    <p>Od tego czasu reprezentacja spółki zmienia się jeszcze kilka razy, ale nie pojawiają się&nbsp;znane nam nazwiska.</p>
+  </li>
+  <li>
+    <p>(LC1) 13.11.2014 – prezesem zarządu zostaje <strong>Jacek K.</strong></p>
 
-<div class="black-bg mono">ARGOVEST HOLDINGS LIMITED; COSTANSIA SERVICES LIMITED; ERMITANO CAPITAL LIMITED</div>
+    <p>W&nbsp;poprzednim wpisie o&nbsp;nim nie pisałem, bo nie było go przy UseCrypcie. Ale przy Abbey House i&nbsp;tych różnych finansowych pojawia się nieco częściej.</p>
+  </li>
+  <li>
+    <p>(LC1) 26.09.2016 r. – wspólnikiem w&nbsp;tej firmie zostaje <em>BARKELEY FUNDS LLC</em></p>
 
-Gdybyście sami chcieli to zweryfikować, to zachęcam! Numer KRS dla LC1 to 0000337116, a&nbsp;dla LC2 to 0000418572. Możecie je znaleźć [w wyszukiwarce KRS](https://ekrs.ms.gov.pl/), a&nbsp;potem wybrać `Pobierz pełny odpis`.
+    <p>(w poprzednim wpisie pisałem, że Berkeley Funds to jedna z&nbsp;firm Pawła M. od UseCrypta. Ale tutaj mamy B<strong>a</strong>rkeley. Skąd literówka? Było więcej firm? Sprawa do zbadania.</p>
+  </li>
+  <li>(LC1) 27.10.2016 r. – wspólnikiem zostaje <strong>Jacek K.</strong>, poprzednio prezes.</li>
+  <li>(LC1) 20.01.2017 r. – wspólnikiem zostaje <em>LARGO INVESTMENT CAPITAL LIMITED</em>
+</li>
+  <li>(LC1) 22.09.2017 – wspólnikiem zostaje <strong>Paweł M. (prezes UseCrypta)</strong>.</li>
+  <li>
+<em class="red">(LC2)</em> 20.10.2017 r. – zmienia nazwę na <em>DIMERRA SPÓŁKA Z&nbsp;OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ 5 SPÓŁKA KOMANDYTOWO-AKCYJNA</em>
+</li>
+  <li>(LC1, LC3) 30.04.2019 r. – <strong>wspólnikiem zarówno LC1, jak i LC3 zostaje <em>LAZAR VISION FUND LP</em>. Zmiana nazwy LC1 na Q220</strong>.</li>
+  <li>(LC1) 08.07.2019 – Jacek K. wykreślony z&nbsp;zarządu.</li>
+<li>
+(LC3) 29.04.2020 r. – zmienia nazwę na <strong>LAZAR VISION FUND SP. Z O.O.</strong>.
+</li>
+<li>
+<em class="red">(LC2)</em> 17.11.2020 r. – zmienia nazwę na <em>LARGO CAPITAL (UK) LIMITED SPÓŁKA KOMANDYTOWO-AKCYJNA</em>
+</li>
+  <li>(LC1) 23.11.2020 – brak zarządu, kontrolę nad spółką przejmuje kurator sądowy. Koniec.</li>
+</ul>
 
-Patrząc na całą historię, można dostrzec dwie rzeczy.
+<p class="post-meta bigspace">(Koniec listy szczegółów)</p>
+</details>
+
+Uff, dużo tego! Patrząc na wykresy i całą historię, można dostrzec kilka rzeczy.
 
 Po pierwsze: losy Pawła M., Jakuba K. i&nbsp;Jacka K. często się przeplatają. Ale to już wiemy.
 
 Po drugie: **Lazar Vision Fund działał już w&nbsp;2019 roku, przed sprawą UseCrypt Messengera, na poziomie lokalnym**. Dlaczego dopiero rok później zrobiło się o&nbsp;nim głośno -- jako o&nbsp;inwestorze amerykańsko-izraelskim?
+
+Po trzecie: po wyszukaniu można zauważyć, że niektórzy wspólnicy w różnych odmianach Largo Capital to spółki założone na Cyprze:
+
+{:.bigspace}
+<div class="black-bg mono">ARGOVEST HOLDINGS LIMITED; COSTANSIA SERVICES LIMITED; ERMITANO CAPITAL LIMITED</div>
 
 # Polski Dom Mediowy
 
