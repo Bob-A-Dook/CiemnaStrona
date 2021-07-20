@@ -63,3 +63,16 @@ $on-laptop:        800px !default;
   "minima/syntax-highlighting"
 ;
 
+// Make print-friendly
+@media print{
+  @page {
+     margin: 15mm 5mm 20mm 5mm
+    }
+  body{ 
+    background-color:#FFFFFF; background-image:none; color:#000000; text-shadow: none;
+    overflow: visible !important; display: block; margin: 0px}
+  p, ul, ol, pre, code, div {font-size: 12px !important}
+  .figcaption {margin-bottom: 0.5cm !important}
+  blockquote, .bigspace {margin-top:0.5cm !important; margin-bottom:0.5cm !important}
+}
+
