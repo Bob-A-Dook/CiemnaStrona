@@ -224,15 +224,15 @@ Poza tym zachęcam do zweryfikowania informacji! Podałem numery KRS dla każdej
 
 Wykres dla pierwszego Largo (numer KRS 0000337116):
 
-<img src="/assets/posts/usecrypt-dwa/lc1.webp" alt="Wykres pokazujący historię spółki, która zaczęła jako Largo Capital Sp. z o.o, a potem zmieniła nazwę na Q220. Widać, że w swojej historii miała 9 różnych wspólników. W 2016 roku jednym z nich na krótko została firma Barkeley Funds. We wrześniu 2019 r. Paweł M., prezes UseCrypta. Po nim, od kwietnia 2019 roku, była to firma Lazar Vision Fund Lp."/>
+<img src="/assets/posts/usecrypt-dwa/largo-capital-1.webp" alt="Wykres pokazujący historię spółki, która zaczęła jako Largo Capital Sp. z o.o, a potem zmieniła nazwę na Q220. Widać, że w swojej historii miała 9 różnych wspólników. W 2016 roku jednym z nich na krótko została firma Barkeley Funds. We wrześniu 2019 r. Paweł M., prezes UseCrypta. Po nim, od kwietnia 2019 roku, była to firma Lazar Vision Fund Lp."/>
 
 Dla drugiego (numer KRS 0000418572):
 
-<img src="/assets/posts/usecrypt-dwa/lc2.webp" alt="Wykres pokazujący historię spółki nazwanej LC2, która zaczęła jako Abbey Asset Management, potem zmieniła nazwę na Dimerra Spółka z o.o spółka komandytowo-akcyjna, a potem na Largo Capital (UK) Limited spółka komandytowo-akcyjna. Przy każdej ze zmian zmieniał się też jedyny wspólnik, zawsze mający podobną nazwę do LC2."/>
+<img src="/assets/posts/usecrypt-dwa/largo-capital-2.webp" alt="Wykres pokazujący historię spółki nazwanej LC2, która zaczęła jako Abbey Asset Management, potem zmieniła nazwę na Dimerra Spółka z o.o spółka komandytowo-akcyjna, a potem na Largo Capital (UK) Limited spółka komandytowo-akcyjna. Przy każdej ze zmian zmieniał się też jedyny wspólnik, zawsze mający podobną nazwę do LC2."/>
 
 I dla trzeciego (numer KRS 0000674581):
 
-<img src="/assets/posts/usecrypt-dwa/lc3.webp" alt="Wykres pokazujący historię zmian w spółce LC3, pierwotnie Largo 1 Sp. z o.o. W 2019 roku zmieniła nazwę na Grosvenor Capital Sp. z o.o., a w 2020 roku na Lazar Vision Fund Sp. z o.o. Jednocześnie, wraz ze zmianą nazwy na Grosvenor, jedynym wspólnikiem w firmie została spółka Lazar Vision Fund LP."/>
+<img src="/assets/posts/usecrypt-dwa/largo-capital-3.webp" alt="Wykres pokazujący historię zmian w spółce LC3, pierwotnie Largo 1 Sp. z o.o. W 2019 roku zmieniła nazwę na Grosvenor Capital Sp. z o.o., a w 2020 roku na Lazar Vision Fund Sp. z o.o. Jednocześnie, wraz ze zmianą nazwy na Grosvenor, jedynym wspólnikiem w firmie została spółka Lazar Vision Fund LP."/>
 
 Jeśli wolicie formę tekstową, to rozwińcie poniższy element.
 
