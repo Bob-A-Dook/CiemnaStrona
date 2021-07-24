@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <!-- {%- include header.html -%} -->
+    <header class="site-header" role="banner">
+    <div class="wrapper">
+    <img class="site-logo" style="float: left;" src="/assets/creepy_emoji.svg" alt=""/>  
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+     {{ site.title }}
+    </a>
+    </div>
+    <div class="gradient"></div>
+    </header>
+    <!-- header end -->
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    <!-- {%- include footer.html -%} -->
+   <div class="gradient-rtl"></div>
+   <footer class="site-footer h-card">
+
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <p class="footer-text">{{ site.title | escape }} (<em>The Dark Site</em>) – a blog about privacy and corporate scandals. No conspiracy theories.</p>
+    <p class="footer-text">Copyright in {{ site.time | date: '%Y' }}.</p>
+
+  </div>
+</footer>
+
+  </body>
+
+</html>
