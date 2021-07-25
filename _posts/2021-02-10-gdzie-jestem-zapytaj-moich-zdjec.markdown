@@ -100,16 +100,28 @@ Czeka zatem do okolic sesji, żeby mieć pretekst. Oczywiście może też łapa
 
 Potem pisze przez Messengera:
 
-> **Stalker(-ka):** Hej, podeślesz mi jakieś notatki z&nbsp;zeszłego tygodnia?  
-**Ofiara:** Hej, pewnie :) Nie mam tylko z&nbsp;wykładu z&nbsp;X, bo mnie nie było.  
-*(Robi zdjęcia telefonem i&nbsp;przesyła przez Messengera; ale ten automatycznie usuwa dane EXIF)*.  
-**S:** Dzięki! ^_^  
-**S:** *(Po chwili)* A&nbsp;możesz mi przesłać na maila? Jeśli to nie kłopot :p Chcę sobie wydrukować, a&nbsp;FB zmniejsza.  
-*(Faktycznie zmniejsza, więc jest wiarygodna wymówka. Ale chodzi głównie o&nbsp;to, że oryginały wysłane na maila już będą miały metadane)*  
-**S:** Na *some_stalker@randomail.com*  
-**O:** *(Wysyła maila)*. Poszło, masz? :)  
-**S:** Jest, dzięki!!  
-**S:** Stawiam Ci piwo następnym razem :)
+<blockquote>
+<p>
+<strong>Stalker(-ka):</strong> Hej, podeślesz mi jakieś notatki z&nbsp;zeszłego tygodnia?<br/>
+<strong>Ofiara:</strong> Hej, pewnie :) Nie mam tylko z&nbsp;wykładu z&nbsp;X, bo mnie nie było.
+</p>
+<p class="post-meta">
+(Robi zdjęcia telefonem i&nbsp;przesyła przez Messengera; ale ten automatycznie usuwa dane EXIF).
+</p>
+<p>
+<strong>S:</strong> Dzięki! ^_^<br/>
+<strong>S:</strong> <em>(Po chwili)</em> A&nbsp;możesz mi przesłać na maila? Jeśli to nie kłopot :p Chcę sobie wydrukować, a&nbsp;FB zmniejsza.
+</p>
+<p class="post-meta">
+(Faktycznie zmniejsza, więc jest wiarygodna wymówka. Ale chodzi głównie o&nbsp;to, że oryginały wysłane na maila już będą miały metadane)
+</p>
+<p>
+<strong>S:</strong> Na <em>some_stalker@randomail.com</em><br/>
+<strong>O:</strong> <em>(Wysyła maila)</em> Poszło, masz? :)<br/>
+<strong>S:</strong> Jest, dzięki!!<br/>
+<strong>S:</strong> Stawiam Ci piwo następnym razem :)
+</p>
+</blockquote>
 
 W ten sposób stalker(-ka) zdobywa zdjęcia z&nbsp;kompletem metadanych, wykonane w&nbsp;domu przyszłej ofiary. Nie budząc jej podejrzeń.
 

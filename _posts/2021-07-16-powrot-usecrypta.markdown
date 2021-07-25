@@ -10,7 +10,7 @@ image-width: 1200
 image-height: 800
 ---
 
-To ciąg dalszy mojego pierwszego aferkowego [wpisu]({% post_url 2021-03-12-usecrypt-afera %}) na tym blogu.
+To ciąg dalszy mojego pierwszego aferkowego [wpisu]({% post_url 2021-03-12-usecrypt-afera %}){:.internal} na tym blogu.
 
 Poprzedni wpis opowiadał o&nbsp;właścicielach polskiego komunikatora **UseCrypt Messenger** i&nbsp;ich konflikcie z&nbsp;trzema znanymi stronami o&nbsp;cyberbezpieczeństwie.
 

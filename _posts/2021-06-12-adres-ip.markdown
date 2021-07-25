@@ -70,7 +70,7 @@ Jeśli ktoś ma odpowiedni program, to może taki adres odczytać. A&nbsp;stąd 
 Czy jest się czego bać? Kiedy już znacie sztuczkę, to wiecie że nie. Na podstawie samego IP nikt nie pozna dokładniejszej lokalizacji niż miasto.  
 Będzie dobrze! O&nbsp;ile z&nbsp;zaskoczenia nie dacie się pociągnąć za język i&nbsp;nie zdradzicie więcej szczegółów.
 
-{% include info.html type="Uwaga" text="Warto przy tym pamiętać, że są inne, bardziej zaskakujące sposoby na ustalenie Waszej lokalizacji. Choćby metadane w&nbsp;zdjęciach, o&nbsp;których już pisałem.  
+{% include info.html type="Uwaga" text="Warto przy tym pamiętać, że są inne, bardziej zaskakujące sposoby na ustalenie Waszej lokalizacji. Choćby metadane w&nbsp;zdjęciach, o&nbsp;których <a class='internal' href='/2021/02/10/gdzie-jestem-zapytaj-moich-zdjec#scenariusz-zżycia'>już pisałem</a>.  
 Dlatego, gdyby taki troll z&nbsp;wideorozmowy poprosił o&nbsp;zdjęcie, to go nie wysyłajcie. Albo pamiętajcie, żeby usunąć wcześniej metadane GPS-a." %}
 
 # Przykład korporacyjny

@@ -13,6 +13,9 @@ To sprawa, która miała swój punkt kulminacyjny przed kilkoma dniami, ale praw
 
 Chodzi o&nbsp;**spór między twórcami komunikatora UseCrypt a&nbsp;popularnymi portalami o&nbsp;cyberbezpieczeństwie**.
 
+{:.post-meta .bigspace}
+Aktualizacja: wpis doczekał się również [drugiej części]({% post_url 2021-07-16-powrot-usecrypta %}){:.internal}.
+
 Te portale to znany Niebezpiecznik, a&nbsp;także dwa odrobinę mniej popularne -- ale bardzo dobre -- Informatyk Zakładowy oraz Zaufana Trzecia Strona. „Bezpieczniki” z&nbsp;tytułu to tutaj żargonowa nazwa na ludzi zajmujących się cyberbezpieczeństwem.
 
 Sprawa z&nbsp;początku wydawała się prosta, choć niezbyt sympatyczna -- zawiadomienie do prokuratury złożone przeciw trzem portalom przez kogoś, z&nbsp;kim miały na pieńku.
