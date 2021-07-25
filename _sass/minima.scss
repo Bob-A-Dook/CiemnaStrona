@@ -71,7 +71,7 @@ $on-laptop:        800px !default;
   body{ 
     background-color:#FFFFFF; background-image:none; color:#000000; text-shadow: none;
     overflow: visible !important; display: block; margin: 0px}
-  strong, .subcontent-heading, .link-nav-heading {color:black}
+  strong, .subcontent-heading, .link-nav-heading {color:black; font-weight:bold}
   p, ul, ol, pre, code, div {font-size: 12px !important}
   .figcaption {margin-bottom: 0.5cm !important}
   blockquote, .bigspace {margin-top:0.5cm !important; margin-bottom:0.5cm !important}
