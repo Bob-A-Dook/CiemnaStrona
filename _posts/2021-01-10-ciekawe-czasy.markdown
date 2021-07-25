@@ -86,7 +86,7 @@ Jaka piękna i&nbsp;długa reklama A... Google'a.
 
 **Tylko pierwszy plik to wyświetlana strona -- cała reszta to elementy reklamy**.
 
-Czym są te dodatkowe rzeczy? To różne czcionki, obrazki i&nbsp;skrypty. Wśród nich może takie, które weryfikują naszą tożsamość. Sprawdzają, czy jesteśmy tym samym użytkownikiem *#004569*, który według ich bazy ma określony wiek i&nbsp;zainteresowania. Znaleźć pasujące do nas obrazki i&nbsp;je pobrać. Dodać zebrane informacje do naszej „teczki”.
+Czym są te dodatkowe rzeczy? To różne czcionki, obrazki i&nbsp;skrypty. Wśród nich może takie, które weryfikują naszą tożsamość. Sprawdzają, czy jesteśmy tym samym użytkownikiem *#004569*, który według ich bazy ma określony wiek i&nbsp;zainteresowania. Znajdują pasujące do nas obrazki. Dodają zebrane informacje do naszej „teczki”.
 
 Przetwarzanie tylu bzdetów trwa dość długo i&nbsp;obciąża nasz komputer. Dobrze to widać, kiedy korzystamy z&nbsp;*ad blockerów* -- dodatków do przeglądarki blokujących reklamy. Bez reklam wzrost szybkości [bywa ogromny](https://www.debugbear.com/blog/2020-chrome-extension-performance-report#performance-impact-of-ad-blockers).
 
@@ -120,9 +120,9 @@ Jest taka mądrość giełdowa, mówiąca w&nbsp;wolnym tłumaczeniu „Nie trzy
 
 W każdym razie reguła jest dość uniwersalna -- jeśli wszystko uzależniamy od jednej rzeczy, a&nbsp;coś się z&nbsp;nią stanie, to tracimy wszystko.
 
-Mimo to, na pozór wbrew logice, rozdajemy amerykańskim gigantom po jednym aspekcie życia. Stereotypowe przykłady (bo mnie nie wszystko dotyczy): kontakty społeczne od Facebooka/WhatsAppa, życie zawodowe od LinkedIna, uczuciowe od Tindera, muzykę od Spotify'a, filmy od Netflixa, e-booki od Amazona, luźne przemyślenia od Twittera, elektronikę od Apple'a, infrastrukturę od Amazona.
+Mimo to, na pozór wbrew logice, wręczamy amerykańskim gigantom całe aspekty życia. Stereotypowe przykłady (bo mnie nie wszystko dotyczy): kontakty społeczne dajemy Facebookowi/WhatsAppowi, życie zawodowe LinkedInowi, uczuciowe Tinderowi, muzyczne Spotify'owi, filmowe Netflixowi, e-bookowe i zakupowe Amazonowi, luźne przemyślenia Twitterowi, pod względem sprzętu niektórzy oddają się Apple'owi.
 
-Dlaczego odgrywają taką rolę? Niektórzy odpowiadają na to „tak zdecydował rynek, więc tak ma być”.
+Dlaczego dostają tak ważną rolę? Niektórzy odpowiadają na to „tak zdecydował rynek, więc tak ma być”.
 
 ...Tylko że zakładam, że ten często przywoływany rynek powinien obejmować wolność wyboru dla użytkowników i&nbsp;równe szanse dla firm. Duża konkurencja, niskie bariery, świadomi konsumenci. Tymczasem [niektóre rzeczy się rozmijają](https://inpost.pl/aktualnosci-konkurencja-doskonala-co-takiego) z&nbsp;modelem konkurencji doskonałej.
 
@@ -132,18 +132,18 @@ Co do równych szans firm...
 
 Takie firmy mogą sobie pozwolić na zatrudnianie kreatywnych księgowych, ubijanie konkurencji pozwami, matactwa i&nbsp;[branie kar finansowych na klatę](https://www.virsec.com/blog/five-tech-giants-facebook-twitter-apple-linkedin-google-face-investigations-for-possibly-violating-european-privacy-laws), jeśli ktoś je złapie. Nie grają na tych samych zasadach co inni.
 
-Czy w&nbsp;takim razie uznajemy wygrane sportowców, u&nbsp;których stwierdzi się stosowanie dopingu? Czy nadal „zwycięstwo to zwycięstwo, tak ma być”? To pytanie retoryczne.
+Analogia: czy uznajemy wygrane sportowców, u&nbsp;których stwierdzi się stosowanie dopingu? Czy nadal „zwycięstwo to zwycięstwo, tak ma być”? To pytanie retoryczne.
 
 A co do wolności wyboru...
 
 Może ktoś powiedzieć „nie chcesz to nie używaj, proste”. To zasadniczo prawdziwe słowa, ale dużo spłycają. Wybór mamy zawsze, ale czasem jedna opcja jest tak niekorzystna, że w&nbsp;praktyce nie istnieje. Kiedy Facebook stał się jedynym miejscem spotkań i&nbsp;źródłem informacji, to „nie używaj” oznaczało, że nie będę brał udziału w&nbsp;życiu studenckim. Czy byłem na to gotów dla samej idei? Kiedyś nie.
 
 Istnieje coś takiego jak **efekt sieciowy**. Kiedy w&nbsp;jednym miejscu zbiera się wiele osób, to [strasznie ciężko stamtąd odejść](https://pl.wikipedia.org/wiki/Efekt_sieciowy).  
-Przykład: próbuję przekonać paru znajomych do alternatywnego komunikatora. Przez chwilę popiszemy, ale lwia część ich znajomych pozostaje na Messengerze. Nie chcąc dzielić czasu między dwie aplikacje, z&nbsp;czasem wracają na Messengera. Na nowym komunikatorze zostaję sam.
+Przykład: próbuję przekonać paru znajomych do alternatywnego komunikatora. Przez chwilę popiszemy, ale lwia część ich znajomych pozostaje na Messengerze. Nie chcąc dzielić czasu między dwie aplikacje, z&nbsp;czasem oni także wracają na Messengera. Na nowym komunikatorze zostaję sam.
 
 Inna sprawa to syndrom **FOMO (_Fear of Missing Out_)**. Obawa przed tym, że bez bieżącego sprawdzania internetu coś nas ominie. Według badań w&nbsp;postaci dość zaawansowanej występuje [u 16% polskich internautów](https://pulsmedycyny.pl/syndrom-fomo-gdy-nie-mozemy-zyc-bez-internetu-967460).
 
-Kiedy w&nbsp;grę wchodzi regularne uzależnienie i&nbsp;presja społeczna, to gdzie tu wolność? Zwłaszcza jeśli dotyczy to nastolatków?
+Kiedy w&nbsp;grę wchodzi regularne uzależnienie i&nbsp;presja społeczna, to gdzie tu wolność? Zwłaszcza jeśli dotyczy to osób, które dopiero kształtują osobowość?
 
 W każdym razie, tymi czy innymi sztuczkami, firmy cementują swoją pozycję. Masowo korzystamy z&nbsp;ich internetowych platform.
 
@@ -171,9 +171,9 @@ Co się może stać, jeśli coś się popsuje lub nagle znajdziemy się w&nbsp;n
 
   Ludzie ze świata grafiki stworzyli swoisty kult produktów Adobe. „Tego używają profesjonaliści”, „Nie trzeba niczego innego”. Nie było większych zachęt do rozwijania otwartych alternatyw. Nawet kiedy Adobe zaczęło się coraz bardziej panoszyć, oferować subskrypcje zamiast jednorazowej opłaty, wymagać internetu. Wenezuelska branża graficzna szła za trendem, a&nbsp;teraz zapewne pluje sobie w&nbsp;brodę.
 
-A to tylko niektóre przykłady. Centralizacja może uderzać w&nbsp;każdego. Stajemy się zależni od dobrobytu firm, ich relacji z&nbsp;władzami krajowymi, sytuacji geopolitycznej... Może i&nbsp;to nic nowego, ale możliwość utraty wszystkiego z&nbsp;sekundy na sekundę to trochę jednak oznaka współczesności.
+A to tylko niektóre przykłady. Centralizacja może uderzać w&nbsp;każdego. Stajemy się zależni od dobrobytu firm, ich relacji z&nbsp;władzami krajowymi, sytuacji geopolitycznej... Sama zależność to nic nowego, ale możliwość utraty wszystkiego z&nbsp;sekundy na sekundę -- to już współczesna nówka.
 
-To szczególnie groźne teraz, kiedy wszystko przenosi się do internetu, a&nbsp;serwery są w&nbsp;firmowych rękach. Kiedy nic tak naprawdę nie jest nasze i&nbsp;wszystko wypożyczamy, to stajemy się zależni od cudzych fanaberii.
+Kiedy nic tak naprawdę nie jest nasze i&nbsp;wszystko wypożyczamy, to stajemy się zależni od cudzych fanaberii.
 
 ## Amerykanizacja
 
@@ -203,9 +203,10 @@ Spójrzmy na przykłady kilku rzeczy typowych dla Ameryki:
 * Internetowe lincze i&nbsp;działania na pokaz.
   
   Zjawiskiem typowo amerykańskim jest ostracyzm w&nbsp;internecie. Miał różne nazwy, ale aktualną angielską jest *cancel culture* („kultura unieważniania”). Polega na tym, że ludzie skrzykują się, np. przez Twittera, i&nbsp;wywierają presję na pracodawców, żeby usunęli niewygodne osoby. Albo w&nbsp;inny sposób uprzykrzają im życie.  
-  [Artykuł z&nbsp;Forbesa](https://www.forbes.com/sites/evangerstmann/2020/09/13/cancel-culture-is-only-getting-worse/) pokazuje, jak groteskowe jest to w&nbsp;praktyce. Tłum nie patrzy na kontekst. Wykładowca użył chińskiego słowa, które trochę przypominało z&nbsp;brzmienia rasistowski wyraz, ale nie miało nic wspólnego z&nbsp;rasizmem. Oburzony tłum się na niego rzuca. Szkolny stróż użył obraźliwego słowa, **cytując ucznia, który go obraził**? Nie ma znaczenia, użył słowa.  
+  [Artykuł z&nbsp;Forbesa](https://www.forbes.com/sites/evangerstmann/2020/09/13/cancel-culture-is-only-getting-worse/) pokazuje, jak groteskowe jest to w&nbsp;praktyce. Tłum nie patrzy na kontekst. Wykładowca użył chińskiego słowa, które trochę przypominało z&nbsp;brzmienia rasistowski wyraz, ale nie miało nic wspólnego z&nbsp;rasizmem. Oburzony tłum się na niego rzuca.  
+Szkolny stróż użył obraźliwego słowa, **cytując ucznia, który go obraził**? Nie ma znaczenia, użył słowa.  
   Innym razem grupa trolli z&nbsp;forum 4Chan wypromowała teorię, jakoby emoji z&nbsp;dłonią pokazującą znak OK było rasistowskie. Głupota? A&nbsp;jednak co najmniej jeden nieświadomy dostawca, który ułożył palce w&nbsp;podobny znak, został za ten gest [zwolniony z&nbsp;pracy](https://thehill.com/blogs/blog-briefing-room/news/502975-california-man-fired-over-alleged-white-power-sign-says-he-was).  
-  Mimo wielu przykładów na jego szkodliwość, ostracyzm ma się dobrze. Twitterowi bojownicy nie muszą myśleć o&nbsp;faktycznej zmianie systemu, o&nbsp;złożonych sprawach. Wystarczy znaleźć coś, w&nbsp;czym jest choć cień kontrowersji i&nbsp;rzucić się na to z&nbsp;tłumem. Wierząc, że się Czyni Dobro©.
+  Mimo wielu przykładów na jego szkodliwość, ostracyzm ma się dobrze. Twitterowi bojownicy nie muszą myśleć o&nbsp;faktycznej zmianie systemu, o&nbsp;złożonych sprawach. Wystarczy znaleźć coś, w&nbsp;czym jest choć cień kontrowersji i&nbsp;napuścić na to tłum. Wierząc, że się Czyni Dobro©.
 
 * Duże znaczenie prawników, ostrożność przed pozwami.
 
@@ -235,11 +236,11 @@ Amerykańskie firmy -- Amazon, Walmart i&nbsp;niektórzy producenci aut -- [zder
 
 Coś od nas? Krakowska siedziba Sabre, firmy z&nbsp;USA, dała kiedyś do podpisania [dość drakońskie umowy](https://www.thelayoff.com/t/Pz7cuWI), które w&nbsp;praktyce nakazywały przez 2 lata być na zawołanie firmy, udzielać jej informacji o&nbsp;obecnym i&nbsp;planowanym zatrudnieniu, zgodzić się na inwigilację przez służbowego laptopa. Ku zdziwieniu HR-ów wybuchł mały skandal :roll_eyes:
 
-Ju-Es-Ej próbuje wchodzić z łokciami i&nbsp;czasem się nadziewa na opór. Nawet kiedy chodzi o&nbsp;sprawy prawne, gdzie jednak lepiej się dostosować.
+Ju-Es-Ej próbuje wchodzić z łokciami i&nbsp;czasem się nadziewa na opór. Nawet gdy chodzi o&nbsp;sprawy prawne, gdzie jednak reguły są jasne i&nbsp;łatwiej ich skarcić.
 
-Ale może aplikacje i&nbsp;usługi internetowe aż tak tego nie odczują? Te Facebooki, Twittery i&nbsp;inne? W&nbsp;końcu nie gadamy tam z&nbsp;Amerykanami, tylko ze sobą.
+Ale może aplikacje i&nbsp;usługi internetowe są mniej amerykańskie? Te Facebooki, Twittery i&nbsp;inne? W&nbsp;końcu nie gadamy tam z&nbsp;Amerykanami, tylko ze sobą.
 
-Może nie. Ale myślę, że jednak coś przesiąka. Jeśli nawet nie wciska się nam identycznych reklam baseballu, to w&nbsp;wielu tych produktach widać kompletną zachowawczość -- jakby w&nbsp;obawie przed pozwami i&nbsp;twitterowym tłumem z&nbsp;USA.
+Być może. Ale myślę, że jednak coś przesiąka. Jeśli nawet nie wciska się nam reklam baseballu czy Walmarta, to nadal w&nbsp;wielu tych produktach widać kompletną zachowawczość -- jakby w&nbsp;obawie przed pozwami i&nbsp;twitterowym tłumem z&nbsp;USA.
 
 Przykład? Facebook i&nbsp;wiele firm stosuje grafikę w&nbsp;stylu, który nazwę *art de corpo*. Jak mówią [sami twórcy tego stylu](https://youtu.be/lFb7BOI_QFc?t=286):
 
