@@ -8,7 +8,7 @@ category: cyfrowy_feudalizm
 category_readable: "Cyfrowy&nbsp;feudalizm"
 ---
 
-Ten wpis to wprowadzenie do nowej serii, „Cyfrowego feudalizmu”. Jej tematem jest **centralizacja i&nbsp;powstawanie monopoli**, jedno z&nbsp;czterech negatywnych zjawisk, jakie wskazałem w&nbsp;[pierwszym wpisie na Ciemnej Stronie]({% post_url 2021-01-10-ciekawe-czasy %}).
+Ten wpis to wprowadzenie do nowej serii, „Cyfrowego feudalizmu”. Jej tematem jest **centralizacja i&nbsp;powstawanie monopoli**, jedno z&nbsp;czterech negatywnych zjawisk, jakie wskazałem w&nbsp;[pierwszym wpisie na Ciemnej Stronie]({% post_url 2021-01-10-ciekawe-czasy %}){:.internal}.
 
 Cytat z&nbsp;tytułu, *"you'll own nothing"* („nie będziecie mieli niczego”), dobrze ilustruje to zjawisko. Jest zwięzły i&nbsp;działa na wyobraźnię.
 

@@ -240,6 +240,9 @@ Wiedzieli, że mogą pojawić się przeciw nim oskarżenia, które chcieli od ra
 20 lutego każda z tych stron wrzuciła na swoje konto społecznościowe [sam hasz](https://www.facebook.com/niebezpiecznik/posts/10157705388896821).  
 A 2&nbsp;marca [pełną treść oświadczenia](https://www.facebook.com/niebezpiecznik/posts/10157729024811821)." %}
 
+{:.post-meta .bigspace}
+Aktualizacja: sam również stworzyłem wpisy na temat tej sprawy -- [po wybuchu afery]({% post_url 2021-03-12-usecrypt-afera %}){:.internal} i [po wejściu celebrytów]({% post_url 2021-07-16-powrot-usecrypta %}){:.internal}.
+
 Wadą rozwiązania jest to, że inni muszą mieć przynajmniej podstawowe pojęcie o&nbsp;haszach (a przynajmniej wiedzieć, że są nie do podrobienia). *Drugą wadą*{:.corr-del}Zaletą to, że zapewne zostaniecie uznani za nerdów.
 
 I z&nbsp;tymi nerdowskimi metodami Was zostawiam. Miłego haszowania i&nbsp;do zobaczenia przy kolejnych wpisach! :smile:
