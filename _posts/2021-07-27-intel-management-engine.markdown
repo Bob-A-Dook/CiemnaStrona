@@ -9,7 +9,7 @@ category: cyfrowy_feudalizm
 category_readable: "Cyfrowy&nbsp;feudalizm"
 image: "intel-management-engine/intel-management-engine-hellsing.jpg"
 image-width: 1200
-image-height: 782
+image-height: 670
 ---
 
 Od razu przejdźmy do rzeczy.
@@ -24,8 +24,10 @@ Co to znaczy „pełną władzę”? Przede wszystkim ma wgląd do pamięci komp
 
 Po drugie, oprócz oglądania może te informacje swobodnie zmieniać. Szyfrując część danych i&nbsp;trzymając je poza naszym zasięgiem. A&nbsp;nawet kontrolując wyświetlany obraz bez wiedzy naszego systemu.
 
-{:.bigspace}
 <img src="/assets/posts/intel-management-engine/intel-management-engine-hellsing.jpg" alt="Przerobiony kadr z&nbsp;anime Hellsing. Pokazuje mężczyznę w&nbsp;białym stroju stojącego w&nbsp;ciemnościach tyłem do widza. Jego postawa wyraża strach. Wokół znajduje się wiele czerwonych oczu patrzących na niego. Zamiast jednego z&nbsp;nich wklejono opakowanie procesora Intela w&nbsp;kształcie bryły o&nbsp;wielu ścianach, otoczone czerwoną aurą."/>
+
+{:.figcaption}
+Źródło: anime *Hellsing* (z moimi przeróbkami).
 
 Brzmi spiskowo, ale ma to całkiem realne, komercyjne uzasadnienie. **To nie zwykli Kowalscy są głównymi klientami Intela, tylko duże firmy**. Składające komputery albo używające całych ich flot. Dla nich możliwość większej kontroli nad systemem jest atrakcyjna, więc ją dostają.
 
