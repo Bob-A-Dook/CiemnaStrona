@@ -258,8 +258,11 @@ Również pracownik Google, Ronald Minnich, ogłosił na pewnej konferencji, że
 
 Jego prezentacja ma wdzięczny tytuł, w&nbsp;wolnym tłumaczeniu „Zastąp Linuxem swój *firmware* pełen luk” (gdzie Linux to alternatywny system, *firmware* to te mini-programy, a&nbsp;luki odnoszą się do błędów w&nbsp;zabezpieczeniach).
 
-{:.figure .bigspace}
+{:.figure}
 <img src="/assets/posts/intel-management-engine/minnich-ime-prezentacja.webp" alt="Zdjęcie pokazujące prelegenta i&nbsp;slajd z&nbsp;jego prezentacji. Czerwona ramka dodana przeze mnie otacza informacje o&nbsp;tym, że Management Engine ma własny mały serwer, przez który da się włamać."/>
+
+{:.figcaption}
+Źródło: slajd z [prezentacji](https://youtu.be/iffTJ1vPCSo?t=380) Minnicha.
 
 W prezentacji nawiązywał do głośnych historii z&nbsp;dziurami w&nbsp;zabezpieczeniach ME. Argumentował, że ten moduł jest jak niezbadana czarna skrzynka.  
 Usunięcie go oznaczałoby odzyskanie większej kontroli nad swoim sprzętem.
@@ -331,24 +334,24 @@ System dopiero zapowiedziano, więc możemy tylko spekulować. Z&nbsp;naszego pu
 **Windows 11 ma wymagać IME do działania** (źródło np. [tutaj](https://www.bleepingcomputer.com/news/microsoft/how-to-bypass-the-windows-11-tpm-20-requirement/)).
 
 {:.post-meta .bigspace}
-(ściśle rzecz biorąc, wymaga *zaufanego modułu*, czyli elementu szyfrującego na poziomie sprzętowym; ale dla procesorów Intela to właśnie IME, a&nbsp;dla procesorów AMD -- PSP)
+(ściśle rzecz biorąc, wymaga *zaufanego modułu (TPM)*, czyli elementu szyfrującego na poziomie sprzętowym; ale dla procesorów Intela to właśnie IME, a&nbsp;dla procesorów AMD -- PSP)
 
-Co więcej, wymaga dość nowej wersji. W&nbsp;praktyce oznacza to, że wiele komputerów o&nbsp;wystarczającej mocy dla Windowsa 10, ale pozbawionych szyfrujących bajerów, nie będzie mogło ulec aktualizacji i&nbsp;pójdzie na śmietnik.
+Co więcej, wymaga dość nowej jego wersji. W&nbsp;praktyce oznacza to, że wiele komputerów o&nbsp;wystarczającej mocy do uciągnięcia Windowsa 11, ale pozbawionych szyfrujących bajerów, nie będzie mogło ulec aktualizacji i&nbsp;zostanie ze starym systemem (albo pójdzie na śmietnik).
 
 Pomijając ten fakt, ścisła współpraca tych dwóch firm mogłaby pozwolić jeszcze silniej odbierać kontrolę użytkownikom.
 
-* Wzajemne chronienie sobie tyłków
+* Wzajemne chronienie sobie tyłków.
 
   Intel mógłby uniemożliwiać poprzez IME instalowanie alternatywnych systemów operacyjnych (takich jak Linux). A&nbsp;Windows mógłby blokować próby usuwania IME.
 
-* Jeszcze mocniejszy DRM
+* Jeszcze mocniejszy DRM.
 
   Firmy mogłyby dogadać się z&nbsp;duetem Intel & Microsoft, żeby te blokowały możliwość kopiowania i&nbsp;przesyłania pewnych rzeczy na każdym możliwym poziomie.
 
 * Brak możliwości wyłączenia wkurzających funkcji Windowsa (telemetria, przymusowe aktualizacje). Próby usunięcia przechwytywałoby IME.
 
-Czy taka czarna przyszłość może się wydarzyć? Dużo zależy tu od Microsoftu.  
-Z jednej strony ma teraz duży wkład w&nbsp;*open source* i&nbsp;pracę m.in. nad integrowaniem Linuksa z&nbsp;Windowsem.  
+Czy taka czarna wizja przyszłości może się ziścić? Dużo zależy tu od Microsoftu.  
+Z jednej strony ma teraz duży wkład w&nbsp;*open source* i&nbsp;pracował m.in. nad integrowaniem Linuksa z&nbsp;Windowsem.  
 Z drugiej -- niechlubną przeszłość, która doprowadziła do kar za monopolistyczne zachowania.
 
 W kwestii Intela możemy natomiast zgadywać, znając poprzednie fakty, że raczej nie miałby oporów przed odbieraniem pewnych rzeczy szarym obywatelom.
@@ -359,7 +362,7 @@ Wychodzi na to, że nieprędko pozbędziemy się małego, lecz wszechmocnego cho
 
 Intelowi za bardzo zależy na jego obecności. Do tego stopnia, że nawet opór ze strony innych wielkich korpo go nie przekonał do poluzowania kontroli nad tym, co w&nbsp;procesorze siedzi. Poświęcając jedną relację, nawiązuje inną.
 
-Cała ta historia jest dla świetną opowieścią ku przestrodze. Mamy tu:
+Cała ta historia jest dla mnie świetną opowieścią ku przestrodze. Mamy tu:
 
 * wielką firmę, której klientami są inne wielkie firmy, o&nbsp;interesach niekoniecznie zgodnych z&nbsp;naszymi;
 * próbę odebrania nam kontroli nad własnymi urządzeniami;
