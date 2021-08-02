@@ -9,7 +9,7 @@ category: facebook_dane
 category_readable: "Kochajmy się jak bracia, analizujmy się jak Facebooki"
 ---
 
-W <a href="/facebook_dane/2021/02/11/bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka">poprzednim wpisie</a> opisałem, jak pobrać swoje dane z&nbsp;Facebooka. Kiedy już znajdą się u&nbsp;mnie na dysku, mogę je w&nbsp;fajny sposób analizować.
+W <a href="/facebook_dane/2021/02/11/nasze-dane-facebooka">poprzednim wpisie</a> opisałem, jak pobrać swoje dane z&nbsp;Facebooka. Kiedy już znajdą się u&nbsp;mnie na dysku, mogę je w&nbsp;fajny sposób analizować.
 
 Na gwoźdź programu, czyli wiadomości z&nbsp;Messengera, jeszcze chwilę poczekamy. Cierpliwości! :wink:
 
@@ -51,7 +51,7 @@ Ten wpis opisuje pierwszy krok w&nbsp;tę stronę. Patrzę na względnie suche d
 
 ## Przygotowanie danych
 
-Na początku pobrałem dane, zgodnie z&nbsp;<a href="/facebook_dane/2021/02/11/bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka.html#jak-pobrać-swoje-dane-od-fejsika">metodą z&nbsp;poprzedniego wpisu</a>. Do tej analizy wziąłem z&nbsp;Facebooka **tylko dział „Informacje o&nbsp;Tobie”, z&nbsp;samego dołu listy plików do pobrania**:
+Na początku pobrałem dane, zgodnie z&nbsp;<a href="/facebook_dane/2021/02/11/nasze-dane-facebooka.html#jak-pobrać-swoje-dane-od-fejsika">metodą z&nbsp;poprzedniego wpisu</a>. Do tej analizy wziąłem z&nbsp;Facebooka **tylko dział „Informacje o&nbsp;Tobie”, z&nbsp;samego dołu listy plików do pobrania**:
 
 {:.figure .bigspace}
 <img src="/assets/posts/fb-analiza-wprowadzenie/fb-informacje-o-tobie.webp" alt="Lista danych do pobrania z&nbsp;Facebooka, zebranych pod nagłówkiem 'Informacje o&nbsp;Tobie'. Wśród nich: reklamy i&nbsp;firmy, historia wyszukiwania, lokalizacja, informacje o&nbsp;Tobie, informacje dotyczące logowania, twoje tematy, nagranie głosowe i&nbsp;transkrypcja."/>
@@ -272,7 +272,7 @@ Na koniec mój skrypt w&nbsp;Pythonie, efekt działań z&nbsp;tego wpisu:
 
 {% include pyscript.html name="fb_data_timeline.py" link="/assets/posts/fb-analiza-wprowadzenie/skrypty/fb_data_timeline.py" info="Instrukcja:
 <ul style='margin-top:0px;margin-bottom:0px'>
-<li>Najpierw <a href='/facebook_dane/2021/02/11/bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka.html'>pobieramy swoje dane z&nbsp;Facebooka</a>.</li>
+<li>Najpierw <a href='/facebook_dane/2021/02/11/nasze-dane-facebooka.html'>pobieramy swoje dane z&nbsp;Facebooka</a>.</li>
 <li>Uzyskany plik <i>zip</i> dajemy do jakiegoś folderu. Możemy go rozpakować, ale nie musimy.</li>
 <li>W tym samym folderze umieszczamy mój skrypt i&nbsp;go odpalamy.</li>
 <li>Jeśli wszystko dobrze poszło, powstanie plik tekstowy <i>fb_moja_os_czasu.txt</i>. Można go otworzyć np. w&nbsp;Notatniku. Zawiera listę różnych naszych działań ułożonych chronologicznie.</li></ul>"%}
