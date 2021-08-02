@@ -266,8 +266,11 @@ Jeśli ma również kartę, bo na przykład zgarnął cały nasz portfel, to tę
 
 Podobno w&nbsp;bankach patrzą, czy wygląd zgadza się z&nbsp;tym z&nbsp;dowodu. Zatem złodziej, mając nasze zdjęcie z&nbsp;dowodu, może się odpowiednio wystylizować i&nbsp;ruszyć do najbliższego oddziału.
 
-{:.bigspace}
 <img src="/assets/posts/bank-ochrona/ff7-przebieranka.webp" alt="Dwa zrzuty ekranu z&nbsp;Final Fantasy 7 w&nbsp;nowej wersji. Kadr u&nbsp;góry pokazuje głównego bohatera, mężczyznę o&nbsp;blond włosach z&nbsp;mieczem na plecach. Obrazek jest połączony strzałką z&nbsp;innym obrazkiem, na którym widać tę samą postać w&nbsp;blond peruce i&nbsp;dwiema kokardkami na warkoczach."/>
+
+{:.figcaption}
+Źródło: Remake *Final Fantasy VII*.
+
 
 Owszem, podobno w&nbsp;banku jest jakaś weryfikacja „na oko/podpis”. Ale trzymajmy się prawa Murphy'ego -- załóżmy, że akurat przy „naszym” oszuście osoby z&nbsp;okienka będą miały zły dzień i&nbsp;wszystko przepuszczą.
 
