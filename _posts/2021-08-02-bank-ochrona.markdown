@@ -44,7 +44,7 @@ Pozostaje kilka innych rzeczy, dość różniących się pod względem zagrożen
 * Bankowość elektroniczna.
 
   Można przelać pieniądze z&nbsp;jednego konta na inne. A&nbsp;także wyłączyć limity na karcie.  
-  Złodziej musiałby jednak znać login i&nbsp;hasło do konta oraz mieć *dodatkowy kod potwierdzający* (o tym później).
+  Złodziej musiałby jednak znać login i&nbsp;hasło do konta oraz mieć *dodatkowy kod potwierdzający* (o&nbsp;tym później).
 
 * Karta płatnicza.
 
@@ -95,7 +95,7 @@ Obrazek bezpieczeństwa podczas logowania na konto w&nbsp;PKO BP. Zmieniony prze
 
 Obstawiam, że to zabezpieczenie przeciw *phishingowi* (wyłudzeniom z&nbsp;użyciem fałszywej strony).
 
-Ktoś może łatwo stworzyć stronę identyczną z&nbsp;wyglądu jak oryginalna bankowa. Wtedy, gdyby pola na login i&nbsp;hasło były od razu w&nbsp;pierwszym oknie, ofiara mogłaby je po prostu wpisać (a one trafiłyby do złodziei).
+Ktoś może łatwo stworzyć stronę identyczną z&nbsp;wyglądu jak oryginalna bankowa. Wtedy, gdyby pola na login i&nbsp;hasło były od razu w&nbsp;pierwszym oknie, ofiara mogłaby je po prostu wpisać (a&nbsp;one trafiłyby do złodziei).
 
 Dzięki podzieleniu interakcji na etapy (login → sprawdzenie czy pojawia się wcześniej ustawiany obrazek → hasło), bank nas nieco „uczy” czujności. **Sami go weryfikujemy między podaniem loginu a&nbsp;hasła**.  
 Tylko nasz prawdziwy bank wie, jaki mamy obrazek. Zatem, gdyby ten się nie wyświetlał albo nie zgadzał, to znaczy że coś jest nie tak. 
@@ -113,16 +113,18 @@ Jest jeszcze jedno zabezpieczenie! Jeśli używamy innego komputera albo przegl�
 
 Jak to robi? Trzyma w&nbsp;swojej bazie informacje o&nbsp;tym, jaki identyfikator urządzenia (*user agent*) mieliśmy, gdy go wcześniej odwiedzaliśmy. Jeśli tym razem przyjdziemy z&nbsp;innym, nieznanym, to prosi o&nbsp;weryfikację.
 
-Potem przepuści nas na stronę główną naszego konta. Niezależnie od tego, czy wcześniej wymagał weryfikacji, na pewno będzie jej wymagał teraz, gdybyśmy próbowali coś robić z&nbsp;pieniędzmi albo podglądać dane:
-
-{:.bigspace}
-<img width="400px" src="/assets/posts/bank-ochrona/smsy-zmiany.webp" alt="Dwa SMS-y z kodami pozwalającymi zrobić różne rzeczy na stronie banku. Większość danych zakryto."/>
+Potem przepuści nas na stronę główną naszego konta. Niezależnie od tego, czy wcześniej wymagał weryfikacji, na pewno będzie jej wymagał teraz, gdybyśmy próbowali:
 
 * podejrzeć większość danych (PESEL, nr dowodu, nr telefonu, adres mailowy);
 * podwyższyć limity na karcie;
 * dokonać przelewu;
-* zobaczyć transakcje starsze niż 3 miesiące;
+* zobaczyć transakcje starsze niż 3&nbsp;miesiące;
 * ...albo zrobić szereg innych rzeczy, których robić nie próbowałem.
+
+I wyśle nam odpowiednie SMS-y. Każdy z nich zawiera na końcu kod, który musimy wpisać w pole.
+
+{:.bigspace}
+<img width="400px" src="/assets/posts/bank-ochrona/smsy-zmiany.webp" alt="Dwa SMS-y z kodami pozwalającymi zrobić różne rzeczy na stronie banku. Większość danych zakryto."/>
 
 Słowem: prawie wszystko chronione dodatkowym kodem.  
 Właściwie jedyne informacje, jakie są tam niezasłonięte, to **nasze imię i&nbsp;nazwisko, podany adres kontaktowy, stan konta i&nbsp;po kilka cyfr z&nbsp;pozostałych numerów**.
@@ -177,23 +179,23 @@ Adwersarze, którzy wejdą w&nbsp;jej posiadanie, mogą próbować nam dokuczyć
 
 Są najprostsze, bo wystarczy mieć kartę i&nbsp;przykładać ją do czytnika. Zero zabezpieczeń.
 
-Ale nie są też szczególnie groźne. Na jedno dotknięcie wykona się płatność zwykle tylko do kwoty 50 zł (w czasie pandemii ten limit zwiększono do 100 zł).
+Ale nie są też szczególnie groźne. Na jedno dotknięcie wykona się płatność zwykle tylko do kwoty 50&nbsp;zł (w&nbsp;czasie pandemii ten limit zwiększono do 100&nbsp;zł).
 
 Można spekulować: a&nbsp;gdyby oszuści zdobyli naszą kartę, naszykowali sobie dziesiątki terminali i&nbsp;po kolei ją do nich przykładali, trzymając się poniżej progu PIN-u?
 
 Na szczęście raczej nie ma takiego zagrożenia. 
 
-Po pierwsze, pytanie o&nbsp;PIN pojawia się nie tylko przy transakacjach przekraczających wspomniany próg, ale również [ogólnie przy co piątej](https://www.elavon.pl/content/dam/elavon/pl-pl/documents/customer-center/news/PSD2PractialImpactGuideFacetoFacePolishFINAL.pdf) (wyszukać ??), nawet drobniejszej transakcji.
+Po pierwsze, pytanie o&nbsp;PIN pojawia się nie tylko przy transakacjach przekraczających wspomniany próg, ale również [ogólnie przy co piątej](https://www.elavon.pl/content/dam/elavon/pl-pl/documents/customer-center/news/PSD2PractialImpactGuideFacetoFacePolishFINAL.pdf) (wyszukać `Transakcje zbliżeniowe`), nawet drobniejszej transakcji.
 
 Po drugie, zdobycie własnego terminala to nie taka prosta sprawa. Trzeba założyć firmę i&nbsp;zawrzeć na nią umowy z&nbsp;organizacjami płatniczymi.  
 Poza tym kasa nie trafi do właściciela terminala od razu po sczytaniu naszej karty. Przez chwilę tkwi w&nbsp;zawieszeniu. Jeśli pojawi się podejrzenie oszustwa, to jej przekazanie można zablokować.
 
 Wniosek: zakupy zbliżeniowe na nasz koszt to raczej niewielkie zagrożenie.  
-Ktoś mógłby co najwyżej kupować sobie parę flaszek na dzień. Stopniowo "wykrwawiając" nas z&nbsp;kasy, dopóki nie zablokujemy karty.
+Ktoś mógłby co najwyżej kupować sobie parę flaszek na dzień. Stopniowo „wykrwawiając” nas z&nbsp;kasy, dopóki nie zablokujemy karty.
 
 Dlatego **warto od razu ją zablokować**, na przykład przez stronę banku. Żeby złodziejaszek nie zdobył nawet flaszki pocieszenia.
 
-# Płatności i&nbsp;wypłaty z&nbsp;PIN-em
+# Płatności i&nbsp;wypłaty z&nbsp;PIN&#8209;em
 
 Mając kartę oraz PIN, przeciwnik zyskuje nowe możliwości. Może wydawać większe kwoty podczas płatności zbliżeniowej albo wypłacić pieniądze z&nbsp;bankomatu.
 
@@ -209,7 +211,7 @@ Jeśli jednak zdobędzie PIN -- w&nbsp;ten czy inny sposób -- kolejną linią o
 Moim zdaniem warto ustawić jak najniższe, dopasowane do naszych przeciętnych wydatków. Dodatkową zaletą takiego zaciskania pasa będzie fakt, że może to zapobiec nieprzemyślanym zakupom :wink:  
 A gdy trzeba sypnąć większym groszem, to można po prostu chwilowo zwiększyć limit przez stronę banku. Albo płacić w&nbsp;gotówce noszonej na czarną godzinę.
 
-W przypadku PKO BP limity można zmienić, logując się na konto iPKO. I&nbsp;wybierając `Moje produkty > Karta > (wybrać kartę) > Szczegóły i&nbsp;zarządzanie kartą > zmień limity`.  
+W przypadku PKO BP limity można zmienić, logując się na konto iPKO. I&nbsp;wybierając `Moje produkty > Karta > (wybrać kartę) > Szczegóły i zarządzanie kartą > zmień limity`.  
 Każdą zmianę trzeba następnie potwierdzić w&nbsp;wybrany przez nas sposób (SMS / przez apkę / inny).
 
 # Płatności internetowe
@@ -235,10 +237,10 @@ Cały proces jest dokładnie taki sam, jak przy robieniu przelewu ze swojego kon
 
 Niestety nie zawsze jest tak fajnie. Czasem, co odkryłem ku swojemu zdziwieniu, **do kupienia czegoś przez internet mogą wystarczyć dane z&nbsp;przodu karty**. 
 
-Po pierwsze, wspomniane 3DSecure nie jest wymagane. Co już wcześniej zauważyłem podczas kupowania biletów na RyanAira i&nbsp;WizzAira (jedni wymagali, drudzy nie).  
+Po pierwsze, wspomniane *3DSecure* nie jest wymagane. Co już wcześniej zauważyłem podczas kupowania biletów na RyanAira i&nbsp;WizzAira (jedni wymagali, drudzy nie).  
 Bardziej zaskoczyło mnie to, że [numer z&nbsp;odwrotu również nie jest wymagany](https://www.quora.com/How-is-that-possible-that-some-websites-like-booking-com-can-charge-my-debit-card-without-knowing-my-CVV-code-Isnt-that-supposed-to-be-necessary/answer/Rob-Scriven).
 
-Okazuje się, że obie rzeczy są dobrowolne. Tyle że, nie wdrażając 3DSecure i&nbsp;kodu CVV2, firmy rzekomo [biorą na siebie większą odpowiedzialność](https://securionpay.com/blog/3d-secure/) i&nbsp;w przypadku wniesienia reklamacji mamy dużą szansę odzyskania pieniędzy. Większość z&nbsp;nich woli się tak nie narażać i&nbsp;wprowadza zabezpieczenia.  
+Okazuje się, że obie rzeczy są dobrowolne. Tyle że, nie wdrażając *3DSecure* i&nbsp;kodu *CVV2*, firmy rzekomo [biorą na siebie większą odpowiedzialność](https://securionpay.com/blog/3d-secure/) i&nbsp;w przypadku wniesienia reklamacji mamy dużą szansę odzyskania pieniędzy. Większość z&nbsp;nich woli się tak nie narażać i&nbsp;wprowadza zabezpieczenia.  
 Ale **taki Amazon już nie**. Z&nbsp;jakiegoś powodu woli brać ewentualne straty na klatę, byle zakupy szły szybciej.
 
 Z jednej strony można to wykorzystać. Gdyby ktoś nieuczciwy odczytał przód naszej karty i&nbsp;coś kupił przez Amazon na nasz koszt, to powinniśmy mieć mocne argumenty w&nbsp;sprawie o&nbsp;odzyskanie kaski.  
@@ -250,7 +252,7 @@ O ile nie oddamy komuś karty na dłużej, to nie odczyta danych.
 
 Poza tym to zabezpieczenie tymczasowe i&nbsp;łatwo je odkręcić, gdyby było trzeba. Gdyby ktoś się na przykład obawiał, że zaklejona karta utknie w szczelinie bankomatu, to można po prostu odkleić taśmę przed jej włożeniem.
 
-Kolejna linia obrony to limit płatności internetowych. Ustawiany analogicznie jak te z&nbsp;poprzedniego punktu.  
+Kolejna linia obrony to limit dzienny dla płatności internetowych. Ustawiany analogicznie jak te z&nbsp;poprzedniego punktu.  
 No i, jeśli już koniecznie chcemy dać się uratować bankowi, jest też opcja reklamacji (*chargebacku*). 
 
 ## Wizyta w&nbsp;oddziale banku
@@ -276,10 +278,10 @@ Owszem, podobno w&nbsp;banku jest jakaś weryfikacja „na oko/podpis”. Ale tr
 
 Pierwsze i&nbsp;oczywiste -- **po zgubieniu dowodu jak najszybciej go zastrzegamy**. Można na poziomie ogólnym, można na poziomie banku. W&nbsp;przypadku PKO BP da się to zrobić choćby przez SMS.
 
-Poza tym w&nbsp;internecie znalazłem wpis mówiący o&nbsp;tym, że w&nbsp;PKO BP również podczas osobistej wizyty trzeba pokazać dodatkowy kod potwierdzający.  
-Tu wprawdzie bloger krytykuje to rozwiązanie -- bo babci utrudnia życie -- ale moim zdaniem to bardzo dobra wiadomość. Nie wystarczyłby jeden plastikowy kartonik, żeby nas okraść ze wszystkiego.
+Na stronie PKO BP znalazłem informację, że od 2018 r. również podczas osobistej wizyty trzeba [pokazać dodatkowy kod potwierdzający](https://www.pkobp.pl/aktualnosci/autoryzacja-transakcji-kodem-sms-w-placowkach-banku/).  
+Niektórzy mogą krytykować -- bo babci utrudnia życie -- ale moim zdaniem to bardzo dobra wiadomość. Nie wystarczyłby jeden plastikowy kartonik, żeby nas okraść ze wszystkiego.
 
-Jeśli jednak przyjmiemy, że nie możemy liczyć na żadne zabezpieczenia ze strony banku, a&nbsp;zastrzec nie zdążymy, to utrata dowodu = pewna utrata pieniędzy.  
+Jeśli jednak założymy, że nie możemy liczyć na żadne zabezpieczenia ze strony banku, a&nbsp;zastrzec dowodu nie zdążymy, to jego utrata = pewna utrata pieniędzy.  
 Wtedy człowiekowi ostrożnemu zostaje jedno rozwiązanie -- w&nbsp;miarę możliwości nie nosić przy sobie dowodu.
 
 Dotąd kojarzyłem skądś opinię, że „każdy musi mieć dowód osobisty” (albo będzie kara). Ponoć na szczęście nie jest aż tak źle. Mieć wyrobiony owszem, rzekomo trzeba, ale według [Dziennika Prawnego](https://www.dziennikprawny.pl/pl/a/czy-zawsze-trzeba-miec-przy-sobie-dowod-osobisty) nie trzeba go przy sobie nosić.
@@ -302,12 +304,12 @@ W ten sposób omówiliśmy trochę zagrożeń zewnętrznych. Czas na ciemniejsze
 
 ## Ciemne strony
 
-Zawsze jakieś muszą być, prawda? W&nbsp;przypadku banków tymi bardziej oczywistymi jest w&nbsp;moich oczach wykłócanie się z&nbsp;klientami i&nbsp;próba przypisania im *rażącej niedbałości*. Mniej oczywiste to uzależnianie się od naszych starych znajomych, korporacji z&nbsp;USA.
+Zawsze jakieś muszą być, prawda? W&nbsp;przypadku banków tymi bardziej oczywistymi jest w&nbsp;moich oczach wykłócanie się z&nbsp;klientami i&nbsp;próba przypisania im *rażącego niedbalstwa*. Mniej oczywiste to uzależnianie się od naszych starych znajomych, korporacji z&nbsp;USA.
 
 # Wpadki i&nbsp;opór ze strony banków
 
 W tym wpisie przyjąłem założenie „nie ma co liczyć na bank, pomóżmy sobie sami”.  
-Z jednej strony to eksperyment myślowy, ale z&nbsp;drugiej -- miałem pewne przesłanki, żeby jednak nie oddawać się w&nbsp;całości bankom.
+Z jednej strony to eksperyment myślowy, ale z&nbsp;drugiej -- miałem pewne przesłanki, żeby jednak nie do końca ufać bankom.
 
 Przede wszystkim same czasem promowały nieodpowiedzialne zachowania. Taki mBank kiedyś w&nbsp;ramach konkursu w&nbsp;mediach społecznościowych poprosił klientów o&nbsp;[pochwalenie się zdjęciami kart](https://niebezpiecznik.pl/post/mbank-poprosil-klientow-o-wrzucenie-zdjec-kart-platniczych-na-instagrama/).
 
