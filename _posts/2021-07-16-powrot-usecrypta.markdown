@@ -76,7 +76,7 @@ Od tamtego czasu przybyło wiele kolejnych postów. Niektóre mówiące o&nbsp;k
 
 Wśród tej słodkości pojawiały się negatywne komentarze. Ale były bagatelizowane albo znikały:
 
-<img src="/assets/posts/usecrypt-dwa/usecrypt-komentarze.webp" alt="Zrzuty ekranu pokazujące dwa komentarze ze strony UseCrypta na Facebooku. Oba zawierają zarzuty wobec UseCrypta. Pierwsza odpowiedź Usecrypta odsyła pod ogólny adres biura prasowego. Druga bagatelizuje sprawę, życzy uśmiechu i&nbsp;słońca."/>
+<img src="/assets/posts/usecrypt-dwa/usecrypt-komentarze.jpg" alt="Zrzuty ekranu pokazujące dwa komentarze ze strony UseCrypta na Facebooku. Oba zawierają zarzuty wobec UseCrypta. Pierwsza odpowiedź Usecrypta odsyła pod ogólny adres biura prasowego. Druga bagatelizuje sprawę, życzy uśmiechu i&nbsp;słońca."/>
 
 {:.figcaption}
 Źródło: fanpage UseCrypta na Facebooku.
@@ -203,7 +203,7 @@ UseCrypt powstał w&nbsp;Polsce. Ale w&nbsp;2019 roku zainteresował się nim f
 Tylko ciekawić może jedno. Idąc tropem jednego komentarza ze strony *nikodemus-klienci*, wszedłem w&nbsp;amerykańską wyszukiwarkę firm. A&nbsp;tam:
 
 {:figure}
-<img src="/assets/posts/usecrypt-dwa/usecrypt-usa.webp" alt="Zrzut ekranu z&nbsp;amerykańskiego rejestru firm. Widać że Usecrypt USA został założony w&nbsp;2017 roku."/>
+<img src="/assets/posts/usecrypt-dwa/usecrypt-usa.jpg" alt="Zrzut ekranu z&nbsp;amerykańskiego rejestru firm. Widać że Usecrypt USA został założony w&nbsp;2017 roku."/>
 
 {:.figcaption}
 Źródło: [delaware.gov](https://icis.corp.delaware.gov/eCorp/EntitySearch/NameSearch.aspx) (trzeba wpisać `usecrypt` w&nbsp;wyszukiwarce)
@@ -224,15 +224,15 @@ Poza tym zachęcam do zweryfikowania informacji! Podałem numery KRS dla każdej
 
 Wykres dla pierwszego Largo (numer KRS 0000337116):
 
-<img src="/assets/posts/usecrypt-dwa/largo-capital-1.webp" alt="Wykres pokazujący historię spółki, która zaczęła jako Largo Capital Sp. z o.o, a potem zmieniła nazwę na Q220. Widać, że w swojej historii miała 9 różnych wspólników. W 2016 roku jednym z nich na krótko została firma Barkeley Funds. We wrześniu 2019 r. Paweł M., prezes UseCrypta. Po nim, od kwietnia 2019 roku, była to firma Lazar Vision Fund Lp."/>
+<img src="/assets/posts/usecrypt-dwa/largo-capital-1.jpg" alt="Wykres pokazujący historię spółki, która zaczęła jako Largo Capital Sp. z o.o, a potem zmieniła nazwę na Q220. Widać, że w swojej historii miała 9 różnych wspólników. W 2016 roku jednym z nich na krótko została firma Barkeley Funds. We wrześniu 2019 r. Paweł M., prezes UseCrypta. Po nim, od kwietnia 2019 roku, była to firma Lazar Vision Fund Lp."/>
 
 Dla drugiego (numer KRS 0000418572):
 
-<img src="/assets/posts/usecrypt-dwa/largo-capital-2.webp" alt="Wykres pokazujący historię spółki nazwanej LC2, która zaczęła jako Abbey Asset Management, potem zmieniła nazwę na Dimerra Spółka z o.o spółka komandytowo-akcyjna, a potem na Largo Capital (UK) Limited spółka komandytowo-akcyjna. Przy każdej ze zmian zmieniał się też jedyny wspólnik, zawsze mający podobną nazwę do LC2."/>
+<img src="/assets/posts/usecrypt-dwa/largo-capital-2.jpg" alt="Wykres pokazujący historię spółki nazwanej LC2, która zaczęła jako Abbey Asset Management, potem zmieniła nazwę na Dimerra Spółka z o.o spółka komandytowo-akcyjna, a potem na Largo Capital (UK) Limited spółka komandytowo-akcyjna. Przy każdej ze zmian zmieniał się też jedyny wspólnik, zawsze mający podobną nazwę do LC2."/>
 
 I dla trzeciego (numer KRS 0000674581):
 
-<img src="/assets/posts/usecrypt-dwa/largo-capital-3.webp" alt="Wykres pokazujący historię zmian w spółce LC3, pierwotnie Largo 1 Sp. z o.o. W 2019 roku zmieniła nazwę na Grosvenor Capital Sp. z o.o., a w 2020 roku na Lazar Vision Fund Sp. z o.o. Jednocześnie, wraz ze zmianą nazwy na Grosvenor, jedynym wspólnikiem w firmie została spółka Lazar Vision Fund LP."/>
+<img src="/assets/posts/usecrypt-dwa/largo-capital-3.jpg" alt="Wykres pokazujący historię zmian w spółce LC3, pierwotnie Largo 1 Sp. z o.o. W 2019 roku zmieniła nazwę na Grosvenor Capital Sp. z o.o., a w 2020 roku na Lazar Vision Fund Sp. z o.o. Jednocześnie, wraz ze zmianą nazwy na Grosvenor, jedynym wspólnikiem w firmie została spółka Lazar Vision Fund LP."/>
 
 Jeśli wolicie formę tekstową, to rozwińcie poniższy element.
 
@@ -306,12 +306,12 @@ Po trzecie: po odrobinie wyszukiwania można odkryć, że niektórzy wspólnicy 
 Choć Sandra M., jedna z&nbsp;głównej trójcy, nieco wycofała się z&nbsp;UseCrypta, nadal dzielnie króluje w&nbsp;kilku firmach:
 
 {:.figure .bigspace}
-<img src="/assets/posts/usecrypt-dwa/sandra-m-powiazania.webp" alt="Wykres ze strony Rejestr IO."/>
+<img src="/assets/posts/usecrypt-dwa/sandra-m-powiazania.jpg" alt="Wykres ze strony Rejestr IO."/>
 
 W tym w&nbsp;Polskim Domu Mediowym z&nbsp;Lublina. Spójrzmy, jakimi projektami może się poszczycić to przedsiębiorstwo:
 
 {:.figure .bigspace}
-<img src="/assets/posts/usecrypt-dwa/polski-dom-mediowy-realizacje.webp" alt="Zrzut ekranu ze strony Polskiego Domu Mediowego, pokazujący logotypy firm, z&nbsp;którymi współpracowali. 6 z&nbsp;11 otoczono kolorowymi ramkami."/>
+<img src="/assets/posts/usecrypt-dwa/polski-dom-mediowy-realizacje.jpg" alt="Zrzut ekranu ze strony Polskiego Domu Mediowego, pokazujący logotypy firm, z&nbsp;którymi współpracowali. 6 z&nbsp;11 otoczono kolorowymi ramkami."/>
 
 Czerwonymi ramkami otoczyłem firmy powiązane z&nbsp;UseCryptem.
 
@@ -339,7 +339,7 @@ Ale ślady powiązań zostały! Na przykład pod tym [postem z&nbsp;Instagrama](
 Zostawmy na chwilę powiązania Sandry i&nbsp;spójrzmy na Jakuba:
 
 {:.figure .bigspace}
-<img src="/assets/posts/usecrypt-dwa/jakub-k-powiazania.webp" alt="Graf ze strony rejestr IO pokazujący powiązania Jakuba K. Widać, że jest połączony z&nbsp;ikonami odpowiadającymi firmom: Lazar Vision Fund, Stacja Głubczyce, Cavendish Rentier, Cyberheaven."/>
+<img src="/assets/posts/usecrypt-dwa/jakub-k-powiazania.jpg" alt="Graf ze strony rejestr IO pokazujący powiązania Jakuba K. Widać, że jest połączony z&nbsp;ikonami odpowiadającymi firmom: Lazar Vision Fund, Stacja Głubczyce, Cavendish Rentier, Cyberheaven."/>
 
 Rzućmy okiem na Cyberheaven (które póki co nic większego nie zrobiło, z&nbsp;tego co wiem) i&nbsp;na postać Kamila K., który dzieli z&nbsp;Jakubem K. władzę nad tą firmą.
 
@@ -412,13 +412,14 @@ Tylko że, według [artykułu z&nbsp;izraelskiej gazety Haaretz](https://www.haa
 
 Według artykułu był zamieszany w&nbsp;konflikty rodzinne, rozwód, długi. Często dołączał do firm głównie jako twarz, syn byłego premiera:
 
-> “People ask him to help them start a&nbsp;business, then don’t remember that Yuval helped them. He always lends a&nbsp;hand to anybody seeking it, but sometimes people take advantage of that.”
-
-> Again his role seems to have been largely symbolic, while the living spirit behind the project was Huberman.
-
-> According to Eddy Shalev, manager of the Genesis venture capital fund, “He doesn’t really engage in high-tech. He’s brought in as a&nbsp;figure, a&nbsp;name.”
-
-> “He knows about computers and technology but apparently they wanted him for his name, to open doors.”
+{:.bigspace}
+> “People ask him to help them start a&nbsp;business, then don’t remember that Yuval helped them. He always lends a&nbsp;hand to anybody seeking it, but sometimes people take advantage of that.”  
+(...)  
+Again his role seems to have been largely symbolic, while the living spirit behind the project was Huberman.  
+(...)  
+According to Eddy Shalev, manager of the Genesis venture capital fund, “He doesn’t really engage in high-tech. He’s brought in as a&nbsp;figure, a&nbsp;name.”  
+(...)  
+“He knows about computers and technology but apparently they wanted him for his name, to open doors.”
 
 Mimo że kształcił się jako programista, wciąż jest głównie twarzą cudzych, niekoniecznie udanych interesów.
 
@@ -447,13 +448,13 @@ Czym właściwie jest UseCrypt?
 Może odpowie nam cytat z&nbsp;30 stycznia, z&nbsp;Instagrama pani prezes Sandry M.:
 
 {:.figure}
-<img src="/assets/posts/usecrypt-dwa/mindset.webp" alt="Czarny napis na białym tle mówiący: 'mindset. This is not a&nbsp;product, it's a&nbsp;mindset.'"/>
+<img src="/assets/posts/usecrypt-dwa/mindset.jpg" alt="Czarny napis na białym tle mówiący: 'mindset. This is not a&nbsp;product, it's a&nbsp;mindset.'"/>
 
 {:.figcaption}
-Źródło: [Instagram](https://www.instagram.com/p/CKqjNaEBHM_/)
+Źródło: publiczne konto Sandry M. na Instagramie.
 
 A jakie słowa mogłyby pocieszyć trzy portale, które ktoś anonimowo zgłosił do prokuratury?  
-To może pani rzecznik UseCrypta ma radę:
+Być może pani rzecznik UseCrypta ma dla nich dobre słowo:
 
 > Bo tylko ludzie bardzo nieszczęśliwi tracą czas i&nbsp;energię na to, by oczerniać innych.
 
