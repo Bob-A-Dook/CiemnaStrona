@@ -83,19 +83,12 @@ A teraz wyobraźmy sobie, że założyliśmy konto. Podczas pierwszego logowania
 A teraz odwiedzamy stronę banku któryś raz z&nbsp;rzędu. Wita nas tradycyjne pytanie o&nbsp;login.
 
 {:.figure}
-<picture>
-<source srcset="/assets/posts/bank-ochrona/logowanie-poczatek.webp">
 <img class="bigspace" width="400px" src="/assets/posts/bank-ochrona/logowanie-poczatek.jpg" alt="Zrzut ekranu pokazujący formularz logowania do banku. Widać tutaj jedno pole, z&nbsp;miejscem na login."/>
-</picture>
-
 
 Ale to nie wszystko! Po wpisaniu loginu pojawia się dodatkowo pole pytające o&nbsp;hasło. Obok pojawia się **obrazek bezpieczeństwa**, który ustawialiśmy sami przy pierwszym logowaniu. Czemu on służy?
 
 {:.figure}
-<picture>
-<source srcset="/assets/posts/bank-ochrona/logowanie-obrazek-bezpieczenstwa.webp">
 <img width="400px" src="/assets/posts/bank-ochrona/logowanie-obrazek-bezpieczenstwa.jpg" alt="Zrzut ekranu pokazujący pole z&nbsp;napisem 'Wpisz hasło'. Po prawej stronie widać wyświetlony nam obrazek (tutaj zamieniony na logo Ciemnej Strony), a&nbsp;pod nim aktualną datę."/>
-</picture>
 
 {:.figcaption}
 Obrazek bezpieczeństwa podczas logowania na konto w&nbsp;PKO BP. Zmieniony przeze mnie.
@@ -116,10 +109,7 @@ Kiedy ofiary zaczynały tam wpisywać dane, to te na żywo leciały do oszustó
 Jest jeszcze jedno zabezpieczenie! Jeśli używamy innego komputera albo przeglądarki niż zwykle, to bank może nas poprosić o&nbsp;*dodatkowy kod potwierdzający* (który otrzymamy w&nbsp;takiej formie, jaką wcześniej wybraliśmy -- np. jako SMS-a albo kod wyświetlany w&nbsp;aplikacji).
 
 {:.figure}
-<picture>
-<source srcset="/assets/posts/bank-ochrona/logowanie-zmiana-zaufanego.webp">
 <img class="bigspace" width="400px" src="/assets/posts/bank-ochrona/logowanie-zmiana-zaufanego.jpg" alt="Zrzut ekranu ze strony PKO BP pokazujące pole proszące o wpisanie z SMS-a kodu dodającego urządzenie do zaufanych."/>
-</picture>
 
 Jak to robi? Trzyma w&nbsp;swojej bazie informacje o&nbsp;tym, jaki identyfikator urządzenia (*user agent*) mieliśmy, gdy go wcześniej odwiedzaliśmy. Jeśli tym razem przyjdziemy z&nbsp;innym, nieznanym, to prosi o&nbsp;weryfikację.
 
@@ -133,10 +123,7 @@ Potem przepuści nas na stronę główną naszego konta. Niezależnie od tego, 
 
 I wyśle nam odpowiednie SMS-y. Każdy z nich zawiera na końcu kod, który musimy wpisać w pole.
 
-<picture>
-<source srcset="/assets/posts/bank-ochrona/smsy-zmiany.webp">
 <img class="bigspace" width="400px" src="/assets/posts/bank-ochrona/smsy-zmiany.jpg" alt="Dwa SMS-y z kodami pozwalającymi zrobić różne rzeczy na stronie banku. Większość danych zakryto."/>
-</picture>
 
 Słowem: prawie wszystko chronione dodatkowym kodem.  
 Właściwie jedyne informacje, jakie są tam niezasłonięte, to **nasze imię i&nbsp;nazwisko, podany adres kontaktowy, stan konta i&nbsp;po kilka cyfr z&nbsp;pozostałych numerów**.
@@ -148,10 +135,7 @@ W wariancie mniej barbarzyńskim: zadzwonić do nas, podając się za pracownik�
 Kolejne zabezpieczenie to licznik czasu. **Jeśli przez 5 minut jesteśmy na jednej stronie, to nas wyloguje**.
 
 {:.figure}
-<picture>
-<source srcset="/assets/posts/bank-ochrona/limit-czasu.webp">
 <img class="bigspace" width="400px" src="/assets/posts/bank-ochrona/limit-czasu.jpg" alt="Zrzut ekranu pokazujący białe pole z&nbsp;ikoną zegarka i&nbsp;napisem, że pozostały 23 sekundy do wylogowania."/>
-</picture>
 
 Ta bardziej oczywista sytuacja, przed którą ma to chronić, to pewnie korzystanie z&nbsp;banku na publicznym komputerze i&nbsp;zostawienie się na zalogowanym koncie.
 
@@ -239,10 +223,7 @@ Oprócz chipa, który pomaga przy bankomatach i&nbsp;płatnościach zbliżeniowy
 * numer CVV2 (na odwrocie karty).
 
 {:.figure}
-<picture>
-<source srcset="/assets/posts/bank-ochrona/karta-przyklad.webp">
 <img width="400px" src="/assets/posts/bank-ochrona/karta-przyklad.jpg" alt="Zdjęcie przykładowej karty płatniczej ze strony PKO, z&nbsp;fałszywymi danymi."/>
-</picture>
 
 {:.figcaption}
 Zdjęcie karty to przykład ze strony PKO, z&nbsp;fałszywymi danymi; ale i&nbsp;tak zakryłem.
@@ -286,10 +267,7 @@ Jeśli ma również kartę, bo na przykład zgarnął cały nasz portfel, to tę
 
 Podobno w&nbsp;bankach patrzą, czy wygląd zgadza się z&nbsp;tym z&nbsp;dowodu. Zatem złodziej, mając nasze zdjęcie z&nbsp;dowodu, może się odpowiednio wystylizować i&nbsp;ruszyć do najbliższego oddziału.
 
-<picture>
-<source srcset="/assets/posts/bank-ochrona/ff7-przebieranka.webp">
 <img src="/assets/posts/bank-ochrona/ff7-przebieranka.jpg" alt="Dwa zrzuty ekranu z&nbsp;Final Fantasy 7 w&nbsp;nowej wersji. Kadr u&nbsp;góry pokazuje głównego bohatera, mężczyznę o&nbsp;blond włosach z&nbsp;mieczem na plecach. Obrazek jest połączony strzałką z&nbsp;innym obrazkiem, na którym widać tę samą postać w&nbsp;blond peruce i&nbsp;dwiema kokardkami na warkoczach."/>
-</picture>
 
 {:.figcaption}
 Źródło: Remake *Final Fantasy VII*.
