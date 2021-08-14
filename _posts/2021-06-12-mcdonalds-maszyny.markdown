@@ -84,7 +84,7 @@ W USA można nieco okrężną drogą sprawdzić dostępność produktów -- **je
 Rashiq napisał program regularnie próbujący składać zamówienia, a&nbsp;w przypadku niepowodzenia wstawiający informację, że maszyna nie działa. Na tej podstawie powstała strona [McBroken](https://mcbroken.com/). Interaktywna mapa McDonaldsów z&nbsp;zepsutymi maszynami.
 
 {:.figure}
-<img src="/assets/posts/mcdonald-lody/mcbroken-strona.webp" alt="Zrzut ekranu ze strony McBroken, pokazujący mapę Ameryki z&nbsp;nałożonymi czerwonymi i&nbsp;zielonymi kropkami. Czerwone odpowiadają zepsutym lub wyłączonym z&nbsp;użytku maszynom. Statystyka po prawej stronie pokazuje, że prawie 10% maszyn w&nbsp;całym USA jest zepsutych."/>
+<img src="/assets/posts/mcdonald-lody/mcbroken-strona.jpg" alt="Zrzut ekranu ze strony McBroken, pokazujący mapę Ameryki z&nbsp;nałożonymi czerwonymi i&nbsp;zielonymi kropkami. Czerwone odpowiadają zepsutym lub wyłączonym z&nbsp;użytku maszynom. Statystyka po prawej stronie pokazuje, że prawie 10% maszyn w&nbsp;całym USA jest zepsutych."/>
 
 {:.figcaption}
 Źródło: [McBroken](https://mcbroken.com/).
@@ -149,7 +149,7 @@ Na ich drodze do samodzielnej naprawy stoją:
 * nieczytelne komunikaty na maszynie;
 * instrukcja często polecająca dzwonić po serwisantów.
 
-<img src="/assets/posts/mcdonald-lody/taylor-komunikaty.webp" alt="Kolaż pokazujący dwa niezrozumiałe komunikaty wyświetlane na maszynie Taylora, a&nbsp;pod spodem zdjęcie instrukcji, na którym zakreślone trzy przypadki, kiedy każe dzwonić po technika." width="600px"/>
+<img src="/assets/posts/mcdonald-lody/taylor-komunikaty.jpg" alt="Kolaż pokazujący dwa niezrozumiałe komunikaty wyświetlane na maszynie Taylora, a&nbsp;pod spodem zdjęcie instrukcji, na którym zakreślone trzy przypadki, kiedy każe dzwonić po technika." width="600px"/>
 
 {:.figcaption}
 Ciężkie życie właściciela maszyny do lodów.  
@@ -194,7 +194,7 @@ Para stworzyła zatem urządzenie nazwane Kytch. Gadżet, który można podłąc
 A ten wtedy przetwarza dane i&nbsp;pokazuje je w&nbsp;bardziej czytelny sposób. Oszczędzając właścicielom restauracji ciągłego wzywania serwisantów.
 
 {:.figure}
-<img src="/assets/posts/mcdonald-lody/kytch-ekran.webp" alt="Zrzut ekranu pokazujący ekran samrtfona. Widać na nim ujęcie z&nbsp;filmiku pokazującego symulację działania maszyny. A&nbsp;także komunikat mówiący, że jest przepełniona." width="400px"/>
+<img src="/assets/posts/mcdonald-lody/kytch-ekran.jpg" alt="Zrzut ekranu pokazujący ekran samrtfona. Widać na nim ujęcie z&nbsp;filmiku pokazującego symulację działania maszyny. A&nbsp;także komunikat mówiący, że jest przepełniona." width="400px"/>
 
 {:.figcaption}
 Kytch pokazywał bardziej zrozumiały komunikat -- maszyna przepełniona.  

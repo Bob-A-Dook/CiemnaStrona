@@ -2,6 +2,7 @@
 layout: post
 title:  "Intel Management Engine"
 subtitle: "Potencjalny szpieg w twoim procesorze."
+description: "Potencjalny szpieg w twoim procesorze"
 date:   2021-07-26 17:10:37 +0100
 tags: [Hardware, Centralizacja, DRM]
 firmy: [Intel]

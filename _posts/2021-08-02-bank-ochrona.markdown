@@ -2,6 +2,7 @@
 layout: post
 title: "Ochrona jak w banku"
 subtitle: "Kto i jak pilnuje naszych skarbów."
+description: "Jak pomóc bankowi pilnować naszych skarbów."
 date:   2021-08-02 14:50:00 +0100
 tags: [Bankowość, Centralizacja, Podstawy, Porady]
 firmy: [Amazon, Google]
