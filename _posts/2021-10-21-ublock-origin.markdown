@@ -5,6 +5,9 @@ subtitle: "Tarcza, która cię osłoni (przed śledzeniem)."
 description: "Tarcza, która cię osłoni (przed śledzeniem)."
 date:   2021-10-21 10:00:00 +0100
 tags: [Internet, Inwigilacja, Porady]
+image: "ublock-origin/google-vs-ublock-origin.jpg"
+image-width: 900
+image-height: 669
 ---
 
 ## Na szybko

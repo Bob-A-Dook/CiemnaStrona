@@ -5,6 +5,9 @@ subtitle: "Opanowujemy naszą tarczę."
 description: "Opanowujemy naszą tarczę"
 date:   2021-10-21 12:10:00 +0100
 tags: [Internet, Inwigilacja, Porady]
+image: "ublock-origin/google-vs-ublock-origin.jpg"
+image-width: 900
+image-height: 669
 ---
 
 Witajcie w&nbsp;rozwinięciu [krótkiego wpisu]({% post_url 2021-10-21-ublock-origin %}){:.internal} pokazującego jak zainstalować uBlock Origin -- moim zdaniem **najważniejsze narzędzie do blokowania elementów śledzących**, obecnych na wielu stronach internetowych.
@@ -207,7 +210,7 @@ W takiej sytuacji niszczyciel bardzo pomaga. Pojawia nam się okno pytające o&n
 type="Porada"
 text="Czasem elementów do zniszczenia jest wiele (na przykład baner złożony z&nbsp;kilku warstw). A&nbsp;po zwykłym kliknięciu tryb niszczenia się wyłącza i&nbsp;trzeba znowu klikać w&nbsp;błyskawicę.  
 Żeby oszczędzić kliknięć, możemy skorzystać ze [świetnego udogodnienia](https://github.com/gorhill/uBlock/wiki/Element-zapper) -- wystarczy najechać kursorem na element, żeby się podświetlił, i&nbsp;nacisnąć `Delete`. Usuniemy go bez opuszczania trybu niszczenia.  
-Co więcej, w&nbsp;menu uBO, w&nbsp;zakładce „Skróty”, możemy ustawić skrót klawiszowy włączający tryb usuwania. Warto tu dać coś mało używanego (osobiście wybrałem `Shift`+`,`)"
+Co więcej, w&nbsp;menu uBO, w&nbsp;zakładce „Skróty”, możemy ustawić skrót klawiszowy włączający tryb usuwania. Warto tu dać coś mało używanego (osobiście wybrałem `Ctrl`+`,`)"
 %}
 
 # 5. Ustawienia
