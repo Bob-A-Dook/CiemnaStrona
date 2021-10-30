@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" stroke-linecap="round">
+ <rect fill="#252525" x="0" y="0" height="40" width="40"/>
+ <circle fill="#0026c4" stroke="#4bc9c8" cx="12" cy="12" r="10"/>
+ <path d="M 6 14 a 10 20 0 0 0 12 0" stroke="#bad2f9" fill="none"/>
+ <path d="M 6 9 a 10 70 1 0 1 4 0" stroke="#bad2f9" fill="none"/>
+ <path d="M 14 9 a 10 70 1 0 1 4 0" stroke="#bad2f9" fill="none"/>
+ <text x="1" y="30" font-size="5px" fill="#ddd">Ciemna strona</text>
+ <rect x="1" y="26" width="39" height="5" fill="#ddd"/>
+</svg>

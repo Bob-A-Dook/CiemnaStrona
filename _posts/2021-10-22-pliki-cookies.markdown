@@ -7,6 +7,9 @@ tags: [Internet, Inwigilacja, Podstawy, Porady]
 firmy: [Amazon, Facebook, Google]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
+image: "pliki-cookie/straznik-polaczone.jpg"
+image-width: 1023
+image-height: 520
 ---
 
 W ramach „Internetowej inwigilacji” piszę póki co o&nbsp;nagłówkach HTTP -- swoistej *wizytówce* z&nbsp;informacjami, które za kulisami wysyła stronom internetowym nasza przeglądarka.
@@ -192,7 +195,7 @@ trailer="Zaciekawiły mnie te ciasteczka z&nbsp;FlixBusa, więc trochę o&nbsp;n
 </ul>
 <p>Więcej o&nbsp;tych ciasteczkach oraz o&nbsp;ich celu <a href='https://docs.aws.amazon.com/elasticloadbalancing/latest/application/sticky-sessions.html'>pisze sam Amazon</a>.</p>
 <p>Z kolei ciasteczko <code>ab_bucket</code> zapewne mówi, do jakiej grupy testowej trafiliśmy. <em>A/B testing</em> polega na wysyłaniu różnym użytkownikom różnych wersji strony i&nbsp;patrzeniu, co zrobią; <em>bucket</em> (dosł. „wiadro”) to ogólne określenie na grupę, do której coś przydzielono.</p>
-Wniosek: nazwy i&nbsp;skróty często sporo nam mówią!</p>
+<p>Wniosek: nazwy i&nbsp;skróty często sporo nam mówią!</p>
 "%}
 
 ## Ciemne strony plików cookies
@@ -205,21 +208,21 @@ Przede wszystkim ciasteczka **są dla strony ostatecznym identyfikatorem**, pewn
 Po wczytaniu się w&nbsp;poprzednie wpisy z&nbsp;„Internetowej inwigilacji” ktoś może wpaść na pomysł: 
 
 {:.bigspace}
-> Zmienię sobie IP i&nbsp;wejdę na swoje konto na Facebooka! Nie poznają mnie.
+> Zmienię sobie IP i&nbsp;wejdę na swoje konto na Facebooku! Nie poznają mnie.
 
 Niestety tak to nie działa. **Bez odpowiednich plików cookies nie wejdziemy na swoje konto**.
 
-Gdybyśmy spróbowali np. zrobić to przez nową przeglądarkę, Y, to po prostu pokaże się ekran logowania. Musimy wpisać login i&nbsp;hasło. A&nbsp;po zalogowaniu dostajemy nowe ciasteczka.  
-Zaś serwer może sobie zanotować „Aha, czyli użytkownik *725364* oprócz przeglądarki X&nbsp;używa też Y”.
+Gdybyśmy spróbowali np. odwiedzić nasze konto przez nową przeglądarkę, Y, to po prostu pokaże się ekran logowania. Musimy wpisać login i&nbsp;hasło. A&nbsp;po zalogowaniu dostajemy nowe ciasteczka.  
+Zaś serwer może sobie zanotować „Aha, czyli użytkownik *bob.adook.725364* oprócz przeglądarki X&nbsp;używa też Y”.
 
 Z jednej strony trudno sobie wyobrazić inne rozwiązanie problemu prywatnych kont. Strona musi skądś wiedzieć, kogo wpuścić na dane konto. Potrzeba jakiegoś identyfikatora.
 
-A efekt uboczny -- że dzięki ciasteczkom wie dokładnie, co na niej robiliśmy? Nie byłoby to problemem przy małych stronach, gdzie i&nbsp;tak niewiele zrobimy po zalogowaniu.
+A efekt uboczny -- że dzięki ciasteczkom wie dokładnie, co na niej robiliśmy? Nie byłoby to problemem przy mniejszych stronach, gdzie i&nbsp;tak po zalogowaniu nie zostawimy wielu informacji.
  
 Ale spędzając godziny na stronach gigantów -- jak Facebook, Google czy Amazon -- zostawiamy dużo cennych danych o&nbsp;sobie, przypisanych do naszej tożsamości.
 
-W ten sposób **wielkie firmy stają się *de facto* odrębnymi królestwami** w&nbsp;szerszym internecie. Nawet gdyby mniejsze firmy profilujące całkiem wyginęły, to giganci pozostaną.  
-A ludzie będą po nich krążyć i&nbsp;usypywać z&nbsp;ciasteczek historię wszystkiego, co na nich robili.
+W ten sposób **wielkie firmy stają się _de facto_ odrębnymi królestwami** w&nbsp;szerszym internecie. Nawet gdyby mniejsze firmy profilujące całkiem wyginęły, to giganci pozostaną.  
+A ludzie będą krążyć po ich stronach i&nbsp;usypywać z&nbsp;ciasteczek historię wszystkiego, co na nich robili.
 
 ## Jak sobie z&nbsp;nimi radzić
 
@@ -245,7 +248,8 @@ Niektórzy znają go jedynie z&nbsp;tego, że nie zapisuje historii (więc jest 
 
 Ale oprócz tego ma inną zaletę, cenniejszą dla nas. **Nie korzysta z&nbsp;zapisanych plików cookies**. Tworzy sobie dla nich nową, tymczasową bazę na czas jednej sesji, a&nbsp;potem ją usuwa.
 
-W praktyce oznacza to, że **strony odwiedzane w&nbsp;trybie incognito nie dowiedzą się od nas, że już je odwiedzaliśmy**. Mogą co najwyżej próbować to odgadnąć.
+W praktyce oznacza to, że **strony odwiedzane w&nbsp;trybie incognito nie dowiedzą się od nas, że już je odwiedzaliśmy**.  
+Mogą próbować to odgadnąć na podstawie innych informacji. Ale nasza przeglądarka nie powie im tego wprost.
 
 {% include info.html type="Ciekawostka"
 text="Na urządzeniach mobilnych z&nbsp;Androidem przydać się może przeglądarka *[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/)*. Zachowuje się tak, jakby tryb incognito był przez cały czas aktywny, regularnie usuwa pliki cookies.  
@@ -254,7 +258,7 @@ Jest jednak dość niszowa, przez regularne czystki wymaga częstego logowania o
 
 # Dodatek do przeglądarki
 
-Pliki cookies służące do celów profilowania znajdziemy czasem nawet na stronkach, na które nie trzeba się logować. Albo które w&nbsp;ogóle nie zapewniają opcji logowania.
+Pliki cookies profilujące odwiedzających znajdziemy czasem nawet na stronkach, na które nie trzeba się logować. Albo które w&nbsp;ogóle nie zapewniają opcji logowania.
 
 Na takie wypadki warto zainstalować mocnego *ad blockera*, takiego jak [uBlock Origin](https://ublockorigin.com/) (**koniecznie Origin**; jest też sam *uBlock*, ale to nie o&nbsp;niego chodzi!).
 
@@ -265,7 +269,7 @@ Najlepiej zacząć od [tego krótszego]({% post_url 2021-10-21-ublock-origin %})
 
 ## Podsumowanie
 
-Poznaliśmy ogólną zasadę działania plików cookies; rzeczy, bez której znany nam internet by zapewne nie działał. A&nbsp;jednocześnie jednego z&nbsp;głównych narzędzi inwigilacji.
+Poznaliśmy ogólną zasadę działania plików cookies -- rzeczy, bez której znany nam internet by zapewne nie działał. A&nbsp;jednocześnie jednego z&nbsp;głównych narzędzi inwigilacji.
 
 W obecnej formie ciężko z&nbsp;nimi cokolwiek zrobić. Możemy co najwyżej pamiętać, że kiedy jesteśmy zalogowani i&nbsp;chodzimy po podstronach czegoś większego (jak *facebook.com*), to możemy zapomnieć o&nbsp;prywatności.
 
