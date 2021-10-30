@@ -82,15 +82,15 @@ Jak choćby popularne AdBlock czy AdblockPlus, które mają swój program *Accep
 
 **Zdarzały się też przypadki, gdy popularny dodatek do przeglądarki został odkupiony od twórcy i&nbsp;„wzbogacony” o&nbsp;niepożądane rzeczy**.
 
-Żeby daleko nie szukać: podobny los spotkał zarówno poprzednika, jak i&nbsp;następcę uBO. Ale bez obaw! Te dwie historie pozwolą nam jeszcze bardziej docenić samego Origina.
-
 {:.figure}
-<img src="/assets/posts/ublock-origin/walka-adblockow-1.jpg" alt="Przerobiony kadr z&nbsp;mangi pokazujący jedną postać walczącą z&nbsp;trzema innymi i&nbsp;właśnie powalającą jedną z&nbsp;nich. Na twarz samotnej postaci nałożono logo uBlock Origin, a&nbsp;na twarze pozostałych loga innych dodatków: AdBlock Plus, starego uBlocka oraz Nano Defendera."/>
+<img src="/assets/posts/ublock-origin/evil-adblocks.jpg" alt="Obrazek pokazujący wiele postaci ubranych w szaty z kapturami i robiących niepokojące wrażenie. Postacie z tyłu mają maski podobne do czaszek, a na twarze czterech z przodu nałożono loga różnych ad blockerów."/>
 
 {:.figcaption}
 Źródło obrazków: manga *Tokyo Ghoul*, rozdział&nbsp;77.  
 (Ta pierwsza, o&nbsp;drugiej wolę zapomnieć).  
 Przeróbki moje.
+
+Żeby daleko nie szukać: podobny los spotkał zarówno poprzednika, jak i&nbsp;następcę uBO. Ale bez obaw! Te dwie historie pozwolą nam jeszcze bardziej docenić samego Origina.
 
 Poprzednikiem był uBlock (bez *Origin*). Został stworzony przez tego samego autora co uBO, Raymonda Hilla.
 
@@ -114,6 +114,9 @@ Z kolei „następcą” uBO mógł być Nano Defender i&nbsp;inne dodatki z&nbs
 Niestety pewnego razu grupa nieznanych, acz sympatycznych osobników zaproponowała *jspenguinowi*, że odkupią od niego dodatek.  
 Autor się zgodził, nie ostrzegając użytkowników, a&nbsp;nowi właściciele rozbudowali Nano o&nbsp;funkcje ukradkiem śledzące aktywność.
 
+{:.figure .bigspace}
+<img src="/assets/posts/ublock-origin/walka-adblockow-1.jpg" alt="Przerobiony kadr z&nbsp;mangi pokazujący jedną postać walczącą z&nbsp;trzema innymi i&nbsp;właśnie powalającą jedną z&nbsp;nich. Na twarz samotnej postaci nałożono logo uBlock Origin, a&nbsp;na twarze pozostałych loga innych dodatków: AdBlock Plus, starego uBlocka oraz Nano Defendera."/>
+
 Za całą sytuację *jspenguin* zaczął zbierać srogie baty na forum publicznym.  
 Do dyskusji, pod nickiem *gorhill*, w&nbsp;pewnym momencie [włączył się](https://github.com/jspenguin2017/Snippets/issues/2#issuecomment-709988018) Raymond Hill od uBO.
 
@@ -128,7 +131,11 @@ Oczywiście ludzie się zmieniają, więc nie traktujmy tego jak gwarancji. Ale 
 Podsumowując: z&nbsp;uBO jest jak z&nbsp;wieloma innymi rzeczami w&nbsp;życiu. Nie ufajmy w&nbsp;ciemno, warto przed instalacją się upewnić (np. wyszukać jego nazwę i&nbsp;spojrzeć, czy nie ma jakiegoś skandalu).  
 Ale póki co jest po prostu najlepszą opcją.
 
+{:.bigspace}
 <img src="/assets/posts/ublock-origin/walka-adblockow-2.jpg" alt="Przerobiony kadr z&nbsp;mangi pokazujący trzy postacie. Dwie z&nbsp;nich, na które nałożono loga starego uBlocka i&nbsp;Nano Defendera, właśnie upadły na ziemię. Trzecia postać, zwycięska, stoi pośrodku, plecami do czytelników, i&nbsp;trzyma w&nbsp;rękach dwa miecze. Na jej twarz nałożone jest logo uBlock Origin."/>
+
+{:.post-meta}
+Jeśli bardzo nie lubicie firm od reklamy internetowej -- i&nbsp;jesteście w&nbsp;stanie zainstalować dodatek spoza oficjalnego źródła -- to możecie rozważyć też [Ad&nbsp;Nauseam](https://adnauseam.io/), na bazie uBO. Zbanowany przez Google'a.
 
 ## Różne funkcje uBlock Origin
 

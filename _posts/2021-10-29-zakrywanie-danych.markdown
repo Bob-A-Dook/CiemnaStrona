@@ -109,7 +109,7 @@ Można **skonwertować każdą stronę na obrazek**, a&nbsp;potem ewentualnie po
 Jeden minus taki, że drastycznie urośnie rozmiar pliku. Ale uznajmy, że to do przeżycia.  
 Bardziej może nas zaboleć druga sprawa: **w ten sposób niestety stracimy cały tekst**.
 
-Ale na szczęście można go odzyskać poprzez *OCR* (*Optical Character Recognition*). Na pewno nie będzie w&nbsp;100% dokładny -- a&nbsp;po jego dodaniu ciężkie pliki staną się jeszcze cięższe -- ale odzyskamy choć częściowo możliwość przeszukiwania.
+Na szczęście można go odzyskać poprzez *OCR* (*Optical Character Recognition*). Na pewno nie będzie w&nbsp;100% dokładny -- a&nbsp;po jego dodaniu ciężkie pliki staną się jeszcze cięższe -- ale odzyskamy choć częściowo możliwość przeszukiwania PDF-a.
 
 W każdym razie po takim przemieleniu w&nbsp;pliku nie zostaną już żadne sekrety :wink:
 
@@ -144,13 +144,12 @@ pdftocairo -jpeg jakis.pdf
 
 </details>
 
-Skończymy z&nbsp;plikami *JPG* -- po jednym na jedną stronę. Jeśli jeszcze nie zakrywaliśmy informacji jednolitymi prostokątami, to teraz jest dobry czas.
+Skończymy z&nbsp;plikami *JPG* -- po jednym na jedną stronę. Jeśli jeszcze nie zakrywaliśmy informacji jednolitymi prostokątami, to teraz jest na to dobry czas.
 
 {:.bigspace-before}
 **2. Połączenie obrazków w&nbsp;jednego PDF-a**
 
-Czas na połączenie obrazków z&nbsp;poprzedniego kroku. W&nbsp;jednego PDF-a, w&nbsp;którym każdy obrazek jest osobną stroną.  
-Nie widzę łatwego sposobu na zrobienie tego w&nbsp;GIMP-ie, ale nadal nie powinno być źle!
+Czas na połączenie obrazków z&nbsp;poprzedniego kroku. W&nbsp;jednego PDF-a, w&nbsp;którym każdy obrazek jest osobną stroną. Nie widzę łatwego sposobu na zrobienie tego w&nbsp;GIMP-ie, ale to&nbsp;nic!
 
 Na Windowsie wystarczy je wszystkie zaznaczyć, wybrać opcję *Drukuj*, a&nbsp;potem *Drukuj do&nbsp;pliku*.  
 Z MacBookami nie mam doświadczenia, ale jeśli wierzyć [tej instrukcji](https://www.howtogeek.com/247879/how-to-combine-images-into-one-pdf-file-on-a-mac/), działa to podobnie.  
@@ -161,13 +160,13 @@ Na Linuksie też się da [na kilka sposobów](https://itsfoss.com/convert-multip
 
 OCR nigdy nie będzie w&nbsp;100% dokładny, ale zawsze daje jakąś możliwość przeszukiwania tekstu. Przy obrazkowym PDF-ie byłaby zerowa.
 
-Do nałożenia tekstu możemy użyć komercyjnego programu [ABBYY FineReader](https://pdf.abbyy.com/) (tylko na Windowsa i&nbsp;Maca). Gdy już nam rozpozna tekst, wybieramy opcję zapisania pliku jako PDF, z tekstem pod warstwą obrazkową.
+Do nałożenia tekstu możemy użyć komercyjnego programu [ABBYY FineReader](https://pdf.abbyy.com/) (tylko na Windowsa i&nbsp;Maca). Gdy już nam rozpozna co trzeba, wybieramy opcję zapisania pliku jako PDF, z tekstem pod warstwą obrazkową.
 
 {:.bigspace}
 <details>
 <summary>A jeśli nie boimy się konsoli?</summary>
 
-<p>Można zamiast płatnego programu zainstalować darmowego Tesseracta (tutaj <a href="https://www.pyimagesearch.com/2017/07/03/installing-tesseract-for-ocr/">nieformalne instrukcje</a>, a tutaj wersja <a href="https://github.com/UB-Mannheim/tesseract/wiki">na Windowsa</a>)</p>
+<p>Można zamiast płatnego programu zainstalować darmowego Tesseracta (tutaj <a href="https://www.pyimagesearch.com/2017/07/03/installing-tesseract-for-ocr/">nieformalne instrukcje</a>, a tutaj wersja <a href="https://github.com/UB-Mannheim/tesseract/wiki">na Windowsa</a>).</p>
 
 <p>Tesseract czyta tylko obrazki, więc <strong>najlepiej go użyć zaraz po kroku 1</strong>, pomijając krok 2 (łączenie w PDF-a).</p>
 
