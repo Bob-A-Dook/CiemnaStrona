@@ -121,9 +121,7 @@ Wyżej były ogólniki, a&nbsp;tutaj będą konkretne nazwy!
 
 Zakładam, że zakrywamy coś sekretnego, więc żadne rozwiązania internetowe nie wchodzą w&nbsp;grę. I&nbsp;bardzo dobrze! Klasyczne offline'owe programy w&nbsp;zupełności wystarczą.
 
-Do samego zakrywania obrazków prostokątami wystarczy [GIMP](https://www.gimp.org/). Innych nie używałem, więc nie wiem czy polecić.
-
-Natomiast aby zmienić PDF-y tekstowe w&nbsp;obrazkowe, musimy wykonać kilka kroków:
+Do samego zakrywania obrazków prostokątami wystarczy [GIMP](https://www.gimp.org/) albo nawet Paint. Innych nie używałem, więc nie wiem czy polecić. Natomiast aby zmienić PDF-y tekstowe w&nbsp;obrazkowe, musimy wykonać kilka kroków:
 
 {:.bigspace-before}
 **1. Zapisanie każdej strony PDF-a jako osobnego obrazka**
@@ -173,11 +171,21 @@ Do nałożenia tekstu możemy użyć komercyjnego programu [ABBYY FineReader](ht
 
 <p>Tesseract czyta tylko obrazki, więc <strong>najlepiej go użyć zaraz po kroku 1</strong>, pomijając krok 2 (łączenie w PDF-a).</p>
 
-<p>W tym celu w tym samym folderze musimy stworzyć plik tekstowy, w którym – linijka pod linijką – będą wymienione pliki z obrazkami, które chcemy połączyć w PDF-a.</p>
+<p>W tym celu w tym samym folderze musimy stworzyć plik tekstowy (powiedzmy <code class="language-plaintext highlighter-rouge">obrazki.txt</code>), w którym – linijka pod linijką – będą wymienione pliki z obrazkami, które chcemy połączyć w PDF-a.</p>
 
-<p>Jeśli stron jest tylko kilka, możemy nawet zrobić to ręcznie.</p>
+<p>Jeśli obrazków jest tylko kilka, możemy nawet stworzyć ten plik ręcznie. Ale lepiej konsolką. Na Windowsie wpisujemy w nią:</p>
 
-<p>Gdy już mamy w tym samym folderze nasz plik z listą obrazków (powiedzmy <code class="language-plaintext highlighter-rouge">obrazki.txt</code>) oraz same obrazki, to odpalamy Tesseracta:</p>
+<div class="black-bg mono">
+dir > obrazki.txt
+</div>
+
+<p>Na Linuksie i MacOS:</p>
+
+<div class="black-bg mono">
+ls > obrazki.txt
+</div>
+
+<p>Usuwamy z pliku tekstowego te nazwy plików, które nie są obrazkami. Upewniamy się, że mamy go w tym samym folderze co obrazki. Po czym odpalamy Tesseracta:</p>
 
 <div class="black-bg mono">
 tesseract -l eng obrazki.txt po_ocr pdf
