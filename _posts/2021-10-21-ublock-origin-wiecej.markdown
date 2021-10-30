@@ -88,13 +88,13 @@ Jak choćby popularne AdBlock czy AdblockPlus, które mają swój program *Accep
 <img src="/assets/posts/ublock-origin/walka-adblockow-1.jpg" alt="Przerobiony kadr z&nbsp;mangi pokazujący jedną postać walczącą z&nbsp;trzema innymi i&nbsp;właśnie powalającą jedną z&nbsp;nich. Na twarz samotnej postaci nałożono logo uBlock Origin, a&nbsp;na twarze pozostałych loga innych dodatków: AdBlock Plus, starego uBlocka oraz Nano Defendera."/>
 
 {:.figcaption}
-Źródło obrazków: manga *Tokyo Ghoul*, rozdział 77.  
+Źródło obrazków: manga *Tokyo Ghoul*, rozdział&nbsp;77.  
 (Ta pierwsza, o&nbsp;drugiej wolę zapomnieć).  
 Przeróbki moje.
 
 Poprzednikiem był uBlock (bez *Origin*). Został stworzony przez tego samego autora co uBO, Raymonda Hilla.
 
-Hill, z&nbsp;braku czasu, postanowił w&nbsp;pewnym momencie przekazać stery projektu innej osobie, Chrisowi A.  
+Hill, z&nbsp;braku czasu, postanowił w&nbsp;pewnym momencie przekazać stery projektu innej osobie, Chrisowi&nbsp;A.  
 Niestety nie nacieszył się odpoczynkiem. Jego następca podjął sporo [kontrowersyjnych decyzji](http://tuxdiary.com/2015/06/14/ublock-origin/), wyglądających na autopromocję i&nbsp;próby zmonetyzowania dodatku.
 
 Rozgoryczony Hill wrócił zatem do gry i&nbsp;rozpoczął nowy projekt, którym był właśnie uBlock Origin. Na swojej stronie umieścił adnotację, że **nie przyjmuje żadnych wpłat**, a&nbsp;chętni mogą wesprzeć kogoś innego -- twórców list znanych elementów śledzących, „dzięki którym uBO istnieje”.

@@ -11,11 +11,9 @@ image-height: 700
 
 Ten wpis będzie krótki i&nbsp;treściwy. Do jego stworzenia zainspirowała mnie poboczna dyskusja na forum *Hacker News* dotycząca pewnego artykułu prasowego.
 
-Mianowicie: ktoś w&nbsp;komentarzach podlinkował obrazek, w&nbsp;którym nazwy plików rozmyto w&nbsp;programie graficznym.  
-Ktoś napisał, że lepiej żeby to nie było nic tajnego. Bo przy odrobinie pracy dałoby się odwrócić efekt rozmycia i&nbsp;odczytać tekst.
+Mianowicie: ktoś w&nbsp;komentarzach podlinkował obrazek, w&nbsp;którym nazwy plików rozmyto w&nbsp;programie graficznym. Ktoś  inny napisał, że lepiej żeby to nie było nic tajnego. Bo przy odrobinie pracy dałoby się odwrócić efekt rozmycia i&nbsp;odczytać tekst.
 
-Już nieraz słyszałem o&nbsp;wpadkach, kiedy **autor wierzył że coś usunął, a&nbsp;jedynie to przykrył**. 
-
+Już nieraz słyszałem o&nbsp;wpadkach, kiedy **autor wierzył że coś usunął, a&nbsp;jedynie to przykrył**.  
 Dlatego powstał ten wpis. Pokażę tu kilka pułapek związanych z&nbsp;ukrywaniem informacji w&nbsp;popularnych plikach graficznych, PDF-ach i&nbsp;im podobnych.
 
 Może się czegoś nauczymy. A&nbsp;jeśli nie, to przynajmniej można spojrzeć na wtopki innych i&nbsp;się cieszyć, że to (jeszcze) nie nasze :smile:
@@ -71,10 +69,9 @@ To bardzo poufny tekst, więc zakryłem go jednolitym, nieprzezroczystym, szarym
 
 SVG ma wszelkie cechy obrazka -- da się go otworzyć w&nbsp;programach do grafiki; mówi się że to *grafika* wektorowa. A&nbsp;jednak to coś więcej!
 
-Gdyby to był zwykły obrazek, jak JPG, to po zakryciu nikt by nie wiedział, co się pod tym prostokątem ukrywa.
-
+Gdyby to był zwykły obrazek, jak JPG, to po zakryciu nikt by nie wiedział, co się pod tym prostokątem ukrywa.  
 Ale SVG za kulisami to nie piksele, lecz seria instrukcji. Czasem czytelnych dla człowieka.  
-Jeśli zajrzymu do wnętrza mojego pliku, to sami zobaczymy:
+Jeśli zajrzymy do wnętrza mojego pliku, to sami zobaczymy:
 
 {:.figure}
 <img src="/assets/posts/zakrywanie-danych/svg-wnetrze.jpg" alt="Treść pliku SVG składającego się z&nbsp;kilku linijek. Jedną z&nbsp;nich otacza pomarańczowa ramka."/>
@@ -86,8 +83,8 @@ W formie screenshota, żeby tekst nie „wylewał się” poza ekran.
 Pomarańczową ramką otoczyłem element odpowiadający szaremu prostokątowi.  
 A nad nim? **Wyraźnie widać cały nasz tekst**. 
 
-Jeśli chcecie sami to sprawdzić, możecie pobrać mój plik <a href="/assets/posts/zakrywanie-danych/niezbyt-zakryty-napis.svg" download>stąd</a>.  
-Następnie otwieramy go jako tekst; na przykład w&nbsp;Notatniku.  
+Jeśli chcecie sami to sprawdzić, możecie <a href="/assets/posts/zakrywanie-danych/niezbyt-zakryty-napis.svg" download>pobrać mój plik</a>.  
+Następnie otwieramy go jako tekst, na przykład w&nbsp;Notatniku.  
 W tym celu klikamy go prawym przyciskiem myszy, wybieramy `Otwórz za pomocą...` i&nbsp;znajdujemy Notatnik na liście.
 
 **Dokładnie tak samo działają PDF-y**. Każdy dodany element to po prostu nowa instrukcja. Tylko że PDF-y są potem kompresowane, więc nie odczytamy ich gołym okiem, jak plików SVG.
@@ -107,9 +104,8 @@ W&nbsp;jaki sposób zapobiec takim gafom?
 
 Jednym ze sposobów jest użycie wbudowanych funkcji redagowania dokumentów. Ma takie coś np. [Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/advanced-tasks/redact.html?lang=en). Nadal jest tu jednak miejsce na ludzki błąd, gdybyśmy wybrali nie tę opcję.
 
-Jest również rozwiązanie nuklearne, ale pewne.  
-Można **skonwertować każdą stronę na obrazek**, a&nbsp;potem ewentualnie połączyć te obrazki w&nbsp;nowego PDF-a.
-
+Istnieje również rozwiązanie nuklearne, ale pewne.  
+Można **skonwertować każdą stronę na obrazek**, a&nbsp;potem ewentualnie połączyć te obrazki w&nbsp;nowego PDF-a.  
 Jeden minus taki, że drastycznie urośnie rozmiar pliku. Ale uznajmy, że to do przeżycia.  
 Bardziej może nas zaboleć druga sprawa: **w ten sposób niestety stracimy cały tekst**.
 
@@ -125,63 +121,74 @@ Wyżej były ogólniki, a&nbsp;tutaj będą konkretne nazwy!
 
 Zakładam, że zakrywamy coś sekretnego, więc żadne rozwiązania internetowe nie wchodzą w&nbsp;grę. I&nbsp;bardzo dobrze! Klasyczne offline'owe programy w&nbsp;zupełności wystarczą.
 
-Do zakrywania obrazków prostokątami wystarczy [GIMP](https://www.gimp.org/). Innych nie używałem, więc nie wiem czy polecić.
+Do samego zakrywania obrazków prostokątami wystarczy [GIMP](https://www.gimp.org/). Innych nie używałem, więc nie wiem czy polecić.
 
-Aby zmienić PDF-y tekstowe w&nbsp;obrazkowe, musimy wykonać kilka kroków:
+Natomiast aby zmienić PDF-y tekstowe w&nbsp;obrazkowe, musimy wykonać kilka kroków:
 
+{:.bigspace-before}
 **1. Zapisanie każdej strony PDF-a jako osobnego obrazka**
 
 To również można zrobić przez GIMP-a, o&nbsp;ile korzystamy z&nbsp;wersji *2.10* lub nowszej.  
 Wtedy po prostu klikamy PDF-a prawym przyciskiem, otwieramy w&nbsp;GIMP-ie. A&nbsp;następnie działamy [zgodnie z&nbsp;tą instrukcją](https://askubuntu.com/a/1098603) (po angielsku).
 
-A jeśli nie boimy się konsoli? 
+{:.bigspace}
+<details>
+<summary>A jeśli nie boimy się konsoli?</summary>
 
-Wtedy warto zainstalować Popplera -- zestaw programów konsolowych do pracy z&nbsp;PDF-ami.  
-(Ma wersje na [Linuxa](https://poppler.freedesktop.org/), na [Maca](https://macappstore.org/poppler/) i&nbsp;[na Windowsa](https://blog.alivate.com.au/poppler-windows/)
+<p>Wtedy warto zainstalować Popplera – zestaw programów konsolowych do pracy z PDF-ami.<br>
+(Ma wersje na <a href="https://poppler.freedesktop.org/">Linuxa</a>, na <a href="https://macappstore.org/poppler/">Maca</a> i <a href="https://blog.alivate.com.au/poppler-windows/">na Windowsa</a>).</p>
 
-Jeśli mamy przykładowo PDF-a o&nbsp;nazwie `jakis.pdf`, to otwieramy konsolę w&nbsp;tym samym folderze co on i&nbsp;wpisujemy:
+<p>Jeśli mamy przykładowo PDF-a o nazwie <code class="language-plaintext highlighter-rouge">jakis.pdf</code>, to otwieramy konsolę w tym samym folderze co on i wpisujemy:</p>
 
 <div class="black-bg mono">
 pdftocairo -jpeg jakis.pdf
 </div>
 
-W obu przypadkach skończymy z&nbsp;plikami *JPG* -- po jednym na jedną stronę. Jeśli jeszcze nie zakrywaliśmy informacji, to teraz jest dobry czas.
+</details>
 
+Skończymy z&nbsp;plikami *JPG* -- po jednym na jedną stronę. Jeśli jeszcze nie zakrywaliśmy informacji jednolitymi prostokątami, to teraz jest dobry czas.
+
+{:.bigspace-before}
 **2. Połączenie obrazków w&nbsp;jednego PDF-a**
 
 Czas na połączenie obrazków z&nbsp;poprzedniego kroku. W&nbsp;jednego PDF-a, w&nbsp;którym każdy obrazek jest osobną stroną.  
 Nie widzę łatwego sposobu na zrobienie tego w&nbsp;GIMP-ie, ale nadal nie powinno być źle!
 
-Na Windowsie wystarczy je wszystkie zaznaczyć, wybrać opcję *Drukuj*, a&nbsp;potem *Drukuj do pliku*.  
+Na Windowsie wystarczy je wszystkie zaznaczyć, wybrać opcję *Drukuj*, a&nbsp;potem *Drukuj do&nbsp;pliku*.  
 Z MacBookami nie mam doświadczenia, ale jeśli wierzyć [tej instrukcji](https://www.howtogeek.com/247879/how-to-combine-images-into-one-pdf-file-on-a-mac/), działa to podobnie.  
 Na Linuksie też się da [na kilka sposobów](https://itsfoss.com/convert-multiple-images-pdf-ubuntu-1304/).
 
-
-**3. (Opcjonalnie) nałożyć tekst na naszego obrazkowego PDF-a**
+{:.bigspace-before}
+**3. (Opcjonalnie) Nałożenie tekstu na naszego obrazkowego PDF-a**
 
 OCR nigdy nie będzie w&nbsp;100% dokładny, ale zawsze daje jakąś możliwość przeszukiwania tekstu. Przy obrazkowym PDF-ie byłaby zerowa.
 
-Do nałożenia tekstu możemy użyć komercyjnego programu [ABBYY FineReader](https://pdf.abbyy.com/) (tylko na Windowsa i&nbsp;Maca).  
-Gdy już nam rozpozna tekst, wybieramy opcję zapisania tekstu pod obrazem.
+Do nałożenia tekstu możemy użyć komercyjnego programu [ABBYY FineReader](https://pdf.abbyy.com/) (tylko na Windowsa i&nbsp;Maca). Gdy już nam rozpozna tekst, wybieramy opcję zapisania pliku jako PDF, z tekstem pod warstwą obrazkową.
 
-Jeśli nie boimy się konsoli, to można zamiast tego zainstalować darmowy program Tesseract (tutaj [nieformalne instrukcje](https://www.pyimagesearch.com/2017/07/03/installing-tesseract-for-ocr/), a&nbsp;tutaj wersja [na Windowsa](https://github.com/UB-Mannheim/tesseract/wiki))
+{:.bigspace}
+<details>
+<summary>A jeśli nie boimy się konsoli?</summary>
 
-Tesseract czyta tylko obrazki, więc **najlepiej go użyć zaraz po kroku 1**, pomijając krok 2 (łączenie w&nbsp;PDF-a).
+<p>Można zamiast płatnego programu zainstalować darmowego Tesseracta (tutaj <a href="https://www.pyimagesearch.com/2017/07/03/installing-tesseract-for-ocr/">nieformalne instrukcje</a>, a tutaj wersja <a href="https://github.com/UB-Mannheim/tesseract/wiki">na Windowsa</a>)</p>
 
-W tym celu w&nbsp;tym samym folderze musimy stworzyć plik tekstowy, w&nbsp;którym -- linijka pod linijką -- będą wymienione pliki z&nbsp;obrazkami, które chcemy połączyć w&nbsp;PDF-a.
+<p>Tesseract czyta tylko obrazki, więc <strong>najlepiej go użyć zaraz po kroku 1</strong>, pomijając krok 2 (łączenie w PDF-a).</p>
 
-Jeśli stron jest tylko kilka, możemy nawet zrobić to ręcznie. 
+<p>W tym celu w tym samym folderze musimy stworzyć plik tekstowy, w którym – linijka pod linijką – będą wymienione pliki z obrazkami, które chcemy połączyć w PDF-a.</p>
 
-Gdy już mamy w&nbsp;tym samym folderze nasz plik z&nbsp;listą obrazków (powiedzmy `obrazki.txt`) oraz same obrazki, to odpalamy Tesseracta:
+<p>Jeśli stron jest tylko kilka, możemy nawet zrobić to ręcznie.</p>
+
+<p>Gdy już mamy w tym samym folderze nasz plik z listą obrazków (powiedzmy <code class="language-plaintext highlighter-rouge">obrazki.txt</code>) oraz same obrazki, to odpalamy Tesseracta:</p>
 
 <div class="black-bg mono">
 tesseract -l eng obrazki.txt po_ocr pdf
 </div>
 
-(Uwaga na spację przed ostatnim `pdf`! A&nbsp;zamiast `eng` można wpisać inny język lub języki dokumentu, zgodnie z&nbsp;kodami Tesseracta).
+<p>(Uwaga na spację przed ostatnim <code class="language-plaintext highlighter-rouge">pdf</code>! A zamiast <code class="language-plaintext highlighter-rouge">eng</code> można wpisać inny język lub języki dokumentu, zgodnie z kodami Tesseracta).<br>
+Po powyższej komendzie powstanie nam plik <em>po_ocr.pdf</em>.</p>
 
-Po powyższej komendzie powstanie nam plik *po_ocr.pdf*. Jeśli spróbujemy w&nbsp;nim zaznaczyć i&nbsp;skopiować widoczny tekst, to zobaczymy że działa -- lepiej lub gorzej.
+</details>
 
-Ale jeśli spróbujemy coś skopiować spod miejsc zakrytych na obrazku prostokątami, to wyjdą nam co najwyżej losowe znaki. Co miało być nie do odczytania, to takie jest.
+Jeśli spróbujemy w&nbsp;naszym końcowym PDF-ie zaznaczyć i&nbsp;skopiować jakiś widoczny tekst, to zobaczymy że to działa -- lepiej lub gorzej.  
+Ale jeśli spróbujemy coś skopiować spod miejsc zakrytych prostokątami, to wyjdą nam co najwyżej losowe znaki. Co miało być niemożliwe do odczytania, to takie jest.
 
 To tyle na dziś! Może kiedyś sklecę jakiś własny skrypt, bo wydaje się że jest popyt. A&nbsp;póki co -- do kolejnych wpisów :smile:
