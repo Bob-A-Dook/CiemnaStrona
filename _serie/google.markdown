@@ -1,6 +1,6 @@
 ---
-seria: google-afery
-permalink: "serie/cztery-kolory-google/"
+seria: google
+permalink: "serie/google/"
 title: Google – kolorowy czarny charakter
 description: "Jak wujek Google zapomniał, żeby zła nie czynić."
 layout: seria
