@@ -220,16 +220,14 @@ Ponoć miał on na celu wykorzystanie popularności Chrome'a do zyskania wpływ�
 
 # Chrome Web Store (dodatki do przeglądarki)
 
-Swoją przeglądarkę możemy wzbogacić o&nbsp;dodatki -- małe programy od niezależnych twórców.
-
+Swoją przeglądarkę możemy wzbogacić o&nbsp;dodatki -- małe programy od niezależnych twórców.  
 Wiele z&nbsp;nich powstało w&nbsp;odpowiedzi na bolączki internautów. Dając im na przykład możliwość blokowania śledzących reklam, której sam Chrome praktycznie nie zapewnia.
 
-Zacznijmy od tego, że **mobilna wersja Chrome'a nie wspiera dodatków**.  
-Zatem użytkownicy telefonów (zwykle i&nbsp;tak silniej obserwowani) nie mają w&nbsp;tej przeglądarce możliwości zablokowania śledzenia.
+Zanim przejdę dalej, uściślę jedną rzecz. Mówimy tu tylko o dodatkach do Chrome'a na komputery. **Mobilna wersja Chrome'a w&nbsp;ogóle nie wspiera dodatków**. Zatem jej użytkownicy (zwykle i&nbsp;tak silniej obserwowani) nie mają możliwości zablokowania śledzenia, chyba że użyją osobnych aplikacji.
 
-*[Chrome Web Store](https://chrome.google.com/webstore/category/extensions)* to jedyny oficjalny, przyjazny użytkownikom sposób na pobranie dodatków.  
-Baza jest kontrolowana przez Google'a i&nbsp;może on w&nbsp;każdej chwili usunąć dowolny dodatek.
+Z kolei na komputerach *[Chrome Web Store](https://chrome.google.com/webstore/category/extensions)* to jedyny oficjalny, przyjazny użytkownikom sposób na pobranie dodatków.
 
+Baza jest kontrolowana przez Google'a i&nbsp;może on w&nbsp;każdej chwili usunąć dowolny dodatek.  
 Oficjalnie ma to na celu walkę z&nbsp;wirusami. Ale dziwnym trafem **z&nbsp;Google'owej bazy dodatków znikają też rzeczy niegroźne i&nbsp;lubiane**:
 
 * *Universal Bypass*
@@ -241,12 +239,12 @@ Oficjalnie ma to na celu walkę z&nbsp;wirusami. Ale dziwnym trafem **z&nbsp;Goo
 
 * *Ad Nauseam*
 
-  Bloker reklam śledzących z&nbsp;dodatkowym bonusem -- w&nbsp;tle wysyła ich stronom-matkom informację, że zostały kliknięte. Żeby zmniejszyć opłacalność biznesu opartego na profilowaniu.  
+  Bloker reklam śledzących z&nbsp;dodatkowym bonusem -- nam chowa reklamy, a&nbsp;ich stronom-matkom wysyła informację, że je kliknęliśmy. Żeby zrobić szum w&nbsp;danych i&nbsp;zmniejszyć opłacalność biznesu opartego na profilowaniu.  
   Oficjalnie nie ma reguły, która by tego zabraniała. Ale i&nbsp;tak go zdjęli.
 
 * *uBlock Origin*
 
-  Bardzo znany bloker elementów śledzących (**ponad 10 mln użytkowników** na samym Chrome'ie).  
+  Bardzo znany bloker elementów śledzących (**ponad 10 mln użytkowników** na samym Chromie).  
   Podobno łącznie dostał automatyczną blokadę [już kilka razy](https://github.com/uBlockOrigin/uBlock-issues/issues/745#issuecomment-541453199). Mało brakło, a&nbsp;tym razem zniknąłby na dobre.  
   Jego autor pisze, że ma już dość grania według zasad Google'a i&nbsp;rozwiązywania problemów, kiedy nawet go nie informują, na czym te problemy polegają.  
 
@@ -259,7 +257,7 @@ Oficjalnie ma to na celu walkę z&nbsp;wirusami. Ale dziwnym trafem **z&nbsp;Goo
 
   Dodatek do wyszukiwania obrazków, mający ponad 100&nbsp;000 użytkowników.  
   Również zderzył się z&nbsp;murem. Został [usunięty z&nbsp;Web Store'a](https://github.com/dessant/search-by-image/issues/63), potem przywrócony po publicznym zrobieniu szumu. Potem odrzucono próbę jego aktualizacji.  
-  Autor również ma dość:
+  Autor również jest tym zmęczony:
 
   > Mam dość wykłócania się z&nbsp;pracownikami Google'a, którzy odpisują tekstami kopiowanymi z&nbsp;szablonu i&nbsp;zmuszają mnie do odgadywania ich intencji
 
@@ -268,7 +266,7 @@ Oficjalnie ma to na celu walkę z&nbsp;wirusami. Ale dziwnym trafem **z&nbsp;Goo
 
 Gdy Google usunie jakiś dodatek, to jedynym sposobem na dodanie go do Chrome'a jest ręczna instalacja w&nbsp;trybie deweloperskim. Co będzie poza zasięgiem zwykłych użytkowników.
 
-Ale niektóre dodatki niewygodne dla Google'a -- jak uBlock Origin -- są po prostu zbyt popularne, żeby je usunąć. Wracają jak wańki-wstańki.
+Niektóre dodatki niewygodne dla Google'a -- jak uBlock Origin -- są po prostu zbyt popularne, żeby je usunąć. Wracają jak wańki-wstańki.
 
 Tylko że Google już szykuje kolejny krok.  
 Planuje wprowadzić *wersję&nbsp;3* szablonu, w&nbsp;który muszą się wpasowywać dodatki (tzw. *Manifest&nbsp;v3*). Jedną ze zmian jest poważne ograniczenie dynamicznych filtrów, na których polega uBO.
@@ -290,8 +288,7 @@ Tam Google wprost zalicza dodatki blokujące do [potencjalnych zagrożeń dla je
 Oficjalnie Android jest darmowy, a&nbsp;jego kod jest publicznie dostępny i&nbsp;każdy może go rozbudować. Część otwartą nazwano AOSP (*Android Open Source Project*).  
 W praktyce głównie wielcy gracze (czyt. Samsung, Huawei...) i&nbsp;duże niezależne projekty budują systemy na bazie AOSP.
 
-Google wykorzystał dominującą pozycję i&nbsp;postawił producentom ultimatum.
-
+Google wykorzystał dominującą pozycję i&nbsp;postawił producentom ultimatum.  
 Jeśli chcą mieć dostęp do jego usług, **muszą sprzedawać telefony z&nbsp;domyślnie zainstalowanym Chrome'em, bazą Play Store. I&nbsp;Google ustawionym jako domyślna wyszukiwarka**.
 
 Wiele aplikacji -- jak Uber -- korzysta np. z&nbsp;Google Maps. Zatem brak usług Google'a równałby się porażce sprzedawanego telefonu.  
@@ -299,8 +296,7 @@ Producenci w&nbsp;związku z&nbsp;tym się ugięli. Instalowali fabrycznie aplik
 
 Google'owi w&nbsp;końcu wlepiono za to w&nbsp;Europie [ponad 4,3 mld euro kary](https://www.dw.com/en/google-fined-43-billion-by-eu-regulator/a-44719609) za działania monopolistyczne.
 
-Aby zyskać więcej kontroli nad swoimi telefonami -- w&nbsp;tym możliwość odcięcia się od usług Google'a czy przesyłania danych innym firmom -- drobni hobbyści opracowali różnego rodzaju łatki i&nbsp;nakładki na Androida.
-
+Aby zyskać więcej kontroli nad swoimi telefonami -- w&nbsp;tym możliwość odcięcia się od usług Google'a albo usuwania niechcianych rzeczy z&nbsp;różnych aplikacji -- drobni hobbyści opracowali różnego rodzaju łatki i&nbsp;nakładki na Androida.  
 Ale Google znalazło sposób na niepokornych. Wyszli do autorów ważnych aplikacji -- takich jak te od bankowości -- z&nbsp;ofertą nie do odrzucenia.  
 „Czyż nie chcecie, żeby wasi użytkownicy byli bezpieczniejsi? Możemy to zagwarantować”.
 
@@ -322,7 +318,7 @@ SafetyNet sprawia, że nie mamy swobody wprowadzania zmian w&nbsp;swoich telefon
 
 To zabezpieczenie daje autorom aplikacji gwarancję, że użytkownicy korzystają z&nbsp;apek na ich zasadach.
 
-Nie wierzę w&nbsp;wielkie spiskowe plany i&nbsp;zakładam, że SafetyNet powstało dla pieniędzy (za taką kontrolę zapłaciłyby też duże serwisy streamingowe). Ale jego efekt uboczny jest dystopijny.
+Nie wierzę w&nbsp;wielkie spiskowe plany i&nbsp;zakładam, że SafetyNet powstało dla pieniędzy (za taką kontrolę zapłaciłyby np. duże serwisy streamingowe, żeby utrudnić nam kopiowanie filmów). Ale jego efekt uboczny jest dystopijny.
 
 Wyobraźmy sobie, że u&nbsp;władzy są ci, których nie lubimy. Obojętnie którzy.   
 Gdyby kiedyś wprowadzili aplikację śledzącą, którą każdy obywatel musi mieć („dla swojego dobra”!), to **przez SafetyNet byłaby ona nie do oszukania i&nbsp;nie do obejścia**.
@@ -334,12 +330,10 @@ Gdyby kiedyś wprowadzili aplikację śledzącą, którą każdy obywatel musi m
 
 Play Store to oficjalna baza aplikacji na Androida. Towarzyszą jej patologie, które już możemy kojarzyć.
 
-Jedna to sztuczne pompowanie ocen (lub zaniżanie ich konkurentom), tak jak przy wynikach wyszukiwania.
-
+Jedna to sztuczne pompowanie ocen (lub zaniżanie ich konkurentom), tak jak przy wynikach wyszukiwania.  
 Druga to usuwanie aplikacji na podstawie niejasnych, czasem podejrzanych kryteriów. Jak przy bazie dodatków Chrome'a.
 
-Warto spojrzeć na [listę 14 kontrowersyjnych banów](https://www.gadgetsnow.com/slideshows/9-android-apps-banned-on-google-play-store/google-has-banned-these-14-apps-from-play-store/photolist/63169369.cms).  
-Żadna z&nbsp;tych aplikacji nie była wirusem. Są wśród nich:
+Warto spojrzeć na [listę 14 kontrowersyjnych banów](https://www.gadgetsnow.com/slideshows/9-android-apps-banned-on-google-play-store/google-has-banned-these-14-apps-from-play-store/photolist/63169369.cms). Żadna z&nbsp;tych usuniętych aplikacji nie była wirusem. Są wśród nich:
 
 * *AdAway*
 
@@ -355,8 +349,7 @@ Warto spojrzeć na [listę 14 kontrowersyjnych banów](https://www.gadgetsnow.co
   Komunikator do wysyłania anonimowych wiadomości.  
   Dozwolony od lat 17, wymagający założenia konta. Ale zdjęty po tym, jak pewna Australijka założyła petycję przeciwko niemu, bo jakiś użytkownik wysłał okropne wiadomości jej 13-letniej córce.
 
-Podobnie jak dodatki do przeglądarki, aplikacje również można zainstalować ręcznie (to tzw. *side-loading*).
-
+Podobnie jak dodatki do przeglądarki, aplikacje również można zainstalować okrężną metodą (to tzw. *side-loading*).  
 I, podobnie jak w&nbsp;przypadku dodatków, jest to poważna zapora dla zwykłych użytkowników. Dlatego usunięcie aplikacji z&nbsp;Play Store'a zwykle oznacza jej śmierć.
 
 Oprócz tego Google może zbanować każdą aplikację społecznościową, jaką tylko chce. **Podając jako powód, że niewystarczająco cenzurują u&nbsp;siebie treści**.
@@ -378,17 +371,15 @@ Wszystko dla naszego dobra :roll_eyes:
 To pojedynczy punkt dostępu do wszystkich usług Google.
 
 A mówią, żeby nie trzymać wszystkich jajek w&nbsp;jednej kobiałce...  
-jeśli automatyczne systemy Google nagle dadzą nam bana, to stracimy dostęp do wszystkiego naraz -- maila, dysku, konta na YouTubie i&nbsp;innych rzeczy.
+Jeśli automatyczne systemy Google nagle dadzą nam bana, to stracimy dostęp do wszystkiego naraz -- maila, dysku, konta na YouTubie i&nbsp;innych rzeczy.
 
 Takie przypadki [często się zdarzały](https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=%22google%20account%22&sort=byPopularity&type=story), dając użytkownikom przeżycia rodem z&nbsp;Kafki. **Słyszeli, że dostali za coś bana, ale powód był nieznany**.
 
 Jedynym skutecznym rozwiązaniem było [zrobienie szumu](https://twitter.com/Demilogic/status/1358661840402845696) w&nbsp;mediach społecznościowych. Wtedy jakiś pracownik Google może to dostrzec i&nbsp;zainterweniować za kulisami.  
-A odzyskanie konta oficjalnymi kanałami? Zapomnijcie. Odpowiedzi z&nbsp;szablonu.
-
+A odzyskanie konta oficjalnymi kanałami? Zapomnijcie. Odpowiedzi z&nbsp;szablonu.  
 Pamiętajmy też, że widzimy tylko przypadki udokumentowane. A&nbsp;ile zbanowanych osób nie poszło z&nbsp;tym na forum publiczne, bo np. słabiej znali angielski?
 
-Kolejna kwestia to dane osobowe, jakie próbuje od nas wydobyć Google.
-
+Kolejna kwestia to dane osobowe, jakie próbuje od nas wydobyć Google.  
 W latach 2011-2014 wymagał od osób zakładających nowe konta, żeby podawać [prawdziwe imię i&nbsp;nazwisko](https://en.wikipedia.org/wiki/Nymwars). Ktoś się wyłamał? Ban.
 
 Google chwyta każdą okazję, żeby wyciągnąć więcej danych. Napotkałem do tej pory próby zdobycia mojego adresu domowego („Szybciej wyznaczaj trasy”) i&nbsp;numeru telefonu...
@@ -424,8 +415,7 @@ Trzeba pogrzebać w&nbsp;ustawieniach, wpisywać komendy w&nbsp;konsolę.
 Jaki przeciętny użytkownik, a&nbsp;zwłaszcza dziecko ze szkoły podstawowej, skorzysta z&nbsp;tej opcji? Kiedy Chrome jest na parę kliknięć?  
 Zewnętrzne programy są na Chromebookach jak obywatele drugiej kategorii za domyślnymi aplikacjami Google.
 
-Poza tym mamy tu oczywiście zbieranie danych.
-
+Poza tym mamy tutaj oczywiście kwestię zbierania danych.  
 Organizacja *Electronic Frontier Foundation* [złożyła skargę na Google'a](https://www.eff.org/press/releases/google-deceptively-tracks-students-internet-browsing-eff-says-complaint-federal-trade) do amerykańskiej agencji ds. ochrony konsumentów.
 
 Jak wcześniej pisałem, przeglądarka Chrome posiada trzy poziomy przesyłania danych Google'owi; najwięcej w&nbsp;przypadku synchronizacji.  
@@ -447,7 +437,7 @@ Najogólniej -- postawić Google'owi zdrowe granice, rezygnując z&nbsp;jak najw
 
 O ich zamiennikach będę jeszcze dokładniej pisał. Jeśli chcecie zgłębić temat na własną rękę, to polecam szukać pod hasłem *degoogle* (np. po angielsku [na Reddicie](https://www.reddit.com/r/degoogle/)).
 
-Ale pierwsze co możecie zrobić -- **zmieńcie przeglądarkę z&nbsp;Chrome'a na cokolwiek innego**.
+Ale jest jedna rzecz, którą warto zrobić tu i&nbsp;teraz -- **zmieńcie przeglądarkę z&nbsp;Chrome'a na cokolwiek innego**.
 
 # Zmiana przeglądarki
 
@@ -469,6 +459,6 @@ Osobiście polecam **uBlock Origin** (tu [jego strona](https://ublockorigin.com/
 
 Fajny jest też [Privacy Badger](https://privacybadger.org/) od *Electronic Frontier Foundation*.
 
-Oba dodatki blokują między innymi atrybuty śledzące w&nbsp;linkach, o&nbsp;których parę razy było w&nbsp;tym wpisie.
+Oba dodatki blokują między innymi atrybuty śledzące w&nbsp;linkach, o&nbsp;których parę razy wspominałem w&nbsp;tym wpisie.
 
 Instalacja przeglądarki i&nbsp;dodatku zajmie tylko chwilę, a&nbsp;da naprawdę dużo! Trzymam kciuki, żeby skutecznie Wam się udało ucinanie zależności od pewnego korpo-stalkera :smile:
