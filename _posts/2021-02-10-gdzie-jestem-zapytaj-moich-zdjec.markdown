@@ -229,7 +229,7 @@ Całe okno po zainstalowaniu PIL-a powinno wyglądać tak:
 {:.figure .bigspace}
 <img src="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/pip.webp" alt="Obrazek pokazujący okno programu Powershell. W jednej z linijek wpisana komenda 'pip install pillow', pod spodem wypełniony pasek ładowania i informacja, że pobrano 1,9 MB i zainstalowano bibliotekę PIL.">
 
-* Oprócz tego przyda Wam się jakiś obrazek z&nbsp;metadanymi. Możecie na przykład użyć <a href="/assets/posts/gdzie-jestem-zapytaj-moich-zdjec/test_gimp_resize.jpg" download>tego mojego z&nbsp;Katowic</a>.
+* Oprócz tego przyda Wam się jakiś obrazek z&nbsp;metadanymi. Możecie na przykład użyć <a href="/assets/skrypty/krs_visualizer.py" download>tego mojego z&nbsp;Katowic</a>.
 
 * Warto też stworzyć osobny folder na testowane obrazki.  
   Jeszcze lepiej by było użyć osobnego komputera / maszyny wirtualnej, jak przy każdym nieznanym kodzie... No ale wiem jak jest.

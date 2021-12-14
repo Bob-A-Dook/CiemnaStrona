@@ -221,9 +221,9 @@ Każda z&nbsp;pozycji na wyświetlonej liście to osobny element, o&nbsp;który 
 Napisałem wyżej, że element śledzący może być dowolną rzeczą. Firmom śledzącym zależy jedynie na tym, żeby był pobierany z&nbsp;ich strony, a&nbsp;link do niego gościł na stronach cudzych.
   
 Mogliby oferować link do filmiku. Albo do „Damy z&nbsp;łasiczką” w&nbsp;cyfrowej postaci. Albo do dowolnych innych multimediów. Nada się wszystko, byle pochodziło od nich.  
-Oni jednak wolą przyoszczędzić. Jaka jest najmniejsza możliwa rzecz, jaką mogą zaproponować naszej przeglądarce, żeby ta wysłała im dane? Odpowiedź: to obrazek o&nbsp;wymiarach 1 na 1. Czyli piksel!
+Oni jednak wolą przyoszczędzić. Jaka jest najmniejsza możliwa rzecz, jaką mogą zaproponować naszej przeglądarce, żeby ta wysłała im dane? Odpowiedź: to obrazek o&nbsp;wymiarach 1&nbsp;na&nbsp;1. Czyli piksel!
 
-W ten sposób rozwiązaliśmy zagadkę. **W pikselach nie ma nic wyjątkowego, są po prostu najmniejszym możliwym elementem zewnętrznym**.
+W ten sposób rozwiązaliśmy zagadkę. **W&nbsp;pikselach nie ma nic wyjątkowego, są po prostu najmniejszym możliwym elementem zewnętrznym**.
 
 Tym, co umożliwia śledzenie, jest tak naprawdę sama „zewnętrzność” elementu, sprawienie żeby był pobierany od firmy śledzącej. Jego wygląd to detal bez większego znaczenia. Zresztą prawdopodobnie i&nbsp;tak go nie zobaczymy, bo będzie ukryty.
 
@@ -308,7 +308,7 @@ Czyżby giganta tknęło sumienie?
 Optymista by chciał, ale realista powie raczej, że Google stał się już na tyle potężny, że ma lepsze źródła informacji. Usunięcie tej metody śledzenia podbiłoby mu PR i&nbsp;być może wykosiło mniejszych konkurentów, którzy są od niej bardziej zależni.  
 Po co mu przybliżone dane z&nbsp;szerszego internetu, gdy może mieć dokładne -- z&nbsp;Androida, Chrome'a oraz własnych stron, dobrowolnie odwiedzanych przez użytkowników?
 
-Innym argumentem przeciw dobrej woli Google'a jest to, że **planuje wprowadzić w&nbsp;Chromie zmiany, które zmniejszą skuteczność dodatków blokujących** (o czym [alarmuje twórca uBO](https://github.com/uBlockOrigin/uBlock-issues/issues/338#issuecomment-496009417)).
+Innym argumentem przeciw dobrej woli Google'a jest to, że **planuje wprowadzić w&nbsp;Chromie zmiany, które zmniejszą skuteczność dodatków blokujących** (o&nbsp;czym [alarmuje twórca uBO](https://github.com/uBlockOrigin/uBlock-issues/issues/338#issuecomment-496009417)).
 
 Poza tym w&nbsp;miejsce ciasteczek Google proponuje reklamodawcom własny system, *FLoC*. Zintegrowany z&nbsp;przeglądarką, niezależny od stron internetowych. Automatycznie, rzekomo w&nbsp;sposób anonimowy, rozdzielający ludzi na różne kategorie, do których będą kierowane odmienne reklamy.
 
