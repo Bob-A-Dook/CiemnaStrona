@@ -26,7 +26,7 @@ Co więcej, **w&nbsp;niektórych dokumentach finansowych skrywały się dane ich
 
 Zaciekawieni? Idealnie! W&nbsp;takim razie zapraszam na wspólne zwiedzanie zakamarków KRS-u i&nbsp;oglądanie bida-wykresów.
 
-<img src="/assets/posts/krs-zabawy/they-live-baner.jpg" alt="Przeróbka mema złożona z&nbsp;czterech paneli. Pierwszy z&nbsp;nich pokazuje mężczyznę o&nbsp;blond włosach, który właśnie szykuje się do założenia okularów przeciwsłonecznych. Drugi pokazuje billboard widziany oczami tego mężczyzny. Widać na nim loga czterech firm lub marek: ptaka CD Projektu, kaczkę Donald.pl, napis Moliera 2 oraz herb podpisany All in UJ. Kolejny panel pokazuje mężczyznę już z&nbsp;założonymi okularami. Na ostatnim panelu widać ten sam billboard, ale tym razem zamiast symboli widać na nim miniatury wykresów."/>
+<img src="/assets/posts/krs-zabawy/they-live-fullsize.jpg" alt="Przeróbka mema złożona z&nbsp;czterech paneli. Pierwszy z&nbsp;nich pokazuje mężczyznę o&nbsp;blond włosach, który właśnie szykuje się do założenia okularów przeciwsłonecznych. Drugi pokazuje billboard widziany oczami tego mężczyzny. Widać na nim loga czterech firm lub marek: ptaka CD Projektu, kaczkę Donald.pl, napis Moliera 2 oraz herb podpisany All in UJ. Kolejny panel pokazuje mężczyznę już z&nbsp;założonymi okularami. Na ostatnim panelu widać ten sam billboard, ale tym razem zamiast symboli widać na nim miniatury wykresów."/>
 
 {:.figcaption}
 Moja przeróbka mema opartego na filmie *„They Live”*.  
