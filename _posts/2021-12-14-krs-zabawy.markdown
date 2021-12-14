@@ -10,7 +10,7 @@ category: krs-msig
 category_readable: "Myszkowanie w Monitorze i kopanie w KRS-ie"
 image: "krs-zabawy/they-live-baner.jpg"
 image-width: 1200
-image-height: 700
+image-height: 1200
 ---
 
 Witajcie w (zapewne) ostatnim wpisie przed Świętami!  
