@@ -9,7 +9,7 @@ tags: [Internet, Inwigilacja, Podstawy, Porady]
 
 Witajcie w&nbsp;świątecznym wpisie!
 
-<img style="display:none;" src="assets/posts/caching/ciemna-strona-swieta.jpg" title="Przerobiona kartka świąteczna ze strony Miłakartka.pl" alt="Kartka świąteczna w&nbsp;pastelowych kolorach, pokazująca Mikołaja stojącego obok choinki. U&nbsp;góry widać napis 'Wesołych Świąt', a&nbsp;dolnym rogu 'Źródło oryginału: Miłakartka.pl'. Postać w&nbsp;stroju Mikołaja zamiast twarzy ma logo tego bloga. Również głowa bałwanka, zdobiąca napis, ma oczy skopiowane od emotki Ciemnej Strony."/>
+<img style="display:none;" src="/assets/posts/caching/ciemna-strona-swieta.jpg" title="Przerobiona kartka świąteczna ze strony Miłakartka.pl" alt="Kartka świąteczna w&nbsp;pastelowych kolorach, pokazująca Mikołaja stojącego obok choinki. U&nbsp;góry widać napis 'Wesołych Świąt', a&nbsp;dolnym rogu 'Źródło oryginału: Miłakartka.pl'. Postać w&nbsp;stroju Mikołaja zamiast twarzy ma logo tego bloga. Również głowa bałwanka, zdobiąca napis, ma oczy skopiowane od emotki Ciemnej Strony."/>
 
 Nasza przeglądarka -- obojętnie, czy to szpiegujący nas Chrome, czy któraś z&nbsp;tych przyjaźniejszych -- jest jak okręt, który pozwala nam bezpiecznie żeglować po wodach internetu i&nbsp;częściowo izoluje od groźnych rzeczy pływających w&nbsp;głębinach.
 
