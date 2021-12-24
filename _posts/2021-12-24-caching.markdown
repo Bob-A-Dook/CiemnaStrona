@@ -408,3 +408,6 @@ Ach, swoją drogą... Mamy święta, więc naszykowałem świąteczny prezent!
 Wśród obrazków z&nbsp;pamięci podręcznej odpowiadających temu wpisowi powinniście znaleźć niespodziankę, której zapewne nie widzieliście gołym okiem :wink:
 Spokojnie, jest niegroźna.
 
+{:.post-meta}
+Jeśli nic nie znajdziecie, to możliwe że przeglądarka próbowała być sprytna i&nbsp;niczego nie pobrać. W&nbsp;takim wypadku zajrzyjcie w&nbsp;źródło strony, zaraz po tekście o&nbsp;świątecznym wpisie.
+
