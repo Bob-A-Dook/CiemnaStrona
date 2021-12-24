@@ -3,7 +3,7 @@ layout: post
 title: McDonald's i jego maszyny
 description: "Proszę wezwać technika"
 date:   2021-06-12 12:49:00 +0100
-tags: [Centralizacja, DRM]
+tags: [Afera, Centralizacja, DRM]
 firmy: [McDonald's]
 category: cyfrowy_feudalizm
 category_readable: "Cyfrowy&nbsp;feudalizm"

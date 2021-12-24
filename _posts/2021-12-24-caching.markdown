@@ -1,0 +1,410 @@
+---
+layout: post
+title:  "Opowieść podręcznej (pamięci)"
+subtitle: "Skarby w zakamarkach przeglądarki."
+description: "Skarby w zakamarkach przeglądarki."
+date:   2021-12-24 00:03:00 +0100
+tags: [Internet, Inwigilacja, Podstawy, Porady]
+---
+
+Witajcie w&nbsp;świątecznym wpisie!
+
+<p style="display:none;"><img src="ciemna-strona-swieta.jpg" title="Przerobiona kartka świąteczna ze strony Miłakartka.pl" alt="Kartka świąteczna w&nbsp;pastelowych kolorach, pokazująca Mikołaja stojącego obok choinki. U&nbsp;góry widać napis 'Wesołych Świąt', a&nbsp;dolnym rogu 'Źródło oryginału: Miłakartka.pl'. Postać w&nbsp;stroju Mikołaja zamiast twarzy ma logo tego bloga. Również głowa bałwanka, zdobiąca napis, ma oczy skopiowane od emotki Ciemnej Strony."/></p>
+
+Nasza przeglądarka -- obojętnie, czy to szpiegujący nas Chrome, czy któraś z&nbsp;tych przyjaźniejszych -- jest jak okręt, który pozwala nam bezpiecznie żeglować po wodach internetu i&nbsp;częściowo izoluje od groźnych rzeczy pływających w&nbsp;głębinach.
+
+Na okrętowym kadłubie po wielu podróżach zaczynają się gromadzić różne rzeczy, niczym pamiątki z&nbsp;podróży. Algi, małże, rysy i&nbsp;wgniecenia...
+
+Za ich główny odpowiednik w&nbsp;przeglądarce możemy uznać *historię przeglądania*, czyli po prostu listę stron, jakie odwiedziliśmy w&nbsp;przeszłości. Zapewne o&nbsp;niej słyszeliście.
+
+Ale to tylko jeden z&nbsp;rodzajów rzeczy, które gromadzimy podczas internetowych wojaży. Inną z&nbsp;nich -- podejrzewam że znacznie mniej znaną -- jest właśnie **pamięć podręczna (ang. _cache_)**.
+
+Nazwa może być dla nas na tyle obca, że nawet jej nie zaznaczymy, rutynowo wybierając w&nbsp;opcjach rzeczy do wyczyszczenia.  
+To błąd! Pomijając fakt, że ta pamięć potrafi nabrać pokaźnych rozmiarów i&nbsp;zajmować miejsce na dysku, jest też **cennym źródłem informacji dla wścibskich oczu**.
+
+W tym wpisie pokażę, w&nbsp;jaki sposób różni przykładowi złoczyńcy -- od stalkerów, przez korporacje, nawet po przestępców chcących nas wrobić -- mogliby wykorzystywać cechy pamięci podręcznej do swoich celów. I&nbsp;w jaki sposób można się przed tym chronić.
+
+Na końcu, dla osób chętnych, zamieszczam również skrypt w&nbsp;Pythonie, który pozwoli nam przeglądać własną pamięć podręczną i&nbsp;odkrywać w&nbsp;niej ciekawostki :sunglasses:
+
+# Spis treści
+
+* [Czym jest pamięć podręczna](#czym-jest-pamięć-podręczna)
+* [Pamięć podręczna w&nbsp;przeglądarce](#pamięć-podręczna-wprzeglądarce)
+  * [Przykład z&nbsp;Ciemnej Strony](#przykład-zciemnej-strony)
+  * [Przykład z&nbsp;Facebooka](#przykład-zfacebooka)
+* [Ciemne strony pamięci podręcznej](#ciemne-strony-pamięci-podręcznej)
+  * [Żyła złota dla stalkerów](#żyła-złota-dla-stalkerów)
+  * [Śledzenie przez korporacje](#śledzenie-przez-korporacje)
+  * [Wrabianie niewinnych osób](#wrabianie-niewinnych-osób)
+* [Jak się bronić?](#jak-się-bronić)
+  * [Przed stalkerami](#przed-stalkerami)
+  * [Przed korporacjami](#przed-korporacjami)
+  * [Przed podrzuceniem plików](#przed-podrzuceniem-plików)
+* [Bonus: skrypt do grzebania w&nbsp;pamięci podręcznej](#bonus-skrypt-do-grzebania-wpamięci-podręcznej)
+
+
+## Czym jest pamięć podręczna
+
+Nazwy *pamięć podręczna* i&nbsp;angielskiego *cache* będę używał wymiennie. W&nbsp;kontekście wpisu oznaczają dokładnie to samo.
+
+Najpierw spójrzmy krótko na znaczenie angielskiego terminu *cache*. Dosłownie oznacza ono skrytkę, miejsce ukrycia kosztowności.
+
+<img src="/assets/posts/caching/heroes-treasure-cache.jpg" alt="Screen z&nbsp;angielskiej wersji gry Heroes 3, pokazujący komunikat o&nbsp;tym, że znaleźliśmy ukryty skarb i&nbsp;możemy wybrać, co z&nbsp;nim zrobić. Jest tu nazwany „treasure cache”."/>
+
+{:.figcaption}
+Już w&nbsp;nieśmiertelnych *Heroesach 3* pojawiało się słowo *cache* w&nbsp;odniesieniu do ukrytego skarbu.  
+P.S. Prawie zawsze wybierałem punkty doświadczenia zamiast złota.
+
+Czytając o&nbsp;sprawach komputerowych, z&nbsp;pojęciem *cache'a* możemy się zetknąć praktycznie na każdym poziomie -- od procesorów, przez programy, po szersze zagadnienie komunikacji internetowej.
+
+To tak powszechna rzecz, ponieważ pozwala osiągnąć coś, co pewnie większość z&nbsp;nas sobie ceni -- oszczędzić sobie niepotrzebnej i&nbsp;powtarzalnej roboty.
+
+Spójrzmy na przykład z&nbsp;życia.  
+Jesteśmy głodni, tak jak ja w&nbsp;tej chwili. Chcemy sobie zrobić wypasione spaghetti bolognese. W&nbsp;tym celu musimy pokroić cebulę, pieczarki i&nbsp;może coś jeszcze.
+
+Którą z&nbsp;metod działania wybierzemy? Taką:
+
+1. Wyjmujemy nóż i&nbsp;deskę
+2. Kroimy cebulę
+3. Kroimy pieczarki
+4. Chowamy nóż i&nbsp;deskę
+
+A może taką?
+
+1. Wyjmujemy nóż i&nbsp;deskę
+2. Kroimy cebulę
+3. Chowamy nóż i&nbsp;deskę
+4. Wyjmujemy nóż i&nbsp;deskę
+5. Kroimy pieczarki
+6. Chowamy nóż i&nbsp;deskę
+
+Chyba każdy myślący człowiek wybrałby wersję pierwszą! Raz naszykować to, czego planujemy użyć, a&nbsp;potem używać tego aż do końca.
+
+Pamięć podręczna może przyjmować wiele różnych postaci, ale łączy je jedno -- to **miejsce, w&nbsp;które odkładamy różne rzeczy, żeby mieć do nich szybki dostęp**. W&nbsp;naszym kulinarnym przykładzie pamięcią podręczną jest blat stołu.  
+Z kolei samą czynność umieszczania rzeczy w&nbsp;takim podręcznym miejscu można by nazwać *cachingiem* albo, spolszczając, *cache'owaniem*.
+
+{% include info.html type="Ciekawostka"
+text="Na *caching* czasami mówi się również *tabling* (dosł. *tablicowanie*). Brzmi dziwnie, ale jest w&nbsp;tym sens!  
+Jeśli przytrafiły Wam się zajęcia ze statystyki, to możecie kojarzyć takie coś jak tablice statystyczne. Zawierające gotowe rozwiązania popularnych wzorów dla często używanych liczb.  
+Dzięki tablicom nie musimy podstawiać liczb do dużych wzorów i&nbsp;liczyć wszystkiego od zera. Podglądamy jedynie wyniki, które ktoś kiedyś obliczył. Takie tablice przyspieszają naszą pracę, jak pamięć podręczna w&nbsp;komputerze."%}
+
+## Pamięć podręczna w&nbsp;przeglądarce
+
+Tyle tytułem ogólników, pasujących do każdego rodzaju pamięci podręcznej. Teraz skupimy się *stricte* na tej w&nbsp;przeglądarce.
+
+We wszystkich przeglądarkach **pamięć podręczna jest folderem**. Znajdują się w nim różne pliki:
+
+{:.figure}
+<img src="/assets/posts/caching/cache-folder-full.jpg" alt="Zrzut ekranu pokazujący folder pamięci podręcznej dla Chromium. Tym razem znajduje się w&nbsp;nim kilkanaście plików, których miniaturki wyglądają jak małe kwadraty pokryte bladymi zerami i&nbsp;jedynkami."/>
+
+{:.figcaption}
+Jeśli ikonki wydają się Wam obce, to dlatego że to przeglądarka systemu Linux Mint. Swoją drogą polecam.
+
+W przypadku przeglądarki Chromium na Linuksie pamięć podręczna znajduje się w&nbsp;folderze `.cache/chromium/Default/Cache`.  
+W przypadku Chrome'a na Windowsie -- w&nbsp;`AppData\Local\Google\Chrome\User Data\Default\Cache` (albo, ogólnie, w podfolderze `Appdata\Local`). 
+
+W jego wnętrzu zawsze mamy podfolder `index-dir` oraz plik `index`. A&nbsp;wszystkie pozostałe pliki odpowiadają rzeczom, które nasza przeglądarka odłożyła na później.
+
+To tak zwane **pliki binarne**. Nie mają żadnego rozszerzenia i&nbsp;są swego rodzaju pojemnikami na inne pliki, zwykle już o&nbsp;znanych typach. W&nbsp;każdym z&nbsp;nich mamy komplet złożony z&nbsp;oryginelnego pliku, a&nbsp;także garść informacji uzupełniających (jak link do źródła, z&nbsp;którego go pobraliśmy, albo datę i&nbsp;godzinę pobrania).
+
+W każdym takim „pojemniku” może być obrazek, zestaw czcionek, plik JavaScript, cała strona internetowa... co nam tylko do głowy przyjdzie.
+
+**Szukając tradycyjnymi metodami, nie znaleźlibyśmy plików z&nbsp;pamięci podręcznej** (w końcu co nam da wypatrywanie wszystkiego, co kończy się na `.jpg`, kiedy te pliki nie mają rozszerzenia? Również ich struktura nie pasuje do powszechnych rodzajów).  
+A jednak tu są, na widoku. Z&nbsp;każdego z&nbsp;nich, jeśli tylko wiemy jak, możemy wyciągnąć całkiem czytelny plik.
+
+# Przykład z&nbsp;Ciemnej Strony
+
+Żeby pokazać przykłady skarbów z&nbsp;pamięci podręcznej, zrobiłem parę testów na znanych sobie stronach. Zacznijmy od Ciemnej Strony! A&nbsp;właściwie od względnie nowego wpisu, poświęconego [plikom cookies i&nbsp;fikcyjnej kawiarni Facebucks]({% post_url 2021-12-08-cookies-piksele-sledzace %}){:.internal}.
+
+Na potrzeby testów odpaliłem w&nbsp;jednym oknie Chromium (nie Chrome'a!) i&nbsp;wyczyściłem doszczętnie dane przeglądania. Równocześnie w&nbsp;drugim oknie obserwowałem wnętrze folderu z&nbsp;jego pamięcią podręczną.
+
+Następnie wkleiłem w&nbsp;pasek przeglądarki link prowadzący do wpisu. Przeniosło mnie na oczekiwaną stronę. A&nbsp;w mojej pamięci podręcznej przybyło plików! Zresztą tych samych, które pokazałem na wcześniejszym screenie.
+
+Użyłem swojego skryptu badawczego, żeby wybrać spośród tych plików obrazki i&nbsp;skopiować je do osobnego folderu. Tak się w nim prezentowały:
+
+{:.figure .bigspace}
+<img src="/assets/posts/caching/ciemna-strona-cache-thumbnails.jpg" alt="Zrzut ekranu z&nbsp;przeglądarki plików pokazujący 9 miniaturek w&nbsp;jednym folderze. Dwie z&nbsp;nich to ikony emoji, jedna to logo Ciemnej Strony, reszta to większe obrazki z&nbsp;treści wpisu."/>
+
+Niektóre nazwy plików i&nbsp;obrazki są dość charakterystyczne. Ktoś mógłby je teoretycznie wpisywać w&nbsp;wyszukiwarkę (albo wklejać w&nbsp;wyszukiwarkę obrazkową) i&nbsp;na tej podstawie ustalić, z&nbsp;jakiej strony pochodzą.
+
+Tylko że w&nbsp;tym przypadku byłby to zbędny wysiłek; **pliki z&nbsp;pamięci podręcznej same zawierają pełne linki do źródeł**, nie trzeba ich zgadywać. Ktoś zaglądający w&nbsp;*cache'a* szybko by odkrył, jaki wpis wyświetliłem.
+
+Ciemna Strona jest statyczna, a&nbsp;do każdego wpisu prowadzi inny link.  
+Jedna strona = konkretny zestaw plików z&nbsp;pamięci podręcznej = jedna pozycja w&nbsp;historii przeglądania.  
+Dlatego w&nbsp;tym przypadku oba źródła informacji, historia i&nbsp;pamięć podręczna, wydają się sobie równe; może z&nbsp;lekką przewagą historii za jej zwięzłość i&nbsp;czytelność.
+
+Tym niemniej zawsze może się zdarzyć, że ktoś wyczyści historię, a&nbsp;pamięci podręcznej nie. Warto wiedzieć, że w&nbsp;takim przypadku *cache* może ją w&nbsp;znacznej części zastąpić jako kopalnia informacji.
+
+# Przykład z&nbsp;Facebooka
+
+Wykonałem podobny test jak poprzednio. Wyczyściłem do zera pamięć podręczną, a&nbsp;potem wszedłem na stronę główną *facebook.com*. Poczekałem, aż załadują się aktualności, otwarłem miniaturkę czatu, lekko przewinąłem wiadomości.
+
+Jeśli nie macie większego doświadczenia z&nbsp;Facebookiem, to uściślę: wszystko tu jest ładowane dynamicznie i&nbsp;na raty. Choć oglądam coraz więcej treści, nie muszę wchodzić na osobne podstrony; cały czas jestem pod adresem *facebook.com*.
+
+Dlatego, gdy po swoim teście zerknąłem na historię przeglądania, znalazłem jedynie stronę główną Fejsa:
+
+{:.figure}
+<img src="/assets/posts/caching/history-after-facebook.jpg" alt="Zrzut ekranu z&nbsp;okna Chromium zawierającego informacje o&nbsp;historii. Na liście widać tylko dwie pozycje i&nbsp;obie mają w&nbsp;nazwie „Facebook”."/>
+
+{:.figcaption}
+W moim przypadku to bardziej dwie strony, bo jedna to ekran logowania, a&nbsp;druga to główna *facebook.com*.
+
+A w&nbsp;cache'u? **Zapisały się tam (chyba) wszystkie obrazki, jakie mi się wyświetliły**. Zarówno na stronie, jak i&nbsp;na czacie. Miniaturki znajomych, z&nbsp;którymi coś pisaliśmy. Reklamy i&nbsp;ilustracje do wpisów, jakie akurat nam pokazywało na tablicy.
+
+Tutaj przykład jednego niewinnego zdjęcia, które mój znajomy dodał do grupowej konwersacji:
+
+{:.figure .bigspace}
+<img src="/assets/posts/caching/facebook-cache-message.jpg" alt="Zrzut ekranu z&nbsp;Messengera w&nbsp;wersji na komputer. Obrazki osób zostały zakryte kolorami. Widać, że jedna z&nbsp;osób wysłała zdjęcie z&nbsp;promocją, a&nbsp;pod nim pisze, że to dobra cena za gry planszowe."/>
+
+Ono również trafiło do miniaturek w&nbsp;*cache'u*, mimo że teoretycznie czat jest czymś prywatniejszym niż tablica. Gdybym kliknął zdjęcie, żeby je powiększyć, to do *cache'a* dołączyłaby również jego wersja w&nbsp;pełnej rozdzielczości.
+
+W pamięci podręcznej była też miniatura krótkiego filmiku wrzuconego przez znajomą. Oznaczyła na nim inną osobę -- tagiem w&nbsp;stylu `@JAKAŚ_OSOBA`, który po lekkim mrużeniu oczu dało się odczytać z&nbsp;miniaturki.  
+Ktoś z&nbsp;zewnątrz, zamiast zgadywać po awatarach, miałby nazwę jednego użytkownika na tacy.
+
+Ten przykład pokazuje nam, że w&nbsp;przypadku dynamicznych stron **pamięć podręczna potrafi zdradzać dużo więcej szczegółów niż historia przeglądania**.
+
+## Ciemne strony pamięci podręcznej
+
+Pliki, które zapisują się na naszym dysku niezależnie od zawartości. O&nbsp;których mało kto wie; a&nbsp;nawet gdyby wiedział, nie byłby w&nbsp;stanie ich wyszukać domyślnymi narzędziami systemu. A&nbsp;zarazem łatwe do otwarcia dla osoby, która będzie wiedziała czego użyć.
+
+Brzmi jak przepis na potencjalną katastrofę? Co najmniej na trzy! Zapraszam do przemyśleń nad tym, co może pójść nie tak :wink: 
+
+# Żyła złota dla stalkerów
+
+Wyobraźmy sobie, że korzystamy z&nbsp;jakiegoś komputera -- może publicznego w&nbsp;czytelni; może ze składaka wuja Janusza, którego odwiedziliśmy w&nbsp;święta; może nawet z&nbsp;własnego laptopa. Przyjmijmy, że sam komputer jest w&nbsp;100% bezpieczny, nie ma żadnych wirusów ani programów monitorujących co robimy.
+
+Mając poczucie bezpieczeństwa, odwiedzamy parę stron i&nbsp;logujemy się do kont na portalach społecznościowych. Czytamy wiadomości od znajomych.
+
+Ale zachowujemy szczyptę ostrożności! Na koniec wylogowujemy się z&nbsp;kont i&nbsp;wybieramy opcję „Wyczyść historię przeglądania”, bo słyszeliśmy że tak warto robić.  
+Tylko że nie rozumiemy, czym jest ta opcja „Pamięć podręczna”... Może to te zakładki z&nbsp;ulubionymi stronami? To chyba lepiej nie usuwać? Zatem nie usuwamy.
+
+Potem do tego samego komputera, z&nbsp;którego wcześniej korzystaliśmy, zasiada stalker (będę pisał w&nbsp;rodzaju męskim, ale oczywiście może to być też stalkerka! :wink:).
+
+Szemrana osoba w&nbsp;każdym razie. Nie musi mieć żadnych zdolności hakerskich. **Wystarczy, że ma pendrive'a i&nbsp;minimum wiedzy, który folder skopiować**.  
+A do przeglądania plików może użyć gotowych programów, jak *[Chrome Cache View](https://www.nirsoft.net/utils/chrome_cache_view.html)*.
+
+Stalker(-ka) kopiuje cały folder z&nbsp;pamięcią podręczną i&nbsp;zabiera go ze sobą, żeby wykopać z&nbsp;informacji cenne rzeczy.
+
+Przede wszystkim, patrząc na miniaturki i&nbsp;awatary różnych ludzi, może być w&nbsp;stanie **ustalić naszą tożsamość**. Być może nie od razu, być może trzeba będzie trochę przyglądać się awatorom i wyszukiwać je z osobna, potem patrzeć po znajomych. Ale to kwestia czasu.
+
+W przypadku takiego Facebooka na pewno pomaga fakt, że w pierwszej kolejności zwykle ładowane są obrazki bliższych znajomych. Pozwala to znacznie zawęzić poszukiwania.
+
+Nawet gdybyśmy korzystali z publicznego komputera, gdzie pamięć podręczna przyjmuje obrazku różnych osób, ktoś mógłby łatwo porozdzielać zdjęcia z różnych kont, patrząc na godziny ich przesłania.  
+Nowa duża porcja obrazków = nowy zalogowany użytkownik, któremu załadowały się inne miniaturki. 
+
+Poza tym wśród obrazków będą również te z naszych prywatnych konwersacji. Nowy dowód osobisty, który wysłaliśmy siostrze? Pinezka na mapie i kod do drzwi, jaki podaliśmy bliskiemu znajomemu dokarmiającemu kota pod naszą nieobecność? Zdjęcia, które powinny pozostać prywatne?
+
+W pamięci podręcznej **wszelkie wrażliwe dane mogą być na widoku**. Jeśli ktoś je dorwie i połączy z naszą tożsamością, to wszystko może się zdarzyć.
+
+# Śledzenie przez korporacje
+
+Tak już działa ten internet, że nasza przeglądarka przy każdym kontakcie z&nbsp;innymi stronami wysyła im kilka podstawowych informacji. Coś w&nbsp;rodzaju naszej wizytówki.  
+Właściciele stron mogą analizować te informacje, żeby rozpoznać, z&nbsp;jakimi innymi ich stronami wchodziliśmy w&nbsp;interakcję. Na tej podstawie mogą budować profil naszych zainteresowań.
+
+Jeśli czytaliście moją najdłuższą serię, „Internetową inwigilację”, to pewnie jesteście już całkiem nieźle zaznajomieni z&nbsp;tym procederem :wink:
+
+A przechodząc do *meritum*: **jedna z&nbsp;wysyłanych informacji może być związana z&nbsp;pamięcią podręczną. Nazywa się `ETag`** (skrót od *Entity Tag*; gdzie *entity* to takie bardzo ogólne pojęcie, coś w&nbsp;stylu „rzecz”).
+
+To unikalny ciąg znaków. Może wyglądać na przykład tak:
+
+<div class="black-bg mono">33a64df551425fcc55e4d42a148795d9f25f89d4</div>
+
+{:.figcaption}
+Źródło: opis [ze strony Mozilli](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag).
+
+To atrybut opcjonalny, nie zawsze jest przesyłany. Jest swego rodzaju identyfikatorem pliku, takiego jak obrazek.
+
+Kiedy nasza przeglądarka wyśle ten atrybut jakiejś stronie K, oznacza to że mówi „Mam w&nbsp;swojej pamięci taki obrazek. Czy coś się w&nbsp;nim zmieniło?”.  
+Serwer strony K porównuje ten identyfikator z&nbsp;tym, co ma u&nbsp;siebie. Jeśli nic się nie zmieniło, to krótko informuje o&nbsp;tym przeglądarkę. A&nbsp;ta bierze obrazek ze swojej pamięci, zamiast pobierać go od nowa. Unikamy wielokrotnego przesyłania tych samych rzeczy.
+
+Gdyby stronka była prawilna i&nbsp;używała *Etaga* zgodnie z&nbsp;przeznaczeniem, wyłącznie do odciążenia przeglądarek, to tworzyłaby po jednym tagu dla każdej rzeczy (np. obrazka), a&nbsp;następnie wysyłała ten sam tag różnym osobom.
+
+Stronka bardziej szpiegowska -- często jakaś duża korporacyjna -- tworzy zamiast tego **osobne tagi dla różnych odwiedzających ją użytkowników**. Dzięki temu wie, że osoba „legitymująca się” na stronie B&nbsp;konkretnym *Etagiem* to ta sama osoba, która wcześniej okazywała go na stronie A. 
+
+# Wrabianie niewinnych osób
+
+Mechanizm działania pamięci podręcznej niesie za sobą jeszcze jedną niepokojącą implikację. **Co raz odczyta nasza przeglądarka, to trafia na nasz dysk**. 
+
+Pojawia się tu ciekawy problem natury prawnej. Otóż niektóre obrazki są zakazane. W&nbsp;przypadku polskiego prawa samo ich posiadanie jest karalne.
+
+Nie będę tu rzucał nazwami, bo szkoda by było, gdyby naiwne algorytmy Ej-aj przypisały mojego bloga do tych kategorii. Ale wiemy, o&nbsp;co chodzi -- rzeczy z&nbsp;udziałem nieletnich.
+
+(Mogłyby to być też dowolne inne obrazki zakazane prawem jakiegoś kraju; choćby materiały antyrządowe w&nbsp;państwach totalitarnych).
+
+Wyobraźmy sobie, że jakiś troll internetowy wrzuca zakazane obrazki na forum, które akurat przeglądamy. W&nbsp;momencie, kiedy to robi, przeglądarka automatycznie je zapisuje w&nbsp;naszej pamięci podręcznej.
+
+Mogliśmy tych obrazków nie widzieć (bo nowy komentarz dopiero się pojawił w&nbsp;dolnej części ekranu, my patrzymy tylko na pierwszy od góry). A&nbsp;jednak w&nbsp;momencie, gdy jakiś złoczyńca je wrzucił, trafiły na nasz dysk. Staliśmy się posiadaczami. Gdyby prawo było zero-jedynkowe, to również przestępcami.
+
+{%include info.html type="Ciekawostka"
+text="Powiecie, że to absurd? A&nbsp;jednak kiedyś na forum *Wykop.pl* miała miejsce podobna afera!  
+Banda trolli wrzuciła tam w&nbsp;nocy posta z&nbsp;zakazanymi obrazkami. Niektórzy użytkownicy dali pod tymi zdjęciami plusy.  
+Niekoniecznie przez swoje skłonności; rzekomo mieli włączone programy do automatycznego plusowania wszystkich nowości, żeby ich konta wydawały się aktywniejsze (ach ta *gamifikacja*...).  
+Ale plusowanie podbija widoczność. W&nbsp;związku z&nbsp;tym takie osoby *de facto* **udostępniały nielegalne treści**. Właściciel serwisu zapowiedział, że [zgłasza na policję również plusujących](https://bezprawnik.pl/afera-pedofilska-wykop/). Finału sprawy nie znam."
+%}
+
+Ale powiedzmy, że jednak istnieje jakaś sprawiedliwość i&nbsp;w sytuacji takiej jak wyżej uznaliby naszą niewinność. Jasna sprawa, wiele pokrzywdzonych osób, świadkowie itp.
+
+Gorzej, jeśli ktoś bardzo chce nas wrobić. W&nbsp;takim wypadku może założyć stronę X&nbsp;-- minimalistyczną, na pozór niewinną, ale zawierającą ukryty obrazek, który jako źródło ma ustawioną cudzą stronę Y&nbsp;z nielegalnymi treściami.
+
+Osoba wrabiająca życzliwie zachęca nas do odwiedzenia strony X. Kiedy to robimy, za kulisami przeglądarka pobiera kompromitujący nas obrazek i&nbsp;zapisuje go na dysku.  
+Jednocześnie nasz wróg zawiadamia anonimowo policję, że możemy mieć coś nielegalnego. A&nbsp;ze swojej strony X&nbsp;usuwa link do szemranej Y, żeby zatrzeć ślady.
+
+Nie mamy pojęcia o&nbsp;istnieniu tego obrazka, więc chętnie dopuszczamy policję do naszego komputera. „To na pewno jakaś pomyłka, nie mam nic do ukrycia”.
+
+A co znalazłby w&nbsp;naszej pamięci technik przeglądający pliki? **Zakazany obrazek, a&nbsp;w&nbsp;informacjach uzupełniających -- link do jego źródła, znanej strony Y&nbsp;z&nbsp;zakazanymi treściami**.
+
+Żadnego tropu ukazującego stronę X&nbsp;jako winną.  
+Znalazłaby się co najwyżej jej nazwa w&nbsp;historii przeglądania, ale już nie zawierałaby linków do niczego nielegalnego. Zresztą tak naprawdę, nie znając się na działaniu przeglądarki, nie mielibyśmy pojęcia co się stało. **Moglibyśmy do końca nie wiedzieć, kto był naszym wrogiem**.
+
+Nie mam pojęcia, na ile taka sytuacja jest realna od strony prawnej, czy faktycznie tak trudno byłoby się wybronić. Ale od strony technicznej wydaje się niepokojąco możliwa.
+
+## Jak się bronić?
+
+Każdy z&nbsp;trzech przypadków, które wcześniej opisałem, wymaga osobnej metody przeciwdziałania. Ale na szczęście wszystkie sprowadzają się do paru kliknięć na krzyż.
+
+Zanim zaczniemy, jeszcze tylko drobna uwaga: jeśli usuwamy rzeczy z&nbsp;pamięci podręcznej, a&nbsp;potem odwiedzamy tę samą stronę, to wszystko załadujemy od nowa.  
+Jeśli zależy nam na oszczędzaniu transferu danych (na przykład korzystamy z&nbsp;internetu mobilnego), to lepiej stosować opisane metody ostrożnie.
+
+# Przed stalkerami
+
+Przede wszystkim **czyśćmy pamięć przeglądarki**. Zwłaszcza jeśli użyjemy komputera bardziej publicznego, do którego może później mieć dostęp inna, niekoniecznie fajna osoba.
+
+We wszystkich przeglądarkach, które sprawdzałem, należy najpierw otworzyć opcje historii, potem wybrać opcję w&nbsp;stylu `Wyczyść dane przeglądania`. Powinno pokazać nam się okno, w&nbsp;którym zaznaczamy, co dokładnie chcemy wyczyścić. W&nbsp;tym miejscu zaznaczamy opcję `Pamięć podręczna` i&nbsp;klikamy przycisk potwierdzający. I&nbsp;już!
+
+{:.figure}
+<img src="/assets/posts/caching/czyszczenie-historii.jpg" alt="Zrzut ekranu okna Firefoxa z&nbsp;zaznaczonymi wszystkimi opcjami czyszczenia danych przeglądania. Czerwoną ramką otoczono tekst „Pamięć podręczna”."/>
+
+{:.figcaption}
+Tutaj na przykładzie Firefoksa.
+
+Warto również, zwłaszcza jeśli korzystamy z&nbsp;publicznego komputera, **przeglądać w&nbsp;trybie prywatnym (incognito)**. Nasza przeglądarka wydziela wtedy osobnego *cache'a* na czas przeglądania, a&nbsp;po zamknięciu przeglądarki go czyści.
+
+Kolejna sprawa: jestem zdania, że warto pousuwać z&nbsp;wiadomości bardziej prywatne obrazki. Zdjęcia swoich dokumentów i&nbsp;inne fotki, których raczej byśmy nie pokazywali szerszym internetom. 
+
+Nawet jeśli sami będziemy się pilnować, to pamiętajmy, że konwersacja ma przynajmniej dwie strony.  
+Druga osoba może sobie siąść przy publicznym komputerze. Weźmie ją na wspominki i&nbsp;zajrzy w&nbsp;naszą dawną rozmowę, a&nbsp;potem nie wyczyści *cache'a*.  
+W ten sposób na dysku jakiegoś bibliotecznego albo uczelnianego komputera, ku uciesze potencjalnych stalkerów, zostaną nasze zdjęcia.
+
+Na takim Facebooku/Messengerze możemy usunąć wiadomość, klikając ikonę trzech kropek obok niej i&nbsp;wybierając `Usuń > Cofnij wysłanie do wszystkich`.
+
+Ogólnie proponuję patrzeć na internetową korespondencję w&nbsp;ten sposób: **to nie jest przekazywanie listów z&nbsp;ręki do ręki. To zostawianie ich w&nbsp;ustronnym miejscu, z&nbsp;nadzieją że tylko jedna osoba je odnajdzie**.
+
+# Przed korporacjami
+
+...Czyli, przypomnę, przed śledzeniem przez atrybut `ETag`.  
+Ręczne czyszczenie pamięci albo używanie internetu w&nbsp;trybie incognito też by tu działały.
+
+Ale musielibyśmy to robić na tyle często, że stałoby się to niepraktyczne i&nbsp;uciążliwe -- wylewalibyśmy dziecko z&nbsp;kąpielą, pozbawiając się pamięci podręcznej, a&nbsp;zatem szybkości i&nbsp;lekkości.  
+Dlatego lepiej mieć coś działającego w&nbsp;tle, co będzie nam automatycznie olewało atrybut `ETag` i&nbsp;nie przesyłało go znanym wścibinosom, a&nbsp;przy tym nie zmuszało nas do czyszczenia całego *cache'a*.
+
+Takim czymś jest **dodatek ClearURLs**. W&nbsp;wersjach na różne przeglądarki:
+
+* [na Firefoksa](https://addons.mozilla.org/en-US/firefox/addon/clearurls/),
+* [na Chrome'a](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/),
+* [na Edge'a](https://microsoftedge.microsoft.com/addons/detail/clearurls/mdkdmaickkfdekbjdoojfalpbkgaddei).
+
+Uprzedzę, że akurat funkcji blokowania *Etagów* nie testowałem. Ale sam dodatek jest dość popularny i&nbsp;ma inne fajne bajery (głównie związane z&nbsp;czyszczeniem linków), więc tak czy siak można z&nbsp;niego korzystać, na zasadzie „minimum dodatków, maksimum funkcji”. 
+
+Inna propozycja to dodatek [PrivacyPossum](https://github.com/cowlicks/privacypossum). To rozwinięcie popularnego Privacy Badgera o&nbsp;kilka bardziej radykalnych funkcji blokujących.  
+Uprzedzę jedynie, że PP od ponad roku nie był aktualizowany. Polecam bardziej dla ekperymentatorów.
+
+# Przed podrzuceniem plików
+
+Zanim zostanę posądzony o&nbsp;paranoję: sam nie uważam *[kompromatów](https://pl.wikipedia.org/wiki/Kompromat)* za realne zagrożenie dla większości z&nbsp;nas.
+
+Gdyby ktoś chciał nas skompromitować, to miałby na to łatwiejsze sposoby niż jakieś fałszywe strony i&nbsp;zmuszanie do pokazania *cache'a*. Analogowe anonimy i&nbsp;pomówienia mogłyby wystarczyć :wink:
+
+Ale być może chcemy czasem nuklearnej opcji? Zamiast pamiętać o&nbsp;czyszczeniu pamięci, zamiast blokować wybrane elementy... po prostu całkiem ją wyłączyć, żeby przeglądarka nic nam nie zapisywała na dysku?
+
+To już całkiem realna potrzeba i&nbsp;da się to zrobić! Naciskamy `Ctrl+Shift+I` (jak „Irena”), żeby otworzyć opcje przeglądarki. Tam wchodzimy w&nbsp;zakładkę `Sieć` i&nbsp;klikamy `Wyłącz pamięć podręczną`.
+
+Od teraz nie będzie nam zapisywało do *cache'a* żadnych plików. Gdyby ktoś z&nbsp;zewnątrz chciał je dorwać, to musiałby mieć dostęp bezpośrednio do naszej pamięci RAM -- a&nbsp;gdyby miał, to znaczy że mamy dużo większe problemy niż jakieś rzeczy z&nbsp;*cache'a*!
+
+Warto pamiętać, żeby potem odhaczyć tę opcję, gdy znowu będziemy ufać swojemu komputerowi. W&nbsp;innym wypadku przeglądarka będzie nam znacznie wolniej działała, często pobierając od nowa rzeczy, które widziała sekundy wcześniej.
+
+I to tyle z&nbsp;porad i&nbsp;omówień! Chętnych zapraszam do dalszej lektury o&nbsp;tym, w&nbsp;jaki sposób własnoręcznie można w&nbsp;tym *cache'u* szperać. A&nbsp;pozostałym życzę udanych świąt :smile:
+
+## Bonus: skrypt do grzebania w&nbsp;pamięci podręcznej
+
+Też chcielibyście, moi praworządni czytelnicy, sprawdzić zawartość swojej (i tylko swojej) pamięci podręcznej?
+
+Oto skrypt buszujący w&nbsp;*cache'u*, który skleiłem z&nbsp;twórczości mądrzejszych osób. Istnieje niezerowa szansa, że zadziała.
+
+{% include info.html type="Uwaga"
+text="Ten skrypt, w&nbsp;przeciwieństwie do moich poprzednich, mógłby wzbudzić gniew jakiegoś antywirusa.  
+To dlatego, że bądź co bądź zagląda do folderów innego programu. Antywirus nie wie, że sami możemy tego chcieć, i&nbsp;może to oznaczyć jako potencjalne zagrożenie.  
+Ja niczego nie ukrywam; kod źródłowy skryptu macie na widoku, a&nbsp;każda osoba znająca Pythona może sprawdzić, czy bezpieczny :smile:."
+%}
+
+{% include pyscript.html name="browser-cache-analyzer.py"
+link = "/assets/skrypty/browser-cache-analyzer.py"
+trailer = "
+<p>Możecie go odpalić w&nbsp;dowolnym folderze. A&nbsp;on poszuka folderów z&nbsp;pamięciami podręcznymi dla znanych sobie par system + przeglądarka.</p>
+
+<p>Gdyby skrypt miał problemy ze znalezieniem pamięci podręcznej, możecie obejść domyślne ustawienia, wprost wskazując mu ścieżkę oraz nazwę przeglądarki, z&nbsp;jakiej pochodzą pliki. W&nbsp;tym celu edytujcie zmienne <code class='language-plaintext highlighter-rouge'>CUSTOM_PATH</code> i&nbsp;<code class='language-plaintext highlighter-rouge'>CUSTOM_BROWSER</code> pod koniec pliku.</p>
+
+<p>Skrypt <strong>nie wymaga dodatkowych modułów, wystarczy domyślny Python</strong>. Testowałem go na następujących kombinacjach systemów i&nbsp;przeglądarek:</p>
+
+<ul>
+  <li>Linux Mint + Chromium / Firefox / Vivaldi / Opera</li>
+  <li>Windows 10 + Firefox</li>
+</ul>
+
+<p>I działał! Ale pamiętajmy, że autorzy przeglądarek zawsze mogą coś zmienić w&nbsp;formacie plików binarnych z&nbsp;<em>cache’a</em>, przez co ubiją skrypt. W&nbsp;takim wypadku trzeba by go mocniej zmienić, co jest póki co poza moim zasięgiem. Żeby mieć większą pewność działania, najlepiej trzymajcie się Firefoxa.</p>
+"%}
+
+# Przykłady zastosowań
+
+Jednym z&nbsp;najczęstszych zastosowań może być wyciąganie plików z&nbsp;pamięci do osobnego folderu, żeby potem się z&nbsp;nimi zapoznać. Możemy do tego celu użyć kilku zwięzłych funkcji:
+
+```python
+# Można wyciągnąć wszystkie pliki ze znalezionych pamięci
+extract_data()
+
+# Albo tylko same obrazki 
+extract_images()
+
+# Albo obrazki tylko z&nbsp;pamięci Firefoksa
+extract_images( browser="Firefox" )
+
+# Albo wszystkie obrazki z&nbsp;Ciemnej do folderu "Obrazki"
+extract_images( url_text="ciemnastrona.com.pl", folder="Obrazki" )
+```
+
+Mamy też kilka funkcji do prostej analizy eksploracyjnej:
+
+```python
+# Zdobyć pliki png ze źródeł zawierających słowo 'facebook'
+fb = get_entries( url_text="facebook", extensions="png" )
+
+# Potem wyświetlić posortowane wyniki jeden pod drugim
+show_entries( fb )
+
+# Albo zrobić to co wyżej jedną komendą
+show_entries( url_text="facebook", extensions="png" )
+
+# Albo pokazać tylko adresy zawierające ciąg czterech dowolnych cyfr
+# (korzystamy tu z&nbsp;wyrażeń regularnych)
+show_entries( url_text="[0-9]{4}", regex=True )
+
+```
+
+Moje gotowe funkcje można oczywiście mieszać z&nbsp;domyślnymi Pythonowymi:
+
+```python
+# Bierzemy z&nbsp;cache'a Chromium elementy, których linki
+# zawierały parametry (co odczytuje funkcja urlparse). 
+# Potem zapisujemy je w&nbsp;osobnym folderze
+elems = get_entries( browser="Chromium" )
+elems = [e for e&nbsp;in elems if urlparse(e.url).params]
+extract( elems, folder="Z_parametrami" )
+```
+
+Ale myślę, że i&nbsp;tak osoby kreatywne znajdą własne zastosowania i&nbsp;odkryją w&nbsp;swoich (i tylko swoich!) pamięciach rzeczy, o&nbsp;jakich nawet mi się nie śniło.
+
+Miłego przeczesywania pamięci!
+
+Ach, swoją drogą... Mamy święta, więc naszykowałem świąteczny prezent!  
+Wśród obrazków z&nbsp;pamięci podręcznej odpowiadających temu wpisowi powinniście znaleźć niespodziankę, której zapewne nie widzieliście gołym okiem :wink:
+Spokojnie, jest niegroźna.
+

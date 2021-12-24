@@ -178,11 +178,11 @@ A potem przyszły czasy wchłonięcia przez CD Projekt i&nbsp;uspokojenie sytuac
 
 Cały ten przykład pokazuje nam kilka rzeczy:
 
-* nazwy firm widoczne na zewnątrz są czymś ulotnym; zawsze mogą nastąpić przejęcia, wydzielenie mniejszych firm itp.
-* pokazanie zmian na wykresach pozwala dostrzec, na ile stabilna jest. sytuacja w&nbsp;firmie
+* nazwy firm widoczne na zewnątrz są czymś ulotnym; zawsze mogą nastąpić przejęcia, wydzielenie mniejszych firemek itp.
+* pokazanie zmian na wykresach pozwala dostrzec, na ile stabilna jest sytuacja w&nbsp;firmie
 * ...ale wykres nie mówi wszystkiego.  
 
-  CD Projekt ma od początku (przejęcia Optimusa) bardzo stabilny skład zarządu. A&nbsp;jednak, w&nbsp;świetle niedawnych zdarzeń związanych z&nbsp;premierą „Cyberpunka”, wiemy że za kulisami mieli całkiem niezły bajzel. 
+  CD Projekt ma od czasu przejęcia Optimusa bardzo stabilny skład zarządu. A&nbsp;jednak, w&nbsp;świetle niedawnych zdarzeń związanych z&nbsp;premierą „Cyberpunka”, wiemy że za kulisami mieli całkiem niezły bajzel. 
 
 # Donald.pl
 
@@ -233,7 +233,7 @@ Plik *nr3_uchwala.pdf* (z 2021 r.):
 W tym ostatnim, najnowszym przypadku było 12 głosów przeciw przyjęciu sprawozdania. Zapewne głosował tak drugi, mniejszy udziałowiec, V27. Ale główny właściciel ma więcej głosów (108) i&nbsp;był za, więc wszystko przeszło.
 
 Sam nie wiem, jak to interpretować. Wiem że strata w&nbsp;świecie finansów nie oznacza, że pieniądze wyparowały. Tym niemniej była i&nbsp;rośnie.  
-Poza tym kwoty startowe były wyższe niż myślałem, więc nie znalazłem odpowiedzi na to, jak wygląda rozwijanie portalu na zasadzie grosz do grosza”. No cóż, pozostaje szukać dalej.
+Poza tym kwoty startowe były wyższe niż myślałem, więc nie znalazłem odpowiedzi na to, jak wygląda rozwijanie portalu na zasadzie „grosz do grosza”. No cóż, pozostaje szukać dalej.
 
 {%include info.html
 type="Ciekawostka"
@@ -256,7 +256,7 @@ I ciekawostka! Oficjalna nazwa nie ma nic wspólnego z&nbsp;żadną Molierą i&n
 
 Patrząc na adres, widzimy skąd nazwa *Moliera 2*. Od założenia spółki aż do teraz mieszczą się w&nbsp;lokalu numer 2 na ulicy Moliera w&nbsp;Warszawie. Zewnętrzne źródła uzupełniają, że był to, oprócz siedziby, również ich pierwszy salon.
 
-Po zrobieniu wykresów widzimy też całkiem świeżą zmianę, z&nbsp;października 2021! Główna IT Fashion Group straciła wtedy udziały, a&nbsp;wzięły je dwie inne firmy: *IT Fashion Polska Properties Sp. z&nbsp;o.o.* (czyli zapewne jakaś przybudówka głównych właścicieli Moliery), a&nbsp;także nieznana wcześniej *Modern Commerce Spółka Akcyjna*.
+Po zrobieniu wykresów widzimy też całkiem świeżą zmianę, z&nbsp;października 2021! Sławomir P., przez pewien czas jedyny udziałowiec, stracił swoje udziały na rzecz dwóch innych firm. To *IT Fashion Polska Properties Sp. z&nbsp;o.o.* (zapewne jakaś przybudówka głównych właścicieli Moliery), a&nbsp;także nieznana wcześniej *Modern Commerce Spółka Akcyjna*.
 
 Ci pierwsi mają 20 udziałów, ci drudzy 80.  
 Co więcej, dokładnie takie plany możemy znaleźć **w artykułach sprzed kilku miesięcy**, z&nbsp;maja tego roku:

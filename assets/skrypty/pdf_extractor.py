@@ -21,9 +21,9 @@ from pathlib import Path
 from base64 import b64decode
 
 try:
-    from bs4 import BeautifulSoup
+    from bs4 import BeautifulSoup, FeatureNotFound
 except ImportError:
-    BeautifulSoup = None
+    BeautifulSoup, FeatureNotFound = None, None
     warning('Brak modułu dodatkowego BeautifulSoup. Program spróbuje '
             'wyciągnąć dane jako tekst, ale może się to nie udać!\n'
             'Aby zainstalować BS, wpisz w konsoli '
@@ -66,8 +66,9 @@ def _regex_extract( xml_file ):
     for att in attachments:
         is_pdf = (b'format="application/pdf"' in att)
         if is_pdf:
-            pdf = re.search(b'DaneZalacznika\>(.*?)\<', att).group(1)
-            pdf = b64decode(pdf)
+            pdf = re.search(b'DaneZalacznika\>(.*?)\<', att)
+            if not pdf: continue
+            pdf = b64decode( pdf.group(1) )
             pdfs.append( pdf )
 
     return pdfs
@@ -76,14 +77,22 @@ def _regex_extract( xml_file ):
 def extract( xml_file, out_folder ):
     '''Uses either XML parsing or regex to extract embedded PDF files.'''
     
-    try:
-        if BeautifulSoup:
-            pdfs = _bs_extract( xml_file )
-        else:
-            pdfs = _regex_extract( xml_file )
-    except Exception:
-        exception(f'Błąd podczas wyciągania plików z "{xml_file}"')
-        return
+    pdfs = []
+    if BeautifulSoup:
+        try: pdfs = _bs_extract( xml_file )
+        except FeatureNotFound:
+            warning('Brak modułu lxml, program spróbuje wyciągnąć tekst '
+                    'innym sposobem. Żeby zainstalować moduł, wpisz '
+                    ' w konsolę "pip install lxml"')
+        except Exception:
+            error('Nieznany błąd przy wyciąganiu PDF-ów, program spróbuje '
+                  'to zrobić drugim sposobem (przez regex)')
+                
+    if not pdfs:
+        try: pdfs = _regex_extract( xml_file )          
+        except Exception:
+            exception(f'Błąd podczas wyciągania PDF-ów z pliku "{xml_file}"')
+            return
 
     if not pdfs:
         print(f'[INFO] W pliku "{xml_file.name}" nie znaleziono PDF-ów')
@@ -127,10 +136,11 @@ def extract_all( folder_path=None ):
     for f in xml_files:
         saved_num = extract( f, out_folder )
         if saved_num:
-            print(f'Wyciągnięto PDF-y (liczba: {saved_num}) z pliku "{f.name}"')
+            print(f'[INFO] Wyciągnięto PDF-y (liczba: {saved_num}) '
+                  f'z pliku "{f.name}"')
 
     if not saved_num: return
-    print('\nWszystkie pliki przeniesiono do folderu:\n'
+    print('\nWyciągnięte pliki PDF trafiły do folderu:\n'
           f'{out_folder.absolute()}')
 
 

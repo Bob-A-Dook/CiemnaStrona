@@ -151,12 +151,13 @@ Okazało się, że miały one atrybut `ip` zawierający... mój adres IP. Nie ma
 
 # Reakcje i&nbsp;emoji
 
-**Po reakcjach można poznać, czy ktoś używa Messengera przez telefon**. Wersja komputerowa daje możliwość wybrania jednej z&nbsp;7&nbsp;reakcji. Przez aplikację można wybrać oprócz tego dowolną emoji z&nbsp;przybornika.
+Małe obrazki uprzyjemniające rozmowę. Emoji możemy wstawiać w&nbsp;tekst swoich wiadomości, zaś reakcje „przypinamy” pod wiadomościami innych osób.
 
-Wniosek? Jeśli ktoś daje jako reakcję coś niestandardowego, to wiemy że właśnie używa aplikacji.
+**Aktualizacja, grudzień 2021**: Kiedyś po reakcjach można było poznać, czy ktoś używa aplikacji Messengera! Wersja komputerowa pozwalała wstawić tylko jedną z&nbsp;7, zaś aplikacja umożliwiała zareagowanie dowolną. Wniosek: jeśli ktoś użył niestandardowej, to używa apki.  
+Od lata/jesieni 2021&nbsp;r. (dokładnie nie pamiętam) wersja komputerowa też daje możliwość reagowania dowolną emotą. Więc regułka sprawdzi się jedynie przy starszych wiadomościach. 
 
-{% include info.html type="Ciekawostka" text="Na początku zamiast emoji czerwonego serca **jedną z&nbsp;kilku domyślnych reakcji była buźka z&nbsp;sercami w&nbsp;oczach**. Serce stopniowo ją wyparło.  
-Zatem, gdyby w&nbsp;roli reakcji pojawiły się serca w&nbsp;oczach, to nie znaczy że ktoś używa niestandardowych emot. Po prostu pisał w&nbsp;czasach, gdy niektórych jeszcze na świecie nie było. Sam na przykład zebrałem 224 sercookie reakcje.  
+{% include info.html type="Ciekawostka" text="Na początku zamiast emoji czerwonego serca **jedną z&nbsp;kilku domyślnych reakcji była buźka z&nbsp;sercami zamiast oczu**. Serce stopniowo ją wyparło.  
+Zatem, gdybyśmy wśród archiwalnych reakcji znaleźli serca w&nbsp;oczach, to nie musi oznaczać, że ktoś je specjalnie wybierał z&nbsp;listy. Po prostu mógł pisać w&nbsp;czasach, gdy niektórych jeszcze na świecie nie było. Sam na przykład zebrałem 224&nbsp;sercookie reakcje.  
 Zresztą reakcje jako takie też są względnie nowe, pojawiły się [w 2017 roku](https://about.fb.com/news/2017/03/introducing-message-reactions-and-mentions-for-messenger/)." %}
 
 Kolejna ciekawostka: najwięcej zebrałem reakcji domyślnych (polubienie, śmiejąca się emota, serce, zdziwiona emota). Każda z&nbsp;nich pojawiała się kilkadziesiąt razy więcej niż te niestandardowe.  
