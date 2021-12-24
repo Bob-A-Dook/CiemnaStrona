@@ -364,10 +364,10 @@ extract_data()
 # Albo tylko same obrazki 
 extract_images()
 
-# Albo obrazki tylko z&nbsp;pamięci Firefoksa
+# Albo obrazki tylko z pamięci Firefoksa
 extract_images( browser="Firefox" )
 
-# Albo wszystkie obrazki z&nbsp;Ciemnej do folderu "Obrazki"
+# Albo wszystkie obrazki z Ciemnej do folderu "Obrazki"
 extract_images( url_text="ciemnastrona.com.pl", folder="Obrazki" )
 ```
 
@@ -384,7 +384,7 @@ show_entries( fb )
 show_entries( url_text="facebook", extensions="png" )
 
 # Albo pokazać tylko adresy zawierające ciąg czterech dowolnych cyfr
-# (korzystamy tu z&nbsp;wyrażeń regularnych)
+# (korzystamy tu z wyrażeń regularnych)
 show_entries( url_text="[0-9]{4}", regex=True )
 
 ```
@@ -392,11 +392,11 @@ show_entries( url_text="[0-9]{4}", regex=True )
 Moje gotowe funkcje można oczywiście mieszać z&nbsp;domyślnymi Pythonowymi:
 
 ```python
-# Bierzemy z&nbsp;cache'a Chromium elementy, których linki
+# Bierzemy z cache'a Chromium elementy, których linki
 # zawierały parametry (co odczytuje funkcja urlparse). 
-# Potem zapisujemy je w&nbsp;osobnym folderze
+# Potem zapisujemy je w osobnym folderze
 elems = get_entries( browser="Chromium" )
-elems = [e for e&nbsp;in elems if urlparse(e.url).params]
+elems = [e for e in elems if urlparse(e.url).params]
 extract( elems, folder="Z_parametrami" )
 ```
 
