@@ -103,17 +103,23 @@ We wszystkich przeglądarkach **pamięć podręczna jest folderem**. Znajdują s
 {:.figcaption}
 Jeśli ikonki wydają się Wam obce, to dlatego że to przeglądarka systemu Linux Mint. Swoją drogą polecam.
 
-W przypadku przeglądarki Chromium na Linuksie pamięć podręczna znajduje się w&nbsp;folderze `.cache/chromium/Default/Cache`.  
-W przypadku Chrome'a na Windowsie -- w&nbsp;`AppData\Local\Google\Chrome\User Data\Default\Cache`.  
-(Ogólniej: w podfolderze `Appdata\Local`). 
+{% include info.html type="Porada"
+text="W przypadku Firefoksa możecie łatwo sprawdzić, gdzie Wasz folder z&nbsp;pamięcią podręczną, wpisując w&nbsp;pasek adresu `about:cache`.  
+Swoją drogą to fajny sposób na przeglądanie, co mamy w&nbsp;*cache'u*, bo zawiera również pliki, które nie zostaną zapisane na dysku.  
+Co do innych przeglądarek:  
+Chromium na Linuksie -- pamięć podręczna znajduje się w&nbsp;folderze `.cache/chromium/Default/Cache`.  
+Chrome na Windowsie -- w&nbsp;`AppData\Local\Google\Chrome\User Data\Default\Cache`.  
+(Windows ogólnie wrzuca do podfolderu `Appdata\Local` w&nbsp;folderze głównym)."
+%}
 
+Ten folder wyżej to *cache* przeglądarki Chromium na Linuksie.  
 W jego wnętrzu zawsze mamy podfolder `index-dir` oraz plik `index`. A&nbsp;wszystkie pozostałe pliki odpowiadają rzeczom, które nasza przeglądarka odłożyła na później.
 
 To tak zwane **pliki binarne**. Nie mają żadnego rozszerzenia i&nbsp;są swego rodzaju pojemnikami na inne pliki, zwykle już o&nbsp;znanych typach. W&nbsp;każdym z&nbsp;nich mamy komplet złożony z&nbsp;oryginelnego pliku, a&nbsp;także garść informacji uzupełniających (jak link do źródła, z&nbsp;którego go pobraliśmy, albo datę i&nbsp;godzinę pobrania).
 
 W każdym takim „pojemniku” może być obrazek, zestaw czcionek, plik JavaScript, cała strona internetowa... co nam tylko do głowy przyjdzie.
 
-**Szukając tradycyjnymi metodami, nie znaleźlibyśmy plików z&nbsp;pamięci podręcznej** (w końcu co nam da wypatrywanie wszystkiego, co kończy się na `.jpg`, kiedy te pliki nie mają rozszerzenia? Również ich struktura nie pasuje do powszechnych rodzajów).  
+**Szukając tradycyjnymi metodami, nie znaleźlibyśmy plików z&nbsp;pamięci podręcznej** (w&nbsp;końcu co nam da wypatrywanie wszystkiego, co kończy się na `.jpg`, kiedy te pliki nie mają rozszerzenia? Również ich struktura nie pasuje do powszechnych rodzajów).  
 A jednak tu są, na widoku. Z&nbsp;każdego z&nbsp;nich, jeśli tylko wiemy jak, możemy wyciągnąć całkiem czytelny plik.
 
 # Przykład z&nbsp;Ciemnej Strony
@@ -327,9 +333,9 @@ Od teraz nie będzie nam zapisywało do *cache'a* żadnych plików (ale te wcze�
 Warto pamiętać, żeby potem odhaczyć tę opcję, gdy znowu będziemy ufać swojemu komputerowi. W&nbsp;innym wypadku przeglądarka będzie nam znacznie wolniej działała, często pobierając od nowa rzeczy, które widziała sekundy wcześniej.
 
 {% include info.html type="Uwaga"
-text="Zanim zaufacie tej opcji: **upewnijcie się, czy na pewno działa**. Kliknijcie ją, otwórzcie w osobnym oknie folder *cache'a* (najlepiej po czyszczeniu), odwiedźcie parę stron i patrzcie, czy faktycznie nie przybywa plików.  
-Piszę o tym, bo np. Chromium wymaga, żeby okno z narzędziami przeglądania było przez cały czas otwarte. Mimo że u mnie było, a opcję kliknąłem, wciąż jednak dodawało pliki do *cache'a*.  
-Kusi wyjaśnienie spiskowe, bo w końcu Google, śledzenie itp. :wink: Ale nie, to raczej bug związany z moim programem. Parę innych, neutralnych opcji też nie działa jak powinno.  
+text="Zanim zaufacie tej opcji: **upewnijcie się, czy na pewno działa**. Kliknijcie ją, otwórzcie w osobnym oknie folder *cache'a* (najlepiej po czyszczeniu), odwiedźcie parę stron i&nbsp;patrzcie, czy faktycznie nie przybywa plików.  
+Piszę o&nbsp;tym, bo np. Chromium wymaga, żeby okno z&nbsp;narzędziami przeglądania było przez cały czas otwarte. Mimo że u mnie było, a&nbsp;opcję kliknąłem, wciąż jednak dodawało pliki do *cache'a*.  
+Kusi wyjaśnienie spiskowe, bo w końcu Google, śledzenie itp. :wink: Ale nie, to raczej bug związany z&nbsp;moim programem. Parę innych, neutralnych opcji też nie działa jak powinno.  
 W każdym razie: dla pewności sprawdźcie.
 "%}
 

@@ -38,14 +38,25 @@ MAX_FILENAME_LENGTH = 100
 DEFAULT_OUTPUT_FOLDER = 'Extracted_from_cache'
 IMAGE_FORMATS = ('.png','.jpg','.jpeg','.svg', '.gif', '.webp')
 
+SCRIPT_PATH_INFO = ('Aby podać własną ścieżkę, edytuj zmienną CUSTOM_PATH na '
+                    f'końcu tego skryptu ({Path(__file__).absolute()})')
+
 CACHE_PATHS_WARN = ('Skrypt nie zna domyślnych ścieżek do pamięci podręcznych '
-                    f'na Twoim systemie ({sysname}). Będzie trzeba je '
-                    'wpisać osobiście, jako CUSTOM_PATH, na końcu tego skryptu')
-                    
+                    f'na Twoim systemie ({sysname}).\n{SCRIPT_PATH_INFO}')
+                                        
 ###################################################
 # Paths for various system and browser combinations
 ###################################################
 
+ALIASES = {'Darwin': 'MacOS'}
+if sysname in ALIASES:
+    sysname = ALIASES[ sysname ]
+
+if sysname == 'MacOS':
+    warning('Nie testowałem skryptu na MacOS, ścieżki do pamięci podręcznej '
+            f'mogą nie być prawidłowe.\n{SCRIPT_PATH_INFO}')
+            
+    
 DEFAULT_CACHE_LOCATIONS = {
     
     'Linux': {
@@ -58,25 +69,26 @@ DEFAULT_CACHE_LOCATIONS = {
     'Windows':{
         'Firefox': (r'~/AppData\Local\Mozilla\Firefox\Profiles\*.default'
                     r'\cache2\entries'),
-        'Edge': r'~/AppData\Local\Microsoft\Edge\User Data\Default\Cache',
         'Chrome': r'~/AppData\Local\Google\Chrome\User Data\Default\Cache'
+        
+        #'Edge': r'~/AppData\Local\Microsoft\Edge\User Data\Default\Cache',
+        # Edge is currently not working, its cache format seems different      
         },
+
+    'MacOS': {
+        'Chrome': (r'~/Library/Application Support/Google/Chrome/Default/'
+                   r'Application Cache')
+        }
     }
 
-BROWSERS = list(set( b_name for _, b_info in DEFAULT_CACHE_LOCATIONS.items()
-                     for b_name in b_info ))
-
-ALIASES = {'Darwin': 'MacOS'}
-
-if sysname in ALIASES:
-    sysname = ALIASES[ sysname ]
 
 caches = []
 try: caches = DEFAULT_CACHE_LOCATIONS[ sysname ]
 except KeyError: warning( CACHE_PATHS_WARN )
 else:
     print(f'System: {sysname}. Skrypt zna domyślne ścieżki do '
-          f'pamięci przeglądarek: {", ".join(name for name in caches)}')
+          f'pamięci przeglądarek: {", ".join(name for name in caches)}. '
+          'Zaraz poszuka w nich plików.\n')
     
 CACHES_ON_THIS_COMPUTER = caches
 
@@ -95,6 +107,8 @@ def __get_real_cache_paths( text_path ):
     return paths
 
 
+class FileDuplicateError(Exception): pass
+
 def _extract( data, url, folder ):
     '''
     A general function for extracting cache entries by converting their
@@ -107,9 +121,8 @@ def _extract( data, url, folder ):
     if not folder.exists(): folder.mkdir()
     out_path = folder / filename
     if out_path.exists():
-        warning(f'Plik o nazwie "{filename}" już jest w folderze "{folder}", '
-                'skrypt nie będzie go nadpisywał')
-        return
+        raise FileDuplicateError
+
     with open( out_path, 'wb') as out:
         out.write( data )
         
@@ -262,8 +275,11 @@ BROWSER_TO_CONTAINER = {
     'Chromium': ChromeCacheEntry,
     'Opera': ChromeCacheEntry,
     'Vivaldi': ChromeCacheEntry,
-    'Edge': ChromeCacheEntry
+    #'Edge': ChromeCacheEntry # Currently not working!
     }
+
+BROWSERS = list( BROWSER_TO_CONTAINER.keys() )
+
 
 def __get_entries_for_browser( folder, browser, container ):
     '''Tries to get all cache entries for the specified browser'''
@@ -296,15 +312,15 @@ def get_cache_entries( cache_path=None, browser=None ) -> list:
             container = BROWSER_TO_CONTAINER[ browser ]
             return __get_entries_for_browser(
                 Path(cache_path), browser, container )  
-        error('Wskazano własny folder, ale bez nazwy '
-                      'przeglądarki! Wpisz którąś z listy:\n'
-                      f'{", ".join(BROWSERS)}')
+        error('Wskazano własny folder, ale bez nazwy przeglądarki! '
+              'Wpisz przy zmiennej CUSTOM_BROWSER którąś z listy:\n'
+              f'{", ".join(BROWSERS)}')
         return []
 
     if browser:
         if browser not in BROWSERS:
             error('Skrypt nie zna ścieżki do wpisanej przeglądarki '
-                          f'({browser}). Być może literówka w nazwie?')
+                  f'({browser}). Być może literówka w nazwie?')
             return []
         
         cache_paths = [(b,path) for b,path in CACHES_ON_THIS_COMPUTER.items()
@@ -323,17 +339,29 @@ def get_cache_entries( cache_path=None, browser=None ) -> list:
         entries = __get_entries_for_browser( folder, browser, container )
         all_entries += entries
 
+    if all_entries:
+        print('\nSkrypt znalazł pliki w pamięciach podręcznych!\n'
+              'Jeśli chcesz je analizować, są w zmiennej "entries".\n'
+              'Możesz też korzystać z funkcji pomocniczych:\n'
+              'get_entries, get_images, show_entries, extract_data.\n\n'
+              'Aby po prostu skopiować pliki do osobnego folderu, wpisz '
+              'któryś z tekstów oddzielonych kreską i naciśnij Enter:\n\n'
+              'extract_all() | extract_images()\n')
+
     return all_entries
 
 #################################################
 # Shorthand functions for analysis and extraction
 #################################################
 
-entries = [] #Should be here as a default
+entries = [] # Do not move down, functions refer to it!
 
 def get_entries( *args, extensions=None, browser=None,
                  url_text=None, regex=False ):
-    
+    '''
+    The general function for getting data from the listed cache entry files.
+    You can give it specific parameters to only select some files.
+    '''
     if type(extensions) == str: extensions = [extensions.lower()]
     results = entries[:]
     
@@ -352,6 +380,8 @@ def get_entries( *args, extensions=None, browser=None,
 
 
 def show_entries( *args, **kwargs ):
+    '''Displays a sorted list of all entries'''
+    
     if len(args) == 1 and not 'entrylist' in kwargs: to_show = args[0]
     elif 'entrylist' in kwargs: to_show = kwargs[ 'entrylist' ]
     else: to_show = get_entries( *args, **kwargs )
@@ -367,20 +397,16 @@ def show_entries( *args, **kwargs ):
 
 
 def get_images( *args, **kwargs ):
+    '''A shorthand for getting the cache entries which contain images'''
     return get_entries( *args, **kwargs, extensions=IMAGE_FORMATS )
 
 
-def extract_data( *args, entrylist=None,
-                  images_only=False, folder=None, **kwargs ):
-    '''Extracts binary data from an entry object'''
+def extract_data( *args, entrylist=None, images_only=False, folder=None,
+                  **kwargs ):
+    '''Copies files from inside the cache objects to a separate folder'''
 
     if len(args) == 1 and not 'entrylist' in kwargs:
         entrylist = args[0]
-    
-    if folder: out_folder = folder
-    else: out_folder = f'{DEFAULT_OUTPUT_FOLDER}_{int(get_time())}'
-    out_folder = Path(out_folder).absolute()
-    if not out_folder.exists(): out_folder.mkdir()
 
     f_tag = 'pliki'
     if images_only:
@@ -389,31 +415,60 @@ def extract_data( *args, entrylist=None,
     elif entrylist: extractable = entrylist
     else:
         extractable = get_entries( *args, **kwargs )
-    
+
+    # Prompt user if the number of files is large 
+    if len(extractable) > 1000:
+        print(f'[UWAGA] Znalezione {f_tag} ({len(extractable)}) po skopiowaniu '
+              'mogą zająć sporo miejsca na dysku. Jeśli na pewno chcesz je '
+              'skopiować, naciśnij Enter')
+        inp = input('ENTER ')
+
+    # Create output folder and extract the files
+    if folder: out_folder = folder
+    else: out_folder = f'{DEFAULT_OUTPUT_FOLDER}_{int(get_time())}'
+    out_folder = Path(out_folder).absolute()
+    if not out_folder.exists(): out_folder.mkdir()
+
+    print('Kopiuję pliki...')
+    duplicates = 0
     for entry in extractable:
         try: entry.extract_data( out_folder )
+        except FileDuplicateError:
+            duplicates += 1
         except OSError: pass
         except Exception as e: error(f'Błąd podczas wyciągania pliku: {e}')
+
+    if duplicates:
+        warning(f'Nie przeniesiono niektórych plików ({duplicates}), '
+                'ponieważ pliki o takich samych nazwach już były w folderze')
         
-    print(f'Przeniesiono {f_tag} ({len(extractable)}) do folderu:\n'
+    print(f'Skopiowano {f_tag} ({len(extractable)}) do folderu:\n'
           f'{out_folder}')
 
 
+def extract_all():
+    '''A less flexible alias to extract_data, which does not allow filtering'''
+    extract_data()
+
+
 def extract_images( *args, **kwargs ):
+    '''Copies images from inside the cache objects to a separate folder'''
     extract_data( *args, **kwargs, images_only=True )
 
 
 if __name__ == '__main__':
 
-    # Tutaj możesz wkleić ścieżkę do folderu z pamięcią podręczną,
+    # Przy CUSTOM_PATH możesz wkleić ścieżkę do folderu z pamięcią podręczną,
     # który chcesz sprawdzić (w takim wypadku musisz też podać nazwę
-    # przeglądarki jako `CUSTOM_BROWSER`
+    # przeglądarki jako `CUSTOM_BROWSER`)
 
     CUSTOM_PATH = ""
 
-    # W tym miejscu możesz wpisać nazwę przeglądarki.
+    # Przy CUSTOM_BROWSER możesz wpisać nazwę przeglądarki
     # Jeśli tego nie zrobisz, to skrypt poszuka dla wszystkich, jakie zna.
-    
+    # Jeśli to przeglądarka oparta na silniku Chromium, to jest szansa,
+    # że zadziała wpisanie "Chromium".
+       
     CUSTOM_BROWSER = ""
 
     # A tej funkcji poniżej najlepiej nie zmieniać ;)
