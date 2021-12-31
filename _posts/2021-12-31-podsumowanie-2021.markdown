@@ -1,0 +1,201 @@
+---
+layout: post
+title:  "Podsumowanie 2021 roku"
+subtitle: "Parler, Pegasus i inne historie."
+description: "Parler, Pegasus i inne historie."
+date:   2021-12-31 10:13:00 +0100
+firmy: [Amazon, Apple, Facebook, Google, Twitter]
+tags: [Afera, Internet, Inwigilacja, Centralizacja, Przemyślenia]
+---
+
+Burzliwy 2021 rok dobiega końca! Postanowiłem zrobić z&nbsp;tej okazji krótkie podsumowanie wydarzeń, jakie ze sobą przyniósł.
+
+Zbiór jest całkowicie subiektywny, acz starałem się skupiać na tematyce bloga: kontrowersyjnych działaniach wpływowych firm oraz na prywatności użytkowników. Tu coś o&nbsp;rosnącej centralizacji, tam coś o&nbsp;wyciekach danych.
+
+Ale nie chcę też, żeby czytanie wpisu wysysało radość życia jak jakiś *doomscrolling* (chyba nie ma polskiego odpowiednika, pozwolę sobie pioniersko zaproponować „smartfonihilizm” :wink:).  
+Dlatego wymieszałem wieści negatywne z&nbsp;nieco bardziej optymistycznymi. A&nbsp;pod koniec wpisu będzie kolekcja światełek w&nbsp;tunelu.
+
+Zaczynajmy!
+
+## Ciemne strony
+
+# 1. Trump, Kapitol i&nbsp;korporacje
+
+Bez obaw, nie zbliżę się do polityki bardziej niż to konieczne!
+
+Trzymając się faktów: Donald Trump, prezydent USA, przegrał wybory, a&nbsp;jego następcą miał zostać Joe Biden. Wielu zwolenników Trumpa protestowało przeciw takiemu wynikowi wyborów.  
+Na początku stycznia ich grupa wmaszerowała do Kapitolu, kluczowego budynku w&nbsp;Waszyngtonie. Wydarzenia zakończyły się śmiercią czterech osób.
+
+Wielu niezadowolonych gromadziło się również na portalu internetowym [Parler](https://en.wikipedia.org/wiki/Parler), reklamowanym jako alternatywne *social media* stawiające na wolność słowa.
+
+Popatrzmy przez chwilę ponad sprawami politycznymi, podziałem *prawo vs lewo*, samą postacią Trumpa (wiem, trudna rzecz w&nbsp;obecnych czasach). Z&nbsp;punktu widzenia tego bloga ciekawsze są dwie inne rzeczy.
+
+Pierwsza to potęga znaczników lokalizacji -- o&nbsp;ile nie wyłączymy tego w&nbsp;ustawieniach, **nasz własny telefon często dodaje do zdjęć informację o&nbsp;tym, gdzie zostały wykonane**.  
+Portal Parler nie usuwał tych informacji, a&nbsp;zatem, kiedy osoby prywatne znalazły sposób na masowe pobieranie z&nbsp;niego zdjęć -- mogły łatwo wytropić ludzi, którzy weszli pamiętnego dnia na teren Kapitolu i&nbsp;podzielili się fotkami.
+
+{:.post-meta .bigspace}
+Sprawę metadanych EXIF, czyli właśnie tych informacji o&nbsp;naszej lokalizacji, opisałem w&nbsp;[jednym z&nbsp;pierwszych wpisów]({% post_url 2021-02-10-gdzie-jestem-zapytaj-moich-zdjec %}){:.internal} na Ciemnej Stronie.
+
+Druga rzecz to **dobitny pokaz władzy, jaką obecnie sprawują internetowe korporacje**. W&nbsp;przypadku Trumpa i&nbsp;Parlera działały w&nbsp;sposób skoordynowany:
+
+* Twitter zablokował Trumpowi konto;
+* Facebook [zawiesił jego profil](https://www.facebook.com/4/posts/10112681480907401/);
+* Google i&nbsp;Apple [usunęły aplikację Parlera](https://news.ycombinator.com/item?id=25706993) ze swoich baz.
+
+  W&nbsp;przypadku Google'a oznaczało to, że instalacja od teraz wymaga pobrania aplikacji z&nbsp;zewnętrznego źródła (co jest poza zasięgiem wielu użytkowników).  
+W przypadku Apple oznaczało, że zwyczajnie nie da się jej zainstalować.
+
+* Amazon [przestał zapewniać hosting](https://www.bbc.com/news/technology-55615214) internetowej wersji Parlera;
+* Poza tym strona *parler.com* na pewien czas przestała się pojawiać w&nbsp;wynikach wyszukiwania Google'a.
+
+Można długo debatować nad słusznością tych działań, czy w&nbsp;tamtej burzliwej sytuacji były uzasadnione i&nbsp;mogły zapobiec wojnie domowej itp.
+
+Nie o&nbsp;to chodzi. Spójrzmy raczej w&nbsp;ten sposób -- obecny internet jest na tyle scentralizowany, że **wystarczy wspólne działanie pięciu korporacji, żeby całkiem kogoś „zniknąć”**. Nawet jeśli to były prezydent USA i&nbsp;platforma mająca około 15 milionów użytkowników.
+
+Czy taka koncentracja siły jest zdrowa?  
+Patrząc na silne powiązania amerykańskich firm z&nbsp;chińskim kapitałem -- a&nbsp;także na kontrowersje związane z&nbsp;samymi Chinami -- do znikających platform mogą kiedyś dołączyć takie, którym byśmy tego nie życzyli.
+
+# 2. Facebook -- wyciek danych i&nbsp;zmiana nazwy
+
+Facebookowi [wyciekły dane dotyczące ponad 533 milionów użytkowników](https://edition.cnn.com/2021/04/04/tech/facebook-user-info-leaked/index.html).  
+Komplet informacji zawierających imię, nazwisko, daty urodzin, publicznie udostępnione miejsca pracy i&nbsp;zamieszkania. W&nbsp;przypadku niektórych osób zawierający również ich numery telefonów.
+
+Wiek + numer telefonu. Prawdziwa gratka dla cwaniaków planujących oszustwa metodą „na wnuczka”!   
+
+Być może pamiętacie, jak kiedyś Facebook wyświetlał okienko zachęcające do podania swojego numeru telefonu?  
+„Bo tak zrobiło X&nbsp;znajomych”. „Pomóż lepiej chronić swoje konto”.
+
+No to tyle mieliśmy z&nbsp;tej ochrony. Gdybyście zaczęli dostawać podejrzane SMS-y, na przykład informujące że trzeba dopłacić do paczki, to wiecie skąd mogły się wziąć.
+
+Kolejna sprawa to zmiana nazwy. O&nbsp;ile Facebook nadal pozostaje osobną marką i&nbsp;większość nie odczuje różnicy, o&nbsp;tyle nadrzędna firma **zmieniła nazwę na Meta**.
+
+Co więcej, ma to być skrót od *metawersum*, czyli takiej ich [wizji wirtualnej rzeczywistości](https://about.facebook.com/meta/). Na razie nie znamy wielu konkretów, tylko ogólny koncept i&nbsp;zapewnienie, że planują się rozwijać w&nbsp;tę stronę.
+
+Dość szybko pojawili się naśladowcy:
+
+{:.figure .bigspace}
+<img src="/assets/posts/podsumowanie2021/every-company-metaverse-company.jpg" alt="Zrzut ekranu z&nbsp;Nittera pokazujący udostępniony przez kogoś kolaż. Składa się z&nbsp;czterech zdjęć pokazujących nagłówki serwisów informacyjnych. Widać informacje o&nbsp;tym, że różne firmy, takie jak Niantic od Pokemon Go, również zapowiadają własne koncepcje metawersum"/>
+
+Do tej pory Facebook zarabiał na reklamach i&nbsp;na zbieraniu danych użytkowników (w celu trafniejszego dobierania tych reklam).  
+Trudno nie zauważyć, że:
+
+* Wirtualna rzeczywistość to mnóstwo nowej przestrzeni na banery reklamowe;
+* Dane biometryczne -- o&nbsp;ruchach ciała użytkowników, ich oczach, wyglądzie -- to cenne punkty danych ułatwiające profilowanie.
+
+To na razie spekulacje. A&nbsp;w którą to pójdzie stronę? Zobaczymy!
+
+# 3. Niebezpiecznik i&nbsp;inne portale kontra UseCrypt
+
+Tutaj aferko-wojenka na polskim gruncie. O&nbsp;tyle związana ze sprawami prywatności, że dotyczyła szyfrowanego komunikatora.
+
+Sam UseCrypt był silnie reklamowany. W&nbsp;internecie można było znaleźć liczne, bardzo do siebie podobne komentarze krytykujące jego popularniejszą alternatywę, Signala.  
+„Jak to może być cokolwiek warte, kiedy jest za darmo? Prywatność kosztuje!” (UseCrypt ma model subskrypcyjny, kosztuje 60 złotych za miesiąc).
+
+Trzy polskie portale o&nbsp;cyberbezpieczeństwie -- Niebezpiecznik, Zaufana Trzecia Strona oraz Informatyk Zakładowy -- nie były szczególnie zachwycone reklamami i&nbsp;napisały kilka artykułów krytykujących luki w&nbsp;zabezpieczeniach UseCrypta.
+
+Nagle [zostały oskarżone](https://informatykzakladowy.pl/oswiadczenie-redaktora-naczelnego-po-artykule-w-pulsie-biznesu/) o&nbsp;próbę wyłudzenia od Usecrypt SA kwoty 100&nbsp;000 złotych.  
+Sprawę, z&nbsp;zachowaniem dość sceptycznego tonu, [opisał Puls Biznesu](https://www.pb.pl/usecrypt-zarzuca-oszustwo-portalom-1109894), do którego ktoś przysłał anonimowe zawiadomienie o&nbsp;całej sprawie.  
+Na domiar złego autor najmniejszego z&nbsp;portali, Informatyka Zakładowego, [dostał pozwem](https://nitter.social.cologne/InfZakladowy/status/1371215603931959305) od UseCrypta.
+
+To ewenement na skalę światową. Zazwyczaj badacze, który wykryli w&nbsp;produkcie luki bezpieczeństwa, otrzymują podziękowania, a&nbsp;nawet nagrody pieniężne.  
+Kroki prawne to rzadkość i&nbsp;zwykle podejmują je firmy nieświadome, które mylą badaczy z&nbsp;hakerami. Ale żeby tak robił ktoś, kto oficjalnie zajmuje się cyberbezpieczeństwem?
+
+W każdym razie lawina ruszyła, w&nbsp;branży zawrzało, pojawiły się różne wpisy i&nbsp;komentarze. Również na Ciemnej Stronie znajdziecie [parę analiz]({% post_url 2021-03-12-usecrypt-afera %}){:.internal} całej tej sytuacji. Omijających kwestie cyberbezpieczeństwa, bo to nie moja działka.
+
+Ta aferka pokazuje, że sprawy cyfrowe to niestety nie tylko merytoryka, główkowanie i&nbsp;wymiana informacji. Czasem robi się z&nbsp;tego problem PR-owy, zaczynają latać pozwy. Wchodzą analogowe ludki od garniaków, brylantyny i&nbsp;mercedesów.
+
+Druga dość trywialna prawda, jaką można z&nbsp;tej historii wyciągnąć: słowa to tylko słowa. Każdy może mówić „Podziel się z&nbsp;nami swoją prywatnością, ochronimy ją”. Ale sami musimy zdecydować, czy w&nbsp;te słowa wierzymy.
+
+I trzecia rzecz, moje prywatne zdanie -- twierdzenie powielane w&nbsp;niektórych komentarzach, jakoby tylko rzeczy z&nbsp;wysoką ceną były wartościowe, to jakiś pozerski absurd :smile:
+
+# 4. Pegaz trojański
+
+Program Pegasus (ang. Pegaz) nie jest nowy -- w&nbsp;kontekście Polski pisała o&nbsp;nim między innymi dziennikarka Gosia Fraser [już w&nbsp;2018 roku](https://zaufanatrzeciastrona.pl/post/zaawansowany-system-podsluchowy-wykryty-na-telefonach-w-polskich-sieciach/). Ale teraz zrobiło się o&nbsp;nim głośniej.
+
+Odbiorcami usług firmy **NSO Group**, autorów Pegasusa, są rządy. „Usług”, bo to nie tyle jeden program szpiegowski -- swego rodzaju wirus przenikający do systemu i&nbsp;wykradający dane -- co cały system do przejmowania informacji z&nbsp;telefonów.
+
+Oficjalnie NSO pomaga jedynie przy infiltrowaniu grup terrorystów. W&nbsp;praktyce na jaw zaczęły wychodzić informacje o&nbsp;[nadużyciach rządów](https://www.theguardian.com/news/2021/jul/18/huge-data-leak-shatters-lie-innocent-need-not-fear-surveillance), wykorzystujących nowe możliwości śledzenia przeciwko swoim przeciwnikom politycznym.
+
+Pegasus był wykorzystywany również w&nbsp;Polsce. Ja tu polityki unikam, zachęcam do poszukania własnych informacji -- będą łatwo dostępne.  
+Wspomnę tylko, że użyto go do inwigilowania osób z&nbsp;partii Y&nbsp;lub z&nbsp;nią dość blisko związanych. Co mogłoby sugerować, że wszystko działo się na zlecenie partii X&nbsp;(bo klientami NSO Group nie może zostać byle kto, firma mocno strzeże sekretów).
+ 
+**Przed Pegasusem nie chronią iPhone'y**, mimo że ścisła kontrola firmy Apple ma dawać niezrównane bezpieczeństwo. Przynajmniej zdaniem ich działów PR-owych.  
+Właściwie jedyną ochroną byłoby regularne włączanie i&nbsp;wyłączanie telefonu; ale wtedy przeciwnicy mogą infekować go ponownie.
+
+Sprawa nadal się rozwija, kanadyjska firma Citizen Lab bada telefony potencjalnie „zakażone” Pegasusem. W&nbsp;2022 roku, gdy zapewne będzie więcej informacji, rozwinę temat.
+
+A na chwilę obecną cała ta historia może pokazywać niedowiarkom, że pragnienie prywatności i&nbsp;sceptycyzm wobec smartfonów nie jest czymś nieracjonalnym.  
+Choć większość z&nbsp;nas jest zbyt drobnymi celami dla Pegasusa, nie trzeba też być głową państwa, żeby znaleźć się na celowniku.
+
+# 5. Nieco inny Rewind, czyli koniec z&nbsp;łapkami w&nbsp;dół
+
+Z zespołu powermetalowego *Follow the Cipher* odeszła wokalistka. Nie jest to może ich koniec -- bo mieszanie syntezatora z&nbsp;ostrymi gitarami zawsze ma potencjał -- ale na pewno zamknięcie pewnego rozdziału.  
+Na pożegnanie zostawili bangerka, który całkiem mi się podoba. [„Rewind the Stars”](https://www.youtube.com/watch?v=GVHHKYi_xaU) (link do YouTube'a).
+
+...OK, śmieszkowałem. To nie o&nbsp;tego „Rewinda” chodzi (acz serio polecam) :wink:
+
+Mam na myśli **YouTube Rewind**. To coroczny montaż z&nbsp;filmików, które zdaniem serwisu YouTube były w&nbsp;mijającym roku najważniejsze. Przypomnę, jeśli ktoś jeszcze o&nbsp;tym nie wiedział: YouTube jest własnością Google'a.
+
+W swoim Rewindzie z&nbsp;2018 roku właściciele YouTube'a [wykluczyli bardzo popularnych twórców](https://en.wikipedia.org/wiki/YouTube_Rewind_2018:_Everyone_Controls_Rewind), takich jak PewDiePie, którzy zrobili rzeczy negatywnie odbierane przez reklamodawców.
+
+Ogólnie cały Rewind został uznany za typowy przykład korporacyjnej nijakości i&nbsp;pudrowania rzeczywistości, a&nbsp;także zasypany kciukami w&nbsp;dół (ocenami negatywnymi).  
+Po tej zmasowanej akcji **YouTube Rewind 2018 stał się najgorzej ocenianym filmem w&nbsp;historii całego serwisu**.
+
+Od tamtego czasu już nie robią Rewindów. Ale nawet gdyby robili, mogę z&nbsp;całą pewnością powiedzieć, że tegorocznemu powiodłoby się dużo lepiej. Nie byłoby pod nim tylu łapek skierowanych w&nbsp;dół.
+
+Nie byłoby ani jednej. **Google w&nbsp;tym roku całkiem wyłączył możliwość dawania łapek w&nbsp;dół**. Rzekomo po to, żeby chronić nowych i&nbsp;mniejszych twórców, których negatywne oceny mogłyby zrazić do platformy.
+
+Ma to pewien niezamierzony (ależ oczywiście...) efekt uboczny.
+
+Od teraz wielkie wytwórnie, kiedy postanowią wycisnąć z&nbsp;jakiejś znanej serii więcej kaski, mocno zaburzą jej przekaz i&nbsp;wypuszczą trailer na YouTube'a, nie muszą się obawiać krytyki i&nbsp;pośmiewiska.
+
+Jedynym widokiem, jaki zobaczą internauci, będzie wielka liczba wyświetleń i&nbsp;całkiem spora liczba kciuków w&nbsp;górę.
+
+> Jest super, jest super, więc o&nbsp;co ci chodzi.
+
+# 6. Czkawka europejskiego serwera Xiaomi
+
+Na deser sprawa mniej poważna, bardziej humorystyczna. Dosłownie z&nbsp;dzisiaj, na sam koniec 2021 roku.
+
+Mamy wątek z&nbsp;Reddita, w&nbsp;którym ludzie dyskutują o&nbsp;tym, że ich [automatyczne odkurzacze Roborock przestały działać](https://old.reddit.com/r/Roborock/comments/rsrqqp/someone_else_having_issues_at_the_moment/).
+
+Prawdopodobną przyczyną są [problemy europejskich serwerów Xiaomi](https://old.reddit.com/r/Xiaomi/comments/rsrwtk/eu_servers_31122022_not_working/). Ludzie piszą, że nie działają im również całe zestawy do inteligentnego sterowania domami oraz tym podobne bajery.
+
+Zakładam optymistycznie, że to naprawią i&nbsp;sprawa szybko przycichnie. Ale może nie pozwalajmy przycichnąć temu cichemu, pragmatycznemu głosowi, który czasem nam mówi:
+
+„Kiedy twoje rzeczy są cały czas zależne od łączności z&nbsp;centralą, to tak naprawdę nie są twoje”.
+
+Jeśli kogoś śmieszą różne wpadki tych wszystkich nowoczesnych urządzeń, to polecam użytkownika *[internetofshit](https://nitter.net/internetofshit)* (oryginał na Twitterze; ja tu linkuję Nittera, czyli stronę agregującą twitty).
+
+## Światełka w&nbsp;tunelu
+
+Choć powyższe przypadki malują czasem ponury obraz, nie ma co się podłamywać! Bo na froncie działań antykorporacyjnych i&nbsp;prywatnościowych też cały czas widać postępy :smile:
+
+Unijny urząd pilnujący przestrzegania GDPR, dyrektywy dotyczącej prywatności, [pokazał parę razy pazur](https://www.skillcast.com/blog/biggest-gdpr-fines-2021#gdpr-fine-1-2021).
+
+Choć wiem, że niektórzy nie lubią jakichkolwiek interwencji spoza sektora prywatnego, spójrzmy prawdzie w&nbsp;oczy: mało kto jest w&nbsp;stanie wymieniać ciosy z&nbsp;megakorporacjami. A&nbsp;duże instytucje przynajmniej czasem je uderzą w&nbsp;czuły punkt.
+
+Europejski oddział Amazona oraz irlandzki WhatsApp (własność Facebooka, teraz Mety) dostały wielomilionowymi karami za niedbałość lub celowe pomijanie kwestii prywatności użytkowników. Na tego drugiego nałożono karę 225 milionów euro, na tego pierwszego -- **rekordowe 746 milionów**.
+
+Dla informatycznych gigantów takie kary to sygnał, że nie mogą tak po prostu domyślnie nas profilować, ukrywać przed nami opcje odmowy albo zapisywać je małym druczkiem, wymagać odznaczania każdej firmy reklamowej z&nbsp;osobna itp.  
+To krok w&nbsp;stronę zdrowszej relacji, w&nbsp;której pytają nas o&nbsp;zgodę, a&nbsp;my możemy albo jej udzielić (jeśli chcemy reklam szytych na miarę), albo odmówić.
+
+Jeśli Unia nas nie przekonuje i&nbsp;chcemy posłuchać o&nbsp;działaniach sektora prywatnego, to mamy [Apple i&nbsp;ich pozew przeciwko NSO Group](https://www.apple.com/newsroom/2021/11/apple-sues-nso-group-to-curb-the-abuse-of-state-sponsored-spyware/) (firma od Pegasusa). Za to, że próbowali hakować ich telefony.
+
+W żadnym przypadku nie jestem fanem Jabłka i&nbsp;jeszcze o&nbsp;nich napiszę.  
+Ale doceniam sytuację, kiedy jedno korpo opiera swój PR na ochronie użytkowników i&nbsp;tym samym musi czasem podskoczyć innemu korpo. Niech walczą między sobą, róbmy popcorn :wink:
+
+Było o&nbsp;pozwach i&nbsp;karach, to może jakaś historia o&nbsp;rozwoju?  
+DuckDuckGo, przeglądarka szczycąca się dbaniem o&nbsp;prywatność użytkowników i&nbsp;stawiająca się w&nbsp;opozycji względem Google'a, zanotowała w&nbsp;2021 roku [ponad 46-procentowy wzrost popularności](https://www.bleepingcomputer.com/news/technology/privacy-focused-search-engine-duckduckgo-grew-by-46-percent-in-2021/) (mierzony przeciętną dzienną liczbą wyszukiwań). 
+
+Z rzeczy mniejszych, ale też cieszących: kilka utworów [trafi do domeny publicznej](https://www.smithsonianmag.com/smart-news/whats-entering-the-public-domain-on-january-1-winnie-pooh-ernest-hemingway-180979299/).  
+Będzie można [swobodnie z&nbsp;nich korzystać](https://www.legalnakultura.pl/pl/strefa-edukacji/strefa-dla-uczniow/warto-wiedziec/domena-publiczna), tworzyć ich tłumaczenia, wykorzystywać je we własnych produktach itp. Bez konieczności stawiania dupochronów albo ryzykowania, że ktoś nas pozwie o&nbsp;naruszenie praw autorskich.
+
+Będzie to między innymi **Kubuś Puchatek** A. A. Milne'a (oryginalny tekst i&nbsp;ilustracje, nie ten disneyowski misiek w&nbsp;czerwonej koszulce!).
+
+I to tyle w&nbsp;tym wpisie, idę świętować :champagne:  
+Na zakończenie jeszcze jedna nowina, mam nadzieję że pozytywna.
+
+Przedłużyłem ważność domeny *ciemnastrona.com.pl*, więc widzimy się również w&nbsp;przyszłym roku. Do zobaczenia! :smile:
+
+
