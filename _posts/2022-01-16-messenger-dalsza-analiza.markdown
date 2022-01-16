@@ -313,6 +313,6 @@ To bezpośrednie rozszerzenie mojego poprzedniego skryptu, więc działa niemal 
    Najważniejszy to raport w&nbsp;formacie HTML zawierający różne statystyki dotyczące Waszych wiadomości (po kliknięciu zapewne otworzy się w&nbsp;przeglądarce, ale bez obaw, nic nie wysyła do internetu!).  
    Oprócz tego w&nbsp;osobnym podfolderze znajdziecie kilka plików tekstowych: wszystkie wiadomości ułożone chronologicznie, listę słów nieznanych, listę potencjalnych błędów ortograficznych, listę szybko napisanych wiadomości.
 
-...A jeśli, zamiast włąsnych, chcecie sprawdzić wszystkie wiadomości od konkretnej osoby, z&nbsp;którą pisaliście, to wpisujecie jej imię pod koniec skryptu, przy zmiennej `name`, między cudzysłowami.
+...A jeśli, zamiast własnych, chcecie sprawdzić wszystkie wiadomości od konkretnej osoby, z&nbsp;którą pisaliście, to wpisujecie jej nazwę użytkownika (np. *Jan Jakiś*) pod koniec skryptu, przy zmiennej `name`, między cudzysłowami.
 
 Miłego łapania ludzi za błędy sprzed lat! (Z nadzieją, że sami ich nie popełniacie. Kocioł garnkowi, drzazga w&nbsp;oku i&nbsp;te sprawy :smiling_imp:).
