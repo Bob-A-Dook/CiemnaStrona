@@ -6,7 +6,7 @@ description: "Parler, Pegasus i inne historie."
 date:   2021-12-31 10:13:00 +0100
 firmy: [Amazon, Apple, Facebook, Google, Twitter]
 tags: [Afera, Internet, Inwigilacja, Centralizacja, Przemyślenia]
-image: "podsumowanie2021/hobo-with-a-shotgun-baner-baner.jpg"
+image: "podsumowanie2021/hobo-with-a-shotgun-baner.jpg"
 image-width: 777
 image-height: 601
 ---

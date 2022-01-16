@@ -89,13 +89,13 @@ Mając różne ciągi, można sobie stworzyć wykres ilustrujący, jak często s
 {:.figcaption}
 Wykres dla liczby ciągów o&nbsp;różnej długości. Podpisy osi i&nbsp;kolumn dodałem w&nbsp;osobnym programie.  
 
-Najdłuższych ciągów jest mało w&nbsp;porównaniu z&nbsp;krótszymi, więc są w&nbsp;tej skali nieczytelne. Poniżej macie ich liczbę (w formacie `długość ciągu: liczba wiadomości`).
+Najdłuższych ciągów jest mało w&nbsp;porównaniu z&nbsp;krótszymi, więc są w&nbsp;tej skali nieczytelne. Poniżej macie ich liczbę (w formacie `długość ciągu: liczba takich ciągów`).
 
 <div class="black-bg mono">
 10: 13, 11: 7, 12: 7, 13: 1, 16: 1, 17: 1, 21: 1
 </div>
 
-Moim rekordem jest 1 ciąg złożony z&nbsp;21 wiadomości wysłanych pod rząd -- swoista relacja z&nbsp;podróży wrzucana do grupowej rozmowy (zdjęcia wymieszane z&nbsp;tekstem).
+Moim rekordem jest ciąg złożony z&nbsp;21&nbsp;wiadomości wysłanych pod rząd -- swoista relacja z&nbsp;podróży wrzucana do grupowej rozmowy (zdjęcia wymieszane z&nbsp;tekstem).
 
 Patrząc na wykres, zauważymy pewną rzecz, która wydaje się dość naturalna -- **im dłuższy jest ciąg wiadomości, tym rzadziej się pojawia**.  
 Takie „stopniowe wygasanie” jest czymś bardzo powszechnym w&nbsp;statystyce, w&nbsp;naturze zresztą też. Zainteresowani mogą poczytać o&nbsp;**rozkładach wykładniczych**.
