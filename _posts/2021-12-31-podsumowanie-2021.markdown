@@ -6,6 +6,9 @@ description: "Parler, Pegasus i inne historie."
 date:   2021-12-31 10:13:00 +0100
 firmy: [Amazon, Apple, Facebook, Google, Twitter]
 tags: [Afera, Internet, Inwigilacja, Centralizacja, Przemyślenia]
+image: "podsumowanie2021/hobo-with-a-shotgun-baner-baner.jpg"
+image-width: 777
+image-height: 601
 ---
 
 Burzliwy 2021 rok dobiega końca! Postanowiłem zrobić z&nbsp;tej okazji krótkie podsumowanie wydarzeń, jakie ze sobą przyniósł.
@@ -58,16 +61,16 @@ Patrząc na silne powiązania amerykańskich firm z&nbsp;chińskim kapitałem --
 # 2. Facebook -- wyciek danych i&nbsp;zmiana nazwy
 
 Facebookowi [wyciekły dane dotyczące ponad 533 milionów użytkowników](https://edition.cnn.com/2021/04/04/tech/facebook-user-info-leaked/index.html).  
-Komplet informacji zawierających imię, nazwisko, daty urodzin, publicznie udostępnione miejsca pracy i&nbsp;zamieszkania. W&nbsp;przypadku niektórych osób zawierający również ich numery telefonów.
+Komplet informacji zawierających imiona, nazwiska, daty urodzin, publicznie udostępnione miejsca pracy i&nbsp;zamieszkania. W&nbsp;przypadku wielu osób również ich numery telefonów.
 
 Wiek + numer telefonu. Prawdziwa gratka dla cwaniaków planujących oszustwa metodą „na wnuczka”!   
 
 Być może pamiętacie, jak kiedyś Facebook wyświetlał okienko zachęcające do podania swojego numeru telefonu?  
-„Bo tak zrobiło X&nbsp;znajomych”. „Pomóż lepiej chronić swoje konto”.
+„Tak zrobiło X&nbsp;Twoich znajomych!”. „Pomóż lepiej chronić swoje konto”.
 
 No to tyle mieliśmy z&nbsp;tej ochrony. Gdybyście zaczęli dostawać podejrzane SMS-y, na przykład informujące że trzeba dopłacić do paczki, to wiecie skąd mogły się wziąć.
 
-Kolejna sprawa to zmiana nazwy. O&nbsp;ile Facebook nadal pozostaje osobną marką i&nbsp;większość nie odczuje różnicy, o&nbsp;tyle nadrzędna firma **zmieniła nazwę na Meta**.
+Kolejna sprawa to zmiana nazwy. O&nbsp;ile Facebook nadal pozostaje osobną marką i&nbsp;większość nie odczuje różnicy, o&nbsp;tyle nadrzędna organizacja **zmieniła nazwę na Meta**.
 
 Co więcej, ma to być skrót od *metawersum*, czyli takiej ich [wizji wirtualnej rzeczywistości](https://about.facebook.com/meta/). Na razie nie znamy wielu konkretów, tylko ogólny koncept i&nbsp;zapewnienie, że planują się rozwijać w&nbsp;tę stronę.
 
@@ -116,7 +119,7 @@ Odbiorcami usług firmy **NSO Group**, autorów Pegasusa, są rządy. „Usług�
 
 Oficjalnie NSO pomaga jedynie przy infiltrowaniu grup terrorystów. W&nbsp;praktyce na jaw zaczęły wychodzić informacje o&nbsp;[nadużyciach rządów](https://www.theguardian.com/news/2021/jul/18/huge-data-leak-shatters-lie-innocent-need-not-fear-surveillance), wykorzystujących nowe możliwości śledzenia przeciwko swoim przeciwnikom politycznym.
 
-Pegasus był wykorzystywany również w&nbsp;Polsce. Ja tu polityki unikam, zachęcam do poszukania własnych informacji -- będą łatwo dostępne.  
+Pegasus był wykorzystywany również w&nbsp;Polsce. Ja tu polityki unikam, więc zachęcam zainteresowanych do samodzielnego poszukania informacji -- będą łatwo dostępne.  
 Wspomnę tylko, że użyto go do inwigilowania osób z&nbsp;partii Y&nbsp;lub z&nbsp;nią dość blisko związanych. Co mogłoby sugerować, że wszystko działo się na zlecenie partii X&nbsp;(bo klientami NSO Group nie może zostać byle kto, firma mocno strzeże sekretów).
  
 **Przed Pegasusem nie chronią iPhone'y**, mimo że ścisła kontrola firmy Apple ma dawać niezrównane bezpieczeństwo. Przynajmniej zdaniem ich działów PR-owych.  
@@ -125,7 +128,7 @@ Właściwie jedyną ochroną byłoby regularne włączanie i&nbsp;wyłączanie t
 Sprawa nadal się rozwija, kanadyjska firma Citizen Lab bada telefony potencjalnie „zakażone” Pegasusem. W&nbsp;2022 roku, gdy zapewne będzie więcej informacji, rozwinę temat.
 
 A na chwilę obecną cała ta historia może pokazywać niedowiarkom, że pragnienie prywatności i&nbsp;sceptycyzm wobec smartfonów nie jest czymś nieracjonalnym.  
-Choć większość z&nbsp;nas jest zbyt drobnymi celami dla Pegasusa, nie trzeba też być głową państwa, żeby znaleźć się na celowniku.
+Choć większość z&nbsp;nas jest zbyt drobnymi celami dla Pegasusa, nie trzeba też wcale być głową państwa, żeby znaleźć się na celowniku.
 
 # 5. Nieco inny Rewind, czyli koniec z&nbsp;łapkami w&nbsp;dół
 
@@ -136,22 +139,27 @@ Na pożegnanie zostawili bangerka, który całkiem mi się podoba. [„Rewind th
 
 Mam na myśli **YouTube Rewind**. To coroczny montaż z&nbsp;filmików, które zdaniem serwisu YouTube były w&nbsp;mijającym roku najważniejsze. Przypomnę, jeśli ktoś jeszcze o&nbsp;tym nie wiedział: YouTube jest własnością Google'a.
 
-W swoim Rewindzie z&nbsp;2018 roku właściciele YouTube'a [wykluczyli bardzo popularnych twórców](https://en.wikipedia.org/wiki/YouTube_Rewind_2018:_Everyone_Controls_Rewind), takich jak PewDiePie, którzy zrobili rzeczy negatywnie odbierane przez reklamodawców.
+Szczypta historii: w swoim Rewindzie z&nbsp;2018 roku właściciele YouTube'a [wykluczyli bardzo popularnych twórców](https://en.wikipedia.org/wiki/YouTube_Rewind_2018:_Everyone_Controls_Rewind), takich jak PewDiePie. Najpewniej za to, że zrobili rzeczy negatywnie odbierane przez reklamodawców.
 
-Ogólnie cały Rewind został uznany za typowy przykład korporacyjnej nijakości i&nbsp;pudrowania rzeczywistości, a&nbsp;także zasypany kciukami w&nbsp;dół (ocenami negatywnymi).  
+Cały tamten Rewind został zresztą uznany za typowy przykład korporacyjnej nijakości i&nbsp;pudrowania rzeczywistości, a&nbsp;także zasypany kciukami w&nbsp;dół (ocenami negatywnymi).  
 Po tej zmasowanej akcji **YouTube Rewind 2018 stał się najgorzej ocenianym filmem w&nbsp;historii całego serwisu**.
 
 Od tamtego czasu już nie robią Rewindów. Ale nawet gdyby robili, mogę z&nbsp;całą pewnością powiedzieć, że tegorocznemu powiodłoby się dużo lepiej. Nie byłoby pod nim tylu łapek skierowanych w&nbsp;dół.
 
-Nie byłoby ani jednej. **Google w&nbsp;tym roku całkiem wyłączył możliwość dawania łapek w&nbsp;dół**. Rzekomo po to, żeby chronić nowych i&nbsp;mniejszych twórców, których negatywne oceny mogłyby zrazić do platformy.
+Nie byłoby ani jednej. **Google w&nbsp;tym roku całkiem wyłączył licznik negatywnych ocen**. Możemy je klikać, ale nie będą widoczne dla innych użytkowników.  
+Rzekomo wszystko po to, żeby chronić nowych i&nbsp;mniejszych twórców, którzy pod wpływem negatywnych ocen mogliby się zrazić do platformy.
 
 Ma to pewien niezamierzony (ależ oczywiście...) efekt uboczny.
 
-Od teraz wielkie wytwórnie, kiedy postanowią wycisnąć z&nbsp;jakiejś znanej serii więcej kaski, mocno zaburzą jej przekaz i&nbsp;wypuszczą trailer na YouTube'a, nie muszą się obawiać krytyki i&nbsp;pośmiewiska.
+Od teraz wielkie wytwórnie, kiedy postanowią wycisnąć kaskę z&nbsp;jakiejś znanej serii, mocno przekręcą jej przekaz i&nbsp;wypuszczą trailer na YouTube'a, nie muszą się obawiać krytyki i&nbsp;pośmiewiska.
 
 Jedynym widokiem, jaki zobaczą internauci, będzie wielka liczba wyświetleń i&nbsp;całkiem spora liczba kciuków w&nbsp;górę.
 
-> Jest super, jest super, więc o&nbsp;co ci chodzi.
+> Jest super, jest super,  
+więc o&nbsp;co ci chodzi?
+
+{:.figcaption}
+T. Love, „Jest super”.
 
 # 6. Czkawka europejskiego serwera Xiaomi
 
@@ -165,7 +173,7 @@ Zakładam optymistycznie, że to naprawią i&nbsp;sprawa szybko przycichnie. Ale
 
 „Kiedy twoje rzeczy są cały czas zależne od łączności z&nbsp;centralą, to tak naprawdę nie są twoje”.
 
-Jeśli kogoś śmieszą różne wpadki tych wszystkich nowoczesnych urządzeń, to polecam użytkownika *[internetofshit](https://nitter.net/internetofshit)* (oryginał na Twitterze; ja tu linkuję Nittera, czyli stronę agregującą twitty).
+Jeśli kogoś śmieszą różne wpadki tych wszystkich nowoczesnych urządzeń, to polecam użytkownika *[internetofshit](https://nitter.net/internetofshit)* (gdyby Nitter nie działał, to skopiujcie link do paska i&nbsp;zmieńcie *nitter.net* na *twitter.com*).
 
 ## Światełka w&nbsp;tunelu
 
@@ -177,13 +185,13 @@ Choć wiem, że niektórzy nie lubią jakichkolwiek interwencji spoza sektora pr
 
 Europejski oddział Amazona oraz irlandzki WhatsApp (własność Facebooka, teraz Mety) dostały wielomilionowymi karami za niedbałość lub celowe pomijanie kwestii prywatności użytkowników. Na tego drugiego nałożono karę 225 milionów euro, na tego pierwszego -- **rekordowe 746 milionów**.
 
-Dla informatycznych gigantów takie kary to sygnał, że nie mogą tak po prostu domyślnie nas profilować, ukrywać przed nami opcje odmowy albo zapisywać je małym druczkiem, wymagać odznaczania każdej firmy reklamowej z&nbsp;osobna itp.  
+Dla informatycznych gigantów takie kary to sygnał, że nie mogą tak po prostu domyślnie nas profilować, chować przed nami opcje odmowy albo zapisywać je drobnym druczkiem, wymagać odznaczania każdej firmy reklamowej z&nbsp;osobna itp.  
 To krok w&nbsp;stronę zdrowszej relacji, w&nbsp;której pytają nas o&nbsp;zgodę, a&nbsp;my możemy albo jej udzielić (jeśli chcemy reklam szytych na miarę), albo odmówić.
 
 Jeśli Unia nas nie przekonuje i&nbsp;chcemy posłuchać o&nbsp;działaniach sektora prywatnego, to mamy [Apple i&nbsp;ich pozew przeciwko NSO Group](https://www.apple.com/newsroom/2021/11/apple-sues-nso-group-to-curb-the-abuse-of-state-sponsored-spyware/) (firma od Pegasusa). Za to, że próbowali hakować ich telefony.
 
 W żadnym przypadku nie jestem fanem Jabłka i&nbsp;jeszcze o&nbsp;nich napiszę.  
-Ale doceniam sytuację, kiedy jedno korpo opiera swój PR na ochronie użytkowników i&nbsp;tym samym musi czasem podskoczyć innemu korpo. Niech walczą między sobą, róbmy popcorn :wink:
+Ale doceniam sytuację, kiedy jedno korpo wplata w&nbsp;swój PR motyw ochrony użytkowników i&nbsp;tym samym musi czasem podskoczyć innemu korpo. Niech walczą między sobą, róbmy popcorn :wink:
 
 Było o&nbsp;pozwach i&nbsp;karach, to może jakaś historia o&nbsp;rozwoju?  
 DuckDuckGo, przeglądarka szczycąca się dbaniem o&nbsp;prywatność użytkowników i&nbsp;stawiająca się w&nbsp;opozycji względem Google'a, zanotowała w&nbsp;2021 roku [ponad 46-procentowy wzrost popularności](https://www.bleepingcomputer.com/news/technology/privacy-focused-search-engine-duckduckgo-grew-by-46-percent-in-2021/) (mierzony przeciętną dzienną liczbą wyszukiwań). 
@@ -191,10 +199,10 @@ DuckDuckGo, przeglądarka szczycąca się dbaniem o&nbsp;prywatność użytkowni
 Z rzeczy mniejszych, ale też cieszących: kilka utworów [trafi do domeny publicznej](https://www.smithsonianmag.com/smart-news/whats-entering-the-public-domain-on-january-1-winnie-pooh-ernest-hemingway-180979299/).  
 Będzie można [swobodnie z&nbsp;nich korzystać](https://www.legalnakultura.pl/pl/strefa-edukacji/strefa-dla-uczniow/warto-wiedziec/domena-publiczna), tworzyć ich tłumaczenia, wykorzystywać je we własnych produktach itp. Bez konieczności stawiania dupochronów albo ryzykowania, że ktoś nas pozwie o&nbsp;naruszenie praw autorskich.
 
-Będzie to między innymi **Kubuś Puchatek** A. A. Milne'a (oryginalny tekst i&nbsp;ilustracje, nie ten disneyowski misiek w&nbsp;czerwonej koszulce!).
+Wśród naszych nowych dóbr wspólnych będzie między innymi **Kubuś Puchatek** A. A. Milne'a (oryginalny tekst i&nbsp;ilustracje, nie ten disneyowski misiek w&nbsp;czerwonej koszulce!).
 
 I to tyle w&nbsp;tym wpisie, idę świętować :champagne:  
-Na zakończenie jeszcze jedna nowina, mam nadzieję że pozytywna.
+Na zakończenie jeszcze jedna nowina, mam nadzieję że również pozytywna.
 
 Przedłużyłem ważność domeny *ciemnastrona.com.pl*, więc widzimy się również w&nbsp;przyszłym roku. Do zobaczenia! :smile:
 
