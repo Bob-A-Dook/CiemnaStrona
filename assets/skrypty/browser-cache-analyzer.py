@@ -26,9 +26,26 @@ from urllib.parse import urlparse
 from time import time as get_time
 from struct import unpack
 from binascii import crc32 as binascii_crc32
-from hashlib import sha256 as hashlib_sha256 
+from hashlib import sha256 as hashlib_sha256
+from sys import flags, modules # To check for interactive mode
 from platform import system
 sysname = system()
+
+#################################################
+# Checking if the script runs in interactive mode
+#################################################
+
+def _check_if_interactive():
+    '''
+    Checks how the script was launched; it should behave differently
+    if launched in a non-interactive way.
+    '''
+    runs_in_idle = 'idlelib' in modules
+    got_interactive_flag = flags.interactive
+    is_interactive = any((runs_in_idle, got_interactive_flag))
+    return is_interactive
+
+INTERACTIVE_MODE = _check_if_interactive()
 
 ##################################
 # Some program strings and globals
@@ -339,16 +356,69 @@ def get_cache_entries( cache_path=None, browser=None ) -> list:
         entries = __get_entries_for_browser( folder, browser, container )
         all_entries += entries
 
-    if all_entries:
-        print('\nSkrypt znalazł pliki w pamięciach podręcznych!\n'
-              'Jeśli chcesz je analizować, są w zmiennej "entries".\n'
-              'Możesz też korzystać z funkcji pomocniczych:\n'
-              'get_entries, get_images, show_entries, extract_data.\n\n'
-              'Aby po prostu skopiować pliki do osobnego folderu, wpisz '
-              'któryś z tekstów oddzielonych kreską i naciśnij Enter:\n\n'
-              'extract_all() | extract_images()\n')
-
     return all_entries
+
+
+def switch_to_interactive_mode( all_entries ):
+    '''
+    The script is designed for interactive work. If it is launched via the
+    command line, it provides a restricted list of options.
+    '''
+    if not all_entries and not INTERACTIVE_MODE:
+        warning('Skrypt nie znalazł żadnych plików w pamięciach podręcznych. '
+                'Naciśnij dowolny klawisz, żeby go zamknąć')
+        inp = input()
+        return
+ 
+    # Else no need to do anything, leave it to the launched REPL
+    sep = '*' * 10
+    MSG = ('\n[TRYB INTERAKTYWNY]\n\nSkrypt znalazł pliki w pamięciach '
+           'podręcznych. Jeśli chcesz je analizować, są w zmiennej "entries".'
+           '\nMożesz też korzystać z funkcji pomocniczych:\n'
+           'get_entries, get_images, show_entries, extract_data.\n\n'
+           'Aby po prostu skopiować pliki do osobnego folderu, wpisz '
+           'któryś z tekstów oddzielonych kreską i naciśnij Enter:\n\n'
+           'extract_all() | extract_images()\n')
+
+    MSG = f'\n{sep}{MSG}{sep}\n'
+
+    if INTERACTIVE_MODE:
+        print( MSG )
+        return
+
+    def _to_interactive():
+        # Solution from:
+        # https://code-maven.com/switch-to-interactive-mode-from-python-script
+        print(MSG)
+        from code import interact
+        interact( local=globals() )
+
+    # Otherwise, show a list of options
+    print('\n[UWAGA] Skrypt został wywołany przez konsolę. Jest lepiej '
+          'przystosowany do pracy w trybie interaktywnym\n'
+          '(czyli np. po uruchomieniu w IDLE albo wywołaniu przez wpisanie'
+          f'`python -i {__file__}`)\n\n'
+          'Twoje opcje (wpisz liczbę i potwierdź Enterem):\n')
+
+    options = {
+        1: ('Kopiuj wszystko oo osobnego folderu', extract_all),
+        2: ('Kopiuj same obrazki do osobnego folderu', extract_images),
+        3: ('Przejdź do trybu interaktywnego', _to_interactive)
+        }
+
+    options_enum = [op for op in options.items()]
+    for i, (description, opt) in options_enum:
+        print(f'[{i}] {description}')
+
+    answer = input('\nTWÓJ WYBÓR: ')
+    try:
+        chosen_action = options[ int(answer) ][-1]
+        chosen_action()
+    except Exception:
+        error('Nieznana opcja. Możesz wybrać następujące: '
+              f'{", ".join(options_enum)}')
+        _ = input('Naciśnij Enter, żeby zakończyć')
+    
 
 #################################################
 # Shorthand functions for analysis and extraction
@@ -356,15 +426,16 @@ def get_cache_entries( cache_path=None, browser=None ) -> list:
 
 entries = [] # Do not move down, functions refer to it!
 
-def get_entries( *args, extensions=None, browser=None,
+def get_entries( entrylist=None, extensions=None, browser=None,
                  url_text=None, regex=False ):
     '''
     The general function for getting data from the listed cache entry files.
     You can give it specific parameters to only select some files.
     '''
-    if type(extensions) == str: extensions = [extensions.lower()]
-    results = entries[:]
-    
+    if entrylist: results = entrylist
+    else: results = entries[:]
+
+    if type(extensions) == str: extensions = [extensions.lower()] 
     if extensions: results = [e for ext in extensions for e in results
                               if urlparse(e.url).path.lower().endswith(ext) ] 
     if browser:
@@ -384,43 +455,44 @@ def show_entries( *args, **kwargs ):
     
     if len(args) == 1 and not 'entrylist' in kwargs: to_show = args[0]
     elif 'entrylist' in kwargs: to_show = kwargs[ 'entrylist' ]
-    else: to_show = get_entries( *args, **kwargs )
+    else: to_show = get_entries( **kwargs )
 
     def _get_domain(url):
         domain = ''.join( char for char in reversed(urlparse(url).netloc) )
         # Reversed to avoid e.g. cdn.website.pl > cookie.pl > website.pl
         return domain
-    
-    to_show = sorted( to_show,
-                      key=lambda e: (e.browser, _get_domain(e.url), e.url) )
+
+    sorter_function = lambda e: (e.browser, _get_domain(e.url), e.url)
+    to_show = sorted( to_show, key=sorter_function )
     for e in to_show: print(e)
 
 
-def get_images( *args, **kwargs ):
+def get_images( **kwargs ):
     '''A shorthand for getting the cache entries which contain images'''
-    return get_entries( *args, **kwargs, extensions=IMAGE_FORMATS )
+    return get_entries( **kwargs, extensions=IMAGE_FORMATS )
 
 
 def extract_data( *args, entrylist=None, images_only=False, folder=None,
                   **kwargs ):
     '''Copies files from inside the cache objects to a separate folder'''
 
-    if len(args) == 1 and not 'entrylist' in kwargs:
-        entrylist = args[0]
-
-    f_tag = 'pliki'
+    if not entrylist:
+        if not args:
+            entrylist = get_entries( **kwargs )
+        elif len(args) == 1:
+            entrylist = args[0]
+        
     if images_only:
-        extractable = get_images( *args, **kwargs )
+        extractable = get_images( entrylist=entrylist, **kwargs )
         f_tag = 'obrazki'
-    elif entrylist: extractable = entrylist
     else:
-        extractable = get_entries( *args, **kwargs )
-
+        extractable, f_tag = entrylist, 'pliki'
+    
     # Prompt user if the number of files is large 
     if len(extractable) > 1000:
-        print(f'[UWAGA] Znalezione {f_tag} ({len(extractable)}) po skopiowaniu '
-              'mogą zająć sporo miejsca na dysku. Jeśli na pewno chcesz je '
-              'skopiować, naciśnij Enter')
+        print(f'\n[UWAGA] Znalezione {f_tag} ({len(extractable)}) po '
+              'skopiowaniu mogą zająć sporo miejsca na dysku. Jeśli na pewno '
+              'chcesz je skopiować, naciśnij Enter')
         inp = input('ENTER ')
 
     # Create output folder and extract the files
@@ -447,7 +519,7 @@ def extract_data( *args, entrylist=None, images_only=False, folder=None,
 
 
 def extract_all():
-    '''A less flexible alias to extract_data, which does not allow filtering'''
+    '''A less flexible, not filtering alias to `extract_data`'''
     extract_data()
 
 
@@ -471,7 +543,8 @@ if __name__ == '__main__':
        
     CUSTOM_BROWSER = ""
 
-    # A tej funkcji poniżej najlepiej nie zmieniać ;)
+    # A tych funkcji poniżej najlepiej nie zmieniać ;)
     entries = get_cache_entries( cache_path=CUSTOM_PATH,
                                  browser=CUSTOM_BROWSER )
+    switch_to_interactive_mode( entries )
 

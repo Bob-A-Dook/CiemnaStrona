@@ -127,14 +127,14 @@ Ciąg 1 jest w&nbsp;porządku, bo sprowadza się do jednej myśli rozbitej na dw
 
 Z kolei ciąg 2 jest bardziej problematyczny -- są to niby wiadomości od tej samej osoby, ale wysłano je w&nbsp;różnych dniach (pomińmy już to, że druga z&nbsp;nich to obrazek). 
 
-Wyobraźmy sobie ciąg złożony z&nbsp;dwóch wiadomości, z&nbsp;których druga brzmi „To jak?”. Czyli ma 7 znaków, licząc spację i&nbsp;znak zapytania.  
-Gdyby została wysłana 2 godziny (120 minut) po pierwszej, to by nam wyszło 7/120, czyli szybkość około 0,06 znaku na minutę!
+Wyobraźmy sobie ciąg złożony z&nbsp;dwóch wiadomości, z&nbsp;których druga brzmi „To&nbsp;jak?”. Czyli ma 7&nbsp;znaków, licząc spację i&nbsp;znak zapytania.  
+Gdyby została wysłana 2&nbsp;godziny (120&nbsp;minut) po pierwszej, to by nam wyszło 7/120, czyli szybkość około 0,06&nbsp;znaku na minutę!
 
 Sami przyznacie, że nie do końca oddawałoby to rzeczywistość. 
 
 Dlatego musiałem przyjąć jakiś umowny zakres i&nbsp;odrzucać wartości spoza niego jako zbyt szybkie albo zbyt wolne, żeby moje średnie były nieco bardziej wiarygodne. Ostatecznie **za normę przyjąłem zakres od 100 do 400 znaków na minutę**.
 
-Skąd górna wartość? Zasugerowałem się losowym wpisem [o szybkości pisania na klawiaturze](https://onlinetyping.org/blog/average-typing-speed.php). Znaczna większość badanych, w&nbsp;tym zawodowcy, nie przekraczała szybkości 80 słów na minutę (czyli właśnie 400 znaków, bo popularny przelicznik to 1 słowo = 5 znaków).
+Skąd górna wartość? Zasugerowałem się losowym wpisem [o szybkości pisania na klawiaturze](https://onlinetyping.org/blog/average-typing-speed.php). Znaczna większość badanych, w&nbsp;tym zawodowcy, nie przekraczała szybkości 80&nbsp;słów na minutę (czyli właśnie 400&nbsp;znaków, bo popularny przelicznik to 1&nbsp;słowo = 5&nbsp;znaków).
 
 A minimum? Musiałem tu wziąć pod uwagę osoby piszące z&nbsp;urządzeń mobilnych, w&nbsp;tym niekoniecznie z&nbsp;wprawą.  
 Ktoś zapytał o&nbsp;to na forum Quora. Według osoby ponoć zajmującej się tematem zawodowo, przeciętna szybkość pisania na mobilnych to [25-30 słów na minutę](https://www.quora.com/What-is-the-average-smartphone-users-typing-speed?share=1). Czyli 125-150 znaków.  
@@ -142,12 +142,12 @@ Bardziej niż średnia interesowało mnie minimum, więc asekuracyjnie przyjął
 
 Wszystko to oczywiście subiektywne decyzje; poza tym nie uwzględniam czasu potrzebnego na wstawienie emotek z&nbsp;przybornika. Jak to mawiają: „Kiedyś jeszcze dodam nowe funkcjonalności” :wink:
 
-Może i&nbsp;prowizorka, ale działa! Na podstawie moich wiadomości mieszczących się w&nbsp;zakresie pokazuje mi, że **piszę ze średnią szybkością 184 znaków na minutę**.  
+Może i&nbsp;prowizorka, ale działa! Na podstawie moich wiadomości mieszczących się w&nbsp;zakresie pokazuje mi, że **piszę ze średnią szybkością 184&nbsp;znaków na minutę**.  
 Liczba nie powala, być może przez to, że to miks danych dla klawiatury i&nbsp;smartfona. Ale myślę, że nie jest jakoś bardzo odległa od rzeczywistości.
 
 # Liczba wiadomości wklejonych
 
-Wartości spoza przyjętego zakresu (w znakach na minutę), choć nie są liczone do średnich, nadal mogą nam coś ujawnić!
+Wartości spoza przyjętego zakresu (w&nbsp;znakach na minutę), choć nie są liczone do średnich, nadal mogą nam coś ujawnić!
 
 Wartości skrajnie niskie, oznaczające długie odstępy czasu między wiadomościami, nie wydają się aż takie ciekawe. Wpadłby tutaj każdy przypadek, kiedy jakaś osoba najpierw napisała „Do usłyszenia”, a&nbsp;ileś dni później sama napisała.
 
