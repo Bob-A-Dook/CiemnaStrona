@@ -240,7 +240,7 @@ Jak widzieliśmy, wyniki trzeba oceniać na oko, żeby coś w&nbsp;nich znaleź�
 
 Ale pomyślałem sobie: w&nbsp;niektórych miejscach błędy pojawiają się częściej niż w&nbsp;innych. Zwłaszcza tam, gdzie różnym zapisom odpowiada ta sama wymowa. *Ch* zamiast *h*, *rz* zamiast *ż* i&nbsp;tak dalej.
 
-Stąd pomysł: dla każdego słowa z&nbsp;listy nieznanych sprawdzę różne warianty pisowni. **Jeśli jakieś słowo nie znajduje się na liście, ale jego wariant z&nbsp;innym zapisem już tak, to mamy mocnego kandydata na błąd ortograficzny**.
+Stąd pomysł: dla każdego słowa uznanego za nieznane sprawdzę różne warianty pisowni. **Jeśli jakieś słowo nie znajduje się na liście, ale jego wariant z&nbsp;innym zapisem już tak, to mamy mocnego kandydata na błąd ortograficzny**.
 
 Spójrzmy na przykład na dwa błędnie zapisane słowa -- *chex* i&nbsp;*chandel*. Pierwsze powinno brzmieć *Hex*, od nazwy gry planszowej, a&nbsp;drugie -- *handel*. 
 
@@ -251,16 +251,16 @@ Spójrzmy na przykład na dwa błędnie zapisane słowa -- *chex* i&nbsp;*chande
 
    Z&nbsp;kolei *Hex* się na liście nie znajduje, bo raczej niewiele jest na niej obcych słów. W&nbsp;związku z&nbsp;tym *chex* pozostaje zwykłym nieznanym słowem -- wśród literówek i&nbsp;słów, które trafiły tam przypadkiem.
 
-Rezultaty najgorsze z&nbsp;naszego punktu widzenia -- gdy skrypt zamiast dobrego słowa zaproponuje błędne -- powinny być raczej rzadkie (ale możliwe; poniżej napisałem o&nbsp;tym ciekawostkę).
+Rezultaty najgorsze z&nbsp;naszego punktu widzenia -- gdy skrypt zamiast prawidłowo zapisanego słowa zaproponuje wersję z&nbsp;błędem -- powinny być raczej rzadkie (ale możliwe; poniżej napisałem o&nbsp;tym ciekawostkę).
 
-Częstszym przypadkiem będzie zaliczenie błędu ortograficznego do zwykłych słów nieznanych. Ale takie działanie, choć nie idealne, nie jest też jakimś wielkim problemem.
+Częstszym przypadkiem będzie zaliczenie błędu ortograficznego do zwykłych słów nieznanych. Ale takie działanie, choć nie idealne, nie jest jakimś wielkim problemem.
 
 A gdy już metoda działa, to działa -- wyłapuje niektóre współczesne koszmarki, takie jak „ludzią” zamiast „ludziom”.
 
 {% include info.html type="Ciekawostka"
 text="Póki nie udoskonaliłem listy o&nbsp;słowa z&nbsp;książek, potrafiło dochodzić do śmiesznych sytuacji. Przykład: komputer z&nbsp;całym autorytetem próbował mi wmówić, że zamiast „*są*” powinienem pisać „*som*”.  
-Wynikało to z&nbsp;faktu, który wcześniej opisałem -- na liście z&nbsp;SJP nie było wielu powszechnych słów, w&nbsp;tym również „*są*”. Były z&nbsp;kolei niszowe rzeczowniki. „*Som*” to dopełniacz słowa „*soma*”, oznaczającego po grecku „ciało”.  
-Pytanie, skąd się wzięło na liście słów polskich. Obstawiam jakieś biblijne zapożyczenia, ale pewności nie mam."
+Wynikało to z&nbsp;faktu, który wcześniej opisałem -- na liście z&nbsp;SJP nie było wielu powszechnych słów, w tym „*są*”. Były z&nbsp;kolei niszowe rzeczowniki. „*Som*” to dopełniacz słowa „*soma*”, oznaczającego po grecku „ciało”.  
+Pytanie, skąd się toto wzięło na liście słów polskich. Obstawiam jakieś biblijne zapożyczenia, ale pewności nie mam."
 trailer="<div class='black-bg mono'>soma, <span class='red'>som</span>, somach, somami, somą, somę, somie, somo, somom, somy</div>"
 %}
 
@@ -276,12 +276,12 @@ Nie twierdzę, że też nam liczy szybkość pisania czy liczbę błędów. Patr
 
 Ale tak naprawdę nie wiemy, co tam za kulisami robi.
 
-Korzysta z&nbsp;elastycznych algorytmów, ściślej nazywanych uczeniem maszynowym, a&nbsp;marketingowo -- sztuczną inteligencją. I&nbsp;prawie na pewno, upychając nas w&nbsp;odpowiedniej przegródce dla reklamodawców, patrzy na treść wiadomości.
+Korzysta z&nbsp;elastycznych algorytmów, ściślej nazywanych uczeniem maszynowym, a&nbsp;marketingowo -- sztuczną inteligencją. I&nbsp;prawie na pewno, upychając nas w&nbsp;odpowiedniej przegródce dla reklamodawców, uwzględnia treść naszych wiadomości.
 
-W ten sposób, zestawiając wielkie zbiory z&nbsp;Messengera i&nbsp;innych źródeł, może sobie wyliczać korelacje.
+Łącząc wielkie zbiory tekstu z&nbsp;Messengera z&nbsp;historią innych naszych działań, może sobie wyliczać korelacje.
 
 Nie mamy pewności, czy nasze krótkie, rwane i&nbsp;czasem niegramatyczne wiadomości nie będą ostatnią kroplą, która przeleje czarę i&nbsp;przerzuci nas do klastra numer 1237 (liczby wymyślam). Który będziemy dzielili raczej z&nbsp;patologią.  
-A to może oznaczać, że Fejs będzie nam wciskał reklamy tandety, chwilówek i&nbsp;patostreamów. Ilekroć odwiedzimy swój profil albo powiązane strony.
+A to może oznaczać, że Fejs będzie nam wciskał reklamy tandety, chwilówek i&nbsp;patostreamów. Ilekroć odwiedzimy swój profil albo strony zaprzyjaźnione z&nbsp;FB.
 
 A może mówię stereotypami? A&nbsp;nasze krótkie, szybkie i&nbsp;niegramatyczne wiadomości skorelują w&nbsp;oczach Fejsa ze sławą i&nbsp;biznesem, profilami kadr menedżerskich?  
 Trafimy do klastra numer 1337. Będzie nam wciskało reklamy markowej tandety, kredytów mieszkaniowych i&nbsp;sesji coachingowo-lifestyle'owych.
@@ -298,20 +298,32 @@ Ale do tego czasu zajmę się innymi aspektami naszych (a może już Facebooka?)
 
 To bezpośrednie rozszerzenie mojego poprzedniego skryptu, więc działa niemal identycznie -- po prostu tworzy więcej statystyk i&nbsp;plików z&nbsp;dodatkowymi informacjami.
 
-**Uwaga: Nie mam na razie możliwości przetestowania skryptu na komputerze z Windowsem. Gdyby coś nie działało, to poczekajcie tak z tydzień (do 23.01). Gdy sprawdzę i będzie OK, to zaktualizuję tę notkę.**
+**Aktualizacja 25.01:** Naprawiłem i&nbsp;poprawiłem parę rzeczy, ładowanie list słów powinno teraz działać również na&nbsp;Windowsie.
 
-1. Instalujecie Pythona, jeśli jeszcze go nie macie.
-2. Pobieracie <a download href="/assets/skrypty/messenger_stats_v2.py">nową wersję mojego skryptu</a> i umieszczacie go w&nbsp;tym samym folderze co swoje dane pobrane z&nbsp;Facebooka (w tym wiadomości z&nbsp;Messengera). Możecie je rozpakować albo pozostawić w&nbsp;pliku ZIP.
-3. Pobieracie [listę słów od SJP](https://sjp.pl/slownik/odmiany/sjp-odm-20211220.zip). Rozpakowujecie zipa w&nbsp;tym samym folderze, w&nbsp;którym jest skrypt.
-4. Pobieracie [plik ZIP z&nbsp;moją listę uzupełniającą](/assets/posts/messenger2/MY_WORDLISTS.zip). Również rozpakowujecie go tam gdzie skrypt. Do powstałego folderu `MY_WORDLISTS` możecie wrzucać własne listy słów.
-5. Otwieracie plik ze skryptem, korzystając na przykład z&nbsp;domyślnego edytora IDLE. Odpalacie go (w przypadku IDLE klawiszem `F5`).
+{% include pyscript.html
+name="messenger_stats_v2.py"
+link="/assets/skrypty/messenger_stats_v2.py"
+trailer="<ol>
+  <li>Instalujecie <a href='https://www.python.org/downloads/'>Pythona</a>, jeśli jeszcze go nie macie.</li>
+  <li>Pobieracie swoje dane z Facebooka, sposobem chociażby <a href='/facebook_dane/2021/02/11/nasze-dane-facebooka.html' class='internal'>z mojego wpisu</a>. Pamiętajcie, żeby zaznaczyć wśród rzeczy do pobrania swoje wiadomości.<br>
+Możecie je rozpakować albo pozostawić w pliku ZIP.</li>
+  <li>Pobieracie <a download='' href='/assets/skrypty/messenger_stats_v2.py'>nową wersję mojego skryptu</a> i umieszczacie go w tym samym folderze co wiadomości.</li>
+  <li>Pobieracie <a href='https://sjp.pl/slownik/odmiany/sjp-odm-20211220.zip'>listę słów od SJP</a>. Rozpakowujecie ZIP-a w tym samym folderze, w którym jest skrypt.</li>
+  <li>Pobieracie <a href='/assets/posts/messenger2/MY_WORDLISTS.zip'>plik ZIP z moją listą uzupełniającą</a>. Również rozpakowujecie go tam gdzie skrypt. Do powstałego folderu <code class='language-plaintext highlighter-rouge'>MY_WORDLISTS</code> możecie wrzucać własne listy słów<br>
+(o ile są plikami tekstowymi, a słowa są w osobnych linijkach lub oddzielone od siebie przecinkami).</li>
+  <li>
+    <p>Otwieracie plik ze skryptem, korzystając na przykład z domyślnego edytora IDLE. Odpalacie go (w przypadku IDLE klawiszem <code class='language-plaintext highlighter-rouge'>F5</code>).</p>
 
-   W&nbsp;domyśle skrypt przeanalizuje wiadomości osoby, która brała udział w&nbsp;największej liczbie konwersacji. Czyli zapewne Wasze.
+    <p>W domyśle skrypt przeanalizuje wiadomości osoby, która brała udział w największej liczbie konwersacji. Czyli zapewne Wasze.</p>
+  </li>
+  <li>
+    <p>W folderze powstanie podfolder nazwany od analizowanej osoby. A w nim kilka plików.</p>
 
-6. W&nbsp;folderze powstanie podfolder nazwany od analizowanej osoby. A&nbsp;w&nbsp;nim kilka plików.
-
-   Najważniejszy to raport w&nbsp;formacie HTML zawierający różne statystyki dotyczące Waszych wiadomości (po kliknięciu zapewne otworzy się w&nbsp;przeglądarce, ale bez obaw, nic nie wysyła do internetu!).  
-   Oprócz tego w&nbsp;osobnym podfolderze znajdziecie kilka plików tekstowych: wszystkie wiadomości ułożone chronologicznie, listę słów nieznanych, listę potencjalnych błędów ortograficznych, listę szybko napisanych wiadomości.
+    <p>Najważniejszy to raport w formacie HTML zawierający różne statystyki dotyczące Waszych wiadomości (po kliknięciu zapewne otworzy się w przeglądarce, ale <strong>bez obaw, niczego nie wysyła do internetu!</strong>).<br>
+Oprócz tego w osobnym podfolderze znajdziecie kilka plików tekstowych: wszystkie wiadomości ułożone chronologicznie, listę słów nieznanych, listę potencjalnych błędów ortograficznych, listę szybko napisanych wiadomości.</p>
+  </li>
+</ol>
+"%}
 
 ...A jeśli, zamiast własnych, chcecie sprawdzić wszystkie wiadomości od konkretnej osoby, z&nbsp;którą pisaliście, to wpisujecie jej nazwę użytkownika (np. *Jan Jakiś*) pod koniec skryptu, przy zmiennej `name`, między cudzysłowami.
 

@@ -824,13 +824,15 @@ def get_word_statistics( messages, extended_info_container ):
         unknown_words, wordlist = unknown_words
         total_unknown_num = len(unknown_words)
         unknown_words = sorted(list(set( unknown_words )))
+        extended_info_container['unknown'] = unknown_words
+        
         word_stats += [
                 ('Liczba nieznanych słów: ', total_unknown_num ),
                 ('W tym niepowtarzających się: ', len(unknown_words) )
                 ]
 
         grammar_errs = get_grammar_errors( unknown_words, wordlist )
-        extended_info_container += [unknown_words, grammar_errs]
+        extended_info_container['grammar'] = grammar_errs
 
     return ('Statystyki dotyczące słów', word_stats)
 
@@ -864,7 +866,8 @@ def _get_basic_errors( text_messages ):
 def _get_unknown_words( all_words, word_stats ):
     '''Gets out-of-wordlist words, including ones with wrong spelling'''
 
-    wordlist = _load_wordlist()
+    wordlist_files = _find_wordlist_files()
+    wordlist = _construct_wordlist( wordlist_files )
     if not wordlist: return
     
     unknown = sorted(word for word in all_words if not word in wordlist
@@ -873,41 +876,81 @@ def _get_unknown_words( all_words, word_stats ):
     return unknown, wordlist
 
     
-def _load_wordlist():
+def _find_wordlist_files():
     '''
-    Loads an extensive list of Polish words stored in text files.
-    Should work regardless of whether the user kept wordlists
-    in a folder or moved their text files into the script's directory.
+    Looks for extensive lists of Polish words stored in text files.
+    Should work regardless of whether the user keeps them
+    in a folder or moves them directly into the script's directory.
     '''
-    script_dir = Path( __file__ ).parent
-    wlist_files = [f for f in script_dir.iterdir()
-                   if f.name in (WORDLIST_FILE, ADDITIONAL_WORDLIST_FILE)]
+    wlist_files = []
+    curdir, script_dir = Path(), Path( __file__ ).parent
+    
+    def get_specific_wordlist( list_name, folder=None ):
+        if folder:
+            return [f for f in folder.iterdir() if f.name == list_name]
+        
+        wlist = [f for f in script_dir.iterdir() if f.name == list_name]
+        if not wlist:
+            wlist = [f for f in curdir.iterdir() if f.name == list_name]
+        return wlist
 
-    sjp_folder = [p for p in script_dir.iterdir()
-                  if p.name.startswith('sjp-odm') and p.is_dir()]
-    if sjp_folder:
-        wlist_files += [f for f in sjp_folder[0].iterdir()
-                        if f.name == WORDLIST_FILE]
+    def find_sjp_subfolder( folder ):
+        return [p for p in folder.iterdir()
+                if p.name.startswith('sjp-odm') and p.is_dir()]
 
-    additional_wlist_folder = Path(CUSTOM_WORDLIST_FOLDER)
-    custom_folder_exists = additional_wlist_folder.exists()
-    if custom_folder_exists:
-        wlist_files += [f for f in additional_wlist_folder.iterdir()]
+    # Try getting the main wordlist first; check in script dir, then in
+    # current dir, and finally in a folder with a specific name 
+    main_list = get_specific_wordlist( WORDLIST_FILE )
+    if not main_list:
+        sjp_folder = find_sjp_subfolder( script_dir )
+        if not sjp_folder:
+            sjp_folder = find_sjp_subfolder( curdir )
+        if sjp_folder:
+            main_list = get_specific_wordlist( WORDLIST_FILE, sjp_folder[0] )
 
-    filenames = [f.name for f in wlist_files]
-    if not WORDLIST_FILE in filenames:
+    wlist_files += main_list
+        
+    # Then try to get additional wordlist from either one of main folders
+    additional = get_specific_wordlist( ADDITIONAL_WORDLIST_FILE )
+    wlist_files += additional
+
+    # Finally, look for the folder with custom wordlists and get its contents
+    
+    def get_custom_wordlists( folder ):
+        custom_lists = []
+        custom_folder_exists = folder.exists()
+        if custom_folder_exists:
+            custom_lists += [f for f in folder.iterdir()]
+        return custom_lists, custom_folder_exists
+
+    custom_f = curdir / CUSTOM_WORDLIST_FOLDER
+    custom_lists, custom_exists = get_custom_wordlists( custom_f )
+    if not custom_lists:
+        custom_f = script_dir / CUSTOM_WORDLIST_FOLDER
+        custom_lists, custom_exists = get_custom_wordlists( custom_f )
+
+    wlist_files += custom_lists
+
+    # Summarize the results and show user-friendly tips
+    if not main_list:
         warning(f'Nie znaleziono pliku "{WORDLIST_FILE}" z główną listą słów! '
-                'Jeśli chcesz go mieć, wypakuj w obecnym folderze '
+                'Jeśli chcesz go mieć, wypakuj w tym samym folderze co skrypt '
                 f'("{script_dir.absolute()}") plik ZIP pobrany ze strony:\n'
                 'https://sjp.pl/slownik/odmiany/sjp-odm-20211220.zip\n')
         
-    if not custom_folder_exists:
-        warning('Nie znaleziono folderu na własne listy słów '
-                f'"{CUSTOM_WORDLIST_FOLDER}". Jeśli chcesz go mieć, stwórz go '
-                f'w obecnym folderze ("{script_dir.absolute()}") '
+    if not custom_exists:
+        warning('Nie znaleziono folderu na własne listy słów! Jeśli chcesz go '
+                f'mieć, stwórz folder "{CUSTOM_WORDLIST_FOLDER}" w tym samym '
+                f'folderze co skrypt ("{script_dir.absolute()}") '
                 'i wrzucaj do niego pliki tekstowe ze swoimi słowami. '
-                'Możesz pobrać moją listę słów spod adresu:\n'
+                'Możesz pobrać moją listę dodatkową spod adresu:\n'
                 f'{EXAMPLE_WORDLIST_URL}\n')   
+
+    return wlist_files
+
+
+def _construct_wordlist( wlist_files ):
+    '''If any source files are found, squeeze the words into a single set'''
 
     if not wlist_files:
         error('Nie znaleziono żadnych plików z listami słów. '
@@ -917,7 +960,7 @@ def _load_wordlist():
     polish_words, total_word_num = set(), 0
     for wlist_file in wlist_files:
         try:
-            for line in open( wlist_file ):
+            for line in open( wlist_file, 'r', encoding='utf-8' ):
                 words = COMMA_RE.split( line.strip() )
                 total_word_num += len(words)
                 polish_words.update( words )
@@ -1125,28 +1168,29 @@ def save_statistics( all_results, folder, name ):
 def save_additional_info( info, folder, name ):
     '''Saves additional information to separate text files'''
 
-    unknown_words, grammar_errors, fast_msgs = info
-    
-    UNKNOWN_WORDS_FILE = 'nieznane_słowa.txt'
-    out_path = folder / f'{name}_{UNKNOWN_WORDS_FILE}'
-    with open( out_path, 'w') as unk:
-        unk.writelines( line_generator( unknown_words ) )
+    unknown_words = info['unknown']
+    fast_msgs  = info['fast']
+    grammar_errors = info['grammar']
+
+    if unknown_words:
+        UNKNOWN_WORDS_FILE = 'nieznane_słowa.txt'
+        out_path = folder / f'{name}_{UNKNOWN_WORDS_FILE}'
+        with open( out_path, 'w', encoding='utf-8') as unk:
+            unk.writelines( line_generator( unknown_words ) )
 
     if grammar_errors:
         GRAMMAR_ERRORS_FILE = 'potencjalne_błędy.txt'
         out_path = folder / f'{name}_{GRAMMAR_ERRORS_FILE}'
-        with open( out_path, 'w' ) as errfile:
+        with open( out_path, 'w', encoding='utf-8' ) as errfile:
             errfile.write( '\n'.join( '\t'.join(e) for e in grammar_errors ))
             print(f'Zapisano możliwe błędy do pliku {out_path}')
 
     if fast_msgs:
         FAST_MESSAGES_FILE = 'szybko_napisane.txt'
         out_path = folder / f'{name}_{FAST_MESSAGES_FILE}'
-        with open( out_path, 'w' ) as fast_msg_file:
+        with open( out_path, 'w', encoding='utf-8' ) as fast_msg_file:
             fast_msg_file.write( '\n'.join(item for item in fast_msgs) )
     
-
-tok = tokenize
 
 ###########################################
 # New functions for analyzing conversations
@@ -1212,8 +1256,7 @@ def get_typing_speed( message_groups ):
   
             if LOWER_BOUND < cpm < UPPER_BOUND:
                 speed_values.append( cpm )
-
-            if cpm > UPPER_BOUND:
+            elif cpm > UPPER_BOUND:
                 very_fast_msgs.append( (cpm, msg) )
 
             prev_msg = msg
@@ -1256,7 +1299,7 @@ def get_series_statistics( conversations, name, additional_info_container ):
 
     fast_msg_info = [f'[{int(speed)} znaków na minutę]:\n\n{m.text}\n'
                      for (speed,m) in very_fast_msgs]
-    additional_info_container.append( fast_msg_info )
+    additional_info_container['fast'] = fast_msg_info
 
     return all_stats
 
@@ -1274,7 +1317,7 @@ def get_all_statistics( name="", save_timeline=True,
     messages = get_all_messages( conversations, msg_dir, name )
     sender_msgs = get_messages_by( messages, name )
 
-    additional_info = []
+    additional_info = {'fast':[], 'unknown':[], 'grammar':[]}
     msg_stats = get_message_statistics( sender_msgs, additional_info )
     series_stats = get_series_statistics( messages, name, additional_info )
 
@@ -1289,6 +1332,9 @@ def get_all_statistics( name="", save_timeline=True,
     if save_word_info and additional_info:
         save_additional_info( additional_info, out_folder, filename )
 
+
+# Shorthands for interactive analysis
+tok = tokenize
                 
 if __name__ == '__main__':
 
@@ -1297,13 +1343,13 @@ if __name__ == '__main__':
 
     name = ""
 
-    # Tutaj możemy oznaczać, zmieniając True na False, jakie dodatkowe pliki
-    # chcemy stworzyć. Nic innego nie ruszamy i nie usuwamy.
+    # Tutaj możemy oznaczać, jakie dodatkowe pliki chcemy stworzyć,  
+    # zmieniając True na False. Niczego innego nie ruszamy i nie usuwamy.
 
     config = {
         'save_timeline': True, # Oś czasu dla wszystkich wiadomości
         'save_main_stats': True, # Plik HTML z najważniejszymi informacjami
-        'save_word_info': True # Lista słów nieznanych i błędnych
+        'save_word_info': True # Listy słów nieznanych i błędnych
         }
 
     # A tego poniżej nie ruszamy

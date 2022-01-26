@@ -51,6 +51,8 @@ INTERACTIVE_MODE = _check_if_interactive()
 # Some program strings and globals
 ##################################
 
+DEBUG_MODE = False
+
 MAX_FILENAME_LENGTH = 100
 DEFAULT_OUTPUT_FOLDER = 'Extracted_from_cache'
 IMAGE_FORMATS = ('.png','.jpg','.jpeg','.svg', '.gif', '.webp')
@@ -401,7 +403,7 @@ def switch_to_interactive_mode( all_entries ):
           'Twoje opcje (wpisz liczbę i potwierdź Enterem):\n')
 
     options = {
-        1: ('Kopiuj wszystko oo osobnego folderu', extract_all),
+        1: ('Kopiuj wszystko do osobnego folderu', extract_all),
         2: ('Kopiuj same obrazki do osobnego folderu', extract_images),
         3: ('Przejdź do trybu interaktywnego', _to_interactive)
         }
@@ -502,20 +504,27 @@ def extract_data( *args, entrylist=None, images_only=False, folder=None,
     if not out_folder.exists(): out_folder.mkdir()
 
     print('Kopiuję pliki...')
-    duplicates = 0
+    duplicates, extracted, errors = 0, 0, 0
     for entry in extractable:
-        try: entry.extract_data( out_folder )
+        try:
+            entry.extract_data( out_folder )
+            extracted += 1
         except FileDuplicateError:
             duplicates += 1
         except OSError: pass
-        except Exception as e: error(f'Błąd podczas wyciągania pliku: {e}')
+        except Exception as e:
+            errors += 1
+            if DEBUG_MODE: error(f'Błąd podczas wyciągania pliku: {e}')
 
-    if duplicates:
-        warning(f'Nie przeniesiono niektórych plików ({duplicates}), '
-                'ponieważ pliki o takich samych nazwach już były w folderze')
+    if duplicates or errors:
+        if duplicates:
+            warning(f'Nie przeniesiono niektórych plików ({duplicates}), '
+                    'bo pliki o takich samych nazwach już były w folderze')
+        if errors:
+            warning(f'Niektórych plików ({errors}) nie przeniesiono, bo '
+                    'wystąpiły inne błędy')
         
-    print(f'Skopiowano {f_tag} ({len(extractable)}) do folderu:\n'
-          f'{out_folder}')
+    print(f'Skopiowano {f_tag} ({extracted}) do folderu:\n{out_folder}')
 
 
 def extract_all():
