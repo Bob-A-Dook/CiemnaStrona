@@ -12,10 +12,11 @@ Sam skrypt można pobrać <a href="/assets/skrypty/krs_visualizer.py" download>s
 
 # Moduły Pythona
 
-Skrypt potrzebuje do działania trzech zewnętrznych modułów. Dlatego włączamy naszą zaufaną konsolę (jak *PowerShell* w&nbsp;przypadku Windowsa) i&nbsp;instalujemy co trzeba:
+Skrypt potrzebuje do działania trzech zewnętrznych modułów. Dlatego najpierw włączamy naszą zaufaną konsolę (jak *PowerShell* w&nbsp;przypadku Windowsa; można go znaleźć w menu *Start* albo nacisnąć `Przycisk z ikoną Windowsa`+`X`, a potem `I` jak *inwigilacja*).  
+Następnie pobieramy co trzeba:
 
 1. Biblioteki `BeautifulSoup` oraz `lxml` do grzebania w&nbsp;XML-u.  
-   Instalujemy je, wpisując w&nbsp;konsolce:
+   Instalujemy je, wpisując w&nbsp;konsolce i potwierdzając *Enterem*:
 
    <div class="black-bg mono">pip install beautifulsoup4</div>
 
@@ -25,7 +26,7 @@ Skrypt potrzebuje do działania trzech zewnętrznych modułów. Dlatego włącza
 
 2. Bibliotekę `Matplotlib` do tworzenia wykresów.
 
-   **Ważne!** Kiedy testowałem skrypt na Windowsie 10, nowsza wersja nie działała. Zgodnie z&nbsp;[pewną odpowiedzią z forum](https://stackoverflow.com/questions/66919838/matplotlib-wont-run-on-windows-10-dll-fails-to-load) pomaga zainstalowanie nieco starszej, *3.3.1*.
+   **Ważne!** Kiedy testowałem skrypt na Windowsie 10, nowsza wersja nie działała. Zgodnie z&nbsp;[pewną odpowiedzią z forum](https://stackoverflow.com/questions/66919838/matplotlib-wont-run-on-windows-10-dll-fails-to-load) pomaga zainstalowanie nieco starszej, *3.3.1*. Dlatego na Windowsie wpisujemy:
 
    <div class="black-bg mono">pip install matplotlib==3.3.1</div>  
    
@@ -68,11 +69,11 @@ Skrypt może tworzyć wykresy dla czterech kategorii:
 * zarząd;
 * wspólnicy (albo inni udziałowcy).
 
-W najprostszym przypadku po prostu go odpalacie -- na przykład otwierając go w domyślnym edytorze IDLE i naciskając `F5`, albo w dowolny inny sposób.
+W najprostszym przypadku po prostu go odpalacie, zdając się na domyślne ustawienia -- na przykład otwierając go w&nbsp;domyślnym edytorze IDLE i&nbsp;naciskając `F5`. Albo w&nbsp;dowolny inny sposób.
 
 **Na samym końcu skryptu znajdziecie parę ustawień**, które możecie zmienić, żeby dostosować swoje wykresy.
 
-Pierwszym z&nbsp;nich jest folder, w&nbsp;którym skrypt wypatruje plików PDF z&nbsp;KRS-u. Jeśli nic tam nie wpiszecie, będzie patrzył w&nbsp;tym samym folderze, w&nbsp;którym go odpalacie:
+Pierwszym z&nbsp;nich jest folder, w&nbsp;którym skrypt wypatruje plików PDF z&nbsp;KRS-u. Jeśli nic tam nie wpiszecie, będzie szukał w&nbsp;tym samym folderze, w&nbsp;którym go odpalacie:
 
 ```python
 folder = ""
@@ -87,7 +88,7 @@ info = ['nazwa','adres','zarząd','wspólnicy']
 ```
 
 Nie możecie dopisać własnych zmyślonych nazw kategorii, musicie wybierać spośród tych czterech. Ale możecie zmieniać ich kolejność albo usuwać dowolne z&nbsp;nich.  
-Przykładowo, wpisując `info=['adres','wspólnicy']`, otrzymacie wykres jedynie dla zmian adresu i&nbsp;wspólników/udziałowców.
+Przykładowo, wpisując <span class="black-bg mono">info=[\'adres\',\'wspólnicy\']</span>, otrzymacie wykres jedynie dla zmian adresu i&nbsp;wspólników/udziałowców.
 
 Ostatnie z&nbsp;ustawień to wymiary wykresu:
 
@@ -95,7 +96,8 @@ Ostatnie z&nbsp;ustawień to wymiary wykresu:
 width, height = 9, 20
 ```
 
-Liczba `9` odnosi się tu do szerokości, a&nbsp;`20` do wysokości. To wymiary w&nbsp;calach. W&nbsp;praktyce możecie je sobie dowolnie zmieniać, gdyby wykres był nieczytelny, a&nbsp;etykiety na siebie nachodziły (taki problem pojawia się zwłaszcza przy spółkach, w&nbsp;których dużo się dzieje).
+Liczba `9` odnosi się tu do szerokości, a&nbsp;`20` do wysokości. To wymiary w&nbsp;calach.  
+W&nbsp;praktyce możecie je sobie dowolnie zmieniać, gdyby wykres był nieczytelny, a&nbsp;etykiety na siebie nachodziły (taki problem pojawia się zwłaszcza przy spółkach, w&nbsp;których dużo się dzieje).
 
 Po wprowadzeniu takiej zmiany odpalamy ponownie skrypt i&nbsp;możemy się cieszyć wykresem w&nbsp;nowych wymiarach.
 
@@ -110,4 +112,6 @@ No i, na koniec, pamiętajmy że mamy również pewne ograniczenia związane nie
 
 * Nie będzie nam pokazywało wspólników w&nbsp;przypadku niektórych spółek (na przykład akcyjnych, bo tam akcjonariusze często się zmieniają i&nbsp;może ich być bardzo wielu).
 * Nawet jeśli mamy ładną spółkę z&nbsp;o.o., to według tego [wpisu o&nbsp;anonimowych spółkach](http://www.lflegal.pl/blog/spolka-anonimowa-jak-ukryc-w-spolnika-w-spolce/) KRS nie udostępnia listy wspólników mających poniżej 5% udziałów.
-* Odpisy z KRS-u nie nadają się do wyłapywania wszystkich powiązań danej firmy, ponieważ pokazują tylko jedną stronę relacji (tzn. kto był w danej firmie udziałowcem; nie widzimy natomiast, czy ta firma była udziałowcem w czymś innym).
+* Odpisy z KRS-u nie nadają się do wyłapywania wszystkich powiązań danej firmy, ponieważ pokazują tylko jedną stronę relacji (tzn. kto był w danej firmie udziałowcem; nie widzimy natomiast, czy ta firma była udziałowcem w&nbsp;czymś innym).
+
+Miłego wyłapywania firmowych ciekawostek!

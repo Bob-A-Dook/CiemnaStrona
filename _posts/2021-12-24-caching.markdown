@@ -104,18 +104,18 @@ We wszystkich przeglądarkach **pamięć podręczna jest folderem**. Znajdują s
 Jeśli ikonki wydają się Wam obce, to dlatego że to przeglądarka systemu Linux Mint. Swoją drogą polecam.
 
 {% include info.html type="Porada"
-text="W przypadku Firefoksa możecie łatwo sprawdzić, gdzie Wasz folder z&nbsp;pamięcią podręczną, wpisując w&nbsp;pasek adresu `about:cache`.  
-Swoją drogą to fajny sposób na przeglądanie, co mamy w&nbsp;*cache'u*, bo zawiera również pliki, które nie zostaną zapisane na dysku.  
+text="W przypadku Firefoksa możecie łatwo sprawdzić, gdzie jest Wasz folder z&nbsp;pamięcią podręczną, wpisując w&nbsp;pasek adresu `about:cache`.  
+Swoją drogą to fajny sposób na przeglądanie, co mamy w&nbsp;*cache'u*; są tam również pliki, które nie zostaną zapisane na dysku.  
 Co do innych przeglądarek:  
 Chromium na Linuksie -- pamięć podręczna znajduje się w&nbsp;folderze `.cache/chromium/Default/Cache`.  
 Chrome na Windowsie -- w&nbsp;`AppData\Local\Google\Chrome\User Data\Default\Cache`.  
-(Windows ogólnie wrzuca do podfolderu `Appdata\Local` w&nbsp;folderze głównym)."
+(Windows ogólnie wrzuca do podfolderu `AppData\Local` w&nbsp;folderze głównym)."
 %}
 
 Ten folder wyżej to *cache* przeglądarki Chromium na Linuksie.  
 W jego wnętrzu zawsze mamy podfolder `index-dir` oraz plik `index`. A&nbsp;wszystkie pozostałe pliki odpowiadają rzeczom, które nasza przeglądarka odłożyła na później.
 
-To tak zwane **pliki binarne**. Nie mają żadnego rozszerzenia i&nbsp;są swego rodzaju pojemnikami na inne pliki, zwykle już o&nbsp;znanych typach. W&nbsp;każdym z&nbsp;nich mamy komplet złożony z&nbsp;oryginelnego pliku, a&nbsp;także garść informacji uzupełniających (jak link do źródła, z&nbsp;którego go pobraliśmy, albo datę i&nbsp;godzinę pobrania).
+To tak zwane **pliki binarne**. Nie mają żadnego rozszerzenia i&nbsp;są swego rodzaju pojemnikami na inne pliki, zwykle już o&nbsp;znanych typach. W&nbsp;każdym z&nbsp;nich mamy komplet złożony z&nbsp;oryginalnego pliku, a&nbsp;także garść informacji uzupełniających (jak link do źródła, z&nbsp;którego go pobraliśmy, albo datę i&nbsp;godzinę pobrania).
 
 W każdym takim „pojemniku” może być obrazek, zestaw czcionek, plik JavaScript, cała strona internetowa... co nam tylko do głowy przyjdzie.
 
@@ -143,7 +143,7 @@ Ciemna Strona jest statyczna, a&nbsp;do każdego wpisu prowadzi osobny link.
 Jedna strona = konkretny zestaw plików z&nbsp;pamięci podręcznej = jedna pozycja w&nbsp;historii przeglądania.  
 Dlatego w&nbsp;tym przypadku oba źródła informacji, historia i&nbsp;pamięć podręczna, wydają się sobie równe; może z&nbsp;lekką przewagą historii za jej zwięzłość i&nbsp;czytelność.
 
-Tym niemniej zawsze może się zdarzyć, że ktoś wyczyści historię, a&nbsp;pamięci podręcznej nie. Warto wiedzieć, że w&nbsp;takim przypadku *cache* będzie najlepszą, bo jedyną, kopalnią informacji.
+Tym niemniej zawsze może się zdarzyć, że ktoś wyczyści historię, a&nbsp;pamięci podręcznej nie. Warto wiedzieć, że w&nbsp;takim przypadku *cache* będzie najlepszą -- bo jedyną -- kopalnią informacji.
 
 # Przykład z&nbsp;Facebooka
 
@@ -282,7 +282,7 @@ Przede wszystkim **czyśćmy pamięć przeglądarki**. Zwłaszcza jeśli użyjem
 We wszystkich przeglądarkach, które sprawdzałem, należy najpierw otworzyć opcje historii, potem wybrać opcję w&nbsp;stylu `Wyczyść dane przeglądania`. Powinno pokazać nam się okno, w&nbsp;którym zaznaczamy, co dokładnie chcemy wyczyścić. W&nbsp;tym miejscu zaznaczamy opcję `Pamięć podręczna` i&nbsp;klikamy przycisk potwierdzający. I&nbsp;już!
 
 {:.figure}
-<img src="/assets/posts/caching/czyszczenie-historii.jpg" alt="Zrzut ekranu okna Firefoxa z&nbsp;zaznaczonymi wszystkimi opcjami czyszczenia danych przeglądania. Czerwoną ramką otoczono tekst „Pamięć podręczna”."/>
+<img src="/assets/posts/caching/czyszczenie-historii.jpg" alt="Zrzut ekranu okna Firefoksa z&nbsp;zaznaczonymi wszystkimi opcjami czyszczenia danych przeglądania. Czerwoną ramką otoczono tekst „Pamięć podręczna”."/>
 
 {:.figcaption}
 Tutaj na przykładzie Firefoksa.
@@ -367,7 +367,7 @@ trailer = "
   <li>Windows 10 + Firefox</li>
 </ul>
 
-<p>I działał! Ale pamiętajmy, że autorzy przeglądarek zawsze mogą coś zmienić w&nbsp;formacie plików binarnych z&nbsp;<em>cache’a</em>, przez co ubiją skrypt. W&nbsp;takim wypadku trzeba by go mocniej zmienić, co jest póki co poza moim zasięgiem. Żeby mieć większą pewność działania, najlepiej trzymajcie się Firefoxa.</p>
+<p>I działał! Ale pamiętajmy, że autorzy przeglądarek zawsze mogą coś zmienić w&nbsp;formacie plików binarnych z&nbsp;<em>cache’a</em>, przez co ubiją skrypt. W&nbsp;takim wypadku trzeba by go mocniej zmienić, co jest póki co poza moim zasięgiem. Żeby mieć większą pewność działania, najlepiej trzymajcie się Firefoksa.</p>
 "%}
 
 # Przykłady zastosowań

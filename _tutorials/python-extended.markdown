@@ -217,13 +217,14 @@ Kiedy klikamy z&nbsp;*Shiftem*, to **pokazuje się jedna dodatkowa opcja** -- *U
 
 Wada tej metody? Trzeba uważać, żeby zamiast pustej przestrzeni nie kliknąć jakiegoś pliku, bo pokazałyby się inne opcje. A&nbsp;to może być trudne, jeśli w&nbsp;folderze mamy ich dużo.
 
-Poza tym da się jeszcze szybciej! Skrótami klawiszowymi, które niestety zależą od ustawionego języka Windowsa. W&nbsp;polskiej wersji naciskamy `Alt+P+O`, w&nbsp;angielskiej `Alt+F+O` (*O* jak *Open*).  
-PowerShell w&nbsp;sekundę, w&nbsp;dowolnym folderze!
+Poza tym da się jeszcze szybciej! Skrótami klawiszowymi, które niestety zależą od ustawionego języka Windowsa.  
+W&nbsp;polskiej wersji naciskamy `Alt+P+O`, w&nbsp;angielskiej `Alt+F+O` (*O* jak *Open*).  
+Dzięki temu mamy PowerShella w&nbsp;sekundę, w&nbsp;dowolnym folderze!
 
 {% include info.html type="Porada" text="Jeśli macie wersję Windowsa w&nbsp;innym języku, to możecie po prostu przytrzymać `Alt` przez dłuższą chwilę, żeby wyświetliły się litery odpowiadające różnym elementom Eksploratora.  
-Potem patrzycie, jakie klawisze odpowiadają opcji `Plik` i&nbsp;otwieraniu PowerShella. To te klawisze musicie nacisnąć w&nbsp;swojej wersji." trailer="<p class='bigspace' style='margin-bottom:0px'><img src='/assets/tutorials/python-extended/5-1-skroty-powershell.webp' alt='Zrzut ekranu z&nbsp;Eksploratora' width='400px'/></p>"%}
+Potem patrzycie, jakie klawisze odpowiadają opcji `Plik` i&nbsp;otwieraniu PowerShella. To te klawisze musicie nacisnąć w&nbsp;swojej wersji." trailer="<p class='bigspace' style='margin-bottom:0px'><img src='/assets/tutorials/python-extended/5-1-skroty-powershell.webp' alt='Zrzut ekranu z Eksploratora' width='400px'/></p>"%}
 
-Z&nbsp;kolei żeby **szybko włączyć PowerShella w&nbsp;jego domyślnym miejscu** -- bez otwierania Eksploratora -- naciskamy `Przycisk z ikoną Windowsa+X`, żeby wyświetlić okno z&nbsp;opcjami. A&nbsp;następnie `I` (literę podkreśloną w&nbsp;nazwie odpowiadającej PowerShellowi).
+Z&nbsp;kolei żeby **szybko włączyć PowerShella w&nbsp;jego domyślnym miejscu** -- bez otwierania Eksploratora Plików -- naciskamy `Przycisk z ikoną Windowsa+X`, żeby wyświetlić okno z&nbsp;opcjami. A&nbsp;następnie `I` (literę podkreśloną w&nbsp;nazwie odpowiadającej PowerShellowi).
 
 Przydaje się to, jeśli chcemy szybko odpalić przez PS skrypt robiący zawsze to samo, niezależnie od folderów. U&nbsp;mnie jest to na przykład skrypt otwierający w&nbsp;Firefoksie kilka stron z&nbsp;pogodą w&nbsp;górach.
 
