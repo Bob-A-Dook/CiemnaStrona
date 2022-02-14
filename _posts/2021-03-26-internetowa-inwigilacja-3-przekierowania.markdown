@@ -195,7 +195,7 @@ inne-pc="Dostępna jest wersja <a href='https://microsoftedge.microsoft.com/addo
 android="Wspiera go podobno Kiwi Browser (nie testowałem). Inne przeglądarki niestety kuleją ze wspieraniem dodatków."
 %}
 
-{% include info.html type="Niedobry Google" text="Dlaczego wspomnianego dodatku Universal Bypass nie ma na Chrome'ie? Okazuje się, że to **Google go usunął odgórną decyzją**. Jako wyjaśnienie podają, że może służyć do omijania płatności na stronach.  
+{% include info.html type="Niedobry Google" text="Dlaczego wspomnianego dodatku Universal Bypass nie ma na Chromie? Okazuje się, że to **Google go usunął odgórną decyzją**. Jako wyjaśnienie podają, że może służyć do omijania płatności na stronach.  
 Tylko że ciężko spotkać się z takim zastosowaniem przekierowań, dużo częściej są używane do śledzenia. Brzmi to jak wymówka. No ale takie uroki monopolu..."
 trailer="
 <blockquote>Google took it down for apparently 'circumventing paywalls.' I&nbsp;have clarified that Universal Bypass is more of an adblocker and asked for details of where paywalls are circumvented, but it's Google, so of course I&nbsp;didn't get a response.

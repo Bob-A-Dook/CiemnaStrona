@@ -157,7 +157,7 @@ A jak będzie, jeśli dysponujemy odpowiednim dodatkiem do przeglądarki? Wtedy 
 
    W&nbsp;ten sposób Steam się nie dowiaduje, że kliknęliśmy w&nbsp;link. A&nbsp;jeśli go blokował, to nie ma to znaczenia -- bo idziemy bezpośrednio do celu, a&nbsp;nie przez Steamowe przekierowanie.
 
-(W ostateczności moglibyśmy nawet wykonać to ręcznie, kopiując link z parametrów do paska).
+(W ostateczności moglibyśmy nawet wykonać to ręcznie, zaznaczając link ukryty w&nbsp;parametrach i&nbsp;kopiując go do paska przeglądarki).
 
 # Podsumowanie linków
 
@@ -179,7 +179,7 @@ Skoro łatwo je rozpoznać, bo zawsze zaczynają się po znaku zapytania... to w
 Najpierw przykład z&nbsp;YouTube'a. Kiedy udostępniamy komuś link do filmu -- klikając przycisk `Udostępnij`, a&nbsp;nie po prostu kopiując adres obecnej strony -- to możemy wskazać konkretny moment, od którego zacznie się film.
 
 {:.figure .bigspace}
-<img src="/assets/posts/linki-parametry/youtube-wybor-czasu.webp" alt="Zrzut ekranu z YouTube'a pokazujący ekran udostępniania. Czerwonym kolorem podkreślony parametr t na końcu linku do udostępniania, odpowiadający 42. minucie filmu."/>
+<img src="/assets/posts/linki-parametry/youtube-wybor-czasu.webp" alt="Zrzut ekranu z YouTube'a pokazujący ekran udostępniania. Czerwonym kolorem podkreślony parametr t na końcu linku do udostępniania, odpowiadający czterdziestej drugiej minucie filmu."/>
 
 Wtedy do linku zostanie dodany parametr `t`. Jego wartość to liczba sekund od rozpoczęcia filmu.
 
@@ -187,10 +187,10 @@ Gdybyśmy ucinali wszystkie parametry i przesłali link bez nich, to strona nada
 
 Innym razem parametry są wręcz niezbędne i&nbsp;strona bez nich nie działa. Przykładem Hacker News, bodaj moje ulubione anglojęzyczne forum dyskusyjne. Link do jednej z&nbsp;dyskusji kończy się parametrem `id=26274035`.
 
-Jeśli usuniemy z&nbsp;linku parametry, czyli wszystko po znaku zapytania, to zostaniemy praktycznie z niczym. A po wejściu w&nbsp;taki link wyświetli nam błąd:
+Jeśli usuniemy z&nbsp;linku parametry, czyli wszystko po znaku zapytania, to zostaniemy praktycznie z&nbsp;niczym. A po wejściu w&nbsp;taki link wyświetli nam błąd:
 
 {:.bigspace}
-<img src="/assets/posts/linki-parametry/po-co-parametry.webp" alt="Fragmenty dwóch screenów. Jeden pokazuje stronę Hackernews, kiedy w pasku adresu jest pełen link. Parametr id jest w nim podkreślony na czerwono. Drugi pokazuje tę samą stronę bez parametrów. Widać wyświetlony komunikat o błędzie."/>
+<img src="/assets/posts/linki-parametry/po-co-parametry.webp" alt="Fragmenty dwóch screenów. Jeden pokazuje stronę HackerNews, kiedy w pasku adresu jest pełen link. Parametr id jest w nim podkreślony na czerwono. Drugi pokazuje tę samą stronę bez parametrów. Widać wyświetlony komunikat o błędzie."/>
 
 Jak widać, **bez parametru _id_ z&nbsp;określoną wartością nie dostaniemy tego, na co liczyliśmy**. Gdybyśmy automatycznie usuwali wszystkie parametry, to strona by w&nbsp;ogóle nie działała.
 
@@ -212,7 +212,7 @@ firefox="Oba dodatki dostępne w oficjalnym archiwum.
 <br/>NeatURL <a href='https://addons.mozilla.org/en-US/firefox/addon/neat-url/'>tutaj</a>, zaś ClearURLs <a href='https://addons.mozilla.org/en-US/firefox/addon/clearurls/'>tutaj</a>."
 chrome="Również znajdziemy oba dodatki w oficjalnym archiwum Chrome'a<br/>(chociaż Google trochę rzucał im kłody pod nogi, szczegóły poniżej).<br/>
 Tutaj <a href='https://chrome.google.com/webstore/detail/neat-url/jchobbjgibcahbheicfocecmhocglkco'>Neat URL</a>, zaś tutaj <a href='https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk/'>Clear URLs</a>."
-inne-pc="Nie testowałem innych przeglądarek, ale zwykle to co działa na Chrome'ie działa też na przeglądarkach na tym samym silniku (Edge, Brave, Vivaldi, Opera)."%}
+inne-pc="Nie testowałem innych przeglądarek, ale zwykle to co działa na Chromie działa też na przeglądarkach na tym samym silniku (Edge, Brave, Vivaldi, Opera)."%}
 
 {% include info.html type="Niedobry Google" text="Niedawno miała miejsce aferka z&nbsp;udziałem ClearURLs i&nbsp;Google'a.  
 Dodatek **został usunięty przez Google z&nbsp;Chrome Web Store'a** (ich archiwum dodatków do przeglądarki) z&nbsp;dość naciąganych przyczyn. Po [burzliwej dyskusji](https://github.com/ClearURLs/Addon/issues/102) i&nbsp;odwołaniu się przez autora został przywrócony.  

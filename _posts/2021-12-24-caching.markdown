@@ -211,7 +211,7 @@ W pamięci podręcznej **wszelkie wrażliwe dane mogą być na widoku**. Jeśli 
 Tak już działa ten internet, że nasza przeglądarka przy każdym kontakcie z&nbsp;innymi stronami wysyła im kilka podstawowych informacji. Coś w&nbsp;rodzaju naszej wizytówki.  
 Właściciele stron mogą analizować te informacje, żeby rozpoznać, z&nbsp;jakimi innymi ich stronami wchodziliśmy w&nbsp;interakcję. Na tej podstawie mogą budować profil naszych zainteresowań.
 
-Jeśli czytaliście moją najdłuższą serię, „Internetową inwigilację”, to pewnie jesteście już całkiem nieźle zaznajomieni z&nbsp;tym procederem :wink:
+Jeśli czytaliście moją najdłuższą serię, *[Internetową inwigilację]({% post_url 2021-01-11-internetowa-inwigilacja-1-podstawy %})*{:.internal}, to pewnie jesteście już całkiem nieźle zaznajomieni z&nbsp;tym procederem :wink:
 
 A przechodząc do *meritum*: **jedna z&nbsp;wysyłanych informacji może być związana z&nbsp;pamięcią podręczną. Nazywa się `ETag`** (skrót od *Entity Tag*, gdzie *entity* to takie bardzo ogólne pojęcie, coś w&nbsp;stylu „rzecz”).
 

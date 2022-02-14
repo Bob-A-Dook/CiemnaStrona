@@ -1,0 +1,315 @@
+---
+layout: post
+title:  "Historia żółtej kropeczki. Gdy drukarka jest szpiegiem"
+subtitle: "Kropki przyszły po fałszerzy, ale zostały u nas."
+description: "Kropki przyszły po fałszerzy, ale zostały u nas"
+date:   2022-02-14 17:54:00 +0100
+tags: [Hardware, Centralizacja, Inwigilacja]
+firmy: [Hewlett-Packard, Canon, Xerox]
+category: cyfrowy_feudalizm
+category_readable: "Cyfrowy&nbsp;feudalizm"
+image: "drukarki/drukarka-baner.jpg"  
+image-width: 1200  
+image-height: 670
+---
+
+Witam w&nbsp;kolejnym, po dłuższej przerwie, wpisie z&nbsp;serii „Cyfrowy feudalizm”!  
+Tradycyjnie będzie o&nbsp;tym, jak to więksi gracze dogadują się ponad głowami zwykłych ludzi i&nbsp;zacieśniają swoją kontrolę.
+
+Dzisiaj coś -- mam nadzieję -- mocno zaskakującego.  
+Prawdopodobnie **na każdej stronie wydrukowanej przez nas w&nbsp;ciągu ostatnich kilkunastu lat znajduje się ukryty wzór. Identyfikujący nasze drukarki oraz datę i&nbsp;godzinę wykonania wydruków**.
+
+Zanim zapytasz, czy wziąłem już proszki, zachęcam do przeczytania przynajmniej „Wstępu dla sceptyków”.
+
+Zobaczysz, że hasło „bez teorii spiskowych”, które dzielnie się trzyma w&nbsp;stopce bloga, nie straciło na znaczeniu :wink:  
+A do czynienia mamy -- jak zwykle -- nie tyle ze spiskiem, co z&nbsp;kolesiostwem i&nbsp;efektem wypadkowym różnych prywatnych dążeń.
+
+<img src="/assets/posts/drukarki/drukarka-baner.jpg" alt="Obrazek pokazujący małą obłą drukarkę na ciemnym tle. Jest otoczona czerwoną obwódką. Z&nbsp;jej górnej szczeliny wystaje kartka, na której widać kontur loga Ciemnej Strony, ułożony z&nbsp;żółtych kropek. Z&nbsp;jej dolnej szczeliny wystają dwa ostre, fioletowe kły, przez co wygląda drapieżnie."/>
+
+# Spis treści
+
+* [Wstęp dla sceptyków](#wstęp-dla-sceptyków)
+* [Jak wyglądają kropki](#jak-wyglądają-kropki)
+* [Historia kropek](#historia-kropek)
+* [Zagrożenia związane z&nbsp;kropkami](#zagrożenia-związane-zkropkami)
+  * [Od kropek do ujawnienia tożsamości](#od-kropek-do-ujawnienia-tożsamości)
+  * [Gdy przeciwnikiem jest osoba prywatna](#gdy-przeciwnikiem-jest-osoba-prywatna)
+  * [Gdy przeciwnikiem jest korporacja](#gdy-przeciwnikiem-jest-korporacja)
+  * [Gdy przeciwnikiem jest państwo](#gdy-przeciwnikiem-jest-państwo)
+* [Przypadek Reality Winner](#przypadek-reality-winner)
+  * [Jak uniknąć takich sytuacji](#jak-uniknąć-takich-sytuacji)
+* [Podsumowanie](#podsumowanie)
+
+
+## Wstęp dla sceptyków
+
+Proponuję następujący format: najpierw przykładowe słowa osoby sceptycznej, pod spodem moja hipotetyczna odpowiedź.
+
+> Brzmi foliarsko. Masz poważniejsze źródło niż jakaś Ciemna Strona na kiju?
+
+Co kilka lat -- od 2005 r. -- o&nbsp;sprawie kropek [pisze *EFF*](https://www.eff.org/issues/printers) (*Electronic Frontier Foundation*). Poważna organizacja zajmująca się prawami ludzi w&nbsp;cyberprzestrzeni.
+
+> Wolę coś po polsku
+
+Może dwa znane blogi o&nbsp;cyberbezpieczeństwie -- [Zaufana Trzecia Strona](https://zaufanatrzeciastrona.pl/post/jak-zolte-kropki-z-drukarki-pomogly-zlapac-autorke-wycieku-z-nsa/) oraz [Niebezpiecznik](https://niebezpiecznik.pl/post/jak-analizowac-zolte-kropki-ktorymi-drukarki-znakuja-wydruki/)?
+
+> Wolę popularniejsze media
+
+O sprawie pisało BBC. Relacjonując jak użyto kropek do [złapania pewnej sygnalistki](https://www.bbc.com/future/article/20170607-why-printers-add-secret-tracking-dots) (będzie o&nbsp;tym w&nbsp;dalszej części tego wpisu).
+
+> Wolę wypowiedzi polityków
+
+Mamy [zapytanie](https://www.europarl.europa.eu/doceo/document/E-6-2007-5724_EN.html?redirect) pewnego europosła skierowane do Komisji Europejskiej.
+
+A nawet odpowiedź komisarza Frattiniego, sugerującą że oznaczanie wszystkich drukowanych dokumentów bez wiedzy użytkowników [może godzić w&nbsp;prawa człowieka](https://www.europarl.europa.eu/doceo/document/E-6-2007-5724-ASW_EN.html?redirect).
+
+> Wolę filmiki z&nbsp;YouTube'a
+
+Proszę bardzo! Mamy [nieco luźniejszy filmik](https://www.youtube.com/watch?v=izMGMsIZK4U) od wspomnianego EFF, a&nbsp;także solidną, opatrzoną źródłami [prezentację o&nbsp;kropkach](https://www.youtube.com/watch?v=riqLLXFwTu4) na zajęcia z&nbsp;uczelni. 
+
+Jak widzisz, czytelniczko albo czytelniku, temat w&nbsp;żadnym razie nie jest nowy i&nbsp;co pewien czas cyklicznie wraca.
+
+Mam nadzieję, że rozwiałem wątpliwości chociaż na tyle, że poczytasz jeszcze trochę.
+
+## Jak wyglądają kropki
+
+Wyjdźmy może od przykładu bardziej organicznego -- dyskusji na forum (dokładniej: na podforum Reddita poświęconym drukarkom).
+
+Pewna osoba wrzuciła tam [zdjęcie żółtych kropek](https://www.reddit.com/r/printers/comments/dfiymz/is_there_a_way_to_remove_yellow_dots_from_the/), które zobaczyła po obejrzeniu kartki w&nbsp;dużym powiększeniu.
+
+{:.figure .bigspace}
+<img src="/assets/posts/drukarki/reddit-kropki.jpg" alt="Zdjęcie pokazujące duże zbliżenie na kartkę papieru, do tego stopnia że widać jej ziarno. Znajdują się na nim dwie blade żółte kropki" width="500px"/>
+
+Warto zaznaczyć, że według autora wątku zdjęcie wykonano w&nbsp;ponad 60-krotnym powiększeniu. Kropki mają mniej niż ułamek milimetra średnicy i&nbsp;byłyby niewidoczne gołym okiem.
+
+Jedna z&nbsp;komentujących osób odpowiedziała dość nonszalancko, że to pewnie usterka drukarki:
+
+{:.bigspace}
+{% include comment.html
+text="Almost looks like a&nbsp;leaky toner. People here are going to spout conspiracy theories, but the idea that some government agency is tracking pages by using some hidden coding in printer firmware is inexperienced conjecture."
+%}
+
+Nie mam nic przeciwko punktowaniu teorii spiskowych, jeśli osoba punktująca ma fakty po swojej stronie. Ale tym razem jest inaczej. Kropki (właściwie: kody identyfikacyjne urządzenia) istnieją naprawdę. Są dodawane **praktycznie przez wszystkie drukarki laserowe**. 
+
+Dwie kropki ze zdjęcia to tylko fragment większego wzoru.  
+Badacze z&nbsp;Uniwersytetu w&nbsp;Dreźnie zbadali wydruki z&nbsp;ponad 106 modeli drukarek i&nbsp;wyodrębnili kilka różnych wzorów, takich jak identyczne „wyspy” punktów pośród pustej przestrzeni albo równomierne „siatki”:
+
+<img src="/assets/posts/drukarki/kropki-wzory.jpg" alt="Trzy zrzuty ekranu pokazujące różne warianty rozmieszczenia kropek: wyspy sąsiadujących punktów, równomiernie rozmieszczoną siatkę oraz ułożenie w&nbsp;liniach ukośnych."/>
+
+{:.figcaption}
+Źródło: prezentacja z&nbsp;YouTube'a, przeróbki moje.
+
+W przypadku niektórych drukarek -- jak *Xerox DocuColor* -- udało się nawet rozpracować, jakie informacje są zawarte we wzorach! Spójrzmy na przykład pojedynczej punktowej wysepki:
+
+<img src="/assets/posts/drukarki/xerox-odczytanie-wzoru.jpg" alt="Przykładowa wyspa punktów z&nbsp;dorysowanymi liniami siatki oraz dopisaną legendą." width="500px"/>
+
+{:.figcaption}
+Źródło: jak wyżej. Obrazek nieco oczyszczony przeze mnie.
+
+Wiersze odpowiadają konkretnym wartościom, a&nbsp;kolumny -- rodzajowi danych.
+
+Spójrzmy na kolumnę numer 2. Mamy jedną kropkę na wysokości liczby 16 oraz drugą na wysokości liczby 4. Czyli wartość całej kolumny wynosi 20 (16 + 4).  
+Ta kolumna odpowiada minutom, a&nbsp;zatem interpretujemy ją jako 20 minut.
+
+W ten sposób, przechodząc przez kolejne kolumny, można odczytać resztę danych. Wydruk wykonano 9 maja 2017 roku, o&nbsp;godzinie 6:20, na urządzeniu o&nbsp;numerze seryjnym 5429535218.
+
+## Historia kropek
+
+Skoro kropki tam są, to skądś musiały się wziąć. Bardzo fajnie [opisał ich historię Dan O'Huiginn](https://web.archive.org/web/20170614180050/http://ohuiginn.net/wp/?p=2175), pewien bloger, zaglądając do solidnych źródeł -- dokumentów upublicznionych przez amerykańskie oraz europejskie instytucje.
+
+(Jego artykuł, z&nbsp;tego czy innego powodu, jest już niedostępny pod pierwotnym linkiem. Musiałem go wyszperać w&nbsp;*Archive.org*).
+
+Według O'Huiginna pierwsza wzmianka o&nbsp;kodach identyfikacyjnych pojawia się w&nbsp;latach 90. (inne źródła wskazują, że Xerox wynalazł je już w&nbsp;latach 80.; ale możliwe, że był pionierem, a&nbsp;dopiero później się spopularyzowały).
+  
+Szczypta kontekstu: w&nbsp;tamtych czasach na rynku zaczęły się pojawiać pierwsze kolorowe drukarki laserowe. Niosły za sobą obietnicę szybkiego i&nbsp;łatwego drukowania w&nbsp;kolorze. Rodząc wśród banków centralnych obawy, że lud zacznie masowo podrabiać banknoty.
+
+Producenci drukarek, zrzeszeni w&nbsp;organizacji *JBMA* (*Japan Business Machine Makers Association*), też mieli swoje obawy.
+
+Gdyby większe państwa się przestraszyły perspektywy fałszerstw, to jeszcze by zakazały importu ich drukarek albo nałożyły na nie surowe wymogi. A&nbsp;ograniczenia oznaczałyby mniejsze zyski!  
+Dlatego **producenci drukarek postanowili sami dodać kody śledzące w&nbsp;ramach kompromisu -- dla nich to względnie łatwe, a&nbsp;uspokoi władze i&nbsp;pozwoli rozkręcać biznes**.
+
+Pierwotny system otrzymał kryptonim *BITMAP*. Służby różnych krajów miały otrzymać na dyskietkach programy pozwalające odczytywać kropki z&nbsp;zeskanowanych dokumentów.  
+Dostali również obietnicę, że mogą skontaktować się z&nbsp;producentem danej drukarki i&nbsp;podać jej numer seryjny, żeby otrzymać darmową pomoc w&nbsp;ustaleniu, dokąd trafiło to urządzenie.
+
+{:.figure .bigspace}
+<img src="/assets/posts/drukarki/epic-handshake-printer-tracking.jpg" alt="Znany mem z&nbsp;epickim uściskiem dłoni. Widać na nim zbliżenie na uścisk dłoni dwóch osób, jednej czarnoskórej i&nbsp;jednej białej. Na jedno z&nbsp;ramion nałożono podpis 'Banki centralne', na drugie 'Producenci drukarek'. W&nbsp;miejscu, w&nbsp;którym dłonie się splatają, widać napis 'Żółte kropki'." width="600px"/>
+
+Z systemu ochoczo korzystała Europa. Powołano nawet osobną komórkę w ramach Europolu, która miała zbierać informacje łączące numery seryjne z&nbsp;nabywcami urządzeń:
+
+{:.bigspace}
+>  The database shall contain the relevant (technical) data on decoded bitmap-information, investigative data including personal data of companies and persons related with the bitmap subject.
+
+W 2004 roku po raz pierwszy o&nbsp;kropkach zrobiło się głośniej, kiedy holenderska policja wyśledziła fałszerzy drukujących swoje banknoty na sprzęcie firmy Canon. Niedługo później o&nbsp;sprawie zaczęło pisać EFF.
+
+I wszystko wydaje się cacy, prawda? *Kiedy przyszli po fałszerzy, nie protestowałem. W&nbsp;końcu nie byłem fałszerzem*.
+
+Tyle że banknoty euro już w&nbsp;1996 roku doczekały się całkiem osobnego zabezpieczenia, [Konstelacji EURion](https://pl.wikipedia.org/wiki/EURion).  
+W dodatku do drukowania banknotów zaczęto wykorzystywać specjalny papier, mikrodruk, elementy foliowe oraz [inne zabezpieczenia](https://pl.wikipedia.org/wiki/Banknot#Zabezpieczenia), uniemożliwiając fałszerstwa domowymi metodami. 
+
+Można zatem powiedzieć, że kropki straciły rację bytu. I&nbsp;tak nikt nie stworzy wiarygodnych podróbek, w&nbsp;skali psującej rynek, korzystając z&nbsp;domowej drukarki. A&nbsp;pojedyncze tandetne podróbki -- jak pieniądze z&nbsp;gry Monopoly -- i&nbsp;tak czasem ktoś wciśnie nieuważnemu kasjerowi.
+
+Co więcej, jak pisze O'Huiginn, **w 2007 roku kropek używano już częściej w&nbsp;sprawach dotyczących dokumentów papierowych niż w&nbsp;tych dotyczących fałszowania banknotów**:
+
+> v&nbsp;roce 2007 bylo na centrálu zasláno 222 žádostí, přičemž 71 žádostí bylo k&nbsp;eurobankovkám, 66 žádostí k&nbsp;jiné měně a&nbsp;85 žádostí se týkalo dokumentů
+
+{:.figcaption}
+Źródło: [czeskie opracowanie](https://web.archive.org/web/20170614201131/http://ohuiginn.net/images/printerdots/musil.pdf) podlinkowane przez O'Huiginna.
+
+I tak to się później toczyło. Sprawa kropek co pewien czas wypływała, ale nigdy nie wywołała większego szumu. Aż do czasu aresztowania niejakiej Reality Winner. Jeszcze o&nbsp;tym wspomnę, cierpliwości!
+
+A podsumowując historię kropek, pozwolę sobie zacytować słowa O'Huiginna. W&nbsp;moim dość luźnym tłumaczeniu:
+
+{:.bigspace}
+> To prosty przykład na to, że różne instytucje lubią się zwracać ku coraz szerszej inwigilacji, zwłaszcza gdy nikt nie hamuje ich zapędów.
+
+Poboczna uwaga: to dlatego zdecydowałem się podpiąć ten wpis pod serię „Cyfrowy feudalizm”, mimo że nie dotyczy ściśle spraw centralizacji. Fajnie jednak pokazuje, że umowy na wyższym szczeblu nieraz są zawierane ponad głowami ludzi i&nbsp;bez demokratycznego głosowania.
+
+## Zagrożenia związane z&nbsp;kropkami
+
+Wiemy już z&nbsp;grubsza, jak wygląda wzór zostawiany na wydrukach i&nbsp;skąd prawdopodobnie się wziął. Teraz nasuwa się pytanie: czy te ukryte wzory mogą zostać wykorzystane przeciwko nam, praworządnym obywatelom?
+
+Krótko: raczej nie. Ale stają się groźne, gdy jesteśmy na bakier ze służbami państwowymi (co nie musi wcale oznaczać „jesteśmy przestępcami”; o&nbsp;tym później).
+
+# Od kropek do ujawnienia tożsamości
+
+Na tym blogu zajmuję się prywatnością, a&nbsp;z jej punktu widzenia najgorszy scenariusz jest taki, że ktoś na podstawie wydrukowanego dokumentu ustala, że wydrukowała go konkretna osoba.
+
+Tylko że adwersarz chcący powiązać wydruk z&nbsp;konkretnym człowiekiem musiałby wykonać cały szereg kroków, nazwijmy go *łańcuchem działań*:
+
+1. Zobaczyć kropki pod mikroskopem albo na skanie.
+2. Odczytać z&nbsp;nich informację o&nbsp;numerze seryjnym drukarki.
+3. Skontaktować się z&nbsp;producentem i&nbsp;ustalić, dokąd wysłali model o&nbsp;tym numerze. Producent zapewne prowadzi rejestr i&nbsp;może powiedzieć, jaki sklep dostał drukarkę.
+4. Udać się do sklepu i&nbsp;zobaczyć, komu sprzedano konkretną drukarkę.
+5. Może się okazać, że nabywca nie jest poszukiwaną osobą, a&nbsp;drukarkę odsprzedał -- wtedy dochodzą kolejne kroki.
+
+Jedynie punkt 1 jest wykonalny dla pierwszego lepszego ludka z&nbsp;ulicy.  
+Punkt 2 raczej wymaga kontaktu z&nbsp;producentem, bo format informacji nie jest udostępniany publicznie. Chyba że to któraś z&nbsp;drukarek „rozpracowanych” przez badaczy albo ktoś ma smykałkę do inżynierii wstecznej.  
+Kolejne punkty są już właściwie zarezerwowane dla służb państwowych.
+
+Mając ogólny obraz sytuacji, możemy przejść do trzech potencjalnych adwersarzy -- osób prywatnych (stalkerów), firm oraz państwa.
+
+# Gdy przeciwnikiem jest osoba prywatna
+
+Zagrożenie „stalkerskie” jest raczej znikome.  
+Osoba prywatna może co najwyżej zaobserwować kropki (punkt 1 łańcucha). Ale nie będzie umiała nawet odczytać z&nbsp;nich informacji, nie mówiąc o&nbsp;powiązaniu drukarki z&nbsp;człowiekiem.
+
+W takiej sytuacji jestem w&nbsp;stanie sobie wyobrazić co najwyżej **wykorzystanie kropek do złapania kogoś na kłamstwie**. Kiedy ktoś mówi, że drukował na konkretnym urządzeniu, a&nbsp;tak naprawdę zrobił to na innym.
+
+Spójrzmy na naciągany scenariusz, w&nbsp;którym mamy osobę podejrzewaną o&nbsp;kłamstwa (niewierny partner płci dowolnej?) oraz drugą osobę, która chce ją sprawdzić.  
+Załóżmy że obie osoby ze sobą mieszkają i&nbsp;mają wspólną drukarkę X. Osoba sprawdzająca może się zapoznać z&nbsp;wydrukami i&nbsp;zobaczyć, jak wygląda na nich wzór kropek.
+
+Potem czeka na sytuację, kiedy osoba sprawdzana powinna być w&nbsp;mieszkaniu (ale zapewne wyszła w&nbsp;niecnych celach). Dzwoni do niej, prosząc o&nbsp;przysługę i&nbsp;wydrukowanie czegoś.  
+Ważne: stara się w&nbsp;miarę naturalnie upewnić, czy to z&nbsp;drukarki X. Chodzi o&nbsp;uzyskanie deklaracji od osoby podejrzewanej („na naszej wspólnej drukarce”, „na drukarce w&nbsp;mieszkaniu” itp.).
+
+Po otrzymaniu wydruku osoba sprawdzająca patrzy na kropki. Sprawdza, **czy wzór znacząco się różni od tego z&nbsp;drukarki X**.  
+Nigdy nie będzie identyczny, bo wygląd zmienia się w&nbsp;zależności od daty drukowania. Ale jeśli różnica będzie drastyczna (na przykład kropki rozłożone równomiernie po kartce zamiast „wysp” typowych dla drukarki X), to znaczy że **wydruk został wykonany na innej drukarce, a&nbsp;sprawdzana osoba kłamała**.
+
+Scenariusz naciągany, bo jest wiele łatwiejszych sposobów na sprawdzenie czyjejś prawdomówności.  
+Ale warto pamiętać, że nawet zwykły zdeterminowany szarak z&nbsp;mikroskopem lub skanerem mógłby wykorzystać istnienie kropek.
+
+Jak się przed tym bronić? Najprościej: nie kłamać :wink: Albo chociaż wybierać bardziej wiarygodną wersję. Gdy ktoś jest poza domem, to jest nią punkt ksero.
+
+# Gdy przeciwnikiem jest korporacja
+
+Sytuacja właściwie identyczna jak poprzedni przykład -- firma, nawet duża, nie powinna mieć możliwości ustalenia niczego więcej niż to, czy jakiś wydruk pochodził z&nbsp;ich wewnętrznej drukarki.  
+Raczej nie mają takich wpływów, żeby producent ich drukarki interpretował im na życzenie informacje z&nbsp;kropek.
+
+A gdyby chodziło o&nbsp;wyniesienie na zewnątrz tajemnic firmowych, to zapewne mieliby lepsze sposoby na ustalenie sprawców (przykładowo: gromadzenie historii wszystkich wydruków na terenie firmy). Poza tym mogliby po prostu zgłosić sprawę na policję.
+
+W ten sposób przechodzimy do trzeciej kategorii, gdzie kropki już mogą stanowić zagrożenie.
+
+# Gdy przeciwnikiem jest państwo 
+
+Tu sytuacja zmienia się diametralnie, bo państwo jest w&nbsp;stanie przejść przez wszystkie ogniwa łańcucha: połączyć kropki z&nbsp;konkretną drukarką, drukarkę ze sprzedawcą, sprzedawcę z&nbsp;nabywcą. Legitymacje służbowe otwierają wiele drzwi.
+
+Ktoś mógłby się zapieklić: „i dobrze, tylko przestępcy mają się czego bać”.
+
+Tylko że nie. Działacze na rzecz praw człowieka w&nbsp;krajach autorytarnych? Ruch oporu w&nbsp;kraju okupowanym, gdzie struktury państwowe zostały przejęte?  
+Historia zna przypadki, kiedy bycie po stronie etyki oznaczało bycie w&nbsp;konflikcie z&nbsp;oficjalnymi służbami.
+
+Wyobraźmy sobie, że taki ruch oporu ma swoje zaplecze, trzymane w&nbsp;tajemnicy. W&nbsp;tym osobę, która zajmuje się projektowaniem i&nbsp;drukowaniem na prywatnym komputerze broszur ujawniających rządowe brudy.  
+Takie broszury łatwo wpadną w&nbsp;ręce służb, w&nbsp;końcu były przeznaczone dla szerszej publiczności. A&nbsp;służby mogłyby, wychodząc od ukrytego identyfikatora, dotrzeć do autora broszur i&nbsp;rozbić w&nbsp;ten sposób cały ruch. Po nitce do kłębka.
+
+W jaki sposób ruch oporu w&nbsp;jakimś obcym złym kraju może się bronić przed taką sytuacją? Mam parę subiektywnych przemyśleń.
+
+Pierwsze założenie: muszą coś wydrukować, a&nbsp;usunięcie kropek identyfikujących nie wchodzi w&nbsp;grę. Założenie całkiem realne. Nie znalazłem informacji, żeby ktokolwiek zmodyfikował drukarki, pozbawiając je funkcji dodawania kropek.
+
+Drugie założenie: **wszystkie drukarki stworzone po latach 90. dodają te kropki** (wydaje się to potwierdzać [opinia EFF](https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots)).  
+Jeśli na pierwszy rzut oka ich nie widać, to możliwe że zostawiają jakieś bardziej subtelne znaki. W&nbsp;każdym razie najlepiej zakładać, że każdy wydruk jest oznaczony.
+
+Trzecie założenie: zwykły człowiek raczej nie ma wpływu na drogę, jaką drukarka pokonuje od producenta do pierwszego sklepu ze sprzętem elektronicznym. Dlatego zmylić trop mógłby dopiero na dalszych etapach.
+
+Biorąc pod uwagę te założenia, nieco ostrożniejszy ruch oporu zadbałby o&nbsp;to, żeby **pozyskać drukarki ze źródeł nieoficjalnych, co najmniej z&nbsp;drugiej ręki**. Z&nbsp;ogłoszenia, z&nbsp;targowiska w&nbsp;małej miejscowości, z&nbsp;wystawki odpadów wielkogabarytowych... Możliwości jest sporo. Płatność najlepiej gotówką.
+
+Byle tylko nie być zwykłym konsumentem, który wchodzi sobie do hipermarketu i&nbsp;bierze nówkę-drukarkę na kartę. Łańcuszek prowadzący od wydruku do takiej osoby byłby nadzwyczaj krótki.
+
+Punkty bonusowe, gdyby drukarka była *szrotem*{:.corr-del} doświadczonym sprzętem z&nbsp;czasów, kiedy jeszcze nie wprowadzono ukrytych kropek.
+
+## Przypadek Reality Winner
+
+W końcu przechodzimy do wydarzenia, którym już wcześniej kusiłem. Współczesnej historii pokazującej, jak (zapewne) użyto kropek do zdemaskowania osoby niebędącej żadnym fałszerzem. 
+
+Reality Winner była tłumaczką kilku języków irańskich pracującą dla podwykonawcy amerykańskiego NSA (*National Security Agency*; coś w&nbsp;rodzaju szpiegów od spraw cyberprzestrzeni).  
+To nie żaden pseudonim -- Reality to imię, a&nbsp;Winner to nazwisko. Przypominam, że to było w&nbsp;USA, gdzie nieraz nadaje się imiona od rzeczowników. Hope, Tuesday i&nbsp;tak dalej.
+
+Reality weszła w&nbsp;posiadanie dokumentów, które jasno pokazywały, że Rosja maczała palce w&nbsp;manipulowaniu wynikami wyborów w&nbsp;USA. Wydrukowała je na firmowej drukarce i&nbsp;przekazała gazecie *The Intercept*.
+
+{:.figure}
+<img src="/assets/posts/drukarki/reality-winner-dawniej.jpg" alt="Zdjęcie uśmiechającej się dziewczyny stojącej na świeżym powietrzu ze słuchawkami ochronnymi na uszach i&nbsp;z karabinem w&nbsp;rękach." width="500px"/>
+
+{:.figcaption}
+Reality Winner w&nbsp;spokojniejszych czasach.  
+Źródło: fragment zdjęcia z&nbsp;[artykułu w&nbsp;gazecie](https://www.the-sun.com/news/3080237/reality-winner-released-prison-ex-nsa-leaked-russia/).
+
+Ten [opublikował skany dokumentów](https://www.documentcloud.org/documents/3766950-NSA-Report-on-Russia-Spearphishing), korzystając ze strony DocumentCloud. Tylko że **nie usunęli z&nbsp;nich żółtych kropek**. W&nbsp;następstwie ujawnienia ściśle tajnych informacji Reality została skazana na 5 lat więzienia.
+
+Jasne, ta sprawa nie jest czarno-biała i&nbsp;można sobie zadać parę pytań:
+
+* Czy tłumaczka i&nbsp;tak by nie wpadła, nawet gdyby usunięto kropki? Komunikowała się z&nbsp;*Interceptem* ze służbowego komputera, korzystała z&nbsp;firmowej drukarki. Pracując -- przypominam -- dla ludzi związanych z&nbsp;wojskiem.
+* Czy gra była warta świeczki? O&nbsp;rosyjskich działaniach i&nbsp;matactwach już wcześniej było głośno, dokumenty NSA to potwierdziły. Ale nie zawierały przełomowych tez w&nbsp;stylu „Trump wygrał dzięki Rosji”.
+
+Niezależnie od tego, jak ocenimy sytuację, ten wyciek informacji przyniósł parę rzeczy.  
+Raz: rzadką możliwość zerknięcia za kulisy rosyjskich hakerów oraz samego NSA (z tego co widzę, oficjalnie odtajniliby ten dokument dopiero w&nbsp;2042 roku).  
+Dwa: bodaj najgłośniejszą wpadkę *Intercepta*, kładąca się cieniem na ich reputacji. Zapewne odstraszyła od nich niejedną osobę chętną ujawnić większe patologie rządowo-korporacyjne.
+
+# Jak uniknąć takich sytuacji
+
+Załóżmy, że to my dostajemy od kogoś wydruk ujawniający coś, co powinna poznać opinia publiczna.  
+Ta sytuacja nieco różni się od wcześniejszej, ze zmyślonym ruchem oporu. Różnica jest taka, że **chcemy zanonimizować wydruk z&nbsp;kropkami, ale sami niczego nie musimy drukować**.
+
+Pojawia się tutaj ciekawy dylemat -- z&nbsp;jednej strony chcemy udowodnić autentyczność dokumentu, a&nbsp;z drugiej ochronić jego źródło.
+
+Rozumiem, że może pojawić się pokusa, żeby zachować oryginalne skany. W&nbsp;oficjalnym formacie jakiejś organizacji, z&nbsp;jej pieczęciami i&nbsp;wszystkimi detalami. Żeby nie mogli się wyprzeć.
+
+Z drugiej strony, gdybyśmy poszli na całość w&nbsp;kwestii ochrony źródła, to **przede wszystkim wyciągnęlibyśmy tekst. Porzucając wszystkie elementy graficzne z&nbsp;oryginalnej wersji**. Tylko czyste informacje.
+
+{% include info.html
+type="Ciekawostka"
+text="
+Nawet pozostawienie samego tekstu mogłoby nie wystarczyć; czasem dokumenty są pułapką i&nbsp;każda osoba dostaje nieco inne informacje (w dokumencie Marka jest mowa o&nbsp;1220&nbsp;złotych, w&nbsp;dokumencie Basi o&nbsp;1320&nbsp;zł itp.).  
+Gdy dokument wycieknie na zewnątrz, to **na podstawie takich detali-pułapek można od razu ustalić, kto go upublicznił**.  
+Podobny motyw z&nbsp;podpuchami ujawniającymi szpiegów pojawia się całkiem często w&nbsp;kulturze popularnej, zwykle dla podkreślenia czyjegoś sprytu. Znajdziemy to między innymi w&nbsp;„Grze o&nbsp;tron” w&nbsp;wykonaniu Tyriona."
+%}
+
+Ideałem byłoby coś, co usuwa kropki identyfikujące, a&nbsp;poza tym zachowuje wygląd skanu. Tak przedstawia się program [DEDA Toolkit](https://github.com/dfd-tud/deda) (*open source*).  
+Opracowali go wspomniani wcześniej badacze z&nbsp;Drezna. Jest w&nbsp;stanie wykryć kropki, usuwać je, a&nbsp;nawet dorzucić trochę sztucznych, żeby namieszać w&nbsp;danych.
+
+Tylko czy na pewno możemy zaufać, że wszystko zanonimizuje? Zawsze jest ryzyko, że pominie jakiś subtelny element identyfikujący. Większą pewność dałaby opcja nuklearna, czyli wyciągnięcie z&nbsp;dokumentu wyłącznie tekstu.
+
+Jak sami widzicie, to dylemat bez idealnego rozwiązania. Sam jestem laikiem, ale pragmatycznym: byłbym za tym, żeby olać wygląd skanu i&nbsp;wyciągnąć z&nbsp;niego sam tekst. Jeśli to prawdziwe informacje, to powinny bronić się same.
+
+## Podsumowanie
+
+Żółte kropki istnieją. Wprowadzono je w&nbsp;dawnych czasach, z&nbsp;inicjatywy sektora prywatnego (acz pod presją banków centralnych), jako zabezpieczenie przeciw fałszowaniu banknotów.
+
+Obecnie domowe drukarki nie nadawałyby się do tworzenia podróbek, a&nbsp;banknoty mają znacznie bardziej wymyślne zabezpieczenia. Można uznać, że argument za istnieniem żółtych kropek nieco się przedawnił.
+
+A jednak kropki z&nbsp;nami zostały. Jako potencjalna subtelna pułapka na różne niewygodne osoby. Pokazuje to uniwersalną zasadę -- **przepisy zwiększające kontrolę państwa kosztem prywatności można łatwo wprowadzić, ale bardzo trudno wycofać**.
+
+Pamiętajmy o&nbsp;tym, kiedy jakiś polityk znowu będzie proponował zaostrzenie monitoringu albo zakaz szyfrowania wiadomości „dla dobra dzieci”.
+
+Jeśli kogoś nie przekonuje argument prywatnościowy, ale siedzi w&nbsp;sprawach ekologicznych, to niech tylko pomyśli: ile żółtego tonera marnuje się na całym świecie w&nbsp;myśl podtrzymania antycznego systemu? Który raczej i&nbsp;tak nie pozwoli złapać żadnego przestępcy?
+
+Z tymi pytaniami Cię zostawię, czytelniczko/czytelniku. Do zobaczenia przy kolejnych wpisach!
+
+P.S. Możliwe, że w&nbsp;tej serii jeszcze zobaczymy coś o&nbsp;drukarkach. Wyczyny antykonsumenckie firmy Hewlett-Packard zasługują na osobny wpis :smile: 
