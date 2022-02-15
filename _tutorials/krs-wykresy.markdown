@@ -4,9 +4,20 @@ title: Tworzenie wykresów dla danych z KRS-u
 description: "Używamy skryptów do zwizualizowania zmian zachodzących w firmach."
 ---
 
-Ten samouczek to instrukcja pracy z&nbsp;moim skryptem Pythona do tworzenia wykresów dla odpisów z KRS-u (rym niezamierzony).
+{:.post-meta}
+Rym w tytule samouczka niezamierzony.
 
-Sam skrypt można pobrać <a href="/assets/skrypty/krs_visualizer.py" download>stąd</a>{:.internal}.
+Ten samouczek to instrukcja pracy z&nbsp;moim skryptem Pythona do tworzenia wykresów i&nbsp;grafów dla odpisów pobranych z Krajowego Rejestru Sądowego. 
+
+**Aktualizacja 15.02.2022&nbsp;r.:** Dodałem do skryptu możliwość tworzenia grafów powiązań między firmami. Jeśli chcecie z&nbsp;niej skorzystać, zachęcam do pobrania nowej wersji skryptu.
+
+Linki do różnych wersji skryptu:
+
+* <a href="/assets/skrypty/krs_visualizer_v2.py">wersja najnowsza</a>{:.internal}
+  (oprócz osi czasu jest w stanie tworzyć również grafy powiązań)
+* <a href="/assets/skrypty/krs_visualizer.py">pierwsza wersja</a>{:.internal}
+
+Zachęcam, żeby zawsze korzystać z najnowszej :smile:
 
 ## Wymagania
 
@@ -60,20 +71,28 @@ Windows to jednak lubi rzucać kłody pod nogi :roll_eyes:"%}
 
 Kiedy już macie wszystkie potrzebne moduły, skrypt oraz PDF-y w&nbsp;jednym miejscu, to możecie produkować wykresy do woli.
 
+# Graphviz / dot
+
+**(opcjonalny; tylko wtedy, jeśli chcemy rysować grafy powiązań między firmami).**
+
+Instrukcje instalacji znajdziemy [na oficjalnej stronie](http://www.graphviz.org/download/).
+
 ## Instrukcje korzystania
 
-Skrypt może tworzyć wykresy dla czterech kategorii:
+W najprostszym przypadku po prostu odpalacie skrypt, zdając się na domyślne ustawienia -- na przykład otwierając go w&nbsp;domyślnym edytorze IDLE i&nbsp;naciskając `F5`. Albo w&nbsp;dowolny inny sposób.
 
-* nazwa spółki;
-* adres;
-* zarząd;
-* wspólnicy (albo inni udziałowcy).
+**Na samym końcu skryptu znajdziecie parę ustawień**, które możecie zmienić, żeby dostosować swoje wykresy i grafy.
 
-W najprostszym przypadku po prostu go odpalacie, zdając się na domyślne ustawienia -- na przykład otwierając go w&nbsp;domyślnym edytorze IDLE i&nbsp;naciskając `F5`. Albo w&nbsp;dowolny inny sposób.
+Gdybyście coś zmienili w&nbsp;domyślnych ustawieniach i&nbsp;wyskakiwałby Wam błąd (zapewne gatunku `SyntaxError`), to znaczy że omyłkowo usunęliście jakieś ważne znaki albo spacje.  
+W takim wypadku najlepiej pobierzcie mój skrypt od nowa, a&nbsp;zmiany tym razem wprowadzajcie bardzo ostrożnie.
 
-**Na samym końcu skryptu znajdziecie parę ustawień**, które możecie zmienić, żeby dostosować swoje wykresy.
+# Tworzenie wykresów
 
-Pierwszym z&nbsp;nich jest folder, w&nbsp;którym skrypt wypatruje plików PDF z&nbsp;KRS-u. Jeśli nic tam nie wpiszecie, będzie szukał w&nbsp;tym samym folderze, w&nbsp;którym go odpalacie:
+Skrypt za każdym razem wrzuca pliki z&nbsp;wykresami do folderu `Wykresy`, w&nbsp;formacie obrazków JPG (po jednym dla każdego odpisu).
+
+Aby zmienić domyślne ustawienia, ustawiacie inne wartości zmiennych na końcu skryptu (oznaczone odpowiednimi komentarzami).
+
+Pierwszą z&nbsp;tych zmiennych jest folder, w&nbsp;którym skrypt wypatruje plików PDF z&nbsp;KRS-u. Jeśli nic tam nie wpiszecie, będzie szukał w&nbsp;tym samym folderze, w&nbsp;którym go odpalacie:
 
 ```python
 folder = ""
@@ -101,8 +120,51 @@ W&nbsp;praktyce możecie je sobie dowolnie zmieniać, gdyby wykres był nieczyte
 
 Po wprowadzeniu takiej zmiany odpalamy ponownie skrypt i&nbsp;możemy się cieszyć wykresem w&nbsp;nowych wymiarach.
 
-Gdybyście coś zmienili w&nbsp;domyślnych ustawieniach i&nbsp;wyskakiwałby Wam błąd (zapewne gatunku `SyntaxError`), to znaczy że omyłkowo usunęliście jakieś ważne znaki albo spacje.  
-W takim wypadku najlepiej pobierzcie mój skrypt od nowa, a&nbsp;zmiany tym razem wprowadzajcie bardzo ostrożnie.
+# Tworzenie grafów powiązań
+
+W najnowszej wersji skryptu ta opcja jest domyślnie włączona. Więc **po prostu odpalacie skrypt**, a w osobnym folderze `Grafy` powinny pojawić się dwa pliki:
+
+* Plik SVG z grafem powiązań;
+* Plik GV.  
+  (Bardziej zaawansowani użytkownicy mogą go edytować, żeby na przykład wyróżnić niektóre połączenia, zakryć część danych itp. Po edycji trzeba własnoręcznie użyć na pliku progamu `dot`, żeby otrzymać zmieniony graf).
+
+Jeśli chcecie zmienić domyślne ustawienia, to w&nbsp;przypadku grafów macie zmienną:
+
+```python
+ONLY_GRAPH_KRS_COMPANIES = False
+```
+
+Przy tym ustawieniu na Waszym grafie będą widoczne wszystkie powiązania; również ze spółkami oraz osobami prywatnymi, dla których nie macie odpisów. Takie powiązania **będą oznaczone czerwonawym kolorem**.
+
+Uwaga: skrypt na razie nie jest w&nbsp;stanie odróżnić firm od osób fizycznych.
+
+Jeśli chcecie wyświetlić jedynie powiązania dla tych firm, dla których macie odpisy, to zmieniacie wartość z&nbsp;`False` na `True`.
+
+# Opcje zaawansowane
+
+Użytkownicy zaawansowani i&nbsp;umiejący w Pythona mogą, począwszy od drugiej wersji skryptu, dodawać własne funkcje modyfikujące dane przed wizualizacją:
+
+```python
+pre_graph_transform = None
+pre_timeline_transform = None
+```
+
+`pre_timeline_transform` z&nbsp;założenia działa na danych, z&nbsp;których stworzymy wykresy, a&nbsp;`pre_graph_transform` -- na tych, z&nbsp;których powstają grafy.  
+Każdy z nich pracuje na kopii danych, tuż przed wizualizacją, i nie zmienia ich na stałe.
+
+Filtry są przydatne, jeśli chcemy coś zmienić w&nbsp;danych tuż przed wizualizacją -- na przykład zamaskować niektóre nazwiska, odfiltrować część informacji itp.
+
+Tworząc filtry, pamiętajcie:
+
+* Na wejściu macie listę krotek z danymi o&nbsp;firmach (zmienna `companies`);
+* Każda krotka ma postać `(krs_id, name, events)` -- kolejno numer KRS firmy, jej aktualną nazwę oraz listę zdarzeń z jej „życia” znalezione przez skrypt. Każde ze zdarzeń to klasa `KrsEvent`, więc to jej się przyjrzyjcie w razie potrzeby.
+* Na wyjściu Wasza funkcja również powinna zwracać listę 3-elementowych krotek, tylko że odpowiednio zmodyfikowaną.
+
+Jeśli chcecie zobaczyć przykład filtra, możecie spojrzeć na moją funkcję `replace_names_with_original`, obecną w skrypcie.  
+Domyślnie nie jest używana, ale skorzystałem z niej, tworząc wpis na bloga. Robi z danymi następujące rzeczy:
+
+* Zmienia nazwę firmy (środkowe pole każdej krotki), biorąc z listy zdarzeń nazwę najstarszą.
+* Skraca tę nazwę, a także nazwy wszystkich innych firm/wspólników ze zdarzeń, usuwając z nich tekst w stylu `SP Z O.O.`.
 
 ## Ograniczenia
 
@@ -110,7 +172,7 @@ Skrypt do tej pory mi działał, ale na pewno istnieją pliki, z&nbsp;którymi g
 
 No i, na koniec, pamiętajmy że mamy również pewne ograniczenia związane nie tylko ze skryptem, lecz z&nbsp;KRS-em jako takim:
 
-* Nie będzie nam pokazywało wspólników w&nbsp;przypadku niektórych spółek (na przykład akcyjnych, bo tam akcjonariusze często się zmieniają i&nbsp;może ich być bardzo wielu).
+* Nie będzie nam pokazywało wspólników/udziałowców w&nbsp;przypadku niektórych spółek (na przykład akcyjnych, bo tam akcjonariusze często się zmieniają i&nbsp;może ich być bardzo wielu).
 * Nawet jeśli mamy ładną spółkę z&nbsp;o.o., to według tego [wpisu o&nbsp;anonimowych spółkach](http://www.lflegal.pl/blog/spolka-anonimowa-jak-ukryc-w-spolnika-w-spolce/) KRS nie udostępnia listy wspólników mających poniżej 5% udziałów.
 * Odpisy z KRS-u nie nadają się do wyłapywania wszystkich powiązań danej firmy, ponieważ pokazują tylko jedną stronę relacji (tzn. kto był w danej firmie udziałowcem; nie widzimy natomiast, czy ta firma była udziałowcem w&nbsp;czymś innym).
 

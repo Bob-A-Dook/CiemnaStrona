@@ -1336,6 +1336,10 @@ def visualize_all( folder, info_to_get, dimensions,
     
 if __name__ == '__main__':
 
+    #####################
+    # USTAWIENIA WYKRESÓW
+    #####################
+
     # W tym miejscu można zmieniać wymiary wykresu, jeśli jest nieczytelny
     # (w calach; domyślnie jest "width, height = 9, 20")
     
@@ -1350,6 +1354,10 @@ if __name__ == '__main__':
     # Domyślnie: folder = "" (skrypt szuka w folderze, w którym go odpalamy)
     
     folder = ""
+
+    ###################
+    # USTAWIENIA GRAFÓW
+    ###################
 
     # Możesz zmienić na True, jeśli chcesz pokazać na grafie wyłącznie
     # powiązania między firmami, których odpisy masz w aktywnym folderze
