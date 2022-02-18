@@ -17,7 +17,7 @@ Pythona trzeba najpierw zainstalować. To tylko parę prostych kroków, ale dot�
 
 1. <a href="{{site.url}}/tutorials/using-python">instalacja i&nbsp;korzystanie</a>;
 2. <a href="{{site.url}}/tutorials/using-pip">pobieranie modułów zewnętrznych</a>;
-2. <a href="{{site.url}}/tutorials/python-extended">ułatwianie sobie pracy z Pythonem</a>.
+2. <a href="{{site.url}}/tutorials/python-extended">ułatwianie sobie pracy z&nbsp;Pythonem</a>.
 
 Od teraz to do nich będę odsyłał przy każdym dodanym skrypcie.
 

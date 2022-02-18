@@ -4,12 +4,14 @@ title: Tworzenie wykresów dla danych z KRS-u
 description: "Używamy skryptów do zwizualizowania zmian zachodzących w firmach."
 ---
 
-{:.post-meta}
+{:.post-meta .bigspace}
 Rym w tytule samouczka niezamierzony.
 
-Ten samouczek to instrukcja pracy z&nbsp;moim skryptem Pythona do tworzenia wykresów i&nbsp;grafów dla odpisów pobranych z Krajowego Rejestru Sądowego. 
+Ten samouczek to instrukcja pracy z&nbsp;moim skryptem Pythona, pozwalającym tworzyć wykresy i&nbsp;grafy powiązań dla odpisów z&nbsp;Krajowego Rejestru Sądowego. 
 
 **Aktualizacja 15.02.2022&nbsp;r.:** Dodałem do skryptu możliwość tworzenia grafów powiązań między firmami. Jeśli chcecie z&nbsp;niej skorzystać, zachęcam do pobrania nowej wersji skryptu.
+
+**Aktualizacja 18.02.2022&nbsp;r.:** Poprawiłem parę błędów, komfort użytkowania przy odpalaniu skryptu przez podwójne kliknięcie, dodałem możliwość układania grafów od lewej do prawej.
 
 Linki do różnych wersji skryptu:
 
@@ -21,9 +23,16 @@ Zachęcam, żeby zawsze korzystać z najnowszej :smile:
 
 ## Wymagania
 
+Zanim zaczniemy cokolwiek robić, [pobieramy Pythona z oficjalnej strony](https://www.python.org/downloads/). Instalując go, pamiętamy -- przynajmniej na Windowsie -- żeby zaznaczyć opcję zainstalowania dodatków: *pip* i *IDLE*.
+
+{:.post-meta}
+Pierwsze kroki z Pythonem opisałem <a class="internal" href="{{site.url}}/tutorials/using-python">w&nbsp;osobnym samouczku</a>. Zachęcam zainteresowanych do lektury.
+
 # Moduły Pythona
 
-Skrypt potrzebuje do działania trzech zewnętrznych modułów. Dlatego najpierw włączamy naszą zaufaną konsolę (jak *PowerShell* w&nbsp;przypadku Windowsa; można go znaleźć w menu *Start* albo nacisnąć `Przycisk z ikoną Windowsa`+`X`, a potem `I` jak *inwigilacja*).  
+Skrypt potrzebuje do działania trzech zewnętrznych modułów. Dlatego najpierw włączamy naszą zaufaną konsolę  
+(jak *PowerShell* w&nbsp;przypadku Windowsa; można go znaleźć w menu *Start* albo nacisnąć `Przycisk z ikoną Windowsa`+`X`, a potem `I` jak *inwigilacja*).
+
 Następnie pobieramy co trzeba:
 
 1. Biblioteki `BeautifulSoup` oraz `lxml` do grzebania w&nbsp;XML-u.  
@@ -52,7 +61,9 @@ Nie jest to niestety moduł Pythona, tylko rzecz napisana w&nbsp;innym języku, 
 
 * **Na Windowsie**:
 
-  Pobieracie ZIP-a z&nbsp;przygotowanymi plikami [z tej strony](https://github.com/oschwartz10612/poppler-windows/releases/download/v21.10.0-0/Release-21.10.0-0.zip) i&nbsp;go rozpakowujecie w&nbsp;tym samym folderze, w&nbsp;którym trzymacie skrypt.  
+  Pobieracie ZIP-a z&nbsp;przygotowanymi plikami [z tej strony](https://github.com/oschwartz10612/poppler-windows/releases/download/v21.10.0-0/Release-21.10.0-0.zip) i&nbsp;go rozpakowujecie w&nbsp;tym samym folderze, w&nbsp;którym trzymacie skrypt.
+
+{:.post-meta}
 Da się też zainstalować Popplera w&nbsp;miejscu, w&nbsp;którym będzie łatwiej dostępny dla innych programów. Ale to już zostawiam chętnym.
 
 {% include info.html type="Uwaga" text="Gdyby podczas odpalania skryptu wyświetlało Wam komunikat o&nbsp;brakującym pliku *MSVCP140.dll*, to go pobieracie [z oficjalnej strony Microsoftu](https://aka.ms/vs/17/release/vc_redist.x64.exe), klikacie i&nbsp;instalujecie (podlinkowałem wersję 64-bitową, bo zapewne taki macie system).  
@@ -126,9 +137,9 @@ W najnowszej wersji skryptu ta opcja jest domyślnie włączona. Więc **po pros
 
 * Plik SVG z grafem powiązań;
 * Plik GV.  
-  (Bardziej zaawansowani użytkownicy mogą go edytować, żeby na przykład wyróżnić niektóre połączenia, zakryć część danych itp. Po edycji trzeba własnoręcznie użyć na pliku progamu `dot`, żeby otrzymać zmieniony graf).
+  (Bardziej zaawansowani użytkownicy mogą go edytować, żeby na przykład wyróżnić niektóre połączenia, zakryć część danych itp. Po edycji trzeba własnoręcznie użyć na pliku programu `dot`, żeby otrzymać zmieniony graf).
 
-Jeśli chcecie zmienić domyślne ustawienia, to w&nbsp;przypadku grafów macie zmienną:
+Jeśli chcecie zmienić domyślne ustawienia, to w&nbsp;przypadku grafów macie następujące zmienne:
 
 ```python
 ONLY_GRAPH_KRS_COMPANIES = False
@@ -140,6 +151,14 @@ Uwaga: skrypt na razie nie jest w&nbsp;stanie odróżnić firm od osób fizyczny
 
 Jeśli chcecie wyświetlić jedynie powiązania dla tych firm, dla których macie odpisy, to zmieniacie wartość z&nbsp;`False` na `True`.
 
+```python
+ARRANGE_GRAPH_LEFT_TO_RIGHT = False
+```
+
+Graf domyślnie jest układany od góry do dołu. Jednak czasami jest to nieczytelne i wymaga przewijania ekranu w bok (zwłaszcza gdy mamy „płytką strukturę” z wieloma udziałowcami na pierwszym szczeblu).
+
+W takiej sytuacji zmieniamy wartość z `False` na `True` i&nbsp;odpalamy skrypt ponownie. Powinno być czytelniej.
+
 # Opcje zaawansowane
 
 Użytkownicy zaawansowani i&nbsp;umiejący w Pythona mogą, począwszy od drugiej wersji skryptu, dodawać własne funkcje modyfikujące dane przed wizualizacją:
@@ -150,21 +169,21 @@ pre_timeline_transform = None
 ```
 
 `pre_timeline_transform` z&nbsp;założenia działa na danych, z&nbsp;których stworzymy wykresy, a&nbsp;`pre_graph_transform` -- na tych, z&nbsp;których powstają grafy.  
-Każdy z nich pracuje na kopii danych, tuż przed wizualizacją, i nie zmienia ich na stałe.
+Każdy z nich pracuje na kopii danych, tuż przed wizualizacją, i&nbsp;nie zmienia ich na stałe.
 
 Filtry są przydatne, jeśli chcemy coś zmienić w&nbsp;danych tuż przed wizualizacją -- na przykład zamaskować niektóre nazwiska, odfiltrować część informacji itp.
 
 Tworząc filtry, pamiętajcie:
 
 * Na wejściu macie listę krotek z danymi o&nbsp;firmach (zmienna `companies`);
-* Każda krotka ma postać `(krs_id, name, events)` -- kolejno numer KRS firmy, jej aktualną nazwę oraz listę zdarzeń z jej „życia” znalezione przez skrypt. Każde ze zdarzeń to klasa `KrsEvent`, więc to jej się przyjrzyjcie w razie potrzeby.
-* Na wyjściu Wasza funkcja również powinna zwracać listę 3-elementowych krotek, tylko że odpowiednio zmodyfikowaną.
+* Każda krotka ma postać `(krs_id, name, last_date, events)` -- kolejno numer KRS firmy, jej aktualną nazwę, najpóźniejszą znaną nam datę oraz listę zdarzeń z jej „życia”. Każde ze zdarzeń to klasa `KrsEvent`, więc to jej się przyjrzyjcie w razie potrzeby.
+* Na wyjściu Wasza funkcja również powinna zwracać listę 4-elementowych krotek, tylko że odpowiednio zmodyfikowaną.
 
 Jeśli chcecie zobaczyć przykład filtra, możecie spojrzeć na moją funkcję `replace_names_with_original`, obecną w skrypcie.  
 Domyślnie nie jest używana, ale skorzystałem z niej, tworząc wpis na bloga. Robi z danymi następujące rzeczy:
 
 * Zmienia nazwę firmy (środkowe pole każdej krotki), biorąc z listy zdarzeń nazwę najstarszą.
-* Skraca tę nazwę, a także nazwy wszystkich innych firm/wspólników ze zdarzeń, usuwając z nich tekst w stylu `SP Z O.O.`.
+* Skraca tę nazwę, a także nazwy wszystkich innych firm/wspólników ze zdarzeń, usuwając z nich tekst w stylu `SP. Z O.O.`.
 
 ## Ograniczenia
 

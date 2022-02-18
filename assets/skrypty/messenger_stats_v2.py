@@ -1,14 +1,14 @@
 """
+! This is the Polish version of this script (the only one so far).
+The code is in English, but all user-facing messages are in Polish.
+
 A module for getting and analyzing all Messenger messages written by a single
 person. Just launch it in the same folder as the zip with JSON data
 downloaded from Facebook. A summary of statistics and a chronological list
 of messages will be created in the same folder.
 
-ATTENTION!
-
-* The script is adapted to JSON-format data from Facebook and does not support
-  HTML (the default download format).
-* This version only contains user-facing messages in Polish.
+ATTENTION! The script is adapted to JSON-format data from Facebook and
+does not support HTML (the default download format offered by FB).
 
 Some code chunks were inspired by StackOverflow answers:
 
@@ -1354,4 +1354,8 @@ if __name__ == '__main__':
 
     # A tego poniżej nie ruszamy
     
-    get_all_statistics( name, **config )
+    try: get_all_statistics( name, **config )
+    except Exception:
+        exception('Nieznany błąd przy przetwarzaniu danych')
+    finally:
+        input('\n\nNaciśnij Enter, żeby zakończyć ')

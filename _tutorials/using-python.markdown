@@ -65,6 +65,9 @@ Niestety Windows nie jest do końca przyjazny, jeśli chodzi o&nbsp;uruchamianie
 
 Przyznam, że niefajne pierwsze wrażenie. Ale na szczęście skrypty działają, tylko po prostu trzeba je otworzyć w&nbsp;inny sposób -- na przykład przez IDLE, domyślny edytor Pythona.
 
+{:.post-meta}
+**Aktualizacja 2022 r.:** Od czasu napisania samouczka znalazłem sposób na to, żeby nawet po podwójnym kliknięciu okno z&nbsp;informacjami nie znikało od razu. Wprowadzę to do wszystkich skryptów wrzucanych na bloga.
+
 Aby go otworzyć, wchodzimy w&nbsp;menu Start (ikona w&nbsp;lewym dolnym rogu). Zakładki są tam ułożone alfabetycznie. Znajdujemy zakładkę `Python...` i&nbsp;ją rozwijamy:
 
 {:.figure .bigspace}
@@ -120,7 +123,7 @@ W tym sensie, że żaden ze skryptów ode mnie to nie wirus. Nie łączy się z&
 
 Poza tym skrypty są bardzo zachowawcze i&nbsp;nie usuwają folderów (nawet tych tworzonych przez siebie; w&nbsp;końcu w&nbsp;międzyczasie mogliście tam nieuważnie wrzucić własne cenne pliki).
 
-Ale w&nbsp;świecie komputerów wszystko jest względne. Do tego stopnia, że nawet twórcy [QubesOS](https://www.qubes-os.org/), systemu skupionego w&nbsp;100% na bezpieczeństwie, nazywają go jedynie *"a reasonably secure operating system"*.
+Ale w&nbsp;świecie komputerów wszystko jest względne. Do tego stopnia, że nawet twórcy [QubesOS](https://www.qubes-os.org/), systemu skupionego w&nbsp;100% na bezpieczeństwie, nazywają go jedynie *"a&nbspreasonably secure operating system"*.
 
 Ktoś kiedyś może przejąć moje konto i&nbsp;podmienić skrypty. Albo dodać złośliwy kod do samego Pythona, przez co niegroźne rzeczy staną się groźne. Innym razem niegroźne skrypty mogą zostać użyte do ataku, jeśli podrzuci im się zawirusowany plik.
 

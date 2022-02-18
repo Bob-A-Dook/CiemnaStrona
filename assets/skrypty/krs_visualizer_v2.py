@@ -42,13 +42,60 @@ __license__ = 'MIT'
 import re
 from pathlib import Path
 from logging import warning, error, exception
+from copy import deepcopy
 from datetime import datetime
 from subprocess import Popen, DEVNULL
-from sys import platform
+from sys import platform, modules
+from os import environ
 from textwrap import wrap
 from collections import Counter
 from tempfile import TemporaryDirectory
 from shutil import which as sh_which, copy as sh_copy
+
+#######################
+# Custom error handling
+#######################
+
+SAVE_ERRORS_TO_FILE = True
+ERRORS = {}
+
+def log_e( error_message, error_type ):
+    '''
+    Displays an error message while also storing it for later,
+    to be added to a text file with more explanations.
+    '''
+    error( error_message )
+    ERRORS[ error_type ] = error_message
+
+
+def save_errors_to_file():
+    '''Saves certain known errors (mainly import-related) to a file'''
+    
+    if not ERRORS: return
+    err_text = [f'!!! {e_type}\n\n{e_text}'
+                for (e_type, e_text) in ERRORS.items()]
+    err_text = '\n\n'.join( err_text )
+    
+    try:
+        with open('BRAKUJĄCE_PROGRAMY.txt', 'w', encoding='utf-8') as out:
+            out.write( err_text )
+    except Exception: pass
+
+# This link should be shown if dependency errors occur
+TUTORIAL_LINK = ('\nInstrukcję używania skryptu znajdziesz pod adresem:\n'
+                 'https://www.ciemnastrona.com.pl/tutorials/krs-wykresy\n\n')
+
+###################################################
+# Special case for launching script by double click
+###################################################
+
+# Inspired by this answer:
+# https://stackoverflow.com/questions/558776/
+#detect-script-start-up-from-command-prompt-or-double-click-on-windows
+
+RUNS_IN_IDLE = ('idlelib' in modules)
+LAUNCHED_WITH_DOUBLECLICK = (platform == 'win32' and not 'PROMPT' in environ
+                             and not RUNS_IN_IDLE)
 
 #########################
 # Import external modules
@@ -58,9 +105,10 @@ BeautifulSoup, plt, mdates = None, None, None
 try:
     from bs4 import BeautifulSoup    
 except ImportError:
-    error('\nBrak biblioteki BeautifulSoup, bez niej nie wczytamy odpisów! '
+    log_e('\nBrak biblioteki BeautifulSoup, bez niej nie wczytamy odpisów! '
           'Aby ją zainstalować, wpisz w konsoli "pip install beautifulsoup4", '
-          'a potem "pip install lxml"\n')
+          'a potem "pip install lxml"\n',
+          'Brak biblioteki "bs4" (Beautiful Soup) z Pythona')
     
 try:
     import matplotlib.pyplot as plt
@@ -68,40 +116,63 @@ try:
 except ImportError:
     if platform == 'win32': command = 'pip install matplotlib==3.3.1'
     else: command = 'pip install matplotlib'
-    error('\nBrak biblioteki Matplotlib, bez niej nie stworzymy wykresów! '
-          f'Aby ją zainstalować, wpisz w konsoli "{command}"\n')
+    log_e('\nBrak biblioteki Matplotlib, bez niej nie stworzymy wykresów! '
+          f'Aby ją zainstalować, wpisz w konsoli "{command}"\n',
+          'Brak biblioteki "matplotlib" z Pythona')
 
 IMPORTS_SUCCESSFUL = all([BeautifulSoup, plt, mdates])
 
-##########################
-# Graph check and settings
-##########################
+################################
+# Checking for external programs
+# (pdftohtml, dot)
+################################
 
-GRAPHVIZ = sh_which('dot')
+def __find_program( name ):
+    '''
+    Searches for an external-dependency program. First on PATH
+    (or its equivalents; uses shutil's `which`), then in script's folder,
+    then in the active folder (if it's different).
+    '''
+    program = None
+    program = sh_which( name )
+    if program: return program
+
+    get_files = lambda d: ([f.absolute() for f in Path(d).rglob('*')
+                            if name == f.name])
+
+    # If no program on PATH, search in the script folder...
+    dir_ = Path( __file__ ).parent  
+    files = get_files( dir_ )
+    if not files:
+        # ...or in the active directory
+        dir_ = Path()
+        files = get_files( dir_ )
+        
+    if files: program = str( files[0] )
+    return program
+    
+
+dot = 'dot'
+if platform == 'win32': dot += '.exe'
+GRAPHVIZ = __find_program( dot )
 if not GRAPHVIZ:
-    warning('Brak programu konsolowego "dot" do tworzenia grafów powiązań! '
-            'Nie jest niezbędny, ale jeśli chcesz go pobrać, to skorzystaj '
-            'z instrukcji z tej strony:\nhttp://www.graphviz.org/download/\n')
+    log_e(f'Brak programu konsolowego "{dot}" do tworzenia grafów powiązań! '
+          'Nie jest niezbędny, ale jeśli chcesz go pobrać, to skorzystaj '
+          'z instrukcji z tej strony:\nhttp://www.graphviz.org/download/\n',
+          'Brak programu do tworzenia grafów')
 
 ONLY_GRAPH_KRS_COMPANIES = False
 
-########################
-# Checking for pdfothtml
-########################
 
 def _find_pdf_converter():
     '''
     Looks for a PDF converter (`pdftohtml`), either in PATH 
     or recursively in the current folder.
     '''
-    converter = sh_which('pdftohtml')
-    if converter: return converter
+    name = 'pdftohtml'
+    if platform == 'win32': name += '.exe'
 
-    # If no program on PATH, search in the current folder
-    files = [f.absolute() for f in Path().rglob('*')
-             if 'pdftohtml' in f.name]
-    if files:
-        converter = str( files[0] )
+    converter = __find_program( name )
     if converter: return converter
 
     # If no converter is found, show installation tips
@@ -111,20 +182,20 @@ def _find_pdf_converter():
     linux_url = ('https://stackoverflow.com/questions/'
                  '32156047/how-to-install-poppler-in-ubuntu-15-04')
                  
-    error(
-        'Nie znaleziono programu `pdftohtml`. Aby go pobrać:\n\n'
-        f'Na Windowsie pobierz zipa z adresu [{win_url}] i rozpakuj '
-        'go w tym samym folderze co ten skrypt.\n\n'
-        f'Na MacOS postępuj zgodnie z instrukcjami z [{mac_url}].\n\n'
-        'Na Linuksie powinny zadziałać instrukcje z pierwszej odpowiedzi '
-        f'([{linux_url}]).\n')
+    err = (f'Nie znaleziono programu "{name}". Aby go pobrać:\n\n'
+           f'Na Windowsie pobierz zipa z adresu [{win_url}] i rozpakuj '
+           'go w tym samym folderze co ten skrypt.\n\n'
+           f'Na MacOS postępuj zgodnie z instrukcjami z [{mac_url}].\n\n'
+           'Na Linuksie powinny zadziałać instrukcje z pierwszej odpowiedzi '
+           f'([{linux_url}]).\n')
 
     if platform == 'win32':
-        error('Gdyby wyświetlał się komunikat o braku pliku '
-                      '"MSVCP140.dll", to pobierz go z podanego adresu '
-                      'i zainstaluj, klikając plik EXE:\n'
-                      'https://aka.ms/vs/17/release/vc_redist.x64.exe\n')
+        err += ('\nGdyby wyświetlał się komunikat o braku pliku '
+               '"MSVCP140.dll", to pobierz go z podanego adresu '
+               'i zainstaluj, klikając plik EXE:\n'
+               'https://aka.ms/vs/17/release/vc_redist.x64.exe\n')
 
+    log_e( err, 'Brak programu do konwersji PDF-ów' )
     return None
 
 CONVERTER = _find_pdf_converter()
@@ -819,7 +890,7 @@ def get_events( sections, date_map,
         
         section = get_section_data( main_category, sections )
         if not section:
-            error(f'Brak danych dla wykresu "{label}"')
+            warning(f'Brak danych dla wykresu "{label}".')
             continue
         
         data = _get_data_from_section( section, date_map )
@@ -927,7 +998,7 @@ def _plot_multiple_bars( subplot, xticks, xlabels, names,
     subplot.set_xticklabels( xticks, **X_TICK_PARAMS )
     
 
-def construct_graphs( raw_event_info, end_date, name ):
+def construct_timelines( raw_event_info, end_date, name ):
     '''Creates Matplotlib graphs for the data.'''
 
     event_info = []
@@ -1055,14 +1126,14 @@ def _save_timeline( plt, pdf_path, info_tag, dimensions ):
 # Creating timelines and graphs
 ###############################
     
-class TimelineCreationError(Exception): pass
+class DataExtractionError(Exception): pass
 
 
-def create_krs_timeline( pdf_path, info_to_get=None, dimensions=None ):
-    '''Creates a timeline for some pre-selected KRS events.'''
+def get_company_data( pdf_path, info_to_get ):
+    '''Gets data which is later shared by both timelines and graphs.'''
 
     if not IMPORTS_SUCCESSFUL or not CONVERTER:
-        raise TimelineCreationError( 'Brak potrzebnych modułów' )
+        raise DataExtractionError( 'Brak potrzebnych modułów' )
 
     converter = CONVERTER
     if isinstance(pdf_path, str):
@@ -1070,19 +1141,19 @@ def create_krs_timeline( pdf_path, info_to_get=None, dimensions=None ):
 
     try: xml = pdf_to_xml( pdf_path, converter )
     except Exception:
-        raise TimelineCreationError( 'Błąd podczas konwersji pliku' )
+        raise DataExtractionError( 'Błąd podczas konwersji pliku' )
             
     text = get_textlines( xml )
     sections, entry_index = analyze_document_structure( text )
     if not sections or not entry_index:
-        raise TimelineCreationError( 'Struktura pliku nie pasuje do KRS-u' )
+        raise DataExtractionError( 'Struktura pliku nie pasuje do KRS-u' )
 
-    edate = _get_end_date( text, entry_index )
+    last_date = _get_end_date( text, entry_index )
     date_map = map_entries_to_dates( entry_index )
 
     events = get_events( sections, date_map,
                          data_getters=info_to_get,
-                         end_date=edate )
+                         end_date=last_date )
 
     krs_id, name = '', ''
     try:
@@ -1090,11 +1161,19 @@ def create_krs_timeline( pdf_path, info_to_get=None, dimensions=None ):
         name = __shorten( _get_company_name( sections, date_map ) )
     except Exception: pass
 
-    company_info = (krs_id, name, events)
+    company_info = (krs_id, name, last_date, events)
+    return company_info
 
+
+def create_krs_timeline( company_info, pdf_path,
+                         info_to_get=None, dimensions=None ):
+    '''Creates a timeline for a specific company'''
+
+    krs_id, name, last_date, events = company_info
+    
     # Format name for display and use it on the graphs
     if krs_id and name: name = f'KRS {krs_id}\n({name})'
-    plt = construct_graphs( events, edate, name )
+    plt = construct_timelines( events, last_date, name )
     if not plt:
         raise TimelineCreationError( 'Błąd podczas tworzenia wykresów' )
 
@@ -1102,8 +1181,6 @@ def create_krs_timeline( pdf_path, info_to_get=None, dimensions=None ):
     else: info_tag = ''
     
     _save_timeline( plt, pdf_path, info_tag, dimensions )
-
-    return company_info
 
 
 def __prepare_graph_nodes( companies ):
@@ -1119,7 +1196,7 @@ def __prepare_graph_nodes( companies ):
     label_map = {v:k for (k,v) in GRAPH_TITLES.items()}
         
     connections, main_names, id_map = [], [], {}
-    for krs_id, name, events in companies:
+    for krs_id, name, _, events in companies:
         name = escape_name( name )
         main_names.append( name )
         id_map[name] = krs_id
@@ -1158,9 +1235,9 @@ def make_connection_graph( companies, folder, show_krs_id=True ):
     connections, main_names, id_map = prepped
     if not connections:
         no_ties_warn = 'Przy obecnych ustawieniach brak powiązan do pokazania.'
-        if ONLY_GRAPH_MAIN_COMPANIES:
+        if ONLY_GRAPH_KRS_COMPANIES:
             no_ties_warn += (' Jeśli chcesz wyświetlić wszystkie, ustaw '
-                             'zmienną ONLY_GRAPH_MAIN_COMPANIES na końcu '
+                             'zmienną ONLY_GRAPH_KRS_COMPANIES na końcu '
                              'skryptu na True')
         warning( no_ties_warn )
         return
@@ -1193,8 +1270,11 @@ def make_connection_graph( companies, folder, show_krs_id=True ):
         for (c1, _) in connections if not c1 in main_names)
 
     G1, G2 = 'digraph Graf {', '}'
-
     graph_body = []
+    
+    if ARRANGE_GRAPH_LEFT_TO_RIGHT:
+        graph_body.append( '  rankdir=LR;' )
+        
     for (c1, c2) in connections:
         if not c1 in main_names: tail = f' [color="#d56f6a"];'
         else: tail = ';'
@@ -1220,6 +1300,66 @@ def make_connection_graph( companies, folder, show_krs_id=True ):
         print(f'Stworzono graf powiązań i zapisano go do pliku:\n'
               f'{svg_outpath.absolute()}')
 
+
+def _create_graphs_and_timelines( folder, pdfs, info_to_get, settings ):
+    '''Extracts data and visualizes it on timelines and graphs'''
+
+    can_do_timelines, can_do_graphs, dimensions, transforms = settings
+    
+    pre_graph_transform = None
+    pre_timeline_transform = None
+    if transforms:
+        pre_graph_transform, pre_timeline_transform = transforms
+
+    # Getting PDF data
+    companies = []
+    for pdf in pdfs:
+        print(f'\nPrzetwarzam "{pdf}"...\n')
+        try:
+            company_info = get_company_data( pdf, info_to_get )
+            companies.append( company_info )
+        except DataExtractionError as e:
+            error(f'Znany błąd podczas pozyskiwania danych:\n{e}')
+        except Exception as e:
+            exception('Nieznany błąd podczas pozyskiwania danych')
+
+    # Timeline creation
+    successes = 0
+    if MAKE_TIMELINES and can_do_timelines:
+
+        if pre_timeline_transform:
+            all_comp_data = deepcopy( companies )
+            all_comp_data = pre_timeline_transform( all_comp_data )
+        else:
+            all_comp_data = companies
+                    
+        for comp_data, pdf in zip( all_comp_data, pdfs ):
+            try:         
+                create_krs_timeline( comp_data, pdf, info_to_get, dimensions )
+                successes += 1
+                
+            except Exception:
+                exception(f'Nie udało się stworzyć wykresów dla "{pdf}"')                
+
+        if successes:
+            print(f'\nStworzono wykresy dla {successes}/{len(pdfs)} plików '
+                  f'PDF. Trafiły do folderu:\n{folder.absolute()}\n')
+
+    # Graph creation
+    if MAKE_GRAPHS and can_do_graphs:
+        if not SHAREHOLDER_LABEL in info_to_get:
+            warning(f'Brak kategorii "{SHAREHOLDER_LABEL}" wśród wybranych. '
+                    'Nie można stworzyć grafu powiązań między firmami')
+            return
+
+        if pre_graph_transform:
+            companies = pre_graph_transform( companies )
+        
+        try: make_connection_graph( companies, folder )
+        except Exception:
+            exception('Nie udało się zwizualizować połączeń między firmami '
+                      'a udziałowcami! Nieznany błąd') 
+
 ###################
 # Blogpost-specific
 ###################
@@ -1240,7 +1380,7 @@ def replace_names_with_original( companies ):
         return name.strip()
     
     transformed_companies = []
-    for krs_id, latest_name, events in companies:
+    for krs_id, latest_name, last_date, events in companies:
 
         name = latest_name
         for _, category, evs in events:
@@ -1254,7 +1394,7 @@ def replace_names_with_original( companies ):
                 for ev in evs:
                     ev.name = transform_name( ev.name )
 
-        new_data = (krs_id, name, events)
+        new_data = (krs_id, name, last_date, events)
         transformed_companies.append( new_data )
 
     return transformed_companies
@@ -1263,15 +1403,21 @@ def replace_names_with_original( companies ):
 # The main function
 ###################
 
-def visualize_all( folder, info_to_get, dimensions,
-                   transforms=None, save_log=True ):
+def visualize_all( folder, info_to_get, dimensions, transforms=None):
     '''
     The main function. Creates timelines and relation graphs
     for all PDFs from a folder.
     '''
-    can_do_timelines = (IMPORTS_SUCCESSFUL and CONVERTER)
+    can_read_pdf = (CONVERTER and BeautifulSoup)
+    can_do_timelines = (plt and mdates)
     can_do_graphs = GRAPHVIZ
-    if not any((can_do_timelines, can_do_graphs)):
+
+    settings = can_do_timelines, can_do_graphs, dimensions, transforms
+
+    if ERRORS and SAVE_ERRORS_TO_FILE:
+        save_errors_to_file()
+
+    if not can_read_pdf or not any((can_do_timelines, can_do_graphs)):
         error('Brak potrzebnych narzędzi, skrypt nie jest w stanie '
               'stworzyć żadnych wizualizacji')
         return
@@ -1282,63 +1428,35 @@ def visualize_all( folder, info_to_get, dimensions,
         error(f'Nie znaleziono podfolderu "{folder.name}" w folderze '
               f'{folder.absolute().parent}.\nMusisz go najpierw stworzyć! :D')
         return
+
+    if LAUNCHED_WITH_DOUBLECLICK:
+        # Windows launcher has C:\Windows\System32 as path, so use script dir
+        folder = Path(__file__).parent
                       
     pdfs = sorted( f for f in folder.iterdir() if f.suffix == '.pdf' )
     if not pdfs:
         error(f'Nie znaleziono plików PDF w folderze "{folder.absolute()}".')
         return
-
     print(f'Znaleziono pliki PDF ({len(pdfs)}) w folderze {folder.absolute()}')
 
+    _create_graphs_and_timelines( folder, pdfs, info_to_get, settings )
 
-    pre_graph_transform = None
-    pre_timeline_transform = None
-    if transforms:
-        pre_graph_transform, pre_timeline_transform = transforms
-    
-    successes, companies = 0, []
-    for pdf in pdfs:
-        print(f'\nPrzetwarzam "{pdf}"...\n')
-        try:
-            if pre_timeline_transform:
-                company_info = pre_timeline_transform( company_info )
-            company_info = create_krs_timeline( pdf, info_to_get, dimensions)
-            
-        except TimelineCreationError as e:
-            error(f'Znany błąd podczas tworzenia wykresów:\n{e}')
-            continue
-        except Exception:
-            exception(f'Nie udało się stworzyć wykresów dla "{pdf}"')
-            continue
-        else:
-            successes += 1
-            companies.append( company_info )
-
-    if successes:
-        print(f'\nStworzono wykresy dla {successes}/{len(pdfs)} plików PDF. '
-              f'Trafiły do folderu:\n{folder.absolute()}\n')
-
-
-    if can_do_graphs:
-        if not SHAREHOLDER_LABEL in info_to_get:
-            warning(f'Brak kategorii "{SHAREHOLDER_LABEL}" wśród wybranych. '
-                    'Nie można stworzyć grafu powiązań między firmami')
-            return
-
-        if pre_graph_transform:
-            companies = pre_graph_transform( companies )
-        
-        try: make_connection_graph( companies, folder )
-        except Exception:
-            exception('Nie udało się zwizualizować połączeń między firmami '
-                      'a udziałowcami! Nieznany błąd')   
+    # Overwrite error file in case new ones appeared during creation
+    if ERRORS and SAVE_ERRORS_TO_FILE:
+        save_errors_to_file()
 
     
 if __name__ == '__main__':
 
-    #####################
-    # USTAWIENIA WYKRESÓW
-    #####################
+    ### USTAWIENIA OGÓLNE
+
+    # Możesz zmienić z True na False, jeśli chcesz stworzyć tylko osie czasu
+    # albo tylko grafy powiązań
+
+    MAKE_GRAPHS = True
+    MAKE_TIMELINES = True
+
+    ### USTAWIENIA WYKRESÓW
 
     # W tym miejscu można zmieniać wymiary wykresu, jeśli jest nieczytelny
     # (w calach; domyślnie jest "width, height = 9, 20")
@@ -1355,26 +1473,38 @@ if __name__ == '__main__':
     
     folder = ""
 
-    ###################
-    # USTAWIENIA GRAFÓW
-    ###################
+    ### USTAWIENIA GRAFÓW
 
     # Możesz zmienić na True, jeśli chcesz pokazać na grafie wyłącznie
     # powiązania między firmami, których odpisy masz w aktywnym folderze
 
     ONLY_GRAPH_KRS_COMPANIES = False
 
-    # [DLA ZAAWANSOWANYCH] Jeśli chcesz w jakiś sposób przetworzyć dane
+    # Możesz zmienić na True, żeby ułożyć graf od lewej do prawej
+    # zamiast od góry do dołu (czytelniejsze przy niezależnych spółkach)
+
+    ARRANGE_GRAPH_LEFT_TO_RIGHT = False
+
+    # DLA ZAAWANSOWANYCH
+    
+    # Jeśli chcesz w jakiś sposób przetworzyć dane
     # przed stworzeniem wizualizacji, możesz w tym miejscu zamiast None
     # podać naszykowane przez siebie funkcje
     
     pre_graph_transform = None
     pre_timeline_transform = None
 
-    # A tej funkcji poniżej nie ruszaj ;)  
-    visualize_all( folder,
-                   info_to_get=info,
-                   dimensions=(width,height),
-                   transforms=(pre_graph_transform,
-                               pre_timeline_transform)
-                   )
+    # A rzeczy poniżej nie ruszaj ;)  
+    try:
+        visualize_all( folder,
+                       info_to_get=info,
+                       dimensions=(width,height),
+                       transforms=(pre_graph_transform,
+                                   pre_timeline_transform)
+                       )
+    except Exception:
+        exception('Nieznany błąd podczas tworzenia wizualizacji')
+    finally:
+        if ERRORS: print( TUTORIAL_LINK )
+        if LAUNCHED_WITH_DOUBLECLICK:
+            input('\n\nNaciśnij Enter, żeby zakończyć')
