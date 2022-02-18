@@ -42,7 +42,8 @@ import logging
 import tempfile
 import datetime
 import subprocess
-from sys import platform
+from sys import platform, modules
+from os import environ
 from pathlib import Path
 from textwrap import wrap
 from collections import Counter
@@ -67,6 +68,22 @@ except ImportError:
                   f'"{command}"\n')
 
 IMPORTS_SUCCESSFUL = all([BeautifulSoup, plt, mdates])
+
+######################################################
+# UX improvements backported from newer script version
+######################################################
+
+# Inspired by this answer:
+# https://stackoverflow.com/questions/558776/
+#detect-script-start-up-from-command-prompt-or-double-click-on-windows
+
+RUNS_IN_IDLE = ('idlelib' in modules)
+LAUNCHED_WITH_DOUBLECLICK = (platform == 'win32' and not 'PROMPT' in environ
+                             and not RUNS_IN_IDLE)
+
+# This link should be shown and redirect to newest version of script
+TUTORIAL_LINK = 'https://www.ciemnastrona.com.pl/tutorials/krs-wykresy'
+
 
 ########################
 # Checking for pdfothtml
@@ -1105,7 +1122,15 @@ if __name__ == '__main__':
     
     folder = ""
 
-    # A tej funkcji poniżej nie ruszaj ;)  
-    create_timelines_for_all( folder,
-                              info_to_get=info,
-                              dimensions=(width,height) )
+    # A tych rzeczy poniżej nie ruszaj ;)  
+    try:
+        create_timelines_for_all( folder,
+                                  info_to_get=info,
+                                  dimensions=(width,height) )
+    except Exception:
+        exception('Nieznany błąd podczas tworzenia wykresów')
+    finally:
+        print( '\n[UWAGA] Korzystasz ze starszej wersji skryptu. Najnowsżą '
+               f'znajdziesz pod adresem:\n{TUTORIAL_LINK}\n' )
+        if LAUNCHED_WITH_DOUBLECLICK:
+            input('\n\nNaciśnij Enter, żeby zakończyć ')

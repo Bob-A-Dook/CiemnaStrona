@@ -82,7 +82,8 @@ def save_errors_to_file():
     except Exception: pass
 
 # This link should be shown if dependency errors occur
-TUTORIAL_LINK = ('\nInstrukcję używania skryptu znajdziesz pod adresem:\n'
+TUTORIAL_LINK = ('\n[INFO] Instrukcję używania skryptu i jego najnowsze '
+                 'wersje znajdziesz pod adresem:\n'
                  'https://www.ciemnastrona.com.pl/tutorials/krs-wykresy\n\n')
 
 ###################################################
@@ -1496,6 +1497,8 @@ if __name__ == '__main__':
 
     # A rzeczy poniżej nie ruszaj ;)  
     try:
+        print( TUTORIAL_LINK )
+        
         visualize_all( folder,
                        info_to_get=info,
                        dimensions=(width,height),
@@ -1505,6 +1508,5 @@ if __name__ == '__main__':
     except Exception:
         exception('Nieznany błąd podczas tworzenia wizualizacji')
     finally:
-        if ERRORS: print( TUTORIAL_LINK )
         if LAUNCHED_WITH_DOUBLECLICK:
             input('\n\nNaciśnij Enter, żeby zakończyć')
