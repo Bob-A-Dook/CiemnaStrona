@@ -62,6 +62,34 @@ I zrobione! Może i&nbsp;metadanych tu nie ma, ale skrypt działa jak powinien.
 Wtedy sprawdzamy jakość swojego połączenia na innej dowolnej stronce i&nbsp;próbujemy znowu.  
 Jeśli to nie pomaga, to znaczy że coś się popsuło po stronie PyPI (stronki z&nbsp;modułami Pythona). Najlepiej się nie zrażać i&nbsp;po jakimś czasie spróbować ponownie." trailer="<p class='figure'><img src='/assets/tutorials/using-pip/pip-error.webp' alt='Zrzut ekranu z&nbsp;PowerShella, pokazujący długi komunikat o&nbsp;błędzie w&nbsp;połączeniu i&nbsp;mówiący, że nie znaleziono odpowiedniej wersji modułu pillow'/></p>" %}
 
+# Dla użytkowników Linuksa
+
+Przede wszystkim piąteczka!
+
+W przypadku Linuksa zasadniczy mechanizm jest ten sam -- instalacja przez *pip* -- ale warto wiedzieć o paru rzeczach. Sam nie wiedziałem i&nbsp;straciłem przez to trochę czasu i nerwów, więc może chociaż Wam tego oszczędzę.
+
+Przede wszystkim warto wiedzieć, że czasem macie zainstalowane dwie wersje Pythona -- starą wersję *2.7* oraz nowszą *3.coś*. To tej drugiej chcecie używać.
+
+Upewnijcie się, jak jest. Wpiszcie w konsoli `pip --version` i&nbsp;spójrzcie, jaką wersję Pythona wyświetla pod koniec.
+ 
+Jeśli pod samym *pip* macie wersję drugą, to&nbsp;w celu użycia trzeciej **musicie, tam gdzie inni wpisują samo `pip`, wpisywać `pip3`**.
+
+Druga sprawa: zapewne przy próbie instalacji będzie Wam wyskakiwał błąd *Permission Denied*. [To normalne](https://stackoverflow.com/questions/33922240/why-i-cant-do-some-things-without-sudo-using-python-and-pip), Linux chroni część systemu przed zmianami. Dlatego musicie dodać też opcję `--user`, żeby instalować dla konkretnego użytkownika.
+
+Podsumowując: tam, gdzie na Windowsie byście po prostu wpisali:
+
+```
+pip install jakiś_pakiet
+```
+
+Na Linuksie **zapewne musicie wpisać**:
+
+```
+pip3 install --user jakiś_pakiet
+```
+
+Warto o tym pamiętać, czytając instrukcje z&nbsp;internetu.
+
 # Znaj swój moduł
 
 Jak sami widzicie, pobieranie modułów zewnętrznych Pythona jest całkiem bezbolesne.

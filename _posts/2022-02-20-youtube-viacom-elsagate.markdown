@@ -15,7 +15,7 @@ image-height: 700
 
 Już dawno nie było na blogu wpisu o&nbsp;Google, czas to zmienić!
 
-Spojrzymy tutaj na YouTube'a, jeden z&nbsp;większych nabytków Wujka G. Platformę z&nbsp;filmami, która zaczynała od haseł promujących niezależną i&nbsp;amatorską twórczość (*Broadcast Yourself*). Obecnie pełną afer, nadgorliwych algorytmów i&nbsp;stopniowego dokręcania śruby swoim twórcom.
+Spojrzymy tutaj na YouTube'a, jeden z&nbsp;większych nabytków Wujka&nbsp;G. Platformę z&nbsp;filmami, która zaczynała od haseł promujących niezależną i&nbsp;amatorską twórczość (*Broadcast Yourself*). Obecnie pełną afer, nadgorliwych algorytmów i&nbsp;stopniowego dokręcania śruby swoim twórcom.
 
 Przedstawiam Wam niefilmowy dokument o&nbsp;ciemnych stronach YouTube'a. Reżyseria moja, w&nbsp;roli głównej Google.
 
@@ -62,7 +62,7 @@ Ostatecznie poddali się, starą domenę obudowali reklamami (albo sprzedali) i&
 
 # Parę liczb i&nbsp;statystyk
 
-Już w&nbsp;2007 roku, krótko po przejęciu, co minutę na YT wrzucano przeciętnie 20 godzin filmów. W&nbsp;2019 i&nbsp;2020 roku [już ponad 500 godzin](https://www.statista.com/statistics/259477/hours-of-video-uploaded-to-youtube-every-minute/).  
+Już w&nbsp;2007 roku, krótko po przejęciu, co minutę na YT wrzucano przeciętnie 20&nbsp;godzin filmów. W&nbsp;2019 i&nbsp;2020 roku [już ponad 500 godzin](https://www.statista.com/statistics/259477/hours-of-video-uploaded-to-youtube-every-minute/).  
 To około 82 lata filmów na dzień. Wielu osobom, nawet gdyby nic nie robili poza oglądaniem, **nie starczyłoby życia na obejrzenie wszystkiego, co trafia na YT w&nbsp;ciągu jednego dnia**.
 
 W sprawach finansowych bywają zadziwiająco tajemniczy. Dopiero w&nbsp;2020 roku -- po 15&nbsp;latach działalności -- [ujawnili dokładniejsze przychody](https://www.theverge.com/2020/2/3/21121207/youtube-google-alphabet-earnings-revenue-first-time-reveal-q4-2019), z&nbsp;podziałem na te uzyskane z&nbsp;reklam.
@@ -300,7 +300,7 @@ Wszystko to moim zdaniem przykład takiej samej motywacji, jaka przyświeca rów
 Wiele osób chciałoby mieć maszynki do zarabiania kasy na reklamach. Niektórzy wzięli na cel dzieciaki i&nbsp;zautomatyzowali się mocniej niż inni. Stąd ElsaGate.
 
 A filmiki z&nbsp;żywymi aktorami? Można po prostu zapytać autorów :wink: Pewien [artykuł z&nbsp;TubeFiltera](https://www.tubefilter.com/2017/02/02/youtube-bizarre-trend-adults-spider-man-elsa-costumes/) poświęcony sprawie ElsaGate zawiera ich wypowiedzi (głównie osób z&nbsp;kanału *Toy Monster*).  
-Mówią, że wyszli od filmów z&nbsp;miniaturkami superbohaterów, a&nbsp;stamtąd przeszli do aktorów odgrywających te postacie. Filmy są nieme, żeby mogły trafiać do dzieci z&nbsp;całego świata.
+Mówią, że zaczynali od filmów z&nbsp;figurkami superbohaterów, a&nbsp;stamtąd przeszli do odgrywania tych samych postaci. Filmy są nieme, żeby mogły trafiać do dzieci z&nbsp;całego świata.
 
 Większość wyświetleń, jak mówią, zyskali nie dzięki świadomym subskrypcjom, lecz dzięki temu, że byli wyświetlani wśród filmów polecanych. **To algorytmy YouTube'a rozdmuchały popularność ElsaGate, a&nbsp;nie boty i&nbsp;sztuczki twórców**.
 
@@ -345,7 +345,7 @@ A jaka część tych zgłoszeń jest prawdziwa? Od jakiej części ktoś się z&
 
 ## Podsumowanie części pierwszej
 
-Mieliśmy tutaj niezły miks. Zbieranie (i potem, pod nakazem, oddawanie obcym) danych użytkowników. Przetrzymywanie treści kontrowersyjnych, jeśli tylko są dla platformy wygodne. Stworzenie systemu zachęt, który prowadził do patologii.
+Mieliśmy tutaj niezły miks. Zbieranie (i&nbsp;potem, pod nakazem, oddawanie obcym) danych użytkowników. Przetrzymywanie treści kontrowersyjnych, jeśli tylko są dla platformy zyskowne. Stworzenie systemu zachęt, który prowadził do patologii.
 
 Obie opisane aferki -- wojnę z&nbsp;Viacomem i&nbsp;ElsaGate -- łączy opieszałość YouTube'a. Dziwnym trafem pojawiająca się wtedy, kiedy interwencja wymagałaby usunięcia często oglądanych treści. A&nbsp;że YouTube zarabia na wyświetleniach i&nbsp;reklamach...
 
@@ -355,7 +355,7 @@ Wszystko, byle tylko uniknąć zatrudniania ludzi. Ludzie się nie skalują.
 
 W drugiej części wpisu, która ukaże się już niebawem, pochylimy się nad skutecznością tych automatycznych systemów. A&nbsp;przy okazji zobaczymy, jak stopniowo dokręcano śrubę, odbierając możliwości twórcom i&nbsp;widzom.
 
-A w&nbsp;międzyczasie, jeśli mamy na pokładzie jakichś rodziców, taka drobna porada: nie powierzajcie swoich dzieciaków YouTube'owi. Nawet jeśli całkiem w&nbsp;siebie nie wierzycie, raczej lepiej je wychowacie niż on i&nbsp;materiały spod znaku ElsaGate.
+A w&nbsp;międzyczasie, jeśli mam tu na pokładzie jakichś rodziców, taka drobna porada: nie powierzajcie swoich dzieciaków YouTube'owi. Nawet jeśli całkiem w&nbsp;siebie nie wierzycie, raczej lepiej je wychowacie niż on i&nbsp;materiały spod znaku ElsaGate.
 
 Do zobaczenia! :smile:
 
