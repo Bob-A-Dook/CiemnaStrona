@@ -10,8 +10,7 @@ Podstawy instalacji Pythona i&nbsp;odpalania skryptów pokazałem w&nbsp;<a href
 
 Przyznam, że praca z&nbsp;Pythonem w&nbsp;IDLE może być na początku toporna. Za każdym razem musimy kopiować skrypty. Żeby je otworzyć, musimy najpierw włączać edytor, a&nbsp;potem nawigować do odpowiedniego pliku.
 
-Na szczęście jest kilka sposobów, które ogromnie ułatwią pracę. Będziemy w&nbsp;stanie łatwo otwierać skrypty, trzymać je w&nbsp;jednym miejscu, odpalać kilkoma klawiszami w&nbsp;dowolnym folderze.
-
+Na szczęście jest kilka sposobów na znaczne ułatwienie pracy. Będziemy w&nbsp;stanie łatwo otwierać skrypty, wzywać je z&nbsp;dowolnego miejsca, uruchamiać prostymi kombinacjami klawiszy.  
 Co więcej, **to całkiem bezpieczne i&nbsp;nie wymaga dotykania żadnych funkcji systemu**. Wystarczy stworzyć parę plików i&nbsp;folderów.
 
 Przekonałem Was? Jeśli tak, to zapraszam do lektury! Porady ułożyłem w&nbsp;kolejności od najprzydatniejszych do całkowicie opcjonalnych.
@@ -86,11 +85,13 @@ Główny folder Pythona to najkrótsza ścieżka, kończąca się słowem `Pytho
 
 ## 1. Ustawienie IDLE jako programu otwierającego skrypty
 
-Pierwsze kroki z&nbsp;Pythonem na Windowsie mogą być nieintuicyjne.
+Pierwsze kroki z&nbsp;Pythonem na Windowsie mogą być nieintuicyjne. Mówię to jako wielki fan tego języka.
 
-Skrypt to program. Więc po dwukrotnym kliknięciu powinien się odpalić, prawda? Otóż nie -- jeśli tak zrobimy, to zwykle na krótko wyskoczy czarne okienko. Po czym zniknie, nic nie robiąc.
+Zainstalowaliśmy Pythona. Mamy jakiś skrypt. Więc pewnie wystarczy go dwa razy kliknąć, prawda?  
+Ale jeśli tak zrobimy, to zwykle **na krótko zamigocze czarne okienko. Po czym zniknie**.  
+Jeśli mamy szczęście, to program zrobił swoje. Ale mógł też wyświetlić się jakiś błąd. A&nbsp;okno znika za szybko, żeby go odczytać.
 
-Nadal możemy otwierać skrypty przez IDLE, domyślny edytor Pythona. Ale w&nbsp;tym celu musimy najpierw włączyć IDLE, a&nbsp;dopiero potem wybrać `Otwórz...` i&nbsp;wyklikać sobie drogę do naszego skryptu.
+Dlatego lepiej uruchamiać skrypty choćby przez IDLE, domyślny edytor Pythona. Ale w&nbsp;tym celu musimy najpierw włączyć IDLE, a&nbsp;dopiero potem wybrać `Otwórz...` i&nbsp;wyklikać sobie drogę do naszego skryptu.
 
 Jeśli pobieracie tylko parę skryptów raz na ruski rok (np. ode mnie), to taka klikanina jest do przyjęcia. Ale jeśli musicie otwierać je częściej, to staje się to uciążliwe.
 
@@ -107,7 +108,7 @@ Tam najpierw zaznaczamy opcję, żeby zawsze otwierać pliki w&nbsp;taki sposób
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/2-2-wybor-aplikacji.webp"/>
 
-Włączy się okno wyboru pliku. Jeśli nie chcemy klikać przez foldery, przyda nam się tutaj **ścieżka do folderu Pythona, skopiowana w&nbsp;poprzednim punkcie**.
+Włączy się okno wyboru pliku. Jeśli nie chcemy klikać przez foldery, przyda nam się tutaj ścieżka do folderu Pythona, skopiowana [w&nbsp;poprzednim punkcie](#0-znajdowanie-folderu-pythona).
 
 Żeby ją wkleić, klikamy po prawej stronie paska, żeby przełączył się w&nbsp;tryb tekstu:
 
@@ -116,7 +117,7 @@ Włączy się okno wyboru pliku. Jeśli nie chcemy klikać przez foldery, przyda
 
 Naciskamy `Ctrl+V`, wklejając tam nasz adres do folderu Pythona. Potwierdzamy `Enter`em.
 
-W folderze Pythona, do którego powinniśmy trafić, interesuje nas podfolder `Lib`, a&nbsp;w nim `idlelib`.  
+W folderze Pythona, do którego trafimy, interesuje nas podfolder `Lib`, a&nbsp;w nim `idlelib`.  
 Otwieramy go, a&nbsp;z listy plików wybieramy `idle.bat`:
 
 {:.bigspace}
@@ -129,9 +130,9 @@ Potwierdzamy nasz wybór:
 
 I zrobione! Od teraz, przeglądając pliki w&nbsp;Eksploratorze, możemy po prostu dwukrotnie klikać skrypty Pythona, żeby wyświetlać je w&nbsp;IDLE'u.
 
-## 2. Odpalanie własnych skryptów z&nbsp;każdego miejsca
+## 2. Uruchamianie skryptów z&nbsp;dowolnego folderu
 
-Do tej pory musieliśmy kopiować skrypty do tego samego folderu, w&nbsp;którym chcemy ich użyć. Na dłuższą metę to niepraktyczne, więc mam kolejny ułatwiacz życia. Sprawimy, żeby dało się je odpalać przez samo wpisanie ich nazwy w&nbsp;PowerShella.
+Do tej pory musieliśmy kopiować skrypty do tego samego folderu, w&nbsp;którym chcemy ich użyć. Na dłuższą metę to niepraktyczne, więc mam kolejny ułatwiacz życia. Sprawimy, żeby dało się **trzymać skrypty w&nbsp;jednym miejscu i&nbsp;uruchamiać przez samo wpisanie ich nazwy**.
 
 Żeby to zrobić, trzeba sprawić, żeby Python zawsze „widział” nasz skrypt. Na szczęście to nic trudnego, wystarczy go włożyć do jednego konkretnego folderu. 
 
@@ -145,16 +146,23 @@ Mój folder `site_packages` wygląda tak (praktycznie zaraz po nowej instalacji,
 
 To jeden z&nbsp;folderów, w&nbsp;których Python szuka swoich skryptów. Możemy wziąć nasz skrypt *witaj.py* -- albo wszelkie inne -- i&nbsp;**po prostu je tutaj dorzucić**.
 
-Co nam to dało? Od teraz nasz skrypt jest dostępny z&nbsp;każdego miejsca w&nbsp;systemie!
-
-Możemy od teraz wpisać w&nbsp;IDLE nazwę skryptu bez końcówki *.py*. W&nbsp;naszym przypadku `import witaj`. W&nbsp;jakim folderze byśmy nie byli, odpali nam nasz kod:
+Co nam to dało? Od teraz nasz skrypt jest dostępny z&nbsp;każdego miejsca w&nbsp;systemie!  
+Możemy go na przykład importować, wpisując w&nbsp;IDLE jego nazwę bez końcówki *.py* -- w&nbsp;naszym przypadku `import witaj`.  
+W&nbsp;jakim folderze byśmy nie byli, odpali nam nasz kod:
 
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/3-2-witaj-import.webp" width="400px" alt="Konsola z IDLE z wpisaną komendą 'import witaj' i wyświetlonymi poniżej słowami 'Witaj po ciemnej stronie'."/>
 
-Jeśli chcemy wykorzystać w&nbsp;pełni dostępność skryptu z&nbsp;każdego miejsca, to **warto odejść od IDLE'a na rzecz PowerShella**. PS-a można łatwo odpalić w&nbsp;każdym folderze. Nawet jeśli nie ma tam żadnych skryptów Pythona. IDLE'a nie.
+Jeśli chcemy wykorzystać w&nbsp;pełni dostępność skryptu z&nbsp;każdego miejsca, to **warto odejść od IDLE'a na rzecz PowerShella**.  
+Ten drugi jest silniej zintegrowany z&nbsp;Windowsem i&nbsp;można go szybko uruchomić w&nbsp;każdym folderze. Nawet jeśli nie ma tam żadnych skryptów Pythona.
 
-Jak wygląda praca z&nbsp;PowerShellem? Możemy w&nbsp;Eksploratorze przejść do dowolnego folderu, włączyć PowerShella i&nbsp;wpisać:
+Jak wygląda praca z&nbsp;PowerShellem?
+
+* Uruchamiamy domyślny Eksplorator Plików.
+* Przechodzimy do dowolnego folderu;
+* Wybieramy z&nbsp;górnego paska `Plik`, a&nbsp;następnie `Otwórz program Windows PowerShell`.
+
+I tyle! Pojawi się okno PowerShella, a&nbsp;folderem aktywnym będzie ten, w&nbsp;którym byliśmy, klikając w opcję. Wpisujemy:
 
 ```
 python -m witaj
@@ -165,23 +173,23 @@ Pamiętajmy o&nbsp;`-m`, bo bez tego nie zadziała. A&nbsp;jeśli działa, to wy
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/3-3-witaj-powershell.webp" width="400px" alt="PowerShell z wpisaną powyższą komendą i wyświetlonymi pod nią słowami 'Witaj po ciemnej stronie'."/>
 
-W ten sposób, po prostu dorzucając skrypty do konkretnego folderu, mamy do nich szybki dostęp.
+W ten sposób, po prostu dorzucając skrypty do konkretnego folderu, mamy do nich szybki dostęp. Możemy pozostać przy domyślnym pythonowym `site_packages`, i jedynie przypiąć gdzieś skrót do tego folderu.
 
-Jeśli chcemy pozostać przy dorzucaniu plików do `site_packages`, to można sobie gdzieś przypiąć skrót do tego folderu. Ale możemy też wydzielić osobny folder na swoje pythonowe skrypty. Pokażę to w&nbsp;kolejnym kroku.
+Ale możemy też wydzielić osobny folder na swoje pythonowe skrypty. Pokażę to w&nbsp;kolejnym kroku.
 
 ## 3. Stworzenie własnego folderu na skrypty
 
-Wrzucanie wszystkiego do `site_packages` ma jedną drobną wadę -- nasze skrypty oraz skrypty pobierane z&nbsp;zewnątrz są w&nbsp;tym folderze wymieszane. Łatwo o&nbsp;bałagan. 
+Wrzucanie wszystkiego do folderu `site_packages` ma pewną wadę -- nasze autorskie skrypty są wymieszane z&nbsp;tymi pobieranymi z&nbsp;zewnątrz. Łatwo o&nbsp;bałagan. 
 
-Co by było, gdybyśmy chcieli przenieść swoje skrypty na inny komputer? Trzeba by je specjalnie wybierać.  
-A gdybyśmy po prostu brali cały folder `site_packages` i&nbsp;go kopiowali z&nbsp;jednej instalacji Pythona do drugiej? Niektóre większe moduły by mogły nie działać, bo potrzebują też innych rzeczy.
+Co by było, gdybyśmy chcieli przenieść swoje skrypty na inny komputer? Musielibyśmy ich specjalnie wypatrywać. Niedobrze.  
+A gdybyśmy po prostu brali cały folder `site_packages` i&nbsp;go kopiowali z&nbsp;jednej instalacji Pythona do drugiej? Też źle. Niektóre większe moduły by mogły nie działać, bo potrzebują też innych rzeczy.
 
 Są rozwiązania prowizoryczne, takie jak wyróżnianie swoich skryptów nietypowymi nazwami (np. dawanie inicjałów na początku).  
 Ale **można też wydzielić na nie osobny folder**. Dzięki temu będzie nam łatwiej je znaleźć, zmieniać i&nbsp;porządkować. Zróbmy to!
 
 Najpierw tworzymy nowy folder, gdzie tylko chcemy -- u&nbsp;mnie *C:\Skrypty*. Kopiujemy ścieżkę do tego folderu (np. sposobem z&nbsp;poprzednich punktów).
 
-Potem przechodzimy do `site_packages`. Tam tworzymy nowy plik tekstowy. O&nbsp;dowolnej nazwie, bo liczy się tylko treść i&nbsp;rozszerzenie. Ja go nazwałem *moje.txt*.
+Teraz trzeba dać znać Pythonowi, że ma patrzeć do naszego folderu. Przechodzimy do `site_packages` i tworzymy tam nowy plik tekstowy. O&nbsp;dowolnej nazwie, bo liczy się tylko treść i&nbsp;rozszerzenie. Ja go nazwałem *moje.txt*.
 
 Otwieramy ten plik w&nbsp;Notatniku i&nbsp;wklejamy tam ścieżkę do naszego folderu. Zapisujemy. Zmieniamy rozszerzenie pliku z&nbsp;*.txt* na *.pth*. Całość wygląda tak:
 
@@ -215,7 +223,7 @@ Do tej pory pokazywałem, że można włączyć PowerShella przez klikanie menu 
 Przede wszystkim podczas używania Eksploratora można nacisnąć `Shift + prawy przycisk myszy` na obszarze z&nbsp;listą plików.  
 Kiedy klikamy z&nbsp;*Shiftem*, to **pokazuje się jedna dodatkowa opcja** -- *Uruchom w&nbsp;programie Windows PowerShell*.
 
-Wada tej metody? Trzeba uważać, żeby zamiast pustej przestrzeni nie kliknąć jakiegoś pliku, bo pokazałyby się inne opcje. A&nbsp;to może być trudne, jeśli w&nbsp;folderze mamy ich dużo.
+Wada tej metody? Trzeba uważać, żeby zamiast pustej przestrzeni nie kliknąć jakiegoś pliku, bo pokazałyby się inne opcje. A&nbsp;to może być trudne, jeśli folder jest zapchany plikami.
 
 Poza tym da się jeszcze szybciej! Skrótami klawiszowymi, które niestety zależą od ustawionego języka Windowsa.  
 W&nbsp;polskiej wersji naciskamy `Alt+P+O`, w&nbsp;angielskiej `Alt+F+O` (*O* jak *Open*).  
@@ -224,9 +232,9 @@ Dzięki temu mamy PowerShella w&nbsp;sekundę, w&nbsp;dowolnym folderze!
 {% include info.html type="Porada" text="Jeśli macie wersję Windowsa w&nbsp;innym języku, to możecie po prostu przytrzymać `Alt` przez dłuższą chwilę, żeby wyświetliły się litery odpowiadające różnym elementom Eksploratora.  
 Potem patrzycie, jakie klawisze odpowiadają opcji `Plik` i&nbsp;otwieraniu PowerShella. To te klawisze musicie nacisnąć w&nbsp;swojej wersji." trailer="<p class='bigspace' style='margin-bottom:0px'><img src='/assets/tutorials/python-extended/5-1-skroty-powershell.webp' alt='Zrzut ekranu z Eksploratora' width='400px'/></p>"%}
 
-Z&nbsp;kolei żeby **szybko włączyć PowerShella w&nbsp;jego domyślnym miejscu** -- bez otwierania Eksploratora Plików -- naciskamy `Przycisk z ikoną Windowsa+X`, żeby wyświetlić okno z&nbsp;opcjami. A&nbsp;następnie `I` (literę podkreśloną w&nbsp;nazwie odpowiadającej PowerShellowi).
+Z&nbsp;kolei żeby **szybko włączyć PowerShella w&nbsp;jego domyślnym miejscu** -- bez otwierania Eksploratora Plików -- naciskamy `Przycisk z ikoną Windowsa + X`, żeby wyświetlić okno z&nbsp;opcjami. A&nbsp;następnie `I` (literę podkreśloną w&nbsp;nazwie odpowiadającej PowerShellowi).
 
-Przydaje się to, jeśli chcemy szybko odpalić przez PS skrypt robiący zawsze to samo, niezależnie od folderów. U&nbsp;mnie jest to na przykład skrypt otwierający w&nbsp;Firefoksie kilka stron z&nbsp;pogodą w&nbsp;górach.
+Przydaje się to, jeśli chcemy szybko odpalić przez PS skrypt, który robi zawsze to samo, niezależnie od folderów. U&nbsp;mnie jest to na przykład skrypt otwierający w&nbsp;Firefoksie kilka stron z&nbsp;prognozą pogody.
 
 ## 5. Skrócenie komend dzięki plikowi BAT
 
@@ -239,7 +247,7 @@ To co najmniej 11 znaków ze spacjami, nawet jeśli skrypt będzie miał najkró
 Czy da się to przyspieszyć jeszcze bardziej? Bez grzebania w&nbsp;systemie i&nbsp;zmieniania czegoś na stałe?
 
 Odpowiedź: tak. Da się zejść **do jednego znaku** w PowerShellu.  
-Ale w&nbsp;tym celu trzeba zrobić lekką incepcję i&nbsp;stworzyć **skrypt Windowsa odpalający skrypt Pythona**.
+Ale w&nbsp;tym celu trzeba zrobić lekką incepcję i&nbsp;stworzyć *skrypt Windowsa odpalający skrypt Pythona*.
 
 Okazuje się, że Windows w tzw. *zmiennej PATH* przechowuje listę folderów, do których ma szybki dostęp. To tam trzeba się wprosić.  
 Mam dobrą wiadomość: **nie musimy w&nbsp;niczym grzebać, Python sam podczas instalacji dodaje do _PATH_ kilka folderów**. Proponuję dorzucić się do jednego z nich, `Scripts`.
@@ -257,7 +265,7 @@ python -m witaj
 ```
 
 (Pierwsza linijka jest tu po to, żeby skrypt *.bat* nie wyświetlał niczego od siebie, a&nbsp;jedynie rzeczy od Pythona.  
-A druga linijka to dokładnie ta sama komenda, jaką byśmy sami odpalali skrypt Pythona przez PowerShell).
+A druga linijka to dokładnie taka komenda, jaką sami byśmy wpisali, żeby uruchomić skrypt Pythona przez PowerShell).
 
 Całość wygląda tak:
 
@@ -269,10 +277,11 @@ Zmieniamy nazwę pliku na *z.bat*. Od teraz po otwarciu PowerShella dałoby się
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/6-3-witaj-bat.webp" width="300px" alt="Zrzut ekranu z PowerShella pokazujący wpisaną komendę 'z' i wyświetlone pod spodem słowa 'Witaj po ciemnej stronie'."/>
 
-Gdybyśmy chcieli jeszcze bardziej ułatwić pracę, to już by mogło wymagać grzebania w&nbsp;systemie albo instalacji dodatków, takich jak AutoHotKey. Dlatego na tym etapie się zatrzymam.
+Gdybyśmy chcieli jeszcze bardziej ułatwić pracę -- na przykład uruchamiać coś jednym klawiszem, bez włączania PowerShella -- to już by mogło wymagać grzebania w&nbsp;systemie albo instalacji dodatków, takich jak *AutoHotKey*. Dlatego na tym etapie się zatrzymam.
 
-{% include info.html type="Porada" text="Jeśli chcecie, żeby wasze pliki BAT miały bardziej opisowe nazwy, a&nbsp;nie jednoliterkowce, to da się to zrobić bez większej straty szybkości. Upewnijcie się tylko, że ich nazwy nie będą kolidowały z&nbsp;innymi programami dostępnymi przez PATH.  
-Jeśli po wpisaniu w&nbsp;PowerShellu pierwszych liter nazwy naciśniecie `Tab` (a&nbsp;żaden inny plik z&nbsp;PATH się tak samo nie zaczyna), to wstawi Wam pełną nazwę pliku."%}
+{% include info.html type="Porada" text="Jeśli chcecie, żeby wasze pliki BAT miały bardziej opisowe nazwy zamiast jednoliterkowych, a&nbsp;przy tym chcecie dość szybko je wpisywać, to istnieje przydatna opcja.  
+Jeśli Wasz plik jest w którymś z folderów z `PATH`, to po wpisaniu w&nbsp;PowerShellu pierwszych liter nazwy możecie nacisnąć `Tab`. Wstawi Wam pełną nazwę pliku.  
+Upewnijcie się tylko, że nazwa Waszego pliku nie koliduje z&nbsp;innymi programami dostępnymi przez PATH. Polecam dać coś mało ogólnego, np. dodać na końcu nazwy swoje inicjały."%}
 
 ## Podsumowanie
 
