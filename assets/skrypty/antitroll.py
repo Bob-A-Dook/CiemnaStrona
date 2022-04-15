@@ -161,11 +161,9 @@ class LinkParser(HTMLParser):
         elif tag == 'a':
             for attr, value in attrs:
                 if attr in ('href', 'data-uri'):
-                    print(value)
                     if value.startswith('/'): # Relative link
                         u = urlparse( self.website_url )
                         value = f'https://{u.netloc}{value}'
-                        print('Amended: ', value)
                     self.links.append( value )
 
     
