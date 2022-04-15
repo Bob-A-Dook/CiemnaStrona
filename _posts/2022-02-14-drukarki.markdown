@@ -97,7 +97,7 @@ Badacze z&nbsp;Uniwersytetu w&nbsp;Dreźnie zbadali wydruki z&nbsp;ponad 106 mod
 <img src="/assets/posts/drukarki/kropki-wzory.jpg" alt="Trzy zrzuty ekranu pokazujące różne warianty rozmieszczenia kropek: wyspy sąsiadujących punktów, równomiernie rozmieszczoną siatkę oraz ułożenie w&nbsp;liniach ukośnych."/>
 
 {:.figcaption}
-Źródło: prezentacja z&nbsp;YouTube'a, przeróbki moje.
+Źródło: [prezentacja](https://www.youtube.com/watch?v=riqLLXFwTu4) z&nbsp;YouTube'a, przeróbki moje.
 
 W przypadku niektórych drukarek -- jak *Xerox DocuColor* -- udało się nawet rozpracować, jakie informacje są zawarte we wzorach! Spójrzmy na przykład pojedynczej punktowej wysepki:
 

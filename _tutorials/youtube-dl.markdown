@@ -152,14 +152,25 @@ Czasami to chwilowy zgrzyt i&nbsp;wystarczy spróbować ponownie. Strzałka w&nb
 
 Innym razem sam filmik ma jakieś ograniczenia. Na przykład te wprowadzone przez Google, żeby wyciągnąć od nas zdjęcie dowodu albo numer konta. Zwykle omijam je szerokim łukiem, więc chwilowo nie wiem, czy jest jakieś proste obejście.
 
+# Film niedostępny/usunięty
+
+W takim przypadku *youtube-dl* wyświetli `Video unavailable`.  
+Oznacza to zapewne, że film został usunięty między momentem wejścia na jego stronę a momentem skopiowania linka do konsoli.  
+Może usunął go autor, może YouTube'owa automatyczna moderacja.
+
+Wyjątkowy pech. Zdarzyło mi się to dosłownie raz, niedawno.
+
+A Wasz film? Jeśli macie nadal otwartą stronę YouTube'a, to zapewne jesteście w stanie go nadal oglądać (serwis jeszcze będzie przez chwilę podtrzymywał połączenie, zanim usunie sam plik). Być może możecie go nawet odzyskać z pamięci podręcznej.
+
+W każdym razie w takiej sytuacji gra się toczy o wysoką stawkę -- **gdy zamkniecie okno YouTube'a z tym filmem, to możecie już go nie zobaczyć**. Jeśli jest fajny, a nie wiecie jak wyłuskać z pamięci podręcznej, to może warto nawet odpalić jakieś *OBS Studio* i nagrać ekran wraz z dźwiękiem :wink:
+
 # Inne błędy
 
 Z czasem trafi się jakiś nieoczekiwany błąd. Może wynikać z&nbsp;tego, że **co jakiś czas YouTube wprowadza większe zmiany za kulisami, przez co psuje _youtube-dl_**.
 
 Ale jego autorzy zwykle szybko nadganiają. Wtedy po prostu bierzemy od nich najnowszą wersję i&nbsp;zastępujemy nią poprzednią.
 
-To równocześnie jeden z&nbsp;argumentów przemawiających za tym, żeby brać wersję konsolową. Łatwiej być na bieżąco.
+To równocześnie jeden z&nbsp;argumentów przemawiających za tym, żeby korzystać z wersji konsolowej, a nie graficznej. Łatwiej być na bieżąco.
 
 Wszelkie nakładki graficzne może i&nbsp;są przyjaźniejsze, ale nadal zależą od podstawowego *youtube-dl*. Gdy Google coś popsuje, to najpierw źródło musi naprawić to u siebie, a&nbsp;potem autorzy wersji graficznej (którzy mogą np. być akurat na wakacjach) po swojej stronie.
-
 
