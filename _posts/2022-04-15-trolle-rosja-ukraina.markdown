@@ -25,7 +25,7 @@ Po krótkim omówieniu sytuacji pokażę kilka sposobów na znajdowanie i&nbsp;z
 <img src="/assets/posts/trolle/demon-slayer-trolle-baner.jpg" alt="Kadr z&nbsp;anime pokazujący postać wykonującą znad głowy płomienne cięcie uderzające w&nbsp;kark drugiej postaci. Postać zadająca cios ma twarz zakrytą logiem tego bloga, a&nbsp;postać uderzona ma zamiast twarzy rysunkową twarz typu trollface, tu w&nbsp;wersji przestraszonej."/>
 
 {:.figcaption}
-Źródło: anime *Demon Slayer* (jap. *Kimetsu na Yaiba*). Przeróbki moje.
+Źródło: anime *Demon Slayer* (jap. *Kimetsu no Yaiba*). Przeróbki moje.
 
 # Spis treści
 

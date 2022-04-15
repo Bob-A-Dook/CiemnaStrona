@@ -384,9 +384,10 @@ def launch_antitroll():
     (either from clipboard HTML, command line or directly pasted),
     opens the website for reporting trolls and saves supplementary data.
     '''
+    DEBUG = DEBUG_MODE
     if '-d' in argv:
         argv.remove('-d')
-        DEBUG_MODE = True
+        DEBUG = True
         
     data = get_link()
     if not data: return
@@ -404,7 +405,7 @@ def launch_antitroll():
     information = f'\n{text}:\n{link}\n'
     print( information )
 
-    if DEBUG_MODE: return # Do not save anything or open browser
+    if DEBUG: return # Do not save anything or open browser
     website_open( ANTITROLL_WEBSITE )
 
     log_folder = _get_log_folder()
