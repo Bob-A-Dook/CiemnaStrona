@@ -78,11 +78,11 @@ Ma takich automatów kilka:
 System nieprzenikniony, bezwzględny i&nbsp;-- jak zobaczymy -- nieraz zawodny.
 
 
-Nie mamy wglądu w&nbsp;te systemy, więc bardzo możliwe że każdy z&nbsp;nich składa się za kulisami z&nbsp;większej liczby podsystemów (na przykład osobni cenzorzy od filmów, opisów itp.). Oprócz nich są też różne algorytmy pomocnicze, mniej ciekawe z&nbsp;punktu widzenia tego wpisu.
+Nie mamy wglądu w&nbsp;te systemy, więc bardzo możliwe, że każdy z&nbsp;nich składa się za kulisami z&nbsp;większej liczby podsystemów (na przykład osobni cenzorzy od filmów, opisów itp.). Oprócz nich są też różne algorytmy pomocnicze, mniej ciekawe z&nbsp;punktu widzenia tego wpisu.
 
 {% include info.html
 type="Ciekawostka"
-text="Jednym z&nbsp;automatów mniej znanych szarym widzom jest wstawiacz reklam.  
+text="Jednym z&nbsp;automatów mniej znanych szarym widzom jest [wstawiacz reklam](https://support.google.com/youtube/answer/6175006?hl=pl).  
 Chodzi o&nbsp;to, że twórcy mogą wybierać, w&nbsp;jakim miejscu wstawić przerwy reklamowe. Jeśli nie chcą ich ustawiać ręcznie, to algorytm zrobi to za nich, szukając w&nbsp;ich filmikach w&nbsp;miarę spokojnych miejsc."
 %}
 
@@ -194,7 +194,7 @@ Streszczając rzeczy moim zdaniem ważniejsze:
 * Przy innych zwrotach nawiązujących do mniejszości seksualnych mamy loterię, ale ogólnie często obrywają demonetyzacją. Na pewno częściej niż Adolf H.
 * Czasem jedna literka, dająca liczbę mnogą, stanowi różnicę między łaską a&nbsp;niełaską autocenzora. Podobnie zamiana przymiotnika na rzeczownik.  
 Trochę nam to mówi o&nbsp;jego „stabilności”.
-* Zapewne istnieje swego rodzaju „karanie przez skojarzenie”. `Dick Cheney` to zwrot demonetyzowany prawdopodobnie tylko przez to, że algorytm ma pieprzne skojarzenia z&nbsp;imieniem.
+* Zapewne istnieje swego rodzaju „karanie przez skojarzenie”. `Dick Cheney` to zwrot demonetyzowany prawdopodobnie tylko przez to, że algorytm ma pieprzne skojarzenia z&nbsp;jego imieniem.
 
 Platt rozwinął temat w&nbsp;[filmiku z&nbsp;2021 roku](https://www.youtube.com/watch?v=_AFVlGnXMsc). Wspomina, że autorzy dostali możliwość oceniania własnych filmów w&nbsp;krótkich ankietach. W&nbsp;ten sposób mogą się dowiedzieć z&nbsp;wyprzedzeniem, czy pchają się ku demonetyzacji.  
 ...Ale potem ten sam film i&nbsp;tak weryfikują automaty, których ankiety nie obchodzą. Więc w&nbsp;praktyce jedyną zmianą jest odsianie najbardziej jaskrawych przypadków i&nbsp;danie twórcom iluzji kontroli.
@@ -215,8 +215,8 @@ Tylko że **twórca oryginału to dla YouTube'a ten, kto pierwszy zarejestruje t
 
 W 2012&nbsp;roku doszło do absurdalnej sytuacji, kiedy YouTube automatycznie [zablokował](https://science.slashdot.org/story/12/08/06/1613211/nasas-own-video-of-curiosity-landing-crashes-into-a-dmca-takedown) filmik wrzucony przez NASA. Którego autorem była... NASA.
   
-Zapewne dlatego, że NASA, jako organizacja bardziej naukowa, nie bawiła się w&nbsp;rejestrację filmu w&nbsp;bazie. A&nbsp;jednocześnie pozwoliła mediom go udostępniać.  
-Kiedy pracownicy Scripps Local News wrzucili na swój kanał filmik skopiowany od NASA, automatycznie wystąpili o&nbsp;*Content ID* (zapewne tak mieli ustawiony system). W&nbsp;ten sposób w&nbsp;systemie YouTube'a to oni stali się właścicielami. A&nbsp;NASA uznano za piratów i&nbsp;zablokowano ich filmik.
+Zapewne dlatego, że agencja kosmiczna, jako organizacja bardziej naukowa, nie bawiła się w&nbsp;rejestrację filmu w&nbsp;bazie. A&nbsp;jednocześnie pozwoliła mediom go udostępniać.  
+Kiedy pracownicy Scripps Local News wrzucili na swój kanał filmik skopiowany od NASA, automatycznie wystąpili o&nbsp;*Content ID* (zapewne tak mieli ustawiony system). W&nbsp;ten sposób w&nbsp;systemie YouTube'a to oni stali się właścicielami. A&nbsp;agencję uznano za piratów i&nbsp;zablokowano ich filmik.
 
 Nawet jeśli takie historie są rzadkie, wywołują swoisty efekt mrożący. Ludzie wolą działać zachowawczo niż użerać się z&nbsp;tym, czym Google im dowali.
 
@@ -227,7 +227,7 @@ Pokazuje krótki fragment programu i&nbsp;wspomina, że celowo zniekształcił m
 
 # Bany
 
-Ucięcie finansowania, blokowanie filmików. Jasne, bolesne kary i&nbsp;trochę może wkurzać, że decydują o&nbsp;nich automaty... Ale nadal będziemy na platformie, prawda? Możemy się odkuć kolejnymi filmami.
+Ucięcie finansowania, blokowanie filmików. Jasne; to bolesne kary i&nbsp;trochę może nas wkurzać, że decydują o&nbsp;tym automaty... Ale nadal będziemy na platformie, prawda? Możemy się odkuć kolejnymi filmami.
 
 Tylko że **algorytmy decydują również o&nbsp;banowaniu**. Naszym ostatecznym „być albo nie być”.  
 Co więcej, robią to na podstawie zawartości samych filmów. Nie jestem jakimś szczególnym *AI*-owcem, ale to jedno mogę powiedzieć z&nbsp;pewnością: analizowanie tytułów i&nbsp;słów kluczowych jest dużo łatwiejszym zagadnieniem niż „rozumienie” tego, co widać na filmach. A&nbsp;widzieliśmy, jak zawodne było to pierwsze.
@@ -240,7 +240,7 @@ Zresztą tylko spójrzmy na przykłady banów:
   > Obviously Youtube, in their usual style, will never tell us why his channel was deleted.
 
 * W&nbsp;2019 roku **usunęli tysiące filmików z&nbsp;Battlebotami**, czyli walki robotów zbudowanych przez majsterkowiczów. Algorytm sklasyfikował je jako... [walki zwierząt](https://www.cbr.com/youtube-reportedly-deleting-battlebot-videos-citing-animal-fighting-ban/).
-* Żona autora wątku [na forum](https://news.ycombinator.com/item?id=30401241), straciła swoje firmowe konto na YT, zawierające ponad 700&nbsp;filmów.  
+* Żona autora pewnego [wątku na forum](https://news.ycombinator.com/item?id=30401241) straciła swoje firmowe konto na YT, zawierające ponad 700&nbsp;filmów.  
 Dostała w&nbsp;krótkim czasie trzy ostrzeżenia, co poskutkowało natychmiastowym banem, bez czasu na reakcję. Oficjalnie za *cyber bullying*, choć filmy niczego takiego nie zawierały. I&nbsp;jakoś trzymały się spokojnie przez 7&nbsp;lat.
 * W&nbsp;ostatnim czasie [banowano konta popierające Ukrainę](https://news.ycombinator.com/item?id=30467384). Zapewne przez to, że były zgłaszane przez trollkonta, a&nbsp;liczba zgłoszeń to sygnał dla algorytmu.
 * I&nbsp;jeszcze więcej, i&nbsp;tak dalej. Polecam odwiedzić dowolny serwis i&nbsp;wyszukiwać zwrotów w&nbsp;stylu `youtube ai banned`.
@@ -264,15 +264,14 @@ Do tej pory istniała opcja dobrowolnej rezygnacji z&nbsp;reklam w&nbsp;swoich f
 
 W ten sposób twórca nic nie zarabiał -- choć zarobki były oddalone o&nbsp;parę kliknięć -- ale jego widzowie nie musieli oglądać reklam. YouTube też coś z&nbsp;tego miał; popularny kanał ściąga użytkowników, którym wyświetlają się propozycje innych filmów. Rośnie szansa, że odwiedzą też filmiki obudowane reklamami i&nbsp;zyskowniejsze dla YT.
 
-Ale jakiemuś menedżerowi z&nbsp;YouTube'a sytuacja zapewne spędzała sen z&nbsp;powiek. „No jak tak można -- móc dać reklamy, ale ich nie dawać?! Nie godzi się”. Zaczął lobbować za zmianą tego stanu rzeczy i&nbsp;wywalczył zmiany.
-
-Od teraz **jeśli ktoś nie włączy monetyzacji, to nie zarabia -- ale reklamy i&nbsp;tak są wyświetlane widzom**.
+Ale jakiemuś menedżerowi z&nbsp;YouTube'a sytuacja zapewne spędzała sen z&nbsp;powiek. „No jak tak można -- móc dać reklamy, ale ich nie dawać?! Nie godzi się”.  
+Wprowadzono zmiany. Od 2020 roku reklamy są [wyświetlane u wszystkich](https://www.forbes.com/sites/johnkoetsier/2020/11/18/youtube-will-now-show-ads-on-all-videos-even-if-creators-dont-want-them/). **Jeśli ktoś nie włączy monetyzacji, to po prostu nie zarabia**.
 
 Przeciw temu stanowi rzeczy zbuntowały się duże organizacje -- Blender Foundation (twórcy programu graficznego Blender) oraz MIT OpenCourseware (darmowe kursy oferowane przez Massachussets Institute of Technology, znaną uczelnię).
 
-Blender [na bieżąco informował](https://www.blender.org/media-exposure/youtube-blocks-blender-videos-worldwide/) o&nbsp;swoich przeprawach z&nbsp;Google'em. Ostatecznie udało im się wywalczyć brak reklam.
+Blender [na bieżąco informował](https://www.blender.org/media-exposure/youtube-blocks-blender-videos-worldwide/) o&nbsp;swoich przeprawach z&nbsp;Google'em. Ostatecznie, po ogłoszeniu realnych planów odejścia na inną platformę, udało im się wywalczyć wyjątek i&nbsp;brak reklam.
 
-Ale zanim to się stało... Czytelnicy poprzedniego wpisu być może pamiętają, jak kiedyś, podczas sporu z&nbsp;Viacomem, YouTube usunął niewinne filmiki i&nbsp;wyświetlił mylącą adnotację oczerniającą autorów? (Bo przedstawiającą naruszanie praw autorskich jako fakt, a&nbsp;nie możliwość).
+Ale zanim to się stało... Czytelnicy poprzedniego wpisu być może pamiętają, jak kiedyś, podczas sporu z&nbsp;Viacomem, YouTube usuwał niewinne filmiki i&nbsp;wyświetlał informacje oczerniające autorów? (Bo przedstawiające naruszanie praw autorskich jako fakt, a&nbsp;nie możliwość).
 
 Teraz zdarzyło się coś podobnego. Jak pisze Blender:
 
@@ -296,7 +295,7 @@ We wrześniu 2019&nbsp;roku YouTube [zmienił zasady na mniej przejrzyste](https
 
 Od teraz, podejmując decyzje o&nbsp;przyznaniu znaczka, YouTube bierze pod uwagę również rozpoznawalność poza samą platformą, podobieństwo nazw do innych kanałów... A&nbsp;właściwie bierze pod uwagę co chce, bo wspomniane kryteria są wymienione po słowie „wliczając”.
 
-Co więcej, nowe prawo ustanowione przez YT działa również wstecz. **Wiele dotąd zweryfikowanych kanałów straciło swój status**. Również takich, które nosiły znaczek od wielu lat.  
+Co więcej, nowe prawo ustanowione przez YT działa również wstecz. **Wiele dotąd zweryfikowanych kanałów straciło swój status**. Również takich, które nosiły znaczek od lat.  
 Więc sorry, twórcy opijający właśnie 100&nbsp;000 subskrybentów i&nbsp;znaczek jakości. Wasza walka i&nbsp;tak nigdy nie miała sensu, bo Wujaszek was nie lubi i&nbsp;zmienił reguły gry. Od teraz znaczek będzie głównie dla rozpoznawalnych, globalnych marek.
 
 ## 2021&nbsp;– nagroda dla pani prezes
@@ -308,7 +307,7 @@ Do tej pory unikałem przywoływania konkretnych osób, traktując Google jak wi
 Na forum HackerNews znalazłem ciekawą [wymianę komentarzy](https://news.ycombinator.com/item?id=26882120), mówiącą o&nbsp;rywalizacji Google Video z&nbsp;YouTube'em (kiedy ten jeszcze był niezależny). Nie jest to oczywiście źródło w&nbsp;100% pewne, ale zawiera szczegóły techniczne, które da się zweryfikować.
 
 W tamtych czasach za Google Video odpowiadała właśnie Susan Wojcicki. Jej koncepcja od samego początku **kręciła się wokół współpracy z&nbsp;dużymi markami**.  
-Jak analizuje autor komentarza, to między innymi przez to Google Video dostawało po tyłku. Zaś bardziej zwinny, „społecznościowy” YouTube ich wyprzedzał. Google się wkurzył, sięgnął do kieszeni i&nbsp;po prostu rywala kupił. A&nbsp;do opieki nad nim w&nbsp;2014 roku oddelegowano panią Wojcicki.
+Jak analizuje autor komentarza, to między innymi przez to Google Video dostawało po tyłku. Zaś bardziej zwinny, „społecznościowy” YouTube ich wyprzedzał. Google się wkurzył, sięgnął do kieszeni i&nbsp;po prostu kupił swojego rywala. A&nbsp;do opieki nad nim w&nbsp;2014 roku oddelegowano panią Wojcicki.
 
 Ale ludzie pozostaną ludźmi. Czy możliwe, że pani prezes zachowała z&nbsp;tamtych czasów pewien uraz? Chęć udowodnienia, że to jej pomysł na platformę dla gigantów był tym właściwym? 
 
@@ -349,7 +348,7 @@ Poza tym ta „ochrona mniejszych graczy” dziwnym trafem nie obowiązuje tylko
 * wspomniany Rewind;
 * reklama Pepsi przedstawiająca protesty jako [radosny happening](https://www.nbcnews.com/news/nbcblk/pepsi-ad-kendall-jenner-echoes-black-lives-matter-sparks-anger-n742811) z&nbsp;celebrytami;
 * [reklama Gillette](https://www.youtube.com/watch?v=UYaY2Kb_PKI), mentorskim tonem mówiąca mężczyznom, że muszą się zmienić.
-* [trailer](https://www.youtube.com/watch?v=a7ZpQadiyqs) gry „Battlefield V”, za odejście od realizmu na rzecz kiczowatej rozrywki.
+* [trailer](https://www.youtube.com/watch?v=a7ZpQadiyqs) gry „Battlefield V”, odchodzący od realizmu na rzecz kiczowatej rozrywki.
 
 Nie odnoszę się do samych filmów. Ale jest faktem, że wywołały kontrowersje i&nbsp;zebrały wiele łap w&nbsp;dół, widocznych publicznie. A&nbsp;teraz ich liczba zmalała do zera, została jedynie w&nbsp;kronikach.  
 W przypadku przyszłych filmów nie będzie nawet tej historii. Od teraz pod każdą nowinką od dużych reklamodawców będą wyłącznie wyrazy uznania.
@@ -361,7 +360,9 @@ text="YouTube wyłączył również możliwość dodawania łapek pod ich oficja
 
 ## Co możemy zrobić
 
-Czas na chwilę się wynurzyć z&nbsp;brudów wokół sprawy YouTube'a i&nbsp;pomyśleć o&nbsp;jakimś aktywnym działaniu. Bo samej platformy raczej nie unikniemy -- nawet gdybyśmy chcieli to robić dla zasady. Czasem ktoś znajomy podeśle link, innym razem to jedyne miejsce z&nbsp;interesującymi nas informacjami.
+Czas na chwilę się wynurzyć z&nbsp;brudów wokół YouTube'a i&nbsp;pomyśleć o&nbsp;jakimś aktywnym działaniu.
+
+Samej platformy raczej nie unikniemy -- nawet gdybyśmy chcieli to robić dla zasady. Czasem ktoś znajomy podeśle link, innym razem będzie to jedyne miejsce z&nbsp;interesującymi nas informacjami.
 
 Dlatego, choć YouTube'a raczej nie zmienimy, możemy zmienić swoje podejście do niego.
 
@@ -377,7 +378,7 @@ Aby zmienić ustawienia na korzystniejsze dla nas, wchodzimy na stronkę i&nbsp;
 
 Poza tym zamiast aplikacji warto używać wersji przeglądarkowej (*www.youtube.com*). To uniwersalna zasada, że **aplikacja ma dostęp do znacznie większych ilości danych**. Używając przeglądarki, ograniczamy ilość przekazywanych informacji.
 
-Jeśli nie chcemy wiązać jakichś oglądanych filmów z&nbsp;naszymi typowymi zwyczajami, to warto odwiedzić YouTube'a w&nbsp;trybie anonimowym/incognito (`Ctrl`+`Shift`+`P` w&nbsp;Firefoksie).
+Jeśli nie chcemy wiązać jakichś oglądanych filmów z&nbsp;naszymi typowymi zwyczajami, to warto odwiedzić YouTube'a w&nbsp;trybie anonimowym/incognito (`Ctrl`+`Shift`+`P` w&nbsp;Firefoksie, `Ctrl`+`Shift`+`N` w Chromie; można też przeklikać się przez opcje).
 
 # Youtube-dl 
 
@@ -394,7 +395,7 @@ Wbrew nazwie działa na wielu stronkach, w&nbsp;tym bardziej... prywatnych :wink
 
 {% include info.html
 type="Porada"
-text="Szybkość pobierania przez `youtube-dl` jest dość mocno ograniczona. Istnieje jego szybsza wersja, wolna od tego limitu, ale jej nie testowałem.  
+text="Szybkość pobierania przez `youtube-dl` jest dość mocno ograniczona. Istnieje jego [szybsza wersja](https://github.com/yt-dlp/yt-dlp), wolna od tego limitu, ale jej nie testowałem.  
 Oprócz tego, jeśli ktoś bardzo nie lubi konsoli, istnieją też nakładki graficzne na program. Ale również ich nie sprawdzałem."
 %}
 
@@ -418,7 +419,7 @@ Co do *NewPipe'a* nie mam pewności -- ale może *New* jako rym do *You* i&nbsp;
 Jeśli chodzi o&nbsp;alternatywne strony, osobiście z&nbsp;nich nie korzystałem, więc ciężko mi coś polecić. Ale podzielę się pewnym istotnym rozróżnieniem.
 
 * Tak zwane *alternatywne frontendy* **zawierają dokładnie te filmy co YouTube**, ponieważ są swego rodzaju pośrednikiem, a&nbsp;swoje zapytania wysyłają do głównego serwisu.
-* Oprócz nich są też kompletnie niezależne strony, jak *Vimeo* czy *Peertube*. Rzadko kiedy znajdziemy tam te same filmy co na YouTubie. Co może być zarówno wadą, jak i&nbsp;zaletą.  
+* Oprócz nich są też kompletnie niezależne strony, jak Vimeo czy Peertube. Rzadko kiedy znajdziemy tam te same filmy co na YouTubie. Co może być zarówno wadą, jak i&nbsp;zaletą.  
   Nie zdziwmy się, jeśli wśród ich filmów będzie sporo teorii spiskowych. To efekt tego, że ku takim stronom zwracają się często osoby zbanowane na YT, a&nbsp;przy tym zdeterminowane.  
   Ale to nie wina samych platform i&nbsp;nadal można na nich znaleźć fajne rzeczy. 
 
