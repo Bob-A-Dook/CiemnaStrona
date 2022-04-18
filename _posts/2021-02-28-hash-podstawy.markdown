@@ -32,12 +32,21 @@ Nie będę tu o&nbsp;nim pisał od strony technicznej, bo: a) wpis byłby długi
 
 Bardziej oficjalną (ale wciąż w&nbsp;miarę przystępną) definicję znajdziecie na przykład [na Wikipedii](https://pl.wikipedia.org/wiki/Funkcja_skr%C3%B3tu).
 
-W praktyce haszowanie polega na tym, że mamy funkcję. Czyli fragment kodu. Kiedy użyjemy tej funkcji na jakichś danych, to je przetworzy i&nbsp;wypluje pewien ciąg znaków.
+W praktyce haszowanie polega na tym, że mamy funkcję. Czyli fragment kodu. Kiedy użyjemy tej funkcji na jakichś danych, to je przetworzy i&nbsp;wypluje pewien ciąg znaków.  
+Nasza funkcja ma dwie kluczowe właściwości:
 
-Ma dwie kluczowe właściwości:
-
-* Póki wrzucamy dokładnie takie same dane, otrzymujemy dokładnie taką samą rzecz.
+* Póki wrzucamy w nią identyczne dane, otrzymujemy dokładnie taki sam ciąg znaków.
 * ...Ale **jeśli wrzucimy inne dane, to wypluje coś całkiem innego**.
+
+Jeśli jesteście wzrokowcami, to może lepiej to wyrazi mój bidny autorski schemat:
+
+{:.figure .bigspace}
+<img src="/assets/posts/haszowanie/hash-schemat.jpg" alt="Schemat pokazujący parę przykładów tekstu poddawanych haszowaniu. Funkcja haszująca jest tu zobrazowana jako zsyp fabryczny."/>
+
+Zwróćcie uwagę, że w dwóch przypadkach mamy napis *Tekst*, a&nbsp;w&nbsp;trzecim *Text*, przez iks. Ten sam tekst, poddany działaniu tej samej funkcji, daje ten sam wynik. Ale zmiana paru literek daje coś całkiem innego.  
+Napis `SHA1` na zsypach to z&nbsp;kolei jedna z&nbsp;najpopularniejszych funkcji haszujących.
+
+A jeśli chcecie przykład z&nbsp;kodem, to tutaj mam mały w&nbsp;języku Python:
 
   {:.figure}
   <img src="/assets/posts/haszowanie/python-hash.webp" alt="Konsola interaktywna Pythona, linijka po linijce. Widać że po użyciu funkcji hash na tekście 'Ciemna strona' wyświetliło dwa razy taką samą długą liczbę. Ale kiedy użyto jej na tekście z&nbsp;literą 'o' zmienioną na '0', to liczba jest całkiem inna." width="400px"/>
@@ -45,12 +54,18 @@ Ma dwie kluczowe właściwości:
   {:.figcaption}
   Wystarczyła zmiana jednej litery, żeby funkcja haszująca dała zupełnie inny wynik.
 
-Te dwie cechy sprawiają, że obliczone hasze są idealne do porównywania, czy dwie rzeczy są dokładnie tym samym.
+Właściwości funkcji sprawiają, że obliczone hasze są idealne do porównywania, czy dwie rzeczy są dokładnie tym samym.
 
-Poza tym funkcja haszująca **działa tylko w&nbsp;jedną stronę**. Praktycznie nie da się na podstawie uzyskanego hasza ustalić, jakie dane mieliśmy na początku.
+Kolejna ważna sprawa: funkcja haszująca działa tylko w&nbsp;jedną stronę. Praktycznie **nie da się na podstawie hasza ustalić, jakie dane mieliśmy na początku**.
 
-Dzięki tej własności możemy bez obaw, jawnie, wymieniać się haszami. Nie dojdzie do tego, że ktoś z&nbsp;nich wyczyta pierwotne informacje -- takie jak nasze hasła albo treść magisterki.  
-(Metody odwracania haszy istnieją, ale, nawet dla krótkich haseł, są [niesamowicie niewydajne](https://pl.wikipedia.org/wiki/T%C4%99czowe_tablice)).
+Dzięki tej własności świat się nie zawali, jeśli ktoś zobaczy hasz jakichś naszych danych. Nie dojdzie do tego, że ktoś z&nbsp;nich wyczyta pierwotne informacje -- takie jak treść naszej pracy magisterskiej, którą wrzuciliśmy w Antyplagiat.
+
+{% include info.html
+type="Uwaga"
+text="Jeśli mówimy o&nbsp;haszach krótkich haseł, warto jednak dmuchać na zimne i&nbsp;ustawiać coś ambitniejszego niż `admin` albo `dupa`.  
+Ktoś mający hasz naszego hasła -- bez samego hasła -- mógłby je ustalić metodą prób i&nbsp;błędów. Po kolei haszując wszelkie możliwe teksty i&nbsp;sprawdzając, czy wynik zgadza się z&nbsp;naszym haszem. Ale takie metody, nawet dla krótkich haseł, są [niesamowicie niewydajne](https://pl.wikipedia.org/wiki/T%C4%99czowe_tablice).  
+Jeśli mówimy o haszowaniu dłuższych tekstów, to raczej bym się nie obawiał, że ktokolwiek odzyska treść. Zaznaczam przy tym, że cyberbezpieczeństwo to nie moja działka."
+%}
 
 Jako wisienka na torcie jeszcze to, że [hasz ma stałą długość](https://crypto.stackexchange.com/questions/2144/does-the-sha-hash-function-always-generate-a-fixed-length-hash), niezależnie od rozmiaru danych wejściowych. Możemy więc łatwo ścisnąć treść całego listu, całej książki, a&nbsp;nawet całej biblioteki w&nbsp;krótki hasz. I&nbsp;przesłać znajomym w&nbsp;jednej wiadomości, na pewno się ucieszą.
 
@@ -112,7 +127,7 @@ Jeśli jednak chcemy sprawdzić hasz czegoś dłuższego, jak cały plik, możem
 
 # Jak to zrobić na Windowsie?
 
-Najpier otwieracie Eksplorator (ikona <img style="display:inline-block" src="/assets/posts/haszowanie/eksplorator-ikona.webp" alt="Żółta ikona Eksploratora Windowsa"/>).
+Najpierw otwieracie Eksplorator (ikona <img style="display:inline-block" src="/assets/posts/haszowanie/eksplorator-ikona.webp" alt="Żółta ikona Eksploratora Windowsa"/>).
 
 Potem przechodzicie do dowolnego folderu z&nbsp;jakimś plikiem.  
 Na potrzeby pokazu stworzyłem folder *hash_test*, a&nbsp;w&nbsp;nim jedną rzecz -- *plik testowy.txt*, zawierający jedynie słowa „Jakiś tekst”:
@@ -227,12 +242,10 @@ Haszy możecie też użyć, żeby **przekazać pewną informację bez ujawnienia
 
 Powiedzmy, że macie przeczucia co do jakiejś sprawy z&nbsp;życia, która może rypnąć. Dowolnej. Na przykład wierzycie, że Żwirek spiskuje przeciw Muchomorkowi.
 
-Z jednej strony nie chcecie mówić o&nbsp;tym wprost, na wypadek gdyby te przeczucia jednak były mylne. Gra Pascala i&nbsp;te sprawy.
-
+Z jednej strony nie chcecie mówić o&nbsp;tym wprost, na wypadek gdyby te przeczucia jednak były mylne. Jak w grze Pascala -- działanie błędne bolałoby bardziej niż brak działania.  
 Z drugiej -- jeśli przyznacie się dopiero po fakcie, że to przeczuwaliście, to nie zostaniecie wzięci na serio. Nie chcecie też słać anonimów i&nbsp;potem przekonywać, że były od was.
 
-Jak to rozwiązać?
-
+Jak to rozwiązać?  
 Odpowiedź: zapisujecie swoje przeczucia w&nbsp;jakimś pliku tekstowym. Robicie `Get-FileHash 'WASZ_PLIK'`, żeby uzyskać jego hasz.
 
 Plik tekstowy odkładacie w&nbsp;bezpieczne miejsce i&nbsp;**pod żadnym pozorem go nie zmieniacie. Ani spacji**.
@@ -240,7 +253,7 @@ Plik tekstowy odkładacie w&nbsp;bezpieczne miejsce i&nbsp;**pod żadnym pozorem
 Natomiast **sam hasz kopiujecie i&nbsp;wysyłacie** osobom, których dotyczy sytuacja. Zapewne zbierając szereg reakcji „WTF”, ale co tam.
 
 Jeśli Wasze przewidywania okażą się błędne, to możecie nigdy nie wracać do sprawy tego dziwnego tekstu, który wysłaliście.  
-Jeśli natomiast były słuszne, to dosyłacie też oryginalny plik. I&nbsp;pokazujecie, że odpalenie na nim `Get-FileHash` daje dokładnie ten sam hasz, który wysłaliście wcześniej.
+Jeśli natomiast były słuszne, to dosyłacie też oryginalny plik. I&nbsp;pokazujecie, że odpalenie na nim `Get-FileHash` daje dokładnie ten sam hasz, który wysłaliście wcześniej. A hasz jest nie do podrobienia.
 
 Wniosek: przemyślenia opisane w&nbsp;pliku mieliście jeszcze przed całym zajściem. Wiedzieliście, co się kroi.
 
