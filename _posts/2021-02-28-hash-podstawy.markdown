@@ -67,7 +67,7 @@ Ich przykłady w&nbsp;naturze:
 * Tworzenie wydajnych programów
 
   Często program musi zrobić coś złożonego z&nbsp;każdym z&nbsp;wielu elementów. Ale co, jeśli sporo z&nbsp;nich ma identyczne właściwości? Nie ma sensu za każdym razem liczyć wszystkiego od nowa -- **można policzyć raz, zapamiętać wynik i&nbsp;przechować go na później**!  
-  W&nbsp;tej sytuacji często stosuje się hasze, ponieważ sprowadzają kilka wartości do jednej liczby. Po każdym wykonaniu działań na nowej rzeczy zapisujemy gdzieś parę `hasz-wynik`.  
+  W&nbsp;tej sytuacji często stosuje się hasze, ponieważ sprowadzają kilka wartości do jednej liczby. Po każdym wykonaniu działań na nowej rzeczy nasz program może zapisać gdzieś parę `hasz-wynik`.  
   A&nbsp;kiedy trafi się kolejna rzecz, to szybko liczymy jej hasz i&nbsp;patrzymy, czy mamy dla niego zapisany wynik. Jeśli nie, to obrabiamy tę rzecz od zera. Jeśli tak, to po prostu bierzemy gotowy wynik. Oszczędność czasu może być ogromna!
 
 * Wykrywanie, czy ktoś majstrował przy plikach.
@@ -87,7 +87,7 @@ Ich przykłady w&nbsp;naturze:
 
   No i&nbsp;niestety ciemna strona haszowania.  
   Nawiązując do naszej serii o&nbsp;internetowej inwigilacji -- wyobraźmy sobie, że przy każdym kontakcie ze stroną A&nbsp;wysyłamy jej pakiet informacji: adres IP + informacje o&nbsp;urządzeniu + ustawienia językowe + coś charakterystycznego.  
-  Nie wiemy, że strona A&nbsp;przesyła te informacje jakiejś organizacji gromadzącej dane -- dajmy na to SpyCorp.  
+  Nie wiemy, że strona A&nbsp;przesyła te informacje jakiejś organizacji gromadzącej dane -- na przykład fikcyjnej SpyCorp.  
 SpyCorp nie ma nas w&nbsp;bazie, ale oblicza hasz naszych informacji i&nbsp;go do niej dodaje, wraz z&nbsp;informacją że ktoś z&nbsp;takim haszem był na stronie A.  
   Potem odwiedzamy stronę B, o&nbsp;czymś zupełnie innym. Ona również spiskuje przeciw nam i&nbsp;wysyła nasze informacje do SpyCorp. Nie zmieniły się od czasu wizyty na stronie A. Więc kiedy SpyCorp oblicza hasz, to odkrywa, że już go ma w&nbsp;bazie. Teraz **wie, że odwiedziliśmy zarówno B, jak i&nbsp;A**. Może zrobić z&nbsp;tą wiedzą różne rzeczy.
   
@@ -99,11 +99,20 @@ Możliwe że faktycznie nigdy go nie użyjecie. Dlatego oznaczyłem tę część
 
 Jeśli chcecie przejść prosto do nich, to <a href="#sprawdzanie-programów">są tutaj</a>.
 
+# Sprawdzanie przez przeglądarkę
+
+Jeśli chcemy sprawdzić hasz jakiegoś krótszego tekstu, to możemy po prostu odwiedzić stronę wyszukiwarki [DuckDuckGo](https://duckduckgo.com/).
+
+Najpierw wpisujemy odmianę hasza, jaką chcemy sprawdzić (na przykład `md5`, `sha1`, `sha256`), a po niej nasz tekst. Jego hasz wyświetli się pod spodem.
+
+{:.figure .bigspace}
+<img src="/assets/posts/haszowanie/duckduckgo-sha1.jpg" alt="Zrzut ekranu ze strony DuckDuckGo, pokazujący hasz dla tekstu 'ciemna strona'"/>
+
+Jeśli jednak chcemy sprawdzić hasz czegoś dłuższego, jak cały plik, możemy użyć narzędzi wbudowanych w nasz system. 
+
 # Jak to zrobić na Windowsie?
 
-Najpierw o&nbsp;tym, w&nbsp;jaki sposób można sprawdzić hasz. Pokażę na przykładzie Windowsa.
-
-Otwieracie Eksplorator (ikona <img style="display:inline-block" src="/assets/posts/haszowanie/eksplorator-ikona.webp" alt="Żółta ikona Eksploratora Windowsa"/>).
+Najpier otwieracie Eksplorator (ikona <img style="display:inline-block" src="/assets/posts/haszowanie/eksplorator-ikona.webp" alt="Żółta ikona Eksploratora Windowsa"/>).
 
 Potem przechodzicie do dowolnego folderu z&nbsp;jakimś plikiem.  
 Na potrzeby pokazu stworzyłem folder *hash_test*, a&nbsp;w&nbsp;nim jedną rzecz -- *plik testowy.txt*, zawierający jedynie słowa „Jakiś tekst”:
@@ -130,7 +139,7 @@ gdzie zamiast <span class="red">PLIK</span> wpisujemy nazwę naszego pliku. Potw
 Zobaczymy hasz wraz z&nbsp;dodatkowymi informacjami o&nbsp;użytym algorytmie. Możemy go sobie zaznaczyć i&nbsp;skopiować przez `Ctrl+C`.
 
 Domyślnie Windows używa funkcji SHA256. Ale w&nbsp;naturze często spotykamy też inne wersje, w&nbsp;tym MD5.  
-Żeby obliczyć hasz metodą MD5, wystarczy dodać jedną rzecz. Wpisujemy wtedy:
+Żeby obliczyć hasz metodą MD5, wystarczy zmienić wpisywaną komendę na:
 
 <div class="black-bg mono">Get-FileHash -Algorithm MD5 '<span class="red">PLIK</span>'</div>
 
