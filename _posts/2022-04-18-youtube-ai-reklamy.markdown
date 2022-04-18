@@ -175,9 +175,9 @@ W takich realiach zyskuje na wiarygodności pewien [wyciek](http://www.twitlonge
 Rzekomo instruowano ich, żeby **w razie wątpliwości skłaniali się ku demonetyzacji -- na niekorzyść twórców**.  
 Wyciek porusza również kwestię twórców niewygodnych. Jeśli są popularni wbrew wszelkim chęciom platformy, ale trzymają się regulaminu, a&nbsp;usunięcie ich mogłoby przynieść PR-owy skandal... To można się do nich dobrać właśnie przez demonetyzację.
 
-A przypominam, że mówimy tutaj o&nbsp;instrukcjach dla ludzi. Którzy mają być w&nbsp;naszej sprawie drugą, bardziej empatyczną instancją. Na pierwszej linii są natomiast automaty. Zdziwię kogokolwiek, mówiąc że ich działania są nieprzeniknione i&nbsp;niekorzystne dla twórców? Przyjrzyjmy się im.
+A przypominam, że mówimy tutaj o&nbsp;instrukcjach dla ludzi. Którzy mają być w&nbsp;naszej sprawie drugą, bardziej empatyczną instancją. Na pierwszej linii są natomiast automaty. Zadziwię kogokolwiek, jeśli powiem że ich działania są nieprzeniknione i&nbsp;niekorzystne dla twórców? Przyjrzyjmy się im.
 
-Jednym z&nbsp;kryteriów ocenianych przez algorytmiczne czarne skrzynki są słowa zawarte w&nbsp;tytule i&nbsp;opisie filmu. Eksperymenty twórców wykazały, że **użycie słów związanych z&nbsp;mniejszościami to dość pewny sposób na demonetyzację**.
+Jednym z&nbsp;kryteriów ocenianych przez te algorytmiczne czarne skrzynki są słowa zawarte w&nbsp;tytule i&nbsp;opisie filmu. Eksperymenty twórców wykazały, że **użycie słów związanych z&nbsp;mniejszościami to dość pewny sposób na demonetyzację**.
 
 O cudactwach algorytmu opowiada m.in. Andrew Platt w&nbsp;swoim [filmiku z&nbsp;2019 roku](https://www.youtube.com/watch?v=oFyHpBsvcK0). Autor jest o&nbsp;tyle ciekawą postacią, że podszedł do sprawy w&nbsp;sposób bardziej naukowy. Eksperymentował z&nbsp;różnymi słowami kluczowymi, zmieniając tylko jedno naraz, i&nbsp;patrzył na to, którym filmom YouTube utnie finansowanie.
 
@@ -346,19 +346,19 @@ Jako oficjalny powód podają oczywiście bezpieczeństwo. Wszystko w&nbsp;trosc
 
 Nic to, że w&nbsp;praktyce nowi twórcy tacy chronieni nie są. Nadal można klikać łapki w&nbsp;dół, a&nbsp;twórcy mogą podejrzeć ich liczbę przez swoje profile. Zapytajmy siebie szczerze: kto z&nbsp;nich tam nie zerknie z&nbsp;ciekawości? Narażając się dokładnie na ten widok, przed którym troskliwy Jutub chce go chronić?
 
-Poza tym ta „ochrona mniejszych graczy” dziwnym trafem nie obowiązuje tylko poniżej pewnego progu popularności. Co oznacza, że swoje liczne negatywne oceny tracą też filmy korporacyjne:
+Poza tym ta „ochrona mniejszych graczy” dziwnym trafem nie ogranicza się do kont nowych albo mniej popularnych. Z licznymi łapkami w dół żegnają się również filmy korporacyjne:
 
 * wspomniany Rewind;
 * reklama Pepsi przedstawiająca protesty jako [radosny happening](https://www.nbcnews.com/news/nbcblk/pepsi-ad-kendall-jenner-echoes-black-lives-matter-sparks-anger-n742811) z&nbsp;celebrytami;
-* [reklama Gillette](https://www.youtube.com/watch?v=UYaY2Kb_PKI), mentorskim tonem mówiąca mężczyznom, że muszą się zmienić.
+* [reklama Gillette](https://www.youtube.com/watch?v=UYaY2Kb_PKI), mentorskim tonem mówiąca mężczyznom, że muszą się zmienić;
 * [trailer](https://www.youtube.com/watch?v=a7ZpQadiyqs) gry „Battlefield V”, odchodzący od realizmu na rzecz kiczowatej rozrywki.
 
-Nie odnoszę się do samych filmów. Ale jest faktem, że wywołały kontrowersje i&nbsp;zebrały wiele łap w&nbsp;dół, widocznych publicznie. A&nbsp;teraz ich liczba zmalała do zera, została jedynie w&nbsp;kronikach.  
+Nie odnoszę się do samych filmów. Ale jest faktem, że wywołały kontrowersje i&nbsp;zebrały wiele łap w&nbsp;dół, widocznych publicznie. A&nbsp;teraz ich liczba spadła do zera, została jedynie w&nbsp;kronikach.  
 W przypadku przyszłych filmów nie będzie nawet tej historii. Od teraz pod każdą nowinką od dużych reklamodawców będą wyłącznie wyrazy uznania.
 
 {% include info.html
 type="Ciekawostka"
-text="YouTube wyłączył również możliwość dodawania łapek pod ich oficjalnym komunikatem o&nbsp;tej zmianie. Ale pod pierwszym komentarzem, autorstwa swego rodzaju rzeczniczki, kciuki już były. Głównie skierowane w&nbsp;dół."
+text="YouTube wyłączył możliwość dodawania łapek również pod ich oficjalnym komunikatem o&nbsp;tej zmianie. Ale pod pierwszym komentarzem, autorstwa swego rodzaju rzeczniczki, kciuki już były. Głównie skierowane w&nbsp;dół."
 %}
 
 ## Co możemy zrobić
