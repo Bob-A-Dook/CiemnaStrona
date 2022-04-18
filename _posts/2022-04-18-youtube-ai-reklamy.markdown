@@ -276,7 +276,10 @@ Ale zanim to się stało... Czytelnicy poprzedniego wpisu być może pamiętaj�
 Teraz zdarzyło się coś podobnego. Jak pisze Blender:
 
 {:.bigspace}
-> Because of not accepting the new terms, the wrong error message was to put all videos on “Not available in your country” mode, which usually signals that there is a&nbsp;copyright issue.
+> Przez to, że nie zaakceptowaliśmy nowych warunków, zamiast naszych filmów wyświetlał się komunikat o błędzie „Film niedostępny w twoim kraju”, który zwykle sygnalizuje problem z prawami autorskimi.
+
+{:.figcaption}
+Tłumaczenie moje.
 
 # Zmiana zasad weryfikacji
 
@@ -315,7 +318,7 @@ Nigdy nie poznamy jej dokładnych myśli. Ale pewną wskazówką *a propos* post
 Wtedy to pani prezes z&nbsp;dumą odebrała od organizacji Freedom Forum Institute [nagrodę za sprzyjanie wolności słowa](https://www.newsweek.com/youtube-ceo-susan-wojcicki-gets-freedom-expression-award-sponsored-youtube-1585147). Gratulacje!
 
 Tylko że... **Konferencja, podczas której przyznano tę nagrodę, była sponsorowana przez YouTube'a**.  
-Pani prezes to jednak nie powstrzymało przed dumnym przyjęciem nagrody i&nbsp;wygłoszeniem przemowy mówiącej o&nbsp;odpowiedzialności YouTube'a. Nawiązała również do spraw automatycznej cenzury:
+Pani prezes to jednak nie powstrzymało przed dumnym przyjęciem nagrody i&nbsp;wygłoszeniem przemowy mówiącej o&nbsp;odpowiedzialności YouTube'a. Nawiązała również do autocenzora -- wprost chwali się tym, że 90% filmów usunęły automaty.
 
 > We removed nine million videos last quarter and almost all of them – over 90% – we removed with machines, which is good because it means if there’s content that’s violative, we find that really quickly
 
@@ -371,7 +374,7 @@ Dlatego, choć YouTube'a raczej nie zmienimy, możemy zmienić swoje podejście 
 Moje wpisy na temat YouTube'a skupiają się na rzeczach typowych dla tej platformy. Ale nie zapominajmy, że przede wszystkim to część Google'a. Więc **mamy do czynienia z&nbsp;tym samym masowym zbieraniem danych o&nbsp;naszych zwyczajach**.
 
 I, tak jak w&nbsp;przypadku innych usług giganta, możemy spróbować to wyłączyć. Europejskie przepisy o&nbsp;prywatności dają przynajmniej cień szansy, że firma uszanuje nasze ustawienia, żeby uniknąć kar.  
-Aby zmienić ustawienia na korzystniejsze dla nas, wchodzimy na stronkę i&nbsp;odznaczamy tam trzy opcje związane z&nbsp;analizowaniem naszych zwyczajów.
+Aby zmienić ustawienia na korzystniejsze dla nas, wchodzimy na [stronkę](https://myaccount.google.com/u/0/yourdata/youtube?hl=pl) i&nbsp;odznaczamy tam trzy opcje związane z&nbsp;analizowaniem naszych zwyczajów.
 
 {:.figure .bigspace}
 <img src="/assets/posts/youtube2/google-zarzadzanie-danymi.jpg" alt="Ekran Google, na którym widać trzy opcje wraz z&nbsp;opisami. Wszystkie suwaki są ustawione na tryb wyłączony i&nbsp;wyróżnione czerwonymi ramkami." width="500px"/>
