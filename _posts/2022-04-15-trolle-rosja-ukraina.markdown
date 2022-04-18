@@ -176,6 +176,9 @@ Istnieje szansa, że na trolle natkniemy się przypadkiem, na przykład w&nbsp;s
 
 Możemy zacząć od wspomnianej wcześniej listy NASK, zawierającej znane trolle, a&nbsp;następnie odwiedzać konta, które udostępniały ich treści. Będzie to raczej łatwiejsze w&nbsp;przypadku Twittera, bo nie ma tam rozróżnienia *prywatny profil versus publiczne komentarze* i&nbsp;wszystko widać jak na dłoni.
 
+**Aktualizacja 18.04.2022:** Pewien [użytkownik](https://nitter.net/SKruszkov/status/1514670298687320067) Twittera o&nbsp;nicku *Sasha Kruszkov* stworzył [wielki raport](https://wetransfer.com/downloads/b3bc42937e4a6bff854a491d2ecb4a6f20220414181925/73a987) (PDF z&nbsp;obrazkami ważący ponad 500&nbsp;MB) o&nbsp;kontach szczególnie aktywnych na Twitterze. Wiele z&nbsp;nich spoza listy NASK.  
+Nie wszystkie korzystają z&nbsp;tagów związanych z&nbsp;Ukrainą. Ale możemy odwiedzić te profile, które to robią, i&nbsp;zacząć od nich nasze poszukiwania. W tym celu kopiujemy nazwę użytkownika z raportu i&nbsp;wklejamy w&nbsp;pasek po adresie `https://twitter.com/` albo `https://nitter.net/`.
+
 {% include info.html
 type="Porada"
 text="Zamiast Twittera polecam używać [Nittera](https://nitter.net/).  
@@ -422,8 +425,7 @@ Zarówno dodatek, jak i&nbsp;skrypt są w&nbsp;stanie robić swoje również na 
 </ol>
 <p>Co do ostatniego punktu. Jeśli nie zmienimy nazwy skryptu i&nbsp;go po prostu pobierzemy ode mnie, to powinien trafić do folderu <code class="language-plaintext highlighter-rouge">Download</code>.</p>
 <p>Wówczas, żeby skopiować skrypt do folderu głównego, gdzie będzie zawsze dostępny dla Pythona, musimy wpisać w&nbsp;Termuksie:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cp /storage/emulated/0/Download/antitroll.py ~
-</code></pre></div></div>
+<div class="black-bg mono">cp /storage/emulated/0/Download/antitroll.py ~</div>
 <p>Pamiętajmy przy tym o&nbsp;spacjach po <code class="language-plaintext highlighter-rouge">cp</code> i&nbsp;przed <code class="language-plaintext highlighter-rouge">~</code>.</p>
 <p>Mam nadzieję, że zadziała. Ale wersji Androida jest wiele i&nbsp;nie każda może się lubić z&nbsp;Termuksem.</p>
 </details>
