@@ -15,7 +15,7 @@ image-height: 700
 
 Czas na drugi wpis na temat YouTube'a!
 
-Poprzednio zobaczyliśmy początki tej popularnej platformy, moment jej wykupienia przez Google'a oraz pierwsze większe kontrowersje.
+Poprzednio [zobaczyliśmy]({% post_url 2022-02-20-youtube-viacom-elsagate %}){:.internal} początki tej popularnej platformy, moment jej wykupienia przez Google'a oraz pierwsze większe kontrowersje.
 
 Jedną z&nbsp;nich była *afera ElsaGate*. YouTube zadziwiająco niechętnie podszedł do usuwania spamowych filmików, kierowanych do najmłodszych i&nbsp;zawierających elementy przemocy oraz fetyszu. Niewykluczone, że miała na to wpływ ich oglądalność i&nbsp;wysokie obłożenie reklamami (będącymi dla YT źródłem zysku).
 
@@ -302,7 +302,7 @@ Więc sorry, twórcy opijający właśnie 100&nbsp;000 subskrybentów i&nbsp;zna
 
 Można się zastanowić, skąd bierze się taki zwrot platformy w&nbsp;stronę komerchy. I, jak to w&nbsp;przypadku megakorporacji bywa, warto spojrzeć na sam szczyt hierarchii.
 
-Do tej pory unikałem przywoływania konkretnych osób, traktując Google jak wielką nieogadnioną masę. Ale teraz będzie krótko o&nbsp;pani prezes YouTube'a, Susan Wojcicki. Nazwisko jakby znajome; i&nbsp;faktycznie, oboje jej dziadkowie byli Polakami.
+Do tej pory unikałem przywoływania konkretnych osób, traktując Google jak wielką nieodgadnioną masę. Ale teraz będzie krótko o&nbsp;pani prezes YouTube'a, Susan Wojcicki. Nazwisko jakby znajome; i&nbsp;faktycznie, oboje jej dziadkowie byli Polakami.
 
 Na forum HackerNews znalazłem ciekawą [wymianę komentarzy](https://news.ycombinator.com/item?id=26882120), mówiącą o&nbsp;rywalizacji Google Video z&nbsp;YouTube'em (kiedy ten jeszcze był niezależny). Nie jest to oczywiście źródło w&nbsp;100% pewne, ale zawiera szczegóły techniczne, które da się zweryfikować.
 
