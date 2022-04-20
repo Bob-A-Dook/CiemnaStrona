@@ -385,7 +385,7 @@ Jeśli nie chcemy wiązać jakichś oglądanych filmów z&nbsp;naszymi typowymi 
 
 # Youtube-dl 
 
-YouTube jest kapryśny, a&nbsp;nasze ulubione filmiki mogą w&nbsp;każdej chwili zniknąć. Sami widzieliśmy, jak kapryśna jest automatyczna cenzura.  
+YouTube jest nieprzewidywalny, a&nbsp;nasze ulubione filmiki mogą w&nbsp;każdej chwili zniknąć. Sami widzieliśmy, jak kapryśna jest automatyczna cenzura.  
 Jeśli chcemy uniknąć tego losu (a przy okazji nie karmić YT statystykami na temat liczby i&nbsp;częstości wyświetleń), to można skorzystać z&nbsp;`youtube-dl`, świetnego programiku konsolowego.
 
 Po zainstalowaniu wystarczy wpisywać proste komendy:
@@ -398,8 +398,8 @@ Wbrew nazwie działa na wielu stronkach, w&nbsp;tym bardziej... prywatnych :wink
 
 {% include info.html
 type="Porada"
-text="Szybkość pobierania przez `youtube-dl` jest dość mocno ograniczona. Istnieje jego [szybsza wersja](https://github.com/yt-dlp/yt-dlp), wolna od tego limitu, ale jej nie testowałem.  
-Oprócz tego, jeśli ktoś bardzo nie lubi konsoli, istnieją też nakładki graficzne na program. Ale również ich nie sprawdzałem."
+text="Szybkość pobierania przez `youtube-dl` jest dość mocno ograniczona. Istnieje jego [szybsza wersja](https://github.com/yt-dlp/yt-dlp), uwolniona od tego limitu, ale jej nie testowałem.  
+Oprócz tego, jeśli ktoś bardzo nie lubi konsoli, może skorzystać z&nbsp;nakładek graficznych na ten program. Ale również ich nie sprawdzałem."
 %}
 
 Instrukcje instalacji znajdziecie [na stronie projektu](https://github.com/ytdl-org/youtube-dl).  

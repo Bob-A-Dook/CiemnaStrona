@@ -34,10 +34,16 @@ W przeciwieństwie do niektórych poprzednich wpisów, nie zrobię tutaj interak
 
 To dlatego, że nie mam dostępu do serwera, na którym znajdują się pliki Ciemnej Strony. A&nbsp;bez niego nie mam jak sprawdzić IP -- chyba że bym przesyłał Wasze informacje jakiejś obcej stronie. Czego nie planuję :sunglasses:
 
-Jeśli chcecie sprawdzić, co zdradza Wasz adres IP, możecie wejść na [stronkę IPlocation](https://iplocation.com/).  
-Rozpoznaje ona między innymi, od kogo mam internet (*Orange*) i&nbsp;gdzie jestem.
+Aby sprawdzić, jaki macie adres IP i&nbsp;jakiemu rejonowi on odpowiada, możecie wejść na stronę wyszukiwarki DuckDuckGo i&nbsp;wyszukać hasło `ip address` (tu [gotowy link](https://duckduckgo.com/?q=ip+address&t=lm&ia=answer), jeśli nie chce się Wam wpisywać).
 
-Na szczęście lokalizacja jest ogólna -- u&nbsp;mnie **trafna co do województwa, ale umieszcza mnie w&nbsp;mieście oddalonym o&nbsp;15 km**. Uff.
+{:.figure}
+<img src="/assets/posts/adres-ip/duckduckgo-adres-ip.jpg" alt="Zrzut ekranu z wyników wyszukiwania na stronie DuckDuckGo. Pod paskiem wyświetla się adres IP, w którym zakryłem ostatnie cyfry, a także informacja, że to lokalizacja w Szwecji"/>
+
+{:.figcaption}
+Jestem Szwedem! Dzięki przeglądarce Opera. Będzie o&nbsp;tym w&nbsp;dalszej części wpisu.
+
+Można też sprawdzić dokładniejsze informacje przez [stronkę IPlocation](https://iplocation.com/). Poza miejscem mówi mi między innymi, od kogo mam internet (*Orange*).  
+Na szczęście, kiedy korzystam z&nbsp;mobilnego internetu, lokalizacja jest ogólna -- u&nbsp;mnie **trafna co do województwa, ale umieszcza mnie w&nbsp;mieście oddalonym o&nbsp;15&nbsp;km**. Uff.
 
 Poza tym w&nbsp;wielu przypadkach (zwłaszcza gdy korzystamy z&nbsp;mobilnego neta) **adresy IP nie są przypisane na stałe**. Co pewien czas dostajemy nowy.
 
@@ -204,7 +210,7 @@ Poza tym z&nbsp;listy rejonów na dole wybieramy ten, który nam pasuje. **W tym
 {:.figure .bigspace}
 <img src="/assets/posts/adres-ip/opera-vpn-wlaczanie.webp" alt="Zrzut ekranu z&nbsp;Opery pokazujący opcje VPN-a. Zaznaczono pierwszy suwak u&nbsp;góry, który pozwala go włączyć. A&nbsp;także opcje z&nbsp;dołu, umożliwiające wybór rejonu."/>
 
-Dla pewności możemy jeszcze sprawdzić na jakiejś stronce, takiej jak [IPlocation](https://iplocation.com/), czy wykrywa nam lokalizację gdzieś w&nbsp;USA.
+Dla pewności możemy jeszcze sprawdzić na jakiejś stronce, takiej jak wspomniane na początku [DuckDuckGo](https://duckduckgo.com/?q=ip+address&t=lm&ia=answer) albo [IPlocation](https://iplocation.com/), czy wykrywa nam lokalizację gdzieś w&nbsp;USA.
 
 Jeśli z&nbsp;naszym nowym IP spróbujemy odwiedzić Orlando Sentinel, to zamiast komunikatu dla europejskich biedaków zobaczymy sam portal.  
 Taki ładny, *'merykański* :metal:
@@ -236,8 +242,7 @@ Pobieramy Tora [z oficjalnej strony](https://www.torproject.org/) i&nbsp;instalu
 
 Przy każdym uruchomieniu Tor daje nam inną „tożsamość”, czyli m.in. przydziela losowy adres IP z&nbsp;puli. Aby wymusić nowe losowanie, możemy kliknąć ikonę w&nbsp;górnym prawym rogu.
 
-Mój kolega trafił jednak na problem! Losując dla siebie adresy IP, cały czas dostawał europejskie.  
-W innym wypadku by mu to nie przeszkadzało, ale tym razem całą Europę blokowało.
+Mój kolega trafił jednak na problem! Losując dla siebie adresy IP, cały czas dostawał europejskie. W innym wypadku by mu to nie przeszkadzało, ale tym razem cała Europa była zablokowana.
 
 Żeby uniknąć tego problemu, można **wymusić dobór serwerów końcowych (a więc IP) z&nbsp;konkretnego kraju**.
 
@@ -254,7 +259,7 @@ Otwieramy plik *torrc* w&nbsp;zwykłym notatniku i&nbsp;wklejamy na dole linijk�
 
 ...Po czym zapisujemy zmiany.
 
-Cały proces, razem z&nbsp;listą kodów dla różnych krajów, opisano również [w tym zarchiwizowanym wpisie](https://web.archive.org/web/20180328074444/http://www.b3rn3d.com/blog/2014/03/05/tor-country-codes/).
+Cały proces, razem z&nbsp;listą kodów dla różnych krajów, opisano również w tym [zarchiwizowanym wpisie](https://web.archive.org/web/20180328074444/http://www.b3rn3d.com/blog/2014/03/05/tor-country-codes/).
 
 Czy to działa? Jeszcze jak!
 
@@ -262,7 +267,7 @@ Czy to działa? Jeszcze jak!
 <img src="/assets/posts/adres-ip/orlando-sentinel-tor.webp" alt="Zrzut ekranu pokazujący stronę Orlando Sentinel otwartą w&nbsp;przeglądarce Tor Browser."/>
 
 {:.figcaption}
-*Orlando Sentinel* odwiedzony przez Tora z&nbsp;amerykańskim IP
+*Orlando Sentinel* odwiedzony przez Tora z&nbsp;amerykańskim IP.
 
 {% include info.html type="Uwaga" text="Losowość jest siłą Tora. Robiąc tę zmianę, którą tu opisałem, ograniczamy się do serwerów z&nbsp;USA, więc nieco osłabiamy swoją ochronę.  
 Dlatego, jeśli kiedykolwiek będziecie chcieli użyć Tora do zyskania anonimowości, to pamiętajcie o&nbsp;usunięciu tej jednej linijki (dla pewności możecie to zrobić od razu po użyciu, żeby nie zapomnieć)." %}

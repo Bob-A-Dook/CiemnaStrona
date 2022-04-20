@@ -110,17 +110,17 @@ Jeśli moja próba weryfikacji Was nie przekonuje, to możecie też się zapozn
 Przedstawianie słów *“You'll own nothing”* jako oficjalnej deklaracji WEF uważam za straszną przesadę. Od początku były nazwane prognozą, autorka napisała sprostowanie, nie są odzwierciedlone w&nbsp;ważniejszych dokumentach.
 
 Przypomnę: **o&nbsp;WEF poczytałem tylko pobieżnie, więc nie oceniam samej organizacji**. Tylko sposób przedstawiania jednego cytatu.  
-Ale, no... Jeśli artykuł dość jasno pokazuje A, ale ktoś bierze z&nbsp;niego kilka słów i&nbsp;mówi że pokazują B, to jak to nazwać? Kłamstwem, manipulacją, *fake newsem*?
+Ale, no... Jeśli artykuł dość jasno pokazuje&nbsp;A, ale ktoś bierze z&nbsp;niego kilka słów i&nbsp;mówi że pokazują&nbsp;B, to jak to nazwać? Kłamstwem, manipulacją, *fake newsem*?
 
 Przejdę do tego, co myślę o&nbsp;samym felietonie.
 
 Z jednej strony: fajnie widzieć prognozę biorącą pod uwagę kilka równoległych, na razie raczkujących zjawisk i&nbsp;łączącą je w&nbsp;całość. Lubię eksperymenty myślowe.
 
-Z drugiej: jest moim zdaniem dość płytki i&nbsp;utopijny. Patrzy na pozytywne strony dzielenia własności -- rowery miejskie, tymczasowe mieszkania i biura -- i&nbsp;na tej podstawie prognozuje. Gloryfikuje rzeczy, które nie do końca się obecnie sprawdzają.
+Z drugiej: jest moim zdaniem dość płytki i&nbsp;utopijny. Patrzy na pozytywne strony dzielenia własności -- rowery miejskie, tymczasowe mieszkania i&nbsp;biura -- i&nbsp;na tej podstawie prognozuje. Gloryfikuje rzeczy, które nie do końca się obecnie sprawdzają.
 
 Samojezdne samochody? Na razie dominuje w&nbsp;tym Waymo (= Google). A&nbsp;Google jest jakie jest. Inni, tacy jak Tesla i&nbsp;Uber, robią wielkie oczekiwania bez wielkich efektów.  
 Sztuczna inteligencja? Mam o&nbsp;tym [osobny wpis]({% post_url 2021-03-03-ai-wspolczesni-szamani %}). Pojęcie głównie marketingowe ma w&nbsp;ciągu 9&nbsp;lat przejąć znaczną część ludzkiej pracy? Nie widzę tego :wink:  
-Dzielenie przestrzeni biurowych? Coś może o&nbsp;tym powiedzieć WeWork, który [otarł się o bankructwo](https://www.businessinsider.com/weworks-nightmare-ipo?IR=T).
+Dzielenie przestrzeni biurowych? Coś może o&nbsp;tym powiedzieć WeWork, który [otarł się o&nbsp;bankructwo](https://www.businessinsider.com/weworks-nightmare-ipo?IR=T).
 
 Poza tym jak ma wyglądać przejście od korpo radykalnie dbających o&nbsp;swój interes do pełnego współdzielenia z&nbsp;wizji autorki? Od niedoskonałych algorytmów do zastąpienia ludzi przez maszyny?  
 Widzę tu dość spory przeskok myślowy. Nie wydaje się wiarygodny.

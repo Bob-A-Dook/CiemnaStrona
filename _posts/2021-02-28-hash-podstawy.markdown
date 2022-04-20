@@ -258,9 +258,9 @@ Jeśli natomiast były słuszne, to dosyłacie też oryginalny plik. I&nbsp;poka
 Wniosek: przemyślenia opisane w&nbsp;pliku mieliście jeszcze przed całym zajściem. Wiedzieliście, co się kroi.
 
 {% include info.html type="Ciekawostka" text="Niedawno taką metodę zastosowały trzy znane portale o&nbsp;cyberbezpieczeństwie: Niebezpiecznik, Zaufana Trzecia Strona oraz Informatyk Zakładowy.  
-Wiedzieli, że mogą pojawić się przeciw nim oskarżenia, które chcieli od razu zdementować.  
-20 lutego każda z tych stron wrzuciła na swoje konto społecznościowe [sam hasz](https://www.facebook.com/niebezpiecznik/posts/10157705388896821).  
-A 2&nbsp;marca [pełną treść oświadczenia](https://www.facebook.com/niebezpiecznik/posts/10157729024811821)." %}
+Wiedzieli, że mogą pojawić się przeciw nim oskarżenia. Gdyby były, to chcieli od razu je zdementować. Ale nie chcieli uprzedzać faktów.   
+Dlatego 20 lutego każda z tych stron wrzuciła na swoje konto społecznościowe [sam hasz](https://www.facebook.com/niebezpiecznik/posts/10157705388896821) oświadczenia.  
+A 2&nbsp;marca, gdy plotki okazały się prawdziwe, dodali [jego pełną treść](https://www.facebook.com/niebezpiecznik/posts/10157729024811821)." %}
 
 {:.post-meta .bigspace}
 Aktualizacja: sam również stworzyłem wpisy na temat tej sprawy -- [po wybuchu afery]({% post_url 2021-03-12-usecrypt-afera %}){:.internal} i [po wejściu celebrytów]({% post_url 2021-07-16-powrot-usecrypta %}){:.internal}.

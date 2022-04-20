@@ -246,7 +246,7 @@ Może by ich to zdziwiło, ale OSM jak najbardziej jest wykorzystywane przez kom
 Ba! Według danych **Apple spośród firm ma największy wkład w&nbsp;powstawanie OSM** (wykres poniżej).  
 O ile dobrze odczytałem poglądy autorów (*Apple = cool, darmowe = dziadostwo*), to może warto je zrewidować? :wink:" trailer="<p class='figure'><img src='/assets/posts/cyfrowy-feudalizm-fakty/apple-osm-polemika.webp' alt='Rysunek pokazuje wykres liniowy dla liczby edytowanych elementów mapy w&nbsp;różnych latach. Każdej z&nbsp;linii odpowiada inna firma. Widać, że od roku 2019 zdecydowanie najwyżej znajduje się linia Apple, czyli to oni mają największy wkład' /></p><p class='figcaption' style='margin-bottom:0px'>Źródło: <a href='https://joemorrison.medium.com/openstreetmap-is-having-a-moment-dcc7eef1bb01'>blog Joego Morrisona</a>.</p>" %}
 
-Choć współczesny internet nazywa się siecią, to jednak pod wieloma względami z&nbsp;siecią pajęczą przegrywa. Ta przede wszystkim jest odporna na przerwanie pojedynczych węzłów:
+Choć współczesny internet bywa nazywany siecią, to jednak pod wieloma względami z&nbsp;siecią pajęczą przegrywa. Ta przede wszystkim jest odporna na przerwanie pojedynczych węzłów:
 
 >  a&nbsp;spider's web is organized to sacrifice local areas so that failure will not prevent the remaining web from functioning
 
