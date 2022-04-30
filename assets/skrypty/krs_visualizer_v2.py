@@ -1424,15 +1424,15 @@ def visualize_all( folder, info_to_get, dimensions, transforms=None):
         return
     
     if not folder: folder = '.'
-    folder = Path(folder)
+    folder = Path(folder).absolute()
     if not folder.exists():
         error(f'Nie znaleziono podfolderu "{folder.name}" w folderze '
-              f'{folder.absolute().parent}.\nMusisz go najpierw stworzyć! :D')
+              f'{folder.parent}.\nMusisz go najpierw stworzyć! :D')
         return
 
-    if LAUNCHED_WITH_DOUBLECLICK:
+    if LAUNCHED_WITH_DOUBLECLICK or folder.name.endswith('system32'):
         # Windows launcher has C:\Windows\System32 as path, so use script dir
-        folder = Path(__file__).parent
+        folder = Path(__file__).parent.absolute()
                       
     pdfs = sorted( f for f in folder.iterdir() if f.suffix == '.pdf' )
     if not pdfs:

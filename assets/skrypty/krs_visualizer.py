@@ -1074,12 +1074,15 @@ def create_timelines_for_all( folder=None, **other_params ):
     if not IMPORTS_SUCCESSFUL or not CONVERTER: return
     
     if not folder or folder =='NAZWA': folder ='.'
-    folder = Path(folder)
+    folder = Path(folder).absolute()
     if not folder.exists():
         logging.error(f'Nie znaleziono podfolderu "{folder.name}" w folderze '
-                      f'{folder.absolute().parent}.\n'
-                      'Musisz go najpierw stworzyć! :D')
+                      f'{folder.parent}.\nMusisz go najpierw stworzyć! :D')
         return
+
+    if folder.name.endswith('system32'):
+        # Windows launcher has C:\Windows\System32 as path, so use script dir
+        folder = Path(__file__).parent.absolute()
                       
     pdfs = [f for f in folder.iterdir() if f.suffix == '.pdf']
     if not pdfs:

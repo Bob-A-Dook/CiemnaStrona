@@ -255,7 +255,8 @@ text="Strony mogą mieć wiele wariantów. Osobiście spotkałem się z&nbsp;co 
 
 # Wrzucanie oczyszczonych linków
 
-**To część dla chętnych -- jeśli będziemy po prostu kopiowali i&nbsp;wrzucali linki, też powinno być OK**.
+{:.post-meta .bigspace-after}
+**To część dla chętnych** -- jeśli będziemy po prostu kopiowali i&nbsp;wrzucali linki, też powinno być OK.
 
 Jak wspominałem, obie wielkie platformy dodają do linków teksty od siebie. Często w&nbsp;formie parametrów, czyli tekstu po znaku zapytania.  
 W najlepszym razie to nieszkodliwe śmieci, w&nbsp;najgorszym -- informacja wskazująca nasze konto jako źródło linku.
@@ -354,7 +355,8 @@ text="Nazwa dodatku to gra słów.
 *Sel* to popularny skrót od *selection*, zaznaczenia. *Sellsword* to najemnik (dosł. *miecz na sprzedaż*)."
 %}
 
-**Uwaga: Dodatek jest na razie w fazie testów. Nie wspiera na przykład zaznaczania komentarzy na stronach, które zapisaliśmy na dysku (nawet jeśli są z&nbsp;Twittera/Facebooka). Może też nie działać na niektórych przeglądarkach**.
+{:.post-meta .bigspace-after}
+**Uwaga:** Dodatek jest na razie w fazie testów. Nie wspiera na przykład zaznaczania komentarzy na stronach, które zapisaliśmy na dysku (nawet jeśli są z&nbsp;Twittera/Facebooka). Może też nie działać na niektórych przeglądarkach.
 
 Czujcie się ostrzeżeni! A&nbsp;teraz przejdźmy do instalacji i&nbsp;korzystania.
 
@@ -375,7 +377,7 @@ Dalsze działania zależą od tego, jaką mamy przeglądarkę.
   <li>Otwieramy menu dodatków
 (trzy kropki w&nbsp;prawym górnym rogu, w niektórych przeglądarkach <code class="language-plaintext highlighter-rouge">Więcej narzędzi</code>, <code class="language-plaintext highlighter-rouge">Rozszerzenia</code>).</li>
   <li>Włączamy pstryczek podpisany <code class="language-plaintext highlighter-rouge">tryb programisty</code> (albo <code class="language-plaintext highlighter-rouge">tryb dewelopera</code>).</li>
-  <li>Pojawią się opcje ładowania dodatków; wybieramy <code class="language-plaintext highlighter-rouge">Załaduj nierozpakowane</code>.</li>
+  <li>Pojawią się opcje ładowania dodatków; wybieramy <code class="language-plaintext highlighter-rouge">Załaduj rozpakowane</code> (na Edge'u błędnie przetłumaczone jako „nierozpakowane”).</li>
   <li>Wchodzimy do folderu, w którym wcześniej rozpakowaliśmy pliki i potwierdzamy wybór. Gdyby nie działało, to wybieramy cały plik ZIP.</li>
 </ol>
 </details>
@@ -463,7 +465,7 @@ Zauważyłem natomiast **niepokojącą rzecz na Facebooku**. A&nbsp;dokładniej 
 Na początku działało jak powinno, ale potem zaczęła mi się wyświetlać inna wersja strony, zawierająca elementy z&nbsp;*WebLite* w&nbsp;nazwie.  
 W tej wersji wszystko było ładowane przez nich dynamicznie, bez możliwości łatwego dorwania linków. Gorzej: nigdzie nie było linków do poszczególnych komentarzy, które dałoby się podrzucić analitykom.
 
-Sposoby na obejście tego problemu [opisałem nieco wcześniej](#facebook-problem). Ale wolałem tu przypomnieć, bo dotyczy to właśnie wersji mobilnej. Poza tym jest niepokojącym zjawiskiem utrudniającym walkę z&nbsp;trollami.
+Ten problem, wraz ze sposobami na jego obejście, [opisałem nieco wcześniej](#facebook-problem). Przypominam o&nbsp;nim, bo dotyczy właśnie wersji mobilnej. Poza tym jest niepokojącym zjawiskiem utrudniającym walkę z&nbsp;trollami.
 
 ## Podsumowanie
 
