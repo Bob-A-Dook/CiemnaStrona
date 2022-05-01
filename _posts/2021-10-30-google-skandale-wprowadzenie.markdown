@@ -114,15 +114,15 @@ A zresztą! Zapytajmy samego Google'a:
 
 ...No właśnie.
 
-Wpływ niektórych czynników jest mniej jasny, więc wyrosło wokół nich wiele teorii, nieco przypominających ludowe przesądy.  
+Wpływ niektórych czynników jest mniej jasny. W gronie właścicieli stron krąży wiele teorii, nieco przypominających ludowe przesądy.  
 „Czy Algorytm™ mnie nie ukarze, jeśli coś zrobię?”.
 
-Przykładem [to pytanie](https://webmasters.stackexchange.com/questions/1377/how-bad-is-it-to-use-display-none-in-css), o&nbsp;korzystanie z&nbsp;elementów ukrytych.  
-Bez nich by nie działały takie bajery jak wyskakujące okienka.  
-Ale teoretycznie w&nbsp;ten sposób można sztucznie wypchać stronę tekstem tylko dla „oczu” Google'a. **Jak algorytm to oceni? Nie wiadomo**.
+Przykładem [to pytanie](https://webmasters.stackexchange.com/questions/1377/how-bad-is-it-to-use-display-none-in-css), o&nbsp;efekt korzystania z&nbsp;elementów ukrytych.  
+Są przydatne, bo pozwalają tworzyć bajery takie jak wyskakujące okienka. Ale można też ich nadużyć, wypychając stronę tekstem tylko dla „oczu” Google'a. **Jak algorytm to oceni? Nie wiadomo**.
 
 Cytat jakiegoś pracownika Google'a:
 
+{:.bigspace}
 > If you use valid \[nazwy ogólnych rzeczy\] you have nothing to worry about.
 
 „Wystarczy tworzyć dobrą stronę i&nbsp;będzie OK”.  
@@ -131,12 +131,11 @@ Ktoś sprytny: „Powinno przejść, na swojej stronie Google tak robi”.
 Ktoś doświadczony: „Ale siebie Google nie musi traktować jak innych”.  
 Jednoznacznej konkluzji brak.
 
-Kolejny przykład! Podobno ważnym czynnikiem decydującym o&nbsp;wartości strony jest liczba innych stron, jakie do niej linkują.
+Kolejny przykład! Podobno ważnym czynnikiem decydującym o&nbsp;wartości strony jest liczba innych stron, jakie do niej linkują.  
+Żeby podbić wyniki, niektórzy ludzie od SEO zaczęli tworzyć **strony-wydmuszki**. Linkujące do jakiejś strony głównej, żeby napompować jej popularność.  
+Skutek: Google zaczął obniżać w&nbsp;rankingu pozycję stron, do których linkują głównie mniejsze dziadostwa.
 
-Ale na tej podstawie zaczęły powstawać **strony-wydmuszki**. Linkujące do jakiejś strony głównej, żeby napompować jej popularność.  
-Zatem Google zaczęło obniżać w&nbsp;rankingu pozycję stron, do których linkują głównie mniejsze dziadostwa.
-
-Ale wtedy rozwinęła się branża *złośliwego SEO*, polegająca na celowym tworzeniu śmieciowych linków do konkurencynej strony. Żeby wyglądała źle w&nbsp;oczach Google'a i&nbsp;wypadła z&nbsp;listy wyników.  
+Ale wtedy rozwinęła się branża *złośliwego SEO*, polegająca na *celowym* tworzeniu śmieciowych linków do konkurencyjnej strony. Żeby wyglądała źle w&nbsp;oczach Google'a i&nbsp;wypadła z&nbsp;listy wyników.  
 Zresztą podobnie robią czasem właściciele firm walczący o&nbsp;gwiazdki w&nbsp;rankingu Wujka G. Nieraz zakładają fałszywe konta do zaniżania ocen konkurentom.
 
 Chcąc nie chcąc, firmy muszą brać udział w&nbsp;Google'owym wyścigu szczurów. **Albo będziesz u&nbsp;samej góry, albo nikt cię nie dojrzy**.  
@@ -152,16 +151,15 @@ trailer="
 
 Moża inna wyszukiwarka byłaby w&nbsp;stanie uzdrowić sytuację? Niestety badacze z&nbsp;*Knuckleheads' Club* [mają złe wieści](https://knuckleheads.club/the-evidence-we-found-so-far/).
 
-Pochylili się nad tematem indeksowania, czyli analizowania stron internetowych i&nbsp;pakowania ich do bazy danych. To fundament działania każdej wyszukiwarki.
-
-Badacze odkryli, że wiele stron daje programom Google priorytetowy dostęp. Nieraz całkiem nie dopuszczając innych.
+Pochylili się nad tematem indeksowania, czyli analizowania stron internetowych i&nbsp;pakowania ich do bazy danych. To fundament działania każdej wyszukiwarki.  
+Odkryli, że wiele stron daje programom indeksującym od Google'a priorytetowy dostęp. Nieraz całkiem nie dopuszczając innych.
 
 Tworzy się błędne koło. **Właściciele pozwalają indeksować tylko Google'owi, bo jest największy. Jest największy, bo jako jedyny ma pozwolenie na indeksowanie**.
 
 Wniosek? Na chwilę obecną Google i&nbsp;jego wyszukiwarka wydają się mieć nienaruszalny monopol. Konkurenci się nie wbiją, niezależnie od jakości.
 
 Badacze postulują, żeby stworzyć jakiś otwarty indeks (coś jak Wikipedię) -- wspólne źródło, z&nbsp;którego każda wyszukiwarka mogłaby korzystać.  
-Niestety przypadek przeglądarki Chrome pokazuje, że Google nawet w&nbsp;otwartych standardach potrafi namieszać.
+Brzmi to rozsądnie; niestety przypadek przeglądarki Chrome pokazuje, że Google nawet w&nbsp;otwartych standardach potrafiłby namieszać.
 
 # Chrome (przeglądarka)
 
@@ -402,7 +400,7 @@ Jak sugeruje sama nazwa, mają służyć głównie do włączenia Chrome'a (domy
 
 Chromebooki to narzędzie, dzięki któremu Google wchodzi ludziom w&nbsp;życie już od najmłodszych lat. Są bowiem **kierowane głównie do kadry szkolnej, jako laptopy dla uczniów**. [Również w&nbsp;Polsce](https://www.youtube.com/watch?v=5tUfw9Fbrz4).
 
-Zależność od Google? Jeszcze jak!
+Zależność od Google'a? Jeszcze jak!
 
 > Chrome devices require access to Google's network to function correctly
 

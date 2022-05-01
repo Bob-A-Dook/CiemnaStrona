@@ -407,16 +407,16 @@ A ponieważ uważam ten programik za szczególnie przydatne narzędzie w&nbsp;na
 
 # Alternatywne apki i&nbsp;strony
 
-Kiedy zaczynałem tworzyć ten wpis ponad miesiąc temu, apka Vanced miała być jednym ze sposobów na ominięcie chciwych łap YouTube'a. Dopracowana i&nbsp;pełna funkcji, których brakuje oficjalnej aplikacji.  
+Kiedy zaczynałem tworzyć wpis, ponad miesiąc temu, chciałem zaproponować apkę Vanced jako jeden ze sposobów na ominięcie chciwych łap YouTube'a. Była zachwalana, dopracowana i&nbsp;pełna funkcji, których brakuje oficjalnej aplikacji.  
 Niestety to już nieaktualna sprawa. Niedawno **zamknęli swój projekt przez groźby pozwu ze strony YouTube'a** dotyczące naruszenia praw autorskich.
 
 Pozostała alternatywa z&nbsp;mniejszą liczbą bajerów, [NewPipe](https://newpipe.net/).  
-Osobiście nie korzystam z&nbsp;alternatywnych apek (wolę pobrać na dysk i&nbsp;oglądać na większym ekranie). Ale w&nbsp;przypadku NewPipe'a kusi możliwość korzystania z&nbsp;niego bez dawania mu dostępu do konta oraz bez usług Google'a. 
+Osobiście nie korzystam z&nbsp;alternatywnych apek (wolę pobrać na dysk i&nbsp;oglądać na większym ekranie). Ale w&nbsp;przypadku NewPipe'a kusi możliwość korzystania bez dawania mu dostępu do konta oraz bez usług Google'a. 
 
 {% include info.html
 type="Ciekawostka"
 text="Nazwa *Vanced* wzięła się od *Advanced* bez *Ad* (ang. *reklama*).  
-Co do *NewPipe'a* nie mam pewności -- ale może *New* jako rym do *You* i&nbsp;*Pipe* jako synonim *Tube* (oba słowa oznaczać mogą „rura”)."
+Co do *NewPipe'a* nie mam pewności -- ale może *New* jako rym do *You* i&nbsp;*Pipe* jako synonim *Tube* (oba słowa mogą oznaczać rurę)."
 %}
 
 Jeśli chodzi o&nbsp;alternatywne strony, osobiście z&nbsp;nich nie korzystałem, więc ciężko mi coś polecić. Ale podzielę się pewnym istotnym rozróżnieniem.

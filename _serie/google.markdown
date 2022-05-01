@@ -9,7 +9,7 @@ readable_name: "Google – kolorowy czarny charakter"
 
 Witajcie w serii poświęconej skandalom i nadużyciom związanym z internetowym gigantem.
 
-{:.bigspace}
+{:.bigspace-before .no-right-border}
 > Don't be evil.
 
 Takie motto -- aluzję do Microsoftu, klasycznego złego korpo -- miał na początku swojego regulaminu pewien startup.
@@ -18,7 +18,7 @@ Startup, który stworzył najlepszą wyszukiwarkę swoich czasów. Uwielbianą p
 
 Lata mijały, a Google się rozrastał. Ani się obejrzeliśmy, a sam stał się wielką korporacją. Również z zachowania.
 
-{:.bigspace}
+{:.bigspace-after}
 > Albo zginiesz jako bohater, albo pożyjesz wystarczająco długo, żeby stać się złoczyńcą.
 
 Na światło dzienne zaczęły wychodzić nieczyste zagrania, dzięki którym Google zawojował świat:
