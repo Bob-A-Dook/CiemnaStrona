@@ -71,6 +71,7 @@ A teraz do rzeczy. Jak wygląda cyfrowy front i&nbsp;w jaki sposób można się 
 
 # Agresorzy -- trolle
 
+{:.no-right-border}
 > Trolling, lying, because ignorance is bliss  
 Manipulating, faking identities  
 Watch the walls come down  
@@ -400,6 +401,7 @@ Po załadowaniu dodatku odwiedzacie Twittera, Nittera albo Facebooka. Znajdujeci
 
 Wystarczy teraz uruchomić Antitrolla, a&nbsp;ten zrobi swoje.
 
+{:.bigspace-before}
 <img src="/assets/posts/trolle/demon-slayer-dual-script.jpg" alt="Kadr z&nbsp;anime Demon Slayer pokazujący postać z&nbsp;logiem Ciemnej Strony zamiast twarzy. Jest w&nbsp;trakcie wykonywania cięcia dwoma mieczami w&nbsp;stronę zgarbionej, groteskowej postaci, której głowa jest zakryta obrazkiem typu troll face. Na jednym z&nbsp;ramion atakującej postaci widać napis SelSword i&nbsp;ikonkę miecza, a&nbsp;na drugim podpis antitroll.py oraz ikonkę skryptu Pythona."/>
 
 {:.figcaption}

@@ -4,7 +4,7 @@ title: Tworzenie wykresów dla danych z KRS-u
 description: "Używamy skryptów do zwizualizowania zmian zachodzących w firmach."
 ---
 
-{:.post-meta .bigspace}
+{:.post-meta .bigspace-after}
 Rym w tytule samouczka niezamierzony.
 
 Ten samouczek to instrukcja pracy z&nbsp;moim skryptem Pythona, pozwalającym tworzyć wykresy i&nbsp;grafy powiązań dla odpisów z&nbsp;Krajowego Rejestru Sądowego. 
