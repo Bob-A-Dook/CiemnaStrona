@@ -4,7 +4,7 @@ title:  "Internetowa inwigilacja 9 – JavaScript, cz.1"
 subtitle: "„Na pewno mówisz prawdę?”"
 description: "„Na pewno mówisz prawdę?”"
 date:   2022-05-02 16:45:00 +0100
-tags: [Internet, Inwigilacja, Porady]
+tags: [Internet, Inwigilacja, Podstawy]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
 ---
@@ -19,7 +19,7 @@ Który ma różne sposoby, żeby wybadać kim jesteśmy. Sprawdzić, czy wysyła
 To bardzo złe wieści dla naszej prywatności, ale całkiem niezłe dla tych czytelników, którzy już czuli rutynę. JavaScript przynosi dużo nowości, egzotyki, nietypowych metod śledzenia. Poznajmy go!
 
 Bardziej kreatywne zastosowania zostawię na kolejne wpisy, a&nbsp;teraz zobaczymy prostsze informacje. Taki wpis przejściowy.  
-Ale niech was to nie zwiedzie. Nawet pierwszy rzut oka na możliwości JavaScriptu może wystarczyć, żeby zrobiło nam się odrobinę nieswoje.
+Ale niech was to nie zwiedzie. Nawet pierwszy rzut oka na możliwości JavaScriptu może wystarczyć, żeby zrobiło nam się odrobinę nieswojo.
 
 {:.post-meta .bigspace-below}
 Wpis zawiera parę przykładów kodu, ale swobodnie można go przeczytać z&nbsp;zerową znajomością JavaScriptu.
@@ -85,6 +85,8 @@ Jeśli chodzi o&nbsp;ogólne działanie:
 
 Dla naszych potrzeb wystarczy informacja, że **JavaScript ma możliwość podpytywania przeglądarki o&nbsp;pewne informacje, a&nbsp;przeglądarka ochoczo się nimi dzieli**.
 
+Zamiast drugiej linijki, umieszczającej link na stronie, moglibyśmy oczywiście mieć kod wysyłający go komuś wścibskiemu. Wrócę do tego pod koniec wpisu.
+
 ## JavaScript jako łapacz kłamczuchów
 
 # Zdobywanie informacji z&nbsp;nagłówków 
@@ -149,7 +151,7 @@ Jeśli nie chcemy się wyróżniać, to już lepiej być nieco rzadszym, ale sta
 <img src="/assets/posts/javascript-tracking/javascript-unmask.jpg" alt="Dwa przerobione panele z&nbsp;kreskówki Scooby Doo. Pierwszy z&nbsp;nich pokazuje postać w&nbsp;masce ducha, przed którą stoi blondyn Fred. Na masce widnieje logo Chrome'a, zaś na koszulce Freda napis JS. Na drugim panelu, już po ściągnięciu maski, Fred trzyma ją w&nbsp;dłoni i&nbsp;widać prawdziwą twarz drugiej postaci. Jest nią logo przeglądarki Firefox." width="500px"/> 
 
 {:.figcaption}
-Popularny mem z&nbsp;kreskówki Scooby Doo, przeróbka moja.
+Popularny mem na podstawie kreskówki Scooby Doo, przeróbka moja.
 
 # Dawanie przeglądarce zadań
 
@@ -181,7 +183,7 @@ Gdyby działanie JavaScriptu było ograniczone do strony, w&nbsp;której jest os
 
 Ale jest inaczej. Stronki internetowe coraz częściej są ładowane dynamicznie; autorzy przeglądarek i samego JS-a dokładają starań, żeby komunikacja była jak najprostsza. Aktualnie **wysłanie informacji w&nbsp;świat to kwestia kilku linijek kodu**.
 
-Przedstawiam minimalnie dłuższy fragment JS-a. Jak zwykle nie trzeba go rozumieć, zresztą większość to szablonowy tekst:
+Przedstawiam nieco dłuższy fragment JS-a. Jak zwykle nie trzeba go rozumieć, zresztą większość to szablonowy tekst:
 
 ```javascript
 let xhr = new XMLHttpRequest();
@@ -203,23 +205,23 @@ Wystarczą nam trzy fakty:
 2. `JSON` to dość zwięzły i&nbsp;czytelny format danych. Ogólnie wygląda jak zwykły tekst z&nbsp;nawiasami i&nbsp;apostrofami.
 3. Zmienna `informacje_o_nas` może zawierać dowolne rzeczy, jakie odczytał JavaScript. Zaś zmienna `stronka_nasza_lub_obca` to adres, pod który te informacje zostaną wysłane. 
 
-Pięć linijek po usunięciu pustych linii. Ewnetualnie jedna dodatkowa, jeśli ma to wszystko trafić w&nbsp;ręce całkiem obcej stronki.  
+Pięć linijek nie licząc pustych. Ewentualnie jedna dodatkowa, jeśli ma to wszystko trafić w&nbsp;ręce całkiem obcej stronki.  
 Tyle wystarczy, żeby nasze informacje poleciały gdzieś w&nbsp;szeroki świat.
 
 ## Parę słów na koniec
 
-Widzimy, że JavaScript jest co najmniej równy nagłówkom HTTP, które do tej pory omawiałem. Jest w&nbsp;stanie odczytać wszystkie te same informacje (poza adresem IP), a&nbsp;nawet zweryfikować ich prawdziwość.
+Widzimy, że JavaScript pod względem potencjału śledzącego jest co najmniej równy nagłówkom HTTP, które do tej pory omawiałem. Potrafi odczytać wszystkie te same informacje (poza adresem IP), a&nbsp;nawet zweryfikować ich prawdziwość. Swoje odkrycia może wysłać innym.
 
 W kolejnych wpisach zobaczymy, że to dopiero początek jego możliwości. 
 
 Na koniec pozwolę sobie na lekką dygresję. Choć ogólnie można się cieszyć, że świat idzie do przodu, w&nbsp;przypadku JavaScriptu ma to swoje wady. 
 
-Pierwsza sprawa: ludzie chcą coraz to nowych bajerów. Albo menedżerowie wmawiają programistom, że tak jest; wychodzi na to samo.  
-Jeśli jakaś przeglądarka przestanie dodawać bajery, to stanie się mniej popularna. Zatem **trwa przeglądarkowy wyścig szczurów**. Dodają coraz więcej funkcji, bo muszą, bo robią to inni. Wielu tych funkcji, jak zobaczymy, można nadużyć do celów śledzenia.
+Pierwsza sprawa: ludzie chcą coraz to nowszych bajerów. Albo menedżerowie wmawiają programistom, że tak jest; wychodzi na to samo.  
+Jeśli jakaś przeglądarka przestanie dodawać bajery, to stanie się mniej popularna. Zatem **trwa przeglądarkowy wyścig szczurów**. Dodają coraz więcej funkcji, bo muszą, bo robią tak inni. Wielu tych funkcji, jak zobaczymy, można nadużyć do celów śledzenia.
 
 Druga sprawa: rosnąca „aplikacjoza”. Zamiast nieruchomych, stałych stronek -- internetowy odpowiednik aplikacji. Rzeczy większe, animowane, interaktywne. Strony ładowane na raty, żeby dało się je przewijać w&nbsp;nieskończoność.  
 Nieraz wszystko to powolne i&nbsp;dziadowskie... no ale trendy!
 
 W takich warunkach popularność JavaScriptu będzie jedynie rosła. A&nbsp;prąd, wbrew któremu będą musiały iść osoby stawiające szacunek dla użytkowników nad nowoczesnością, może być niestety coraz silniejszy.
 
-Ale nie ma co się poddawać! Gdy nie ma siły, żeby iść pod prąd, to można przez chwilę popłynąć z&nbsp;prądem. Na przykład do kolejnego wpisu :wink:
+Ale nie ma co się poddawać! Gdy nie ma siły, żeby iść pod prąd, to można na chwilę się rozluźnić i&nbsp;dać się ponieść. Na przykład do kolejnego wpisu :wink:
