@@ -8,6 +8,9 @@ tags: [Internet, Inwigilacja, Porady]
 firmy: [Reddit]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
+image: "javascript-tracking/js-danger-baner.jpg"
+image-width: 1200
+image-height: 700
 ---
 
 We wczorajszym wpisie przedstawiłem krótko JavaScript, swoisty język programowania internetu.
@@ -60,6 +63,8 @@ Gdyby świat kończył się na informacjach z&nbsp;nagłówków HTTP, omawianych
 Jest tym, co może sprawić, że informacje i&nbsp;tak trafią do naszych wirtualnych akt. Nawet gdy jedyną rzeczą łączącą wyszukiwania tajne z&nbsp;jawnymi było urządzenie.
 
 Zapnijcie pasy, będzie groźnie :smiling_imp:
+
+<img src="/assets/posts/javascript-tracking/js-danger-baner.jpg" alt="Obrazek pokazujący logo JavaScriptu, czarne literki J i S na żółtym tle. Literkę J podmieniono na czarny hak o podobnym kształcie, z którego właśnie skapuje kropla krwi."/>
 
 {:.post-meta .bigspace-before}
 Jeśli chcecie sprawdzić, co JS wie na temat waszej przeglądarki, możecie to zrobić np. przez stronę [BrowserLeaks](https://browserleaks.com/javascript).

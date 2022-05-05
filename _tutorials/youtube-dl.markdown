@@ -26,7 +26,9 @@ A ponieważ konsola może być dla wielu osób czymś nowym, napisałem ten przy
 {% include info.html
 type="Uwaga"
 text="Jeśli na konsolę reagujemy alergicznie i&nbsp;za żadną cenę nie chcemy z&nbsp;niej skorzystać, to istnieją również programy z&nbsp;graficznym interfejsem. Dobrze oceniany jest na przykład [ten od użytkownika *jely2002*](https://github.com/jely2002/youtube-dl-gui).  
-Warto jednak pamiętać, że będzie aktualny tylko dopóty, dopóki twórcy się chce. Pod tym względem może być nieco do tyłu względem wersji konsolowej."
+Warto jednak pamiętać, że będzie aktualny tylko dopóty, dopóki twórcy się chce. Nie mamy gwarancji, że będzie na bieżąco ze zmianami w „podstawce”."
+trailer="<p class='bigspace-before'>
+Poza tym <i>youtube-dl</i> nieco przycina szybkość pobierania, do poziomu kilkudziesięciu kB/s. Jeśli chcemy pozbyć się ograniczeń, warto rozważyć <i><a href='https://github.com/yt-dlp/yt-dlp'>yt-dlp</a></i>. Zastrzeżenia jak wyżej: może być do tyłu względem wersji podstawowej.</p>"
 %}
 
 ## Instalacja
@@ -148,7 +150,9 @@ I *voila*! Jeśli już mamy łączność, to zacznie nam pobierać od miejsca, w
 
 # Odmowa dostępu
 
-Czasami to chwilowy zgrzyt i&nbsp;wystarczy spróbować ponownie. Strzałka w&nbsp;górę, żeby ponownie wyświetlić komendę. *Enter*, żeby ją wykonać. Może zadziała.
+Wyświetla się jako `HTTP Error 403: Forbidden`.
+
+Czasami to chwilowy zgrzyt i&nbsp;wystarczy spróbować ponownie. Strzałka w&nbsp;górę, żeby ponownie wyświetlić komendę. *Enter*, żeby ją wykonać. Zazwyczaj mi wtedy działa.
 
 Innym razem sam filmik ma jakieś ograniczenia. Na przykład te wprowadzone przez Google, żeby wyciągnąć od nas zdjęcie dowodu albo numer konta. Zwykle omijam je szerokim łukiem, więc chwilowo nie wiem, czy jest jakieś proste obejście.
 

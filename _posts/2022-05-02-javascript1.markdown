@@ -7,6 +7,9 @@ date:   2022-05-02 16:45:00 +0100
 tags: [Internet, Inwigilacja, Podstawy]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
+image: "javascript-tracking/javascript-baner.jpg"
+image-width: 1200
+image-height: 700
 ---
 
 W większości wpisów z&nbsp;serii „Internetowa inwigilacja” pisałem o&nbsp;tym, co wysyła nasza przeglądarka przy każdym kontakcie z&nbsp;właścicielami odwiedzanych stron. Zanim w&nbsp;ogóle otrzymamy „zamówioną” stronę internetową.
