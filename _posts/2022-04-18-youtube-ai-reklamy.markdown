@@ -4,7 +4,7 @@ title:  "BadTube. Ciemne strony YouTube'a (cz. 2)"
 subtitle: "O rządach maszyn i reklamodawców."
 description: "O rządach maszyn i reklamodawców"
 date:   2022-04-18 18:10:00 +0100
-tags: [Centralizacja, Internet, Manipulacja]
+tags: [AI, Centralizacja, Internet, Manipulacja]
 firmy: [Google, YouTube]
 category: google
 category_readable: "Google – kolorowy czarny charakter"

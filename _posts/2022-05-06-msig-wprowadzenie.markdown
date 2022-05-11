@@ -8,6 +8,9 @@ tags: [Analiza danych]
 firmy: [Adobe]
 category: krs-msig
 category_readable: "Myszkowanie w Monitorze i kopanie w KRS-ie"
+image: "msig/msig-baner.jpg"
+image-width: 1200
+image-height: 700
 ---
 
 Witam w&nbsp;kolejnym wpisie z&nbsp;serii „Myszkowanie w&nbsp;Monitorze i&nbsp;kopanie w&nbsp;KRS-ie” :smile:  
