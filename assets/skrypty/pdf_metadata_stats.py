@@ -310,4 +310,4 @@ if __name__ == '__main__':
         if ANALYZE_INTERACTIVELY:
             interact( local=globals() )
         else:
-        _ = input('\n[Naciśnij Enter, żeby zakończyć] ')
+            _ = input('\n[Naciśnij Enter, żeby zakończyć] ')

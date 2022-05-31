@@ -39,12 +39,12 @@ Film: „Apocalypto”. Dodatki od lewej: Ghostery (z odwróconą miną), Single
 
 Zacznijmy może od samego pojęcia *Manifest v3*. Nie zdziwiłbym się, gdyby niektórym czytelnikom kojarzyło się to co najwyżej z&nbsp;„Manifestem Komunistycznym”.
 
-Rzecz w&nbsp;tym, że dodatki są całkowicie zależne od przeglądarki. To ona udostępnia im zestaw wybranych możliwości i&nbsp;narzędzi. Zestaw dostępny do tej pory nazywano zbiorczo wersją 2.
+Rzecz w&nbsp;tym, że dodatki są całkowicie zależne od przeglądarki. To ona udostępnia im zestaw wybranych możliwości i&nbsp;narzędzi. Zestaw dostępny do tej pory nazywano zbiorczo wersją&nbsp;2.
 
 Teraz Google planuje wprowadzić zmianę na tyle istotną, że zyskamy bonus +1&nbsp;do numeru wersji (co do tej pory rzadko się zdarzało w&nbsp;całej długiej historii Chrome'a). Obecnie dopuszczane są obie wersje, 2&nbsp;i&nbsp;3. Ale **wraz z&nbsp;początkiem 2023&nbsp;roku przeglądarka będzie dopuszczała jedynie wersję&nbsp;3**.
 
 Mam drobną analogię: załóżmy, że w&nbsp;komunikacji miejskiej zamontowana jest teraz wersja 2&nbsp;automatów biletowych. Można w&nbsp;nich płacić i&nbsp;monetami, i&nbsp;dotykowo. W&nbsp;wersji 1&nbsp;dało się tylko monetami.  
-W planach jest stopniowa wymiana tych automatów na wersję 3, mniejszą i&nbsp;lżejszą, która pozwoli jedynie na płatności dotykowe. Niby krok w&nbsp;przyszłość, ale jednak coś tracimy względem poprzedniej wersji. Podobnie jest z&nbsp;Manifestem.
+W planach jest stopniowa wymiana tych automatów na wersję&nbsp;3, mniejszą i&nbsp;lżejszą, która pozwoli jedynie na płatności dotykowe. Niby krok w&nbsp;przyszłość, ale jednak coś tracimy względem poprzedniej wersji. Podobnie jest z&nbsp;Manifestem.
 
 {% include info.html
 type="Ciekawostka"
@@ -126,6 +126,8 @@ Bezpieczeństwo?
 Być może; w&nbsp;nowej wersji dodatki nie będą mogły pobierać skryptów z&nbsp;zewnętrznych źródeł.  
 Ale EFF pokazuje również, że w&nbsp;praktyce ataki przez pobranie kodu nie są częste. Do tego wszelakie złośliwe dodatki zwykle są wyłapywane podczas weryfikacji. Google [we własnym wpisie](https://security.googleblog.com/2019/06/improving-security-and-privacy-for.html) pochwalił się, że blokuje ich 1800&nbsp;na miesiąc.  
 Nowe zmiany brzmią zatem dobrze na papierze, ale możliwe że niewiele poprawią.
+
+Co więcej, wygląda na to że Google ubija w ten sposób również dostęp do... własnych skryptów, z których twórcy dodatków mogli korzystać. Takie płyną wnioski z&nbsp;[wątku](https://github.com/google/google-api-javascript-client/issues/713#issuecomment-1099634326) założonego przez ich pracownika.
 
 Szybkość?
 
@@ -215,7 +217,7 @@ A sam gigant? Powtarza jak mantrę swoje słowa o&nbsp;bezpieczeństwie, prywatn
 
 ## Reakcje twórców przeglądarek
 
-Widać, że *Wersja 3* to bardzo złe wieści dla dodatków. Do tego stopnia, że jedyną nadzieją dla nich mogą być przeglądarki stojące po ich stronie i&nbsp;celowo zachowujące zgodność z&nbsp;*Wersją 2*.
+Widać, że *Wersja 3* to bardzo złe wieści dla dodatków. Do tego stopnia, że jedyną nadzieją dla nich mogą być przeglądarki stojące po ich stronie i&nbsp;celowo zachowujące zgodność z&nbsp;*Wersją&nbsp;2*.
 
 Jednak wiele z&nbsp;nich jest zależnych od Chromium, zaś wprowadzanie zmian byłoby dla nich drogą pod górkę. Dlatego nie dziwota, że niektóre odpuszczają. Niektóre przepraszały użytkowników mniej, niektóre bardziej; nieliczne stawiły opór.
 
@@ -275,14 +277,18 @@ Ktoś umie programować? Super! Myślę że każdy kod pomagający uratować syt
 Mam w&nbsp;głowie kilka rzeczy, które mogłyby się przydać (ale dla mnie to za wysokie progi):
 
 * Program przeczesujący oficjalne bazy dodatków (*Chrome Web Store* itd.) i&nbsp;wyłapujący te z&nbsp;wersją&nbsp;2; warto je zarchiwizować.
-* Stronkę opartą na rozwiązaniu jak wyżej. Coś w&nbsp;rodzaju „cmentarzyska dodatków” pokazującego, ile z&nbsp;nich nie przetrwało wejścia Wersji&nbsp;3. Coś jak stronka *[Killed by Google](https://killedbygoogle.com/)*.
+
+  {:.post-meta}
+  **Aktualizacja:** takie dane zbiera już stronka [ChromeStats](https://chrome-stats.com/manifest-v3-migration).
+
+* Stronkę opartą na powyższym rozwiązaniu. Coś w&nbsp;rodzaju „cmentarzyska dodatków” pokazującego, ile z&nbsp;nich nie przetrwało wejścia Wersji&nbsp;3. Coś jak stronka *[Killed by Google](https://killedbygoogle.com/)*.
 * Publicznie dostępny kod ułatwiający przeglądarkom obsłużenie zarówno Wersji 2, jak&nbsp;i&nbsp;3.
 * Listy dla dodatków blokujących prowadzone w&nbsp;nowym formacie; żeby dało się wycisnąć z&nbsp;ograniczonej puli regułek jak najwięcej.
 
 A na poziomie nieco ogólniejszym -- zachęcam do pewnej refleksji, mniej konsumpcyjnego podejścia.
 
 Dużo złego przyniosło gadżeciarstwo. „Dej, dej, ja chcę mieć”.  
-To taka postawa napędza przeglądarkowy wyścig szczurów. Wywierając presję, żeby dodawały nowe funkcje. Wirtualną rzeczywistość, programy w&nbsp;przeglądarce, coraz lepszy streaming...
+To taka postawa napędza przeglądarkowy wyścig szczurów. Wywierając presję, żeby dodawały nowe funkcje. Wirtualną rzeczywistość, programy biurowe w&nbsp;przeglądarce, coraz lepszy streaming...
 
 Na dłuższą metę prawie żadna organizacja tego nie zapewni, to nierealne. Dlatego uzależniają się od kodu Chromium, tracąc część swojej autonomii.
 

@@ -74,7 +74,7 @@ Dlatego Monitory uznałem za lepsze rozwiązanie, jeśli chcę trzymać rękę n
 
 ## Gdzie i&nbsp;jak zdobyć Monitory
 
-Wszystkie Monitory można pobrać ze [strony](https://ems.ms.gov.pl/msig/przegladaniemonitorow) Ministerstwa Finansów. Natomiast nie jest to szczególnie przyjemne.
+Wszystkie Monitory można pobrać ze [strony](https://ems.ms.gov.pl/msig/przegladaniemonitorow) Ministerstwa Sprawiedliwości. Natomiast nie jest to szczególnie przyjemne.
 
 Kiedy klikniemy na link do wybranego Monitora, pojawia się Captcha -- zdjęcie tekstu, który trzeba przepisać do pola, żeby pobrać plik. Zabezpieczenie przed automatycznym pobieraniem.
 

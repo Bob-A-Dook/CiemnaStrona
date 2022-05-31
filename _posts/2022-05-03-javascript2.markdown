@@ -75,9 +75,9 @@ Sposób, w&nbsp;jaki JavaScript może podpytać o&nbsp;właściwości systemu, o
 
 # Wymiary ekranu
 
-JavaScript może odczytywać zarówno wymiary całego ekranu, jak i&nbsp;obszaru, na którym wyświetlana jest strona (to drugie zwykle pod nazwą *viewport*).
+JavaScript może odczytywać zarówno wymiary całego ekranu, jak i&nbsp;obszaru, na którym wyświetlana jest strona (to drugie zwykle pod nazwą *viewport*). Są podane w pikselach, w formacie *szerokość × wysokość*.
 
-Nawet same wymiary ekranu mogą być ciekawym sygnałem. Owszem, zwykle są powtarzalne. Ale jeśli używamy nietypowego monitora (szerokokątnego, pionowego itp.), to w&nbsp;jakiś sposób się wyróżniamy.
+Nawet wymiary całego ekranu, zwykle powtarzalne (pełno *1920×1080* itp.), mogą być ciekawym sygnałem. Jeśli używamy nietypowego monitora (szerokokątnego, pionowego...), to w&nbsp;jakiś sposób się wyróżniamy.
 
 Jeśli dorzucimy do tego wymiary okna, to już robi się bardzo ciekawie. Porównując je z&nbsp;całym ekranem, JS byłby w&nbsp;stanie **rozpoznawać niestandardowe ustawienia**.
 
@@ -85,13 +85,12 @@ Wymyśliłem na poczekaniu pewien przykład. Mianowicie: wiele systemów operacy
 
 JavaScript może spojrzeć na różnicę między wysokością okna a&nbsp;wysokością ekranu. W&nbsp;tej różnicy wysokości zawiera się nasz dolny, systemowy pasek, a&nbsp;także pasek górny przeglądarki.
 
-Ale wysokość paska od przeglądarki zwykle jest standardowa! JS może ją sobie sprawdzić, patrząc do jakiejś zewnętrznej listy. A&nbsp;po jej odjęciu otrzyma wysokość naszego dolnego, systemowego paska.  
-Jeśli jego wysokość nie pasuje do typowych, zapisanych gdzieś wartości, to może trafić do naszej „teczki” jako cecha szczególna.
+Ale wysokość paska od przeglądarki zwykle jest standardowa! JS może sprawdzić w&nbsp;jakiejś bazie paski typowe dla naszej przeglądarki, w&nbsp;końcu ją zna. A&nbsp;po odjęciu wymiarów przeglądarkowych zostanie wysokość naszego dolnego, systemowego paska.  
+Jeśli jego wysokość nie pasuje do typowych wartości -- również zebranych w&nbsp;jakiejś bazie -- to może trafić do naszej „teczki” jako cecha szczególna.
 
-Wysokość strony równa lub prawie równa wysokości ekranu? To by świadczyło o&nbsp;tym, że nie mamy żadnego paska. Albo ustawiliśmy sobie, żeby się chował. Odejście od ustawień domyślnych, również jakiś sygnał.
+Wysokość strony jest u&nbsp;nas równa lub prawie równa wysokości ekranu? To by świadczyło o&nbsp;tym, że nie mamy żadnego paska. Albo ustawiliśmy sobie, żeby się chował. Odeszliśmy od ustawień typowych dla systemu, wyróżniamy się.
 
-Niektóre przeglądarki zawierają też paski boczne, szersze paski górne i&nbsp;tym podobne. Mając nazwę naszej przeglądarki oraz listę typowych wymiarów okna, wścibski JavaScript może porównać te wartości.  
-I ustalić na przykład, że mamy schowany pasek, który u&nbsp;większości użytkowników jest widoczny. Wyróżniamy się.
+JavaScript może wyłapać kolejne anomalie, porównując wymiary pasków wewnątrz naszej przeglądarki z&nbsp;tymi typowymi. Mamy schowany pasek boczny, obecny u&nbsp;większości użytkowników danej przeglądarki? Wyróżniamy się.
 
 {:.figure .bigspace-before}
 <img src="/assets/posts/javascript-tracking/js-wymiary-okien.jpg" alt="Dwa okna w&nbsp;małych, prawie identycznych rozmiarach ustawione jedno pod drugim, na tle tapety ze szczytami gór. Pierwsze należy do Opery, drugie do Brave'a. W&nbsp;obu wyświetla się ta sama strona z&nbsp;informacjami o&nbsp;rozmiarach ekranu. Widać, że więcej pikseli zdaniem strony ma okno Brave'a."/>
@@ -99,7 +98,7 @@ I ustalić na przykład, że mamy schowany pasek, który u&nbsp;większości uż
 {:.figcaption}
 Okna dwóch przeglądarek, Opery i&nbsp;Brave'a. Choć ich granice mają podobne wymiary, w&nbsp;Operze obszar strony jest mniejszy. Przez pasek boczny.
 
-Inny przykład -- **wykrywanie otwartych narzędzi przeglądarki**.
+Inny przykład -- **wykrywanie, czy otwarliśmy narzędzia przeglądarki**.
 Kiedy otwieramy te narzędzia, żeby zajrzeć stronce w&nbsp;bebechy, to w&nbsp;domyślnym trybie wysuwają się z dołu, zmniejszając obszar wyświetlanej strony.  
 JavaScript może wypatrywać takich zmian i&nbsp;odgadnąć, co właśnie otwieramy. Nie jest to zresztą teoria -- na Githubie wprost znajdziemy [projekt](https://github.com/sindresorhus/devtools-detect), który oferuje takie możliwości. Dość popularny, ponad 1700&nbsp;gwiazdek.
 
@@ -123,8 +122,8 @@ A jeśli chodzi o&nbsp;szpiegowanie użytkowników?
 
 Stronka mogłaby trzymać listę typowych skrótów klawiszowych dla danej przeglądarki. Jeśli ktoś **często używa kombinacji niestandardowych**, to mogłaby to sobie zapisywać -- sam na przykład mam niestandardowy skrót, który sobie ustawiłem do usuwania elementów (funkcja dodatku uBlock Origin).
 
-Wróćmy do przykładu z&nbsp;początku wpisu -- chcę poszukać czegoś bardzo osobistego. Wylogowuję się z&nbsp;konta i&nbsp;szukam na stronie, na której niedawno byłem.  
-Jeśli z&nbsp;przyzwyczajenia użyję swojego nietypowego skrótu klawiszowego, to strona może sprawdzić w&nbsp;zapisanych informacjach, czy ktoś z&nbsp;zarejestrowanych użytkowników tak robi. Też jest z&nbsp;Polski i&nbsp;korzysta z&nbsp;takiej samej przeglądarki jak ja teraz? Ups, mają mnie.
+Wróćmy do przykładu z&nbsp;początku wpisu -- chcę poszukać czegoś bardzo osobistego na stronie, na której często bywam. Otwieram nowe okno w trybie incognito i&nbsp;zmieniam adres IP (np. przez opcje Opery).  
+Jeśli z&nbsp;przyzwyczajenia użyję swojego nietypowego skrótu klawiszowego, to strona może sprawdzić w&nbsp;zapisanych informacjach, czy ktoś z&nbsp;zarejestrowanych użytkowników tak robił. Też jest z&nbsp;Polski i&nbsp;niedawno wylogował się z&nbsp;konta? Ups, mają mnie.
 
 Inne nieoczekiwane zastosowanie śledzenia klawiatury? **Istnieją formularze, które wysyłają wpisywany tekst na bieżąco**. Zanim w&nbsp;ogóle klikniemy „Wyślij”. Rzekomo po to, żeby obsługa klienta mogła szybciej reagować.
 
@@ -188,18 +187,18 @@ Oprócz informacji o&nbsp;sprzęcie i&nbsp;baterii, JS może podpytać o&nbsp;[j
 
 Podpytane przeglądarki mogą ujawnić między innymi przybliżony „poziom” sieci (*3G*, *4G*...) oraz jej rodzaj (np. komórkową), aktualną i&nbsp;maksymalną przepustowość łącza w&nbsp;megabitach na sekundę (`downlink` i&nbsp;`downlinkMax`), czas pełnego obiegu danych (`rtt`, od *round-trip time*) oraz informację o&nbsp;tym, czy mamy włączony tryb oszczędzania danych (`saveData`).
 
-Wyobraźmy sobie, że zwykle korzystamy z&nbsp;wolnego mobilnego internetu, a&nbsp;potem odwiedzimy kogoś znajomego z&nbsp;wypasionym łączem.
+Wyobraźmy sobie, że zwykle korzystamy z&nbsp;wolnego mobilnego internetu, który często nam zmienia adres IP. Pewnego dnia odwiedzamy kogoś znajomego z&nbsp;wypasionym łączem szerokopasmowym.
 
-Jeśli wejdziemy na swoje konto na wspomnianej wścibskiej stronie z&nbsp;zakupami, która ma nasze dane historyczne, to będzie wiedziała, że podczas tej wizyty nie byliśmy u&nbsp;siebie.  
-**Nawet jeśli korzystaliśmy z&nbsp;VPN-a** -- po prostu sama różnica między naszą typową szybkością internetu a&nbsp;szybkością w&nbsp;tym dniu będzie podejrzana.
+Jeśli wejdziemy na swoje konto na wspomnianej wścibskiej stronie z&nbsp;zakupami, która dobrze nas zna, to szybkość naszego łącza w&nbsp;tym dniu będzie się wyróżniała.  
+Strona będzie miała pewność, że podczas tej wizyty nie byliśmy u&nbsp;siebie. Pewność, której nie dałby jej sam adres IP, bo ten zmienia nam się często.
 
-Ponownie: Brave i&nbsp;Firefox zatajają większość informacji, przeglądarkowy mainstream ujawnia wszystko. Safari wyjątkowo z&nbsp;rigczem, zataja.
+Ponownie: Brave i&nbsp;Firefox zatajają większość informacji z&nbsp;tej kategorii, przeglądarkowy mainstream ujawnia wszystko. Safari wyjątkowo z&nbsp;rigczem, zataja.
 
 ## Łączenie danych
 
 Na koniec zwróćmy uwagę na to, że omawiane informacje nie występują w&nbsp;izolacji i&nbsp;można je łączyć w&nbsp;bardziej wyrafinowane kombinacje.
 
-Jeśli z&nbsp;jakiejś strony korzystamy często, zalogowani na swoje konto, to JavaScript prześle o&nbsp;nas sporo danych. Właściciele strony mogą nas analizować. W&nbsp;dłuższym okresie wyłapią pewne typowe cechy.
+Jeśli z&nbsp;jakiejś strony korzystamy często, zalogowani na swoje konto, to JavaScript na dłuższą metę prześle o&nbsp;nas sporo danych. Właściciele strony mogą nas analizować. W&nbsp;dłuższym okresie wyłapią pewne typowe cechy.
 
 Przykład? Załóżmy że zwykle przeglądamy strony, korzystając z&nbsp;komórki podpiętej do większego monitora. Strona jest w&nbsp;stanie to wychwycić:
 
@@ -210,7 +209,7 @@ Przykład? Załóżmy że zwykle przeglądamy strony, korzystając z&nbsp;komór
 
 Na tej podstawie **trafimy do mało licznej przegródki** „Preferencje: telefon + duży monitor”. Nie jest to sam w&nbsp;sobie jakiś unikalny sygnał. Ale jako wstępny odsiew albo sygnał wzmacniający sprawdzi się świetnie.
 
-Nawet jeśli się wylogujemy, zmienimy adres IP, parametry naszej komórki są typowe, zaś monitorów takich jak nasz jest wiele -- dane z&nbsp;osobna nas nie zdradzają, ale suma części z&nbsp;nich już mocno zawęża krąg poszukiwanych.
+Nawet jeśli się wylogujemy, zmienimy adres IP, parametry naszej komórki są typowe, zaś monitorów takich jak nasz jest wiele -- możemy zostać rozpoznani. Dane z&nbsp;osobna nas nie zdradzają, ale ich połączenie już mocno zawęża krąg poszukiwanych.
 
 Do tego chwilę przed tym, jak weszliśmy na stronkę anonimowo, z&nbsp;innego adresu IP, swoją aktywność na niej wstrzymał Adam Znany z&nbsp;tej samej rzadkiej przegródki.  
 Czyżbyśmy byli nim?
@@ -282,11 +281,11 @@ Warto się przejść do jakiejś kafejki internetowej, biblioteki publicznej alb
 
 Dla pewności nie bierzemy telefonu albo wyłączamy w&nbsp;nim łapanie hotspotów i&nbsp;geolokalizację. Nie chcemy, żeby jakaś wścibska apka powiązała z&nbsp;nami taki sam adres IP, z&nbsp;jakiego robiliśmy anonimowe wyszukiwanie.
 
-Potem siadamy i&nbsp;przeglądamy. Korzystając z&nbsp;obcego komputera, mamy inny adres IP, inne parametry urządzenia... Prawie wszystko inne. Tutaj nawet JavaScript pytający przeglądarki o&nbsp;podstawy nie pomoże.
+Potem siadamy i&nbsp;przeglądamy. Korzystając z&nbsp;obcego komputera, mamy inny adres IP, inne parametry urządzenia... Prawie wszystko inne. Teraz nawet wścibski JavaScript może nie być w&nbsp;stanie nas rozpoznać.
  
 Trzeba tylko pamiętać, żeby podczas surfowania **nie logować się na żadne swoje konta**, nie odwiedzać swojego osobistego bloga. Nie robić rzeczy, które by powiązały wyszukiwania z&nbsp;jakimś konkretnym człowiekiem.
 
-Pamiętajmy że miejsca publiczne, nawet jeśli są poza wpływami większych firm, mają z&nbsp;kolei swoich administratorów. Być może znudzonych i&nbsp;wścibskich.
+Pamiętajmy, że miejsca publiczne, nawet jeśli są poza wpływami większych firm, mają z&nbsp;kolei swoich administratorów. Być może znudzonych i&nbsp;wścibskich.
 
 # Wtopienie się w&nbsp;tłum
 
@@ -319,10 +318,10 @@ Tu coś dla osób, które chcą zaglądać za kulisy szemranych stron.
 
 Pokazałem w&nbsp;tym wpisie, w&nbsp;jaki sposób strona może się zorientować, że otworzyliśmy narzędzia przeglądarki:
 
-* przez skrót klawiszowy,
-* przez nagłą zmianę rozmiarów okna.
+* użyliśmy konkretnego skrótu klawiszowego,
+* nagle zmieniły się nam rozmiary okna.
 
-Żeby nie ujawniać tych informacji, najlepiej **otworzyć narzędzia przeglądarki z&nbsp;wyprzedzeniem, w&nbsp;osobnym oknie**. Jeszcze przed wejściem na stronę szpiegującą. A&nbsp;żeby otwierały się w&nbsp;osobnym oknie, wystarczy wybrać jedną z&nbsp;opcji z&nbsp;menu po prawej stronie.
+Żeby nie ujawniać tych informacji, najlepiej **otwierać narzędzia przeglądarki z&nbsp;wyprzedzeniem, w&nbsp;osobnym oknie**. Otwieramy je na jakiejś bezpiecznej stronie, przed odwiedzeniem szpiegującej. Potem wybieramy opcję z&nbsp;menu po prawej stronie.
 
 {:.figure .bigspace}
 <img src="/assets/posts/javascript-tracking/devtools-osobne-okno.jpg" alt="Zrzut ekranu z&nbsp;narzędzi przeglądarki, pokazujący rozwinięte menu i&nbsp;wybraną opcję otwierania w&nbsp;osobnym oknie."/>
