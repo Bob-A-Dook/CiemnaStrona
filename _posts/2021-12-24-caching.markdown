@@ -375,7 +375,7 @@ trailer = "
 Jednym z&nbsp;najczęstszych zastosowań może być wyciąganie plików z&nbsp;pamięci do osobnego folderu, żeby potem się z&nbsp;nimi zapoznać. Możemy do tego celu użyć kilku zwięzłych funkcji:
 
 ```python
-# Można wyciągnąć wszystkie pliki ze znalezionych pamięci
+# Można wyciągnąć wszystkie pliki ze wszystkich folderów cache
 extract_data()
 
 # Albo tylko same obrazki 
@@ -388,10 +388,10 @@ extract_images( browser="Firefox" )
 extract_images( url_text="ciemnastrona.com.pl", folder="Obrazki" )
 ```
 
-Mamy też kilka funkcji do prostej analizy eksploracyjnej:
+Mamy też kilka funkcji do prostej, interaktywnej analizy:
 
 ```python
-# Zdobyć pliki png ze źródeł zawierających słowo 'facebook'
+# Zdobyć pliki png ze stron zawierających słowo 'facebook'
 fb = get_entries( url_text="facebook", extensions="png" )
 
 # Potem wyświetlić posortowane wyniki jeden pod drugim
@@ -400,8 +400,9 @@ show_entries( fb )
 # Albo zrobić to co wyżej jedną komendą
 show_entries( url_text="facebook", extensions="png" )
 
-# Albo pokazać tylko adresy zawierające ciąg czterech dowolnych cyfr
-# (korzystamy tu z wyrażeń regularnych)
+# Albo pokazujemy tylko te pliki, których adresy URL
+# zawierają cztery cyfry pod rząd
+# (korzystamy z wyrażeń regularnych)
 show_entries( url_text="[0-9]{4}", regex=True )
 
 ```
@@ -411,10 +412,11 @@ Moje gotowe funkcje można oczywiście mieszać z&nbsp;domyślnymi Pythonowymi:
 ```python
 # Bierzemy z cache'a Chromium elementy, których linki
 # zawierały parametry (co odczytuje funkcja urlparse). 
-# Potem zapisujemy je w osobnym folderze
+# Potem zapisujemy je w osobnym folderze "Z_parametrami"
+
 elems = get_entries( browser="Chromium" )
 elems = [e for e in elems if urlparse(e.url).params]
-extract( elems, folder="Z_parametrami" )
+extract_data( elems, folder="Z_parametrami" )
 ```
 
 Ale myślę, że i&nbsp;tak osoby kreatywne znajdą własne zastosowania i&nbsp;odkryją w&nbsp;swoich (i tylko swoich!) pamięciach rzeczy, o&nbsp;jakich nawet mi się nie śniło.

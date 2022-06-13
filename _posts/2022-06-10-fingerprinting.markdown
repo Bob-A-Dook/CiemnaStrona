@@ -102,7 +102,7 @@ Dlatego zupełnie nie ma co się dziwić, gdybyśmy znaleźli skrypt śledzący 
 
 Kolejna sprawa: czy takie metody mogą być skuteczne? W&nbsp;końcu to wiele różnych danych, sygnałów. Być może firmy same potykałyby się o&nbsp;własne nogi, próbując z&nbsp;tego wyciągnąć coś sensownego?
 
-Odpowiedź: tak, to skuteczne. W&nbsp;świecie komputerów istnieje bardzo popularna metoda zwana *haszowaniem*. Pozwala ścisnąć wiele różnych wartości do jednego ciągu znaków. Co więcej, istnieją odmiany takie jak *MinHash* -- otrzymane ciągi znaków są tym bardziej do siebie podobne, im bardziej podobne były dane początkowe.
+Odpowiedź: tak, to skuteczne. W&nbsp;świecie komputerów istnieje bardzo popularna metoda zwana *[haszowaniem]({% post_url 2021-02-28-hash-podstawy %})*{:.internal}. Pozwala ścisnąć wiele różnych wartości do jednego ciągu znaków. Co więcej, istnieją odmiany takie jak *MinHash* -- otrzymane ciągi znaków są tym bardziej do siebie podobne, im bardziej podobne były dane początkowe.
 
 Zatem ustalenie odpowiedzi na pytanie „Czy użytkownik X&nbsp;to ta sama osoba co użytkownik Y?” może się sprowadzać do zebrania informacji przez skrypt, ściśnięcia ich w&nbsp;jedną liczbę, porównania z&nbsp;liczbami wcześniej zebranymi. **Wszystko w&nbsp;pełni automatycznie**.  
 Nie ma co liczyć na to, że zadanie przerośnie naszych adwersarzy!
@@ -238,7 +238,7 @@ Tym kartom również wyszli naprzeciw twórcy przeglądarek, dając JavaScriptow
 
 W kwestii opisu metody zdam się na ludzi od *FingerprintJS*. Mówiąc ogólnie, polega ona na podaniu komputerowi kilku parametrów, żeby najpierw wygenerował falę dźwiękową, a&nbsp;potem ją skompresował.
 
-Efekt jego działań różni się w&nbsp;zależności od przeglądarki, ale zapewne będzie taki sam dla tej samej kombinacji sprzętu, systemu i&nbsp;przeglądarki. Zatem: kolejny identyfikator do kolekcji.
+Efekt jego działań zmienia się w&nbsp;zależności od przeglądarki, ale zapewne każdorazowo będzie taki sam dla tego samego zestawu *sprzęt + system + przeglądarka*. Zatem: kolejny identyfikator do kolekcji.
 
 {:.bigspace-before}
 <img src="/assets/posts/javascript-tracking/audio-fingerprint.jpg" alt="Wykres pokazujący cztery oscylujące linie w&nbsp;różnych kolorach, odpowiadające różnym kombinacjom systemu i&nbsp;przeglądarki" width="500px"/>
@@ -246,7 +246,7 @@ Efekt jego działań różni się w&nbsp;zależności od przeglądarki, ale zape
 {:.figcaption}
 Źródło: [artykuł](https://fingerprintjs.com/blog/audio-fingerprinting/) FingerprintJS. Nie widać żółtej linii, bo mój wykres pokrywa się niemal w&nbsp;100% z&nbsp;tym dla Firefoksa na Windowsie.
 
-Metoda profilowania przez dźwięk, jak już wspomniałem, została znaleziona między innymi na znanym forum StackOverflow.
+Skrypt profilujący przez dźwięk, jak już wspomniałem, został znaleziona między innymi na znanym forum StackOverflow.
 
 # Właściwości silnika JavaScriptu
 
@@ -268,7 +268,7 @@ Zachęciło mnie to, żeby powpisywać `jit javascript fingerprinting` i&nbsp;po
 
 Okazuje się bowiem, że **można nas profilować według zachowania JavaScriptu, wyciągając ciekawe fakty na temat naszego procesora**.
 
-Wspominałem wcześniej o&nbsp;grafice: na początku mamy prostą, czytelną dla komputera regułkę tworzącą, a&nbsp;po wszystkich przeróbkach otrzymujemy piksele wyświetlone na monitorze. Czytelne dla nas.
+Wspominałem wcześniej o&nbsp;grafice: na początku mamy prostą, czytelną dla komputera regułkę, a&nbsp;po wszystkich przeróbkach otrzymujemy piksele wyświetlone na monitorze. Czytelne dla nas.
 
 Przy przekształcaniu języka jest na odwrót. Zaczynamy od czytelnego kodu JavaScript, napisanego przez człowieka. A&nbsp;po różnych przekształceniach kończymy z&nbsp;enigmatycznymi instrukcjami przeznaczonymi dla komputera.
 
@@ -282,9 +282,9 @@ W skrajnych przypadkach, pokazanych w&nbsp;artykule, dwa prawie identyczne fragm
 Jedno i&nbsp;drugie brzmi dla mnie jak marsjański; ale widać, że pierwszy marsjański nieco się różni od drugiego.  
 Źródło: [artykuł](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_01B-4_Schwarz_paper.pdf) z&nbsp;2019 roku.
 
-A to tylko jedna z&nbsp;możliwości. Artykuł porusza również inne kwestie, takie jak zachowanie modułu zarządzającego pamięcią. Ogólne działanie zapewne podobne; znajdowanie punktów granicznych, w&nbsp;których coś (czas trwania, instrukcje...) ulega istotnej zmianie.
+A to tylko jedna z&nbsp;możliwości. Artykuł porusza również inne kwestie, takie jak zachowanie modułu zarządzającego pamięcią. Sens metody zapewne podobny; znajdowanie punktów granicznych, w&nbsp;których coś (czas trwania, instrukcje...) ulega istotnej zmianie.
 
-Odpowiednio dobierając zadania, można ustalić kilka istotnych właściwości, jakie posiada nasz sprzęt. I&nbsp;dorzucić je do naszego odcisku palca.
+Odpowiednio dobierając zadania dla kodu, można ustalić kilka istotnych właściwości, jakie posiada nasz sprzęt. I&nbsp;dorzucić je do naszego odcisku palca.
 
 Myślę, że na dziś nam starczy. A&nbsp;jeśli komuś mało, to zachęcam do zastanowienia się, ile punktów do analizy zyskałyby firmy, gdyby w&nbsp;sieci spopularyzowała się wirtualna rzeczywistość (wymagająca stałego monitorowania ruchów ciała i&nbsp;gałek ocznych).
 
@@ -356,6 +356,6 @@ Powoli zbliżamy się też do końca „Internetowej inwigilacji”.
 
 Wiemy już całkiem sporo o&nbsp;mechanizmach, z&nbsp;jakich korzystają firmy, żeby kompletować nasze cyfrowe teczki. Od informacji ujawnianych przy pierwszym kontakcie aż po te wymagające wnikliwego testowania naszego urządzenia.
 
-W kolejnym wpisie zbiorę to w&nbsp;całość i&nbsp;podsumuję w&nbsp;jeden poradnik po ochronie internetowej prywatności. Będzie to również oficjalne zamknięcie serii; tej głównej, bo stworzę jeszcze niejeden wpis uzupełniający.
+W kolejnym wpisie zbiorę to w&nbsp;całość i&nbsp;połączę w&nbsp;jeden poradnik po ochronie internetowej prywatności. Będzie to również oficjalne zamknięcie serii; tej głównej, bo stworzę jeszcze niejeden wpis uzupełniający.
 
 Do zobaczenia!

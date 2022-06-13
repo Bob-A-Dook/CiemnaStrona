@@ -22,7 +22,7 @@ Za kulisami wszystkich tych rzeczy stoją hasze. Prosta rzecz o&nbsp;wielu zasto
 
 Hasz jest dla nas interesujący również z&nbsp;punktu widzenia prywatności.
 
-Niedługo będę pisał o&nbsp;wredniejszych sposobach identyfikacji -- skryptach, które analizują subtelne cechy przeglądarki i&nbsp;przypisują nam jakiś numer. A&nbsp;później porównują go ze swoją bazą, żeby nas rozpoznać w&nbsp;różnych zakątkach internetu. **Hasz jest fundamentem ich działania**.
+Niedługo będę pisał o&nbsp;wredniejszych sposobach identyfikacji -- skryptach, które analizują subtelne cechy przeglądarki i&nbsp;przypisują nam jakiś numer. A&nbsp;później porównują go ze swoją bazą, żeby nas rozpoznać w&nbsp;różnych zakątkach internetu. *Hasz jest fundamentem ich działania*.
 
 Z tego względu warto go poznać, zanim przejdziemy dalej. Mogę Wam obiecać, że jeszcze nieraz będę odsyłał do tego wpisu.
 
@@ -54,11 +54,11 @@ A jeśli chcecie przykład z&nbsp;kodem, to tutaj mam mały w&nbsp;języku Pytho
   {:.figcaption}
   Wystarczyła zmiana jednej litery, żeby funkcja haszująca dała zupełnie inny wynik.
 
-Właściwości funkcji sprawiają, że obliczone hasze są idealne do porównywania, czy dwie rzeczy są dokładnie tym samym.
+Dzięki tej czułości na zmiany hasze są idealne do porównywania, czy dwie rzeczy są dokładnie tym samym.
 
 Kolejna ważna sprawa: funkcja haszująca działa tylko w&nbsp;jedną stronę. Praktycznie **nie da się na podstawie hasza ustalić, jakie dane mieliśmy na początku**.
 
-Dzięki tej własności świat się nie zawali, jeśli ktoś zobaczy hasz jakichś naszych danych. Nie dojdzie do tego, że ktoś z&nbsp;nich wyczyta pierwotne informacje -- takie jak treść naszej pracy magisterskiej, którą wrzuciliśmy w Antyplagiat.
+Dzięki tej własności świat się nie zawali, jeśli ktoś zobaczy hasz jakichś naszych danych. Nie dojdzie do tego, że ktoś z&nbsp;nich wyczyta pierwotne informacje -- takie jak treść pracy magisterskiej, którą wrzuciliśmy w&nbsp;Antyplagiat.
 
 {% include info.html
 type="Uwaga"
