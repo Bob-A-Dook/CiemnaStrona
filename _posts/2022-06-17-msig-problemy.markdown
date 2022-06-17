@@ -61,7 +61,7 @@ Jego głównym założeniem jest to, żeby na każdym urządzeniu *wyświetlał 
 Też miałem trochę założeń i&nbsp;nadziei, kiedy zaczynałem szperać w&nbsp;tych plikach. W&nbsp;pierwszej części wpisu zobaczmy, jak to powinno wyglądać, kiedy wszystko działa. W&nbsp;części drugiej zobaczymy gorzką rzeczywistość. Ale na osłodę będzie parę ciekawostek.
 
 {:.post-meta .bigspace}
-Ograniczam technikalia do minimum, więc wpis powinien być dostępny dla każdego. Ale jeśli sprawy plików Cię nudzą, czytelniczko lub czytelniku, to można przeskoczyć prosto do śmieszkowania z&nbsp;[gaf i&nbsp;dziwów](#w-prawdziwym-świecie).
+Ograniczam technikalia do minimum, więc wpis powinien być dostępny dla każdego. Ale jeśli sprawy plików Cię nudzą, czytelniczko lub czytelniku, to można przeskoczyć prosto do śmieszkowania z&nbsp;[gaf i&nbsp;dziwów](#wprawdziwym-świecie).
 
 ## W&nbsp;idealnym świecie
 
