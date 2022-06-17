@@ -43,8 +43,8 @@ Rzecz w&nbsp;tym, że dodatki są całkowicie zależne od przeglądarki. To ona 
 
 Teraz Google planuje wprowadzić zmianę na tyle istotną, że zyskamy bonus +1&nbsp;do numeru wersji (co do tej pory rzadko się zdarzało w&nbsp;całej długiej historii Chrome'a). Obecnie dopuszczane są obie wersje, 2&nbsp;i&nbsp;3. Ale **wraz z&nbsp;początkiem 2023&nbsp;roku przeglądarka będzie dopuszczała jedynie wersję&nbsp;3**.
 
-Mam drobną analogię: załóżmy, że w&nbsp;komunikacji miejskiej zamontowana jest teraz wersja 2&nbsp;automatów biletowych. Można w&nbsp;nich płacić i&nbsp;monetami, i&nbsp;dotykowo. W&nbsp;wersji 1&nbsp;dało się tylko monetami.  
-W planach jest stopniowa wymiana tych automatów na wersję&nbsp;3, mniejszą i&nbsp;lżejszą, która pozwoli jedynie na płatności dotykowe. Niby krok w&nbsp;przyszłość, ale jednak coś tracimy względem poprzedniej wersji. Podobnie jest z&nbsp;Manifestem.
+Mam drobną analogię: załóżmy, że w&nbsp;komunikacji miejskiej zamontowana jest teraz wersja 2&nbsp;automatów biletowych. Można w&nbsp;nich płacić i&nbsp;monetami, i&nbsp;zbliżeniowo. W&nbsp;wersji 1&nbsp;dało się tylko monetami.  
+W planach jest stopniowa wymiana tych automatów na wersję&nbsp;3, mniejszą i&nbsp;lżejszą, która pozwoli jedynie na płatności zbliżeniowe. Niby krok w&nbsp;przyszłość, ale jednak coś tracimy względem poprzedniej wersji. Podobnie jest z&nbsp;Manifestem.
 
 {% include info.html
 type="Ciekawostka"
