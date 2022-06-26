@@ -295,7 +295,7 @@ A ponieważ jesteśmy ludźmi kultury i&nbsp;nie polegamy na dowodach anegdotycz
 
 {:.bigspace-before}
 <div class="black-bg mono">
-<span class="red">(wcześniej niskie jednocyfrowe)</span><br/>
+<span class="post-meta">(wcześniej niskie jednocyfrowe)</span><br/>
 Rok 2018:  6<br/>
 Rok 2019:  2<br/>
 Rok 2020:  <span class="red">25</span><br/>
@@ -346,7 +346,7 @@ Liczba takich stron w&nbsp;dawniejszych latach jest powalająca.
 Tak jak wcześniej pisałem -- kiedy mamy do czynienia ze zmianami na wielką skalę, to prawdopodobnie winę ponosi komputer.  
 Z ciekawości odpaliłem jeszcze raz [skrypt do gmerania w&nbsp;metadanych]({% post_url 2022-05-06-msig-wprowadzenie %}#metoda){:.internal}, którego użyłem podczas tworzenia poprzedniego wpisu (z tym że wówczas na Monitorach nowszych). Okazało się, że dla lat 2011-2012 wyszły dość ciekawe rzeczy, które później już się nie pojawiały:
 
-* w&nbsp;polu `Page Size` mamy wymiary *576 x&nbsp;841.89* -- inne od późniejszych, wynoszących w&nbsp;zaokrągleniu *595 x&nbsp;842*;
+* w&nbsp;polu `Page Size` mamy wymiary *576&nbsp;x&nbsp;841.89* -- inne od późniejszych, wynoszących w&nbsp;zaokrągleniu *595&nbsp;x&nbsp;842*;
 * w&nbsp;polu `Title` (zawierającym nazwę pliku, z&nbsp;którego stworzono PDF-a) pojawiły się pliki z&nbsp;rozszerzeniem *.qxp*. W&nbsp;nowszych Monitorach mamy już *.indd*, format od Adobe.
 
 Wyszukałem, czym jest format *.qxp* i&nbsp;znalazłem informację, że jest wykorzystywany przez [program *QuarkXPress*](https://fileinfo.com/extension/qxp). Bingo!
@@ -488,7 +488,7 @@ Jeśli już udało się zebrać wpisy, a&nbsp;ich nagłówki były kompletne, to
 * Niepotrzebne spacje w&nbsp;tekście.
 * Literówki w&nbsp;miejscach innych niż tagi, na przykład w&nbsp;nazwach rubryk.
 * Nagłe urwanie tekstu po tagu  
-  (przykładowo: mamy *Prub.*, tag oznaczający podrubrykę, a&nbsp;po nim koniec wpisu albo nowy dział).
+  (przykładowo: mamy *PRub.*, tag oznaczający podrubrykę, a&nbsp;po nim nieoczekiwany koniec wpisu albo nowy dział).
 
 {:.bigspace-before}
 <img src="/assets/posts/msig-problemy/tagi-literowki.jpg" alt="Dwa krótkie przykłady literówek w pogrubionym tekście. Zamiast słowa 'wpisać' w jednym miejscu mamy 'pisać', a w drugim 'wpisć'."/>
@@ -567,20 +567,20 @@ W toku rozbijania wpisów na szczegóły dość szybko trafiłem na wpisy „wyk
 {:.figcaption}
 Jasnoszare prostokąty na dole dodane przeze mnie; wszystkie kreskowane braki już tam były.
 
-Brakowało w&nbsp;nich jakiejś informacji -- czasem o&nbsp;numerze działu, czasem o&nbsp;jakiejś szczegółowej wartości -- a&nbsp;zamiast niej były trzy kreski. O&nbsp;takie:
+Brakowało w&nbsp;nich informacji -- czasem o&nbsp;numerze działu, czasem o&nbsp;jakiejś szczegółowej wartości -- a&nbsp;zamiast niej były trzy kreski. O&nbsp;takie:
 
 <div class="black-bg mono" style="letter-spacing:3px">——-</div>
 
 Długa, długa, krótka. W&nbsp;[alfabecie Morse'a](https://en.wikipedia.org/wiki/Morse_code) byłaby to literka *G*. Jak sami wiecie co.
 
-Jak pomiętamy, powtarzalne zachowanie oznacza zapewne błąd po stronie systemu; być może tak reaguje, kiedy nie wie co wpisać.
+Jak pamiętamy, powtarzalne zachowanie oznacza zapewne błąd po stronie systemu; być może tak reaguje, kiedy nie wie co wpisać.
 
-Na szczęście większość wpisów z&nbsp;lukami była poza tym kompletna, więc można było odczytać, o&nbsp;jaką firmę i&nbsp;zdarzenia chodzi, a&nbsp;potem to sprawdzić w&nbsp;KRS-ie:
+Na szczęście większość wpisów z&nbsp;lukami była poza tym kompletna, więc można było odczytać, o&nbsp;jaką firmę i&nbsp;jakie zdarzenia chodzi, a&nbsp;potem to sprawdzić w&nbsp;KRS-ie:
 
 {:.bigspace}
 <img src="/assets/posts/msig-problemy/dziwne-wpisy-wyjasnienie.jpg" alt="Obrazek złożony z dwóch zrzutów ekranu. U góry mamy jeden wpis z częściowo brakującymi informacjami, zamiast których są kreski. Numer działu oraz jedną z informacji oznaczyłem kolorem. Pod spodem widać zrzut z odpisu Krajowego Rejestru Sądowego, w których tymi samymi kolorami oznaczyłem rzeczy ze wpisu. Widać, że wpis dotyczył zawieszenia działalności."/>
 
-Braki danych dotyczące Działu 6&nbsp;**najczęściej wiązały się z&nbsp;zawieszaniem albo wznawianiem działalności**. System z&nbsp;jakiegoś powodu nie lubi tej rubryki i&nbsp;ciągle pojawia się ona w&nbsp;Monitorze z&nbsp;kreskami zamiast informacji.  
+Braki danych dotyczące Działu 6&nbsp;**wiązały się z&nbsp;zawieszaniem albo wznawianiem działalności**. System z&nbsp;jakiegoś powodu nie lubi tej rubryki i&nbsp;ciągle pojawia się ona w&nbsp;Monitorze z&nbsp;kreskami zamiast informacji.  
 Potraktowałem ją jak osobny przypadek i&nbsp;oddzieliłem od innych przykładów luk. Zaraz do niej wrócimy.
 
 A na razie skupię się na luce pokazanej na początku, dotyczącej przeważnie dość rzadkiej kategorii przedsiębiorstw państwowych.  
@@ -603,7 +603,7 @@ Rok 2020:  1
 {:.figcaption}
 Liczba wykreskowanych luk zamiast numerów działów (nie licząc tych we wpisach dotyczących zawieszenia firm).
 
-Ale kreski zamiast tagów oraz wpisy związane z&nbsp;zawieszonymi firmami i&nbsp;tak są rzadkie w&nbsp;porównaniu z&nbsp;kreskami obecnymi w&nbsp;zwykłym tekście, czyli w&nbsp;informacjach szczegółowych. Spójrzmy tylko na ich liczbę w&nbsp;podziale na lata:
+Ale kreski zamiast tagów oraz wpisy związane z&nbsp;zawieszonymi firmami i&nbsp;tak są rzadkie w&nbsp;porównaniu z&nbsp;trzecim rodzajem kresek: tymi obecnymi w&nbsp;zwykłym tekście, czyli w&nbsp;informacjach szczegółowych. Spójrzmy tylko na ich liczbę w&nbsp;podziale na lata:
 
 <div class="black-bg mono">
 Rok 2011:  134<br/>
@@ -629,7 +629,7 @@ Wyjaśnienie jest proste; **najczęstszym źródłem takich luk była numeracja 
 
 Być może w&nbsp;2018 roku komuś w&nbsp;końcu przestały podobać się kreski i&nbsp;ustawił problematycznym rubrykom jakiś numer. Większość luk wyparowała z&nbsp;dnia na dzień.
 
-Ale nie zniknęły całkowicie; te, które zostały, są mniej konsekwentne.  
+Ale nie zniknęły całkowicie; te, które zostały, są mniej przewidywalne.  
 Czasem brakuje numeru lokalu (co akurat ma sens... tylko czemu po prostu go nie olać zamiast wypluwać trzy kreski?). Czasem nazwiska. Na razie nie dostrzegam w&nbsp;tym reguły.
 
 # Zawieszenie spółek

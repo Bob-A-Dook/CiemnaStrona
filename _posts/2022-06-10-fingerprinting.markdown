@@ -246,7 +246,7 @@ Efekt jego działań zmienia się w&nbsp;zależności od przeglądarki, ale zape
 {:.figcaption}
 Źródło: [artykuł](https://fingerprintjs.com/blog/audio-fingerprinting/) FingerprintJS. Nie widać żółtej linii, bo mój wykres pokrywa się niemal w&nbsp;100% z&nbsp;tym dla Firefoksa na Windowsie.
 
-Skrypt profilujący przez dźwięk, jak już wspomniałem, został znaleziona między innymi na znanym forum StackOverflow.
+Skrypt profilujący przez dźwięk, jak już wspomniałem, został znaleziony między innymi na znanym forum StackOverflow.
 
 # Właściwości silnika JavaScriptu
 
