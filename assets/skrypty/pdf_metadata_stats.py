@@ -86,7 +86,7 @@ def _call_pdfinfo( file ):
     Uses the "pdfinfo" program to get a list of attributes and values
     describing a specific PDF file.
     '''
-    out = getoutput( f'{PDFINFO_PATH} {file}' )
+    out = getoutput( f'{PDFINFO_PATH} "{file}"' )
     lines = [l for l in out.split('\n') if l]
     return file, lines
     

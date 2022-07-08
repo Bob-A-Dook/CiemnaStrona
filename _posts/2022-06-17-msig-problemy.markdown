@@ -588,7 +588,7 @@ To dość ciekawy przypadek; z&nbsp;jednej strony brak danych, więc wina komput
 
 Może nam to sugerować, że **przedsiębiorstwom państwowym odpowiadała oddzielna część systemu albo ich wpisy były dodawane osobnym kanałem**. I&nbsp;gdzieś po drodze system dostawał czkawki od ich danych.
 
-Luki tego rodzaju, gdy mamy kreski zamiast na przykład numeru rubryki, są już na szczęście w&nbsp;zaniku. Ostatnią mieliśmy w&nbsp;2020 roku:
+Luki tego rodzaju, gdy mamy kreski zamiast ważnego elementu strukturalnego, jak numer rubryki, są już na szczęście w&nbsp;zaniku. Ostatnią mieliśmy w&nbsp;2020 roku:
 
 <div class="black-bg mono">
 <span class="post-meta">(wcześniej podobnie)</span><br/>
@@ -603,7 +603,7 @@ Rok 2020:  1
 {:.figcaption}
 Liczba wykreskowanych luk zamiast numerów działów (nie licząc tych we wpisach dotyczących zawieszenia firm).
 
-Ale kreski zamiast tagów oraz wpisy związane z&nbsp;zawieszonymi firmami i&nbsp;tak są rzadkie w&nbsp;porównaniu z&nbsp;trzecim rodzajem kresek: tymi obecnymi w&nbsp;zwykłym tekście, czyli w&nbsp;informacjach szczegółowych. Spójrzmy tylko na ich liczbę w&nbsp;podziale na lata:
+Ale kreski zamiast ważniejszych tagów oraz kreski związane z&nbsp;zawieszonymi firmami i&nbsp;tak są rzadkie w&nbsp;porównaniu z&nbsp;trzecim rodzajem kresek: tymi obecnymi w&nbsp;zwykłym tekście, czyli w&nbsp;informacjach szczegółowych. Spójrzmy tylko na ich liczbę w&nbsp;podziale na lata:
 
 <div class="black-bg mono">
 Rok 2011:  134<br/>
