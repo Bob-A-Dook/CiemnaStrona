@@ -164,9 +164,11 @@ Bo widzicie... Grafika to złożona sprawa. Zaczyna się od prostej instrukcji g
 
 Po drodze mamy wszelkie konwersje, transfery do karty graficznej, zaokrąglanie liczb, wygładzanie kantów... W&nbsp;efekcie **istnieją subtelne różnice między tym samym obrazkiem u&nbsp;dwóch różnych użytkowników**. Zaś jeden i&nbsp;ten sam użytkownik ma zwykle podobne piksele.
 
-Możemy zmienić swój adres IP, wyczyścić pliki cookies, wylogować się z&nbsp;konta. Ale dopóki cały czas używamy tej samej kombinacji sprzętu, systemu i&nbsp;przeglądarki, wychodzą nam te same piksele. Jesteśmy rozpoznawalni.
+Na tym opiera się śledzenie przez *canvas*; kod JavaScript każe naszej przeglądarce dodawać do tego elementu (ukrytego przed naszym wzrokiem) różne kształty. Potem pobiera gotowy obrazek i&nbsp;porównuje piksele z tymi, które wyszły innym internautom wchodzącym na wirtualne „terytorium” danej firmy.
 
-Możecie sami sprawdzić, [jaki odcisk palca zostawicie na płótnie](https://browserleaks.com/canvas#how-does-it-work) przez stronę BrowserLeaks. Polecam też rozwinąć zakładkę *How Does It Work* i&nbsp;spojrzeć na ich przykładowy kod. Nawet jeśli jest uproszczony, to widać, że takie profilowanie nie jest jakąś wyższą matematyką. To względnie przystępna sprawa.
+Możemy zmienić swój adres IP, wyczyścić pliki cookies, włączyć tryb incognito. Ale dopóki cały czas używamy tej samej kombinacji sprzętu, systemu i&nbsp;przeglądarki, wychodzą nam te same piksele. Jesteśmy rozpoznawalni.
+
+Możecie sami sprawdzić, przez stronę BrowserLeaks, [jaki odcisk palca zostawicie na płótnie](https://browserleaks.com/canvas#how-does-it-work). Polecam też rozwinąć zakładkę *How Does It Work* i&nbsp;spojrzeć na ich przykładowy kod. Nawet jeśli jest uproszczony, to widać że takie profilowanie nie jest jakąś wyższą matematyką. Względnie łatwo je u&nbsp;siebie wdrożyć.
 
 {%include info.html
 type="Ciekawostka"
@@ -176,9 +178,9 @@ A także... [na stronie Białego Domu](https://www.eff.org/deeplinks/2014/07/whi
 
 # Czcionki
 
-Sprawa dość mocno związana z&nbsp;poprzednią. Mianowicie: JavaScript, oprócz kształtów, może również kazać przeglądarce umieścić tekst w&nbsp;jakimś elemencie.
+Sprawa dość mocno związana z&nbsp;poprzednią. Mianowicie: JavaScript, oprócz kształtów geometrycznych, może również kazać przeglądarce tworzyć tekst.
 
-Pierwszy sposób na profilowanie to wspomniane już różnice w&nbsp;pikselach; zwłaszcza na brzegach, tam gdzie działa wygładzanie. Dodawanie tekstu można w&nbsp;ten sposób uczynić częścią *canvas fingerprintingu*, żeby poprawić jego dokładność.
+Pierwszy sposób, w&nbsp;jaki czcionki mogą nas identyfikować, to wspomniane wyżej różnice między pikselami; zwłaszcza na brzegach, tam gdzie działa wygładzanie. Dodawanie tekstu można w&nbsp;ten sposób uczynić częścią *canvas fingerprintingu*, żeby poprawić jego dokładność.
 
 Ale czcionki można wykorzystać do jeszcze dokładniejszego profilowania -- **określić, jakie dokładnie trzymamy na swoim systemie**.
 
@@ -196,13 +198,13 @@ I teraz, kiedy odwiedzam wścibską stronę, może się zdarzyć coś takiego:
 * ...Ale jej już nie mamy, więc zamiast tego przeglądarka tworzy napis czcionką domyślną.
 * JavaScript to mierzy i&nbsp;widzi, że szerokość mu się nie zgadza. Wniosek: nie mamy tej czcionki.
 
-Powtarzając tę metodę wiele tysięcy razy, **JavaScript może dokładnie ustalić, jakie czcionki zainstalowaliśmy u&nbsp;siebie na systemie**. A&nbsp;ta cecha -- zwłaszcza jeśli robimy coś związanego z&nbsp;grafiką i&nbsp;często dodajemy nowe czcionki -- może bardzo mocno nas wyróżniać.
+Powtarzając takie polecenia wiele tysięcy razy, **JavaScript może dokładnie ustalić, jakie czcionki zainstalowaliśmy u&nbsp;siebie na systemie**. A&nbsp;ta cecha -- zwłaszcza jeśli robimy coś związanego z&nbsp;grafiką i&nbsp;często dodajemy nowe czcionki -- może bardzo mocno nas wyróżniać.
 
 # WebGL
 
 Kolejna graficzna rzecz!
 
-Współczesne przeglądarki, szczególnie Chrome, lubią dodawać nowe bajery. Jednym z&nbsp;nich jest możliwość **wyświetlania zaawansowanej grafiki w&nbsp;przeglądarce przez _WebGL_** (gdzie *WebGL* to przeniesienie w&nbsp;realia internetu bardzo popularnego pakietu *OpenGL*. *GL* od *Graphics Library*).
+Współczesne przeglądarki, szczególnie Chrome, lubią dodawać nowe bajery. Jednym z&nbsp;nich jest możliwość **wyświetlania zaawansowanej grafiki w&nbsp;przeglądarce przez _WebGL_** (gdzie *WebGL* to przeniesienie w&nbsp;realia internetu bardzo popularnego pakietu *OpenGL*. *GL*&nbsp;od *Graphics Library*).
 
 Grafika w&nbsp;czasie rzeczywistym -- taka jak sceny w&nbsp;grach komputerowych -- jest dość wymagająca. Zatem przeglądarka usuwa się z&nbsp;drogi, dając stronie bezpośredni dostęp do pewnych funkcji procesora i&nbsp;karty graficznej.
 
@@ -225,7 +227,7 @@ Z nowszych, tegorocznych spraw: twórcy innej stronki testującej naszą anonimo
 
 Jest ona o&nbsp;tyle niepokojąca, że ustala wnikliwie pewne cechy naszej karty graficznej, które mogą się różnić nawet między tymi samym jej modelami.
 
-Czyli jeśli używam karty graficznej zintegrowanej z&nbsp;procesorem -- dajmy na to Intel i5-4590 -- a&nbsp;ktoś inny używa tej samej karty, przeglądarki oraz hotspota, to *nadal dałoby się nas od siebie odróżnić*, na podstawie subtelnych różnic fabrycznych między naszymi kartami.
+Załóżmy, że używam popularnej karty graficznej zintegrowanej z&nbsp;procesorem -- dajmy na to Intel i5-4590. Ktoś inny używa takiej samej karty, przeglądarki oraz publicznego hotspota. W normalnych warunkach byśmy się ze sobą zlewali, ale przez WebGL *dałoby się nas od siebie odróżnić*, na podstawie subtelnych różnic fabrycznych między naszymi kartami.
 
 # Web Audio
 
@@ -251,7 +253,7 @@ Skrypt profilujący przez dźwięk, jak już wspomniałem, został znaleziony mi
 # Właściwości silnika JavaScriptu
 
 Skrypt śledzący z&nbsp;Reddita, prawdziwa skarbnica śledzącego JavaScriptu, [zawierał](https://smitop.com/post/whiteops-data/) tajemniczy komentarz: *haha jit go brrrrr*.  
-Sam autor wpisu analizującego kod nie miał stuprocentowej pewności, do czego to służy, ale podejrzewał coś z&nbsp;silnikiem przetwarzającym kod.
+Sam autor wpisu analizującego kod nie miał stuprocentowej pewności, do czego to służy, ale podejrzewał jakieś hece z&nbsp;silnikiem przetwarzającym kod.
 
 {% include info.html
 type="Tłumaczenie mema"
@@ -282,7 +284,7 @@ W skrajnych przypadkach, pokazanych w&nbsp;artykule, dwa prawie identyczne fragm
 Jedno i&nbsp;drugie brzmi dla mnie jak marsjański; ale widać, że pierwszy marsjański nieco się różni od drugiego.  
 Źródło: [artykuł](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_01B-4_Schwarz_paper.pdf) z&nbsp;2019 roku.
 
-A to tylko jedna z&nbsp;możliwości. Artykuł porusza również inne kwestie, takie jak zachowanie modułu zarządzającego pamięcią. Sens metody zapewne podobny; znajdowanie punktów granicznych, w&nbsp;których coś (czas trwania, instrukcje...) ulega istotnej zmianie.
+A to tylko jedna z&nbsp;możliwości. Artykuł porusza również inne kwestie, takie jak zachowanie modułu zarządzającego pamięcią. Sens metody zapewne podobny; patrzenie na punkty graniczne, w&nbsp;których coś ulega istotnej zmianie.
 
 Odpowiednio dobierając zadania dla kodu, można ustalić kilka istotnych właściwości, jakie posiada nasz sprzęt. I&nbsp;dorzucić je do naszego odcisku palca.
 
