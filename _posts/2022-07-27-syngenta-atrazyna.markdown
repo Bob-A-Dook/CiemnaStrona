@@ -6,7 +6,7 @@ description: "Naukowiec od płazów kontra złośliwe gady"
 date:   2022-07-27 10:00:00 +0100
 tags: [Afera, Chemia, Manipulacja, Rolnictwo]
 firmy: [Syngenta]
-image: "syngenta-atrazine-hayes/syngenta-baner.jpg"
+image: "syngenta-atrazine-hayes/atrazine-baner.jpg"
 image-width: 1200
 image-height: 700
 ---
