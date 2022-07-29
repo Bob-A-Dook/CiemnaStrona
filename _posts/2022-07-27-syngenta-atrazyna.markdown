@@ -73,7 +73,7 @@ Nas natomiast niezbyt interesuje chiński aspekt działalności. Cała historia 
 Wystarczy, że zapamiętamy, że są bardzo, bardzo dużą korporacją. Jest im na rękę, żeby w&nbsp;rolnictwie jak najczęściej korzystało się z&nbsp;ich chemii.
 
 Luźna anegdota: niedawno prezes Syngenty [skrytykował](https://www.swissinfo.ch/eng/business/stop-organic-farming-to-help-future-food-crisis--says-syngenta-boss/47576514) koncept żywności organicznej, obciążając ją winą m.in. za głód w&nbsp;Afryce i&nbsp;emisje CO<sub>2</sub>.  
-Powiedział jednak, że dopuszcza formę hybrydową, która korzystałaby z&nbsp;paru aspektów rolnictwa organicznego, ale wspierała je chemią i&nbsp;biotechnologią (obiema tymi rzeczami zajmuje się Syngenta). Jednocześnie zaprzeczył, jakoby jego pogląd wiązał się z&nbsp;interesami firmy.
+Powiedział jednak, że dopuszcza formę hybrydową, która korzystałaby z&nbsp;paru aspektów rolnictwa organicznego, ale wspierała je zdobyczami chemii i&nbsp;biotechnologii (obiema tymi rzeczami zajmuje się Syngenta). Jednocześnie zaprzeczył, jakoby jego pogląd wiązał się z&nbsp;interesami firmy.
 
 # EPA i&nbsp;kwestie bezpieczeństwa
 
