@@ -73,7 +73,7 @@ Nas natomiast niezbyt interesuje chiński aspekt działalności. Cała historia 
 Wystarczy, że zapamiętamy, że są bardzo, bardzo dużą korporacją. Jest im na rękę, żeby w&nbsp;rolnictwie jak najczęściej korzystało się z&nbsp;ich chemii.
 
 Luźna anegdota: niedawno prezes Syngenty [skrytykował](https://www.swissinfo.ch/eng/business/stop-organic-farming-to-help-future-food-crisis--says-syngenta-boss/47576514) koncept żywności organicznej, obciążając ją winą m.in. za głód w&nbsp;Afryce i&nbsp;emisje CO<sub>2</sub>.  
-Powiedział jednak, że dopuszcza formę hybrydową, która korzystałaby z&nbsp;paru aspektów rolnictwa organicznego, ale wspierała je chemią i&nbsp;roślinami GMO (obie te rzeczy ma w&nbsp;swojej ofercie Syngenta). Jednocześnie zaprzeczył, jakoby jego pogląd wiązał się z&nbsp;interesami firmy.
+Powiedział jednak, że dopuszcza formę hybrydową, która korzystałaby z&nbsp;paru aspektów rolnictwa organicznego, ale wspierała je chemią i&nbsp;biotechnologią (obiema tymi rzeczami zajmuje się Syngenta). Jednocześnie zaprzeczył, jakoby jego pogląd wiązał się z&nbsp;interesami firmy.
 
 # EPA i&nbsp;kwestie bezpieczeństwa
 
@@ -207,7 +207,7 @@ Odtajnione maile pokazały, że Syngenta zaraz po wydaniu tego artykułu planowa
 Ich „neutralną ekspertką” została Elizabeth Whelan, prezes organizacji *American Council on Science and Health* (dosł. Amerykańska Rada ds. Nauki i&nbsp;Zdrowia).  
 Nazwa brzmi profesjonalnie, jak coś rządowego? Tymczasem to firma całkiem prywatna. Przyjmuje finansowanie [głównie od gigantów branżowych](https://en.wikipedia.org/wiki/American_Council_on_Science_and_Health).
 
-Whelan wystąpiła w&nbsp;telewizji MSNBC i&nbsp;ogłosiła, że artykuł z&nbsp;Timesa nie był oparty na nauce i&nbsp;że, jako specjalistka od zdrowia publicznego, martwi się nagłaśnianiem zmyślonych zagrożeń na okładce gazety.
+Whelan wystąpiła w&nbsp;telewizji MSNBC i&nbsp;ogłosiła, że artykuł z&nbsp;Timesa nie miał podstaw naukowych i&nbsp;że, jako specjalistkę od zdrowia publicznego, razi ją nagłaśnianie zmyślonych zagrożeń na okładce gazety.
 
 Inną gazetą, z&nbsp;którą Syngenta miała na pieńku, był Huffington Post. W&nbsp;mailach dyskutowali o&nbsp;tym, czy znalazłby się w&nbsp;redakcji jakiś zaufany człowiek, dzięki któremu „przestaliby obrywać od wszystkich na garnuszku tej gazety”.
 
@@ -309,7 +309,7 @@ Jak pisał:
 
 Decyzja przyszła w&nbsp;2012 roku. Do tego czasu opublikowano wnioski z&nbsp;75&nbsp;badań, ale EPA odrzuciła znaczną większość z&nbsp;nich, argumentując że nie spełniały standardów wymaganych przez przepisy o&nbsp;jakości danych.
 
-Pozostały badania przeprowadzone przez berlińskiego profesora. Były finansowane przez Syngentę, a&nbsp;jedym ze współautorów był Alan Hosmer -- naukowiec pracujący dla firmy, którego rubryka oceny pracowniczej z&nbsp;2004&nbsp;roku zawierała uwagi o&nbsp;„obronie atrazyny”.
+Pozostały badania przeprowadzone przez berlińskiego profesora. Były finansowane przez Syngentę, a&nbsp;jednym ze współautorów był Alan Hosmer -- naukowiec pracujący dla firmy, którego rubryka oceny pracowniczej z&nbsp;2004&nbsp;roku zawierała uwagi o&nbsp;„obronie atrazyny”.
 
 Werdykt? W&nbsp;2012&nbsp;roku **utrzymano dotąd dozwolone stężenie atrazyny, uznając je za bezpieczne**. Syngenta wygrała.
 
@@ -320,7 +320,7 @@ W tym właśnie o&nbsp;kontrowersyjnych kulisach wybierania dopuszczalnych bada�
 
 # Pyrrusowe zwycięstwo?
 
-Choć w&nbsp;USA atrazyna wygrała i&nbsp;nadal może być masowo uzywana do opryskiwania pól, w&nbsp;niewzruszonej fasadzie Syngenty stopniowo pojawiają się pęknięcia.
+Choć w&nbsp;USA atrazyna wygrała i&nbsp;nadal może być masowo używana do opryskiwania pól, w&nbsp;niewzruszonej fasadzie Syngenty stopniowo pojawiają się pęknięcia.
 
 * Atrazyna **została zakazana na terenie Unii Europejskiej w&nbsp;2004 roku**.
 
@@ -337,15 +337,15 @@ Choć w&nbsp;USA atrazyna wygrała i&nbsp;nadal może być masowo uzywana do opr
 
 Kontrowersje -- z&nbsp;których niektóre mogą brzmieć dla nas znajomo -- otaczają również parę innych produktów firmy.
 
-* Thiametoxam.
+* Tiametoksam (ang. *thiametoxam*).
 
   To pestycyd, czyli tym razem środek od zabijania szkodników, a&nbsp;nie chwastów -- również zakazany w&nbsp;Europie i&nbsp;oskarżany o&nbsp;to, że [zabija pszczoły](https://www.youtube.com/watch?v=khc613Nyjrg) (uwaga: filmik z&nbsp;YT).  
   Badanie zamówione przez Syngentę wykazało: niegroźny!  
   Ale niektórzy naukowcy uważają, że wyniki nie są wiarygodne, między innymi przez małe odległości między grupą narażoną a&nbsp;kontrolną. Poza tym jedna z&nbsp;osób opracowujących dane utrzymywała kontakt mailowy z&nbsp;Syngentą.
 
-* Paraquat, również herbicyd.
+* Parakwat (ang. *paraquat*).
 
-  Zagłosowali przeciw dodaniu do składu środka wywołującego wymioty, który mógłby zmniejszyć liczbę zatruć. [Zarzuca się im](https://www.theguardian.com/environment/2021/mar/24/syngenta-paraquat-deadly-john-heylings), że korzystali ze zmanipulowanych danych, przedstawiając swoje tańsze zabezpieczenia jako wystarczające.  
+  Herbicyd. Zagłosowali przeciw dodaniu do składu środka wywołującego wymioty, który mógłby zmniejszyć liczbę zatruć. [Zarzuca się im](https://www.theguardian.com/environment/2021/mar/24/syngenta-paraquat-deadly-john-heylings), że korzystali ze zmanipulowanych danych, przedstawiając swoje tańsze zabezpieczenia jako wystarczające.  
   Deborah Cory-Slechta, profesor Uniwerystetu w&nbsp;Rochester, badała związek tej substancji z&nbsp;chorobami układu nerwowego. Jak mówi, pracownicy Syngenty chodzili na jej wykłady i&nbsp;twierdzili, że korzysta z&nbsp;dawek nieistotnych dla ludzi, a&nbsp;wyniki nie są wiarygodne. Próbowali też odstraszyć jej studentów.
 
 A to wszystko sprawy *stricte* z&nbsp;ich działu chemicznego. Oprócz niego mają również dział biotechnologiczny, o&nbsp;którym nawet nie czytałem.
@@ -360,7 +360,7 @@ Tylko że thrillery są fikcją. Widząc taką historię, mój wewnętrzny scept
 Już nieraz się w&nbsp;końcu zdarzało, że w&nbsp;obieg puszczano wesołe fejki. O&nbsp;wilku alfa idącym za stadem, żeby w&nbsp;razie czego się poświęcić. O&nbsp;delfinach wracających do Wenecji, kiedy na czas pandemii ustał ruch turystyczny. Pierdoły ku pokrzepieniu serc.  
 Co, jeśli ta historia również została mocno podkoloryzowana?
 
-Tyrone Hayes jest człowiekiem i&nbsp;z racji tego może mieć swoje ludzkie wady. No i&nbsp;nie ukrywajmy, w&nbsp;sobie pewien pierwiastek showmaństwa.
+Tyrone Hayes jest człowiekiem i&nbsp;z racji tego może mieć swoje ludzkie wady. No i&nbsp;nie ukrywajmy, ma w&nbsp;sobie pewien pierwiastek showmaństwa.
 
 Może miał dość nudnej kariery na uczelni i&nbsp;postanowił budować swoją markę na skandalu?  
 Może na przykład specjalnie wybrał na potrzeby ilustracji najbardziej zmutowane żaby, sugerując że takie zmiany genetyczne są u&nbsp;nich częste?  
@@ -376,7 +376,9 @@ W ich planie antykryzysowym zeszło na dalszy plan coś takiego jak profilaktycz
 Nawet jeśli atrazyna nie jest tak istotna dla nas, Europejczyków, afera wokół niej może być dla nas ostrzeżeniem.  
 Gdyby coś było nie tak z&nbsp;jakąś chemią od wielkiego koncernu -- w&nbsp;końcu błędy się zdarzają -- to istnieje niezerowa szansa, że **fakty będą się przebijały niemrawo, w&nbsp;bólach i&nbsp;przy aktywnym oporze firmy**.
 
-I na tym zakończę. Mam nadzieję, że nawet osoby bardziej sceptyczne zauważą, iż w&nbsp;podejściu wielkich korporacji dałoby się co nieco poprawić. Na szczęście niektóre chwasty -- naukowcy, krytycy i&nbsp;blogerzy -- są trudne do ubicia herbicydem. Bądźmy takimi chwastami :metal:
+I na tym zakończę. Mam nadzieję, że nawet osoby bardziej sceptyczne zauważą, iż w&nbsp;podejściu wielkich korporacji dałoby się co nieco poprawić.
+
+Na szczęście niektóre niewygodne dla nich chwasty -- naukowcy, krytycy i&nbsp;blogerzy -- są trudne do ubicia herbicydem. Bądźmy takimi chwastami :metal:
 
 {:.bigspace-before}
 > …how will it affect you?  
