@@ -15,6 +15,9 @@ Na tym blogu piszę głównie o&nbsp;sprawach cyfrowych. Tym razem będzie inacz
 
 Świat wirtualny jest wszak jedynie nakładką na ten rzeczywisty. Jeśli przez kilka dni nic nie zjemy i&nbsp;nie wypijemy, to sobie w&nbsp;żaden komputer już więcej nie poklikamy.
 
+{:.post-meta .bigspace-after}
+Ale jeśli ktoś bez komputerów nie może, to sprawa ma również [wątek](https://news.ycombinator.com/item?id=7175635) na forum HackerNews, z&nbsp;dyskusją poboczną o&nbsp;roli Google w&nbsp;sprawie.
+
 I właśnie o&nbsp;sprawach wokół żywności będzie w&nbsp;tym wpisie. Przedstawię aferę, która mnie ostatnio zafascynowała -- związaną z&nbsp;wodą pitną w&nbsp;USA, koncernem chemicznym Syngenta oraz ich kontrowersyjnym środkiem chwastobójczym, atrazyną.
 
 {% include info.html
@@ -65,7 +68,7 @@ Powitajmy głównego antagonistę tej historii! To spółka specjalizująca się
 
 Powstali z&nbsp;połączenia rolniczych działów korporacji Novartis oraz AstraZeneca w&nbsp;2000 roku. Siedziba firmy znajduje się w&nbsp;Bazylei, w&nbsp;Szwajcarii, ale działają na całym świecie. Mają na swoim koncie [imponującą liczbę przejęć](https://en.wikipedia.org/wiki/Syngenta).
 
-Wpływy? Znaczące. Są drugim największym producentem środków chwastobójczych na świecie -- zaraz po kontrowersyjnym Monsanto.  
+Wpływy? Znaczące. Są drugim największym producentem środków chwastobójczych na świecie -- zaraz po Monsanto.  
 W 2017&nbsp;roku Syngenta została [przejęta przez ChemChina](https://finance.yahoo.com/news/syngenta-why-set-years-biggest-093000749.html) za 43&nbsp;miliardy dolarów, co stanowiło najdroższe przejęcie w&nbsp;historii Chin. Aktualnie przymierza się do wejścia na chińską giełdę w&nbsp;Szanghaju, co jednak nieco przesunęło się w&nbsp;czasie. Możliwe że nastąpi w&nbsp;tym roku.
 
 Nas natomiast niezbyt interesuje chiński aspekt działalności. Cała historia zaczyna się dużo wcześniej, gdy jeszcze Syngenta była częścią Novartisu, i&nbsp;rozgrywa się w&nbsp;USA.
@@ -90,6 +93,9 @@ Tak zrobiła również Syngenta -- jeszcze jako Novartis -- kiedy w&nbsp;1997 ro
 W ten sposób zaczęła się nasza historia.
 
 ## Pierwsze wyniki badań
+
+{:.post-meta .bigspace-after}
+Ta część wpisu pokazuje perspektywę Hayesa i jego zespołu naukowców, nie trzeba jej przyjmować za fakt. Jest ważna dla kontekstu, ale najważniejsza będzie reakcja firmy.  
 
 Tyrone Hayes uniósł żabę na wysokość oczu, przyglądając się jej zaniepokojonym wzrokiem. Wierzchem dłoni otarł z&nbsp;czoła krople deszczu.
 
@@ -141,13 +147,15 @@ Po publikacji artykułów Hayes jeździł po świecie, przedstawiając wyniki sw
 
 Trwało to i&nbsp;trwało. Niektórzy znajomi Hayesa odnosili wrażenie, że zaczyna popadać w&nbsp;paranoję -- zapisywał informacje na kilku różnych dyskach, prosił czasem asystentów o&nbsp;pisanie do niego z&nbsp;osobnego maila, nosił ze sobą dyktafon.
 
-Ale na chwilę przeskoczymy sporo do przodu, do roku 2012. Zakończył się wtedy ośmioletni spór sądowy. Mieszkańcy dwudziestu trzech miejscowości oskarżali Syngentę o&nbsp;skażenie atrazyną wód gruntowych.
+Ale na chwilę przeskoczymy sporo do przodu, do roku 2012. Zakończył się wtedy ośmioletni spór sądowy. Mieszkańcy dwudziestu trzech miejscowości oskarżali Syngentę o&nbsp;wprowadzenie atrazyny do wód gruntowych i domagali się zwrotu kosztów jej odfiltrowania.
 
 Proces rozpoczął się krótko po doniesieniach Hayesa. Przypadek? Nie sądzę! Prawnik reprezentujący poszkodowanych mówił wprost, że badania Hayesa odegrały w&nbsp;sprawie dużą rolę. 
 
 Syngenta poszła na ugodę, ponosząc koszty filtrowania wody w&nbsp;wysokości 105&nbsp;mln dolarów. Przypomnę: ugoda nie równa się przyznaniu się do winy. Więc za ten fakt akurat ich nie złapiemy.
 
-Natomiast w&nbsp;toku procesu sąd hrabstwa Madison odtajnił i&nbsp;upublicznił część wewnętrznych maili i&nbsp;dokumentów Syngenty -- w&nbsp;realiach amerykańskich taki etap gromadzenia dowodów nazywamy *discovery*. Rzuciły one nowe światło na sprawy wokół Hayesa.
+Natomiast w&nbsp;toku procesu sąd hrabstwa Madison [odtajnił](https://madisonrecord.com/stories/510574762-madison-county-atrazine-suits-dismissed-syngenta-defendants-appeal-order-to-unseal-documents) i&nbsp;upublicznił część wewnętrznych maili i&nbsp;dokumentów Syngenty. Nie uznał przy tym sprzeciwu firmy, która twierdziła, że zawierają one tajemnice przedsiębiorstwa.
+
+W&nbsp;realiach amerykańskich taki etap gromadzenia dowodów nazywamy *discovery* (dosł. *odkrycie*). Istotnie, pozwoliły odkryć nowe fakty również w&nbsp;sprawie Hayesa.
 
 Okazało się, że **wiele oskarżeń i&nbsp;obaw naukowca znalazło potwierdzenie w&nbsp;dokumentach sądowych**. Oto przykłady niektórych notatek pani Ford, szefowej działu komunikacji w&nbsp;Syngencie:
 
@@ -157,22 +165,32 @@ Okazało się, że **wiele oskarżeń i&nbsp;obaw naukowca znalazło potwierdzen
 {:.figcaption}
 Źródło: [dokumenty sądowe](https://s3.documentcloud.org/documents/686406/100reporters-syngenta-clare-howard-investigation.pdf) pozyskane przez *100Reporters*.
 
-Trudno się rozczytać? Bez obaw! Zestawmy wybrane notatki (które oznaczę kolorem czerwonym) z&nbsp;wydarzeniami z&nbsp;rzeczywistości.  
-*TH* to skrót od *Tyrone Hayes*. Tam, gdzie nie wskazuję wprost źródeł, przytaczam fragmenty z&nbsp;artykułów [NewYorkera](https://www.newyorker.com/magazine/2014/02/10/a-valuable-reputation) lub [100Reporters](https://100r.org/2013/06/pest-control-syngentas-secret-campaign-to-discredit-atrazines-critics/).
+Trudno się rozczytać? Bez obaw! Zestawmy wybrane notatki (które oznaczę kolorem czerwonym) z&nbsp;wydarzeniami z&nbsp;rzeczywistości.
+
+Będę linkował głównie do sądowych dokumentów, zebranych [tutaj](https://www.sourcewatch.org/index.php/Portal:Atrazine_Exposed). Tam, gdzie nie wskazuję wprost źródeł, przytaczam fragmenty z&nbsp;artykułów [NewYorkera](https://www.newyorker.com/magazine/2014/02/10/a-valuable-reputation) lub [100Reporters](https://100r.org/2013/06/pest-control-syngentas-secret-campaign-to-discredit-atrazines-critics/).
 
 {:.red .no-right-border}
 > bringing in customers as fellow "bad guys",  
 systematic rebuttals of all TH appearances
 
-Punkt drugi potwierdzał, że Hayes cały czas miał mieć „ogon”. Wyobraźmy sobie taką scenę: kończy swój wykład o&nbsp;atrazynie, a&nbsp;wtedy z&nbsp;tyłu wstaje klakier i&nbsp;mówi z&nbsp;uśmieszkiem coś umniejszającego.  
+*TH* to skrót od *Tyrone Hayes*. Punkt drugi oznaczał, że cały czas miał mieć „ogon”.
+
+Wyobraźmy sobie taką scenę: kończy swój wykład o&nbsp;atrazynie, a&nbsp;wtedy z&nbsp;tyłu wstaje klakier i&nbsp;mówi z&nbsp;uśmieszkiem coś umniejszającego.  
 „Gratuluję panu Hayesowi talentu scenicznego, ciekawa historyjka. A&nbsp;teraz pozwolą państwo, że wypowie się nauka”. I&nbsp;rozdaje firmowe broszury.
 
-Fakt, że Hayes był regularnie nachodzony, potwierdziła nawet rzeczniczka firmy. Korpojęzykiem stylizowanym na troskę i&nbsp;jedność z&nbsp;farmerami:
+Fakt, że Hayes był regularnie nachodzony, ma potwierdzenie w&nbsp;[mailach](https://www.sourcewatch.org/images/a/a5/Exhibit_7_Part1.pdf) (str.&nbsp;9). Potwierdziła to też rzeczniczka firmy. Korpojęzykiem stylizowanym na troskę i&nbsp;jedność z&nbsp;farmerami:
 
 {:.bigspace}
 > It’s in our best interest, and farmers’, that we have the opportunity to counter his outrageous accusations
 
-Hayes nie pozostawał im dłużny i&nbsp;kontratakował w&nbsp;mailach, przyznając między innymi, że udało mu się kiedyś przechwycić notatki reprezentanta firmy:
+Taka narracja jest zresztą elementem szerszej strategii przyjętej przez konsultantów od wizerunku. W podobny sposób mieli uderzać w prawników związanych z pozwem zbiorowym:
+
+> The narrative we will seek to establish: trial lawyer millionaires seeking another big payment at the expense of farmers and families.
+
+{:.figcaption}
+Źródło: strona 17 [dokumentu](https://www.sourcewatch.org/images/7/7f/Exhibit_13_Part1.pdf).
+
+Hayes nie pozostawał dłużny i&nbsp;kontratakował w&nbsp;mailach, przyznając między innymi, że udało mu się kiedyś przechwycić notatki reprezentanta firmy:
 
 {:.bigspace}
 > “As long as you followin me around, I&nbsp;know I’m da sh*t,” he wrote. “By the way, yo boy left his pre-written questions at the table!”
@@ -189,7 +207,7 @@ Na przestrzeni lat Syngenta zaangażowała co najmniej cztery firmy zajmujące s
 
 * White House Writers Group (WHWG) z&nbsp;Waszyngtonu
   
-  (zatrudniająca rzekomo osoby, które tworzyły wcześniej przemowy prezydenckie. Według faktur otrzymali od Syngenty w&nbsp;latach 2010&nbsp;i 2011&nbsp;ponad 1,6 mln dolarów);
+  (zatrudniająca osoby, które tworzyły wcześniej przemowy prezydenckie. Według faktur otrzymali od Syngenty w&nbsp;latach 2010&nbsp;i 2011&nbsp;ponad 1,6 mln dolarów);
 
 * Jayne Thompson & Associates;
 * McDermott, Will & Emery.
@@ -200,20 +218,27 @@ Na przestrzeni lat Syngenta zaangażowała co najmniej cztery firmy zajmujące s
 {:.figcaption}
 Źródło: artykuł Truthout.
 
-W 2009&nbsp;roku w&nbsp;New York Timesie ukazał się artykuł z&nbsp;serii „Toxic Waters”, pokazujący że stężenie atrazyny często skacze w&nbsp;porze oprysków, przekraczając dozwolone normy. Autor nawiązuje też do badań nad wpływem substancji na wady genetyczne u&nbsp;noworodków.
+W 2009&nbsp;roku w&nbsp;New York Timesie ukazał się [artykuł](https://www.nytimes.com/2009/08/23/us/23water.html) z&nbsp;serii „Toxic Waters”, pokazujący że stężenie atrazyny często skacze w&nbsp;porze oprysków, przekraczając dozwolone normy. Autor nawiązuje też do badań nad wpływem substancji na wady genetyczne u&nbsp;noworodków.
 
 Odtajnione maile pokazały, że Syngenta zaraz po wydaniu tego artykułu planowała wyszukać w&nbsp;nim nieścisłości i&nbsp;podważyć jego wiarygodność.
 
-Ich „neutralną ekspertką” została Elizabeth Whelan, prezes organizacji *American Council on Science and Health* (dosł. Amerykańska Rada ds. Nauki i&nbsp;Zdrowia).  
-Nazwa brzmi profesjonalnie, jak coś rządowego? Tymczasem to firma całkiem prywatna. Przyjmuje finansowanie [głównie od gigantów branżowych](https://en.wikipedia.org/wiki/American_Council_on_Science_and_Health).
+Ich „neutralną ekspertką” została Elizabeth Whelan, prezes organizacji *American Council on Science and Health* (dosł. Amerykańska Rada ds. Nauki i&nbsp;Zdrowia).
 
-Whelan wystąpiła w&nbsp;telewizji MSNBC i&nbsp;ogłosiła, że artykuł z&nbsp;Timesa nie miał podstaw naukowych i&nbsp;że, jako specjalistkę od zdrowia publicznego, razi ją nagłaśnianie zmyślonych zagrożeń na okładce gazety.
+Nazwa brzmi profesjonalnie, jak coś rządowego? Tymczasem to firma całkiem prywatna. Przyjmuje finansowanie [głównie od gigantów branżowych](https://en.wikipedia.org/wiki/American_Council_on_Science_and_Health).  
+[Mail](https://www.sourcewatch.org/images/1/10/Syn_2009_PR_Request_for_Proposal.pdf), w którym streszczają planowane działania, zaczyna się słowami *Dear Syngenta friends*. I wspomina o wsparciu finansowym, które Syngenta hojnie zapewniała przez lata.
 
-Inną gazetą, z&nbsp;którą Syngenta miała na pieńku, był Huffington Post. W&nbsp;mailach dyskutowali o&nbsp;tym, czy znalazłby się w&nbsp;redakcji jakiś zaufany człowiek, dzięki któremu „przestaliby obrywać od wszystkich na garnuszku tej gazety”.
+Ta właśnie Whelan wystąpiła w&nbsp;telewizji MSNBC i&nbsp;ogłosiła, że artykuł z&nbsp;Timesa nie miał podstaw naukowych i&nbsp;że, jako specjalistkę od zdrowia publicznego, razi ją nagłaśnianie zmyślonych zagrożeń na okładce gazety.
+
+Inną gazetą, z&nbsp;którą Syngenta miała na pieńku, był Huffington Post.  
+Wśród ujawnionych dokumentów mamy [maila](https://www.sourcewatch.org/images/d/d5/Syn_Ivory_Dossier_and_NRC_PANNA_Tides_all.pdf), w którym podwykonawca dzieli się informacjami, jakie wygrzebał o&nbsp;dziennikarce prowadzącej sprawę Syngenty.  
+Wśród nich: biogram, kariera, zainteresowania, możliwe źródło finansowania (Fundacja Tides). Wzmianka o&nbsp;tym, że jej reportaże sprawiły kiedyś, że jakiś ubezpieczyciel nie wywinął się z&nbsp;pokrycia kosztów protezy 12-letniego chłopca.
+  
+W&nbsp;mailach [dyskutowali też](www.sourcewatch.org/images/b/b8/Syn_email_Need_Someone_at_HuffPo.pdf) o&nbsp;tym, czy znalazłby się w&nbsp;redakcji jakiś zaufany człowiek, dzięki któremu „przestaliby obrywać od wszystkich na garnuszku tej gazety”.  
+Poboczna ciekawostka: mail zawiera przekazane powiadomienie od Google News. Zapewne używali ich narzędzia do monitorowania wystąpień słowa *atrazine*.
 
 Gretchen Goldman z&nbsp;organizacji *Center for Science and Democracy* zrobiła małe [zestawienie](https://web.archive.org/web/20220109125959/https://blog.ucsusa.org/gretchen-goldman/interference-in-the-science-of-atrazine-again-160/) pokazujące podobieństwa między działaniami Syngenty a&nbsp;metodami branży tytoniowej.
 
-Nie była to zresztą wyłącznie inspiracja. Firma skorzystała z&nbsp;usług Stevena Milloya -- blogera, który wcześniej kwestionował inne kwestie środowiskowe i&nbsp;zdrowotne związane z&nbsp;produktami wielkich firm. W&nbsp;tym szkodliwość palenia biernego.
+Nie była to zresztą wyłącznie inspiracja. Firma [skorzystała z&nbsp;usług](https://www.sourcewatch.org/images/0/09/Syn_email_Talking_Points_for_Milloy.pdf) Stevena Milloya -- blogera, który wcześniej kwestionował inne kwestie środowiskowe i&nbsp;zdrowotne związane z&nbsp;produktami wielkich firm. W&nbsp;tym szkodliwość palenia biernego.
 
 {:.red .no-right-border}
 > blog psychology,  
@@ -232,7 +257,14 @@ and bow down to the wolf in black clothing
 Źródło wszystkich rapsów: maile Tyrone'a Hayesa.  
 Tutaj nawiązuje zapewne do siebie i&nbsp;czarnych ciuchów, które lubił nosić.
 
-Jego wypowiedzi publicznie krytykuje parę stronek, które oficjalnie do żadnych powiązań z&nbsp;Syngentą się nie przyznają i stylizują się na niezależne zrzeszenia rolników. Chwalą atrazynę i&nbsp;przedstawiają ją jako filar gospodarki. Mają nawet uśmiechniętą żabę:
+Jego wypowiedzi publicznie krytykuje parę stronek, które oficjalnie do żadnych powiązań z&nbsp;Syngentą się nie przyznają i stylizują się na niezależne zrzeszenia rolników. Co by się zgadzało ze strategią:
+
+> Once we launch the website (...), we will have a platform that we control, but is not Syngenta branded
+
+{:.figcaption}
+Źródło: [dokument sądowy](https://www.sourcewatch.org/images/7/7f/Exhibit_13_Part1.pdf), strona 49.
+
+Stronką najbardziej jaskrawą w&nbsp;swoich działaniach jest AgSense (ale jak coś nie mówię, że to o&nbsp;nich był mail!). Chwalą atrazynę i&nbsp;przedstawiają ją jako filar gospodarki. Mają nawet uśmiechniętą żabę:
 
 {:.figure .bigspace-before}
 <img src="/assets/posts/syngenta-atrazine-hayes/agsense-kalkulator.jpg" alt="Formularz na zielonym tłem, podpisany 'Ile jest warta atrazyna dla twojej farmy kukurydzy?'. W&nbsp;prawym górnym rogu widać uśmiechniętą rysunkową żabkę"/>
@@ -240,7 +272,7 @@ Jego wypowiedzi publicznie krytykuje parę stronek, które oficjalnie do żadnyc
 {:.figcaption}
 Źródło: AgSense.
 
-Jedną z&nbsp;takich organizacji, bodaj najbardziej jaskrawą w&nbsp;swoich działaniach, jest AgSense. Mają nawet <a rel="nofollow" href="https://agsense.org/articles/atrazine-the-strange-case-of-dr-tyrone-hayes/">artykuł</a> na temat Hayesa, w&nbsp;którym przytaczają jego wypowiedzi.
+Oprócz żaby mają też <a rel="nofollow" href="https://agsense.org/articles/atrazine-the-strange-case-of-dr-tyrone-hayes/">artykuł</a> na temat Hayesa, w&nbsp;którym przytaczają jego wypowiedzi.
 
 Sugerują, że wszystkie były pisane nieironicznie i&nbsp;świadczą o&nbsp;niestabilności naukowca oraz jego manii wielkości. Na koniec lamentują: „Dlaczego ktokolwiek nadal uważa Hayesa za rzetelne źródło w&nbsp;sprawach atrazyny?”.
 
@@ -251,12 +283,13 @@ type="Ciekawostka"
 text="Oprócz Hayesa firma miała na celowniku również sędziego, który mógłby otrzymać wspomnianą wyżej sprawę skażonych wód.  
 W notatkach pani Ford znajdziemy zdania takie jak „Dating websites pic in robes” (zdjęcie w&nbsp;szatach (habicie? Nie znam kontekstu) na stronach randkowych).  
 Sugeruje to, że próbowali znaleźć na niego jakieś brudy."
+trailer="<p class='bigspace-before'>Inny przypadek? W komentarzu pod pewnym <a href='https://www.youtube.com/watch?v=i5uSbp0YDhc'>filmikiem</a> z YT ktoś wspomina o innym naukowcu, Louisie Guillete, rzekomo też nachodzonym przez Syngentę.<br/>W <a href='https://www.sourcewatch.org/index.php?title=File:Exhibit_19_Part1.pdf' >notatkach</a> S. Ford istotnie znajdziemy takie nazwisko (str. 5). I branie pod lupę jego żony: <i>wife is a scientist (of sorts)</i>.</p>"
 %}
 
 {:.red .no-right-border}
 > making emails public
 
-AgSense, w swoim artykule na temat rzekomej niestabilności Hayesa, upubliczniło jego maile, dodając link do zbiorczego pliku PDF. Są tam wyłącznie wyjęte z&nbsp;kontekstu maile autorstwa naukowca. Nie widzimy, co pisali mu ludzie z&nbsp;Syngenty.
+AgSense, w swoim artykule na temat rzekomej niestabilności Hayesa, upubliczniło jego maile, dodając <a rel="nofollow" href="http://www.atrazine.com/Amphibians/Combined_Large_pdf-r-opt.pdf">link</a> do zbiorczego pliku PDF. Są tam wyłącznie maile autorstwa naukowca. Bez kontekstu. Nie widzimy, co pisali mu ludzie z&nbsp;Syngenty.
 
 {:.bigspace}
 > see the man in black  
@@ -268,13 +301,13 @@ Jestem im wdzięczny, bo maile zawierają przykłady całkiem niezłego trolling
 {:.red .no-right-border}
 > contact Berkeley
 
-Przedstawiciele Syngenty napisali list do władz uniwersytetu w&nbsp;Berkeley. Przedstawiali się jako zatroskani, wyrażali zaniepokojenie jego „nieprofesjonalnym” zachowaniem.
+Przedstawiciele Syngenty <a rel="nofollow" href="http://www.atrazine.com/Amphibians/Univ_of_CA-7-19-10.pdf">napisali do władz</a> uniwersytetu w&nbsp;Berkeley. Przedstawiali się jako zaniepokojeni „nieprofesjonalnym zachowaniem” Hayesa.
 
 Hayes dostał upomnienie i&nbsp;obiecał nieco się pilnować. Rok później Syngenta złożyła jeszcze oficjalne zażalenie do uczelnianej komisji etyki, przytaczając kilka wybranych maili. Zapewne nic szczególnego nie ugrali.
 
 Ogólnie uniwersytet wydaje się w&nbsp;tej sprawie dość neutralnym graczem; po publikacji kolejnego z&nbsp;artykułów Hayesa w&nbsp;czasopiśmie naukowym PNAS, w&nbsp;2010 roku, umieścił na swojej stronie jego [streszczenie napisane przystępnym językiem](https://news.berkeley.edu/2010/03/01/frogs/). 
 
-Szef działu bezpieczeństwa produktów z&nbsp;Syngenty nie był neutralny. Wysłał wydawcy PNAS wiadomość napisaną korpojęzykiem, w&nbsp;której „wyraża zaniepokojenie, że praca obciążona tyloma oczywistymi słabościami została wydana w&nbsp;tak szanowanym piśmie”.
+Szef działu bezpieczeństwa produktów z&nbsp;Syngenty nie był neutralny. Wysłał wydawcy PNAS wiadomość napisaną korpojęzykiem, w&nbsp;której „wyraża zaniepokojenie, że praca obciążona tyloma oczywistymi słabościami została wydana w&nbsp;tak szanowanym piśmie”. Olali go.
 
 > so go'head, bring "your boys"  
 cuz i'm bringing the noise
@@ -292,7 +325,7 @@ Najpierw ustalmy, kto walczył. Hayes do samego końca pokazywał pazur. Ale ost
 
 Pamiętacie, od czego ta historia się zaczęła? Od zlecenia przez Syngentę własnych badań, zanim ich atrazynie przyjrzy się EPA. Czyli, przypomnę, agencja ds. ochrony środowiska. Decydująca co pewien czas w&nbsp;kwestii dopuszczalnych substancji lub dawek.
 
-Ostatecznie **to EPA miała w&nbsp;2012 roku zdecydować o&nbsp;losach atrazyny w&nbsp;USA**. Opierając się wyłącznie na badaniach, a&nbsp;nie opinii publicznej. Z&nbsp;oczywistych względów przełożyło się to na wielkie ożywienie w&nbsp;Syngencie. 
+Ostatecznie **to EPA miała w&nbsp;2012 roku zdecydować o&nbsp;losach atrazyny w&nbsp;USA**. Opierając się wyłącznie na badaniach, a&nbsp;nie opinii publicznej. Powoływanie się na rolników nic by nie dało. Z&nbsp;oczywistych względów przełożyło się to na wielkie ożywienie w&nbsp;Syngencie. 
 
 Jak pokazują maile ujawnione podczas rozprawy, wynajęli agencję detektywistyczną, która miała dostarczyć informacje na temat składu grupy naukowców doradzających EPA. Dokumenty nie ujawniają niestety, czy i&nbsp;w jaki sposób je wykorzystali. 
 
@@ -315,7 +348,7 @@ Werdykt? W&nbsp;2012&nbsp;roku **utrzymano dotąd dozwolone stężenie atrazyny,
 
 Samych badań nie będę kwestionował, nie mając wiedzy w&nbsp;temacie -- choć kontekst, w&nbsp;jakim to akurat one zostały wybrane, uważam za mocno kontrowersyjny.
 
-Gdyby kogoś to interesowało, polecam [filmik](https://www.youtube.com/watch?v=i5uSbp0YDhc) zagłębiający się w temat. Autor wychodzi od memicznych wypowiedzi pewnego kontrowersyjnego showmana, ale potem funduje nam solidną porcję faktów.  
+Gdyby kogoś to interesowało, polecam [filmik](https://www.youtube.com/watch?v=i5uSbp0YDhc) od Oki's Weird Stories zagłębiający się w temat. Autor wychodzi od memicznych wypowiedzi pewnego kontrowersyjnego showmana, ale potem funduje nam solidną porcję faktów.  
 W tym właśnie o&nbsp;kontrowersyjnych kulisach wybierania dopuszczalnych badań przez EPA.
 
 # Pyrrusowe zwycięstwo?
@@ -329,9 +362,9 @@ Choć w&nbsp;USA atrazyna wygrała i&nbsp;nadal może być masowo używana do op
 
 * Agencja EPA przeprowadziła od tamtego czasu ocenę ryzyka natury ekologicznej. Ustalili, że bezpieczne poziomy atrazyny w ich testach [były przekroczone](https://www.regulations.gov/document?D=EPA-HQ-OPP-2013-0266-0315); 22-krotnie dla ptaków, 62-krotnie dla ryb i&nbsp;198-krotnie dla ssaków.
 
-* W&nbsp;Kalifornii w&nbsp;2016 roku wprowadzono poprawkę numer 65, uznającą atrazynę za [szkodliwą dla układu rozrodczego](https://www.npr.org/transcripts/497844694). Na poziomie całego USA EPA zajęło się opracowywaniem raportu na temat szkodliwości substancji dla ludzi.
+* W&nbsp;Kalifornii w&nbsp;2016 roku wprowadzono poprawkę numer 65, uznającą atrazynę za [szkodliwą dla układu rozrodczego](https://oehha.ca.gov/proposition-65/chemicals/atrazine). Na poziomie całego USA EPA zajęło się opracowywaniem raportu na temat szkodliwości substancji dla ludzi.
 
-* 2019&nbsp;-- naukowcy z&nbsp;Uniwersytetu Melbourne wykryli związek między ATZ a&nbsp;[spadkiem płodności](https://medicalxpress.com/news/2019-01-safe-herbicide-australian-affects-male.html) wśród mężczyzn.
+* 2019&nbsp;-- naukowcy z&nbsp;Uniwersytetu w Melbourne wykryli związek między ATZ a&nbsp;[spadkiem płodności](https://medicalxpress.com/news/2019-01-safe-herbicide-australian-affects-male.html) u&nbsp;samców myszy. Ich [artykuł](https://www.publish.csiro.au/RD/RD18505) wieńczy stwierdzenie o&nbsp;możliwym wpływie na ludzkich mężczyzn.
 
 * Sprawa z&nbsp;tego roku (2022). EPA chce obniżyć dopuszczalne stężenie atrazyny w&nbsp;wodzie, z&nbsp;poziomu 15&nbsp;jednostek do 3,4. Organizacje takie jak AgSense już <a rel="nofollow" href="https://agsense.org/articles/growers-get-ready-to-fight-epa-again-on-atrazine-read-our-letter-to-epa/">szykują listy protestacyjne</a>.
 
@@ -346,7 +379,7 @@ Kontrowersje -- z&nbsp;których niektóre mogą brzmieć dla nas znajomo -- otac
 * Parakwat (ang. *paraquat*).
 
   Herbicyd. Zagłosowali przeciw dodaniu do składu środka wywołującego wymioty, który mógłby zmniejszyć liczbę zatruć. [Zarzuca się im](https://www.theguardian.com/environment/2021/mar/24/syngenta-paraquat-deadly-john-heylings), że korzystali ze zmanipulowanych danych, przedstawiając swoje tańsze zabezpieczenia jako wystarczające.  
-  Deborah Cory-Slechta, profesor Uniwerystetu w&nbsp;Rochester, badała związek tej substancji z&nbsp;chorobami układu nerwowego. Jak mówi, pracownicy Syngenty chodzili na jej wykłady i&nbsp;twierdzili, że korzysta z&nbsp;dawek nieistotnych dla ludzi, a&nbsp;wyniki nie są wiarygodne. Próbowali też odstraszyć jej studentów.
+  Deborah Cory-Slechta, profesor Uniwersytetu w&nbsp;Rochester, badała związek tej substancji z&nbsp;chorobami układu nerwowego. Jak mówi, pracownicy Syngenty chodzili na jej wykłady i&nbsp;twierdzili, że korzysta z&nbsp;dawek nieistotnych dla ludzi, a&nbsp;wyniki nie są wiarygodne. Próbowali też odstraszyć jej studentów.
 
 A to wszystko sprawy *stricte* z&nbsp;ich działu chemicznego. Oprócz niego mają również dział biotechnologiczny, o&nbsp;którym nawet nie czytałem.
 
@@ -366,11 +399,13 @@ Może miał dość nudnej kariery na uczelni i&nbsp;postanowił budować swoją 
 Może na przykład specjalnie wybrał na potrzeby ilustracji najbardziej zmutowane żaby, sugerując że takie zmiany genetyczne są u&nbsp;nich częste?  
 Może wszystkie badania popierające jego tezy to dzieła naśladowców, również chcących się wybić na skandalu?
 
-Ale **jedna rzecz jest w&nbsp;tej sprawie niepodważalna -- treść dokumentów Syngenty**. Zostały ujawnione podczas rozprawy i&nbsp;nikt nie zakwestionował ich prawdziwości.
+Ale **jedna rzecz jest w&nbsp;tej sprawie niepodważalna -- treść dokumentów Syngenty**. Zostały ujawnione podczas rozprawy i&nbsp;nikt nie zakwestionował ich prawdziwości.  
+Nawet Syngenta na swojej [stronie](http://www.atrazinefacts.com/what-the-new-yorker-didn%e2%80%99t-tell-you-%e2%80%93-the-real-facts-behind-the-story/) zasłania się jedynie tym, że „nie wszystkie rzeczy \[z&nbsp;notatek Ford\] wprowadzili w życie”. Czytaj: może śledzili tylko jedną żonę zamiast kilku. Supcio.
 
-Czytając je, możemy na chwilę wejść w&nbsp;głowę pracowników wielkiej korporacji, postawionych przed widmem kryzysu wizerunkowego. „Możliwe, że nasz produkt jest szkodliwy dla zdrowia”.
+Czytając dokumenty, możemy na chwilę wejść w&nbsp;głowę pracowników wielkiej korporacji, postawionych przed widmem kryzysu wizerunkowego. „Możliwe, że nasz produkt jest szkodliwy dla zdrowia”.
 
-Co zrobili? Wynajmowali firmy PR-owe, stawiali strony polemizujące z&nbsp;rozmówcą, uderzali do jego pracodawcy, rozważali wyciąganie najbardziej osobistych brudów.  
+Co zrobili? Wynajmowali firmy PR-owe, oczerniali przeciwników, zasłaniali się farmerami, stawiali strony polemizujące z&nbsp;rozmówcą, uderzali do jego pracodawcy, rozważali wyciąganie najbardziej osobistych brudów.
+
 W ich planie antykryzysowym zeszło na dalszy plan coś takiego jak profilaktyczne ostrzeganie o&nbsp;konsekwencjach czy zostawienie oceny *faktycznie* niezależnym podmiotom. O&nbsp;ile w&nbsp;ogóle przeszło im przez myśl.
 
 Nawet jeśli atrazyna nie jest tak istotna dla nas, Europejczyków, afera wokół niej może być dla nas ostrzeżeniem.  
