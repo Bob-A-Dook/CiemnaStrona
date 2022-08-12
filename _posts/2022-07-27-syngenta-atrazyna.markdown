@@ -16,7 +16,7 @@ Na tym blogu piszę głównie o&nbsp;sprawach cyfrowych. Tym razem będzie inacz
 Świat wirtualny jest wszak jedynie nakładką na ten rzeczywisty. Jeśli przez kilka dni nic nie zjemy i&nbsp;nie wypijemy, to sobie w&nbsp;żaden komputer już więcej nie poklikamy.
 
 {:.post-meta .bigspace-after}
-Ale jeśli ktoś bez komputerów nie może, to sprawa ma również [wątek](https://news.ycombinator.com/item?id=7175635) na forum HackerNews, z&nbsp;dyskusją poboczną o&nbsp;roli Google w&nbsp;sprawie.
+Ale jeśli ktoś bez komputerów nie może, to jest również [wątek](https://news.ycombinator.com/item?id=7175635) na forum HackerNews, z&nbsp;dyskusją poboczną o&nbsp;roli Google w&nbsp;tej sprawie.
 
 I właśnie o&nbsp;sprawach wokół żywności będzie w&nbsp;tym wpisie. Przedstawię aferę, która mnie ostatnio zafascynowała -- związaną z&nbsp;wodą pitną w&nbsp;USA, koncernem chemicznym Syngenta oraz ich kontrowersyjnym środkiem chwastobójczym, atrazyną.
 
@@ -73,7 +73,7 @@ W 2017&nbsp;roku Syngenta została [przejęta przez ChemChina](https://finance.y
 
 Nas natomiast niezbyt interesuje chiński aspekt działalności. Cała historia zaczyna się dużo wcześniej, gdy jeszcze Syngenta była częścią Novartisu, i&nbsp;rozgrywa się w&nbsp;USA.
 
-Wystarczy, że zapamiętamy, że są bardzo, bardzo dużą korporacją. Jest im na rękę, żeby w&nbsp;rolnictwie jak najczęściej korzystało się z&nbsp;ich chemii.
+Wystarczy że zapamiętamy, że są bardzo, bardzo dużą korporacją. Jest im na rękę, żeby w&nbsp;rolnictwie jak najczęściej korzystało się z&nbsp;ich chemii.
 
 Luźna anegdota: niedawno prezes Syngenty [skrytykował](https://www.swissinfo.ch/eng/business/stop-organic-farming-to-help-future-food-crisis--says-syngenta-boss/47576514) koncept żywności organicznej, obciążając ją winą m.in. za głód w&nbsp;Afryce i&nbsp;emisje CO<sub>2</sub>.  
 Powiedział jednak, że dopuszcza formę hybrydową, która korzystałaby z&nbsp;paru aspektów rolnictwa organicznego, ale wspierała je zdobyczami chemii i&nbsp;biotechnologii (obiema tymi rzeczami zajmuje się Syngenta). Jednocześnie zaprzeczył, jakoby jego pogląd wiązał się z&nbsp;interesami firmy.
@@ -283,7 +283,7 @@ type="Ciekawostka"
 text="Oprócz Hayesa firma miała na celowniku również sędziego, który mógłby otrzymać wspomnianą wyżej sprawę skażonych wód.  
 W notatkach pani Ford znajdziemy zdania takie jak „Dating websites pic in robes” (zdjęcie w&nbsp;szatach (habicie? Nie znam kontekstu) na stronach randkowych).  
 Sugeruje to, że próbowali znaleźć na niego jakieś brudy."
-trailer="<p class='bigspace-before'>Inny przypadek? W komentarzu pod pewnym <a href='https://www.youtube.com/watch?v=i5uSbp0YDhc'>filmikiem</a> z YT ktoś wspomina o innym naukowcu, Louisie Guillete, rzekomo też nachodzonym przez Syngentę.<br/>W <a href='https://www.sourcewatch.org/index.php?title=File:Exhibit_19_Part1.pdf' >notatkach</a> S. Ford istotnie znajdziemy takie nazwisko (str. 5). I branie pod lupę jego żony: <i>wife is a scientist (of sorts)</i>.</p>"
+trailer="<p class='bigspace-before'>Inny przypadek? W komentarzu pod pewnym <a href='https://www.youtube.com/watch?v=i5uSbp0YDhc'>filmikiem</a> z YT ktoś wspomina o innym naukowcu, Louisie Guillete, rzekomo też nachodzonym przez Syngentę.<br/>W&nbsp;<a href='https://www.sourcewatch.org/index.php?title=File:Exhibit_19_Part1.pdf' >notatkach</a> S.&nbsp;Ford istotnie znajdziemy takie nazwisko (str.&nbsp;5). I&nbsp;branie pod lupę jego żony: <i>wife is a&nbsp;scientist (of sorts)</i>.</p>"
 %}
 
 {:.red .no-right-border}
