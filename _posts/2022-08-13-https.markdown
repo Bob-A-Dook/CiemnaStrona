@@ -4,7 +4,7 @@ title:  "Internetowa inwigilacja plus 1 – HTTPS"
 subtitle: "Chcesz coś ochronić? Zamknij to na kłódkę."
 description: "Chcesz coś ochronić? Zamknij to na kłódkę"
 date:   2022-08-13 12:45:00 +0100
-tags: [Internet, Inwigilacja]
+tags: [Internet, Inwigilacja, Podstawy]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
 image: "https/https-baner.jpg"
