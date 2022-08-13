@@ -1,0 +1,206 @@
+---
+layout: post
+title:  "Internetowa inwigilacja plus 1 – HTTPS"
+subtitle: "Chcesz coś ochronić? Zamknij to na kłódkę."
+description: "Chcesz coś ochronić? Zamknij to na kłódkę"
+date:   2022-08-13 12:45:00 +0100
+tags: [Internet, Inwigilacja]
+category: internetowa_inwigilacja
+category_readable: "Internetowa inwigilacja"
+image: "https/https-baner.jpg"
+image-width: 1200
+image-height: 700
+---
+
+Witam w&nbsp;pierwszym wpisie rozszerzającym serię „Internetowa inwigilacja”! Dosłownie wczoraj zamknąłem jej główną część, poświęconą rzeczom codziennym, a&nbsp;teraz czas na więcej niuansów. Dzisiaj przystępne wprowadzenie do *HTTPS*.
+
+W tej serii często korzystałem z&nbsp;analogii *pocztowej*:
+
+* Nasza przeglądarka -- zaufana obsługa na najbliższej poczcie.
+* Cudze serwery -- potencjalni partnerzy korespondencyjni.
+* Przesyłane informacje, strony, obrazki itp. -- listy i&nbsp;paczki.
+
+Do tej pory potencjalnym szpiegiem były strony, które odwiedzamy. Nasi partnerzy korespondencyjni.  
+Mogły odczytywać informacje, którymi się przedstawialiśmy, a&nbsp;także podrzucać nam podsłuchy (skrypty śledzące). Zapisywać informacje o&nbsp;nas, analizować je i&nbsp;na tej podstawie budować nasze wirtualne teczki.
+
+Zakładaliśmy w&nbsp;każdym razie, że listy trafiają tylko do zamierzonych odbiorców i&nbsp;to oni wbijają nam nóż w&nbsp;plecy. Adwersarzem były głównie firmy kontrolujące -- całkowicie albo częściowo -- odwiedzane przez nas strony.
+
+Tym razem spojrzymy na przypadek **wścibskich oczu po drodze**. Między nami a&nbsp;adresatami (którym tym razem ufamy).
+
+Wbrew obiegowym opiniom nie muszą to być wcale hakerzy, stwory żyjące w&nbsp;cieniu. Wielkie firmy telekomunikacyjne też mają czasem apetyt na to, co wysyłamy w&nbsp;świat.
+
+{:.post-meta}
+Uwaga: HTTPS jest tylko częścią układanki. Żeby ochronić prywatność przed firmami telekomunikacyjnymi, warto również zadbać o&nbsp;kwestie metadanych i&nbsp;DNS-a, które omówię w&nbsp;kolejnych wpisach.
+
+## Zarys problemu
+
+Do tej pory korzystałem z&nbsp;uproszczonego schematu -- pisząc, że kiedy chcemy się skontaktować z&nbsp;jakąś stronką A, to po prostu „wysyłamy jej list”.
+
+<img src="/assets/posts/internetowa-inwigilacja-1-podstawy/komunikacja-schemat.jpg" alt="Podstawowy schemat złożony z&nbsp;rysunkowych ikon: po lewej stronie jest laptop, po prawej serwer. Od laptopa w&nbsp;stronę serwera odchodzi strzałka, na którą jest nałożona ikonka etykiety na paczce, symbolizująca informacje."/>
+
+{:.figcaption}
+Do tej pory to serwer po prawej mógł być naszym wrogiem; tym razem mu ufamy, a&nbsp;wróg jest gdzieś pośrodku.  
+Źródło ikon: Flaticon. [Laptop](https://www.flaticon.com/free-icons/computer) od *vectorsmarket15*, [serwer](https://www.flaticon.com/free-icons/server) od *Smashicons*, [strzałka](https://www.flaticon.com/free-icons/down-arrow) od Freepik. Aranżacja moja.
+
+Kolejność działań była bardzo prosta:
+
+1. my przesyłamy jakiemuś serwerowi swoją „wizytówkę”, czyli nagłówki HTTP (informacje o&nbsp;przeglądarce, języku) oraz prośbę o&nbsp;stronę,
+2. w&nbsp;zamian serwer zapewne odeśle nam stronę internetową, o&nbsp;którą prosiliśmy.
+
+Ale to wersja mocno uproszczona; w&nbsp;internecie nie ma czegoś takiego jak wysyłanie „od drzwi do drzwi”. To nie jest przerzucanie papierowego samolocika na posesję sąsiada.  
+Po drodze jest wiele punktów przepakowych (podobnie zresztą jak w&nbsp;przypadku tradycyjnej poczty). Każdy z&nbsp;nich może być obsadzony wścibskimi osobami gotowymi zajrzeć do naszej korespondencji.
+
+Mogą być to właściciele podstawionego hotspota, z&nbsp;którym się połączyliśmy w&nbsp;centrum handlowym. W&nbsp;końcu miał nazwę jak to centrum, prawda? Tyle że każdy może nazwać swojego hotspota, jak mu się żywnie podoba.
+
+Może to być również firma telekomunikacyjna, od której mamy nasz domowy internet. W&nbsp;Europie nieco hamują ich przepisy, ale w&nbsp;takim USA swobodnie zbierają dane [do celów reklamowych](https://www.lightreading.com/security/t-mobile-to-join-atandt-verizon-in-selling-customers-data/d/d-id/767955). Albo sprzedają je ubezpieczycielom, żeby mogli zaniżyć naszą ocenę.
+
+Niezależnie od tego, kim jest potencjalny wścibinos, mamy problem. Chcemy uchronić się przed jego wzrokiem, żeby wiedział o&nbsp;nas jak najmniej.
+
+## HTTPS
+
+# Po czym go poznać
+
+Co się dzieje w&nbsp;świecie rzeczywistym, kiedy wysyłamy nasz list w&nbsp;jakiejś typowej kopercie, zamkniętej byle jak i&nbsp;bez żadnych zabezpieczeń?  
+Odpowiedź: ktoś może po prostu rozerwać kopertę, przeczytać list, zamknąć go w&nbsp;nowej kopercie i&nbsp;przesłać dalej. Nie zostawiając żadnych śladów, które by ujawniły naszemu adresatowi, że coś jest nie tak.
+
+W świecie wirtualnym takie tradycyjne listy, łatwe do podejrzenia, wysyłamy w&nbsp;momencie odwiedzania stron zaczynających się od `http://`.  
+Jako internauci możemy je poznać po tym, że przy ich adresie jest widoczna ikona przekreślonej kłódki (Firefox) albo słowne ostrzeżenie (Chrome i&nbsp;pokrewne).
+
+{:.bigspace-before}
+<img src="/assets/posts/https/https-off.jpg" alt="Zrzuty ekranu dwóch pasków przeglądarki. Po lewej stronie w&nbsp;obu przypadkach widać informację o&nbsp;brazku zabezpieczeń. W&nbsp;pierwszym przypadku to kłódka przekreślona czerwonym krzyżykiem, w&nbsp;drugim zwykły napis 'Not secure'."/>
+
+{:.figcaption}
+Niektóre przeglądarki chowają pełen adres strony i&nbsp;pokazują tylko jego skróconą wersję. Ale po kliknięciu w&nbsp;pasek z&nbsp;adresem wyświetli Wam się całość, w&nbsp;tym informacja o&nbsp;*http(-s)*.
+
+Takie coś widzicie pewnie stosunkowo rzadko, częściej kłódka jest zamknięta. Z&nbsp;czego to wynika? Ano z&nbsp;tego, że obecnie bardzo powszechny jest `HTTPS`. Odpowiednik wysyłania zaplombowanych listów albo paczek zamkniętych w&nbsp;sejfach.
+
+**Kiedy przeglądarka prosi o&nbsp;strony internetowe i&nbsp;je odbiera, cała wymiana często jest szyfrowana**. Niektórych może ten fakt zaskoczy, zaś inni co najwyżej ziewną.
+
+Czyli strony zaczynające się od `http://` nie zapewniają szyfrowania. Te na `https://` zapewniają. Czy to znaczy, że te pierwsze mają wobec nas złe intencje?
+
+Niekoniecznie! Widziałem przypadki, kiedy właściciel strony po prostu nie wiedział, po co i&nbsp;w jaki sposób przejść na `HTTPS`. Albo firma zapewniająca mu hosting nie dała takiej możliwości.  
+Czasem podchodzą do tego na zasadzie „niech patrzą, ja i&nbsp;moi użytkownicy nie mamy nic do ukrycia”. Uważając, że skoro ich stronę użytkownicy mogą wyłącznie czytać, nie zostawiając tam żadnych informacji, to nie ma czego chronić.
+
+Tym niemniej w&nbsp;dyskusjach [doradzają, żeby *HTTPS* włączyć](https://security.stackexchange.com/questions/142496/which-security-measures-make-sense-for-a-static-web-site). Nawet na najprostszych stronach. Korzyści mogą być całkiem realne, a&nbsp;pracy niekoniecznie dużo. W&nbsp;przypadku mojego bloga, hostowanego przez Githuba, była to po prostu kwestia kliknięcia jednego ustawienia.
+
+Zapamiętajmy z&nbsp;tego, że HTTP jest dla naszej prywatności gorszy, HTTPS lepszy. Ten drugi jest już bardzo powszechny. Ale czym właściwie jest?
+
+## Jak działa za kulisami
+
+Przyda nam się parę faktów na ten temat, więc przedstawiam analogię; dość nietypową, bo bez stereotypowych Alice, Boba i&nbsp;oficjalnej terminologii. Jakoś nie umiałem się w&nbsp;nią wczuć.  
+Będzie inna, z&nbsp;kłódkami i&nbsp;pudełkami, która mi lepiej „kliknęła”.
+
+{:.post-meta .bigspace}
+Uprzedzam, że analogia jest luźna, a&nbsp;ja jestem hobbystą. Uważam ją za dobrą abstrakcję na potrzeby moich kilku wpisów, ale nie uczcie się z&nbsp;tego do egzaminów :wink:
+
+Wyobraźmy sobie, że chcemy z&nbsp;kimś popisać. I&nbsp;nie chcemy, żeby do wysyłanych rzeczy dobrał się ktoś niepowołany.  
+Koperta odpada, bo ktoś może po prostu ją rozerwać. Nie; to musi być coś trwałego.
+
+Rozwiązanie: wysyłajmy sobie wszystko w&nbsp;*pancernych skrzynkach* zamykanych na kłódki. Załóżmy, że prawie niezniszczalnych. W&nbsp;naszym świecie każdy ma sporo takich w&nbsp;domu.  
+Kiedy już coś się znajdzie w&nbsp;takim pudle, to jest chronione przed wzrokiem podglądaczy. Zamknięcie czegoś w&nbsp;nim to *zaszyfrowanie* tej rzeczy.
+
+Tylko że musimy być w&nbsp;stanie otworzyć pudło od naszych adresatów, a&nbsp;oni -- pudła od nas. Każdy musi mieć kluczyk pasujący do kłódki na pudełku, które otrzyma.
+
+Pierwsza myśl -- wymieńmy się kopiami kluczyków. Pogłówkujmy nad sposobami, w&nbsp;jakie by je przekazać:
+
+* Wysłać je sobie zwykłymi listami?
+
+  To nie zadziała; pamiętajmy, że po drodze jest pełno złoczyńców.  
+  Ktoś na pewno by przechwycił kluczyk, wykonał kopię i&nbsp;potem swobodnie otwierał nasze pudła.
+
+* Spotkać się w&nbsp;cztery oczy i&nbsp;przekazać sobie kopie kluczyków przed rozpoczęciem korespondencji?
+
+  Jasne, to realna możliwość. Ale nie pasuje do realiów internetu.  
+  Tutaj często kontaktujemy się ze stronami wcześniej obcymi. Nikt nie będzie poświęcał czasu na ustalenie z&nbsp;nami osobnego kanału komunikacji.
+
+Sytuacja wydaje się beznadziejna. Chcemy przekazać sobie kluczyki niebezpiecznym kanałem, na podsłuchu. Innego nie mamy. A&nbsp;gdy tylko spróbujemy to zrobić, to je przejmą.
+
+A może... wcale nie musimy przekazywać sobie kluczyków?  
+Na tym polega *kryptografia asymetryczna*, która przychodzi na ratunek. **Wymieniamy się rzeczami, które będą bezużyteczne dla podsłuchiwacza. A&nbsp;nam pozwolą rozpocząć bezpieczną komunikację**. Kłódkami (*publicznymi*), a&nbsp;nie kluczykami (*prywatnymi*).
+
+Zobaczmy krok po kroku, jak by mogła wyglądać wymiana w&nbsp;takich warunkach.  
+
+Krok pierwszy: inicjujemy rozmowę. Wysyłamy pierwszą wiadomość, w&nbsp;zwykłej kruchej kopercie. To *client hello* -- „powitanie”. Krótkie, szablonowe zaproszenie do wymiany kłódek. Przy okazji się chwalimy, na ile mocne są te nasze.
+
+Krok drugi! Jeśli rozmówca jest tym zainteresowany, to odsyła nam swoją kłódkę. Otwartą.
+
+{% include info.html
+type="Uwaga"
+text="Tutaj analogia lekko się rozmija z&nbsp;rzeczywistością, więc przyda się wyjaśnienie.  
+W świecie komputerów można łatwo i&nbsp;szybko tworzyć idealną kopię czegoś, ani trochę nie rozumiejąc tej rzeczy. Po prostu tworzy się gdzieś identyczny blok zer i&nbsp;jedynek.  
+Dlatego w&nbsp;świecie wirtualnym wystarczy otrzymać jedną „kłódkę” raz, a&nbsp;nigdy nam jej nie braknie.  
+Z kolei w&nbsp;świecie rzeczywistym byłaby raczej trudna do skopiowania. Dlatego wyobraźmy sobie na przykład, że na początku wysyłamy sobie tych kłódek wiele -- tyle, że zawsze wystarczy na potrzeby całej późniejszej korespondencji."
+%}
+
+Czas na krok trzeci.  
+Skoro już mamy kłódkę, to możemy coś zamknąć! Zatem wkładamy do pancernego pudła *swoją* otwartą kłódkę (albo wiele identycznych). Zatrzaskujemy na drzwiczkach kłódkę otrzymaną od naszego rozmówcy -- od teraz tylko on może się tam dostać, otwierając ją swoim kluczem. I&nbsp;wysyłamy.
+
+W ten sposób każda ze stron konwersacji kończy ze swoim kluczykiem, swoją kłódką/kłódkami oraz cudzą kłódką/kłódkami.  
+Od tej pory możemy wysyłać sobie zamknięte pudła (pamiętając, żeby zamykać je kłódką od drugiej osoby, a&nbsp;nie własną). 
+
+Dla wzrokowców zrobiłem schemat naszej czteroetapowej wymiany:
+
+<img src="/assets/posts/https/https-schemat.jpg" alt="Schemat pokazujący cztery etapy komunikacji przez HTTPS, ustawione jeden pod drugim. W&nbsp;każdym przypadku po lewej stronie widać ikonę laptopa oraz mniejsze ikonki zielonej kłódki i&nbsp;kluczyka tego samego koloru. Po prawej stronie widać ikonę serwera, któremu odpowiadają fioletowa kłódka i&nbsp;kluczyk. Pierwszy etap wymiany jest podpisany 'client hello'. Od laptopa do serwera jest poprowadzona strzałka. nad którą widnieje urwany napis 'Popiszemy? Moje kłódki'. Potem od serwera do laptopa idzie strzałka z&nbsp;otwartą kłódką. Następnie od laptopa do serwera idzie półprzezroczyste pudełko, zamknięte na kłódkę serwera, a&nbsp;w nim otwarta kłódka laptopa. Na końcu mamy strzałkę od serwera do laptopa, a&nbsp;nad nią zamknięte pudełko z&nbsp;gry Portal ozdobione sercem. Na dole schematu są trzy kropki pokazujące, że wymiana będzie trwać."/>
+
+{:.figcaption}
+Kłódka wysyłana w&nbsp;trzecim kroku oczywiście też jest zamknięta w&nbsp;szczelnym pudle, jak to z&nbsp;kroku ostatniego. Przezroczystość dałem tylko dla czytelności.
+
+Cała ogólna metoda szyfrowanej komunikacji -- „najpierw robimy wymianę kłódek, a&nbsp;potem przesyłamy sobie zamknięte rzeczy” -- nosi nazwę *TLS* (*Transport Layer Security*). A&nbsp;kiedy używamy tego do komunikacji w&nbsp;internecie, to już mamy *HTTPS*. *S* na końcu od *Secure*.
+
+# Zaufane podmioty zewnętrzne
+
+OK, czyli przy pierwszym kontakcie wymieniamy się otwartymi kłódkami. Potem przesyłamy wszystko między sobą w&nbsp;niezniszczalnych pudełkach zamkniętych na te kłódki. Jesteśmy chronieni przed osobami, które byłyby w&nbsp;stanie zerkać do naszej przesyłki.
+
+W tej metodzie jest jednak pewna luka. Mianowicie: często przed pierwszym kontaktem mało wiemy o&nbsp;swoim adresacie.  
+Nie wiemy na przykład, jakiej będzie używał kłódki.
+
+Gdyby jakiś złoczyńca stanął na drodze korespondencji, to mógłby *przechwycić otwartą kłódkę* z&nbsp;drugiego kroku i&nbsp;wysłać nam zamiast niej swoją, kupioną na promce w&nbsp;markecie. A&nbsp;kiedy ufnie zaczęlibyśmy zamykać na nią pudła, to mógłby odczytywać kolejne wiadomości. Ma w&nbsp;końcu klucz do swojej kłódki.
+
+Żeby temu zaradzić, przydałby się sposób na weryfikację partnerów korespondencyjnych. Kiedy piszemy do firmy X&nbsp;i otrzymujemy od nich otwartą kłódkę, to chcemy mieć gwarancję: „tak, to oficjalna kłódka firmy X”. A&nbsp;nie cudza.
+
+W tym celu powstały **instytucje certyfikujące -- swego rodzaju niezależni producenci kłódek**. Świadczą dwa rodzaje usług:
+
+1. Właścicielom stron oferują na zamówienie kłódki z&nbsp;unikalnymi wzorami.
+
+   Na każdej ze swoich kłódek oznaczają w&nbsp;jakiś sposób, dla jakiej strony ją wykonali. Możemy sobie wyobrazić, że na przykład wytłaczają na metalu charakterystyczny wzorek. Praktycznie niemożliwy do podrobienia. Do tego co pewien czas zmieniają ten wzór, dzięki czemu ma on *termin ważności*.
+
+2. Zwykli użytkownicy mogą im wysyłać zdjęcie wzoru z&nbsp;kłódki; odpisują wtedy, dla kogo wykonali tę kłódkę.
+
+   {:.post-meta}
+   Obecnie często stosuje się nieco inną metodę. Ale to opiszę w&nbsp;kolejnym wpisie.
+
+Jak to nas chroni w&nbsp;praktyce? Załóżmy, że podszywacz przechwycił pierwszą otwartą kłódkę, od piszącej z&nbsp;nami strony, i wysłał nam zamiast tego swoją.  
+Ale pracownicy naszej poczty (czyli, przypominam, przeglądarka) robią zdjęcie unikalnego wzoru na kłódce i&nbsp;wysyłają do certyfikatora.
+
+„Napisaliśmy do stronki X, odesłali nam taką kłódkę. Czy to ich wzór?”.  
+A jeśli wzór na kłódce nie należy do tego adresata, do którego powinien, to w&nbsp;przeglądarce wyskoczy wielkie, groźne ostrzeżenie.
+
+<img src="/assets/posts/https/bad-certificate-error.jpg" alt="Zrzut ekranu pokazujący komunikat ostrzegający przed nieważnym certyfikatem i&nbsp;mówiący, że połączenie nie jest zaufane."/>
+
+{:.figcaption}
+Ostrzeżenie, że kłódka jest, ale nie taka, jaka być powinna.  
+Tutaj akurat [przykład kontrolowany](https://expired-ecc-dv.ssl.com/) z&nbsp;*ssl.com*. Brzmi groźnie, ale w&nbsp;praktyce przyczyna bywa prozaiczna. Nieprzedłużenie ważności w&nbsp;terminie.
+
+Załóżmy ponadto, że przed każdym wysłaniem otwartych kłódek firmy wypalają na nich nazwę konkretnego adresata, do jakiego je wysyłają.
+
+Nie jest zatem możliwe zdobycie certyfikowanych otwartych kłódek stronki X&nbsp;przez udawanie zainteresowanego klienta, a&nbsp;potem użycie ich do podszywania się pod nią.  
+Złodupiec może co najwyżej posługiwać się własną kłódką z&nbsp;bazaru, z&nbsp;całkiem innym wzorem. Chyba że przejąłby firmę X, a&nbsp;to mało realne.
+
+W ten sposób rozwiązujemy problem podglądaczy i&nbsp;podszywaczy po drodze. Dzięki nowej wiedzy wiemy też, że „włączenie HTTPS-a” w&nbsp;praktyce oznacza dla strony:
+
+* nawiązanie współpracy z&nbsp;jakąś firmą od kłódek i&nbsp;wyrobienie sobie własnej;
+* gotowość na szyfrowaną korespondencję z&nbsp;odwiedzającymi.  
+
+Może to być kwestią jednego kliknięcia, o&nbsp;ile podmiot zapewniający nam hosting idzie z&nbsp;duchem czasu. Dlatego, jeśli masz swoją stronę -- zwłaszcza wymagającą jakiegokolwiek logowania -- zachęcam do przejścia na HTTPS.
+
+## Kwestia metadanych
+
+HTTPS wspomagany przez certyfikaty wiele nam daje.  
+Osoby siedzące na drodze naszej korespondencji -- czy to dzieciaki bawiące się w&nbsp;hakerów, czy też firmy telekomunikacyjne -- nie odczytają szczegółów naszej korespondencji, wysyłanych haseł, treści czytanych przez nas stron.
+
+Ba! [Nie poznają nawet](https://stackoverflow.com/questions/187655/are-https-headers-encrypted) naszej podstawowej „wizytówki” omawianej przez wiele wpisów z&nbsp;serii „Internetowa inwigilacja”. Czyli *[nagłówków HTTP]({% post_url 2021-01-11-internetowa-inwigilacja-1-podstawy %})*{:.internal}.
+
+Niestety to nie wszystko. Istotnie, dzięki HTTPS-owi wróg nie pozna szczegółów takich jak pełen adres odwiedzanej strony, informacje o&nbsp;naszej przeglądarce, nasze pliki cookies pozwalające logować się na stronę.  
+Jest w&nbsp;stanie natomiast widzieć ogólną domenę, jaką odwiedzamy. Jeśli jest naszym operatorem telekomunikacyjnym -- to nazwy wszystkich domen, na przestrzeni wielu miesięcy i&nbsp;lat. Potencjalnie wrażliwe dane.
+
+W kolejnym wpisie zobaczymy, w&nbsp;jaki sposób można ukrywać również te informacje.

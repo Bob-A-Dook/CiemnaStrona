@@ -112,7 +112,7 @@ Zdobywamy punkty, kiedy uda nam się anonimowo uzyskać informacje. Tracimy je, 
 
 Nasza gra zawiera element losowy. Niektóre strony leżą na planszy grafiką do dołu. **Dopiero po ich odwiedzeniu zobaczymy, czy były bezpieczne, czy też szpiegowskie**. W&nbsp;prawdziwym internecie też zwykle jesteśmy pierwszymi, którzy wysyłają informacje. I&nbsp;możemy się naciąć.
 
-Na wypadek śledzenia możemy (i powinniśmy!) się zabezpieczać, dobierając sprzęt, sposób połączenia z&nbsp;internetem oraz dodatki do przeglądarki. Więcej o&nbsp;tym w&nbsp;dalszej części.
+Na wypadek śledzenia możemy (i&nbsp;powinniśmy!) się zabezpieczać, dobierając sprzęt, sposób połączenia z&nbsp;internetem oraz dodatki do przeglądarki. Więcej o&nbsp;tym w&nbsp;dalszej części.
 
 A tymczasem zapoznajmy się z&nbsp;potencjalnymi pułapkami -- informacjami, których AllSing może użyć przeciwko nam. Oraz sposobami, w&nbsp;jakie może je pozyskać.
 
