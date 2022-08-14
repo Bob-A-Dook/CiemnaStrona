@@ -124,11 +124,11 @@ Wróćmy do naszej przeciętnej szyfrowanej interakcji. W&nbsp;normalnym przypad
 
 1. Wysyłamy swojemu adresatowi -- dajmy na to pani Y&nbsp;-- zaproszenie do bezpiecznej korespondencji.
 2. W&nbsp;odpowiedzi otrzymujemy otwartą kłódkę.
-3. Wysyłamy dokładne informacje o&nbsp;tej kłódce do producenta, z&nbsp;pytaniem czy to na pewno kłódka pani Y.
+3. Wysyłamy dokładne informacje o&nbsp;tej kłódce do jej „producenta” (*instytucji certyfikującej*), z&nbsp;pytaniem czy to na pewno kłódka pani&nbsp;Y.
 4. Otrzymujemy (oby!) odpowiedź twierdzącą.
-5. Od tej pory korespondujemy z&nbsp;panią Y, wysyłając sobie pudełka zamknięte na kłódki.
+5. Od tej pory korespondujemy z&nbsp;panią&nbsp;Y, wysyłając sobie pudełka zamknięte na kłódki.
 
-Dawno nie było akronimów, więc rzucę paroma -- punkty 3&nbsp;i 4, czyli ogólnie komunikację z&nbsp;„producentem” w&nbsp;celu potwierdzenia wiarygodności kłódki, określamy skrótem *OCSP* (*Online Certificate Status Protocol*).
+Dawno nie było akronimów, więc rzucę paroma -- punkty 3&nbsp;i&nbsp;4, czyli ogólnie komunikację z&nbsp;„producentem” w&nbsp;celu potwierdzenia wiarygodności kłódki, określamy skrótem *OCSP* (*Online Certificate Status Protocol*).
 
 Z punktu widzenia prywatności ta wymiana jest problematyczna. Pytając, czy kłódka na pewno należy do jakiejś osoby, musimy tę osobę wskazać. „Czy to na pewno kłódka od *ciemnastrona.com.pl*?”. Wszystko to [na widoku albo łatwe do ustalenia](https://blog.seanmcelroy.com/2019/01/05/ocsp-web-activity-is-not-private/).
 
@@ -152,11 +152,12 @@ Wie, bo trzyma gdzieś u&nbsp;siebie **zamkniętą listę zaufanych podmiotów**
 
 {% include info.html
 type="Wątki poboczne"
-text="Słowa „zamknięta lista podmiotów” może budzić pewien niepokój, zwłaszcza jeśli znacie moje podejście do centralizacji i&nbsp;skupiania władzy w&nbsp;rękach nielicznych. Istotnie, zależność całego internetu od wąskiego grona „producentów kłódek” to sprawa ciekawa i&nbsp;do zbadania. Ale nie na ten wpis.  
+text="Słowa „zamknięta lista podmiotów” mogą budzić pewien niepokój, zwłaszcza jeśli znacie moje podejście do centralizacji i&nbsp;skupiania władzy w&nbsp;rękach nielicznych. Istotnie, zależność całego internetu od wąskiego grona „producentów kłódek” to sprawa ciekawa i&nbsp;do zbadania. Ale nie na ten wpis.  
 Jeśli chodzi o&nbsp;sprawę „presji” OCSP na serwery, to wyszła na tym tle ciekawa aferka z&nbsp;firmą Apple. Kiedyś przez ich przeciążenie wyszło na jaw, że każde uruchomienie dowolnego programu na Macu prowadziło do [wysłania informacji do Apple](https://www.howtogeek.com/701176/does-apple-track-every-mac-app-you-run-ocsp-explained/)."
 %}
 
-Dzięki tej zmianie -- przerzuceniu obowiązków na stronę nabywającą kłódki -- pozbywamy się konieczności pisania z&nbsp;ich producentem. Uszczelniamy pierwszą z&nbsp;interakcji ujawniających, jaką stronę odwiedzamy.  
+Dzięki tej zmianie -- przerzuceniu obowiązków na stronę nabywającą kłódki -- pozbywamy się konieczności pisania z&nbsp;ich producentem. Uszczelniamy pierwszą z&nbsp;interakcji ujawniających, jaką stronę odwiedzamy.
+
 Nowsze metody ochrony prywatności wymagają korzystania z&nbsp;metody **TLS w&nbsp;wersji co najmniej 1.3**. Brak kłopotliwych (dla prywatności) pytań o&nbsp;certyfikat mamy wtedy niejako w&nbsp;pakiecie.
 
 # Upychanie wielu osób pod jednym IP

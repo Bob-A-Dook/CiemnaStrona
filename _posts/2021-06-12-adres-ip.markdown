@@ -303,7 +303,10 @@ Subiektywna rada: jak duża by nie była pokusa i&nbsp;wygoda, **nie wierzcie VP
 
 ## Podsumowanie
 
-Wiemy teraz, jak łatwo i&nbsp;za darmoszkę ukrywać prawdziwy adres IP.
+Wiemy teraz, jak łatwo i&nbsp;za darmoszkę ukrywać prawdziwy adres IP. Może będziemy w&nbsp;stanie w&nbsp;końcu obejrzeć upragniony film.
+
+{:.figure .bigspace}
+<img src="/assets/posts/adres-ip/leon-zawodowiec.jpg" alt="Panel z mangi Kengan Ashura pokazujący z oddali postać siedzącą pod drzewem nad brzegiem klifu. W tle byłby widoczny zachód słońca, ale zamiast niego wstawiony jest kadr z filmu 'Leon Zawodowiec' pokazujący parę głównych bohaterów przy stole."/>
 
 Powoli kończymy też omawiać, jakie informacje wysyła domyślnie nasza przeglądarka. Jeśli śledziliście poprzednie wpisy, to widzicie że:
 
