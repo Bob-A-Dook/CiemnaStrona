@@ -147,7 +147,7 @@ Nie ma zatem łatwej opcji ich zablokowania albo przechwytywania przez czyhanie 
 Z tego względu DoH nie jest lubiany przez administratorów sieci, którzy chcieliby mieć oko na to, na jakie witryny zaglądamy.
 
 1. Zwykłą komunikację z&nbsp;DNS-em by odczytali.
-2. DoT-a by nam po prostu zablokowali, żebyśmy musieli wrócić do punktu 1.
+2. DoT-a by nam po prostu zablokowali, żebyśmy musieli wrócić do punktu&nbsp;1.
 3. A&nbsp;w obliczu DoH-a musieliby się namęczyć.
 
 Różne stronki, zwykle piszące z&nbsp;punktu widzenia firmowych działów bezpieczeństwa, przedstawiają właściwości DoH-a jako wadę. Mnie tam los adminów ani ziębi, ani grzeje, więc nie podzielam obaw. Im mniej ktoś ma nade mną kontroli, tym lepiej :wink:
@@ -251,8 +251,8 @@ Kliknijcie w&nbsp;interesujące Was szczegóły, żeby je rozwinąć.
 <div class="black-bg mono">
 about:preferences
 </div>
-<p>A jeśli wolimy klikać, to ikona trzech kresek w&nbsp;górnym prawym rogu i&nbsp;<code class="language-plaintext highlighter-rouge">Preferencje</code>.</p>
-<p>Kiedy już otworzymy opcje, zjeżdżamy na dół, znajdując tam zakładkę <em>Sieć</em>. Klikamy przycisk <code class="language-plaintext highlighter-rouge">Ustawienia</code>.</p>
+<p>A jeśli wolimy klikać, to ikona trzech kresek w&nbsp;górnym prawym rogu i&nbsp;<code class="language-plaintext highlighter-rouge">Ustawienia</code>.</p>
+<p>Kiedy już otworzymy opcje, zjeżdżamy na dół, znajdując tam zakładkę <em>Sieć</em>. Klikamy przycisk <code class="language-plaintext highlighter-rouge">Ustawienia...</code> obok niej.</p>
 <p>Na dole możemy zaznaczyć opcję <em>DNS poprzez HTTPS</em> i&nbsp;wybrać dostawcę. Domyślnie jest Cloudflare, ale możemy tam również wkleić znany adres IP własnego DNS-a.</p>
 <p><img src="/assets/posts/dns/firefox-doh.jpg" alt="Zrzuty ekranu pokazujące włączanie krok po kroku DNS-over-HTTPS na Firefoksie"></p>
 </details>
@@ -267,15 +267,15 @@ brave://settings/security
 <p>Można tam włączyć opcję <em>Użyj bezpiecznego serwera DNS</em> i&nbsp;wybrać jednego z&nbsp;dostępnych dostawców (Cloudflare, OpenDNS, Quad9…). Od razu po włączeniu proponuję przejść się po paru stronach i&nbsp;upewnić, czy wszystko działa.</p>
 </details>
 
-Ogólna uwaga: jeśli chodzi o&nbsp;grzebanie w&nbsp;ustawieniach, jestem fanem podejścia lekarskiego "Po pierwsze -- nie szkodzić". Dlatego zapamiętajmy sobie, co zmieniamy, żeby w&nbsp;razie potrzeby móc to potem odkręcić :wink:
+Ogólna uwaga: jeśli chodzi o&nbsp;grzebanie w&nbsp;ustawieniach, jestem fanem podejścia lekarskiego. „Po pierwsze -- nie szkodzić”. Dlatego zapamiętajmy sobie, co zmieniamy, żeby w&nbsp;razie potrzeby móc to potem odkręcić :wink:
 
 # Włączanie ECH i&nbsp;kontrola prywatności
 
-Kiedy mamy już DNS-a, pora włączyć bonusowe opcje również we własnej przeglądarce. **Pokazuję to tylko dla Firefoksa**, inne chyba jeszcze nie wspierają ECH. Być może zadziała też na opartych na nim przeglądarkach.
+Kiedy mamy już DNS-a przez DoH lub DoT, do pełnego zaszyfrowania pozostaje jeden krok. **Pokażę go to tylko dla Firefoksa**, inne chyba jeszcze nie wspierają ECH. Być może zadziała też na opartych na nim przeglądarkach.
 
 <details class="bigspace">
 <summary><strong>Firefox na komputerze</strong></summary>
-<p>Wpisujemy w&nbsp;pasku górnym <code class="language-plaintext highlighter-rouge">about:config</code>, potwierdzamy że akceptujemy ryzyko. W&nbsp;pasku wyszukiwania zaczynami wpisywać <em>echc</em>, a&nbsp;powinna wyskoczyć nam opcja <code class="language-plaintext highlighter-rouge">network.dns.echconfig.enabled</code>. Klikamy po prawej stronie, żeby zmieniła wartość na <em>true</em>.</p>
+<p>Wpisujemy w&nbsp;pasku górnym <code class="language-plaintext highlighter-rouge">about:config</code>, potwierdzamy że akceptujemy ryzyko. W&nbsp;pasku wyszukiwania zaczynamy wpisywać <em>echc</em>, a&nbsp;powinna wyskoczyć nam opcja <code class="language-plaintext highlighter-rouge">network.dns.echconfig.enabled</code>. Klikamy po prawej stronie, żeby zmieniła wartość na <em>true</em>.</p>
 <p>Opcja pod nią jest bardzo praktyczna, bowiem sprawia, że w&nbsp;razie niepowodzenia komunikacji przez ECH Firefox wróci do metody klasycznej. W&nbsp;obecnych czasach, gdy ECH raczkuje, takie zdarzenie może być częste.</p>
 <p>Jest tam również opcja dotycząca HTTP3. póki co jej nie ruszałem.</p>
 <p><img src="/assets/posts/dns/firefox-ech-config.jpg" alt="Zrzuty ekranu pokazujące krok po kroku, jakie opcje pozwalają włączyć Encrypted Client Hello na Firefoksie."></p>
@@ -294,7 +294,7 @@ Patrząc po [wątku na forum](https://community.cloudflare.com/t/ech-replacing-e
 {:.figcaption}
 Pierwsza pozycja to DoT/DoH, DNSSEC jest poza tematem tego wpisu, potem prywatniejsza wersja TLS, na końcu ESNI.
 
-Po włączeniu zestawu DoH + ECH powinniśmy spełniać wszystkie warunki wypisane wcześniej w&nbsp;tym wpisie. Na wybranych stronach (głównie od Cloudflare; ale hostują ich sporo) zyskujemy prywatność domyślną, bez konieczności używania VPN-a.
+Po włączeniu zestawu DoH + ECH powinniśmy spełniać wszystkie warunki wypisane wcześniej w&nbsp;tym wpisie. Na wybranych stronach (głównie od Cloudflare; ale hostują ich sporo) zyskujemy ochronę przed wzrokiem podglądaczy, bez konieczności używania VPN-a.
 
 Tym niemniej, jeśli nas to nie przekonuje i&nbsp;sami nie wiemy komu ufać... zawsze możemy dmuchać na zimne i&nbsp;szukać wrażliwych (ale legalnych!) rzeczy anonimowo, przez publiczny komputer, bez logowania na żadne konto. W&nbsp;bibliotece albo podobnym miejscu.
 
@@ -303,11 +303,11 @@ Tym niemniej, jeśli nas to nie przekonuje i&nbsp;sami nie wiemy komu ufać... z
 {:.post-meta .bigspace-after}
 Oczywiście tylko do tych, którzy próbują prowadzić legalne/etyczne stronki w&nbsp;odległych i&nbsp;niesprecyzowanych krajach autorytarnych :wink:
 
-Jeśli macie smykałkę techniczną, może wczytać się w&nbsp;temat i&nbsp;sprawdzić, czy platforma zapewniająca hosting Waszej stronce wspiera ESNI/ECH. Albo, jeśli hostujecie stronę całkiem sami i&nbsp;jesteście hardkorami, skonfigurować to samodzielnie. Bylibyście pionierami.
+Jeśli macie smykałkę techniczną, możecie wczytać się w&nbsp;temat i&nbsp;sprawdzić, czy platforma zapewniająca hosting Waszej stronce wspiera ESNI/ECH. Albo, jeśli hostujecie stronę całkiem sami i&nbsp;jesteście hardkorami, skonfigurować to samodzielnie. Bylibyście pionierami.
 
-Natomiast jeśli nie macie takiej możliwości -- albo uważacie, że ESNI i&nbsp;inne bajery nie pomogą Waszym gościom, bo na przykład i&nbsp;tak wpadną przez domyślnego DNS-a -- możecie nieco ich ochronić w&nbsp;inny sposób. Zapewniając im wiarygodną wymówkę na wypadek, gdyby ich telekom sobie zapisał, jakie domeny odwiedzili.
+Natomiast jeśli nie macie takiej możliwości -- albo uważacie, że ESNI i&nbsp;inne bajery nie pomogą Waszym gościom, bo na przykład i&nbsp;tak wpadną przez domyślnego DNS-a -- możecie nieco ich ochronić w&nbsp;inny sposób. Zapewniając im wiarygodną wymówkę na wypadek, gdyby ich telekom sobie zapisywał, jakie domeny odwiedzili.
 
-Skoro firma telekomunikacyjna widzi tylko sam *trzon*, nazwę domeny... to możeby tak sprawić, żeby nazwa nie przyciągała uwagi? Nie dawać czegoś takiego:
+Skoro firma telekomunikacyjna widzi tylko sam *trzon*, nazwę domeny... to może by tak sprawić, żeby nazwa nie przyciągała uwagi? Nie dawać czegoś takiego:
 
 {:.bigspace}
 <div class="black-bg mono">https://zla-strona.pl</div>
@@ -320,9 +320,9 @@ Skoro firma telekomunikacyjna widzi tylko sam *trzon*, nazwę domeny... to może
 {:.figcaption}
 Pamiętajmy, że podglądacze nie zobaczą tego, co na czerwono.
 
-Do tego można wrzucić na stronę trochę całkowicie niewinnych treści (dbając o&nbsp;to, żeby rozmiar tych podstron oraz liczba osadzonych w&nbsp;nich elementów pokrywały się z&nbsp;grzecznymi; to przez aspekt analizy ruchu).
+Do tego można wrzucić trochę całkowicie niewinnych podstronek (dbając o&nbsp;to, żeby rozmiar tych podstron oraz liczba osadzonych w&nbsp;nich elementów pokrywały się z&nbsp;grzecznymi; to przez aspekt analizy ruchu).
 
-W ten sposób nawet gdyby ktoś zanotował, że użytkownicy odwiedzili Waszą legalną/etyczną domenę, to nie będzie miał dowodów, że było przeglądane coś, co by mu się nie spodobało.
+W ten sposób nawet gdyby jakiś dyktator zanotował, że użytkownicy odwiedzili Waszą legalną/etyczną domenę, to nie będzie miał dowodów, że było przeglądane coś, co by mu się nie spodobało.
 
 A jeśli Wasza strona już ma kontrowersyjną reputację i&nbsp;taki dupochron to za mało?
 W takim wypadku możecie skopiować swoje treści i&nbsp;wrzucić je na jakąś wielką platformę spoza czarnej listy autokratów.  
