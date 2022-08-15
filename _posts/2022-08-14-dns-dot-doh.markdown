@@ -26,7 +26,7 @@ Zapraszam do lektury!
 
 {:.post-meta .bigspace-before}
 Wpis skupia się na roli DNS-a w&nbsp;większej prywatnościowej układance i&nbsp;omawia go pobieżnie. Parę ciekawych technikaliów przesunę do osobnego wpisu, o&nbsp;zastosowaniach cenzorskich.  
-Poza tym nie zajmują się cyberbezpieczeństwem, nie wierzcie mi na ślepo.
+Poza tym nie zajmuję się zawodowo cyberbezpieczeństwem, nie wierzcie mi na ślepo.
 
 # Spis treści
 
@@ -58,7 +58,7 @@ Ale nie dla całego światowego internetu. Takie coś zajmowałoby bardzo dużo 
 Zatem nie na naszym urządzeniu. To gdzie?  
 Odpowiedź: w&nbsp;pewnym wybranym miejscu w&nbsp;internecie, na tak zwanych **serwerach DNS** (skrót od *Domain Name System*). To tam znajdują się **informacje o&nbsp;tym, jaki adres IP odpowiada danej nazwie strony**.
 
-Trzymając się analogii pocztowej: DNS jest trochę jak podwykonawca dogadany z&nbsp;pocztą. Trzyma u&nbsp;siebie aktualne książki telefoniczne, w&nbsp;których sprawdza na życzenie adresy użytkowników.
+Trzymając się analogii pocztowej: DNS jest trochę jak podwykonawca dogadany z&nbsp;pocztą. Trzyma u&nbsp;siebie aktualne książki telefoniczne, w&nbsp;których sprawdza na życzenie adresy użytkowników. A&nbsp;także, opcjonalnie, przechowuje niektóre ich rzeczy.
 
 Kiedy w&nbsp;okienku naszej „poczty” prosimy o&nbsp;wysłanie komuś listu (podając tylko jego nazwę), to pracownicy piszą za kulisami do tego człowieka od adresów:  
 „Hej, klient chce wysłać prośbę o&nbsp;stronę do *ciemnastrona.com.pl*. Pod jakim to adresem?”.  
@@ -74,10 +74,13 @@ Pełen adres strony, którą chcemy odwiedzić; DNS jest pytany jedynie o&nbsp;n
 
 Ale problemem jest to, że ten list domyślnie nie jest w&nbsp;żaden sposób szyfrowany. **Korespondencja z&nbsp;DNS-em jest widoczna dla postronnych**.
 
-{:.bigspace}
+{:.bigspace-before}
 <img src="/assets/posts/dns/dns-brak-szyfrowania.jpg" alt="Schemat pokazujący komunikację z&nbsp;DNS-em złożony z&nbsp;dwóch linijek, z&nbsp;których każda odpowiada jednemu etapowi komunikacji. Po lewej stronie w&nbsp;obu przypadkach widać ikonę laptopa, po prawej serwera podpisanego DNS, między nimi strzałkę wskazującą kierunek komunikacji."/>
 
-Jeśli czytaliście poprzedni wpis, to być może wiecie, ile trzeba było zachodu, żeby ukryć adres domeny w&nbsp;innym miejscu, na przesyłkach wysyłanych naszemu zamierzonemu adresatowi.  
+{:.figcaption}
+Źródło ikon: Flaticon ([laptop](https://www.flaticon.com/free-icons/computer), [serwer](https://www.flaticon.com/free-icons/server), [strzałka](https://www.flaticon.com/free-icons/down-arrow)), ikony Linuksa, Wikimedia Commons. Aranżacja moja.
+
+Jeśli czytaliście poprzedni wpis, to być może wiecie, ile trzeba było zachodu, żeby ukryć adres domeny widoczny na przesyłkach wysyłanych bezpośrednio do adresata.  
 A teraz widzimy, że wszystkie te działania byłyby na nic, gdybyśmy nic nie zrobili z&nbsp;DNS-em -- ujawnialibyśmy dokładnie to samo, tyle że na wcześniejszym etapie. Trzeba załatać tę lukę.
 
 ## Po pierwsze: zaufany DNS
@@ -100,13 +103,13 @@ Zarówno sensowne VPN-y, jak i&nbsp;przeglądarka [Tor Browser](https://www.redd
 
 OK, wybraliśmy zaufanego DNS-a. Ale nie chcemy się z&nbsp;nim komunikować na widoku publicznym. Pogłówkujmy.
 
-* większość zwykłej „korespondencji” między nami a&nbsp;innymi stronami jest szyfrowana; przesyłana w&nbsp;zamkniętych na kłódki, pancernych skrzynkach. Daje nam to prywatność względem podsłuchiwaczy.
+* Większość zwykłej „korespondencji” między nami a&nbsp;innymi stronami jest szyfrowana; przesyłana w&nbsp;zamkniętych na kłódki, pancernych skrzynkach. Daje nam to prywatność względem podsłuchiwaczy.
 * Ta między nami a&nbsp;DNS-em nie jest. Może zostać podsłuchana.
 
 No to może... korespondencję z&nbsp;DNS-em również spróbujmy zaszyfrować?  
 Bingo! W&nbsp;tym właśnie celu powstały metody szyfrowania komunikacji z&nbsp;DNS-em: *DNS-over-TLS* oraz *DNS-over-HTTPS*. W&nbsp;skrócie DoT i&nbsp;DoH.
 
-Zaraz przejdziemy do różnic między nimi. Ale wierzcie mi, są bardzo podobne. Zresztą *TLS* to taki fundament *HTTPS*. Polegają dokładnie na tym, na czym polegała opisana wcześniej szyfrowana komunikacja ze stronkami.
+Zaraz przejdziemy do różnic między nimi. Ale wierzcie mi, są bardzo podobne. Zresztą *TLS* to taki fundament *HTTPS*. Polegają dokładnie na tym, na czym polegała opisana dwa wpisy temu szyfrowana komunikacja ze stronkami.
 
 Najpierw wysyłamy DNS-owi prośbę o&nbsp;szyfrowany kontakt. Jeśli ten wspiera taką opcję, to odsyła nam otwartą kłódkę (*klucz publiczny*) z&nbsp;niepodrabialnym hologramem (*certyfikatem*). Odsyłamy mu swoją i&nbsp;od tej pory przesyłamy wiadomości w&nbsp;zamkniętych skrzynkach (*zaszyfrowane*).
 
@@ -139,7 +142,7 @@ Etymologia to fajna sprawa :smile:"
 
 Wiemy już, czym DoH i&nbsp;DoT się różnią -- „wychodzą różnymi drzwiami”. Co to oznacza w&nbsp;praktyce?
 
-DoT ma osobny port, więc się wyróżnia; gdyby ktoś mający kontrolę nad naszą pocztą chciał zablokować tę formę komunikacji, mógłby po prostu zapieczętować drzwi numer 853. Byłoby to łatwe i&nbsp;raczej pozbawione efektów ubocznych.
+DoT ma osobny port, więc się wyróżnia; gdyby ktoś chciał nam zablokować tę formę komunikacji, mógłby po prostu zapieczętować drzwi numer 853. Byłoby to łatwe i&nbsp;raczej pozbawione efektów ubocznych.
 
 W przypadku DoH-a jest inaczej; szyfrowane listy do DNS-a wychodzą tymi samymi „drzwiami” co nasza najbardziej typowa korespondencja.  
 Nie ma zatem łatwej opcji ich zablokowania albo przechwytywania przez czyhanie przy konkretnych drzwiach.
@@ -154,7 +157,7 @@ Różne stronki, zwykle piszące z&nbsp;punktu widzenia firmowych działów bezp
 
 Jako użytkownik bardziej obawiam się wykorzystania tej właściwości do obejścia blokad antyreklamowych.  
 Bo widzicie... istnieją skuteczne, choć nieco bardziej wymagające, metody blokowania reklam przez DNS. Takie jak [PiHole](https://www.reddit.com/r/pihole/comments/7qbg57/what_are_the_benefits_of_using_pihole_instead_of/).  
-Ich działanie opiera się właśnie na przechwytywaniu i&nbsp;olewaniu próśb wysyłanych pod adresy z&nbsp;czarnej listy. Mogą działać na poziomie całej domowej sieci, więc również chronić np. przed reklamami pobieranymi przez *Smart TV*.
+Ich działanie opiera się właśnie na przechwytywaniu i&nbsp;olewaniu próśb wysyłanych pod adresy z&nbsp;czarnej listy. Mogą działać na poziomie całej domowej sieci, chroniąc nas np. przed reklamami pobieranymi przez *Smart TV*.
 
 Jeśli aplikacje mają możliwość komunikacji przez DoH i&nbsp;DoT, to mogą to wykorzystać, żeby ukryć przed naszym PiHole'em, że właśnie proszą nielubianą przez nas stronkę o&nbsp;zaserwowanie nam reklam.
 
@@ -164,15 +167,19 @@ Mój przykład nie jest zresztą teorią i&nbsp;już znaleziono w&nbsp;naturalny
 
 ## Ostatni element układanki
 
-To dla tych, którzy czytali dwa poprzednie wpisy. Połączymy teraz DoH ze wspomnianym wcześniej ESNI/ECH oraz HTTPS-em. I&nbsp;otrzymamy prywatność.
+To dla tych, którzy czytali dwa poprzednie wpisy. DNS jest bowiem nie tylko luką do załatania, miejscem ujawnienia informacji. Jest również niezbędnym krokiem do zaszyfrowania metadanych (przez ESNI/ECH).
 
-Jak wspominałem, działa tu zasada „wszystko albo nic”. Nasza interakcja musi spełniać szereg warunków, żebyśmy byli skutecznie chronieni przed wzrokiem telekomów.
+To z&nbsp;niego możemy odebrać „kłódkę” potrzebną do zamknięcia skrzynki z&nbsp;metadanymi. W&nbsp;końcu, poza samymi informacjami o adresach, może zawierać dowolne inne rzeczy. No i&nbsp;tak czy siak się z&nbsp;nim kontaktujemy, nim odwiedzimy nową stronkę.
 
-1. mamy zaufanego DNS-a poza kontrolą firmy telekomunikacyjnej,
-2. łączymy się z&nbsp;nim w&nbsp;sposób szyfrowany (DoH/DoT),
-3. pozyskujemy z&nbsp;niego kłódkę do zamknięcia metadanych metodą ESNI/ECH,
-4. piszemy na adres IP, pod którym znajduje się wiele różnych stronek.  
-   Dane wskazujące konkretną zamykamy na wspomnianą kłódkę.
+Połączymy teraz DoT/DoH ze wspomnianymi wcześniej ESNI/ECH oraz HTTPS-em. I&nbsp;otrzymamy prywatność.
+
+Działa tu zasada „wszystko albo nic”. Nasza interakcja musi spełniać szereg warunków, żebyśmy byli skutecznie chronieni przed wzrokiem telekomów.
+
+1. Mamy zaufanego DNS-a poza kontrolą firmy telekomunikacyjnej.
+2. Łączymy się z&nbsp;nim w&nbsp;sposób szyfrowany (DoH/DoT).
+3. Pozyskujemy z&nbsp;niego kłódkę do zamknięcia metadanych metodą ESNI/ECH.
+4. Piszemy na adres IP, pod którym znajduje się wiele różnych stronek.  
+   Dane wskazujące konkretną spośród&nbsp;nich zamykamy na wspomnianą kłódkę.
 5. Serwer, z&nbsp;którym piszemy, musi wspierać ESNI/ECH. Odczytuje zaszyfrowany adres i&nbsp;przekazuje adresatowi naszą przesyłkę.
 6. Nasz adresat musi wspierać HTTPS, żeby komunikacja z&nbsp;nim była szyfrowana (ale w&nbsp;obecnych czasach to norma).
    
@@ -225,7 +232,8 @@ DNS, z&nbsp;jakiego korzysta nasze urządzenie, może być ustawiany na kilku po
 
 * Proponowany przez hotspota.
 
-  Domyślny. Kiedy się łączymy z&nbsp;jakimś hotspotem, to zwykle proponuje nam ustawionego u&nbsp;siebie DNS-a. Na przykład jeden hotspot na dworcu potrafi domyślnie używać DNS-a od Google, inny od Cloudflare'a itp.
+  Domyślny. Kiedy się łączymy z&nbsp;jakimś hotspotem, to zwykle proponuje nam ustawionego u&nbsp;siebie DNS-a. Na przykład jeden hotspot na dworcu potrafi domyślnie używać DNS-a od Google, inny od Cloudflare'a itp.  
+Zarówno na Windowsie, jak i&nbsp;na Linuksie możemy go sprawdzić, klikając ikonę połączenia internetowego na dolnym pasku i&nbsp;wybierając opcję w stylu `Informacje o połączeniu`.
 
 * Na poziomie systemu.
 
@@ -277,7 +285,7 @@ Kiedy mamy już DNS-a przez DoH lub DoT, do pełnego zaszyfrowania pozostaje jed
 <summary><strong>Firefox na komputerze</strong></summary>
 <p>Wpisujemy w&nbsp;pasku górnym <code class="language-plaintext highlighter-rouge">about:config</code>, potwierdzamy że akceptujemy ryzyko. W&nbsp;pasku wyszukiwania zaczynamy wpisywać <em>echc</em>, a&nbsp;powinna wyskoczyć nam opcja <code class="language-plaintext highlighter-rouge">network.dns.echconfig.enabled</code>. Klikamy po prawej stronie, żeby zmieniła wartość na <em>true</em>.</p>
 <p>Opcja pod nią jest bardzo praktyczna, bowiem sprawia, że w&nbsp;razie niepowodzenia komunikacji przez ECH Firefox wróci do metody klasycznej. W&nbsp;obecnych czasach, gdy ECH raczkuje, takie zdarzenie może być częste.</p>
-<p>Jest tam również opcja dotycząca HTTP3. póki co jej nie ruszałem.</p>
+<p>Jest tam również opcja dotycząca HTTP3. Póki co jej nie ruszałem.</p>
 <p><img src="/assets/posts/dns/firefox-ech-config.jpg" alt="Zrzuty ekranu pokazujące krok po kroku, jakie opcje pozwalają włączyć Encrypted Client Hello na Firefoksie."></p>
 </details>
 

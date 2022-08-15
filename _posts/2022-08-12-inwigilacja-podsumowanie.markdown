@@ -434,7 +434,7 @@ Im dłużej będziemy korzystali z&nbsp;fejkowego konta, tym większe ryzyko, ż
 
 I tak dalej, i&nbsp;tak dalej; być może żadna z&nbsp;tych cech nie ujawnia nas jednoznacznie, ale ich połączenie jest w&nbsp;stanie to zrobić. Analiza behawioralna to potęga. Zresztą sam mam małą serię pokazującą, jakie cechy [można łatwo odczytać]({% post_url 2021-05-14-messenger-analiza %}){:.internal} z&nbsp;historii wiadomości z&nbsp;Facebooka.
 
-Wniosek? Omijajmy to miejsce, kiedy tylko się da. Niestety, żeby nie było za łatwo, gra będzie co pewien czas wymagała odwiedzin. W&nbsp;końcu to tu przeniosło się życie.
+Wniosek? Omijajmy to miejsce, kiedy tylko się da. Niestety, żeby nie było za łatwo, gra będzie co pewien czas wymagała odwiedzenia AllSinga. W&nbsp;końcu to tu przeniosło się życie.
 
 Kolejna sprawa -- może nas najść ochota, żeby skopiować stąd jakiś link i&nbsp;wrzucić na forum publiczne przeciwników AllSinga. Uważajmy! **Do linków mogą dodawać parametry identyfikujące użytkownika. Nieczytelne dla postronnych, ale czytelne dla AllSinga**.
 
