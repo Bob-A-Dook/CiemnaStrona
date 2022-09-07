@@ -8,7 +8,11 @@ tags: [Centralizacja, Internet, Inwigilacja, Manipulacja]
 firmy: [Google]
 category: google
 category_readable: "Google – kolorowy czarny charakter"
-image: "google-wstep/google-android-chrome-kolaz.jpg"
+image: 
+   path: /assets/posts/google-wstep/google-android-chrome-kolaz.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 700
 ---

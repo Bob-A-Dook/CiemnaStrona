@@ -8,7 +8,11 @@ tags: [Hardware, Centralizacja, DRM]
 firmy: [Intel]
 category: cyfrowy_feudalizm
 category_readable: "Cyfrowy&nbsp;feudalizm"
-image: "intel-management-engine/intel-management-engine-hellsing.jpg"
+image: 
+   path: /assets/posts/intel-management-engine/intel-management-engine-hellsing.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 670
 ---

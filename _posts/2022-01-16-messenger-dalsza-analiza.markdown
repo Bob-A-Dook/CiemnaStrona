@@ -8,7 +8,11 @@ tags: [Porady, Internet, Analiza danych]
 firmy: [Facebook]
 category: facebook_dane
 category_readable: "Kochajmy się jak bracia, analizujmy się jak Facebooki"
-image: "messenger2/messenger-bledy-ortograficzne-baner.jpg"
+image: 
+   path: /assets/posts/messenger2/messenger-bledy-ortograficzne-baner.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 700
 ---

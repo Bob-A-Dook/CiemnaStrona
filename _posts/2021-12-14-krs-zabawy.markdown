@@ -8,7 +8,11 @@ tags: [Analiza danych]
 firmy: [Branża modowa, CD Projekt, Uczelnie, Polskie media]
 category: krs-msig
 category_readable: "Myszkowanie w Monitorze i kopanie w KRS-ie"
-image: "krs-zabawy/they-live-baner.jpg"
+image: 
+   path: /assets/posts/krs-zabawy/they-live-baner.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 1200
 ---

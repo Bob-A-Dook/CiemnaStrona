@@ -8,7 +8,11 @@ tags: [Internet, Inwigilacja]
 firmy: [Facebook, Google, Twitter]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
-image: "third-party-cookies/facebucks-large.jpg"
+image: 
+   path: /assets/posts/third-party-cookies/facebucks-large.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 700
 ---

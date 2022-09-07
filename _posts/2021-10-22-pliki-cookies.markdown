@@ -7,7 +7,11 @@ tags: [Internet, Inwigilacja, Podstawy, Porady]
 firmy: [Amazon, Facebook, Google]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
-image: "pliki-cookie/straznik-polaczone.jpg"
+image: 
+   path: /assets/posts/pliki-cookie/straznik-polaczone.jpg
+   width: 1200
+   height: 700
+
 image-width: 1023
 image-height: 520
 ---

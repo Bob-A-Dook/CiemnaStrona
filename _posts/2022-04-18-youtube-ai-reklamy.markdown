@@ -8,7 +8,11 @@ tags: [AI, Centralizacja, Internet, Manipulacja]
 firmy: [Google, YouTube]
 category: google
 category_readable: "Google – kolorowy czarny charakter"
-image: "youtube2/google-boty.jpg"
+image: 
+   path: /assets/posts/youtube2/google-boty.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 700
 ---

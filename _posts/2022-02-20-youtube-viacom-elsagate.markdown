@@ -8,7 +8,11 @@ tags: [Afera, Centralizacja, Internet, Manipulacja]
 firmy: [Disney, Google, YouTube]
 category: google
 category_readable: "Google – kolorowy czarny charakter"
-image: "youtube/youtube-baner.jpg"
+image: 
+   path: /assets/posts/youtube/youtube-baner.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 700
 ---

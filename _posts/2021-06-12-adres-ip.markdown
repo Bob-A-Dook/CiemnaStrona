@@ -7,7 +7,11 @@ tags: [Internet, Inwigilacja, Porady]
 firmy: [Netflix]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
-image: "adres-ip/adres-ip-baner.jpg"
+image: 
+   path: /assets/posts/adres-ip/adres-ip-baner.jpg
+   width: 1200
+   height: 700
+
 image-width: 765
 image-height: 556
 ---

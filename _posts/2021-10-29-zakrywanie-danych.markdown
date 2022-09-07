@@ -4,7 +4,11 @@ title: "Jak nie zakrywać poufnych informacji"
 subtitle: "Uczymy się na (cudzych) błędach."
 date:   2021-10-29 01:35:00 +0100
 tags: [Podstawy, Porady]
-image: "zakrywanie-danych/zakryty-tekst.jpg"
+image: 
+   path: /assets/posts/zakrywanie-danych/zakryty-tekst.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 700
 ---

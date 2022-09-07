@@ -8,7 +8,11 @@ tags: [Analiza danych, Porady]
 firmy: [Facebook]
 category: facebook_dane
 category_readable: "Kochajmy się jak bracia, analizujmy się jak Facebooki"
-image: "messenger-analiza/statystyki-baner.jpg"
+image: 
+   path: /assets/posts/messenger-analiza/statystyki-baner.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 889
 ---

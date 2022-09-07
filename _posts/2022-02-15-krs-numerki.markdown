@@ -7,7 +7,11 @@ date:   2022-02-15 01:23:00 +0100
 tags: [Analiza danych, KRS, Polskie firmy]
 category: krs-msig
 category_readable: "Myszkowanie w Monitorze i kopanie w KRS-ie"
-image: "krs-numerki/powiazania-oryginalne-nazwy.jpg"  
+image: 
+   path: /assets/posts/krs-numerki/powiazania-oryginalne-nazwy.jpg
+   width: 1200
+   height: 700
+  
 image-width: 1200  
 image-height: 700
 ---

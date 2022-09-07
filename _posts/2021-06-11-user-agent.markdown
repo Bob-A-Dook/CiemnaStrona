@@ -7,7 +7,11 @@ tags: [Internet, Inwigilacja, Porady]
 firmy: [Facebook, Google, Microsoft, Reddit]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
-image: "user-agent/user-agent-baner.jpg"
+image: 
+   path: /assets/posts/user-agent/user-agent-baner.jpg
+   width: 1200
+   height: 700
+
 image-width: 1600
 image-height: 900
 ---

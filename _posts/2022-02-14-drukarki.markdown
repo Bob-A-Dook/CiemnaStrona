@@ -8,7 +8,11 @@ tags: [Hardware, Centralizacja, Inwigilacja]
 firmy: [Hewlett-Packard, Canon, Xerox]
 category: cyfrowy_feudalizm
 category_readable: "Cyfrowy&nbsp;feudalizm"
-image: "drukarki/drukarka-baner.jpg"  
+image: 
+   path: /assets/posts/drukarki/drukarka-baner.jpg
+   width: 1200
+   height: 700
+  
 image-width: 1200  
 image-height: 670
 ---

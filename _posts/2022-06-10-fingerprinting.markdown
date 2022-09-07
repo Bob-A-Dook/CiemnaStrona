@@ -8,7 +8,11 @@ tags: [Internet, Inwigilacja, Porady]
 firmy: [Facebook, Google, Reddit]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
-image: "javascript-tracking/js-fingerprint-baner.jpg"
+image: 
+   path: /assets/posts/javascript-tracking/js-fingerprint-baner.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 700
 ---

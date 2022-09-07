@@ -6,7 +6,11 @@ description: "Jak pomóc bankowi pilnować naszych skarbów."
 date:   2021-08-02 14:50:00 +0100
 tags: [Bankowość, Centralizacja, Podstawy, Porady]
 firmy: [Amazon, Google]
-image: "bank-ochrona/bank-sejf.jpg"
+image: 
+   path: /assets/posts/bank-ochrona/bank-sejf.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 749
 ---

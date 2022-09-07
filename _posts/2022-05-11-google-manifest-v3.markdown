@@ -8,7 +8,11 @@ tags: [Centralizacja, Internet, Manipulacja]
 firmy: [Apple, Google, Microsoft, Mozilla]
 category: google
 category_readable: "Google – kolorowy czarny charakter"
-image: "manifest/dodatki-egzekucja.jpg"
+image: 
+   path: /assets/posts/manifest/dodatki-egzekucja.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 700
 ---

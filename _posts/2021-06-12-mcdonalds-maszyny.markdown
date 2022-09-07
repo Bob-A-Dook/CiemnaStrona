@@ -7,7 +7,11 @@ tags: [Afera, Centralizacja, DRM]
 firmy: [McDonald's]
 category: cyfrowy_feudalizm
 category_readable: "Cyfrowy&nbsp;feudalizm"
-image: "mcdonald-lody/mcdonald-baner.jpg"
+image: 
+   path: /assets/posts/mcdonald-lody/mcdonald-baner.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 782
 ---

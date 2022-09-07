@@ -6,7 +6,11 @@ description: "Gdy Facebook i Twitter nie pomogą, musimy radzić sobie sami"
 date:   2022-04-15 15:10:00 +0100
 tags: [Centralizacja, Manipulacja, Porady, Ukraina]
 firmy: [Facebook, Google, Mozilla, Twitter]
-image: "trolle/demon-slayer-trolle-baner.jpg"
+image: 
+   path: /assets/posts/trolle/demon-slayer-trolle-baner.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 700
 ---

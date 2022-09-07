@@ -5,7 +5,11 @@ description: "Nowi celebryci, nowe reklamy. Nowe głosy poszkodowanych."
 subtitle: "Nowi celebryci, nowe reklamy. Nowe głosy poszkodowanych."
 date:   2021-07-16 19:47:00 +0100
 tags: [UseCrypt, Media, Manipulacja]
-image: "usecrypt-dwa/usecrypt-wojak.jpg"
+image: 
+   path: /assets/posts/usecrypt-dwa/usecrypt-wojak.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 800
 ---

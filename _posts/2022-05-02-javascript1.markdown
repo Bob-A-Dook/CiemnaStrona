@@ -7,7 +7,11 @@ date:   2022-05-02 16:45:00 +0100
 tags: [Internet, Inwigilacja, Podstawy]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
-image: "javascript-tracking/javascript-baner.jpg"
+image: 
+   path: /assets/posts/javascript-tracking/javascript-baner.jpg
+   width: 1200
+   height: 700
+
 image-width: 1200
 image-height: 700
 ---
