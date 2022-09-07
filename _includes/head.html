@@ -6,18 +6,11 @@
 {% else %}<meta name="referrer" content="same-origin">
 {% endif %}
   {%- seo -%}
-{% if page.image %}
-<meta property="og:image" content="{{ site.url }}/assets/posts/{{ page.image }}">
-<meta property="og:image:width" content="{{page.image-width | default: 201}}">
-<meta property="og:image:height" content="{{page.image-height | default: 201}}">
-{% else %}
-<meta property="og:image" content="{{ site.url }}/assets/og-image-default.jpg">
-<meta property="og:image:width" content="201">
-<meta property="og:image:height" content="201">
-{% endif %}
+
 <link rel="shortcut icon" href="{{ site.baseurl }}/assets/creepy_emoji.svg">
 <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 {%- feed_meta -%}
+
 {% if page.alternate %}
   {% if page.alt_lang == 'pl' %}
     {% assign main_lang="en" %}
@@ -27,6 +20,7 @@
 <link rel="alternate" href="{{ site.url }}{{page.url}}" hreflang="{{main_lang}}" />
 <link rel="alternate" href="{{ site.url }}/{{page.alternate}}" hreflang="{{page.alt_lang | default: 'pl'}}" />
 {% endif %}
+
 </head>
 
 

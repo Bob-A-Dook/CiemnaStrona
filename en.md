@@ -1,6 +1,7 @@
 ---
 layout: english
 alternate: ""
+lang: en_US
 alt_lang: pl
 ---
 
@@ -13,7 +14,7 @@ In today's world, people are becoming more and more reliant on large corporation
 
 Instead of keeping software in our hands, we use somebody else's cloud solutions. Modern devices may stop working if internet connection to the parent company is lost.
 
-Some companies also deliberately make it harder to repair their gear outside of their selected vendors, at their prices. 
+Some companies also deliberately make it harder to repair their gear outside of their selected vendors, where they can dictate prices. 
 
 Advertisements speak about *AI (Artificial Intelligence)* and the future it will bring. Managers get enthusiatic and embrace these solutions -- eager to automate, eager to cut costs. Ignoring their unreliability.
 

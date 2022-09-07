@@ -8,9 +8,12 @@ tags: [DNS, Internet, Inwigilacja, Podstawy]
 firmy: [Cloudflare, Google]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
-image: "dns/dns-baner.jpg"
-image-width: 1200
-image-height: 700
+
+image:
+  path: /assets/posts/dns/dns-baner.jpg
+  width: 1200
+  height: 700
+  alt: Płaczące wszystkowidzące oko
 ---
 
 Witam w&nbsp;trzecim wpisie rozszerzającym serię „Internetowa inwigilacja”! Nadal walczymy z&nbsp;podglądaczami usadowionymi na drodze naszej korespondencji, takimi jak firmy telekomunikacyjne.
@@ -202,7 +205,7 @@ Cała reszta komunikacji -- nawet najogólniejsze metadane -- jest zaszyfrowana.
 ...Oczywiście nikt nie wyklucza, że po tych wszystkich przeprawach nawiążemy bezpieczną komunikację z&nbsp;jakąś stronką, a&nbsp;ona sama zacznie zbierać o&nbsp;nas dane.  
 Wszystkie rzeczy z&nbsp;pierwszych dwunastu wpisów „Internetowej inwigilacji” cały czas mogą się wydarzyć. Życie :wink:
 
-Jeśli kogoś interesuje ten temat, to polecam bardziej obszerne [omówienie spraw wokół DNS-a](https://www.privacyguides.org/basics/dns/) ze stronki Privacy Guides. A&nbsp;także wpisy na blogu Cloudflare.
+Jeśli kogoś interesuje ten temat, to polecam bardziej obszerne [omówienie spraw wokół DNS-a](https://www.privacyguides.org/basics/dns-overview/) ze stronki Privacy Guides. A&nbsp;także wpisy na blogu Cloudflare.
 
 ## Podsumowanie i&nbsp;przestroga
 
@@ -279,7 +282,7 @@ Ogólna uwaga: jeśli chodzi o&nbsp;grzebanie w&nbsp;ustawieniach, jestem fanem 
 
 # Włączanie ECH i&nbsp;kontrola prywatności
 
-Kiedy mamy już DNS-a przez DoH lub DoT, do pełnego zaszyfrowania pozostaje jeden krok. **Pokażę go to tylko dla Firefoksa**, inne chyba jeszcze nie wspierają ECH. Być może zadziała też na opartych na nim przeglądarkach.
+Kiedy mamy już DNS-a przez DoH lub DoT, do pełnego zaszyfrowania pozostaje jeden krok. **Pokażę go tylko dla Firefoksa**, inne chyba jeszcze nie wspierają ECH. Być może zadziała też na opartych na nim przeglądarkach.
 
 <details class="bigspace">
 <summary><strong>Firefox na komputerze</strong></summary>

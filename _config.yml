@@ -6,6 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.ciemnastrona.com.pl" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Bob-A-Dook
+lang: pl_PL
 
 # Build settings
 markdown: kramdown
@@ -21,6 +22,12 @@ collections:
   tutorials:
     output: true
 
+# Site logo as the default og:image
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og-image-default.jpg
 
 #emoji:
 #  src: "/assets/images/"

@@ -7,9 +7,10 @@ date:   2022-06-17 21:20:00 +0100
 tags: [Analiza danych]
 category: krs-msig
 category_readable: "Myszkowanie w Monitorze i kopanie w KRS-ie"
-image: "msig-problemy/msig-dziwy-baner.jpg"
-image-width: 1200
-image-height: 700
+image:
+  path: /assets/posts/msig-problemy/msig-dziwy-baner.jpg
+  width: 1200
+  height: 700
 ---
 
 Witam w&nbsp;kolejnym odcinku serii o&nbsp;polskich firmach! Cały czas jesteśmy na etapie gromadzenia danych z&nbsp;publicznie dostępnych źródeł -- żeby w&nbsp;przyszłości wyłapywać ciekawostki, jakich nie zdradziłyby nam nawet komercyjne wywiadownie gospodarcze.

@@ -8,9 +8,11 @@ tags: [Centralizacja, Internet, Inwigilacja, Porady]
 firmy: [Facebook, Google, Reddit, Twitter]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
-image: "inwigilacja_podsumowanie/allsing-baner.jpg"
-image-width: 1200
-image-height: 700
+image:
+  path: /assets/posts/inwigilacja_podsumowanie/allsing-baner.jpg
+  width: 1200
+  height: 700
+
 ---
 
 Serię „Internetowa inwigilacja” tworzę już od ponad półtora roku. Zebrało się do tej pory jedenaście wpisów omawiających metody, z&nbsp;jakich korzystają właściciele stron internetowych, żeby zbierać o&nbsp;nas informacje. 

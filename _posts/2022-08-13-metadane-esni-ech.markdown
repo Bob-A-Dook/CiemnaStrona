@@ -8,9 +8,10 @@ firmy: [Apple, Cloudflare, Mozilla]
 tags: [Centralizacja, Internet, Inwigilacja]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
-image: "https/esni-baner.jpg"
-image-width: 1200
-image-height: 700
+image:
+  path: "/assets/posts/https/esni-baner.jpg"
+  width: 1200
+  height: 700
 ---
 
 Witam w&nbsp;drugim wpisie rozszerzającym serię „Internetowa inwigilacja”! Nadal skupiamy się na chowaniu wysyłanych informacji przed podglądaczami, takimi jak firmy telekomunikacyjne.
