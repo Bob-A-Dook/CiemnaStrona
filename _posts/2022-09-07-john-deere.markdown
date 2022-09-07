@@ -77,7 +77,7 @@ Obecnie wszystkie udziały posiada spółka z&nbsp;Luksemburga. Która zapewne p
 <img src="/assets/posts/john_deere/john-deere-krs.jpg" alt="Wykres pokazujący w&nbsp;formie poziomych słupków, jakie inne organizacje miały udziały w&nbsp;firmie John Deere Spółka z&nbsp;o.o."/>
 
 {:.figcaption}
-Źródło: Odpis z&nbsp;KRS-u zwizualizowany moim autorskim skryptem.  
+Źródło: Odpis z&nbsp;KRS-u zwizualizowany [moim autorskim skryptem]({% post_url 2021-12-14-krs-zabawy %}){:.internal}.  
 *S.A. R.L* to odpowiednik spółki z&nbsp;o.o. Ostatnia ze zmian była raczej kosmetyczna, zmienili kropkę w&nbsp;nazwie udziałowca na spację.
 
 Oprócz firm oficjalnie posługujących się nazwą John Deere są oczywiście różni oficjalni dealerzy i&nbsp;serwisy.
@@ -86,7 +86,7 @@ Czasem znajdziemy ich markę w&nbsp;nieoczekiwanych miejscach:
 
 * Wydano klocki LEGO Technics z&nbsp;ich traktorem.
 * Pod ich marką występowała między innymi drużyna e-sportowa rywalizująca w&nbsp;grze *Farming Simulator*.
-* Pewien browar wypuścił limitowaną edycję piwa we współpracy z&nbsp;ich marką.
+* Pewien browar wypuścił limitowaną serię piwa we współpracy z&nbsp;nimi.
 * Sprzedają też wszelkie możliwe gadżety. Czapki, ręczniki, kolorowanki...
 
 Na ich stronie znajdziemy liczne zapewnienia o&nbsp;odpowiedzialności społecznej. Niczym pozycjonowanie w&nbsp;wyszukiwarce, tyle że pod ranking ESG. *Sustainability*. *Diversity*. *Equity and inclusion*.
@@ -101,7 +101,7 @@ W [wywiadzie dla *Verge*](https://www.theverge.com/22533735/john-deere-cto-hindm
 
 Sceptyk mógłby się zastanowić -- czy cały ten pęd ku nowinkom technicznym ma solidne fundamenty? Czy nie jest tylko próbą ściągnięcia inwestorów, niejako doklejoną do głównej działalności?
 
-Deere twierdzi, że jak najbardziej są gotowi na taką transformację. W&nbsp;zakładce [„Wyższy cel”](https://www.deere.com/en/our-company/higher-purpose/) na swojej stronie piszą:
+Deere twierdzi, że jak najbardziej są gotowi na cyfrową transformację. W&nbsp;zakładce [„Wyższy cel”](https://www.deere.com/en/our-company/higher-purpose/) na swojej stronie piszą:
 
 {:.bigspace}
 > Our solutions are as sophisticated as a&nbsp;precisely seeded field
@@ -150,7 +150,7 @@ text="Schematów z&nbsp;pierwszego linku nie da się otworzyć. Żeby to zrobić
 
 {:.figcaption}
 Źródło: [forum Elektroda](https://www.elektroda.pl/rtvforum/topic3914707.html#20159855).  
-Drobne zmiany interpunkcyjne w&nbsp;wypowiedziach -- tej i&nbsp;następnych -- moje.
+Drobne zmiany interpunkcyjne, skróty i&nbsp;wyróżnienia w&nbsp;cytatach -- tym i&nbsp;następnych -- moje.
 
 No ale założmy, że jak nie ma rady, to się zapłaci. Czasem jednak wiedza -- na przykład znajomość kodów błędów -- to za mało, żeby użytkownik sam ogarnął sprawę:
 
@@ -166,7 +166,7 @@ moja historia zakończyła się tak, że 2&nbsp;dni jeździł i&nbsp;znów przes
  
 Swoją drogą: Deere posiada wiele takich [kodów błędów](https://www.insidetheyard.com/john-deere-fault-codes-list/) na różne okazje.  
 Czasem jednak trafi się perełka, na którą kodu nie ma. Taką [bardzo niecodzienną awarię](https://www.youtube.com/watch?v=jqaCP2AwdDA) pokazuje jeden filmik na YouTubie.  
-Jest w&nbsp;nim przy okazji trochę krytyki jakości wykonania sprzętu. "Kiedyś jelonki były lepsze".
+Jest w&nbsp;nim przy okazji trochę krytyki jakości wykonania sprzętu. „Kiedyś jelonki były lepsze”.
 
 Pod hasłem „John Deere” znajdziemy na Elektrodzie również całą dłuższą dyskusję na temat zabezpieczeń DRM. Cyfrowych przeszkadzajek stosowanych przez producenta w&nbsp;celu utrudnienia dostępu. Deere jest podawany jako jeden z&nbsp;przykładów.
 
@@ -177,7 +177,7 @@ text="Każda wymieniona część wymaga bowiem rejestracji i&nbsp;autoryzacji w&
 %}
 
 {:.figcaption}
-Źródło: [wątek na temat DRM-a](https://www.elektroda.pl/rtvforum/topic3878512.html) z&nbsp;Elektrody. Wyróżnienia moje.
+Źródło: [wątek na temat DRM-a](https://www.elektroda.pl/rtvforum/topic3878512.html) z&nbsp;Elektrody.
 
 A na ostatniej stronie dyskusji znajdziemy komentarz osoby, która czasem pomaga koledze-rolnikowi przy naprawach. Potwierdzający, że również polska rzeczywistość nie jest wolna od takich historii:
 
@@ -187,11 +187,11 @@ text="Zmorą kombajnów np. jest „komputer” sterujący tym co kombajnista ma
 %}
 
 {:.figcaption}
-Źródło tego i&nbsp;kolejnego fragmentu: [Elektroda](https://www.elektroda.pl/rtvforum/topic3878512-60.html#19931519). Drobne zmiany w&nbsp;interpunkcji moje.
+Źródło tego i&nbsp;kolejnego fragmentu: [post z&nbsp;Elektrody](https://www.elektroda.pl/rtvforum/topic3878512-60.html#19931519).
 
 Tak ma wyglądać ta nowoczesność w&nbsp;domu i&nbsp;zagrodzie? Dobrze, że przynajmniej w&nbsp;tym przypadku człowiek mógł jednak wsiąść za kółko w&nbsp;sytuacji awaryjnej. Gdyby to była któraś z&nbsp;tych całkiem samojezdnych maszyn, to byłoby pozamiatane.
 
-Autor ma również parę uwag na temat możliwych przyczyn takiej sytuacji. Wyróżnienie moje:
+Autor ma również parę uwag na temat możliwych przyczyn takiej sytuacji:
 
 {:.bigspace}
 {% include comment.html
@@ -227,7 +227,7 @@ Ale nawet jeśli nie przekonują nas argumenty sugerujące dominację JD, dopuś
 
 # Elektroniczna fosa
 
-W tej sprawie duże znaczenie miał fakt, że Deere uzależnił maszyny od komputera. Oprogramowanie rządzi się bowiem odrębnymi przepisami niż śrubki i&nbsp;zębatki. Dotyczy go prawo autorskie. Dostaje się na nie licencję, która narzuca ograniczenia.
+W sprawie Deere'a duże znaczenie ma fakt, że uzależnili maszyny od komputera. Oprogramowanie rządzi się bowiem odrębnymi przepisami niż śrubki i&nbsp;zębatki. Dotyczy go prawo autorskie. Dostaje się na nie licencję, która narzuca ograniczenia.
 
 Gdy bez wspomnianej licencji nie możemy korzystać z&nbsp;komputera, zaś bez komputera nie skorzystamy z&nbsp;urządzenia, to można dojść do dość ponurego wniosku -- **tych traktorów nie da się nabyć na własność. Można jedynie dostać na nie licencję**. Mocnymi słowami skwitował to Kyle Wiens, założyciel znanej firmy od napraw smartfonów:
 
@@ -251,23 +251,25 @@ Deere się nadął, naindyczył i&nbsp;próbował skontrować nowe przywileje ro
 Ogniska buntu jednak nie zgasły, a&nbsp;walka toczyła się dalej na poziomie poszczególnych stanów.
 
 W przypadku Kalifornii [wynik był niekorzystny](https://www.vice.com/en/article/kz5qgw/california-farm-bureau-john-deere-tractor-hacking-right-to-repair), bo grupa formalnie reprezentująca rolników ugięła się i przystała na wersję proponowaną przez Deere'a.  
-Do 2021&nbsp;roku JD miał udostępnić instrukcje i&nbsp;narzędzia diagnostyczne. Ale w&nbsp;zamian utrzymali w&nbsp;mocy zakaz majstrowania przy cyfrowych blokadach. Czyli w&nbsp;praktyce mało co się zmieniło.
+JD zobowiązał się udostępnić do stycznia 2021 roku instrukcje i&nbsp;narzędzia diagnostyczne. Ale w&nbsp;zamian utrzymali w&nbsp;mocy zakaz majstrowania przy cyfrowych blokadach. Czyli w&nbsp;praktyce mało co się zmieniło.
 
 Ale walka trwała, a&nbsp;Deere mógł odnieść wrażenie, że duch czasów jest zwrócony przeciwko nim. W&nbsp;2021 roku zostało wydane prezydenckie [rozporządzenie wykonawcze](https://www.theverge.com/2021/7/9/22570826/president-joe-biden-executive-order-right-to-repair) nakazujące wziąć się porządniej za kwestię prawa do samodzielnej naprawy. Wprost zostaje w&nbsp;nim wymieniony przypadek sprzętów rolniczych.
 
-W 2022&nbsp;roku złożono w&nbsp;dodatku [dwa pozwy zbiorowe](https://www.theregister.com/2022/01/25/john_deere_right_to_repair_lawsuits/), zarzucające Deere'owi, że ich sztuczne ograniczenia naruszają przepisy antymonopolowe. W&nbsp;ich treści przytoczono fakt, że Deere **z działalności związanej z&nbsp;naprawami zarabia od 3&nbsp;do 6&nbsp;razy więcej niż ze sprzedaży maszyn**.  
-Deere ogłosił wtedy, że od maja udostępni ludziom bazę instrukcji, do której dotąd miały wgląd tylko licencjonowane serwisy. Kolejne ustępstwo, ale bez rewolucji.
+Na początku 2022&nbsp;roku do kolekcji pozwów zbiorowych przeciw Deere'owi dołączyły [dwa kolejne](https://www.theregister.com/2022/01/25/john_deere_right_to_repair_lawsuits/), zarzucające im, że ich sztuczne ograniczenia naruszają przepisy antymonopolowe. W&nbsp;ich treści przytoczono fakt, że Deere **z działalności związanej z&nbsp;naprawami zarabia od 3&nbsp;do 6&nbsp;razy więcej niż ze sprzedaży maszyn**.  
+Deere ogłosił wtedy, że od maja udostępni ludziom narzędzia diagnostyczne, do której dotąd miały wgląd tylko licencjonowane serwisy. Kolejne ustępstwo, ale bez rewolucji.
+
+Tymczasem [łączna liczba pozwów przekroczyła&nbsp;10](https://www.dtnpf.com/agriculture/web/ag/equipment/article/2022/06/02/right-repair-lawsuits-john-deere).
 
 {% include info.html
 type="Przydatne pojęcie"
-text="Takie sztuczne bariery, które nie pozwalają zaistnieć konkurencji i&nbsp;uwiązują klientów do konkretnej firmy, nazywa się powszechnie *moats* (słowo oznaczające po polsku *fosy*, jak te wokół zamków).  
-Dzięki postawieniu na elektronikę Deere nie miał problemów z&nbsp;tym, żeby raz za razem iść na kompromis w&nbsp;kwestii fizycznych instrukcji oraz części. Ich fosa i&nbsp;tak już od jakiegoś czasu była cyfrowa."
+text="Takie sztuczne bariery, które nie pozwalają zaistnieć konkurencji i&nbsp;uwiązują klientów do konkretnej firmy, po angielsku nazywa się powszechnie *moats* (dosł. *fosy*, jak te wokół zamków; po polsku zapewne *bariery wejścia*).  
+Dzięki postawieniu na elektronikę Deere nie miał problemów z&nbsp;tym, żeby raz za razem iść na kompromis w&nbsp;kwestii fizycznych instrukcji oraz części. Ich fosa i&nbsp;tak już od jakiegoś czasu była cyfrowa. Mając wyłączność na komputery, mają pełną kontrolę."
 %}
 
-A jak żyli z&nbsp;tymi zakazami i&nbsp;blokadami rolnicy oraz niezależne warsztaty? W&nbsp;końcu sprawy ciągnęły się wiele lat.  
-Odpowiedź: niektórzy z&nbsp;nich **pobierali zagraniczną, piracką wersję oprogramowania do serwisowania traktorów**. Ryzykując utratę gwarancji, ale zyskując więcej autonomii. Można wręcz powiedzieć, że musieli otrzeć się o&nbsp;hakerstwo, żeby naprawić swój sprzęt.
+A jak żyli z&nbsp;tymi zakazami i&nbsp;blokadami rolnicy oraz niezależne warsztaty? W&nbsp;końcu spór ciągnął się przez wiele lat.  
+Odpowiedź: niektórzy z&nbsp;nich **pobierali zagraniczną, piracką wersję oprogramowania do serwisowania traktorów**. Ryzykując utratę gwarancji, ale zyskując choć trochę autonomii. Od strony prawnej byli kryci dzięki wspomnianemu wcześniej wyjątkowi od przepisów *DMCA*.
 
-Do sprawy tych programów niedługo wrócę. A&nbsp;w międzyczasie zainteresowani mogą poczytać opis po polsku w&nbsp;wykonaniu [Sekuraka](https://sekurak.pl/w-usa-crackuja-traktory-za-pomoca-polskiego-i-ukrainskiego-softu/) albo [Zaufanej Trzeciej Strony](https://zaufanatrzeciastrona.pl/post/hakowanie-warunkiem-przezycia-o-lamaniu-zabezpieczen-ktore-ratuje-pacjentow/#attachment_35917) (ten drugi fajnie porusza szerszą kwestię hakowania z&nbsp;przyczyn etycznych).
+Do sprawy tych programów niedługo wrócę. A&nbsp;w międzyczasie zainteresowani mogą poczytać opis po polsku w&nbsp;wykonaniu [Sekuraka](https://sekurak.pl/w-usa-crackuja-traktory-za-pomoca-polskiego-i-ukrainskiego-softu/) albo [Zaufanej Trzeciej Strony](https://zaufanatrzeciastrona.pl/post/hakowanie-warunkiem-przezycia-o-lamaniu-zabezpieczen-ktore-ratuje-pacjentow/#attachment_35917) (ten drugi fajnie porusza szerszą kwestię hakowania motywowanego etyką).
 
 # „To dla waszego bezpieczeństwa”
 
@@ -284,7 +286,7 @@ Posłuchajmy też drugiej strony. Deere argumentuje bowiem, że są ważne przyc
 
 Można odnieść wrażenie, że Deere trochę wychodzi przed szereg, chce być *bardziej prawy niż prawo*. Oczywiście możliwe również, że po prostu nie chcą luzować kontroli. W&nbsp;końcu zarabiają na swojej siatce dealerów.
 
-Ochrona rolników przed samymi sobą to jedno. Ale Deere twierdzi ponadto, że  ich elektroniczne blokady chronią również przed hakerami.  
+Ochrona rolników przed samymi sobą to jedno. Ale Deere twierdzi, że  ich elektroniczne blokady chronią również przed hakerami.  
 Ich maszyny są podłączone do globalnej sieci. Wyobraźmy sobie tylko -- jakiś niegodziwy haker przejmuje kontrolę nad całą flotą traktorów, świat staje w&nbsp;obliczu niespotykanego kryzysu żywnościowego.
 
 „Tam w&nbsp;internecie są źli ludzie. Z&nbsp;nami jesteście bezpieczni. Nie wychodźcie poza te kraty”.
@@ -327,7 +329,7 @@ Podczas swojej paruletniej przygody Sick Codes dokładnie poznał systemy operac
 * Inne napędza system Linux, w&nbsp;wersji komercyjnej oferowanej przez firmę Wind River. Również stary.
 * Każda część systemu ma dostęp do wszystkiego, brak podziału na strefy bezpieczeństwa (*everything runs as root*).
 
-Czyli po ludzku: żeby włamać się do systemów, nie trzeba by było cudów nauki. Są stare, więc już rozpracowane, a&nbsp;sposobów na włamanie więcej niż przy nowych. Zaś po włamaniu łatwo przejąć kontrolę.  
+Czyli po ludzku: żeby włamać się do systemów, nie trzeba by było cudów nauki. Są stare, więc już rozpracowane, a&nbsp;sposobów na włamanie jest więcej niż przy nowych. Zaś po włamaniu łatwo przejąć kontrolę.  
 Okazuje się, że ta potężna krata, którą John Deere chciał nas osłonić przed złym światem, była zrobiona z&nbsp;cienkich trzcin. Zdeterminowany napastnik i&nbsp;tak by ją sforsował.
 
 Jak w&nbsp;tym świetle oceniać zapewnienia Deere'a o&nbsp;tym, że ich zabezpieczenia to ostatni bastion chroniący nas przed potencjalnym kryzysem żywnościowym?
@@ -361,12 +363,12 @@ Ale nie bądźmy dziećmi. Proponuję nie dać się ponieść wizji opiekuńczej
 
    Nawet gdyby Sick Codes nie obszedł publicznie zabezpieczeń. W&nbsp;końcu już wcześniej, niezależnie od niego, pewne zabezpieczenia Deere'a obchodzili sami rolnicy. A&nbsp;sprzęt drogi, więc Rosjanom opłacałoby się wynajęcie jakiegoś hakera.
 
-A skoro o&nbsp;tym mowa... Poprzednio wstrzymałem się z ujawnieniem, skąd rolnicy amerykańscy brali piracką wersję oprogramowania. A&nbsp;prawda jest taka, że pochodzi ona [z Polski i&nbsp;Ukrainy](https://sekurak.pl/w-usa-crackuja-traktory-za-pomoca-polskiego-i-ukrainskiego-softu/).  
+A skoro o&nbsp;tym mowa... Poprzednio wstrzymałem się z ujawnieniem, skąd rolnicy amerykańscy brali piracką wersję oprogramowania. A&nbsp;prawda jest taka, że pochodzi ona [z&nbsp;Polski i&nbsp;Ukrainy](https://sekurak.pl/w-usa-crackuja-traktory-za-pomoca-polskiego-i-ukrainskiego-softu/).  
 To pewien dowód na to, że model producenta jednak tak nie do końca się tu przyjął. No i&nbsp;piękny przypadek współpracy wschodu i&nbsp;zachodu ponad podziałami. Tylko że nieco mniej atrakcyjny PR-owo dla Deere'a.
 
 Podsumowując: krytykowanie Sick Codesa uważam za odwracanie kota ogonem, bo on tylko nagłośnia problem obecny od dawna. Zaś JD korzysta z&nbsp;sytuacji, ocieplając wizerunek swojej kontroli nad sprzętem.
 
-Kontroli, która -- kiedy spojrzymy poza kontekst sytuacji ukraińskiej -- powinna nas cholernie niepokoić. **Deere jest w&nbsp;stanie zdalnie zablokować maszyny**.  
+Kontroli, która -- kiedy spojrzymy poza sytuację ukraińską -- powinna nas cholernie niepokoić. **Deere jest w&nbsp;stanie zdalnie zablokować maszyny**.  
 Tutaj dotyczyło to dealera, więc nie mogę powiedzieć na sto procent, czy zachowuje taką samą kontrolę po tym, jak sprzęt zostaje sprzedany użytkownikom.
 
 Ale jeśli tak jest albo będzie?  
@@ -382,7 +384,7 @@ Znalazłem też [informację](https://www.statista.com/topics/3668/european-trac
 Pamiętajmy jednak, że precedensy mają znaczenie. Jeśli inni producenci zobaczą, że model Deere'a się sprawdza i&nbsp;nikt się nie sprzeciwia takim praktykom, to go skopiują.  
 Wtedy czeka nas wysyp kolejnych „kupionych, ale wynajmowanych” traktorów. Potencjalnie słabo zabezpieczonych, cały czas wpiętych do sieci.
 
-Poza tym możliwe, że w&nbsp;dłuższym horyzoncie czasowym udział Deere'a będzie tylko rósł wraz z&nbsp;upadkami konkurencyjnych firm. Chociażby w&nbsp;Polsce powstała luka po Ursusie:
+Poza tym możliwe, że w&nbsp;dłuższym horyzoncie czasowym udział Deere'a będzie tylko rósł wraz z&nbsp;upadkami konkurencyjnych firm. W&nbsp;Polsce mamy chociażby lukę po Ursusie:
 
 {:.figure .bigspace}
 <img src="/assets/posts/john_deere/john-deere-ursus.jpg" alt="Zrzut ekranu tweeta pokazującego dwa zdjęcia polskich polityków na tle traktorów John Deere oraz opisujący, że jeszcze w&nbsp;2016 roku Ursu miał milionowe zyski, a&nbsp;obecnie jest w&nbsp;upadłości, zaś politycy robią zdjęcia z&nbsp;traktorami Johna Deere'a. Dane uzytkowników, oczy i&nbsp;aluzje polityczne zostały zakryte."/>
@@ -407,7 +409,7 @@ Możliwości nadużyć jest sporo i&nbsp;wszystkie mrożą krew w&nbsp;żyłach.
 
 ## Podsumowanie
 
-Sprawa Deere'a pokazuje nam, że współczesne rolnictwo idzie za trendami technologicznymi obecnymi w&nbsp;innych gałęziach. Które, niestety, mają pełno ciemnych stron.
+Sprawa Deere'a pokazuje nam, że współczesne rolnictwo idzie za trendami technologicznymi obecnymi w&nbsp;innych branżach. Które, niestety, mają pełno ciemnych stron.
 
 Ciągła łączność internetowa i&nbsp;zależność od centrali, zbieranie danych na masową skalę, odbieranie kontroli nabywcom. A&nbsp;przy tym dziadowanie na zabezpieczeniach. W&nbsp;takich warunkach zorganizowany atak hakerski mógłby skutecznie rozwalić bezpieczeństwo żywnościowe.
 
@@ -415,12 +417,12 @@ Kojarzy mi się to nieco ze słabością upraw monokulturowych. Pojawi się jedn
 
 Jednocześnie nie szedłbym w&nbsp;interpretacje spiskowe. Istotnie, cyfrowe transformacje w&nbsp;takim wydaniu prowadzą do rozmycia pojęcia własności. Ale rozum sugeruje, że wynikają zapewne z&nbsp;chęci maksymalizacji zysków, a&nbsp;nie z&nbsp;rozkazów jednego szwajcarskiego *think-tanku*.
 
-Zainteresowanym polecam kilka polskich i&nbsp;angielskich terminów ekonomicznych do wyszukania na forach:
+Jeśli też wolicie podejście racjonalne, to polecam kilka polskich i&nbsp;angielskich terminów ekonomicznych. Pomogą znaleźć na forach czy Twitterze więcej podobnych aferek.
 
 * Wyciąganie pieniędzy nawet po sprzedaniu produktu? *Rent-seeking*.
 * Trzymanie ludzi w&nbsp;obrębie własnych, niekompatybilnych z&nbsp;resztą świata ekosystemów? *Walled gardens*.
 * Dominacja nad rynkiem i&nbsp;dyktowanie (niekorzystnych) warunków? *Monopole*, *oligopole*, *kartele*.
-* Wspomniane już sztuczne bariery, żeby nie pojawiła się konkurencja? *Moats*.
+* Wspomniane już sztuczne bariery blokujące konkurencję? *Moats* oraz *competition*.
 
 {% include info.html
 type="Podobne wpisy"
@@ -428,8 +430,9 @@ text="W moim wpisie na temat <a href='/cyfrowy_feudalizm/2021/06/12/mcdonalds-ma
 Z kolei wpis na temat <a href='/cyfrowy_feudalizm/2021/07/26/intel-management-engine'>Intel Management Engine</a>{:.internal} pokazuje korporacyjny taniec na ostrzu noża -- wprowadzanie do produktów elementu elektronicznego, który daje firmie zyski (tu: od potentatów filmowych chcących zabezpieczeń antypirackich). I&nbsp;który jednocześnie może być furtką dla hakerów."
 %}
 
-Centralizacja to globalny trend, więc trudno z&nbsp;tym walczyć. Ale, jeśli ktoś tu jest rolnikiem, zawsze może głosować portfelem. Trzymać się analogowych sprzętów. Dawać producentom sygnały, że ceni niezawodność bardziej niż bajery.  
-Kto wie, być może kiedyś w&nbsp;odpowiedzi na zachłanność firm upowszechnią się nawet [traktory open source](https://civileats.com/2022/04/27/right-to-repair-open-source-tractors-john-deere-oggun-farms-profitability-technology/) z&nbsp;wymiennymi, standardowymi częściami oraz dopasowane do potrzeb rolnictwa [otwarte systemy GPS](https://www.youtube.com/watch?v=iN2cZ8avHag)?  
+Centralizacja to globalny trend, więc trudno z&nbsp;tym walczyć. Ale, jeśli ktoś tu jest rolnikiem, zawsze może głosować portfelem. Trzymać się analogowych sprzętów. Dawać producentom sygnały, że ceni niezawodność bardziej niż bajery. Wyłączyć dzielenie się danymi.
+  
+Kto wie, być może kiedyś w&nbsp;odpowiedzi na zachłanność firm upowszechnią się nawet [traktory open source](https://civileats.com/2022/04/27/right-to-repair-open-source-tractors-john-deere-oggun-farms-profitability-technology/) z&nbsp;wymiennymi, standardowymi częściami, wspomagane [otwartymi systemami GPS](https://www.youtube.com/watch?v=iN2cZ8avHag)?  
 
 Nie będą miały ładnej zielono-żółtej barwy, żeby nie dostać pozwem od Deere'a. Nie będą pewnie oferowały analizowania danych w&nbsp;chmurze, sztucznej inteligencji ani samojezdności, przynajmniej na początku. Nie zrobią ich oficjalnego modelu z&nbsp;klocków LEGO.  
 Ale mimo to -- a&nbsp;może właśnie dlatego -- warto dać im szansę.
