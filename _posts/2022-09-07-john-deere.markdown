@@ -29,7 +29,7 @@ Jest to rzeczywistość nieco straszna, ale też fascynująca. Będą tu wątki 
 <img src="/assets/posts/john_deere/john-deere-warrior.jpg" alt="Traktor John Deere z&nbsp;włączonymi światłami, zwrócony przodem do zdjęcia. Zamiast jego przedniej części nałożono głowę robota o&nbsp;groźnym wyrazie twarzy. Jego twarz ma taką samą zieloną barwę jak lakier traktora, a&nbsp;oczy są pomarańczowe jak jego światła"/>
 
 {:.figcaption}
-John Deere z&nbsp;materiałów promocyjnych plus twarz *ABC Warriora* z&nbsp;„Sędziego Dredda” z&nbsp;1995 r.
+John Deere z&nbsp;materiałów promocyjnych plus twarz *ABC Warriora* z&nbsp;„Sędziego Dredda” z&nbsp;1995&nbsp;r.
 
 # Spis treści
 
@@ -78,9 +78,9 @@ Obecnie wszystkie udziały posiada spółka z&nbsp;Luksemburga. Która zapewne p
 
 {:.figcaption}
 Źródło: Odpis z&nbsp;KRS-u zwizualizowany [moim autorskim skryptem]({% post_url 2021-12-14-krs-zabawy %}){:.internal}.  
-*S.A. R.L* to odpowiednik spółki z&nbsp;o.o. Ostatnia ze zmian była raczej kosmetyczna, zmienili kropkę w&nbsp;nazwie udziałowca na spację.
+*S.A. R.L.* to odpowiednik spółki z&nbsp;o.o. Ostatnia ze zmian była raczej kosmetyczna, zmienili kropkę w&nbsp;nazwie udziałowca na spację.
 
-Oprócz firm oficjalnie posługujących się nazwą John Deere są oczywiście różni oficjalni dealerzy i&nbsp;serwisy.
+Oprócz firm stanowiących część koncernu John Deere istnieją oczywiście różni oficjalni dealerzy i&nbsp;serwisy.
 
 Czasem znajdziemy ich markę w&nbsp;nieoczekiwanych miejscach:
 
@@ -183,7 +183,7 @@ A na ostatniej stronie dyskusji znajdziemy komentarz osoby, która czasem pomaga
 
 {% include comment.html
 author="Użytkownik Elektrody 4"
-text="Zmorą kombajnów np. jest „komputer” sterujący tym co kombajnista ma pod sobą i&nbsp;za plecami, czyli mechanizm koszący i&nbsp;młócący. Pada podświetlenie ekranu albo digitizer, nie widzisz co się dzieje, paru rzeczy nie ustawisz. Facet byłby w&nbsp;stanie wymienić to sam, bo to raptem kilka śrub i&nbsp;2 wtyczki; ale jedynie co producent oferuje, to wizytę <b>serwisu autoryzowanego, który najbliżej jest w&nbsp;Niemczech i&nbsp;nie ruszy się za mniej niż 5k Euro, i&nbsp;to w&nbsp;jakimś absurdalnym terminie*</b>. Finalnie zboże skosił „na pamięć”, bo swoje pola i&nbsp;maszynę zna"
+text="Zmorą kombajnów np. jest „komputer” sterujący tym co kombajnista ma pod sobą i&nbsp;za plecami, czyli mechanizm koszący i&nbsp;młócący. Pada podświetlenie ekranu albo digitizer, nie widzisz co się dzieje, paru rzeczy nie ustawisz. Facet byłby w&nbsp;stanie wymienić to sam, bo to raptem kilka śrub i&nbsp;2 wtyczki; ale jedynie co producent oferuje, to wizytę <b>serwisu autoryzowanego, który najbliżej jest w&nbsp;Niemczech i&nbsp;nie ruszy się za mniej niż 5k Euro, i&nbsp;to w&nbsp;jakimś absurdalnym terminie</b>. Finalnie zboże skosił „na pamięć”, bo swoje pola i&nbsp;maszynę zna"
 %}
 
 {:.figcaption}
@@ -204,7 +204,7 @@ W USA już od kilku lat trwają głośne sądowe batalie z&nbsp;Deere'em. Przyj
 
 ## Prawo do naprawy. Deere kontra rolnicy
 
-Amerykańscy rolnicy nie są w&nbsp;ciemię bici i&nbsp;próbowali jakoś walczyć z&nbsp;zależnością od producenta. Na chwilę jeszcze zostanę w&nbsp;świecie analogowym i&nbsp;pokażę ich prawnicze boje.
+Amerykańscy rolnicy nie są w&nbsp;ciemię bici i&nbsp;próbowali jakoś walczyć z&nbsp;zależnością od producenta. Chcieli zyskać możliwość naprawienia maszyn również u&nbsp;niezależnych mechaników, nie tylko u Deere'a. Na chwilę jeszcze zostanę w&nbsp;świecie analogowym i&nbsp;pokażę ich prawnicze boje.
 
 # Amerykańskie realia
 
@@ -223,7 +223,7 @@ Poza procentowymi udziałami dochodzi bardziej subtelna kwestia geograficznej do
 
 Jasne, to tylko anegdotyczne przykłady. Nie potwierdzę ich na razie danymi, bo musiałbym poświęcić tygodnie na wczytywanie się w&nbsp;sprawę, szukanie źródeł itp. Czego nie chcę, bo parę innych tematów bardziej mnie kusi.
 
-Ale nawet jeśli nie przekonują nas argumenty sugerujące dominację JD, dopuśćmy przynajmniej możliwość, że rolnicy są świadomymi ludźmi. Z&nbsp;jakiegoś powodu jednak poświęcają czas na walkę z Deere'em, zamiast po prostu pójść do konkurencji.
+A nawet gdyby nie przekonywały nas argumenty sugerujące dominację JD, dopuśćmy przynajmniej możliwość, że rolnicy są świadomymi ludźmi. Z&nbsp;jakiegoś powodu jednak poświęcają czas na walkę z Deere'em, zamiast po prostu pójść do konkurencji.
 
 # Elektroniczna fosa
 
@@ -240,7 +240,7 @@ Tę bitwę wygrali. Na poziomie federalnym [wprowadzono w&nbsp;2015 roku wyjąte
 
 Deere się nadął, naindyczył i&nbsp;próbował skontrować nowe przywileje rolników własnymi ograniczeniami:
 
-1. Podkreślili, że przepis daje możliwość majstrowania jedynie właścicielom i&nbsp;nie mogą upoważniać do tego zewnętrznych warsztatów. Czyli *de facto* tych, którzy byliby w&nbsp;stanie naprawić ich traktory.
+1. Podkreślili, że przepis daje możliwość majstrowania jedynie właścicielom i&nbsp;nie mogą upoważniać do tego zewnętrznych, niezależnych warsztatów. Czyli *de facto* tych, którzy byliby w&nbsp;stanie naprawić ich traktory.
 2. Zastrzegli sobie prawo do kontrolowania dostępu do informacji potrzebnych do naprawy pojazdów.
 
    Argumentowali to między innymi troską o&nbsp;zgodność z&nbsp;przepisami dotyczącymi emisji spalin. Sprytny zabieg z&nbsp;ich strony, ponieważ to całkiem osobne przepisy. Niezależne od prawa autorskiego, które przestało być im na rękę.
@@ -256,20 +256,20 @@ JD zobowiązał się udostępnić do stycznia 2021 roku instrukcje i&nbsp;narzę
 Ale walka trwała, a&nbsp;Deere mógł odnieść wrażenie, że duch czasów jest zwrócony przeciwko nim. W&nbsp;2021 roku zostało wydane prezydenckie [rozporządzenie wykonawcze](https://www.theverge.com/2021/7/9/22570826/president-joe-biden-executive-order-right-to-repair) nakazujące wziąć się porządniej za kwestię prawa do samodzielnej naprawy. Wprost zostaje w&nbsp;nim wymieniony przypadek sprzętów rolniczych.
 
 Na początku 2022&nbsp;roku do kolekcji pozwów zbiorowych przeciw Deere'owi dołączyły [dwa kolejne](https://www.theregister.com/2022/01/25/john_deere_right_to_repair_lawsuits/), zarzucające im, że ich sztuczne ograniczenia naruszają przepisy antymonopolowe. W&nbsp;ich treści przytoczono fakt, że Deere **z działalności związanej z&nbsp;naprawami zarabia od 3&nbsp;do 6&nbsp;razy więcej niż ze sprzedaży maszyn**.  
-Deere ogłosił wtedy, że od maja udostępni ludziom narzędzia diagnostyczne, do której dotąd miały wgląd tylko licencjonowane serwisy. Kolejne ustępstwo, ale bez rewolucji.
+Deere ogłosił wtedy, że od maja udostępni ludziom narzędzia diagnostyczne, do których dotąd miały wgląd tylko licencjonowane serwisy. Kolejne ustępstwo, ale bez rewolucji.
 
 Tymczasem [łączna liczba pozwów przekroczyła&nbsp;10](https://www.dtnpf.com/agriculture/web/ag/equipment/article/2022/06/02/right-repair-lawsuits-john-deere).
 
 {% include info.html
 type="Przydatne pojęcie"
 text="Takie sztuczne bariery, które nie pozwalają zaistnieć konkurencji i&nbsp;uwiązują klientów do konkretnej firmy, po angielsku nazywa się powszechnie *moats* (dosł. *fosy*, jak te wokół zamków; po polsku zapewne *bariery wejścia*).  
-Dzięki postawieniu na elektronikę Deere nie miał problemów z&nbsp;tym, żeby raz za razem iść na kompromis w&nbsp;kwestii fizycznych instrukcji oraz części. Ich fosa i&nbsp;tak już od jakiegoś czasu była cyfrowa. Mając wyłączność na komputery, mają pełną kontrolę."
+Dzięki postawieniu na elektronikę Deere nie miał problemów z&nbsp;tym, żeby raz za razem iść na kompromis w&nbsp;kwestii fizycznych instrukcji oraz części. Ich fosa i&nbsp;tak już od jakiegoś czasu była cyfrowa. Póki mieli wyłączność na naprawę komputerów, mieli pełną kontrolę."
 %}
 
 A jak żyli z&nbsp;tymi zakazami i&nbsp;blokadami rolnicy oraz niezależne warsztaty? W&nbsp;końcu spór ciągnął się przez wiele lat.  
 Odpowiedź: niektórzy z&nbsp;nich **pobierali zagraniczną, piracką wersję oprogramowania do serwisowania traktorów**. Ryzykując utratę gwarancji, ale zyskując choć trochę autonomii. Od strony prawnej byli kryci dzięki wspomnianemu wcześniej wyjątkowi od przepisów *DMCA*.
 
-Do sprawy tych programów niedługo wrócę. A&nbsp;w międzyczasie zainteresowani mogą poczytać opis po polsku w&nbsp;wykonaniu [Sekuraka](https://sekurak.pl/w-usa-crackuja-traktory-za-pomoca-polskiego-i-ukrainskiego-softu/) albo [Zaufanej Trzeciej Strony](https://zaufanatrzeciastrona.pl/post/hakowanie-warunkiem-przezycia-o-lamaniu-zabezpieczen-ktore-ratuje-pacjentow/#attachment_35917) (ten drugi fajnie porusza szerszą kwestię hakowania motywowanego etyką).
+Do sprawy tych programów wrócę za parę akapitów. Zainteresowani mogą też poczytać opis po polsku w&nbsp;wykonaniu [Sekuraka](https://sekurak.pl/w-usa-crackuja-traktory-za-pomoca-polskiego-i-ukrainskiego-softu/) albo [Zaufanej Trzeciej Strony](https://zaufanatrzeciastrona.pl/post/hakowanie-warunkiem-przezycia-o-lamaniu-zabezpieczen-ktore-ratuje-pacjentow/#attachment_35917) (ten drugi fajnie porusza szerszą kwestię hakowania motywowanego etyką).
 
 # „To dla waszego bezpieczeństwa”
 
@@ -340,14 +340,14 @@ Sprawy toczące się w&nbsp;USA mogą nas ciekawić, ale dość łatwo je potrak
 
 # „Pomagamy Ukrainie”
 
-Pod twittem Sick Codesa na temat złamania zabezpieczeń Deere'a znajdziemy o&nbsp;dziwo paru użytkowników wyciągających to przeciwko autorowi. „Rosja będzie ci wdzięczna”.  
+Pod tweetem Sick Codesa na temat złamania zabezpieczeń Deere'a znajdziemy o&nbsp;dziwo paru użytkowników wyciągających to przeciwko autorowi. „Rosja będzie ci wdzięczna”.  
 Skąd takie teksty? To dlatego, że John Deere miał niedawno swój krótki epizod w&nbsp;trwającej wojnie Rosji z&nbsp;Ukrainą.
 
 Główny artykuł z CNN (tutaj jego omówienie z&nbsp;*[The Register](https://www.theregister.com/2022/05/02/ukrainian_tractors_deere)*) wspomina, że ukraińska firma Agrotek-Invest -- autoryzowany dealer Johna Deere'a -- została okradziona przez Czeczenów. Zabrali sprzęt rolniczy wart 5&nbsp;milionów dolarów.
 
 Dealer zgłosił to producentowi. A&nbsp;John Deere wyśledził wywiezione traktory przez GPS, a&nbsp;następnie zdalnie je zablokował. Zarówno artykuł CNN, jak i&nbsp;opowiadające o&nbsp;sprawie wątki z&nbsp;Twittera przedstawiają to jako rzecz pozytywną, wkład w&nbsp;wojnę po słusznej stronie.
 
-Ogólny, pozytywny dla firmy przekaz uzupełniają też prywatne twitty, pokazujące zdjęcia traktorów ciągnących porzucone rosyjskie czołgi. Nie brak jednak sceptyków.
+Ogólny, pozytywny dla firmy przekaz uzupełniają też prywatne tweety, pokazujące zdjęcia traktorów ciągnących porzucone rosyjskie czołgi. Nie brak jednak sceptyków.
 
 {:.figure .bigspace}
 <img src="/assets/posts/john_deere/john-deere-ukraina.jpg" alt="Tweet pokazujący kilka zdjęć, na których żółto-zielone traktory John Deere holują porzucone rosyjskie czołgi. Pod spodem znajduje się jakiś usunięty tweet, a&nbsp;pod nim odpowiedź, w&nbsp;której autor pisze, że część zdjęć może być ustawiona w&nbsp;celach PR-owych, choć nie kwestionuje ich prawdziwości."/>
@@ -364,9 +364,9 @@ Ale nie bądźmy dziećmi. Proponuję nie dać się ponieść wizji opiekuńczej
    Nawet gdyby Sick Codes nie obszedł publicznie zabezpieczeń. W&nbsp;końcu już wcześniej, niezależnie od niego, pewne zabezpieczenia Deere'a obchodzili sami rolnicy. A&nbsp;sprzęt drogi, więc Rosjanom opłacałoby się wynajęcie jakiegoś hakera.
 
 A skoro o&nbsp;tym mowa... Poprzednio wstrzymałem się z ujawnieniem, skąd rolnicy amerykańscy brali piracką wersję oprogramowania. A&nbsp;prawda jest taka, że pochodzi ona [z&nbsp;Polski i&nbsp;Ukrainy](https://sekurak.pl/w-usa-crackuja-traktory-za-pomoca-polskiego-i-ukrainskiego-softu/).  
-To pewien dowód na to, że model producenta jednak tak nie do końca się tu przyjął. No i&nbsp;piękny przypadek współpracy wschodu i&nbsp;zachodu ponad podziałami. Tylko że nieco mniej atrakcyjny PR-owo dla Deere'a.
+To pewien dowód na to, że ich model biznesowy jednak tak nie do końca się tu przyjął. No i&nbsp;piękny przypadek współpracy wschodu i&nbsp;zachodu ponad podziałami. Tylko że nieco mniej atrakcyjny PR-owo dla Deere'a.
 
-Podsumowując: krytykowanie Sick Codesa uważam za odwracanie kota ogonem, bo on tylko nagłośnia problem obecny od dawna. Zaś JD korzysta z&nbsp;sytuacji, ocieplając wizerunek swojej kontroli nad sprzętem.
+Podsumowując: krytykowanie Sick Codesa uważam za odwracanie kota ogonem, bo on tylko nagłaśnia problem obecny od dawna. Zaś JD korzysta z&nbsp;sytuacji, ocieplając wizerunek swojej kontroli nad sprzętem.
 
 Kontroli, która -- kiedy spojrzymy poza sytuację ukraińską -- powinna nas cholernie niepokoić. **Deere jest w&nbsp;stanie zdalnie zablokować maszyny**.  
 Tutaj dotyczyło to dealera, więc nie mogę powiedzieć na sto procent, czy zachowuje taką samą kontrolę po tym, jak sprzęt zostaje sprzedany użytkownikom.
@@ -399,7 +399,7 @@ Ale pamiętajmy, że najwięcej skorzysta na tym Deere, bo wszystkie dane lecą 
 
 OK. Brak danych poszczególnych osób, tylko zagregowane. Ale mam wrażenie, że to nadal kopalnia informacji.
 
-Wyobrażam sobie na przykład, że jakiś fundusz rozpozna po danych na temat rozmiarów pól i&nbsp;upraw, że jakiś region dynamicznie się rozwija. I&nbsp;podkupią tereny wokół niego, żeby później je sprzedawać po zawyżonych cenach.
+Wyobrażam sobie na przykład, że jakiś fundusz rozpozna po danych na temat rozmiarów pól i&nbsp;upraw, że pewien region dynamicznie się rozwija. I&nbsp;podkupią tereny wokół niego, żeby później je sprzedawać po zawyżonych cenach.
 
 Poza tym w&nbsp;ten sposób giełdowi potentaci mogliby zobaczyć, że w&nbsp;jakimś kraju jest nieurodzaj. **Dowiedzieliby się o tym w&nbsp;pierwszej kolejności, wcześniej niż władze tegoż kraju**. Bo tuż po tym, jak kombajny przejadą przez pola.  
 Wiedząc o&nbsp;nieurodzaju, fundusze mogłyby zacząć grać na spadki, widząc pewny zysk. Zaś eksporterzy, wiedząc że kraj będzie zmuszony uzupełnić u&nbsp;nich zapasy, mogą celowo podwyższać ceny.
