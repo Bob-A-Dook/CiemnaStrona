@@ -97,11 +97,11 @@ Mając ten ogólny adres, przeglądarka wysyła pod niego prośbę o&nbsp;konkre
 Otrzymuje go, a&nbsp;strona wyświetla się na naszym ekranie. Dla wzrokowców schemat całej interakcji, czytamy od góry do dołu:
 
 {:.bigspace-before}
-<img src="/assets/posts/dns/internet-plus-dns-schemat.jpg" alt="Schemat pokazujący w&nbsp;dwóch linijkach interakcje podczas przeglądania internetu. W&nbsp;pierwszej linijce widać dwie strzałki między ikonami laptopa a&nbsp;serwera z&nbsp;napisem DNS. Nad górną strzałką widać kartkę z&nbsp;napisem 'ciemnastrona.com.pl' i&nbsp;znakiem zapytania. Zaraz pod nią widać strzałkę idącą od DNS-a do laptopa, z&nbsp;kartką, na której napisany jest adres. Druga linijka też zawiera dwie strzałki. Od laptopa do innego serwera wysyłana jest kartka z&nbsp;pytaniem o&nbsp;konkretny wpis. Zaraz pod nią jest ostatnia strzałka, od serwera do laptopa. Widać nad nią ikonę z&nbsp;logiem Ciemnej Strony." loading="lazy" width="800" height="600"/>
+<img src="/assets/posts/dns/internet-plus-dns-schemat.jpg" alt="Schemat pokazujący w&nbsp;dwóch linijkach interakcje podczas przeglądania internetu. W&nbsp;pierwszej linijce widać dwie strzałki między ikonami laptopa a&nbsp;serwera z&nbsp;napisem DNS. Nad górną strzałką widać kartkę z&nbsp;napisem 'ciemnastrona.com.pl' i&nbsp;znakiem zapytania. Zaraz pod nią widać strzałkę idącą od DNS-a do laptopa, z&nbsp;kartką, na której napisany jest adres. Druga linijka też zawiera dwie strzałki. Od laptopa do innego serwera wysyłana jest kartka z&nbsp;pytaniem o&nbsp;konkretny wpis. Zaraz pod nią jest ostatnia strzałka, od serwera do laptopa. Widać nad nią ikonę z&nbsp;logiem Ciemnej Strony." loading="lazy" width="800"/>
 
 {:.figcaption}
 Źródło tych i&nbsp;kolejnych ikon: Flaticon, ikony systemu Linux.  
-Dokładna lista [pod koniec wpisu](#źródła-obrazków).
+Dokładna lista [pod koniec wpisu](#źródła-ikonek).
 
 ...Ale co, jeśli coś pójdzie nie tak?  
 Być może Ciemna Strona jest w&nbsp;jakimś obcym, odległym od Polski kraju cenzurowana. W&nbsp;takim wypadku zamiast upragnionej strony moglibyśmy zobaczyć jedynie pustkę. Albo stronę z&nbsp;ostrzeżeniem.
@@ -136,7 +136,7 @@ Zatem **najczęściej korzystamy z&nbsp;tego, co nam ustawiła firma telekomunik
 Zaś dzięki tej kontroli może na przykład ustawić na prośbę rządu, żeby DNS wysyłał nieprawdziwą informację, gdy tylko zostanie zapytany o&nbsp;adres cenzurowanej strony.
 
 {:.bigspace}
-<img src="/assets/posts/dns/evil-dns.jpg" alt="Schemat podobny do poprzedniego. Pokazuje strzałkę z&nbsp;pytaniem o&nbsp;domenę ciemnastrona.com.pl. Wychodzi ona od laptopa do serwera z&nbsp;napisem DNS, na który tym razem nałożonę emotkę uśmiechniętego diabełka. Poniżej widać strzałkę idącą od złego serwera do laptopa, a&nbsp;na niej napis 'Nie wiem'." loading="lazy" width="800" height="321"/>
+<img src="/assets/posts/dns/evil-dns.jpg" alt="Schemat podobny do poprzedniego. Pokazuje strzałkę z&nbsp;pytaniem o&nbsp;domenę ciemnastrona.com.pl. Wychodzi ona od laptopa do serwera z&nbsp;napisem DNS, na który tym razem nałożonę emotkę uśmiechniętego diabełka. Poniżej widać strzałkę idącą od złego serwera do laptopa, a&nbsp;na niej napis 'Nie wiem'." loading="lazy" width="800"/>
 
 **To najczęściej stosowana metoda cenzury. Jest dla rządów prosta, bo wystarczy wysłać oficjalne żądanie do firmy telekomunikacyjnej**. Jest też dość skuteczna, bo wielu użytkowników korzysta z&nbsp;domyślnych DNS-ów i&nbsp;nie ma pojęcia, jak je zmienić.
 
@@ -171,7 +171,7 @@ Tym niemniej DNS nadal może wyrządzić nam złośliwość. Na nasze pytanie o&
 Nie trafimy wtedy na żadną stronę, ale w&nbsp;naszej przeglądarce wyświetli się charakterystyczny błąd.
 
 {:.figure .bigspace}
-<img src="/assets/posts/dns/dns-nxdomain.jpg" alt="Komunikat mówiący, że nie udało się wyświetlić domeny. Jej nazwa jest zamazana, a&nbsp;pod spodem widać kod błędu DNS_PROBE_FINISHED_NXDOMAIN" loading="lazy" width="429" height="230"/>
+<img src="/assets/posts/dns/dns-nxdomain.jpg" alt="Komunikat mówiący, że nie udało się wyświetlić domeny. Jej nazwa jest zamazana, a&nbsp;pod spodem widać kod błędu DNS_PROBE_FINISHED_NXDOMAIN" loading="lazy" width="429"/>
 
 Jeśli go zobaczymy, to warto zacząć się rozglądać za sposobem na obejście cenzury. Parę przykładowych za moment.
 
@@ -184,7 +184,7 @@ Kiedy cokolwiek wysyłamy w&nbsp;sieć -- również prośby o&nbsp;konkretne str
 Nasza prośba o&nbsp;stronkę zapewne będzie przechodziła przez infrastrukturę firmy telekomunikacyjnej -- ich routery i&nbsp;inne bajery. Całkiem możliwe, że **spojrzą na adres IP, zobaczą że jest na liście stron blokowanych i&nbsp;nie prześlą naszej prośby dalej**. Nie dostaniemy upragnionej stronki.
 
 {:.bigspace}
-<img src="/assets/posts/dns/evil-router.jpg" alt="Schemat pokazujący, jak od laptopa odchodzi strzałka i&nbsp;trafia do routera ozdobionego emotką uśmiechniętego diabełka. Od routera wychodzi kolejna strzałka, skierowana do rysunkowego kosza na śmieci, a&nbsp;nad nią widać karteczkę zaadresowaną do 'abcd'. Po prawej stronie widać serwer podpisany 'abcd', do którego ostatecznie nie trafia żadna strzałka." loading="lazy" width="800" height="400"/>
+<img src="/assets/posts/dns/evil-router.jpg" alt="Schemat pokazujący, jak od laptopa odchodzi strzałka i&nbsp;trafia do routera ozdobionego emotką uśmiechniętego diabełka. Od routera wychodzi kolejna strzałka, skierowana do rysunkowego kosza na śmieci, a&nbsp;nad nią widać karteczkę zaadresowaną do 'abcd'. Po prawej stronie widać serwer podpisany 'abcd', do którego ostatecznie nie trafia żadna strzałka." loading="lazy" width="800"/>
 
 Jeśli to taka skuteczna metoda, to dlaczego nie jest częściej stosowana?
 
@@ -228,7 +228,7 @@ Po prostu **zabieramy laptopa na spacer do kawiarni lub galerii handlowej, tam p
 Sprawdzałem na systemach Windows i&nbsp;Linux Mint, tu przykład z&nbsp;tego drugiego:
 
 {:.figure .bigspace-before}
-<img src="/assets/posts/dns/hotspot-galeria-dns.jpg" alt="Zrzut ekranu okna z&nbsp;informacjami na temat hotspota w&nbsp;Galerii Krakowskiej. Czerwoną ramką otoczona pola zawierające liczbowe adresy DNS-ów" loading="lazy" width="437" height="419"/>
+<img src="/assets/posts/dns/hotspot-galeria-dns.jpg" alt="Zrzut ekranu okna z&nbsp;informacjami na temat hotspota w&nbsp;Galerii Krakowskiej. Czerwoną ramką otoczona pola zawierające liczbowe adresy DNS-ów" loading="lazy" width="437"/>
 
 {:.figcaption}
 Hotspot w&nbsp;pewnej galerii. Proponuje nam dwa adresy DNS, podstawowy i&nbsp;rezerwowy. O&nbsp;ile nie ustawiliśmy własnego, to nasz komputer skorzysta z&nbsp;któregoś z nich.
@@ -336,7 +336,7 @@ Istnieją również liczne komercyjne VPN-y, których jednak nie będę tutaj wy
 ### Zmiana DNS-a
 
 {:.figure}
-<img src="/assets/posts/dns/dns-graffiti.jpg" alt="Zdjęcie pokazujące napisy na fasadzie tureckiego budynku. Wskazują one dwa adresy DNS do ominięcia cenzury: jeden złożony z&nbsp;czterech ósemek, a&nbsp;drugi z&nbsp;dwóch ósemek i&nbsp;dwóch czwórek." loading="lazy" width="624" height="351">
+<img src="/assets/posts/dns/dns-graffiti.jpg" alt="Zdjęcie pokazujące napisy na fasadzie tureckiego budynku. Wskazują one dwa adresy DNS do ominięcia cenzury: jeden złożony z&nbsp;czterech ósemek, a&nbsp;drugi z&nbsp;dwóch ósemek i&nbsp;dwóch czwórek." loading="lazy" width="624"/>
 
 {:.figcaption}
 Kiedy rząd Turcji zablokował w&nbsp;2014 roku Twittera, ludzie wypisywali sprejem na ścianach adres DNS-a, który pozwoliłby ominąć cenzurę (tu akurat DNS od Google'a).  
