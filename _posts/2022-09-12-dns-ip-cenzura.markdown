@@ -121,19 +121,19 @@ Przybliżmy teraz różne metody cenzurowania treści w&nbsp;internecie.
 
 Wspomniałem wyżej, że DNS jest jak *książka adresowa internetu* i&nbsp;że to do niego zwraca się nasza przeglądarka. Ale to dość szczątkowe informacje. Czym on jest, do kogo należy?
 
-Odpowiedź: DNS (*Domain Name System*) to całe skupisko serwerów -- mocnych komputerów odpowiadających na zapytania internautów.
+Odpowiedź: każdy DNS (*Domain Name System*) to skupisko serwerów -- mocnych komputerów odpowiadających na zapytania internautów o&nbsp;adresy domen.
 
-Pojedynczy serwer nie pomieściłby wszystkich adresów stron. Dlatego DNS ma ścisłą hierarchię. Jeśli nie zna jakiegoś adresu, o&nbsp;który go pytamy, to „przekazuje pytanie wyżej”. W&nbsp;korpojęzyku: *eskaluje*.  
+Dlaczego skupisko? Bo pojedynczy serwer nie pomieściłby wszystkich adresów stron. W&nbsp;obrębie DNS-ów obowiązuje ścisła hierarchia. Gdy serwer nie zna adresu, o&nbsp;który go pytamy, to „przekazuje pytanie wyżej”. W&nbsp;korpojęzyku: *eskaluje*.  
 Któryś z&nbsp;serwerów powinien wiedzieć, jaki jest adres szukanej przez nas strony.
 
-Zresztą *System* w&nbsp;liczbie pojedynczej może trochę przekłamywać, bo *nie ma czegoś takiego jak pojedynczy, ogólnoświatowy DNS*.
+Napisałem „*każdy* DNS”, bo liczba pojedyncza mogłaby przekłamywać. *Nie ma czegoś takiego jak pojedynczy, ogólnoświatowy DNS*.
 
-Często każda firma telekomunikacyjna daje nam własny. Zapewne wpięty w&nbsp;coś globalniejszego, ale poza tym kontrolowany przez nią. W&nbsp;Polsce takimi telekomami są na przykład Play i&nbsp;Orange.
+Często każda firma telekomunikacyjna daje nam własny. Zapewne wpięty w&nbsp;coś globalniejszego, żeby zachować aktualność informacji. Ale poza tym kontrolowany przez nią. W&nbsp;Polsce takimi telekomami są na przykład Play i&nbsp;Orange.
 
 A w&nbsp;jaki sposób go „daje”? Ano w&nbsp;taki, że w&nbsp;momencie łączenia się z&nbsp;internetem nasz punkt dostępu -- czyli na przykład router albo telefon, jeśli korzystamy z&nbsp;sieci mobilnej -- proponuje nam adres DNS-a ustawiony przez producenta.
 
 Zatem **najczęściej korzystamy z&nbsp;tego, co nam ustawiła firma telekomunikacyjna. Zapewne ich własnego DNS-a, nad którym mają kontrolę**.  
-Zaś dzięki tej kontroli może na przykład ustawić na prośbę rządu, żeby DNS wysyłał nieprawdziwą informację, gdy tylko zostanie zapytany o&nbsp;adres cenzurowanej strony.
+Zaś dzięki tej kontroli mogą na przykład ustawić na prośbę rządu, żeby ich DNS wysyłał nieprawdziwą informację, gdy zostanie zapytany o&nbsp;adres cenzurowanej strony.
 
 {:.bigspace}
 <img src="/assets/posts/dns/evil-dns.jpg" alt="Schemat podobny do poprzedniego. Pokazuje strzałkę z&nbsp;pytaniem o&nbsp;domenę ciemnastrona.com.pl. Wychodzi ona od laptopa do serwera z&nbsp;napisem DNS, na który tym razem nałożonę emotkę uśmiechniętego diabełka. Poniżej widać strzałkę idącą od złego serwera do laptopa, a&nbsp;na niej napis 'Nie wiem'." loading="lazy" width="800"/>
