@@ -12,9 +12,6 @@ image:
    path: /assets/posts/youtube/youtube-baner.jpg
    width: 1200
    height: 700
-
-image-width: 1200
-image-height: 700
 ---
 
 Już dawno nie było na blogu wpisu o&nbsp;Google, czas to zmienić!

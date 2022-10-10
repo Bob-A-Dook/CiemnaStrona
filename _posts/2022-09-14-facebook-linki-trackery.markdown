@@ -103,20 +103,20 @@ Ale to dowód anegdotyczny. Może Fejs wdraża zmiany stopniowo, a&nbsp;linki id
 
 # Opinie innych
 
-Zarówno pod pierwotnym artykułem na Ghacks, jak też w&nbsp;[wątku na forum HackerNews](https://news.ycombinator.com/item?id=32117489), pojawiły się komentarze twierdzące, że widzą taki sam link jak autor i&nbsp;[nie dostali nic innego](https://news.ycombinator.com/item?id=32120262).
+Zarówno pod pierwotnym artykułem na Ghacks, jak też w&nbsp;[wątku na forum HackerNews](https://news.ycombinator.com/item?id=32117489), pojawiły się komentarze osób piszących, że widzą taki sam link jak autor i&nbsp;[nie dostali nic innego](https://news.ycombinator.com/item?id=32120262).
 
-Znalazłem też ciekawy [wpis z&nbsp;polemiką](https://ws-dl.blogspot.com/2022/07/2022-07-19-review-of-facebook-has.html). Autor, Michael Nelson, również nie potwierdza, jakoby linki umożliwiały rozróżnianie między ludźmi. Zauważa natomiast trzy bardzo ciekawe rzeczy:
+Znalazłem też ciekawy [wpis polemizujący z&nbsp;Ghacks](https://ws-dl.blogspot.com/2022/07/2022-07-19-review-of-facebook-has.html). Autor, Michael Nelson, również nie potwierdza, jakoby linki umożliwiały rozróżnianie między ludźmi. Zauważa natomiast trzy bardzo ciekawe rzeczy:
 
 * Zmiana weszła w&nbsp;okolicach 4&nbsp;kwietnia. Odkrył to, przeszukując archiwa internetowe pod kątem tekstu *pfbid*;
 * W&nbsp;nowym systemie **może istnieć kilka różnych linków do tego samego posta**.
 
   Podaje jako przykład trzy różne odnośniki do jednego posta Ghacks. Czarno na białym widzimy, że *pfbid* nie jest stały i&nbsp;unikalny na poziomie posta, jak dawne identyfikatory.
 
-* Zmiana zapewne uderzy w&nbsp;archiwa internetowe.
+* Zmiana zapewne uderzy w&nbsp;użytkowników archiwów internetowych, utrudniając wyszukiwanie po linkach.
 
-  X&nbsp;znajduje na forum link do kontrowersyjnego posta na Facebooku. Próbuje w&nbsp;niego wejść, ale post już został usunięty.  
-  No ale na pewno ktoś wrzucił taką perełkę do archiwum, póki jeszcze wisiała? Zatem X&nbsp;wkleja odnośnik w&nbsp;jakieś *archive.ph*. Wyświetla się informacja, że nikt nie zarchiwizował takiej strony.  
-  Mimo że tak naprawdę jak najbardziej jest w&nbsp;archiwum. Tylko że pod innym linkiem -- takim, jaki widziała osoba archiwizująca w&nbsp;chwili kopiowania. Innym niż ten na forum.
+  Przykład? X&nbsp;znajduje na forum link do kontrowersyjnego posta z&nbsp;Facebooka. Próbuje w&nbsp;niego wejść, ale post już został usunięty.  
+  No ale na pewno ktoś wrzucił taką perełkę do archiwum, póki jeszcze wisiała? Zatem X&nbsp;wkleja odnośnik w&nbsp;wyszukiwarkę *archive.ph*. Wyświetla się informacja, że nikt nie zarchiwizował takiej strony. X&nbsp;odchodzi z&nbsp;niczym.  
+  Mimo że tak naprawdę post jak najbardziej jest w&nbsp;archiwum. Tylko że pod innym linkiem -- takim, jaki widziała osoba archiwizująca w&nbsp;chwili kopiowania. Innym niż ten na forum.
 
 # Wnioski
 
@@ -147,7 +147,7 @@ Zatem *pfbid* nie musi mieścić w&nbsp;sobie wszystkich linków dla wszystkich 
 
 To intuicja, bo ekspertem nie jestem. Ale wydaje mi się, że **gdyby Facebook chciał, to mógłby przejść do linków unikalnych na poziomie ludzi**. Rozszerzyć ich rzekomo obronne funkcje. Tu i&nbsp;teraz, bez kolejnej zmiany formatu. A&nbsp;z naszego punktu widzenia zmiana byłaby cicha i&nbsp;niezauważalna.
 
-Co więcej -- **takich identyfikatorów nie dałoby się usuwać**. Spróbowalibyśmy to zmienić na inny ciąg znaków? Popsulibyśmy link, prowadziłby do nieistniejącej strony. Zostawilibysmy? To by nas identyfikowało.
+Co więcej -- **takich identyfikatorów nie dałoby się usuwać**. Spróbowalibyśmy to zmienić na inny ciąg znaków? Popsulibyśmy link, prowadziłby do nieistniejącej strony. Zostawilibyśmy? To by nas identyfikowało.
 
 ## Stare linki
 
@@ -155,7 +155,7 @@ Nowe linki zostały z&nbsp;nami jak uśpieni agenci, którzy może okażą kiedy
 
 W tej całej aferze wiele osób pomija jednak jedną zasadniczą kwestię -- **Facebook już wcześniej mógł śledzić użytkowników poprzez linki**.
 
-Pokażę tu kilka dodawanych do nich informacji, które pozwalają zarówno Facebookowi, jak i&nbsp;jego partnerom rozpoznawać konkretne osoby.
+Pokażę tu kilka dodawanych do nich informacji. Mogłyby umożliwić zarówno Facebookowi, jak i&nbsp;jego partnerom rozpoznawanie konkretnych osób.
 
 ### Parametry
 
@@ -178,8 +178,8 @@ Niektóre strony internetowe żyją z&nbsp;Facebookiem w&nbsp;symbiozie. Płacą
 
 Często link ukryty w&nbsp;takiej reklamie zawiera parametry specjalne, zaczynające się od `utm`. Mówią firmie, że dany użytkownik przychodzi z&nbsp;Facebooka. Taki odpowiednik pytania „Skąd pan(-i) o&nbsp;nas usłyszał(-a)” z&nbsp;ankiety, tyle że to cyfrowe i&nbsp;dzieje się w&nbsp;tle. Raczej niegroźna rzecz.
 
-Czasem jednak do linków jest dodawany **parametr `fbclid`, który już wskazuje konkretnego użytkownika**. Nie z&nbsp;imienia i&nbsp;nazwiska. Ale [pokazuje firmie](https://stackoverflow.com/questions/52847475/what-is-fbclid-the-new-facebook-parameter), że pewne reklamy klika jedna i&nbsp;ta sama osoba.  
-A jeśli kiedyś dokona zakupu na stronie, to numer zyska tożsamość. Firma będzie wiedziała, do czego dany klient ma słabość.
+Czasem jednak do linków jest dodawany **parametr `fbclid`, który już wskazuje konkretnego użytkownika**. Nie z&nbsp;imienia i&nbsp;nazwiska. Ale [pokazuje firmie](https://stackoverflow.com/questions/52847475/what-is-fbclid-the-new-facebook-parameter), że pewne jej reklamy klika jedna i&nbsp;ta sama osoba.  
+Jeśli ta osoba kiedyś coś kupi po wejściu w&nbsp;link, to numer zyska tożsamość. Firma będzie wiedziała, do czego dany klient ma słabość.
 
 {% include info.html
 type="Ciekawostka"
@@ -202,9 +202,14 @@ Już od jakiegoś czasu interesuję się tym parametrem. O&nbsp;jego usuwaniu pi
 Dotychczasowe fakty, jakie odkryłem na jego temat:
 
 * Ktoś [pytał o&nbsp;niego](https://stackoverflow.com/questions/64092454/what-is-the-purpose-of-the-new-cft-0-and-tn-parameters-in-facebook-po) na słynnym forum StackOverflow, ale nie dostał odpowiedzi.
+* Występuje w&nbsp;wersji na komputery (*www.facebook.com*). Nie pojawia się w&nbsp;wersji mobilnej ani uproszczonej (*m.facebook.com* oraz *mbasic.facebook.com*). Linki z&nbsp;tych stron zawierają natomiast nieco inne, krótsze ciągi znaków.
 * Dodawany przez Facebooka do niemal wszystkich linków do postów. A&nbsp;także do komentarzy pod nimi.
 * Nie jest dodawany m.in. do filmów, te mają format `<PROFIL>/videos/<LICZBA>`. Ani do komentarzy pod nimi.
 * Jego wartość ma długość 216&nbsp;znaków.
+
+  {:.post-meta}
+**Aktualizacja:** od czasu stworzenia wpisu znalazłem również parametry *cft* z krótszymi wartościami. Raz 110&nbsp;znaków, innym razem 174. Nie znalazłem w&nbsp;tym póki co reguły. Tym niemniej długie ciągi również się trafiają.
+
 * Sam początek regularny, często (zawsze?) zaczyna się od liter *AZ*. Trzecia litera to często coś z&nbsp;dalszej części alfabetu. *U*, *V*, *W*, *X*...  
   Przykład? [Wystąpienia](https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=facebook%20cft%20AZ&sort=byDate&type=all) na forum Hacker News.
  
@@ -226,14 +231,14 @@ Ogólnie sprawa tajemnicza i&nbsp;nieco podejrzana. Ale ostatni punkt dodaje otu
 Niezależnie od celu linków możemy się zastanowić nad ich sensownością.
 
 W lwiej części przypadków **zapewne niczego cennego Fejsowi nie przyniosły**. Wyobrażam sobie, że wiele osób udostępniło je co najwyżej swoim znajomym przez Messengera. Który i&nbsp;tak jest własnością FB, więc znają tożsamość udostępniaczy.  
-A jednak Facebook mocno nadmuchał swoje linki:
+Mimo to Facebook od lat napycha do swoich linków nowe rzeczy:
 
-* Identyfikator z&nbsp;*pfbid* liczy 72&nbsp;znaki, czyli o&nbsp;56 więcej niż poprzednie.
-* Sam parametr *cft* to 227&nbsp;znaków (pełna nazwa + wartość).
-* Parametr *tn* to 16&nbsp;znaków (nazwa + wartość)
+* Nowy identyfikator *pfbid* liczy 72&nbsp;znaki, czyli o&nbsp;56 więcej niż poprzedni.
+* Sam parametr *cft* może liczyć w&nbsp;niektórych przypadkach nawet 227&nbsp;znaków (pełna nazwa plus wartość).
+* Parametr *tn* to 16&nbsp;znaków (nazwa plus wartość)
 * Obecność powyższej dwójki oznacza też znak zapytania i&nbsp;łącznik. 2&nbsp;kolejne znaki.
 
-Łącznie każdy link Facebooka rozdyma się o&nbsp;301 znaków. **Z czego 245&nbsp;-- te związane z&nbsp;parametrami -- da się bezkarnie usuwać**.
+Łącznie każdy link Facebooka może rozdymać się aż o&nbsp;301 znaków. **Z&nbsp;czego&nbsp;245 -- te związane z&nbsp;parametrami -- da się bezkarnie usuwać**.
 
 Problem w&nbsp;tym, że mało kto o&nbsp;tym wie. I&nbsp;linki są udostępniane w&nbsp;postaci nieoczyszczonej -- na samym Facebooku, Messengerze, stronkach całkiem zewnętrznych.   
 Wyobraźmy sobie, ile się tego nazbiera w&nbsp;skali świata. Ile giga- albo terabajtów zostanie zapchanych samymi tylko wartościami *cft* oraz *tn*.
@@ -268,7 +273,8 @@ Można również skorzystać z&nbsp;dodatku do przeglądarki takiego jak **Clear
 
 # Rozwiązanie problemów z&nbsp;pfbid
 
-Znalazłem na nowe linki pewien trik, który omawiam pod sam koniec. Ale na razie załóżmy, że nie działa, a&nbsp;one po cichu nabyły możliwość śledzenia.
+Jak wspomniałem, chwilowo nowe linki są raczej niegroźne. Poza tym znalazłem na nie pewien trik, który omawiam pod sam koniec.  
+Ale na razie załóżmy najgorszy scenariusz. Trik nie działa, a&nbsp;linki po cichu zyskały możliwość identyfikowania użytkowników.
 
 Co w&nbsp;takim wypadku zrobić, jeśli absolutnie musimy udostępnić link z&nbsp;Fejsa, a&nbsp;nie chcemy go wiązać z&nbsp;naszą tożsamością?
 
@@ -280,9 +286,11 @@ Inna opcja? Zamiast wrzucać bezpośrednie linki, możemy **robić screeny albo 
 * datę jego dodania;
 * fragment tekstu, który pozwoliłby go wyszukać.
 
-Przy tylu informacjach osoba zainteresowana mogłaby łatwo znaleźć wskazanego posta. A&nbsp;gdyby zainteresowana nie była, to nawet link bezpośredni by nie pomógł.
+Przy tylu informacjach osoba zainteresowana mogłaby łatwo znaleźć wskazanego posta. A&nbsp;gdyby zainteresowana nie była, to nawet bezpośrednie podesłanie by nie pomogło.
 
-Jeśli archiwizujemy treści z&nbsp;FB, to umieszczajmy w&nbsp;jakimś miejscu (na przykład w&nbsp;osobnym wpisie na Twitterze) informację łączącą link z&nbsp;treścią, jakimś fragmentem tekstu itp. Żeby poszukiwacze mieli kilka sposobów dotarcia do źródła.
+A co mogą zrobić internetowi archiwiści, kiedy linki przestaną być dobry sposobem na znalezienie postów?
+
+Jeśli archiwizujemy treści z&nbsp;FB, to umieszczajmy w&nbsp;jakimś miejscu (na przykład w&nbsp;osobnym wpisie na Twitterze) kontekst związany z&nbsp;danym linkiem. Nazwy postaci, jakiś fragment tekstu itp. Żeby poszukiwacze mieli kilka sposobów dotarcia do źródła.
 
 Przydałaby się też współpraca ze strony archiwów -- możliwość tagowania znalezisk, przeszukiwania po tekście itp. Żeby linki nie były jedynym sposobem uzyskania dostępu.
 
@@ -303,24 +311,38 @@ Kolejny cel -- okrągła setka. Mam nadzieję, że jeszcze się tu spotkamy w&nb
 
 Przeglądając wątek na HackerNews, znalazłem prawdziwy skarb -- [sposób](https://news.ycombinator.com/item?id=32118393) na skonwertowanie linków w&nbsp;nowym stylu na wersję dawną, pozbawioną *pfbid*. Wymaga szczypty zachodu, więc zostawiłem go na koniec.
 
-W tym celu kopiujemy cały taki link. Możemy z&nbsp;niego usunąć parametry.  
-Musimy teraz zamienić go na bezpieczną postać, zastępując dwukropek i&nbsp;ukośniki. Można nawet zwykłą opcją *Znajdź i&nbsp;zamień*.  
-`/` na `%2F`. `:` na `%3A`.
+Najpierw kopiujemy cały link z&nbsp;*pfbid*. Możemy z&nbsp;niego usunąć parametry.  
+Musimy teraz zamienić go na bezpieczną postać, zastępując dwukropek na początku. Można nawet całkiem ręcznie. Zmieniamy `:` na `%3A`.
 
-Następnie wklejamy go zamiast czerwonego tekstu `LINK` w&nbsp;poniższym adresie:
+{:.post-meta .bigspace}
+Odkryłem, że tylko zmiana dwukropka była obowiązkowa na moich przeglądarkach. Ale inne przekształcenia, jak zmianę każdego `/` na `%2F`, również można wykonać bez obaw.
+
+Jeśli nie obawiamy się o kwestie prywatności, możemy zamienić niewygodne znaki, używając stronki [takiej jak Utilities Online](https://www.utilities-online.info/urlencode).
+
+Następnie kopiujemy do paska poniższy adres (nazwę go umownie *konwerterem*):
 
 <div class="black-bg mono bigspace">
 https://www.facebook.com/plugins/post.php?href=<span class="red">LINK</span>
 </div>
 
-Całość wklejamy do paska przeglądarki. W&nbsp;tej wersji link przykładowy z&nbsp;początku wpisu wyglądałby tak:
+Zamiast czerwonego tekstu `LINK` wklejamy nasz bezpieczny link otrzymany wcześniej. I&nbsp;gotowe.
+
+Zobaczmy całość na przykładzie. Przypomnę tu link przykładowy z&nbsp;*pfbid* z&nbsp;początku wpisu:
+
+{:.bigspace}
+<div class="black-bg mono">
+https://www.facebook.com/ghacksnet/posts/pfbid0Q4Wc82MvTP8FSLpUHc4vn4jY2YTzhH6D2YZQZXDc5srYrnTXnHkiaZzv4LeRpY4Al?__cft__[0]=x&__tn__=%2CO%2CP-R
+</div>
+
+Po usunięciu parametrów, zamianie niewygodnych elementów i doklejeniu do linku-konwertera otrzymamy takie coś:
 
 <div class="black-bg mono bigspace">
 https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fghacksnet%2Fposts%2Fpfbid0Q4Wc82MvTP8FSLpUHc4vn4jY2YTzhH6D2YZQZXDc5srYrnTXnHkiaZzv4LeRpY4Al
 </div>
 
-Kiedy w&nbsp;to wejdziemy, to zobaczymy sam post, bez reszty interfejsu. Nawet jeśli nie jesteśmy zalogowani na konto. A&nbsp;po najechaniu na jego datę dodania zobaczymy link w&nbsp;starym dobrym stylu. Można go sobie skopiować na później.  
-Albo nazbierać przykładów i&nbsp;spróbować rozgryźć, jakiego mechanizmu używa FB do konwersji z&nbsp;nowych na stare.
+Kiedy w&nbsp;to wejdziemy, to zobaczymy sam post, bez reszty interfejsu. Nawet jeśli nie jesteśmy zalogowani na konto. A&nbsp;po najechaniu na jego datę dodania zobaczymy link w&nbsp;starym dobrym stylu, z krótszym identyfikatorem.
+
+Można go sobie skopiować na później. Albo nazbierać przykładów i&nbsp;spróbować rozgryźć, jakiego mechanizmu używa FB do konwersji z&nbsp;nowych na stare.
 
 Oczywiście **bardzo możliwe, że z&nbsp;czasem usuną tę furtkę**. Więc cieszmy się nią, póki jest!
 
