@@ -150,7 +150,11 @@ Niepokorni mogą jednak „złamać” swój telefon i&nbsp;zyskać nad nim peł
 Rzadko bo rzadko, ale warstwa „jądrowa” potrafi być wobec nas również szpiegiem.  
 Twórcy gier z&nbsp;serii *Call of Duty* wymagali zainstalowania oprócz nich tak zwanego rozszerzenia jądra (*kernel extension*). To coś jak dodatek do programu, tylko że instalowany głębiej w&nbsp;bebechach systemu.
 
-W ten sposób gracze (poziom warstwy systemu) mieli kontrolę nad grą (warstwa programów), ale rozszerzenie umieszczone poza ich zasięgiem (warstwa jądra) miało kontrolę nad tym, co z&nbsp;nią robią.  
+W ten sposób gracze (poziom warstwy systemu) mieli kontrolę nad grą (warstwa programów), ale rozszerzenie umieszczone poza ich zasięgiem (warstwa jądra) miało kontrolę nad tym, co z&nbsp;nią robią.
+
+{:.bigspace}
+<img src="/assets/posts/apki/gra-kernel-extensions.jpg" alt="Dwa warianty piramidy. Pierwsza z nich zawiera dwie warstwy. W górnej z nich, podpisanej programy, mamy emotkę diabełka. Poniżej, w warstwie 'System operacyjny' mamy emotkę z aureolą. Pod schematem jest podpis mówiący, że dobra emota wygrywa. Schemat pod spodem jest identyczny, ale zawiera pod spodem dodatkowo warstwę o nazwie 'jądro systemu', z emotką diabełka. Podpis mówi, że diabełek wygrywa." width="500px"/>
+
 Wszystko to [oficjalnie dla walki z&nbsp;oszustami](https://www.howtogeek.com/761510/pc-games-are-installing-low-level-drivers-in-windows/). Co nie zmienia faktu, że wymagało wpuszczenia obcej firmy głęboko w&nbsp;swój system.
 
 ### Firmware i&nbsp;hardware
@@ -246,6 +250,7 @@ Tym akcentem zakończę. W&nbsp;kolejnych wpisach dowiemy się więcej -- i&nbsp
 * ikona [strzałek](https://www.flaticon.com/free-icon/transaction_7789028) -- Flaticon, autorstwa NextGen;
 * ikona [mikrofonu](https://emojipedia.org/microphone/) -- emoji od JoyPixels;
 * ikona [sygnału wi-fi](https://www.flaticon.com/free-icon/wifi_2099193) -- Flaticon, autorstwa Freepik;
-* ikona [aparatu fotograficznego]() -- emoji od Microsoftu;
+* ikona [buźki z aureolą](https://emojipedia.org/smiling-face-with-halo/) -- emoji od Facebooka;
+* ikony [aparatu fotograficznego](https://emojipedia.org/camera/) i [diabełka](https://emojipedia.org/smiling-face-with-horns/) -- emoji od Microsoftu;
 * ikony programów Signal, Firefox, uBlock Origin, SingleFile.
 
