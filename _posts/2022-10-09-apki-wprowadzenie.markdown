@@ -4,7 +4,7 @@ title:  "Apki to pułapki 1 – podstawy"
 subtitle: "Gdy wpuścimy szpiega do siebie."
 description: "Gdy wpuścimy szpiega do siebie"
 date:   2022-10-09 22:37:00 +0100
-tags: [Android, Programy, Inwigilacja, Podstawy]
+tags: [Android, Apki, Inwigilacja, Podstawy]
 category: apki
 category_readable: "Apki to pułapki"
 image:
@@ -23,10 +23,10 @@ Strony: *messenger.com*, *gmail.com*, *amazon.com*, *reddit.com*.
 Gdybyśmy je odwiedzali przez komputer, to po prostu by nam się wyświetliła strona.
 
 Dlaczego właścicielom stron tak zależy na tym, żebyśmy zainstalowali ich aplikację? Skoro strona i&nbsp;tak działa?  
-Czasem mają jakiś sensowny powód, dla którego to robią. Na przykład potrzebują (coraz rzadszych) funkcji, których nie daje im nasza przeglądarka. **Ale często motywuje ich chęć zbierania danych**.
+Czasem mają jakiś sensowny powód. Na przykład potrzebują (coraz rzadszych) funkcji, których nie daje im nasza przeglądarka. **Ale często motywuje ich chęć zbierania danych**.
 
 W innej mojej serii, [„Internetowej inwigilacji”](/serie/internetowa_inwigilacja/){:.internal}, omawiałem nieco węższy przypadek. Sytuację, kiedy surfujemy po internecie, korzystając z&nbsp;*przeglądarki*.  
-To konkretny, dość specyficzny rodzaj programu. Ujawnia obcym (najczęściej dużym firmom z&nbsp;branży reklam śledzących) tylko wybrane rzeczy.
+To konkretny, dość specyficzny rodzaj programu. Ujawnia podglądaczom (najczęściej dużym firmom z&nbsp;branży reklam śledzących) tylko wybrane rzeczy.
 
 Analizowanie nas na podstawie tego, co nasz komputer wyśle w&nbsp;internet, jest trochę jak rozmowa z&nbsp;nami przez zamknięte drzwi mieszkania.
 
@@ -89,11 +89,11 @@ Natomiast miejmy na uwadze, że jak najbardziej mogą istnieć programy -- z&nbs
 
 ### Dodatki do programów
 
-Wiele programów, zwłaszcza mniejszych, stanowi zamkniętą całość. Jasne, możemy podrzucać im różnorodne pliki. Ale ramy działania narzucają twórcy.
+Wiele programów, zwłaszcza mniejszych, stanowi zamkniętą całość. Jasne, możemy podrzucać im różne pliki wedle własnego uznania. Ale ramy działania narzucają twórcy.
 
 Czasem jednak ludzie chcą elastyczności. Możliwości dopasowania programów do własnych potrzeb. Z&nbsp;tego względu ich twórcy dają możliwość tworzenia niezależnych dodatków.
 
-Dodatki same są mini-programami, napisanymi w&nbsp;języku programowania „zrozumiałym” dla programu macierzystego.  
+Dodatki same są mini-programami, napisanymi w&nbsp;języku „zrozumiałym” dla programu macierzystego.  
 Jednocześnie są od tego programu całkiem zależne i&nbsp;**nie są w&nbsp;stanie zyskać większych możliwości niż on** -- jeśli na przykład wyłączymy Firefoksowi dostęp do internetu, to zainstalowane na nim dodatki również nie będą w&nbsp;stanie się połączyć.
 
 Do tej pory siłą rzeczy omawiałem tylko dodatki przeglądarkowe, w&nbsp;szczególności uBlock Origin (blokujący reklamy śledzące na odwiedzanych stronach).
@@ -147,13 +147,13 @@ W przypadku systemów mobilnych **Google i&nbsp;Apple ograniczają nam dostęp**
 
 Niepokorni mogą jednak „złamać” swój telefon i&nbsp;zyskać nad nim pełnię władzy. W&nbsp;przypadku Androida taki proces nazywa się *rooting*, a&nbsp;w przypadku iOS -- *jailbreaking*.
 
-Rzadko bo rzadko, ale warstwa „jądrowa” potrafi być wobec nas również szpiegiem.  
+Rzadko bo rzadko, ale warstwa „jądrowa” potrafi być przeciw nam.  
 Twórcy gier z&nbsp;serii *Call of Duty* wymagali zainstalowania oprócz nich tak zwanego rozszerzenia jądra (*kernel extension*). To coś jak dodatek do programu, tylko że instalowany głębiej w&nbsp;bebechach systemu.
 
-W ten sposób gracze (poziom warstwy systemu) mieli kontrolę nad grą (warstwa programów), ale rozszerzenie umieszczone poza ich zasięgiem (warstwa jądra) miało kontrolę nad tym, co z&nbsp;nią robią.
+W ten sposób gracze (warstwa systemu) mieli kontrolę nad grą (warstwa programów), ale rozszerzenie umieszczone poza ich zasięgiem (warstwa jądra) miało kontrolę nad tym, co z&nbsp;nią robią.
 
 {:.bigspace}
-<img src="/assets/posts/apki/gra-kernel-extensions.jpg" alt="Dwa warianty piramidy. Pierwsza z nich zawiera dwie warstwy. W górnej z nich, podpisanej programy, mamy emotkę diabełka. Poniżej, w warstwie 'System operacyjny' mamy emotkę z aureolą. Pod schematem jest podpis mówiący, że dobra emota wygrywa. Schemat pod spodem jest identyczny, ale zawiera pod spodem dodatkowo warstwę o nazwie 'jądro systemu', z emotką diabełka. Podpis mówi, że diabełek wygrywa." width="500px"/>
+<img src="/assets/posts/apki/gra-kernel-extensions.jpg" alt="Dwa warianty piramidy. Pierwsza z nich zawiera dwie warstwy. W górnej z nich, podpisanej 'Programy', mamy emotkę diabełka. Poniżej, w warstwie 'System operacyjny' mamy emotkę z aureolą. Pod schematem jest podpis mówiący, że dobra emota wygrywa. Schemat pod spodem jest identyczny, ale ma na samym dole dodatkową warstwę o nazwie 'jądro systemu', z emotką diabełka. Podpis mówi, że diabełek wygrywa." width="500px"/>
 
 Wszystko to [oficjalnie dla walki z&nbsp;oszustami](https://www.howtogeek.com/761510/pc-games-are-installing-low-level-drivers-in-windows/). Co nie zmienia faktu, że wymagało wpuszczenia obcej firmy głęboko w&nbsp;swój system.
 
@@ -171,7 +171,7 @@ Rzeczy kluczowe, jak procesor, są dużo ważniejsze. To sam dół naszej pirami
 
 **Firmy mogą w&nbsp;tym miejscu dodawać rzeczy wrogie użytkownikom, a&nbsp;my mamy prawie zerowe możliwości walki**. Kto tu umie przestrajać układy scalone i&nbsp;łamać szyfry?
 
-Stworzyłem kiedyś wpis na temat [Intel Management Engine]({% post_url 2021-07-27-intel-management-engine %}){:.internal} -- swoistego minikomputera od Intela. Zagnieżdżonego w&nbsp;tym kluczowym punkcie zapewne na życzenie ludków z&nbsp;Hollywood, pragnących zabezpieczeń antypirackich. Nieprzeniknionego, stanowiącego wymarzony cel dla hakerów.
+Stworzyłem kiedyś wpis na temat [Intel Management Engine]({% post_url 2021-07-27-intel-management-engine %}){:.internal} -- swoistego minikomputera od Intela. Zagnieżdżonego w&nbsp;tym kluczowym punkcie zapewne na życzenie ludków z&nbsp;Hollywood, pragnących zabezpieczeń antypirackich. IME jest nieprzenikniony i&nbsp;stanowi wymarzony cel dla hakerów.
 
 A takich elementów tylko przybywa. Apple jakiś czas temu planowało wprowadzenie systemu [wykrywania i&nbsp;zgłaszania nielegalnych obrazków](https://cyberdefence24.pl/bezpieczenstwo-informacyjne/tlumaczymy-jak-bedzie-dzialal-system-apple-wykrywajacy-pornografie-dziecieca). Odpowiadałby za to specjalny chip od analizy obrazu, również zagnieżdżony na tym najgłębszym poziomie. Tam, gdzie użytkownik nie sięgnie.  
 
@@ -179,10 +179,10 @@ A takich elementów tylko przybywa. Apple jakiś czas temu planowało wprowadzen
 
 Choć każda warstwa może działać przeciwko nam, nie jesteśmy bezbronni.
 
-W przypadku komputerów osobistych zwykle zachowujemy jakąś kontrolę nad swoim systemem. Poza tym nie jesteśmy naganiani na aplikacje.  
-Nie oznacza to, że nikt nie będzie próbował nas śledzić. Ale łatwiej nam ograniczyć liczbę programów do minimum, a&nbsp;internetu używać głównie przez przeglądarkę.
+W przypadku komputerów osobistych jest moim zdaniem łatwiej. Zwykle zachowujemy jakąś kontrolę nad swoim systemem, nie jesteśmy naganiani na aplikacje.  
+Nie oznacza to, że nikt nie będzie próbował nas śledzić. Ale łatwiej nam ograniczyć liczbę programów do minimum, a&nbsp;internetu używać głównie przez przeglądarkę, ujawniając o&nbsp;sobie mniej rzeczy.
 
-W przypadku urządzeń mobilnych sytuacja jest moim zdaniem znacznie cięższa. Presję na dzielenie się danymi mamy zarówno ze strony zewnętrznych firm, jak i&nbsp;samych producentów.  
+W przypadku urządzeń mobilnych sytuacja jest znacznie cięższa. Chrapkę na nasze dane mają zarówno autorzy aplikacji, jak i&nbsp;producenci naszego telefonu.
 Tym niemniej wciąż jest parę rzeczy, które warto zrobić dla poprawienia prywatności.
 
 ### Unikanie aplikacji
@@ -203,10 +203,15 @@ Jak by to wyglądało na naszej piramidce? Ano tak, że wchodząc w&nbsp;ustawie
 Same aplikacje są warstwę wyżej, więc muszą porozumiewać się z systemem na jego zasadach. Chcąc coś nagrać, muszą grzecznie poprosić system. „Użyczysz mi mikrofonu?”. A&nbsp;jeśli nie daliśmy pozwolenia, to ten odmówi.  
 W takiej sytuacji apka może co najwyżej wyświetlić nam komunikat o&nbsp;błędzie, ale nie jest w&nbsp;stanie zawetować naszej decyzji.
 
-Ciemna strona pozwoleń? Niektóre rzeczy uznano na smartfonach za tak powszechne, że **nie wymagają pozwolenia. Taki przywilej ma na przykład łączność z&nbsp;internetem**. Dzięki temu każda apka może wysłać zebrane o&nbsp;nas informacje swoim twórcom.
+Ciemna strona pozwoleń? Niektóre rzeczy uznano na smartfonach za tak powszechne, że **nie można ich wyłączyć w&nbsp;dowolnym momencie. Taki przywilej ma na przykład łączność z&nbsp;internetem**. Każda połączona apka może wysłać zebrane o&nbsp;nas informacje swoim twórcom.
+
+{:.post-meta .bigspace}
+**Aktualizacja:** wcześniej napisałem, że łączenie się z&nbsp;internetem nie wymaga pozwolenia. W&nbsp;rzeczywistości go wymaga, [poza niektórymi przypadkami](https://stackoverflow.com/a/18925082).  
+Takie pozwolenie jest natomiast [udzielane tylko raz](https://developer.android.com/guide/topics/permissions/overview#normal), w&nbsp;momencie instalacji. Nie mamy możliwości późniejszego włączania i&nbsp;wyłączania go pstryczkiem, jak w&nbsp;przypadku mikrofonu. Przynajmniej w&nbsp;mojej wersji Androida.
 
 Moja rada na teraz: wyłączmy aplikacjom jak najwięcej pozwoleń. Pozwolenie na mikrofon powinny mieć tylko te, których używamy do rozmów i&nbsp;nagrywania. Czyli najlepiej tylko systemowa apka *Aparat*. Możemy nim nagrywać, a&nbsp;potem przesyłać filmiki, wybierając je z&nbsp;apki *Galeria*.  
-Z kolei dostęp do GPS-a powinna mieć tylko jedna wybrana apka, której używamy do nawigacji. Polecam *Mapy.cz*.
+Z kolei dostęp do GPS-a powinna mieć tylko jedna wybrana apka, której używamy do nawigacji. Polecam *Mapy.cz*.  
+Analogicznie z pozostałymi pozwoleniami.
 
 ### Monitorowanie ruchu internetowego
 
@@ -216,7 +221,7 @@ Dane i&nbsp;pliki przesyłane między różnymi warstwami systemu są „martwe�
 
 Ale **dane nigdy nie zadziałają same z&nbsp;siebie. Zawsze musi je zacząć przetwarzać jakiś program**.
 
-Co to nam daje? Załóżmy, że na naszym komputerze jest program szpiegowski. Zbiera o&nbsp;nas trochę informacji i&nbsp;wysyła je w&nbsp;świat przez internet.
+Co to nam daje? Załóżmy, że na naszym urządzeniu jest program szpiegowski. Zbiera o&nbsp;nas trochę informacji i&nbsp;wysyła je w&nbsp;świat przez internet.
 
 Tylko że „wysłanie w&nbsp;świat” oznacza, że traci je z&nbsp;oczu. Użycie internetu oznacza, że zapewne muszą przejść przez nasz router. A&nbsp;„martwość” danych oznacza, że nie będą w&nbsp;stanie w&nbsp;żaden sposób się bronić przed przechwyceniem i&nbsp;skopiowaniem przez nas. Potem możemy je analizować.
 
@@ -239,7 +244,7 @@ Ale nawet urządzenia najbardziej zorientowane na prywatność muszą polegać n
 W takim wypadku prawdziwi prywatnościowi puryści mogą mieć oko na ruch *[open hardware](https://en.wikipedia.org/wiki/List_of_open-source_hardware_projects)*, dążący do zbudowania wszystkiego na otwartych podstawach.
 
 Każdy może znaleźć rozwiązanie dla siebie!  
-Ale ogólnie warto rozglądać się za otwartymi, szanującymi prywatność alternatywami, żeby nie czuć się w&nbsp;tym świecie jak cielak do monetyzowania. Od razu przyjemniej się żyje.
+Warto rozglądać się za otwartymi, szanującymi prywatność alternatywami, żeby nie czuć się w&nbsp;tym świecie jak cielak do monetyzowania. Od razu przyjemniej się żyje.
 
 Tym akcentem zakończę. W&nbsp;kolejnych wpisach dowiemy się więcej -- i&nbsp;na temat uprawnień, i&nbsp;metod śledzenia, i&nbsp;bezpieczniejszych alternatyw. Do zobaczenia! :smile:
 
