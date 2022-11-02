@@ -144,9 +144,9 @@ author="Zenon Z*???????*{:.cover}"
 text="No cóż. Wszystko dzięki Google Analytics. 99,9% stron korzysta. Userzy nie patrzą na co klikają i&nbsp;co potwierdzają."
 %}
 
-Fakt, że Google Analytics jest bardzo powszechne i&nbsp;zbiera nasze dane, kiedy zwiedzamy internet. Natomiast autor zapewne kieruje uwagę do TechnoStrefy, autorów filmiku. A&nbsp;u nich jest nieco inna sprawa.
+Fakt, że Google Analytics jest bardzo powszechne i&nbsp;zbiera nasze dane, kiedy zwiedzamy internet. Natomiast autor zapewne kieruje uwagę do TechnoStrefy, autorów filmiku. Zaś&nbsp;u&nbsp;nich jest nieco inna sprawa.
 
-Jak pokazałem, Google Analytics dotyczy głównie stron internetowych. Film pokazuje natomiast przypadek niezależnej aplikacji, Instagrama. Apka może uzyskiwać dane bezpośrednio z&nbsp;telefonu i&nbsp;nie potrzebuje do tego GA.
+Jak pokazałem, Google Analytics dotyczy głównie stron internetowych. Film pokazuje natomiast przypadek niezależnej aplikacji, Instagrama. Apka może uzyskiwać dane bezpośrednio z&nbsp;telefonu i&nbsp;nie potrzebuje do tego&nbsp;GA.
 
 {:.post-meta .bigspace-after}
 Dla porządku dodam, że istnieje wersja GA [dla aplikacji mobilnych](https://developers.google.com/analytics/solutions/mobile). Tyle że Meta, właściciel Instagrama, jest rywalem Google'a. Wątpię, żeby opierali na ich kodzie swój system reklam.
