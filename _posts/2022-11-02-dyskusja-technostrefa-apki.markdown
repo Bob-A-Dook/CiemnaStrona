@@ -182,7 +182,7 @@ Sam zresztą stworzyłem [serię wpisów](/serie/facebook_dane){:.internal}, w&
 
 Analizowanie tekstu mówionego jest znacznie większym wyzwaniem. Komputery najpierw muszą zamienić dźwięki na tekst w&nbsp;postaci cyfrowej. A&nbsp;ten dodatkowy krok zwiększa szansę, że nie odczytają niektórych informacji.
 
-Może ufność użytkowników wynika z&nbsp;wyobrażenia, że Messenger w&nbsp;jakiś sposób wysyła wiadomość bezpośrednio do nadawcy?  
+Może ufność użytkowników wynika z&nbsp;wyobrażenia, że Messenger w&nbsp;jakiś sposób wysyła wiadomość bezpośrednio od nas do odbiorcy?  
 Niestety jest inaczej. **Wiadomość najpierw trafia do Facebooka, a&nbsp;ten potem przekazuje ją dalej, do odbiorcy**. Postronni nie za bardzo mogą ją odczytać, ale sam Facebook jak najbardziej.
 
 Dowodem może być zresztą fakt, że możemy przez stronę Facebooka pobrać całą historię wysłanych i&nbsp;odebranych wiadomości. Skoro są w&nbsp;stanie nam ją dać na życzenie, w&nbsp;czytelnym formacie, to znaczy że przechowują wszystko u&nbsp;siebie.
@@ -240,7 +240,7 @@ Pomijam już fakt, że wysyłanie danych jednej osoby komuś innemu byłoby dla 
 
 Natomiast jak najbardziej możliwe jest *korelowanie przestrzenne*. Łączenie nas w&nbsp;konkretne grupy na podstawie tego, że byliśmy w&nbsp;tej samej lokalizacji. Możemy potem dostawać podobne treści i&nbsp;lądować w&nbsp;jednej przegródce z&nbsp;innymi osobami.
 
-Facebook potrafił na podstawie takich korelacji polecać nam inne osoby jako znajomych. Doprowadziło to jednak do nieciekawych sytuacji, kiedy polecał sobie nawzajem osoby, które wolałyby zachować anonimowość. Prostytutkom ich klientów i&nbsp;*vice versa*.
+Facebook potrafił na podstawie takich korelacji polecać nam inne osoby jako znajomych. Doprowadziło to jednak do nieciekawych sytuacji, kiedy polecał sobie nawzajem [osoby, które chciały być anonimowe](https://thoughtcatalog.com/emily-madriga/2018/06/27-facebook-friend-suggestions-that-show-how-creepy-this-app-can-be/). Prostytutkom ich klientów i&nbsp;*vice versa*.
 
 {% include info.html
 type="Porada"
@@ -461,7 +461,9 @@ Oni tworzą oprogramowanie -- system operacyjny Android i&nbsp;niektóre apki. A
 Oba komentarze przypisują ukrytym chipom coś, co mogłoby wynikać ze wspomnianego już korelowania po lokalizacji. Choć drugi autor nieco umniejsza takiej formie śledzenia, czasem warto przyjmować wyjaśnienia prozaiczne. Zasada brzytwy Ockhama.
 
 Natomiast fakt faktem, że producent sprzętu może do niego dodawać różne moduły, czasem wręcz niezależne mikrokomputery. W&nbsp;klasycznych procesorach mamy na przykład [Intel Management Engine]({% post_url 2021-07-27-intel-management-engine %}){:.internal} albo Platform Security Processor firmy AMD.  
-Te moduły są zagnieżdżone głęboko w&nbsp;naszych urządzeniach. Między innymi po to, żeby producent mógł na przykład obiecywać dużym firmom zabezpieczenia antypirackie. Są kuszące dla potencjalnych hakerów i&nbsp;być może kiedyś zostaną użyte przeciwko nam.
+Te moduły są zagnieżdżone głęboko w&nbsp;naszych urządzeniach. Między innymi po to, żeby producent mógł obiecywać dużym firmom zabezpieczenia antypirackie.
+
+Elementy tego typu są kuszące dla potencjalnych hakerów i&nbsp;być może kiedyś zostaną użyte przeciwko nam.
 
 ## Podsumowanie
 

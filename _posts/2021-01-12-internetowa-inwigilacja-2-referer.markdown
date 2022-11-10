@@ -40,21 +40,25 @@ Oba linki prowadzą do tej samej strony. Jednak w&nbsp;drugim przypadku wprost d
 
 No ale dobra, możesz powiedzieć. Co z&nbsp;tego? Ciemna Strona dowiaduje się, że przychodzę z&nbsp;Ciemnej Strony. Nic specjalnego.
 
-Póki poruszamy się po jednej stronie i&nbsp;nie pobieramy nic z&nbsp;zewnątrz, referer to faktycznie bzdet. Możesz jednak spróbować wejść na inną stronkę zewnętrzną, taką jak *What is my Referer*:
+Póki poruszamy się po jednej stronie i&nbsp;nie pobieramy nic z&nbsp;zewnątrz, referer to faktycznie bzdet. Spróbujmy jednak odwiedzić jakąś stronkę zewnętrzną, taką jak *BrowserLeaks*:
 
-<a href="https://www.whatismyreferer.com">*whatismyreferer.com* z&nbsp;refererem z&nbsp;Ciemnej Strony</a>
+<a href="https://browserleaks.com/ip">*browserleaks.com* z&nbsp;refererem z&nbsp;Ciemnej Strony</a>
+
+{:.bigspace-after .post-meta}
+Strona zawiera tabelkę z różnymi informacjami. Tę interesującą dla nas znajdziemy nieco niżej, obok hasła *Referer*. Jeśli jej nie ma, to znaczy że żadnego nie przesłaliśmy.
 
 Robiąc to, „poniesiesz” ze sobą na stronę B&nbsp;informację o&nbsp;tym, że przybywasz z&nbsp;Ciemnej Strony (strona A).  
 Co więcej, strona B&nbsp;sama może pobierać część rzeczy ze stron C, D&nbsp;i kolejnych  
 (często np. strony nie trzymają własnych czcionek, tylko proszą o&nbsp;nie Google Fonts; nie analizują ruchu samodzielnie, tylko odsyłają go do Google Analytics itp.).
 
-Chcieliśmy tylko odwiedzić jedną stronę przez link. A&nbsp;ta papla **przesłała obcym stronom nasz nagłówek, razem z&nbsp;refererem**. Więc, tak jak w&nbsp;przypadku plotkar i&nbsp;plotkarzy z&nbsp;prawdziwego życia, teraz wiedzą już wszyscy.
+Chcieliśmy tylko odwiedzić jedną stronę przez link. A&nbsp;ta papla *przesłała obcym stronom nasz nagłówek, razem z&nbsp;refererem*. Więc, tak jak w&nbsp;przypadku plotkar i&nbsp;plotkarzy z&nbsp;prawdziwego życia, teraz wiedzą już wszyscy.
 
-Co więcej, tak się dzieje nawet wtedy, kiedy zależy nam na prywatności. **Przeglądanie w&nbsp;trybie prywatnym/incognito nie wyłącza przekazywania refererów**.
+Co więcej, tak się dzieje nawet wtedy, kiedy zależy nam na prywatności. **Przeglądanie w&nbsp;trybie prywatnym/incognito nie wyłącza przekazywania refererów**. Nie robi tego nawet wiele dodatków blokujących reklamy śledzące.
 
 Zdziwieni?
 
-Na pocieszenie powiem, że na niektórych stronach przekazywanie refererów jest wyłączone. Poza tym są one przesyłane **tylko wtedy, kiedy klikamy w&nbsp;linki**. Chodzenie między stronami przez `Wstecz` i&nbsp;`Dalej`, odświeżanie strony, wklejanie adresu w&nbsp;pasek przeglądarki -- żadna z&nbsp;tych rzeczy nie wyśle informacji o&nbsp;tym, gdzie byliśmy poprzednio.
+Na pocieszenie powiem, że na niektórych stronach przekazywanie refererów jest wyłączone. Poza tym są one przesyłane *tylko wtedy, kiedy klikamy w&nbsp;linki*.  
+Chodzenie między stronami przez `Wstecz` i&nbsp;`Dalej`, odświeżanie strony, wklejanie adresu w&nbsp;pasek przeglądarki -- żadna z&nbsp;tych rzeczy nie wyśle informacji o&nbsp;tym, gdzie byliśmy poprzednio.
 
 ## Ciemne strony referera
 
