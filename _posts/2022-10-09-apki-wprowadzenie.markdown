@@ -185,6 +185,12 @@ Nie oznacza to, że nikt nie będzie próbował nas śledzić. Ale łatwiej nam 
 W przypadku urządzeń mobilnych sytuacja jest znacznie cięższa. Chrapkę na nasze dane mają zarówno autorzy aplikacji, jak i&nbsp;producenci naszego telefonu.
 Tym niemniej wciąż jest parę rzeczy, które warto zrobić dla poprawienia prywatności.
 
+{% include info.html
+type="Uwaga"
+text="Przypomnę, że wszystkie moje porady tradycyjnie skupiają się na ochronie prywatności *przed firmami*.  
+Jeśli ktoś bardziej obawia się celowych ataków, to znaczy że dotykamy spraw cyberbezpieczeństwa. Na nich się nie znam, więc radzę zajrzeć do innych źródeł."
+%}
+
 ### Unikanie aplikacji
 
 Czasem, kiedy podczas przeglądania internetu wyświetla nam się nachalny baner naganiający dla aplikacji, możemy go obejść -- **udając że nie jesteśmy urządzeniem mobilnym**.
@@ -235,8 +241,10 @@ Nie jestem radykałem w&nbsp;kwestii wolnego oprogramowania. Cieszy mnie każda 
 Każdy, absolutnie każdy może na przykład zmieniać aplikacje na mniej wścibskie. Przeglądarkę Chrome zastąpić czymś otwartym poza kontrolą Wujka Google. Jak Brave albo Firefox.
 
 Ale warstwę niżej nadal mamy potencjalnie wścibski system.  
-Jeśli to Windows, a&nbsp;my nie potrzebujemy programów działających tylko na nim, to możemy spróbować go zmienić na system Linux. Polecam [Minta](https://linuxmint.com/).  
-Jeśli Android, to można użyć systemu alternatywnego, takiego jak [LineageOS](https://lineageos.org/) albo [GrapheneOS](https://grapheneos.org/). Nie testowałem, ale często słyszę pochlebne opinie.
+Jeśli to Windows, a&nbsp;my nie potrzebujemy programów działających tylko na nim, to możemy spróbować go zmienić na system Linux. Polecam [Minta](https://linuxmint.com/).
+
+Jeśli Android, to można użyć systemu alternatywnego, takiego jak [LineageOS](https://lineageos.org/) albo [GrapheneOS](https://grapheneos.org/). Nie testowałem ich, ale często słyszę pochlebne opinie.  
+Graphene, pomijając kwestie prywatności, aspiruje do wysokich standardów [pod względem cyberbezpieczeństwa](https://old.reddit.com/r/GrapheneOS/comments/bddq5u/os_security_ios_vs_grapheneos_vs_stock_android/).
 
 Ale pod systemem nadal mamy zamknięty, nieprzenikniony firmware. Zatem fani prywatności mogą spróbować przejść na eksperymentalne, alternatywne smartfony, jak Pinephone albo Librem. 
 
