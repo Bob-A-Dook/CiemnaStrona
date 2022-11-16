@@ -363,17 +363,17 @@ Choć w&nbsp;USA atrazyna wygrała i&nbsp;nadal może być masowo używana do op
 
 * Agencja EPA przeprowadziła od tamtego czasu ocenę ryzyka natury ekologicznej. Ustalili, że bezpieczne poziomy atrazyny w ich testach [były przekroczone](https://www.regulations.gov/document?D=EPA-HQ-OPP-2013-0266-0315); 22-krotnie dla ptaków, 62-krotnie dla ryb i&nbsp;198-krotnie dla ssaków.
 
-* W&nbsp;Kalifornii w&nbsp;2016 roku wprowadzono poprawkę numer 65, uznającą atrazynę za [szkodliwą dla układu rozrodczego](https://oehha.ca.gov/proposition-65/chemicals/atrazine). Na poziomie całego USA EPA zajęło się opracowywaniem raportu na temat szkodliwości substancji dla ludzi.
+* W&nbsp;Kalifornii w&nbsp;2016 roku wprowadzono poprawkę numer&nbsp;65, uznającą atrazynę za [szkodliwą dla układu rozrodczego](https://oehha.ca.gov/proposition-65/chemicals/atrazine). Na poziomie całego USA agencja EPA zajęła się opracowywaniem raportu na temat szkodliwości substancji dla ludzi.
 
 * 2019&nbsp;-- naukowcy z&nbsp;Uniwersytetu w Melbourne wykryli związek między ATZ a&nbsp;[spadkiem płodności](https://medicalxpress.com/news/2019-01-safe-herbicide-australian-affects-male.html) u&nbsp;samców myszy. Ich [artykuł](https://www.publish.csiro.au/RD/RD18505) wieńczy stwierdzenie o&nbsp;możliwym wpływie na ludzkich mężczyzn.
 
-* Sprawa z&nbsp;tego roku (2022). EPA chce obniżyć dopuszczalne stężenie atrazyny w&nbsp;wodzie, z&nbsp;poziomu 15&nbsp;jednostek do 3,4. Organizacje takie jak AgSense już <a rel="nofollow" href="https://agsense.org/articles/growers-get-ready-to-fight-epa-again-on-atrazine-read-our-letter-to-epa/">szykują listy protestacyjne</a>.
+* Sprawa z&nbsp;tego roku (2022). EPA chce obniżyć dopuszczalne stężenie atrazyny w&nbsp;wodzie, z&nbsp;poziomu 15&nbsp;jednostek do&nbsp;3,4. Organizacje takie jak AgSense już <a rel="nofollow" href="https://agsense.org/articles/growers-get-ready-to-fight-epa-again-on-atrazine-read-our-letter-to-epa/">szykują listy protestacyjne</a>.
 
 Kontrowersje -- z&nbsp;których niektóre mogą brzmieć dla nas znajomo -- otaczają również parę innych produktów firmy.
 
 * Tiametoksam (ang. *thiametoxam*).
 
-  To pestycyd, czyli tym razem środek od zabijania szkodników, a&nbsp;nie chwastów -- również zakazany w&nbsp;Europie i&nbsp;oskarżany o&nbsp;to, że [zabija pszczoły](https://www.youtube.com/watch?v=khc613Nyjrg) (uwaga: filmik z&nbsp;YT).  
+  To insektycyd, czyli tym razem środek od zabijania owadów, a&nbsp;nie chwastów -- również zakazany w&nbsp;Europie i&nbsp;oskarżany o&nbsp;to, że [zabija pszczoły](https://www.youtube.com/watch?v=khc613Nyjrg) (uwaga: filmik z&nbsp;YT).  
   Badanie zamówione przez Syngentę wykazało: niegroźny!  
   Ale niektórzy naukowcy uważają, że wyniki nie są wiarygodne, między innymi przez małe odległości między grupą narażoną a&nbsp;kontrolną. Poza tym jedna z&nbsp;osób opracowujących dane utrzymywała kontakt mailowy z&nbsp;Syngentą.
 
@@ -394,7 +394,7 @@ Tylko że thrillery są fikcją. Widząc taką historię, mój wewnętrzny scept
 Już nieraz się w&nbsp;końcu zdarzało, że w&nbsp;obieg puszczano wesołe fejki. O&nbsp;wilku alfa idącym za stadem, żeby w&nbsp;razie czego się poświęcić. O&nbsp;delfinach wracających do Wenecji, kiedy na czas pandemii ustał ruch turystyczny. Pierdoły ku pokrzepieniu serc.  
 Co, jeśli ta historia również została mocno podkoloryzowana?
 
-Tyrone Hayes jest człowiekiem i&nbsp;z racji tego może mieć swoje ludzkie wady. No i&nbsp;nie ukrywajmy, ma w&nbsp;sobie pewien pierwiastek showmaństwa.
+Tyrone Hayes jest człowiekiem i&nbsp;zapewne ma swoje ludzkie wady. No i&nbsp;nie ukrywajmy, ma w&nbsp;sobie pewien pierwiastek showmaństwa.
 
 Może miał dość nudnej kariery na uczelni i&nbsp;postanowił budować swoją markę na skandalu?  
 Może na przykład specjalnie wybrał na potrzeby ilustracji najbardziej zmutowane żaby, sugerując że takie zmiany genetyczne są u&nbsp;nich częste?  

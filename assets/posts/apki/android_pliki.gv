@@ -1,0 +1,118 @@
+//Źródło grafu z bloga ciemnastrona.com.pl (wpis "Apki to pułapki 2")
+
+//Żeby stworzyć z tego pliku graf, musisz zainstalować program Graphviz.
+//Następnie otwierasz konsolę / PowerShella w tym folderze co ten plik 
+//i wpisujesz w niej polecenie (bez ukośników):
+
+//dot android_pliki.gv -T svg -o android_pliki.svg
+
+digraph AndroidPliki {
+
+  //Domyślne ustawienia dla całego grafu
+  rankdir=BT;
+  splines=line;
+  ranksep=0.2;
+  fontname=Helvetica;
+  fontsize=16;
+  bgcolor="#252525";
+  node[fontname=Helvetica]
+
+  //Klaster dla jądra systemu
+  subgraph cluster_kernel {
+    label="  Jądro systemu";
+    fontcolor="white";
+    labeljust=c;
+    style=filled;
+    fillcolor="#6a61c2";
+
+    "/" [style=filled,fillcolor="#f29f5c"]
+    data [style=filled,fillcolor="#f29f5c"]
+    data2 [label="data",style=filled,fillcolor="#f29f5c"]
+    emulated [style=filled,fillcolor="#f29f5c"]
+    self [style=filled,fillcolor="#f29f5c"]
+
+    dots1 [label="...",color=transparent]
+    dots2 [label="...",color=transparent]
+    node[style=filled,fillcolor=white]
+    
+    "/" -> data;
+    "/" -> storage;
+    "/" -> dots1;
+    storage -> emulated;
+    storage -> self;
+    data -> dots2;
+    data -> data2
+  }
+
+  //Klaster dla systemu operacyjnego
+  subgraph cluster_os {
+    label="   System operacyjny";
+    labeljust=l;
+    labelloc=b;
+    style=filled;
+    fillcolor="#abc7e3";
+    
+    dots4[label="...",color=transparent]
+    
+    node[style=filled,fillcolor=white]
+    {rank=same; 0 -> dots4};
+    0 -> Download;
+    0 -> bluetooth;
+    0 -> DCIM;
+    DCIM -> Camera;
+  }
+
+  //Klaster dla apki Termux
+  subgraph cluster_termux {
+    label="Termux";
+    labelloc=b;
+    fontcolor="white";
+    style=filled;
+    fillcolor="#796163";
+
+    dots5[label="...",color=transparent]
+    home [style=filled,fillcolor="#5cf28d"]
+
+    node[style=filled,fillcolor=white]
+    termux[label="com.termux"]
+
+    termux -> files;
+    termux -> dots5;
+    files -> usr;
+    files -> home
+  }
+
+  //Klaster dla apki Messenger
+  subgraph cluster_messenger {
+    label="Messenger"
+    fontcolor="white";
+    labelloc=b;
+    style=filled;
+    fillcolor="#2c6bee";
+    dummy4 [style=invis];
+    dots3[label="...",color=transparent]
+    messenger [label="com.facebook.orca",style=filled,fillcolor="#f25c67"]
+
+    messenger -> dots3;
+    dots3 -> dummy4 [style=invis]
+  } 
+
+  //Połączenia między klastrami
+  emulated -> 0 [color="#dddddd"]
+  data2 -> messenger [color="#dddddd"]
+  data2 -> termux [color="#dddddd"]
+
+  //Niewidzialne wierzchołki, żeby ustawić aplikacje wyżej niż system
+  dummy1[style=invis]
+  dummy2[style=invis]
+  dummy3[style=invis]
+  app_dummy[style=invis]
+
+  data2 -> dummy1 [style=invis]
+  dummy1 -> dummy2 [style=invis]
+  dummy2 -> dummy3 [style=invis]
+  dummy3 -> app_dummy [style=invis]
+  app_dummy -> termux [style=invis]
+  app_dummy -> messenger [style=invis]
+
+}
