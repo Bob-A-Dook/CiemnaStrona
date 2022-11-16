@@ -227,11 +227,17 @@ Mocno powiązane z&nbsp;poprzednim, bo korzysta z&nbsp;tej samej metody. Tyle ż
 Spójrzmy na przykład na [lokalizację bazy z&nbsp;SMS-ami](https://www.fonedog.com/android-data-recovery/android-text-message-folder-location.html) w&nbsp;różnych wersjach Androida:
 
 * W&nbsp;wersji 4.3 i&nbsp;wcześniejszych:  
-  `/data/data/com.android.providers/telephony/database`
+  <div class="black-bg mono oneline">
+  /data/data/com.android.providers/telephony/database
+  </div>
 * Od wersji 4.4:  
-  `/data/data/com.android.providers.telephony/database`
+  <div class="black-bg mono oneline">
+  /data/data/com.android.providers.telephony/database
+  </div>
 * Od wersji 7.0:  
-  `/data/user_de/0/com.android.providers.telephony/databases`
+  <div class="black-bg mono oneline">
+  /data/user_de/0/com.android.providers.telephony/databases
+  </div>
 
 Wścibska aplikacja mogłaby po kolei próbować zajrzeć do tych folderów. **Jeśli wyświetli jej odmowę dostępu, a&nbsp;nie informację o&nbsp;nieistniejącym folderze, to znaczy że folder istnieje**. Aplikacja będzie wiedziała z&nbsp;grubsza, jaką mamy wersję Androida.
 
@@ -288,13 +294,13 @@ Stalker(-ka) z&nbsp;zaraźliwym entuzjazmem namawia ludzi z&nbsp;roku do pobiera
 
    Pobiera, klika, sprawdza funkcje. Jednocześnie monitoruje przez chwilę dane, jakie apka wysyła w&nbsp;świat. Nic podejrzanego.
 
-Już spokojni, pobieramy apkę i zaczynamy z&nbsp;niej korzystać.  
+Już spokojni, pobieramy apkę i&nbsp;zaczynamy z&nbsp;niej korzystać.  
 Cały problem polega na tym, że ta może zachowywać się inaczej, kiedy ustali że jesteśmy konkretną osobą.
 
 A w&nbsp;jaki sposób tę tożsamość ustala? Może w&nbsp;bardzo prosty, bez zgadywania. Po prostu na każdym urządzeniu, na którym jest, **wypatruje konkretnego sygnału do działania**. Jak obecność pliku o&nbsp;ustalonej nazwie.  
 Czegoś takiego by nie wyłapała obca osoba analizująca ruch. Może by to wyłapały algorytmy przy wrzucaniu apki do Play Store'a. Ale niekoniecznie.
 
-Pewnego dnia stalker(-ka) wysyła nam na czacie plik. *Notatki_przeroboine_1234.pdf*. W&nbsp;środku prawdziwe notatki. Nazwa długa, literówka celowa. Żeby taki plik miał mniejszą szansę na wystąpienie „w naturze”.  
+Pewnego dnia stalker(-ka) wysyła nam na czacie plik. *Notatki_przeroboine_1234.pdf*. W&nbsp;środku prawdziwe notatki. Nazwa długa, literówka celowa. Żeby taki plik miał mniejszą szansę na wystąpienie „w&nbsp;naturze”.  
 Specjalnie czeka do momentu, kiedy będziemy na uczelni, ale raczej z&nbsp;dala od komputera. Żeby była większa szansa, że od razu pobierzemy notatki na telefon.
 
 A to będzie oznaczało, że w&nbsp;naszym folderze `/storage/emulated/0/Downloads` pojawi się plik o&nbsp;wspomnianej nazwie. Dla apki sygnał, że jest na urządzeniu swojego celu i&nbsp;może teraz robić z&nbsp;plikami ciekawsze rzeczy.
