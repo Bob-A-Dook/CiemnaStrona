@@ -325,9 +325,9 @@ Warto przy tym pamiętać, że nawet jednorazowe i&nbsp;krótkotrwałe zezwoleni
 
 ### Ukrywanie plików
 
-Załóżmy, że wyłączyliśmy apkom dostęp do plików. Ale w&nbsp;sposób nieuchronny zbliża się moment, kiedy będziemy musieli je włączyć jakiejś wścibskiej aplikacji. Na przykład jedziemy właśnie do parku rozrywki, na którego terenie trzeba korzystać z&nbsp;ich dedykowanej szpiegowskiej apki.
+Załóżmy, że wyłączyliśmy apkom dostęp do plików. Ale w&nbsp;sposób nieuchronny zbliża się moment, kiedy będziemy musieli włączyć to pozwolenie jakiejś wścibskiej aplikacji. Na przykład jedziemy właśnie do parku rozrywki, na którego terenie trzeba korzystać z&nbsp;ich dedykowanej szpiegowskiej apki.
 
-Po udzieleniu pozwolenia ten szpieg zyska dostęp do naszych plików. Co zrobić?
+Po otrzymaniu pozwolenia ten szpieg zyska dostęp do naszych plików. Co zrobić?
 
 W ogólnym przypadku -- **musimy gdzieś przenieść te pliki, poza zasięg aplikacji**. Dość oczywistą opcją wydaje się zgranie ich na inne urządzenia, na przykład laptopa albo jakiś dysk online.
 
@@ -359,10 +359,10 @@ mv /storage/emulated/0/Download/Tajne ~
 Gdzie `mv` to komenda, która przenosi pliki/foldery z&nbsp;pierwszej ścieżki do drugiej. Zaś tylda `~` to skrót oznaczający ścieżkę do naszego wewnętrznego, domyślnego folderu Termuksa.
 
 Po przeniesieniu folder będzie poza zasięgiem aplikacji innych niż Termux. Możemy z&nbsp;nich skorzystać. A&nbsp;po skorzystaniu wyłączyć im pozwolenia albo całkiem je usunąć.  
-Gdy już będzie bezpiecznie, możemy przenieść folder z&nbsp;powrotem do publicznie dostępnej lokacji. Włączamy Termuksa i&nbsp;wpisujemy:
+Gdy już będzie bezpiecznie, możemy przenieść folder z&nbsp;powrotem do poprzedniej, publicznie dostępnej lokacji. Włączamy Termuksa i&nbsp;wpisujemy:
 
 <div class="black-bg mono">
-mv ~&nbsp;/storage/emulated/0/Download/Tajne
+mv Tajne /storage/emulated/0/Download
 </div>
 
 Prowizorka, ale działa.
