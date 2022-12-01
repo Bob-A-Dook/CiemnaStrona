@@ -36,6 +36,10 @@
 
 {% endif %}
 
+{% if include.avatar %}
+  {% assign avatar_path = include.avatar %}
+{% endif %}
+
 
 {% if include.type == "reply" %}
   {% assign comment_type = "subcomment" %}

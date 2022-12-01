@@ -263,8 +263,10 @@ Niestety, jak pisze [Komputer Świat](https://www.komputerswiat.pl/wideo/wydarze
 
 Dodam od siebie, że informacje ujawniane po wpisaniu kodu dotyczą wyłącznie połączeń. Czyli sytuacji, kiedy rozmawiamy z&nbsp;kimś przez telefon. Zaś dyskretne nagrywanie mikrofonem, o&nbsp;którym mowa w&nbsp;komentowanym filmiku TechnoStrefy, nie wymaga żadnego dzwonienia.
 
-A w&nbsp;ogólnym przypadku? Fakt, że aplikacje [mogą inicjować połączenia telefoniczne](https://www.youtube.com/watch?v=UDwj5j4tBYg). Jeśli udzielimy im pozwolenia. Tylko że polega to na tym, że wysyłają prośbę do systemu. A&nbsp;ten wyświetla nam na cały ekran standardowe okno wykonywania połączenia.  
-Dyskretnego śledzenia to by w&nbsp;tym nie było.
+A w&nbsp;ogólnym przypadku? Fakt, że aplikacje [mogą inicjować połączenia telefoniczne](https://www.youtube.com/watch?v=UDwj5j4tBYg). Jeśli udzielimy im pozwolenia. Tylko że polega to na tym, że wysyłają prośbę do systemu. *A&nbsp;ten wyświetla nam na cały ekran standardowe okno wykonywania połączenia*{:.corr-del}.
+
+**Aktualizacja:** znalazłem informację, że apki jednak mogą [dzwonić dyskretnie](https://android.stackexchange.com/a/53428). A nawet usuwać swoje połączenia z&nbsp;historii telefonu. Człowiek uczy się całe życie.  
+Nie zmienia to natomiast moich wniosków -- przypadek TechnoStrefy to inna sprawa, zaś kod nam nie pomoże.
 
 ### Porady użytkowników
 

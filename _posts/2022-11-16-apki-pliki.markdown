@@ -176,7 +176,9 @@ Mamy już wszystkie niezbędne fakty. Czas teraz przejść do różnych kreatywn
 
 Przypominam -- **mając dostęp do plików, apki mogą je sobie czytać**. Jeśli mają oprócz tego pozwolenie na korzystanie z&nbsp;internetu (bardzo powszechne), to mogą je ponadto wysłać właścicielom.
 
-W tym wpisie tego nie pokazuję tylko dlatego, że chcę się skupić na mniej oczywistych rzeczach. Ale pod względem zagrożenia to właśnie bezpośrednie kopiowanie treści powinno budzić największe obawy. 
+W tym wpisie tego nie pokazuję tylko dlatego, że chcę się skupić na mniej oczywistych rzeczach. Ale pod względem zagrożenia to właśnie bezpośrednie kopiowanie treści powinno budzić największe obawy.
+
+Pokażę tutaj trzy przykłady informacji, jakie mogłaby wyciągnąć aplikacja **z&nbsp;samych nazw folderów. Nawet gdyby nie miała pozwolenia na dostęp do plików** (przez co wspólne „foldery” byłyby dla niej pomarańczowe, mogłaby tylko odwiedzać).
 
 ### Odkrywanie zainstalowanych aplikacji
 
@@ -215,9 +217,9 @@ W ten sposób ustalili, że komunikator WhatsApp, konkurencyjny wobec ich Messen
 
 {% include info.html
 type="Inna metoda"
-text="Nawet gdyby to załatali, wciąż pozostaje inny sposób na przybliżone poznanie, jakie mamy apki. Być może **zostawiają we wspólnej przestrzeni charakterystyczne pliki**.  
-Przykład? Kiedy robimy na telefonie zrzuty ekranu, z&nbsp;angielskiego *screenshoty*, to trafiają do folderu `Screenshots` w&nbsp;znanym nam folderze `Pictures`.  
-Każda nazwa pliku zawiera po dacie wykonania nazwę aplikacji, w&nbsp;której dany zrzut ekranu został wykonany. Zatem, jeśli często robimy *screeny*, to po samych ich nazwach dałoby się ustalić, jakie mamy u&nbsp;siebie aplikacje."
+text="Załóżmy, że ktoś załatał tę lukę, ale wścibska apka ma pozwolenie na dostęp do plików. W tym wypadku miałaby inny sposób na poznanie niektórych zainstalowanych aplikacji. Być może **zostawiają we wspólnej przestrzeni charakterystyczne pliki**.  
+Przykład? Kiedy robimy na telefonie zrzuty ekranu, to trafiają do folderu `Screenshots` w&nbsp;folderze `Pictures` (na wspólnej karcie pamięci).  
+Każda nazwa pliku zawiera na końcu nazwę aplikacji, z&nbsp;której dany *screenshot* pochodzi. Zatem, jeśli często je robimy, po ich nazwach dałoby się ustalić, jakie mamy u&nbsp;siebie aplikacje."
 %}
 
 ### Odkrywanie wersji Androida
@@ -246,7 +248,8 @@ Zresztą pokazuję to bardziej jako eksperyment myślowy. Zazwyczaj aplikacje m
 
 Ale jeśli na przykład majsterkowaliśmy ze swoim telefonem, żeby ujawniał apkom nieprawdziwe dane, to warto pamiętać również o&nbsp;dopracowaniu takich detali jak ścieżki w&nbsp;systemie plików. Inaczej kłamstwo na nic i&nbsp;tylko byśmy się wyróżnili.
 
-Ten ogólny motyw -- złapanie naszego urządzenia na kłamstwie poprzez porównanie detali faktycznych z&nbsp;oczekiwanymi -- może się kojarzyć niektórym czytelnikom z&nbsp;dawnym [wpisem na temat *User Agenta*]({% post_url 2021-06-11-user-agent %}){:.internal}, którym przedstawiają się w&nbsp;sieci przeglądarki.  
+Ten ogólny motyw -- złapanie naszego urządzenia na kłamstwie poprzez porównanie detali faktycznych z&nbsp;oczekiwanymi -- może się kojarzyć niektórym czytelnikom z&nbsp;dawnym [wpisem na temat *User Agenta*]({% post_url 2021-06-11-user-agent %}){:.internal}, którym przedstawiają się w&nbsp;sieci przeglądarki. Oraz jego [demaskowaniem przez JavaScript]({% post_url 2022-05-02-javascript1 %}){:.internal}.
+
 Pewne reguły śledzenia pozostają uniwersalne. Niezależnie od tego, jak się nazywają i&nbsp;jakich urządzeń dotyczą.
 
 ### Eksplorowanie metodą *brute force*
@@ -261,17 +264,16 @@ Ale to nie wszystko. Gdyby apki były szczególnie zdeterminowane, mogłyby *str
 
 Jednocześnie by sobie zapisywały, jaka była ich ostatnia prośba. Dzięki temu nie musiałyby zaczynać od zera przy kolejnej okazji.
 
-Metoda niezwykle żmudna i&nbsp;czasochłonna. Ale jeśli trzymamy gdzieś folder nazwany od naszego imienia i&nbsp;nazwiska, to apka w&nbsp;długim horyzoncie czasowym, po zamęczeniu nam procesora, by go wreszcie odkryła.
+Metoda niezwykle żmudna i&nbsp;czasochłonna. Ale jeśli trzymamy gdzieś folder, którego nazwa zdradza coś prywatnego (nazwa choroby, hobby, nazwisko...), to apka w&nbsp;długim horyzoncie czasowym, po zamęczeniu nam procesora, by to odkryła. Nawet bez pozwolenia na dostęp do plików.
 
-Co najgorsze, takie skanowanie **działałoby nawet w&nbsp;przypadku braku pozwolenia**. Wystarczyłby sam dostęp do folderów oznaczonych na schemacie na pomarańczowo.  
-Na szczęście tych na czerwono by nie przeskanowali, bo próba wejścia do nich zawsze daje identyczny komunikat o&nbsp;braku pozwolenia.
+Na szczęście folderów „czerwonych” by w&nbsp;ten sposób nie przeskanowała, bo próba wejścia do nich zawsze daje identyczny komunikat o&nbsp;braku pozwolenia.
 
 ## Identyfikowanie konkretnej osoby
 
 Powyższe przykłady dotyczyły sytuacji bardziej typowej -- wścibskich firm traktujących nazwy i&nbsp;układ naszych folderów jak jeden z&nbsp;wielu punktów danych.  
 Możliwe że jesteśmy im całkiem obojętni jako osoby. Jedna z&nbsp;milionów twarzy, których dane zbierają.
 
-Ale co, jeśli ktoś **specjalnie nas weźmie na celownik**?
+Ale co, jeśli ktoś **specjalnie nas weźmie na celownik**? A&nbsp;my udzielimy pozwolenia na dostęp do plików niewłaściwej apce?
 
 Wyobraźmy sobie nieco naciągany przykład. Mamy na studiach zdeterminowanego stalkera albo stalkerkę. Ta osoba potajemnie próbuje się dorwać do naszych prywatnych informacji. I&nbsp;stworzyła właśnie prostą apkę na Androida.
 
@@ -303,7 +305,7 @@ Czegoś takiego by nie wyłapała obca osoba analizująca ruch. Może by to wył
 Pewnego dnia stalker(-ka) wysyła nam na czacie plik. *Notatki_przeroboine_1234.pdf*. W&nbsp;środku prawdziwe notatki. Nazwa długa, literówka celowa. Żeby taki plik miał mniejszą szansę na wystąpienie „w&nbsp;naturze”.  
 Specjalnie czeka do momentu, kiedy będziemy na uczelni, ale raczej z&nbsp;dala od komputera. Żeby była większa szansa, że od razu pobierzemy notatki na telefon.
 
-A to będzie oznaczało, że w&nbsp;naszym folderze `/storage/emulated/0/Downloads` pojawi się plik o&nbsp;wspomnianej nazwie. Dla apki sygnał, że jest na urządzeniu swojego celu i&nbsp;może teraz robić z&nbsp;plikami ciekawsze rzeczy.
+A to będzie oznaczało, że w&nbsp;naszym folderze `/storage/emulated/0/Download` pojawi się plik o&nbsp;wspomnianej nazwie. Dla apki sygnał, że jest na urządzeniu swojego celu i&nbsp;może teraz robić z&nbsp;plikami ciekawsze rzeczy.
 
 Jak na przykład wyszukanie tylko tych zdjęć, na których dominuje paleta kolorystyczna typowa dla ludzkiej skóry. Czytaj: potencjalnie mniej ubranych. I&nbsp;wysłanie ich do stalkerskiej bazy.  
 Albo odczytanie ze zdjęć zaszytych w&nbsp;nich [metadanych EXIF]({% post_url 2021-02-10-gdzie-jestem-zapytaj-moich-zdjec %}){:.internal}. Pokazujących dokładne koordynaty GPS-a w&nbsp;momencie wykonywania zdjęcia.
@@ -339,7 +341,7 @@ W ogólnym przypadku -- **musimy gdzieś przenieść te pliki, poza zasięg apli
 
 Tylko że nie zawsze mamy przy sobie zaufanego laptopa. A&nbsp;nasza chmurowa skrytka może nie pomieścić naszych danych. Albo sporo nas kosztować przez transfer danych mobilnych. No i&nbsp;sama też może zaglądać do plików.
 
-Na szczęście niektóre telefony mają funkcję, która pozwala stworzyć swego rodzaju zaszyfrowany folder. Będziemy mieli do niego dostęp przez naszą typową przeglądarkę plików. A&nbsp;dla aplikacji będzie poza zasięgiem.
+Na szczęście niektóre telefony mają funkcję, która pozwala stworzyć swego rodzaju zaszyfrowany folder. Będziemy mieli do niego dostęp przez nasz domyślny program do przeglądania plików. A&nbsp;dla aplikacji będzie poza zasięgiem.
 
 W przypadku Huaweia taka funkcja nazywa się *Sejf*. Żeby ją włączyć, wchodzimy w&nbsp;apkę `Pliki`, klikamy ikonkę sejfu, ustawiamy sobie hasło. Możemy tam ukrywać pliki przed aplikacjami. Ale uwaga, [miewa lub miewał błędy](https://android.stackexchange.com/questions/205790/huawei-file-safe-stuck-not-working).
 
@@ -354,7 +356,7 @@ Do głowy przyszedł mi jeszcze jeden sposób na chowanie plików. Możemy wykor
 **Uwaga:** Pomysł dobry tylko dla osób, które będą umiały potem skopiować sobie pliki z&nbsp;powrotem. Wszystko na własną odpowiedzialność. Ale pocieszę, że powinno być bezpieczne.
 
 Najpierw wrzucamy prywatne pliki do osobnego folderu. Możemy to zrobić chociażby przez najzwyklejszą, systemową przeglądarkę plików.  
-Załóżmy, że nasz folder nazywa się `Tajne`, spoczywa w&nbsp;folderze `Downloads`, układ plików mamy jak na głównym schemacie.
+Załóżmy, że nasz folder nazywa się `Tajne`, spoczywa w&nbsp;folderze `Download`, układ plików mamy jak na schemacie z&nbsp;początku wpisu.
 
 Teraz otwieramy Termuksa i&nbsp;wpisujemy:
 

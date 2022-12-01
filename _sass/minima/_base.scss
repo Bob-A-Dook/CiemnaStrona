@@ -405,7 +405,8 @@ strong {
 }
 
 .subcomment {
-  margin-left: 70px
+  margin-left: 50px;
+  width: calc(100% - 50px);
 }
 .comment_container + .comment_container {
   margin-top:15px
