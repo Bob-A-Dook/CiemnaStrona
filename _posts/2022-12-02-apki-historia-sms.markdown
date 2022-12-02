@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Apki to pułapki 3 – historia SMS&shy;ów"
+title:  "Apki to pułapki 3 – historia SMS-ów"
 subtitle: "Ludzie listy piszą. Apki je czytają."
 description: "Ludzie listy piszą. Apki je czytają"
 date:   2022-12-02 13:20:00 +0100
