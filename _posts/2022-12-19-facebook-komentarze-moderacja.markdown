@@ -148,7 +148,7 @@ text="Twitter is king"
 %}
 
 Ten komentarz faktycznie nie miał zbyt wiele treści. Ale tym razem wydźwięk pozytywny (mimo że to miała być lekka prowokacja). Cokolwiek go usunęło, nie był to filtr wulgaryzmów.  
-Pod tym komentarzem jest jeszcze kilka, udzielonych w&nbsp;odpowiedzi na te słowa. Ale to akurat logiczne, że ukrycie komentarza-rodzice ukrywa też odpowiedzi, więc nie biorę ich pod uwagę.
+Pod tym komentarzem jest jeszcze kilka, udzielonych w&nbsp;odpowiedzi na te słowa. Ale to akurat logiczne, że ukrycie komentarza-rodzica ukrywa też odpowiedzi, więc nie biorę ich pod uwagę.
 
 Najbardziej kontrowersyjnym ukryciem jest moim zdaniem przypadek trzeci:
 
@@ -225,7 +225,7 @@ text="**Tomasz** byle nie kazali płacić za reklamę na każdym iPhonie, bo bę
 
 Gdyby ktoś postawił tezę „*Odpowiedzi od strony-autora zawsze chronią komentarze przed schowaniem*”, to tu mielibyśmy dowód na jej fałszywość.
 
-**Lajki oraz otrzymanie odpowiedzi od autora posta nie chronią przed ukryciem komentarza**. Albo trochę chronią, ale nie zawsze. W&nbsp;każdym razie autorzy raczej nie ochronią swoich użytkowników przez wchodzenie z&nbsp;nimi w&nbsp;interakcje.
+**Lajki oraz odpowiedzi od autora posta nie chronią przed ukryciem komentarza**. Albo trochę chronią, ale nie zawsze. W&nbsp;każdym razie autorzy raczej nie uratują swoich użytkowników przez wchodzenie z&nbsp;nimi w&nbsp;interakcje.
 
 ### Przypadek Doniesień z&nbsp;putinowskiej Polski
 
@@ -287,7 +287,7 @@ Tutaj również wrzucono temat wyroku dla showmana z&nbsp;USA. Również śmiesz
 
 Tylko że na *Doniesieniach* link został przepuszczony, w&nbsp;przeciwieństwie do artykułu naukowego od tej samej osoby. **A na Ciekawostkawce został ukryty**. Pozostaje chyba odrzucić kolejne założenie na temat reguł działania automoderacji. To raczej nie była żadna *czarna lista filmów*.
 
-Być może przyczyną była osoba autora z&nbsp;Ciekawostkawki, który kilka razy nagłaśniał na tej grupie kontrowersyjne (ale realne) sprawy? A&nbsp;może nie, bo wiele innych jego komentarzy przepuściło bez filtrowania.
+Być może przyczyną była sama postać komentującego z&nbsp;Ciekawostkawki, który kilka razy nagłaśniał na tej grupie kontrowersyjne (ale realne) sprawy? A&nbsp;może nie, bo wiele innych jego komentarzy przepuściło bez filtrowania.
 
 ## O&nbsp;co w&nbsp;tym wszystkim chodzi?
 
@@ -305,7 +305,7 @@ W zakładce [*making public comments more meaningful*](https://about.fb.com/news
 
 Oba teksty sugerują, że jakieś znaczenie ma fakt, czy pod komentarzem napisał coś sam autor posta. Ale, jak widzieliśmy przy Niebezpieczniku, nie jest to reguła absolutna. Potrafiło schować lajkowany komentarz wraz z&nbsp;ich odpowiedzią (mimo że są nie tylko autorami posta, ale też kontem oficjalnie zweryfikowanym).
 
-Informacje od Fejsa dają niby jakiś wgląd w&nbsp;algorytm. Tylko że to wszystko jest wymienione po magicznym słowie *including*, co oznacza, że tak naprawdę kryteriów może być znacznie więcej. I&nbsp;zapewne tak jest, bo Facebook bez wątpienia stosuje metody uczenia maszynowego.
+Informacje od Fejsa dają niby jakiś wgląd w&nbsp;algorytm. Tylko że to wszystko jest wymienione po magicznym słowie *including*, co oznacza że tak naprawdę kryteriów może być znacznie więcej. I&nbsp;zapewne tak jest, bo Facebook bez wątpienia stosuje metody uczenia maszynowego.
 
 ### Kwestia uczenia maszynowego
 
@@ -380,7 +380,8 @@ Osoby piszące komentarze mogłyby się starać, żeby były nieco dłuższe i&n
 
 A my, czytelnicy komentarzy? Rozwiązanie jest póki co proste. Zawsze po rozwinięciu komentarzy klikajmy opcję `Wszystkie`. Zobaczymy świat takim, jakim jest naprawdę.
 
-Jeśli odkryjemy, że jakieś ciekawe komentarze zostały schowane, to możemy o&nbsp;tym napisać własny komentarz pod tym samym postem, przekonując ludzi do odhaczenia filtra. Gdyby ktoś twierdził, że wszystko widzi, to pamiętajmy że filtry mogą różnie działać dla różnych osób.
+Jeśli odkryjemy, że jakieś ciekawe komentarze zostały schowane, to możemy o&nbsp;tym napisać własny komentarz pod tym samym postem, przekonując ludzi do odhaczenia filtra.  
+Gdyby ktoś się nam dziwił i napisał, że wszystko widzi, to pamiętajmy że filtry mogą różnie działać dla różnych osób.
 
 To tyle na dziś! Chyba że ktoś chce osobiście wyłapać parę przypadków poukrywanych komentarzy. W&nbsp;takim wypadku służę sprawdzonym (choć tylko przez siebie) skryptem ułatwiającym pracę.
 

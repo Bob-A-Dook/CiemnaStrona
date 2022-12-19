@@ -16,7 +16,7 @@ Gdy już mamy Termuksa, instalowanie Pythona powinno być bardzo proste. Wpisuje
 
 <div class="bigspace black-bg mono">pkg install python</div>
 
-Natomiast może sę zdarzyć, że wyskoczy nam błąd związany z&nbsp;brakującym repozytorium. To nic strasznego. Zapraszam do części [„Rozwiązywanie problemów”](#instalowanie-przez-pkg-nie-działa){:.internal}.
+Natomiast może się zdarzyć, że wyskoczy nam błąd związany z&nbsp;brakującym repozytorium. To nic strasznego. Zapraszam do części [„Rozwiązywanie problemów”](#instalowanie-przez-pkg-nie-działa){:.internal}.
 
 ### LXML
 
@@ -24,7 +24,7 @@ Biblioteka do sprawnej pracy z&nbsp;formatem XML. **Wiele moich skryptów jej ni
 
 Do tej pory starałem się unikać jej oraz innych modułów opartych na innych językach niż Python. Ale stopniowo zaczynam poruszać na blogu kwestie przetwarzania bardziej złożonych plików, jak kod źródłowy dużych portali społecznościowych. Powoli staje się potrzebna.
 
-Przede wszystkim zaktualizujmy swoje biblioteki do najnowszej wersji, żeby nie było między nimi rozbieżności:
+Przede wszystkim zaktualizujmy swoje biblioteki do najnowszej wersji, żeby nie było między nimi rozbieżności. Wpisujemy w Termuksa:
 
 <div class="black-bg mono">
 pkg upgrade
@@ -32,10 +32,10 @@ pkg upgrade
 
 {% include info.html
 type="Porada"
-text="Gdyby wyskoczył błąd o&nbsp;niedziałającym repozytorium, w&nbsp;tym momencie albo w&nbsp;innym przypadku gdy używamy `pkg`, to <a href='#instalowanie-przez-pkg-nie-działa'>rozwiązanie jest dość proste</a>{:.internal}."
+text="Gdyby wyskoczył komunikat o&nbsp;niedziałającym repozytorium, w&nbsp;tym momencie albo po innym użyciu komendy `pkg`, to <a href='#instalowanie-przez-pkg-nie-działa'>rozwiązanie jest dość proste</a>{:.internal}."
 %}
 
-Poza tym potrzebujemy *kompilatora* -- czegoś w&nbsp;rodzaju robota kuchennego, który pozwoli nam połączyć zgromadzone składniki w&nbsp;fajnego LXML-a. Dobrym rozwiązaniem dla Androida jest Clang, ważący na dzień 19&nbsp;grudnia 62&nbsp;MB.
+Poza tym potrzebujemy *kompilatora* -- czegoś w&nbsp;rodzaju robota kuchennego, który pozwoli nam połączyć zgromadzone składniki w&nbsp;fajnego LXML&#8209;a. Dobrym rozwiązaniem dla Androida jest Clang, ważący na dzień 19&nbsp;grudnia 62&nbsp;MB.
 
 <div class="bigspace black-bg mono">
 pkg install clang

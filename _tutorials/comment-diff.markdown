@@ -80,7 +80,7 @@ Teraz przesuwamy kursorem po linijkach kodu, a&nbsp;na stronie Facebooka kolorem
 
 Post powinien być elementem z&nbsp;paroma atrybutami zaczynającymi się od `aria-` oraz jednym `role="article"`. Ale gwarancji nie mamy, bo czasem Facebook serwuje nieco inną wersję strony.
 
-Gdy już znajdziemy odpowiedni element, klikamy prawym przyciskiem myszy odpowiednią linijkę kodu i&nbsp;wybieramy `Kopiuj zewnętrzny HTMl`. I&nbsp;już, post jest w&nbsp;naszym schowku.
+Gdy już znajdziemy odpowiedni element, klikamy prawym przyciskiem myszy odpowiednią linijkę kodu i&nbsp;wybieramy `Kopiuj zewnętrzny HTML`. I&nbsp;już, post jest w&nbsp;naszym schowku.
 
 ### SelSword
 
@@ -130,8 +130,8 @@ Jeśli na którymś etapie coś sknocimy -- na przykład nie rozwiniemy wszystki
 
 Poza tym skrypt daje możliwość porównywania plików znajdujących się na dysku. Nie znalazłem zastosowania dla tej opcji, ale może się przydać, gdybyśmy mieli pomocników umiejących kopiować, ale nie lubiących konsoli.
 
-W tym umieszczamy w&nbsp;jednym folderze dwa pliki z&nbsp;roszerzeniem *html* (ważne). Jeden z&nbsp;postem zawierającym wszystkie komentarze, drugi z&nbsp;tym samym postem i&nbsp;schowanymi komentarzami.  
-Następnie uruchamiamy skrypt w&nbsp;tym samym folderze i&nbsp;naciskamy w&nbsp;interaktywnym trybie klawisze `F` oraz `Enter`.
+W tym trybie umieszczamy w&nbsp;jednym folderze dwa pliki z&nbsp;roszerzeniem *.html* (ważne). Jeden z&nbsp;postem zawierającym wszystkie komentarze, drugi z&nbsp;tym samym postem i&nbsp;schowanymi komentarzami.  
+Następnie uruchamiamy skrypt w&nbsp;tym folderze i&nbsp;naciskamy klawisze `F` oraz `Enter`.
 
 Udanego łapania Facebooka na cenzurze! :smile:  
 A gdyby ktoś chciał robić to nawet na telefonie i&nbsp;nie bał się konsoli, to zapraszam do dalszego czytania.
@@ -165,7 +165,7 @@ Dlaczego? Bo w&nbsp;wersjach przeznaczonych dla urządzeń mobilnych, czyli *m.f
 
 5. Pobieramy mój skrypt i&nbsp;kopiujemy go do folderu Termuksa.
 
-   Jeśli pobraliśmy skrypt przez przeglądarkę, z&nbsp;mojej strony, to powinien trafić do folderu `Downloads`. Zatem powinna zadziałać komenda:
+   Jeśli pobraliśmy skrypt przez przeglądarkę, z&nbsp;mojej strony, to powinien trafić do folderu `Download`. Zatem powinna zadziałać komenda:
 
    <div class="black-bg mono">cp /storage/emulated/0/Download/comdiff.py ~</div>
 
@@ -180,9 +180,9 @@ Od teraz, kiedy przeglądamy stronę Facebooka przez Kiwi Browser -- wersję kom
 
 I naciskamy klawisz potwierdzający. Skrypt powinien działać jak na komputerze, tyle że będzie zapisywał podsumowania ukrytych komentarzy do folderu Termuksa, niewidocznego dla innych aplikacji.
 
-Gdy będziemy chcieli upublicznić folder z&nbsp;nimi, możemy wpisać:
+Gdy będziemy chcieli wyciągnąć ten folder na szeroki świat, możemy wpisać:
 
 <div class="black-bg mono">cp Documents/cenzura /data/storage/emulated/0</div>
 
-Powinien trafić do głównego publicznego folderu naszego telefonu. A&nbsp;stamtąd możemy go wysłać gdziekolwiek chcemy; czy to przez Bluetooth, czy to przez USB na komputer.
+Skopiujemy go w ten sposób do głównego publicznego folderu naszego telefonu. A&nbsp;stamtąd możemy go wysłać gdziekolwiek chcemy; czy to przez Bluetooth, czy to przez USB.
 
