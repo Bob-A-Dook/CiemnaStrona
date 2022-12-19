@@ -275,7 +275,7 @@ Zamiast wrzucać niezrozumiałego gotowca, pokażę krok po kroku, w&nbsp;jaki s
 Trzonem jest nasze polecanie pozwalające zdobywać listę SMS&#8209;ów, `termux-sms-list`.  
 Za tym poleceniem można zapisywać różne dodatkowe *argumenty*, które pozwalają kontrolować zachowanie programu. Ich listę znalazłem na [*termux.com*](https://wiki.termux.com/wiki/Termux-sms-list).
 
-* Po pierwsze: jeśli chcemy wszystkie rodzaje wiadomości (SMS&#8209;y, MMS-y...), dopisujemy po naszym trzonie `-t all`.  
+* Po pierwsze: jeśli chcemy wszystkie rodzaje wiadomości (SMS&#8209;y, MMS&#8209;y...), dopisujemy po naszym trzonie `-t all`.  
 * Po drugie: to polecenie domyślnie bierze tylko 10&nbsp;wiadomości. Żeby zgarnąć całą historię, trzeba kazać Termuksowi brać więcej. Zapiszmy na przykład `-l 100000`.
 
   Liczba oznacza tu, ile wiadomości chcemy brać. Jeśli będzie za duża, to nic nie szkodzi, Termux weźmie tylko tyle SMS&#8209;ów, ile mamy w&nbsp;skrzynce. Można poszaleć z&nbsp;zerami.
