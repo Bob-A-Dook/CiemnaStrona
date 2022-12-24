@@ -331,7 +331,7 @@ Ale pozwolę sobie chwilę poteoretyzować. Jeśli komputer chciałby rozdzieli
 * Jeśli algorytm patrzy na polubienia i&nbsp;reakcje, to pierwsze wrażenia mogą zakłamywać obraz.
 
   Zapewne wiele osób wrzucało linki do kontrowersji wokół Mundialu na grupy fanów piłki.  
-  Tylko że obstawiałbym, że ci ludzie nie przyjęli tego ciepło. Nie chcą widzieć ciemnych stron, chcą widzieć kopanie piłki. W&nbsp;takich warunkach komentarze nie zebrałyby lajków, a&nbsp;może nawet doprowadziłyby do zgłoszeń o&nbsp;usunięcie.  
+  Tylko że obstawiałbym, że ci ludzie nie przyjęli tego ciepło. Nie chcą widzieć ciemnych stron, chcą widzieć kopanie piłki. W&nbsp;takich warunkach komentarze nie zebrałyby lajków, a&nbsp;może nawet byłyby zgłaszane do usunięcia.  
   Na ogólniejszych grupach te skandale mogłyby lepiej się przyjąć, zaskoczyć ludzi, zebrać reakcje. Ale nie zbiorą niczego, jeśli algorytm już do tej pory sobie ubzdurał, że te linki lepiej chować.
 
 Oczywiście wszystkie powyższe przemyślenia musiałbym wyrzucić do kosza, gdyby dla algorytmu miały znaczenie nie tylko cechy komentarzy, ale również mojego własnego konta.  
@@ -341,8 +341,9 @@ Ale wiem coś innego. Gdyby algorytm kierował się cechami naszego konta, to **
 
 ### Błędne koło automoderacji
 
-Ktoś mógłby pomyśleć: „Ale o&nbsp;czym my tu w&nbsp;ogóle gadamy? Chcesz widzieć wszystko bez cenzury, to klikaj taką opcję”.  
-Na poziomie indywidualnym tak może być. Ale nieprzeniknione algorytmy mogą mieć konsekwencje również na poziomie społecznym, światowym.
+Ktoś mógłby pomyśleć: „Ale o&nbsp;czym my tu w&nbsp;ogóle gadamy? Chcesz widzieć wszystko bez cenzury, to klikaj taką opcję”.
+
+Na poziomie osobistym może to pomóc. Ale działania nieprzeniknionych algorytmów mogą mieć konsekwencje również na poziomie społecznym, światowym.
 
 Dochodzi do swoistego *sprzężenia zwrotnego*:
 

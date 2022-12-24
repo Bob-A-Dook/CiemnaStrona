@@ -21,6 +21,8 @@ collections:
     output: true
   tutorials:
     output: true
+  miniposts:
+    output: true
 
 # Site logo as the default og:image
 defaults:
