@@ -145,7 +145,7 @@ Mówili też, że dają możliwość łatwego zgłaszania przywianych nasion i&n
 Puste słowa? Jeśli wierzyć dyskusji z&nbsp;podforum Stack Exchange dla sceptyków -- coś więcej, bo [takie stwierdzenie jest wiążące](https://skeptics.stackexchange.com/a/23463). Monsanto odbiera sobie szanse na wygranie w&nbsp;sądzie, gdyby wbrew tej deklaracji próbowało pozwać „ofiary” drobnych, przypadkowych wysiewów.
 
 Nie był to jednak jednostronny gest dobrej woli. To drobne ustępstwo dało Monsanto możliwość łatwego utrzymania licencji.  
-Przykład? Pewna grupa rolników pozwała ich, twierdząc że **sama groźba pozwu od dużej korporacji wywiera na rolników presję, żeby kupować ich nasiona**. Sąd przytoczył obietnicę koncernu. Skoro nie mogą pozywać za drobnostki, to gdzie tu presja? I&nbsp;orzekł na korzyść Monsanto.
+Przykład? Pewna organizacja zrzeszająca rolników [pozwała ich](http://www.osgata.org/osgata-et-al-v-monsanto/), twierdząc że **sama groźba pozwu od dużej korporacji wywiera na rolników presję, żeby kupować ich nasiona**. Sąd przytoczył obietnicę koncernu. Skoro nie mogą pozywać za drobnostki, to gdzie tu presja? I&nbsp;orzekł na korzyść Monsanto.
 
 Tyle w&nbsp;teorii. Monsanto nie opłaca się pozywać za banały, bo z&nbsp;automatu by przegrali. Ale w&nbsp;zamian system nie odbiera im możliwości pozywania.  
 Równowaga? Niestety nie. 
@@ -343,7 +343,7 @@ Możemy za to spróbować odpowiedzieć na pytanie z&nbsp;pierwszego wpisu -- dl
 
 Jakąś rolę odgrywa w&nbsp;tym zapewne lęk przed nieznanymi skutkami dla zdrowia. Lęk, którego osobiście nie odczuwam. Ale to nie wszystko. Problem z&nbsp;Monsanto polega moim zdaniem na tym, że **przenieśli mechanizmy korporacyjne do świata rolników i&nbsp;żywności**. Z&nbsp;gracją słonia w&nbsp;składzie porcelany. Większych graczy (nawet rządy krajów!) próbowali od siebie uzależnić, zmienić w&nbsp;*vendorów*, a&nbsp;los mniejszych ich nie obchodził.
 
-Wieś w&nbsp;wydaniu Monsanto to coś całkowicie im podporządkowanego. Ich klienci kupują nie tylko produty, ale również mentalność. Wierzą w&nbsp;maksymalizację zysków, nie przejmują się innymi, grzecznie zgłaszają naruszenia patentów. Słońce świeci, w&nbsp;tle giną małe farmy.
+Wieś w&nbsp;wydaniu Monsanto to coś całkowicie im podporządkowanego. Ich klienci kupują nie tylko produkty, ale również mentalność. Wierzą w&nbsp;maksymalizację zysków, nie przejmują się innymi, grzecznie zgłaszają naruszenia patentów. Słońce świeci, w&nbsp;tle giną małe farmy.
 
 Monsanto weszło w&nbsp;ekosystem wsi jak gatunek inwazyjny, zduszając miejscowy charakter. Byle samemu rosnąć i&nbsp;zagarniać coraz więcej, bez ograniczeń. To firma od walki z&nbsp;chwastami... która pod pewnymi względami sama działała jak chwast.
 

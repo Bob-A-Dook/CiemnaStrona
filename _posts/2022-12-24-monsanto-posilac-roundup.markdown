@@ -280,6 +280,13 @@ Tym niemniej efekt końcowy nie był po myśli Monsanto. **Obradujący zaliczyli
 
 Sprawy zaszły tak daleko, że organizacja [opublikowała oświadczenie](https://www.iarc.fr/wp-content/uploads/2018/07/IARC_response_to_criticisms_of_the_Monographs_and_the_glyphosate_evaluation.pdf), w&nbsp;którym wprost pisze o&nbsp;ataku, wskazuje jego źródła i&nbsp;odpowiada na głośne zarzuty.
 
+{:.figure .bigspace-before}
+<img src="/assets/posts/monsanto/iarc-grupowa-fotka.jpg" alt="Zdjęcie grupowe wykonane przed budynkiem, pokazujące ponad 30 osób. W dolnym rogu zdjęcia nałożono podpis, że to dowód złożony przez świadków, o numerze 182"/>
+
+{:.figcaption}
+Ludzie, których znienawidziło Monsanto.  
+Źródło: [CBC](https://www.cbc.ca/news/health/glyphosate-monsanto-intertek-studies-1.4902229).
+
 ### Front prawniczy
 
 Parę miesięcy po posiedzeniu naukowcy spoza Ameryki, którzy uczestniczyli w&nbsp;podejmowaniu decyzji, otrzymali groźne listy. Od firmy prawniczej Hollingsworth, reprezentującej Monsanto.
@@ -288,7 +295,7 @@ Nakazano im przekazanie wszystkich plików związanych z&nbsp;ich pracami nad *M
 
 A mówimy tu o&nbsp;Europie, która -- przynajmniej oficjalnie -- jednak nie jest własnością USA. Naukowcy amerykańscy, dzielący z&nbsp;Monsanto kraj, mieli gorzej. Amerykańscy prawnicy, powołując się na *FOIA* -- prawo dostępu do informacji publiczne -- zażądali od ich uczelni dokumentów dotyczących IARC.
 
-Samo prawo dostępu to akurat pozytywna sprawa. Korzystały z&nbsp;niego również osoby, które ujawniły aferę Monsanto Papers. Za parę wpisów zobaczymy natomiast, że w&nbsp;innym przypadku, kiedy użyto go do ujawnienia lobbystów firmy, nazywali tę metodą zastraszaniem naukowców. „Gdy Kali ukraść...”.
+Samo prawo dostępu to akurat pozytywna sprawa. Korzystały z&nbsp;niego również osoby, które ujawniły aferę Monsanto Papers. Za parę wpisów zobaczymy natomiast, że w&nbsp;innym przypadku, kiedy użyto go do ujawnienia lobbystów firmy, nazywali tę metodę zastraszaniem naukowców. „Gdy Kali ukraść...”.
 
 ### Front polityczny
 

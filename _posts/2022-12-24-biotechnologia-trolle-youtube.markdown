@@ -417,7 +417,7 @@ Mam wrażenie, że ci ludzie dobrze by się odnaleźli na jakimś 4Chanie albo
 
 ### „Glifosat mniej szkodliwy niż sól kuchenna”
 
-Tu akurat przekaz wydaje się iść z&nbsp;samej góry. W&nbsp;dokumencie telewizji ABC znajdziemy rozmowę z&nbsp;wiceprezesem Monsanto, w&nbsp;której wypowiada właśnie takie słowa na temat glifosatu: *it's less dangerous than table salt*.
+Tu akurat przekaz wydaje się iść z&nbsp;samej góry. W&nbsp;[dokumencie](https://www.youtube.com/watch?v=JszHrMZ7dx4) (YT) telewizji ABC znajdziemy rozmowę z&nbsp;wiceprezesem Monsanto, w&nbsp;której wypowiada właśnie takie słowa na temat glifosatu: *it's less dangerous than table salt*.
 
 Co ciekawe, przez to stwierdzenie stan Nowy Jork [pozwał Monsanto za wprowadzanie konsumentów w&nbsp;błąd](https://medium.com/center-for-biological-diversity/is-roundup-safer-than-table-salt-a302341aabcd). Firma od niego odeszła w&nbsp;oficjalnych materiałach. Ale w&nbsp;nieformalnej internetowej narracji żyje i&nbsp;ma się dobrze.
 
@@ -742,7 +742,7 @@ Raport [Another Perfect Storm](https://ipes-food.org/_img/upload/files/AnotherPe
 
 Może nieco się tu odzywa moje podejście do centralizacji cyfrowej, ale te słowa brzmią dla mnie sensownie. Wkładanie wszystkich jajek do jednego koszyka może mieć niefajne konsekwencje, jeśli koszyk się rozleci.
 
-Poza tym w&nbsp;chwili prawdziwego kryzysu brałoby się to, co blisko, na miejscu i&nbsp;wymaga mniej zasobów. Postawiłoby się na rośliny jadalne zamiast w&nbsp;te przeznaczone na eksport. Trudno mi zatem uwierzyć, żeby rośliny GMO -- przy całym szacunku dla nich, ale mniej sprawdzone niż zwykły miejscowy ziemniak -- miały stać się kartą, na którą wszyscy postawią w&nbsp;razie kryzysu.
+Poza tym w&nbsp;chwili prawdziwego kryzysu brałoby się to, co blisko, na miejscu i&nbsp;wymaga mniej zasobów. Postawiłoby się na rośliny jadalne zamiast na&nbsp;te przeznaczone na eksport. Trudno mi zatem uwierzyć, żeby rośliny GMO -- przy całym szacunku dla nich, ale mniej sprawdzone niż zwykły miejscowy ziemniak -- miały stać się kartą, na którą wszyscy postawią w&nbsp;razie kryzysu.
 
 ## Krótko o&nbsp;innych portalach
 
@@ -758,7 +758,7 @@ Przykład osób, jakie brali na cel? Na przykład [młoda skautka](https://www.r
 * **Twitter**
 
   Tutaj zamiast anonimów mamy często ludzi pod własnymi nazwiskami.  
-  Aktywnie udzielają się ludzie prowadzący linkowane przez trójcę strony. Jak Risk Monger czy niejaki Kevin Folta (powiązany z&nbsp;Genetic Literacy Project, GMO Answers oraz kiedyś z&nbsp;Biofortified; zakończyli współpracę w związku z&nbsp;zatajonymi konfliktami interesów).
+  Aktywnie udzielają się ludzie prowadzący strony, do których linkuje trójca. Jak Risk Monger czy niejaki Kevin Folta (powiązany z&nbsp;Genetic Literacy Project, GMO Answers oraz kiedyś z&nbsp;Biofortified; zakończyli współpracę w związku z&nbsp;zatajonymi konfliktami interesów).
 
   Ten drugi zwykle bierze na siebie rolę „dobrego gliny”, zawsze gotowego pomóc i&nbsp;wyjaśnić. Ten pierwszy, jak to on, bywa obcesowy w&nbsp;ramach swojej „satyry”.
 
@@ -767,7 +767,7 @@ Przykład osób, jakie brali na cel? Na przykład [młoda skautka](https://www.r
   Znajdziemy -- również na polskich stronach -- przykłady, kiedy jedna osoba potrafi skakać po sekcji komentarzy, zostawiając kilkanaście uwag. Ostrych, zarzucających antynaukowość, spychających dyskusję do tematu badań nad bezpieczeństwem pojedynczych składników. Skądś to chyba znamy.
 
   Co więcej, **na Facebooku jest dokładnie ten sam Duke**, co na YouTubie.  
-  W&nbsp;jednej wymiance, na grupie *GMOLOL*, [rozmawia nawet z&nbsp;szefem Biofortified](https://www.facebook.com/groups/GMOLOL/posts/2490313477775284). Wspomina o&nbsp;poście z&nbsp;innej grupki, linkującym do artykułu naukowego o&nbsp;rzekomym przekraczaniu bariery krew-mózg przez glifosat. Zaglądając do tego posta, możemy zobaczyć opinie, że grupa biotechnologiczna zrobiła najazd na sekcję komentarzy.
+  W&nbsp;jednej wymiance, na grupie *GMOLOL*, [rozmawia nawet z&nbsp;szefem Biofortified](https://www.facebook.com/groups/GMOLOL/posts/2490313477775284). Wspomina o&nbsp;poście z&nbsp;innej grupki, linkującym do artykułu naukowego o&nbsp;rzekomym przekraczaniu bariery krew-mózg przez glifosat. Zaglądając do tego posta, możemy zobaczyć opinie, że zrobiono im najazd na sekcję komentarzy.
 
 ## Polski YouTube
 
@@ -833,7 +833,7 @@ text="(...) A&nbsp;skąd wiesz jakie ten ktoś ma intencje? Czemu go nie podejrz
 {:.post-meta .bigspace-after}
 Dane dotyczące tej osoby, w&nbsp;tym komentarzy i&nbsp;linków, również znajdziemy w&nbsp;moim [osobnym repozytorium](https://github.com/Bob-A-Dook/Youtube_Biotech_Comments), w podfolderze `pl`.
 
-Wśród tych komentarzy są też linki. Całkiem ich sporo. Jeden do GMO Answers. **I aż 58&nbsp;linków do 29&nbsp;różnych stron gazety "Polityka"**.
+Wśród tych komentarzy są też linki. Całkiem ich sporo. Jeden do GMO Answers. **I aż 58&nbsp;linków do 29&nbsp;różnych stron gazety _Polityka_**.
 
 {:.bigspace-before}
 <img src="/assets/posts/biotech-youtube/youtube-uyop-linki.jpg" alt="Graf pokazujący linki, jakie pozostawiło konto Uyop pod filmem Naukowego Bełkotu. Widać, że najwięcej strzałek odpowiadających linkom kieruje się do zielonych elips, symbolizujących strony gazety Polityka."/>

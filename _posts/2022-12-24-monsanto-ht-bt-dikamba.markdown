@@ -26,7 +26,7 @@ Wyjaśnienie właściwie skopiowałem z&nbsp;poprzedniego wpisu, ale uznałem je
 
 Dwa wpisy temu przyjrzeliśmy się skandalom wokół dwóch produktów tej firmy, hormonu Posilac i&nbsp;środka chwastobójczego Roundup. Zobaczyliśmy, że firma potrafi stosować mocno kontrowersyjne metody.
 
-Poprzedni wpis pokazał, że równie kontrowersyjna była ekspansja ich działu biotechnologicznego, oferującego nasiona modyfikowane genetycznie (GMO). Były łapówki, patenty, pozwy, dzielenie rolniczej społeczeności, angażowanie do pomocy polityków amerykańskich.
+Poprzedni wpis pokazał, że równie kontrowersyjna była ekspansja ich działu biotechnologicznego, oferującego nasiona modyfikowane genetycznie (GMO). Były łapówki, patenty, pozwy, dzielenie rolniczej społeczności, angażowanie do pomocy polityków amerykańskich.
 
 A teraz mamy ten wpis. Będzie o&nbsp;pewnych efektach ubocznych wspomnianych roślin GMO. A&nbsp;także o&nbsp;łańcuchu przyczynowo-skutkowym, kiedy nasiona doprowadziły do spopularyzowania pewnego pestycydu, a&nbsp;on do zniszczeń. I&nbsp;jeszcze gorszych podziałów wśród rolników.
 
@@ -217,7 +217,7 @@ Ponadto, jeśli tylko jakiejś roślinie dało się nadać cechę odporności na
 
 Wyobraźmy sobie, że jakiemuś rolnikowi zależy głównie na ochronie przed owadami. Ale skoro musi w&nbsp;tym celu kupować nasiona z&nbsp;cechą Roundup Ready, to jak myślimy -- jaki herbicyd do tego weźmie?
 
-Innym przykładem jest *płodozmian*, czyli uprawianie co sezon innych roślin. Dzięki temu chwasty miałyby mniej stabilne środowisko i&nbsp;nie byłyby w&nbsp;stanie tak łatwo się udoparniać.  
+Innym przykładem jest *płodozmian*, czyli uprawianie co sezon innych roślin. Dzięki temu chwasty miałyby mniej stabilne środowisko i&nbsp;nie byłyby w&nbsp;stanie tak łatwo się uodparniać.  
 Ale to obejmowałoby rośliny spoza oferty Monsanto i&nbsp;mniej pestycydów. Zatem nie polubili tej metody i&nbsp;twierdzili w&nbsp;swoich materiałach reklamowych, że [jej skuteczność jest niska](https://sitn.hms.harvard.edu/flash/2015/roundup-ready-crops/).
 
 W każdym razie, czyja wina by to nie była, rośliny RR zdecydowanie nie ograniczyły pryskania.
@@ -228,7 +228,7 @@ Powstaje błędne koło. Szkodniki coraz odporniejsze, więc pryskamy więcej. W
 
 Ten herbicyd produkuje Monsanto (pod marką XtendiMax), ale nie tylko -- tworzy go również koncern BASF (marka Engenia). Dikamba w&nbsp;żadnym razie nie jest nowa, powstała w&nbsp;latach 60. Ale wróciła do łask niedawno, przez wspomniane problemy z&nbsp;odpornością.
 
-A problem z&nbsp;samą Dicambą? Była [bardzo lotna](https://www.youtube.com/watch?v=xkFaPrn07OI). Po oprysku potrafiła odlecieć nawet kilka kilometrów w&nbsp;dal, lądując na cudzych polach.
+A problem z&nbsp;samą dikambą? Była [bardzo lotna](https://www.youtube.com/watch?v=xkFaPrn07OI). Po oprysku potrafiła odlecieć nawet kilka kilometrów w&nbsp;dal, lądując na cudzych polach.
 
 Gdyby był to oprysk we wczesnej fazie -- gdy jeszcze nic nie rośnie, a&nbsp;na polu są tylko chwasty -- to jeszcze pół biedy. Nasza latająca dikamba załatwiłaby jedynie nasze chwasty. I&nbsp;chwasty sąsiada. I&nbsp;parę dzikich roślin. No ale z&nbsp;nich nie ma zysku, więc *chill*.
 
@@ -238,7 +238,7 @@ Te rośliny można było opryskiwać dikambą również podczas dojrzewania.
 {:.figure .bigspace}
 <img src="/assets/posts/monsanto/dikamba-zakres-soja.jpg" alt="Schemat pokazujący oś czasu dla wzrostu roślin soi, zawierający co kilka minut jej szkic na danym etapie. Prawie do końca sięga klamra podpisana jako czas, kiedy można prowadzić oprysk dikambą"/>
 
-Zapewne wyobrażamy sobie czarny scenariusz, nieprawdaż? Wokół już całkiem spore rośliny, wszystko się rozwija. Ale chwasty tłamszą nasze uprawy DR, więc je opryskujemy. A że dikamba lubi latać, to ginie wszystko wokół.
+Zapewne wyobrażamy sobie czarny scenariusz, nieprawdaż? Wokół już całkiem spore rośliny, wszystko się rozwija. Ale chwasty tłamszą nasze uprawy DR, więc je opryskujemy. A&nbsp;że dikamba lubi latać, to ginie wszystko wokół.
 
 Monsanto też to sobie wyobrażało, bo opracowali równolegle nową odmianę preparatu XtendiMax. O&nbsp;lepszej „przyczepności”, żeby nie odlatywał tak daleko.  
 Problem zażegnany? Nie. Bo wypuścili odporne rośliny na rynek, zanim dotarł tam stabilniejszy preparat. Rolnikom zakomunikowali, że jak najbardziej mogą kupować nasiona DR, ale niech traktują je jak zwykłą odmianę i&nbsp;nie opryskują.
@@ -387,6 +387,5 @@ Spojrzymy na działalność internetową Monsanto oraz paru innych koncernów, b
 * Memy z&nbsp;piesełami z&nbsp;internetów.
 * Komunikat o&nbsp;nieskuteczności z&nbsp;pierwszej serii gier Pokémon (Red, Blue, Green).
 * [Nagrobki](https://emojipedia.org/headstone/), [krople](https://emojipedia.org/sweat-droplets/) -- Emojipedia.
-* Grafika z&nbsp;roślinami -- Flaticon.  
-  [Kukurydza](https://cdn-icons-png.flaticon.com/512/2194/2194856.png) i&nbsp;[oset](https://cdn-icons-png.flaticon.com/512/8046/8046819.png) autorstwa Freepik.
+* Grafika z&nbsp;roślinami -- Flaticon. [Kukurydza](https://cdn-icons-png.flaticon.com/512/2194/2194856.png) i&nbsp;[oset](https://cdn-icons-png.flaticon.com/512/8046/8046819.png) autorstwa Freepik.
 
