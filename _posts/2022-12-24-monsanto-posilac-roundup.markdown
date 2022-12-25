@@ -32,7 +32,7 @@ Odpowiedź: **postanowiłem unikać najbardziej kontrowersyjnej kwestii -- zasta
 
 Na początku planowałem stworzyć tylko jeden wpis o&nbsp;Monsanto, skupiający się na ich internetowej dezinformacji. Ale wstęp opisujący aferki z&nbsp;życia firmy rósł i&nbsp;rósł. Zrobiły się z&nbsp;niego trzy osobne wpisy. Które i&nbsp;tak nie wychodzą poza temat rolnictwa.
 
-Jeśli wolisz sprawy analityczno-cyfrowe, to zapraszam do ostatniego, czwartek wpisu. Wątki wokół chemii rolniczej są tutaj, te wokół patentów i&nbsp;kontroli we wpisie numer dwa, zaś wpis numer trzy dotyczy działu biotechnologicznego. Zapraszam do lektury!
+Jeśli wolisz sprawy analityczno-cyfrowe, to zapraszam do ostatniego, [czwartego wpisu]({% post_url 2022-12-24-biotechnologia-trolle-youtube %}){:.internal}. Wątki wokół chemii rolniczej są tutaj, te wokół patentów i&nbsp;kontroli we wpisie numer dwa, zaś wpis numer trzy dotyczy działu biotechnologicznego. Zapraszam do lektury!
 
 ### Spis treści
 

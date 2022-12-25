@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Biotechnologiczne farmy... trolli"
-subtitle: "Własne źródła, własne trolle. Własna prawda"
-description: "Własne źródła, własne trolle. Własna prawda"
+subtitle: "Własne źródła, własne trolle. Własna prawda."
+description: "Własne źródła, własne trolle. Własna prawda."
 date:   2022-12-24 02:04:00 +0100
 tags: [Analiza danych, Internet, Manipulacja, Rolnictwo, Trolle]
 firmy: [Bayer, Google, Monsanto]
@@ -13,7 +13,7 @@ image:
   alt: "Schemat pokazujący strony internetowe w formie elips oraz liczne wychodzące od nich strzałki, symbolizujące linki. Po lewej stronie mamy kilkanaście stron z serwisu YouTube, a po prawej strony zewnętrzne"
 ---
 
-To wpis, który rozrósł się w całą miniserię na temat Monsanto -- koncernu produkującego różne rzeczy związane z&nbsp;rolnictwem. Kto chce, ten może poczytać moje poprzednie wpisy (na temat działalności chemicznej i&nbsp;biotechnologicznej). Będę do nich parę razy odsyłał, ale zasadniczo ich znajomość nie jest konieczna.
+To wpis, który rozrósł się w całą miniserię na temat Monsanto -- koncernu produkującego różne rzeczy związane z&nbsp;rolnictwem. Kto chce, ten może poczytać moje poprzednie wpisy (na temat ich działalności chemicznej i&nbsp;biotechnologicznej). Będę do nich parę razy odsyłał, ale zasadniczo ich znajomość nie jest konieczna.
 
 {% include info.html
 type="Uwaga"
@@ -40,6 +40,7 @@ Zobaczymy też inny smutny fakt, ogólniejszy niż Monsanto czy nawet branża *b
   * [Konkretne tożsamości](#konkretne-tożsamości)
 * [Streszczenie poprzednich wpisów](#streszczenie-poprzednich-wpisów)
 * [Monsanto w&nbsp;internecie](#monsanto-winternecie)
+  * [Własny dział analiz](#własny-dział-analiz)
   * [Podwykonawcy od brudnej roboty](#podwykonawcy-od-brudnej-roboty)
   * [Sieć powiązanych stron](#sieć-powiązanych-stron)
 * [Częste motywy w&nbsp;komentarzach](#częste-motywy-wkomentarzach)
@@ -85,7 +86,7 @@ Stworzone przeze mnie pliki, w&nbsp;tym listę wszystkich komentarzy, linki ora
 
 ### Linki do stron
 
-Komentarze naszej ekipy, oprócz tekstu, zawierają nieraz linki. Całkiem sporo linków. Te prowadzące do szczególnie ciekawych domen wyróżniłem kolorem:
+Komentarze naszej ekipy, oprócz tekstu, zawierają nieraz linki. Całkiem sporo linków. Szczególnie ciekawe strony docelowe wyróżniłem kolorem:
 
 {:.bigspace}
 <img src="/assets/posts/biotech-youtube/biotech-youtube-baner.jpg" alt="Graf pokazujący, jak od poszczególnych filmów z&nbsp;YouTube'a wychodzą strzałki symbolizujące linki prowadzące do innych stron. Po prawej stronie widać wiele wierzchołków w&nbsp;kolorze niebieskim, odpowiadających stronie Genetic Literacy Project."/>
@@ -95,7 +96,7 @@ To oczywiście tylko średnio czytelna miniaturka. Plik w&nbsp;lepszej jakości,
 Każda elipsa na schemacie to jedna strona internetowa. Jeśli elipsy są kolorowe i&nbsp;mają ten sam kolor, to znaczy że należą do tej samej domeny -- jak *youtube.com*. To jej odpowiadają czerwone elipsy po lewej.
 
 Każda strzałka to jeden link prowadzący do jakiejś strony.  
-Kolor strzałki wskazuje osobę linkującą. Czerwone to Popeye, żółte to David, niebieskawe to Duke.
+Kolor strzałki wskazuje osobę linkującą. Czerwone to Popeye, żółte to David, niebieskawe to Duke. Fioletowe to znacznie mniej aktywne konto zaczynające się od słowa Peer.
 
 A czym są te strony po prawej, które wyróżniłem różnymi kolorami? To te, które należą do ciekawych osób i&nbsp;organizacji: 
 
@@ -111,8 +112,8 @@ Dokładniej omawiam je w&nbsp;osobnym mikrowpisie, do którego jeszcze odeślę.
 
 A pod jakimi filmami konta podrzuciły najwięcej linków? Zdecydowanie przodują tu dwa; to te „emitery” w&nbsp;dolnych rzędach czerwonych elips:
 
-1. Na jednym z&nbsp;nich znany astrofizyk, Neil daGrasse Tyson, mówi o&nbsp;bezpieczeństwie GMO. Ta sama osoba użyczyła potem głosu w&nbsp;filmie promującym nową wizję rolnictwa.
-2. Drugi film to TED Talk niejakiej Pameli Ronald, poświęcony zaletom modyfikowania żywności. O&nbsp;niej również wspominam we wpisie pobocznym.
+1. W [pierwszym](https://www.youtube.com/watch?v=aMDhUsxom0U) z tych filmów znany astrofizyk, Neil deGrasse Tyson, mówi o&nbsp;bezpieczeństwie GMO. Ta sama osoba użyczyła potem głosu w&nbsp;filmie *Food Evolution*, promującym nową wizję rolnictwa.
+2. [Drugi film](https://www.youtube.com/watch?v=wZ2TF8-PGQ4) to TED Talk niejakiej Pameli Ronald, poświęcony zaletom modyfikowania żywności. O&nbsp;tej osobie również wspominam we wpisie pobocznym.
 
 ### Konkretne tożsamości
 
@@ -218,7 +219,7 @@ A drugie pytanie, wychodzące poza moje poprzednie wpisy -- czy ta firma byłaby
 
 Co ciekawe, Monsanto miało [własny dział wywiadowczy](https://www.theguardian.com/business/2019/aug/07/monsanto-fusion-center-journalists-roundup-neil-young). Nazywali go w&nbsp;wewnętrznych mailach *fusion center*, co w&nbsp;żargonie szpiegowskim jest swoistym centrum analiz. Miał zbierać informacje o&nbsp;konkretnych, niewygodnych dla firmy osobach.
 
-Przykład? Neil Young, [znany muzyk rockowy](https://pl.wikipedia.org/wiki/Neil_Young). Nie lubił tego, co Monsanto uczyniło ze wsiami USA i&nbsp;wydał całą płytę *Monsanto Years*,  w&nbsp;której mocno ich krytykuje.
+Przykład? Neil Young, [znany muzyk rockowy](https://pl.wikipedia.org/wiki/Neil_Young). Nie lubił tego, co Monsanto uczyniło ze wsiami w&nbsp;USA i&nbsp;wydał całą płytę *Monsanto Years*, zawierającą sporo krytyki.
 
 Krótko po tym odezwał się do niego autor pewnego krótkiego dokumentu filmowego, *Seeding Fear* (na temat nacisków prawnych, jakie stosowało Monsanto wobec rolników). Neil, mocno popierając przekaz, użyczył mu swojej piosenki i&nbsp;zaczął promować dokument w&nbsp;mediach społecznościowych
 
@@ -236,9 +237,10 @@ W sprawie [wypowiedziało się](https://www.theguardian.com/business/2019/aug/07
 
 ### Podwykonawcy od brudnej roboty
 
-To dość rzadkie, że Monsanto trzymało własny dział, bo korporacje często zlecają takie rzeczy swoim *vendorom* (podwykonawcom). Ale spokojnie, z&nbsp;zewnętrznych usług też korzystali. Tu wspomnę o współpracownikach oficjalnych, choć kontrowersyjnych.
+To dość rzadkie, że Monsanto trzymało własny dział, bo korporacje często zlecają takie rzeczy swoim *vendorom* (podwykonawcom). Ale spokojnie, z&nbsp;zewnętrznych usług też korzystali. Tu wspomnę o współpracownikach oficjalnych, choć ciutkę podejrzanych.
 
-Jedną z&nbsp;zakontraktowanych firm była *Total Intelligence*, należąca do kontrowersyjnej grupy Blackwater, załatwiającej między innymi najemników do Iraku. Sam przedstawiciel Monsanto [przyznaje](https://www.thenation.com/article/archive/blackwaters-black-ops/), że współpracowali przez dwa lata. Oficjalnie firma miała ich informować o&nbsp;tym, jakie opinie krążą na ich temat w&nbsp;różnych lokalnych mediach, kiedy zajmowali się ekspansją.
+Jedną z&nbsp;zakontraktowanych firm była *Total Intelligence*, należąca do kontrowersyjnej grupy Blackwater, załatwiającej między innymi najemników do Iraku. Sam przedstawiciel Monsanto [przyznaje](https://www.thenation.com/article/archive/blackwaters-black-ops/), że współpracowali przez dwa lata.  
+Oficjalnie ten podwykonawca miał ich informować o&nbsp;tym, jakie opinie krążą na ich temat w&nbsp;różnych lokalnych mediach, kiedy zajmowali się ekspansją.
 
 Inną taką firmą była *FTI Consulting*. Prowadzili między innymi skoordynowaną akcję polegającą na [zdyskredytowaniu książki](https://usrtk.org/wp-content/uploads/2019/08/Monsanto-Project-Spruce-Carey-Gillam-1.pdf) wydanej przez dziennikarkę nieprzychylną Monsanto.
 
@@ -249,7 +251,7 @@ Wspomniane FTI stworzyło bowiem stronkę uderzającą w&nbsp;dziennikarkę. I&
 
 Oprócz bezpośrednich współpracowników Monsanto miało też partnerów dalszego rzędu (choć ważnych). Nie przyznawali się do nich wprost. Były to m.in. strony obsługiwane w&nbsp;całości przez agencje PR-owe. Albo dawni pracownicy działający jako „niezależni konsultanci”.
 
-Monsanto nie oszczędzało, jeśli chodzi o&nbsp;front PR-owy. W&nbsp;ramach akcji pod kryptonimem *Let Nothing Go* wydali w&nbsp;samym 2016&nbsp;roku (po niekorzystnym werdykcie IARC) [kilkanaście milionów dolarów](https://usrtk.org/wp-content/uploads/2019/03/Transcript-deposition-of-Monsanto-employee-Sam-Murphey.pdf) na ostrą walkę z krytyką w&nbsp;różnej maści mediach społecznościowych. Z&nbsp;założenia miało to obejmować stawianie pozornie neutralnych stron internetowych.
+Monsanto nie oszczędzało, jeśli chodzi o&nbsp;front PR-owy. W&nbsp;ramach akcji pod kryptonimem *Let Nothing Go* wydali w&nbsp;samym 2016&nbsp;roku (po niekorzystnym werdykcie IARC) [kilkanaście milionów dolarów](https://usrtk.org/wp-content/uploads/2019/03/Transcript-deposition-of-Monsanto-employee-Sam-Murphey.pdf) na ostrą walkę z&nbsp;krytyką w&nbsp;różnej maści mediach społecznościowych. Z&nbsp;założenia miało to obejmować stawianie pozornie neutralnych stron internetowych.
 
 To do tej kategorii należą strony tak często linkowane przez trzy konta z&nbsp;YouTube'a. Była to cała siatka powiązań; mały ekosystem dbający, nieraz w&nbsp;sposób kontrowersyjny, o&nbsp;reputację różnych branż.
 
@@ -287,11 +289,11 @@ text="There is a&nbsp;nasty anti-science troll who is abusing Youtube to post li
 <summary><strong>Źródła</strong></summary>
 <ul>
   <li>
-<a href="www.youtube.com/watch?v=mX5OiRRNRnU&amp;lc=Ugyksn5lJvls06Y9Sgx4AaABAg.8k4XLp5btMQ9aWM0G1LNI_">Duke</a>;</li>
+<a href="https://www.youtube.com/watch?v=mX5OiRRNRnU&amp;lc=Ugyksn5lJvls06Y9Sgx4AaABAg.8k4XLp5btMQ9aWM0G1LNI_">Duke</a>;</li>
   <li>
-<a href="www.youtube.com/watch?v=wZ2TF8-PGQ4&amp;lc=UgwqdKISkxMSdS4Zglp4AaABAg.96CEc-BRWBo97V10dzP0on">David</a>;</li>
+<a href="https://www.youtube.com/watch?v=wZ2TF8-PGQ4&amp;lc=UgwqdKISkxMSdS4Zglp4AaABAg.96CEc-BRWBo97V10dzP0on">David</a>;</li>
   <li>
-<a href="www.youtube.com/watch?v=wZ2TF8-PGQ4&amp;lc=UgyIQMVNT3xY78g35WN4AaABAg">Popeye</a>.</li>
+<a href="https://www.youtube.com/watch?v=wZ2TF8-PGQ4&amp;lc=UgyIQMVNT3xY78g35WN4AaABAg">Popeye</a>.</li>
 </ul>
 </details>
 
@@ -333,7 +335,7 @@ text="Playing the shill gambit is always a&nbsp;forfeit of the debate at hand. I
   <li>
 <a href="https://www.youtube.com/watch?v=aMDhUsxom0U&amp;lc=UgzqQVJzYEcYJHij73l4AaABAg.9-s58ZT2uZy9-srnZgRtoY">agresywna reakcja</a>;</li>
   <li>
-<a href="www.youtube.com/watch?v=wZ2TF8-PGQ4&amp;lc=Ugy4mqLPcqyhXnFshn54AaABAg.9C8VF-9WtwD9CRX1V0G-M3">“nikt by za to nie płacił”</a>.</li>
+<a href="https://www.youtube.com/watch?v=wZ2TF8-PGQ4&amp;lc=Ugy4mqLPcqyhXnFshn54AaABAg.9C8VF-9WtwD9CRX1V0G-M3">“nikt by za to nie płacił”</a>.</li>
 </ul>
 </details>
 
@@ -497,7 +499,7 @@ I choć istotnie Monsanto [pojawiło się](https://fullfact.org/news/ukraine-lan
   <li>
 <a href="https://www.youtube.com/watch?v=wZ2TF8-PGQ4&amp;lc=Ugg14TKNbngHTXgCoAEC.7zk61ZduoZn91ExuEsAuCH">krytycy jak chemitrailowcy</a>;</li>
   <li>
-<a href="www.youtube.com/watch?v=7TmcXYp8xu4&amp;lc=UgzqCIfvtoOKg0O_xyl4AaABAg.8quWS60d1v08r0fPGEI3Xn">krytycy jak Rosjanie</a>.</li>
+<a href="https://www.youtube.com/watch?v=7TmcXYp8xu4&amp;lc=UgzqCIfvtoOKg0O_xyl4AaABAg.8quWS60d1v08r0fPGEI3Xn">krytycy jak Rosjanie</a>.</li>
 </ul>
 </details>
 
@@ -627,11 +629,11 @@ text="Yes, your friendly neighborhood organic farmer is part of a&nbsp;30 year l
 <summary><strong>Źródła</strong></summary>
 <ul>
   <li>
-<a href="www.youtube.com/watch?v=mz4_TwdaYeI&amp;lc=UgygKkC1rvVa_gRAOCN4AaABAg.99N6d5joQ7Z9AmIfQ0IhWY">Duke</a>;</li>
+<a href="https://www.youtube.com/watch?v=mz4_TwdaYeI&amp;lc=UgygKkC1rvVa_gRAOCN4AaABAg.99N6d5joQ7Z9AmIfQ0IhWY">Duke</a>;</li>
   <li>
-<a href="www.youtube.com/watch?v=M8sgEhpHM4k&amp;lc=UgyoppCe8gBIr8ZfLK54AaABAg.8x5-v_Re7EJ8xnDC25mogo">David</a>;</li>
+<a href="https://www.youtube.com/watch?v=M8sgEhpHM4k&amp;lc=UgyoppCe8gBIr8ZfLK54AaABAg.8x5-v_Re7EJ8xnDC25mogo">David</a>;</li>
   <li>
-<a href="www.youtube.com/watch?v=cG0G0JvmIHM&amp;lc=UgxUia6qzxvBthwCXKV4AaABAg.8jtnIP49NAv8kZM4FbieuG">Popeye</a>.</li>
+<a href="https://www.youtube.com/watch?v=cG0G0JvmIHM&amp;lc=UgxUia6qzxvBthwCXKV4AaABAg.8jtnIP49NAv8kZM4FbieuG">Popeye</a>.</li>
 </ul>
 </details>
 
@@ -698,7 +700,7 @@ text="We absolutely will all starve to death if we do not fast track the adaptat
   <li>
 <a href="https://www.youtube.com/watch?v=aMDhUsxom0U&amp;lc=UgyJSqifgAIymg7RLBx4AaABAg.93QMASRjMXe93kBtgeynDt">“potrzebujemy roślin GMO do karmienia świata”</a>;</li>
   <li>
-<a href="www.youtube.com/watch?v=aMDhUsxom0U&amp;lc=UgwNl5UNqxfuGHFAAMx4AaABAg.8yREMyRwscv8yWam4u4LjT">“bez nich wszyscy umrzemy”</a>.</li>
+<a href="https://www.youtube.com/watch?v=aMDhUsxom0U&amp;lc=UgwNl5UNqxfuGHFAAMx4AaABAg.8yREMyRwscv8yWam4u4LjT">“bez nich wszyscy umrzemy”</a>.</li>
 </ul>
 </details>
 
@@ -722,9 +724,9 @@ text="Only zucchini and Hawaiian papayas are GMO sourced. 93% of all GMO grown i
 <summary><strong>Źródła</strong></summary>
 <ul>
   <li>
-<a href="www.youtube.com/watch?v=7TmcXYp8xu4&amp;lc=UgwJKCcV-W8KMmA5cXd4AaABAg.8utMN0ibmpw8uz1OtI2d7Q">pierwszy komentarz</a>;</li>
+<a href="https://www.youtube.com/watch?v=7TmcXYp8xu4&amp;lc=UgwJKCcV-W8KMmA5cXd4AaABAg.8utMN0ibmpw8uz1OtI2d7Q">pierwszy komentarz</a>;</li>
   <li>
-<a href="www.youtube.com/watch?v=7TmcXYp8xu4&amp;lc=Ugxx6TsBBHUnquSNGGB4AaABAg.9AvgSHELu1F9AwKqeT8vLU">drugi komentarz</a>.</li>
+<a href="https://www.youtube.com/watch?v=7TmcXYp8xu4&amp;lc=Ugxx6TsBBHUnquSNGGB4AaABAg.9AvgSHELu1F9AwKqeT8vLU">drugi komentarz</a>.</li>
 </ul>
 </details>
 
@@ -762,7 +764,7 @@ Przykład osób, jakie brali na cel? Na przykład [młoda skautka](https://www.r
 
 * **Facebook**
 
-  Znajdziemy -- również na polskich stronach -- przykłady, kiedy jedna osoba potrafi skakać po sekcji komentarzy, zostawiając kilkanaście komentarzy. Ostrych, zarzucających antynaukowość, spychających dyskusję do tematu badań nad bezpieczeństwem pojedynczych składników. Skądś to chyba znamy.
+  Znajdziemy -- również na polskich stronach -- przykłady, kiedy jedna osoba potrafi skakać po sekcji komentarzy, zostawiając kilkanaście uwag. Ostrych, zarzucających antynaukowość, spychających dyskusję do tematu badań nad bezpieczeństwem pojedynczych składników. Skądś to chyba znamy.
 
   Co więcej, **na Facebooku jest dokładnie ten sam Duke**, co na YouTubie.  
   W&nbsp;jednej wymiance, na grupie *GMOLOL*, [rozmawia nawet z&nbsp;szefem Biofortified](https://www.facebook.com/groups/GMOLOL/posts/2490313477775284). Wspomina o&nbsp;poście z&nbsp;innej grupki, linkującym do artykułu naukowego o&nbsp;rzekomym przekraczaniu bariery krew-mózg przez glifosat. Zaglądając do tego posta, możemy zobaczyć opinie, że grupa biotechnologiczna zrobiła najazd na sekcję komentarzy.
@@ -785,10 +787,7 @@ W komentarzu zostawił też pięć linków -- do stron Genetic Literacy Project,
 
 Innym bardzo ciekawym przykładem jest [filmik „Jak (i po co) robi się GMO?”](https://www.youtube.com/watch?v=LV_BdSKSFyo) na kanale *Uwaga! Naukowy Bełkot*. I&nbsp;nie chodzi o&nbsp;sam filmik -- jak wielu innych popularyzatorów, autor trzyma się kwestii bezpieczeństwa i&nbsp;nie znajduje nic niebezpiecznego. Nie mówi o&nbsp;aferkach. *Nihil novi*. Ciekawsze są dla mnie natomiast komentarze.
 
-{:.post-meta .bigspace-after}
-Dane dotyczące tej osoby, w&nbsp;tym komentarzy i&nbsp;linków, również znajdziemy w&nbsp;moim [osobnym repozytorium](https://github.com/Bob-A-Dook/Youtube_Biotech_Comments), w podfolderze `pl`.
-
-W jednym z&nbsp;nich autor filmu sam **wspomina, że nie miałby nic przeciwko oznaczaniu produktów GMO. I&nbsp;zostaje skontrowany**. Przez tajemniczą osobę o&nbsp;imieniu Uyop:
+W jednym z&nbsp;nich autor filmu sam **wspomina, że nie miałby nic przeciwko oznaczaniu produktów GMO. I&nbsp;zostaje skontrowany**. Przez tajemniczą osobę o&nbsp;nicku zaczynającym się od Uyop:
 
 {:.bigspace}
 {% include comment.html
@@ -830,6 +829,9 @@ author="Uyop"
 avatar="/assets/posts/biotech-youtube/uyop.jpg"
 text="(...) A&nbsp;skąd wiesz jakie ten ktoś ma intencje? Czemu go nie podejrzewasz o&nbsp;bycie marionetką w&nbsp;ręku coraz bogatszej branży produktów organicznych? Może specjalnie chcą zepsuć wizerunek GMO by zyskać w&nbsp;oczach konsumenta i&nbsp;przejąć rynek? (...)"
 %}
+
+{:.post-meta .bigspace-after}
+Dane dotyczące tej osoby, w&nbsp;tym komentarzy i&nbsp;linków, również znajdziemy w&nbsp;moim [osobnym repozytorium](https://github.com/Bob-A-Dook/Youtube_Biotech_Comments), w podfolderze `pl`.
 
 Wśród tych komentarzy są też linki. Całkiem ich sporo. Jeden do GMO Answers. **I aż 58&nbsp;linków do 29&nbsp;różnych stron gazety "Polityka"**.
 
