@@ -163,7 +163,7 @@ Poza tym jest jeszcze jeden fakt, za który akurat Monsanto ponosi winę. Jeszcz
 
 ## Kwestia zwiększonych oprysków
 
-Wokół Roundupu (najpopularniejszego środka chwastobójczego od Monsanto) oraz glifosatu (jego składnika aktywnego, obecnego też w cudzych produktach) krąży sporo kontrowersji. Opisywałem je dwa wpisy temu. Ale przeciwstawia się im argument:
+Wokół Roundupu (najpopularniejszego środka chwastobójczego od Monsanto) oraz glifosatu (jego składnika aktywnego, obecnego też w&nbsp;cudzych produktach) krąży sporo kontrowersji. Opisywałem je dwa wpisy temu. Ale przeciwstawia się im argument:
 
 {:.bigspace}
 > Gdyby zakazać Roundupu, to rolnicy zaczną używać znacznie gorszych herbicydów.
@@ -198,7 +198,7 @@ Ilość herbicydów zużywanych na uprawach soi. Źródło: [Seed Money](https:/
 Ale może chociaż ta dodatkowa ilość pestycydów zostaje na polu, z&nbsp;dala od ludzi?
 
 Chciałbym. Ale kto czytał poprzedni wpis, ten już się chyba domyśla ciągu dalszego.  
-Nawet w&nbsp;Europie -- gdzie roślin RR nie ma, a&nbsp;jedynym źródłem glifosatu jest desykacja zbóż -- wciąż znajdziemy go w&nbsp;próbkach żywności i moczu.
+Nawet w&nbsp;Europie -- gdzie roślin RR nie ma, a&nbsp;jedynym źródłem glifosatu jest desykacja zbóż -- wciąż znajdziemy go w&nbsp;próbkach żywności i&nbsp;moczu.
 
 W USA, krainie Roundup Ready, [jest go jeszcze więcej](https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,glifosat---czy-powinien-byc-zakazany--gdzie-go-mozna-znalezc-,artykul,08853159.html). Badanie z&nbsp;2017 r., opublikowane w&nbsp;*Journal of the American Medical Association*, wykazało sześciokrotny wzrost ekspozycji Amerykanów na glifosat (od czasu wprowadzenia upraw RR).
 
@@ -342,15 +342,14 @@ W tym wpisie zobaczyliśmy, że sprawy pestycydów i&nbsp;roślin GMO wydają si
 
 Nie wiem, co myślicie na temat samych roślin GMO, i&nbsp;szczerze mówiąc nie planuję w&nbsp;żaden sposób tych poglądów zmieniać. Osobiście nie wierzę, żeby wprost szkodziły zdrowiu.
 
-Ale proponuję w&nbsp;ogóle od tematu zdrowia tu odejść. O&nbsp;ile ma on jakieś odniesienie do pestycydów, tak przy nasionach blednie (moim zdaniem) na tle innych spraw.
+Ale proponuję w&nbsp;ogóle tu odejść od kwestii wpływu na zdrowie . O&nbsp;ile ma ona jakieś odniesienie do pestycydów, tak przy nasionach blednie (moim zdaniem) na tle innych spraw.
 
-Spraw takich jak silne powiązanie nasion z&nbsp;pestycydami. To patologia *wszystkich* wielkich korporacji od chemii rolnej, nie tylko samego Monsanto. Jak widzieliśmy, w&nbsp;przypadku dikamby jechali z&nbsp;BASF-em na jednym wózku.
-
+Spraw takich jak działanie głównie pod interes działu chemicznego. To patologia *wszystkich* wielkich korporacji od chemii rolnej, nie tylko samego Monsanto. Jak widzieliśmy, w&nbsp;przypadku dikamby jechali z&nbsp;BASF-em na jednym wózku.  
 Dlaczego tyle firm od roślin GMO tworzy jednocześnie chemię rolniczą? Dlaczego w&nbsp;ofercie najczęstsze są rośliny „lubiące się” z&nbsp;opryskami?
 
 Obawiam się, że biotechnologia jest dla tych firm jedynie dodatkiem, nakładką. Na siłę dopasowaną do głównego modelu biznesowego, utrzymywanego od lat, opartego na sprzedaży pestycydów.
 
-Te korporacje nie dążą do innowacji, nowych i&nbsp;fajnych GMO. Nawet jeśli głośno mówią coś innego. **Najpewniejszym sposobem na zysk jest dla nich ładowanie pieniędzy w&nbsp;propagandę i&nbsp;działania lobbystyczne**. Więc to robią. Skupiają się na wprowadzaniu produktów do coraz to nowych krajów. Żeby inwestorów z&nbsp;Wall Street ucieszyły wzrosty.
+Te korporacje nie dążą do innowacji, nowych i&nbsp;fajnych GMO. Nawet jeśli głośno mówią coś innego. **Najpewniejszym sposobem na zysk jest dla nich ładowanie pieniędzy w&nbsp;propagandę i&nbsp;działania lobbystyczne**. Więc to robią. Skupiają się na wprowadzaniu tych samych produktów do coraz to nowych krajów. Żeby inwestorów z&nbsp;Wall Street ucieszyły wzrosty.
 
 Jeśli wynajdą jakąś roślinę, to nie powinna godzić w&nbsp;ich produkty chemiczne. Najlepiej, żeby wręcz je promowała.  
 A te fajne GMO, o&nbsp;lepszych naturalnych właściwościach? Można parę wyhodować dla PR-u. Ale ogólnie to kosztuje, jest ryzyko. Nie opłaca się.
