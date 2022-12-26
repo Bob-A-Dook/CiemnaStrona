@@ -147,7 +147,7 @@ Przenieśmy się na chwilę do Indii. To kraj mocno rolniczy -- jeszcze w&nbsp;2
 Pierwszą rośliną GMO wprowadzoną w&nbsp;Indiach (i bodajże do teraz jedyną legalną) była bawełna Bt. Wytwarzająca naturalne środki owadobójcze pozwalające zabijać uciążliwe ćmy. Wprowadzono ją w&nbsp;2002&nbsp;roku.  
 Ludzie poszli na całość. W&nbsp;ciągu trzech lat odsetek bawełny Bt wzrósł z&nbsp;12&nbsp;do ponad 90&nbsp;procent upraw. W&nbsp;tym czasie olewano nasiona klasyczne.
 
-Problem w&nbsp;tym, że interes okazał się [mniej opłacalny niż obiecywano](https://youtu.be/qrM1ygNvLVA?t=362). **Właściwości owadobójcze nowej rośliny, na początku świetne, z&nbsp;czasem się wyczerpywały**. Zadziałała „siłka Darwina”, owady wykształciły wspomnianą wcześniej odporność. 
+Problem w&nbsp;tym, że interes okazał się [mniej opłacalny niż obiecywano](https://youtu.be/qrM1ygNvLVA). **Właściwości owadobójcze nowej rośliny, na początku świetne, z&nbsp;czasem się wyczerpywały**. Zadziałała „siłka Darwina”, owady wykształciły wspomnianą wcześniej odporność. 
 
 Zależność od nowych nasion trudno było odwrócić, a&nbsp;wymagania rosły.  
 Konkretniej? Jak podaje [Reuters](https://www.reuters.com/article/us-india-monsanto-idUSKCN10E05C), w&nbsp;2006 roku (gdy bawełna Bt jeszcze radziła sobie świetnie), rolnicy zużywali około 0,5 kg środków owadobójczych na hektar. Do roku&nbsp;2015 ta ilość urosła do 1,2&nbsp;kg. Podwoiło się również zużycie nawozów na polach bawełny.
@@ -217,7 +217,7 @@ Problem w&nbsp;tym, że **Monsanto aktywnie zniechęcało do innych metod albo t
 Wspominałem wcześniej o&nbsp;Indiach i&nbsp;o tym, że uprawy Bt tylko na początku były piękne. Nieszczęśliwy wypadek? Może tak, gdyby nie było w&nbsp;tym winy Monsanto.
 
 Przepisy indyjskie narzucały, żeby do każdej paczki nasion Bt dodawać pewien odsetek nasion zwykłych; dzięki temu owady odporne mieszałyby się z&nbsp;nieodpornymi („wychowanymi” na zwykłych roślinach).  
-Jednak te zwykłe nasiona od Monsanto [nie spełniały wymogów](https://www.ers.usda.gov/webdocs/DataFiles/47649/BiotechCropsAllTables2022.xlsx?v=8928.3) -- były strasznie dziadowskie, do tego ich odsetek okazywał się mniejszy niż powinien. W&nbsp;takich warunkach trudno było zahamować ewolucję owadów. Wydatki rosły.
+Jednak te zwykłe nasiona od Monsanto [nie spełniały wymogów](https://www.youtube.com/watch?v=qrM1ygNvLVA&t=362s) -- były strasznie dziadowskie, do tego ich odsetek okazywał się mniejszy niż powinien. W&nbsp;takich warunkach trudno było zahamować ewolucję owadów. Wydatki rosły.
 
 Ponadto, jeśli tylko jakiejś roślinie dało się nadać cechę odporności na herbicydy, zawsze ją dodawali. Nie dało się na przykład kupić nasion z&nbsp;samą modyfikacją Bt, przeciw owadom. [Jedynie Bt+HT](https://www.ers.usda.gov/webdocs/DataFiles/47649/BiotechCropsAllTables2022.xlsx?v=8928.3) (Roundup Ready).
 
