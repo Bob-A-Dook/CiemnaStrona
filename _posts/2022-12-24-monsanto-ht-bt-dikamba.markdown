@@ -135,6 +135,9 @@ W każdym razie obietnice wielkich zysków przy niskich kosztach nieraz potrafi�
 
 Kwestia odporności dotyczy zarówno pestycydów naturalnie wytwarzanych (rośliny Bt), jak i&nbsp;syntetycznych (które są kuszącym wyjściem, gdy mamy rośliny Roundup Ready).
 
+{:.post-meta .bigspace-after}
+Przypominajka: pestycydy (*szkodnikobójcze*) to kategoria nadrzędna względem herbicydów (*chwastobójcze*) oraz insektycydów (*owadobójcze*).
+
 Uzupełniliśmy podstawy, więc czas przejść dalej, do kontrowersji.
 
 ## Rośliny Bt i&nbsp;niespełnione obietnice
@@ -160,6 +163,9 @@ Poza tym jest jeszcze jeden fakt, za który akurat Monsanto ponosi winę. Jeszcz
 
 ## Kwestia zwiększonych oprysków
 
+Wokół Roundupu (najpopularniejszego środka chwastobójczego od Monsanto) oraz glifosatu (jego składnika aktywnego, obecnego też w cudzych produktach) krąży sporo kontrowersji. Opisywałem je dwa wpisy temu. Ale przeciwstawia się im argument:
+
+{:.bigspace}
 > Gdyby zakazać Roundupu, to rolnicy zaczną używać znacznie gorszych herbicydów.
 
 Groźne słowa. Łatwo je znaleźć na różnych stronach, blogach naukowych, w&nbsp;komentarzach.  
@@ -177,7 +183,7 @@ A teraz czas na konkrety zamiast gdybania. Jak podaje artykuł z&nbsp;2016 roku,
 Ale może źle to interpretuję? Może większe zużycie wynika tylko z&nbsp;tego, że jest coraz więcej upraw, świat się rozwija? 
 
 Chciałbym. Ale krótki [zarys sytuacji](https://sitn.hms.harvard.edu/flash/2015/roundup-ready-crops/), przedstawiony w&nbsp;2015 roku przez doktoranta z&nbsp;Harvardu w&nbsp;oparciu o&nbsp;dane Departamentu Rolnictwa, stawia konkretniejsze oskarżenie.  
-**Gdyby nigdy nie wprowadzono roślin Roundup Ready, to światowe zużycie pestycydów byłoby o&nbsp;ok 174&nbsp;mln&nbsp;kg mniejsze**. A to było siedem lat temu.
+**Gdyby nigdy nie wprowadzono roślin Roundup Ready, to światowe zużycie pestycydów byłoby o&nbsp;ok. 174&nbsp;mln&nbsp;kg mniejsze**. A to było siedem lat temu.
 
 Ale może gdyby nie RR, to zamiast Roundupu leciałyby jeszcze gorsze rzeczy?
 
@@ -230,7 +236,7 @@ Ten herbicyd produkuje Monsanto (pod marką XtendiMax), ale nie tylko -- tworzy 
 
 A problem z&nbsp;samą dikambą? Była [bardzo lotna](https://www.youtube.com/watch?v=xkFaPrn07OI). Po oprysku potrafiła odlecieć nawet kilka kilometrów w&nbsp;dal, lądując na cudzych polach.
 
-Gdyby był to oprysk we wczesnej fazie -- gdy jeszcze nic nie rośnie, a&nbsp;na polu są tylko chwasty -- to jeszcze pół biedy. Nasza latająca dikamba załatwiłaby jedynie nasze chwasty. I&nbsp;chwasty sąsiada. I&nbsp;parę dzikich roślin. No ale z&nbsp;nich nie ma zysku, więc *chill*.
+Gdyby był to oprysk na początku sezonu -- gdy jeszcze nic nie rośnie, a&nbsp;na polu są tylko chwasty -- to jeszcze pół biedy. Nasza latająca dikamba załatwiłaby jedynie nasze chwasty. I&nbsp;chwasty sąsiada. I&nbsp;parę dzikich roślin. No ale z&nbsp;nich nie ma zysku, więc *chill*.
 
 Ale Monsanto, lubiąc zestawy, wzbogaciło ofertę o&nbsp;odpowiednie rośliny HT, oznaczane jako XtendiFlex. Bawełnę Dicamba Ready, odporną na dikambę. Potem dołączyła do niej również soja DR.  
 Te rośliny można było opryskiwać dikambą również podczas dojrzewania.
@@ -297,7 +303,7 @@ A tymczasem efekty stosowania dikamby można było odczuć we wszelkich możliwy
 
 * Producenci nasion Stine Seed Company od kilku lat [tracą poletka testowe z&nbsp;soją](https://www.agriculture.com/news/crops/harry-stine-takes-off-the-gloves-regarding-dicamba). Modyfikowaną pod kątem odporności na herbicydy -- ale niestety nie na dikambę.
 
-* W&nbsp;2021 roku do EPA wpłynęło ponad 3500&nbsp;zgłoszeń o&nbsp;szkodach (a&nbsp;ta liczba zwykle jest zaniżona w&nbsp;porównaniu z&nbsp;rzeczywistością).
+* W&nbsp;samym 2021 roku do EPA, agencji ochrony środowiska, wpłynęło ponad 3500&nbsp;zgłoszeń o&nbsp;szkodach (a&nbsp;ta liczba zwykle jest zaniżona w&nbsp;porównaniu z&nbsp;rzeczywistością).
 
 Życie bywa przewrotne. „Karmienie świata” w&nbsp;wydaniu Monsanto to preparat chroniący rośliny przemysłowe, przeznaczone głównie na paszę. I&nbsp;zabijający inne rośliny wokół, bezpośrednio jadalne dla ludzi. Coś tu chyba nie gra :roll_eyes:
 

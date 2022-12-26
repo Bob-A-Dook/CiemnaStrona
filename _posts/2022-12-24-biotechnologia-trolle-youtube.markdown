@@ -419,6 +419,8 @@ Mam wrażenie, że ci ludzie dobrze by się odnaleźli na jakimś 4Chanie albo
 
 Tu akurat przekaz wydaje się iść z&nbsp;samej góry. W&nbsp;[dokumencie](https://www.youtube.com/watch?v=JszHrMZ7dx4) (YT) telewizji ABC znajdziemy rozmowę z&nbsp;wiceprezesem Monsanto, w&nbsp;której wypowiada właśnie takie słowa na temat glifosatu: *it's less dangerous than table salt*.
 
+W komentarzach zwrot `table salt` pojawia się 58&nbsp;razy.
+
 Co ciekawe, przez to stwierdzenie stan Nowy Jork [pozwał Monsanto za wprowadzanie konsumentów w&nbsp;błąd](https://medium.com/center-for-biological-diversity/is-roundup-safer-than-table-salt-a302341aabcd). Firma od niego odeszła w&nbsp;oficjalnych materiałach. Ale w&nbsp;nieformalnej internetowej narracji żyje i&nbsp;ma się dobrze.
 
 Okazuje się, że za miarę bezpieczeństwa **przyjmują tak naprawdę tylko jeden aspekt -- toksyczność pojedynczej dawki**. Która faktycznie jest dla substancji szczególnie korzystna.
@@ -908,7 +910,7 @@ Idziemy własną ścieżką.
 
 Swoją serię czterech wpisów, wraz z kompletem danych, wrzucam dzisiaj -- tuż przed Wigilią i&nbsp;radosnym obżarstwem.
 
-Nie wiem, czy jakiś biedak z&nbsp;agencji PR-trollowej będzie w&nbsp;tym czasie zmuszony monitorować internet pod kątem słów kluczowych. Zresztą ten blog jest raczej na tyle niszowy, że nie mignie na radarze.
+Nie wiem, czy jakiś nieszczęśnik z&nbsp;agencji PR-trollowej będzie w&nbsp;tym czasie zmuszony monitorować internet pod kątem słów kluczowych. Zresztą ten blog jest raczej na tyle niszowy, że nie mignie na radarze.
 
 Ale gdyby ktoś z&nbsp;PR-owych sił szybkiego reagowania jednak zobaczył wpisy, to uszanowanko :smiling_imp:
 

@@ -293,9 +293,9 @@ Parę miesięcy po posiedzeniu naukowcy spoza Ameryki, którzy uczestniczyli w&n
 
 Nakazano im przekazanie wszystkich plików związanych z&nbsp;ich pracami nad *Monografią 112*. A&nbsp;jeśli ich nie dadzą? Jak straszyła kancelaria -- wtedy niech lepiej zabezpieczą je na później, bo zapewne zapuka do nich amerykański sąd.
 
-A mówimy tu o&nbsp;Europie, która -- przynajmniej oficjalnie -- jednak nie jest własnością USA. Naukowcy amerykańscy, dzielący z&nbsp;Monsanto kraj, mieli gorzej. Amerykańscy prawnicy, powołując się na *FOIA* -- prawo dostępu do informacji publiczne -- zażądali od ich uczelni dokumentów dotyczących IARC.
+A mówimy tu o&nbsp;Europie, która -- przynajmniej oficjalnie -- jednak nie jest własnością USA. Naukowcy amerykańscy, dzielący z&nbsp;Monsanto kraj, mieli gorzej. Amerykańscy prawnicy, powołując się na *FOIA* -- prawo dostępu do informacji publicznej -- obeszli samych naukowców i&nbsp;zażądali dokumentów dotyczących IARC wprost od ich uczelni.
 
-Samo prawo dostępu to akurat pozytywna sprawa. Korzystały z&nbsp;niego również osoby, które ujawniły aferę Monsanto Papers. Za parę wpisów zobaczymy natomiast, że w&nbsp;innym przypadku, kiedy użyto go do ujawnienia lobbystów firmy, nazywali tę metodę zastraszaniem naukowców. „Gdy Kali ukraść...”.
+Samo prawo dostępu to akurat pozytywna sprawa. Korzystały z&nbsp;niego również osoby, które ujawniły aferę Monsanto Papers. Za parę wpisów zobaczymy natomiast, że w&nbsp;innym przypadku, kiedy użyto go do z&nbsp;kolei do ujawnienia utajonych lobbystów Monsanto, ich współpracownicy nazywali tę metodę zastraszaniem naukowców. „Gdy Kali ukraść...”.
 
 ### Front polityczny
 
@@ -339,7 +339,7 @@ A samo Monsanto? Ustami swojego wiceprezesa do spraw strategii bagatelizowało s
 
 ### Front naukowy
 
-Powyższy cytat może sugerować, że czasopisma naukowe cenią wyżej niż artykuły w&nbsp;gazetach. I&nbsp;*na pewno* nie posunęliby się do ingerencji w&nbsp;treść. A&nbsp;jednak.
+Powyższy cytat może sugerować, że czasopisma naukowe cenią bardziej niż artykuły w&nbsp;gazetach. I&nbsp;*na pewno* nie posunęliby się do ingerencji w&nbsp;ich treść. A&nbsp;jednak.
 
 W jednym z&nbsp;maili dyskutują na temat wypuszczenia artykułu naukowego kontrującego IARC. Jak pisze jeden z&nbsp;szefów ich działów, William Heydens, bardziej będzie im się opłacało samodzielnie stworzyć część treści. A&nbsp;naukowcy [jedynie użyczą nazwisk](https://www.baumhedlundlaw.com/documents/pdf/monsanto-documents/key-documents-pages-203-4.pdf):
 
