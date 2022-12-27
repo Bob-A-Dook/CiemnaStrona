@@ -542,9 +542,9 @@ Z tej notki wynika, że Lazar Vision Fund nazywał się wcześniej Berkeley Fund
 
 A Berkeley Funds [inwestowało w&nbsp;CryptoMind](https://tracxn.com/explore/Data-Security-Startups-in-Poland) -- czyli UseCrypt S.A pod dawną nazwą.
 
-Co więcej, **fundusz Berkeley Funds należał do Krzysztofa M., prezesa UseCrypt S.A**. Sugerowałoby to, że LVF nie jest takim znów zewnętrznym graczem, a&nbsp;współpraca jest bardzo ścisła.
+Co więcej, **fundusz Berkeley Funds należał do Pawła M., prezesa UseCrypt S.A**. Sugerowałoby to, że Lazar Vision Fund nie jest takim znów zewnętrznym graczem, a&nbsp;współpraca jest bardzo ścisła.
 
-Ogólnie Berkeley Funds było funduszem *private equity* inwestującym w&nbsp;nowe technologie. Czytając [wywiad z&nbsp;Krzysztofem M.](https://echodnia.eu/o-polaku-ktory-jest-jak-krol-midas-czego-nie-dotknie-zamienia-sie-w-zloto/ar/c3-10162506) (porównywanym tu do Króla Midasa) dowiadujemy się, w&nbsp;jakie dokładnie.
+Ogólnie Berkeley Funds było funduszem *private equity* inwestującym w&nbsp;nowe technologie. Czytając [wywiad z&nbsp;Pawłem M.](https://echodnia.eu/o-polaku-ktory-jest-jak-krol-midas-czego-nie-dotknie-zamienia-sie-w-zloto/ar/c3-10162506) (porównywanym tu do Króla Midasa) dowiadujemy się, w&nbsp;jakie dokładnie.
 
 Są tu znajome nazwy:
 
@@ -654,4 +654,4 @@ A jeśli potrzebujecie prywatnego komunikatora, to **Signal jest za darmo**. Nie
 
 Niektórym jako zapłata wystarczy poczucie, że może utarli nosa jakimś zblazowanym pozerom. Takie małe szczęścia, jakich sobie i&nbsp;Wam życzę :smile:
 
-Pozdrawiam i&nbsp;do kolejnego wpisu!
+Pozdrawiam i&nbsp;do kolejnego wpisu! Albo prosto [do kolejnego o UseCrypcie]({% post_url 2021-07-16-powrot-usecrypta %}){:.internal}.

@@ -5,7 +5,7 @@ subtitle: "Własne źródła, własne trolle. Własna prawda."
 description: "Własne źródła, własne trolle. Własna prawda."
 date:   2022-12-24 02:04:00 +0100
 tags: [Analiza danych, Internet, Manipulacja, Rolnictwo, Trolle]
-firmy: [Bayer, Google, Monsanto]
+firmy: [Bayer, Google, Monsanto, YouTube]
 image:
   path: /assets/posts/biotech-youtube/biotech-youtube-baner.jpg
   width: 1200
@@ -470,8 +470,8 @@ text="Seed companies have always preferred Hawaii and Puerto Rico for their test
 Ludzie często formują w&nbsp;głowie własne schematy świata. Kiedy napotkają nowe strzępki wiedzy, to zwykle próbują to wpasować w&nbsp;istniejące schematy.
 
 I dlatego **propaganda często łączy ze sobą niezwiązane rzeczy**. Żeby wywołać w&nbsp;głowach skojarzenia.  
-Przykład? Propaganda rosyjskich trolli, kierowana do osób przeciwnych szczepieniom, sugerowała że wspieranie Ukrainy jest czymś narzucanym przez te same osoby, które były za przymusem szczepień.  
-„Zdejmij maseczkę, weź chorągiewkę (ukraińską)”. Takie treści tworzyli.
+Przykład? Propaganda rosyjskich trolli, kierowana do osób przeciwnych szczepieniom, sugerowała że wspieranie Ukrainy jest czymś narzucanym przez te same osoby, które były za przymusem szczepień i&nbsp;innymi restrykcjami.  
+„Zdejmij maseczkę, weź chorągiewkę” (ukraińską), mówił telewizor do obywatela w&nbsp;ich szyderczych memach.
 
 Podobnie robi trójca z&nbsp;YouTube'a. Wiążą krytyków z&nbsp;innymi ruchami, powszechnie pogardzanymi w&nbsp;kręgach sympatyków nauki-- **sugerują, że przeciwnicy GMO są równie niewiarygodni co antyszczepionkowcy i&nbsp;osoby negujące zmiany klimatu**. Stosują w&nbsp;tym celu dość dziwne przeskoki myślowe, byle umieścić te słowa w&nbsp;tym samym zdaniu.
 
@@ -532,7 +532,7 @@ text="Remind everyone you know to be grateful for all the USA gave you. Computer
 </details>
 
 Problem? Jeśli ktoś czytał jeden z&nbsp;poprzednich wpisów, to wie -- **zarzut biopiractwa dla Monsanto**.  
-Bakłażan był efektem długich lat hodowli, zaś ich indyjska filia go sobie wzięła, zmodyfikowała i&nbsp;zyskała na niego patent. Nie wiem, czy na ten sam, który wprowadzono w&nbsp;Bangladeszu, ale sprawa jest podejrzana.
+Bakłażan był efektem długich lat tradycyjnej hodowli. Zaś ich indyjska filia go sobie wzięła, zmodyfikowała i&nbsp;zyskała na niego patent. Nie wiem, czy na ten sam, który wprowadzono w&nbsp;Bangladeszu, ale sprawa jest podejrzana.
 
 Drugi problem -- bakłażan, jak wiele produktów bezpośrednio jadalnych, to taka trochę nisza wśród roślin GMO. Znaczna ich większość to produkty idące na paszę i&nbsp;biopaliwa. Rzeczy przeznaczone wprost dla ludzi, choć dużo rzadsze, są nieproporcjonalnie często nagłaśniane w&nbsp;komunikatach firmy. 
 

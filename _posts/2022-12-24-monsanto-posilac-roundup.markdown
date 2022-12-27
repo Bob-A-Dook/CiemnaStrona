@@ -46,7 +46,7 @@ Jeśli wolisz sprawy analityczno-cyfrowe, to zapraszam do ostatniego, [czwartego
 
 ## Poznajmy giganta
 
-O tej korporacji właściwie wypadałoby pisać w&nbsp;czasie przeszłym, bo **oficjalnie zostali przejęci w&nbsp;2018 roku i&nbsp;już nie działają pod dawną nazwą**. Ale póki jeszcze działali, to nieźle nabroili.
+O tej korporacji właściwie wypadałoby pisać w&nbsp;czasie przeszłym, bo **oficjalnie zostali przejęci w&nbsp;2018 roku przez Bayera i&nbsp;już nie działają pod dawną nazwą**. Ale póki jeszcze działali, to nieźle nabroili.
 
 Poznamy ich tutaj jako firmę chemiczną i&nbsp;biotechnologiczną, skupioną na rolnictwie. Ale nie zawsze tak było. Jako gigant z&nbsp;długą historią (ponad stuletnią!) przeszli już przez wiele branż. Słodziki, chemia przemysłowa, środki czyszczące...
 
@@ -361,7 +361,7 @@ W czerwcu 2016&nbsp;na konferencję IARC w&nbsp;Lyonie przyszedł człowiek-cie�
 Również w&nbsp;2019 roku wokół procesu sądowego w&nbsp;USA kręciła się [osoba podająca się za dziennikarkę-freelancerkę](https://www.france24.com/en/20190518-consultant-poses-journalist-monsanto-trial). Zapraszała inne dziennikarki na wieczorki zapoznawcze, zbierała informacje.
 
 Twierdziła, że pisze na zlecenie BBC oraz Inquirera (obie organizacje później temu zaprzeczyły). Jednak ktoś znalazł na jej profilu na LinkedInie informację, że pracuje dla FTI Consulting. Firmy współpracującej między innymi z&nbsp;Monsanto.  
-Ani FTI, ani sama „dziennikarka” nic więcej nie powiedzieli w&nbsp;tym temacie. Również Bayer stwierdził, że nie wynajął FTI do pracy przy procesach sądowych. Sprawa pozostała tajemnicą.
+Ani FTI, ani sama „dziennikarka” nic więcej nie powiedzieli w&nbsp;tym temacie. Również Bayer, właściciel Monsanto od 2018 roku, stwierdził że nie wynajął FTI do pracy przy procesach sądowych. Sprawa pozostała tajemnicą.
 
 Sprawę szpiegów opisała gazeta Le Monde. Ta sama gazeta zgłosiła w&nbsp;2019 roku, że podwykonawca Monsanto skompletował potajemnie [listę danych osobowych ponad 200&nbsp;obywateli Francji](https://www.reuters.com/article/us-bayer-france-monsanto-europe-idUSKCN1SJ1OY). Z&nbsp;bardzo różnych branż -- byli tam dziennikarze, politycy, rolnicy... Dane zawierały m.in. nazwiska, oficjalne maile, nazwy pracodawców, zdanie na temat glifosatu.
 
@@ -410,16 +410,16 @@ Jakiej wersji bym nie przyjmował, nijak nie widzę opcji, żeby Monsanto uznać
 Skoro już tak latamy po świecie, to odwiedźmy kolebkę pestycydów, ich *strefę zero*. Słoneczne Hawaje.
 
 Dlaczego właśnie one? Ponieważ klimat jest tam wyjątkowo korzystny dla roślin uprawnych, są w&nbsp;stanie przejść przez pełen cykl nawet do 3&nbsp;razy w&nbsp;roku. Można sprawnie testować nowe rozwiązania.  
-Z tego względu Hawaje stały się poletkiem testowym dla różnych firm z&nbsp;branży rolniczej. Jak pokazuje raport hawajskiej organizacji, [Center for Food Safety](www.centerforfoodsafety.org/files/pesticidereportfull_86476.pdf), zużycie pestycydów jest tam 17-krotnie większe niż średnia krajowa. A&nbsp;przy tym żywności to tam nie ma, bo 90% importują.
+Z tego względu Hawaje stały się poletkiem testowym dla różnych firm z&nbsp;branży rolniczej. Jak pokazuje [raport](https://www.centerforfoodsafety.org/files/pesticidereportfull_86476.pdf) hawajskiej organizacji, Center for Food Safety, zużycie pestycydów jest tam 17-krotnie większe niż średnia krajowa. A&nbsp;przy tym żywności to tam nie ma, bo 90% importują.
 
 Miejscowa ludność protestowała, twierdząc że opryski doprowadziły do wystąpienia wielu chorób, zwłaszcza u&nbsp;dzieci. Przypomnę -- mówimy tu o&nbsp;różnych środkach, w&nbsp;tym bardziej hardkorowych, nie tylko o&nbsp;naszym poczciwym glifosacie.  
 U protestujących powtarzały się dwa postulaty:
 
-1. Obowiązek przejrzystości. Ogłaszanie z&nbsp;wyprzedzeniem gdzie, kiedy, jakimi środkami i&nbsp;w jakich ilościach będzie pryskane.
+1. Obowiązek przejrzystości. Ogłaszanie z&nbsp;wyprzedzeniem gdzie, kiedy, jakimi środkami i&nbsp;w&nbsp;jakich ilościach będzie pryskane.
 2. Utworzenie stref buforowych wokół niektórych obiektów, takich jak szkoły. Zakaz pryskania w&nbsp;odległości bliższej niż ustalona.
 
 Brzmi raczej mało kontrowersyjnie, nieprawdaż? A&nbsp;jednak **wszyscy branżowi giganci walczyli z&nbsp;proponowanymi zmianami**.  
-W mailach znajdziemy ciekawą historię o&nbsp;tym, jak firmy Dow i&nbsp;BASF ściągnęły znanych spikerów branżowych, żeby wypowiadali się w&nbsp;interesie firm podczas pewnej debaty na wyspie Kauai.
+W [mailach](https://s3.documentcloud.org/documents/2303691/kevin-folta-uoffloridadocs.pdf) (od strony 23) znajdziemy ciekawą historię o&nbsp;tym, jak firmy Dow i&nbsp;BASF ściągnęły znanych spikerów branżowych, żeby wypowiadali się w&nbsp;interesie firm podczas pewnej debaty na wyspie Kauai.
 
 Ciekawie to wyglądało -- na przemian przykłady szkód od Hawajczyków z&nbsp;dziada-pradziada oraz przyjezdni mówiący im, że szkód nie ma.  
 Jeden z&nbsp;nich mówił, że firmy nie mogą ujawniać, jakie poletka pryskają, bo ktoś mógłby je zniszczyć albo podkraść nasiona. Inny mówi, że stosowane tam pestycydy są mniej toksyczne od kofeiny. Implikacja -- nie ma co zakazywać pryskania przy szkołach.

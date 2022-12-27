@@ -300,7 +300,7 @@ W Indiach nasza korporacja trafiła na godnych przeciwników. Rosły tam w&nbsp;
 
 A ten spróbował. Zainterweniował i&nbsp;[nakazał Monsanto obniżenie opłat licencyjnych](https://www.reuters.com/article/us-india-monsanto-idUSKCN10E05C). W&nbsp;odpowiedzi na to gigant kłócił się z nimi w&nbsp;sądach, ale przegrał.
 
-Rząd [rozważał również](https://www.reuters.com/investigates/special-report/monsanto-india/) wprowadzenie praw, które kazałyby udostępniać indyjskim dystrybutorom nie tylko nasiona, ale również technologię ich produkcji. Zmieniłoby to relację z&nbsp;mniej jednostronnej na bardziej partnerską. Ale **po interwencji ambasadora USA porzucono ten projekt**.
+Rząd [rozważał również](https://www.reuters.com/investigates/special-report/monsanto-india/) wprowadzenie praw, które kazałyby udostępniać indyjskim dystrybutorom nie tylko nasiona, ale również technologię ich produkcji. Zmieniłoby to relację z&nbsp;jednostronnej na bardziej partnerską. Ale **po interwencji ambasadora USA porzucono ten projekt**.
 
 Patent na nasiona był w&nbsp;indyjskim prawie dziwactwem. W&nbsp;związku z&nbsp;tym tamtejsze firmy spróbowały go zakwestionować. W&nbsp;toku całej sprawy w&nbsp;2018 roku sąd w&nbsp;Delhi [unieważnił patent Monsanto](https://www.epw.in/engage/article/monsantos-loss-patent-bt-cotton-victory-farmers-indian-seed-companies) na bawełnę Bt, twierdząc że nie można patentować podstawowych procesów biologicznych. Usłyszeli, że mogą za to zarejestrować odmianę nasion i&nbsp;nadal czerpać korzyści, tyle że na innych zasadach.  
 Ale korporacja chciała patent i&nbsp;kropka. Zwróciła się do Sądu Najwyższego i&nbsp;dostała wyrok na swoją korzyść.

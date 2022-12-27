@@ -342,7 +342,7 @@ W tym wpisie zobaczyliśmy, że sprawy pestycydów i&nbsp;roślin GMO wydają si
 
 Nie wiem, co myślicie na temat samych roślin GMO, i&nbsp;szczerze mówiąc nie planuję w&nbsp;żaden sposób tych poglądów zmieniać. Osobiście nie wierzę, żeby wprost szkodziły zdrowiu.
 
-Ale proponuję w&nbsp;ogóle tu odejść od kwestii wpływu na zdrowie . O&nbsp;ile ma ona jakieś odniesienie do pestycydów, tak przy nasionach blednie (moim zdaniem) na tle innych spraw.
+Ale proponuję w&nbsp;ogóle tu odejść od kwestii wpływu na zdrowie. O&nbsp;ile ma ona jakieś odniesienie do pestycydów, tak przy nasionach blednie (moim zdaniem) na tle innych spraw.
 
 Spraw takich jak działanie głównie pod interes działu chemicznego. To patologia *wszystkich* wielkich korporacji od chemii rolnej, nie tylko samego Monsanto. Jak widzieliśmy, w&nbsp;przypadku dikamby jechali z&nbsp;BASF-em na jednym wózku.  
 Dlaczego tyle firm od roślin GMO tworzy jednocześnie chemię rolniczą? Dlaczego w&nbsp;ofercie najczęstsze są rośliny „lubiące się” z&nbsp;opryskami?

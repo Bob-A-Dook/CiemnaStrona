@@ -137,7 +137,9 @@ Ma też swoje skrywane powiązania z&nbsp;ACSH, a&nbsp;konkretniej z&nbsp;prezes
 
 Jedna z&nbsp;nich, *Deniers for Hire*, zajmowała się obsmarowywaniem osób przeciwnych korporacyjnym modelom biznesowym. Przedstawiali u&nbsp;siebie ich nazwiska oraz profil działalności. Sugerując, że ich sprzeciw wynikał z&nbsp;niechęci do nauki jako takiej.
 
-Ale nas jeszcze bardziej ciekawi inna strona z&nbsp;tego parasola firm. *Science 2.0*. W&nbsp;jej zarządzie, oprócz Campbella, [zasiadał właśnie Zaruk](https://nitter.net/cgseife/status/1063135273477910529#m). A&nbsp;żeby domknąć siatkę powiązań -- zdarza mu się również pisywać na Genetic Literacy Project.
+Ale nas jeszcze bardziej ciekawi inna firma z&nbsp;tego parasola. *Science 2.0*. W&nbsp;jej zarządzie, oprócz Campbella, [zasiadał właśnie Zaruk](https://nitter.net/cgseife/status/1063135273477910529#m).
+
+A&nbsp;żeby domknąć siatkę powiązań -- zdarza mu się również [pisywać](https://geneticliteracyproject.org/writer/david-zaruk/) na Genetic Literacy Project.
 
 ### Agencja Ketchum i&nbsp;GMO Answers
 
