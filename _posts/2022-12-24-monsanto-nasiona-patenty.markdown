@@ -282,9 +282,19 @@ Chcieli wymóc na argentyńskich firmach transportowych sprawdzanie, czy plony p
 
 Rząd Argentyny powiedział, że takie kontrole wymagają jego zgody. W&nbsp;odpowiedzi Monsanto zagroziło, że w&nbsp;takim razie zawiesi wprowadzanie nowych produktów do Argentyny. Rząd [poszedł na kompromis](https://www.reuters.com/article/us-argentina-soybeans-monsanto-idUSKCN0Z91X6).
 
+### Kolumbia
+
+Tu akurat mamy sprawę dotyczącą bardziej pestycydów niż GMO. Ale fajnie pokazuje bliskie relacje Monsanto z&nbsp;politykami.
+
+USA naciska na władze tego kraju, żeby prowadziły aktywną wojnę z&nbsp;kartelami narkotykowymi. W&nbsp;tym celu powinny [opryskiwać plantacje koki](https://www.corpwatch.org/article/toxic-drift-monsanto-and-drug-war-colombia) z&nbsp;samolotów. I&nbsp;nie byle czym, tylko konkretnie odmianami Roundupu (środek chwastobójczy, jeden z&nbsp;głównych produktów Monsanto).
+
+Opryski trwają od wielu lat. Naciskała na nie zarówno administracja Trumpa, jak i&nbsp;Bidena. W&nbsp;2015&nbsp;roku zostały zawieszone, ale ma dojść do ich [wznowienia](https://www.commondreams.org/news/2021/03/20/biden-pushes-colombia-restart-glyphosate-spraying-program). Przy poparciu obecnego prezydenta.
+
+A że herbicydy nie zawsze trafią w cel i&nbsp;czasem niszczą pola uprawne? Że samoloty zrzucające na dżunglę środki chwastobójcze mogą się niefortunnie kojarzyć? Na przykład z&nbsp;Agentem Orange z&nbsp;czasów wojny w Wietnamie, również współtworzonym przez Monsanto? Nikt się nie przejmuje.
+
 ### Indonezja
 
-Tu akurat mamy sprawę dotyczącą bardziej pestycydów niż GMO, ale jak najbardziej pokazuje ona metody Monsanto pozwalające im rozszerzać wpływy.
+Kolejna sprawa dotycząca pestycydów. Pokazuje metody, jakimi Monsanto rozszerzało wpływy w okresie ekspansji.
 
 Miał tam miejsce [skandal korupcyjny](https://www.nytimes.com/2007/03/07/business/worldbusiness/07iht-monsanto.4824776.html), w&nbsp;którym postawiono zarzuty wysokiego szczebla menedżerowi Monsanto. W&nbsp;2002 roku próbował przekazać urzędnikowi indonezyjskiego ministerstwa środowiska łapówkę w&nbsp;wysokości 50&nbsp;000 dolarów, maskując ją jako opłaty za konsultacje.
 

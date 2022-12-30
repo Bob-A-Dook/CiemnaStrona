@@ -8,11 +8,9 @@ firmy: [Amazon, Apple, Facebook, Google, Twitter]
 tags: [Afera, Internet, Inwigilacja, Centralizacja, Przemyślenia]
 image: 
    path: /assets/posts/podsumowanie2021/hobo-with-a-shotgun-baner.jpg
-   width: 1200
-   height: 700
-
-image-width: 777
-image-height: 601
+   width: 777
+   height: 601
+   alt: "Stary bezdomny z filmu Hobo With a Shotgun, na którego nałożono napis 2021. Siedzi i trzyma kawałek kartonu, na którym napisano po angielsku 'Jestem zmęczony'."
 ---
 
 Burzliwy 2021 rok dobiega końca! Postanowiłem zrobić z&nbsp;tej okazji krótkie podsumowanie wydarzeń, jakie ze sobą przyniósł.

@@ -219,7 +219,10 @@ Wspominałem wcześniej o&nbsp;Indiach i&nbsp;o tym, że uprawy Bt tylko na pocz
 Przepisy indyjskie narzucały, żeby do każdej paczki nasion Bt dodawać pewien odsetek nasion zwykłych; dzięki temu owady odporne mieszałyby się z&nbsp;nieodpornymi („wychowanymi” na zwykłych roślinach).  
 Jednak te zwykłe nasiona od Monsanto [nie spełniały wymogów](https://www.youtube.com/watch?v=qrM1ygNvLVA&t=362s) -- były strasznie dziadowskie, do tego ich odsetek okazywał się mniejszy niż powinien. W&nbsp;takich warunkach trudno było zahamować ewolucję owadów. Wydatki rosły.
 
-Ponadto, jeśli tylko jakiejś roślinie dało się nadać cechę odporności na herbicydy, zawsze ją dodawali. Nie dało się na przykład kupić nasion z&nbsp;samą modyfikacją Bt, przeciw owadom. [Jedynie Bt+HT](https://www.ers.usda.gov/webdocs/DataFiles/47649/BiotechCropsAllTables2022.xlsx?v=8928.3) (Roundup Ready).
+W USA, choć panel doradczy agencji EPA zalecał stosowanie na polach 50%&nbsp;roślin bez cechy Bt, agencja pod naciskiem producentów nasion [obniżyła](https://www.triplepundit.com/story/2011/monsantos-bt-corn-losing-its-pop/74291) ten wymóg do&nbsp;20%. Jednocześnie Monsanto bagatelizowało w&nbsp;komunikatach doniesienia o&nbsp;wykształcaniu się odporności.
+
+Podobną nonszalancję wykazywali w&nbsp;przypadku cechy odporności na herbicydy.  
+Jeśli tylko jakiejś roślinie dało się ją nadać, to ją dodawali. Co więcej, w&nbsp;[późniejszych odmianach](https://www.agry.purdue.edu/ext/corn/news/timeless/BiotechTraits.html) czysta modyfikacja Bt, przeciw owadom, poszła w&nbsp;odstawkę. [Zaczęły dominować Bt+HT](https://www.ers.usda.gov/webdocs/DataFiles/47649/BiotechCropsAllTables2022.xlsx?v=8928.3) (Roundup Ready).
 
 Wyobraźmy sobie, że jakiemuś rolnikowi zależy głównie na ochronie przed owadami. Ale skoro musi w&nbsp;tym celu kupować nasiona z&nbsp;cechą Roundup Ready, to jak myślimy -- jaki herbicyd do tego weźmie?
 
@@ -378,8 +381,11 @@ Aby zyskać tę regularność, często sięgają po wszelkie formy uzależnienia
 </ul>
 </details>
 
-Choć Monsanto niechlubnie się wyróżniało pod pewnymi względami, dopuśćmy też niepokojącą możliwość.  
-To nie tak, że są jedyną czy też najgorszą korporacją o&nbsp;skłonnościach socjopatycznych.  
+Sprzedawanie środków chemicznych i&nbsp;nasion w&nbsp;zestawach. Wymuszanie corocznych zakupów. Reklamowanie się skutecznością, która okaże się nietrwała. A&nbsp;wtedy oferowanie nowych, mocniejszych preparatów.  
+Jeśli pominąć branżę, to wiele działań Monsanto jest taką korporacyjną klasyką.
+
+Choć niechlubnie się wyróżniali pod pewnymi względami, dopuśćmy też niepokojącą możliwość.  
+To nie tak, że są jedyną czy też najgorszą organizacją o&nbsp;skłonnościach socjopatycznych.  
 Może po prostu inni lepiej się ukrywają.
 
 A teraz, kiedy już poznaliśmy Monsanto nieco lepiej, zapraszam do kolejnego wpisu. Tym razem bardziej w&nbsp;stylu tego bloga. Będą skrypty i&nbsp;analizowanie powiązań.
