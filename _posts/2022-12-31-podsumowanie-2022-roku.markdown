@@ -4,8 +4,8 @@ title:  "Podsumowanie 2022 roku"
 subtitle: "Gdy emocje już opadną, jak po wielkiej bitwie kurz"
 description: "Gdy emocje już opadną, jak po wielkiej bitwie kurz"
 date:   2022-12-31 15:13:00 +0100
-firmy: [Amazon, Apple, Facebook, Google, Twitter]
-tags: [Afera, Internet, Inwigilacja, Centralizacja, Przemyślenia]
+firmy: [Adobe, Google, Twitter]
+tags: [Internet, Inwigilacja, Centralizacja, Przemyślenia, Rolnictwo]
 image: 
    path: /assets/posts/podsumowanie2022/2022-sonicx-asura-wrath-baner.jpg
    width: 1200
