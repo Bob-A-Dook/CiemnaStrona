@@ -355,7 +355,7 @@ We will laugh over your mass grave as Darwin's principle once again proves survi
 
 Jakieś statystyki, żeby nie było tak anegdotycznie?
 
-* Słowo *ignoran* (jak w&nbsp;*ignorance* i&nbsp;pokrewnych słowach) pojawia się aż 350&nbsp;razy.
+* Ciąg znaków *ignoran* (jak w&nbsp;*ignorance* i&nbsp;pokrewnych słowach) pojawia się aż 350&nbsp;razy.
 * Słowo *asshole* w&nbsp;moim zbiorze pojawiło się 145 razy.
 * Słowo *nonsense* 46&nbsp;razy.
 * *Bullshit* 42&nbsp;razy.
@@ -531,7 +531,7 @@ text="Remind everyone you know to be grateful for all the USA gave you. Computer
 </ul>
 </details>
 
-Problem? Jeśli ktoś czytał jeden z&nbsp;poprzednich wpisów, to wie -- **zarzut biopiractwa dla Monsanto**.  
+Problem? Jeśli ktoś czytał jeden z&nbsp;poprzednich wpisów, to wie -- [zarzut biopiractwa dla Monsanto]({% post_url 2022-12-24-monsanto-nasiona-patenty %}#sprawa-bakłażana-bt){:.internal}.  
 Bakłażan był efektem długich lat tradycyjnej hodowli. Zaś ich indyjska filia go sobie wzięła, zmodyfikowała i&nbsp;zyskała na niego patent. Nie wiem, czy na ten sam, który wprowadzono w&nbsp;Bangladeszu, ale sprawa jest podejrzana.
 
 Drugi problem -- bakłażan, jak wiele produktów bezpośrednio jadalnych, to taka trochę nisza wśród roślin GMO. Znaczna ich większość to produkty idące na paszę i&nbsp;biopaliwa. Rzeczy przeznaczone wprost dla ludzi, choć dużo rzadsze, są nieproporcjonalnie często nagłaśniane w&nbsp;komunikatach firmy. 
