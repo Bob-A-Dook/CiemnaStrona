@@ -41,7 +41,7 @@ Po drugie -- niestety wraz z&nbsp;nowym układem wróciły do łask niektóre zb
 
 No ale cóż, pozostaje się dopasować do realiów. Banowanie to raczej rozwiązanie doraźne, prowizorka. A&nbsp;uczulanie społeczeństwa na dezinformację może pozwoli osłabić jej efekt w&nbsp;dłuższym terminie. Dlatego warto to robić.
 
-Po trzecie -- i&nbsp;tu akurat kolejna dobra strona -- [renesans przeżywa Mastodon](https://finance.yahoo.com/news/half-million-users-move-decentralized-061530460.html), otwarta i&nbsp;*zdecentralizowana* alternatywa dla Twittera.
+Po trzecie -- i&nbsp;tu akurat dobra strona -- [renesans przeżywa Mastodon](https://finance.yahoo.com/news/half-million-users-move-decentralized-061530460.html), otwarta i&nbsp;*zdecentralizowana* alternatywa dla Twittera.
 
 O ile już wcześniej zdarzało się przechodzenie ludzi na aplikacje *open source* (patrz: [odchodzenie od WhatsAppa na rzecz Signala](https://www.forbes.com/sites/carlypage/2021/01/10/whatsapp-uses-urged-to-switch-to-signal-skype-following-controversial-privacy-update/)), o&nbsp;tyle decentralizacja zawsze była tym jednym krokiem, który mało kto podejmował.
 
@@ -56,7 +56,7 @@ A dlaczego ich obserwuję? Bo to idealny przykład ogromnej korporacji, rozrasta
 
 Kolejny przykład słabości ich scentralizowanego modelu mieliśmy niedawno. Popadli w&nbsp;konflikt z&nbsp;firmą Pantone, tworzącą gotowe palety kolorów. I&nbsp;po prostu je wyłączyli. Od teraz, otwierając projekt zawierający te palety, [użytkownicy widzą tylko czerń](https://www.wired.co.uk/article/adobe-pantone-color-subscription-fee). Chyba że zapłacą.
 
-Większym wydarzeniem było natomiast coś innego. [Kupno Figmy](https://news.adobe.com/news/news-details/2022/Adobe-to-Acquire-Figma/default.aspx) za 20&nbsp;miliardów dolarów. Mniejszej firmy oferującej narzędzia online do wspólnej edycji, stanowiącej dla programów Adobe dość solidną, dynamiczną konkurencję.
+Większym wydarzeniem było natomiast coś innego. [Kupno Figmy](https://news.adobe.com/news/news-details/2022/Adobe-to-Acquire-Figma/default.aspx) za 20&nbsp;miliardów dolarów. Mniejszej firmy oferującej narzędzia online do wspólnej edycji. Stanowiły dla programów Adobe dość solidną, dynamiczną konkurencję.
 
 No cóż, od teraz koniec z&nbsp;konkurowaniem. Zostali wchłonięci przez wielką, rozrastającą się masę Adobe.
 

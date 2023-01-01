@@ -725,9 +725,10 @@ def run_interactive_mode():
             inp2 = input('Twój wybór: ')
             if inp2.lower() == 'z':
                 post2 = None
+            else:
+                return
     
-   
-            
+    
 if __name__ == '__main__':
 
     if ERR:
