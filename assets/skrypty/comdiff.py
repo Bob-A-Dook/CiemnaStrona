@@ -151,6 +151,7 @@ CENSOR_CSS = '''
 ##############
 
 def _remove_tracking_params( link ):
+    '''Reconstructs a link by removing Facebook's tracking parameters'''
     
     l = urlparse(link)
     params = [p for p in l.query.split('&')
@@ -163,8 +164,10 @@ def _remove_tracking_params( link ):
     
 
 def _get_ids_from_link( link: str ):
-    '''Removes Facebook's tracking parameters from the link'''
-    
+    '''
+    Extracts different types of a comment's IDs by parsing its link.
+    Also removes Facebook's tracking params as a bonus
+    '''
     l = urlparse(link)
     params = [p for p in l.query.split('&')
               if not p.startswith('__cft__[0]')
@@ -207,10 +210,10 @@ class FbComment:
 
             self.summary = self.text
 
-        unroll_elems = [
+        unrollers = [
             d for d in com_html.find_all('div', attrs={'role':'button'})
             if d.text.strip() == 'Zobacz więcej']
-        self.is_unrolled = not unroll_elems
+        self.is_unrolled = not unrollers
 
     def __hash__( self ):
         return hash( self.short_id )
