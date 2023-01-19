@@ -5,10 +5,15 @@ have been hidden in its default "most relevant" view.
 The code is in English, but all displayed messages are in Polish.
 
 POLISH:
-Aby uruchomić skrypt, najpierw pobierz Pythona z oficjalnej strony
+Ten skrypt pozwoli ci porównywać komentarze pod postami z Facebooka
+w różnych trybach wyświetlania ('najpopularniejsze' albo 'wszystkie').
+Działa tylko dla treści ze strony internetowej www.facebook.com,
+angielskiej i polskiej wersji językowej
+
+Aby go uruchomić, najpierw pobierz Pythona z oficjalnej strony
 (https://www.python.org/downloads/).
 Zaznacz w instalatorze opcję zainstalowania programu "pip".
-Potem kliknij dwukrotnie skrypt albo uruchom go przez inny program
+Potem kliknij dwukrotnie plik ze skryptem albo uruchom go przez inny program
 i postępuj zgodnie z wyświetlanymi w konsoli instrukcjami.
 '''
 
@@ -216,6 +221,8 @@ class FbComment:
         self.is_unrolled = not unrollers
 
     def __hash__( self ):
+        # A way of spotting same comments regardless of their text
+        # (which could be either trimmed or fully unrolled)
         return hash( self.short_id )
 
     def __str__( self ):
@@ -682,8 +689,11 @@ def _get_facebook_post( clip_text, post1 ):
     
 
 def run_interactive_mode():
-    '''Allows accessing data through clipboard'''
-
+    '''
+    A step-by-step way of comparing Facebook comments from the same post
+    in different display modes. Requires the user to copy HTML content to
+    the clipboard or to save it as files on disk
+    '''
     _display_greeting()
 
     post1, post2 = None, None
@@ -706,7 +716,7 @@ def run_interactive_mode():
 
         if not clipboard_get:
             error('Brak dostępu do schowka, program nie zadziała w tym '
-                  'trybie. Nadal możesz zapisywać pliki HTML w jednym '
+                  'trybie.\nAle nadal możesz zapisywać pliki HTML w jednym '
                   'folderze i je ze sobą porównywać')
             return
 

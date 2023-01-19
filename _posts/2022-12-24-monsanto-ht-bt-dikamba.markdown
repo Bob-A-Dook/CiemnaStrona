@@ -68,7 +68,7 @@ Kontekst ma znaczenie. Dlatego rozdzielmy sobie rośliny GMO na trzy rodzaje:
 
   Dzięki modyfikacjom są odporne na herbicydy, środki chwastobójcze. Można je bezpiecznie pryskać nawet po wykiełkowaniu. Przeżyją, w&nbsp;przeciwieństwie do otaczających je chwastów.
  
-  <img src="/assets/posts/monsanto/glifosat-roundup-ready.jpg" alt="Schemat pokazujący po lewej stronie dwie rysunkowe rośliny, oset i&nbsp;kukurydzę obok siebie. Następnie mamy strzałkę, a&nbsp;nad nią ikonę kropli substancji. Po prawej stronie strzałki mamy te same dwie rośliny, ale wyschnięte i&nbsp;brązowe."/>
+  <img src="/assets/posts/monsanto/glifosat-roundup-ready.jpg" alt="Schemat pokazujący po lewej stronie dwie rysunkowe rośliny, oset i&nbsp;kukurydzę obok siebie. Następnie mamy strzałkę, a&nbsp;nad nią ikonę kropli substancji. Po prawej stronie strzałki mamy te same dwie rośliny. Oset wyschnięty i&nbsp;brązowy, a kukurydza nic się nie zmieniła."/>
 
 Rośliny mogą mieć kilka modyfikacji naraz, chociażby HT+Bt. To zresztą dominujący wariant w&nbsp;USA, gdzie taki rodzaj GMO stanowi [ponad 90&nbsp;procent](https://www.ers.usda.gov/webdocs/DataFiles/47649/BiotechCropsAllTables2022.xlsx?v=8928.3) wszystkich upraw kukurydzy i&nbsp;bawełny.
 
@@ -329,7 +329,7 @@ Niestety, raczej nie zostały pokonane. Jeśli wierzyć niektórym relacjom, poj
     <div class="fb_comment_text">
       <p class="author_base">UT Weed Guy</p>
       <span>Xtend soybeans in there somewhere? Despite multiple dicamba an glyphosate applications Palmer amaranth has overwhelmed these soybeans</span>
-    <img src="/assets/posts/monsanto/dikamba-roundup-superchwasty-obraz.jpg" />
+    <img src="/assets/posts/monsanto/dikamba-roundup-superchwasty-obraz.jpg" alt="Zdjęcie pokazujące pole w całości zarośnięte chwastami"/>
     </div>
   </div>
 </div>

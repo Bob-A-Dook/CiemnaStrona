@@ -24,7 +24,7 @@ Potwierdzenia odbioru, alerty RCB, kody uwierzytelniające... SMS&#8209;y dostaj
 I tutaj pojawia się problem. Wszystkie te wiadomości są zapisywane na naszym telefonie bezterminowo (z tego co wiem). Żeby się ich pozbyć, musielibyśmy sami je usunąć z&nbsp;historii. A&nbsp;mało komu się chce.  
 Co by się stało, gdyby zajrzał do nich ktoś niepowołany, ktoś wścibski? Jakie informacje by z&nbsp;nich odczytał?
 
-Temu jest poświęcony mój obecny wpis. Zobaczymy pozwolenia na systemie Android pozwalające zaglądać nam do SMS&#8209;ów, aplikację pozwalającą osobiście to przetestować. Oraz sposoby na ochronę swojej prywatności.
+Temu jest poświęcony mój obecny wpis. Zobaczymy pozwolenia na systemie Android pozwalające aplikacjom zaglądać do naszych SMS&#8209;ów, aplikację pozwalającą osobiście to przetestować. Oraz sposoby na ochronę swojej prywatności.
 
 Będzie raczej bez większych zaskoczeń, bo temat nie jest szczególnie skomplikowany. Ale może dostarczy nam paru dodatkowych przemyśleń.
 
@@ -53,7 +53,7 @@ To dlatego, że na *starofonach* nie ma grupowania w&nbsp;wątki. Mikrowiadomoś
 
 Gdyby SMS&#8209;y mogła czytać tylko oficjalna aplikacja naszego telefonu, to wpis zakończyłby się w&nbsp;tym miejscu. **I&nbsp;tak podobno jest w&nbsp;przypadku systemu iOS** (na iPhone'ach).
 
-Natomiast na Androidzie aplikacje mogą zaglądać do historii SMS&#8209;ów. W&nbsp;tym celu muszą jednak poprosić nas o&nbsp;pozwolenie. Zwane zakulisowo `READ_SMS`; z&nbsp;gatunku [*runtime permissions*](https://developer.android.com/guide/topics/permissions/overview#runtime), czyli takich, które możemy w&nbsp;dowolnym momencie wyłączać w&nbsp;ustawieniach.
+Natomiast na Androidzie aplikacje cudze, pozasystemowe, również mogą zaglądać do historii SMS&#8209;ów. W&nbsp;tym celu muszą jednak poprosić nas o&nbsp;pozwolenie. Zwane zakulisowo `READ_SMS`; z&nbsp;gatunku [*runtime permissions*](https://developer.android.com/guide/topics/permissions/overview#runtime), czyli takich, które możemy w&nbsp;dowolnym momencie włączać lub wyłączać w&nbsp;ustawieniach.
 
 Według [bloga firmy Symantec](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/mobile-privacy-apps) to pozwolenie stosunkowo rzadko wymagane. O&nbsp;dostęp do SMS&#8209;ów prosiło 15&nbsp;procent badanych przez nich, potencjalnie wścibskich apek na Androida.
 
@@ -70,9 +70,9 @@ Głównym źródłem aplikacji na świecie są centralne, publiczne bazy. Jak [P
 W teorii powinny weryfikować, czy apka naprawdę potrzebuje szczególnych uprawnień, jak możliwość czytania SMS&#8209;ów. I&nbsp;usuwać szemrane towarzystwo. Sęk w&nbsp;tym, że nawet naciągany powód wystarczy, żeby dostać pozytywną notę.
 
 Przykład ze wspomnianego badania Symantec?  
-O pozwolenie prosi apka-bajer sterująca funkcjami latarki w&nbsp;telefonie. Jako oficjalny powód podali fakt, że dzięki temu uprawnieniu latarka może migać, kiedy przyjdzie do nas wiadomość. Dostali się do bazy.
+O pozwolenie prosi apka-bajer sterująca funkcjami latarki w&nbsp;telefonie. Jako oficjalny powód podali fakt, że dzięki temu uprawnieniu latarka może migać, kiedy przyjdzie do nas wiadomość. To wystarczyło, przyjęto ich do bazy.
 
-A po stronie użytkownika? Mamy niestety [jedno i&nbsp;to samo ostrzeżenie dla wszystkich działań związanych z&nbsp;SMS&#8209;ami](https://stackoverflow.com/questions/48634766/why-does-receive-SMS&#8209;and-read-sms-permission-do-not-have-different-prompt-boxes). Pozwolenia całkiem różne -- na wysyłanie i&nbsp;czytanie -- są zebrane w&nbsp;tak zwane *grupy uprawnień*. Kiedy aplikacja potrzebuje dowolnego z&nbsp;nich, to ujrzymy taki komunikat:
+Innym problemem są komunikaty kierowane do użytkowników. Mamy niestety [jedno i&nbsp;to samo ostrzeżenie dla wszystkich działań związanych z&nbsp;SMS&#8209;ami](https://stackoverflow.com/questions/48634766/why-does-receive-SMS&#8209;and-read-sms-permission-do-not-have-different-prompt-boxes). Pozwolenia całkiem różne -- na wysyłanie i&nbsp;czytanie -- są zebrane w&nbsp;tak zwane *grupy uprawnień*. Kiedy aplikacja potrzebuje dowolnego z&nbsp;nich, to ujrzymy taki komunikat:
 
 {:.bigspace}
 <img src="/assets/posts/apki/sms/android-sms-permission.jpg" alt="Komunikat mówiący, że aplikacja prosi o&nbsp;pozwolenie na czytanie SMS&#8209;ów i&nbsp;dający na dole trzy opcje: wyrażenie zgody, niewyrażenie zgody albo niewyrażenie plus żądanie, żeby więcej nie pytać." width="300px"/>
@@ -80,14 +80,14 @@ A po stronie użytkownika? Mamy niestety [jedno i&nbsp;to samo ostrzeżenie dla 
 Wyobraźmy sobie, że instalowana apka ma jakiś powód, żeby wysyłać wiadomości. Może na przykład twierdzi, że może wysyłać SMS&#8209;a z&nbsp;powiadomieniem, gdy coś zrobimy. Myślimy sobie: „brzmi sensownie”. I&nbsp;kiedy pokazuje się pytanie jak wyżej, to nasza czujność jest uśpiona. Zezwalamy. Zaś apka zyskuje również możliwość zerkania do naszej skrzynki.
 
 Gdyby to zerkanie wymagało odrębnego, wyrażonego wprost pozwolenia, to może budziłoby ono większe podejrzenia. Byłoby znacznie mniej rodzajów apek, które *tak serio-serio* by go potrzebowały.  
-Ba, nie byłoby potrzebne nawet wtedy, gdy aplikacja chce nam wysłać SMS&#8209;a i&nbsp;potem upewnić się że dotarł. Bo takie coś mogą [zrobić osobnym kanałem](https://android.stackexchange.com/a/218890), bez konieczności czytania całej skrzynki (choć niestety wymaga Usług Google, więc alternatywne systemy znów pokrzywdzone).
+Ba, nie byłoby potrzebne nawet wtedy, gdy aplikacja chce nam wysłać SMS&#8209;a i&nbsp;potem upewnić się że dotarł. Bo takie coś mogą [zrobić osobnym kanałem](https://android.stackexchange.com/a/218890), bez konieczności czytania całej skrzynki (choć niestety wymaga Usług Google, więc systemy alternatywne względem Androida są pokrzywdzone).
 
 Jedynymi aplikacjami naprawdę potrzebującymi wglądu do SMS&#8209;ów zostałyby wtedy chyba tylko komunikatory, zbierające wiele rodzajów wiadomości w&nbsp;jednym miejscu. Moim zdaniem i&nbsp;tak opcja niewarta ryzyka.
 
 ...No ale jest jak jest. Mamy jedno łączone uprawnienie, zaś jedyną linią obrony dla osób nieświadomych zagrożeń są automatyczni recenzenci z&nbsp;Play Store'a.
 
 A z&nbsp;nimi różnie bywa. Czasem przepuszczą łobuzów, a&nbsp;zablokują coś fajnego.  
-Aplikacja Termux -- nieraz przeze mnie polecana -- daje możliwość automatyzowania pewnych funkcji telefonu. Siłą rzeczy potrzebuje różnych dodatkowych pozwoleń. Na szczęście jej kod źródłowy jest publicznie dostępny, w&nbsp;razie nieprawidłowości ktoś by szybko zaalarmował Google.
+Aplikacja Termux -- nieraz przeze mnie polecana -- daje możliwość automatyzowania pewnych funkcji telefonu. Siłą rzeczy potrzebuje różnych dodatkowych pozwoleń. Na szczęście jej kod źródłowy jest publicznie dostępny, więc w&nbsp;razie nieprawidłowości ktoś by szybko zaalarmował Google.
 
 Mimo to [Termux nie dostał pozwolenia](https://android.stackexchange.com/questions/218888/apps-are-not-allowed-by-google-to-read-sms-messages-but-why-can-they-read-otp-s) na dostęp do SMS&#8209;ów i&nbsp;paru innych rzeczy. W&nbsp;efekcie Play Store zawiera jedynie okrojoną wersję tej aplikacji. Google :roll_eyes:
 
@@ -114,7 +114,7 @@ A to i&nbsp;tak nic w&nbsp;porównaniu z&nbsp;tym, co się działo w&nbsp;czasac
 
 {:.bigspace}
 {% include comment.html
-avatar = "/assets/draft_imgs/apki_draft/koperta.jpg"
+avatar = "/assets/posts/apki/sms/koperta.jpg"
 author="Alert RCB"
 text="Uwaga! Zaslon usta i&nbsp;nos. Powiat debicki w&nbsp;czerwonej strefie epidemicznej. Od 17.10 nowe zasady: https://www.gov.pl/zasadybezpieczenstwa"
 %}
@@ -132,7 +132,7 @@ Oznaczmy sobie te powiaty na mapce:
 
 <img src="/assets/posts/apki/sms/bieszczady-droga-smsy.jpg" alt="Mapka z&nbsp;Wikipedii pokazująca województwo podkarpackie w&nbsp;podziale na powiaty. Czerwonym kolorem zaznaczono kilka z&nbsp;nich w&nbsp;południowej części mapki"/>
 
-Patrząc dodatkowo na czas wysłania SMS&#8209;ów, można łatwo dojść do wniosku, że był to przejazd samochodowy, bez robienia dłuższych przerw.
+Patrząc dodatkowo na czas otrzymania SMS&#8209;ów, można łatwo dojść do wniosku, że był to przejazd samochodowy, bez robienia dłuższych przerw.
 
 Owszem, taka szczegółowość nie jest w&nbsp;alertach RCB dostępna na co dzień. Tym niemniej mogą być sposobem na ustalenie przybliżonego regionu, w&nbsp;jakim mieszkamy, oraz tras niektórych podróży w&nbsp;czasach pandemicznych.
 
@@ -148,7 +148,7 @@ Wiadomości są natomiast znacznie pewniejszym źródłem, jeśli mówią o&nbsp
 Oto wiadomość, jaką dostałem w&nbsp;czasach pandemii po zarejestrowaniu się w&nbsp;systemie na wjazd do Czech:
 
 {% include comment.html
-avatar = "/assets/draft_imgs/apki_draft/koperta.jpg"
+avatar = "/assets/posts/apki/sms/koperta.jpg"
 text = "NCZI: **IMIĘ I&nbsp;NAZWISKO** Your registration on arrival from abroad has been registered.You meet the 14-day quarantine exemption.You don't have to go through quarantine"
 %}
 
@@ -165,7 +165,7 @@ Nieraz zdarza się, że musimy podać numer telefonu przy zakładaniu konta. Dos
 
 {:.bigspace}
 {% include comment.html
-avatar = "/assets/draft_imgs/apki_draft/koperta.jpg"
+avatar = "/assets/posts/apki/sms/koperta.jpg"
 author="BIEDRONKA"
 text="Dziekujemy za rejestracje w&nbsp;programie Moja Biedronka. Wprowadz podany kod w&nbsp;formularzu rejestracyjnym na stronie www. KOD: **6-CYFROWY KOD**"
 %}
@@ -184,14 +184,14 @@ Gdyby wiadomości o&nbsp;założeniu konta przyszły od stron/aplikacji reprezen
 Kiedy zamówimy coś przez internet, to często za dostarczenie paczki odpowiada któryś ze znanych pośredników. I&nbsp;informuje nas SMS-owo o&nbsp;punkcie odbioru. Podając przy tym jego adres.
 
 {% include comment.html
-avatar = "/assets/draft_imgs/apki_draft/koperta.jpg"
+avatar = "/assets/posts/apki/sms/koperta.jpg"
 author = "PP S.A"
 text="Przesylka nr **NUMER**, kod odbioru **KOD**, czeka na odbior w&nbsp;sklepie Zabka ul. **ULICA I&nbsp;NR LOKALU**, **NAZWA MIASTA**"
 %}
 
 {:.bigspace-after}
 {% include comment.html
-avatar = "/assets/draft_imgs/apki_draft/koperta.jpg"
+avatar = "/assets/posts/apki/sms/koperta.jpg"
 author = "DHL"
 text="Przesylka nr **NUMER** adres DHL POP ZABKA, **ULICA I&nbsp;NR LOKALU**, **KOD POCZTOWY NAZWA MIASTA**."
 %}
@@ -205,7 +205,7 @@ Może przykład covidowy?
 
 {:.bigspace}
 {% include comment.html
-avatar = "/assets/draft_imgs/apki_draft/koperta.jpg"
+avatar = "/assets/posts/apki/sms/koperta.jpg"
 author="e-Zdrowie"
 text="Twoje szczepienie (**NAZWA SZCZEPIONKI**):  
 **DATA I&nbsp;GODZINA** w&nbsp;punkcie **ULICA I&nbsp;NR LOKALU** w&nbsp;**NAZWA MIASTA**."
@@ -223,7 +223,7 @@ Ale ta słodycz może nieco zgorzknieć, jeśli ktoś się do tego SMS&#8209;a d
 
 {:.bigspace}
 {% include comment.html
-avatar = "/assets/draft_imgs/apki_draft/koperta.jpg"
+avatar = "/assets/posts/apki/sms/koperta.jpg"
 author="+48 737&nbsp;*??? ???*{:.cover}"
 text="Wyn. nieof. **NAZWA ZAWODÓW** dla **NAZWISKO I&nbsp;IMIĘ**. Czas **CZAS UKOŃCZENIA**, Msc: **MIEJSCE W&nbsp;KLASYFIKACJI OGÓLNEJ** wiecej na WYNIKI.B4SPORT.PL"
 %}
@@ -272,7 +272,7 @@ Po chwili powinna się pokazać lista 10&nbsp;wiadomości.
 
 Zamiast wrzucać niezrozumiałego gotowca, pokażę krok po kroku, w&nbsp;jaki sposób *konstruuję* skrypt.
 
-Trzonem jest nasze polecanie pozwalające zdobywać listę SMS&#8209;ów, `termux-sms-list`.  
+Trzonem jest nasze polecenie pozwalające zdobywać listę SMS&#8209;ów, `termux-sms-list`.  
 Za tym poleceniem można zapisywać różne dodatkowe *argumenty*, które pozwalają kontrolować zachowanie programu. Ich listę znalazłem na [*termux.com*](https://wiki.termux.com/wiki/Termux-sms-list).
 
 * Po pierwsze: jeśli chcemy wszystkie rodzaje wiadomości (SMS&#8209;y, MMS&#8209;y...), dopisujemy po naszym trzonie `-t all`.  
@@ -313,9 +313,9 @@ text="Pamiętajmy, żeby nie odinstalowywać teraz Termuksa, bo w&nbsp;ten spos�
 
 ### Przenoszenie poza telefon
 
-Wiadomości ukryte w&nbsp;Termuksie są niewidoczne dla obcych, ale i&nbsp;niedostępne dla naszego własnego komputera. Jak je przenieść?
+Wiadomości ukryte w&nbsp;Termuksie są niewidoczne dla obcych, ale i&nbsp;niedostępne dla innych urządzeń, do których podłączamy nasz telefon. Jak je przenieść?
 
-Ktoś bardziej majsterkujący mógłby użyć Termuksa do wysłania ich przez Bluetooth prosto na komputer. Ale my zrobimy to klasycznie, przenosząc plik do wspólnej przestrzeni i&nbsp;zgrywając na komputer przez USB.
+Ktoś bardziej majsterkujący mógłby użyć Termuksa do wysłania ich przez Bluetooth prosto na komputer. Ale my zrobimy to klasycznie, przenosząc plik do publicznego folderu i&nbsp;zgrywając na komputer przez USB.
 
 **Uwaga:** nim to zrobimy, wyłączmy pozwolenie na dostęp do plików apkom, którym nie ufamy. Nie chcemy, żeby dobrały się do SMS&#8209;ów , kiedy te trafią między publiczne pliki. Pozwolenie musimy natomiast zostawić Termuksowi, żeby był w&nbsp;stanie przenieść plik.
 
@@ -327,6 +327,7 @@ mv smsy.txt /data/storage/emulated/0
 
 To polecenie przeniesie plik do folderu głównego na naszej karcie pamięci (publicznie dostępnego). Zamiast `mv` można użyć `cp`, jeśli chcemy jedynie skopiować plik.
  
-Teraz podłączamy telefon do komputera przez USB i&nbsp;wybieramy na nim (telefonie) tryb pamięci masowej. Znajdujemy nasz plik, wycinamy z&nbsp;Androida i&nbsp;wklejamy gdzieś na komputerze. Jeśli ktoś woli, to może też wysłać go przez Bluetooth, przez domyślną przeglądarkę plików na telefonie.
+Teraz podłączamy telefon do komputera przez USB i&nbsp;wybieramy na nim (telefonie) tryb pamięci masowej. Korzystając z komputera, znajdujemy nasz plik, wycinamy/kopiujemy i&nbsp;wklejamy gdzieś na komputerze.  
+Jeśli ktoś woli, to zamiast korzystać z USB może też wysłać plik przez Bluetooth, używając domyślnej przeglądarki plików na telefonie.
 
 Kiedy już zrobimy co trzeba i&nbsp;plik opuści nasz telefon, możemy przybić sobie piątkę. Nasze SMS&#8209;y będą od teraz (oby) wyłącznie w&nbsp;naszych rękach, poza zasięgiem wścibinosów.

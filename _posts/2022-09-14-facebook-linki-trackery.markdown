@@ -78,7 +78,7 @@ Wyobraźmy sobie, że jakiś Bob Buntowniczy znajduje na Facebooku post wyśmiew
 Ale nie wie, że kopiowany przez niego ciąg znaków jest całkiem inny niż te, jakie wyświetliły się innym użytkownikom Fejsa. Jeśli ktoś od Facebooka zajrzy poza ich portal i&nbsp;znajdzie wrzucone linki, to mógłby sprawdzić w&nbsp;bazie, jakiemu użytkownikowi odpowiadały.
 
 {:.post-meta .bigspace-after}
-Nie byłaby to metoda stuprocentowo pewna; może Bob wysłał link Alicji na Messengera, a&nbsp;to Alicja skopiowała go na inne strony. Ujawniałby tylko pierwszą kopiującą osobę.
+Nie byłaby to metoda stuprocentowo pewna; może Bob wysłał swój link Alicji na Messengera, a&nbsp;to Alicja skopiowała go na inne strony. Link ujawniałby tylko Boba, jako pierwszą kopiującą osobę.
 
 Być może sam Facebook nic by z&nbsp;tym nie zrobił i&nbsp;tylko siedział na informacjach jak smok na złocie.
 
@@ -116,7 +116,7 @@ Znalazłem też ciekawy [wpis polemizujący z&nbsp;Ghacks](https://ws-dl.blogspo
 
   Przykład? X&nbsp;znajduje na forum link do kontrowersyjnego posta z&nbsp;Facebooka. Próbuje w&nbsp;niego wejść, ale post już został usunięty.  
   No ale na pewno ktoś wrzucił taką perełkę do archiwum, póki jeszcze wisiała? Zatem X&nbsp;wkleja odnośnik w&nbsp;wyszukiwarkę *archive.ph*. Wyświetla się informacja, że nikt nie zarchiwizował takiej strony. X&nbsp;odchodzi z&nbsp;niczym.  
-  Mimo że tak naprawdę post jak najbardziej jest w&nbsp;archiwum. Tylko że pod innym linkiem -- takim, jaki widziała osoba archiwizująca w&nbsp;chwili kopiowania. Innym niż ten na forum.
+  Mimo że tak naprawdę post jak najbardziej jest w&nbsp;archiwum. Tylko że pod innym linkiem -- takim, jaki widziała osoba archiwizująca w&nbsp;chwili kopiowania. Innym niż ten, który znalazł X&nbsp;na forum.
 
 # Wnioski
 
@@ -288,7 +288,7 @@ Inna opcja? Zamiast wrzucać bezpośrednie linki, możemy **robić screeny albo 
 
 Przy tylu informacjach osoba zainteresowana mogłaby łatwo znaleźć wskazanego posta. A&nbsp;gdyby zainteresowana nie była, to nawet bezpośrednie podesłanie by nie pomogło.
 
-A co mogą zrobić internetowi archiwiści, kiedy linki przestaną być dobry sposobem na znalezienie postów?
+A co mogą zrobić internetowi archiwiści, kiedy linki przestaną być dobrym sposobem na znalezienie postów?
 
 Jeśli archiwizujemy treści z&nbsp;FB, to umieszczajmy w&nbsp;jakimś miejscu (na przykład w&nbsp;osobnym wpisie na Twitterze) kontekst związany z&nbsp;danym linkiem. Nazwy postaci, jakiś fragment tekstu itp. Żeby poszukiwacze mieli kilka sposobów dotarcia do źródła.
 
