@@ -13,8 +13,6 @@ image:
    width: 1200
    height: 700
 
-image-width: 1200
-image-height: 700
 ---
 
 Z przeglądarek internetowych korzystamy wszyscy. Jakoś w&nbsp;końcu czytacie stronę, na której teraz jesteście.
@@ -32,6 +30,11 @@ Według oficjalnych komunikatów poprawia bezpieczeństwo -- w&nbsp;praktyce **z
 Choć słowo „standard” brzmi biurokratycznie, nie zafundowały nam tego losu żadne rządy czy Unia. Nie; to inicjatywa całkiem prywatnej korporacji. Na tyle wpływowej, że potrafi poruszyć nawet internetem, z&nbsp;pozoru ostoją swobody i&nbsp;niezależności. **To dzieło firmy Google**.
 
 Zapraszam do krótkiego przybliżenia kwestii *Manifestu v3*. Przy okazji rzucimy okiem na to, w&nbsp;jaki sposób podejmowane są decyzje kształtujące nasz wspólny internet.
+
+{% include info.html
+type="Aktualizacja"
+text="W styczniu 2023&nbsp;roku mogliśmy odetchnąć, Google [odsunął w&nbsp;czasie](https://groups.google.com/u/0/a/chromium.org/g/chromium-extensions/c/zQ77HkGmK9E) wyłączenie dotychczasowego systemu dodatków. Ale sprawa pozostaje aktualna, a&nbsp;niekorzystne zmiany nadal wiszą w&nbsp;powietrzu."
+%}
 
 {:.bigspace-before}
 <img src="/assets/posts/manifest/dodatki-egzekucja.jpg" alt="Przerobiony kadr z&nbsp;filmu Apocalypto. Widać na nim cztery zgarbione postacie pomalowane niebieską farbą i&nbsp;prowadzone przez strażnika po pomoście. W&nbsp;tle widać piramidy w&nbsp;stylu plemion południowej Ameryki. Na twarz strażnika nałożono logo Google, zaś na twarze czterech więżniów ikony dodatków: Privacy Badger, uBlock Origin, Ghostery, SingleFile. Na pomost, po którym wchodzą, są nałożone słowa Manifest v2."/>
@@ -65,7 +68,7 @@ Zastanawialiście się kiedyś, jak to jest, że przeglądarki nieraz wprowadzaj
 
 Odpowiedź: **kierunek nadają firmy -- twórcy najpopularniejszych przeglądarek**. Są zrzeszeni w&nbsp;organizacji *[World Wide Web Consortium](https://pl.wikipedia.org/wiki/World_Wide_Web_Consortium)* (w skrócie *W3C*). Co pewien czas się spotykają i&nbsp;ustalają nowe standardy, których powinny się trzymać przeglądarki.
 
-Znaczący członkowie W3C posiadający własne przeglądarki to Apple (silnik WebKit i&nbsp;przeglądarka Safari), Mozilla (Firefox), Google (silnik Chromium, przeglądarka Chrome) oraz Microsoft (przeglądarka Edge, oparta na silniku od Google'a).
+Znaczący członkowie W3C posiadający własne przeglądarki to Apple (silnik WebKit i&nbsp;przeglądarka Safari), Mozilla (przeglądarka Firefox), Google (przeglądarka bazowa Chromium, oparty na niej Chrome) oraz Microsoft (przeglądarka Edge, oparta na Chromium od Google'a).
 
 Dzięki wspólnemu ustalaniu standardów nie ma dzikiego zachodu, gdzie każdy robi coś inaczej. Zyskujemy pewien porządek we wprowadzaniu nowinek i&nbsp;jest szansa, że zadziałają wszędzie tak samo. W&nbsp;teorii. W&nbsp;praktyce jednak uczestnicy nie są sobie równi.
 
@@ -76,13 +79,13 @@ Stworzyłem drobny schemat pokazujący, która przeglądarka od kogo pochodzi. D
 {:.figcaption}
 W pierwszym rzędzie firmy, poniżej ich główny produkt, jeszcze niżej przeglądarki zbudowane na bazie tego produktu (albo przez samych twórców, albo na bazie publicznie dostępnego kodu). Pominąłem sporo bardziej niszowych przeglądarek, niech ich fani mi darują.
 
-Niebieskie logo w&nbsp;drugim rzędzie po lewej, jeśli ktoś go jeszcze nie zna, to **Chromium** -- silnik, na bazie którego działa Chrome.  
+Niebieskie logo w&nbsp;drugim rzędzie po lewej, jeśli ktoś go jeszcze nie zna, to **Chromium** -- przeglądarka bazowa, na której opiera się Chrome.  
 Z jego kodu korzysta również wiele innych popularnych przeglądarek. Czasem go modyfikują na własne potrzeby, ale większość kodu „spływa z&nbsp;góry”.
 
 Mamy zatem silną centralizację kodu w&nbsp;rękach jednej korporacji. I&nbsp;słabe możliwości ograniczenia jej wpływów. Bowiem organizacja *W3C* ma w&nbsp;sobie więcej z&nbsp;klubu dla szlachty niż z&nbsp;organu nadzoru.  
 Nie są w&nbsp;stanie zablokować wielu rzeczy demokratycznym głosowaniem. Jeśli jeden z&nbsp;uczestników się uprze, że chce zrobić coś po swojemu, to tak zrobi.
 
-Google cieszy się pod tym względem szczególnie złą sławą. Już nieraz zgłaszali propozycje, które inni uznawali za nie do przyjęcia (ze względu na przykład na to, że forsowały [prywatne interesy](https://www.theregister.com/2021/04/08/w3c_google_multple_domains/) Google'a).  
+Google cieszy się pod tym względem szczególnie złą sławą. Już nieraz zgłaszali propozycje, które inni uznawali za niemożliwe do przyjęcia (ze względu na przykład na to, że forsowały [prywatne interesy](https://www.theregister.com/2021/04/08/w3c_google_multple_domains/) Google'a).  
 Kiedy grzeczna i&nbsp;oficjalna droga nie działała, **Google po prostu dodawał kontrowersyjne funkcje do Chromium**.
 
 Wywierało to presję na pozostałych autorów przeglądarek. Niby są niezależni i&nbsp;nikt im nie każe iść za Google'em. Ale...
@@ -282,7 +285,7 @@ Mam w&nbsp;głowie kilka rzeczy, które mogłyby się przydać (ale dla mnie to 
 
 * Program przeczesujący oficjalne bazy dodatków (*Chrome Web Store* itd.) i&nbsp;wyłapujący te z&nbsp;wersją&nbsp;2; warto je zarchiwizować.
 
-  {:.post-meta}
+  {:.post-meta .bigspace-after}
   **Aktualizacja:** takie dane zbiera już stronka [ChromeStats](https://chrome-stats.com/manifest-v3-migration).
 
 * Stronkę opartą na powyższym rozwiązaniu. Coś w&nbsp;rodzaju „cmentarzyska dodatków” pokazującego, ile z&nbsp;nich nie przetrwało wejścia Wersji&nbsp;3. Coś jak stronka *[Killed by Google](https://killedbygoogle.com/)*.
