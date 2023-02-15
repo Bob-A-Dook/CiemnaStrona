@@ -8,6 +8,39 @@ To nie tyle spójny samouczek, co zbiór luźnych informacji na temat Termuksa -
 
 Wymienione tu porady i&nbsp;problemy są dość uniwersalne, więc nie chciałem ich powtarzać w&nbsp;każdym jednym wpisie i&nbsp;zebrałem je tutaj. Będę do nich odsyłał z&nbsp;innych wpisów.
 
+## Instalujemy Termuksa
+
+Zanim przejdę do instalacji, dwie kluczowe rzeczy:
+
+1. Instrukcja dotyczy **wyłącznie telefonów z systemem Android**.
+
+   To system docelowy dla Termuksa. Nawet jeśli powstały jakieś wersje dla systemu iOS albo bardziej niszowych, alternatywnych systemów (jak mobilny Linux), to nie miałem z nimi styczności.
+
+2. Google to zło.
+
+   Są właścicielami Play Store'a -- oficjalnej i najpopularniejszej bazy z aplikacjami na Androida. Naszego Termuksa potraktowali niesprawiedliwie, zakazując mu dodawania niektórych funkcji, bardzo przydatnych dla majsterkujących użytkowników.
+
+Ze względu na punkt drugi **apka Termux dostępna przez Play Store jest wybrakowana**.
+
+Jasne, można jej użyć, jeśli chcemy tylko poćwiczyć w podróży korzystanie z programów konsolowych. Ale gdybyśmy chcieli skorzystać z pełni możliwości telefonu, mocno polecam pobranie wersji z innego źródła niż Play Store.
+
+### F-Droid na ratunek
+
+„Inne źródło niż Play Store”? W porządku. Ale przydałoby się, żeby to źródło nie zaserwowało nam jakiejś apki z wirusami, która wykradnie nasze tajemnice z telefonu.
+
+Takim źródłem jest F-Droid -- baza przechowująca aplikacje *open source*.  
+Jest to źródło dość popularne i wiele osób ma je na oku, więc szybko by wyszło na jaw, gdyby ktoś próbował czegoś szemranego.
+
+Instalacja *prawdziwego* Termuksa w takim wypadku przebiega następująco:
+
+1. Najpierw pobieramy apkę F-Droid.
+2. Następnie uruchamiamy F-Droida, znajdujemy przez jego wyszukiwarkę apkę Termux. Instalujemy ją.
+3. Na koniec instalujemy również *Termux:API*.
+
+   To funkcje rozszerzające nam Termuksa. Pozwalają mu między innymi uzyskać dostęp do schowka, mikrofonu, czujników telefonu -- oczywiście tylko wtedy, kiedy wyrazimy zgodę.
+
+Kiedy już zrobimy te trzy rzeczy, świat Termuksa stanie przed nami otworem :smile:
+
 ## Python
 
 ### Instalacja

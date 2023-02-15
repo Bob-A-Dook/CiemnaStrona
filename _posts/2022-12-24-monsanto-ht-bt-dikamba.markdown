@@ -263,7 +263,7 @@ Z tym „wypadkiem” bym nie przesadzał. Wewnętrzne maile ujawniły, że ludz
 Nie dość, że nie wypadek, to jeszcze nie jednorazowy. Bowiem nowy, bardziej przyczepny XtendiMax nadal miał w&nbsp;sobie *wanderlust*. Umiał czasem odlatywać i&nbsp;powodować szkody.
 
 Monsanto wyjaśniało to słabym przeszkoleniem rolników i&nbsp;niewłaściwymi dyszami w&nbsp;opryskiwaczach. Jednocześnie ich instrukcja [zawierała szereg bardzo precyzyjnych wymagań](https://modernfarmer.com/2017/08/farmers-say-nearly-impossible-follow-monsantos-dicamba-directions/).  
-Być może są uzasadnione, ja tam nie wiem. Ale na pewno utrudniają wskazanie koncernu jako winnego, jeśli coś nie pójdzie. „Nasz środek jest bez zarzutu. To oni nie umieją czytać instrukcji”.
+Być może są uzasadnione, ja tam nie wiem. Ale na pewno utrudniają wskazanie koncernu jako winnego, jeśli coś pójdzie nie tak. „Nasz środek jest bez zarzutu. To oni nie umieją czytać instrukcji”.
 
 Przykład z&nbsp;życia znajdziemy choćby na Facebooku, pod jednym z&nbsp;postów *DEKALB Asgrow Southern Illinois* chwalącym Xtendimax:
 
