@@ -72,13 +72,14 @@ Kontekst ma znaczenie. Dlatego rozdzielmy sobie rośliny GMO na trzy rodzaje:
 
 Rośliny mogą mieć kilka modyfikacji naraz, chociażby HT+Bt. To zresztą dominujący wariant w&nbsp;USA, gdzie taki rodzaj GMO stanowi [ponad 90&nbsp;procent](https://www.ers.usda.gov/webdocs/DataFiles/47649/BiotechCropsAllTables2022.xlsx?v=8928.3) wszystkich upraw kukurydzy i&nbsp;bawełny.
 
-OK, znamy trzy rodzaje. Ale jak z&nbsp;ich procentowym udziałem, jak bardzo świat jest zależny od upraw GMO? W&nbsp;tym miejscu przedstawiam wykres. Można się zdziwić.
+OK, znamy trzy rodzaje modyfikacji. Ale jakie rośliny mogą je mieć, jak bardzo nasza żywność jest zależna od upraw GMO? W&nbsp;tym miejscu przedstawiam wykres. Można się zdziwić.
 
 {:.figure .bigspace}
 <img src="/assets/posts/monsanto/gmo-procent-upraw.jpg" alt="Wykres kołowy pokazujący udział różnych roślin GMO na świecie."/>
 
 {:.figcaption}
-Źródło: Raport ISAAA (organizacja pro-GMO).
+Procentowy udział różnych roślin wśród wszystkich upraw GMO.  
+Źródło: [Raport ISAAA](https://www.isaaa.org/resources/publications/briefs/54/infographics/default.asp) (organizacja pro-GMO) dla 2018&nbsp;roku.
 
 Spośród tych roślin:
 
