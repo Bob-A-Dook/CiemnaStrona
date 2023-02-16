@@ -77,7 +77,7 @@ Załóżmy na chwilę, że faktycznie ma miejsce słuchanie naszych rozmów. Ale
 
 Czy nagrywanie w&nbsp;takiej sytuacji jest w&nbsp;ogóle możliwe?
 
-Żeby osobiście przetestować mikrofon na swoim telefonie (Huawei, system Android 10), skorzystałem z&nbsp;niezrównanej aplikacji Termux wraz z&nbsp;rozszerzeniem *Termux:API* (więcej o&nbsp;jej instalacji możecie poczytać [w osobnym samouczku](/tutorials/termux#instalujemy-termuksa){:.internal}.
+Żeby osobiście przetestować mikrofon na swoim telefonie (Huawei, system Android 10), skorzystałem z&nbsp;niezrównanej aplikacji Termux wraz z&nbsp;rozszerzeniem *Termux:API* (więcej o&nbsp;jej instalacji możecie poczytać [w osobnym samouczku](/tutorials/termux#instalujemy-termuksa){:.internal}).
 
 Następnie użyłem komendy pozwalającej nagrywać dźwięk prosto do pliku -- `termux-microphone-record -f mictest` ([dokładniejszy opis](https://wiki.termux.com/wiki/Termux-microphone-record)).  
 Po włączeniu nagrywania:
@@ -90,7 +90,7 @@ Po włączeniu nagrywania:
 * otwarłem Termuksa i&nbsp;przerwałem nagrywanie  
   (komendą `termux-microphone-record -q`).
 
-Zajrzałem do otrzymanego pliku. Po cichu miałem nadzieję, że na którymś z etapów przestało nagrywać. Ale nie, nagrały się wszystkie moje wypowiedzi. Również ta przy wyłączonym i&nbsp;zablokowanym ekranie.  
+Zajrzałem do otrzymanego pliku. Po cichu miałem nadzieję, że na którymś z&nbsp;etapów przestało nagrywać. Ale nie, nagrały się wszystkie moje wypowiedzi. Również ta przy wyłączonym i&nbsp;zablokowanym ekranie.  
 Niestety potwierdził się najbardziej niekorzystny wariant -- **aplikacje jak najbardziej mogą słuchać, również z&nbsp;wnętrza naszej kieszeni**. Skoro Termux może, to inne też.
 
 Jest całkiem możliwe, że takie nagrywanie może trwać tylko przez pewien czas; że gdybym poczekał dłużej po zablokowaniu ekranu, to by je samoistnie przerwało. Gdzieś mi mignęła informacja, że apka jest w&nbsp;stanie jedynie *kontynuować* nagrywanie w&nbsp;tle, ale nie jest w&nbsp;stanie go *włączyć* w&nbsp;tym trybie. 
@@ -188,7 +188,7 @@ Jeśli jesteśmy szeregowymi użytkownikami, to nie sięgamy zwykle poniżej war
 Takie osoby mogłyby podporządkować sobie niższe warstwy telefonu. Umieścić tam cyfrowe odpowiedniki czujników.  
 „Informuj mnie za każdym razem, kiedy nastąpi przepływ danych między apką a&nbsp;mikrofonem”.
 
-Aplikacje nie miałyby pojęcia o&nbsp;istnieniu tego rodzaju czujników -- bo są w&nbsp;wyższych warstwach. Nawet jeśli zapytają dolne warstwy, to te po prostu mogą je okłamać bez konsekwencji. „Niee, nikt nie patrzy, co tam robisz z&nbsp;mikrofonem”.
+Aplikacje nie miałyby pojęcia o&nbsp;istnieniu tego rodzaju czujników -- bo są w&nbsp;wyższych warstwach. Nawet jeśli zapytają dolne warstwy, to te po prostu mogą je okłamać bez konsekwencji. „Niee, nikt nie patrzy, co tam robisz z&nbsp;mikrofonem. *Trust me, bro*”.
 
 {% include info.html
 type="Ciekawostka"
@@ -355,6 +355,8 @@ Ale Facebook, patrząc w&nbsp;skali świata, widzi wiele osób takich jak my -- 
 Jako ludzie jesteśmy po prostu przewidywalni. Wiem że to trudne do zaakceptowania. Ale niestety bardziej prawdopodobne niż działanie złego mikrofonu :wink: 
 
 ## Jak się chronić
+
+Wyżej rozpisałem się o&nbsp;tym, że giganci raczej nas nie podsłuchują, bo im się to nie opłaca. Ale na świecie jest wielu drobniejszych graczy, poza tym opłacalność może się zmieniać. Tak czy siak warto się chronić.
 
 Pierwsze, proste rozwiązanie dla Androida -- **wyłączmy dostęp do mikrofonu wszystkim apkom**. Może nawet systemowym, jak aparat/kamera. Kiedy mikrofon będzie potrzebny, to po prostu udzielimy apce zgody. Pamiętając, żeby ją wycofać, kiedy już zrobimy swoje.
 
