@@ -151,7 +151,7 @@ Najprostszą metodą, żeby to sprawdzić, jest **najechanie kursorem na link i&
 
 Kiedy już wiemy, czy mamy do czynienia z&nbsp;podmienionym linkiem, możemy go przechytrzyć.
 
-# Kopiowanie tekstu
+### Kopiowanie tekstu
 
 Jeśli widzimy pełen adres strony w&nbsp;formie tekstu, ale ukryty pod nim link prowadzi w&nbsp;inne miejsce, to możemy, zamiast klikać link, **po prostu skopiować tekst i&nbsp;wkleić go w&nbsp;pasek przeglądarki**. W&nbsp;ten sposób przejdziemy prosto na tę stronkę, na którą chcieliśmy. Bez pośredników.
 
@@ -168,7 +168,7 @@ Ale jeśli klikniemy, to stronka A&nbsp;się dowie, że to zrobiliśmy.
 
 I tak źle, i&nbsp;tak niedobrze. Czy jest jakieś rozwiązanie?
 
-# GetLinkInfo
+### GetLinkInfo
 
 Otóż jest -- ale wymaga odrobiny spychologii. **Jeśli ktoś musi w&nbsp;ten link wejść, to niech to będzie ktoś inny**. Na przykład [strona GetLinkInfo.com](https://www.getlinkinfo.com).
 
@@ -183,7 +183,26 @@ Teraz wystarczy tylko w&nbsp;niego kliknąć... Albo go skopiować i&nbsp;wklei�
 
 Metoda jest uniwersalna i&nbsp;powinna skutecznie działać, kiedy musimy wejść w&nbsp;nieznane, skrócone linki. Warto dodać GetLinkInfo gdzieś do zakładek.
 
-# Dodatek Universal Bypass
+### Alternatywne strony
+
+{:.post-meta .bigspace-after}
+Dodano 16.02.2023 r.
+
+W internecie znajdziemy stronki działające jak pośrednicy -- pobierają zawartość większych portali, a następnie nam ją wyświetlają. Czasem dodają przy tym pewne udogodnienia.
+
+W tym wpisie było sporo o&nbsp;Twitterze, więc wspomnę o&nbsp;alternatywie dla niego. Nazywa się **Nitter** -- to nie tyle strona, co cały zestaw narzędzi pozwalających powielać u&nbsp;siebie Twittera. Najbardziej znaną opartą na nim stroną (*instancją*) jest [*nitter.net*](https://nitter.net/). 
+
+Kiedy z niego korzystamy, wszystkie **linki przekierowujące _t.co_ są zamienione na linki do oryginalnych źródeł**.
+
+{% include info.html
+type="Uwaga"
+text="Nie zawsze rozwiązuje to całkiem sprawę przekierowań. Czasami ludzie korzystają najpierw z własnej skracarki, zmieniając na przykład link `stronka.pl` na `bit.ly/1234`. A po wrzuceniu na Twittera ten link zmieni się w jakieś `t.co/6789`.  
+Nitter rozwinie nam skrócenie od Twittera, ale z&nbsp;tym pierwotnym musimy poradzić sobie sami."
+%}
+
+Niestety stronki takie jak Nitter są zapewne solą w&nbsp;oku większych portali. Ostatnio stronka *nitter.net* wydaje się coraz częściej blokowana i&nbsp;nie pokazuje niektórych twittów. Sprawniej działa mi [*nitter.cz*](https://nitter.cz/). A&nbsp;obszerną listę innych alternatyw znajdziemy [tutaj](https://github.com/zedeus/nitter/wiki/Instances).
+
+### Dodatek Universal Bypass
 
 **(Dodano 8.04.2021 r.)**
 
