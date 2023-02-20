@@ -164,7 +164,10 @@ Jeśli potraktujemy *ZgłośTrolla* i&nbsp;jej autorów jak zaplecze analityczne
 2. Większa jawność działań.  
   
    Brand24 deklaruje, że przekazuje zweryfikowane trolle do NASK, czyli rządowej organizacji zajmującej się cyberprzestrzenią.
-  I&nbsp;to działa. NASK prowadzi [publicznie dostępną listę trollkont](https://www.nask.pl/pl/wlaczweryfikacje/4413,WlaczWeryfikacje.html), na której jest już kilkaset profili.
+  I&nbsp;to działa. NASK prowadzi [publicznie dostępną listę trollkont](https://web.archive.org/web/20220228184445/https://www.nask.pl/pl/wlaczweryfikacje/4413,WlaczWeryfikacje.html), na której jest już kilkaset profili.
+
+   {:.post-meta .bigspace-after}
+   **Aktualizacja z lutego 2023**: Z&nbsp;jakiegoś powodu usunęli listę, ale internet nie zapomina! Wciąż ją znajdziemy w&nbsp;Internet Archive, link wyżej zaktualizowałem. Dziękuję wnikliwemu Czytelnikowi za informację.
 
 Zgłaszając trolle przez stronkę, nadal nie mamy 100% wglądu w&nbsp;działanie właścicieli. Ale i&nbsp;tak mamy sporo w&nbsp;porównaniu z&nbsp;nieprzeniknionym Twitterem czy Facebookiem.
 
