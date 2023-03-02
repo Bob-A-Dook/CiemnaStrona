@@ -8,6 +8,11 @@ Oto instrukcja pracy z&nbsp;moim skryptem, dodanym jako bonus do wpisu [„Faceb
 Jeśli znajdzie przykłady komentarzy ukrytych, to zapisuje porównanie w&nbsp;czytelnej formie do pliku.
 
 {% include info.html
+type="Aktualizacja 2023"
+text="W 2023 roku Facebook zmienił domyślny sposób wyświetlania komentarzy; pojawiają się teraz wewnątrz elementu nad resztą strony. Dopasowałem do zmian mój skrypt i&nbsp;dodatek, ale upewnijcie się, że korzystacie z&nbsp;ich najnowszych wersji. Linki poniżej."
+%}
+
+{% include info.html
 type="Słabości skryptu"
 text="Skrypt jest prowizorką do użytku własnego, ma na razie sporo ograniczeń.  
 Przede wszystkim **wymaga, żebyśmy odwiedzali stronę Facebooka przez przeglądarkę** i&nbsp;to stamtąd kopiowali posty. Musimy też **korzystać z&nbsp;polskiej lub angielskiej wersji** (bo skrypt znajduje niektóre rzeczy po tekście, zależnym od języka).  

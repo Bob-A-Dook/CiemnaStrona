@@ -48,8 +48,7 @@ I uprzedzam: w&nbsp;tej historii nie ma bohaterów.
   * [Zarzut o&nbsp;użycie gumki](#zarzut-oużycie-gumki)
   * [Ciemna strona Edsona](#ciemna-strona-edsona)
 * [Moja subiektywna interpretacja](#moja-subiektywna-interpretacja)
-* [Kwestia rosyjska?](#kwestia-rosyjska)
-* [Powiązania z&nbsp;poprzednimi wpisami](#powiązania-zpoprzednimi-wpisami)
+* [Korporacyjne żywe tarcze](#korporacyjne-żywe-tarcze)
 
 
 ## Garść informacji

@@ -178,7 +178,7 @@ Przypomnę tutaj piramidkę obrazującą warstwy naszego urządzenia, stworzoną
 <img src="/assets/posts/apki/mikrofony/apki_piramida_mikrofony.jpg" alt="Schemat pokazujący hierarchię we współczesnym urządzeniu. Ma kształt odwróconej piramidy. Na samym dole mamy ikonę procesora podpisaną CPU. Odchodzą od niej strzałki do ikonki symbolizującej mikrofon. Cała warstwa jest podpisana 'hardware'. Nad nią w&nbsp;piramidzie mamy kolejno: 'firmware', 'jądro systemu' oraz 'system operacyjny'. Na tej warstwie stoi mniejszy element, podpisany 'Programy' i&nbsp;opatrzony ikoną aplikacji Messenger."/>
 
 {:.figcaption}
-Źródło: Flaticon, Emojipedia, Wikimedia Commons (szczegóły [pod koniec wpisu](#źródła)).  
+Źródło: Flaticon, Emojipedia, Wikimedia Commons (szczegóły [pod koniec wpisu](#źródła-obrazków)).  
 Aranżacja i&nbsp;przeróbki moje. Przypominam: pojęcie jądra systemu luźne, nie do końca odpowiada formalnej definicji.
 
 Rzeczy położone wyżej są w&nbsp;pełni zależne od tych położonych niżej.

@@ -258,7 +258,6 @@ def get_comments( html ):
     if not coms:
         warn = 'Nie znaleziono żadnych komentarzy!'
         warning( warn )
-    else: print(f'\n[OK]\nUzyskano komentarze! Ich liczba: {len(coms)}\n')
 
     coms = [ FbComment(c) for c in coms ]
     return coms
@@ -595,7 +594,9 @@ def _get_comment_number( post ):
             if res: return int( res.group(1) )
 
     if not com_num:
-        warning('[BRAK] Nie ustalono liczby komentarzy pod postem')
+        warning('[BRAK] Nie znaleziono informacji o łącznej liczbie '
+                'komentarzy pod postem. Skrypt nie sprawdzi po pierwszym '
+                'rozwinięciu, czy są jakieś ukryte albo usunięte')
     return com_num
 
 
@@ -631,7 +632,7 @@ class FacebookPost:
     mode = None
 
     def __init__(self, html_post, comments ):
-            
+        
         data = _get_post_data( html_post )
         all_comment_num = _get_comment_number( html_post )
         display_mode = _get_display_mode( html_post )
@@ -714,23 +715,34 @@ def _is_same_post( post1, post2 ):
 ###########################
 
 def _display_greeting():
-    show('Witaj w programie ComDiff!\n'
-         'Pozwoli Ci oznaczyć komentarze pod postami, które Facebook '
-         'ukrył w trybie domyślnym.')
-
-    _display_help()
+    show('=== WITAJ W PROGRAMIE COMDIFF! ===\n\n'
+         'Pozwoli Ci ustalić, jakie komentarze Facebook ukrył w trybie '
+         'domyślnym, a następnie oznaczy je w osobnym pliku.\n\n'
+         'Aby wyświetlić instrukcję i listę skrótów klawiszowych, naciśnij '
+         'H i Enter')
           
     show('[WAŻNE] Program działa tylko na stronie Facebooka w polskiej '
          'i angielskiej wersji językowej.')
 
 
 def _display_help():
+
+    show('INSTRUKCJA:\n'
+         'Znajdź na Facebooku posta, pod którym są komentarze. Wejdź w '
+         'narzędzia przeglądarki (np. prawy przycisk myszy i "Zbadaj"), '
+         'jedź kursorem po kodzie HTML aż podświetli się cały post. Wtedy '
+         'kliknij kod prawym przyciskiem i wybierz "Kopiuj zewnętrzny HTML". '
+         'Następnie wróć do konsoli z tym programem i naciśnij Enter.\n\n'
+         'Pełna instrukcja:\n'
+         'https://www.ciemnastrona.com.pl/tutorials/comment-diff')
+    
     show('SKRÓTY KLAWISZOWE:\n'
-         'H - przypomnienie skrótów klawiszowych\n'
+         'H - wyświetlenie instrukcji i skrótów klawiszowych\n'
          'Q - wyjście z programu.\n'
          'Z - powrót do poprzedniego etapu.\n'
          'F - porównanie dwóch zapisanych plików HTML z aktywnego '
-          'folderu zamiast ze schowka.')
+          'folderu zamiast ze schowka.\n\n'
+         '(w innych przypadkach wystarczy nacisnąć Enter)')
 
 
 def _show_no_clip_access_error():
@@ -745,7 +757,7 @@ def _prompt_for_input( post1, post2 ):
     posts have been analyzed by the script.
     '''    
     if not post1:
-        show('[1] Skopiuj do schowka źródło HTML jakiegoś posta '
+        show('[KROK 1] Skopiuj do schowka źródło HTML jakiegoś posta '
               'z Facebooka i naciśnij Enter.')
     else:
         other_post_mode = 'Wszystkie komentarze'
@@ -753,7 +765,7 @@ def _prompt_for_input( post1, post2 ):
             if post1.mode == 'Wszystkie':
                 other_post_mode = 'Najtrafniejsze'
                   
-        show(f'[2] Teraz wybierz opcję "{other_post_mode}" pod tym '
+        show(f'[KROK 2] Teraz wybierz opcję "{other_post_mode}" pod tym '
               'samym postem, skopiuj jego kod HTML i naciśnij Enter.')
         
     inp = input('> ')
@@ -834,7 +846,7 @@ def _get_facebook_post( clip_text, post1 ):
         comments = get_comments( post )
         if comments: post_info = (post, comments)
 
-    if 'aria-posinset' in html.attrs:
+    if not post_info and 'aria-posinset' in html.attrs:
         post = html
         comments = get_comments( post )
         if comments: post_info = (post, comments)
@@ -846,7 +858,8 @@ def _get_facebook_post( clip_text, post1 ):
         post_info = __search_for_post( html, 'div', attrs={'role': 'dialog'})
 
     if not post_info:
-        post_info = __search_for_post( html, True, attrs={'aria-posinset': True} )
+        post_info = __search_for_post( html, True,
+                                       attrs={'aria-posinset': True} )
 
     if not post_info:
         if ('role' in html.attrs and html.attrs['role'] == 'article'):
@@ -857,14 +870,20 @@ def _get_facebook_post( clip_text, post1 ):
     if not post_info:
         post = html
         comments = get_comments( post )
-        warning('[UWAGA]\nPrzeszukano kod HTML na kilka sposobów, ale nie '
-                'udało się znaleźć posta z komentarzami. '
+        warning('[BŁĄD]\nSkrypt przeszukał kod HTML na kilka sposobów, ale '
+                'nie znalazł posta z komentarzami. '
                 'Facebook mógł zmienić format postów na stronie.\n'
-                'Dla pewności sprawdź, czy kopiujesz cały element '
-                'zawierający post, a nie tylko pojedyncze komentarze.\n'
-                'Możesz np. skopiować post przez narzędzia przeglądarki')
+                'Upewnij się, że kopiujesz źródło posta przez narzędzia '
+                'przeglądarki (szczegóły w instrukcji; naciśnij H i Enter, '
+                'żeby ją wyświetlić)\n'
+                '[BŁĄD]')
+        return
+        # if comments: parse_coms_only #TODO
 
     post, comments = post_info
+    if comments:
+        print(f'\n[OK]\nUzyskano komentarze! Ich liczba: {len(comments)}\n')
+        
     return FacebookPost( post, comments )
     
 

@@ -39,7 +39,7 @@ Jeśli wolisz sprawy analityczno-cyfrowe, to zapraszam do ostatniego, [czwartego
 * [Poznajmy giganta](#poznajmy-giganta)
 * [Posilac](#posilac)
 * [Roundup](#roundup)
-* [Walka z&nbsp;IARC](#walka-z-iarc)
+* [Walka z&nbsp;IARC](#walka-ziarc)
 * [Przypadek Hawajów](#przypadek-hawajów)
 * [Epilog](#epilog)
 * [Źródło obrazków](#źródło-obrazków)
@@ -295,13 +295,13 @@ Nakazano im przekazanie wszystkich plików związanych z&nbsp;ich pracami nad *M
 
 A mówimy tu o&nbsp;Europie, która -- przynajmniej oficjalnie -- jednak nie jest własnością USA. Naukowcy amerykańscy, dzielący z&nbsp;Monsanto kraj, mieli gorzej. Amerykańscy prawnicy, powołując się na *FOIA* -- prawo dostępu do informacji publicznej -- obeszli samych naukowców i&nbsp;zażądali dokumentów dotyczących IARC wprost od ich uczelni.
 
-Samo prawo dostępu to akurat pozytywna sprawa. Korzystały z&nbsp;niego również osoby, które ujawniły aferę Monsanto Papers. Za parę wpisów zobaczymy natomiast, że w&nbsp;innym przypadku, kiedy użyto go do z&nbsp;kolei do ujawnienia utajonych lobbystów Monsanto, ich współpracownicy nazywali tę metodę zastraszaniem naukowców. „Gdy Kali ukraść...”.
+Samo prawo dostępu to akurat pozytywna sprawa. Korzystały z&nbsp;niego również osoby, które ujawniły aferę Monsanto Papers. Za parę wpisów zobaczymy natomiast, że w&nbsp;innym przypadku, kiedy użyto go z&nbsp;kolei do ujawnienia utajonych lobbystów Monsanto, ich współpracownicy nazywali tę metodę zastraszaniem naukowców. „Gdy Kali ukraść...”.
 
 ### Front polityczny
 
 Werdykt IARC przyniósł dość ciekawy łańcuch przyczynowo-skutkowy. Zainspirował ludzi do walki w&nbsp;sądach. Podczas procesów światło dzienne ujrzały wewnętrzne dokumenty, *Monsanto Papers*. A&nbsp;niektóre znalezione w&nbsp;nich fakty (między innymi maile o&nbsp;celowym unikaniu badań długoterminowych) skłoniły Parlament Europejski do [wezwania Monsanto na przesłuchanie](https://www.euractiv.com/section/agriculture-food/news/monsanto-lobbyists-barred-from-european-parliament/).
 
-Koncern odmówił. Niezbyt dyplomatycznie. Stwierdzili, że Parlament „nie jest odpowiednim miejscem na omawianie tych kwestii”. Parlament się wkurzył. W&nbsp;efekcie **Monsanto zostało pierwszą firmą w&nbsp;historii, która straciło prawo reprezentowania swoich interesów w&nbsp;Parlamencie Europejskim**.
+Koncern odmówił. Niezbyt dyplomatycznie. Stwierdzili, że Parlament „nie jest odpowiednim miejscem na omawianie tych kwestii”. Parlament się wkurzył. W&nbsp;efekcie **Monsanto zostało pierwszą firmą w&nbsp;historii, która straciła prawo reprezentowania swoich interesów w&nbsp;Parlamencie Europejskim**.
 
 W USA mieli nieco lepiej. Poprosili o&nbsp;pomoc pewnego kongresmena. A&nbsp;ten skorzystał ze swoich przywilejów i&nbsp;zwrócił się do amerykańskiej agencji NIH (*National Institute of Health*). Twierdził publicznie, że powinna uciąć dotychczasowe finansowanie dla IARC. „Bo nie działają w&nbsp;interesie USA”.
 
