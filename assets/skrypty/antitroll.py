@@ -1,6 +1,6 @@
 '''
 ! This is a Polish version of the script. Only the code is in English,
-  but all messages are in Polish.
+  but all messages and instructions are in Polish.
 
 Skrypt ułatwiający walkę z trollami szerzącymi dezinformację.
 Można mu wrzucać linki do podejrzanych postów/komentarzy z Facebooka,
@@ -209,6 +209,10 @@ def _get_link_from_html( html:str ):
             if not com_id: com_id = __find( 'posts/([0-9]+)', link )
             if com_id:
                 chosen_link = link
+
+            # Adapted to the new "pfbid" link format from late 2022
+            if not com_id and 'pfbid' in link:
+                chosen_link = link
             
         elif 'nitter.net' in link:
             if link.endswith('#m'): chosen_link = link
@@ -356,12 +360,13 @@ def _clean_link( link ):
     try: u = urlparse( link )
     except Exception: u = link, link = link.geturl()
     
-    if not all( (u.scheme, u.netloc, u.path) ):
-        if len(link) > 200: link = link[:200] + '...'
-        error(f'\n("{link}")\n\n^ Ten tekst nie jest poprawnym linkiem '
+    if not all( (u.scheme, u.netloc, u.path) ): # Bad link, warn & quit
+        if len(link) > 200: linktext = link[:200] + '...'
+        else: linktext = link
+        error(f'\n("{linktext}")\n\n^ Ten tekst nie jest poprawnym linkiem '
               'ani fragmentem strony!\n'
               'Przykład dobrego linku: https://www.facebook.com/stronka\n')
-        link = ''
+        return ''
     
     NITTER, TWITTER, FACEBOOK = SUPPORTED_DOMAINS
 
