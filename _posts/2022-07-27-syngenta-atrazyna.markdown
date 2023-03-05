@@ -234,7 +234,7 @@ Inną gazetą, z&nbsp;którą Syngenta miała na pieńku, był Huffington Post.
 Wśród ujawnionych dokumentów mamy [maila](https://www.sourcewatch.org/images/d/d5/Syn_Ivory_Dossier_and_NRC_PANNA_Tides_all.pdf), w którym podwykonawca dzieli się informacjami, jakie wygrzebał o&nbsp;dziennikarce prowadzącej sprawę Syngenty.  
 Wśród nich: biogram, kariera, zainteresowania, możliwe źródło finansowania (Fundacja Tides). Wzmianka o&nbsp;tym, że jej reportaże sprawiły kiedyś, że jakiś ubezpieczyciel nie wywinął się z&nbsp;pokrycia kosztów protezy 12-letniego chłopca.
   
-W&nbsp;mailach [dyskutowali też](www.sourcewatch.org/images/b/b8/Syn_email_Need_Someone_at_HuffPo.pdf) o&nbsp;tym, czy znalazłby się w&nbsp;redakcji jakiś zaufany człowiek, dzięki któremu „przestaliby obrywać od wszystkich na garnuszku tej gazety”.  
+W&nbsp;mailach [dyskutowali też](https://www.sourcewatch.org/images/b/b8/Syn_email_Need_Someone_at_HuffPo.pdf) o&nbsp;tym, czy znalazłby się w&nbsp;redakcji jakiś zaufany człowiek, dzięki któremu „przestaliby obrywać od wszystkich na garnuszku tej gazety”.  
 Poboczna ciekawostka: mail zawiera przekazane powiadomienie od Google News. Zapewne używali ich narzędzia do monitorowania wystąpień słowa *atrazine*.
 
 Gretchen Goldman z&nbsp;organizacji *Center for Science and Democracy* zrobiła małe [zestawienie](https://web.archive.org/web/20220109125959/https://blog.ucsusa.org/gretchen-goldman/interference-in-the-science-of-atrazine-again-160/) pokazujące podobieństwa między działaniami Syngenty a&nbsp;metodami branży tytoniowej.

@@ -442,7 +442,7 @@ text="The GMO pimp knows that the retail versions of roundup that was offered co
 %}
 
 {:.figcaption}
-[Link](www.youtube.com/watch?v=XDFA5qUzamg&lc=UgwTg4zlp70L5yXAHsB4AaABAg.8mUiQvZSCzG8rdZ1vmgMh1).
+[Link](https://www.youtube.com/watch?v=XDFA5qUzamg&lc=UgwTg4zlp70L5yXAHsB4AaABAg.8mUiQvZSCzG8rdZ1vmgMh1).
 
 Po prostu w&nbsp;dyskusjach nie przywołują tego faktu, nie dzielą się zbytnio posiadaną wiedzą. Trzymają się samego glifosatu.
 
@@ -775,7 +775,7 @@ Przykład osób, jakie brali na cel? Na przykład [młoda skautka](https://www.r
 
 Jedna z&nbsp;popularyzatorek nauki, Kasia Gandor, stworzyła serię filmów na temat pestycydów i&nbsp;GMO. Nie mam do nich większych zastrzeżeń, bo pokazywały różne punkty widzenia, nawet te rzadko poruszane, dotyczące monopolizacji (choć kwestie bezpieczeństwa nadal niestety dominowały).
 
-Natomiast ciekawą sprawą jest fakt, że [jeden z&nbsp;jej filmów skomentował Popeye](www.youtube.com/watch?v=sYD5LZAn0iY&lc=UgyEp13ziA36Cg7WJMd4AaABAg):
+Natomiast ciekawą sprawą jest fakt, że [jeden z&nbsp;jej filmów skomentował Popeye](https://www.youtube.com/watch?v=sYD5LZAn0iY&lc=UgyEp13ziA36Cg7WJMd4AaABAg):
 
 {:.bigspace}
 {% include comment.html
@@ -787,7 +787,7 @@ text="(...) How dishonest can you get? The Seralini quack has been completely de
 Wszystko wskazuje na to, że nie próbował przetłumaczyć treści, a&nbsp;jedynie zobaczył miniaturki ze szczurami mającymi wielkie guzy. I&nbsp;uderzył. Niesłusznie, bo zdjęcia pochodziły z&nbsp;badania, z&nbsp;którym autorka akurat polemizowała.  
 W komentarzu zostawił też pięć linków -- do stron Genetic Literacy Project, Alliance for Science, Bioscription, GMO Info oraz Science Based Medicine.
 
-Innym bardzo ciekawym przykładem jest [filmik „Jak (i po co) robi się GMO?”](https://www.youtube.com/watch?v=LV_BdSKSFyo) na kanale *Uwaga! Naukowy Bełkot*. I&nbsp;nie chodzi o&nbsp;sam filmik -- jak wielu innych popularyzatorów, autor trzyma się kwestii bezpieczeństwa i&nbsp;nie znajduje nic niebezpiecznego. Nie mówi o&nbsp;aferkach. *Nihil novi*. Ciekawsze są dla mnie natomiast komentarze.
+Innym bardzo ciekawym przykładem jest [filmik „Jak (i po co) robi się GMO?”](https://www.youtube.com/watch?v=ZEZRfUqMOGQ) na kanale *Uwaga! Naukowy Bełkot*. I&nbsp;nie chodzi o&nbsp;sam filmik -- jak wielu innych popularyzatorów, autor trzyma się kwestii bezpieczeństwa i&nbsp;nie znajduje nic niebezpiecznego. Nie mówi o&nbsp;aferkach. *Nihil novi*. Ciekawsze są dla mnie natomiast komentarze.
 
 W jednym z&nbsp;nich autor filmu sam **wspomina, że nie miałby nic przeciwko oznaczaniu produktów GMO. I&nbsp;zostaje skontrowany**. Przez tajemniczą osobę o&nbsp;nicku zaczynającym się od Uyop:
 

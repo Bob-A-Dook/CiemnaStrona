@@ -326,13 +326,13 @@ Kiedy odpalimy skrypt, powstanie nam folder `pdfs`, a&nbsp;w nim wyciągnięte p
 
 Dobrą stroną skryptu jest to, że korzysta z&nbsp;najprostszych funkcji i&nbsp;**nie potrzebuje do działania niczego poza domyślnym Pythonem**.
 
-Gdybyśmy, zamiast przenosić skrypt między folderami, woleli raz go odłożyć w&nbsp;jakieś osobne miejsce i&nbsp;tylko go „przywoływać” w&nbsp;różnych folderach, to zapraszam do mojego [samouczka]({{site.url}}/tutorials/python-extended){:.internal} na temat uprzyjemniania sobie pracy z&nbsp;Pythonem.
+Gdybyśmy, zamiast przenosić skrypt między folderami, woleli raz go odłożyć w&nbsp;jakieś osobne miejsce i&nbsp;tylko go „przywoływać” w&nbsp;różnych folderach, to zapraszam do mojego [samouczka](/tutorials/python-extended){:.internal} na temat uprzyjemniania sobie pracy z&nbsp;Pythonem.
 
 # Skrypt do tworzenia wykresów
 
 To ten ważniejszy z&nbsp;dwóch skryptów. Pobierzcie go <a href="/assets/skrypty/krs_visualizer.py" download>stąd</a>{:.internal}.
 
-Jeszcze nieraz go użyję w&nbsp;ramach tej serii, więc wydzieliłem instrukcje korzystania z&nbsp;niego do [osobnego samouczka]({{site.url}}/tutorials/krs-wykresy){:.internal}.
+Jeszcze nieraz go użyję w&nbsp;ramach tej serii, więc wydzieliłem instrukcje korzystania z&nbsp;niego do [osobnego samouczka](/tutorials/krs-wykresy){:.internal}.
 
 ## Dalsze kroki
 

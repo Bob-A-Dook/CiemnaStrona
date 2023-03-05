@@ -48,7 +48,7 @@ Chcąc je zweryfikować, wyszukałem jego pierwszy człon, *[kochajmy się jak b
 
 ## Jak pobrać swoje dane od Fejsika
 
-Przejdźmy do rzeczy. Wchodzimy [na stronę główną Facebooka](facebook.com). Jeśli nie jesteśmy zalogowani, to się logujemy.
+Przejdźmy do rzeczy. Wchodzimy [na stronę główną Facebooka](https://facebook.com). Jeśli nie jesteśmy zalogowani, to się logujemy.
 
 Klikamy **strzałkę w&nbsp;górnym prawym rogu**, żeby wyświetlić informacje o&nbsp;koncie:
 
