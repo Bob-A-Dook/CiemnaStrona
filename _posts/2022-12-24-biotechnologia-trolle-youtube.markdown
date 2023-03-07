@@ -82,7 +82,9 @@ type="Ciekawostka"
 text="W komentarzach można też znaleźć nawiązania do innego konta, o&nbsp;mało mówiącej nazwie zaczynającej się od *dnc*. Wiele jego komentarzy zostało usuniętych i&nbsp;pozostało ich w&nbsp;moim zbiorze tylko 5. Jest za to całkiem sporo kierowanych do niego odpowiedzi zwykłych użytkowników. Patrząc po tych odpowiedziach, konto tworzyło bardzo podobne treści jak reszta."
 %}
 
-Stworzone przeze mnie pliki, w&nbsp;tym listę wszystkich komentarzy, linki oraz wykresy, znajdziecie w&nbsp;[osobnym repozytorium](https://github.com/Bob-A-Dook/Youtube_Biotech_Comments). Na razie nie ma tam skryptu, którym to stworzyłem, bo jest nieco zbyt mocno przystosowany do innych moich programików. Ale obiecuję go uogólnić i&nbsp;dodać.
+Stworzone przeze mnie pliki, w&nbsp;tym listę wszystkich komentarzy, linki oraz wykresy, znajdziecie w&nbsp;[osobnym repozytorium](https://github.com/Bob-A-Dook/Youtube_Biotech_Comments).
+
+**Aktualizacja**: od marca 2023&nbsp;roku w&nbsp;repozytorium jest również skrypt Pythona, ktorego użyłem do swoich analiz. Zapraszam do weryfikowania wyników, albo i&nbsp;wyłapywania innych nietypowych kont :smile:
 
 ### Linki do stron
 
