@@ -83,6 +83,8 @@ DEFAULT_CACHE_LOCATIONS = {
         'Chromium': '~/.cache/chromium/Default/Cache',
         'Opera': '~/.cache/opera/Cache',
         'Vivaldi': '~/.cache/vivaldi/Default/Cache'
+        'Brave': ('~/.cache/BraveSoftware/Brave-Browser/Default/Cache'
+                  '/Cache_Data')
         },
     
     'Windows':{
@@ -294,6 +296,7 @@ BROWSER_TO_CONTAINER = {
     'Chromium': ChromeCacheEntry,
     'Opera': ChromeCacheEntry,
     'Vivaldi': ChromeCacheEntry,
+    'Brave': ChromeCacheEntry
     #'Edge': ChromeCacheEntry # Currently not working!
     }
 
@@ -398,7 +401,7 @@ def switch_to_interactive_mode( all_entries ):
     # Otherwise, show a list of options
     print('\n[UWAGA] Skrypt został wywołany przez konsolę. Jest lepiej '
           'przystosowany do pracy w trybie interaktywnym\n'
-          '(czyli np. po uruchomieniu w IDLE albo wywołaniu przez wpisanie'
+          '(czyli np. po uruchomieniu w IDLE albo wywołaniu przez wpisanie\n'
           f'`python -i {__file__}`)\n\n'
           'Twoje opcje (wpisz liczbę i potwierdź Enterem):\n')
 
