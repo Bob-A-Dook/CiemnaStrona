@@ -267,7 +267,8 @@ Przyjmijmy tezę, że trójca z&nbsp;YouTube'a promuje określoną narrację. Za
 
 ### „Monsanto już nie ma”
 
-Czasami nasza trójca twierdzi, że przejęcie Monsanto przez Bayera oznacza, że tej firmy już nie ma, więc wszelkie zarzuty wobec niej są bezsensowne. Zwrot `does not exist` pojawia się w&nbsp;komentarzach 69&nbsp;(*hehe*) razy.
+Czasami nasza trójca twierdzi, że przejęcie Monsanto przez Bayera oznacza, że tej firmy już nie ma, więc wszelkie zarzuty wobec niej są bezsensowne.  
+Zwrot `shut down`, związany praktycznie tylko z&nbsp;ich rzekomym zamknięciem, występuje w&nbsp;komentarzach 80&nbsp;razy. Inny, `does not exist` pojawia się w&nbsp;nich 64&nbsp;razy (bardzo komputerowa liczba!).
 
 {% include comment.html
 author="Duke"
@@ -359,9 +360,9 @@ Jakieś statystyki, żeby nie było tak anegdotycznie?
 
 * Ciąg znaków *ignoran* (jak w&nbsp;*ignorance* i&nbsp;pokrewnych słowach) pojawia się aż 350&nbsp;razy.
 * Słowo *asshole* w&nbsp;moim zbiorze pojawiło się 145 razy.
-* Słowo *nonsense* 46&nbsp;razy.
-* *Bullshit* 42&nbsp;razy.
-* Słowo *garbage* 50&nbsp;razy. 
+* Słowo *nonsense* 41&nbsp;razy.
+* *Bullshit* 43&nbsp;razy.
+* Słowo *garbage* 48&nbsp;razy. 
 
 To nie koniec wyczynów Popeye'a. Innym razem szydzi z&nbsp;rozmówcy, pisząc że każdy rodzaj chemii może go zabić. Również monotlenek diwodoru, czyli woda. A&nbsp;jeszcze innym razem -- obchodzi blokadę linków, podrzucając tradycyjnie Genetic Literacy Project.
 
@@ -452,7 +453,7 @@ Po prostu w&nbsp;dyskusjach nie przywołują tego faktu, nie dzielą się zbytni
 
 Cała trójca, poza swoją agresją, cechuje się również tym, że spamuje słowem *science*. *Nauka*. Jest nią to, co stoi po ich stronie, natomiast osoby mające wątpliwości są antynaukowe.
 
-Słowo `anti-science` pojawia się 293 razy. Słowo `activist` (w znaczeniu: emocjonalna ciemnota) pada aż 404&nbsp;razy. Słowo `ignorant` -- 189&nbsp;razy. Słowo `illiterate` (niedouczony) 56&nbsp;razy. Zwrot `know nothing` *Jon Snow*{:.corr-del} -- 21&nbsp;razy.
+Słowo `anti-science` pojawia się 294&nbsp;razy. Słowo `activist` (w znaczeniu: emocjonalna ciemnota) pada aż 405&nbsp;razy. Słowo `ignorant` -- 190&nbsp;razy. Słowo `illiterate` (niedouczony) 56&nbsp;razy. Zwrot `know nothing` *Jon Snow*{:.corr-del} -- 21&nbsp;razy.
 
 Tryb adwokata diabła: ale może odpowiadają tak tylko na faktyczne bzdury? Rzeczy w&nbsp;stylu „GMO to obce geny i&nbsp;zmienią też moje geny”?
 
@@ -607,7 +608,7 @@ Bardzo często, niczym królik z&nbsp;kapelusza, wyciągane jest rolnictwo ekolo
 Czasem ktoś skrytykuje glifosat. Wtedy ktoś z&nbsp;trójcy odpowiada, że rolnicy ekologiczni używają gorszych pestycydów (choć nikt o&nbsp;nich nie pytał).  
 Innym razem ktoś powie, że Monsanto wydaje mnóstwo pieniędzy na lobbing. Wtedy zaraz pojawia się argument, że rolnictwo ekologiczne to jeszcze gorsze *lobby*.
 
-To o&nbsp;tyle śmieszne, że miewa efekt odwrotny do zamierzonego. Kiedy zacząłem tworzyć ten wpis, uważałem rolnictwo ekologiczne za coś niszowego. Byłem wobec niego (i w&nbsp;sumie nadal jestem) całkiem neutralny, przy swoich zakupach wciąż kieruję się raczej ceną, a&nbsp;nie przedrostkiem *bio-*.
+To o&nbsp;tyle śmieszne, że miewa efekt odwrotny do zamierzonego. Kiedy zacząłem tworzyć ten wpis, uważałem rolnictwo ekologiczne za coś niszowego. Byłem wobec niego (i&nbsp;w&nbsp;sumie nadal jestem) całkiem neutralny, przy swoich zakupach wciąż kieruję się raczej ceną, a&nbsp;nie przedrostkiem *bio-*.
 
 I myślę że takich osób jest więcej. Ale przez te wszystkie komentarze można ulec wrażeniu, że to jakaś potężna, zwodnicza machina. Zastanawiam się, czy trójca z&nbsp;YouTube'a tak naprawdę nie robi im reklamy :wink:
 
@@ -641,13 +642,13 @@ text="Yes, your friendly neighborhood organic farmer is part of a&nbsp;30 year l
 </ul>
 </details>
 
-Chcemy więcej przykładów? Myślę że będzie aż nadto. Wystarczy przeszukać listę komentarzy pod kątem hasła `organic`, a&nbsp;wyskoczy aż 735&nbsp;wystąpień.
+Chcemy więcej przykładów? Myślę że będzie aż nadto. Wystarczy przeszukać listę komentarzy pod kątem hasła `organic`, a&nbsp;wyskoczy aż 1360&nbsp;wystąpień.
 
 ### „Prawnicy to szczury, ława przysięgłych się nie liczy”
 
 Wiele faktów na temat Monsanto wyszło na jaw poczas wytoczonych im procesów. Ich pechowy nabywca, Bayer, wydał miliardy dolarów na ugody z&nbsp;osobami walczącymi z&nbsp;nimi w&nbsp;sądach. Były to sprawy związane nie tylko z&nbsp;glifosatem, ale też z&nbsp;ich wcześniejszymi produktami oraz skażeniem środowiska.
 
-W każdym razie firma nie lubi prawników od pozwów zbiorowych. Nic zatem dziwnego, że w&nbsp;komentarzach trójcy z&nbsp;YouTube'a słowo `lawyer` (46 wystąpień) pojawia się głównie jako obelga. Uderzanie w&nbsp;nich to specjalność Duke'a:
+W każdym razie firma nie lubi prawników od pozwów zbiorowych. Nic zatem dziwnego, że w&nbsp;komentarzach trójcy z&nbsp;YouTube'a słowo `lawyer` (45&nbsp;wystąpień) pojawia się głównie jako obelga. Uderzanie w&nbsp;nich to specjalność Duke'a:
 
 {% include comment.html
 author="Duke"
