@@ -62,7 +62,7 @@ Kiedyś były wypożyczalnie kaset VHS (zresztą sam Netflix tym się parał). T
 
 Ale Netflix jest kolosem na glinianych nogach. [Ten artykuł](https://www.forbes.com/sites/stephenmcbride1/2019/11/11/in-24-hours-netflix-could-lose-25-of-its-subscribers/) pokazuje kilka niepokojących statystyk z&nbsp;końca 2019 roku:
 
-* Aż 63% filmów to treści na licencji. Czyli Netflix nie jest właścicielem i&nbsp;może używać ich tylko dopóki, dopóty jest dogadany z&nbsp;twórcami.
+* Aż 63% filmów to treści na licencji. Czyli Netflix nie jest właścicielem i&nbsp;może używać ich tylko dopóty, dopóki jest dogadany z&nbsp;twórcami.
 * A&nbsp;to dogadanie kosztuje. W&nbsp;2019 r. zapłacił m.in. 100 mln dolarów za licencję na „Przyjaciół”. Rok wcześniej trzy razy mniej.
 * Inne platformy również mają dość pośrednika i&nbsp;same wchodzą na rynek. Disney otworzył własną platformę streamingową Disney+. A&nbsp;że jest właścicielem mnóstwa marek, to odbierze Netflixowi pokaźny kawałek tortu.
 
@@ -76,7 +76,7 @@ Spotify zawarł umowę na 100 mln dolarów z&nbsp;podcastowym gigantem, Joe Roga
 Jednym z&nbsp;warunków umowy było zamknięcie kanału na YouTubie i&nbsp;przejście wyłącznie na Spotify.  
 Ale okazało się, że nie wszystko przeszło. Spotify [usunęło również część wywiadów](https://www.newsweek.com/joe-rogan-spotify-podcast-censorship-alex-jones-mark-dice-missing-episodes-1579754) z&nbsp;osobami, które im się nie podobały. Rogan nie protestował.
 
-Aktualizacja: według najnowszych informacji Spotify usuwa na bieżąco. [Łącznie 42 wywiady](https://www.digitalmusicnews.com/2021/04/06/joe-rogan-spotify-removing-shows/), z czego niektóre zawierały tylko pojedyncze niezręczne żarty.
+Aktualizacja: według najnowszych informacji Spotify usuwa na bieżąco. [Łącznie 42&nbsp;wywiady](https://www.digitalmusicnews.com/2021/04/06/joe-rogan-spotify-removing-shows/), z&nbsp;czego niektóre zawierały tylko pojedyncze niezręczne żarty.
 
 Nie będę oceniał samych rozmówców Rogana, a&nbsp;wywiadów nie słuchałem. Ale mamy tu czarno na białym: może dochodzić do sytuacji, w&nbsp;której **treści znikają przez nacisk ze strony urażonych osób** i&nbsp;żadnej ze stron umowy nie zależy na ich przywróceniu.  
 Gdyby nie było osób archiwizujących te podcasty, to przepadłyby bezpowrotnie. Bo nigdy nie były nasze.
@@ -88,8 +88,8 @@ Było o&nbsp;rozrywce, to teraz trochę o&nbsp;pracy. Bo ją również ostro spy
 Co może pójść nie tak? Ano może się zdarzyć, że przez błąd Adobe [fotografowie stracą tysiące zdjęć](https://feedback.photoshop.com/conversations/lightroom-mobile/lightroom-mobile-ios-missing-pictures-presets-and-watermark-data-after-54-update/5f5f46264b561a3d42763bb8) przechowywanych w&nbsp;ich chmurze.  
 Zbieranych przez lata, potrzebnych do pracy, czasem kupowanych za pieniądze.
 
-Te przykłady nie motywują. Ba, zachęcają wręcz, żeby nie ufać platformom i&nbsp;co pewien czas odkładać sobie pliki na później.  
-Problem w&nbsp;tym, że te czasem aktywnie blokują taką możliwość. Na przykład przez DRM.
+Te przykłady nie motywują. Ba, zachęcają wręcz, żeby nie ufać platformom i&nbsp;co pewien czas odkładać sobie pliki na własnym dysku, na później.  
+Problem w&nbsp;tym, że platformy czasem aktywnie nam blokują taką możliwość. Na przykład przez DRM.
 
 ## DRM
 
@@ -168,7 +168,7 @@ Tak działają wielkie korpo-wydawnictwa naukowe [takie jak Elsevier](https://ww
 
 Wydawnictwo jest właścicielem prestiżowych publikacji. Masz ambicje, chcesz zaistnieć w&nbsp;świecie nauki? Nie obędzie się bez czytania artykułów „z&nbsp;linii frontu”. A&nbsp;te kosztują. Np. [ponad 30 dolarów](https://www.sciencedirect.com/science/article/abs/pii/S1357303921000128) za jednego PDF-a.
 
-Eliminuje to hobbystów chcących się dokształcić. Ale może uczelnie udźwigną? W&nbsp;końcu wychodzi im taniej, na zasadzie subskrypcji. I&nbsp;są finansowane z&nbsp;pieniędzy podatników (nic to, że ci sami podatnicy potem nie mają dostępu do efektów).
+Eliminuje to hobbystów chcących się dokształcić. Ale może uczelnie udźwignęłyby te koszty? W&nbsp;końcu nie muszą kupować po jednym pliku, mogą zapłacić za opcję nieograniczonego dostępu. I&nbsp;są finansowane z&nbsp;pieniędzy podatników (nic to, że ci sami podatnicy nie mają potem dostępu do efektów prac naukowców).
 
 Jeśli Twoja uczelnia do biednych nie należy, to jakoś uzyskujesz przez nią dostęp, czytasz, tworzysz coś własnego. No ale jest presja, żeby wydać w&nbsp;prestiżowym piśmie. Kto ma prestiż? Publikacje dużych wydawnictw.
 
@@ -192,7 +192,7 @@ Takie sztuczne bariery są jak podatki wobec sektora prywatnego. Niby nie są wy
 
 Czemu inne branże nie pójdą w&nbsp;ich ślady? Nie zbuntują się, nie dogadają między sobą, nie opracują otwartych standardów? Chętni nadal by mogli kosić kasę za wystawianie certyfikatów. Za to sama wiedza byłaby powszechna.
 
-Zmiana tego systemu to dla mnie jedna z&nbsp;tych ciekawych kwestii, które w&nbsp;moich oczach mogłyby pogodzić wolnorynkowców (bo mniej barier dla swobodnej działalności gospodarczej) ze zwolennikami wspólnej własności (bo wiedza jako dobro dzielone całej ludzkości).
+Zmiana tego systemu to moim zdaniem jedna z&nbsp;tych ciekawych kwestii, które mogłyby pogodzić wolnorynkowców (bo mniej barier dla swobodnej działalności gospodarczej) ze zwolennikami wspólnej własności (bo wiedza jako dobro dzielone całej ludzkości).
 
 Ale na razie *status quo* się trzyma, a&nbsp;mniejsze i&nbsp;większe organizacje dzielnie płacą możnowładcom „dobrowolną” daninę.
 
@@ -227,7 +227,8 @@ Mnóstwo stron przestało działać. Po analizie sytuacji okazało się, że **j
 Infrastruktura to jedno. Ale firmy, podobnie jak zwykli cywile, często są zależne również od internetowych platform dużych graczy. Tak jak zwykli cywile, cenią sobie wygodę i&nbsp;niskie koszty.  
 I, tak jak cywile, potrafią się na tej zależności przejechać.
 
-Przykład? Poleganie przez firmy na platformie Google. Kiedy w&nbsp;grudniu 2020 roku coś im się [popsuło w&nbsp;uwierzy&shy;telnianiu](https://en.wikipedia.org/wiki/2020_Google_services_outages) i&nbsp;wiele osób straciło dostęp do kont i&nbsp;usług, to od razu zrobił się wzmożony ruch na korpo-grupkach i&nbsp;forach dyskusyjnych.
+Przykład? Poleganie przez firmy na platformie Google. Kiedy w&nbsp;grudniu 2020&nbsp;roku coś im się [popsuło w&nbsp;uwierzy&shy;telnianiu](https://en.wikipedia.org/wiki/2020_Google_services_outages) i&nbsp;wiele osób straciło dostęp do kont i&nbsp;usług, to od razu zrobił się wzmożony ruch na korpo-grupkach i&nbsp;forach dyskusyjnych.  
+„Google nam w&nbsp;firmie padł i&nbsp;teraz nie mam co robić”.
 
 Ale błędy się zdarzają, może nie ma co się tego czepiać. No to spójrzmy na świadomą zmianę warunków. Przykładem **podwyżka cen Google Maps**.
 
@@ -253,10 +254,10 @@ Choć współczesny internet bywa nazywany siecią, to jednak pod wieloma wzglę
 {:.figcaption}
 Źródło: [Science Daily](https://www.sciencedaily.com/releases/2012/02/120201140004.htm).
 
-A ludzki internet? Jak się okazuje, ma kilka kluczowych punktów. Zazwyczaj należących do dużych firm z&nbsp;USA.  
+A ludzki internet? Jak już wyżej napisałem, ma kilka kluczowych punktów. Zazwyczaj należących do dużych firm z&nbsp;USA.  
 Jeśli im się coś dzieje -- albo lekko zmienią warunki -- to mnóstwo mniejszych organizacji z&nbsp;całego świata przeżywa armageddon. Czy tak wygląda zdrowa sieć powiązań?
 
-No i&nbsp;powoli zbliżamy się do końca wpisu. Cała seria nazywa się „Cyfrowy feudalizm”. Jak feudalizm, to chłopi. Jak chłopi, to uprawa roli. Więc przejdźmy do rolnictwa.
+Powoli zbliżamy się do końca wpisu. Cała seria nazywa się „Cyfrowy feudalizm”. Jak feudalizm, to chłopi. Jak chłopi, to uprawa roli. Więc przejdźmy do rolnictwa.
 
 ## Walka z&nbsp;prawem do naprawy
 
@@ -267,7 +268,7 @@ Było o&nbsp;rzeczach niematerialnych (programach i&nbsp;przepisach), więc na k
 
 Mowa o&nbsp;**traktorach firmy John Deere** i&nbsp;walce tej firmy z&nbsp;prawem do swobodnej naprawy sprzętu.
 
-Historię opisuje między innymi [artykuł z&nbsp;Forbesa](https://www.forbes.com/sites/jasonbloomberg/2017/04/30/john-deeres-digital-transformation-runs-afoul-of-right-to-repair-movement/).
+Historię opisuje między innymi [artykuł z&nbsp;Forbesa](https://www.forbes.com/sites/jasonbloomberg/2017/04/30/john-deeres-digital-transformation-runs-afoul-of-right-to-repair-movement/). A&nbsp;od pewnego czasu -- również [wpis z&nbsp;tego bloga]({% post_url 2022-09-07-john-deere %}){:.internal}.
 
 Maszyny od Johna Deere'a były naszpikowane elektroniką. Bardzo wyczuloną -- wystarczyło wykrycie jednego błędu, żeby urządzenie traciło prawie wszystkie funkcje i&nbsp;sygnalizowało, że czas iść do serwisu. A&nbsp;serwis był drogi: kilka tysięcy dolarów za naprawę wycenianą na kilkaset.
 
@@ -281,7 +282,7 @@ Kiedy to nie dawało efektów, to poszli na ugodę. Zaczną oferować części, 
 
 Jak się okazuje, [nie dotrzymali umowy](https://www.extremetech.com/electronics/320183-john-deere-fails-to-uphold-right-to-repair-agreement-signed-in-2018). W&nbsp;2021 roku sprzedają narzędzia, ale te bez oprogramowania są bezużyteczne. A&nbsp;dealerzy nie sprzedają oprogramowania. 
 
-Ta sytuacja jest na swój sposób gorsza niż subskrypcje. Tam wprawdzie wypchnięcie wszystkiego do chmury odbiera nam dostęp do programu... ale płacimy mało, tylko za okres korzystania z&nbsp;usługi.  
+Ta sytuacja jest na swój sposób gorsza niż subskrypcje. Tam wprawdzie wypchnięcie wszystkiego do chmury odbiera nam dostęp do programu... ale przynajmniej płacimy mało, tylko za okres korzystania z&nbsp;usługi.  
 Tutaj zaś ludzie płacą miliony monet za te traktory. Licząc, że będą ich, tak jak każde inne narzędzia. Nie wiedząc, że producent nie planuje nigdy wypuszczać ich z&nbsp;rąk.
 
 Fajnie obrazują to słowa Kyle'a Wiensa, założyciela serwisu naprawczego iFixit:
@@ -314,7 +315,8 @@ Poza tym: warto nie przyklaskiwać bucom i&nbsp;snobom wyśmiewającym cudzy św
 OK, na daną chwilę mogą nie być dla nas praktyczne, rozumiem doskonale! Ale warto pamiętać, że każde z&nbsp;nich jest w&nbsp;stanie zyskać więcej współtwórców niż jakikolwiek zamknięty produkt. Czasem nawet pomoc od większych korpo.
 
 Nie mówię tu o&nbsp;oporze dla zasady, bo ten może być ciężki (prosta sprawa: firma nie skorzysta z&nbsp;norm / licencji / platform / partnerstwa, to nie rozwinie skrzydeł).  
-Ale naprawdę nie trzeba się puszyć, gdakać „Noo, u&nbsp;nas to używamy rozwiązań od  NAJLEPSZYCH firm. Prawie jak partnerstwo!”.  
-Zależność to potencjalne ryzyko, a&nbsp;nie siła. Poza tym takie słowa są jak marketing szeptany. Umacniają organizacje, które jadą na prestiżu, a&nbsp;mogą być tylko zbędnymi pośrednikami.
+Ale naprawdę nie trzeba się puszyć, gdakać „Noo, u&nbsp;nas to używamy rozwiązań od  NAJLEPSZYCH firm. Prawie jak partnerstwo!”.
+
+Zależność od gigantów to potencjalne ryzyko, a&nbsp;nie siła. Poza tym takie słowa są jak marketing szeptany. Umacniają organizacje, które jadą na prestiżu, a&nbsp;pod względem praktycznym są tylko zbędnymi pośrednikami.
 
 To tyle na dziś, bo i&nbsp;tak był spory natłok informacji. Więcej w&nbsp;pozostałych wpisach z&nbsp;tej serii :wink:
