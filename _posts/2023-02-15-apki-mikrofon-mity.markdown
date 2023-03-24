@@ -341,9 +341,10 @@ Nad możliwymi wyjaśnieniami rozwodziłem się w&nbsp;swoim innym wpisie, [omaw
   Przykład? Pisaliśmy z&nbsp;kimś, kto akurat odkrył w&nbsp;sobie zajawkę na komiksy. Facebook wie o&nbsp;tej zajawce przez to, co ta osoba klikała. Wie również o&nbsp;tym, że korespondowaliśmy, więc dla nas również szykuje „przez skojarzenie” reklamy komiksów. **I tak byśmy je dostali, niezależnie od innych czynników**.  
   Ale zanim reklamy zdążą nam się pokazać, spotykamy tę osobę na żywo; oczywiście mówi o&nbsp;komiksach. Potem, gdy pokazuje nam się ich reklama, obwiniamy mikrofon. Tymczasem to nie jego wina, zarażenie nastąpiło wcześniej.
 
-Wiele przypadków „podsłuchiwania” dałoby się wyjaśnić zachodzeniem którejś z&nbsp;tych rzeczy. Co do punktu trzeciego nie mam pewności, bo nie mam wglądu w&nbsp;algorytmy Facebooka, ale sam na ich miejscu bym coś takiego dodał. A&nbsp;dwie pierwsze rzeczy to pewniaki.
+Wiele przypadków „podsłuchiwania” dałoby się wyjaśnić zachodzeniem którejś z&nbsp;tych rzeczy. Co do punktu trzeciego nie mam pewności, bo nie mam wglądu w&nbsp;algorytmy Facebooka, ale sam na ich miejscu bym coś takiego dodał. A&nbsp;dwie pierwsze rzeczy to pewniaki.  
+Jeszcze obszerniejszą [listę trików Facebooka](https://www.eff.org/deeplinks/2018/04/facebook-doesnt-need-listen-through-your-microphone-serve-you-creepy-ads) stworzyła organizacja EFF.
 
-A jeśli jesteśmy absolutnie przekonani, że ani my, ani rozmówca nie szukaliśmy rzeczy, o&nbsp;której rozmawialiśmy w&nbsp;towarzystwie swoich telefonów? **Możliwe, że to po prostu przypadek**.
+A jeśli jesteśmy absolutnie przekonani, że ani my, ani rozmówca nie szukaliśmy rzeczy, o&nbsp;której rozmawialiśmy w&nbsp;towarzystwie swoich telefonów? **Możliwe, że nasza trafna reklama to po prostu przypadek**.
 
 Każdemu się chyba zdarzyło pomyśleć o&nbsp;piosence, a&nbsp;chwilę później ją usłyszeć w&nbsp;odbiorniku. Albo spotkać kogoś znajomego w&nbsp;dużym mieście, z&nbsp;dala od naszych typowych rewirów. Niektórzy wygrywają w&nbsp;Lotto.
 

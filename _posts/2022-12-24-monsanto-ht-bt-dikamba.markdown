@@ -227,8 +227,9 @@ Jeśli tylko jakiejś roślinie dało się ją nadać, to ją dodawali. Co więc
 
 Wyobraźmy sobie, że jakiemuś rolnikowi zależy głównie na ochronie przed owadami. Ale skoro musi w&nbsp;tym celu kupować nasiona z&nbsp;cechą Roundup Ready, to jak myślimy -- jaki herbicyd do tego weźmie?
 
-Innym przykładem jest *płodozmian*, czyli uprawianie co sezon innych roślin. Dzięki temu chwasty miałyby mniej stabilne środowisko i&nbsp;nie byłyby w&nbsp;stanie tak łatwo się uodparniać.  
-Ale to obejmowałoby rośliny spoza oferty Monsanto i&nbsp;mniej pestycydów. Zatem nie polubili tej metody i&nbsp;twierdzili w&nbsp;swoich materiałach reklamowych, że [jej skuteczność jest niska](https://sitn.hms.harvard.edu/flash/2015/roundup-ready-crops/).
+Pewnym sposobem na pokonanie odpornych szkodników jest *płodozmian*, czyli uprawianie co sezon innych roślin, albo rotacja herbicydów. Dzięki temu chwasty miałyby mniej stabilne środowisko i&nbsp;nie byłyby w&nbsp;stanie tak łatwo się uodparniać.
+
+Ale to obejmowałoby mniejsze zużycie produktów Monsanto. Zatem nie polubili tych metod i&nbsp;twierdzili w&nbsp;swoich materiałach reklamowych, że [ich skuteczność jest niska](https://sitn.hms.harvard.edu/flash/2015/roundup-ready-crops/), a&nbsp;rozwiązaniem jest stosowanie większych dawek Roundupu (tutaj [oryginalny artykuł z&nbsp;archiwum](https://web.archive.org/web/20050207011011/http://www.weeds.iastate.edu/mgmt/2004/twoforone.shtml)).
 
 W każdym razie, czyja wina by to nie była, rośliny RR zdecydowanie nie ograniczyły pryskania.
 
@@ -263,7 +264,7 @@ Z tym „wypadkiem” bym nie przesadzał. Wewnętrzne maile ujawniły, że ludz
 
 Nie dość, że nie wypadek, to jeszcze nie jednorazowy. Bowiem nowy, bardziej przyczepny XtendiMax nadal miał w&nbsp;sobie *wanderlust*. Umiał czasem odlatywać i&nbsp;powodować szkody.
 
-Monsanto wyjaśniało to słabym przeszkoleniem rolników i&nbsp;niewłaściwymi dyszami w&nbsp;opryskiwaczach. Jednocześnie ich instrukcja [zawierała szereg bardzo precyzyjnych wymagań](https://modernfarmer.com/2017/08/farmers-say-nearly-impossible-follow-monsantos-dicamba-directions/).  
+Monsanto wyjaśniało to słabym przeszkoleniem rolników i&nbsp;niewłaściwymi dyszami w&nbsp;opryskiwaczach. Jednocześnie instrukcja korzystania z&nbsp;preparatu [zawierała szereg bardzo precyzyjnych wymagań](https://modernfarmer.com/2017/08/farmers-say-nearly-impossible-follow-monsantos-dicamba-directions/).  
 Być może są uzasadnione, ja tam nie wiem. Ale na pewno utrudniają wskazanie koncernu jako winnego, jeśli coś pójdzie nie tak. „Nasz środek jest bez zarzutu. To oni nie umieją czytać instrukcji”.
 
 Przykład z&nbsp;życia znajdziemy choćby na Facebooku, pod jednym z&nbsp;postów *DEKALB Asgrow Southern Illinois* chwalącym Xtendimax:

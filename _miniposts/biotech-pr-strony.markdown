@@ -71,8 +71,9 @@ I to rok po tym, jak koncern [ogłosił w&nbsp;wywiadzie](https://www.huffington
 Współpraca sięga natomiast dość daleko w&nbsp;przeszłość. GLP udzielało się choćby przy okazji kontrowersji związanych z&nbsp;werdyktem IARC w&nbsp;2015 roku.  
 Co więcej, w&nbsp;[ówczesnej strategii Monsanto](https://usrtk.org/wp-content/uploads/2017/08/72-Document-Details-Monsantos-Strategy-Regarding-IARC.pdf) znajdowali się w rubryce *Industry Partners*. Przypisano im *Poziom 2* (*Tier 2*), czyli tylko jeden niżej niż CropLife, oficjalna i&nbsp;nieskrywana grupa lobbystyczna.
 
-A na czym ich działalność polegała? Ogólnie rzecz biorąc: publikują artykuły na temat szeroko pojętych GMO. Czasem biorą całkiem merytoryczne artykuły innych blogerów.  
-[Nie zawsze wskazywali](https://www.molecularecologist.com/2017/07/12/no-i-dont-write-for-the-genetic-literacy-project-and-i-never-will/) przy tym, że dany tekst jest przedrukiem, a&nbsp;nie czymś stworzonym specjalnie dla nich.
+A na czym ich działalność polegała? Ogólnie rzecz biorąc: publikują artykuły na temat szeroko pojętych GMO. Czasem biorą całkiem merytoryczne artykuły innych blogerów.
+
+[Nie zawsze wskazywali](https://www.molecularecologist.com/2017/07/12/no-i-dont-write-for-the-genetic-literacy-project-and-i-never-will/) przy tym, że dany tekst jest przedrukiem, a&nbsp;nie czymś stworzonym specjalnie dla nich. Pewien zwolennik GMO skrytykował ich za użycie treści jego wpisu i&nbsp;[zmianę nagłówka](http://www.keithkloor.com/?p=14909) na sensacyjny, a&nbsp;przy tym niezgodny z&nbsp;jego własnymi intencjami.
 
 Poza tym tworzą niemało artykułów własnych, w&nbsp;interesie branży biochemicznej. Nieraz wręcz stworzonych z&nbsp;inicjatywy ich firm PR-owych.
 
@@ -81,18 +82,18 @@ Artykuły ukazały się na GLP. Bez informacji o&nbsp;tym, że powstały na pro�
 
 Warto też wspomnieć o&nbsp;osobie założyciela GLP -- **Jon Entine** jest doświadczonym PR-owcem kontrowersyjnych branż i&nbsp;właścicielem firmy ESG Metrics, również od spraw wizerunkowych.
 
-Pierwotna wersja GLP -- nim strona skupiła się na modyfikacjach genetycznych -- zawierała linki do innych zleceń Entine'a, z&nbsp;genetyką niezwiązanych. Jak działanie w&nbsp;obronie plastiku i&nbsp;bisfenolu A.  
+Pierwotna wersja GLP -- nim strona skupiła się na modyfikacjach genetycznych -- zawierała linki do innych zleceń Entine'a, z&nbsp;genetyką niezwiązanych. Jak działanie w&nbsp;obronie plastiku i&nbsp;bisfenolu&nbsp;A.  
 W zakładce *Team* na stronie była osoba współpracująca z&nbsp;ACSH, która założyła stronę *Deniers for Hire* (już nieaktywną), obsmarowującą z&nbsp;nazwiska różnych krytyków branży.
 
 Entine miał zresztą jeszcze bliższe powiązania z&nbsp;ACSH. Brał [dość aktywny udział](https://www.motherjones.com/food/2012/02/atrazine-syngengta-tyrone-hayes-jon-entine/) w&nbsp;aferze z&nbsp;firmą Syngenta i&nbsp;ich herbicydem, atrazyną. Krytykował gazety piszące o&nbsp;sprawie, napisał książkę na temat rzekomej chemofobii Amerykanów. Pod względem treści zadziwiająco przypominała tajemniczą, nieznazwaną publikację, jaką kiedyś ACSH obiecało Syngencie.
 
-Firma Entine'a, ESG Metrics, miała Monsanto na swojej liście klientów. Wyjaśniał, że kiedyś wykonali drobny projekt (parę tysięcy dolarów) dla firmy vFluence (jeszcze o&nbsp;niej będzie), złożonej z&nbsp;byłych pracowników Monsanto. To tyle z&nbsp;„projektu dla Monsanto”.
+Firma Entine'a, ESG Metrics, miała Monsanto na swojej liście klientów. Wyjaśniał, że kiedyś wykonali drobny projekt (za parę tysięcy dolarów) dla firmy vFluence, złożonej z&nbsp;byłych pracowników Monsanto (jeszcze o&nbsp;niej będzie). I&nbsp;że to tyle z&nbsp;„projektu dla Monsanto”.
 
 Możemy siebie zapytać -- czy w&nbsp;takim razie wskazanie *całego* koncernu jako klienta byłoby uczciwe? Ale zanim to zrobimy, możemy się również zapytać, czy ten tekst nie był po prostu wykrętem.
 
 ### Cornell Alliance for Science
 
-Od bardzo niedawna już bez Cornell, bo uniwersytet chyba zakończył współpracę. Ale póki trwała, była bardzo owocna dla firm korporolniczych.
+Od bardzo niedawna już bez *Cornell*, bo uniwersytet chyba zakończył współpracę. Ale póki trwała, była bardzo owocna dla firm korporolniczych.
 
 Zacznijmy od kontrowersyjnego hormonu wzrostu dla krów, rBST, który Monsanto sprzedawało jako Posilac.  
 Wspominałem już o&nbsp;nim w&nbsp;swoim wpisie. Wiązała się z nim afera korupcyjna w&nbsp;Kanadzie oraz uciszanie dziennikarzy, pracowników agencji oraz firm oznaczających produkty jako wolne od hormonu.
@@ -186,7 +187,7 @@ A zatem lecimy. Moje główne źródła:
 * [United States Right to Know](https://usrtk.org) -- organizacja *non-profit* finansowana głównie przez Organic Consumers Association.
 
   Analizują wewnętrzne maile i&nbsp;inne dokumenty związane z&nbsp;aferami wokół branży rolniczej i&nbsp;spożywczej oraz amerykańskich agencji nadzoru. Ujawniają utajonych lobbystów.  
-  Po pierwszym wejściu na stronę obawiałem się że będzie spiskowo, widząc wśród zakładek nazwisko Billa G. Ale pozory mylą. Jest merytorycznie, bez histerii, w&nbsp;oparciu o&nbsp;oficjalne maile i&nbsp;zeznania. Kawał dobrej roboty.
+  Po pierwszym wejściu na stronę obawiałem się że będzie spiskowo, widząc wśród zakładek nazwisko Billa&nbsp;G. Ale pozory mylą. Jest merytorycznie, bez histerii, w&nbsp;oparciu o&nbsp;oficjalne maile i&nbsp;zeznania. Kawał dobrej roboty.
 
 * [Disinformation Chronicle](https://disinformationchronicle.substack.com/p/monsantos-ghostwriting-to-influence) -- strona na platformie Substack gromadząca przykłady korporacyjnej dezinformacji w&nbsp;różnych branżach.
 
