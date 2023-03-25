@@ -28,7 +28,7 @@ W tym wpisie w&nbsp;jak najprzystępniejszy sposób omówię całą sprawę. Zap
 <img src="/assets/posts/apki/acropalypse/acropalypse-baner.jpg" alt="Przerobiony obrazek pokazujący rzymską statuę półleżącego brodatego mężczyzny, trzymającego w&nbsp;ręku róg obfitości. Jego twarz otacza jasna ramka o&nbsp;czerwonych rogach, zaś reszta obrazka, na której widać jego półnagie ciało, jest przyciemniona, tak jakby tylko twarz miała zostać wycięta z&nbsp;obrazka. U&nbsp;dołu widać napis Acropalypse."/>
 
 {:.figcaption}
-Źródło: [Wikipedia, zdjęcie Erin Silversmith](https://commons.wikimedia.org/w/index.php?curid=135990) + [post Simona Aaronsa](https://nitter.cz/ItsSimonTime/status/1636857478263750656). Przeróbki moje.  
+Źródło: [Wikipedia, zdjęcie Erin Silversmith](https://commons.wikimedia.org/w/index.php?curid=135990) oraz [post Simona Aaronsa](https://nitter.cz/ItsSimonTime/status/1636857478263750656). Przeróbki moje.  
 P.S. Brodacz to bóg Tiberinus, a&nbsp;to coś w&nbsp;jego dłoni to róg obfitości :wink:
 
 ## O&nbsp;obrazkach słów kilka
@@ -71,7 +71,7 @@ Na pierwszy rzut oka widać, że metoda druga jest bardziej zwięzła, prawda? :
 
 Wniosek jest prosty -- kompresja się opłaca, zwłaszcza w&nbsp;obecnych czasach, gdy obrazki przesyła się na masową skalę. Dlatego **od dawna są czymś więcej niż prostą listą pikseli**. Ba, w&nbsp;praktyce bywają naszpikowane hardkorowymi metodami kompresji.
 
-Cały czas opracowuje się nowe formaty, lepiej dopasowane do współczesnych obrazków. *HEIF*, *WEBP*, *JPEG-XL*... Dlatego gdyby ktoś zapytał, czym są za kulisami obrazki, to najsensowniejszą odpowiedzią wydaje się „to zależy”.
+Cały czas opracowuje się nowe formaty, lepiej dopasowane do współczesnych obrazków. *HEIF*, *WEBP*, *JPEG-XL*... Dlatego gdyby ktoś zapytał, czym są za kulisami obrazki, to dobrą odpowiedzią wydaje się „to zależy”.
 
 W naszym przypadku problemy nie dotyczą jednak tych nowych formatów, tylko leciwego już (i&nbsp;bardzo popularnego) *PNG*. Który, choć stary, jest również dość złożony.
 
@@ -150,7 +150,7 @@ Programy specjalnie dopasowane do takich sytuacji, jak ten napisany przez badacz
 
 W praktyce tymi nakładającymi się rzeczami nie będą oczywiście pojedyncze piksele, tylko jakieś bardziej złożone struktury, z&nbsp;których korzysta PNG. Ale efekt końcowy będzie zbliżony -- przez chwilę mamy syf i&nbsp;chaos (*artefakty*), a&nbsp;potem już normalne, czytelne piksele.
 
-Jeśli mamy szczęście, to zakryją nam akurat te poufne informacje, na których nam zależy.
+Jeśli mamy szczęście, to artefakty zakryją nam akurat te poufne informacje, które wolelibyśmy pozostawić uciętymi.
 
 ## Windows dołącza do gry
 
@@ -208,7 +208,7 @@ Z tego względu zainteresowani mogą dalej śledzić rozwój wypadków -- hasło
 Dla ułatwienia podsyłam parę miejsc, w&nbsp;które warto zerkać:
 
 * wyniki ze strony [HackerNews](https://hn.algolia.com/?q=acropalypse);
-* wyniki z&nbsp;[Nittera](https://nitter.cz/search?f=tweets&q=acropalypse&since=&until=&near=) (gdyby link nie działał, można wpisać hasło w&nbsp;wyszukiwarkę Twittera);
+* wyniki z&nbsp;[Nittera](https://nitter.cz/search?f=tweets&q=acropalypse&since=&until=&near=) (gdyby link nie działał, można wpisać hasło w&nbsp;wyszukiwarkę Twittera).
 
 ## Czy to dla nas groźne?
 
@@ -227,7 +227,7 @@ Wiele serwisów (Facebook, Google Photos) dla oszczędności miejsca kompresuje 
 
 Gdybyśmy natomiast trzymali obrazki gdzieś, gdzie pozostają w&nbsp;stanie niezmiennym (dysk własnego urządzenia, Discord sprzed paru lat czy choćby Dysk Google'a), to sekrety jak najbardziej byłyby dostępne.
 
-Te punkty wydają się dość gęstym sitem przesiewowym. Nie wykluczam, że niektóre wydają się całkiem łatwe do spełnienia (pkt.1 -- przycinamy *specjalnie po to*, żeby coś ukryć; pkt. 2&nbsp;-- domyślny program jest najłatwiej dostępny). Ale żeby zaszło wszystko naraz, to musielibyśmy mieć pecha.
+Te punkty wydają się dość gęstym sitem przesiewowym. Nie wykluczam, że niektóre mogą być łatwe do spełnienia (pkt.&nbsp;1 -- przycinamy *specjalnie po to*, żeby coś ukryć; pkt.&nbsp;2 -- domyślny program jest najłatwiej dostępny). Ale żeby zaszło wszystko naraz, to już musielibyśmy mieć pecha.
 
 W związku z&nbsp;tym **osobiście wątpię, żeby wiele osób bezpośrednio ucierpiało przez Acropalypse**. Ale świat jest wielki, więc gdzieś zapewne trafią się takie przypadki.  
 Najgorsze jest to, że zagrożenie działa wstecz. Kiedy pechowy screen raz zostanie zapisany na dysku, to można do niego wrócić w&nbsp;dowolnym momencie. Zapewne różnej maści zbieracze danych już zaktualizowali skrypty i&nbsp;przeszukują swoje kolekcje, szukając nowych tropów.
@@ -255,7 +255,7 @@ Jeśli szczególnie się obawiamy, to można otworzyć plik w&nbsp;programie gra
 {% include info.html
 type="Powiązane wpisy"
 text="Warto przy tym pamiętać o&nbsp;innych potencjalnych pułapkach związanych z&nbsp;plikami, które miałem przyjemność opisać na blogu.  
-Pułapka pierwsza -- w&nbsp;zdjęciach mogą być czasem [zaszyte dane z&nbsp;GPS-a](/2021/02/10/gdzie-jestem-zapytaj-moich-zdjec){:.internal}, jasno pokazujące miejsce, w&nbsp;którym zrobiono zdjęcie.  
+Pułapka pierwsza -- w&nbsp;zdjęciach mogą być czasem [zaszyte dane z&nbsp;GPS-a](/2021/02/10/gdzie-jestem-zapytaj-moich-zdjec){:.internal}, jasno pokazujące miejsca, w&nbsp;których je zrobiono.  
 Pułapka druga -- gdy edytujemy niektóre formaty plików, jak PDF, [nie wystarczy zakrycie tekstu czarnym prostokątem](/2021/10/29/zakrywanie-danych){:.internal}. Bo cały tekst nadal będzie pod spodem, łatwy do skopiowania.
 "%}
 

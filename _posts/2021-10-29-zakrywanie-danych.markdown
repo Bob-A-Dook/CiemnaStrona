@@ -91,8 +91,9 @@ Jeśli chcecie sami to sprawdzić, możecie <a href="/assets/posts/zakrywanie-da
 Następnie otwieramy go jako tekst, na przykład w&nbsp;Notatniku.  
 W tym celu klikamy go prawym przyciskiem myszy, wybieramy `Otwórz za pomocą...` i&nbsp;znajdujemy Notatnik na liście.
 
-**Dokładnie tak samo działają PDF-y**. Każdy dodany element to po prostu nowa instrukcja. Tylko że PDF-y są potem kompresowane, więc nie odczytamy ich gołym okiem, jak plików SVG.
+**Dokładnie tak samo działają PDF-y**. Każdy dodany element to po prostu nowa instrukcja. Zakrywa tekst, ale go nie usuwa.
 
+Różnica polega na tym, że PDF-y są potem kompresowane, więc nie poczytamy ich przez Notatnik, jak plików SVG.  
 Ale nawet najmniej techniczna osoba może otworzyć PDF-a w&nbsp;programie -- choćby w&nbsp;Adobe Readerze -- zrobić `Ctrl`+`A`, `Ctrl`+`C` i&nbsp;skopiować sobie cały tekst, łącznie z&nbsp;naszymi tajemnicami.
 
 I nie są to teoretyczne rozważania. Wtopki z&nbsp;czarnymi prostokątami już wiele razy się zdarzały. Również ważnym i&nbsp;poważnym.
@@ -109,7 +110,7 @@ W&nbsp;jaki sposób zapobiec takim gafom?
 Jednym ze sposobów jest użycie wbudowanych funkcji redagowania dokumentów. Ma takie coś np. [Adobe Acrobat](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/advanced-tasks/redact.html?lang=en). Nadal jest tu jednak miejsce na ludzki błąd, gdybyśmy wybrali nie tę opcję.
 
 Istnieje również rozwiązanie nuklearne, ale pewne.  
-Można **skonwertować każdą stronę na obrazek**, a&nbsp;potem ewentualnie połączyć te obrazki w&nbsp;nowego PDF-a.  
+Można **skonwertować każdą stronę na obrazek**, pozakrywać sekrety jednolitymi prostokątami, a&nbsp;potem ewentualnie połączyć te obrazki w&nbsp;nowego PDF-a.  
 Jeden minus taki, że drastycznie urośnie rozmiar pliku. Ale uznajmy, że to do przeżycia.  
 Bardziej może nas zaboleć druga sprawa: **w ten sposób niestety stracimy cały tekst**.
 
@@ -172,11 +173,11 @@ Do nałożenia tekstu możemy użyć komercyjnego programu [ABBYY FineReader](ht
 
 <p>Można zamiast płatnego programu zainstalować darmowego Tesseracta (tutaj <a href="https://www.pyimagesearch.com/2017/07/03/installing-tesseract-for-ocr/">nieformalne instrukcje</a>, a tutaj wersja <a href="https://github.com/UB-Mannheim/tesseract/wiki">na Windowsa</a>).</p>
 
-<p>Tesseract czyta tylko obrazki, więc <strong>najlepiej go użyć zaraz po kroku 1</strong>, pomijając krok 2 (łączenie w PDF-a).</p>
+<p>Tesseract czyta tylko obrazki, więc <strong>najlepiej go użyć zaraz po kroku&nbsp;1</strong>, pomijając krok&nbsp;2 (łączenie w PDF-a).</p>
 
 <p>W tym celu w tym samym folderze musimy stworzyć plik tekstowy (powiedzmy <code class="language-plaintext highlighter-rouge">obrazki.txt</code>), w którym – linijka pod linijką – będą wymienione pliki z obrazkami, które chcemy połączyć w PDF-a.</p>
 
-<p>Jeśli obrazków jest tylko kilka, możemy nawet stworzyć ten plik ręcznie. Ale lepiej konsolką. Na Windowsie wpisujemy w nią:</p>
+<p>Jeśli obrazków jest tylko kilka, możemy nawet stworzyć ten plik ręcznie. Ale szybciej będzie konsolką. Na Windowsie wpisujemy w nią:</p>
 
 <div class="black-bg mono">
 dir > obrazki.txt
@@ -188,14 +189,14 @@ dir > obrazki.txt
 ls > obrazki.txt
 </div>
 
-<p>Usuwamy z pliku tekstowego te nazwy plików, które nie są obrazkami. Upewniamy się, że mamy go w tym samym folderze co obrazki. Po czym odpalamy Tesseracta:</p>
+<p>Usuwamy z pliku tekstowego te nazwy plików, które nie są obrazkami. Upewniamy się, że mamy go w&nbsp;tym samym folderze co obrazki. Po czym odpalamy Tesseracta:</p>
 
 <div class="black-bg mono">
 tesseract -l eng obrazki.txt po_ocr pdf
 </div>
 
-<p>(Uwaga na spację przed ostatnim <code class="language-plaintext highlighter-rouge">pdf</code>! A zamiast <code class="language-plaintext highlighter-rouge">eng</code> można wpisać inny język lub języki dokumentu, zgodnie z kodami Tesseracta).<br>
-Po powyższej komendzie powstanie nam plik <em>po_ocr.pdf</em>.</p>
+<p>(Uwaga na spację przed ostatnim <code class="language-plaintext highlighter-rouge">pdf</code>! A&nbsp;zamiast <code class="language-plaintext highlighter-rouge">eng</code> można wpisać inny język lub języki dokumentu, zgodnie z&nbsp;kodami Tesseracta).<br>
+Po powyższej komendzie powstanie nam plik <em>po_ocr.pdf</em>. Zawierający zarówno obrazki stron, jak i&nbsp;rozpoznany tekst.</p>
 
 </details>
 
