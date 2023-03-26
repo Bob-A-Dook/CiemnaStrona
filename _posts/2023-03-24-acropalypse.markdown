@@ -162,10 +162,12 @@ Telefony inne niż Pixele niekoniecznie korzystają z&nbsp;feralnej funkcji. Aut
 Czy zatem luka dotyczy nielicznych i&nbsp;została załatana, mamy szczęśliwe zakończenie? Wręcz przeciwnie, napięcie rośnie :smiling_imp:.
 
 Odkrycie sprawiło, że badacze zaczęli się rozglądać za podobnymi lukami bezpieczeństwa.  
-Jeden z&nbsp;nich, Chris Blume, [napisał 21&nbsp;marca na Twitterze](https://nitter.cz/ProgramMax/status/1638217206180741121), że widzi podobne nieścisłości w&nbsp;rozmiarach plików edytowanych przez Narzędzie Wycinania  
-(ang. *Snip & Sketch*; według niektórych problem dotyka też dawnego *Snipping Tool*, ale nie za bardzo mam jak sprawdzić).
+Jeden z&nbsp;nich, Chris Blume, [napisał 21&nbsp;marca na Twitterze](https://nitter.cz/ProgramMax/status/1638217206180741121), że widzi podobne nieścisłości w&nbsp;rozmiarach plików edytowanych przez Narzędzie Wycinania.
 
 To **domyślny program do screenshotów, dołączony od dawna do systemu Windows**. A&nbsp;zatem znacznie bardziej popularny.
+
+{:.post-meta .bigspace-after}
+Uwaga: nie sprawdzałem tego osobiście, ale ponoć mowa tu o&nbsp;programiku *Snipping Tool* z&nbsp;Windowsa&nbsp;11 oraz *Snip & Sketch* z Windowsa&nbsp;10;  błąd nie dotyczy natomiast dawnego *Snipping Toola* z&nbsp;Windowsa&nbsp;10 i&nbsp;poprzednich.
 
 David Buchanan przyjrzał się tej sprawie. I&nbsp;[zareagował dość żywiołowo](https://nitter.cz/David3141593/status/1638222624084951040). Pozwolę sobie zacytować (z&nbsp;mikrocenzurą, coby mi bloga nie strącili):
 
@@ -215,9 +217,9 @@ Dla ułatwienia podsyłam parę miejsc, w&nbsp;które warto zerkać:
 Choć Acropalypse jak najbardziej może ujawniać niektóre dane, warto zaznaczyć, że na szczęście byłby groźny tylko w&nbsp;szczególnych okolicznościach. **Muszą zajść wszystkie naraz**:
 
 1. Poza wyciętym obszarem jest coś prywatnego, czego byśmy nie chcieli ujawniać;
-2. Otwieramy plik konkretnym programem (Narzędzie Wycinania na Windowsie, Markup na Pixelu, ew. jakieś dotąd nieodkryte kombinacje) i&nbsp;go przycinamy
+2. Otwieramy plik konkretnym programem (Narzędzie Wycinania na Windowsie, Markup na Pixelu, ew. jakieś dotąd nieodkryte kombinacje), przycinamy go i&nbsp;zapisujemy pod taką samą nazwą
 
-   (nie mam tu 100% pewności, ale zapewne błąd nie miałby miejsca przy samym *łapaniu pierwszego screena*, jedynie przy otwieraniu i&nbsp;przycinaniu wcześniej zapisanego pliku);
+   (nie mam tu 100% pewności, ale zapewne błąd nie miałby miejsca przy samym *łapaniu pierwszego screena*, jedynie przy otwieraniu i&nbsp;przycinaniu wcześniej zapisanego pliku obrazkowego);
 
 3. Dane spoza wycinka nie zostaną przykryte artefaktami (kwestia być może losowa);
 4. Końcowy obrazek nie zostanie poddany dalszym przekształceniom, konwersji itp.
