@@ -136,7 +136,15 @@ W przypadku Windowsa wystarczy włączyć Eksploratora, przejść do tego folder
 
 ## Rozwiązywanie błędów
 
-# Zawieszenie programu
+Nasz programik musi niestety stale gonić YouTube'a oraz jego wewnętrzne mechanizmy, które nieraz się zmieniają. Nie unikniemy przez to sytuacji, kiedy raz na jakiś czas wyskoczy nam błąd.
+
+Ale bez obaw! Zwykle jest więcej osób mających taki problem jak my, a naprawienie nieraz sprowadza się do pobrania nowszej wersji. A potem na długi czas mamy spokój.
+
+Ogólna zasada -- jeśli w konsoli wyświetlił nam się tekst, to patrzymy co mamy na dole, po słowie `ERROR:`. Treść takiego komunikatu można wkleić w wyszukiwarkę, żeby poszukać rozwiązania.
+
+A parę powszechnych przypadków omówię dla naszej wygody w tym miejscu.
+
+### Zawieszenie programu
 
 Jeśli zerwie nam połączenie, to *youtube-dl* może się zawiesić. Licznik stoi w&nbsp;miejscu, niczego nie pobiera.
 
@@ -144,11 +152,11 @@ W takiej sytuacji otwieramy okno naszej konsoli i:
 
 * najpierw naciskamy `Ctrl`+`C`, żeby przerwać aktualną komendę;
 * następnie strzałkę do góry, żeby ponownie wyświetliła się poprzednia komenda (`youtube-dl...`);
-* potwierdzamy wciskając `Enter`.
+* potwierdzamy, wciskając `Enter`.
 
 I *voila*! Jeśli już mamy łączność, to zacznie nam pobierać od miejsca, w&nbsp;którym poprzednio się zatrzymało.
 
-# Odmowa dostępu
+### Odmowa dostępu
 
 Wyświetla się jako `HTTP Error 403: Forbidden`.
 
@@ -156,7 +164,7 @@ Czasami to chwilowy zgrzyt i&nbsp;wystarczy spróbować ponownie. Strzałka w&nb
 
 Innym razem sam filmik ma jakieś ograniczenia. Na przykład te wprowadzone przez Google, żeby wyciągnąć od nas zdjęcie dowodu albo numer konta. Zwykle omijam je szerokim łukiem, więc chwilowo nie wiem, czy jest jakieś proste obejście.
 
-# Film niedostępny/usunięty
+### Film niedostępny/usunięty
 
 W takim przypadku *youtube-dl* wyświetli `Video unavailable`.  
 Oznacza to zapewne, że film został usunięty między momentem wejścia na jego stronę a momentem skopiowania linka do konsoli.  
@@ -168,7 +176,7 @@ A Wasz film? Jeśli macie nadal otwartą stronę YouTube'a, to zapewne jesteśc
 
 W każdym razie w takiej sytuacji gra się toczy o wysoką stawkę -- **gdy zamkniecie okno YouTube'a z tym filmem, to możecie już go nie zobaczyć**. Jeśli jest fajny, a nie wiecie jak wyłuskać z pamięci podręcznej, to może warto nawet odpalić jakieś *OBS Studio* i nagrać ekran wraz z dźwiękiem :wink:
 
-# Inne błędy
+### Inne błędy
 
 Z czasem trafi się jakiś nieoczekiwany błąd. Może wynikać z&nbsp;tego, że **co jakiś czas YouTube wprowadza większe zmiany za kulisami, przez co psuje _youtube-dl_**.
 
@@ -177,4 +185,34 @@ Ale jego autorzy zwykle szybko nadganiają. Wtedy po prostu bierzemy od nich naj
 To równocześnie jeden z&nbsp;argumentów przemawiających za tym, żeby korzystać z wersji konsolowej, a nie graficznej. Łatwiej być na bieżąco.
 
 Wszelkie nakładki graficzne może i&nbsp;są przyjaźniejsze, ale nadal zależą od podstawowego *youtube-dl*. Gdy Google coś popsuje, to najpierw źródło musi naprawić to u siebie, a&nbsp;potem autorzy wersji graficznej (którzy mogą np. być akurat na wakacjach) po swojej stronie.
+
+### „Unable to extract uploader_id”
+
+Ten błąd dotyczy wersji `2021.12.17`, czyli najnowszej dostępnej na stronie *youtube-dl*. Być może nie aktualizują wersji przez to, że organizacje branżowe próbowały im robić problemy. Ale kod na szczęście zmieniają na bieżąco.
+
+W tym wypadku zwykła aktualizacja nie działa, bo numer działającej i&nbsp;niedziałającej wersji jest taki sam. Ale rozwiązanie opisali [w&nbsp;dyskusji na Githubie](https://github.com/ytdl-org/youtube-dl/issues/31904).
+
+Ogólnie: trzeba zdobyć wersję najnowszą i&nbsp;siłowo zastąpić nią wersję poprzednią.
+
+**Dla Windowsa**
+
+Nie mam na razie możliwości tego przetestować, ale możemy spróbować pobrać najnowszy plik *exe* (w&nbsp;sposób opisany na początku) i&nbsp;zastąpić nim nasz stary.  
+Tak, mają dokładnie ten sam numer wersji. Ale jest szansa, że nowszy plik jest aktualniejszy i&nbsp;będzie działał.
+
+**Dla systemu Linux**
+
+Osobiście instalowałem `youtube-dl` przez Pythona, zatem wpisuję komendę:
+
+<div class="black-bg mono">
+pip install --force-reinstall 'https://github.com/ytdl-org/youtube-dl/archive/refs/heads/master.tar.gz'
+</div>
+
+...I śmiga!
+
+Jeśli mamy system, na którym `pip` odpowiada starszemu Pythonowi&nbsp;2, to wpisujemy zamiast niego `pip3`.
+
+Jeśli instalowaliśmy dla całego systemu, to przed komendą trzeba jeszcze dopisać `sudo` i&nbsp;spację, a&nbsp;potem podać hasło.
+
+{:.post-meta}
+Niektórzy ogólnie [przestrzegają](https://stackoverflow.com/questions/21055859/what-are-the-risks-of-running-sudo-pip) przed takim trybem instalowania, zwłaszcza gdy nie do końca ufamy instalowanym programom.
 
