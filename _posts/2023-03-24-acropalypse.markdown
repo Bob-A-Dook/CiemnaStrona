@@ -107,7 +107,7 @@ Wszystko odkryła dwójka badaczy zajmujących się cyberbezpieczeństwem -- Dav
 
 Otrzymała ona kryptonim *Acropalypse*, czasem dla czytelności zapisują ją również *aCropalypse*. To połączenie słów *crop* (przycięcie/kadrowanie obrazka) oraz *apocalypse* (apokalipsa).
 
-17 marca Aarons opublikował [krótki opis zagrożenia](https://nitter.cz/ItsSimonTime/status/1636857478263750656) na Twitterze. Dzień później podał również link do [stronki](https://www.da.vidbuchanan.co.uk/blog/hello-png.html) pozwalającej osobiście sprawdzić, czy nasze zdjęcia mają ukryte dane.
+17 marca Aarons opublikował [krótki opis zagrożenia](https://nitter.cz/ItsSimonTime/status/1636857478263750656) na Twitterze. Dzień później podał również link do [stronki](https://acropalypse.app/) pozwalającej osobiście sprawdzić, czy nasze zdjęcia mają ukryte dane.
 
 Problem dotyczył aplikacji systemowej Markup -- domyślnie zainstalowanej na telefonach marki Pixel, produkowanych przez Google'a. Służy ona do prostej obróbki obrazków.
 

@@ -188,7 +188,7 @@ Z **Linuxami** to pewnie zależy. Mój Mint nie daje domyślnej możliwości usu
 
 ## Podsumowanie
 
-Jeśli poprzednio nie wiedzieliście o&nbsp;metadanych, to mam nadzieję, że porcja faktów z&nbsp;tego wpisu wypełniła tę lukę. Nawet jeśli nie planujemy marszu na kapitol ani wysyłania notatek stalkerom, zawsze to jakaś wiedza na przyszłość.
+Jeśli poprzednio nie wiedzieliście o&nbsp;metadanych, to mam nadzieję, że porcja faktów z&nbsp;tego wpisu wypełniła tę lukę. Nawet jeśli nie planujemy marszu na Kapitol ani wysyłania notatek stalkerom, zawsze to jakaś wiedza na przyszłość.
 
 Może przez słuchanie o&nbsp;takich rzeczach tracimy nieco beztroski... ale zyskujemy możliwość brania swoich spraw i&nbsp;danych we własne ręce. Nie ma co żyć beztrosko, kiedy można świadomie!
 

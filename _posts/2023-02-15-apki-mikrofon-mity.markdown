@@ -122,7 +122,7 @@ Podsumowując: w&nbsp;przypadku nagrywania całych dni z&nbsp;życia **stosunek 
 
 ### Kwestia opłacalnych alternatyw
 
-Dane dźwiękowe są bardzo upierdliwe. Jeśli chodzi o&nbsp;poziom trudności pozyskiwania różnych informacji, to streściłbym to tak:
+Dane dźwiękowe są bardzo upierdliwe. Jeśli chodzi o&nbsp;poziom trudności pozyskiwania różnych informacji (z&nbsp;punktu widzenia Facebooka), to streściłbym to tak:
 
 * Ustalenie, że odwiedziliśmy jakąś stronkę albo grupę na Facebooku? Banalnie łatwe.
 
@@ -315,7 +315,7 @@ Patrząc na wszystkie powyższe fakty, zaryzykuję i&nbsp;stwierdzę, że **duż
 Być może kiedyś wścibskie firmy miały swój złoty czas na podsłuchiwanie. Nie było opcji chroniących prywatność, nie było przepisów RODO/GDPR, a&nbsp;rozpoznawanie mowy było już użyteczne w&nbsp;praktyce.  
 Ktoś i&nbsp;tak by je pewnie złapał na tym procederze, więc nie uważam tej opcji za realną. No ale załóżmy, że istniała.
 
-Tym niemniej -- przez ostatnie lata ta furtka się zamknęła. Większe ryzyko prawne oraz mocniejsza ochrona prywatności (nawet jeśli głównie na pokaz) sprawiają, że potajemne sięganie po mikrofon już naprawdę nie powinno się aplikacjom opłacać. Ten jeden raz to my, użytkownicy, jesteśmy bliżsi zwycięstwa.
+Tym niemniej -- przez ostatnie lata ta furtka się zamknęła. Większe ryzyko prawne oraz mocniejsza ochrona prywatności przez telefony (nawet jeśli głównie na pokaz) sprawiają, że potajemne sięganie po mikrofon już naprawdę nie powinno się aplikacjom opłacać. Ten jeden raz to my, użytkownicy, jesteśmy bliżsi zwycięstwa.
 
 ## Jak nie podsłuch, to co?
 
@@ -372,7 +372,7 @@ Ich przykłady to telefony oparte na systemie Linux -- Pinephone i&nbsp;Librem. 
 
 No i&nbsp;pamiętajmy, że mikrofony nie są aż takim zagrożeniem w&nbsp;przypadku legalnych, oficjalnych apek mobilnych -- bo ich twórcy po prostu mieliby zbyt wiele do stracenia.
 
-Ale co, jeśli ta legalność, oficjalność lub choćby „apkowatość” zostanie jakoś naruszona? Wtedy już może się zrobić ciekawie. O&nbsp;tym w&nbsp;kolejnym wpisie :smile:
+Ale co, jeśli ta legalność, oficjalność lub choćby „apkowatość” zostanie jakoś naruszona? Wtedy już może się zrobić ciekawie. O&nbsp;tym w&nbsp;[kolejnym wpisie]({% post_url 2023-03-26-apki-mikrofon-zagrozenia %}){:.internal} :smile:
 
 ## Źródła obrazków
 
