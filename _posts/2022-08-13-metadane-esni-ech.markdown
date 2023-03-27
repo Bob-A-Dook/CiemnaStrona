@@ -73,7 +73,7 @@ A co, jeśli tym podmiotem będzie zaufany pośrednik? Jak na przykład operator
 W takim wypadku telekom zobaczy jedynie, że wymieniliśmy się z pośrednikiem swoimi kłódkami, a&nbsp;potem przesyłamy sobie wiele rzeczy w&nbsp;zamkniętych pancernych skrzynkach.  
 Nie będzie natomiast widział, co pośrednik z&nbsp;tych pudełek wyjmuje i&nbsp;do kogo przesyła później nasze wiadomości. Straci nas z&nbsp;oczu.
 
-<img src="/assets/posts/https/https-plus-vpn.jpg" alt="Schemat pokazujący komunikację przy użyciu VPN-a. Widać że "/>
+<img src="/assets/posts/https/https-plus-vpn.jpg" alt="Schemat pokazujący komunikację przy użyciu VPN-a. Od ikony laptopa odchodzi strzałka idąca po skosie w dół. Nad strzałką widać pudełko w pudełku - to na zewnątrz jest półprzezroczyste i symbolizuje szyfrowanie. Strzałka jest otoczona elipsą, nad którą widać ikonę wszystkowidzącego oka podpisaną ISP. Strzałka trafia do ikony serwera, podpisanej VPN. Z tego miejsca odchodzi kolejna strzałka po skosie w dół. Widać nad nią jedynie pudełko wewnętrzne i kieruje się ona ku ikonie serwera docelowego."/>
 
 {:.figcaption}
 Szyfrowana komunikacja z&nbsp;udziałem VPN-a. Dla czytelności przeskoczyłem etap przesyłania sobie kłódek, ale oczywiście również ma tu miejsce.  
@@ -107,13 +107,13 @@ Zacznijmy od tego, że sami niewiele tu zdziałamy, bo wysyłanie pewnych inform
 
 Do tanga trzeba dwojga. Nas i&nbsp;naszych adresatów.
 
-Poprawienie prywatności **wymaga zmian w&nbsp;protokołach -- zasadach działania internetu**. Niektóre organizacje, jak Mozilla i&nbsp;Cloudflare, podjęły obiecujące działania w&nbsp;kierunku ukrywania metadanych. Uszczelnili w&nbsp;tym celu interakcje, podczas których ujawniamy, jaką domenę odwiedzamy:
+Poprawienie prywatności **wymaga zmian w&nbsp;protokołach -- zasadach działania internetu**. Niektóre organizacje, jak Mozilla i&nbsp;Cloudflare, podjęły obiecujące działania w&nbsp;kierunku ukrywania metadanych. Uszczelnili w&nbsp;tym celu interakcje, podczas których ujawniamy, jaką domenę odwiedzamy. Są nimi:
 
-1. Nazwa domeny wysyłana do DNS-a  
+1. Nazwa strony wysyłana do DNS-a  
    (na razie nie musimy wiedzieć, co to takiego, omawiam go w&nbsp;następnym wpisie; zapamiętajmy tylko, że jest na początku).
-2. Nazwa bezpośrednio na rzeczach wysyłanych odwiedzanej stronie  
-   (albo adres IP, jeśli jednoznacznie ją ujawnia).
-3. Nazwa umieszczona na liście do certyfikatora, z&nbsp;prośbą o&nbsp;weryfikację kłódki.
+2. Nazwa strony na wysyłanych przez nas rzeczach  
+   (albo jej adres IP, jeśli jednoznacznie ją ujawnia).
+3. Nazwa umieszczona na liście do certyfikatora, w&nbsp;którym prosimy o&nbsp;weryfikację kłódki.
 
 **Trzeba ukryć wszystkie te informacje, żeby całkiem zataić, jakie strony odwiedzamy**. Gdyby choć jedna pozostała widoczna, to nasz operator telekomunikacyjny zapewne ją podejrzy.
 
@@ -169,10 +169,11 @@ W najbardziej skrajnym przypadku mamy **stronkę pod stałym i&nbsp;niezmiennym 
 
 Żeby nie ujawniać jej nazwy, musielibyśmy skorzystać z&nbsp;pośrednika. Innej rady nie ma.
 
-Nieco lepszą sytuację mamy wtedy, kiedy pod jednym adresem IP znajduje się jak najwięcej różnych odbiorców. Wtedy sam adres IP nikogo jednoznacznie nie ujawnia.  
+Nieco lepszą sytuację mamy wtedy, kiedy pod jednym adresem IP znajduje się jak najwięcej różnych odbiorców. Wtedy sam adres IP nikogo jednoznacznie nie ujawnia.
+
 Analogia: adresując list do jakiegoś domu jednorodzinnego, wystarczy napisać ulicę i&nbsp;numer domu. Jednoznacznie wskazuje to adresata. Ale w&nbsp;przypadku mieszkania w&nbsp;bloku trzeba dodać jeszcze numer lokalu, bo w&nbsp;bloku jest wiele mieszkań.
 
-Wyobraźmy sobie, że mamy jakieś wielkie strzeżone osiedle. Ulica Zielona 4. Firma, dajmy na to, Cloudflare Development. Cała korespondencja do mieszkańców trafia do zaufanego osiedlowego stróża, który następnie roznosi listy i&nbsp;paczki pod konkretne mieszkania.
+Wyobraźmy sobie, że mamy jakieś wielkie strzeżone osiedle. Ulica Zielona 4. Firma, dajmy na to, Cloudflare Development. Cała korespondencja przeznaczona dla mieszkańców trafia do zaufanego osiedlowego stróża, który następnie roznosi listy i&nbsp;paczki pod konkretne mieszkania.
 
 Ale my chcemy napisać do Nowaka z&nbsp;mieszkania *20*, a&nbsp;nie do jakiegoś Kowalskiego czy innego z&nbsp;tysięcy lokatorów! Gdzieś to *20* dla stróża trzeba umieścić. 
 

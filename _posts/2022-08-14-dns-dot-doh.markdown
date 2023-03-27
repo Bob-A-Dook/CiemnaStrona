@@ -198,7 +198,7 @@ Z tego co rozumiem, DNS nie musi należeć to tej samej firmy, która zapewnia h
 Wścibskie firmy telekomunikacyjne widzą od teraz tylko dwie rzeczy:
 
 * Adres IP serwera DNS. Ale to żadna tajemnica.
-* Adres IP odwiedzanej strony. Który nie jest problemem, jeśli pod tym samym adresem „mieszka” wiele różnych stron.
+* Adres IP naszego głównego adresata. Który nie jest problemem, jeśli pod tym samym adresem „mieszka” wiele różnych stron.
 
 Cała reszta komunikacji -- nawet najogólniejsze metadane -- jest zaszyfrowana. Jesteśmy chronieni przed niepożądanymi oczami.
 

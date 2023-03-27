@@ -165,27 +165,28 @@ W tym celu powstały **instytucje certyfikujące -- swego rodzaju niezależni pr
 
    Na każdej ze swoich kłódek oznaczają w&nbsp;jakiś sposób, dla jakiej strony ją wykonali. Możemy sobie wyobrazić, że na przykład wytłaczają na metalu charakterystyczny wzorek. Praktycznie niemożliwy do podrobienia. Do tego co pewien czas zmieniają ten wzór, dzięki czemu ma on *termin ważności*.
 
-2. Zwykli użytkownicy mogą im wysyłać zdjęcie wzoru z&nbsp;kłódki; odpisują wtedy, dla kogo wykonali tę kłódkę.
+2. Zwykli użytkownicy mogą im wysyłać zdjęcie wzoru z&nbsp;kłódki, jaką od kogoś dostali; odpisują wtedy, dla kogo wykonali tę kłódkę.
 
    {:.post-meta}
    Obecnie często stosuje się nieco inną metodę. Ale to opiszę w&nbsp;kolejnym wpisie.
 
-Jak to nas chroni w&nbsp;praktyce? Załóżmy, że podszywacz przechwycił pierwszą otwartą kłódkę, od piszącej z&nbsp;nami strony, i wysłał nam zamiast tego swoją.  
+Jak to nas chroni w&nbsp;praktyce? Załóżmy, że podszywacz przechwycił pierwszą otwartą kłódkę, od piszącej z&nbsp;nami strony&nbsp;X, i&nbsp;wysłał nam zamiast tego swoją.  
 Ale pracownicy naszej poczty (czyli, przypominam, przeglądarka) robią zdjęcie unikalnego wzoru na kłódce i&nbsp;wysyłają do certyfikatora.
 
 „Napisaliśmy do stronki X, odesłali nam taką kłódkę. Czy to ich wzór?”.  
 A jeśli wzór na kłódce nie należy do tego adresata, do którego powinien, to w&nbsp;przeglądarce wyskoczy wielkie, groźne ostrzeżenie.
 
+{:.bigspace-before}
 <img src="/assets/posts/https/bad-certificate-error.jpg" alt="Zrzut ekranu pokazujący komunikat ostrzegający przed nieważnym certyfikatem i&nbsp;mówiący, że połączenie nie jest zaufane."/>
 
 {:.figcaption}
 Ostrzeżenie, że kłódka jest, ale nie taka, jaka być powinna.  
 Tutaj akurat [przykład kontrolowany](https://expired-ecc-dv.ssl.com/) z&nbsp;*ssl.com*. Brzmi groźnie, ale w&nbsp;praktyce przyczyna bywa prozaiczna. Nieprzedłużenie ważności w&nbsp;terminie.
 
-Załóżmy ponadto, że przed każdym wysłaniem otwartych kłódek firmy wypalają na nich nazwę konkretnego adresata, do jakiego je wysyłają.
+Załóżmy ponadto, że przed każdym wysłaniem komuś otwartych kłódek firmy oznaczają w&nbsp;jakiś sposób, że to kłódki dla konkretnej osoby. Na przykład wypalają na nich nasz adres.
 
-Nie jest zatem możliwe zdobycie certyfikowanych otwartych kłódek stronki X&nbsp;przez udawanie zainteresowanego klienta, a&nbsp;potem użycie ich do podszywania się pod nią.  
-Złodupiec może co najwyżej posługiwać się własną kłódką z&nbsp;bazaru, z&nbsp;całkiem innym wzorem. Chyba że przejąłby firmę X, a&nbsp;to mało realne.
+Nie jest zatem możliwa sytuacja, kiedy ktoś udaje zainteresowanego klienta stronki/firmy&nbsp;X, zdobywa jej certyfikowane otwarte kłódki, a&nbsp;potem ich używa do podszywania się pod nią.  
+Złodupiec może co najwyżej posługiwać się własną kłódką z&nbsp;bazaru, z&nbsp;całkiem innym wzorem. Chyba że przejąłby całą firmę&nbsp;X, a&nbsp;to mało realne.
 
 W ten sposób rozwiązujemy problem podglądaczy i&nbsp;podszywaczy po drodze. Dzięki nowej wiedzy wiemy też, że „włączenie HTTPS-a” w&nbsp;praktyce oznacza dla strony:
 
