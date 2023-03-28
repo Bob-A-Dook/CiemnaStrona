@@ -131,7 +131,7 @@ Głośnym przykładem z&nbsp;ostatnich lat jest Pegasus -- nie tyle pojedynczy w
 
 A przejęcie kontroli nad telefonem oznacza też nieograniczony dostęp do mikrofonu. Zyskujemy podsłuch w&nbsp;tradycyjnym znaczeniu tego słowa.
 
-Ba, telefony nie są jedynym zagrożeniem! Według [dokumentów ujawnionych przez WikiLeaks](https://www.cbsnews.com/news/cia-hacked-samsung-smart-tvs-wikileaks-vault-7/), CIA posiadało narzędzia hakerskie pozwalające przejmować kontrolę nad telewizorami Samsunga i&nbsp;dobranie się do ich mikrofonów.
+Ba, telefony nie są jedynym zagrożeniem! Według [dokumentów ujawnionych przez WikiLeaks](https://www.cbsnews.com/news/cia-hacked-samsung-smart-tvs-wikileaks-vault-7/), CIA posiadało narzędzia hakerskie pozwalające przejmować kontrolę nad telewizorami Samsunga i&nbsp;dobierać się do ich mikrofonów.
 
 ...Tak, mikrofonów. Nie głośników. W&nbsp;przeciwieństwie do niektórych innych modeli, te od Samsunga mogą przyjmować polecenia głosowe od użytkowników, więc mają w&nbsp;zestawie mikrofony. Wymarzony cel.
 
@@ -222,7 +222,7 @@ W pewnym [artykule naukowym](https://web.archive.org/web/20170509095244/http://c
 Od teraz, pisząc „artykuł naukowy”, będę nawiązywał właśnie do PDF-a z&nbsp;linku. 
 
 {:.figure .bigspace-before}
-<img src="/assets/posts/apki/mikrofony/ultrasound-tracking-diagram.jpg" alt="Cztery mniejsze schematy ułożone w&nbsp;dwóch rzędach po dwa. Pokazują cztery zagrożenia związane z&nbsp;ultradźwiękami: łączenie urządzeń i&nbsp;deanonimizację. Każdy z&nbsp;nich pokazuje strzałkami kierunek przepływu informacji od użytkownika do adwersarza."/>
+<img src="/assets/posts/apki/mikrofony/ultrasound-tracking-diagram.jpg" alt="Cztery mniejsze schematy ułożone w&nbsp;dwóch rzędach po dwa. Pokazują cztery zagrożenia związane z&nbsp;ultradźwiękami: rozpoznawanie treści, łączenie urządzeń, lokalizowanie użytkownika i&nbsp;deanonimizację. Każdy z&nbsp;nich pokazuje strzałkami kierunek przepływu informacji od użytkownika do adwersarza, oznaczonego emotką uśmiechniętego diabełka."/>
 
 {:.figcaption}
 Źródło: artykuł naukowy. Przeróbki i&nbsp;tłumaczenie moje.
@@ -295,20 +295,23 @@ W podobny sposób dałoby się ustalić, że dwie osoby były w&nbsp;jednym mie
 
 Naciągane? Ale załóżmy na przykład, że to apka w&nbsp;stylu Pokemon Go. Popularna, więc wiele osób ją ma. Wymaga użycia kamery wraz z&nbsp;mikrofonem, żeby zobaczyć jakiegoś stworka w&nbsp;3D, nałożonego na krajobraz. I&nbsp;generuje stworki w&nbsp;losowych momentach, dla wszystkich, przez co wielu graczy sięga po telefony w&nbsp;tym samym czasie.
 
-Każda z&nbsp;apek nadaje ciche sygnały ze swoim unikalnym ID, a&nbsp;jednocześnie odbiera te z&nbsp;zewnątrz. Do producenta trafia informacja: „Gracze Anna K. oraz Sandra M. przebywają w&nbsp;tym samym miejscu”.  
+Każda z&nbsp;apek nadaje ciche sygnały ze swoim unikalnym ID, a&nbsp;jednocześnie odbiera te z&nbsp;zewnątrz. Do producenta trafia informacja: „Gracze Anna&nbsp;K. oraz Sandra&nbsp;M. przebywają w&nbsp;tym samym miejscu”.  
 Nawet jeśli mają wyłączone GPS-y i&nbsp;pod innymi względami się pilnują.
 
-Jeśli kogoś interesuje temat, to więcej informacji można znaleźć pod hasłem `Ultrasonic Cross-Device Tracking`, albo w&nbsp;skrócie `uXdt`.
+Jeśli kogoś interesuje temat, to więcej informacji można znaleźć pod hasłem `Ultrasonic Cross-Device Tracking`, albo w&nbsp;skrócie `uXdt`.  
+Pewien post z&nbsp;forum Hacker News zawiera z&nbsp;kolei [obszerną listę firm i&nbsp;projektów](https://news.ycombinator.com/item?id=21443767) związanych z&nbsp;biznesem ultradźwiękowym. 
 
 ### Śledzenie lokalizacji
 
 Wyżej mieliśmy przypadek sygnału unikalnego na poziomie urządzeń -- elektroniki konsumenckiej.  
 Ale źródła tajnych sygnałów w&nbsp;żadnym razie nie muszą być duże. Mogą to być również malutkie nadajniki, bezużyteczne dla konsumentów. Ale przydatne dla wścibskich firm.
 
-Jeśli każdy nadajnik wysyła nieco inny sygnał, to firma mogłaby je rozstawić w&nbsp;różnych miejscach.  
-Jeśli zbliżymy się do takiego nadajnika z&nbsp;włączonym mikrofonem i&nbsp;zainstalowaną wścibską apką, to jej twórca -- bez naszej wiedzy -- dowie się, w&nbsp;jakim miejscu byliśmy. Nawet jeśli wyłączyliśmy GPS-a, Bluetooth, Wi-Fi.
+Jeśli każdy nadajnik wysyła nieco inny sygnał, to firma mogłaby nakupić spory ich zapas, żeby je rozstawić w&nbsp;różnych miejscach.  
+Gdy zbliżymy się do któregoś z&nbsp;nich z&nbsp;włączonym mikrofonem i&nbsp;zainstalowaną wścibską apką, to odbierze ona unikalny sygnał nadajnika. Jej twórca -- bez naszej wiedzy -- dowie się, w&nbsp;jakim miejscu byliśmy. Nawet jeśli wyłączyliśmy GPS-a, Bluetooth, Wi-Fi.
 
-Więcej informacji na ten temat można znaleźć, szukając pod hasłem `audio beacon` albo `ultrasonic beacon`. Sam `beacon` to zresztą ogólne pojęcie i&nbsp;dotyczy nie tylko dźwięku, ale też choćby małych odbiorników wykorzystujących Bluetooth.
+Luźna myśl bez dowodów: gdyby nasze urządzenie miało głośnik zdolny do wytwarzania dźwięków wysokiej częstotliwości, to mogłoby to działać w&nbsp;drugą stronę. To nasze urządzenie nadaje, zaś mikroszpieg odbiera. Metoda raczej [mocno zależna od sprzętu](https://stackoverflow.com/questions/20153280/android-transmit-a-signal-using-ultrasound), ale nie wymagałaby pozwolenia na dostęp do mikrofonu.
+
+Więcej informacji na ten temat można znaleźć, szukając pod hasłem `audio beacon` albo `ultrasonic beacon`. Sam `beacon` to zresztą ogólne pojęcie i&nbsp;dotyczy nie tylko dźwięku, ale też choćby małych nadajników wykorzystujących Bluetooth.
 
 ### Deanonimizacja
 
