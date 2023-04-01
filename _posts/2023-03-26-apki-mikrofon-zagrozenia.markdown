@@ -125,7 +125,7 @@ Nieraz są też zintegrowani z&nbsp;różnymi funkcjami automatyki domowej, taki
 
 Ale oprócz nich są też „kowboje” -- młode, dynamiczne firmy z&nbsp;branży reklam śledzących; być może z&nbsp;krajów, gdzie nie martwią się przepisami ochrony danych. Albo zwykli oszuści. Albo służby.
 
-Wiem, że zaangażowanie tych ostatnich wydaje się mało realne. Ale niedawne wydarzenia z&nbsp;całego świata pokazały, że nie trzeba być Jamesem Bondem, żeby przeciw ludziom zostały użyte [bardziej szpiegowskie zabawki](https://zaufanatrzeciastrona.pl/post/zaawansowany-system-podsluchowy-wykryty-na-telefonach-w-polskich-sieciach/). Wystarczy głośno krytykować rządy, które nie lubią krytyki.
+Wiem, że zaangażowanie tych ostatnich wydaje się mało realne. Ale niedawne wydarzenia z&nbsp;całego świata pokazały, że nie trzeba być Jamesem Bondem, żeby zostać celem [bardziej szpiegowskich zabawek](https://zaufanatrzeciastrona.pl/post/zaawansowany-system-podsluchowy-wykryty-na-telefonach-w-polskich-sieciach/). Wystarczy głośno krytykować rządy, które nie lubią krytyki.
 
 Głośnym przykładem z&nbsp;ostatnich lat jest Pegasus -- nie tyle pojedynczy wirus, co [cały pakiet usług](https://payload.pl/czy-pegasus-jest-w-stanie-dalej-dzialac/) pozwalających przejąć kontrolę nad cudzym telefonem i&nbsp;podkradać informacje. Stosowany przez służby państwowe, które są mniej ograniczone prawem niż korporacje.
 

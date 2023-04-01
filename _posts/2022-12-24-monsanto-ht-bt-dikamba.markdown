@@ -199,7 +199,7 @@ Ilość herbicydów zużywanych na uprawach soi. Źródło: [Seed Money](https:/
 Ale może chociaż ta dodatkowa ilość pestycydów zostaje na polu, z&nbsp;dala od ludzi?
 
 Chciałbym. Ale kto czytał poprzedni wpis, ten już się chyba domyśla ciągu dalszego.  
-Nawet w&nbsp;Europie -- gdzie roślin RR nie ma, a&nbsp;jedynym źródłem glifosatu jest desykacja zbóż -- wciąż znajdziemy go w&nbsp;próbkach żywności i&nbsp;moczu.
+Nawet w&nbsp;Europie -- gdzie roślin RR nie ma, a&nbsp;jedynym źródłem glifosatu jest oprysk przed zasiewem i&nbsp;desykacja zbóż -- wciąż znajdziemy go w&nbsp;próbkach żywności i&nbsp;moczu.
 
 W USA, krainie Roundup Ready, [jest go jeszcze więcej](https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,glifosat---czy-powinien-byc-zakazany--gdzie-go-mozna-znalezc-,artykul,08853159.html). Badanie z&nbsp;2017 r., opublikowane w&nbsp;*Journal of the American Medical Association*, wykazało sześciokrotny wzrost ekspozycji Amerykanów na glifosat (od czasu wprowadzenia upraw RR).
 

@@ -154,7 +154,7 @@ Jeśli mamy szczęście, to artefakty zakryją nam akurat te poufne informacje, 
 
 ## Windows dołącza do gry
 
-Ktoś mógłby powiedzieć, że telefony Pixel, w&nbsp;dodatku o&nbsp;określonej wersji, to przypadek dość rzadki, więc raczej mało komu zaszkodził. Do tego wiele serwisów i&nbsp;portali społecznościowych od dawna kompresuje obrazki, czego nie przetrwałyby żadne nadmierne piksele.
+Ktoś mógłby powiedzieć, że telefony Pixel, w&nbsp;dodatku o&nbsp;określonej wersji, to przypadek dość rzadki, więc nasza apokalipsa mało komu zaszkodziła. Do tego wiele serwisów i&nbsp;portali społecznościowych od dawna kompresuje obrazki, czego nie przetrwałyby żadne nadmierne piksele.
 
 Platforma Discord, podana przez badaczy jako przykład, również od jakiegoś czasu [czyści obrazki](https://nitter.cz/BgJxSIaS1XLRWcl/status/1636907518881419264).  
 Telefony inne niż Pixele niekoniecznie korzystają z&nbsp;feralnej funkcji. Autor alternatywnego systemu GrapheneOS [wprost napisał](https://nitter.cz/GrapheneOS/status/1638402307560816647#m), że nie dotyczy ich to zagrożenie.
@@ -214,7 +214,7 @@ Dla ułatwienia podsyłam parę miejsc, w&nbsp;które warto zerkać:
 
 ## Czy to dla nas groźne?
 
-Choć Acropalypse jak najbardziej może ujawniać niektóre dane, warto zaznaczyć, że na szczęście byłby groźny tylko w&nbsp;szczególnych okolicznościach. **Muszą zajść wszystkie naraz**:
+Choć Acropalypse jak najbardziej może prowadzić do ujawnienia tajemnic, warto zaznaczyć że dotyczy tylko szczególnych okoliczności. **Musi zajść kilka rzeczy naraz**:
 
 1. Poza wyciętym obszarem jest coś prywatnego, czego byśmy nie chcieli ujawniać;
 2. Otwieramy plik konkretnym programem (Narzędzie Wycinania na Windowsie, Markup na Pixelu, ew. jakieś dotąd nieodkryte kombinacje), przycinamy go i&nbsp;zapisujemy pod taką samą nazwą
