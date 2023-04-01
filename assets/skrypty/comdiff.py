@@ -41,12 +41,16 @@ basicConfig( format='\n%(message)s\n' )
 def show( text ):
     print('', text, '', sep='\n')
 
-ERR = ''
 ADD_POST_AUTHOR_TO_FILENAME = True
+REMOVE_DEEPLINKS = True
+KEEP_NEUTRALIZED_DEEPLINKS = False
+VERBOSE_MODE = False
 
 ##################################
 # Importing BeautifulSoup for HTML
 ##################################
+
+ERR = ''
 
 BeautifulSoup, FeatureNotFound = None, None
 try:
@@ -177,7 +181,7 @@ def _get_ids_from_link( link: str ):
     '''
     l = urlparse(link)
     params = [p for p in l.query.split('&')
-              if not p.startswith('__cft__[0]')
+              if not p.startswith('__cft__[') #not only [0] since 2023
               and not p.startswith('__tn__')]
 
     # Get parent- and reply-level comment ids
@@ -322,8 +326,8 @@ def find_censored( post1, post2 ):
                 'niepełna')
 
     all_coms_num = len(annotated)
-    print(f'Wśród {all_coms_num} komentarzy było '
-          f'{all_coms_num-len(reduced)} domyślnie ukrytych')
+    print('Znaleziono komentarze ukryte w domyślnym trybie wyświetlania '
+          f'({all_coms_num-len(reduced)} / {all_coms_num})')
     return annotated
 
 
@@ -347,7 +351,6 @@ def _remove_large_vertical_padding( post ):
     
     for tag in tags_with_style_attr:
         style_info = tag.attrs['style']
-        print('S', style_info)
         pad = padding_finder.search( style_info )
         if pad:
             full_pad_info = pad.group(0)
@@ -391,6 +394,7 @@ def save_html_summary( annotated_comments, post1, post2 ):
         
     formatted = '\n'.join( formatted )
     content = (f'<html>\n<head>\n'
+               '<meta charset="utf-8">\n'
                f'<style>{FB_CSS}\n{CENSOR_CSS}\n</style>\n'
                '<link rel="stylesheet" href="fb.css" type="text/css"/></head>'
                f'<body style="margin-left:10px;margin-right:10px">\n'
@@ -400,7 +404,7 @@ def save_html_summary( annotated_comments, post1, post2 ):
     if not outpath.parent.exists(): outpath.parent.mkdir()
     with open( outpath, 'w') as out: out.write( content )
     
-    show(f'[OK]\nZapisano oznaczone komentarze do pliku:\n{outpath}')
+    show(f'[OK]\nZapisano wszystkie komentarze do pliku:\n{outpath}')
     return outpath
     
 ###########
@@ -566,12 +570,13 @@ def _get_post_data( post ):
     if not post_link: warning('Nie ustalono linku do posta')
     else:
         post_data['link'] = post_link
-        print(f'Ustalony link do posta:\n{post_link}')
+
+        if VERBOSE_MODE: print(f'Ustalony link do posta:\n{post_link}')
         
         author_link = _get_post_author( post, post_link, links_with_tags )
         post_data['author_link'] = author_link
         
-        if author_link:
+        if author_link and VERBOSE_MODE:
             print(f'Ustalony link do autora posta:\n{author_link}')
             res = re.search( 'www.facebook.com/(.*?)$', author_link)
             if res: post_data['author'] = res.group(1)
@@ -593,10 +598,10 @@ def _get_comment_number( post ):
             res = re.search('(\d+) komentarz', text)
             if res: return int( res.group(1) )
 
-    if not com_num:
-        warning('[BRAK] Nie znaleziono informacji o łącznej liczbie '
-                'komentarzy pod postem. Skrypt nie sprawdzi po pierwszym '
-                'rozwinięciu, czy są jakieś ukryte albo usunięte')
+##    if not com_num:
+##        warning('[BRAK] Nie znaleziono informacji o łącznej liczbie '
+##                'komentarzy pod postem. Skrypt nie sprawdzi po pierwszym '
+##                'rozwinięciu, czy są jakieś ukryte albo usunięte')
     return com_num
 
 
@@ -624,8 +629,71 @@ def _get_display_mode( post ):
                       
     if not dmode: warning('[BRAK] Nie ustalono trybu wyświetlania komentarzy')
     return dmode
-    
 
+
+def _remove_tracking_parameters( post ):
+    '''
+    Removes weird, possibly tracking parameters from all
+    links within the post and its comments. Leaves valuable parameters,
+    such as comment_id, unchanged.
+    '''
+    TRACKING_PARAMS = ('__tn__','utm_source','utm_campaign','fbclid')
+                       
+    hrefs = post.find_all( 'a', attrs={'href':True} )
+    cleaned_n = 0
+    for h in hrefs:
+        l = urlparse( h.attrs['href'] )
+        nontracking_params = [p for p in l.query.split('&')
+                              if not p.startswith('__cft__[')
+                              and not p.split('=')[0] in TRACKING_PARAMS]
+        params = '&'.join( nontracking_params )
+        params = f'?{params}' if params else ''
+        nontracking_link = f'{l.scheme}://{l.netloc}{l.path}{params}'
+        if nontracking_link != l:
+            cleaned_n += 1
+
+        # Replace the link in HTML element with the clean version
+        h.attrs['href'] = nontracking_link
+
+    if cleaned_n:
+        print('[INFO] Usunięto potencjalnie śledzące parametry z niektórych '
+              f'linków ({cleaned_n}).')
+        
+
+def _remove_src_deeplinks( post ):
+    '''
+    Removes all "src" attributes from images, so that the browser does
+    not attempt to fetch them from Facebook's website.
+    Works in two modes - by default, the "src" parameter is completely
+    removed. But if the KEEP_NEUTRALIZED_DEEPLINKS flag is set to True,
+    the "src" value is moved to a different "old_src" variable,
+    and it can be accessed programmatically in the future.
+    '''
+    if not REMOVE_DEEPLINKS and not KEEP_NEUTRALIZED_DEEPLINKS: return
+
+    xl = 'xlink:href'
+    external_elements = post.find_all( True, attrs={xl:True} )
+
+    changed_n = 0  
+    for tag in external_elements:
+        if REMOVE_DEEPLINKS:
+            tag.attrs[ xl ] = ''
+        elif KEEP_NEUTRALIZED_DEEPLINKS:
+            for tag in external_elements:
+                src = tag.attrs[ xl ]
+                tag.attrs['old_src'] = src
+                tag.attrs[ xl ] = ''
+
+        changed_n += 1
+
+    if changed_n:
+        if REMOVE_DEEPLINKS: change = 'Usunięto z posta'
+        elif KEEP_NEUTRALIZED_DEEPLINKS:
+            change = 'Zneutralizowano, ale zachowano'
+        print(f'[INFO] {change} linki do elementów zewnętrznych, '
+              f'głównie ikon użytkowników ({changed_n})')
+    
+    
 class FacebookPost:
     '''A class corresponding to a Facebook post along with its comments'''
 
@@ -719,10 +787,10 @@ def _display_greeting():
          'Pozwoli Ci ustalić, jakie komentarze Facebook ukrył w trybie '
          'domyślnym, a następnie oznaczy je w osobnym pliku.\n\n'
          'Aby wyświetlić instrukcję i listę skrótów klawiszowych, naciśnij '
-         'H i Enter')
+         'H i Enter.')
           
-    show('[WAŻNE] Program działa tylko na stronie Facebooka w polskiej '
-         'i angielskiej wersji językowej.')
+    print('[WAŻNE] Program działa tylko na stronie Facebooka w polskiej '
+         'i angielskiej wersji językowej.\n')
 
 
 def _display_help():
@@ -757,6 +825,7 @@ def _prompt_for_input( post1, post2 ):
     posts have been analyzed by the script.
     '''    
     if not post1:
+        print('='*8)
         show('[KROK 1] Skopiuj do schowka źródło HTML jakiegoś posta '
               'z Facebooka i naciśnij Enter.')
     else:
@@ -764,7 +833,8 @@ def _prompt_for_input( post1, post2 ):
         if post1.mode:
             if post1.mode == 'Wszystkie':
                 other_post_mode = 'Najtrafniejsze'
-                  
+
+        print('='*8)       
         show(f'[KROK 2] Teraz wybierz opcję "{other_post_mode}" pod tym '
               'samym postem, skopiuj jego kod HTML i naciśnij Enter.')
         
@@ -785,6 +855,7 @@ def _finalize_and_show_prompt( post1, post2 ):
     if censored and SAVE_REPORT:
         saved_file = save_html_summary( censored, post1, post2 )
 
+    print('='*8)
     m = ('[KONIEC] Możesz nacisnąć Enter, żeby opuścić program.\n'
          'Możesz też nacisnąć Z i Enter, żeby wrócić do poprzedniego kroku')
     if saved_file:
@@ -881,9 +952,6 @@ def _get_facebook_post( clip_text, post1 ):
         # if comments: parse_coms_only #TODO
 
     post, comments = post_info
-    if comments:
-        print(f'\n[OK]\nUzyskano komentarze! Ich liczba: {len(comments)}\n')
-        
     return FacebookPost( post, comments )
     
 
@@ -921,12 +989,20 @@ def run_interactive_mode():
 
         clip_text = clipboard_get()
         post = _get_facebook_post( clip_text, post1 )
+        
         if not post: continue
+
+        # Experimental, privacy-preserving transformations
+        _remove_src_deeplinks( post.html )
+        _remove_tracking_parameters( post.html )
+
+        print('\n[OK]\nPrzygotowano post! Liczba komentarzy: '
+              f'{len(post.comments)}\n')
             
         if not post1: post1 = post
         else: post2 = post
 
-        # After we get two proper posts with comments, we can compare them
+        # After we get two proper posts with comments, we compare them
         
         if post1 and post2:
             
@@ -946,7 +1022,7 @@ def run_interactive_mode():
 if __name__ == '__main__':
 
     if ERR:
-        error( ERR ) # Show close to the user, stop for a while
+        error( ERR ) # Pause and show it close to the bottom
         input()
     
     if LOADED_ALL_SUCCESSFULLY:
