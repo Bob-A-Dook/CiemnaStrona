@@ -86,7 +86,7 @@ A zatem czekali na parkingu.
 Proszą w&nbsp;nim o&nbsp;wsparcie i&nbsp;wzięcie odpowiedzialności za kłopotliwego podwykonawcę.
 
 7 kwietnia polska posłanka Paulina M. krótko streściła sprawę na Twitterze. Odpowiedziały jej głównie polityczne trolle, ale nie tylko.  
-Jeden z&nbsp;komentarzy pod tweetem rzucił w&nbsp;firmę transportową mocnym oskarżeniem. W&nbsp;odpowiedzi na to inny [napisał](https://nitter.cz/obserwatorliber/status/1644450661751222273#m):
+Jeden z&nbsp;komentarzy pod tweetem rzucił w&nbsp;firmę transportową mocnym oskarżeniem. W&nbsp;odpowiedzi na to inny [napisał](https://nitter.cz/Kubalongozny/status/1644509432108154884#m):
 
 {:.bigspace}
 {% include comment.html
@@ -95,9 +95,9 @@ source="twitter"
 text="Zwykły wiejski dziad trans, mafie to były w&nbsp;\[latach\] 90, a&nbsp;to jest śmieszny dorobkiewicz"
 %}
 
-To ostatnia wzmianka sprzed eskalacji, jaką znalazłem. Komentarz został umieszczony 8&nbsp;kwietnia w&nbsp;środku nocy, krótko po 1:00.
+Na tym etapie było więcej tego rodzaju sceptycznych albo oburzonych tweetów, ale niewiele poruszało temat konfrontacji. Ta wieść dopiero zaczynała się przebijać.
 
-Zaś w&nbsp;okolicach 11:00 tego samego dnia właściciel wrócił na teren parkingu z&nbsp;ekipą Rutkowskiego. Przyjechali pojazdem opancerzonym, wystrojeni w&nbsp;kamizelki taktyczne. I&nbsp;próbowali przejąć ciężarówki siłą.
+7&nbsp;kwietnia w&nbsp;okolicach 11:00 właściciel wrócił na teren parkingu z&nbsp;ekipą Rutkowskiego. Przyjechali pojazdem opancerzonym, wystrojeni w&nbsp;kamizelki taktyczne. I&nbsp;próbowali przejąć ciężarówki siłą.
 
 ## Walka o&nbsp;ciężarówki
 
@@ -299,7 +299,7 @@ Mając numer KRS jakiejś spółki, możemy również zerknąć do dokumentów, 
 
 Dla Luk Maza znajdziemy tam dwie pozycje, odpowiadające rocznym sprawozdaniom finansowym z&nbsp;lat 2019&nbsp;i&nbsp;2020. Po kliknięciu `Pokaż szczegóły`, a&nbsp;następnie `Pobierz dokumenty`, możemy pobrać pliki PDF oraz XML. Zrobiłem tak dla Luk Maza.
 
-Czasami ciekawe rzeczy -- jak nazwisko osoby tworzącej dokument -- można znaleźć w&nbsp;metadanych plików PDF. Dlatego odpalam na nich programik pdfinfo (część pakietu [Poppler](https://poppler.freedesktop.org/)).  
+Czasami ciekawe rzeczy -- jak nazwisko osoby tworzącej dokument -- można znaleźć w&nbsp;metadanych plików PDF. Dlatego odpalam na nich programik *pdfinfo* (część pakietu [Poppler](https://poppler.freedesktop.org/)).  
 Ale nic ciekawego nie znajduję, pola dotyczące autorów są puste.
 
 W przypadku plików XML mamy natomiast informację, że podpis elektroniczny złożyła Elżbieta M. (inne nazwisko niż Łukasz M.; ta sama, która była prokurentką Imperii).
