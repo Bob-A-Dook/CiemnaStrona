@@ -145,6 +145,9 @@ Na miejscu był również Łukasz M. -- właściciel trzech firm transportowych 
 
 Przez dłuższy czas mamy tylko rozmowy i&nbsp;zbieranie się dwóch grup -- kierowców i&nbsp;ludzi Rutkowskiego -- przy jednej z&nbsp;ciężarówek. Wokół cały czas stoi kilka osób z&nbsp;niemieckiej policji.
 
+{:.post-meta .bigspace-after}
+Niżej nawiązuję do czasówek z nagranego filmu.
+
 13:43 - ktoś (właściciel?) pyta inną postać o&nbsp;kluczyki od ciężarówki i&nbsp;zbliża się do drzwi. Dziennikarka mówi, zapewne do ludzi Rutkowskiego, „podejdźcie z&nbsp;panem”.  
 Kierowca stojący pod drzwiami nie wpuszcza nikogo do kabiny ciężarówki. Robi się kłębowisko, wokół drzwi zaczynają kotłować się kierowcy i&nbsp;grupa Rutkowskiego.
 
@@ -227,11 +230,11 @@ Nieracjonalna niechęć do cudzoziemców, forsowana choćby przez rosyjską prop
 
 Wydaje się, że ku tej sprawie zwróciło się już tyle oczu i&nbsp;społecznego oburzenia, że można odetchnąć i&nbsp;zająć się innymi rzeczami. Ale proponuję też popatrzeć szerzej, bo branża nie kończy się na jakimś Agmazie.
 
-Swego czasu miały miejsce protesty w&nbsp;indyjskiej placówce firmy Winstron, zaopatrującej Apple w&nbsp;części. [Została dosłownie zdemolowana](https://edition.cnn.com/2020/12/15/tech/apple-iphone-india-wistron-intl-hnk/index.html) przez wyzyskiwanych pracowników, którym próbowano nie płacić.
+Swego czasu miały miejsce protesty w&nbsp;indyjskiej placówce firmy Wistron, produkującej elektronikę dla Apple. [Została dosłownie zdemolowana](https://edition.cnn.com/2020/12/15/tech/apple-iphone-india-wistron-intl-hnk/index.html) przez wyzyskiwanych pracowników, którym próbowano nie płacić.
 
 W odpowiedzi na to Apple wyraziło zdumienie, że takie coś działo się u&nbsp;ich podwykonawców, zapowiedzieli dokładniejsze kontrole. Temat przycichł.
 
-Tak jak wówczas, tak i&nbsp;teraz mamy jakąś całkiem bogatą, choć mniejszą spółkę. Która bierze na siebie brudną robotę, wyciska z&nbsp;pracowników co się da... ale ostatecznie zarabia na zleceniach dla jakiegoś giganta.
+Tak jak wówczas, tak i&nbsp;teraz mamy jakąś całkiem bogatą, choć mniejszą spółkę. Która bierze na siebie brudną robotę, pracowników z&nbsp;biednych krajów, wyciska z&nbsp;nich co się da... ale ostatecznie zarabia na zleceniach dla jakiegoś giganta.
 
 A gigant zawsze jest czysty -- jeśli jego podwykonawca przesadzi, to może się zasłonić niewiedzą, obiecać zmiany. Demonstracyjnie zerwać współpracę. A&nbsp;potem po cichu ją wznowić, jesli uzna mniejszego gracza za zbyt dobrego *cebula deala*.
 
@@ -262,7 +265,7 @@ W ten sposób poznałem ich pełne nazwy oraz numery KRS, które następnie prze
 Co możemy zrobić ze zdobytymi odpisami?
 
 Po pierwsze -- **numery, jakie firmy mają w&nbsp;KRS-ie to niezmienne identyfikatory**. Dzięki nim można śledzić losy spółki. Niezależnie od jej nazwy, która może czasem ulegać zmianom.  
-Szukając po numerze, możemy na przykład sprawdzić za parę miesięcy, czy jakaś firma XYZ zmieniła nazwę na ABC albo na "XYZ w&nbsp;upadłości". 
+Szukając po numerze, możemy na przykład sprawdzić za parę miesięcy, czy jakaś firma XYZ zmieniła nazwę na ABC albo na „XYZ w&nbsp;upadłości”. 
 
 Numery dla naszych firm transportowych oraz ich obecne nazwy:
 
@@ -294,12 +297,12 @@ Patrząc na odpisy dla firm transportowych, można dojść do wniosku, że to fi
 
 Mając numer KRS jakiejś spółki, możemy również zerknąć do dokumentów, które ma obowiązek składać. W&nbsp;tym celu wklejamy nasz numer w&nbsp;[wyszukiwarkę od Ministerstwa Sprawiedliwości](https://ekrs.ms.gov.pl/rdf/pd/search_df).
 
-Dla Luk Maza znajdziemy tam dwie pozycje, odpowiadające rocznym sprawozdaniom finansowym z&nbsp;lat 2019&nbsp;i 2020. Po kliknięciu `Pokaż szczegóły`, a&nbsp;następnie `Pobierz dokumenty`, możemy pobrać pliki PDF oraz XML. Zrobiłem tak dla Luk Maza.
+Dla Luk Maza znajdziemy tam dwie pozycje, odpowiadające rocznym sprawozdaniom finansowym z&nbsp;lat 2019&nbsp;i&nbsp;2020. Po kliknięciu `Pokaż szczegóły`, a&nbsp;następnie `Pobierz dokumenty`, możemy pobrać pliki PDF oraz XML. Zrobiłem tak dla Luk Maza.
 
 Czasami ciekawe rzeczy -- jak nazwisko osoby tworzącej dokument -- można znaleźć w&nbsp;metadanych plików PDF. Dlatego odpalam na nich programik pdfinfo (część pakietu [Poppler](https://poppler.freedesktop.org/)).  
 Ale nic ciekawego nie znajduję, pola dotyczące autorów są puste.
 
-W przypadku plików XML mamy natomiast informację, że podpis elektroniczny złożyła Elżbieta M. (inne nazwisko niż Łukasz M.; ta sama, która byłaby prokurentką Imperii).
+W przypadku plików XML mamy natomiast informację, że podpis elektroniczny złożyła Elżbieta M. (inne nazwisko niż Łukasz M.; ta sama, która była prokurentką Imperii).
 
 Ciekawość może budzić fakt, że oba dokumenty, choć dotyczą różnych lat, mają ustawioną datę stworzenia (pole `CreationDate`) na 25&nbsp;maja 2022. W&nbsp;odstępie kilku minut od siebie.
 
@@ -316,7 +319,7 @@ W odpisach (pobranych w&nbsp;pierwszym kroku) widnieją również numery PESEL p
 
 Z oczywistych względów ich tu nie przytoczę. Ale mogę pokazać, jakie informacje da się dzięki nim znaleźć.
 
-Można mianowić odwiedzić [stronkę CRBR](https://crbr.podatki.gov.pl) (Centralnego Rejestru Beneficjentów Rzeczywistych) i&nbsp;wybrać tam wyszukiwarkę oraz opcję szukania po numerze PESEL, a&nbsp;następnie go wkleić.
+Można mianowicie odwiedzić [stronkę CRBR](https://crbr.podatki.gov.pl) (Centralnego Rejestru Beneficjentów Rzeczywistych) i&nbsp;wybrać tam wyszukiwarkę oraz opcję szukania po numerze PESEL, a&nbsp;następnie go wkleić.
 
 Zobaczymy spółki, nad którymi dana osoba sprawuje kontrolę w&nbsp;nieco subtelniejszy sposób (czyli np. poprzez większość udziałów ma kontrolę nad spółką A, która z&nbsp;kolei kontroluje spółkę B; takie rozplatanie łańcuszków powiązań).
 
