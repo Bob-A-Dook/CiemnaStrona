@@ -19,7 +19,7 @@ Istnieje jednak wiele sytuacji, kiedy wolelibyśmy mieć ich filmiki u&nbsp;sieb
 * Chcemy być wierni przysłowiu „Lepszy wróbel w&nbsp;garści...”.
 
 Niezależnie od naszych powodów, **rozwiązaniem jest _youtube-dl_**.  
-Bardzo wszechstronny program konsolowy do pobierania materiałów z&nbsp;YouTube'a ([i&nbsp;wielu innych stron](https://github.com/ytdl-org/youtube-dl/blob/master/docs/supportedsites.md)).
+Bardzo wszechstronny program konsolowy, którym da się pobierać filmiki z&nbsp;YouTube'a ([i&nbsp;wielu innych stron](https://github.com/ytdl-org/youtube-dl/blob/master/docs/supportedsites.md)).
 
 A ponieważ konsola może być dla wielu osób czymś nowym, napisałem ten przyjazny samouczek pokazujący, jak się z tym programikiem obchodzić.
 
@@ -72,30 +72,51 @@ Od teraz, kiedy wpiszemy w&nbsp;PowerShella `youtube-dl`, powinno nam wyświetla
 {:.figure .bigspace}
 <img src="/assets/tutorials/youtube-dl/youtube-dl-ekran.jpg" alt="Okno konsoli z&nbsp;wpisanym tekstem 'youtube-dl'. Pod spodem widać informację, że trzeba podać co najmniej jeden adres uRL."/>
 
-## Korzystanie
+## Zdobywanie linków
 
 Gdy już mamy konsolę i&nbsp;wiemy że działa, możemy pobierać do woli.
+
+{% include info.html
+type="Aktualizacja 2023"
+text="Niedawno kontrowersyjny wyrok niemieckiego sądu doprowadził do [ukarania stronki hostującej YtDl](https://torrentfreak.com/youtube-dl-hosting-ban-paves-the-way-to-privatized-censorship-230411/).  
+Walczyli o to producenci: Sony Entertainment, Warner Music Group oraz Universal Music. Wcześniej próbowali również strącić kod źródłowy programu, ale im się nie udało.  
+W związku z ich nagonką zmieniłem nieco treść samouczka. Pierwsza część pokazuje teraz ogólną metodę zdobywania linków z YouTube'a. Gdy na przykład chcemy je wysłać znajomym.  
+Część druga pokazuje używanie `youtube-dl` w *ogólnym* przypadku. W domyśle: na którejś z wielu stron, które nie mają z tym problemu.  
+Obie części są całkowicie ze sobą niezwiązane :smile:"
+%}
 
 Najpierw musimy odwiedzić YouTube'a, żeby zdobyć link do filmu. Jako przykładu użyję **satyrycznej reklamy *GmailMan* sprzed 10 lat**.  
 Wykonał ją Microsoft, żeby reklamować swoje usługi, a&nbsp;przy tym dać prztyczka w&nbsp;nos Google'owi i&nbsp;jego zwyczajowi zbierania danych z&nbsp;maili.
 
 Zgadzam się z&nbsp;jej sednem; ale jest w&nbsp;tym pewna ironia losu, patrząc na to, że sami od teraz [wymagają](https://www.theregister.com/2022/02/18/windows_11_insider_msa/) posiadania u&nbsp;siebie konta, żebyśmy mogli w&nbsp;ogóle używać Windowsa.
 
-Wracając do rzeczy! Po wejściu na stronkę kopiujemy link z&nbsp;paska:
+Wracając do rzeczy! Po wejściu na stronkę klikamy dwukrotnie link z&nbsp;paska i go kopiujemy:
 
 {:.figure .bigspace}
 <img src="/assets/tutorials/youtube-dl/gmail-man-kopiowanie-linka.jpg" alt="Zrzut ekranu z&nbsp;YouTube'a. Widoczna stopklatka z&nbsp;filmiku pokazuje uśmiechniętego mężczyznę trzymającego koperty w&nbsp;kształcie ikony Gmaila. Adres strony z&nbsp;górnego paska wyróżniono czerwoną ramką, a&nbsp;pod spodem dodano napis 'Control plus C'." />
 
-Następnie w&nbsp;konsoli wystarczy wpisać `youtube-dl`, potem spację, a&nbsp;potem wkleić link do filmu. Zostanie pobrany do tego samego folderu, w&nbsp;którym odpaliliśmy PowerShella, w&nbsp;najlepszej dostępnej jakości.
+Wygląda tak:
+
+{:.bigspace}
+```
+https://www.youtube.com/watch?v=9x4_dozWkq0
+```
+
+Na tym kończy się część dotycząca YouTube'a. Zdobyty link można wysłać znajomym.  
+Zaś wszystko poniżej dotyczy bliżej nieokreślonych, lubiących się z programikiem filmów.
+
+## Korzystanie z programu
+
+Aby pobierać filmik, wystarczy wpisać w&nbsp;konsoli `youtube-dl`, potem spację, a&nbsp;potem wkleić link do filmu. Zostanie pobrany do tego samego folderu, w&nbsp;którym odpaliliśmy PowerShella, w&nbsp;najlepszej dostępnej jakości.
 
 ```
-youtube-dl https://www.youtube.com/watch?v=9x4_dozWkq0
+youtube-dl LINK_DO_FILMU
 ```
 
 Czasem jednak nie potrzebujemy najbardziej odpicowanej wersji. W&nbsp;tej sytuacji możemy sobie wyświetlić listę dostępnych formatów, dopisując `-F`:
 
 ```
-youtube-dl -F https://www.youtube.com/watch?v=9x4_dozWkq0
+youtube-dl -F LINK_DO_FILMU
 ```
 
 Pokaże nam się coś w&nbsp;tym stylu:
@@ -106,7 +127,7 @@ Pokaże nam się coś w&nbsp;tym stylu:
 Po lewej stronie mamy liczby odpowiadające poszczególnym formatom, a&nbsp;po prawej stronie ich opisy. Żeby pobrać któryś z&nbsp;nich, wpisujemy `-f`, a&nbsp;potem liczbę odpowiadającą danej wersji. Czyli na przykład:
 
 ```
-youtube-dl -f 242 https://www.youtube.com/watch?v=9x4_dozWkq0
+youtube-dl -f 242 LINK_DO_FILMU
 ```
 
 **Uwaga:** Zwracajmy uwagę na opisy plików. Czasem, szczególnie w&nbsp;górnej części listy, mamy pliki będące samym dźwiękiem albo obrazem (*audio only* i&nbsp;*video only*). Gotowe kombinacje znajdziemy na końcu listy.
@@ -114,7 +135,7 @@ youtube-dl -f 242 https://www.youtube.com/watch?v=9x4_dozWkq0
 Oprócz liczb mamy też parę gotowych komend. Chcemy sam dźwięk (przydatne przy piosenkach)? Żaden problem, nie trzeba nawet wyświetlać listy formatów! Wpisujemy `-f bestaudio`.
 
 ```
-youtube-dl -f bestaudio https://www.youtube.com/watch?v=9x4_dozWkq0
+youtube-dl -f bestaudio LINK_DO_FILMU
 ```
 
 A jeśli chcemy jakieś nietypowe połączenie? Na przykład najniższą jakość obrazu i&nbsp;najwyższą dźwięku? Wpisujemy `-f`, liczbę odpowiadającą plikowi wideo, plusa i&nbsp;liczbę odpowiadającą plikowi audio (kolejność ważna!).
@@ -122,7 +143,7 @@ A jeśli chcemy jakieś nietypowe połączenie? Na przykład najniższą jakoś�
 Patrzę na listę szczegółów i&nbsp;widzę, że najmniejszy obraz ma rozdzielczość *256x144*, odpowiada mu liczba 278. A&nbsp;pliku audio nie wypatruję, tylko wpisuję gotowca:
 
 ```
-youtube-dl -f 278+bestaudio https://www.youtube.com/watch?v=9x4_dozWkq0
+youtube-dl -f 278+bestaudio LINK_DO_FILMU
 ```
 
 To tylko ułamek możliwości tego programiku. Pozwala m.in. na pobieranie całych playlist. Ale z&nbsp;tej funkcji akurat nie miałem potrzeby korzystać, więc na jej temat się nie wypowiem.
@@ -167,14 +188,13 @@ Innym razem sam filmik ma jakieś ograniczenia. Na przykład te wprowadzone prze
 ### Film niedostępny/usunięty
 
 W takim przypadku *youtube-dl* wyświetli `Video unavailable`.  
-Oznacza to zapewne, że film został usunięty między momentem wejścia na jego stronę a momentem skopiowania linka do konsoli.  
-Może usunął go autor, może YouTube'owa automatyczna moderacja.
+Oznacza to zapewne, że film został usunięty między momentem wejścia na jego stronę a momentem skopiowania linka do konsoli. Może usunął go autor, może automatyczna moderacja.
 
 Wyjątkowy pech. Zdarzyło mi się to dosłownie raz, niedawno.
 
-A Wasz film? Jeśli macie nadal otwartą stronę YouTube'a, to zapewne jesteście w stanie go nadal oglądać (serwis jeszcze będzie przez chwilę podtrzymywał połączenie, zanim usunie sam plik). Być może możecie go nawet odzyskać z pamięci podręcznej.
+A Wasz film? Jeśli macie nadal otwartą stronę, to zapewne jesteście w stanie go nadal oglądać (serwis jeszcze będzie przez chwilę podtrzymywał połączenie, zanim usunie sam plik). Być może możecie go nawet odzyskać z pamięci podręcznej.
 
-W każdym razie w takiej sytuacji gra się toczy o wysoką stawkę -- **gdy zamkniecie okno YouTube'a z tym filmem, to możecie już go nie zobaczyć**. Jeśli jest fajny, a nie wiecie jak wyłuskać z pamięci podręcznej, to może warto nawet odpalić jakieś *OBS Studio* i nagrać ekran wraz z dźwiękiem :wink:
+W każdym razie w takiej sytuacji gra się toczy o wysoką stawkę -- **gdy zamkniecie okno przeglądarki z tym filmem, to możecie już go nie zobaczyć**. Jeśli jest fajny, ale nie umielibyście go wyłuskać z pamięci podręcznej, to może warto nawet odpalić jakieś *OBS Studio* i nagrać ekran wraz z dźwiękiem :wink:
 
 ### Inne błędy
 

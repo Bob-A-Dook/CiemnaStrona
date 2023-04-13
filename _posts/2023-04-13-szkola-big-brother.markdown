@@ -44,7 +44,7 @@ Ale nie trzeba być fizykiem, żeby nieco wątpić w&nbsp;dziecięce przechwałk
 
 ## Szkoła nie widzi zbyt wiele
 
-Na wstępie zaznaczę, że nie odnoszę się tu do możliwości *analitycznych* systemu B3.  
+Na wstępie zaznaczę, że nie odnoszę się tu do możliwości *analitycznych* systemu&nbsp;B3.  
 Możliwe, że jest w&nbsp;tym całkiem dobry. Że, karmiony strumieniami danych, umiałby wyłapywać w&nbsp;nich ciekawe zależności, sygnały wskazujące nałóg albo myśli samobójcze.
 
 Ale z&nbsp;pustego i&nbsp;Salomon nie naleje. Mam mocne przeczucie, że w&nbsp;szkolnych realiach algorytm nie znalazłby dobrych danych wejściowych.
@@ -91,7 +91,7 @@ Korzystanie z&nbsp;internetu przypomina często korespondencję. Wysyłanie list
 
 Zaufane apki korzystające z&nbsp;internetu (przeglądarka, komunikatory...) są jak poczta.  
 Mówimy, że chcemy się z&nbsp;kimś skontaktować. Za kulisami szykują naszą prośbę, a&nbsp;po jakimś czasie powinniśmy otrzymać odpowiedź od adresata.  
-Szkoła nie ma możliwości przechwycić danych prosto od apek.
+Szkoła nie ma możliwości przechwycenia danych prosto od apek.
 
 **Infrastrukturę sieciową**, jak routery, można z&nbsp;kolei porównać do firmy kurierskiej. Bierze przesyłki od poczty i&nbsp;zawozi je we wskazane miejsce.  
 W naszym modelu **to właśnie w&nbsp;tym miejscu może dochodzić do podglądania**. „Firma może zatrudniać wścibskich listonoszy”.
@@ -118,7 +118,9 @@ text="Pomijając kwestię etyczną, jak rozumiem ten system bada tylko dane prze
 
 Obecnie często korzysta się z&nbsp;danych mobilnych. Wtedy to operatorzy sieci, tacy jak Play albo Orange, odpowiadają za nasze internetowe wojaże. Jeśli uczeń nie wybierze ręcznie, że chce korzystać ze szkolnego hotspota, to szkoła nie dostanie zupełnie nic.
 
-{:.bigspace-before}
+{:.figure .bigspace-before}
+<img src="/assets/posts/inwigilacja/szkola-big-brother/wifi-off-mobile-on.jpg" alt="Dwie ikony umieszczone obok siebie. Jedna na szaro, nieaktywna, podpisana Wi-Fi. Aktywna na niebiesko, podpisana Dane Mobilne" height="200px"/>
+
 <img src="/assets/posts/inwigilacja/szkola-big-brother/dane-mobilne-bez-routera.jpg" alt="Rysunkowy schemat pokazujący, jak strzałka odchodzi od telefonu komórkowego w&nbsp;kierunku anteny, a&nbsp;następnie do serwera. W&nbsp;dolnej części schematu widać router z&nbsp;czerwoną obwódką, do którego nie prowadzi żadna strzałka. Jest na niego nałożona ikonka oka ze łzą w&nbsp;kąciku." />
 
 {:.figcaption}
@@ -172,7 +174,7 @@ Uderzając w&nbsp;szyfrowanie, pewnie posłałoby się do grobu więcej osób, n
 {% include info.html
 type="Powiązane wpisy"
 text="Mam na blogu osobny wpis, [dokładniej omawiający HTTPS-a](/internetowa_inwigilacja/2022/08/13/https){:.internal}.  
-To przydatny sposób na podglądaczy z zewnątrz... Ale nie pomoże przeciw stronom, które odwiedzamy. Mam całą serię, na temat informacji, jakie mogą o&nbsp;nas zgromadzić. Począwszy od [wpisu o&nbsp;nagłówkach HTTP](/internetowa_inwigilacja/2021/01/11/internetowa-inwigilacja-1-podstawy){:.internal}."
+To przydatny sposób na podglądaczy z zewnątrz... Ale nie pomoże przeciw stronom, które odwiedzamy. Mam całą serię na temat informacji, jakie mogą o&nbsp;nas zgromadzić. Począwszy od [wpisu o&nbsp;nagłówkach HTTP](/internetowa_inwigilacja/2021/01/11/internetowa-inwigilacja-1-podstawy){:.internal}."
 %}
 
 ### School-in-the-middle?
@@ -187,15 +189,21 @@ Szyfrowana wymiana odbywa się w&nbsp;kilku etapach:
 3. My również odsyłamy swoją kłódeczkę, nie dzieląc się kluczem.
 4. Od tej pory wysyłamy sobie rzeczy w&nbsp;pancernych sejfach; każdy zamknięty na kłódkę drugiej strony, którą tylko ona może otworzyć.
 
-Gdyby te wszystkie prośby szły przez szkolny router, to ten **mógłby „stanąć na drodze” korespondencji**. Przechwycić kłódkę naszego adresata, wyrzucić ją do kosza, wysłać nam zamiast niej swoją własną (do której ma klucz). To samo w&nbsp;drugą stronę.
+{:.post-meta .bigspace-after}
+Mój opis to przede wszystkim intuicja; jeśli kogoś interesują technikalia, to fajny opis ma [stronka Moserware](http://www.moserware.com/2009/06/first-few-milliseconds-of-https.html).
+
+Gdyby te wszystkie przesyłki szły przez szkolny router, to ten **mógłby „stanąć na drodze” korespondencji**. Przechwycić kłódkę naszego adresata, wyrzucić ją do kosza, wysłać nam zamiast niej swoją własną (do której ma klucz). To samo w&nbsp;drugą stronę.
 
 Od tej pory mógłby czytać korespondencję obu stron. Taki atak nosi nazwę [MITM](https://pl.wikipedia.org/wiki/Atak_man_in_the_middle). *Man-in-the-Middle*, „Człowiek pośrodku”.  
 I nie jest jakąś moją fantazją, tylko [realiami w&nbsp;niektórych organizacjach](https://security.stackexchange.com/questions/107542/is-it-common-practice-for-companies-to-mitm-https-traffic).
 
 Tylko że szans na tajny podsłuch to tu nie ma. Właściciel strony korzystającej z&nbsp;HTTPS dostaje od „producenta kłódek” swoje własne, tylko dla siebie. Oznaczone certyfikatem producenta.  
-Zaś zamkniętą listę zaufanych producentów trzyma u&nbsp;siebie nasza przeglądarka.
+Zaś zamkniętą listę zaufanych certyfikatów trzyma u&nbsp;siebie nasza przeglądarka.
 
-Jeśli zatem Magda pisała do stronki *blog-juli.pl*, a&nbsp;dostanie w&nbsp;odpowiedzi kłódkę *school-watcher.org*, to jej przeglądarka się zorientuje. I&nbsp;wyświetli wielkie, groźne ostrzeżenie. Czasem da się przez nie przeklikać, ale zwykle odstraszy ludzi.
+Jeśli zatem Magda pisała do stronki *blog-juli.pl*, a&nbsp;dostanie w&nbsp;odpowiedzi kłódkę *szkolny-wielki-brat.org*, to jej przeglądarka się zorientuje. I&nbsp;wyświetli wielkie, groźne ostrzeżenie. Czasem da się przez nie przeklikać, ale zwykle odstraszy ludzi.
+
+{:.post-meta .bigspace-after}
+Jeśli ktoś chce zobaczyć przykład, to można odwiedzić [demo na stronce *badssl.com*](https://self-signed.badssl.com/).
 
 Szkoła mogłaby teoretycznie wyciszyć ostrzeżenia, prosząc uczniów o&nbsp;dodanie jej certyfikatów do tej przeglądarkowej listy dozwolonych. Tak już robił [co najmniej jeden amerykański college](https://security.stackexchange.com/questions/104576/my-college-is-forcing-me-to-install-their-ssl-certificate-how-to-protect-my-pri).
 
@@ -209,7 +217,7 @@ Zaś inne aplikacje mogą mieć w&nbsp;siebie wkodowane [instrukcje absolutne](h
 Szkoła zostanie najprawdopodobniej z&nbsp;samymi ogólnikami. Metadanymi. Czy są w&nbsp;stanie ujawnić cokolwiek o&nbsp;nastroju uczniów?  
 Właściwie tylko wtedy, kiedy sama nazwa odwiedzanej strony coś sugeruje. Jak `mam-straszna-depresje.pl` (zmyśliłem, nie patrzyłem czy istnieje).
 
-W innym razie? Ogólnie rzecz biorąc, **z metadanych da się trochę wyczytać. Ale raczej w&nbsp;dłuższym okresie**. Gdy widzimy czyjeś zachowanie dzień w&nbsp;dzień, bo na przykład jesteśmy firmą telekomunikacyjną. 
+W innym razie? Ogólnie rzecz biorąc, **z&nbsp;metadanych da się trochę wyczytać. Ale raczej w&nbsp;dłuższym okresie**. Gdy widzimy czyjeś zachowanie dzień w&nbsp;dzień, bo na przykład jesteśmy firmą telekomunikacyjną. 
 
 Szkoła nie ma takiej opcji, bo widzi dzieci tylko przez wycinek ich dnia. I&nbsp;to ten, kiedy mogą nie mieć poczucia prywatności, więc się nie zwierzają ani nie szukają prochów w&nbsp;sieci.
 
@@ -284,14 +292,14 @@ Podsumowując: nieco wątpię w&nbsp;tę możliwość swobodnego czytania Messen
 type="Ciekawostka"
 text="Komuś mogło się obić o&nbsp;uszy, żeby lepiej korzystać z&nbsp;Signala, a&nbsp;nie Messengera, bo ten pierwszy ma *szyfrowanie end-to-end*. Czy to nie sugeruje, że jednak da się dobrać do Messengera?  
 Nie, to osobna kwestia. Po prostu korzystając z&nbsp;Messengera, nie jesteśmy chronieni *przed samym Facebookiem*, bo ten ma po drodze wgląd do wiadomości.  
-Signal takiego wglądu nie ma, chroni nas nawet przed samym sobą.  
+Signal takiego wglądu nie ma, chroni nas nawet przed swoimi autorami.  
 Nie zmienia to jednak faktu, że oba komunikatory są odporne na *osoby podglądające z&nbsp;zewnątrz*."
 %}
 
 ## Firma Aiseclab
 
 Czytając artykuł z&nbsp;gazety, mógłbym łatwo się podjarać i&nbsp;ulec przysłowiowemu *hype'owi*.  
-„Nowoczesny system!”. „Kupują go firmy z&nbsp;Fortune 500&nbsp;i agencje rządowe!”. „Szkoły na razie nie mają, ale może wkrótce będą miały!”.
+„Nowoczesny system!”. „Kupują go firmy z&nbsp;Fortune&nbsp;500 i&nbsp;agencje rządowe!”. „Szkoły na razie nie mają, ale może wkrótce będą miały!”.
 
 Inwestor entuzjastyczny mógłby w&nbsp;tej sytuacji brać i&nbsp;kupić cokolwiek, co pozwoli mu mieć udziały w&nbsp;odpowiedniej spółce.  
 Ale można również inwestować w&nbsp;oparciu o&nbsp;dane. Na przykład zaglądając do [oficjalnej wyszukiwarki KRS-u](https://wyszukiwarka-krs.ms.gov.pl/) i&nbsp;wpisując nazwę firmy.
@@ -316,16 +324,18 @@ Zaś od marca 2022&nbsp;roku -- EquiTech. FIZAN, czyli Fundusz Inwestycyjny Zamk
 {:.bigspace}
 > FIZAN podlegają szczególnym ograniczeniom ustawowym, jak i&nbsp;kontrolnym. Oznacza to tyle, że niewiele jest o&nbsp;nich informacji ogólnodostępnych, ponieważ takie informacje mogą być kierowane wyłącznie do jego uczestników, czyli posiadaczy certyfikatów. \[oferta\] może być skierowana jedynie do 149&nbsp;inwestorów, a&nbsp;minimalna kwota inwestycji, zgodnie z&nbsp;zapisem ustawowym, stanowi równowartość kwoty 40.000 EUR
 
-No cóż, trochę za wysoka dla mnie ta kwota wejścia. Przy tym konkretnym funduszu zastanawia też nieco [wzmianka z&nbsp;2021 roku](https://pap-mediaroom.pl/biznes-i-finanse/komunikat-knf-16) na stronie PAP:
+No cóż, trochę za wysoka dla mnie ta kwota wejścia. Przy tym konkretnym funduszu zastanawia też nieco [wzmianka z&nbsp;2021&nbsp;roku](https://pap-mediaroom.pl/biznes-i-finanse/komunikat-knf-16) na stronie PAP:
 
 {:.bigspace}
 > \[KNF nakłada karę na MM Prime\] w&nbsp;wysokości 100&nbsp;000 złotych za niedokonanie wypłaty całości kwoty \[uczestnikom obecnego\] EquiTech Fundusz Inwestycyjny Zamknięty Aktywów Niepublicznych
  
 Nieco też mnie zaskoczyło, że można dostać przyrostek „w&nbsp;likwidacji” ([pod koniec 2020&nbsp;roku](http://komunikaty.rp.pl/komunikaty/KomunikatPdf/65953)), a&nbsp;potem jeszcze sobie raźno zdobywać udziały. Taki trochę fundusz-zombie.
 
-Samemu Aiseclabowi pozostaje życzyć więcej szczęścia niż spotkało jego udziałowca. Gdyby udało im się poczytać wiadomości z&nbsp;uczniowskich Messengerów i&nbsp;nie tylko, to całkiem możliwe, że ich algorytm odnalazłby w&nbsp;nich skarby.
+Samemu Aiseclabowi pozostaje życzyć więcej szczęścia niż spotkało jego udziałowca. Gdyby byli w&nbsp;stanie czytać wiadomości z&nbsp;uczniowskich Messengerów, to całkiem możliwe, że ich algorytm odnalazłby w&nbsp;nich skarby.
 
 ## Źródła obrazków
+
+Schemat pokazujący użycie danych mobilnych zamiast wi-fi:
 
 * [smartfon](https://emojipedia.org/mobile-phone/) -- Emojipedia, wariant JoyPixels;
 * [maszt telefoniczny](https://www.flaticon.com/free-icon/antenna_2911949) -- Flaticon (autor: Freepik);
