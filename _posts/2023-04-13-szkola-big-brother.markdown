@@ -119,7 +119,7 @@ text="Pomijając kwestię etyczną, jak rozumiem ten system bada tylko dane prze
 Obecnie często korzysta się z&nbsp;danych mobilnych. Wtedy to operatorzy sieci, tacy jak Play albo Orange, odpowiadają za nasze internetowe wojaże. Jeśli uczeń nie wybierze ręcznie, że chce korzystać ze szkolnego hotspota, to szkoła nie dostanie zupełnie nic.
 
 {:.figure .bigspace-before}
-<img src="/assets/posts/inwigilacja/szkola-big-brother/wifi-off-mobile-on.jpg" alt="Dwie ikony umieszczone obok siebie. Jedna na szaro, nieaktywna, podpisana Wi-Fi. Aktywna na niebiesko, podpisana Dane Mobilne" height="200px"/>
+<img src="/assets/posts/inwigilacja/szkola-big-brother/wifi-off-mobile-on.jpg" alt="Dwie ikony umieszczone obok siebie. Jedna na szaro, nieaktywna, podpisana Wi-Fi. Aktywna na niebiesko, podpisana Dane Mobilne" style="max-width:20%"/>
 
 <img src="/assets/posts/inwigilacja/szkola-big-brother/dane-mobilne-bez-routera.jpg" alt="Rysunkowy schemat pokazujący, jak strzałka odchodzi od telefonu komórkowego w&nbsp;kierunku anteny, a&nbsp;następnie do serwera. W&nbsp;dolnej części schematu widać router z&nbsp;czerwoną obwódką, do którego nie prowadzi żadna strzałka. Jest na niego nałożona ikonka oka ze łzą w&nbsp;kąciku." />
 
