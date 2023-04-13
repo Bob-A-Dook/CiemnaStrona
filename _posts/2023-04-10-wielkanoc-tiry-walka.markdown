@@ -284,9 +284,9 @@ W przypadku Imperii sprawa jest nieco ciekawsza.
 <img src="/assets/posts/afery/wielkanoc-tiry/imperia-logistyka-krs.jpg" alt="Zestaw osi czasu dla firmy Imperia Logistyka Sp. z&nbsp;o.o. Wszystkie zaczynają się 14 grudnia 2017&nbsp;roku, oś dla nazwy firmy nic się nie zmieniała. Następowały natomiast zmiany w&nbsp;składzie wspólników oraz zarządu"/>
 
 * Najpierw jej udziałowcami oraz jednocześnie członkami zarządu były dwie osoby, możliwe że zupełnie niezwiązane z&nbsp;rodziną.
-* W&nbsp;maju 2018&nbsp;roku nastąpiła spora zmiana. Fotel prezesa przejął Adam K., zaś Łukasz M. przez pewien czas był jedynym udziałowcem.
-* Krótko potem oddał udziały Wojciechowi M. (inne nazwisko niż Łukasz).
-* W&nbsp;marcu 2018&nbsp;roku prezesem został Ireneusz M.  
+* W&nbsp;maju 2018&nbsp;roku nastąpiła spora zmiana. Fotel prezesa przejął Adam&nbsp;K., zaś Łukasz&nbsp;M. przez pewien czas był jedynym udziałowcem.
+* Krótko potem oddał udziały Wojciechowi&nbsp;M. (inne nazwisko niż Łukasz).
+* W&nbsp;marcu 2020&nbsp;roku prezesem został Ireneusz&nbsp;M.  
   (takie samo nazwisko jak Łukasz, według numerów PESEL dwa lata różnicy. Obstawiam brata, ale nie sprawdzałem). 
 
 Wykres nie pokazuje nam, że Łukasz M. od Luk Maza jest oprócz tego prokurentem w&nbsp;Imperii. Przez jakiś czas tę funkcję sprawowała też niejaka Elżbieta M. (inne nazwisko, jeszcze się pojawi). Ale nie wiem, jakie możliwości im to dawało w&nbsp;praktyce, więc tylko krótko o&nbsp;tym wspominam.
