@@ -159,13 +159,13 @@ Ale jeśli włączyła u&nbsp;siebie HTTPS (co na niektórych hostingach jest kw
 {:.figure .bigspace}
 <img src="/assets/posts/inwigilacja/szkola-big-brother/dane-przyklad-https.jpg" alt="Obrazek identyczny jak poprzednio, ale tym razem wszystko poniżej metadanych jest zakryte jednolitym szarym prostokątem. W&nbsp;jego rogu znajduje się ikona kłódki."/>
 
-Dowiedziliby się tylko, że Magda nawiązała ze stronką Juli szyfrowaną korespondencję. A&nbsp;potem już nieprzeniknione, zaszyfrowane bryły. Patrząc tylko na ruch sieciowy, nie widzieliby, jakie podstrony odwiedzała dziewczyna, ani na czym polegały jej interakcje. Widzieliby tylko:
+Dowiedzieliby się tylko, że Magda nawiązała ze stronką Juli szyfrowaną korespondencję. A&nbsp;potem już nieprzeniknione, zaszyfrowane bryły. Patrząc tylko na ruch sieciowy, nie widzieliby, jakie podstrony odwiedzała dziewczyna, ani na czym polegały jej interakcje. Widzieliby tylko:
 
 * rozmiar przesyłanych danych,
 * czas ich przesłania,
 * najogólniejszy adres odwiedzanych stron (domenę).
 
-  A&nbsp;gdyby ktoś używał pośrednika sieciowego (*proxy*, VPN, Tor), to ta ostatnia informacja byłaby bezużyteczna.
+  A&nbsp;gdyby Magda używała pośrednika sieciowego (*proxy*, VPN, Tor), to ta ostatnia informacja byłaby bezużyteczna. Wskazywałaby pośrednika, nie faktycznego adresata.
 
 I zanim ktoś spróbuje się naindyczać, że brak HTTPS-a by tu pomógł, a&nbsp;zatem może trzeba go zakazać -- myślę że znacznie więcej osób zostałoby poszkodowanych taką zmianą. Przechwycone hasła bankowe, prywatna korespondencja użyta potem do szantażu...
 
@@ -253,7 +253,7 @@ Tym bardziej mnie zdziwiło jedno zdanie, które pojawia się w&nbsp;[artykule](
 
 Osobom widzącym tę luźną wzmiankę o&nbsp;czytaniu Messengera może się tutaj zapalić czerwona lampka w&nbsp;głowie. I&nbsp;nie dlatego, że to narusza prywatność. Tylko dlatego, że **to praktycznie niemożliwe od strony technicznej**.
 
-Co gorsza, nie jest są to jakieś domysły dziennikarzy; **to słowa samego założyciela firmy**. Autorów systemu.
+Co gorsza, nie są to jakieś domysły dziennikarzy; **to słowa samego założyciela firmy**. Autorów systemu.
 
 Jak pisałem wyżej, dane przesyłane przez Messengera oraz większość aplikacji są szyfrowane. Zwyczajnie nie ma możliwości dobrania się do nich przez samo przeglądanie ruchu sieciowego.
 
@@ -262,7 +262,7 @@ A gdyby szkoła zachęcała uczniów do zainstalowania własnej aplikacji? Czy t
 
 ### Apka apce tajniakiem
 
-To całkiem rozsądne pytanie! Zwłaszcza jeśli ktoś wychował się na komputerach osobistych, gdzie jeden program może zaglądać do drugiego. Nieraz *cheaty* do gier opierały się wręcz na aktywnym podmienianiu kodu.
+To całkiem rozsądne pytanie! Zwłaszcza jeśli ktoś wychował się na komputerach osobistych, gdzie jeden program może zaglądać do drugiego. Nieraz *cheaty* do gier opierały się wręcz na aktywnym podmienianiu cudzego kodu.
 
 Tylko że **w przypadku aplikacji mobilnych jest inaczej -- jedna apka nie może zaglądać do plików innej**. Każda ma swoją prywatną przegródkę.
 
@@ -290,7 +290,7 @@ Podsumowując: nieco wątpię w&nbsp;tę możliwość swobodnego czytania Messen
 
 {% include info.html
 type="Ciekawostka"
-text="Komuś mogło się obić o&nbsp;uszy, żeby lepiej korzystać z&nbsp;Signala, a&nbsp;nie Messengera, bo ten pierwszy ma *szyfrowanie end-to-end*. Czy to nie sugeruje, że jednak da się dobrać do Messengera?  
+text="Komuś mogło się obić o&nbsp;uszy, że lepiej korzystać z&nbsp;Signala, a&nbsp;nie Messengera, bo ten pierwszy ma *szyfrowanie end-to-end*. Czy to nie sugeruje, że jednak da się dobrać do Messengera?  
 Nie, to osobna kwestia. Po prostu korzystając z&nbsp;Messengera, nie jesteśmy chronieni *przed samym Facebookiem*, bo ten ma po drodze wgląd do wiadomości.  
 Signal takiego wglądu nie ma, chroni nas nawet przed swoimi autorami.  
 Nie zmienia to jednak faktu, że oba komunikatory są odporne na *osoby podglądające z&nbsp;zewnątrz*."
