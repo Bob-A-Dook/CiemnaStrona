@@ -1175,8 +1175,7 @@ def create_krs_timeline( company_info, pdf_path,
     # Format name for display and use it on the graphs
     if krs_id and name: name = f'KRS {krs_id}\n({name})'
     plt = construct_timelines( events, last_date, name )
-    if not plt:
-        raise TimelineCreationError( 'Błąd podczas tworzenia wykresów' )
+    if not plt: return
 
     if USE_INFO_TAG: info_tag = _make_info_tag( info_to_get )
     else: info_tag = ''
