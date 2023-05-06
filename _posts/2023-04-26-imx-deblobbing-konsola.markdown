@@ -31,7 +31,7 @@ Współczesne telefony zawierają wiele różnych elementów. Modem. Układ obs�
 
 Tymi fizycznymi częściami steruje pewien szczególny rodzaj programów, nazywanych *firmware'em*. Są zwykle stworzone przez producentów i&nbsp;ściśle zintegrowane z&nbsp;funkcjami fizycznych części.
 
-Są również nieprzeniknione -- to często bloki złożone z&nbsp;zer i&nbsp;jedynek. Dokładny opis ich funkcji nie jest publicznie dostępny. Żargonowo nazywa się je *binary large objects*, duże obiekty binarne. Nieformalny skrót to *bloby*.
+Są również nieprzeniknione -- to często bloki złożone z&nbsp;zer i&nbsp;jedynek, w których kryje się wiele nieopisanych funkcji. Żargonowo nazywa się je *binary large objects*, duże obiekty binarne. Nieformalny skrót to *bloby*.
 
 Ich nieprzejrzystość jest problemem -- nie wiadomo, czy nie działają na szkodę użytkowników, na przykład wysyłając ukradkiem informacje (dotyczy to zwłaszcza blobów w&nbsp;modemie).  
 A nawet jeśli nie, to mogą mieć jakieś luki w&nbsp;zabezpieczeniach, które kiedyś pozwoliłyby hakerom dobrać się do naszych urządzeń.
@@ -223,7 +223,7 @@ A on z&nbsp;kolei wyłapuje te z&nbsp;nich, które gdzieś w nazwie (tu: gdziek
 To samo osiągnęlibyśmy w&nbsp;zwykłym Eksploratorze Plików, naciskając `Ctrl+F` i&nbsp;wpisując słowo *hdmi*.
 
 {:.figure .bigspace}
-<img src="/assets/posts/apki/imx_firmware/find-alternatywa.jpg" alt="Okno Eksploratora Plików na sytsemie Linux Mint, pokazujące ikony czterech plików w&nbsp;wynikach wyszukiwania, a&nbsp;nad nimi pasek wyszukiwanie ze wpisanym słowem 'hdmi'."/>
+<img src="/assets/posts/apki/imx_firmware/find-alternatywa.jpg" alt="Okno Eksploratora Plików na systemie Linux Mint, pokazujące ikony czterech plików w&nbsp;wynikach wyszukiwania, a&nbsp;nad nimi pasek wyszukiwanie ze wpisanym słowem 'hdmi'."/>
 
 Byłoby to nawet nieco precyzyjniejsze. Nie pokazuje nam bowiem tych plików, które jedynie znajdują się w&nbsp;podfolderze *hdmi*, ale same nie mają tego tekstu w&nbsp;nazwie.
 
@@ -237,7 +237,7 @@ cd firmware-imx-8.0/firmware/hdmi/cadence
 
 Jego nazwa to skrót od *change directory*. „Przejdź do innego folderu”. I&nbsp;dokładnie to robi ten program, kiedy poda mu się ścieżkę tegoż folderu.
 
-A dlaczego autor nie musi podawać pełnej ścieżki? Tego, co na Windowsie zaczynałoby się na przykład od `C://`?
+A dlaczego autor nie musi podawać pełnej ścieżki? Tego, co na Windowsie zaczynałoby się na przykład od `C:\`?
 
 Bo swoją konsolę uruchomił w&nbsp;tym samym folderze co plik *.bin*. To on jest dla niego aktywnym folderem, punktem odniesienia. Wystarczy używać ścieżek *względnych* wobec niego.
 
@@ -262,7 +262,7 @@ Wydaje mi się, że w&nbsp;tym miejscu autor zrobił literówkę (albo coś zmie
 Binwalk odnalazł w&nbsp;naszym pliku tajemniczy „certyfikat w&nbsp;formacie DER”:
 
 {:.figure .bigspace}
-<img src="/assets/posts/apki/imx_firmware/imx-cert-found.jpg" alt="Zrzut ekranu z&nbsp;konsoli pokazujący omunikat mówiący, że od bajtu 103636&nbsp;zaczyna się certyfikat"/>
+<img src="/assets/posts/apki/imx_firmware/imx-cert-found.jpg" alt="Zrzut ekranu z&nbsp;konsoli pokazujący komunikat mówiący, że od bajtu 103636 zaczyna się certyfikat w formacie DER."/>
 
 Tutaj niestety mam złą wiadomość dla użytkowników Windowsa chcących sprawdzić wyniki. **Binwalk jest dość mocno przystosowany do Linuksa**; do tego stopnia, że oficjalna strona ma instrukcje instalacji działające tylko na nim.
 
