@@ -101,7 +101,7 @@ Ale czy bylibyśmy w&nbsp;stanie symulować w&nbsp;głowie, jak *dokładnie* to 
 Nie, i&nbsp;nie musimy. Nie trzeba rozumieć procesu na poziomie *mikro*, żeby znać jego ogólny przebieg i&nbsp;czerpać z&nbsp;niego korzyści.
 
 I podobnie jest z&nbsp;algorytmami nazywanymi AI.  
-Kiedy czytamy w&nbsp;mediach „naukowcy nie rozumieją, jak to działa”, to **nie chodzi o&nbsp;to, że ich umysły są bezsilne wobec jakieś nowej, cyfrowej świadomości. A&nbsp;jedynie o&nbsp;to, że obliczenia są zbyt złożone dla ludzkich mózgów**. Ale człowiek jest w&nbsp;stanie z&nbsp;grubsza przewidzieć efekt końcowy.
+Kiedy czytamy w&nbsp;mediach „naukowcy nie rozumieją, jak to działa”, to **nie chodzi o&nbsp;to, że ich umysły są bezsilne wobec jakiejś nowej, cyfrowej świadomości. A&nbsp;jedynie o&nbsp;to, że obliczenia są zbyt złożone dla ludzkich mózgów**. Ale człowiek jest w&nbsp;stanie z&nbsp;grubsza przewidzieć efekt końcowy.
 
 O ile oczywiście przyjmie poprawne założenia. W&nbsp;przeciwnym razie może się zdarzyć spektakularny, nieprzewidziany błąd. Tak w&nbsp;blenderze, jak i&nbsp;w algorytmie.
 
@@ -115,7 +115,7 @@ Algorytmy też takie bywają. Potrafią sprawnie działać w&nbsp;większości p
 Spójrzmy dla rozluźnienia na parę historycznych przypadków takich spektakularnych wpadek:
 
 * Rozpoznawarka obrazu z&nbsp;Dysku Google'a [oznaczyła pewną parę tagiem „goryle”](https://www.bbc.com/news/technology-33347866).
-* W&nbsp;Chinach system rozpoznawania twarzy uznał, że znana celebrytka stoi na środku ulicy. [Za co ukarano ją mandatem](https://www.dobreprogramy.pl/monitoring-w-chinach-nieslusznie-ukaral-kobiete-bo-rozpoznal-jej-twarz-na-reklamie,6628548690380417a).  
+* W&nbsp;Chinach system rozpoznawania twarzy uznał, że pewna znana bizneswoman stoi na środku ulicy. Za co [ukarał ją publicznym pouczeniem](https://www.dobreprogramy.pl/monitoring-w-chinach-nieslusznie-ukaral-kobiete-bo-rozpoznal-jej-twarz-na-reklamie,6628548690380417a), może nawet mandatem.  
   Problem? Nie stała tam. Było to tylko jej zdjęcie z&nbsp;reklamy umieszczonej na boku autobusu.
 
 * Podczas pewnego meczu kamera miała automatycznie podążać za piłką.  
@@ -312,16 +312,16 @@ Moderator go zamknął, pisząc że to 476. wątek z&nbsp;kolei -- jeśli nie pr
 
 Dawniej tłumaczenie maszynowe (przez komputer) było dziadowskie, zbyt dosłowne, „słowo po słowie”. Ale nawet to niektórym nie przeszkadzało. Po prostu kazali pracownikom tworzyć komunikaty, na przykład pogodowe, [według ścisłego szablonu](https://en.wikipedia.org/wiki/METEO_System). W&nbsp;ten sposób tłumaczono je na masową skalę.
 
-Kolejne, coraz lepsze algorytmy stopniowo zmieniały specyfikę pracy tłumaczy. Więksi, „korporacyjni” pośrednicy zaczęli tłumaczyć teksty maszynowo, a&nbsp;potem próbować je upchnąć tłumaczom do korekty (gorzej płatnej niż tłumaczenie od zera).
+Kolejne, coraz lepsze algorytmy stopniowo zmieniały specyfikę pracy tłumaczy. Więksi, „korporacyjni” pośrednicy nieraz tłumaczą teksty maszynowo, a&nbsp;potem próbują je upchnąć tłumaczom do korekty (gorzej płatnej niż tłumaczenie od zera).
 
-Jeśli chcemy dowodów, można [poszukać wątków](https://www.proz.com/?sp=forum&action=SearchForum&advanced=y) zawierających hasło `PEMT` (*Post-editing Machine Translation*) na forum Proz, jednym z&nbsp;głównych miejsc zrzeszających tłumaczy. Pierwsze są jeszcze z&nbsp;2011 roku!
+Jeśli chcemy dowodów, można [poszukać wątków](https://www.proz.com/?sp=forum&action=SearchForum&advanced=y) zawierających hasło `PEMT` (*Post-editing Machine Translation*) na forum Proz, jednym z&nbsp;głównych miejsc zrzeszających tłumaczy. Pierwsze pojawiały się już w&nbsp;2011&nbsp;roku!
 
 Ogólnie tłumaczenia wydają się branżą pełną niuansów, co fajnie (i&nbsp;po polsku!) opisał [Informatyk Zakładowy](https://informatykzakladowy.pl/grosza-daj-tlumaczowi/).  
 Żeby komputer mógł wiernie tłumaczyć *wszystko* -- w&nbsp;tym miksy gier słownych, nawiązań kulturowych, rymy -- bardzo możliwe, że musiałby dysponować inteligencją ogólną. 
 
 Ale ludzkie maksymalizatory z&nbsp;dużych firm nie miałyby nic przeciwko wywaleniu niuansów, jeśli oznacza to oszczędności. Mogą nakazać tworzenie tekstów uproszczonych, szablonowych, nijakich. Byle tylko były lekkostrawne dla (coraz lepszych) algorytmów tłumaczących.
 
-Obok nich dopisze się małymi literkami adnotację, że informacje w&nbsp;nim zawarte nie są wiążące -- dupochron na wypadek, gdyby algorytm coś przekręcił. I&nbsp;będzie *good enough*.
+Obok nich dopisze się małymi literkami adnotację, że informacje w&nbsp;nich zawarte nie są wiążące -- dupochron na wypadek, gdyby algorytm coś przekręcił. I&nbsp;będzie *good enough*.
 
 A w&nbsp;ocenie rocznej znajdzie się jedynie informacja o&nbsp;tym, że *maksymalizator*{:.corr-del} menedżer skutecznie zredukował koszty tłumaczenia do zera.
 
