@@ -371,7 +371,7 @@ Można też wpisać w&nbsp;wyszukiwarkę `bayer` i&nbsp;`syngenta`, żeby zobacz
 
 ### Thoughtscapism
 
-To również stronka popularyzatorska, ale tym razem naukowa, a&nbsp;nie rolnicza. Prowadzona przez Finkę obecnie mieszkającą w&nbsp;Szwajcarii. [Tworzyła już](https://thoughtscapism.com/about/about-me/) teksty dla GLP i&nbsp;Biofortified (kolejni branżowcy). Na temat NN napisała dwa wpisy:
+To również stronka popularyzatorska, ale tym razem naukowa, a&nbsp;nie rolnicza. Prowadzona przez Finkę obecnie mieszkającą w&nbsp;Szwajcarii. [Tworzyła już](https://thoughtscapism.com/about/about-me/) teksty dla GLP i&nbsp;Biofortified (kolejni branżolubni). Na temat NN napisała dwa wpisy:
 
 * [w 2015&nbsp;roku](https://thoughtscapism.com/2015/10/14/if-you-care-about-bees-look-past-neonicotinoids/) wpis bagatelizujący wpływ NN na tle innych czynników.
 * [W 2017&nbsp;roku](https://thoughtscapism.com/2017/07/02/new-study-finds-neonicotinoids-may-have-harmful-beneficial-or-no-effects-on-bees/) twierdzący że badanie CEH nie daje jednoznacznych wyników.
@@ -438,7 +438,7 @@ Z autorem tego bloga czasem się zgadzam, czasem nie. Cenię na przykład to, ż
 
 Ale jeśli chodzi o&nbsp;neonikotynoidy... spójrzmy na wpisy z&nbsp;jego bloga związane z&nbsp;tym tematem:
 
-1. [„Wymieranie pszczół. Czy naprawdę istnieje takie zjawisko?”](https://www.totylkoteoria.pl/wymieranie-pszczol/) z&nbsp;20 czerwca 2018&nbsp;roku;
+1. [„Wymieranie pszczół. Czy naprawdę istnieje takie zjawisko?”](https://www.totylkoteoria.pl/wymieranie-pszczol/) z&nbsp;20 czerwca 2018&nbsp;roku.
 2. [„Skutki zakazania neonikotynoidów”](https://www.totylkoteoria.pl/neonikotynoidy-pszczoly-skutki-zakazu/) z&nbsp;15 grudnia 2018&nbsp;roku.
 3. [„Czy pszczoły wymierają?”](https://www.totylkoteoria.pl/pszczoly-pszczoly/) z&nbsp;15 maja 2019&nbsp;roku.
 
@@ -453,7 +453,7 @@ Skutki zakazania NN? Oczywiście powrót gorszych rzeczy:
 > \[zakazowi\] gorąco kibicowali owi ekoaktywiści i&nbsp;niektórzy naukowcy. Robili to pomimo ostrzeżeń specjalistów, że \[NN zostaną zastąpione przez\] bardziej toksyczne środki
 
 {:.figcaption}
-Skróty moje.
+Źródło: Newsweek. Skróty moje.
 
 Pisze też, że decyzja europejskiej agencji EFSA o&nbsp;zakazie jest krytykowana. Ale źródłem tego stwierdzenia jest strona AgriBusiness Global -- której sama nazwa wiele sugeruje.  
 Linkuje ona do raportu European Crop Protection Association, czyli jawnej grupy interesów (Crop Protection oznacza środki ochrony roślin, czyli pestycydy; nic więcej).
