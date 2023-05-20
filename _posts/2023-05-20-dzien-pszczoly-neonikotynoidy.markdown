@@ -248,11 +248,14 @@ Dowód na to, że jednak istnieje obiektywizm? Że w&nbsp;zdrowym przypadku pien
 
 Możliwe, ale jest też ciemna strona. Obecność Syngenty oznaczała, że badacze dzielili się z&nbsp;nimi surowymi danymi, również odrzuconymi. Kiedy wnioski okazały się niekorzystne, to **ktoś z&nbsp;Syngenty wziął te nieopublikowane dane i&nbsp;przekazał zaufanej stronce**. A&nbsp;ta ulepiła z&nbsp;nich historię podważającą wyniki badania. 
 
-Stronką była Genetic Literacy Project, a&nbsp;autorem historii -- jej właściciel, Jon Entine (jeszcze do niego wrócimy).
+Stronką była Genetic Literacy Project, a&nbsp;autorem [historii](https://geneticliteracyproject.org/2017/07/03/backlash-flawed-landmark-european-neonicotinoid-study-inconclusive-data-suggest-health-benefits-harm/) -- jej właściciel, Jon Entine (jeszcze do niego wrócimy).
 
 Zebrał część tych odrzuconych danych w&nbsp;tabelce i&nbsp;dowodził, że świadczą o&nbsp;braku wyraźnych zależności. Przyznał wprawdzie, że nie były publikowane, a&nbsp;pod tabelką jest dopisek, że są od kogoś z&nbsp;Syngenty. Ale nigdzie nie mamy szerszego kontekstu całej historii.
 
-Implikacja? „Ci naukowcy-łobuziaki tak po prostu wzięli część danych i&nbsp;je sobie odrzucili. A&nbsp;w tych odrzuconych kryła się inna historia”!  
+{:.post-meta .bigspace-after}
+Aktualizacja: wskazanie źródła pd tabelką mamy jedynie w bliźniaczym artykule z portalu Slate. Na samej stronie GLP go nie ma.
+
+Implikacja? „Ci naukowcy-łobuziaki tak po prostu wzięli część danych i&nbsp;je sobie odrzucili. A&nbsp;w&nbsp;tych odrzuconych kryła się inna historia”!  
 A przecież gdyby tak się stało, to Entine by grzmiał -- taki miał styl w&nbsp;sprawach dotyczących innego pestycydu. A&nbsp;tutaj jest spokojny. Tak jakby samo wywalenie danych nie było kontrowersyjne.
 
 Więc może nie było? Może naukowcy brali do ostatecznej analizy tylko „pewniaki”, tendencje mocniej widoczne (co byłoby całkiem zgodne ze sztuką)? A&nbsp;reszta to szum?  
@@ -303,7 +306,7 @@ Na GLP wpisów jest całe zatrzęsienie, więc nie będę ich tu przytaczał. Al
 
 Entine w&nbsp;swoich gazetowych artykułach linkował też do innych. Których autorzy na pozór byli niezwiązani z&nbsp;branżą... Póki nie wyszukało się ich nazwisk.
 
-Przykład znajdziemy w&nbsp;artykule ze Slate'a. Entine opisuje tam wielkie badanie CEH, oczywiście kwestionując wnioski. Pisze, że dziennikarze większości gazet błędnie zinterpretowali dane, szukając sensacji. A&nbsp;„tylko Reuters i&nbsp;Washington Post się wybiły”.
+Przykład znajdziemy w&nbsp;artykule ze Slate'a (link wyżej). Entine opisuje tam wielkie badanie CEH, oczywiście kwestionując wnioski. Pisze, że dziennikarze większości gazet błędnie zinterpretowali dane, szukając sensacji. A&nbsp;„tylko Reuters i&nbsp;Washington Post się wybiły”.
 
 Problem? To, co nazywa „Reutersem”, to artykuł jednej konkretnej dziennikarki. Kate Kelland. Tej samej, która -- jak pokazały maile ujawnione podczas rozpraw sądowych -- w&nbsp;innej sprawie [przyjmowała stronnicze opracowania]({% post_url 2022-12-24-monsanto-posilac-roundup %}#front-medialny){:.internal} od branży.  
 Wplatała je w&nbsp;swoje artykuły, nie ujawniając kto był źródłem. Wysyłała im również do wglądu, przed publikacją, treść swoich artykułów.
@@ -461,7 +464,7 @@ Pod wpisem numer jeden znajdziemy informację -- napisaną niewyróżniającą s
 
 Nazwa może brzmieć nieco oficjalnie, ale tak naprawdę **prywatne organizacje też mogą umieszczać w&nbsp;nazwie przymiotnik „polski”**, nie jest to ograniczone. Tak jest też w&nbsp;tym przypadku, to całkiem prywatna i&nbsp;malutka (trzyosobowa według dokumentów finansowych) grupa.
 
-Na własnej stronie piszą, że są organizacją reprezentującą producentów środków chemicznych do użytku rolniczego -- w&nbsp;tym właśnie Bayera i&nbsp;Syngentę.
+Na własnej stronie piszą, że są organizacją reprezentującą producentów środków chemicznych do użytku rolniczego -- w&nbsp;tym właśnie [Bayera i&nbsp;Syngentę](https://psor.pl/czlonkowie-psor/).
 
 Sama organizacja PSOR prowadzi również własne kampanie edukacyjne. Mówią między innymi o&nbsp;odpowiedzialnym pryskaniu, czyli wieczorami, kiedy pszczół nie ma na polu. Rozdają internetowym mikrocelebrytom paczki z&nbsp;nasionami, żeby mogli wysiewać łąki kwiatowe i&nbsp;je publikować z&nbsp;hasłem „Pomagamy pszczołom”.
 
