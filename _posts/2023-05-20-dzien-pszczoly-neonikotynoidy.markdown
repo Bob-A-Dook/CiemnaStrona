@@ -172,7 +172,7 @@ I umyka gdzieś fakt, że coś się jednak zmieniło na niekorzyść.
 
 ### „Liczebność pszczół ma się dobrze”
 
-To rzecz ściśle powiązana z&nbsp;poprzednią, ale sugerująca coś bardziej optymistycznego. Tak głosi m.in. Bayer w&nbsp;oficjalnych komunikatach -- jak ten z&nbsp;2016 roku, kiedy krytykują zakaz NN w&nbsp;stanie Maryland (punkt 5):
+To rzecz ściśle powiązana z&nbsp;poprzednią, ale sugerująca coś bardziej optymistycznego. Tak głosi m.in. Bayer w&nbsp;oficjalnych komunikatach -- jak [ten z&nbsp;2016 roku](https://www.croplife.com/crop-inputs/bayer-5-reasons-we-disagree-with-maryland-neonic-ban/), kiedy krytykują zakaz stosowania NN na przydomowych trawnikach, wprowadzony w&nbsp;stanie Maryland (punkt 5):
 
 > Przepisy opierają się na założeniu, że populacja pszczół maleje, a&nbsp;przyczyną są neonikotynoidy. W&nbsp;rzeczywistości populacja pszczół w&nbsp;USA stabilnie rosła przez ostatnie dwadzieścia lat, co ściśle pokrywa się z upowszechnieniem neonikotynoidów.
 
@@ -253,7 +253,7 @@ Stronką była Genetic Literacy Project, a&nbsp;autorem [historii](https://genet
 Zebrał część tych odrzuconych danych w&nbsp;tabelce i&nbsp;dowodził, że świadczą o&nbsp;braku wyraźnych zależności. Przyznał wprawdzie, że nie były publikowane, a&nbsp;pod tabelką jest dopisek, że są od kogoś z&nbsp;Syngenty. Ale nigdzie nie mamy szerszego kontekstu całej historii.
 
 {:.post-meta .bigspace-after}
-Aktualizacja: wskazanie źródła pd tabelką mamy jedynie w bliźniaczym artykule z portalu Slate. Na samej stronie GLP go nie ma.
+Aktualizacja: wskazanie źródła pod tabelką mamy jedynie w bliźniaczym artykule z portalu Slate. Na samej stronie GLP go nie ma.
 
 Implikacja? „Ci naukowcy-łobuziaki tak po prostu wzięli część danych i&nbsp;je sobie odrzucili. A&nbsp;w&nbsp;tych odrzuconych kryła się inna historia”!  
 A przecież gdyby tak się stało, to Entine by grzmiał -- taki miał styl w&nbsp;sprawach dotyczących innego pestycydu. A&nbsp;tutaj jest spokojny. Tak jakby samo wywalenie danych nie było kontrowersyjne.
@@ -367,7 +367,7 @@ Wyszukiwarka wyłapuje rzeczy również z&nbsp;komentarzy, nie tylko z&nbsp;tre�
 * [20 marca 2018&nbsp;roku](https://www.facebook.com/IowaFarmBabe/posts/pfbid0GFY8i9MaZ2Jo89yxyzExsnF5fZisyTmexWDoEC3ev4h1xGLc9kbH5g8rXWFb4dJEl) udostępniła filmik strony Freethink, pokazujący że nie ma wymierania pszczół, bo liczba rośnie. Oczywiście wykres tylko dla miodnych.
 * [11 maja 2020&nbsp;roku](https://www.facebook.com/IowaFarmBabe/posts/pfbid0K8C6sR5fF4e8kYxPoXFtmMtoD6vdZwcu4jdVLNDX23S7dJoi9fvZruf4qJrVjupUl) pisze ze smutkiem o&nbsp;wpisaniu amerykańskiego gatunku motyli na listę gatunków zagrożonych... Ale bez obaw! Korzystając z&nbsp;apki od Bayer Crop Science, można mapować populacje owadów, to na pewno im pomoże!
 
-Można też wpisać w&nbsp;wyszukiwarkę `bayer` i&nbsp;`syngenta`, żeby zobaczyć reklamy.
+Można też wpisać w&nbsp;wyszukiwarkę `bayer` i&nbsp;`syngenta`, żeby zobaczyć, jak często Farm Babe reklamowała ich produkty.
 
 ### Thoughtscapism
 
@@ -379,7 +379,7 @@ To również stronka popularyzatorska, ale tym razem naukowa, a&nbsp;nie rolnicz
 Ma u&nbsp;mnie dużego plusa za to, że wytyka manipulację z podawaniem suchej liczby uli, a&nbsp;nawet zarzuca to samemu GLP. Ale w&nbsp;paru innych kwestiach jednak powiela narrację.
 
 W pierwszym artykule znajdziemy informację o&nbsp;tym, że wycofanie NN doprowadziłoby do ich zastąpienia przez gorsze pestycydy. Odniesienie do danych Croplife, czyli już całkiem oficjalnej organizacji lobbystycznej. *Poziom 1* według [maili](https://usrtk.org/wp-content/uploads/2017/08/72-Document-Details-Monsantos-Strategy-Regarding-IARC.pdf).  
-Jest również infografika, w&nbsp;której wpływ neonikotynoidów został zepchnięty na sam dół:
+Jest również infografika, na&nbsp;której wpływ neonikotynoidów został zepchnięty na sam dół:
 
 {:.figure .bigspace-before}
 <img src="/assets/posts/chemia/neonikotynoidy/thoughtscapism-infografika.jpg" alt="Infografika pokazująca rzeczy szkodzace pszczołom. Jej nagłówek mówi, że szkodniki mają najgorszy wpływ na ich zdrowie. Widać też sześć czynników, wpisanych w&nbsp;kółka o&nbsp;różnym rozmiarze i&nbsp;wyróżnionych różnymi rozmiarami czcionki. Kółko odpowiadające pestycydom jest małe i&nbsp;umieszczone na dole"/>
@@ -490,7 +490,7 @@ Mamy tu uczciwe przyznanie, że są dwa rodzaje, ale potem już nic więcej. „
 
 Te słowa są jednocześnie bezpośrednim linkiem do jakiegoś obrazka ze stronki Agprofessional. Link już niestety wygasł, ale wciąż widać nazwę obrazka. To `bees-sygenta4.jpg`, co sugeruje jakiś materiał od Syngenty.
 
-Równie ciekawe są oficjalnie zacytowane źródła. Znajdziemy tam nieco znajomych nazw:
+Równie ciekawe są oficjalne źródła spod wpisu Węglowego. Znajdziemy tam nieco znajomych nazw:
 
 * 3&nbsp;odniesienia do Genetic Literacy Project;
 * *requiem* od Risk Mongera;
