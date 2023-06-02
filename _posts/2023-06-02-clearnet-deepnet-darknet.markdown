@@ -91,7 +91,7 @@ Jak najbardziej istnieją takie rzeczy jak prywatnościowy darknet „w służbi
 
 Na temat darknetu powstała niejedna miejska legenda. Że są tam nagrania morderstw na żywo. Że można wynająć zabójców.
 
-A przecież nagrania okrutnych morderstw łatwo znaleźć w&nbsp;całkiem zwykłej, publicznej części internetu. Zbrodnia na żywo od niejakiego [Luki M.](https://en.wikipedia.org/wiki/Murder_of_Jun_Lin) została wrzucona na stronę niszową, ale dostępną przez zwykłą przeglądarkę. Łatwo też trafić np. na wyczyn maniaków z&nbsp;Dniepropietrowska.
+A przecież nagrania okrutnych morderstw łatwo znaleźć w&nbsp;całkiem zwykłej, publicznej części internetu. Zbrodnia na żywo od niejakiego [Luki M.](https://en.wikipedia.org/wiki/Murder_of_Jun_Lin) została wrzucona na stronę niszową, ale dostępną przez zwykłą przeglądarkę. Łatwo też trafić np. na wyczyn maniaków z&nbsp;Dniepropetrowska.
 
 Wiele nagrań z&nbsp;wypadków lub egzekucji było dostępnych na Rotten albo Liveleaku -- już niedziałających, ale wcześniej hulających przez kilkanaście lat. Publicznie dostępnych.
 
@@ -198,17 +198,17 @@ Do deepnetu może należeć najzwyklejsza, prosta strona. Ktoś podrzuca link d
 
 Jeśli masz konto na Facebooku, czytelniczko lub czytelniku, to też **możesz łatwo przepchnąć swój profil do deepnetu**!
 
-W tym celu wchodzisz w&nbsp;ustawienia konta, klikając swoje zdjęcie profilowe w&nbsp;prawym górnym rogu (mówię tu o&nbsp;wersji na komputery). Następnie wybierasz `Ustawienia i&nbsp;prywatność`, potem `Ustawienia`, potem `Prywatność`. Na koniec zaznaczasz opcję mówiącą o&nbsp;tym, żeby nie indeksowało Twojego konta w&nbsp;znanych wyszukiwarkach.
+W tym celu wchodzisz w&nbsp;ustawienia konta, klikając swoje zdjęcie profilowe w&nbsp;prawym górnym rogu (mówię tu o&nbsp;wersji na komputery). Następnie wybierasz `Ustawienia i prywatność`, potem `Ustawienia`, potem `Prywatność`. Na koniec zaznaczasz opcję mówiącą o&nbsp;tym, żeby nie indeksowało Twojego konta w&nbsp;znanych wyszukiwarkach.
 
 {:.post-meta .bigspace-after}
 Instrukcje mogą się zmienić, gdyby Facebook zmienił kiedyś swoją stronę -- zaczerpnąłem je z&nbsp;[oficjalnej stronki](https://pl-pl.facebook.com/help/468080906543413/).
 
 A czy takie ukrycie ma jakiś sens?  
-Moim zdaniem tak! Zapewnia odrobinę ochrony przed mniej subtelnymi stalkerami -- takimi, którzy potrafią co najwyżej wpisać twoje imię i&nbsp;nazwisko w&nbsp;Google, a&nbsp;następnie patrzeć, czy wyskoczyło coś związanego z&nbsp;mediami społecznościowymi.
+Moim zdaniem tak! Zapewnia odrobinę ochrony przed mniej subtelnymi stalkerami -- takimi, którzy potrafią co najwyżej wpisać Twoje imię i&nbsp;nazwisko w&nbsp;Google, a&nbsp;następnie patrzeć, czy wyskoczyło coś związanego z&nbsp;mediami społecznościowymi.
 
 {% include info.html
 type="Porada"
-text="Ale uwaga! Gdyby wpisali nasze imię i&nbsp;nazwisko w&nbsp;wewnętrzną wyszukiwarkę Facebooka, to już by znaleźli profil. Osoby chcące lepiej się ukryć powinny pokusić się również o&nbsp;zmianę nazwy konta. A&nbsp;także prowadzącego do niego linku; on również zawiera czasem imię i&nbsp;nazwisko)."
+text="Ale uwaga! Gdyby wpisali nasze imię i&nbsp;nazwisko w&nbsp;wewnętrzną wyszukiwarkę Facebooka, to już by znaleźli profil. Osoby chcące lepiej się ukryć powinny pokusić się również o&nbsp;zmianę nazwy konta. A&nbsp;także prowadzącego do niego linku; on również zawiera czasem imię i&nbsp;nazwisko."
 trailer="<p>Nieprawdziwa nazwa była kiedyś wbrew regulaminowi platformy, i&nbsp;może nadal jest... Ale w&nbsp;najgorszym wypadku byłby ban konta, czyli też nic strasznego.</p>"
 %}
 
@@ -238,7 +238,7 @@ Teraz pozostaje nam jeszcze *darknet*, czyli pewna konkretna część *deepnetu*
 
 Nazwa brzmi nieco groźnie, nieprawdaż? *Dark* może po angielsku oznaczać *mroczny*, co kojarzy się z tymi medialnymi opowieściami o&nbsp;złoczyńcach i&nbsp;czarnych rynkach.
 
-A tymczasem prawda jest dość prozaiczna. Poczynając od nazwy. Pojęcie *darknet* [istniało już w&nbsp;latach 70.]() i&nbsp;odnosiło się do tych serwerów, które były częścią sieci, ale nie odpowiadały na zapytania, nie wchodziły w&nbsp;interakcje.  
+A tymczasem prawda jest dość prozaiczna. Poczynając od nazwy. Pojęcie *darknet* [istniało już w&nbsp;latach 70.](https://en.wikipedia.org/wiki/Darknet) i&nbsp;odnosiło się do tych serwerów, które były częścią sieci, ale nie odpowiadały na zapytania, nie wchodziły w&nbsp;interakcje.  
 *Dark* oznacza nie tylko mrok w&nbsp;sensie negatywnym. Ale również zwyczajną ciemność, taką jak po wyłączeniu światła. Nieaktywność.
 
 Od tego czasu definicja nieco się zmieniła i&nbsp;oznacza teraz **strony wymagające specjalnej konfiguracji albo korzystania z&nbsp;osobnych protokołów, żeby się do nich dostać**. Po ludzku -- nie da się tak po prostu wziąć ich adresu i&nbsp;go wkleić w&nbsp;pierwszą lepszą przeglądarkę.
@@ -373,11 +373,15 @@ text="Ogólnie: [parametry](/internetowa_inwigilacja/2021/04/09/internetowa-inwi
 Często (nie zawsze) parametry nie mają wpływu na sam link i&nbsp;odwiedzana strona normalnie się bez nich załaduje. Ale jeśli są, to właściciel strony może na nie zerknąć. I&nbsp;na tej podstawie zachować się wobec nas inaczej niż wobec innych."
 %}
 
-Poniżej masz parametr, który możesz stąd skopiować i&nbsp;wkleić w pasek adresu swojej przeglądarki, na samym końcu obecnego linku.
+Poniżej masz parametr, który możesz stąd skopiować i&nbsp;wkleić w pasek adresu swojej przeglądarki. Na samym końcu obecnego linku, bez żadnych spacji.
 
-```
-?tajnykod=1234567
-````
+<div class="black-bg mono">
+?tajnykod=1234567</div>
+
+{% include info.html
+type="Uwaga"
+text="Żeby zadziałało, upewnij się, że w&nbsp;Twoim linku nie ma krzyżyka (`#`), który pojawia się, jeśli np. klikniesz w&nbsp;element spisu treści. Jeśli jest, to najpierw usuń jego i&nbsp;wszystko po nim, a&nbsp;dopiero potem wklej parametr."
+%}
 
 Jeśli w&nbsp;Twojej przeglądarce jest włączony kod JavaScript, to na początku tego wpisu, zamiast słów o&nbsp;siedzeniu w&nbsp;clearnecie, zobaczysz coś innego. 
 
