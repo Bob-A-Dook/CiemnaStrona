@@ -231,7 +231,7 @@ Gdyby ktoś postawił tezę „*Odpowiedzi od strony-autora zawsze chronią kome
 
 Tutaj spojrzymy na wątek, który jest mi dość bliski. Bo sam też o&nbsp;nim pisałem. Chodzi o&nbsp;[sprawę wokół amerykańskiej filii Syngenty]({% post_url 2022-07-27-syngenta-atrazyna %}){:.internal} oraz ich produktu, atrazyny.
 
-W skrócie: substancja ta miała zwyczaj przedostawać się do wód gruntowych i&nbsp;źle wpływać na układ hormonalny organizmów wodnych. Kiedy różni naukowcy zaczęli nagłaśniać sprawę, to koncern, zamiast dokładniej zbadać sprawę, wziął się za niszczenie ich reputacji.
+W skrócie: substancja ta miała zwyczaj przedostawać się do wód gruntowych i&nbsp;źle wpływać na układ hormonalny organizmów wodnych. Kiedy różni naukowcy zaczęli nagłaśniać sprawę, to koncern, zamiast dokładniej to zbadać, wziął się za niszczenie ich reputacji.
 
 *[Doniesienia z&nbsp;putinowskiej Polski](https://www.facebook.com/PutinowaPolska)* to profil, na którym nie spodziewalibyśmy się tej sprawy. Na co dzień pisze o&nbsp;aferach i&nbsp;skandalach polityczno-militarnych, zwykle z&nbsp;Rosją w&nbsp;tle. A&nbsp;jednak, o&nbsp;dziwo, sprawa żab również trafiła do komentarzy.
 
@@ -244,7 +244,8 @@ Jedna z&nbsp;teorii showmana bazowała właśnie na „żabiej aferze”. W&nbsp
 {:.figure .bigspace}
 <img src="/assets/posts/fb-cenzura/atrazine-porownanie-cenzura.jpg" alt="Zrzut ekranu z&nbsp;Facebooka pokazujący dwa komentarze, jeden pod drugim. Pierwszy odsyła do artykułu naukowego na temat wpływu atrazyny, ten pod spodem do filmiku n&nbsp;YouTubie, z&nbsp;miniaturą żaby w&nbsp;wodzie i&nbsp;podpisem 'Gay Frogs: A&nbsp;Deep Dive'."/>
 
-Dwa linki od tej samej osoby, w&nbsp;zbliżonym czasie. Pierwszy do artykułu naukowego na stronie uczelni, w&nbsp;domenie *gov*. Drugi do filmiku na YouTubie. Link numer jeden ukryty, ten do YouTube'a przetrwał.
+Dwa linki od tej samej osoby, w&nbsp;zbliżonym czasie. Pierwszy do artykułu naukowego na stronie uczelni, w&nbsp;domenie *gov*. Drugi do filmiku na YouTubie.  
+Link numer jeden był ukryty, ten do YouTube'a przetrwał.
 
 I choć nie mam nic do filmu Okiego -- jest bardzo solidnym omówieniem sprawy! -- to jednak decyzja algorytmu jest ciut dziwna. Sugeruje, że chowanie linków niekoniecznie bazuje na jakiejś *reputacji domen*. I&nbsp;nie chodzi tu raczej o&nbsp;reputację linkującego, bo ten w&nbsp;obu przypadkach był ten sam.
 

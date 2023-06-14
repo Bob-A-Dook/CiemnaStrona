@@ -221,7 +221,7 @@ Liczba spinaczy wzrosła, jest dobrze. A&nbsp;inne rzeczy się nie liczą. Praco
 
 To samo dotyczy również menedżerów niższych szczebli. Też są oceniani według bardzo konkretnych kryteriów. Mówiąc korpojęzykiem -- *kejpiajów* (od. *KPI*, czyli *Key Performance Indicators*).
 
-To niekoniecznie zyski, kryteria mogą być inne. Ale możecie być pewni, że niektórzy myslą jak maksymalizatory spinaczy. I&nbsp;jakie by nie były te kryteria, właśnie pod nie będą optymalizowali swoje działania.  
+To niekoniecznie zyski, kryteria mogą być inne. Ale możecie być pewni, że niektórzy myślą jak maksymalizatory spinaczy. I&nbsp;jakie by nie były te kryteria, właśnie pod nie będą optymalizowali swoje działania.  
 Przykładem jest wybieranie projektów o&nbsp;ciekawszych nazwach zamiast nudniejszych prac „konserwacyjnych”. Wysyłanie bzdurnych uwag, żeby zwiększyć współczynnik *visibility*.
 
 Fundamenty korodują... Ale gmach rośnie w&nbsp;górę. Spinaczy coraz więcej.

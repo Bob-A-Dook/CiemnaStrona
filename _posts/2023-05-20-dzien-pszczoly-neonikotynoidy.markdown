@@ -486,11 +486,14 @@ Krótko po pierwszym wpisie To Tylko Teorii pojawił się inny, również trzyma
 
 > Liczebność pszczół w&nbsp;USA jest najwyższa od 20&nbsp;lat. Aha - warto nadmienić, że większość tej notki traktuje o&nbsp;hodowlanych pszczołach (...). Nie oznacza to, że CCD nie dotyka dziko żyjących pszczół.
 
-Mamy tu uczciwe przyznanie, że są dwa rodzaje, ale potem już nic więcej. „Są jakieśtam dzikie pszczoły. Ale miodne mają się dobrze w&nbsp;USA, a&nbsp;na świecie jeszcze lepiej”.
+Mamy tu uczciwe przyznanie, że są dwa rodzaje owadów, ale potem już nic więcej. Sens: „są jakieśtam dzikie pszczoły. Ale miodne mają się dobrze w&nbsp;USA, a&nbsp;na świecie jeszcze lepiej”.
 
-Te słowa są jednocześnie bezpośrednim linkiem do jakiegoś obrazka ze stronki Agprofessional. Link już niestety wygasł, ale wciąż widać nazwę obrazka. To `bees-sygenta4.jpg`, co sugeruje jakiś materiał od Syngenty.
+Te słowa są jednocześnie bezpośrednim linkiem do jakiegoś obrazka ze stronki Agprofessional. Link już niestety wygasł, ale wciąż widać nazwę pliku. To `bees-sygenta4.jpg` \[sic\], co sugeruje jakiś materiał od Syngenty.
 
-Równie ciekawe są oficjalne źródła spod wpisu Węglowego. Znajdziemy tam nieco znajomych nazw:
+{:.post-meta .bigspace-after}
+**Aktualizacja z czerwca 2023**: znalazłem [zarchiwizowaną wersję artykułu](https://web.archive.org/web/20171213120656/https://www.agprofessional.com/article/bee-population-rising-around-world). Okazuje się, że Syngenta jest jego oficjalnym autorem. Zaś obrazki to wykresy liczebności, identyczne jak te na stronce GLP.
+
+Równie ciekawe są inne źródła spod wpisu Węglowego. Znajdziemy tam nieco znajomych nazw:
 
 * 3&nbsp;odniesienia do Genetic Literacy Project;
 * *requiem* od Risk Mongera;

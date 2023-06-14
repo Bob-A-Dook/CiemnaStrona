@@ -237,7 +237,7 @@ Takie „ABC” prywatności w&nbsp;sieci nie wydaje się poza zasięgiem, a&nbs
 
 Ale koniec rozważań, robota czeka :smile:
 
-W kolejnym wpisie będzie chwila uspokojenia od linków i&nbsp;powrót do „etykiety” (nagłówków HTTP).  
+W kolejnym wpisie będzie chwila odpoczynku od linków i&nbsp;powrót do „etykiety” (nagłówków HTTP).  
 Omówię rzecz ciekawą, ale nieco mniejszego kalibru -- *user agenta*, czyli informacje o&nbsp;urządzeniu i&nbsp;przeglądarce. Do zobaczenia! 
 
 <script>

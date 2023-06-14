@@ -108,7 +108,7 @@ Mieszając ideę anonimowego przeglądania z&nbsp;przestępstwami, media robią 
 
 Czas na parę sekund besztania Google'a, bowiem miała u&nbsp;nich miejsce pewna dziwna sytuacja. Pewnego dnia nagle i&nbsp;nieodwołalnie zamknęli grupę dyskusyjną o&nbsp;nazwie `Darknet`, założoną w&nbsp;jednym z&nbsp;ich serwisów, Google Groups.
 
-Problem? Nie była to grupa o&nbsp;otchłaniach internetu -- dotyczyła jedynie **zestawu programów do uczenia maszynowego, mającego tę niefortunną nazwę**. Która wzięła się stąd, że była wariacją na temat *ConvNets*, pewnej ogólnej metody.
+Problem? Nie była to grupa o&nbsp;otchłaniach internetu -- dotyczyła jedynie **programów do analizy obrazu, mających tę niefortunną nazwę**. Która była wariacją na temat *ConvNets*, pewnej ogólnej metody.
 
 Dla formalności dodam, że nie wiem, czy blokada nastąpiła przez samą nazwę. Mogło być też tak, że nazwa skusiła jakiegoś trolla, ten podrzucił na grupkę nielegalne materiały, Google ją zamknął.  
 Ale, niezależnie od przyczyny, szkoda została wyrządzona, [cenne dyskusje przepadły](https://news.ycombinator.com/item?id=19598107).
@@ -177,7 +177,7 @@ Wiele odwiedzanych przez nas stron ma coś takiego, zresztą sami możemy sprawd
 
 Jeśli strona ma taki plik, to zobaczymy jego zawartość. Znajdziemy w&nbsp;nim [zestaw instrukcji](https://yoast.com/ultimate-guide-robots-txt/) w&nbsp;określonym formacie, przeznaczonych dla botów indeksujących.
 
-To coś w&nbsp;rodzaju regulaminu na placu zabaw. Mówią na przykład, że dana strona sobie nie życzy, żeby przeszukiwały je *crawlery*, których „wizytówka” zawiera tekst `Google`. Albo że wszystkie *crawlery* powinny zignorować niektóre podstrony.
+To coś w&nbsp;rodzaju regulaminu na placu zabaw. Mówią na przykład, że dana strona sobie nie życzy, żeby przeszukiwały ją *crawlery*, których „wizytówka” zawiera tekst `Google`. Albo że wszystkie *crawlery* powinny zignorować niektóre podstrony.
 
 Czasem trafiają tam również komentarze od autorów stron, wyjaśniające dlaczego zbanowali niektóre boty. Przykładem choćby nasza Wikipedia.
 
@@ -209,7 +209,7 @@ Moim zdaniem tak! Zapewnia odrobinę ochrony przed mniej subtelnymi stalkerami 
 {% include info.html
 type="Porada"
 text="Ale uwaga! Gdyby wpisali nasze imię i&nbsp;nazwisko w&nbsp;wewnętrzną wyszukiwarkę Facebooka, to już by znaleźli profil. Osoby chcące lepiej się ukryć powinny pokusić się również o&nbsp;zmianę nazwy konta. A&nbsp;także prowadzącego do niego linku; on również zawiera czasem imię i&nbsp;nazwisko."
-trailer="<p>Nieprawdziwa nazwa była kiedyś wbrew regulaminowi platformy, i&nbsp;może nadal jest... Ale w&nbsp;najgorszym wypadku byłby ban konta, czyli też nic strasznego.</p>"
+trailer="<p>Nieprawdziwa nazwa była kiedyś wbrew regulaminowi platformy, i&nbsp;może nadal jest... Ale w&nbsp;najgorszym wypadku czeka nas ban konta, czyli też nic strasznego.</p>"
 %}
 
 
@@ -318,7 +318,7 @@ Ich zresztą też -- cebulowe stronki to rozwiązanie [chroniące „tożsamoś�
 
 A co można znaleźć w&nbsp;tym cebulowym *darknecie*? Pominę tu rzeczy mniej legalne, bo nie chcę być częścią medialnego szumu. Zamiast tego spójrzmy na przykłady, kiedy z&nbsp;dobrodziejstw anonimowej sieci skorzystali gracze znani lub dobrzy.
 
-* W&nbsp;2014 roku zespół Aphex Twin [opublikował informacje o&nbsp;nowej płycie](https://twitter.com/AphexTwin/status/501383043643621376) właśnie na cebulowej stronce.
+* W&nbsp;2014 roku twórca muzyki elektronicznej, Aphex Twin, [opublikował informacje o&nbsp;nowej płycie](https://twitter.com/AphexTwin/status/501383043643621376) właśnie na cebulowej stronce (już nieaktywnej).
 
 * Na bazie Tora działa [SecureDrop](https://securedrop.org/), dający możliwość anonimowego przesyłania informacji różnym organizacjom medialnym.
 
@@ -327,7 +327,7 @@ A co można znaleźć w&nbsp;tym cebulowym *darknecie*? Pominę tu rzeczy mniej 
 * Swój adres `.onion` ma [Facebook](https://en.wikipedia.org/wiki/Facebook_onion_address), od 2014&nbsp;roku.
 
   Może to początkowo dziwić, patrząc na to że Facebook słynie ze zbierania danych.  
-  Ale po chwili zastanowienia wcale na tym nie tracą. Kiedy jesteśmy zalogowani na swoje konto, to Fejs i&nbsp;tak widzi naszą aktywność, nie ma na to rady.
+  Ale, jeśli się nad tym zastanowimy, wcale nie tracą na cebulce. Kiedy jesteśmy zalogowani na swoje konto, to Fejs i&nbsp;tak widzi naszą aktywność, nie ma na to rady.
 
   A&nbsp;do tego zyskuje szersze grono użytkowników -- ludzi ceniących prywatność oraz takich, których kraj blokuje Facebooka (Tor, jako pośrednik sieciowy, pozwala ominąć blokady stron).
 
@@ -388,7 +388,7 @@ Jeśli w&nbsp;Twojej przeglądarce jest włączony kod JavaScript, to na począt
 {:.post-meta .bigspace-after}
 Będzie tam też link pozwalający tu wrócić i&nbsp;uniknąć przewijania strony. Komfort czytelników przede wszystkim! :wink:
 
-Ktoś powie: no dobra, ale to tylko tekst dodany do linku. Mała szansa, żeby ktoś to odkrył... Ale nie ma tu konfiguracji ani odrębnych przeglądarek, więc niezbyt podchodzi pod definicję *darknetu*.
+Ktoś powie: no dobra, ale to tylko tekst dodany do linku. Mała szansa, żeby ktoś to odkrył... Ale nie ma tu nietypowych konfiguracji czy protokołów, więc niezbyt podchodzi pod definicję *darknetu*.
 
 Ale co byśmy powiedzieli, gdyby ktoś:
 
@@ -399,7 +399,7 @@ Ale co byśmy powiedzieli, gdyby ktoś:
 W ten sposób, bez użycia żadnych nietypowych protokołów, mamy pełnoprawny efekt *darknetu* -- tylko wybrane urządzenia są w stanie zobaczyć ukryte treści na jakiejś stronie. Zwykli użytkownicy widzą coś innego.
 
 {:.post-meta}
-W moim przypadku jest nieco inaczej, bo nie mam wglądu do serwera i&nbsp;muszę korzystać z&nbsp;kodu JavaScript na stronie, widocznego dla wnikliwych. Ale w&nbsp;normalnej sytuacji analiza parametrów odbywałaby się na odwiedzanym serwerze, poza oczami innych.
+W moim przypadku nie jest to aż tak ukryte, bo nie mam wglądu do serwera. Korzystam z&nbsp;kodu JavaScript na stronie, widocznego dla wnikliwych. Ale w&nbsp;normalnej sytuacji parametry byłyby czytane na serwerze, poza oczami innych.
 
 ## Podsumowanie
 
@@ -407,7 +407,7 @@ Wizja mrocznych internetowych głębin przemawia do wyobraźni. Nic dziwnego, ż
 
 Mam nadzieję, że mój wpis pokazał, że rzeczywistość jest bardziej złożona. Tor, warstwy internetu oraz sprawy legalności to trzy osobne zbiory, które nie muszą się przecinać.
 
-Możemy używać Tora do zwykłego łażenia po publicznym clearnecie. Możemy w&nbsp;nim znaleźć rzeczy nielegalne, korzystając z&nbsp;pierwszej lepszej przeglądarki. Zaś deepnet, wbrew egzotycznej nazwie, to coś absolutnie powszechnego i&nbsp;nawet facebookowe profile mogą tam trafić.
+Możemy używać Tora do zwykłego łażenia po publicznym clearnecie. Możemy znaleźć w&nbsp;tymże clearnecie rzeczy nielegalne, korzystając z&nbsp;pierwszej lepszej przeglądarki. Zaś deepnet, wbrew egzotycznej nazwie, to coś absolutnie powszechnego i&nbsp;nawet facebookowe profile mogą tam trafić.
 
 Owszem, gdzieś istnieje styk trzech zbiorów. Tam Tor spotyka się z darknetem (strony typu *.onion*), a&nbsp;równocześnie z&nbsp;czymś nielegalnym.  
 Ale takie miejsca nie są normą. Jeśli sami ich nie szukamy, to pewnie nigdy na naszej drodze nie staną. Dlatego nie ma sensu demonizować Tor Browsera oraz zapewnianej przez niego anonimowości. Bo kto wie, może nam się kiedyś przydać.
