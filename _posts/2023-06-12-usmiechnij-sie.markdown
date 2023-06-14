@@ -63,8 +63,9 @@ Wywołało to wątpliwości, między innymi ze strony Rzecznika Praw Obywatelski
 
 Wątpliwości miała też zapewne opinia publiczna -- firma [wyłączyła komentarze](https://digmedia.lucdh.nl/2021/09/27/smile-for-your-employer/) pod swoim filmem promocyjnym.
 
-Ale tyle to moglibyśmy się dowiedzieć z&nbsp;każdego medialnego artykułu. Zanurzmy się nieco głębiej, do Krajowego Rejestru Sądowego. Wpisujemy w&nbsp;ich [wyszukiwarkę](https://wyszukiwarka-krs.ms.gov.pl/) nazwę `quantum cx`, pobieramy pełen odpis w&nbsp;formacie PDF (wszystkie większe zdarzenia z&nbsp;życia firmy).  
-Tam znajdujemy informację, że **Quantum CX jest w&nbsp;likwidacji od lutego 2023&nbsp;roku**.
+Ale tyle to moglibyśmy się dowiedzieć z&nbsp;każdego medialnego artykułu. Zanurzmy się nieco głębiej, do Krajowego Rejestru Sądowego. Wpisujemy w&nbsp;ich [wyszukiwarkę](https://wyszukiwarka-krs.ms.gov.pl/) nazwę `quantum cx`, pobieramy pełen odpis w&nbsp;formacie PDF (wszystkie większe zdarzenia z&nbsp;życia firmy).
+
+Tam znajdujemy informację, że **Quantum CX jest w&nbsp;likwidacji od lutego 2023&nbsp;roku**. Z&nbsp;kolei Quantum Lab, spółka-matka, poszła do likwidacji już w&nbsp;2021&nbsp;roku. Jest już oficjalnie wykreślona z&nbsp;rejestru.
 
 Na stronie „Dobra Porażka” znajdziemy [*post mortem* od właściciela firmy](https://dobraporazka.pl/quantum-cx/) -- pożegnanie i&nbsp;analizę przyczyn zamknięcia interesu. Rzecz popularną w&nbsp;kulturze startupowej.
 
@@ -109,7 +110,7 @@ Znajdziemy również wzmiankę, że system od Quantum wdrożyła u&nbsp;siebie s
 {:.figcaption}
 Tłumaczenie moje.
 
-Tak to wygląda z&nbsp;punktu widzenia notki reklamowej. A&nbsp;w życiu? Żeby poszukać ludzkich opowieści, wbiem do wyszukiwarki `costa vida smile site:reddit.com` i&nbsp;znalazłem krótką historię osoby pracującej kiedyś na kasie. W&nbsp;niejasnych okolicznościach dostało się jej za to, że się nie uśmiecha:
+Tak to wygląda z&nbsp;punktu widzenia notki reklamowej. A&nbsp;w życiu? Żeby poszukać ludzkich opowieści, wbiłem do wyszukiwarki `costa vida smile site:reddit.com` i&nbsp;znalazłem krótką historię osoby pracującej kiedyś na kasie. W&nbsp;niejasnych okolicznościach dostało się jej za to, że się nie uśmiecha:
 
 {:.bigspace}
 > \[I\] was told that if I&nbsp;wanted more hours I&nbsp;needed to work even harder on being friendly towards customers. And I&nbsp;kid you not, he told me to 'Smile more'. (I'm not someone who has a&nbsp;resting b\*\*\*\* face, **I usually have a&nbsp;pleasant smile so I&nbsp;don't know why that wasn't good enough**)
@@ -124,7 +125,7 @@ Nie zmienia to jednak faktu, że całkiem możliwy byłby następujący ciąg zd
 
 * Algorytm przez swoje błędy często nie wyłapuje uśmiechu jakiegoś pracownika.
   
-  Nie byłoby w&nbsp;tym nic dziwnego, niedoskonałości w&nbsp;tym całym AI zdarzają się notorycznie. Zdarzyło się, że na przykład, że komputer fałszywie oskarżał studentów o&nbsp;ściąganie podczas egzaminu. A&nbsp;zdjęcie pewnej Chinki na boku autobusu uznano za dowód na to, że stoi na środku drogi i&nbsp;popełnia wykroczenie.
+  Nie byłoby w&nbsp;tym nic dziwnego, niedoskonałości w&nbsp;tym całym AI trafiają się notorycznie. Zdarzyło się na przykład, że komputer fałszywie oskarżał studentów o&nbsp;ściąganie podczas egzaminu. A&nbsp;zdjęcie pewnej Chinki na boku autobusu [uznano za dowód jej wykroczenia](https://www.dobreprogramy.pl/monitoring-w-chinach-nieslusznie-ukaral-kobiete-bo-rozpoznal-jej-twarz-na-reklamie,6628548690380417a), stania na środku drogi.
 
 * Pracownik dostaje opierdziel, bo według wadliwego automatu nie jest *good enough*. Za mało szczerzy zęby.
 
@@ -139,7 +140,7 @@ Skutek? Dla niektórych mniej powodów do uśmiechu.
 
 ## Przypadek Canona
 
-Osoby znające kulturę startupową wiedzą, że nieraz powstają tam całkiem odjechane, nieżyciowe pomysły, które weryfikuje rzeczywistość. Czy warto się przejmować jedną firmą, która padła kilka lat temu?
+Osoby znające kulturę startupową wiedzą, że nieraz powstają tam całkiem odjechane, nieżyciowe pomysły, które weryfikuje rzeczywistość. Czy warto się przejmować jedną firmą, która od kilku lat się staczała?
 
 Jak stwierdził pewien zmarły niedawno człowiek (parafrazując): technologia jest ponadczasowa. Organizacje mogą wymierać, ale ona z&nbsp;nami pozostaje.
 
