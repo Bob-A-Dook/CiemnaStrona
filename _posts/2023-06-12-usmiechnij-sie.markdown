@@ -110,7 +110,7 @@ Znajdziemy również wzmiankę, że system od Quantum wdrożyła u&nbsp;siebie s
 {:.figcaption}
 Tłumaczenie moje.
 
-Tak to wygląda z&nbsp;punktu widzenia notki reklamowej. A&nbsp;w życiu? Żeby poszukać ludzkich opowieści, wbiłem do wyszukiwarki `costa vida smile site:reddit.com` i&nbsp;znalazłem krótką historię osoby pracującej kiedyś na kasie. W&nbsp;niejasnych okolicznościach dostało się jej za to, że się nie uśmiecha:
+Tak to wygląda z&nbsp;punktu widzenia notki reklamowej. A&nbsp;w życiu? Żeby poszukać ludzkich opowieści, wbiłem do wyszukiwarki `costa vida smile site:reddit.com` i&nbsp;znalazłem krótką [historię](https://www.reddit.com/r/antiwork/comments/rn4sqv/comment/hq34k3h) osoby pracującej kiedyś na kasie. W&nbsp;niejasnych okolicznościach dostało się jej za to, że się nie uśmiecha:
 
 {:.bigspace}
 > \[I\] was told that if I&nbsp;wanted more hours I&nbsp;needed to work even harder on being friendly towards customers. And I&nbsp;kid you not, he told me to 'Smile more'. (I'm not someone who has a&nbsp;resting b\*\*\*\* face, **I usually have a&nbsp;pleasant smile so I&nbsp;don't know why that wasn't good enough**)

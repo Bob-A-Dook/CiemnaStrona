@@ -15,7 +15,7 @@ image:
 
 Witam w&nbsp;kolejnym -- po dłuższej przerwie -- wpisie z&nbsp;serii „Apki to pułapki”!
 
-Tradycyjnie omówię różne informacje, jakie wścibskie firmy mogą odczytać z&nbsp;naszego telefonu, głównie przez zanstalowane na nim aplikacje.
+Tradycyjnie omówię różne informacje, jakie wścibskie firmy mogą odczytać z&nbsp;naszego telefonu, głównie przez zainstalowane na nim aplikacje.
 
 Tym razem skupimy się na różnorodnych czujnikach, które mogą -- z&nbsp;osobna albo we współpracy ze sobą -- **pokazać z&nbsp;dużą dokładnością, w&nbsp;jakim miejscu się znajdujemy**. I&nbsp;śledzić na tej podstawie nasze wędrówki.
 
@@ -56,7 +56,7 @@ Jeśli w&nbsp;ciągu dnia nie wyłączamy GPS-a, to apka może cały czas żłop
 * udział w&nbsp;zgromadzeniach  
   (kiedy z&nbsp;jednego miejsca przybywa więcej danych o&nbsp;lokalizacji);
 * osoby, u&nbsp;których nocowaliśmy  
-  (najpierw wyłapanie nocy, kiedy nie jesteśmy tam gdzie zwykle; następnie wyszukanie tego miejsca w&nbsp;bazie wszystkich użytkowników. Zadziała nawet wtedy, gdy osoba, która nas gości, zwykle wyłącza GPS-a).
+  (najpierw wyłapanie nocy, kiedy nie jesteśmy tam gdzie zwykle; następnie wyszukanie tego miejsca w&nbsp;bazie wszystkich użytkowników. Zadziała nawet wtedy, gdy osoba, która nas gości, zwykle wyłącza GPS&#8209;a).
 
 I tak dalej, opcji jest multum. Niektóre informacje może pozyskać każda apka. Te dotyczące zgromadzeń i&nbsp;korelacji międzyludzkich to raczej domena apek popularniejszych. Taki na przykład Google zdobyłby je bez problemu.
 
@@ -101,7 +101,7 @@ A ta stałość otwiera furtkę do śledzenia -- **można tworzyć wielkie bazy 
 
 I takie bazy hulają w&nbsp;najlepsze:
 
-* Wozy Google'a jeździły po świecie, robiąc zdjęcia ulic na potrzeby projektu StreetView. Ale nie każdy wie, że jednocześnie [budowały wielkie bazy](https://www.darkreading.com/risk/google-wardriving-how-engineering-trumped-privacy) łączące identyfikatory hostspotów z&nbsp;ich fizycznymi lokalizacjami.
+* Wozy Google'a jeździły po świecie, robiąc zdjęcia ulic na potrzeby projektu StreetView. Ale nie każdy wie, że jednocześnie [budowały wielkie bazy](https://www.darkreading.com/risk/google-wardriving-how-engineering-trumped-privacy) łączące identyfikatory hotspotów z&nbsp;ich fizycznymi lokalizacjami.
 * Telefony innych firm (np. Huawei) same oferują funkcję dokładniejszego lokalizowania na podstawie danych o&nbsp;Wi-Fi. Opiera się ona właśnie o&nbsp;takie bazy.
 * Nawet hobbyści zebrali całkiem pokaźne ilości danych, chociażby w&nbsp;bazie [Wigle](https://wigle.net/).
 
@@ -221,7 +221,7 @@ Nasz telefon, łącząc się z&nbsp;taką stacją, wysyła swój unikalny numer.
 
 A czy do danych o&nbsp;nadajnikach w&nbsp;naszym sąsiedztwie mogą sięgnąć cudze aplikacje? Przetestowałem to z&nbsp;użyciem apki Termux (komenda `termux-telephony-cellinfo`) i&nbsp;mam mieszane wieści.
 
-1. Aplikacja [musi mieć dostęp do GPS-a](https://github.com/termux/termux-api/issues/307), żeby sięgnąć po te dane.
+1. Aplikacja [musi mieć dostęp do GPS&#8209;a](https://github.com/termux/termux-api/issues/307), żeby sięgnąć po te dane.
 
    To mocne ograniczenie dla wścibskich apek. A&nbsp;gdyby miały dostęp do GPS-a, to i&nbsp;tak lepiej by znały nasze położenie niż przez jakieś nadajniki.
 
@@ -257,7 +257,7 @@ Dodatkowa zaleta: pomijając kwestie prywatnościowe, w&nbsp;ten sposób oszczę
 <img src="/assets/posts/inwigilacja/sledzenie-lokalizacji/telefon-ustawienia-dobre-niedobre.jpg" alt="Dwa zrzuty ekranu, jeden pod drugim, pokazujące ikony odpowiadające za włączanie różnych funkcji na smartfonie. U&nbsp;góry, przy obrazku oznaczonym czerwonym krzyżykiem, większośc czujników jest włączona. U&nbsp;dołu, przy obrazku oznaczonym zielonym znaczkiem OK, włączony jest tylko internet mobilny." width="500px"/>
 
 {:.figcaption}
-Na systemie Android można łatwo włączać i&nbsp;wyłączać niektóre funkcje przez główne menu. W&nbsp;tym celu przykładamy palece do górnej części ekranu i&nbsp;kilka razy ciągniemy w&nbsp;dół.
+Na systemie Android można łatwo włączać i&nbsp;wyłączać niektóre funkcje przez główne menu. W&nbsp;tym celu przykładamy palec do górnej części ekranu i&nbsp;kilka razy ciągniemy w&nbsp;dół.
 
 Wszystkie powyższe rzeczy nie ocalą nas przed akcelerometrem. Nie wymaga on żadnych pozwoleń i&nbsp;nie ma pstryczka, który by go wyłączył. Ale pamiętajmy, że w&nbsp;odosobnieniu nie jest aż taki groźny. Dbajmy o&nbsp;inne sprawy wskazane powyżej, a&nbsp;powinno być w&nbsp;porządku. 
 
