@@ -5,7 +5,9 @@ subtitle: "Aplikacje wiedzą, gdzie nas znaleźć."
 description: "Aplikacje wiedzą, gdzie nas znaleźć."
 date:   2023-07-15 14:24:00 +0100
 tags: [Apki, Hardware, Inwigilacja, Podstawy]
-firmy: Google
+firmy: [Google]
+category: apki
+category_readable: "Apki to pułapki"
 image:
   path: /assets/posts/inwigilacja/sledzenie-lokalizacji/location-tracking-banner.jpg
   width: 1200
