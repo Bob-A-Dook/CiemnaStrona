@@ -168,6 +168,9 @@ Samo indeksowanie opisałem wyżej, porównując je do botanicznej klasyfikacji.
 
 Ostatni punkt wyjaśnijmy sobie nieco dokładniej. Istnieje pewien umowny sposób, w&nbsp;jaki strony mogą wyrażać niechęć do ich indeksowania. Jest nim wpisanie odpowiednich rzeczy do pliku tekstowego nazwanego `robots.txt`, umieszczonego na tym samym serwerze co plik ze stroną.
 
+{:.post-meta .bigspace-after}
+**Aktualizacja:** jeśli wierzyć niektórym [komentarzom](https://news.ycombinator.com/item?id=36804706), zdarza się że strona i&nbsp;tak trafi do indeksu. Dla pewności można ustawić na każdej podstronce specjalne tagi, jak `noindex`. Tutaj skupię się jednak na *robotach*.
+
 ### Plik robots.txt
 
 Wiele odwiedzanych przez nas stron ma coś takiego, zresztą sami możemy sprawdzić! W&nbsp;tym celu odwiedzamy interesującą nas stronę, patrzymy na nazwę jej domeny (czyli to, co przeglądarki często wyróżniają w&nbsp;pasku ciemnym kolorem). A&nbsp;następnie usuwamy wszystko, co po tej nazwie i&nbsp;dopisujemy po ukośniku `robots.txt`:
@@ -186,8 +189,7 @@ type="Ciekawostka"
 text="Czasem pliki `robots.txt` mogą być całkiem ciekawe. Niektórzy umieszczają w&nbsp;nich [smaczki dla zainteresowanych](https://www.wearedevelopers.com/magazine/the-funniest-robots-txt-files-only-developers-will-understand), przemyślenia, oferty pracy... A&nbsp;nawet grafikę. Tylko że siłą rzeczy w&nbsp;formie samego tekstu, jako *ASCII Art*. Przykład znajdziemy na końcu [instrukcji z&nbsp;*nike.com*](https://www.nike.com/robots.txt)."
 %}
 
-Kiedy stronę odwiedza grzeczny bot, to w&nbsp;pierwszej kolejności zagląda do `robots.txt`. Odczytuje, co mu wolno. Jeśli natrafi na polecenie „nie indeksuj mnie”, to odpuszcza. Strona nie jest indeksowana, czyli trafia do deepnetu.  
-Oczywiście mogą istnieć boty niegrzeczne, które po prostu oleją takie instrukcje.
+Kiedy stronę odwiedza grzeczny bot, to w&nbsp;pierwszej kolejności zagląda do `robots.txt`. Odczytuje, co mu wolno. Jeśli natrafi na polecenie „nie indeksuj mnie”, to odpuszcza. Strona nie jest indeksowana, czyli trafia do deepnetu. Oczywiście mogą istnieć boty niegrzeczne, które po prostu oleją takie instrukcje.
 
 Widzimy zatem, że pojęcie deepnetu jest względne. Stronka może zabraniać indeksowania niektórym serwisom, ale pozwalać na nie innym.
 
