@@ -59,7 +59,7 @@ Dla niektórych psinka to dodatek do przeglądarki. Dla innych alternatywny syst
 
 ## Zarys problemu
 
-Wszystko zaczęło się od opublikowania przez pracownika Google'a paru luźnych [notatek](https://github.com/RupertBenWiser/Web-Environment-Integrity) dotyczących nowej funkcji. Zasugerował publicznie, że są testowane w&nbsp;przeglądarce Chromium. Nazwa nowej funkcji -- *Web Environment Integrity API*. W&nbsp;skrócie **WEI**.
+Wszystko zaczęło się od opublikowania przez pracownika Google'a paru luźnych [notatek](https://github.com/RupertBenWiser/Web-Environment-Integrity) dotyczących nowej funkcji. Zasugerował publicznie, że jest testowana w&nbsp;przeglądarce Chromium. Jej nazwa -- *Web Environment Integrity API*. W&nbsp;skrócie **WEI**.
 
 To wystarczyło, żeby wywołać burzę. Bo sama nazwa mogła zapalić czerwoną lampkę w&nbsp;głowach osób śledzących tematy prywatności.  
 *Integrity* w&nbsp;rozumieniu Google'a to sposób na weryfikację „zwyczajności” systemu (o&nbsp;tym później). Zaś słowo *Web* sugerowało, że chcą to przenieść do realiów sieci.
@@ -311,7 +311,7 @@ Można też uderzyć do instytucji europejskich. Podawać WEI jako przykład dzi
 
 Problem w&nbsp;tym, że cała kwestia jest dość złożona i&nbsp;abstrakcyjna. Ukryte chipy, cyfrowe podpisy, atestacje, jednorożce? Wiele osób bagatelizuje nawet konkretne zagrożenia dla prywatności, a&nbsp;zwłaszcza coś tak rozmytego.
 
-Jeśli chcemy trafić do ludzi spoza światka komputerowego, to bardzo ważny jest sposób, w&nbsp;jaki przekażemy obawy. Konkrety, bez żargonu. Technikalia *wyłącznie* na życzenie rozmówców. I&nbsp;najlepiej wychodzić od rzeczy bliższych rozmówcom.
+Jeśli chcemy trafić do ludzi spoza światka komputerowego, to bardzo ważny jest sposób, w&nbsp;jaki przekażemy obawy. Konkrety, bez żargonu. Technikalia *wyłącznie* na życzenie rozmówców. I&nbsp;najlepiej wychodzić od rzeczy im bliższych.
 
 Ktoś obawia się władzy autorytarnej? Warto ugryźć temat od tej strony. „A wiesz, że do przeglądarki Chrome już dodali pierwsze fundamenty pod cyfrową tożsamość?”.
 
@@ -330,7 +330,7 @@ Chcąc odkrywać afery, muszą odwiedzać wiele stron. Zbyt wiele do ręcznego p
 
 * Pewien użytkownik zgromadził [wielką kompilację kont]({% post_url 2022-04-15-trolle-rosja-ukraina %}#znajdowanie-trolli){:.internal} działających na Twitterze w&nbsp;sposób sztuczny i&nbsp;nienaturalny. W&nbsp;tym rosyjskich trolli.
 * Inna osoba użyła automatycznych metod, żeby wyszukać całą [sieć niepokojących filmów]({% post_url 2022-02-20-youtube-viacom-elsagate%}#interpretacja){:.internal} kierowanych do dzieci.
-* Pewni badacze wobec niemrawości Facebooka wzięli sprawy w&nbsp;swoje ręce i&nbsp;zaczęli [zbierać dane na temat politycznych manipulacji]({% post_url 2022-04-15-trolle-rosja-ukraina %}#kapryśne-mocarstwa--facebook-itwitter){:.internal}. Za co Fejsik ich pozwał.
+* Pewni badacze wobec niemrawości Facebooka wzięli sprawy w&nbsp;swoje ręce i&nbsp;zaczęli [zbierać dane na temat politycznych manipulacji]({% post_url 2022-04-15-trolle-rosja-ukraina %}#kapryśne-mocarstwa--facebook-itwitter){:.internal}. Za co Fejsik zastraszył ich pozwem.
 
 Podsumowując: automaty pozwoliły niezależnym osobom uzyskać informacje cenne dla społeczeństwa. Obejść wielkie platformy niechętne do współpracy.
 
