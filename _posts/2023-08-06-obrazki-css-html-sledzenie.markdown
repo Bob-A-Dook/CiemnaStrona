@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Internetowa inwigilacja plus 4 - śledzenie przez obrazki"
+title: "Internetowa inwigilacja plus 4 – śledzenie przez obrazki"
 subtitle: "„Wybierz obrazek, a powiem ci kim jesteś”"
 description: "„Wybierz obrazek, a powiem ci kim jesteś”"
 date:   2023-08-06 8:00:00 +0100
