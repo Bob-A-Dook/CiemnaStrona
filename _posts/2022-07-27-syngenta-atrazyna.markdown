@@ -377,6 +377,8 @@ Kontrowersje -- z&nbsp;których niektóre mogą brzmieć dla nas znajomo -- otac
   Badanie zamówione przez Syngentę wykazało: niegroźny!  
   Ale niektórzy naukowcy uważają, że wyniki nie są wiarygodne, między innymi przez małe odległości między grupą narażoną a&nbsp;kontrolną. Poza tym jedna z&nbsp;osób opracowujących dane utrzymywała kontakt mailowy z&nbsp;Syngentą.
 
+  **Aktualizacja**: do kwestii tiametoksamu wróciłem we [wpisie z&nbsp;2023&nbsp;roku]({% post_url 2023-05-20-dzien-pszczoly-neonikotynoidy %}){:.internal}.
+
 * Parakwat (ang. *paraquat*).
 
   Herbicyd. Zagłosowali przeciw dodaniu do składu środka wywołującego wymioty, który mógłby zmniejszyć liczbę zatruć. [Zarzuca się im](https://www.theguardian.com/environment/2021/mar/24/syngenta-paraquat-deadly-john-heylings), że korzystali ze zmanipulowanych danych, przedstawiając swoje tańsze zabezpieczenia jako wystarczające.  
