@@ -72,6 +72,9 @@ Nasza prośba dociera do serwera. O&nbsp;ile nie postanowi nas dyskryminować (n
 
 <img src="/assets/posts/inwigilacja/internet/internet-basic-http-headers.jpg" alt="Schemat pokazujący interakcję między laptopem a&nbsp;serwerem. Składa się z dwóch niezależnych obrazków. Na pierwszym widać strzałkę odchodzącą od laptopa do serwera, a&nbsp;nad nią ikonkę paczki z&nbsp;paroma napisami, symbolizującą dane. Pod spodem ta sama ikonka stoi obok serwera, a&nbsp;od niego odchodzi strzałka w&nbsp;stronę laptopa. Nad nią widać ikonkę używaną w&nbsp;systemie Linux do oznaczania plików ze stronami internetowymi."/>
 
+{:.figcaption}
+Źródła obrazków: Flaticon, Emojipedia, ikony systemu Linux Mint. Przeróbki moje.
+
 ### Etap drugi -- pobranie brakujących elementów
 
 Nasza przeglądarka zapoznaje się z otrzymanym plikiem. Często jest raczej niewielki, to sam „szkielet” strony. Zawiera tylko podstawową treść i&nbsp;odniesienia do innych elementów. Takich jak:
