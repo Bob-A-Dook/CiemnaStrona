@@ -193,6 +193,8 @@ To może w&nbsp;takim razie zostawić Chrome'a z&nbsp;jego fanaberiami? I&nbsp;t
 Autorzy przeglądarki Vivaldi [ocenili WEI negatywnie](https://vivaldi.com/blog/googles-new-dangerous-web-environment-integrity-spec/). W&nbsp;artykule z&nbsp;25 lipca piszą, że to zagrożenie dla otwartej sieci.  
 Również reprezentant Mozilli od Firefoksa [wyraził oficjalny sprzeciw](https://github.com/mozilla/standards-positions/issues/852#issuecomment-1648820747), wymieniając przy okazji przydatne narzędzia, które mogłyby upaść przez WEI.
 
+**Aktualizacja:** 6 sierpnia również autorzy przeglądarki Brave [oficjalnie zapowiedzieli, że nie wesprą WEI](https://brave.com/web-standards-at-brave/9-web-environment-integrity/). Przy okazji wymieniają kilka innych przykładów psucia internetu przez Google'a.
+
 ### Zależność od Chromium
 
 Problem w&nbsp;tym, że inne przeglądarki często są zależne od kodu Chromium, tworzonego przez Google'a. A&nbsp;nawet jeśli mają własny, niezależny silnik (jak Firefox), to wciąż są pod presją.
