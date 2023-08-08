@@ -340,8 +340,8 @@ Wiedząc, że jakaś aplikacja wpycha nas w&nbsp;WebView pod swoją kontrolą, 
 Niektóre apki dają nam możliwość wyboru. Przykładowo, dla **Messengera**:
 
 * klikamy swoje zdjęcie w&nbsp;górnym lewym rogu,
-* wybieramy opcję `Zdjęcia i&nbsp;multimedia` (nieintuicyjnie!),
-* zaznaczamy opcję `Otwieraj linki w&nbsp;domyślnej przeglądarce`.
+* wybieramy opcję `Zdjęcia i multimedia` (nieintuicyjnie!),
+* zaznaczamy opcję `Otwieraj linki w domyślnej przeglądarce`.
 
 Jeśli apka nie daje nam takiej możliwości w&nbsp;opcjach, to możliwe, że pozwala przynajmniej normalnie kopiować linki.
 
