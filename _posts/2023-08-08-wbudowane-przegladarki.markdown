@@ -17,9 +17,10 @@ image:
 
 We współczesnym świecie życie kręci się wokół internetu. Przeglądarka to stały element każdego smartfona.
 
-Jak pokazywałem w&nbsp;innej swojej serii, [„Internetowej inwigilacji”](/serie/internetowa_inwigilacja/){:.internal}, przeglądarki zwykle nas chronią podczas internetowych wojaży. Owszem, odwiedzane strony wciąż mogą się trochę o&nbsp;nas dowiedzieć. Ale muszą stosować sztuczki.
+Jak pokazywałem w&nbsp;innej swojej serii, [„Internetowej inwigilacji”](/serie/internetowa_inwigilacja/){:.internal}, przeglądarki zwykle chronią naszą prywatność podczas internetowych wojaży (niechlubnym wyjątkiem jest Chrome). Owszem, odwiedzane strony wciąż mogą się sporo o&nbsp;nas dowiedzieć. Ale muszą stosować sztuczki.
 
-Ale linki do stron trafiają się nie tylko w&nbsp;przeglądarce. Co się dzieje, gdy klikniemy jakiś w innej aplikacji?  
+Ale linki do stron trafiają się nie tylko w&nbsp;przeglądarce. Co się dzieje, gdy klikniemy jakiś w innej aplikacji?
+
 Zwykle po prostu otworzy nam się strona w&nbsp;tej głównej, szczelnej, chroniącej nasz tyłek przeglądarce. Nic strasznego.
 
 Ale może się też zdarzyć, że **zamiast niej otworzy się przeglądarka fałszywa. Wbudowana w&nbsp;aplikację, żeby zbierać nasze informacje**.
@@ -57,7 +58,7 @@ W jakich sytuacjach może dojść do wstrzyknięcia w&nbsp;stronę śledzącego
 I nie są to niszowe przypadki. Dotyczy to między innymi aplikacji od firmy Meta -- Facebooka, Instagrama, Messengera. Znanych recydywistów w&nbsp;sprawie naruszania prywatności.  
 Swoje wbudowane przeglądarki mają również inne duże platformy, jak chociażby Reddit i&nbsp;Twitter.
 
-Ale palma pierwszeństwa w&nbsp;kwestii inwazyjności należy do TikToka. Nie dość, że na stronie badacza [wypada najgorzej](https://krausefx.com/blog/announcing-inappbrowsercom-see-what-javascript-commands-get-executed-in-an-in-app-browser#ios-apps-that-have-their-own-in-app-browser)... To, jeszcze nie daje opcji otwierania linków w&nbsp;naszej własnej przeglądarce. Wchodząc do przeglądarki TikToka, stajemy się jej więźniami.
+Ale palma pierwszeństwa w&nbsp;kwestii inwazyjności należy do TikToka. Nie dość, że na stronie badacza [wypada najgorzej](https://krausefx.com/blog/announcing-inappbrowsercom-see-what-javascript-commands-get-executed-in-an-in-app-browser#ios-apps-that-have-their-own-in-app-browser)... To do tego nie daje opcji otwierania linków w&nbsp;naszej własnej przeglądarce. Wchodząc do przeglądarki TikToka, stajemy się jej więźniami.
 
 Ich rzecznik [twierdzi](https://techcrunch.com/2022/08/19/tiktok-fb-in-app-browser-tracking-analysis), że przenoszenie użytkownika do innej przeglądarki... uderzałoby w&nbsp;płynność korzystania z&nbsp;apki (*would make for a&nbsp;clunky, less slick experience*).
 
@@ -69,7 +70,7 @@ Skoro widzimy skalę zagrożenia, to poznajmy je nieco bliżej! Omówmy sobie, c
 
 Przypomnę tu podstawową, wałkowaną przez całą serię zasadę mobilnych systemów operacyjnych. Mianowicie: **każda apka ma własną prywatną przestrzeń. Aplikacje nie mogą zaglądać nawzajem do swoich plików**. 
 
-Każda apka widzi większość rzeczy, jakie robimy wewnątrz niej samej. Nie widzi, co robimy wewnątrz innych apek. Całą sprawę nieco dokładniej opisałem we wpisie na temat systemu plików.
+Każda apka widzi większość rzeczy, jakie robimy wewnątrz niej samej. Nie widzi, co robimy wewnątrz innych apek. Całą sprawę nieco dokładniej opisałem we [wpisie na temat systemu plików]({% post_url 2022-11-16-apki-pliki %}){:.internal}.
 
 Może to być nieintuicyjne dla osób wychowanych na komputerach osobistych. Tam zdarzało się, że programy zaglądały do siebie, a&nbsp;nawet modyfikowały cudzy kod (*cheaty* do gier). Ale w&nbsp;przypadku smartfonów twórcy systemów postawili na coś szczelniejszego.
 
@@ -111,13 +112,13 @@ Innych, alternatywnych systemów operacyjnych tutaj nie omówię. Ale uznaję ic
 
 ## Zostawianie linków przeglądarce
 
-Aplikacje mogą otwierać linki na różne sposoby. Zacznijmy od tego najmniej groźnego -- po prostu usuwają się z drogi i&nbsp;każą otworzyć nasz link domyślnej przeglądarce.
+Aplikacje mogą otwierać linki na różne sposoby. Zacznijmy od tego najmniej groźnego -- po prostu usuwają się z&nbsp;drogi i&nbsp;każą otworzyć nasz link domyślnej przeglądarce.
 
 * Jesteśmy w&nbsp;jakiejś apce A, jest tam link. Naciskamy go.
 * Aplikacja A&nbsp;to wyłapuje. Wysyła systemowi prośbę „otwórz ten link”.
 * System słucha i&nbsp;otwiera link w&nbsp;domyślnej przeglądarce, czyli całkiem osobnej apce.
 
-Ta metoda daje najwięcej prywatności. Po kliknięciu przechodzimy do przeglądarki i&nbsp;znikamy apce A&nbsp;z oczu. Możliwe, że nawet nie będzie wiedziała, co to za przeglądarka.  
+Ta metoda daje najwięcej prywatności. Po kliknięciu przechodzimy do przeglądarki i&nbsp;znikamy apce A&nbsp;z&nbsp;oczu. Możliwe, że nawet nie będzie wiedziała, co to za przeglądarka.  
 Parafrazując infantylne memy: skoro nas kochają, to puszczają nas wolno :wink:
 
 Ale uwaga! **Choć apka traci możliwość śledzenia, nadal może nadużyć tej metody do _wysłania_ tego, co już wyśledziła**. Zwłaszcza że otwarcie linku nie wymaga żadnego pozwolenia. Zagrożenie omówię bliżej końca wpisu.
@@ -131,7 +132,7 @@ W tym celu **sama otwiera stronę internetową, wewnątrz siebie** (we własnym 
 Jednocześnie apka nie musi sama wcielać się w&nbsp;przeglądarkę. Wystarczy, że zwróci się do systemu.  
 „Systemie, otwórz mi w&nbsp;tym miejscu okno na świat, o&nbsp;wymiarach takich a&nbsp;takich. I&nbsp;otwórz w&nbsp;nim `https://jakas-zmyslona-stronka.com.pl`”.
 
-A system otwiera okno, korzystając z&nbsp;dostępnego sobie silnika przeglądarki. Czyli, przypomnę: Chromium na Androidach, WebKit na iOS. Takie okno znamy ogólnie pod nazwą **WebView**.
+A system otwiera okno, korzystając z&nbsp;dostępnego sobie silnika albo przeglądarki bazowej. Czyli, przypomnę: Chromium na Androidach, WebKit na iOS. Takie okno znamy ogólnie pod nazwą **WebView**.
 
 Wspomniałem wyżej, że WV nie musi być otwierane w&nbsp;złych celach. Ale to w&nbsp;dużej mierze zależy od „szczelności” takiego okna. Od tego, czy aplikacja goszcząca je u&nbsp;siebie może wyciągać z&nbsp;niego informacje.
 
@@ -169,7 +170,7 @@ Oba systemy oferują autorom aplikacji również **szczelną wersję WebView. Ot
 
 Na systemach Android możemy użyć w&nbsp;swoich apkach elementu zwanego [`CustomTab`](https://developer.chrome.com/docs/android/custom-tabs/). Jego odpowiednikiem na systemie iOS jest [`SFSafariViewController`](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller).
 
-W obu przypadkach wewnątrz cudzej aplikacji otwiera nam się okno naszej głównej przeglądarki. Tej, której zwykle używamy do łażenia po internecie. Wraz ze znajomym interfejsem, zapisanymi hasłami, historią...
+W obu przypadkach wewnątrz cudzej aplikacji otwiera nam się okno naszej głównej przeglądarki. Tej, której zwykle używamy do łażenia po internecie. Wraz ze znajomym interfejsem (wyglądem), zapisanymi hasłami, historią...
 
 Tyle że apka, w&nbsp;której się to okno otworzyło, nie ma możliwości zaglądania do niego, patrzenia co robimy. Nie może też dodawać od siebie żadnego JavaScriptu.
 
@@ -205,7 +206,7 @@ W każdym razie -- załóżmy, że taka aplikacja z&nbsp;własnym silnikiem, *de
 Ma wiele możliwości. Może nadać części swojego okna taki wygląd, jak te szczelniejsze wersje WebView na Androidzie i&nbsp;iOS.  
 Oczywiście nie będzie idealną imitacją, bo nie ma chociażby dostępu do historii przeglądania czy zapisanych haseł -- te tkwią jedynie w&nbsp;domyślnej przeglądarce. A&nbsp;apki, pamiętajmy, nie mogą do siebie zerkać.
 
-Ale powierzchnowna imitacja mogłaby wystarczyć do uśpienia naszej czujności.  
+Ale powierzchowna imitacja mogłaby wystarczyć do uśpienia naszej czujności.  
 Jednocześnie apka miałaby całkiem swobodny dostęp do tego, co przeglądamy, wszystkich naszych działań. Nawet lepszy niż przez oficjalne WebView, bo ściśle z&nbsp;nią zintegrowany.
 
 Osobiście myślę, że coś tak oczywistego by nie przeszło przez sito procesu oceniania i&nbsp;nie trafiło do PlayStore'a czy AppStore'a. Ale zagrożenie warto znać.
@@ -259,12 +260,12 @@ Ale gdybyśmy mieli szczególnie wrednego przeciwnika, to **mógłby próbować 
 
 Na początku podsunąłby nam link do kontrolowanej przez siebie strony. I&nbsp;otworzył go w&nbsp;*domyślnej* przeglądarce. Uzasadniając to na przykład tym, że musimy przeczytać regulamin. I&nbsp;wszystko OK, prawda? Domyślna, czyli bezpieczna?
 
-Tyle że odwiedzając tę stronę, nasza przeglądarka wysłałaby trochę informacji o&nbsp;sobie (np. to, że jest Firefoksem albo Brave'em). Inne informacje dałoby się ustalić na podstawie kodu JavaScript. Albo nawet obrazków, jakie pobierze przeglądarka.
+Tyle że odwiedzając tę stronę, nasza przeglądarka wysłałaby trochę informacji o&nbsp;sobie (np. to, że jest Firefoksem albo Brave'em). Inne informacje dałoby się ustalić na podstawie kodu obecnego na stronie. Albo nawet obrazków, jakie pobierze przeglądarka.
 
 Mając te informacje, nasz przeciwnik może sprawdzić w&nbsp;wielkiej bazie, jak powinien wyglądać interfejs naszej przeglądarki.  
 A przy kolejnych interakcjach już nie będzie otwierał linków w&nbsp;przeglądarce domyślnej, jak zrobił w&nbsp;kroku pierwszym. Od teraz może używać nieszczelnego WebView albo pełnej podróbki. Tyle że wystylizowanej na naszą przeglądarkę. 
 
-Nie będzie to w&nbsp;100% dokładne, bo przeglądarki nie mówią stronom wszystkiego. Ale na pewno lepiej dopasowane, niż pokazywanie wszystkim identycznego interfejsu. Jest szansa, że się nie połapiemy i&nbsp;wpiszemy coś wrażliwego.
+Nie będzie to w&nbsp;100% dokładne, bo przeglądarki nie ujawniają stronom swojego pełnego wyglądu. Ale uwiarygodniłoby fałszywą przeglądarkę. Jest szansa, że się nie połapiemy i&nbsp;wpiszemy coś wrażliwego.
 
 ### Ustalanie marki czyjegoś telefonu
 
@@ -331,7 +332,8 @@ text="Motyw kolorystyczny lepiej ustawić w&nbsp;samej przeglądarce. Systemowy 
 
 Inna opcja, jeśli nie jesteśmy pewni? Wejdźmy na jakąś (mniej wrażliwą) stronę wymagającą logowania. Jeśli w&nbsp;normalnych warunkach pokazałoby nasze konto, a&nbsp;teraz jest tylko ekran logowania (czytaj: nie jesteśmy zalogowani), to od razu zapalmy czerwoną lampkę w głowie.
 
-Można też sprawdzić wspomnianą [stronkę Felixa K](https://inappbrowser.com/). Powinna wykryć, jeśli ktoś dodał nam do strony kod, którego nie powinno tam być. Albo BrowserLeaks (ale tam już musimy wiedzieć, na jakie informacje patrzeć).
+Można też sprawdzić wspomnianą [stronkę Felixa K](https://inappbrowser.com/). Powinna wykryć, jeśli ktoś dodał nam do strony kod, którego nie powinno tam być.  
+Inna strona: BrowserLeaks (ale tam już musimy wiedzieć, na jakie informacje patrzeć).
 
 ### Trzymanie się domyślnej przeglądarki
 
@@ -355,7 +357,7 @@ A jeśli mamy przypadki beznadziejne, jak TikTok, które za nic nie chcą nas wy
 
 A jeśli jesteśmy autorami stron? Możemy rozpoznać, po *user agencie* oraz innych informacjach, czy ktoś nas odwiedza przez wbudowaną przeglądarkę. Przykład wyżej.
 
-Potem można wyświetlić odpowiednie ostrzeżenie. "Znam twój model telefonu, wiem że przybywasz z&nbsp;apki".  
+Potem można wyświetlić odpowiednie ostrzeżenie. „Znam twój model telefonu, wiem że przybywasz z&nbsp;apki”.  
 Można też dopisać, że TikTok, Facebook czy tam inna apka ujawnia te dane całemu internetowi. Taka mała akcja w&nbsp;ramach uświadamiania społeczeństwa :smiling_imp:
 
 I na tym psotnym pomyślę kończę. Mam nadzieję, że żadna udawana przeglądarka nie weźmie Was na przejażdżkę wbrew woli.  
