@@ -6,6 +6,8 @@ description: "Przejażdżka, za którą zapłacisz danymi."
 date:   2023-08-08 21:17:23 +0100
 tags: [Apki, Inwigilacja, Podstawy]
 firmy: [Facebook, TikTok]
+category: apki
+category_readable: "Apki to pułapki"
 image:
   path: /assets/posts/apki/in-app-browser/fake-browser-baner.jpg
   width: 1200
