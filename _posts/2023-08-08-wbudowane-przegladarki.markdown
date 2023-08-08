@@ -15,7 +15,7 @@ image:
 
 We współczesnym świecie życie kręci się wokół internetu. Przeglądarka to stały element każdego smartfona.
 
-Jak pokazywałem w&nbsp;innej swojej serii, „Internetowej inwigilacji”, przeglądarki zwykle nas chronią podczas internetowych wojaży. Owszem, odwiedzane strony wciąż mogą się trochę o&nbsp;nas dowiedzieć. Ale muszą stosować sztuczki.
+Jak pokazywałem w&nbsp;innej swojej serii, [„Internetowej inwigilacji”](/serie/internetowa_inwigilacja/){:.internal}, przeglądarki zwykle nas chronią podczas internetowych wojaży. Owszem, odwiedzane strony wciąż mogą się trochę o&nbsp;nas dowiedzieć. Ale muszą stosować sztuczki.
 
 Ale linki do stron trafiają się nie tylko w&nbsp;przeglądarce. Co się dzieje, gdy klikniemy jakiś w innej aplikacji?  
 Zwykle po prostu otworzy nam się strona w&nbsp;tej głównej, szczelnej, chroniącej nasz tyłek przeglądarce. Nic strasznego.
@@ -147,7 +147,7 @@ To okno otwierające się wewnątrz cudzej aplikacji. Niekoniecznie na cały ekr
 
 Takie okno **nie ma dostępu do danych głównej przeglądarki**. Nie zajrzy nam w&nbsp;historię czy też pliki cookies. Może je sobie co najwyżej niezależnie zbierać, w&nbsp;miarę odwiedzania przez nas kolejnych stron.
 
-Z drugiej strony -- aplikacja, wewnątrz której się otwiera, może dodawać do odwiedzanych przez nas stron rzeczy od siebie. Takie jak [kod JavaScript]({% post_url 2022-05-03-javascript1 %}){:.internal}, którego łatwo użyć do zbierania i&nbsp;wysyłania innym dokładnych informacji o&nbsp;nas.
+Z drugiej strony -- aplikacja, wewnątrz której się otwiera, może dodawać do odwiedzanych przez nas stron rzeczy od siebie. Takie jak [kod JavaScript]({% post_url 2022-05-02-javascript1 %}){:.internal}, którego łatwo użyć do zbierania i&nbsp;wysyłania innym dokładnych informacji o&nbsp;nas.
 
 W ten sposób ma pewien wgląd w&nbsp;nasze działania w&nbsp;szerszym internecie, poza swoim głównym obszarem działań. To właśnie na temat tego zagrożenia wypowiadał się Felix Krause.
 
