@@ -150,9 +150,9 @@ To okno otwierające się wewnątrz cudzej aplikacji. Niekoniecznie na cały ekr
 
 Takie okno **nie ma dostępu do danych głównej przeglądarki**. Nie zajrzy nam w&nbsp;historię czy też pliki cookies. Może je sobie co najwyżej niezależnie zbierać, w&nbsp;miarę odwiedzania przez nas kolejnych stron.
 
-Z drugiej strony -- aplikacja, wewnątrz której się otwiera, może dodawać do odwiedzanych przez nas stron rzeczy od siebie. Takie jak [kod JavaScript]({% post_url 2022-05-02-javascript1 %}){:.internal}, którego łatwo użyć do zbierania i&nbsp;wysyłania innym dokładnych informacji o&nbsp;nas.
+Z drugiej strony -- aplikacja, wewnątrz której otwiera się okno, może dodawać do odwiedzanych przez nas stron rzeczy od siebie. Takie jak [kod JavaScript]({% post_url 2022-05-02-javascript1 %}){:.internal}, którego łatwo użyć do zbierania i&nbsp;wysyłania innym dokładnych informacji o&nbsp;nas.
 
-W ten sposób ma pewien wgląd w&nbsp;nasze działania w&nbsp;szerszym internecie, poza swoim głównym obszarem działań. To właśnie na temat tego zagrożenia wypowiadał się Felix Krause.
+W ten sposób apka ma wgląd w&nbsp;nasze działania w&nbsp;szerszym internecie, poza swoim głównym obszarem działań. To właśnie na temat tego zagrożenia wypowiadał się Felix Krause.
 
 W przypadku Androida taki nieszczelny element nazywa się po prostu [`WebView`](https://developer.android.com/develop/ui/views/layout/webapps/webview). Na systemach iOS bardzo podobna rzecz to [`WKWebView`](https://developer.apple.com/documentation/webkit/wkwebview).
 

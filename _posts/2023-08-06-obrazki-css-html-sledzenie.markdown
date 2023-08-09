@@ -5,6 +5,8 @@ subtitle: "„Wybierz obrazek, a powiem ci kim jesteś”"
 description: "„Wybierz obrazek, a powiem ci kim jesteś”"
 date:   2023-08-06 8:00:00 +0100
 tags: [Internet, Inwigilacja, Podstawy]
+category: internetowa_inwigilacja
+category_readable: "Internetowa inwigilacja"
 image:
   path: /assets/posts/inwigilacja/przez-obrazki/internet-obrazki-sledzenie-baner.jpg
   width: 1200
