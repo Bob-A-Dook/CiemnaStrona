@@ -181,8 +181,8 @@ Android posiada również nówkę z&nbsp;2020 roku, [`Trusted Web Activity`](htt
 
 {% include info.html
 type="Ciekawostka"
-text="Złe apki mogłyby teoretycznie obejść izolację, nakładając na ekran niewidzialne elementy. Wyłapywałyby, co nacisnął użytkownik. W&nbsp;ten sposób mogłyby np. odczytać, co ktoś napisał na klawiaturze ekranowej.  
-Google i&nbsp;Apple mogą wyłapywać takie apki i&nbsp;nie wpuszczać ich do swoich baz aplikacji (Apple wprost straszy, że zabrania śledzenia).  
+text="Złe apki mogłyby teoretycznie obejść izolację, nakładając na ekran niewidzialne elementy. Każde dotknięcie palcem przechodziłoby najpierw przez nie. W&nbsp;ten sposób dałoby się np. ustalić, jakie elementy strony naciskał użytkownik.  
+Google i&nbsp;Apple mogą wyłapywać takie apki i&nbsp;nie wpuszczać ich do swoich baz aplikacji (Apple [wprost zabrania](https://developer.apple.com/documentation/safariservices/sfsafariviewcontroller#overview) zakrywania okna innymi rzeczami).  
 Ale czy mamy oprócz tego pewniejsze, techniczne zabezpieczenia przed obchodzeniem izolacji? Nie wiem, ale spróbuję się dowiedzieć. 
 "%}
 

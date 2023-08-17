@@ -141,6 +141,13 @@ Raczej żadna firma nie jest na tyle potężna, żeby poustawiać swoje *beacony
 
 Aplikacje wykorzystujące tę metodę śledzenia znajdziemy w&nbsp;świecie rzeczywistym. Aplikacja AccuWeather (od aktualnej prognozy pogody) [wysyłała współrzędne GPS oraz numery hotspotów firmie analitycznej](https://medium.com/hackernoon/advisory-accuweather-ios-app-sends-location-information-to-data-monetization-firm-83327c6a4870). Wprost chwalili się również, że wspierają *beacony Bluetooth* i&nbsp;również wykorzystują dane z&nbsp;nich do dokładniejszego śledzenia.
 
+{% include info.html
+type="Wątek Google'a"
+text="Aplikacja Google Maps podobno kiedyś [wymagała dostępu do danych dotyczących hotspotów](https://news.ycombinator.com/item?id=30167865), żeby w ogóle działać.  
+Mimo że zupełnie dobrze by sobie radziła z&nbsp;samym GPS-em. Wszystko wskazuje na próbę sięgnięcia po więcej danych (i&nbsp;na temat użytkowników, i&nbsp;hotspotów na świecie).  
+Zaznaczę, że Google'a staram się nie wpuszczać w&nbsp;swoje życie. Apki nie mam, więc nie potwierdzę doniesień. Ale podlinkowane forum jest dośc wiarygodne."
+%}
+
 ### Mikrofon
 
 Tutaj sprawa jest bardzo podobna jak z&nbsp;Bluetoothem. Autor wścibskiej apki (albo jego partner biznesowy) nabywa *beacony* -- małe nadajniki, tylko że wysyłające [dźwięk na skraju słyszalności]({% post_url 2023-03-26-apki-mikrofon-zagrozenia %}#dźwięk-wsłużbie-śledzenia){:.internal}.
