@@ -41,7 +41,7 @@ Dla niektórych psinka to dodatek do przeglądarki. Dla innych alternatywny syst
 ## Spis treści
 
 * [Zarys problemu](#zarys-problemu)
-* [Web Environment Integrity – krok po kroku](#web-environment-integrity-–-krok-po-kroku)
+* [Web Environment Integrity – krok po kroku](#web-environment-integrity--krok-po-kroku)
   * [Cyfrowe enklawy](#cyfrowe-enklawy)
   * [Gwarancja podpisana cyfrowo](#gwarancja-podpisana-cyfrowo)
   * [Biurokratyczne uruchomienie](#biurokratyczne-uruchomienie)
