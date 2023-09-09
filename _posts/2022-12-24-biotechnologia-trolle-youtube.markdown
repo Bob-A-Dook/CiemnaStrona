@@ -313,7 +313,7 @@ Zaprzeczają w&nbsp;żywe oczy. „Twój świat jest fałszywy”. „To się ni
 
 ### „Nie jesteśmy trollami”
 
-Czy zdarzało się, że ktoś zauważył i&nbsp;wypunktował dość nienaturalną aktywnośc naszej trójcy? Jak najbardziej, są dość znani! Niektórzy ich krytycy nawet wrzucają w&nbsp;komentarzach inne nazwy użytkowników mogących należeć do tej grupy.
+Czy zdarzało się, że ktoś zauważył i&nbsp;wypunktował dość nienaturalną aktywność naszej trójcy? Jak najbardziej, są dość znani! Niektórzy ich krytycy nawet wrzucają w&nbsp;komentarzach inne nazwy użytkowników mogących należeć do tej grupy.
 
 A jak reaguje wspomniana trójca na zarzuty o&nbsp;to, że są branżowymi szczekaczami (ang. *shills*)? Zaprzeczaniem i&nbsp;wyzwiskami. Twierdzą, że takie oskarżenia od razu oznaczają przegraną rozmowę, a&nbsp;żadna firma by nie miała potrzeby płacić za obronę GMO:
 

@@ -520,7 +520,7 @@ Ten drugi film przeszedł jednak bez większego echa -- zdobył ponad 38&nbsp;ty
 
 O sprawie wypowiedziało się parę profili, które nie prowadzą własnych, zewnętrznych stron, i&nbsp;komunikują się raczej krótkimi notkami. 
 
-Przykładowo profil „Uniwersytety do nauki, pajace do cyrku” (skądinąd fajnie punktujący szarlatanów) opublikował 11&nbsp;lipca 2018&nbsp;roku notkę będącą głównie krytyką faktu, że skrytykowano ministra za nadzwyczajne zezwolenie.
+Przykładowo profil „Uniwersytety dla nauki, pajace do cyrku” (skądinąd fajnie punktujący szarlatanów) opublikował 11&nbsp;lipca 2018&nbsp;roku notkę będącą głównie krytyką faktu, że skrytykowano ministra za nadzwyczajne zezwolenie.
 
 W poście linkują do *requiem* Risk Mongera. W&nbsp;komentarzu pod spodem dodali też link do artykułu Entine'a z&nbsp;gazety *Slate*.  
 Autor Węglowego Szowinisty śmieszkuje w&nbsp;komentarzach, że głupio udostępniać ich posta, bo bardziej wyróżnia się wtedy nagłówek aktywistów niż link do Risk Mongera.
@@ -534,7 +534,7 @@ text="Poproszę jakieś wiarygodne wyniki badań, a&nbsp;nie cytować strony int
 %}
 
 {% include comment.html
-author="Uniwersytety do nauki, pajace do cyrku"
+author="Uniwersytety dla nauki, pajace do cyrku"
 source="facebook"
 type="reply"
 avatar="/assets/posts/chemia/neonikotynoidy/uniwersytety-logo.jpg"

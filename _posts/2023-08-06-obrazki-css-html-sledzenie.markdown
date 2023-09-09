@@ -297,7 +297,8 @@ A to nie koniec! Oprócz prostego wykrywania typu ON/OFF można również tworzy
 
 ### Drukowanie
 
-Co więcej, arkusze CSS mogą zawierać regułę `@print`. Odnosi się do przypadku, kiedy coś drukujemy (do pliku PDF albo na papierze). Czasem się przydaje, choćby na tym blogu. Ciemne tło i&nbsp;jasna czcionka nie sprzyjają drukarkom.
+Co więcej, arkusze CSS mogą zawierać regułę `@print`. Odnosi się ona do przypadku, kiedy drukujemy odwiedzaną stronę (do pliku PDF albo na papierze).  
+Czasem taki wariant się przydaje, choćby na tym blogu. Ciemne tło i&nbsp;jasna czcionka nie sprzyjają drukarkom.
 
 A czy może służyć śledzeniu? Postanowiłem to zbadać.  
 W stylach testowego bloga dodałem link do obrazka, mającego stanowić tło w&nbsp;wersji drukowanej. I&nbsp;uruchomiłem narzędzia przeglądarki (`Ctrl+Shift+I`, potem zakładka `Sieć`), żeby patrzeć co się pobiera.

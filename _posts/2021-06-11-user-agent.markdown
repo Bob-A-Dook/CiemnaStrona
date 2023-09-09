@@ -185,7 +185,8 @@ Ale to średnia wymówka. Współczesne strony internetowe potrafią bardzo wiel
 Możliwe, że chodzi o&nbsp;coś innego.  
 Gdy używamy przeglądarki, strony internetowe są ściśle ograniczone i&nbsp;raczej mało mogą nam zrobić (pomijając różne myki opisane w&nbsp;„Internetowej inwigilacji” :wink:).
 
-A aplikacje? Te są dużo bardziej zżyte z&nbsp;systemem. Jeśli im pozwolimy, to mogą czytać nasze kontakty, zerkać na GPS-a, przeszukiwać pliki...
+A aplikacje? Te są dużo bardziej zżyte z&nbsp;systemem. Jeśli im pozwolimy, to mogą czytać nasze kontakty, zerkać na GPS-a, przeszukiwać pliki...  
+Jeśli kogoś ciekawią ich możliwości, to poświęciłem temu tematowi osobną serię wpisów, [„Apki to pułapki”](/serie/apki){:.internal}.
 
 Niedawno Apple wprowadziło na systemie iOS (czyli Jabłkofonach) dość przejrzyste informacje o&nbsp;tym, czego chcą aplikacje.  
 Porównajmy uprawnienia domyślnej [przeglądarki Safari](https://www.apple.com/privacy/labels/) z&nbsp;uprawnieniami Messengera na tym samym systemie:
@@ -229,10 +230,10 @@ Przez „zbyt brawurową” rozumiem tutaj dwie rzeczy:
   (jeśli np. używamy Firefoksa, ale wysyłamy takiego UA jak Chrome).
 
 Dlaczego to drugie może szkodzić?  
-Dlatego, że strony czasem zawierają kod rozpoznający przeglądarkę na podstawie jej właściwości. Więcej będzie o&nbsp;tym we wpisie o&nbsp;JavaScripcie.
+Dlatego, że strony czasem zawierają kod rozpoznający przeglądarkę na podstawie jej właściwości. Więcej o&nbsp;tym we [wpisie na temat kodu JavaScript]({% post_url 2022-05-02-javascript1 %}){:.internal}.
 
 Wyobraźmy sobie, że przedstawiamy się jako Chrome. A&nbsp;kod na stronie wykonuje testy i&nbsp;wychodzi mu, że jesteśmy Firefoksem.  
-W ten sposób poznali naszą prawdziwą przeglądarkę. Do tego widzą, że próbowaliśmy ich nabrać, maskując *user agenta* (co może być bardziej wrażliwą informacją niż on sam).
+W ten sposób poznali naszą prawdziwą przeglądarkę. Do tego widzą, że próbowaliśmy ich nabrać, maskując *user agenta*. Co może być bardziej wrażliwą informacją niż on sam.
 
 # Najprostsze rozwiązanie
 
@@ -249,7 +250,7 @@ Za drugą, mainstreamową, coś domyślnego z&nbsp;naszego systemu (np. Edge na 
 Pamiętajmy tylko, **żeby żadną z&nbsp;tych przeglądarek nie był Chrome**, który lubi paplać o&nbsp;nas Google'owi.
 
 Zamiast niego lepiej zainstalować *[Chromium](https://www.chromium.org/getting-involved/download-chromium)*.  
-To goły silnik Chrome'a. Ma identyczne działanie, tych samych twórców, wysyła takiego samego UA... Ale nie ma wbudowanych „integracji” śledzących od Google.
+To goły fundament Chrome'a. Ma identyczne działanie, tych samych twórców, wysyła takiego samego UA... Ale nie ma wbudowanych „integracji” śledzących od Google.
 
 A jeśli nie boimy się bardziej niszowych rzeczy -- jest *[Ungoogled Chromium](https://ungoogled-software.github.io/ungoogled-chromium-binaries/)*. To wersja, która z&nbsp;założenia ma być niezależna od usług Google'a. A&nbsp;poza tym ma większość tych samych funkcji co Chrome.
 
@@ -257,9 +258,9 @@ A jeśli nie boimy się bardziej niszowych rzeczy -- jest *[Ungoogled Chromium](
 # Na urządzeniu mobilnym
 
 Tutaj nie ma zastosowania porada „po prostu miej wiele przeglądarek”.  
-Niestety nie da się łatwo zainstalować wersji komputerowej na telefonie.
+Przeglądarki *desktopowej* (na większy komputer) zwyczajnie nie zainstalujemy na urządzeniu mobilnym. Architektury systemów się różnią.
 
-Na szczęście rozwiązanie może być proste -- **niektóre przeglądarki same umożliwiają łatwą zmianę**.
+Na szczęście rozwiązanie może być proste -- **niektóre przeglądarki same umożliwiają udawanie komputera**.
 
 Na Androidzie taką funkcję ma na przykład Firefox (w&nbsp;wersji Focus i&nbsp;zwykłej).  
 W każdej z&nbsp;nich można kliknąć ikonę ustawień w&nbsp;prawym górnym rogu i&nbsp;zaznaczyć tam opcję „Wersja na komputery”:

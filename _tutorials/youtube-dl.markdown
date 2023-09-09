@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Instalowanie i używanie youtube-dl
+title: Instalowanie i używanie youtube-dl oraz yt-dlp
 description: "Kompletujemy własną biblioteczkę filmową."
 ---
 
-YouTube trzyma wszystkie treści na swoich serwerach, a&nbsp;my je sobie streamujemy, nieraz wielokrotnie. Tak wygląda typowy, zaplanowany dla nas scenariusz.  
+YouTube trzyma wszystkie treści na swoich serwerach, a&nbsp;my je sobie streamujemy, nieraz wielokrotnie. Nigdy nie trafiają do nas na stałe.
+
+Tak wygląda typowy, zaplanowany dla nas scenariusz.  
 Istnieje jednak wiele sytuacji, kiedy wolelibyśmy mieć ich filmiki u&nbsp;siebie:
 
 * Znaleźliśmy filmik, który bardzo nam się podoba, ale może niedługo zniknąć.
@@ -18,36 +20,42 @@ Istnieje jednak wiele sytuacji, kiedy wolelibyśmy mieć ich filmiki u&nbsp;sieb
 * Nie chcemy karmić Google'a historią tego, ile razy coś oglądaliśmy, kiedy robiliśmy pauzy i&nbsp;tak dalej. Już i&nbsp;tak za dobrze nas zna.
 * Chcemy być wierni przysłowiu „Lepszy wróbel w&nbsp;garści...”.
 
-Niezależnie od naszych powodów, **rozwiązaniem jest _youtube-dl_**.  
+Niezależnie od naszych powodów, **rozwiązaniem jest _youtube-dl_ albo jego alternatywa, _yt-dlp_**.  
 Bardzo wszechstronny program konsolowy, którym da się pobierać filmiki z&nbsp;YouTube'a ([i&nbsp;wielu innych stron](https://github.com/ytdl-org/youtube-dl/blob/master/docs/supportedsites.md)).
 
 A ponieważ konsola może być dla wielu osób czymś nowym, napisałem ten przyjazny samouczek pokazujący, jak się z tym programikiem obchodzić.
 
 {% include info.html
-type="Uwaga"
-text="Jeśli na konsolę reagujemy alergicznie i&nbsp;za żadną cenę nie chcemy z&nbsp;niej skorzystać, to istnieją również programy z&nbsp;graficznym interfejsem. Dobrze oceniany jest na przykład [ten od użytkownika *jely2002*](https://github.com/jely2002/youtube-dl-gui).  
-Warto jednak pamiętać, że będzie aktualny tylko dopóty, dopóki twórcy się chce. Nie mamy gwarancji, że będzie na bieżąco ze zmianami w „podstawce”."
-trailer="<p class='bigspace-before'>
-Poza tym <i>youtube-dl</i> nieco przycina szybkość pobierania, do poziomu kilkudziesięciu kB/s. Jeśli chcemy pozbyć się ograniczeń, warto rozważyć <i><a href='https://github.com/yt-dlp/yt-dlp'>yt-dlp</a></i>. Zastrzeżenia jak wyżej: może być do tyłu względem wersji podstawowej.</p>"
+type="Aktualizacja 2023"
+text="Niedawno kontrowersyjny wyrok niemieckiego sądu doprowadził do [ukarania stronki hostującej YtDl](https://torrentfreak.com/youtube-dl-hosting-ban-paves-the-way-to-privatized-censorship-230411/).  
+Walczyli o to producenci: Sony Entertainment, Warner Music Group oraz Universal Music. Wcześniej próbowali również strącić kod źródłowy programu, ale im się nie udało.  
+Od tego czasu coraz częściej [poleca się zamiennik](https://news.ycombinator.com/item?id=37270747). Nosi nazwę `yt-dpl`, obsługuje się go tak samo jak poprzednika. Dopasowałem do niego część instrukcji z tego samouczka."
 %}
-
-## Instalacja
-
-Ogólne instrukcje znajdziecie [na oficjalnej stronie projektu](https://github.com/ytdl-org/youtube-dl).
-
-Ale oprócz tego naszykowałem ten nieco bardziej przyjazny poradnik **dla użytkowników Windowsa**.
 
 {% include info.html
-type="Porada"
-text="Tutaj opisuję sposób instalacji najbardziej intuicyjny dla zwykłego użytkownika. Wystarczy pobrać plik i&nbsp;umieścić go w&nbsp;odpowiednim miejscu. To dobra i&nbsp;działająca metoda.  
-Ale, gdybyście chcieli jeszcze szybciej i&nbsp;łatwiej aktualizować Wasz program, to gorąco polecam instalację przez `pip`, również opisaną na stronie *youtube-dl*."
+type="Uwaga"
+text="Jeśli na konsolę reagujemy alergicznie i&nbsp;za żadną cenę nie chcemy z&nbsp;niej skorzystać, to istnieją również programy z&nbsp;graficznym interfejsem. Dobrze oceniany jest na przykład [ten od użytkownika *jely2002*](https://github.com/jely2002/youtube-dl-gui).  
+Warto jednak pamiętać, że będzie aktualny tylko dopóty, dopóki twórcy się chce. Nie mamy gwarancji, że będzie na bieżąco ze zmianami w&nbsp;podstawowej, konsolowej wersyjce."
 %}
 
-Najpierw pobieramy z&nbsp;podlinkowanej wyżej strony najbardziej aktualny plik EXE. Link podali blisko początku instrukcji.
+## Instalacja na komputerze
 
-Włączamy konsolę *PowerShell*. Możemy to zrobić na kilka sposobów:
+Przedstawiam poradnik instalacji **dla użytkowników Windowsa**. Przystosowałem go do nowszej wersji, czyli `yt-dlp`, której jeszcze nie ubili.
 
-* Przez menu start.  
+{:.post-meta .bigspace-after}
+Gdyby ktoś z&nbsp;jakiegoś powodu wolał się trzymać klasycznego *youtube-dl*, to różnice są bardzo niewielkie. Po prostu pobiera się [program z&nbsp;innego źródła](https://github.com/ytdl-org/youtube-dl). A&nbsp;potem, korzystając z&nbsp;niego w konsoli, wpisuje się *youtube-dl* zamiast *yt-dlp*.
+
+Zaczynajmy!
+
+Najpierw pobieramy plik EXE. Ten dla `yt-dlp` -- nowszej, mniej problematycznej wersji -- znajdziemy [tutaj](https://github.com/yt-dlp/yt-dlp).
+
+### Ustalanie folderu dla pliku
+
+Gdy już mamy plik na dysku, to warto ustalić, do jakiego specjalnego folderu go wrzucić, żeby dał się przywoływać z dowolnego miejsca.
+
+W tym celu włączamy konsolę *PowerShell*. Możemy to zrobić na kilka sposobów:
+
+* Przez menu startowe.  
 * Z&nbsp;klawiatury.
 
   Naciskamy jednocześnie klawisz z&nbsp;ikoną Windowsa w&nbsp;lewym dolnym rogu oraz przycisk `X`. Następnie naciskamy `I` (jak *Irena*).
@@ -67,28 +75,36 @@ To coś w&nbsp;rodzaju przegródek szybkiego dostępu. Kiedy mamy w&nbsp;tych fo
 
 Zatem otwieramy Eksploratora, bierzemy nasz pobrany wyżej plik EXE i&nbsp;przenosimy go do któregoś z&nbsp;folderów z&nbsp;listy (**za wyjątkiem `System32`**! Odradzają to na stronie projektu).
 
-Od teraz, kiedy wpiszemy w&nbsp;PowerShella `youtube-dl`, powinno nam wyświetlać, że działa (ale potrzebuje linka):
+Od teraz, kiedy wpiszemy w&nbsp;PowerShella `yt-dlp`, powinno nam wyświetlać, że działa (ale potrzebuje linka):
 
 {:.figure .bigspace}
 <img src="/assets/tutorials/youtube-dl/youtube-dl-ekran.jpg" alt="Okno konsoli z&nbsp;wpisanym tekstem 'youtube-dl'. Pod spodem widać informację, że trzeba podać co najmniej jeden adres uRL."/>
+
+### Alternatywna metoda instalacji
+
+Powyższy sposób -- polegający na umieszczeniu pliku w odpowiednim folderze -- jest bardzo intuicyjny. I&nbsp;działa.
+
+Tym niemniej instalacja przez `pip` (moduł Pythona) ma nieco więcej zalet. Pozwala jeszcze szybciej i&nbsp;łatwiej aktualizować program, gdyby coś przestało działać wskutek zmian YouTube'a.
+
+Gdybyście byli gotowi spróbować, to polecam [opis na stronie *yt-dlp*](https://github.com/yt-dlp/yt-dlp/wiki/Installation). To dosłownie parę komend konsolowych.
+
+### Instalacja na Androidzie
+
+Gdyby ktoś chciał używać `yt-dlp` również na urządzeniu mobilnym, to mam dobrą wiadomość -- na systemie Android to całkiem możliwe! Żeby nie zajmować tu miejsca, wydzieliłem instrukcje [do osobnego samouczka](/tutorials/yt-dlp-android){:.internal}.
 
 ## Zdobywanie linków
 
 Gdy już mamy konsolę i&nbsp;wiemy że działa, możemy pobierać do woli.
 
-{% include info.html
-type="Aktualizacja 2023"
-text="Niedawno kontrowersyjny wyrok niemieckiego sądu doprowadził do [ukarania stronki hostującej YtDl](https://torrentfreak.com/youtube-dl-hosting-ban-paves-the-way-to-privatized-censorship-230411/).  
-Walczyli o to producenci: Sony Entertainment, Warner Music Group oraz Universal Music. Wcześniej próbowali również strącić kod źródłowy programu, ale im się nie udało.  
-W związku z ich nagonką zmieniłem nieco treść samouczka. Pierwsza część pokazuje teraz ogólną metodę zdobywania linków z YouTube'a. Gdy na przykład chcemy je wysłać znajomym.  
-Część druga pokazuje używanie `youtube-dl` w *ogólnym* przypadku. W domyśle: na którejś z wielu stron, które nie mają z tym problemu.  
-Obie części są całkowicie ze sobą niezwiązane :smile:"
-%}
+{:.post-meta .bigspace-after}
+W związku ze wspomnianą na początku sądową nagonką, zmieniłem nieco treść samouczka. Pierwsza część pokazuje teraz ogólną metodę zdobywania linków z YouTube'a. Gdy na przykład chcemy je wysłać znajomym.  
+Część druga pokazuje używanie `yt-dlp` w *ogólnym* przypadku. W domyśle: na którejś z wielu stron, które nie mają z tym problemu.  
+Obie części są całkowicie ze sobą niezwiązane :smile:
 
 Najpierw musimy odwiedzić YouTube'a, żeby zdobyć link do filmu. Jako przykładu użyję **satyrycznej reklamy *GmailMan* sprzed 10 lat**.  
 Wykonał ją Microsoft, żeby reklamować swoje usługi, a&nbsp;przy tym dać prztyczka w&nbsp;nos Google'owi i&nbsp;jego zwyczajowi zbierania danych z&nbsp;maili.
 
-Zgadzam się z&nbsp;jej sednem; ale jest w&nbsp;tym pewna ironia losu, patrząc na to, że sami od teraz [wymagają](https://www.theregister.com/2022/02/18/windows_11_insider_msa/) posiadania u&nbsp;siebie konta, żebyśmy mogli w&nbsp;ogóle używać Windowsa.
+Zgadzam się z&nbsp;jej sednem; ale jest w&nbsp;tym pewna ironia losu, patrząc na to, że sami od teraz [wymagają posiadania u&nbsp;siebie konta](https://www.theregister.com/2022/02/18/windows_11_insider_msa/), żebyśmy mogli w&nbsp;ogóle używać Windowsa.
 
 Wracając do rzeczy! Po wejściu na stronkę klikamy dwukrotnie link z&nbsp;paska i go kopiujemy:
 
@@ -107,16 +123,16 @@ Zaś wszystko poniżej dotyczy bliżej nieokreślonych, lubiących się z progra
 
 ## Korzystanie z programu
 
-Aby pobierać filmik, wystarczy wpisać w&nbsp;konsoli `youtube-dl`, potem spację, a&nbsp;potem wkleić link do filmu. Zostanie pobrany do tego samego folderu, w&nbsp;którym odpaliliśmy PowerShella, w&nbsp;najlepszej dostępnej jakości.
+Aby pobierać filmik, wystarczy wpisać w&nbsp;konsoli `yt-dlp` (w&nbsp;starej wersji `youtube-dl`), potem spację, a&nbsp;potem wkleić link do filmu. Zostanie pobrany do tego samego folderu, w&nbsp;którym odpaliliśmy PowerShella, w&nbsp;najlepszej dostępnej jakości.
 
 ```
-youtube-dl LINK_DO_FILMU
+yt-dlp LINK_DO_FILMU
 ```
 
 Czasem jednak nie potrzebujemy najbardziej odpicowanej wersji. W&nbsp;tej sytuacji możemy sobie wyświetlić listę dostępnych formatów, dopisując `-F`:
 
 ```
-youtube-dl -F LINK_DO_FILMU
+yt-dlp -F LINK_DO_FILMU
 ```
 
 Pokaże nam się coś w&nbsp;tym stylu:
@@ -127,15 +143,15 @@ Pokaże nam się coś w&nbsp;tym stylu:
 Po lewej stronie mamy liczby odpowiadające poszczególnym formatom, a&nbsp;po prawej stronie ich opisy. Żeby pobrać któryś z&nbsp;nich, wpisujemy `-f`, a&nbsp;potem liczbę odpowiadającą danej wersji. Czyli na przykład:
 
 ```
-youtube-dl -f 242 LINK_DO_FILMU
+yt-dlp -f 242 LINK_DO_FILMU
 ```
 
-**Uwaga:** Zwracajmy uwagę na opisy plików. Czasem, szczególnie w&nbsp;górnej części listy, mamy pliki będące samym dźwiękiem albo obrazem (*audio only* i&nbsp;*video only*). Gotowe kombinacje znajdziemy na końcu listy.
+**Uwaga:** Zwracajmy uwagę na opisy plików. Czasem, szczególnie w&nbsp;górnej części listy, mamy pliki będące samym dźwiękiem albo obrazem (*audio only* i&nbsp;*video only*). Gotowe kombinacje obrazu i&nbsp;dźwięku znajdziemy na końcu listy.
 
 Oprócz liczb mamy też parę gotowych komend. Chcemy sam dźwięk (przydatne przy piosenkach)? Żaden problem, nie trzeba nawet wyświetlać listy formatów! Wpisujemy `-f bestaudio`.
 
 ```
-youtube-dl -f bestaudio LINK_DO_FILMU
+yt-dlp -f bestaudio LINK_DO_FILMU
 ```
 
 A jeśli chcemy jakieś nietypowe połączenie? Na przykład najniższą jakość obrazu i&nbsp;najwyższą dźwięku? Wpisujemy `-f`, liczbę odpowiadającą plikowi wideo, plusa i&nbsp;liczbę odpowiadającą plikowi audio (kolejność ważna!).
@@ -143,14 +159,14 @@ A jeśli chcemy jakieś nietypowe połączenie? Na przykład najniższą jakoś�
 Patrzę na listę szczegółów i&nbsp;widzę, że najmniejszy obraz ma rozdzielczość *256x144*, odpowiada mu liczba 278. A&nbsp;pliku audio nie wypatruję, tylko wpisuję gotowca:
 
 ```
-youtube-dl -f 278+bestaudio LINK_DO_FILMU
+yt-dlp -f 278+bestaudio LINK_DO_FILMU
 ```
 
-To tylko ułamek możliwości tego programiku. Pozwala m.in. na pobieranie całych playlist. Ale z&nbsp;tej funkcji akurat nie miałem potrzeby korzystać, więc na jej temat się nie wypowiem.
+To tylko ułamek możliwości tego programiku. Pozwala też m.in. na pobieranie całych playlist. Ale z&nbsp;tej funkcji akurat nie miałem potrzeby korzystać, więc na jej temat się nie wypowiem.
 
 {% include info.html
 type="Porada"
-text="Program *youtube-dl* zapisuje pobierane filmiki do aktywnego folderu. Dlatego, jeśli chcemy je na przykład zapisać do folderu *Wideo*, to musimy właśnie tam otworzyć naszą konsolę.  
+text="Ten program zapisuje pobierane filmiki do aktywnego folderu. Dlatego, jeśli chcemy je na przykład zapisać do folderu *Wideo*, to musimy właśnie tam otworzyć naszą konsolę.  
 W przypadku Windowsa wystarczy włączyć Eksploratora, przejść do tego folderu, a&nbsp;potem uruchomić tam PowerShella przez menu `Plik` z&nbsp;górnego paska.  
 „Hakierzy” mogą też poruszać się po folderach, korzystając z&nbsp;komendy konsolowej `cd`."
 %}
@@ -167,12 +183,12 @@ A parę powszechnych przypadków omówię dla naszej wygody w tym miejscu.
 
 ### Zawieszenie programu
 
-Jeśli zerwie nam połączenie, to *youtube-dl* może się zawiesić. Licznik stoi w&nbsp;miejscu, niczego nie pobiera.
+Jeśli zerwie nam połączenie, to programik może się zawiesić. Licznik stoi w&nbsp;miejscu, niczego nie pobiera.
 
 W takiej sytuacji otwieramy okno naszej konsoli i:
 
 * najpierw naciskamy `Ctrl`+`C`, żeby przerwać aktualną komendę;
-* następnie strzałkę do góry, żeby ponownie wyświetliła się poprzednia komenda (`youtube-dl...`);
+* następnie strzałkę do góry, żeby ponownie wyświetliła się poprzednia komenda (`yt-dlp`...);
 * potwierdzamy, wciskając `Enter`.
 
 I *voila*! Jeśli już mamy łączność, to zacznie nam pobierać od miejsca, w&nbsp;którym poprzednio się zatrzymało.
@@ -187,8 +203,8 @@ Innym razem sam filmik ma jakieś ograniczenia. Na przykład te wprowadzone prze
 
 ### Film niedostępny/usunięty
 
-W takim przypadku *youtube-dl* wyświetli `Video unavailable`.  
-Oznacza to zapewne, że film został usunięty między momentem wejścia na jego stronę a momentem skopiowania linka do konsoli. Może usunął go autor, może automatyczna moderacja.
+W takim przypadku wyświetli nam się komunikat `Video unavailable`.  
+Oznacza to zapewne, że film został usunięty w&nbsp;przedziale czasowym między wejściem na stronę a&nbsp;rozpoczęciem pobierania. Może usunął go autor, może automatyczna moderacja.
 
 Wyjątkowy pech. Zdarzyło mi się to dosłownie raz, niedawno.
 
@@ -198,38 +214,36 @@ W każdym razie w takiej sytuacji gra się toczy o wysoką stawkę -- **gdy zamk
 
 ### Inne błędy
 
-Z czasem trafi się jakiś nieoczekiwany błąd. Może wynikać z&nbsp;tego, że **co jakiś czas YouTube wprowadza większe zmiany za kulisami, przez co psuje _youtube-dl_**.
+Z czasem trafi się jakiś nieoczekiwany błąd. Może wynikać z&nbsp;tego, że **co jakiś czas YouTube wprowadza większe zmiany za kulisami, przez co psuje _youtube-dl_ i _yt-dlp_**.
 
 Ale jego autorzy zwykle szybko nadganiają. Wtedy po prostu bierzemy od nich najnowszą wersję i&nbsp;zastępujemy nią poprzednią.
 
 To równocześnie jeden z&nbsp;argumentów przemawiających za tym, żeby korzystać z wersji konsolowej, a nie graficznej. Łatwiej być na bieżąco.
 
-Wszelkie nakładki graficzne może i&nbsp;są przyjaźniejsze, ale nadal zależą od podstawowego *youtube-dl*. Gdy Google coś popsuje, to najpierw źródło musi naprawić to u siebie, a&nbsp;potem autorzy wersji graficznej (którzy mogą np. być akurat na wakacjach) po swojej stronie.
+Wszelkie nakładki graficzne może i&nbsp;są przyjaźniejsze, ale nadal zależą od podstawowego, konsolowego programu. Gdy Google coś popsuje, to najpierw źródło musi naprawić to u siebie, a&nbsp;potem autorzy wersji graficznej (którzy mogą np. być akurat na wakacjach) po swojej stronie.
 
 ### „Unable to extract uploader_id”
 
-Ten błąd dotyczy wersji `2021.12.17`, czyli najnowszej dostępnej na stronie *youtube-dl*. Być może nie aktualizują wersji przez to, że organizacje branżowe próbowały im robić problemy. Ale kod na szczęście zmieniają na bieżąco.
+{:.post-meta .bigspace-after}
+**Uwaga:** Ten błąd w moim przypadku dotyczył klasycznego *youtube-dl*. Nie usuwam go stąd, bo ma wartość archiwalną. Ale samo rozwiązanie nie będzie skuteczne, jeśli taki błąd komuś wyskoczy przy nowym *yt-dlp*.
+
+W moim przypadku dotknął wersji `2021.12.17`, czyli najnowszej dostępnej na stronie *youtube-dl*. Być może nie aktualizują wersji przez to, że organizacje branżowe próbowały im robić problemy. Ale kod na szczęście zmieniają na bieżąco.
 
 W tym wypadku zwykła aktualizacja nie działa, bo numer działającej i&nbsp;niedziałającej wersji jest taki sam. Ale rozwiązanie opisali [w&nbsp;dyskusji na Githubie](https://github.com/ytdl-org/youtube-dl/issues/31904).
 
 Ogólnie: trzeba zdobyć wersję najnowszą i&nbsp;siłowo zastąpić nią wersję poprzednią.
 
-**Dla Windowsa**
+W przypadku „instalacji” przez włożenie pliku EXE do folderu pomogłoby zapewne zdobycie jego nowszej wersji i zastąpienie nią starej (mimo że formalnie mają ten sam numer wersji), ale tego nie testowałem.
 
-Nie mam na razie możliwości tego przetestować, ale możemy spróbować pobrać najnowszy plik *exe* (w&nbsp;sposób opisany na początku) i&nbsp;zastąpić nim nasz stary.  
-Tak, mają dokładnie ten sam numer wersji. Ale jest szansa, że nowszy plik jest aktualniejszy i&nbsp;będzie działał.
-
-**Dla systemu Linux**
-
-Osobiście instalowałem `youtube-dl` przez Pythona, zatem wpisuję komendę:
+Osobiście instalowałem wcześniej `youtube-dl` przez Pythona, a dokładniej `pip`. W&nbsp;takim wypadku pomogło wpisanie komendy:
 
 <div class="black-bg mono">
 pip install --force-reinstall 'https://github.com/ytdl-org/youtube-dl/archive/refs/heads/master.tar.gz'
 </div>
 
-...I śmiga!
+...I się naprawiło!
 
-Jeśli mamy system, na którym `pip` odpowiada starszemu Pythonowi&nbsp;2, to wpisujemy zamiast niego `pip3`.
+Jeśli mamy Linuksa, na którym `pip` odpowiada starszemu Pythonowi&nbsp;2, to wpisalibyśmy zamiast niego `pip3`.
 
 Jeśli instalowaliśmy dla całego systemu, to przed komendą trzeba jeszcze dopisać `sudo` i&nbsp;spację, a&nbsp;potem podać hasło.
 

@@ -400,14 +400,13 @@ Po zainstalowaniu wystarczy wpisywać proste komendy:
 ...a pobrany filmik zostanie zapisany w&nbsp;formie pliku na dysku. Można pobierać filmy w&nbsp;różnej rozdzielczości, a&nbsp;nawet sam dźwięk.  
 Wbrew nazwie działa na wielu stronkach, w&nbsp;tym bardziej... prywatnych :wink:
 
+Uważam ten programik za szczególnie przydatne narzędzie w&nbsp;naszym arsenale, więc naszykowałem również [własny samouczek](/tutorials/youtube-dl){:.internal} na temat korzystania z niego.
+
 {% include info.html
 type="Porada"
-text="Szybkość pobierania przez `youtube-dl` jest dość mocno ograniczona. Istnieje jego [szybsza wersja](https://github.com/yt-dlp/yt-dlp), uwolniona od tego limitu, ale jej nie testowałem.  
-Oprócz tego, jeśli ktoś bardzo nie lubi konsoli, może skorzystać z&nbsp;nakładek graficznych na ten program. Ale również ich nie sprawdzałem."
+text="Szybkość pobierania przez `youtube-dl` jest dość mocno ograniczona, a&nbsp;sam program od jakiegoś czasu rzadziej aktualizowany. Dlatego swój samouczek dostosowałem do [innego, opartego na nim programu](https://github.com/yt-dlp/yt-dlp), `yt-dlp`. Działa niemal identycznie.  
+Oprócz tego, jeśli ktoś bardzo nie lubi konsoli, może skorzystać z&nbsp;nakładek graficznych na ten program. Ale ich akurat nie sprawdzałem."
 %}
-
-Instrukcje instalacji znajdziecie [na stronie projektu](https://github.com/ytdl-org/youtube-dl).  
-A ponieważ uważam ten programik za szczególnie przydatne narzędzie w&nbsp;naszym arsenale, naszykowałem również [własny samouczek]({{site.url}}/tutorials/youtube-dl){:.internal} na temat korzystania z&nbsp;*youtube-dl*.
 
 # Alternatywne apki i&nbsp;strony
 

@@ -81,7 +81,7 @@ Jeśli jakaś Apka 1&nbsp;chce mieć oko na nasze ruchy, to jedynym pewnym sposo
 {% include info.html
 type="Ciekawostka"
 text="Pewną osobę zaniepokoił fakt, że TikTok na ogólnej liście zbieranych danych wymienia [dostęp do historii przeglądania](https://android.stackexchange.com/questions/250618/can-an-app-access-my-browser-history-from-other-apps).  
-Ale na szczęście nadal obowiązuje tu uniwersalna zasada. Apki nie mogą do siebie zaglądać. TikTok nie zajrzy do historii naszej głównej przeglądarki. Co najwyżej do *historii nagromadzonej w&nbsp;jego przeglądarce wbudowanej*.  
+Ale na szczęście nadal obowiązuje tu uniwersalna zasada. Apki nie mogą do siebie zaglądać. TikTok nie zajrzy do historii naszej głównej przeglądarki. Co najwyżej do *historii nagromadzonej w&nbsp;nim samym*. W&nbsp;jego przeglądarce wbudowanej.  
 Co nie zmienia faktu, że niektórzy mogą zostawić w&nbsp;takiej tiktokowej historii dość osobiste rzeczy."
 %}
 
@@ -146,9 +146,7 @@ Nie wiem natomiast, jaki odsetek ich użytkowników ma świadomość zagrożeń.
 
 ### Okno nieszczelne
 
-To okno otwierające się wewnątrz cudzej aplikacji. Niekoniecznie na cały ekran, może zajmować tylko część przestrzeni. Wewnątrz niego -- widok na internet.
-
-Takie okno **nie ma dostępu do danych głównej przeglądarki**. Nie zajrzy nam w&nbsp;historię czy też pliki cookies. Może je sobie co najwyżej niezależnie zbierać, w&nbsp;miarę odwiedzania przez nas kolejnych stron.
+Takie okno **nie ma dostępu do danych głównej przeglądarki**. Nie zajrzy w&nbsp;jej historię, pliki cookies ani inne zapisane rzeczy. Może co najwyżej zbierać je od zera, w&nbsp;miarę odwiedzania przez nas kolejnych stron.
 
 Z drugiej strony -- aplikacja, wewnątrz której otwiera się okno, może dodawać do odwiedzanych przez nas stron rzeczy od siebie. Takie jak [kod JavaScript]({% post_url 2022-05-02-javascript1 %}){:.internal}, którego łatwo użyć do zbierania i&nbsp;wysyłania innym dokładnych informacji o&nbsp;nas.
 
@@ -207,9 +205,7 @@ Ma wiele możliwości. Może nadać części swojego okna taki wygląd, jak te s
 Oczywiście nie będzie idealną imitacją, bo nie ma chociażby dostępu do historii przeglądania czy zapisanych haseł -- te tkwią jedynie w&nbsp;domyślnej przeglądarce. A&nbsp;apki, pamiętajmy, nie mogą do siebie zerkać.
 
 Ale powierzchowna imitacja mogłaby wystarczyć do uśpienia naszej czujności.  
-Jednocześnie apka miałaby całkiem swobodny dostęp do tego, co przeglądamy, wszystkich naszych działań. Nawet lepszy niż przez oficjalne WebView, bo ściśle z&nbsp;nią zintegrowany.
-
-Osobiście myślę, że coś tak oczywistego by nie przeszło przez sito procesu oceniania i&nbsp;nie trafiło do PlayStore'a czy AppStore'a. Ale zagrożenie warto znać.
+Jednocześnie apka miałaby całkiem swobodny dostęp do tego, co przeglądamy, wszystkich naszych działań. Nawet lepszy niż przez nieszczelną wersję WebView.
 
 ## Czarne scenariusze
 
@@ -250,11 +246,11 @@ Tutaj dane to imię (Kazimierz), nazwisko (Nowak), miejsce zamieszania (Warszawa
 
 Kiedy otworzy nam się ten regulamin, to dane polecą do właścicieli strony. Czyli zarazem autorów złej apki.
 
-Gdyby próbowali wysyłać dane ludzi do siebie, wprost przez apkę, to może ktoś by ich złapał. Ale kiedy chowają je w&nbsp;linkach, a&nbsp;linki otwierają się w teoretycznie bezpieczny sposób (poza ich oczami)? Mniej osób będzie podejrzewało śledzenie.
+Gdyby próbowali wysyłać dane ludzi do siebie, wprost przez apkę, to może ktoś by ich złapał. Ale kiedy chowają je w&nbsp;linkach, a&nbsp;linki otwierają się w teoretycznie bezpieczny sposób (poza ich oczami)... Mniej osób będzie podejrzewało śledzenie.
 
 ### Doskonalsza replika przeglądarki
 
-Jeśli używamy niestandardowej przeglądarki (takiej jak Firefox Focus) to rośnie szansa, że rozpoznamy, gdy apka spróbuje otworzyć przeglądarkę wbudowaną. Po prostu coś będzie nie tak. Inny kolor pasków, inny wygląd przycisków.
+Jeśli używamy niestandardowej przeglądarki (takiej jak Firefox Focus) to rośnie szansa, że rozpoznamy, gdy apka otworzy zamiast niej swoją wersję. Po prostu coś będzie nie tak. Inny kolor pasków, inny wygląd przycisków.
 
 Ale gdybyśmy mieli szczególnie wrednego przeciwnika, to **mógłby próbować poznać wygląd naszej przeglądarki i&nbsp;się pod nią podszyć jak kameleon**.
 
@@ -263,7 +259,7 @@ Na początku podsunąłby nam link do kontrolowanej przez siebie strony. I&nbsp;
 Tyle że odwiedzając tę stronę, nasza przeglądarka wysłałaby trochę informacji o&nbsp;sobie (np. to, że jest Firefoksem albo Brave'em). Inne informacje dałoby się ustalić na podstawie kodu obecnego na stronie. Albo nawet obrazków, jakie pobierze przeglądarka.
 
 Mając te informacje, nasz przeciwnik może sprawdzić w&nbsp;wielkiej bazie, jak powinien wyglądać interfejs naszej przeglądarki.  
-A przy kolejnych interakcjach już nie będzie otwierał linków w&nbsp;przeglądarce domyślnej, jak zrobił w&nbsp;kroku pierwszym. Od teraz może używać nieszczelnego WebView albo pełnej podróbki. Tyle że wystylizowanej na naszą przeglądarkę. 
+A przy kolejnych interakcjach już nie będzie otwierał linków w&nbsp;przeglądarce domyślnej, jak zrobił w&nbsp;kroku pierwszym. Od teraz może używać własnej wersji (nieszczelnego WebView albo pełnej podróbki). Tyle że wystylizowanej na naszą przeglądarkę. 
 
 Nie będzie to w&nbsp;100% dokładne, bo przeglądarki nie ujawniają stronom swojego pełnego wyglądu. Ale uwiarygodniłoby fałszywą przeglądarkę. Jest szansa, że się nie połapiemy i&nbsp;wpiszemy coś wrażliwego.
 

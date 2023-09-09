@@ -218,11 +218,11 @@ Pozostała dwójka -- Firefox od Mozilli oraz Safari od Apple -- ma własne siln
 
 Poza tym mam jeszcze jedną niewesołą wiadomość. Choć to Google zwrócił na siebie największą uwagę, pewna osoba nagłośniła fakt, że [Apple wprowadziło wcześniej bardzo podobny system](https://httptoolkit.com/blog/apple-private-access-tokens-attestation/), zwany *Private Access Token* (tutaj [dyskusja](https://news.ycombinator.com/item?id=36862494)).
 
-Strony takie jak Cloudflare czy Fastly (w&nbsp;praktyce -- pośrednicy między nami a&nbsp;wieloma stronami większych firm) mogą sobie zażyczyć dowodu autentyczności od przeglądarki Safari na systemach Apple. Ta przekazuje prośbę systemowi, a&nbsp;system dostarcza dowodu swojej „prawilności”.
+Serwery firm takich jak Cloudflare czy Fastly (w&nbsp;praktyce -- pośrednicy między nami a&nbsp;wieloma stronami większych firm) mogą sobie zażyczyć dowodu autentyczności od przeglądarki Safari na systemach Apple. Ta przekazuje prośbę systemowi, a&nbsp;system dostarcza dowodu swojej „prawilności”.
 
 O tej sprawie nie było tak głośno. Być może dlatego, że przedstawiano to jako bonus. Możliwość ominięcia wkurzającej, ręcznej weryfikacji typu Captcha. Wejście poza kolejką, trochę jak *priority boarding* w&nbsp;liniach lotniczych. Tyle że za darmo, dopóki mamy urządzenie od Apple wspierające atestację.
 
-WEI budzi większe kontrowersje, bo jest ogólniejsze i&nbsp;nawet nie ukrywa, że ma na celu ograniczanie, a&nbsp;nie wejście poza kolejką. Co nie zmienia faktu, że **Apple też okazał się otwarty na ideę atestacji**. Bardzo możliwe, że nie będzie sojusznikiem otwartego internetu w&nbsp;tym sporze.
+WEI budzi większe kontrowersje, bo jest ogólniejsze i&nbsp;nawet nie ukrywa, że ma na celu ograniczanie, a&nbsp;nie wpuszczanie poza kolejką. Co nie zmienia faktu, że **Apple też okazał się otwarty na ideę atestacji**. Bardzo możliwe, że nie będzie sojusznikiem otwartego internetu w&nbsp;tym sporze.
 
 ## Realne zagrożenie
 
@@ -331,7 +331,7 @@ Bo widzicie... Internet zwiedza wielu zbieraczy danych. Analityków, badaczy i&n
 Chcąc odkrywać afery, muszą odwiedzać wiele stron. Zbyt wiele do ręcznego przejrzenia, więc automatyzują ich gromadzenie. Co osiągnęli do tej pory?
 
 * Pewien użytkownik zgromadził [wielką kompilację kont]({% post_url 2022-04-15-trolle-rosja-ukraina %}#znajdowanie-trolli){:.internal} działających na Twitterze w&nbsp;sposób sztuczny i&nbsp;nienaturalny. W&nbsp;tym rosyjskich trolli.
-* Inna osoba użyła automatycznych metod, żeby wyszukać całą [sieć niepokojących filmów]({% post_url 2022-02-20-youtube-viacom-elsagate%}#interpretacja){:.internal} kierowanych do dzieci.
+* Inna osoba użyła automatycznych metod, żeby wyszukać całą [sieć niepokojących filmów]({% post_url 2022-02-20-youtube-viacom-elsagate%}#youtube-ai-fiksacja){:.internal} kierowanych do dzieci.
 * Pewni badacze wobec niemrawości Facebooka wzięli sprawy w&nbsp;swoje ręce i&nbsp;zaczęli [zbierać dane na temat politycznych manipulacji]({% post_url 2022-04-15-trolle-rosja-ukraina %}#kapryśne-mocarstwa--facebook-itwitter){:.internal}. Za co Fejsik zastraszył ich pozwem.
 
 Podsumowując: automaty pozwoliły niezależnym osobom uzyskać informacje cenne dla społeczeństwa. Obejść wielkie platformy niechętne do współpracy.

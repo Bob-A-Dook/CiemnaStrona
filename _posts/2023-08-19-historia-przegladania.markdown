@@ -262,7 +262,7 @@ Zmieniamy jej wartość na `False`. Wszystkie linki staną się takie same. I&n
 
 ### Dla autorów stron
 
-Nie mamy wpływu na to, jak wyświetlają się linki wna obcych stronach... Ale możemy sprawić, żeby same linki do naszych podstron, obecne w&nbsp;historii naszych gości, nie były dla nich powodem do wstydu.
+Nie mamy wpływu na to, jak linki do naszej strony wyświetlają się na stronach cudzych... Ale możemy sprawić, żeby same linki do naszych podstron, obecne w&nbsp;historii naszych gości, nie były dla nich powodem do wstydu.
 
 Pomoże to nie tylko przeciw karkołomnym przykładom z&nbsp;tego wpisu. Ale również w sytuacji, kiedy jakaś osoba fizycznie zerka im do historii.
 

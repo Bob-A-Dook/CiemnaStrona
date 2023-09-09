@@ -319,7 +319,7 @@ Pamiętacie sprawę CNN i&nbsp;Viacomu z&nbsp;początku wpisu? „Będziemy musi
 A może jestem zbyt cyniczny? Może po prostu usuwanie treści jest bardzo trudną sprawą?  
 Zapewne jest, jeśli ktoś nieracjonalnie się uprze, że muszą to robić automatyczne algorytmy. *Data science* jest *cool*, *AI* jest *sexy*.
 
-A co by się stało, gdyby pozwolić wykazać się ludziom? Fajnie opisał to autor, którego galerię miniaturek z&nbsp;ElsaGate podrzuciłem wcześniej.
+<p id="youtube-ai-fiksacja">A co by się stało, gdyby pozwolić wykazać się ludziom? Fajnie opisał to autor, którego galerię miniaturek z&nbsp;ElsaGate podrzuciłem wcześniej.</p>
 
 {:.bigspace}
 {% include comment.html
