@@ -120,6 +120,9 @@ Użytkownicy nieobeznani z&nbsp;takimi trikami mogliby wtedy pomyśleć, że to 
 
 Mogłoby im nie przyjść do głowy, że to władca Twittera stosuje cenzurę. Jeden pstryczek, jedna strona odcięta. Nic nie wymknie się poza Twittera bez jego wiedzy. Uroki scentralizowanej władzy.
 
+**Aktualizacja 2023:** po dwóch i&nbsp;pół roku od napisania posta Twitter zmienił właściciela oraz nazwę (na&nbsp;X).  
+Do tego zyskaliśmy realny przykład nadużycia skracarki. Jak podaje Washington Post, [otwieranie linków do niektórych stron było celowo spowalniane](https://www.washingtonpost.com/technology/2023/08/15/twitter-x-links-delayed/). Gdyby użytkownicy je sobie skopiowali, zamiast klikać i&nbsp;zdawać się na przekierowanie, to dużo szybciej by się ładowały.
+
 <img src='/assets/posts/przekierowania/twitter-tco.webp' alt="Rysunek pokazuje logo Twittera otoczone z każdej strony półprzezroczystą, zielonkawą sferą wyglądającą jak pole siłowe. Sfera jest podpisaną nazwą twitterowego przycinacza linków."/>
 
 {:.figcaption}
