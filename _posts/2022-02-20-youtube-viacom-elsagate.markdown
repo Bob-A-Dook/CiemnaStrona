@@ -147,11 +147,12 @@ Wyświetliły, podkreślmy, w&nbsp;dowolny sposób. Przez stronę główną YT..
 
 {% include info.html
 type="Powiązane wpisy"
-text="Sposób, w&nbsp;jaki elementy gościnne (takie jak osadzony film od YouTube'a) mogą przekazywać dane swoim stronom macierzystym, opisałem w&nbsp;swoim [wpisie](/internetowa_inwigilacja/2021/12/08/cookies-piksele-sledzace) z&nbsp;serii „Internetowa inwigilacja”."
+text="Sposób, w&nbsp;jaki elementy gościnne (takie jak osadzony film od YouTube'a) mogą przekazywać dane swoim stronom macierzystym, opisałem we *[wpisie na temat śledzących plików cookies](/internetowa_inwigilacja/2021/12/08/cookies-piksele-sledzace)*{:.internal}."
 %}
 
 Wyobraźcie sobie tylko.  
-Wchodzicie na jakieś forum albo bloga, gdzie widzicie miniaturę filmiku z&nbsp;YouTube'a. Klikacie w&nbsp;niego (nawet nie musicie oglądać; wystarczy jeden klik).  
+Wchodzicie na jakieś forum albo bloga, gdzie widzicie miniaturę filmiku z&nbsp;YouTube'a. Klikacie w&nbsp;niego. Nawet nie musicie oglądać, wystarczy jeden klik.
+
 Spodziewalibyście się, że przez to kliknięcie Wasz adres IP trafi do YouTube'a? Zaś z&nbsp;bazy YT do jakiejś innej amerykańskiej korpo? Jeśli korzystacie ze statycznego IP, to przy odrobinie pracy dałoby się to powiązać z&nbsp;aktywnością na innych stronach. Może nawet poznać tożsamość?
 
 Google powtarza często: „nie sprzedajemy Twoich danych zewnętrznym firmom”. I&nbsp;mówią prawdę!  
@@ -305,7 +306,7 @@ Mówią, że zaczynali od filmów z&nbsp;figurkami superbohaterów, a&nbsp;stamt
 
 Większość wyświetleń, jak mówią, zyskali nie dzięki świadomym subskrypcjom, lecz dzięki temu, że byli wyświetlani wśród filmów polecanych. **To algorytmy YouTube'a rozdmuchały popularność ElsaGate, a&nbsp;nie boty i&nbsp;sztuczki twórców**.
 
-Oczywiście mamy również filmiki niepokojące, w&nbsp;których przemoc pojawia się poza miniaturkami (albo nawet *wbrew* łagodnym miniaturom). Niewykluczone że w&nbsp;świat tych dziwnych animacji weszły trolle internetowe, naśladowcy nie łapiący sensu, zwyrole i&nbsp;tym podobni.  
+Oczywiście mamy również filmiki niepokojące, w&nbsp;których przemoc pojawia się nie tylko w&nbsp;miniaturkach (albo nawet *wbrew* łagodnym miniaturom). Niewykluczone że w&nbsp;świat tych dziwnych animacji weszły trolle internetowe, naśladowcy nie łapiący sensu, zwyrole i&nbsp;tym podobni.  
 Ale nadal trzymam się wersji, że ElsaGate ma korzenie pragmatyczne i&nbsp;marketingowe; nie chodzi o&nbsp;pranie mózgów. 
 
 No ale dobra. Miałem pisać o&nbsp;YouTubie *vel* Google, a&nbsp;nie o&nbsp;kontrowersyjnych twórcach.  

@@ -234,7 +234,7 @@ Gdyby takie strony miały dostęp do informacji o&nbsp;tym, na czym skupia się 
 Linki nieodwiedzone byłyby niewidzialne. A&nbsp;odwiedzone -- jaskrawe.  
 Nagłe pojawienie się czegoś takiego sprawi, że użytkownik odruchowo ucieknie wzrokiem w&nbsp;konkretną stronę. A&nbsp;strona internetowa dostanie tę informację i&nbsp;sobie zapisze, że znalazła link z&nbsp;historii przeglądania.
 
-VR ogólnie wydaje się kopalnią danych biometrycznych i&nbsp;zagrożeniem dla prywatności. To byłaby zaledwie kolejna cegiełka.
+VR ogólnie wydaje się kopalnią danych biometrycznych i&nbsp;zagrożeniem dla prywatności. Historia przeglądania byłaby jak pojedyncza cegiełka w&nbsp;Wielkim *Bracie*{:.corr-del} Murze.
 
 ## Jak się chronić
 

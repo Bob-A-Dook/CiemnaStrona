@@ -5,10 +5,12 @@
 {% if page.keep_referers %}
 {% else %}<meta name="referrer" content="same-origin">
 {% endif %}
-  {%- seo -%}
+{%- seo -%}
 
-<link rel="shortcut icon" href="{{ site.baseurl }}/assets/creepy_emoji.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
 <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+
 {%- feed_meta -%}
 
 {% if page.alternate %}

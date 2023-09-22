@@ -95,12 +95,13 @@ Pod tym względem środki zaradcze są proste. Przede wszystkim **pilnujmy, żeb
 A jeśli należy do kogoś innego, ale też niezaufanego?  
 DNS widzi jedynie odwiedzaną domenę. Zatem gdyby okazał się wścibski i&nbsp;kompletował naszą „teczkę”, to zgromadzi wyłącznie skrócone nazwy. Jak *ciemnastrona.com.pl* (bez linków do konkretnych wpisów), *youtube.com* (bez konkretnych filmów) i&nbsp;tak dalej.
 
-Problemem dla prywatności jest bardziej sytuacja, kiedy przez dłuższy czas mamy jednego i&nbsp;tego samego DNS-a. Na dłuższą metę nazbiera sporo informacji o&nbsp;nas, jak ogólne zainteresowania, godziny aktywności w&nbsp;sieci i&nbsp;tym podobne.
+Problemem dla prywatności jest bardziej sytuacja, kiedy przez dłuższy czas mamy jednego i&nbsp;tego samego DNS-a. Na dłuższą metę może dobrze nas poznać. Nasze ogólne zainteresowania, godziny aktywności w&nbsp;sieci, intensywność korzystania z&nbsp;internetu...
 
-To szczególnie bolesne, jeśli i&nbsp;tak zbiera o&nbsp;nas informacje osobnymi kanałami. Z&nbsp;tego względu proponuję w&nbsp;miarę możliwości **nie korzystać z&nbsp;DNS-a spod adresu *8.8.8.8*, od Google**. Ta firma już i&nbsp;tak za dużo nas wie.
+To szczególnie bolesne, jeśli i&nbsp;tak zbiera o&nbsp;nas informacje osobnymi kanałami. Z&nbsp;tego względu proponuję w&nbsp;miarę możliwości **nie korzystać z&nbsp;DNS-a spod adresu *8.8.8.8*, od Google**. Ta firma już i&nbsp;tak za dużo o&nbsp;nas wie.
 
-A co z&nbsp;różnymi pośrednikami, wspominanymi w&nbsp;moich wpisach?  
-Zarówno sensowne VPN-y, jak i&nbsp;przeglądarka [Tor Browser](https://www.reddit.com/r/TOR/comments/90ohrr/which_dns_server_does_tor_use/) korzystają z&nbsp;własnych serwerów DNS. Więc jeśli ich używamy, to doborem DNS-a nie musimy się aż tak przejmować. Ale nowinki z&nbsp;tego wpisu są skierowane bardziej dla użytkowników bez takiego sprzętu.
+A czy pomógłby tu jakiś pośrednik sieciowy?
+
+Może. Zarówno sensowne VPN-y, jak i&nbsp;przeglądarka [Tor Browser](https://www.reddit.com/r/TOR/comments/90ohrr/which_dns_server_does_tor_use/) korzystają z&nbsp;własnych serwerów DNS. Więc jeśli ich używamy, to doborem DNS-a nie musimy się aż tak przejmować. Ale nowinki z&nbsp;tego wpisu są skierowane bardziej do użytkowników bez takiego sprzętu.
 
 ## DoH i&nbsp;DoT, czyli szyfrowanie na ratunek
 
@@ -112,7 +113,7 @@ OK, wybraliśmy zaufanego DNS-a. Ale nie chcemy się z&nbsp;nim komunikować na 
 No to może... korespondencję z&nbsp;DNS-em również spróbujmy zaszyfrować?  
 Bingo! W&nbsp;tym właśnie celu powstały metody szyfrowania komunikacji z&nbsp;DNS-em: *DNS-over-TLS* oraz *DNS-over-HTTPS*. W&nbsp;skrócie DoT i&nbsp;DoH.
 
-Zaraz przejdziemy do różnic między nimi. Ale wierzcie mi, są bardzo podobne. Zresztą *TLS* to taki fundament *HTTPS*. Polegają dokładnie na tym, na czym polegała opisana dwa wpisy temu szyfrowana komunikacja ze stronkami.
+Zaraz przejdziemy do różnic między nimi. Ale wierzcie mi, są bardzo podobne. *TLS*, fundament tych metod, to również fundament *HTTPS-a*. Polegają dokładnie na tym samym, co opisana dwa wpisy temu szyfrowana komunikacja ze stronkami.
 
 Najpierw wysyłamy DNS-owi prośbę o&nbsp;szyfrowany kontakt. Jeśli ten wspiera taką opcję, to odsyła nam otwartą kłódkę (*klucz publiczny*) z&nbsp;niepodrabialnym hologramem (*certyfikatem*). Odsyłamy mu swoją i&nbsp;od tej pory przesyłamy wiadomości w&nbsp;zamkniętych skrzynkach (*zaszyfrowane*).
 
@@ -162,7 +163,7 @@ Jako użytkownik bardziej obawiam się wykorzystania tej właściwości do obej
 Bo widzicie... istnieją skuteczne, choć nieco bardziej wymagające, metody blokowania reklam przez DNS. Takie jak [PiHole](https://www.reddit.com/r/pihole/comments/7qbg57/what_are_the_benefits_of_using_pihole_instead_of/).  
 Ich działanie opiera się właśnie na przechwytywaniu i&nbsp;olewaniu próśb wysyłanych pod adresy z&nbsp;czarnej listy. Mogą działać na poziomie całej domowej sieci, chroniąc nas np. przed reklamami pobieranymi przez *Smart TV*.
 
-Jeśli aplikacje mają możliwość komunikacji przez DoH i&nbsp;DoT, to mogą to wykorzystać, żeby ukryć przed naszym PiHole'em, że właśnie proszą nielubianą przez nas stronkę o&nbsp;zaserwowanie nam reklam.
+Jeśli aplikacje mają możliwość komunikacji przez DoH i&nbsp;DoT, to mogą jej nadużyć. Ukryć przed naszym PiHole'em, że właśnie proszą nielubianą przez nas stronkę o&nbsp;zaserwowanie nam reklam.
 
 DoT-a byśmy im jeszcze mogli zablokować; DoH-a nie za bardzo albo z&nbsp;trudem. Możemy wypić smutne piwko pojednania z&nbsp;administratorami sieci, których wcześniej przechytrzyliśmy.
 
@@ -202,7 +203,7 @@ Wścibskie firmy telekomunikacyjne widzą od teraz tylko dwie rzeczy:
 
 Cała reszta komunikacji -- nawet najogólniejsze metadane -- jest zaszyfrowana. Jesteśmy chronieni przed niepożądanymi oczami.
 
-...Oczywiście nikt nie wyklucza, że po tych wszystkich przeprawach nawiążemy bezpieczną komunikację z&nbsp;jakąś stronką, a&nbsp;ona sama zacznie zbierać o&nbsp;nas dane.  
+...Oczywiście niewykluczone, że po tych wszystkich przeprawach nawiążemy bezpieczną komunikację z&nbsp;jakąś stronką, a&nbsp;ona sama zacznie zbierać o&nbsp;nas dane.  
 Wszystkie rzeczy z&nbsp;pierwszych dwunastu wpisów „Internetowej inwigilacji” cały czas mogą się wydarzyć. Życie :wink:
 
 Jeśli kogoś interesuje ten temat, to polecam bardziej obszerne [omówienie spraw wokół DNS-a](https://www.privacyguides.org/basics/dns-overview/) ze stronki Privacy Guides. A&nbsp;także wpisy na blogu Cloudflare.

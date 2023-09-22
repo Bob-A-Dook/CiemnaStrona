@@ -23,13 +23,14 @@ Istnieje jednak wiele sytuacji, kiedy wolelibyśmy mieć ich filmiki u&nbsp;sieb
 Niezależnie od naszych powodów, **rozwiązaniem jest _youtube-dl_ albo jego alternatywa, _yt-dlp_**.  
 Bardzo wszechstronny program konsolowy, którym da się pobierać filmiki z&nbsp;YouTube'a ([i&nbsp;wielu innych stron](https://github.com/ytdl-org/youtube-dl/blob/master/docs/supportedsites.md)).
 
-A ponieważ konsola może być dla wielu osób czymś nowym, napisałem ten przyjazny samouczek pokazujący, jak się z tym programikiem obchodzić.
+A ponieważ konsola może być dla wielu osób czymś nowym, napisałem ten przyjazny samouczek pokazujący, jak się z tym programikiem obchodzić. Sam opis instalacji dopasowałem do użytkowników Windowsa, ale reszta jest uniwersalna.
 
 {% include info.html
 type="Aktualizacja 2023"
 text="Niedawno kontrowersyjny wyrok niemieckiego sądu doprowadził do [ukarania stronki hostującej YtDl](https://torrentfreak.com/youtube-dl-hosting-ban-paves-the-way-to-privatized-censorship-230411/).  
 Walczyli o to producenci: Sony Entertainment, Warner Music Group oraz Universal Music. Wcześniej próbowali również strącić kod źródłowy programu, ale im się nie udało.  
-Od tego czasu coraz częściej [poleca się zamiennik](https://news.ycombinator.com/item?id=37270747). Nosi nazwę `yt-dpl`, obsługuje się go tak samo jak poprzednika. Dopasowałem do niego część instrukcji z tego samouczka."
+Od tego czasu coraz częściej [poleca się zamiennik](https://news.ycombinator.com/item?id=37270747). Nosi nazwę `yt-dlp`, obsługuje się go tak samo jak poprzednika. Dopasowałem do niego część instrukcji z tego samouczka.  
+Poza tym stworzyłem osobny samouczek dotyczący *[instalacji na smartfonie](/tutorials/yt-dlp-android)*{:.internal} z systemem Android (w apce Termux)."
 %}
 
 {% include info.html
@@ -38,40 +39,46 @@ text="Jeśli na konsolę reagujemy alergicznie i&nbsp;za żadną cenę nie chcem
 Warto jednak pamiętać, że będzie aktualny tylko dopóty, dopóki twórcy się chce. Nie mamy gwarancji, że będzie na bieżąco ze zmianami w&nbsp;podstawowej, konsolowej wersyjce."
 %}
 
-## Instalacja na komputerze
-
-Przedstawiam poradnik instalacji **dla użytkowników Windowsa**. Przystosowałem go do nowszej wersji, czyli `yt-dlp`, której jeszcze nie ubili.
+## Instalacja na Windowsie
 
 {:.post-meta .bigspace-after}
 Gdyby ktoś z&nbsp;jakiegoś powodu wolał się trzymać klasycznego *youtube-dl*, to różnice są bardzo niewielkie. Po prostu pobiera się [program z&nbsp;innego źródła](https://github.com/ytdl-org/youtube-dl). A&nbsp;potem, korzystając z&nbsp;niego w konsoli, wpisuje się *youtube-dl* zamiast *yt-dlp*.
 
 Zaczynajmy!
 
-Najpierw pobieramy plik EXE. Ten dla `yt-dlp` -- nowszej, mniej problematycznej wersji -- znajdziemy [tutaj](https://github.com/yt-dlp/yt-dlp).
+Najpierw pobieramy plik EXE. Ten dla `yt-dlp` -- nowszej, mniej problematycznej wersji -- znajdziemy [tutaj](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe).
 
 ### Ustalanie folderu dla pliku
 
-Gdy już mamy plik na dysku, to warto ustalić, do jakiego specjalnego folderu go wrzucić, żeby dał się przywoływać z dowolnego miejsca.
+Gdy już mamy plik na dysku, to warto ustalić, do jakiego specjalnego folderu go wrzucić, żeby dał się przywoływać z dowolnego miejsca. Opcji jest kilka.
 
+* Możemy spróbować do `C:\Windows`. Zwykle jest domyślnie aktywny, przynajmniej na Windowsie&nbsp;10. Tylko trzeba kliknąć, że mamy uprawnienia administratora.
+
+* Można też wyklikać drogę do `C:\Użytkownicy\NAZWA\AppData\Local\Microsoft\WindowsApps`.
+
+  Przy czym `Użytkownicy` będą się nazywali inaczej, jeśli mamy ustawiony inny język systemu. Zamiast `NAZWA` będziemy mieli swój login. A po drodze warto włączyć wyświetlanie ukrytych folderów, żeby ujrzeć `AppData`.
+
+A jeśli chcemy zobaczyć wszystkie możliwości, to warto podejrzeć zmienne systemowe.  
 W tym celu włączamy konsolę *PowerShell*. Możemy to zrobić na kilka sposobów:
 
 * Przez menu startowe.  
-* Z&nbsp;klawiatury.
+  Klikamy ikonę Windowsa w&nbsp;dolnym lewym rogu, przewijamy do zakładki `Windows PowerShell`, klikamy.
 
-  Naciskamy jednocześnie klawisz z&nbsp;ikoną Windowsa w&nbsp;lewym dolnym rogu oraz przycisk `X`. Następnie naciskamy `I` (jak *Irena*).
+* Z&nbsp;klawiatury.  
+  Naciskamy jednocześnie klawisz z&nbsp;ikoną Windowsa (dolna część klawiatury) oraz przycisk `X`. Następnie naciskamy `I` (jak *Irena*).
 
-* Przez Eksplorator Plików.
+* Przez Eksplorator Plików.  
+  Możemy przejść do dowolnego folderu i&nbsp;wybrać z&nbsp;górnego paska `Plik`, a&nbsp;następnie `Otwórz program Windows PowerShell`.
 
-  Możemy przejść do dowolnego folderu i&nbsp;wybrać z&nbsp;górnego paska `Plik`, a&nbsp;następnie `Otwórz program Windows PowerShell`.  
-
-Wpisujemy w&nbsp;konsolę i&nbsp;potwierdzamy *Enterem*:
+Gdy pojawi się konsola, to wpisujemy w&nbsp;nią:
 
 ```
 $env:path -split ";"
 ```
 
-W ten sposób wyświetlą nam się, jeden pod drugim, foldery z&nbsp;kategorii `PATH`.  
-To coś w&nbsp;rodzaju przegródek szybkiego dostępu. Kiedy mamy w&nbsp;tych folderach jakieś pliki EXE, to możemy je łatwo uruchamiać, wpisując w&nbsp;PowerShella samą ich nazwę zamiast pełnej ścieżki.
+Potwierdzamy *Enterem*. Wyświetlą nam się, jeden pod drugim, foldery z&nbsp;kategorii `PATH`.
+
+To coś w&nbsp;rodzaju przegródek szybkiego dostępu. Kiedy mamy w&nbsp;tych folderach jakieś pliki EXE, to możemy je łatwo uruchamiać. Wystarczy wpisać w&nbsp;PowerShella samą ich nazwę zamiast pełnej ścieżki.
 
 Zatem otwieramy Eksploratora, bierzemy nasz pobrany wyżej plik EXE i&nbsp;przenosimy go do któregoś z&nbsp;folderów z&nbsp;listy (**za wyjątkiem `System32`**! Odradzają to na stronie projektu).
 
@@ -84,11 +91,12 @@ Od teraz, kiedy wpiszemy w&nbsp;PowerShella `yt-dlp`, powinno nam wyświetlać, 
 
 Powyższy sposób -- polegający na umieszczeniu pliku w odpowiednim folderze -- jest bardzo intuicyjny. I&nbsp;działa.
 
-Tym niemniej instalacja przez `pip` (moduł Pythona) ma nieco więcej zalet. Pozwala jeszcze szybciej i&nbsp;łatwiej aktualizować program, gdyby coś przestało działać wskutek zmian YouTube'a.
+Tym niemniej instalacja przez `pip` (moduł Pythona) ma nieco więcej zalet.  
+Pozwala szybko i&nbsp;łatwo aktualizować program, gdyby coś przestało działać wskutek zmian YouTube'a. Wystarczy jedna komenda w konsoli zamiast pobierania nowego EXE i&nbsp;zastąpienia nim starego.
 
 Gdybyście byli gotowi spróbować, to polecam [opis na stronie *yt-dlp*](https://github.com/yt-dlp/yt-dlp/wiki/Installation). To dosłownie parę komend konsolowych.
 
-### Instalacja na Androidzie
+## Instalacja na Androidzie
 
 Gdyby ktoś chciał używać `yt-dlp` również na urządzeniu mobilnym, to mam dobrą wiadomość -- na systemie Android to całkiem możliwe! Żeby nie zajmować tu miejsca, wydzieliłem instrukcje [do osobnego samouczka](/tutorials/yt-dlp-android){:.internal}.
 
@@ -185,7 +193,7 @@ A parę powszechnych przypadków omówię dla naszej wygody w tym miejscu.
 
 Jeśli zerwie nam połączenie, to programik może się zawiesić. Licznik stoi w&nbsp;miejscu, niczego nie pobiera.
 
-W takiej sytuacji otwieramy okno naszej konsoli i:
+W takiej sytuacji otwieramy to samo okno konsoli, w&nbsp;którym pracował. Po czym:
 
 * najpierw naciskamy `Ctrl`+`C`, żeby przerwać aktualną komendę;
 * następnie strzałkę do góry, żeby ponownie wyświetliła się poprzednia komenda (`yt-dlp`...);
@@ -216,11 +224,11 @@ W każdym razie w takiej sytuacji gra się toczy o wysoką stawkę -- **gdy zamk
 
 Z czasem trafi się jakiś nieoczekiwany błąd. Może wynikać z&nbsp;tego, że **co jakiś czas YouTube wprowadza większe zmiany za kulisami, przez co psuje _youtube-dl_ i _yt-dlp_**.
 
-Ale jego autorzy zwykle szybko nadganiają. Wtedy po prostu bierzemy od nich najnowszą wersję i&nbsp;zastępujemy nią poprzednią.
+Ale autorzy zwykle szybko nadganiają. Wtedy po prostu bierzemy od nich najnowszą wersję i&nbsp;zastępujemy nią poprzednią.
 
 To równocześnie jeden z&nbsp;argumentów przemawiających za tym, żeby korzystać z wersji konsolowej, a nie graficznej. Łatwiej być na bieżąco.
 
-Wszelkie nakładki graficzne może i&nbsp;są przyjaźniejsze, ale nadal zależą od podstawowego, konsolowego programu. Gdy Google coś popsuje, to najpierw źródło musi naprawić to u siebie, a&nbsp;potem autorzy wersji graficznej (którzy mogą np. być akurat na wakacjach) po swojej stronie.
+Wszelkie nakładki graficzne może i&nbsp;są przyjaźniejsze, ale nadal zależą od podstawowego, konsolowego programu. Gdy Google coś popsuje, to najpierw źródło musi naprawić to u&nbsp;siebie, a&nbsp;potem autorzy wersji graficznej (którzy mogą np. być akurat na wakacjach) po swojej stronie.
 
 ### „Unable to extract uploader_id”
 
@@ -247,6 +255,8 @@ Jeśli mamy Linuksa, na którym `pip` odpowiada starszemu Pythonowi&nbsp;2, to w
 
 Jeśli instalowaliśmy dla całego systemu, to przed komendą trzeba jeszcze dopisać `sudo` i&nbsp;spację, a&nbsp;potem podać hasło.
 
-{:.post-meta}
+{:.post-meta .bigspace-after}
 Niektórzy ogólnie [przestrzegają](https://stackoverflow.com/questions/21055859/what-are-the-risks-of-running-sudo-pip) przed takim trybem instalowania, zwłaszcza gdy nie do końca ufamy instalowanym programom.
+
+I to tyle! Życzę szybkich pobrań i&nbsp;miłego oglądania!
 

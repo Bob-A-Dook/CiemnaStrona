@@ -49,16 +49,19 @@ Zainstalujemy w&nbsp;ten sposób `yt-dlp`. I&nbsp;gotowe!
 
 ## Foldery na Androidzie
 
-Zanim zaczniemy pobierać jak dzicy, warto wspomnieć o&nbsp;jeszcze jednym niuansie na smartfonach.
+Zanim zaczniemy pobierać gigabaty czystego złota, warto wspomnieć o&nbsp;jeszcze jednym niuansie na smartfonach.
 
-Mianowicie: domyślnym folderem dla naszej konsoli jest taki, który znajduje się "wewnątrz" Termuksa. Jeśli użyjemy komendy `yt-dlp` zaraz po otwarciu Termuksa, to pobierze multimedia do tego folderu.  
+Mianowicie: domyślnym folderem dla naszej konsoli jest taki, który znajduje się „wewnątrz” Termuksa. Jeśli użyjemy komendy `yt-dlp` zaraz po otwarciu Termuksa, to pobierze multimedia do tego folderu.  
 Problem? Aplikacje na smartfonach nie mogą do siebie zaglądać. Zatem nie bylibyśmy w&nbsp;stanie odtworzyć pobranego pliku osobną aplikacją od multimediów.
 
 Dlatego **warto przed każdą sesją pobierania plików zmienić folder na jakiś publicznie dostępny**. Przykładowo możemy wpisać po uruchomieniu Termuksa:
 
-```
+<pre class="black-bg mono">
 cd /storage/emulated/0
-```
+</pre>
+
+{:.post-meta .bigspace-after}
+Pamiętajcie, że spacje są ważne; dla pewności możecie skopiować stąd całą komendę.
 
 Ta komenda tymczasowo (do czasu zamknięcia Termuksa) przeniesie nas do nadrzędnego foldera naszej karty SD.  
 To miejsce publiczne; dostępne dla innych uprawnionych apek, jak przeglądarka plików. A&nbsp;także dla komputera, gdybyśmy go podłączyli przez USB.
@@ -76,9 +79,9 @@ mv <span class="red">NAZWA_PLIKU</span> /storage/emulated/0
 Pewnym problemem może być obecność znaków specjalnych w&nbsp;nazwie pliku. Należą do nich również zwykłe, pospolite spacje.
 
 W normalnych warunkach moglibyśmy „wyłączać ich specjalność”, stawiając przed nimi ukośniki. Ale mam prostsze rozwiązanie.  
-Wpisujemy pierwsze litery nazwy pliku, po czym naciskamy klawisz `Tab` (ikonka dwóch strzałek w&nbsp;dolnym lewym rogu Termuksa, nad klawiaturą Androida).
+Wpisujemy `mv`, spację i&nbsp;pierwsze litery nazwy pliku, po czym naciskamy klawisz `Tab` (ikonka dwóch strzałek w&nbsp;dolnym lewym rogu Termuksa, nad klawiaturą Androida).
 
-W ten sposób **autouzupełnianie podrzuci nam nazwę pliku -- już zabezpieczoną ukośnikami**. Wystarczy dopisać od siebie spację i&nbsp;ścieżkę do folderu publicznego. Po czym potwierdzić.
+W ten sposób **autouzupełnianie podrzuci nam nazwę pliku -- już zabezpieczoną ukośnikami**. Wystarczy dopisać od siebie spację i&nbsp;ścieżkę jak wyżej. Po czym potwierdzić.
 
 ## Korzystanie
 

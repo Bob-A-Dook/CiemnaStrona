@@ -77,6 +77,10 @@ A ponieważ takie zachowanie bardziej mi pasowało do internetowego trolla niż 
 
 Takich nietypowych kont analizowałem pięć, z&nbsp;czego wyróżniają się trzy. Będę podawał tylko same ich imiona: Popeye, Duke i&nbsp;David. **Łącznie dodali prawie 3500&nbsp;komentarzy na 34&nbsp;analizowanych przeze mnie stronach**. Zdecydowanie najbardziej aktywny jest Popeye, mający ich na koncie 1977. David dodał 885, a&nbsp;Duke 531.
 
+{:.post-meta ,bigspace-after}
+YouTube od jakiegoś czasu nie wyświetla nazw kont, lecz unikalne identyfikatory, zaczynające się od *@*. Na szczęście każda osoba z&nbsp;trójcy ma taki zaczynający się od imienia, więc niewiele nam to zmienia.  
+Klikając w&nbsp;takiego nicka, przejdziecie do profilu, gdzie widać ustawione dla danego konta imię i&nbsp;nazwisko.
+
 {% include info.html
 type="Ciekawostka"
 text="W komentarzach można też znaleźć nawiązania do innego konta, o&nbsp;mało mówiącej nazwie zaczynającej się od *dnc*. Wiele jego komentarzy zostało usuniętych i&nbsp;pozostało ich w&nbsp;moim zbiorze tylko 5. Jest za to całkiem sporo kierowanych do niego odpowiedzi zwykłych użytkowników. Patrząc po tych odpowiedziach, konto tworzyło bardzo podobne treści jak reszta."
