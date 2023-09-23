@@ -137,7 +137,7 @@ text="Przejrzystą oś czasu mamy rozpisaną na stronie [PBS Frontline](https:/
 Jeśli ktoś woli formę filmową, to na YouTubie znajdzie [wywiad z&nbsp;uczestniczką zdarzeń](https://www.youtube.com/watch?v=fn_zLP_YHGI) (po angielsku)."
 %}
 
-Konflikt miał miejsce na przełomie lat 1999&nbsp;i 2000. Jego strefą była Cochabamba -- kilkusettysięczne miasto w&nbsp;centralnej części kraju.
+Konflikt miał miejsce na przełomie lat 1999&nbsp;i&nbsp;2000. Jego strefą była Cochabamba -- kilkusettysięczne miasto w&nbsp;centralnej części kraju.
 
 {:.figure .bigspace-before}
 <img src="/assets/posts/korpoafery/boliwia-bechtel-woda/boliwia-mapa.jpg" alt="Mapka pokazująca fragment Ameryki Południowej. Boliwia jest wyróżniona jaśniejszym kolorem niż reszta, a&nbsp;na mieście Cochabamba umieszczona jest zielona pinezka." />
@@ -231,7 +231,7 @@ Sam Bechtel stracił kontrakt w&nbsp;Kalifornii, również mający się sprowadz
 
 Ale pokonany gigant mógł znaleźć pocieszenie w&nbsp;innej pracy. W&nbsp;końcu kiedy jest się złotą rączką -- i&nbsp;firmą szwagra -- nie ma co narzekać na brak zleceń.
 
-W 2003&nbsp;roku dostali kontrakt na odbudowę infrastruktury w&nbsp;Iraku. Nieco zniszczonego po tym, jak USA go najechało i&nbsp;obaliło dyktatora Saddama Husajna, twierdząc że trzyma broń masowego rażenia.  
+W 2003&nbsp;roku dostali kontrakt na odbudowę infrastruktury w&nbsp;Iraku. Nieco zniszczonym po tym, jak USA go najechało i&nbsp;obaliło dyktatora Saddama Husajna, twierdząc że trzyma broń masowego rażenia.  
 Kontrakt przyznała Bechtelowi organizacja USAID. [Za zamkniętymi drzwiami](https://www.icij.org/investigations/windfalls-war/us-contractors-reap-windfalls-post-war-reconstruction-0/), więc konkurencji nie było. Jak mówi pewien kongresmen:
 
 > Przybywa dowodów na to, że faworyzowani podwykonawcy, jak Halliburton i&nbsp;Bechtel, dostawali lukratywne zlecenia kosztowne dla podatników, ale nieprzynoszące szczególnych efektów
@@ -257,11 +257,11 @@ Na Twitterze z&nbsp;dumą ogłosił to ambasador USA w&nbsp;Polsce, premier, a&n
 Od strony merytorycznej [wybór partnera skrytykował](https://wysokienapiecie.pl/78005-rzad-wybral-amerykanow-jako-partnera-do-elektrowni-jadrowej-na-twitterze/) choćby portal Wysokie Napięcie, zajmujący się energetyką.
 
 {:.bigspace}
-> Amerykanie nie chcieli się dostosować do polskiego programu, wiec program dostosował się do Amerykanów, a&nbsp;na przyczepkę załapali się też Koreańczycy. Zabrakło transparentności, a&nbsp;chodzi przecież o&nbsp;ponad 100&nbsp;mld zł z&nbsp;kieszeni podatników.
+> Amerykanie nie chcieli się dostosować do polskiego programu, wiec program dostosował się do Amerykanów, (...). Zabrakło transparentności, a&nbsp;chodzi przecież o&nbsp;ponad 100&nbsp;mld zł z&nbsp;kieszeni podatników.
 
-Przy czym odnoszą się wyłącznie do tej konkretnej oferty, korzystniejszych alternatyw oraz niejasnych kryteriów, na bazie której ją wybrano. Nie do dawnych dziejów Bechtela.
+Artykuł odnosi się wyłącznie do tej konkretnej oferty, korzystniejszych alternatyw oraz niejasnych kryteriów, na bazie których ją wybrano. Nie do dawnych dziejów Bechtela.
 
-Ale może obawy tych osób są niepotrzebne? Może Bechtel się zmienił i&nbsp;teraz jest dobry?
+Ale może obawy są niepotrzebne? Może Bechtel się zmienił i&nbsp;teraz jest dobry?
 
 Może.
 
