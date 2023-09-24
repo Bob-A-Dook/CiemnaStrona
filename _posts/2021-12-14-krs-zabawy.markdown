@@ -330,7 +330,7 @@ Gdybyśmy, zamiast przenosić skrypt między folderami, woleli raz go odłożyć
 
 # Skrypt do tworzenia wykresów
 
-To ten ważniejszy z&nbsp;dwóch skryptów. Pobierzcie go <a href="/assets/skrypty/krs_visualizer.py" download>stąd</a>{:.internal}.
+To ten ważniejszy z&nbsp;dwóch skryptów. Pobierzcie go <a href="/assets/skrypty/krs_visualizer/v2/krs_visualizer.py" download>stąd</a>{:.internal}.
 
 Jeszcze nieraz go użyję w&nbsp;ramach tej serii, więc wydzieliłem instrukcje korzystania z&nbsp;niego do [osobnego samouczka](/tutorials/krs-wykresy){:.internal}.
 

@@ -255,7 +255,7 @@ Tak czy siak takie eksperymenty wymagałyby zebrania informacji na temat szersze
 
 Tworząc wpis, uaktualniłem przy okazji swój skrypt do obróbki plików z KRS-u. Teraz tworzy również grafy powiązań dla wszystkich odpisów z danego folderu :metal:
 
-Sam skrypt można pobrać <a href="/assets/skrypty/krs_visualizer_v2.py" download>stąd</a>{:.internal}.  
+Sam skrypt można pobrać <a href="/assets/skrypty/krs_visualizer/v2/krs_visualizer.py" download>stąd</a>{:.internal}.  
 Oprócz niego przyda się również [samouczek]({{site.url}}/tutorials/krs-wykresy){:.internal} pokazujący, jak z niego korzystać.
 
 To na razie wersja mocno eksperymentalna, nie spodziewałbym się cudów.  

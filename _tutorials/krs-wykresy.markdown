@@ -15,9 +15,9 @@ Ten samouczek to instrukcja pracy z&nbsp;moim skryptem Pythona, pozwalającym tw
 
 Linki do różnych wersji skryptu:
 
-* <a href="/assets/skrypty/krs_visualizer_v2.py">wersja najnowsza</a>{:.internal}
+* <a href="/assets/skrypty/krs_visualizer/v2/krs_visualizer.py">wersja najnowsza</a>{:.internal}
   (oprócz osi czasu jest w stanie tworzyć również grafy powiązań)
-* <a href="/assets/skrypty/krs_visualizer.py">pierwsza wersja</a>{:.internal}
+* <a href="/assets/skrypty/krs_visualizer/v1/krs_visualizer.py">pierwsza wersja</a>{:.internal}
 
 Zachęcam, żeby zawsze korzystać z najnowszej :smile:
 
