@@ -242,7 +242,7 @@ I fakt, że Anil od Chrome'a nieco się opierał, nie zmienia ogólnego wydźwi�
 
 {% include info.html
 type="Ciekawostka"
-text="W tej samej wersji Chrome'a wprowadzono również coś mniej pozytywnego, o&nbsp;czym [wspomniałem na blogu](/google/2021/10/30/google-skandale-wprowadzenie#chrome-przegl%C4%85darka){:.internal}. Zwykłe logowanie się do konta Google, wykonywane przez Chrome'a, zaczęło oznaczać jednocześnie włączenie synchronizacji. W&nbsp;tym trybie do Wujka G trafiała jeszcze większa liczby naszych danych."
+text="W tej samej wersji Chrome'a wprowadzono również coś mniej pozytywnego, o&nbsp;czym [wspomniałem na blogu](/google/2021/10/30/google-skandale-wprowadzenie#chrome-przegl%C4%85darka){:.internal}. Zwykłe logowanie się do konta Google, wykonywane przez Chrome'a, zaczęło oznaczać jednocześnie włączenie synchronizacji. W&nbsp;tym trybie do Wujka G trafiała jeszcze większa ilość naszych danych."
 %}
 
 ## Podsumowanie

@@ -200,14 +200,14 @@ W kwietniu do mieszkańców doszły pogłoski, że rząd planuje wysłać regula
 Źródło: post [Fundación Abril](https://www.facebook.com/fundacionabrilbolivia) z&nbsp;11 marca 2023&nbsp;r.
 
 
-8 kwietnia zginął 17-letni Hugo Victor Daza. Trafiony kulą w&nbsp;twarz, kiedy jeden kapitan się zirytował i&nbsp;puścił serię w&nbsp;tłum.  
+8 kwietnia zginął 17-letni Victor Hugo Daza. Trafiony kulą w&nbsp;twarz, kiedy jeden kapitan się zirytował i&nbsp;puścił serię w&nbsp;tłum.  
 Ze względu na młody wiek stał się ikoną tego konfliktu. Oprócz niego zginęło jeszcze kilka osób, a&nbsp;ponad 170&nbsp;zostało rannych.
 
 Ale ich walka nie była daremna. **10 kwietnia rząd się ugiął i&nbsp;wypowiedział Bechtelowi umowę**. Wodociągi wróciły w&nbsp;ręce państwowych firm. Dziadowskich, ale przynajmniej tańszych niż ćwierć pensji. Jak wiadomo, lepszy wróbel w&nbsp;garści.
 
 ## Finał w&nbsp;sądzie
 
-Bechtel zapewne poczuł się urażony całą sytuacją. Bo jak to tak -- miał zarabiać na wodzie, ale go przegonili i&nbsp;nie zarabia. Wykonali dość karkołomny myk, wykorzystując istnienie porozumienia międzynarodowego między Holandią a&nbsp;Boliwią.
+Bechtel zapewne poczuł się urażony całą sytuacją. Bo jak to tak -- miał zarabiać na wodzie, ale go przegonili i&nbsp;nie zarabia. Korporacja wykonała dość karkołomny myk, wykorzystując istnienie porozumienia międzynarodowego między Holandią a&nbsp;Boliwią.
 
 W ramach tego porozumienia istniała możliwość, że firmy z&nbsp;jednego kraju mogą pozwać drugi kraj, jeśli w&nbsp;ich odczuciu stawia im sztuczne ograniczenia (np. Holandia faworyzuje własne produkty, a&nbsp;boliwijskich nie dopuszcza).
 
