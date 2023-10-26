@@ -81,7 +81,7 @@ Hasło oczywiście zapamiętujemy lub zapisujemy. Nikt tego za nas nie zrobi :wi
 {:.bigspace}
 <img src="/assets/tutorials/hatsh/hatsh-szyfrowanie-haslo.jpg" alt="Fragment interfejsu Hata, w&nbsp;którym wpisuje się hasło. Widać tu podkreślony na czerwono tekst 'nawet nie czuję jak szyfruję', bez spacji w&nbsp;środku. Poniżej znajduje się informacja, że Hat będzie przetwarzał wszystko offline, w&nbsp;naszej przeglądarce."/>
 
-Strona poinformuje nas, że zaszyfrowany plik jest gotów do pobrania. Klikamy dalej i&nbsp;zapisujemy na dysk nasz zaszyfrowany plik, z&nbsp;rozszerzeniem `.enc`.
+Strona poinformuje nas, że zaszyfrowany plik jest gotów do pobrania. Klikamy dalej i&nbsp;zapisujemy go na dysk. Będzie miał rozszerzenie `.enc` (od *encrypted*).
 
 {:.bigspace}
 <img src="/assets/tutorials/hatsh/hatsh-szyfrowanie-pobieranie.jpg" alt="Zrzut ekranu pokazujący informację o&nbsp;skutecznym zaszyfrowaniu pliku. A&nbsp;pod spodem jego miniaturka, o&nbsp;nazwie 'wiadomosc.txt.enc'."/>

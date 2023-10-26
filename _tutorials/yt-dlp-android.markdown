@@ -101,6 +101,7 @@ Interesuje nas sam dźwięk, bo to na przykład piosenka? W&nbsp;takim wypadku l
 yt-dlp -f bestaudio <span class="red">LINK</span>
 </pre>
 
+
 Dokładniejszy przegląd możliwości `yt-dlp`, a&nbsp;także sposoby na rozwiązywanie niektórych problemów, mam w&nbsp;swoim [głównym samouczku na jego temat](/tutorials/youtube-dl#korzystanie-z-programu){:.internal}. Zachęcam do lektury!
 
 Ale przede wszystkim -- przyjemnej uczty multimedialnej! Na własnym urządzeniu, poza wzrokiem korpoplatform.

@@ -88,7 +88,12 @@ Jaka piękna i&nbsp;długa reklama A... Google'a.
 
 Czym są te dodatkowe rzeczy? To różne czcionki, obrazki i&nbsp;skrypty. Wśród nich może takie, które weryfikują naszą tożsamość. Sprawdzają, czy jesteśmy tym samym użytkownikiem *#004569*, który według ich bazy ma określony wiek i&nbsp;zainteresowania. Znajdują pasujące do nas obrazki. Dodają zebrane informacje do naszej „teczki”.
 
-Przetwarzanie tylu bzdetów trwa dość długo i&nbsp;obciąża nasz komputer. Dobrze to widać, kiedy korzystamy z&nbsp;*ad blockerów* -- dodatków do przeglądarki blokujących reklamy. Bez reklam wzrost szybkości [bywa ogromny](https://www.debugbear.com/blog/2020-chrome-extension-performance-report#performance-impact-of-ad-blockers).
+Przetwarzanie tylu bzdetów trwa dość długo i&nbsp;obciąża nasz komputer. Dobrze to widać, kiedy korzystamy z&nbsp;dodatków do przeglądarki blokujących reklamy. Bez reklam wzrost szybkości [bywa ogromny](https://www.debugbear.com/blog/2020-chrome-extension-performance-report#performance-impact-of-ad-blockers).
+
+{% include info.html
+type="Aktualizacja 2023"
+text="W pierwszej wersji wpisu użyłem wobec dodatków nazwy *ad blockery*. Ale od tamtej pory doszedłem do wniosku, że [może być myląca](/2023/10/26/adblock-nazwa){:.internal}. Szukający jej internauci zapewne trafiliby na konkretne, mniej skuteczne dodatki o podobnej nazwie. Dlatego edytowałem tekst."
+%}
 
 Co gorsza, czasem te gigabajty reklam są zupełnie bezużyteczne. Zdarzyło wam się, że po kupnie droższej rzeczy przez internet (laptop? kanapa?) pokazywało reklamy kolejnych, identycznych? Taak, na pewno tego właśnie nam trzeba... Autorzy reklam mogliby to dopracować, ale *„[you’re basically getting spammed just in case](https://www.racked.com/2017/5/31/15666062/online-ad-repeats)”*.
 
@@ -112,7 +117,7 @@ Co gorsza, jego statystyki rozpoczęły cały masowy trend odchodzenia od tekstu
 
 Podsumowując: nie, nie uważam współczesnych reklam za nieszkodliwe obrazki. Marnują pieniądze reklamodawców, naszą cierpliwość, dane mobilne, dane osobowe.
 
-Jeśli jacyś lubiani przez nas twórcy tak zarabiają, to pewnie, można wyłączyć *ad blockery*. Ale jestem za tym, żeby domyślnie mieć włączone. Sygnalizować branży, że wolimy nieco inne reguły gry. W&nbsp;przeciwieństwie do sztucznej mody na wideo, wypromowanej przez Fejsa, taki sygnał byłby przynajmniej szczery.
+Jeśli jacyś lubiani przez nas twórcy tak zarabiają, to pewnie, można wyłączyć blokady. Ale jestem za tym, żeby domyślnie mieć włączone. Sygnalizować branży, że wolimy nieco inne reguły gry. W&nbsp;przeciwieństwie do sztucznej mody na wideo, wypromowanej przez Fejsa, taki sygnał byłby przynajmniej szczery.
 
 ## Centralizacja i&nbsp;monopole
 

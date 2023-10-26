@@ -174,7 +174,7 @@ Ktoś, nie chcąc ujawnić pełnych danych, napisał że przestępstwa dopuści
 
 Jedna litera nazwiska. Tyle wystarczyło. A&nbsp;tutaj mamy konkretne oskarżenie przekazane na policję. Od automatu, ale nie każdy wie o&nbsp;jego niedoskonałościach.
 
-Ktoś powie, że to było dawno, że od tego czasu algorytmy się poprawiły?  
+Ktoś powie, że wpadki w stylu Tumblra były dawno, że od tego czasu algorytmy się poprawiły?  
 Tym gorzej. Kiedy algorytm myli się notorycznie, ludziom łatwiej uwierzyć w&nbsp;cudzą niewinność. **Kiedy myli się raz na miliard przypadków -- każda niesłusznie oznaczona osoba może być osamotniona w&nbsp;swojej walce**.
 
 Wyobrażam sobie nawet scenariusz, kiedy błędnej klasyfikacji mógłby dokonać i&nbsp;algorytm, i&nbsp;człowiek z&nbsp;drugiej linii. 
@@ -295,10 +295,10 @@ Ale -- **jeśli nie wysyłamy wrażliwych rzeczy -- można użyć szybkiego i&nb
 
 Współczesne przeglądarki mają taką opcję w&nbsp;pakiecie. Wystarczy zero umiejętności koderskich oraz kilka sekund, żeby zmienić wiadomości w&nbsp;postać nieczytelną dla człowieka. A&nbsp;po stronie odbiorcy -- żeby odzyskać pierwotną postać.
 
-Użyjemy do tego funkcji [`btoa` oraz `atob`](https://stackoverflow.com/questions/23223718/failed-to-execute-btoa-on-window-the-string-to-be-encoded-contains-characte), wbudowanych w&nbsp;przeglądarki. Pozwalają przekształcić tekst do postaci nazwanej *base64*.
+Użyjemy do tego funkcji [`btoa` oraz `atob`](https://stackoverflow.com/questions/23223718/failed-to-execute-btoa-on-window-the-string-to-be-encoded-contains-characte), wbudowanych w&nbsp;przeglądarki. Pozwalają przekształcić tekst do postaci nazwanej [*Base64*](https://www.akshaykhot.com/base64-encoding-explained/).
 
 Siadamy sobie do komputera, uruchamiamy przeglądarkę (sprawdzałem na Firefoksie i&nbsp;Chromium). Naciskamy klawisze `Ctrl+Shift+I` (jak Irena).  
-Otworzą się narzędzia przeglądarki. Wybieramy u&nbsp;góry zakładkę `Konsola`. Tam możemy sobie wpisywać różne komendy. Żeby zakodować tekst w&nbsp;formie *base64*, wpisujemy:
+Otworzą się narzędzia przeglądarki. Wybieramy u&nbsp;góry zakładkę `Konsola`. Tam możemy sobie wpisywać różne komendy. Żeby zakodować tekst w&nbsp;formie *Base64*, wpisujemy:
 
 <pre class="black-bg  mono">
 btoa(unescape(encodeURIComponent("<span class="red">NASZ TEKST</span>")))
@@ -317,7 +317,7 @@ Zakodowaną wiadomość możemy sobie skopiować do czatu i&nbsp;komuś wysłać
 Po odebraniu druga osoba otwiera u&nbsp;siebie konsolę i wkleja zakodowaną treść w&nbsp;odwrotność wcześniejszej funkcji. Zobaczy tekst od nas.
 
 <pre class="black-bg  mono">
-decodeURIComponent(escape(atob("<span class="red">NASZ TEKST</span>")))
+decodeURIComponent(escape(atob("<span class="red">ZAKODOWANY TEKST</span>")))
 </pre>
 
 {:.figure .bigspace}
@@ -325,7 +325,7 @@ decodeURIComponent(escape(atob("<span class="red">NASZ TEKST</span>")))
 
 {% include info.html
 type="Uwaga"
-text="Dla jasności -- **_base64_ to nie jest szyfr. Komputery byłyby w&nbsp;stanie łatwo wykryć, że wiadomość zawiera to kodowanie i&nbsp;je odwrócić**.  
+text="Dla jasności -- **_Base64_ to nie jest szyfr. Komputery byłyby w&nbsp;stanie łatwo wykryć, że wiadomość zawiera to kodowanie i&nbsp;je odwrócić**.  
 Osoby chętne mogłyby dorzucić na wierzch [trochę innych przekształceń](https://stackoverflow.com/questions/6795714/what-is-a-good-method-for-obfuscating-a-base-64-string) i&nbsp;utrudnić im zadanie. Ale to nadal kwestia czasu i&nbsp;pracy. Gdyby podglądaczom zależało, to odczytają.  
 Z tego względu B64 można użyć bardziej w&nbsp;ramach obywatelskiego nieposłuszeństwa. Żeby hipotetyczny podglądacz musiał nieco mocniej wysilić procesor :smiling_imp:"
 %}
