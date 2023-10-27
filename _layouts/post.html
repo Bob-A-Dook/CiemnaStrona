@@ -81,7 +81,7 @@ layout: default
     {% endif %}    
   {% endfor %}
 
-  <p class="link-nav-heading" markdown="1">Czytaliście wpis z serii <i>{{page.category_readable}}</i></p>
+  <p class="link-nav-heading" markdown="1">Był to wpis z serii <i><a href="/serie/{{page.category}}">{{series_name}}</a></i></p>
   <div class="series-nav-container">
     {% if prev_post %}
     <div class="bold-border navigation-link"> 
