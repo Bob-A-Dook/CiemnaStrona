@@ -20,7 +20,7 @@ Poza tym każdą z czterech części wpisu można czytać niezależnie od innych
 # Spis treści
 
 * <a href="#sprzedawanie-prywatności">Sprzedawanie prywatności</a>,
-* <a href="#reklamy">Reklamy</a>,
+* <a href="#patoreklamy">Reklamy</a>,
 * <a href="#centralizacja-imonopole">Centralizacja i monopole</a>,
 * <a href="#amerykanizacja">Amerykanizacja</a>.
 
@@ -65,6 +65,7 @@ Albo, nawet jeśli jesteśmy ostrożni i&nbsp;zostawiamy na pojedynczych stronac
 
 Wszystko to może wydawać się przytłaczające. Ale nie warto odpuszczać! Myślę że nawet podstawowa wiedza o&nbsp;ochronie prywatności jest w&nbsp;stanie ułatwić życie.
 
+<a id="patoreklamy"></a>
 ## Reklamy
 
 Czemu mam walczyć z&nbsp;reklamami? Co mi szkodzi obejrzenie kilku obrazków czy banerów w&nbsp;internecie? Z&nbsp;czasem pewnie nauczę się je ignorować, tak jak bloki reklamowe w&nbsp;telewizji.

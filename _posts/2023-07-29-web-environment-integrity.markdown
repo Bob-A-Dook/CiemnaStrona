@@ -330,7 +330,7 @@ Mam jeszcze jeden pomysł -- można pokazać, że walka z&nbsp;automatyzacją za
 Bo widzicie... Internet zwiedza wielu zbieraczy danych. Analityków, badaczy i&nbsp;hobbystów.  
 Chcąc odkrywać afery, muszą odwiedzać wiele stron. Zbyt wiele do ręcznego przejrzenia, więc automatyzują ich gromadzenie. Co osiągnęli do tej pory?
 
-* Pewien użytkownik zgromadził [wielką kompilację kont]({% post_url 2022-04-15-trolle-rosja-ukraina %}#znajdowanie-trolli){:.internal} działających na Twitterze w&nbsp;sposób sztuczny i&nbsp;nienaturalny. W&nbsp;tym rosyjskich trolli.
+* Pewien użytkownik zgromadził [wielką kompilację kont]({% post_url 2022-04-15-trolle-rosja-ukraina %}#znajdowanie-trolli){:.internal} działających na Twitterze w&nbsp;sposób sztuczny i&nbsp;metodyczny. W&nbsp;tym rosyjskich trolli.
 * Inna osoba użyła automatycznych metod, żeby wyszukać całą [sieć niepokojących filmów]({% post_url 2022-02-20-youtube-viacom-elsagate%}#youtube-ai-fiksacja){:.internal} kierowanych do dzieci.
 * Pewni badacze wobec niemrawości Facebooka wzięli sprawy w&nbsp;swoje ręce i&nbsp;zaczęli [zbierać dane na temat politycznych manipulacji]({% post_url 2022-04-15-trolle-rosja-ukraina %}#kapryśne-mocarstwa--facebook-itwitter){:.internal}. Za co Fejsik zastraszył ich pozwem.
 

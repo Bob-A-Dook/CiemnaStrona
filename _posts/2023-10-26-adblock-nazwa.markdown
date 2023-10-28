@@ -234,7 +234,7 @@ Gdy najskuteczniejszy z&nbsp;ocenianych dodatków zablokował reklamy, **czas ł
 {:.figcaption}
 Przy okazji dane potwierdzają, że AdBlock Plus, choć cośtam daje, jest jednak kilka razy mniej skuteczny od wyspecjalizowanego dodatku.
 
-Mam również przypadek z&nbsp;[pierwszego wpisu na tym blogu]({% post_url 2021-01-10-ciekawe-czasy %}#reklamy){:.internal}. Łezka się w&nbsp;oku kręci!  
+Mam również przypadek z&nbsp;[pierwszego wpisu na tym blogu]({% post_url 2021-01-10-ciekawe-czasy %}#patoreklamy){:.internal}. Łezka się w&nbsp;oku kręci!  
 I nie tylko z&nbsp;nostalgii, ale też z&nbsp;poczucia marnotrawstwa. Żeby wyświetlić króciutki, nieciekawy dla mnie tekst i&nbsp;jeden przycisk, przeglądarka pobrała prawie 100&nbsp;elementów i&nbsp;2&nbsp;MB danych.
 
 {:.post-meta .bigspace-after}
@@ -244,7 +244,7 @@ Takie coś jak powyższe przykłady to norma. Internetowa reklama często jest j
 
 I, jak prawdziwa pluskwa, może być bardzo dyskretna z&nbsp;wyglądu. Dla oka to zwykły obrazek na brzegu treści. Nie wyskakuje, nie zakrywa tekstu. Zatem AdBlock (i&nbsp;zwykły, i&nbsp;Plus) to przepuszcza. A&nbsp;większość internautów nie widzi, co się dzieje tam w&nbsp;tle.
 
-Całe to śledzenie daje nieraz tylko tyle, że wyświetli się reklama rzeczy, którą przed chwilą ktoś kupił i&nbsp;której nie planuje przez kilka lat zmieniać. Jak meble. Z&nbsp;takich reklam [słynie choćby Amazon](https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=%22amazon%22%20ads%20%22just%20bought%22&sort=byDate&type=comment); mający zresztą reprezentanta w&nbsp;Komitecie Acceptable Ads.
+Całe to śledzenie daje nieraz tylko tyle, że wyświetli się reklama rzeczy, którą przed chwilą ktoś kupił i&nbsp;której nie planuje przez kilka lat zmieniać. Jak meble. Z&nbsp;takich reklam [słynie choćby Amazon](https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=%22amazon%22%20ads%20%22just%20bought%22&sort=byDate&type=comment); mający zresztą reprezentantkę w&nbsp;Komitecie Acceptable Ads.
 
 A gdyby reklama była zwykłym obrazkiem, integralną częścią treści? Nie czymś od obcej strony, tylko od tej, w&nbsp;której jest osadzona?
 
