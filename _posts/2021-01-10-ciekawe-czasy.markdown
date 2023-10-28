@@ -20,7 +20,7 @@ Poza tym każdą z czterech części wpisu można czytać niezależnie od innych
 # Spis treści
 
 * <a href="#sprzedawanie-prywatności">Sprzedawanie prywatności</a>,
-* <a href="#patoreklamy">Reklamy</a>,
+* <a href="#patoreklamy-online">Reklamy</a>,
 * <a href="#centralizacja-imonopole">Centralizacja i monopole</a>,
 * <a href="#amerykanizacja">Amerykanizacja</a>.
 
@@ -63,9 +63,9 @@ Można nie podawać prawdziwych danych. Ale czasem jednak to na nas wymuszą -- 
 
 Nawet jeśli jesteśmy ostrożni i&nbsp;zostawiamy na pojedynczych stronach tylko urywki danych, i&nbsp;tak możemy wpaść. Przez **łączenie danych z&nbsp;różnych baz** (fajnie pokazane w&nbsp;[artykule z&nbsp;Timesa](https://www.nytimes.com/2021/02/05/opinion/capitol-attack-cellphone-data.html)). Robią to między innymi firmy profilujące nas w&nbsp;celach reklamowych.
 
-Wszystko to może wydawać się przytłaczające. Ale nie warto odpuszczać! Myślę że nawet podstawowa wiedza o&nbsp;ochronie prywatności jest w&nbsp;stanie ułatwić życie.<a id="patoreklamy"></a>
+Wszystko to może wydawać się przytłaczające. Ale nie warto odpuszczać! Myślę że nawet podstawowa wiedza o&nbsp;ochronie prywatności jest w&nbsp;stanie ułatwić życie.
 
-## Reklamy
+<h2 id="patoreklamy-online">Reklamy</h2>
 
 Czemu mam walczyć z&nbsp;reklamami? Co mi szkodzi obejrzenie kilku obrazków czy banerów w&nbsp;internecie? Z&nbsp;czasem pewnie nauczę się je ignorować, tak jak bloki reklamowe w&nbsp;telewizji.
 

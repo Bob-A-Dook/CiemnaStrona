@@ -234,7 +234,7 @@ Gdy najskuteczniejszy z&nbsp;ocenianych dodatków zablokował reklamy, **czas ł
 {:.figcaption}
 Przy okazji dane potwierdzają, że AdBlock Plus, choć cośtam daje, jest jednak kilka razy mniej skuteczny od wyspecjalizowanego dodatku.
 
-Mam również przypadek z&nbsp;[pierwszego wpisu na tym blogu]({% post_url 2021-01-10-ciekawe-czasy %}#patoreklamy){:.internal}. Łezka się w&nbsp;oku kręci!  
+Mam również przypadek z&nbsp;[pierwszego wpisu na tym blogu]({% post_url 2021-01-10-ciekawe-czasy %}#patoreklamy-online){:.internal}. Łezka się w&nbsp;oku kręci!  
 I nie tylko z&nbsp;nostalgii, ale też z&nbsp;poczucia marnotrawstwa. Żeby wyświetlić króciutki, nieciekawy dla mnie tekst i&nbsp;jeden przycisk, przeglądarka pobrała prawie 100&nbsp;elementów i&nbsp;2&nbsp;MB danych.
 
 {:.post-meta .bigspace-after}
