@@ -61,11 +61,10 @@ Kiedy oddajemy w&nbsp;ręce firmy swoje dane, wszystko przez pewien czas może i
 
 Można nie podawać prawdziwych danych. Ale czasem jednak to na nas wymuszą -- [jak Fejsik, który może się wkurzyć i&nbsp;pytać o&nbsp;zdjęcie dowodu](https://wiadomosci.onet.pl/kraj/wyslij-nam-swoj-dowod-a-odblokujemy-ci-konto-na-facebooku/fqv9w). Poza tym ciężko zapłacić, nie podając danych płatniczych :roll_eyes:
 
-Albo, nawet jeśli jesteśmy ostrożni i&nbsp;zostawiamy na pojedynczych stronach tylko urywki danych, to i&nbsp;tak możemy wpaść. Przez **łączenie danych z&nbsp;różnych baz** (fajnie pokazane w&nbsp;[artykule z&nbsp;Timesa](https://www.nytimes.com/2021/02/05/opinion/capitol-attack-cellphone-data.html)). Robią to między innymi firmy profilujące nas w&nbsp;celach reklamowych.
+Nawet jeśli jesteśmy ostrożni i&nbsp;zostawiamy na pojedynczych stronach tylko urywki danych, i&nbsp;tak możemy wpaść. Przez **łączenie danych z&nbsp;różnych baz** (fajnie pokazane w&nbsp;[artykule z&nbsp;Timesa](https://www.nytimes.com/2021/02/05/opinion/capitol-attack-cellphone-data.html)). Robią to między innymi firmy profilujące nas w&nbsp;celach reklamowych.
 
-Wszystko to może wydawać się przytłaczające. Ale nie warto odpuszczać! Myślę że nawet podstawowa wiedza o&nbsp;ochronie prywatności jest w&nbsp;stanie ułatwić życie.
+Wszystko to może wydawać się przytłaczające. Ale nie warto odpuszczać! Myślę że nawet podstawowa wiedza o&nbsp;ochronie prywatności jest w&nbsp;stanie ułatwić życie.<a id="patoreklamy"></a>
 
-<a id="patoreklamy"></a>
 ## Reklamy
 
 Czemu mam walczyć z&nbsp;reklamami? Co mi szkodzi obejrzenie kilku obrazków czy banerów w&nbsp;internecie? Z&nbsp;czasem pewnie nauczę się je ignorować, tak jak bloki reklamowe w&nbsp;telewizji.
