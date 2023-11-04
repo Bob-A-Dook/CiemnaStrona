@@ -4,8 +4,9 @@ title: Szyfrowanie na własną rękę z użyciem Hat.sh
 description: "Kapelusz zakryje nasze tajemnice."
 ---
 
-Hat.sh to darmowe narzędzie o&nbsp;otwartym kodzie źródłowym.  
-Ma postać [prostej stronki internetowej](https://hat.sh/). Może działać (oczywiście po pierwszym pobraniu) bez żadnego dostępu do sieci. Pozwala nam szybko i&nbsp;łatwo zabezpieczać pliki hasłem.
+Hat.sh to darmowe narzędzie o&nbsp;otwartym kodzie źródłowym. Pozwala szybko i&nbsp;łatwo zabezpieczać pliki hasłem.
+
+Ma postać [prostej stronki internetowej](https://hat.sh/), więc powinien działać na większości urządzeń z&nbsp;przeglądarką. Może działać (oczywiście po pierwszym pobraniu) bez żadnego dostępu do sieci.
 
 {:.figure .bigspace-before}
 <img src="/assets/tutorials/hatsh/hatsh-logo.jpg" alt="Logo programu hat.sh, pokazujące czarny piracki kapelusz z&nbsp;literką X&nbsp;pośrodku."/>
@@ -13,15 +14,16 @@ Ma postać [prostej stronki internetowej](https://hat.sh/). Może działać (ocz
 {:.figcaption}
 Źródło: [stronka projektu *hat.sh*](https://github.com/sh-dv/hat.sh).
 
-Po raz pierwszy użyłem go podczas tworzenia wpisu na temat kontroli czatów. Chciałem pokazać, że wścibskie apki służące do komunikacji dałoby się przechytrzyć, wrzucając do nich wyłącznie zaszyfrowane rzeczy.
+Po raz pierwszy użyłem go podczas tworzenia [wpisu na temat kontroli czatów]({% post_url 2023-10-19-chat-control %}){:.internal}. Chciałem pokazać, że wścibskie apki służące do komunikacji dałoby się przechytrzyć, wrzucając do nich wyłącznie zaszyfrowane rzeczy.
 
 ## Wstępna weryfikacja 
 
 Ale nie wierzcie na słowo jakiejś Ciemnej Stronie. Nim powierzymy Hatowi swoje tajemnice, trzeba go zweryfikować!
 
-Na Githubie, [stronie z&nbsp;kodem źródłowym](https://github.com/sh-dv/hat.sh), nasz Kapelusz ma ponad 1900&nbsp;gwiazdek (pozytywnych ocen).
+Na Githubie, [stronie z&nbsp;kodem źródłowym](https://github.com/sh-dv/hat.sh), nasz Kapelusz ma ponad 1900&nbsp;gwiazdek (pozytywnych ocen).  
+Jest też jednym z polecanych sposobów na szyfrowanie [na stronie Privacy Guides](https://www.privacyguides.org/en/encryption#browser-based).
 
-Dobry wynik! Ale zdarzało się już, że ktoś podkupił popularną rzecz, żeby ją zmienić w złodzieja danych. Dlatego dla pewności wyszukałem nazwę stronki również w&nbsp;social mediach:
+Brzmi dobrze! Ale zdarzało się już, że ktoś podkupił popularną rzecz, żeby ją zmienić w złodzieja danych. Dlatego dla pewności wyszukałem nazwę stronki również w&nbsp;social mediach:
 
 * na [forum HackerNews](https://hn.algolia.com/?dateRange=all&page=0&prefix=false&query=%22hat.sh%22&sort=byDate&type=story);
 * na [Reddicie](https://duckduckgo.com/?q=%22hat.sh%22+site%3Areddit.com&t=lm&ia=web).

@@ -521,12 +521,12 @@ Korzystają w&nbsp;tym celu ze **skracarki linków i&nbsp;przekierowań**.
 
 Mianowicie: AllSing ma własną stronkę od skracania linków, *bul.ly* (o dziwo w&nbsp;internecie naprawdę taka istnieje! Ale ja mówię o&nbsp;fikcyjnej).
 
-Ich tajniak wrzuca przykładowo komentarz, w&nbsp;którym pisze „Ooo, kolejny skandal u&nbsp;AllSinga!”. I&nbsp;link wyglądający jakby prowadził do stronki *prawda-o-allsingu.com*.  
-Ufamy tej stronie, więc klikamy. Istotnie przechodząc do *prawdy...*, ale po drodze zahaczając o&nbsp;stronkę podległą AllSingowi, która zgarnia nasze informacje.
+Ich tajniak wrzuca przykładowo komentarz, w&nbsp;którym pisze „Ooo, kolejny skandal u&nbsp;AllSinga!”. I&nbsp;link, którego tekst zawiera nazwę stronki *prawda-o-allsingu.com*.  
+Ufamy tej stronie, więc klikamy. Ale pod tekstem krył się link do *bul.ly*. Przenosi do nich, zgarniają w&nbsp;tle informacje, po czym przekierowują na faktyczną „Prawdę...”.
 
 Przez takie pułapki **warto zabezpieczać się również na stronach zaufanych**. Przez zabezpieczenia rozumiem tu rzeczy ogólne -- zmianę adresu IP, czyszczenie ciasteczek, blokowanie elementów zewnętrznych. Nigdy nie wiadomo, na jaką stronę nas poniesie.
 
-Również linki niebędące pułapkami i&nbsp;dodane przez samych uczestników ruchu oporu mogą nas wkopać! Stronka mogła bowiem nie wyłączyć przekazywania refererów przez swoje linki. A&nbsp;**referer zdradza, z&nbsp;jakiej strony przyszliśmy**.
+Również linki niebędące pułapkami i&nbsp;dodane przez samych uczestników ruchu oporu mogą nas wkopać! Stronka rebeliantów mogła bowiem nie wyłączyć przekazywania refererów przez swoje linki. Klikając w nie, **ujawnimy przez referer, z&nbsp;jakiej strony przyszliśmy**.
 
 Wyobraźmy sobie zatem, że przeglądamy zaufanego bloga *allsing-to-potwory.pl*. Znajdujemy tam linka do strony AllSinga -- niegroźnej, jakiegoś losowego artykułu newsowego. Klikamy, nie zabezpieczając się.
 
@@ -543,7 +543,7 @@ Na koniec wyrwę nas z&nbsp;klimatu gry i&nbsp;rzucę więcej nazw z&nbsp;prawdz
 Zacznę od tego, że **największym luksusem byłoby odizolowanie social mediów od reszty naszej aktywności**. Jak najpełniejsze.
 
 Przykład: szerszy internet przeglądamy wyłącznie przez laptopa i&nbsp;domowego hotspota.  
-Zaś konta w&nbsp;social mediach odwiedzamy tylko przez komórkę i&nbsp;internet mobilny (najlepiej przez przeglądarkę, nie apkę; ta druga może zbierać więcej danych).
+Zaś konta w&nbsp;social mediach odwiedzamy tylko przez komórkę i&nbsp;internet mobilny (najlepiej przez przeglądarkę, nie apkę; ta druga może [zbierać więcej danych](/serie/apki){:.internal}).
 
 Nie mieszamy tych dwóch światów. Jeśli będziemy korzystali z&nbsp;osobnych urządzeń i&nbsp;adresów IP, to jest mała szansa, że platformy powiążą naszą aktywność w&nbsp;szerszym internecie z&nbsp;aktywnością na ich własnych stronach. 
 
