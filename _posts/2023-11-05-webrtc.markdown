@@ -1,0 +1,282 @@
+---
+layout: post
+title: "Internetowa inwigilacja plus 6 – wyciek przez WebRTC"
+subtitle: "„Pogadamy w cztery oczy?”"
+description: "Pogadamy w cztery oczy?”"
+date:   2023-11-05 07:30:00 +0100
+tags: [Internet, Inwigilacja, Porady]
+category: internetowa_inwigilacja
+category_readable: "Internetowa inwigilacja"
+image:
+  path: /assets/posts/inwigilacja/webrtc/bing-create-webrtc-baner.jpg
+  width: 1200
+  height: 700
+  alt: "Obrazek wygenerowany komputerowo, w stylu komiksowym. Trzy elegancko ubrane osoby. Po bokach stoją mężczyzna i kobieta z czarnymi opaskami na oczach. Między nimi stoi starszy, siwy pan, trzymając dłonie na ich barkach. Na postacie nałożono napis WebRTC."
+---
+
+W „Internetowej inwigilacji” stosuję często analogię pocztową. Korzystanie z&nbsp;internetu jest jak wysyłanie i&nbsp;odbieranie listów oraz paczek.
+
+Każda osoba i&nbsp;firma ma jakiś swój adres korespondencyjny. W&nbsp;realiach internetowych jest nim [adres IP]({% post_url 2021-06-12-adres-ip %}){:.internal}. Ten adres -- choć często zmienny -- trochę ujawnia o&nbsp;jego użytkowniku. Dlatego dla lepszej prywatności można go ukryć.
+
+Ale „ukryć” w&nbsp;określony sposób. Bo do osoby podpisującej się zmyślonym adresem IP nie docierałyby odpowiedzi. Tak jak w&nbsp;życiu, gdyby pisała losowy adres na kopercie.
+
+Nie, adresy muszą być prawdziwe. Nie da się zmyślać.  
+Można natomiast skorzystać z&nbsp;*pośrednika*. Będzie brał listy wysyłane przez osobę pragnącą prywatności, po czym przekazywał je dalej, podpisując je własnym adresem. Tak działają choćby VPN-y.
+
+Adwersarze mają jednak pewne sposoby na przechytrzenie tego pośrednika. Mogą **poznać prawdziwy adres IP, nadużywając WebRTC -- protokołu używanego głównie do wideorozmów**. Jest szczególnie podatny, bo omijanie pośredników to jedna z&nbsp;jego głównych funkcji. Wynikająca z&nbsp;potrzeby szybkości.
+
+W tym wpisie przybliżę zagrożenie i&nbsp;pokażę sposoby na uporanie się z&nbsp;nim. W&nbsp;bonusie aluzje do romansów i&nbsp;mapki ładnych górskich okolic :smile:
+
+Zapraszam!
+
+## Spis treści
+
+* [Historyjka z&nbsp;happy endem](#historyjka-zhappy-endem)
+  * [Rutyna z&nbsp;pośrednikiem](#rutyna-zpośrednikiem)
+  * [ICE, czyli przełamanie lodów](#ice-czyli-przełamanie-lodów)
+  * [Bez pośrednika, ale nie bez sieci](#bez-pośrednika-ale-nie-bez-sieci)
+* [Historyjka bez happy endu](#historyjka-bez-happy-endu)
+  * [Wykorzystanie nieświadomego ujawnienia](#wykorzystanie-nieświadomego-ujawnienia)
+  * [Celowe zdemaskowanie](#celowe-zdemaskowanie)
+* [Jak się chronić](#jak-się-chronić)
+
+
+## Historyjka z&nbsp;happy endem
+
+Czas na opowieść o&nbsp;swataniu. Miejscem akcji będzie kilka niewielkich wioseczek w&nbsp;Beskidzie Wyspowym. Łączące je drogi symbolizują infrastrukturę internetową.
+
+{:.post-meta .bigspace-after}
+Obszar wybrałem tylko dlatego, że układ dróg pasował do analogii. I&nbsp;były góry, a&nbsp;góry są fajne.  
+Ewentualne podobieństwo punktów z&nbsp;mapy do realnych miejsc i&nbsp;zdarzeń niezamierzone, przypadkowe *itede*.
+
+### Rutyna z&nbsp;pośrednikiem
+
+Za siedmioma górami, za siedmioma lasami... Na końcu wioski Koninki mieszka sobie **Janek**. W&nbsp;wiosce Konina mieszka z&nbsp;kolei **Gosia**. Nie znają swoich nazwisk ani adresów, a&nbsp;jednak ze sobą piszą.  
+Są bowiem klientami fikcyjnego **Klubu „Podobni”** z&nbsp;miejscowości Podobin.
+
+{:.bigspace-before}
+<img src="/assets/posts/inwigilacja/webrtc/webrtc-siec-mapka.jpg" alt="Mapka złożona z&nbsp;dwóch zrzutów ekranów ułożonych blisko siebie. Górny pokazujące drogę z&nbsp;południa na północ. Na północy widać ikonę kuli ziemskiej, po której latają strzałki, a&nbsp;na południu jest miejscowość Niedźwiedź. Od głównej drogi odbija na bok mniejsza, do wioski Podobin. Nałożono na nią ikonę serwera. Na dolnej mapce, w&nbsp;miejscowości Niedźwiedź, droga się rozwidla. Jej prawa odnoga kończy się ślepym zaułkiem, na który nałożono ikonę laptopa z&nbsp;różowym ekranem. Lewa odnoga idzie przez miejscowość Poręba Wielka, mijając ikonę wszechwidzącego oka, po czym się rozwidla na dwie drogi. Na końcu jednej z&nbsp;nich jest ikona laptopa z&nbsp;niebieskim ekranem."/>
+
+{:.figcaption}
+Źródło map: *mapy.cz*. Ikony z&nbsp;Flaticon, szczegóły [pod koniec wpisu](#obrazki){:.internal}.
+
+Klub jest pośrednikiem dla nieśmiałych. Przyjmuje listy od jednych klubowiczów i&nbsp;przekazuje je innym, wskazanym z&nbsp;imienia. Adresy zachowuje do swojej wiedzy i&nbsp;nie ujawnia ich, póki klienci nie zechcą się poznać.  
+To odpowiednik *czatu* albo *anonimowego portalu społecznościowego* z&nbsp;wirtualnego świata.
+
+Janek jest kompletnym piwniczakiem. Nie rusza się z&nbsp;domu, mało co umie. Nie ma pojęcia, jak adresować listy, gdzie zdobyć znaczki i&nbsp;tak dalej. W&nbsp;tej analogii to internauta.
+
+Na szczęście mieszka z&nbsp;nim jego **wujek złota rączka** (*przeglądarka*), który zna się na rzeczy i&nbsp;któremu Janek bezgranicznie ufa. Chłopak tylko pisze kartki i&nbsp;podaje je wujowi. A&nbsp;ten zajmuje się kopertami i&nbsp;adresowaniem do „Podobnych”.
+
+Wuj przekazuje listy **listonoszowi** (odpowiednik *operatora telekomunikacyjnego*). Ten rozwozi przesyłki, jeżdżąc sobie rowerem po wyznaczonych drogach. Korzysta z&nbsp;*infrastruktury sieciowej*.
+
+Swoją drogą w tym świecie adresy korespondencyjne są częściowo anonimowe. Każdy może odczytać z nich miejscowość. Ale zamiast dokładnej ulicy i numeru domu jest ciąg cyfr. Tylko listonosze mają dekodery pozwalające to odczytać.
+
+Gdy listonosz przejeżdża przez Porębę Wielką, zatrzymują go **wścibscy staruszkowie** (odpowiednik *hakera-podglądacza*). Całymi dniami nic nie robią, tylko obserwują i&nbsp;plotkują. Nie da się ich ominąć, bo siedzą przy jedynej drodze.
+
+{% include info.html
+type="Uwaga"
+text="W praktyce haker byłby rzadkim zjawiskiem, częściej to *firma telekomunikacyjna* analizuje dane ludzi. Wścibski listonosz może się zatrzymać na poboczu i&nbsp;zerknąć na listy.  
+Ale to detal. Rodzaj podglądacza nie wpłynie na dalszą część historyjki."
+%}
+
+Wścibskie oczy chętnie by zajrzały do listu Janka. Ale wujo go zaplombował ([*zaszyfrował*]({% post_url 2022-08-13-https %}){:.internal}), więc tego nie zrobią. Mogą jedynie odczytać z&nbsp;koperty, że to coś dla Klubu Bratnich Dusz (poznać [*metadane*]({% post_url 2022-08-13-metadane-esni-ech %}){:.internal}).
+
+Czy to cenna informacja? To zależy. Mogą obstawiać, że Janek zapewne chce kogoś poznać. Jeśli widzą, że często wysyła tam listy, to pewnie jest stałym klientem. Ale trudno ustalić coś więcej.
+
+Listonosz dostarcza list do Klubu. Tam zdejmują plombę, widzą że to do Gosi. Przekładają list do koperty z&nbsp;jej adresem i&nbsp;powierzają go innemu listonoszowi. Ten zawozi go do Koninek.
+
+A w&nbsp;drugą stronę?
+
+* Gosia pisze list,
+* listonosz z&nbsp;jej rejonu zawozi go do Klubu,
+* klub wpisuje adres Janka i&nbsp;daje list listonoszowi z&nbsp;jego rejonu,
+* w&nbsp;domu Wujo otwiera kopertę (bo Janek to by rozerwał i&nbsp;wyrzucił, a&nbsp;szkoda).
+  Przebiega wzrokiem po tekście, ale Janek nie ma nic przeciwko.
+* Janek dostaje kartkę do rąk.
+
+I tak to życie się toczy. Listy latają, Janek i&nbsp;Gosia nie znają adresów. Staruszkowie łypią, ale mało co widzą. 
+
+### ICE, czyli przełamanie lodów
+
+Pewnego dnia Gosia uznaje, że może czas na zmianę rodzaju korespondencji. Zamiast listów tekstowych -- liczne zdjęcia. Z&nbsp;podróży, żeby nie było.
+
+W świecie komputerów odpowiednikiem byłoby *rozpoczęcie wideorozmowy* zamiast czatu tekstowego i&nbsp;przesyłanie sobie klatek filmu. Od strony technicznej wiąże się to często z&nbsp;tematem wpisu -- **włączeniem WebRTC**.
+
+Klub nalegał, żeby dawać im znać o&nbsp;takich zmianach. Zatem Gosia pisze do nich list.
+
+{% include info.html
+type="Ciekawostka"
+text="Zmiana rodzaju wiadomości podczas WebRTC polega na zmianie *protokołu*.  
+Klasycznym „listom”, dłuższym i&nbsp;bardziej oficjalnym, odpowiada protokół TCP. To on działa w&nbsp;tle praktycznie za każdym razem, gdy odwiedzamy strony internetowe.  
+Z kolei „kartki” (lekkie, zwięzłe i&nbsp;częste) powierza się częściej protokołowi UDP."
+%}
+
+Klub ma taką swoją zasadę: gdy zaczynają latać zdjęcia, to odsuwa się w cień. Przekazuje każdej osobie adres tej drugiej i&nbsp;zostawia je same ze sobą.
+
+Ale nie robią tego z&nbsp;dyskrecji. Więcej zdjęć oznaczałoby więcej pracy przy przekazywaniu korespondencji. A&nbsp;rąk do pracy niewiele, więc wolą jej uniknąć.  
+W podobny sposób **serwery podczas WebRTC mogą „zeswatać” ze sobą adresy IP i&nbsp;wycofać się na czas komunikacji**. Oszczędzają dzięki temu swoje procesory i&nbsp;łącze internetowe.
+
+Sam moment przekazania adresów nosi nazwę [ICE](https://developer.mozilla.org/en-US/docs/Glossary/ICE) (*Interactive Connectivity Establishment*). Dzięki niemu użytkownicy mogą się porozumiewać bez udziału serwera pośredniczącego. Od teraz jest między nimi **połączenie _peer-to-peer_**. W&nbsp;skrócie P2P.
+
+{:.bigspace-before}
+<img src="/assets/posts/inwigilacja/webrtc/bing-create-webrtc-baner.jpg" alt="Obrazek wygenerowany komputerowo, w&nbsp;stylu kolorowego rysunku, pokazujący trzy postacie w&nbsp;eleganckich strojach. Po bokach stoją mężczyzna i&nbsp;kobieta z&nbsp;czarnymi opaskami na oczach. Między nimi stoi starszy, siwy pan, trzymając dłonie na ich barkach. Na postacie nałożono napis WebRTC oraz logo tego standardu."/>
+
+{:.figcaption}
+Źródło: generator Bing Create, logo WebRTC. Opis obrazka i&nbsp;przeróbki moje. 
+
+Klub odbiera prośbę Gosi. Pisze do Janka, już we własnym imieniu, pytając czy się zgadza na wymianę zdjęć. Swoje pytanie wysyła na papierze w&nbsp;ozdobne płomyki, bo to szczególny typ informacji.
+
+Jak już pisałem, wszystkie kartki przejmuje wujek Janka. Również tę specjalną.  
+I tu zwrot akcji... Nie przekazuje jej Jankowi. Wyraża zgodę w&nbsp;jego imieniu. Bo jeszcze Janek by coś popsuł, nie ogarnął. Lepiej zadziałać za niego.
+
+Klub ma teraz zgody obu stron. Zatem wysyła Gosi adres Janka, a&nbsp;Jankowi adres Gosi.
+
+Wuj przejmuje nowy adres, nie ujawnia, od teraz zapisuje go na kopertach. Mógłby go ujawnić, gdyby Janek go zapytał... Ale on nie pyta. Wie tylko tyle, że teraz lecą zdjęcia.
+
+W podobny sposób **przeglądarki przy domyślnych ustawieniach zwykle zgadzają się na ujawnienie IP bez udziału użytkownika**. Nawet o&nbsp;tym nie informują. Zapewne wygoda wideorozmów ponad prywatnością.  
+Potem pokażę, w&nbsp;jaki sposób użytkownicy mogą „nauczyć swojego wuja”, żeby był bardziej dyskretny.
+
+### Bez pośrednika, ale nie bez sieci
+
+Uzyskane pitu-pitu przez *peer-to-peer*, jak między Jankiem a&nbsp;Gosią, nazywa się czasem „bezpośrednim” albo „bez udziału pośredników”.
+
+Niektórzy mają przez to **mylne wrażenie, że w&nbsp;komunikacji P2P nie ma nikogo poza nadawcą i&nbsp;odbiorcą**. Że wysłane informacje jakimś cudem lecą „bezpośrednim światłowodem” między osobami. Sam tak kiedyś myślałem, takie myśli [miewają też inni](https://www.reddit.com/r/WebRTC/comments/heb613/does_our_data_go_through_isp_servers_during_p2p/).
+
+Ale tak nie jest, co dobitnie pokazuje mapka. Zniknęła jej górna część, została dolna.
+
+{:.figure .bigspace}
+<img src="/assets/posts/inwigilacja/webrtc/webrtc-siec-peer-to-peer.jpg" alt="Sama dolna część poprzedniej mapki, pokazująca dwa laptopy na końcach dróg, połączenie między nimi oraz wszystkowidzące oko po drodze"/>
+
+Owszem, listonosz nie musi już jeździć do Klubu, może wozić listy prosto do Gosi.  
+Ale nadal korzysta z&nbsp;roweru i&nbsp;drogi (*internetu*). Nadal trzeba przejechać przez Porębę Wielką i&nbsp;przez Niedźwiedź, zahaczając o&nbsp;wścibskich staruszków. Innej opcji nie ma.
+
+A co z&nbsp;prywatnością? Skoro „typ listów” zmienił się na lżejsze UDP, to czy wścibskie oczy mogą teraz do nich zajrzeć?  
+Na szczęście nie! [Wszystkie rzeczy wysyłane w&nbsp;ramach WebRTC są szyfrowane](https://webrtc-security.github.io#4.3.). Wujo nadal dzielnie plombuje listy.
+
+Natomiast od teraz **podglądacze z&nbsp;zewnątrz poznają prawdziwy, docelowy adres IP**. W&nbsp;końcu na (widocznej dla nich) kopercie będzie już adres Gosi.  
+I dziwnym trafem listy do niej zaczęły się pojawiać równo z&nbsp;tym, jak skończyły się listy Janka do Klubu... Staruszkowie będą mieli o&nbsp;czym plotkować.
+
+Tego się nie uniknie, póki internet jest jaki jest.
+
+**_Prawdziwe_ ominięcie pośredników i&nbsp;podglądaczy wymagałoby innej metody komunikacji**. Ominięcia dróg, zrezygnowania z&nbsp;listonosza. Na przykład przejścia spacerkiem przez góry, z&nbsp;jednej wioski do drugiej.  
+W świecie cyfrowym byłaby to komunikacja bezpośrednia. Jak Bluetooth albo przesył danych przez USB.
+
+{:.figure}
+<img src="/assets/posts/inwigilacja/webrtc/meshnet-bluetooth.jpg" alt="Fragment dużej mapki z&nbsp;poprzedniego obrazka, będący zbliżeniem na dwie ikony laptopów na końcach dwóch miejscowości. Między nimi jest niebieska strzałka, nad którą widnieje logo standardu Bluetooth"/>
+
+{% include info.html
+type="Ciekawostka"
+text="Przejście na Bluetooth i&nbsp;ominięcie w&nbsp;ten sposób internetu nie jest wcale głupim pomysłem. Na tej zasadzie opiera się koncepcja sieci *meshnet*.  
+Na niej z&nbsp;kolei opierają się komunikatory takie jak darmowy [Briar](https://briarproject.org/how-it-works/), działające nawet w&nbsp;obliczu braku internetu. Choćby podczas wojen lub intensywnych protestów."
+%}
+
+## Historyjka bez happy endu
+
+Wyżej było szczęśliwe zakończenie z&nbsp;nutką goryczy (bo wścibscy staruszkowie jednak coś ugrali). Ale równie dobrze mogło pójść inaczej.
+
+Jeśli ktoś nie chce ujawniać swojego adresu IP, ale zostanie zdemaskowany przez WebRTC, to mamy tak zwany **_WebRTC leak_**. Wyciek (adresu) przez WebRTC. Mogą to wykorzystać zarówno prywatni stalkerzy, jak i&nbsp;firmy.
+
+### Wykorzystanie nieświadomego ujawnienia
+
+Nie dla każdego może być intuicyjne, że wideokonferencja ma nieco inne fundamenty niż reszta internetu. Dla użytkownika to często po prostu integralna część czatu.
+
+Być może Klub nie wspominał swoim członkom, że przejście na wysyłanie zdjęć oznacza ujawnienie adresów? Może Gosia by tego nie robiła, gdyby nie było to ukryte w&nbsp;aneksie do regulaminu?
+
+Jeśli Janek włączy tryb stalkera i&nbsp;zapyta wuja o&nbsp;adres, to dostanie informację, że Gosia przebywa w Koninie. Gdyby dodatkowo przekupił listonosza (mała szansa), to mógłby ustalić dokładne dane dziewczyny.
+
+W podobny sposób nacinają się użytkownicy Omegle, stronki losującej osoby do wideorozmów. Popularnym sposobem na trolling jest tam [mówienie ludziom, z&nbsp;jakiego są miasta](https://www.youtube.com/results?search_query=omegle+revealing+location).
+
+Działa to właśnie dzięki temu, że Omegle „swata” użytkowników również od strony technicznej, przez WebRTC. Dane lecące do jednego rozmówcy są podpisane adresem drugiego.  
+Ktoś może ustawić na swoim komputerze program odczytujący ten adres IP. I&nbsp;od razu sprawdzający w&nbsp;bazie geolokalizacyjnej, jakiemu miejscu odpowiada.
+
+{% include info.html
+type="Ciekawostka"
+text="Jeśli kogoś interesuje konkretny przykład takiego programu, to całe rozwiązanie w&nbsp;[parudziesięciu linijkach JavaScriptu](https://www.youtube.com/watch?v=fN9cWpY5zUc) pokazuje Matt Upham na YouTubie. Właśnie w&nbsp;kontekście trollowania na Omegle."
+%}
+
+Da się ustalić lokalizację z&nbsp;dokładnością najwyżej co do miasta, bo IP nie ujawnia więcej. Ale do przestraszenia rozmówców wystarczy.
+
+Sprawa dotyczy oczywiście nie tylko Omegle. Szczególnie zdeterminowany stalker mógłby celowo kogoś namówić na wideorozmowę, żeby poznać IP tej osoby. Raczej nie wykorzysta go wprost -- chyba że ma wtyki w&nbsp;policji, prokuraturze albo firmie telekomunikacyjnej, z&nbsp;której korzysta ofiara.  
+Może jednak wkręcać, że jest z&nbsp;konkretnej miejscowości w&nbsp;okolicach ofiary, i&nbsp;budować w&nbsp;ten sposób zaufanie przed sięgnięciem po inne metody.
+
+### Celowe zdemaskowanie
+
+Skoro już gdybałem na temat Janka-stalkera, to pogdybam też o&nbsp;Gosi. Mogłaby być stalkerką wyższego poziomu, gromadzącą dane wielu osób do celów biznesowych (odpowiednik: *firmy od reklam internetowych*).
+
+Nigdy nie zależało jej na pisaniu z&nbsp;Jankiem, tylko na jego adresie. W&nbsp;ten sposób zyskuje więcej danych, które może ze sobą łączyć, żeby lepiej sprofilować chłopaka.
+
+Przeszkodą jest dla niej klub-pośrednik, za którym ten adres się kryje. Ale nic nie szkodzi. Gosia wie, że korespondencja kierowana do Janka (i&nbsp;ogólnie Janków tego świata) idzie przez wujka.  
+A wujkowie to romantycy. Zawsze spełnią prośbę o&nbsp;bezpośrednie listy, rezygnację z&nbsp;pośrednictwa. Dlatego wysyła swoją prośbę z&nbsp;premedytacją; nie planując dalszego pisania, ale wiedząc, że dostanie adres.
+
+Na podobnej zasadzie firmy reklamowe mogą inicjować WebRTC całkiem po cichu, tylko w&nbsp;celu odsłonięcia IP. Użytkownik nic nie zobaczy.
+
+Janek mógłby być ostrożnym człowiekiem. Nie do końca ufającym pośrednictwu Klubu i&nbsp;mającym ponadto własnego pośrednika. Przykładowo:
+
+* znajomego z&nbsp;innej miejscowości (*własny serwer proxy*);
+* nieznajomego, komercyjnego pośrednika z&nbsp;innego miasta (*VPN-a*);
+* albo nawet całą sieć kurierów, nieznających siebie nawzajem, rozsianych po całym świecie (*sieć Tor*).
+
+{% include info.html
+type="Uwaga"
+text="Nie należy mylić sieci Tor z&nbsp;konkretną przeglądarką Tor Browser. Ta druga zabezpiecza się przed wyciekiem adresu IP. Ale jeśli ktoś używa innej przeglądarki, z&nbsp;siecią Tor jedynie w&nbsp;roli pośrednika, to raczej nie ma takiej ochrony.  
+Całą sprawę dokładniej pokazuje [filmik użytkownika AKM](https://www.youtube.com/watch?v=u4jF3TtkEao) z&nbsp;YouTube'a."
+%}
+
+W każdym z&nbsp;tych przypadków Janek dawałby list wujowi, wuj listonoszowi, listonosz zawoziłby do pierwszego pośrednika. List po krótszym lub dłuższym czasie trafiałby do Klubu. Dopiero&nbsp;stamtąd do Gosi.  
+Tak, Janek jest ostrożny.
+
+Ale jeśli Gosia wyśle oficjalną prośbę o&nbsp;kontakt bezpośredni, to **nie ma znaczenia, ilu ustawiłby pośredników. Jego adres i&nbsp;tak zostałby ujawniony**.  
+To dlatego, że słabym ogniwem jest tutaj wuj. Ostatnie ogniwo łańcuszka, nie licząc Janka. Wujek, który zwykle przystaje na propozycję bezpośredniej korespondencji.
+
+## Jak się chronić
+
+Janka i&nbsp;Gosię zostawię już samym sobie, myślę że potencjał analogii wyczerpany na dziś :smile: Teraz będą praktyczne rady.  
+Zacznę od tego, kogo całe zagrożenie na pewno **_nie_ dotyczy**:
+
+* osób korzystających z&nbsp;aplikacji, które nie obsługują WebRTC.
+
+  Ten protokół nie jest *jedynym* sposobem na wideorozmowy. Mogą istnieć programy, które zawsze puszczają wszystko przez własną platformę, bez *peer-to-peer*.  
+  Ale wspominam o nich tylko dla formalności. Ta seria skupia się *ogólnych przeglądarkach*.
+
+* **osób, które i&nbsp;tak nie maskują adresu IP**.
+
+  Uszczelnianie WebRTC jest jak łatanie dziur w&nbsp;prywatnościowym pancerzu. To szlif, nie fundament.  
+A jeśli ktoś po prostu chodzi po internecie, podpisując się swoim prawdziwym IP, to żadnego pancerza nie ma. Co najwyżej koszulę i&nbsp;kalesony.
+
+* **osób, które mają wyłączony JavaScript**.
+
+  To na bazie tego „języka programowania internetu” włącza się WebRTC w&nbsp;przeglądarkach.  
+  Wiem, że mało kto wyłącza JS-a, bo wiele stron z&nbsp;niego korzysta. Ale jeśli już to zrobią, to raczej nie muszą obawiać się zagrożenia.
+
+Istnieje teoretyczna możliwość, że jakiś VPN jest ściślej zintegrowany z&nbsp;przeglądarką. Dzięki czemu ujawnia ona tylko jego adres zamiast tego prawdziwego.
+
+Ale proponuję nie bazować na obietnicach VPN-ów, tylko osobiście testować szczelność na niezależnych stronkach mających taką funkcję.  
+Osobiście poszedłem o&nbsp;krok dalej i&nbsp;**postawiłem na opcję nuklearną, czyli całkowite wyłączenie WebRTC**. Włączam go tylko w&nbsp;razie potrzeby, przed rozmowami.
+
+### Sprawdzanie szczelności i&nbsp;wyłączanie
+
+Dobra nowina 1: można łatwo sprawdzić, w&nbsp;bezpiecznych i&nbsp;kontrolowanych warunkach, czy adres IP wycieka przez WebRTC. Wystarczy odwiedzić stronkę internetową oceniającą prywatność, jak BrowserLeaks.
+
+Dobra nowina 2: większość przeglądarek pozwala łatwo wyłączyć WebRTC.  
+Zła nowina: prawie każda robi to w&nbsp;nieco inny sposób. Jeszcze większa różnorodność występuje w&nbsp;innych apkach, jak komunikatory.
+
+Żeby nie rozdymać już tego wpisu, wydzieliłem instrukcje sprawdzania i&nbsp;wyłączania WebRTC do [osobnego samouczka](/tutorials/webrtc-wylaczenie){:.internal}.
+
+I to tyle z&nbsp;mojej strony! Życzę, żeby WebRTC swatało Was tylko z&nbsp;fajnymi ludźmi na czacie czy *callu*, a&nbsp;nie ze zbieraczami danych :smile:
+
+<a id="obrazki"></a>
+
+{% include info.html
+type="Źródła obrazków"
+text="Lista ikon z serwisu Flaticon:"
+trailer="
+<ul>
+  <li>Ikona <a href='https://www.flaticon.com/free-icon/transfer_8345680'>strzałki dwukierunkowej</a> autorstwa <em>zero_wing</em>.</li>
+  <li>Ikona <a href='https://www.flaticon.com/free-icon/laptop-screen_288870'>laptopa</a> autorstwa <em>vectorsmarket15</em>.</li>
+  <li>Ikona <a href='https://www.flaticon.com/free-icon/server_742282'>serwera</a> autorstwa <em>Smashicons</em>.</li>
+  <li>Ikona <a href='https://www.flaticon.com/free-icon/worldwide_870118'>internetu</a> autorstwa <em>Freepik</em>.</li>
+</ul>
+"
+%}
+
+

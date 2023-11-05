@@ -9,11 +9,9 @@ category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
 image: 
    path: /assets/posts/adres-ip/adres-ip-baner.jpg
-   width: 1200
-   height: 700
-
-image-width: 765
-image-height: 556
+   width: 765
+   height: 556
+   alt: "Przerobione panele z mangi Kengan Ashura. Dwie postacie gotowe do walki wręcz, między nimi napis VS. Jedna ma nałożoną maskę ruchu Anonymous. Druga ma logo serwisu Netflix zamiast głowy"
 ---
 
 W pierwszym, drugim i&nbsp;piątym wpisie z&nbsp;„Internetowej inwigilacji” wałkowałem sprawę nagłówków HTTP -- informacji, które ujawniamy za każdym razem, kiedy wchodzimy na jakąś stronkę. Czegoś w&nbsp;rodzaju „etykiety” na przesyłce pocztowej.
