@@ -79,7 +79,7 @@ text="W praktyce haker byłby rzadkim zjawiskiem, częściej to *firma telekomun
 Ale to detal. Rodzaj podglądacza nie wpłynie na dalszą część historyjki."
 %}
 
-Wścibskie oczy chętnie by zajrzały do listu Janka. Ale wujo go zaplombował ([*zaszyfrował*]({% post_url 2022-08-13-https %}){:.internal}), więc tego nie zrobią. Mogą jedynie odczytać z&nbsp;koperty, że to coś dla Klubu Bratnich Dusz (poznać [*metadane*]({% post_url 2022-08-13-metadane-esni-ech %}){:.internal}).
+Wścibskie oczy chętnie by zajrzały do listu Janka. Ale wujo go zaplombował ([*zaszyfrował*]({% post_url 2022-08-13-https %}){:.internal}), więc tego nie zrobią. Mogą jedynie odczytać z&nbsp;koperty, że to coś dla Klubu „Podobni” (poznać [*metadane*]({% post_url 2022-08-13-metadane-esni-ech %}){:.internal}).
 
 Czy to cenna informacja? To zależy. Mogą obstawiać, że Janek zapewne chce kogoś poznać. Jeśli widzą, że często wysyła tam listy, to pewnie jest stałym klientem. Ale trudno ustalić coś więcej.
 
@@ -236,7 +236,7 @@ Zacznę od tego, kogo całe zagrożenie na pewno **_nie_ dotyczy**:
 * osób korzystających z&nbsp;aplikacji, które nie obsługują WebRTC.
 
   Ten protokół nie jest *jedynym* sposobem na wideorozmowy. Mogą istnieć programy, które zawsze puszczają wszystko przez własną platformę, bez *peer-to-peer*.  
-  Ale wspominam o nich tylko dla formalności. Ta seria skupia się *ogólnych przeglądarkach*.
+  Ale wspominam o nich tylko dla formalności. Ta seria skupia się na *ogólnych przeglądarkach*.
 
 * **osób, które i&nbsp;tak nie maskują adresu IP**.
 
