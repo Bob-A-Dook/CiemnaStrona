@@ -268,7 +268,13 @@ Dodatkowa zaleta: pomijając kwestie prywatnościowe, w&nbsp;ten sposób oszczę
 {:.figcaption}
 Na systemie Android można łatwo włączać i&nbsp;wyłączać niektóre funkcje przez główne menu. W&nbsp;tym celu przykładamy palec do górnej części ekranu i&nbsp;kilka razy ciągniemy w&nbsp;dół.
 
-Wszystkie powyższe rzeczy nie ocalą nas przed akcelerometrem. Nie wymaga on żadnych pozwoleń i&nbsp;nie ma pstryczka, który by go wyłączył. Ale pamiętajmy, że w&nbsp;odosobnieniu nie jest aż taki groźny. Dbajmy o&nbsp;inne sprawy wskazane powyżej, a&nbsp;powinno być w&nbsp;porządku. 
+Wszystkie powyższe rzeczy nie ocalą nas przed akcelerometrem. Nie wymaga on żadnych pozwoleń i&nbsp;nie ma pstryczka, który by go wyłączył. Ale pamiętajmy, że w&nbsp;odosobnieniu nie jest aż taki groźny. Dbajmy o&nbsp;inne sprawy wskazane powyżej, a&nbsp;powinno być w&nbsp;porządku.
+
+{% include info.html
+type="Aktualizacja"
+text="Od czasu stworzenia wpisu odkryłem, że jednak istnieje (przynajmniej na niektórych telefonach) [pstryczek od wyłączania akcelerometru](https://www.guidingtech.com/turn-off-android-phone-sensors/).  
+Żeby go aktywować, trzeba się nieco naklikać, bo jest zakopany w&nbsp;ustawieniach programistycznych. Ale warto go dodać."
+%}
 
 Jeśli mamy czas, kiedy akurat nie potrzebujemy smartfona (bo na przykład śpimy albo mamy długi przejazd pociągiem)... To możemy po prostu wyłączać całe urządzenie.  
 Nawet jeśli siedzi u&nbsp;nas wścibska apka gapiąca się w&nbsp;akcelerometr, to z&nbsp;wyłączonego smartfona nic nie odczyta.
