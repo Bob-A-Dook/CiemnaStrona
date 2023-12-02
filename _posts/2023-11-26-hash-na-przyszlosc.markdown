@@ -45,7 +45,7 @@ Gdy kiedyś wrzucę oryginalny tekst, to osoby chętne mogą go sobie skopiowa�
 {% include info.html
 type="Powiązane wpisy"
 text="Więcej na temat haszowania napisałem w&nbsp;jednym ze swoich [starszych wpisów](/2021/02/28/hash-podstawy){:.internal}.  
-Ponadto swoje oświadczenia w&nbsp;formie hasza opublikowały swego czasu, przy okazji [afery wokół Usecrypta](/2021/03/12/usecrypt-afera){:.internal}, trzy polskie portale na temat cyberbezpieczeństwa."
+Ponadto swoje oświadczenia w&nbsp;formie hasza opublikowały swego czasu, przy okazji [afery wokół Usecrypta](/2021/03/11/usecrypt-afera){:.internal}, trzy polskie portale na temat cyberbezpieczeństwa."
 %}
 
 ## Ukrywanie na widoku

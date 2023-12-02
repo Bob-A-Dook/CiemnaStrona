@@ -38,18 +38,20 @@ Przychodzisz ze strony:
 
 Oba linki prowadzą do tej samej strony. Jednak w&nbsp;drugim przypadku wprost dodałem do linku zakaz przesłania referera. **Te informacje są ujawniane domyślnie, o&nbsp;ile strona ich nie wyłączy**.
 
-No ale dobra, możesz powiedzieć. Co z&nbsp;tego? Ciemna Strona dowiaduje się, że przychodzę z&nbsp;Ciemnej Strony. Nic specjalnego.
+No ale dobra, możesz powiedzieć. Co z&nbsp;tego? Ciemna Strona dowiaduje się, że przychodzę z&nbsp;Ciemnej Strony. Nic specjalnego.  
+Póki poruszasz się po jednej stronie, nie pobierając nic z&nbsp;zewnątrz, referer to faktycznie bzdet. Spróbuj jednak odwiedzić jakąś stronkę zewnętrzną, taką jak *BrowserLeaks*:
 
-Póki poruszamy się po jednej stronie i&nbsp;nie pobieramy nic z&nbsp;zewnątrz, referer to faktycznie bzdet. Spróbujmy jednak odwiedzić jakąś stronkę zewnętrzną, taką jak *BrowserLeaks*:
-
-<a href="https://browserleaks.com/ip">*browserleaks.com* z&nbsp;refererem z&nbsp;Ciemnej Strony</a>
+<a href="https://browserleaks.com/ip">*Browserleaks.com* z&nbsp;refererem z&nbsp;Ciemnej Strony</a>
 
 {:.bigspace-after .post-meta}
-Strona zawiera tabelkę z różnymi informacjami. Tę interesującą dla nas znajdziemy nieco niżej, obok hasła *Referer*. Jeśli jej nie ma, to znaczy że żadnego nie przesłaliśmy.
+Strona zawiera tabelkę z różnymi informacjami. Tę interesującą dla nas znajdziemy nieco niżej, pod nagłówkiem *HTTP Headers*, obok hasła *Referer*. Jeśli jej nie ma, to znaczy że żadnego nie przesłaliśmy.
 
-Robiąc to, „poniesiesz” ze sobą na stronę B&nbsp;informację o&nbsp;tym, że przybywasz z&nbsp;Ciemnej Strony (strona A).  
-Co więcej, strona B&nbsp;sama może pobierać część rzeczy ze stron C, D&nbsp;i kolejnych  
-(często np. strony nie trzymają własnych czcionek, tylko proszą o&nbsp;nie Google Fonts; nie analizują ruchu samodzielnie, tylko odsyłają go do Google Analytics itp.).
+Robiąc to, „poniesiesz” ze sobą na stronę B&nbsp;informację o&nbsp;tym, że przybywasz z&nbsp;Ciemnej Strony (strona&nbsp;A).
+
+Co więcej, strona B&nbsp;może odsyłać do różnych rzeczy ze stron C, D&nbsp;i&nbsp;kolejnych. One również dowiedzą się, że przeszliśmy z&nbsp;A do B.
+
+{:.post-meta .bigspace-after}
+Dlaczego tak robią? Dla wygody, to jak *outsourcing* pewnych rzeczy. Nie trzymają własnych czcionek, tylko odsyłają do Google Fonts; nie analizują ruchu samodzielnie, tylko ślą dane do Google Analytics.
 
 Chcieliśmy tylko odwiedzić jedną stronę przez link. A&nbsp;ta papla *przesłała obcym stronom nasz nagłówek, razem z&nbsp;refererem*. Więc, tak jak w&nbsp;przypadku plotkar i&nbsp;plotkarzy z&nbsp;prawdziwego życia, teraz wiedzą już wszyscy.
 
@@ -73,7 +75,7 @@ Mimo to jest kilka sposobów, w&nbsp;jakie może zostać użyty przeciwko nam:
 
 * **Referer może być częścią naszej „teczki”**
 
-  Nawet jeśli nie wstydzimy się poszczególnych stron, strony potrafiące nas zidentyfikować mogą je połączyć z&nbsp;innymi informacjami, jakie o&nbsp;nas zbiorą i&nbsp;stworzyć na tej podstawie profil naszej osoby. Później mogą go również ujawnić firmom marketingowym (albo szerszej publice, jeśli ich dane wyciekną).
+  Nawet jeśli nie wstydzimy się miejsca, z którego przybywamy, odwiedzane strony mogą je połączyć z&nbsp;innymi informacjami, jakie o&nbsp;nas zbiorą i&nbsp;nas na tej podstawie profilować. Później mogą ujawnić profil firmom marketingowym (albo szerszej publice, jeśli ich dane wyciekną).
 
 * **Zdradza popularność stron**.
 
@@ -83,18 +85,17 @@ Mimo to jest kilka sposobów, w&nbsp;jakie może zostać użyty przeciwko nam:
 * **Umacnia kontrolę internetowych gigantów**.
 
   Trochę jak poprzedni punkt, ale w&nbsp;wersji na dużą skalę. Referery to cenne informacje o&nbsp;dynamice powiązań w&nbsp;internecie. Firmy takie jak Google mogą dawać innym [możliwość analizowania ruchu](https://support.google.com/google-ads/answer/2382957?hl=pl-PL) na stronie. Ale kto im zabroni liczyć przy tym referery i&nbsp;mieć wgląd w&nbsp;kawał internetu?  
-Dzięki temu widzą jako jedni z&nbsp;pierwszych, jakie strony (a zatem również poglądy, organizacje itp.) rosną w&nbsp;siłę, a&nbsp;jakie słabną. I&nbsp;w jakie dziedziny warto włożyć ręce, żeby jeszcze bardziej umocnić swoją pozycję.  
+Dzięki temu widzą jako jedni z&nbsp;pierwszych, jakie strony (a&nbsp;zatem również poglądy, organizacje itp.) rosną w&nbsp;siłę, a&nbsp;jakie słabną. Dokąd warto włożyć ręce, żeby jeszcze bardziej umocnić swoją pozycję.  
 Czy tak robią? Na chwilę obecną chcę bardziej wczytać się w&nbsp;temat, więc nie powiem. Ale sama możliwość nie napawa optymizmem.
 
-To tyle tytułem wiedzy. Mam nadzieję że trochę Cię zaskoczyłem.
-
+To tyle tytułem wiedzy. Mam nadzieję że trochę Cię zaskoczyłem.  
 Jeśli chcesz coś z&nbsp;tym zrobić (jako użytkownik lub właściciel strony), to czytaj dalej! 
 
 ## Jak ukrywać referery
 
 Można to zrobić bardzo łatwo. Zależy od tego, do której grupy należysz:
 
-# Wolisz nic nie zmieniać ani nie instalować.
+### Wolisz nic nie zmieniać ani nie instalować.
 
 ...W sumie niezbyt Cię obchodzą te całe referery. Albo może nie używasz swojego komputera i&nbsp;nie chcesz tak po prostu czegoś na nim zmieniać.
 
@@ -103,12 +104,14 @@ Ale załóżmy, że chcesz jednorazowo ukryć referera. Na przykład jesteś na 
 Rozwiązanie: **zamiast klikać w&nbsp;link, skopiuj go do głównego paska przeglądarki**.  
 Znane mi przeglądarki (Firefox, mobilny Firefox Focus i&nbsp;Chrome, a&nbsp;pewnie wiele innych) nie wysyłają wtedy referera. A&nbsp;na stronkę wejdziesz.
 
-Możesz to przetestować, kopiując do paska <a href="https://www.whatismyreferer.com">ten link, który normalnie przesłałby referera</a> (do *whatismy&shy;referer.com*).
+Możesz to przetestować, kopiując do paska <a href="https://browserleaks.com/ip">ten link, który normalnie przesłałby referera</a> (do BrowserLeaks).
 
-{% include info.html type="Porada" text="Na komputerze klikasz link prawym przyciskiem myszy i&nbsp;wybierasz `Kopiuj adres odnośnika`. Potem klikasz górny pasek adresu i&nbsp;tam wklejasz adres.  
+{% include info.html
+type="Porada"
+text="Na komputerze klikasz link prawym przyciskiem myszy i&nbsp;wybierasz `Kopiuj adres odnośnika`. Potem klikasz górny pasek adresu i&nbsp;tam wklejasz adres.  
 Jeśli używasz komórki, przytrzymaj palec na linku i&nbsp;pasku, żeby wyświetliły się opcje kopiowania i&nbsp;wklejania." %}
 
-# Możesz użyć dodatku do przeglądarki
+### Możesz użyć dodatku do przeglądarki
 
 Zachęcam! To minuta klikania, a&nbsp;uwolni Cię od refererów na dobre.  
 W&nbsp;ramkach poniżej opisałem, jak je instalować w&nbsp;różnych przeglądarkach.
@@ -129,7 +132,7 @@ Pójdzie szybko i&nbsp;bezboleśnie, do tego na początku nic Ci się nie zmieni
 </p></li>
 <li>
 <p>Klikamy w&nbsp;linki na tej stronie, żeby sprawdzić czy działa jak powinno.</p>
-<p>Takie ustawienie nie usuwa refererów w&nbsp;obrębie tej samej strony.<br/>Zatem linki do Ciemnej Strony z&nbsp;początku wpisu powinny pokazywać to co poprzednio.<br/>A po kliknięciu w&nbsp;link do zewnętrznej stronki (<em>whatismyreferer</em>) powinno pokazywać brak referera.</p>
+<p>Takie ustawienie nie usuwa refererów w&nbsp;obrębie tej samej strony.<br/>Zatem linki do Ciemnej Strony z&nbsp;początku wpisu powinny pokazywać to co poprzednio.<br/>A po kliknięciu w&nbsp;link do zewnętrznej stronki (<em>BrowserLeaks</em>), pod nagłówkiem <em>HTTP Headers</em>, nie powinno pokazywać referera.</p>
 </li>
 </ol>" %}
 
@@ -174,7 +177,7 @@ inne-mobile="
 <p>Nie wiem, jak jest na iOS (iPhone'ach). Wiem jedynie, że wszystkie przeglądarki na tym systemie muszą korzystać z&nbsp;silnika Safari (również Chrome i&nbsp;Firefox!). Więc jeśli Safari nie daje możliwości usuwania refererów, to niestety mamy pecha.</p>
 "%}
 
-# Masz swoją stronkę i&nbsp;nie chcesz zdradzać refererów użytkowników.
+### Masz swoją stronkę i&nbsp;nie chcesz zdradzać refererów użytkowników.
 
 To się ceni! :+1:
 
