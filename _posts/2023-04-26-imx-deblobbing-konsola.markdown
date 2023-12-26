@@ -4,7 +4,7 @@ title: "Bloby i szyfry. Przyjemna konsolowa przygoda"
 subtitle: "Szukamy dowodów na certyfikowaną wrogość producenta."
 description: "Szukamy dowodów na certyfikowaną wrogość producenta."
 date:   2023-04-26 08:00:00 +0100
-tags: [Centralizacja, DRM, Hardware, Podstawy]
+tags: [Centralizacja, DRM, Hardware, Konsola, Podstawy]
 image:
   path: /assets/posts/apki/imx_firmware/blob-baner.jpg
   width: 1200
