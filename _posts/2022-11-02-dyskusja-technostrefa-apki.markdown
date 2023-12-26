@@ -91,7 +91,7 @@ Wszystko to natomiast całkiem realne przykłady reklam śledzących. Mamy z&nbs
 
 Metod internetowego śledzenia jest wiele. Natomiast ta konkretna sytuacja -- „chodzą za mną reklamy czegoś, co niedawno widziałem” -- wiąże się zapewne ze **śledzeniem przez _pliki cookies_, czyli tzw. _ciasteczka_**.
   
-W opisanych przypadkach mamy zapewne do czynienia z&nbsp;plikami cookies od stron-gości (ang. *third party cookies*). Ich zasadę działania pokazałem [w osobnym wpisie]({% post_url 2021-12-08-cookies-piksele-sledzace %}){:.internal}). W&nbsp;wielkim skrócie:
+W opisanych przypadkach mamy zapewne do czynienia z&nbsp;plikami cookies od stron-gości (ang. *third party cookies*). Ich zasadę działania pokazałem [w osobnym wpisie]({% post_url 2021-12-08-cookies-piksele-sledzace %}){:.internal}. W&nbsp;wielkim skrócie:
 
 * Kiedy na odwiedzanych przez nas stronach są elementy „gościnne”, od stron obcych, to przeglądarka prosi o&nbsp;nie ich właścicieli. Przykładem takich popularnych elementów są skrypty Google Analytics.
 * Prosząc Google o&nbsp;te elementy, identyfikujemy zarówno siebie, jak i&nbsp;stronę, na której jesteśmy.
@@ -235,7 +235,7 @@ author="A*??*{:.cover}"
 text="Podobno korporacje nie podsłuchują mikrofonem, ale wymieniają się danymi reklamowymi z&nbsp;telefonami w&nbsp;pobliżu, np. między znajomymi. Co w&nbsp;praktyce wychodzi i&nbsp;tak podobnie, jak gdyby był podsłuch. Pod względem celów biznesowych. Zwykły człowiek boi się podsłuchu/podglądu kamerą, a&nbsp;z innych danych jest więcej informacji o&nbsp;słabościach i&nbsp;pragnieniach. Czyli tych danych, ktorych korporacje chcą."
 %}
 
-Ostawiam, że raczej nie zachodzi bezpośrednie przesyłanie danych z&nbsp;jednego telefonu na drugi. Spróbujmy chociażby wysłać coś na swój telefon przez Bluetooth -- pojawi się pytanie, czy chcemy zaakceptować plik. Nie jest to dyskretne działanie.  
+Obstawiam, że raczej nie zachodzi bezpośrednie przesyłanie danych z&nbsp;jednego telefonu na drugi. Spróbujmy chociażby wysłać coś na swój telefon przez Bluetooth -- pojawi się pytanie, czy chcemy zaakceptować plik. Nie jest to dyskretne działanie.  
 Pomijam już fakt, że wysyłanie danych jednej osoby komuś innemu byłoby dla firm koszmarem pod względem RODO.
 
 Natomiast jak najbardziej możliwe jest *korelowanie przestrzenne*. Łączenie nas w&nbsp;konkretne grupy na podstawie tego, że byliśmy w&nbsp;tej samej lokalizacji. Możemy potem dostawać podobne treści i&nbsp;lądować w&nbsp;jednej przegródce z&nbsp;innymi osobami.
@@ -437,7 +437,7 @@ Walmart to amerykańska sieć wielkich sklepów. Zaś wiadomości podprogowe (an
 
 Nie znalazłem konkretów, ale nie zdziwiłbym się, gdyby Walmart celowo eksperymentował z&nbsp;muzyką w&nbsp;sklepach -- nawet dźwiękami niesłyszalnymi -- trzymając się tej skorelowanej z&nbsp;największymi zakupami. Niedawno byli oskarżeni o&nbsp;użycie przekazu podprogowego w&nbsp;[reklamie telewizyjnej](https://www.buzzfeednews.com/article/coralewis/is-there-a-subliminal-message-in-walmarts-minimum-wage-tv-ad).
 
-z kolei [Pegasus](https://zaufanatrzeciastrona.pl/post/jak-wykryc-pegasusa-na-iphonie-i-inne-ciekawe-pytania-od-uzytkownikow-telefonow-apple/) oraz [Predator](https://thenextweb.com/news/cytrox-predator-spyware-hacking-pegasus-analysis) to całkiem osobne sprawy, niezwiązane z&nbsp;branżą reklamową. Możemy o&nbsp;nich myśleć jak o&nbsp;programach szpiegowskich, choć sprzedawane są jako całe pakiety usług.  
+z kolei [Pegasus](https://zaufanatrzeciastrona.pl/post/jak-wykryc-pegasusa-na-iphonie-i-inne-ciekawe-pytania-od-uzytkownikow-telefonow-apple/) oraz [Predator](https://thenextweb.com/news/cytrox-predator-spyware-hacking-pegasus-analysis) to całkiem osobne sprawy, niezwiązane z&nbsp;branżą reklamową. Można o&nbsp;nich myśleć jak o&nbsp;programach szpiegowskich, choć sprzedawane są jako całe pakiety usług.  
 Pierwszy komentarz nie wspomina żadnego z&nbsp;nich z&nbsp;nazwy, ale mocno mi się z nimi kojarzy („jakby wchodzili do naszego sprzętu”).
 
 Czym są? To narzędzia dla służb państwowych, pozwalające im na bieżąco pozyskiwać informacje z&nbsp;telefonów podejrzanych. Oficjalnie mają ułatwiać walkę z&nbsp;terroryzmem. Ale w&nbsp;praktyce były używane przeciw opozycji, aktywistom i&nbsp;innym niewygodnym ludziom.
@@ -462,7 +462,7 @@ Oni tworzą oprogramowanie -- system operacyjny Android i&nbsp;niektóre apki. A
 
 Oba komentarze przypisują ukrytym chipom coś, co mogłoby wynikać ze wspomnianego już korelowania po lokalizacji. Choć drugi autor nieco umniejsza takiej formie śledzenia, czasem warto przyjmować wyjaśnienia prozaiczne. Zasada brzytwy Ockhama.
 
-Natomiast fakt faktem, że producent sprzętu może do niego dodawać różne moduły, czasem wręcz niezależne mikrokomputery. W&nbsp;klasycznych procesorach mamy na przykład [Intel Management Engine]({% post_url 2021-07-27-intel-management-engine %}){:.internal} albo Platform Security Processor firmy AMD.  
+Natomiast fakt faktem, że producent sprzętu może do niego dodawać różne moduły, czasem wręcz niezależne mikrokomputery. W&nbsp;klasycznych procesorach -- dla komputerów, nie smartfonów -- mamy na przykład [Intel Management Engine]({% post_url 2021-07-27-intel-management-engine %}){:.internal} albo Platform Security Processor firmy AMD.  
 Te moduły są zagnieżdżone głęboko w&nbsp;naszych urządzeniach. Między innymi po to, żeby producent mógł obiecywać dużym firmom zabezpieczenia antypirackie.
 
 Elementy tego typu są kuszące dla potencjalnych hakerów i&nbsp;być może kiedyś zostaną użyte przeciwko nam.
