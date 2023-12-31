@@ -117,7 +117,7 @@ Podstawy DNS-a i&nbsp;rekordów przybliżyłem, więc przejdę teraz do wpisu z&
 type="Ciekawostka"
 text="[Ikonka *theden.sh*](https://thoughts.theden.sh/favicon.ico) to gratka dla użytkowników Firefoksa -- jest animowana!  
 Firefox to jedna z&nbsp;bardzo nielicznych przeglądarek wspierających animowane ikony w&nbsp;zakładkach. Większość użytkowników zobaczy tylko statyczny, nieruchomy obrazek. A&nbsp;fanom Lisa będzie mrugało, jak kursor w&nbsp;konsoli."
-trailer="<p class='bigspace-before'><img src='/assets/posts/internet/dns/rekordy-dns/favicon-animacja.jpg' alt='Dwa zrzuty ekranu pokazujące tę samą ikonkę. Na jednym z&nbsp;nich w&nbsp;jej dolnej części wyświetla się zielony pasek'/></p>"
+trailer="<p class='bigspace-before'><img src='/assets/posts/internet/dns/rekordy-dns/favicon-animacja.jpg' alt='Dwa zrzuty ekranu pokazujące tę samą ikonkę w zakładce przeglądarki. W pierwszym przypadku zawiera w dolnej części zielony pasek, w drugim go nie ma'/></p>"
 %}
 
 ### Początek
@@ -228,17 +228,18 @@ A jeśli chodzi o same programy, mamy tutaj:
 
 * `sed`
 
-  Komenda brzmi groźnie, zwłaszcza jeśli ktoś nie miał styczności z&nbsp;wyrażeniami regularnymi.  
+  Dostaje tekst i argument `'s/^"\(.*\)"$/\1/'`.  
+  Brzmi groźnie, zwłaszcza jeśli ktoś nie poznał wyrażeń regularnych!  
   Ale sens jest prosty: „weź cały tekst, wraz z&nbsp;cudzysłowami po brzegach, i&nbsp;zastąp go samym wnętrzem bez cudzysłowów”. To potrzebne, żeby kolejny program z&nbsp;łańcuszka mógł ten tekst przyjąć.
 
   <details class="bigspace-after">
   <summary><strong>Dokładniejsze omówienie komendy sed (dla zainteresowanych)</strong></summary>
-  <p class="bigspace-before">Pierwsza litera, <code class="language-plaintext highlighter-rouge">s</code>, wskazuje tryb (<em>substition</em>, czyli znajdź+zamień). Ma <a href="https://www.gnu.org/software/sed/manual/html_node/The-_0022s_0022-Command.html">składnię</a> <code class="language-plaintext highlighter-rouge">s/ZNAJDŹ/ZAMIEŃ_NA/</code> (plus ew. parametry dodatkowe, których w&nbsp;tym przypadku nie ma).</p>
+  <p class="bigspace-before">Pierwsza litera, <code class="language-plaintext highlighter-rouge">s</code>, wskazuje tryb (<em>substition</em>, czyli znajdź+zamień). Ma <a href="https://www.gnu.org/software/sed/manual/html_node/The-_0022s_0022-Command.html">składnię</a> <code class="language-plaintext highlighter-rouge">s/<span class="red">znajdź</span>/<span class="red">zamień_na</span>/</code> (plus ew. parametry dodatkowe, których w&nbsp;tym przypadku nie ma).</p>
 
   <p>W polu <em>Znajdź</em> jest ciąg <code class="language-plaintext highlighter-rouge">^"\(.*\)"$</code>.<br/>Znak <code class="language-plaintext highlighter-rouge">^</code> oznacza początek tekstu, zaś <code class="language-plaintext highlighter-rouge">$</code> jego koniec. Czyli <code class="language-plaintext highlighter-rouge">^"</code> oraz <code class="language-plaintext highlighter-rouge">"$</code> odpowiadają za złapanie cudzysłowów na brzegach.<br />
 <code class="language-plaintext highlighter-rouge">.*</code> oznacza „weź wszystko od tego miejsca do kolejnej pasującej rzeczy” (czyli tutaj: do cudzysłowu zamykającego).</p>
 
-  <p>Nawiasy sprawiają z&nbsp;kolei, że to wszystko, co się między nimi złapie, zostanie przypisane do grupy numerowanej. W&nbsp;polu <em>Zamień na…</em> można się do tej grupy odnieść, właśnie poprzez <code class="language-plaintext highlighter-rouge">\1</code> (gdyby grup było więcej, to dałoby się wyjść poza jedynkę).</p>
+  <p>Nawiasy sprawiają z&nbsp;kolei, że to wszystko, co się między nimi złapie, zostanie przypisane do grupy numerowanej. W&nbsp;polu <em>Zamień na…</em> autor się do tej grupy odnosi, właśnie poprzez <code class="language-plaintext highlighter-rouge">\1</code> (gdyby grup było więcej, to dałoby się wyjść poza jedynkę).</p>
   </details>
 
 * `openssl`
@@ -283,7 +284,7 @@ trailer="
 <ul id='obrazki'>
   <li>Ikony <a href='https://www.flaticon.com/free-icon/down-arrow_2268142'>czerwonej</a> i <a href='https://www.flaticon.com/free-icon/arrow-right_2267911'>zielonej</a> strzałki autorstwa Creative Stall Premium;</li>
   <li>
-<a href='https://www.flaticon.com/free-icon/meat-grinder_836411'>Maszynka do mięsa</a> autorstwa Freepik;</li>
+<a href='https://www.flaticon.com/free-icon/meat-grinder_836411'>Maszynka do mięsa</a> autorstwa Freepik.</li>
 </ul>
 
 "
