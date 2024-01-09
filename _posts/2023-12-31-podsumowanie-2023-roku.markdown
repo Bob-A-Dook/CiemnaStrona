@@ -110,19 +110,19 @@ Wujek G&nbsp;zarabia na reklamach, więc to im podporządkowuje swoje produkty, 
 Wcześniej planowali wprowadzić w&nbsp;tym roku [Manifest v3]({% post_url 2022-05-11-google-manifest-v3 %}){:.internal}.
 
 Byłaby to zmiana sposobu, w&nbsp;jaki dodatki do przeglądarek mogą wchodzić w&nbsp;interakcje z&nbsp;Chrome'em, przeglądarką od Google'a.  
-Ale że wiele przeglądarek z&nbsp;tego kodu korzysta, to zmiana mogłaby sięgnąć dużo dalej. Taki np. Edge od Microsoftu również planował przyjąć cały kod bez zmian.
+Ale że wiele przeglądarek korzysta z&nbsp;tego samego kodu, to zmiana mogłaby sięgnąć dużo dalej. Taki np. Edge od Microsoftu również planował przyjąć cały kod bez zmian.
 
-Sam fakt, że mogą zajść zmiany, to pół biedy. Gorzej, że **byłyby to zmiany na gorsze, osłabiające dodatki blokujące**. Ograniczające między innymi liczbę złożonych regułek, których używają dodatki do blokowania skryptów od firm reklamowych, profilujących użytkowników i&nbsp;gromadzących ich dane. 
+Sam fakt, że mogą zajść zmiany, to pół biedy. Gorzej, że **byłyby to zmiany na gorsze, odbierające wiele zdolności dodatkom blokującym śledzenie**. Zmniejszeniu uległaby m.in. liczba złożonych regułek, dzięki którym mogą neutralizować skrypty od firm reklamowych, profilujące użytkowników i&nbsp;gromadzące ich dane.
 
 Po intensywnych protestach Google odstąpił od pomysłu. Ale latem tego roku przedstawili nowy, znacznie gorszy. [Web Environment Integrity, w&nbsp;skrócie WEI]({% post_url 2023-07-29-web-environment-integrity %}){:.internal}.
 
 Właściciele stron internetowych mogliby wysyłać, poprzez przeglądarkę, zapytania „w głąb systemu”. A&nbsp;konkretniej: do odizolowanych chipów, które lubię nazywać enklawami. Wiele urządzeń obecnie zawiera takie coś.
 
 Treść pytania: „czy ten system to system fabryczny, bez żadnych modyfikacji?”.  
-Enklawa zawsze odpowie prawdę. Ani użytkownik, ani żaden program nie ma do niej dostępu. Odpowiedzi się nie sfałszuje, bo enklawa podpisuje ją cyfrowo. Narzędzie do podpisów ukrywa w&nbsp;sobie, niedostępne dla użytkowników.  
+Enklawa zawsze odpowie prawdę. Ani użytkownik, ani żaden program nie jest w&nbsp;stanie jej zmodyfikować. Odpowiedzi się nie sfałszuje, bo enklawa podpisuje ją cyfrowo. Narzędzie do podpisów ukrywa w&nbsp;sobie, niedostępne dla użytkowników.  
 A&nbsp;właściciele stron proszący o&nbsp;taką weryfikację będą wiedzieli, jak powinien wyglądać podpis. I&nbsp;nie przyjmą innego.
 
-Jednym zdaniem -- **koniec gry dla hobbystów modyfikujących swój system, jeśli jakaś firma zechce wpuszczać tylko „normalsów”**. A&nbsp;wiele mogłoby to zrobić, bo WEI umożliwia wprowadzenie takiej selekcji w&nbsp;sposób prosty, w&nbsp;kilku linijkach kodu. Pojawiło się ryzyko, że otwarty internet zostanie pocięty licznymi ogrodzeniami. 
+Jednym zdaniem -- **koniec gry dla hobbystów modyfikujących swój system, jeśli jakaś firma zechce wpuszczać tylko „normalsów”**. A&nbsp;wiele z&nbsp;nich mogłoby to zrobić, bo WEI umożliwia wprowadzenie takiej selekcji w&nbsp;sposób prosty, w&nbsp;kilku linijkach kodu. Pojawiło się ryzyko, że otwarty internet zostanie pocięty licznymi ogrodzeniami. 
 
 Wybuchły jeszcze intensywniejsze protesty niż przy Mv3. Google ogłosił publicznie, że wycofuje się z pomysłu. Ale krótko potem [odkurzyli pomysł Manifestu v3](https://developer.chrome.com/blog/resuming-the-transition-to-mv3/).
 
@@ -189,7 +189,7 @@ Mimo całej swojej sympatii nie mogę być ślepy na działania niektórych inst
 
 Ten pomysł przybył od amerykańskiej organizacji Thorn. W&nbsp;Europie promowała go Ylva Johansson z&nbsp;Komisji Europejskiej, rzekomo w&nbsp;celu ochrony dzieci przed wykorzystaniem.
 
-Według proponowanych przepisów na każdy komunikator (jak Signal, WhatsApp...) nałożony zostałby obowiązek analizowania treści -- przez algorytmy, nie ludzi. Gdyby algorytm wykrył próby wykorzystania nieletnich, to powinien zawiadomić odpowiednie osoby.
+Według proponowanych przepisów na każdy komunikator (jak Signal, WhatsApp...) oraz apkę od e-maili nałożony zostałby obowiązek analizowania treści -- przez algorytmy, nie ludzi. Gdyby algorytm wykrył próby wykorzystania nieletnich, to powinien zawiadomić odpowiednie osoby.
 
 Brzmi szlachetnie? Również pod kątem prywatności ciut lepiej niż dawniejsze sugestie -- bo te postulowały wprowadzenie furtek specjalnie dla rządów, wgląd do *całości* komunikacji.  
 Ale lepszy zły pomysł nadal jest zły. Streszczając [mój wpis o&nbsp;kontroli czatów]({% post_url 2023-10-19-chat-control %}){:.internal}:
@@ -218,14 +218,15 @@ W swoim wpisie wyraziłem nadzieję, że Parlament Europejski postawi się Komis
 Poza kontrolą czatów promowano też wersję drugą [eIDAS](https://en.wikipedia.org/wiki/EIDAS), przepisów regulujących kwestię cyfrowych dokumentów (pozwalających załatwiać więcej spraw elektronicznie).  
 Proponowana wersja druga -- zasugerowana tym razem nie przez Komisję, lecz przez Radę Unii Europejskiej -- zawierała niepokojący [artykuł 45](https://www.eff.org/deeplinks/2023/11/article-45-will-roll-back-web-security-12-years). Żeby zrozumieć zagrożenie, przyda się nieco kontekstu.
 
-Współczesny internet opiera się na szyfrowaniu. Gdy odwiedzamy stronę zaczynające się od `https://`, to nikt nie odczyta danych wymienianych między nami a&nbsp;stroną.  
-Można powiedzieć, że wymieniamy się otwartymi kłódkami z&nbsp;serwerem, na którym jest strona. A&nbsp;potem wysyłamy sobie różne rzeczy w&nbsp;pancernych pudłach zamkniętych na te kłódki. 
+Współczesny internet opiera się na szyfrowaniu. Gdy odwiedzamy dowolną stronę zaczynającą się od `https://`, to nikt nie odczyta danych wymienianych między nami a&nbsp;stroną.
+
+Można powiedzieć, że wymieniamy się otwartymi kłódkami z&nbsp;serwerem, na którym jest strona. A&nbsp;potem wysyłamy sobie różne rzeczy w&nbsp;pancernych pudłach zamkniętych na te kłódki. Tylko my mamy klucz do swojej, a&nbsp;serwer do swojej.
 
 Ale cały ten system byłby nieszczelny, gdyby wszystkie kłódki były sobie równe.  
 Ktoś mógłby stanąć na drodze, między internautami a&nbsp;stronami, i&nbsp;przechwytywać wysyłane kłódki, po czym je podmieniać na takie, do których ma klucz. Po cichu, nie budząc niczyjego niepokoju -- bo nie zmieniałby niczego w&nbsp;samych danych.
 
 Z tego względu każda przeglądarka zawiera w&nbsp;sobie listę „zaufanych producentów kłódek”.  
-Mogą się na niej znaleźć tylko wybrane, wyspecjalizowane organizacje. Kiedy ktoś wysyła kłódkę, chcąc szyfrowanej wymiany, to oznacza je certyfikatem od takiego zaufanego producenta, uzupełniając własnym.  
+Mogą się na niej znaleźć tylko wybrane, wyspecjalizowane organizacje. Kiedy ktoś wysyła kłódkę, chcąc szyfrowanej wymiany, to oznacza ją certyfikatem od takiego zaufanego producenta, uzupełniając własnym.  
 Przeglądarka drobiazgowo analizuje łańcuszek certyfikatów i&nbsp;porównuje ze swoją listą. Jeśli coś jest nie tak, to wyświetla ostrzeżenie.
 
 I tu właśnie wchodzi artykuł 45&nbsp;nowych przepisów -- **nakładałby na twórców przeglądarek obowiązek ufania certyfikatom od określonych organizacji**.  

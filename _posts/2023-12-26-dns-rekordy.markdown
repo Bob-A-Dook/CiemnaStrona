@@ -57,7 +57,7 @@ W praktyce przeglądarka często zwraca się do tych sugerowanych przez hotspota
 {% include info.html
 type="Powiązane wpisy"
 text="DNS już parę razy gościł na łamach tego bloga.  
-Raz wspominałem o&nbsp;jego powiązaniach z&nbsp;internetową prywatnością. Czasem jej szkodzi, bo ukazuje firmom telekomunikacyjnym, jakie ktoś odwiedzał strony. Czasem pomaga -- odgrywa kluczową rolę w nowej, raczkującej metodzie [szyfrowania (meta-)danych](/internetowa_inwigilacja/2022/08/14/dns-dot-doh){:.internal}.  
+Raz wspominałem o&nbsp;jego powiązaniach z&nbsp;internetową prywatnością. Czasem jej szkodzi, bo ukazuje firmom telekomunikacyjnym, jakie ktoś odwiedzał strony. Czasem pomaga -- odgrywa kluczową rolę w nowej, raczkującej metodzie [szyfrowania (meta-)danych](/internetowa_inwigilacja/2022/08/13/dns-dot-doh){:.internal}.  
 Innym razem pisałem o&nbsp;tym, że [może być narzędziem cenzury](/2022/09/12/dns-ip-cenzura){:.internal}. Na życzenie swoich właścicieli okłamującym internautów, że jakaś strona nie istnieje."
 %}
 
@@ -111,7 +111,7 @@ Odpowiedź DNS-a na zapytanie ogólne `any` to [nawiązanie](https://blog.cloudf
 
 ## Omówienie wpisu z&nbsp;The Den
 
-Podstawy DNS-a i&nbsp;rekordów przybliżyłem, więc przejdę teraz do wpisu z&nbsp;The Den. Mówiąc ogólnie: autor wpadł na pomysł, żeby użyć rekordów `TXT` (przeznaczonych na ogólne informacje w&nbsp;formie tekstu) i&nbsp;chować w&nbsp;nich różne rzeczy.
+Podstawy DNS-a i&nbsp;rekordów przybliżyłem, więc przejdę teraz do wpisu z&nbsp;The Den. Jego autor wpadł na pomysł, żeby użyć rekordów `TXT` (przeznaczonych na ogólne informacje w&nbsp;formie tekstu) i&nbsp;chować w&nbsp;nich różne rzeczy.
 
 {% include info.html
 type="Ciekawostka"

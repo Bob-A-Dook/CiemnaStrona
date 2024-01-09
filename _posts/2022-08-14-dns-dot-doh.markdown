@@ -69,7 +69,7 @@ Taki list do DNS-a zawiera sam adres domeny -- najogólniejszy możliwy. DNS nie
 
 {:.bigspace-before}
 <div class="black-bg mono">
-https://www.ciemnastrona.com.pl<span class="red">/internetowa_inwigilacja/2021/01/11/internetowa-inwigilacja-1-podstawy</span>
+<span class="red">https://</span>www.ciemnastrona.com.pl<span class="red">/internetowa_inwigilacja/2021/01/11/internetowa-inwigilacja-1-podstawy</span>
 </div>
 
 {:.figcaption}

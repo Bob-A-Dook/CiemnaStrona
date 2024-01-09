@@ -76,7 +76,7 @@ Załóżmy, że klikamy w&nbsp;zwykły link -- [taki jak ten]({% post_url 2021-0
 Jego pełen adres jest taki:
 
 <div class="black-bg mono bigspace">
-https://www.ciemnastrona.com.pl<span class="red">/internetowa_inwigilacja/2021/01/11/internetowa-inwigilacja-1-podstawy</span>
+<span class="red">https://</span>ciemnastrona.com.pl<span class="red">/internetowa_inwigilacja/2021/01/11/internetowa-inwigilacja-1-podstawy</span>
 </div>
 
 Fragment na biało to **_domena_ -- taki trzon nazwy strony**. Jest jak parasol, pod którym zebrane są wszystkie podstrony. Czyli na przykład różne wpisy na moim blogu.
