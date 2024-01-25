@@ -176,18 +176,20 @@ Wspierała również dość aktywnie Entine'a z&nbsp;GLP, miała między innymi 
 
 W sprawie takiej jak ta mocne źródła są szczególnie ważne. Dlatego **oparłem się przede wszystkim na dokumentach źródłowych, takich jak firmowe maile**. To informacje zdobyte oficjalnymi kanałami -- przez wnioski o&nbsp;udzielenie informacji publicznej albo ujawnione w&nbsp;toku rozpraw sądowych.
 
-Ale dla przejrzystości wskażę również strony, na których znalazłem opracowania informacji. Dzięki temu osoby zainteresowane tematem mogą poczytać o&nbsp;innych, podobnych sprawach.  
-A zatem lecimy. Moje główne źródła:
+Ale dla przejrzystości wskażę również strony, na których znalazłem omówienia tych dokumentów. Dzięki temu osoby zainteresowane tematem mogą poczytać o&nbsp;innych, podobnych sprawach. A&nbsp;zatem przedstawiam moje główne źródła:
 
 * [Baum Hedlund Law](https://baumhedlundlaw.com) -- kancelaria reprezentująca osoby chore na chłoniaka nieziarniczego (rodzaj raka), które obwiniały produkty Monsanto za swoją chorobę.
 
   Niezależnie od tego, co myślimy o&nbsp;samym werdykcie, jedna rzecz wydaje się pewna -- gdyby próbowali publikować nieprawdę, to szybko zostałoby to wykorzystane przeciwko nim w&nbsp;sądzie.  
   Mają więc zachętę do tego, żeby gromadzić jak najwięcej *potwierdzonych* materiałów dowodowych. I&nbsp;to robią -- dokumentów u&nbsp;nich pełno.
 
-* [United States Right to Know](https://usrtk.org) -- organizacja *non-profit* finansowana głównie przez Organic Consumers Association.
+* [United States Right to Know](https://usrtk.org) -- organizacja *non-profit*. Finansowana głównie przez Organic Consumers Association, więc warto zachować sceptycyzm, gdyby reklamowali ekożarcie :wink:
 
-  Analizują wewnętrzne maile i&nbsp;inne dokumenty związane z&nbsp;aferami wokół branży rolniczej i&nbsp;spożywczej oraz amerykańskich agencji nadzoru. Ujawniają utajonych lobbystów.  
-  Po pierwszym wejściu na stronę obawiałem się że będzie spiskowo, widząc wśród zakładek nazwisko Billa&nbsp;G. Ale pozory mylą. Jest merytorycznie, bez histerii, w&nbsp;oparciu o&nbsp;oficjalne maile i&nbsp;zeznania. Kawał dobrej roboty.
+  Ale robią coś innego. Analizują wewnętrzne maile i&nbsp;inne dokumenty ukazujące machlojki branży rolniczej i&nbsp;spożywczej oraz amerykańskich agencji nadzoru. Ujawniają utajonych lobbystów.
+
+  Po pierwszym wejściu na ich stronę obawiałem się że będzie spiskowo, widząc zakładkę o&nbsp;Billu&nbsp;G. Ale pozory mylą. Jest merytorycznie, w&nbsp;oparciu o&nbsp;dokumenty sądowe. Realna korupcja, a&nbsp;nie fantazyjne spiski.
+
+  Nie są również jakimiś *kontrmediami*. Jeden z&nbsp;ich raportów był niedawno cytowany w&nbsp;[artykule New York Timesa o&nbsp;zawodnej kontroli żywności](https://www.nytimes.com/2023/10/04/well/eat/dietary-guidelines-food-industry.html). Jedna z&nbsp;głównych dziennikarek pracowała wcześniej dla Reutersa, a po opuszczeniu USRTK -- dla Guardiana.
 
 * [Disinformation Chronicle](https://disinformationchronicle.substack.com/p/monsantos-ghostwriting-to-influence) -- strona na platformie Substack gromadząca przykłady korporacyjnej dezinformacji w&nbsp;różnych branżach.
 
