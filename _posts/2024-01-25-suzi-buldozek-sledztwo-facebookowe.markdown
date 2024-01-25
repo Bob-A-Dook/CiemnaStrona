@@ -108,9 +108,9 @@ Nazwałem link do profilu „nawet cenniejszą informacją” niż komplet zło�
 Przykład: ktoś może się nazywać Rafał Kowalski. Po jakiejś aferce ze swoim udziałem zmienia nazwę konta na Gall Anonim.  
 Ale link do jego profilu nadal będzie wyglądał jak wcześniej:
 
-<pre class="black-bg mono">
+<div class="black-bg mono">
 https://facebook.com/rafal.kowalski.jakies_liczby
-</pre>
+</div>
 
 Po kliknięciu wyświetli się aktualny profil, czyli już Gall Anonim. Zmiana nazwy nie uchroniła go przed znalezieniem.
 
@@ -124,7 +124,7 @@ Parę informacji z&nbsp;profilu pokrywało się z tymi od Ekostraży:
 Zdjęcia profilowego nie ma, informacji na tablicy brak (poza jakimiś najstarszymi bzdetami dodanymi przez aplikacje zewnętrzne). Ale w&nbsp;internecie nic nie ginie, a&nbsp;zdjęcia pływały w&nbsp;jakiejś sekcji komentarzy.
 
 {:.figure .bigspace}
-<img src="/assets/posts/spoleczenstwo/suzi/zdjecia-kompilacja.jpg" alt="Zbiór czterech zdjęć wrzuconych przez jakąś użytkowniczkę. Jedno z&nbsp;nich pokazuje psa, jeszcze gdy żył, z&nbsp;czarną wstęgą w&nbsp;rogu. Pozostałe trzy zdjęcia pokazują Kamilę J. pozującą do zdjęć. Oczy i&nbsp;inne dane osobowe zostały tu zakryte czarnymi kwadratami." width="80%"/>
+<img src="/assets/posts/spoleczenstwo/suzi/zdjecia-kompilacja.jpg" alt="Zbiór czterech zdjęć wrzuconych przez jakąś użytkowniczkę. Jedno z&nbsp;nich pokazuje psa, jeszcze gdy żył, z&nbsp;czarną wstęgą w&nbsp;rogu. Pozostałe trzy zdjęcia pokazują Kamilę J. pozującą do zdjęć. Oczy i&nbsp;inne dane osobowe zostały tu zakryte czarnymi prostokątami." width="80%"/>
 
 Nowe odkrycie sugeruje, że media po prostu kopiowały treść wyroku, nie cytując aktualnych danych.
 
@@ -157,18 +157,24 @@ Wniosek: nawet gdyby nikt nie dodał bezpośrednich linków do profilu, sama zna
 {:.post-meta .bigspace-after}
 Chyba że to tylko mnie się wyświetla, z&nbsp;uwagi na wcześniejsze odwiedzenie jej profilu.
 
-Jeśli ktoś [zmieni link do swojego konta](https://pl-pl.facebook.com/help/203523569682738?helpref=faq_content) przez ustawienia lub ma nowsze konto, a&nbsp;zatem ciąg liczb zamiast imienia i&nbsp;nazwiska, to *raczej* nie pojawi się w&nbsp;wyszukiwarce. Sprawdziłem na przykładzie paru znajomych.
+{% include info.html
+type="Porada"
+text="Jeśli ktoś [zmieni link do swojego konta](https://pl-pl.facebook.com/help/203523569682738?helpref=faq_content) przez ustawienia lub ma nowsze konto, a&nbsp;zatem ciąg liczb zamiast imienia i&nbsp;nazwiska, to *raczej* nie pojawi się w&nbsp;wyszukiwarce. Sprawdziłem na przykładzie paru znajomych."
+%}
 
 Po drugie: kiedy poszukałem z&nbsp;kolei pod hasłem `Kamila G...`, to wyskakiwały mi posty pełne oburzenia, napisane świeżo po aferze z&nbsp;2021 roku, z&nbsp;linkiem do konta.
 
 Sęk w&nbsp;tym, że w&nbsp;ich treści było jedynie stare nazwisko, a&nbsp;nie to szukane. Co więcej, w&nbsp;przypadku szukania po *starym* nazwisku -- obecnym przecież w&nbsp;tekście -- żaden z&nbsp;tych postów się nie pojawiał.
 
-{:.figure .bigspace}
+{:.figure .bigspace-before}
 <img src="/assets/posts/spoleczenstwo/suzi/stare-nazwisko-udostepnienie.jpg" alt="Zrzut ekranu pokazujący post mówiący, że Kamila niżej już upaść nie może. Jest tam oznaczone jej konto, ale nazwa użytkownika zawiera stare nazwisko" width="50%"/>
+
+{:.figcaption}
+Przykładowy post znaleziony dla hasła `Kamila G...`, ale nie dla `Kamila J...`.
 
 Wnioski mam dwa:
 
-1. Kiedy w&nbsp;postach pojawiają się oznaczenia kont (linki do nich, ukryte pod nazwą konta), to **Facebook nie patrzy na słowa odpowiadające linkowi, tylko na sam link**.
+1. Kiedy w&nbsp;postach pojawiają się oznaczenia kont (linki do nich, ukryte pod nazwą konta), to **Facebook nie patrzy na słowa odpowiadające linkowi, tylko na konto, do którego on prowadzi**.
 2. Wyszukiwarka automatycznie wykonuje przejście `szukana nazwa → linki do kont o takiej nazwie → posty zawierające te linki`.
 
 Po trzecie: wyszukanie pod hasłem `Kamila G...` wyświetliło również wydarzenie z&nbsp;życia -- ślub z&nbsp;Rafałem G. Przez jakiś dziwny splot ustawień **było ukryte na tablicy dziewczyny, ale widoczne w&nbsp;wyszukiwarce**.
@@ -184,10 +190,10 @@ Dalej już nie szukałem, bo miałem mocne dowody.
 
 Wszystkie znalezione przez mnie informacje sugerują, że Kamila J. od buldożki Suzi jest od dłuższego czasu Kamilą G. Oznaczałoby to, że **Ekostraż i&nbsp;media jedynie zacytowali wyrok, nie aktualizując informacji**.
 
-Kolejnym przekłamaniem może być nazywanie dziewczyny influencerką. Chyba że spojrzy się na to słowo luźno, podpinając tu każdą osobę, która coś zarobi na reklamach w&nbsp;social mediach.
+Pewnym naciągnięciem może być też nazywanie dziewczyny influencerką. Chyba że spojrzy się na to słowo luźno, podpinając tu każdą osobę, która coś zarobi na reklamach w&nbsp;social mediach.
 
 Jeszcze większym przekłamaniem byłoby mówienie o&nbsp;*znanej* influencerce.  
-Poszukałem dawnego nicka w&nbsp;archiwach internetowych, zaś imienia na Twitterze i&nbsp;w wyszukiwarkach. Nie zauważyłem żadnych wzmianek innych niż te związane z&nbsp;aferą. Nikim znanym raczej nie była.
+Poszukałem dawnego nicka w&nbsp;archiwach internetowych, zaś imienia na Twitterze i&nbsp;w&nbsp;wyszukiwarkach. Nie zauważyłem żadnych wzmianek innych niż te związane z&nbsp;aferą. Nikim znanym raczej nie była.
 
 Być może miała ambicje na bycie sławną. Miał być blichtr i&nbsp;lans, francuski piesek. Ale po aferce w&nbsp;2021 roku to rypło. Został brak rozpoznawalności, zapewne praca fizyczna za granicą. A&nbsp;od paru dni również prace społeczne do odbębnienia.
 
@@ -244,7 +250,7 @@ Wniosek dość intuicyjny -- wiele kombinacji imion i&nbsp;nazwisk się powtarza
 
 Choć ta konkretna sprawa wiąże się z&nbsp;określonymi osobami, proponuję spojrzeć nieco szerzej. To dobra ilustracja kilku ogólniejszych, współczesnych patologii.
 
-Po pierwsze -- **medialne przekłamania**. Praktycznie wszystkie źródła (Wprost, Wyborcza, lokalne portale) powieliły z&nbsp;komunikatu Ekostraży informację o „Kamili J.” (nazwisko nieaktualne w&nbsp;momencie ogłaszania wyroku) oraz o&nbsp;„influencerce”. Niektóre, co gorsza, napisały o&nbsp;„*znanej* influencerce”.
+Po pierwsze -- **pogoń mediów za sensacją**. Praktycznie wszystkie źródła (Wprost, Wyborcza, lokalne portale) powieliły z&nbsp;komunikatu Ekostraży informację o „Kamili J.” (nazwisko nieaktualne w&nbsp;momencie ogłaszania wyroku) oraz o&nbsp;„influencerce”. Niektóre, co gorsza, napisały o&nbsp;„*znanej* influencerce”.
 
 To kolejny przykład na to, że współczesne wiadomości coraz częściej są odtwórcze i&nbsp;podają informacje dalej, bez dokładnej weryfikacji.
 
