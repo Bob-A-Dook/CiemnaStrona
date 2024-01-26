@@ -27,10 +27,11 @@ Niedawno zapadł wyrok, skazujący ich oboje (rzekomo jakąś *influencerkę* i&
 
 Uważam się za człowieka raczej odpornego na sensacyjne newsy. Te o&nbsp;bójkach, rozbojach czy paragonach grozy są jak szum w&nbsp;tle. Ale gdy pojawia się motyw rażącej dysproporcji sił -- jak [pacyfikacja własnych pracowników]({% post_url 2023-04-10-wielkanoc-tiry-walka %}){:.internal} albo męczenie zwierząt -- nadal cholernie na mnie działają.
 
-Dlatego pod wpływem impulsu zrobiłem małe śledztwo. Odkryłem przy tym, że media przekręciły lub podkoloryzowały parę faktów: określenie „influencerka” jest mocno na wyrost, a&nbsp;zwłaszcza „znana”, jak pisało parę źródeł. Poza tym nazwisko ma już inne.
+Dlatego pod wpływem impulsu zrobiłem małe śledztwo. Odkryłem przy tym, że media przekręciły lub podkoloryzowały parę faktów: określenie „influencerka” jest mocno na wyrost, a&nbsp;zwłaszcza „znana”, jak pisało parę źródeł. Jest nieaktywna. Poza tym nazwisko ma już inne.
 
-Ten wpis nie będzie jednak żadnym zdemaskowaniem. **Zakrywam dane i&nbsp;nie linkuję do profili**.  
-Jego motywem przewodnim jest zamiast tego *weryfikacja medialnych doniesień*. Pokażę różne sztuczki z&nbsp;wyszukiwarkami Facebooka, które pozwoliły mi dojść do faktów.
+Co gorsza, przez te niedopowiedzenia może dostać ktoś niewinny. W&nbsp;jednej z&nbsp;dyskusji sam widziałem link do profilu innej, aktywnej instagramerki z&nbsp;nazwiskiem na&nbsp;J.
+
+Ten wpis będzie naprostowaniem sytuacji bez demaskowania kogokolwiek. **Zakrywam dane i&nbsp;nie linkuję do profili**. Skupiam się na *weryfikacji medialnych doniesień*. Zaś osoby głodne wiedzy znajdą tu sztuczki z&nbsp;wyszukiwarkami Facebooka, które pozwoliły mi dojść do faktów.
 
 Korzystając z&nbsp;okazji, podkreślę też ciemne strony Instagrama i&nbsp;Facebooka -- portali, które z&nbsp;jednej strony promują budowanie życia na próżności („kupię słitaśnego pieska do zdjęć!”), a&nbsp;z drugiej -- pozwalają to życie zakończyć jednym postem.
 
@@ -99,7 +100,7 @@ W poście na temat wyroku nazwiska są zamazane, ale po samej długości można 
 
 Komentarze pod nowszym postem oraz newsem z&nbsp;Twittera (z&nbsp;początku wpisu) to głównie pytania oburzonych ludzi, bez konkretnych danych. Gdzieś mignie co najwyżej wzmianka, że dziewczyna już jakiś czasu temu wyjechała na zachód.
 
-A czy możliwe, że w&nbsp;komentarzach pod postami Ekostraży z&nbsp;2021 roku ktoś wrzucił nazwisko Kamili, a&nbsp;nawet cenniejszą informację, jak link do profilu? Nie mogę tego potwierdzić, ale niewykluczone :wink:
+W starszych postach z&nbsp;2021&nbsp;roku również poszukałem skarbów, takich jak link do profilu (nawet cenniejsza informacja niż nazwisko), historia samego zagłodzenia, dokumenty od weterynarza. Czy coś znalazłem? Nie mogę potwierdzić, ale niewykluczone :wink:
 
 ### Etap drugi -- profil
 
@@ -204,7 +205,7 @@ Oburzenie na przywileje i&nbsp;układziki to dobra rzecz. Ale proponuję je prz
 ## Fałszywe tropy i&nbsp;brak prywatności
 
 Podczas poszukiwań -- zwłaszcza w&nbsp;stanie wzburzenia, gdy trwa głośna afera -- łatwo dać się nabrać i&nbsp;wskazać niewinną osobę.  
-Gniew tłumu rzadko jest precyzyjnym snajperskim strzałem. To raczej wystrzały ze śrutówki. Duży rozrzut i&nbsp;trafianie w&nbsp;postronne cele.
+Gniew tłumu rzadko jest precyzyjnym snajperskim strzałem. To raczej wystrzały ze śrutówki. Duży rozrzut i&nbsp;trafianie w&nbsp;postronne cele. Przykładem wspomniana na początku instagramerka.
 
 W tym przypadku też dałoby się trafić, w&nbsp;różnych miejscach, na kobiety pasujące do szukanego wzorca. Problem w&nbsp;tym, że byłyby to błędne tropy i&nbsp;niewinne osoby.
 
