@@ -98,9 +98,10 @@ Można tam znaleźć między innymi list jednego z&nbsp;rodziców dziewczyny, na
 
 W poście na temat wyroku nazwiska są zamazane, ale po samej długości można zauważyć, że Kamila ma około dwa razy dłuższe nazwisko niż druga oskarżona osoba, jej partner Rafał.
 
-Komentarze pod nowszym postem oraz newsem z&nbsp;Twittera (z&nbsp;początku wpisu) to głównie pytania oburzonych ludzi, bez konkretnych danych. Gdzieś mignie co najwyżej wzmianka, że dziewczyna już jakiś czasu temu wyjechała na zachód.
+Czasem komentarze do postów są cenniejsze od nich samych. W&nbsp;przypadku Facebooka warto pamiętać, żeby zawsze wybierać tryb wyświetlania `Wszystkie`, bo Fejs często [chowa istotne komentarze]({% post_url 2022-12-19-facebook-komentarze-moderacja %}){:.internal}.  
+Te pod nowszym postem Ekostraży oraz newsem z&nbsp;Twittera (z&nbsp;początku wpisu) to głównie pytania oburzonych ludzi, bez konkretnych danych. Gdzieś mignie co najwyżej wzmianka, że dziewczyna już jakiś czasu temu wyjechała na zachód.
 
-W starszych postach z&nbsp;2021&nbsp;roku również poszukałem skarbów, takich jak link do profilu (nawet cenniejsza informacja niż nazwisko), historia samego zagłodzenia, dokumenty od weterynarza. Czy coś znalazłem? Nie mogę potwierdzić, ale niewykluczone :wink:
+W postach i komentarzach z&nbsp;2021&nbsp;roku również poszukałem skarbów, takich jak link do profilu (nawet cenniejsza informacja niż nazwisko), historia samego zagłodzenia, dokumenty od weterynarza. Czy coś znalazłem? Nie mogę potwierdzić, ale niewykluczone :wink:
 
 ### Etap drugi -- profil
 
