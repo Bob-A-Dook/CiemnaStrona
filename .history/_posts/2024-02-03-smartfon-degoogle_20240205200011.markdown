@@ -292,9 +292,9 @@ Proponuję zrobić to w&nbsp;kilku prostych krokach:
 
   To alternatywne źródło aplikacji. Wszystkie muszą mieć otwarty kod źródłowy i&nbsp;są sprawdzane pod kątem bezpieczeństwa.
 
-* Wewnątrz F-Droida kliknąć lupkę w&nbsp;dolnym rogu i&nbsp;wpisać `Fossify`. 
+* Wewnątrz F-Droida kliknąć lupkę w&nbsp;dolnym rogu i&nbsp;wpisać `prosty` (jeśli jest ustawiony polski język). 
 
-  W&nbsp;ten sposób wyskoczy trochę apek z&nbsp;[tej serii](https://github.com/FossifyOrg). Są to sforkowane (tu: skopiowane i rozwijane dalej niezależnie) wersje aplikacji od [Simple Mobile Tools](https://simplemobiletools.com/) - te zostały kupione przez ZipoApps, więc najpewniej nie będą już aktualizowane w F-Droid. To zamienniki dla podstawowych narzędzi od Google'a -- SMS-y, Telefon, Aparat, przeglądarka plików, galeria, zegar, kalendarz... Cały niezbędnik smartfoniarzy. Warto je zainstalować.
+  W&nbsp;ten sposób wyskoczy trochę apek z&nbsp;serii [Simple Mobile Tools](https://simplemobiletools.com/), o&nbsp;pomarańczowych ikonkach. To zamienniki dla podstawowych aplikacji od Google'a -- SMS-y, Telefon, Aparat, przeglądarka plików, galeria, zegar, kalendarz... Cały niezbędnik smartfoniarzy. Warto je zainstalować.
 
   {:.post-meta .bigspace-after}
   Za pierwszym razem wyświetli się prośba o&nbsp;pozwolenie na instalowanie aplikacji. To naturalne, wymaga tego Android.
