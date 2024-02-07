@@ -312,7 +312,7 @@ Najłatwiej i&nbsp;najszybciej **odbierać pozwolenia przez _menedżera uprawni
 {% include info.html
 type="Uwaga"
 text="Nie wszystkie pozwolenia będzie się dało odebrać przez to menu.  
-Niektóre wymagają jakiejś aplikacji zastępczej. Jeśli dobrze pamiętam, trzeba zdobyć inną aplikację od przeglądania plików, żeby dało się odebrać pozwolenie apce Files by Google.  
+Niektóre wymagają jakiejś aplikacji zastępczej. Jeśli dobrze pamiętam, trzeba zdobyć inną aplikację od przeglądania plików, żeby dało się odebrać dostęp do nich apce Files by Google.  
 Poza tym **do Usług Google Play nie da się sięgnąć przez to menu**, trzeba przez menu aplikacji. O&nbsp;tym pod koniec."
 %}
 
@@ -338,7 +338,7 @@ Odebrałem wszystkim. W&nbsp;przypadku samego Google’a system mnie ostrzegł, 
     <p>Kontakty</p>
 
     <p>Tutaj dostęp miało pełno apek – Android Auto, Gmail, Google, Kalendarz, Kontakty, Telefon, Wiadomości.<br />
-A to niedobrze, bo kontakty siłą rzeczy przypisują ludzi do (zwykle niezmiennych) numerów telefonów, pozwalając mapować znajomości i&nbsp;odkrywać prawdziwą tożsamość. Zostawiłem tylko Telefonowi i komunikatorom.</p>
+A to niedobrze, bo kontakty siłą rzeczy przypisują ludzi do (zwykle niezmiennych) numerów telefonów, pozwalając mapować znajomości i&nbsp;odkrywać prawdziwą tożsamość. Zostawiłem tylko Telefonowi i&nbsp;komunikatorom.</p>
   </li>
   <li>
     <p>Lokalizacja</p>
@@ -435,9 +435,15 @@ Proponuję **powyłączać, co się tylko da**. W&nbsp;szczególności odciąć
 * `Zezwól na modyfikowanie ustawień systemowych`
 
   Opis nie mówi nic konkretnego, więc [doczytałem](https://stackoverflow.com/a/45639500). Ponoć to szczególnie wrażliwe pozwolenie, więc większość apek nie powinna z&nbsp;niego korzystać. W&nbsp;przypadku Google'a korzystał choćby Aparat.  
-W praktyce dzięki niemus aplikacje mogą choćby [reaktywowować po aktualizacji](https://news.ycombinator.com/item?id=31801542) cofnięte pozwolenia. *Szczególnie* warto wyłączyć.
+W praktyce dzięki niemu aplikacje mogą choćby [reaktywować](https://news.ycombinator.com/item?id=31801542) cofnięte pozwolenia. *Zdecydowanie* warto to wyłączyć.
 
 ## Usuwanie i&nbsp;wyłączanie
+
+W obu przypadkach to proste. `Ustawienia`, potem `Aplikacje`, potem wyświetlenie listy wszystkich. Klika się je po kolei i&nbsp;wybiera opcję odinstalowania u góry. Albo wyłączenia, bo czasem jest tylko taka opcja.  
+Będą się wyświetlały groźne ostrzeżenia, ale bez obaw; apkę wyłączoną można w razie potrzeby włączyć.
+
+{:.post-meta .bigspace-after}
+Jedynie Usług Google Play proponuję nie ruszać zbyt pochopnie. Szczegóły za moment.
 
 Ktoś może się zastanowić -- po co usuwać? Jeśli odebrałem aplikacjom pozwolenia, nawet te zaawansowane, a&nbsp;do tego z&nbsp;nich nie korzystam, to co mi mogą zrobić?
 
@@ -496,7 +502,7 @@ Dobra strona: najtrudniejsze jest samo odkrycie, że takie coś istnieje i&nbsp;
 ### Odbieranie Usługom pozwoleń
 
 Do Usług nie da się dobrać przez *Menedżera Uprawnień*, trzeba inaczej.  
-Najpierw wchodzimy w&nbsp;Ustawienia, potem `Aplikacje`, potem `Wyświetl wszystkie aplikacje`. Trzeba znaleźć na długiej liście `Usługi Google Play` i&nbsp;kliknąć `Pozwolenia`. Po czym odhaczyć co się da.
+Najpierw wchodzimy w&nbsp;Ustawienia, potem `Aplikacje`, potem `Wyświetl wszystkie aplikacje`. Trzeba znaleźć na długiej liście `Usługi Google Play` i&nbsp;kliknąć `Uprawnienia`. Po czym odhaczyć co się da.
 
 {:.post-meta .bigspace-after}
 Nie miałem możliwości wycofania pozwolenia `Aktywność fizyczna`, było na szaro. Ale i&nbsp;tak nie łączyłem z&nbsp;telefonem żadnych zegarków czy opasek, więc mnie to nie dotknęło.
