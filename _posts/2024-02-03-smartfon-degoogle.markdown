@@ -294,14 +294,20 @@ Proponuję zrobić to w&nbsp;kilku prostych krokach:
 
 * Wewnątrz F-Droida kliknąć lupkę w&nbsp;dolnym rogu i&nbsp;wpisać `Fossify`. 
 
-  W&nbsp;ten sposób wyskoczy trochę apek z&nbsp;[tej serii](https://github.com/FossifyOrg). Są to sforkowane (tu: skopiowane i rozwijane dalej niezależnie) wersje aplikacji od [Simple Mobile Tools](https://simplemobiletools.com/) - te zostały kupione przez ZipoApps, więc najpewniej nie będą już aktualizowane w F-Droid. To zamienniki dla podstawowych narzędzi od Google'a -- SMS-y, Telefon, Aparat, przeglądarka plików, galeria, zegar, kalendarz... Cały niezbędnik smartfoniarzy. Warto je zainstalować.
+  W&nbsp;ten sposób wyskoczy trochę apek z&nbsp;[tej serii](https://github.com/FossifyOrg), o&nbsp;charakterystycznych ciemnozielonych ikonach. To zamienniki dla podstawowych narzędzi od Google'a -- SMS-y, Telefon, Aparat, przeglądarka plików, galeria, zegar, kalendarz... Cały niezbędnik smartfoniarzy. Warto je zainstalować.
 
   {:.post-meta .bigspace-after}
   Za pierwszym razem wyświetli się prośba o&nbsp;pozwolenie na instalowanie aplikacji. To naturalne, wymaga tego Android.
 
-* W&nbsp;razie potrzeby zainstalować parę apek spoza serii Simple.
+* W&nbsp;razie potrzeby zainstalować parę apek spoza serii Fossify.
 
-  Sam przykładowo używam jako odtwarzacza multimediów niezawodnego VLC. Jako programu do otwierania PDF-ów (np. pobranych biletów) -- MuPDF Mini. Oba również z F-Droida.
+  Sam przykładowo używam jako odtwarzacza multimediów niezawodnego VLC. Jako programu do otwierania PDF-ów (np. pobranych biletów) -- MuPDF Mini. Oba również z&nbsp;F-Droida.
+
+{% include info.html
+type="Uwaga"
+text="Poprzednio zalecałem aplikacje z&nbsp;serii *Simple Mobile Tools*, ale niestety [zostały sprzedane](https://github.com/SimpleMobileTools/General-Discussion/issues/241) obcej firmie ZipoApps, a&nbsp;ich dalszy los jest niepewny. Choć F-Droid powinien jakoś odfiltrować niekorzystne zmiany, lepiej trzymać się Fossify -- ich *forka* (kopii rozwijanej niezależnie przez osobę z&nbsp;dawnego Simple).  
+Dziękuję wszystkim osobom, które dały mi znać na maila, a&nbsp;Tymoteuszowi za gotową propozycję zmian!"
+%}
 
 ## Odbieranie pozwoleń
 
