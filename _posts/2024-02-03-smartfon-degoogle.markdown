@@ -20,7 +20,7 @@ W USA podczas procesów sądowych wypłynęły nowe dowody na ich nadużycia. Mo
 
 Ten wpis nie będzie jednak o&nbsp;tym. Będzie przyziemny, ale praktyczny. **Pokażę, jak osłabić albo nawet usunąć aplikacje Google'a. Przez zwykłą klikaninę, do której nie trzeba żadnej wiedzy technicznej**.
 
-To część pierwsza, dotycząca ogólnych ustawień. Część druga skupi się na wymianie konkretnych aplikacji.  
+To część pierwsza, dotycząca ogólnych ustawień. [Część druga]({% post_url 2024-02-19-smartfon-degoogle-apki-zamienniki %}){:.internal} skupia się na wymianie konkretnych aplikacji.  
 Zapraszam do lektury!
 
 {:.figure .bigspace-before}
@@ -283,7 +283,9 @@ Poza tym przy wyłączonych czujnikach nie będzie działała żadna aplikacja o
 
 ## Instalacja zamienników
 
-Tę część opiszę dokładniej we wpisie numer dwa. Ale nie mogłem jej tak po prostu pominąć. Choć wycinanie Google'a to frajda, głupio by było zostać bez aplikacji.  
+Tę część opisuję dokładniej [we wpisie numer dwa]({% post_url 2024-02-19-smartfon-degoogle-apki-zamienniki %}){:.internal}, tutaj jedynie streszczenie.
+
+Choć wycinanie Google'a to frajda, głupio by było zostać bez aplikacji.  
 Bo, przypominam, **apki podstawowe, takie jak Telefon, też zwykle należą do Google'a**. Zanim odbierze im się pozwolenia, warto zdobyć zamienniki.
 
 Proponuję zrobić to w&nbsp;kilku prostych krokach:
@@ -406,7 +408,7 @@ Niestety Android nie daje takiej możliwości i&nbsp;domyślnie udziela go wszys
 ...Ale mam dobrą wiadomość! Android udostępnia „gniazdko” na specjalną kategorię apek, VPN-y. Są jak lejek, który zbiera wszelki ruch internetowy płynący ze smartfona i&nbsp;może go zmieniać.  
 Niektórzy skorzystali z&nbsp;tej możliwości i&nbsp;stworzyli **_firewalle_ -- aplikacje, które pozwalają kontrolować, co ma łączność z&nbsp;siecią**. VPN-ami są bardziej na papierze. Ale mając to uprzywilejowane miejsce, mogą więcej.
 
-Osobiście zainstalowałem apkę [RethinkDNS](https://rethinkdns.com/app) (darmowa, *open source*) i&nbsp;w ten sposób zyskałem upragnione pstryczki od internetu. Napiszę o&nbsp;niej więcej w&nbsp;drugim wpisie.
+Osobiście zainstalowałem apkę [RethinkDNS](https://rethinkdns.com/app) (darmowa, *open source*) i&nbsp;w&nbsp;ten sposób zyskałem upragnione pstryczki od internetu. Szczegóły na temat jej (łatwej) instalacji i&nbsp;obsługi opisałem [w&nbsp;osobnym samouczku](/tutorials/rethink-dns){:.internal}.
 
 <img src="/assets/posts/google/smartfon-degoogle/rethink-dns-blokada-google.jpg" alt="Zrzuty ekranu z&nbsp;aplikacji RethinkDNS. Pierwszy pokazuje, że jest ustawiona jako VPN. Na drugim widać, że dwie aplikacje Google'a zostały zablokowane, a&nbsp;ikonki ich łączności z&nbsp;siecią świecą się na czerwono"/>
 

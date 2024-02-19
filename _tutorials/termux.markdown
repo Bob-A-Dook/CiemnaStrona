@@ -33,15 +33,17 @@ Jest to źródło dość popularne i wiele osób ma je na oku, więc szybko by w
 
 Instalacja *prawdziwego* Termuksa w takim wypadku przebiega następująco:
 
-1. Najpierw pobieramy apkę F-Droid.
+1. Najpierw pobieramy apkę F-Droid [przez oficjalną stronę](https://f-droid.org/).
 2. Następnie uruchamiamy F-Droida, znajdujemy przez jego wyszukiwarkę apkę Termux. Instalujemy ją.
-3. Na koniec instalujemy również *Termux:API*.
+3. Na koniec instalujemy, również przez F-Droida, *Termux:API*.
 
-   To funkcje rozszerzające nam Termuksa. Pozwalają mu między innymi uzyskać dostęp do schowka, mikrofonu, czujników telefonu -- oczywiście tylko wtedy, kiedy wyrazimy zgodę.
+   To funkcje rozszerzające Termuksa. Pozwalają mu między innymi uzyskać dostęp do schowka, mikrofonu, czujników telefonu -- oczywiście tylko wtedy, kiedy wyrazimy zgodę.
 
 Kiedy już zrobimy te trzy rzeczy, świat Termuksa stanie przed nami otworem :smile:
 
 ## Python
+
+Nie będzie potrzebny osobom używającym gotowych programów. Ja jednak chciałem wzbogacić Termuksa o&nbsp;własne skrypty od przetwarzania stron internetowych. A&nbsp;że piszę je w&nbsp;języku Python, to go potrzebowałem.
 
 ### Instalacja
 
