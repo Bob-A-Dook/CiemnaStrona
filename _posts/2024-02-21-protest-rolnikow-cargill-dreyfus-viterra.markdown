@@ -386,7 +386,7 @@ Po wybuchu wojny Cargill ogłosił, że ogranicza inwestycje w&nbsp;Rosji, ale [
 
 > żywność jest podstawowym prawem człowieka i&nbsp;nigdy nie powinna zostać użyta jako broń
 
-Ktoś ponadto wrzucił na Reddita [informację]((https://www.reddit.com/r/ukraine/comments/tdsy5l/cargill_is_scaling_down_its_operations_and/)), że nie wycofują się, bo muszą tworzyć w&nbsp;Rosji produkty dla niemowląt. Paru reddiciarzy się wzruszyło. „Ujujuj, jaka szlachetna firma”.
+Ktoś ponadto wrzucił na Reddita [informację](https://www.reddit.com/r/ukraine/comments/tdsy5l/cargill_is_scaling_down_its_operations_and/), że nie wycofują się, bo muszą tworzyć w&nbsp;Rosji produkty dla niemowląt. Paru reddiciarzy się wzruszyło. „Ujujuj, jaka szlachetna firma”.
 
 Na liście importerów Cargill jest dopiero na 87. miejscu, importował zboża za nieco ponad 8&nbsp;mln zł.
 
