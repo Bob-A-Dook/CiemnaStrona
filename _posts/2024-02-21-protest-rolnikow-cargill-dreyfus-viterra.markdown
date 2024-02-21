@@ -276,7 +276,7 @@ Poza tym naświetlił parę ciekawych faktów. Jak ten, że niektóre spółki z
 
 Obawiam się jednak, że osoby czytające listę mogą wpaść w&nbsp;podobną pułapkę jak wcześniej, przy rzekomych „hektarach w&nbsp;rękach Cypru”. **Sporo firm z&nbsp;listy to pośrednicy, którzy zamawiają zboże na siebie, a&nbsp;potem przekazują je dalej**.  
 
-Firmy lokalne zostawię ludziom na mediach społecznościowych. Sam spojrzę natomiast na te, które przekierowują zbożowy ruch dalej, do tajemniczych rąk.
+Firmy lokalne zostawię ludziom siedzącym w&nbsp;mediach społecznościowych. Sam spojrzę natomiast na te, które przekierowują zbożowy ruch dalej, do tajemniczych rąk.
 
 ### Złote Ziarno – zbożowy VPN?
 
