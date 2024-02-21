@@ -368,6 +368,11 @@ A jeśli ktoś chce lepiej poznać opcje, to przegląd prywatniejszych klawiatur
 
 OpenBoard ma też pewien fajny bajer -- przesuwając palcem po spacji, przesuwa się jednocześnie kursor w&nbsp;polu tekstowym. Można łatwo przejechać wstecz i&nbsp;naprawić po sobie literówki, bez męczenia się z&nbsp;klikaniem w&nbsp;tekst.
 
+{% include info.html
+type="Uwaga"
+text="Po zainstalowaniu nowej klawiatury warto wejść w&nbsp;`Ustawienia`, potem w&nbsp;`System`, `Języki i metody wprowadzania`. Upewnić się, że nówka jest ustawiona w&nbsp;zakładce `Klawiatura ekranowa`. Jeśli nie, to ją wybrać z&nbsp;listy."
+%}
+
 ## Mapy i&nbsp;nawigacja
 
 Tutaj nie musiałem długo się wahać, bo mam sprawdzone rozwiązanie. **_Mapy.cz_**. Miażdżą te od Google'a, zwłaszcza gdy wyjedzie się poza miasto.  
