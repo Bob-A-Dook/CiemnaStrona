@@ -547,7 +547,7 @@ Na tym etapie można sobie poklikać po aplikacjach i&nbsp;zobaczyć, czy wszyst
 
 Udało się, czterokolorak usunięty!
 
-...Ale czy na długo? Jak [wspominają niektórzy](https://android.stackexchange.com/q/227035), zdarzała się remisja. Wyłączone Usługi Google'a potrafiły samoistnie się reaktywować.
+...Ale czy na długo? Jak [wspominają niektórzy](https://android.stackexchange.com/q/227035), zdarzał się nawrót po okresie remisji. Wyłączone Usługi Google'a potrafiły samoistnie się reaktywować.
 
 Usługi są czymś na poziomie głębszego systemu, więc tak, mają *techniczną* możliwość wrócić. Przywrócić inne wyłączone apki. Nadać im oraz sobie wszystkie cofnięte pozwolenia. Obejść firewalla i&nbsp;wysłać dane firmie Google.
 

@@ -398,7 +398,7 @@ Nie wykluczam możliwości, że Cargill mógł jakimś cudem zachować dostęp d
 {% include info.html
 type="Ciekawostka"
 text="Zakład Cargilla w&nbsp;Bielanach Wrocławskich leży przy ulicy MacMillan 1.  
-MacMillanowie to drugi z&nbsp;rodów (po samych Cargillach), który od wielu lat jest właścicielami koncernu.  
+MacMillanowie to drugi z&nbsp;rodów (po samych Cargillach), które od wielu lat są właścicielami koncernu.  
 Sam adres znalazłem [w pliku PDF](https://spp-polanka.org/download/informacja.pdf), który znajdował się na stronie Stowarzyszenia Pszczelarzy Polanka i&nbsp;zawierał ofertę Cargilla dotyczącą syropów cukrowych. Być może karmią nimi pszczoły?"
 %}
 
@@ -410,7 +410,7 @@ Nie znalazłem zbyt wielu skandali *stricte* związanych z&nbsp;nimi, ale zwykle
 
 Ponadto parę firm, w&nbsp;tym Viterra, [złożyło przeciw nim pozew](https://news.bloomberglaw.com/antitrust/louis-dreyfus-cotton-futures-manipulation-case-gets-class-status), w&nbsp;którym oskarżają ich o&nbsp;manipulację rynkiem i&nbsp;sztuczne napompowanie cen bawełny w&nbsp;2011 roku.
 
-Z Ukrainy we własnym imieniu (Louis Drefus Company Polska Sp. z&nbsp;o.o.) importowali zboża za 38&nbsp;771 382&nbsp;zł, są na miejscu 29.
+Z Ukrainy we własnym imieniu (Louis Dreyfus Company Polska Sp. z&nbsp;o.o.) importowali zboża za 38&nbsp;771 382&nbsp;zł, są na miejscu 29.
 
 ### Podsumowanie wątku
 
@@ -429,7 +429,7 @@ Tak to wszystko widzę. Ale nie gwarantuję, że mam dobry wzrok.
 
 {% include info.html
 type="Porada"
-text="Osoby zainteresowane różnymi powiązaniami między wschodem a&nbsp;zachodem mogą brać nazwy spółek [po stronie ukraińskiej](#cypr--finansowy-vpn){:.internal} oraz te po zachodniej i&nbsp;wpisywać je w&nbsp;różnych kombinacjach. Coś zapewne wyskoczy.  
+text="Osoby zainteresowane różnymi powiązaniami między wschodem a&nbsp;zachodem mogą brać nazwy spółek [po stronie ukraińskiej](#cypr--finansowy-vpn){:.internal} oraz te po zachodniej i&nbsp;wpisywać je do wyszukiwarki w&nbsp;różnych kombinacjach. Coś zapewne wyskoczy.  
 Sam przykładowo znalazłem [dokument sądowy](https://www.courthousenews.com/wp-content/uploads/2023/05/Gramercy-v-piazza-original-rico-complaint-wyoming-eggs.pdf) wspominający mimochodem, że Cargill nabył 5% udziałów w&nbsp;UkrLandFarming, który według grafiki byłby cypryjski.  
 Wyskoczyło to po wpisaniu: `\"tna corporate\" \"cargill\"`."
 %}
@@ -451,7 +451,7 @@ A jeśli ktokolwiek zbliży się do monopolu (albo oligopolu) w&nbsp;produkcji �
 
   Niektórzy nawołują nie tylko do kontroli ziarna, ale też do osłabienia unijnych przepisów uderzających w&nbsp;pestycydy. A&nbsp;to bardzo na rękę firmom od chemii rolniczej, które już opisałem na blogu. To Bayer, BASF, Syngenta.
 
-  Nawet jeśli pierwsze lata z&nbsp;produktami tych firm są korzystne, to na dłuższą metę zależność od nich może być pułapką. W&nbsp;USA sprzedają zaprawę neonikotynoidową, podejrzewaną o&nbsp;[osłabianie zapylaczy](/2023/05/20/dzien-pszczoly-neonikotynoidy){:.internal} i&nbsp;szkodzenie plonom na dłuższą metę. Sprzedawali też rośliny odporne na dikambę, która odlatuje i&nbsp;[ubija uprawy sąsiadów](/2022/12/24/monsanto-ht-bt-dikamba#dikamba){:.internal}.
+  Nawet jeśli pierwsze lata z&nbsp;produktami tych firm są korzystne, to na dłuższą metę zależność od nich może być pułapką. W&nbsp;USA sprzedają zaprawę neonikotynoidową, podejrzewaną o&nbsp;[osłabianie zapylaczy]({% post_url 2023-05-20-dzien-pszczoly-neonikotynoidy %}){:.internal} i&nbsp;szkodzenie plonom na dłuższą metę. Sprzedawali też rośliny odporne na dikambę, która odlatuje i&nbsp;[ubija uprawy sąsiadów](/2022/12/24/monsanto-ht-bt-dikamba#dikamba){:.internal}.
 
 * Dokładniej zbadać szlaki, jakimi przechodziło zboże.
 

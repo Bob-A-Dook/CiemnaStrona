@@ -255,7 +255,7 @@ Osobiście poszedłem o&nbsp;krok dalej i&nbsp;**postawiłem na opcję nuklearn�
 
 ### Sprawdzanie szczelności i&nbsp;wyłączanie
 
-Dobra nowina 1: można łatwo sprawdzić, w&nbsp;bezpiecznych i&nbsp;kontrolowanych warunkach, czy adres IP wycieka przez WebRTC. Wystarczy odwiedzić stronkę internetową oceniającą prywatność, jak BrowserLeaks.
+Dobra nowina 1: można łatwo sprawdzić, w&nbsp;bezpiecznych i&nbsp;kontrolowanych warunkach, czy adres IP wycieka przez WebRTC. Wystarczy odwiedzić stronkę internetową oceniającą prywatność, jak [BrowserLeaks](https://browserleaks.com/webrtc).
 
 Dobra nowina 2: większość przeglądarek pozwala łatwo wyłączyć WebRTC.  
 Zła nowina: prawie każda robi to w&nbsp;nieco inny sposób. Jeszcze większa różnorodność występuje w&nbsp;innych apkach, jak komunikatory.
@@ -270,7 +270,7 @@ I to tyle z&nbsp;mojej strony! Życzę, żeby WebRTC swatało Was tylko z&nbsp;f
 type="Źródła obrazków"
 text="Lista ikon z serwisu Flaticon:"
 trailer="
-<ul>
+<ul class='with-next'>
   <li>Ikona <a href='https://www.flaticon.com/free-icon/transfer_8345680'>strzałki dwukierunkowej</a> autorstwa <em>zero_wing</em>.</li>
   <li>Ikona <a href='https://www.flaticon.com/free-icon/laptop-screen_288870'>laptopa</a> autorstwa <em>vectorsmarket15</em>.</li>
   <li>Ikona <a href='https://www.flaticon.com/free-icon/server_742282'>serwera</a> autorstwa <em>Smashicons</em>.</li>

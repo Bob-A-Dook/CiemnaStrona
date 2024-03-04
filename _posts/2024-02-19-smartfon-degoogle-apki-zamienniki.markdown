@@ -82,7 +82,7 @@ W instalowaniu aplikacji -- szok i&nbsp;niedowierzanie -- nie ma żadnej magii. 
 {% include info.html
 type="Ciekawostka"
 text="APK to tak naprawdę umowne rozszerzenie, a&nbsp;pod względem budowy jest to spakowane archiwum.  
-Można pobrać taki plik na komputer (tu przykład), zmienić rozszerzenie z&nbsp;`.apk` na `.zip` i&nbsp;rozpakować. Na systemie Linux nie trzeba nawet zmieniać rozszerzenia, bo on widzi „prawdziwą naturę” plików."
+Można pobrać taki plik na komputer (tu [przykład](https://signal.org/android/apk/), apka Signala), zmienić rozszerzenie z&nbsp;`.apk` na `.zip` i&nbsp;rozpakować. Na systemie Linux nie trzeba nawet zmieniać rozszerzenia, bo on widzi „prawdziwą naturę” plików."
 %}
 
 Instalacja apki przez Play Store'a polega po prostu na tym, że:

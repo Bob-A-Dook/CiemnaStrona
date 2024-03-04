@@ -28,6 +28,8 @@ Na chwilę obecną omawiam tylko dwie funkcje aplikacji, DNS-a oraz *firewalla*
 * [Obsługa aplikacji](#obsługa-aplikacji)
   * [DNS](#dns)
   * [Firewall](#firewall)
+  * [Logi](#logi)
+  * [Eksport logów i&nbsp;ustawień](#eksport-logów-iustawień)
 
 ## Weryfikacja i&nbsp;instalacja
 
@@ -40,13 +42,13 @@ To pierwszy plus, bo Mozilla akurat weryfikują aplikacje.
 
 {% include info.html
 type="Ciekawostka"
-text="Dawniej projekt działał pod nazwą BraveDNS, a&nbsp;strona główna była pod adresem *beavedns.com*.  
-Nie mają jednak nic wspólnego z&nbsp;przeglądarką Brave i&nbsp;zmienili nazwę na RethinkDNS ze względu na [częste ich mylenie](https://github.com/celzero/rethink-app/issues/69)."
+text="Dawniej projekt działał pod nazwą BraveDNS, a&nbsp;strona główna była pod adresem *bravedns.com*.  
+Nie mają jednak nic wspólnego z&nbsp;przeglądarką Brave i&nbsp;zmienili nazwę na RethinkDNS zapewne ze względu na [częste mylenie tych dwóch projektów](https://github.com/celzero/rethink-app/issues/69)."
 %}
 
 Jest też link do [kodu źródłowego](https://github.com/celzero/rethink-app). Ponad 2100&nbsp;gwiazdek od użytkowników, czyli całkiem sporo. Sam opis również wyjaśnia, co leży twórcom apki na sercu i&nbsp;na jakich stronach są aktywni. Ogólnie budzą zaufanie.
 
-Podsumowując: na dzień dzisiejszy mam powody, żeby polecić RDNS. Ale czas płynie, świat się zmienia. Dlatego dla pewności warto poszukać informacji na zewnętrznych stronach:
+Podsumowując: na dzień dzisiejszy polecam Rethink DNS. Ale czas płynie, świat się zmienia. Dlatego dla pewności warto poszukać informacji na zewnętrznych stronach:
 
 * wpisać w&nbsp;ogólną wyszukiwarkę `rethink dns site:reddit.com` i&nbsp;zobaczyć, co tam na forum Reddit;
 * poszukać [najnowszych wątków](https://hn.algolia.com/?dateRange=all&page=0&prefix=false&query=rethinkdns&sort=byDate&type=story) na forum Hacker News.
@@ -88,33 +90,35 @@ W każdym razie, jeśli ktoś nie potrzebuje VPN-ów ani ich funkcji, to prawdzi
 
 ## Obsługa aplikacji
 
-**Uwaga**: zachęcam do przeczytania części „DNS” nawet wtedy, jeśli nie planujemy nic ręcznie ustawiać. Warto bowiem pomyśleć o&nbsp;zmianie jednego ustawienia.
+**Uwaga**: zachęcam do przeczytania części „DNS” nawet osoby, które nie planują ustawiać nic własnego. Warto bowiem pomyśleć o&nbsp;zmianie jednego ustawienia.
 
 ### DNS
 
 Czym jest DNS? W&nbsp;uproszczeniu: to książka telefoniczna internetu. W&nbsp;praktyce jakiś serwer.
 
-Kiedy aplikacja (np. przeglądarka) chce zdobyć coś ze strony internetowej, a&nbsp;zna jedynie jej czytelną nazwę (jak *ciemnastrona.com.pl*), to zwraca się do jakiegoś DNS-a. Ten odsyła aktualny adres IP odpowiadający tej nazwie. A&nbsp;reszta interakcji zachodzi już bezpośrednio ze stroną spod tego adresu.
+Po pierwsze: system musi znać adres jakiegoś DNS-a, żeby się z&nbsp;nim połączyć. Zwykle jest on proponowany przez hotspota albo operatora (w&nbsp;przypadku sieci mobilnej). Można też ustawić coś własnego.
+
+Kiedy aplikacja (np. przeglądarka) chce zdobyć coś ze strony internetowej, a&nbsp;zna jedynie jej czytelną nazwę (jak *ciemnastrona.com.pl*), to zwraca się do DNS-a. Ten odsyła aktualny adres IP odpowiadający tej nazwie. A&nbsp;reszta interakcji zachodzi już bezpośrednio ze stroną spod tego adresu.
 
 <img src="/assets/posts/dns/internet-plus-dns-schemat.jpg" alt="Schemat pokazujący wymianę informacji między laptopem a&nbsp;serwerami: DNS-em oraz adresatem docelowym"/>
 
 {:.figcaption}
-DNS udziela odpowiedzi tylko na pierwszym etapie, a&nbsp;po podaniu adresu nie jest już pytany.
+DNS udziela odpowiedzi tylko na pierwszym etapie. System zapisuje sobie adres i&nbsp;przez pewien czas już go nie pyta.
 
-Apka RethinkDNS domyślnie kieruje wszystkie pytania o&nbsp;strony do serwera DNS kontrolowanego przez jej autorów. Ponoć szyfrującego informacje, co jest atutem.  
-Niektórzy mogą jednak chcieć **zmienić to ustawienie i&nbsp;pozostać przy tym, co zapewnia system**.
+Apka RethinkDNS domyślnie kieruje wszystkie pytania o&nbsp;strony do serwera DNS kontrolowanego przez jej autorów. Ponoć szyfrującego informacje. To na plus.  
+Niektórzy mogą jednak mimo wszystko **zmienić to ustawienie i&nbsp;pozostać przy tym, co zapewnia system**.
 
-Po pierwsze: ze względu na kwestie zaufania.
+Po pierwsze: ze względu na (ograniczone) zaufanie.
 
-Przy takim układzie do twórców będą trafiały ogólne nazwy domen, jakie odwiedzamy (bez konkretnych podstron). Jak: *youtube.com*, *ciemnastrona.com.pl*, *niegrzeczne-obrazki.gov.pl*.
+Do DNS-a podsuniętego przez apkę będą trafiały ogólne nazwy domen, jakie odwiedzamy (bez konkretnych podstron). Jak: *youtube.com*, *ciemnastrona.com.pl*, *niegrzeczne-obrazki.gov.pl*.
 
 Zazwyczaj takie informacje trafiają do właściciela hotspota, którego używamy, albo do firmy telekomunikacyjnej. Używając rozwiązania od twórców RDNS-a, przenosimy to zaufanie na nich. Może nie ma w&nbsp;tym nic złego, ale lepiej mieć świadomośc. 
 
-Po drugie: ze względu na kwestie awarii.
+Po drugie: ze względu na stabilność.
 
-Serwerowi DNS zapewnianemu przez twórców RDNS-a może się coś przytrafić. I&nbsp;czasem się przytrafia. A&nbsp;że apka pośredniczy we wszystkim, to do czasu naprawienia usterki telefon straci łączność z&nbsp;wieloma stronami.
+Serwerowi DNS zapewnianemu przez twórców RDNS-a może się coś przytrafić. I&nbsp;[czasem się przytrafia](https://www.reddit.com/r/rethinkdns/comments/xjfnyi/is_rethink_dns_down/). A&nbsp;że apka pośredniczy we wszystkim, to do czasu naprawienia usterki telefon *de facto* straci łączność z&nbsp;internetem.
 
-Z powyższego względu -- zwłaszcza jeśli ustawiamy telefon osobie mniej lubiącej się z elektroniką -- warto wrócić do domyślnego, systemowego DNS-a, podsuwanego przez hotspota/operatora. Minimalizuje to szansę niemiłych zaskoczeń.
+Z powyższego względu -- zwłaszcza jeśli ustawiamy firewalla osobie mniej lubiącej się z elektroniką -- warto wrócić do domyślnego, systemowego DNS-a, podsuwanego przez hotspota/operatora. Minimalizuje to szansę niemiłych zaskoczeń.
 
 Zmiana DNS-a jest bardzo łatwa. Wystarczy kliknąć na ekranie głównym RDNS-a kafelek `DNS` u&nbsp;góry i&nbsp;wybrać z&nbsp;krótkiej listy opcję `System DNS`.
 
@@ -127,7 +131,7 @@ To ta funkcja pozwala odciąć od sieci aplikacje, którym nie ufamy.
 
 Po otwarciu RDNS-a pokaże się ekran zawierający kilka głównych kategorii. Trzeba kliknąć tę na dole, `Aplikacje`.
 
-Pokaże się lista wszystkich aplikacji na smartfonie. Żeby odciąć wybranym dostęp do sieci, trzeba klikać odpowiadające im ikonki po prawej, aż się przekreślą. Jedna odpowiada za łączność przez hotspoty, inna przez sieć komórkową.
+Pokaże się lista wszystkich aplikacji na smartfonie. Żeby odciąć wybranym dostęp do sieci, trzeba klikać odpowiadające im ikonki po prawej, aż się przekreślą. Jedna odpowiada za hotspoty, druga za sieć komórkową.
 
 Na liście są również aplikacje systemowe, które łatwo poznać po ikonie wyglądającej jak głowa robota (Androida). Proponuję zachować ostrożność i&nbsp;nie wyłączać im sieci na chybił-trafił.
 
@@ -143,4 +147,75 @@ Bloka dałem nawet [Usługom Google Play](/2024/02/03/smartfon-degoogle#finałow
 Źródła: oficjalne ikony, [kula ziemska](https://www.flaticon.com/free-icon/navigation_2763373) autorstwa *vectorsmarket15* (serwis Flaticon).
 
 Firewall pozwala również ustawiać bardziej złożone regułki niż zwykłe tak/nie. Ale o&nbsp;tym może napiszę innym razem, kiedy już poeksperymentuję.
+
+### Logi
+
+Kolejną cenną rzeczą, jaką oferuje Rethink DNS, jest możliwość zerknięcia do logów (historii połączeń z&nbsp;siecią) i&nbsp;ujrzenia na własne oczy, z&nbsp;czym łączyły się aplikacje.
+
+Żeby w&nbsp;tę historię zajrzeć, trzeba kliknąć zakładkę `Logi` na ekranie głównym. U&nbsp;góry będą dwie zakładki:
+
+* `Logi sieciowe`
+* `DNS`
+
+Zakładka `Logi sieciowe` to ułożona chronologicznie lista, pokazująca wymianę informacji między aplikacjami a&nbsp;zewnętrznymi serwisami. Przykładowa pozycja z&nbsp;listy wygląda tak:
+
+{:.figure .bigspace}
+<img src="/assets/tutorials/rethink-dns/rdns-logi-sieciowe-przyklad.jpg" alt="Pojedyncza pozycja z&nbsp;listy pokazująca ikonkę przeglądarki Firefox, stronę news.ycmbinator.com, jej adres IP oraz godzinę połączenia i&nbsp;parę pomniejszych informacji"/>
+
+Widać tu:
+
+* nazwę oraz ikonę aplikacji,
+* adres IP i&nbsp;nazwę serwisu (domenę), z&nbsp;jakim się połączyła,
+* ilość przesłanych danych (strzałka w&nbsp;górę -- wysłane, w&nbsp;dół -- pobrane),
+* protokół, jakim się połączyła (tu: szyfrowany HTTPS),
+* czas wykonania połączenia,
+* kraj, w&nbsp;jakim znajduje się serwis (na podstawie adresu IP).
+
+Druga górna zakładka, `DNS`, to z&nbsp;kolei podobnie wyglądająca lista zapytań do [DNS-a](#dns){:.internal}. Są to przeważnie nazwy domen, wysyłane z&nbsp;nadzieją na otrzymanie odpowiadających im adresów IP.  
+Zapytania z&nbsp;tej listy nie są już przypisane do konkretnych aplikacji, co może nieco utrudniać ustalanie winnych.
+
+{% include info.html
+type="Ciekawostka"
+text="Przy niektórych pozycjach widnieje czas połączenia 0&nbsp;ms -- oznacza to zapewne, że żądanie w&nbsp;ogóle nie poleciało w&nbsp;sieć, bo adres został wzięty z&nbsp;**pamięci podręcznej**.  
+Powiązania domena-adres są na pewien czas zapisywane na urządzeniu, żeby system *był dużym chłopcem i*{:.corr-del} przestał ciągle słać pytania do DNS-a."
+%}
+
+W jaki sposób można korzystać z&nbsp;logów? Proponuję co pewien czas sprawdzać obie listy. Jeśli któryś element wyda się podejrzany, to można poszukać w&nbsp;internecie nazwy domeny, ewentualnie dopisując słowa `is malicious`, `privacy` i&nbsp;tak dalej, żeby nadać kontekstu.
+
+Jeśli obawy się potwierdzą -- albo nie zostaną rozwiane -- to można kliknąć na dany element z&nbsp;listy, po czym paroma kliknięciami zablokować łączność z&nbsp;wybraną domeną. Mając na uwadze, że czasem może to prowadzić do błędów aplikacji.
+
+Przykład: dzięki logom odkryłem, że moja aplikacja Termux zapytała o&nbsp;coś DNS-a pod adresem 8.8.8.8, czyli należącego do Google'a, zamiast mojego domyślnego. Niedobrze.
+
+Miałem podejrzenie, że nastąpiło to po uźyciu [programiku *dig*]({% post_url 2023-12-26-dns-rekordy %}#dig-izaglądanie-do-rekordów-dns-a){:.internal}, więc poszukałem pod hasłem `dig termux google dns`.  
+Jak się okazało, to problem Androida. Niektóre apki biorą adres DNS-a z&nbsp;pewnego pliku systemowego. A&nbsp;w nim domyślnie znajdują się [adresy DNS-a od Google'a](https://www.reddit.com/r/termux/comments/gk838u/android_ignoring_dns_via_dhcp_termux_and_others/). Podejrzana sprawa.
+
+Logi pozwoliłyby również wykryć, że jakaś strona otwarła się w&nbsp;[przeglądarce wbudowanej]({% post_url 2023-08-08-wbudowane-przegladarki %}){:.internal} w&nbsp;Facebooka, zamiast w&nbsp;(oczekiwanej) systemowej. Moją uwagę zwróciłby fakt, że aplikacja Facebooka połączyła się ze stroną, która nijak nie jest z&nbsp;Metą/Facebookiem związana.
+
+### Eksport logów i&nbsp;ustawień
+
+Przeglądarka logów od RDNS-a ma swoje ograniczenia. Pozwala szukać po nazwie aplikacji albo odfiltrowywać aplikacje (nie-)blokowane... Ale to w&nbsp;sumie tyle.
+
+Nie da się na przykład wyświetlić tylko połączeń wykonanych w&nbsp;określonym przedziale czasowym. Nie mówiąc o&nbsp;jakiejś wizualizacji liczby połączeń w&nbsp;skali, dajmy na to, kilku tygodni.
+
+Żeby przeprowadzić dokładniejszą analizę, trzeba wyciągnąć plik z&nbsp;wnętrza RDNS-a i&nbsp;trochę przy nim popracować innymi programami. Mam w&nbsp;planie zrobić coś takiego na blogu, ale póki co pokażę jedynie, jak wyeksportować dane.
+
+{:.post-meta .bigspace-after}
+Ta część może się przydać również osobom, które pozmieniały dużo ustawień i&nbsp;chciałyby je przenieść do innej apki. Zostaną wyeksportowane razem z&nbsp;logami.
+
+Wystarczy kliknąć ikonkę `Skonfiguruj` na samym dole, potem wybrać opcję `Kopia zapasowa i przywracanie`, przeklikać się przez okienka i&nbsp;wybrać folder, do jakiego zostaną zapisane dane z&nbsp;aplikacji.
+
+{:.bigspace-before}
+<img src="/assets/tutorials/rethink-dns/rdns-kopia-zapasowa.jpg" alt="Trzy fragmenty zrzutów ekranu pokazujące po kolei, jak wyeksportować dane z&nbsp;apki Rethink DNS" width="60%"/>
+
+{% include info.html
+type="Uwaga"
+text="Jeden z&nbsp;komunikatów mówi, że eksport danych wymaga ponownego uruchomienia VPN-a (czyli zapewne również firewalla).  
+Jeśli ktoś się obawia, że to okno czasowe wykorzystają któreś z&nbsp;blokowanych aplikacji i&nbsp;dorwą się do sieci, to dla pewności można **wyłączyć internet na poziomie całego smartfona**. I&nbsp;przywrócić po wyeksportowaniu.  
+Osoby szczególnie wyczulone mogą również upewnić się, że żadne nielubiane aplikacje nie mają pozwolenia na dostęp do plików. Cenne logi trafią bowiem do publicznej części smartfona, gdzie każdy może zajrzeć."
+%}
+
+Dane zostaną zapisane w&nbsp;wybranym folderze, do pliku z&nbsp;rozszerzeniem `.rbk`. Od strony technicznej to zwykłe archiwum, które można rozpakować (w&nbsp;Eksploratorze Windowsa: po ręcznej zmianie rozszerzenia na `.zip`).  
+W środku jest kilka plików, w&nbsp;tym dwie bazy danych typu *SQLite*. Logi znajdują się wewnątrz tej o&nbsp;nazwie `rethink_logs.db`.
+
+Jeśli już umiecie dłubać w&nbsp;takim formacie, to super! Jeśli nie, to możecie poczytać [praktyczny opis takiej eksploracji](https://chrisnicoll.net/2020/02/exploring-an-sqlite-database-from-jupyter-notebook/). Albo poczekać na mój wpis :wink: 
 
