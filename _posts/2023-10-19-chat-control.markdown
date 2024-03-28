@@ -334,7 +334,7 @@ Z tego względu B64 można użyć bardziej w&nbsp;ramach obywatelskiego nieposł
 
 * plik tekstowy z&nbsp;systemu Linux;
 * pudło z&nbsp;sercem z&nbsp;gry „Portal”;
-* kłodki i&nbsp;kluczyki z&nbsp;Emojipedii;
+* kłódki i&nbsp;kluczyki z&nbsp;Emojipedii;
 * [ostrzeżenie](https://www.flaticon.com/free-icon/exclamation_10308557?term=warning&related_id=10308557) -- Fatema Khanom z&nbsp;serwisu Flaticon;
 * oficjalne ikonki Signala i&nbsp;Firefoksa.
 

@@ -209,7 +209,7 @@ Wystarczy kliknąć ikonkę `Skonfiguruj` na samym dole, potem wybrać opcję `K
 
 {% include info.html
 type="Uwaga"
-text="Jeden z&nbsp;komunikatów mówi, że eksport danych wymaga ponownego uruchomienia VPN-a (czyli zapewne również firewalla).  
+text="Jeden z&nbsp;komunikatów mówi, że eksport danych wymaga ponownego uruchomienia VPN&#8209;a (czyli zapewne również firewalla).  
 Jeśli ktoś się obawia, że to okno czasowe wykorzystają któreś z&nbsp;blokowanych aplikacji i&nbsp;dorwą się do sieci, to dla pewności można **wyłączyć internet na poziomie całego smartfona**. I&nbsp;przywrócić po wyeksportowaniu.  
 Osoby szczególnie wyczulone mogą również upewnić się, że żadne nielubiane aplikacje nie mają pozwolenia na dostęp do plików. Cenne logi trafią bowiem do publicznej części smartfona, gdzie każdy może zajrzeć."
 %}

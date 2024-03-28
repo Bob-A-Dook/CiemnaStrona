@@ -332,7 +332,7 @@ Skoro firma telekomunikacyjna widzi tylko sam *trzon*, nazwę domeny... to może
 {:.figcaption}
 Pamiętajmy, że podglądacze nie zobaczą tego, co na czerwono.
 
-Do tego można wrzucić trochę całkowicie niewinnych podstronek (dbając o&nbsp;to, żeby rozmiar tych podstron oraz liczba osadzonych w&nbsp;nich elementów pokrywały się z&nbsp;grzecznymi; to przez aspekt analizy ruchu).
+Do tego można wrzucić trochę całkowicie niewinnych podstronek (dbając o&nbsp;to, żeby rozmiar tych podstron oraz liczba osadzonych w&nbsp;nich elementów pokrywały się z&nbsp;grzecznymi; to przez aspekt [analizy ruchu sieciowego]({% post_url 2024-03-28-analiza-ruchu %}){:.internal}).
 
 W ten sposób nawet gdyby jakiś dyktator zanotował, że użytkownicy odwiedzili Waszą legalną/etyczną domenę, to nie będzie miał dowodów, że było przeglądane coś, co by mu się nie spodobało.
 

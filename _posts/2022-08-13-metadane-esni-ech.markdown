@@ -263,8 +263,7 @@ Takich dylematów będzie coraz więcej. Bowiem kształt internetu wcale nie zal
 Poza tym ten wpis to zaledwie kolejny element układanki. „Łańcuch jest tak wytrzymały, jak jego najsłabsze ogniwo”.  
 A kiedy już wzmocniliśmy kwestie wokół HTTPS-a i&nbsp;metadanych, to słabym ogniwem pozostaje DNS, o&nbsp;którym dotąd wspominałem tylko ogólnikowo. „Książka telefoniczna internetu”, z&nbsp;którą często się kontaktujemy, odwiedzając nieznane nam strony.
 
-No i&nbsp;muszę uprzedzić, że nawet DNS nie domknie tematu -- szczególnie wścibskie telekomy mogą analizować rozmiar przesyłanych rzeczy oraz czas ich przesłania.  
-Ale to sprawa dość niszowa, muszę jeszcze trochę doczytać w&nbsp;temacie. Zostawię ją na przyszłość, a&nbsp;zainteresowani mogą szukać pod hasłem *traffic analysis*.
+No i&nbsp;muszę uprzedzić, że nawet DNS nie domknie tematu -- szczególnie wścibskie telekomy mogą analizować rozmiar przesyłanych rzeczy oraz czas ich przesłania. Opisałem to we wpisie na temat [analizy ruchu sieciowego]({% post_url 2024-03-28-analiza-ruchu %}){:.internal}.
 
-Tymczasem czas załatać luki DNS-owe. Zapraszam do kolejnego wpisu! :smile:
+A jeśli chodzi o łatanie luk DNS-owych, to zapraszam do kolejnego wpisu! :smile:
 
