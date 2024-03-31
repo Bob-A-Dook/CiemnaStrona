@@ -59,7 +59,7 @@ Ale jeśli oprócz tego wykaże własną inicjatywę i&nbsp;odwiedzi te same mie
 
 Od pewnego czasu wyróżniam w&nbsp;serii „Internetowa inwigilacja” różne rodzaje przeciwników, żeby lepiej porządkować informacje.
 
-Pierwszy z&nbsp;nich to firmy reklamowe, których produkty goszczą na współpracujących z&nbsp;nimi stronach internetowych. Widzą niemal to samo co one, ale ich wzrok nie sięga zwykle na strony obce (nie każda firma reklamowa to Google).
+Pierwszy z&nbsp;nich to firmy reklamowe, których produkty goszczą na współpracujących z&nbsp;nimi stronach internetowych. Widzą komplet interakcji ze stroną, ale ich wzrok nie sięga zwykle poza nią. Nie każda firma reklamowa ma możliwości Google'a.
 
 W przypadku analizy ruchu **przeciwnik należy do drugiej kategorii -- właścicieli infrastruktury**.
 
@@ -345,7 +345,7 @@ Student → <span class="red">sieć uczelni</span> → sieć Tor → <span class
 </pre>
 
 Uczelnia znała godzinę otrzymania maila. Widziała, że przyszedł z&nbsp;sieci Tor, bo istnieją publiczne bazy związanych z nią adresów IP.  
-Skoro wyszło z&nbsp;Tora, to musiało też wejść do Tora. Wystarczyło zatem poszukać, jakie urządzenia o&nbsp;podobnej godzinie kontaktowały się z&nbsp;innym IP ze znanej listy.  
+Skoro wyszło z&nbsp;Tora, to musiało też wejść do Tora. Sprawdzono w&nbsp;historii kampusowej sieci, jakie urządzenia o&nbsp;podobnej godzinie kontaktowały się z&nbsp;innym IP ze znanej listy.  
 Jak się okazało, student był jedyną osobą pasującą do wzorca. Tor nie był jakimś hitem kampusu. 
 
 Ta historia nie pokazuje słabości sieci Tor, bo ta dobrze robiła swoją robotę. Ale, wciśnięta między dwa wrogie punkty, traciła swoje właściwości.  
