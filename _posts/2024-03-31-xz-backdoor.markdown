@@ -61,15 +61,15 @@ Autorzy: [siłacz](https://www.freepik.com/free-vector/set-male-females-weight-l
 
 ### Program i&nbsp;narzędzia XZ
 
-Główny winowajca, program XZ, odpowiada za pracę z&nbsp;plikami skompresowanymi z&nbsp;rozszerzeniem `.xz`. Ku zdziwieniu niektórych: to całkiem popularny format. Coś jak ZIP ze świata konsumenckiego, tylko że [mieści w&nbsp;sobie jeden plik](https://xz.tukaani.org/format/). 
+Główny winowajca, program XZ, odpowiada za pracę z&nbsp;plikami skompresowanymi z&nbsp;rozszerzeniem `.xz`. Ku zdziwieniu niektórych: to całkiem popularny format. Coś jak ZIP ze świata konsumenckiego, tylko że [mieści w&nbsp;sobie jeden plik](https://web.archive.org/web/20240328130059/https://xz.tukaani.org/format/). 
 
-Sam XZ jest właściwie tylko nakładką, wygodnym interfejsem. Jego fundament nazywa się `liblzma`.  
+Sam XZ jest właściwie tylko nakładką, wygodnym interfejsem. Jego fundament nazywa się `liblzma`. To on został dotknięty zmianami.  
 *Lib* to tutaj skrót od *library*, biblioteka. Zestaw przydatnych funkcji. LZMA oznacza natomiast metodę kompresji.
 
 {:.post-meta .bigspace-after}
 Taki podział jest bardzo częsty w&nbsp;świecie *open source*. Osobno bebechy programu, w&nbsp;formie biblioteki. Osobno interfejs dla użytkownika. Dzięki tej modułowości można łatwo wybierać rzeczy dopasowane do swoich potrzeb.
 
-Dla uproszczenia będę stosował w&nbsp;tym wpisie zbiorcze określenie XZ wobec wszystkich narzędzi i&nbsp;bibliotek, jakie powstały z&nbsp;„zatrutego” kodu.
+Dla uproszczenia będę stosował w&nbsp;tym wpisie zbiorcze określenie XZ wobec wszystkich narzędzi i&nbsp;bibliotek opartych bezpośrednio na „zatrutym” kodzie.
 
 Cały projekt, w&nbsp;ramach którego rozwija się XZ, nosi nazwę [Tukaani](https://tukaani.org/). Logo projektu to rysunkowy tukan z&nbsp;obrazka wyżej. Założycielem i&nbsp;głównym opiekunem projektu jest od 2009&nbsp;roku Lasse C., istotna postać w&nbsp;tej historii.
 
@@ -79,7 +79,7 @@ Dzięki lekkości i&nbsp;wszechstronności jego wynalazki zwróciły uwagę inny
 
 Istotną częścią całej sprawy są różne powiązania między projektami *open source*. Można powiedzieć, że **kod spływa z&nbsp;góry, od źródła**. W&nbsp;języku angielskim jest ono zresztą nazywane *upstream*, jak źródło rzeki.
 
-Naj początku łańcuszka jest jakiś projekt, jak wspomniany Tuukani. Kod źródłowy jego programów jest na widoku, przechowywany w&nbsp;tak zwanym *repozytorium*. Tak było też z&nbsp;XZ, choć [jego strona](https://github.com/tukaani-project/xz/releases) jest obecnie zawieszona.
+Na początku łańcuszka jest jakiś projekt, jak wspomniany Tukaani. Kod źródłowy jego programów jest na widoku, przechowywany w&nbsp;tak zwanym *repozytorium*. Tak było też z&nbsp;XZ, choć [jego strona](https://github.com/tukaani-project/xz/releases) jest obecnie zawieszona.
 
 {:.figure .bigspace}
 <img src="/assets/posts/centralizacja/xz/xz-blokada-repozytorium.jpg" alt="Komunikat mówiący o&nbsp;zawieszeniu dostępu do projektu przez naruszenie warunków serwisu Github"/>
@@ -177,7 +177,7 @@ Nawet po tych słowach Jigar nie dawał za wygraną i&nbsp;naciskał na zmiany.
 „Dej, dej”. Jak pewien znany typ ludzi, gdy wrzuci się coś darmowego na OLX-a. Możliwe, że wobec takiej presji autor nie miał nic przeciwko, żeby Jia zdjął mu z&nbsp;barków nieco ciężaru.
 
 {:.post-meta .bigspace-after}
-Nie wykluczam, że Jigar to zwykły dupek, a&nbsp;JT wykorzystał okazję, i&nbsp;że nie współpracowali. Ale późniejszy wątek forsowania aktualizacji stawie te naciski w&nbsp;ciekawym świetle. 
+Nie wykluczam, że Jigar to zwykły dupek, a&nbsp;JT wykorzystał okazję, i&nbsp;że nie współpracowali. Ale późniejszy wątek forsowania aktualizacji stawia te naciski w&nbsp;ciekawym świetle. 
 
 ### Jia przejmuje stery
 
@@ -227,20 +227,20 @@ Oba zawierały w&nbsp;sobie narzędzia hakera, głównie skrypty w&nbsp;[języku
 <p class="bigspace-before">Ta dwoista natura (normalność, a&nbsp;zarazem złośliwość) wynika z&nbsp;prostego faktu – <strong>każdy plik jest ciągiem zer i&nbsp;jedynek</strong>.<br />
 Owszem, istnieje jakiś <em>właściwy</em> sposób ich czytania, przy którym plik zadziała tak, jak oczekują tego użytkownicy. Ale można również brać te same zera i&nbsp;jedynki, robiąc z&nbsp;nimi rzeczy kreatywne.</p>
 
-<p>Przykład? Ktoś może wskazać swojemu programowi jakiś zero-jedynkowy plik i&nbsp;nakazać: “weź sześćdziesiąty piąty element (zero/jedynkę). Potem bierz kolejne, do numeru 72&nbsp;włącznie”. Program po kolei je zbiera i&nbsp;zostaje z&nbsp;ciągiem <code class="language-plaintext highlighter-rouge">01100001</code>.</p>
+<p>Przykład? Ktoś może wskazać swojemu programowi jakiś zero-jedynkowy plik i&nbsp;nakazać: „weź sześćdziesiąty piąty element (zero/jedynkę). Potem bierz kolejne, do numeru 72&nbsp;włącznie”. Program po kolei je zbiera i&nbsp;zostaje z&nbsp;ciągiem <code class="language-plaintext highlighter-rouge">01100001</code>.</p>
 
-<p>Następnie autor każe: “zrób z&nbsp;tego literę w&nbsp;podstawowym kodowaniu (ASCII)”. Wynik to <code class="language-plaintext highlighter-rouge">a</code>, bo właśnie taka litera <a href="http://sticksandstones.kstrom.com/appen.html">odpowiada tym zerom i&nbsp;jedynkom</a>.</p>
+<p>Następnie autor każe: „zrób z&nbsp;tego literę w&nbsp;podstawowym kodowaniu (ASCII)”. Wynik to <code class="language-plaintext highlighter-rouge">a</code>, bo właśnie taka litera <a href="http://sticksandstones.kstrom.com/appen.html">odpowiada tym zerom i&nbsp;jedynkom</a>.</p>
 
 <p>Te zera i&nbsp;jedynki z&nbsp;założenia nie miały być żadną literą. Były cząstką całkiem innej struktury. Ale jeśli ktoś każe zrobić z&nbsp;nich literę… to program posłucha.</p>
 
-<p>To dlatego atakujący mógł stworzyć pełnoprawny, działający plik XZ. W&nbsp;którym jednocześnie ukrywa sobie różne rzeczy. Po odpowiednich przekształceniach może je sobie wyciagnąć.</p>
+<p>To dlatego atakujący mógł stworzyć pełnoprawny, działający plik. W&nbsp;którym jednocześnie ukrywa sobie różne rzeczy. Po odpowiednich przekształceniach może je sobie wyciagnąć.</p>
 
 <p class="post-meta">Koniec wyjaśnienia</p>
 </details>
 
 Jeśli chodzi o&nbsp;zawartość hakerskich skryptów, mało się znam na temacie, więc zdam się tu na [opracowanie Gynvaela Coldwinda](https://gynvael.coldwind.pl/?lang=en&id=782). Jeśli dobrze interpretuję:
 
-* Punktem początkowym jest zwięzły skrypt umieszczony między innymi plikami projektu.
+* Punktem początkowym jest zwięzły skrypt umieszczony wśród innych plików projektu.
 
   Według innego komentarza dodany [nie do wersji źródłowej](https://news.ycombinator.com/item?id=39885139), lecz tylko do tej przeznaczonej do rozpowszechnienia.  
   Jest uruchamiany podczas **kompilacji**. Czyli przekształcania kodu do postaci dostosowanej do komputera. Zachodzi ona za każdym razem, gdy ktoś tworzy z&nbsp;kodu źródłowego XZ nową wersję programu.
@@ -257,7 +257,7 @@ Jeśli chodzi o&nbsp;zawartość hakerskich skryptów, mało się znam na temaci
 
 {% include info.html
 type="Ciekawostka"
-text="Jak pisze Gynvael Coldwind, w&nbsp;tym miejscu występuje również odwołanie do innych plików testowych, które miałyby w&nbsp;sobie odpowiednie ciągi zer i&nbsp;jedynek. Takich plików nie było w&nbsp;żadnej z&nbsp;zainfekowanych wersji źródła.  
+text="Jak pisze Gynvael Coldwind, w&nbsp;tym miejscu występuje również odwołanie do innych plików testowych, które miałyby w&nbsp;sobie odpowiednie ciągi zer i&nbsp;jedynek. Takich plików nie było w&nbsp;żadnej ze zmodyfikowanych wersji źródła.  
 Zgodnie z&nbsp;[hipotezą](https://gynvael.coldwind.pl/?lang=en&id=782#stage2-ext) Coldwinda, Jia zapewne planował dodać je w&nbsp;przyszłości. Pozwoliłyby rozbudowywać kolejne wersje XZ o&nbsp;nowe wredne funkcje."
 %}
 
@@ -267,13 +267,13 @@ Nie wiem, na czym dokładnie polega zagrożenie ze strony zmienionego XZ, bo nad
 
 ### Udoskonalenie złośliwego kodu
 
-Groźna niespodzianka została dodana w&nbsp;wersji 5.6.0. Ale na tym etapie miał swoje wady. Odrobinę porównań między wersjami można znaleźć we wspomnianej analizie Coldwinda.
+Groźna niespodzianka została dodana w&nbsp;wersji 5.6.0. Ale na tym etapie program miał swoje wady. Odrobinę porównań między wersjami można znaleźć we wspomnianej analizie Coldwinda.
 
 Jednym z&nbsp;problemów był fakt, że program Valgrind (do analizowania zużycia pamięci) wyłapywał różne błędy i&nbsp;wyświetlał ostrzeżenie na etapie kompilacji.
 
 A to niedobrze dla hakera. Ostrzeżenia, nawet jeśli nie mówią wprost o&nbsp;czymś złym, kłócą się z&nbsp;dyskrecją.
 
-Dlatego... po prostu zgłosił błąd, pytając innych o&nbsp;porady. Oczywiście nie ujawniał swoich intencji. Wspólną pracą, między innymi z&nbsp;ludźmi od&nbsp;linuksowych projektów Red Hat i Fedora, udało się [załatać błędy](https://bugzilla.redhat.com/show_bug.cgi?id=2267598). Jia wypuścił udoskonaloną wersję 5.6.1.  
+Dlatego... po prostu nie ukrywał błędu, pytając innych o&nbsp;porady i&nbsp;[dziękując za poprawki](https://git.rootprojects.org/root/xz/commit/72d2933bfae514e0dbb123488e9f1eb7cf64175f?ref=connortumbleson.com). Oczywiście nie ujawniał prawdziwych intencji. Wspólną pracą, między innymi z&nbsp;ludźmi od&nbsp;linuksowych projektów Red Hat i&nbsp;Fedora, udało się [załatać błędy](https://bugzilla.redhat.com/show_bug.cgi?id=2267598). Jia wypuścił udoskonaloną wersję 5.6.1.  
 Nikt się nie połapał, że coś jest na rzeczy.
 
 ### Lobbowanie za przyjęciem nowinek
@@ -327,14 +327,14 @@ Trwa również analizowanie tej bardziej tajemniczej, nieprzejrzystej części z
 
 ## Podsumowanie
 
-Sprawa wokół `xz` nie jest niczym nowym. Choć zaskakuje wyrafinowaniem, jest jednym z&nbsp;wielu ataków na źródła powszechnie używanych programów.  
+Sprawa wokół XZ nie jest niczym nowym. Choć zaskakuje wyrafinowaniem, jest jednym z&nbsp;wielu ataków na źródła powszechnie używanych programów.  
 Innym głośnym przykładem, tyle że z&nbsp;korpoświata, była afera wokół [SolarWinds](https://www.reuters.com/article/us-cyber-solarwinds-microsoft-idUSKBN2AF03R/).
 
 Cała historia potwierdza, że **centralizacja to miecz obosieczny. Również w&nbsp;świecie cyfrowym**.
 
 Z jednej strony pozwala uniknąć powtarzania się, wielokrotnego wymyślania koła od nowa. Rozwój jakiegoś elementu zostawia się specom, a&nbsp;reszta tylko od nich czerpie.
 
-Z drugiej -- to zależność od kogoś innego. Być może nieco mniej groźna w&nbsp;cyfrowym świecie, gdzie łatwo kopiować kod... Ale wciąż pozostaje wkładaniem wszystkich jajek do jednego koszyka. Jak rypnie, to potężnie.
+Z drugiej -- to zależność od kogoś innego. Być może nieco mniej groźna w&nbsp;cyfrowym świecie, gdzie łatwiej skopiować kod i&nbsp;się uniezależnić... Ale wciąż pozostaje wkładaniem wszystkich jajek do jednego koszyka. Jak rypnie, to potężnie.
 
 A większość przegapia moment, gdy wiklina koszyka zaczyna się rozłazić. Bo każdy sobie myśli, że inni na pewno uważnie patrzą. Że można olać temat.
 
