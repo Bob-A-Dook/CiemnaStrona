@@ -119,7 +119,7 @@ Dokładniej omawiam je w&nbsp;osobnym mikrowpisie, do którego jeszcze odeślę.
 A pod jakimi filmami konta podrzuciły najwięcej linków? Zdecydowanie przodują tu dwa; to te „emitery” w&nbsp;dolnych rzędach czerwonych elips:
 
 1. W [pierwszym](https://www.youtube.com/watch?v=aMDhUsxom0U) z tych filmów znany astrofizyk, Neil deGrasse Tyson, mówi o&nbsp;bezpieczeństwie GMO. Ta sama osoba użyczyła potem głosu w&nbsp;filmie *Food Evolution*, promującym nową wizję rolnictwa.
-2. [Drugi film](https://www.youtube.com/watch?v=wZ2TF8-PGQ4) to TED Talk niejakiej Pameli Ronald, poświęcony zaletom modyfikowania żywności. O&nbsp;tej osobie również wspominam we wpisie pobocznym.
+2. [Drugi film](https://www.youtube.com/watch?v=wZ2TF8-PGQ4) to TED Talk niejakiej Pameli Ronald, przekonujący o&nbsp;zaletach modyfikowania żywności.
 
 ### Konkretne tożsamości
 
@@ -313,7 +313,7 @@ Oczywiście. Bayer ich sobie kupił, a&nbsp;potem tak po prostu machnął ręką
 Źródło: wykres dla odpisu z&nbsp;KRS-u wykonany [moim autorskim skryptem]({% post_url 2021-12-14-krs-zabawy %}){:.internal}.  
 Wybaczcie nakładające się daty.
 
-Zaprzeczają w&nbsp;żywe oczy. „Twój świat jest fałszywy”. „To się nie zdarzyło”. „Mówisz nieprawdę”. „Zwariowałeś, wszystko z&nbsp;tobą w&nbsp;porządku?”.
+Zaprzeczają w&nbsp;żywe oczy. „Twój świat jest fałszywy”. „To się nie zdarzyło”. „Mówisz nieprawdę”. „Zwariowałeś, wszystko z&nbsp;tobą w&nbsp;porządku?”. Albo...
 
 ### „Nie jesteśmy trollami”
 

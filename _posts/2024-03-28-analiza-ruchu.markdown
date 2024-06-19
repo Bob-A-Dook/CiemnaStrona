@@ -317,11 +317,11 @@ Z tego względu nie będę tutaj polecał żadnego konkretnego VPN-a. Nie chcę�
 Rozwiązaniem jeszcze potężniejszym, do tego darmowym, byłoby skorzystanie z&nbsp;przeglądarki [Tor Browser](https://www.torproject.org/download/).
 
 Wykorzystuje ona sieć Tor.  
-To cała pajęczyna pośredników, rozrzuconych po świecie i&nbsp;przydzielanych losowo na potrzeby naszych interakcji. Każdy z&nbsp;nich zna tylko część informacji, więc mieliby poważny problem, żeby przypisać odwiedziny na stronach do konkretnych osób. 
+To cała pajęczyna pośredników, rozrzuconych po świecie i&nbsp;przydzielanych losowo na potrzeby naszych interakcji. Każdy z&nbsp;nich zna tylko część informacji; nawet gdyby został przejęty, nie miałby jak gromadzić powiązań nadawca-adresat. 
 
 A to zaledwie początek. Sieć Tor celowo [miesza, żeby utrudnić analizę ruchu](https://youtu.be/trMLnwZAqEM?feature=shared&t=151) (YouTube). Dodaje od siebie trochę sztucznych pakietów, wprowadza nieregularne opóźnienia... Aktywnie utrudnia podglądaczom życie.
 
-Sieć jest rozwiązaniem ogólnym, z&nbsp;którego mogą korzystać inne przeglądarki. Funkcję wspiera choćby Brave. Ale to Tor Browser, autorska przeglądarka od ekipy tworzącej sieć, zawiera najwięcej bajerów chroniących prywatność.
+Sieć Tor, wbrew powszechnym przekonaniom, nie jest uwiązana do jednego programu. To rozwiązanie ogólne, z&nbsp;którego mogą korzystać różne przeglądarki, jak choćby Brave. Ale to Tor Browser, autorska przeglądarka od ekipy tworzącej sieć, zawiera najwięcej bajerów chroniących prywatność.
 
 {% include info.html
 type="Uwaga"

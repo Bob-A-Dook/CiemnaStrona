@@ -58,7 +58,7 @@ W ten sposób doszedłem do wniosku, że **tylko zdobycie danych u&nbsp;samego �
 Najpierw krótko przypomnę różnice między dokumentami z&nbsp;KRS-u (odpisami) a&nbsp;egzemplarzami Monitora.
 
 * Jeden odpis z&nbsp;KRS-u pokazuje wszystkie wydarzenia z&nbsp;całego okresu życia jednej konkretnej firmy.  
-* Jeden egzemplarz Monitora pokazuje wszystkie wydarzenia z&nbsp;dość krótkiego okresu czasu (do kilku dni) dla wszystkich firm w&nbsp;Polsce .  
+* Jeden egzemplarz Monitora pokazuje wszystkie wydarzenia z&nbsp;dość krótkiego okresu czasu (do kilku dni) dla wszystkich firm w&nbsp;Polsce.  
 
 Dla wzrokowców mam nieco bidny schemat zrobiony w&nbsp;LibreOffice Calc:
 
