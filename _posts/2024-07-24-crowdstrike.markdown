@@ -322,7 +322,7 @@ Teraz powinno być jeszcze lepiej. Po obecnej aferze można usłyszeć słowa pr
 > To jest bardzo cenna lekcja dla użytkowników tego oprogramowania, którzy powinni się zastanowić nad pewną heterogenicznością środowisk, bo być może nie zawsze warto polegać na jednym rozwiązaniu
 
 {:.figcaption}
-Źródło: [Wywiad](https://tvn24.pl/biznes/tech/globalna-awaria-crowdstrike-to-cenna-lekcja-problemu-nie-dalo-sie-usunac-zdalnie-st8011587) z&nbsp;Michałem Majem z&nbsp;Niebezpiecznika, opublikowany na stronie TVN24.
+Źródło: [Wywiad](https://tvn24.pl/biznes/tech/globalna-awaria-crowdstrike-to-cenna-lekcja-problemu-nie-dalo-sie-usunac-zdalnie-st8011587) z&nbsp;Marcinem Majem z&nbsp;Niebezpiecznika, opublikowany na stronie TVN24.
 
 W sprawie wypowiedział się nawet minister cyfryzacji, tonem niepochlebnym wobec cyfrowej zależności, a&nbsp;swoje zdanie potwierdził w&nbsp;kolejnych wywiadach.
 
