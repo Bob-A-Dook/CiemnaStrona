@@ -94,7 +94,7 @@ To tyle z&nbsp;podsumowania suchych faktów. A&nbsp;na czym cała awaria polega�
 
 Aby lepiej zrozumieć całą sytuację, musimy (po-)znać pewną cechę wielu współczesnych systemów, w&nbsp;tym również Windowsa.
 
-Bo widzicie -- zazwyczaj **systemy operacyjne mają warstwy** Jak cebula. Lub ogry.
+Bo widzicie -- zazwyczaj **systemy operacyjne mają warstwy**. Jak cebula. Lub ogry.
 
 System ma swoją część powierzchowną, widoczną, przeznaczoną dla użytkowników. To różne graficzne interfejsy i&nbsp;kontrolki. Ustawienia, które można łatwo zmieniać. Głośność, język, te sprawy.
 
