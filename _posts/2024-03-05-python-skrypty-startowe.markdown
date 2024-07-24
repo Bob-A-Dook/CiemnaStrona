@@ -189,7 +189,7 @@ Czasem określa się tak pliki nieczytelne dla człowieka, w&nbsp;odróżnieniu 
 Ale w&nbsp;sumie za kulisami i&nbsp;tak każdy plik to zera i&nbsp;jedynki, więc nie będę się wykłócał :smile:"
 %}
 
-Treść plików ze specjalnego folderu odczytałem krótkim, skleconym na kolanie skryptem.
+Wyświetliłem obok siebie treść kilku innych skryptów-uruchamiaczy. Skleconym na kolanie skryptem, ale równie dobrze mógłbym użyć (linukosowego odpowiednika) Notatnika.
 
 Spodziewałem się pewnej różnorodności. Myślałem, że każda osoba publikująca swoje moduły Pythona tworzy również jakiś własny skrypt startowy. A&nbsp;tymczasem po sprawdzeniu innych skryptów odkryłem, że **wiele z&nbsp;nich było niemal identycznych**.
 
@@ -256,7 +256,7 @@ Ograniczyłem się tutaj jedynie do fragmentu linijki, reszta była bez zmian.
 Znak zapytania to część elastycznych regułek szukających. Sprawia, że rzecz stojąca przed nim [staje się opcjonalna](https://docs.python.org/3/library/re.html). Może być, może jej nie być. Ten wyróżniony odnosi się do literki&nbsp;*w*.  
 W praktyce jedna wersja skryptu będzie usuwała z&nbsp;nazwy aktywnego programu (Pythona) jedynie końcówki `-script.pyw` i&nbsp;`.exe`, druga ponadto `-script.py`.
 
-Ten znak w&nbsp;oglądanych przeze mnie skryptach zawsze występował razem z&nbsp;kilkoma pustymi linijkami (ilustracja wyżej). Dlatego w&nbsp;myślach wydzieliłem sobie dwie kategorie skryptów: „linijki i&nbsp;znak zapytania” oraz „zwięzłe, bez znaku”.
+Ten znak, wedle moich obserwacji, zawsze występował razem z&nbsp;kilkoma pustymi linijkami (ilustracja wyżej). Dlatego w&nbsp;myślach wydzieliłem sobie dwie kategorie skryptów: „linijki i&nbsp;znak zapytania” oraz „zwięzłe, bez znaku”.
 
 ## Znalezienie części zmiennej
 

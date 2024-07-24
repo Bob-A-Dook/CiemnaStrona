@@ -288,7 +288,10 @@ Wady? Nawet jeśli podglądacz nie widzi domeny, nadal widzi docelowe adresy IP.
 W skrajnym przypadku adres IP odpowiada jeden do jednego jakiejś konkretnej stronie. Wtedy ukrycie domeny byłoby na nic.
 
 W obecnych czasach pod jednym adresem IP nieraz występuje wiele różnych domen. Utrudnia to rozpoznawanie, dokąd ktoś idzie... Ale niekoniecznie je uniemożliwia.  
-Niektórzy badacze byli w&nbsp;stanie odgadywać odwiedzane strony [na podstawie kombinacji adresów IP](https://www3.cs.stonybrook.edu/~mikepo/papers/fingerprinting.pets21.pdf), z&nbsp;jakimi były związane. Opiszę to dokładniej w&nbsp;kolejnym wpisie.
+Niektórzy badacze byli w&nbsp;stanie odgadywać odwiedzane strony [na podstawie kombinacji adresów IP](https://www3.cs.stonybrook.edu/~mikepo/papers/fingerprinting.pets21.pdf), z&nbsp;jakimi były związane.
+
+{:.post-meta .bigspace-after}
+**Aktualizacja:** kwestię odgadywania stronek na podstawie ogólnych nazw i&nbsp;adresów opisałem dokładniej w&nbsp;[późniejszym wpisie]({% post_url 2024-06-19-website-fingerprinting %}){:.internal}.
 
 Druga słabość kombinacji DoH+ECH to fakt, że na razie metoda dopiero się przebija do mainstreamu, [wiele stron jej nie obsługuje](https://link.springer.com/chapter/10.1007/978-3-031-25460-4_10). Nawet jeśli się spopularyzuje, nigdy nie ochroni *wszystkich* stron.
 
@@ -353,7 +356,7 @@ Z kolei fakt, że istnieją listy związanych z&nbsp;nią adresów IP, jest racz
 
 Gdyby kogoś zainteresował temat, to proponuję poszukać w&nbsp;sieci frazy `tor correlation attack`. To cały obszar badań i&nbsp;można znaleźć różne ciekawe prace.
 
-Na dziś to tyle! Niebawem wrzucę jeszcze jeden wpis, w&nbsp;którym rozwijam wątek analizy ruchu o&nbsp;aktywne tworzenie mapek stron. Tak zwany *website fingerprinting*.
+Na ten wpis to tyle! Dla zainteresowanych osób mam zaś kolejny, opisujący [*website fingerprinting*]({% post_url 2024-06-19-website-fingerprinting %}){:.internal} -- wzbogacenie analizy ruchu o&nbsp;aktywne mapowanie stron internetowych.
 
 {% include info.html
 type="Źródło obrazków"

@@ -259,7 +259,7 @@ Oprócz bezpośrednich współpracowników Monsanto miało też partnerów dals
 
 Monsanto nie oszczędzało, jeśli chodzi o&nbsp;front PR-owy. W&nbsp;ramach akcji pod kryptonimem *Let Nothing Go* wydali w&nbsp;samym 2016&nbsp;roku (po niekorzystnym werdykcie IARC) [kilkanaście milionów dolarów](https://usrtk.org/wp-content/uploads/2019/03/Transcript-deposition-of-Monsanto-employee-Sam-Murphey.pdf) na ostrą walkę z&nbsp;krytyką w&nbsp;różnej maści mediach społecznościowych. Z&nbsp;założenia miało to obejmować stawianie pozornie neutralnych stron internetowych.
 
-To do tej kategorii należą strony tak często linkowane przez trzy konta z&nbsp;YouTube'a. Była to cała siatka powiązań; mały ekosystem dbający, nieraz w&nbsp;sposób kontrowersyjny, o&nbsp;reputację różnych branż.
+To do tej kategorii należą strony tak często linkowane przez trzy konta z&nbsp;YouTube'a. Była to cała siatka powiązań; mały ekosystem dbający, nieraz w&nbsp;sposób niezbyt etyczny, o&nbsp;reputację różnych branż.
 
 Żeby nie przerywać wątku głównego wokół YouTube'a, wydzieliłem trochę informacji o&nbsp;tych portalach do [osobnej podstrony](/miniposts/biotech-pr-strony){:.internal}. Można sobie poczytać teraz albo otworzyć w&nbsp;osobnej karcie i&nbsp;czasem tam sobie zerkać.
 

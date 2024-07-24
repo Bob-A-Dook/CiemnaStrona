@@ -331,10 +331,12 @@ Tłumaczenia komentarzy moje.
 
 Ktoś inny [dopowiada](https://news.ycombinator.com/item?id=20447076):
 
-{:.bigspace-after}
 > tylko jedna z&nbsp;tych firm (Bunge) jest publicznie notowana, więc dużo rzeczy dzieje się za zamkniętymi drzwiami. Największa z&nbsp;nich to Cargill.
 
-Z tym publicznym notowaniem chodzi o&nbsp;to, że nie ma ich na giełdzie, w&nbsp;przeciwieństwie do wielu innych gigantów. Ma to swoje wady, ale daje im ogromną korzyść -- [mniejszy obowiązek przejrzystości](https://www.investopedia.com/articles/stocks/08/companies-stay-private.asp).
+{:.figcaption}
+Wbrew komentarzowi, Archer Daniels Midland również [jest na giełdzie](https://finance.yahoo.com/quote/ADM/).
+
+Z tym brakiem publicznego notowania chodzi o&nbsp;to, że nie ma ich na giełdzie, w&nbsp;przeciwieństwie do wielu innych gigantów. Ma to swoje wady, ale daje im ogromną korzyść -- [mniejszy obowiązek przejrzystości](https://www.investopedia.com/articles/stocks/08/companies-stay-private.asp).
 
 Pod względem „niegiełdowości” i&nbsp;wieloletniej obecności na rynku bardzo przypominają [Bechtela](/2023/09/23/bechtel-boliwia-woda){:.internal}. Był on bardzo blisko amerykańskich polityków i&nbsp;dostawał dzięki temu lukratywne kontrakty, o&nbsp;jakich zwykłe firmy mogły pomarzyć.  
 Czy zbożowi giganci też mają takie przywileje? Nie wiem.

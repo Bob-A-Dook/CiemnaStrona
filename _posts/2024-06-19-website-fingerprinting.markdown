@@ -122,7 +122,7 @@ W oczach użytkownika link do przykładowej dyskusji, kliknięty w&nbsp;wyszukiw
 https://tor.stackexchange.com<span class="red">/questions/222/how-can-website-fingerprinting-be-prevented</span>
 </div>
 
-Podglądacze widzą to, co na biało, ogólną nazwę i&nbsp;rozmiar danych. Z&nbsp;kolei czerwona część linku, jak i&nbsp;sama treść strony, są zaszyfrowane.
+Podglądacze widzą to, co na biało. Ogólną nazwę i&nbsp;rozmiar danych. Z&nbsp;kolei czerwona część linku, jak i&nbsp;sama treść strony, są zaszyfrowane.
 
 {:.figure .bigspace-before}
 <img src='/assets/posts/inwigilacja/website-fingerprinting/wireshark-tor-stack-sni.jpg' alt='Informacja z&nbsp;programu Wireshark pokazująca nazwę domeny, tor.stackexchange.com'/>
@@ -150,7 +150,7 @@ Na podforum dotyczącym Tora znajdowało się łącznie, gdy ostatnio zerkałem,
 
 Dla człowieka może i&nbsp;dużo, dla komputera -- tyle co nic. Podglądacz może wypuścić na interesującą go stronkę swojego **_crawlera_**, czyli program odwiedzający wskazane strony i&nbsp;zapisujący sobie ich treść.
 
-W przypadku Stacka to o&nbsp;tyle łatwe, że przeglądanie stron nie wymaga logowania. Nawet gdyby istniały jakieś zabezpieczenia utrudniające automatyczne zbieractwo, podglądacz mógłby skorzystać z&nbsp;usługi zewnętrznej, korzystającej z&nbsp;całej sieci komputerów i&nbsp;różnych adresów IP.
+W przypadku Stacka to o&nbsp;tyle łatwe, że przeglądanie stron nie wymaga logowania. Nawet gdyby istniały jakieś zabezpieczenia utrudniające amatorskie zbieractwo, podglądacz mógłby zapłacić zbieraczom zawodowym. Korzystając z&nbsp;całej sieci komputerów i&nbsp;dużej puli adresów IP, ominęliby blokady i&nbsp;pobrali całą treść.
 
 Do tego automat mógłby wykorzystać na swoją korzyść szablonowy format linków do list zbiorczych:
 
@@ -370,7 +370,7 @@ Przycinanie wszystkich elementów do jednego rozmiaru raczej nie wchodzi w&nbsp;
 
 Problem w&nbsp;tym, że może być to zbyt uciążliwe dla wielu osób tworzących strony.
 
-Przykład? Jeśli jeden wpis ma sześć obrazków, a&nbsp;inny tylko dwa, to gdzieś do tego drugiego należałoby dodać cztery puste obrazki. Do tego dopchać każdy z&nbsp;realnych obrazków do maksymalnego rozmiaru.
+Przykład? Jeśli jeden wpis ma sześć obrazków, a&nbsp;inny tylko dwa, to gdzieś do tego drugiego należałoby dodać cztery obrazki-zapychacze. Do tego dopchać każdy z&nbsp;realnych obrazków do maksymalnego rozmiaru.
 
 Strasznie dużo koordynacji. Do tego konieczność istotnego przekształcania swojej strony przy każdej drobnej zmianie.
 
@@ -397,7 +397,7 @@ W ostateczności, mając niewielką stronę i możliwość ręcznego dodawania 
 {:.post-meta .bigspace-after}
 **Uwaga:** domyślnie SingleFile dodaje na początku pliku komentarz z&nbsp;paroma informacjami, jak data zapisania. Dla pewności można go usunąć.
 
-Efekt rozwiązania? Każda podstrona byłaby jednym, samowystarczalnym plikiem HTML. Dużo łatwiej by było je dopchać pustymi danymi, żeby wszystkie miały identyczny rozmiar.
+Efekt rozwiązania? Każda podstrona byłaby jednym, samowystarczalnym plikiem HTML. Dużo łatwiej by było je dopchać pustymi danymi (np. długim komentarzem na końcu), żeby wszystkie miały identyczny rozmiar.
 
 Wada rozwiązania? Wzrost rozmiaru stron. Użytkownicy będą musieli dłużej czekać, aż się wyświetlą, bo nie będzie ładowania na raty. Ale dla niektórych to niewielka cena za ochronę prywatności.
 
