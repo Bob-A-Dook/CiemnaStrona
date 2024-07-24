@@ -15,7 +15,7 @@ image:
   alt: "Przerobiony kadr z anime, na którym rozzłoszczony mężczyzna pokazuje na ścianę telewizorów z niebieskimi ekranami"
 ---
 
-W zeszły piątek, 19&nbsp;sierpnia 2024&nbsp;roku, wielu Polaków odliczało ostatnie godziny przed weekendem. W&nbsp;tym samym czasie w&nbsp;USA dzień się dopiero zaczynał.
+W zeszły piątek, 19&nbsp;lipca 2024&nbsp;roku, wielu Polaków odliczało ostatnie godziny przed weekendem. W&nbsp;tym samym czasie w&nbsp;USA dzień się dopiero zaczynał.
 
 Miliony firmowych komputerów z&nbsp;systemem Windows -- niczym człowiek otwierający poranną gazetę, żeby zaktualizować swoją wiedzę o&nbsp;świecie -- załadowały nowe aktualizacje. W&nbsp;tym jedną rutynową, od programu antywirusowego firmy CrowdStrike.
 
