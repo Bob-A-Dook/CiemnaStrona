@@ -86,7 +86,7 @@ I tak dalej, było tego dużo więcej.
 
 Jeśli ktoś chce poznać więcej przykładów, to proponuję [megawątek](https://news.ycombinator.com/item?id=41002195) na forum HN (ponad 3800&nbsp;komentarzy, absolutny rekord), [dyskusję](https://www.reddit.com/r/sysadmin/comments/1e6vq04/many_windows_10_machines_blue_screening_stuck_at/) na Reddicie albo przeszukanie innych portali pod hasłami `crowdstrike`, `"blue screen"`, `bsod` i&nbsp;tak dalej.
 
-Wedle analizy Microsoftu wadliwa aktualizacja uderzyła w&nbsp;kilkadziesiąt milionów komputerów. Możliwe, że to największa taka awaria w historii. Pod względem samego zasięgu, nie mówiąc już o&nbsp;konsekwencjach.
+Wedle [analizy](https://blogs.microsoft.com/blog/2024/07/20/helping-our-customers-through-the-crowdstrike-outage/) Microsoftu wadliwa aktualizacja uderzyła w&nbsp;8,5 mln komputerów, ale nie zdziwiłbym się, gdyby kaskadowe efekty dosięgły i kilkudziesięciu milionów. Możliwe, że to największa taka awaria w historii. Pod względem samego zasięgu, nie mówiąc już o&nbsp;konsekwencjach.
 
 To tyle z&nbsp;podsumowania suchych faktów. A&nbsp;na czym cała awaria polegała i&nbsp;skąd się wzięła?
 
