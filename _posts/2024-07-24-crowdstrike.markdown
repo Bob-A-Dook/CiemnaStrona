@@ -116,7 +116,7 @@ Kiedyś przydarzył się na żywo na oczach samego szefa Microsoftu, Billa G., 
 
 A czym jest ta ikona wewnątrz jądra? To Falcon Sensor (dosł. „Sokoli Czujnik”) -- antywirus od **niezależnej firmy CrowdStrike**. Część ogólniejszego pakietu usług nazwanych [Falcon](https://www.crowdstrike.com/products/faq/). Dobrowolnie zainstalowany przez użytkowników.
 
-To dlatego słowa „awaria z&nbsp;winy Microsoftu” są nieco naciągane. Microsoft był tu jak deweloper, który pobudował domy. Duże firmy były jak nabywcy tych domów. Zaś Falcon to gość, którego zaprosili i&nbsp;który narozrabiał, grzebiąc przy instalacji [jak Randy z&nbsp;„Chłopaków z&nbsp;baraków”](https://www.youtube.com/watch?v=HNrYJUxdW6M) (YT). 
+To dlatego słowa „awaria z&nbsp;winy Microsoftu” są nieco naciągane. Microsoft był tu jak deweloper, który pobudował domy. Duże firmy były jak nabywcy tych domów. Zaś Falcon to gość, którego zaprosili i&nbsp;który narozrabiał, grzebiąc przy instalacji [jak Ricky z&nbsp;„Chłopaków z&nbsp;baraków”](https://www.youtube.com/watch?v=HNrYJUxdW6M) (YT). 
 
 Można oczywiście mieć zastrzeżenia do tego, że deweloper bardziej wszystkiego nie zabezpieczył (jeszcze do tego wrócę). Albo że ogólnie jest zachłanny. Ale sama destrukcja wynikała z&nbsp;działań gościa.
 
