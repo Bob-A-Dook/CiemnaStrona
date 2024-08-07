@@ -69,7 +69,7 @@ Parę migawek z&nbsp;tego całego chaosu:
 
   Chaos dodatkowo potęgował fakt, że klienci, którzy zostali na lodzie, udali się do hoteli blisko lotnisk, często sieciówek... Również dotkniętych awarią.
 
-* Oberwały też same linie lotnicze. Z&nbsp;tych znanych w&nbsp;Polsce: [WizzAir i&nbsp;RyanAir](https://warszawa.wyborcza.pl/warszawa/7,54420,31156201,globalna-awaria-systemu-windows-spradzamy-sytuacje-na-warszawskich.html).
+* Oberwały też same linie lotnicze. Z&nbsp;tych znanych w&nbsp;Polsce: [Wizz Air i&nbsp;Ryanair](https://warszawa.wyborcza.pl/warszawa/7,54420,31156201,globalna-awaria-systemu-windows-spradzamy-sytuacje-na-warszawskich.html).
 * W&nbsp;niektórych motelach [nie działały zamki elektroniczne](https://mastodon.radio/@wa7iut/112813617928668882); radzono ludziom, żeby nie zamykali drzwi. 
 * Jeśli wierzyć Wikipedii, błąd wyświetlały popularne, kojarzące mi się z Wielkim Bratem teleekrany reklamowe od Clear Channel.
 * Awaria uderzyła też [w drużynę Mercedesa](https://www.racefans.net/2024/07/19/global-crowdstrike-outage-leaves-mercedes-fixing-computers-before-practice/), prowadzącą ćwiczenia przed wyścigami Formuły 1. Którą to zresztą drużynę sponsoruje firma winna awarii.
