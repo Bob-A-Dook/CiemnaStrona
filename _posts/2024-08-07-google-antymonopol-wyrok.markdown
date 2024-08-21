@@ -155,7 +155,7 @@ Ten wątek jest przystępnie opisany na stronie Edwarda Zitrona, w&nbsp;artykule
 
 Źródłem pierwotnym jest natomiast [wątek mailowy](https://www.justice.gov/d9/2023-11/417581.pdf) ujawniony podczas rozprawy (maile ułożone od najnowszego do najstarszego).
 
-Chodzi o&nbsp;bardzo podobną sprawę jak ta wyżej opisana. Dział reklam i&nbsp;dział finansów naciskali w&nbsp;2019 roku na lepsze wyniki. Tym razem oczekiwali ich od ludzi odpowiedzialnych za wyszukiwarkę, czyli m.in. stronę `google.com` i&nbsp;jej kulisy. 
+Chodzi o&nbsp;bardzo podobną sprawę jak ta wyżej opisana. Dział reklam i&nbsp;dział finansów naciskały w&nbsp;2019&nbsp;roku na lepsze wyniki. Tym razem oczekiwały ich od ludzi odpowiedzialnych za wyszukiwarkę, czyli m.in. stronę `google.com` i&nbsp;jej kulisy. 
 
 Cała historia jest przedstawiona w&nbsp;artykule jako zderzenie dwóch światów -- rzemieślników-perfekcjonistów oraz maksymalizatorów zysku. Można zauważyć, jak ci drudzy coraz bardziej się rozpychają i&nbsp;zyskują wpływy, a&nbsp;pierwsi popadają w&nbsp;gorycz.
 
@@ -164,7 +164,7 @@ Pojawia się presja na to, żeby zwiększyć przychody z&nbsp;reklam. Co dział 
 * wyłączenia autokorekty pisowni  
   (zapewne po to, żeby użytkownicy musieli wpisać ponownie poprawione hasło, nabijając dwa wyszukania);
 * wyłączenia wspomaganego szukania  
-  (zapewne by to, żeby wymusić więcej zapytań, nim pojawi się szukana rzecz).
+  (zapewne po to, żeby wymusić więcej zapytań, nim pojawi się szukana rzecz).
 
 ...Ale jednocześnie dystansuje się od tych rozwiązań. Pisze, że rzeczy w&nbsp;tym stylu negatywnie by się odbiły na produkcie. I&nbsp;że przyjmowanie suchej liczby wyszukań za miernik jakości raczej nie skończy się dobrze.
 
@@ -237,7 +237,7 @@ No i&nbsp;sąd podjął decyzję. Google oficjalnie dołączył do grona nielega
 
 Całej sprawie dodaje smaczku fakt, że w&nbsp;początkach swojego istnienia Google jako oficjalne hasło, obecne również w regulaminie, przyjął *"Don't be evil"*. „Nie czyń zła”.
 
-Choć słowo *evil* pasuje do wielu organizacji, wówczas w&nbsp;światku komputerowym takim „domyślnym” złem był Microsoft. Synonim chciwego, zaborczego megakorpo. W&nbsp;2001 roku został [oficjalnie uznany za monopolistę](https://wyborcza.biz/biznes/7,177151,4484142.html) wyrokiem sądu.
+Choć słowo *evil* pasuje do wielu organizacji, wówczas w&nbsp;światku komputerowym takim „domyślnym” złem był Microsoft. Synonim chciwego, zaborczego megakorpo. W&nbsp;2001 roku został [oficjalnie ukarany za monopolizację](https://wyborcza.biz/biznes/7,177151,4484142.html) wyrokiem sądu.
 
 Hasło Google'a było zatem subtelną aluzją, szpilką wbitą MS-owi. „Nie będziemy tacy jak oni”.
 

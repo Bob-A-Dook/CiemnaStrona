@@ -301,10 +301,10 @@ Pod względem skuteczności ten lobbing mógłby zawstydzić nawet [trolle od fi
 
 Złośliwy kod wykrył pewien programista, Andres Freund. Łączył się z&nbsp;bazą i&nbsp;zauważył anomalię. Wszystko działało wolniej.
 
-Dostrzegł, że dziwne działanie było związane z&nbsp;programem `sshd`.Obecnym na serwerze i&nbsp;pozwalającym łączyć się z&nbsp;nim w&nbsp;szyfrowany sposób.  
+Dostrzegł, że dziwne działanie było związane z&nbsp;programem `sshd`. Obecnym na serwerach i&nbsp;pozwalającym łączyć się z&nbsp;nimi w&nbsp;szyfrowany sposób.  
 To trochę jak wpisywanie hasła do swojego laptopa, żeby wyświetlił się pulpit. Tyle że maszyna może być dużo dalej, a&nbsp;zamiast pulpitu jest tekstowa konsola.
 
-Kiedy Freund dostrzegł, co się święci, dał znać autorom projektów. A&nbsp;po ustalonym czasie [wszczął alarm](https://www.openwall.com/lists/oss-security/2024/03/29/4). To właśnie informacje od niego wywołały poruszenie, o&nbsp;którym napisałem na początku.
+Kiedy Freund dostrzegł, co się święci, dał znać autorom projektów. A&nbsp;po ustalonym czasie [wszczął alarm](https://www.openwall.com/lists/oss-security/2024/03/29/4). W&nbsp;linku artykuł, który wywołał poruszenie na forum HN, wspomniane na początku wpisu.
 
 Na tym etapie różne dystrybucje Linuksa przywróciły awaryjnie starszą wersję XZ i&nbsp;powiązanych narzędzi. Serwis Github zablokował konta hakera i&nbsp;samego projektu.
 

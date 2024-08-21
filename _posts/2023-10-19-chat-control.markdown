@@ -85,10 +85,10 @@ Wiele komunikatorów chroni nas obecnie przed podglądaczami z&nbsp;zewnątrz --
 
 Cała komunikacja jest szyfrowana. Nadal można dość łatwo przechwycić cyfrowy odpowiednik listów lecących w&nbsp;świat. Ale nie zajrzy się do ich wnętrza.
 
-Jako przykładu użyję komunikatora Signal. Ta apka, choć bezpieczna, nie jest jakoś wybitnie buntownicza. Na żądanie władz zapewne by przekazali wszystko, co z&nbsp;nami związane.
+Jako przykładu użyję komunikatora Signal. Ta apka, choć bezpieczna, nie jest jakoś wybitnie buntownicza. Na żądanie władz zapewne by przekazali wszystko, co związane z&nbsp;konkretnymi osobami.
 
 ...Ale to „wszystko” nie byłoby imponujące. Bo Signal został tak zaprojektowany, żeby mieć jak najmniej wglądu.  
-Zaszyfrowane wiadomości. Których szyfrów nikt nie powinien złamać, łącznie z&nbsp;samym Signalem. Parę prostych metadanych, jak godziny wysłania.
+Zaszyfrowane wiadomości, których szyfrów nikt nie powinien złamać, łącznie z&nbsp;samym Signalem. Parę prostych metadanych, jak godziny wysłania. Tylko tyle dostałyby służby.
 
 {:.bigspace-before}
 <img src="/assets/posts/inwigilacja/chat-control/szyfrowanie-signal-podstawa.jpg" alt="Schemat pokazujący komunikację między dwiema osobami przy udziale apki Signal"/>
@@ -110,7 +110,7 @@ Signal tym razem na fioletowo, bo zmieniła się jego natura.
 
 Schemat praktycznie by się nie zmienił, gdyby -- zamiast ostrzegania służb -- był tu obowiązek dzielenia się z&nbsp;nimi pierwotnymi treściami. Ot, zamiast znaku ostrzegawczego byłaby druga szyfrowana skrzynka, wysyłana na policję.
 
-Z pozoru zdanie się na automat daje nieco więcej prywatności. W&nbsp;niepowołane ręce poleci tylko to, co uzna on za złe.  
+Z pozoru zdanie się na automat daje nieco więcej prywatności. W&nbsp;niepowołane ręce poleci tylko to, co uzna on za złe, a&nbsp;nie cała korespondencja.  
 Problem w&nbsp;tym, że jego rozumienie zła może być mocno wadliwe.
 
 ## Realna głupota sztucznej inteligencji
@@ -213,7 +213,7 @@ Przypomnijmy sobie schemat takiej sytuacji:
 {:.bigspace}
 <img src="/assets/posts/inwigilacja/chat-control/szyfrowanie-signal-chat-control.jpg" alt="Schemat pokazujący, jak wewnątrz apki Signal osadzono wrogi algorytm, oznaczony tu ikoną wszechwidzącego oka. Od aplikacji odchodzą dwie strzałki. Jedna z&nbsp;nich jest identyczna jak na poprzednim schemacie, skierowana w&nbsp;stronę apki drugiej osoby, znajduje się nad nią ikona zamniętej pancernej skrzyni. Nad drugą strzałką, czerwoną i&nbsp;prowadzącą na ukos ku górze w&nbsp;stronę znaku zapytania, widać ikonę wykrzyknika."/>
 
-Musimy użyć czatu, a&nbsp;czat jest na podsłuchu. Ale przecież oprócz niego mamy inne programy. Zaś aplikacje, przynajmniej na smartfonach, są całkiem niezależne. Nie mogą do siebie zaglądać.
+Musimy użyć czatu, a&nbsp;czat jest na podsłuchu. Ale przecież oprócz niego mamy inne programy. Zaś aplikacje, przynajmniej na smartfonach, są całkiem niezależne. [Nie mogą do siebie zaglądać](https://developer.android.com/training/data-storage/app-specific).
 
 Jeśli aplikacja zawiera podsłuch, można poza nią (choćby „w realu”) **uzgodnić z&nbsp;odbiorcą hasło. I&nbsp;przed wysłaniem wrażliwych rzeczy szyfrować je w&nbsp;innej, zaufanej apce**.
 
