@@ -4,42 +4,67 @@ title: Praca z aplikacją Termux
 description: "Robimy z telefonu narzędzie pracy."
 ---
 
+{:.figure .bigspace-after}
+<img src="/assets/tutorials/termux/termux-ciemna-edit.jpg" alt="Zrzut ekranu pokazujący nazwę programu Termux, w formie ascii art, wewnątrz konsoli tego programu. Pod spodem widać dopisek 'Ukłony od ciemnastrona.com.pl' i uśmiechniętą emotkę"/>
+
 To nie tyle spójny samouczek, co zbiór luźnych informacji na temat Termuksa -- aplikacji na Androida dającej możliwość korzystania z&nbsp;konsoli i&nbsp;skryptów na naszym własnym telefonie.
 
 Wymienione tu porady i&nbsp;problemy są dość uniwersalne, więc nie chciałem ich powtarzać w&nbsp;każdym jednym wpisie i&nbsp;zebrałem je tutaj. Będę do nich odsyłał z&nbsp;innych wpisów.
 
-## Instalujemy Termuksa
+## Instalacja
 
 Zanim przejdę do instalacji, dwie kluczowe rzeczy:
 
 1. Instrukcja dotyczy **wyłącznie telefonów z systemem Android**.
 
-   To system docelowy dla Termuksa. Nawet jeśli powstały jakieś wersje dla systemu iOS albo bardziej niszowych, alternatywnych systemów (jak mobilny Linux), to nie miałem z nimi styczności.
+   To system docelowy dla Termuksa. Być może powstały jakieś wersje dla systemu iOS albo bardziej niszowych, alternatywnych systemów (jak mobilny Linux), ale nie miałem z&nbsp;nimi styczności.
 
-2. Google to zło.
+2. Google jest niedobrym monopolistą.
 
-   Są właścicielami Play Store'a -- oficjalnej i najpopularniejszej bazy z aplikacjami na Androida. Naszego Termuksa potraktowali niesprawiedliwie, zakazując mu dodawania niektórych funkcji, bardzo przydatnych dla majsterkujących użytkowników.
+   Są teź właścicielami Play Store'a -- oficjalnej i&nbsp;najpopularniejszej bazy z aplikacjami na Androida. Naszego Termuksa potraktowali niesprawiedliwie, zakazując mu dodawania niektórych funkcji, bardzo przydatnych dla majsterkujących użytkowników.
 
 Ze względu na punkt drugi **apka Termux dostępna przez Play Store jest wybrakowana**.
 
-Jasne, można jej użyć, jeśli chcemy tylko poćwiczyć w podróży korzystanie z programów konsolowych. Ale gdybyśmy chcieli skorzystać z pełni możliwości telefonu, mocno polecam pobranie wersji z innego źródła niż Play Store.
+Jasne, można jej użyć, jeśli chcemy tylko poćwiczyć w&nbsp;podróży korzystanie z&nbsp;programów konsolowych. Ale gdybyśmy chcieli skorzystać z&nbsp;pełni możliwości telefonu, mocno polecam pobranie wersji z&nbsp;innego źródła niż Play Store.
 
 ### F-Droid na ratunek
 
-„Inne źródło niż Play Store”? W porządku. Ale przydałoby się, żeby to źródło nie zaserwowało nam jakiejś apki z wirusami, która wykradnie nasze tajemnice z telefonu.
+„Inne źródło niż Play Store”? W porządku. Ale przydałoby się, żeby to źródło nie zaserwowało nam jakiejś apki z&nbsp;wirusami, która wykradnie nasze tajemnice z telefonu.
 
 Takim źródłem jest F-Droid -- baza przechowująca aplikacje *open source*.  
 Jest to źródło dość popularne i wiele osób ma je na oku, więc szybko by wyszło na jaw, gdyby ktoś próbował czegoś szemranego.
 
 Instalacja *prawdziwego* Termuksa w takim wypadku przebiega następująco:
 
-1. Najpierw pobieramy apkę F-Droid [przez oficjalną stronę](https://f-droid.org/).
-2. Następnie uruchamiamy F-Droida, znajdujemy przez jego wyszukiwarkę apkę Termux. Instalujemy ją.
-3. Na koniec instalujemy, również przez F-Droida, *Termux:API*.
+1. Najpierw pobieramy apkę F-Droid [z&nbsp;oficjalnego źródła](https://f-droid.org/).
+2. Następnie ją uruchamiamy i&nbsp;znajdujemy przez wyszukiwarkę apkę Termux. Instalujemy.
+3. Na koniec instalujemy, również przez F-Droida, `Termux:API`.
 
    To funkcje rozszerzające Termuksa. Pozwalają mu między innymi uzyskać dostęp do schowka, mikrofonu, czujników telefonu -- oczywiście tylko wtedy, kiedy wyrazimy zgodę.
 
 Kiedy już zrobimy te trzy rzeczy, świat Termuksa stanie przed nami otworem :smile:
+
+## Możliwości
+
+Co można robić, mając Termuksa?  
+Wszystkich zastosowań nie wymienię, bo są niezliczone! Jak dotąd opisałem na blogu:
+
+* [walkę z trollami]({% post_url 2022-04-15-trolle-rosja-ukraina %}){:.internal} (kopiowanie danych ze schowka + ich obróbka + otwieranie strony w domyślnej przeglądarce),
+* [chowanie plików]({% post_url 2022-11-16-apki-pliki %}#bonus-ukrywanie-plików-przez-termuksa){:.internal} poza zasięgiem innych (niesystemowych) aplikacji,
+* robienie prowizorycznego [backupu swoich SMS-ów]({% post_url 2022-12-02-apki-historia-sms %}){:.internal},
+* pobieranie filmików i&nbsp;muzyki z&nbsp;użyciem [yt-dlp](/tutorials/yt-dlp-android){:.internal}.
+
+A będzie tego więcej :wink:
+
+Poza tym, ogólniej: można korzystać z wielu przydatnych programów konsolowych znanych z systemu Linux.  
+Wiele fajnych samouczków można znaleźć w sieci pod hasłem `bash tutorial`. Choć nie były tworzone z&nbsp;myślą o&nbsp;Termuksie, nieraz zadziałają również na nim.
+
+{:.post-meta .bigspace-after}
+Oczywiście nie wszystko zadziała. Reguła kciuka: można od razu założyć, że nie ruszą programy, które uruchamiają jakiś graficzny interfejs (choć nawet to da się obejść) albo sięgają do wnętrza innych programów. Na Androidzie to nie przejdzie.
+
+Mało? Można zainstalować więcej programów z oficjalnej bazy. Dostępny jest chociażby język programowania Python, wraz z wieloma stworzonymi w nim pakietami (jak chociażby Matplotlib od wizualizacji danych).
+
+A gdyby ktoś jeszcze czuł niedosyt, to po zainstalowaniu `Termux:API` zyska dostęp do programów zintegrowanych z&nbsp;funkcjami smartfona. Warto poznać ich [oficjalną listę](https://wiki.termux.com/wiki/Termux:API).
 
 ## Python
 

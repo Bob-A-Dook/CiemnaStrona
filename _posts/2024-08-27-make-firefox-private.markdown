@@ -109,7 +109,7 @@ Następnie po lewej stronie należy kliknąć zakładkę `Prywatność i bezpie
 {:.figure .bigspace}
 <img src="/assets/posts/open_source/firefox/make-firefox-private/firefox-zakladka-prywatnosc.jpg" alt="Zrzut ekranu pokazujący zaznaczony na niebiesko tekst 'Prywatność i&nbsp;bezpieczeństwo'"/>
 
-Na koniec, trzeba znaleźć i&nbsp;odhaczyć odpowiednią funkcję.
+Na koniec trzeba znaleźć i&nbsp;odhaczyć odpowiednią funkcję.
 
 {:.bigspace}
 <img src="/assets/posts/open_source/firefox/make-firefox-private/firefox-wylaczanie-reklam.jpg" alt="Zrzut ekranu z&nbsp;opcji, pokazujący wyłączoną funkcję dopasowywania reklam"/>
@@ -252,7 +252,7 @@ Tu akurat wyjaśnienie jest proste. W&nbsp;tych nazwach nie ma nic specjalnego z
 * Plik *user.js* zawiera ustawienia odbiegające od domyślnych, dodane przez użytkowników. Jest wczytywany podczas uruchamiania Firefoksa.
 * Za nowe reklamy odpowiada ustawienie  
   `dom.private-attribution.submission.enabled`.
-* Rozszerzenie *.js* oznacza, że to plik w&nbsp;języku JavaScript, innym skryptowym. Ludzie z&nbsp;Firefoksa zapewne udostępnili publicznie funkcję `user_prefs(ZMIENNA, WARTOŚĆ)`, która pozwala zmieniać wartości różnych ustawień.
+* Rozszerzenie *.js* oznacza, że to plik w&nbsp;języku JavaScript, innym skryptowym. Ludzie z&nbsp;Firefoksa zapewne udostępnili publicznie funkcję `user_pref(ZMIENNA, WARTOŚĆ)`, która pozwala zmieniać wartości różnych ustawień.
 
 Autor *Make Firefox...* zapewne wyszukał na początku, skąd Firefox bierze ustawienia. Po czym stworzył skrypt wprowadzający te zmiany tam, gdzie będą dla Lisa czytelne.  
 Na tym się często opiera automatyzacja -- trzeba poczytać o&nbsp;wewnętrznym działaniu jakiegoś innego programu i&nbsp;dopasować się do niego. Czasem przeklinając, jeśli ten nie ułatwia współpracy :wink:
