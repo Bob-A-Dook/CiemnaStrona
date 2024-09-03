@@ -88,7 +88,7 @@ Również te bez czterech kolorków. Duo, Telefon i&nbsp;Wiadomości. Mimo że d
 Najmniej „googlowy” jest tu Aparat. Ale on również ma domyślnie włączoną integrację z&nbsp;Obiektywem Google.
 
 Potem pokażę, jak je zastąpić. A&nbsp;na tę chwilę, w&nbsp;ramach symbolicznego buntu, można się pozbyć wielkiego paska wyszukiwania (tzw. *widżeta*).  
-W tym celu trzeba go nacisnąć palcem i&nbsp;przytrzymać. Wyświetli się siatka pomocnicza pozwalająca usuwać elementy. A&nbsp;w górnej części -- ikonka usuwania. Wystarczy przeciągnąć na nią trzymany pasek, żeby pozbyć się go z&nbsp;ekranu.
+W tym celu trzeba go nacisnąć palcem i&nbsp;przytrzymać. Wyświetli się siatka ułatwiająca rozmieszczanie elementów. A&nbsp;w górnej części -- ikonka usuwania. Wystarczy przeciągnąć na nią trzymany pasek, żeby pozbyć się go z&nbsp;ekranu.
 
 {:.bigspace}
 <img src="/assets/posts/google/smartfon-degoogle/google-usuwanie-widzeta.jpg" alt="Ekran główny smartfona, na którym jaskrawszymi barwami wyróżniono dwa elementy. Jeden z&nbsp;nich to widżet od Google. Drugi to ikona z&nbsp;napisem Usuń w&nbsp;górnej części ekranu. Są połączone jaskrawą strzałką" style="max-width:50%"/>

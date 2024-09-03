@@ -56,13 +56,13 @@ Wszystkich zastosowań nie wymienię, bo są niezliczone! Jak dotąd opisałem n
 
 A będzie tego więcej :wink:
 
-Poza tym, ogólniej: można korzystać z wielu przydatnych programów konsolowych znanych z systemu Linux.  
-Wiele fajnych samouczków można znaleźć w sieci pod hasłem `bash tutorial`. Choć nie były tworzone z&nbsp;myślą o&nbsp;Termuksie, nieraz zadziałają również na nim.
+Poza tym, ogólniej: można korzystać z wielu przydatnych programów konsolowych znanych z&nbsp;systemu Linux.  
+Wiele fajnych samouczków można znaleźć w&nbsp;sieci pod hasłem `bash tutorial`. Choć nie były tworzone z&nbsp;myślą o&nbsp;Termuksie, nieraz zadziałają również na nim.
 
 {:.post-meta .bigspace-after}
 Oczywiście nie wszystko zadziała. Reguła kciuka: można od razu założyć, że nie ruszą programy, które uruchamiają jakiś graficzny interfejs (choć nawet to da się obejść) albo sięgają do wnętrza innych programów. Na Androidzie to nie przejdzie.
 
-Mało? Można zainstalować więcej programów z oficjalnej bazy. Dostępny jest chociażby język programowania Python, wraz z wieloma stworzonymi w nim pakietami (jak chociażby Matplotlib od wizualizacji danych).
+Mało? Można zainstalować więcej programów z&nbsp;oficjalnej bazy. Dostępny jest chociażby język programowania Python, wraz z&nbsp;wieloma stworzonymi w&nbsp;nim pakietami (jak chociażby Matplotlib od wizualizacji danych).
 
 A gdyby ktoś jeszcze czuł niedosyt, to po zainstalowaniu `Termux:API` zyska dostęp do programów zintegrowanych z&nbsp;funkcjami smartfona. Warto poznać ich [oficjalną listę](https://wiki.termux.com/wiki/Termux:API).
 

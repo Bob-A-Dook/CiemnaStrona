@@ -131,7 +131,7 @@ Dane dźwiękowe są bardzo upierdliwe. Jeśli chodzi o&nbsp;poziom trudności p
 
 *  Ustalenie, że odwiedziliśmy stronkę *poza Facebookiem*? To zależy.
 
-   Jeśli stronka zawiera elementy od samego Facebooka -- banalnie łatwe. Jeśli kliknęliśmy w&nbsp;link na samym Facebooku albo w&nbsp;którejś z&nbsp;ich aplikacji? Też możliwe. W&nbsp;innych wypadkach trudne albo niemożliwe.
+   Jeśli stronka zawiera elementy od samego Facebooka -- banalnie łatwe. Jeśli kliknęliśmy w&nbsp;link na samym Facebooku albo w&nbsp;którejś z&nbsp;ich aplikacji? [Też możliwe]({% post_url 2023-08-08-wbudowane-przegladarki %}){:.internal}. W&nbsp;innych wypadkach trudne albo niemożliwe.
 
 * Analizowanie wiadomości, jakie piszemy na Messengerze? Średnio trudne.
 
@@ -188,7 +188,7 @@ Jeśli jesteśmy szeregowymi użytkownikami, to nie sięgamy zwykle poniżej war
 Takie osoby mogłyby podporządkować sobie niższe warstwy telefonu. Umieścić tam cyfrowe odpowiedniki czujników.  
 „Informuj mnie za każdym razem, kiedy nastąpi przepływ danych między apką a&nbsp;mikrofonem”.
 
-Aplikacje nie miałyby pojęcia o&nbsp;istnieniu tego rodzaju czujników -- bo są w&nbsp;wyższych warstwach. Nawet jeśli zapytają dolne warstwy, to te po prostu mogą je okłamać bez konsekwencji. „Niee, nikt nie patrzy, co tam robisz z&nbsp;mikrofonem. *Trust me, bro*”.
+Aplikacje nie miałyby pojęcia o&nbsp;istnieniu tego rodzaju czujników -- bo są w&nbsp;wyższych warstwach. Nawet jeśli zapytają dolnych warstw, to te po prostu mogą je okłamać bez konsekwencji. „Niee, nikt nie patrzy, co tam robisz z&nbsp;mikrofonem. *Trust me, bro*”.
 
 {% include info.html
 type="Ciekawostka"
@@ -240,14 +240,12 @@ Może poprosić o pozwolenie w&nbsp;sytuacji, kiedy nie brzmi ono podejrzanie a
    Ale zaniepokoiło mnie, kiedy chciałem jeden taki dodatek uruchomić, wybierając ręcznie jego folder. Aplikacja poprosiła mnie o&nbsp;dostęp do mikrofonu. Odmówiłem i&nbsp;mogłem dalej normalnie z&nbsp;niej korzystać.  
    Możliwe że chodziło o&nbsp;jakąś niewinną możliwość udzielania poleceń głosowych. Ale, cytując klasyka, niesmak pozostał.
 
-Czy to przez uśpioną czujność, czy to przez pośpiech, możliwe że raz udzielimy apce pozwolenia. Wtedy niestety **pozostanie aktywne, póki sami go nie cofniemy**. Taka słabość systemu Android.  
-Ale nawet jeśli aplikacja dostanie pozwolenie na mikrofon, nie oznacza to, że nasz telefon już zmienił się w podsłuch.
+Czy to przez uśpioną czujność, czy to przez pośpiech, czasem udzielimy apce pozwolenia. Wtedy niestety **pozostanie aktywne, póki sami go nie cofniemy**. Taka słabość systemu Android.  
+Ale nawet jeśli aplikacja dostanie pozwolenie na mikrofon, nie oznacza to, że nasz telefon już zmienił się w&nbsp;podsłuch.
 
 Przede wszystkim już od wersji 9&nbsp;(Pie) [nie da się włączyć nagrywania, gdy apka jest w&nbsp;tle](https://www.theverge.com/2018/3/7/17091104/android-p-prevents-apps-using-mic-camera-idle-background). Nadal można ją najpierw włączyć, a&nbsp;potem zablokować ekran, zachowując działanie mikrofonu -- jak ja w&nbsp;moim eksperymencie. Ale nikt nie włączy nam podsłuchu zdalnie, w&nbsp;telefonie nieużywanym przez dłuższy czas.
 
-Od pewnego czasu zabezpieczenia poszły jeszcze dalej. Android [od wersji 12](https://source.android.com/docs/core/permissions/privacy-indicators) dostał **kropkę bezpieczeństwa** -- oznaczenie widoczne w&nbsp;górnej części ekranu, kiedy jakaś apka korzysta z&nbsp;mikrofonu.  
-Apple dodało taką kolorową kropkę wcześniej, w&nbsp;2020 roku, w&nbsp;wersji [iOS 14](https://www.forbes.com/sites/kateoflahertyuk/2020/09/21/ios-14-heres-why-theres-an-orange-dot-on-your-iphone/).
-
+Od pewnego czasu zabezpieczenia poszły jeszcze dalej. Android [od wersji 12](https://source.android.com/docs/core/permissions/privacy-indicators) dostał **kropkę bezpieczeństwa** -- oznaczenie widoczne w&nbsp;górnej części ekranu, kiedy jakaś apka korzysta z&nbsp;mikrofonu. Apple dodało taką kolorową kropkę wcześniej, w&nbsp;2020 roku, w&nbsp;wersji [iOS 14](https://www.forbes.com/sites/kateoflahertyuk/2020/09/21/ios-14-heres-why-theres-an-orange-dot-on-your-iphone/).  
 Oznaczenia nieco zmieniają reguły gry. Od teraz żadna apka nie powinna być w&nbsp;stanie dyskretnie nas nagrywać.
 
 No dobra. A&nbsp;czy jest opcja, że apka jakoś oszuka system? Przyzna sobie pozwolenie, zmusi mikrofon do ciągłego nagrywania, wyłączy kropki informacyjne?
@@ -257,7 +255,7 @@ Nie wierzę w&nbsp;ich standardy etyczne. Ale pewien poziom awersji do ryzyka to
 
 ### Kwestia rozmiaru danych
 
-Załóżmy, że Facebook wysyłałby sobie na masową skalę nagrania rozmów użytkowników. I&nbsp;zapomnijmy na chwilę o zawodowych badaczach aplikacji. Gdyby w&nbsp;świat szły nagrania, to nawet cywil mógłby się zorientować, że coś jest nie tak.
+Załóżmy, że Facebook wysyłałby sobie na masową skalę nagrania rozmów użytkowników. Ta masowość mogłaby go zgubić. Do wykrycia jego działań nie byliby już potrzebni zawodowi badacze aplikacji; nawet cywil mógłby się zorientować.
 
 Po pierwsze, pliki audio są znacznie większe niż dane tekstowe. Po drugie, każdy użytkownik ma wgląd do uproszczonych statystyk pokazujących, ile danych zużyły apki  
 (na Androidzie odwiedzamy kolejno opcje: `Ustawienia`, `Sieć komórkowa`, `Wykorzystanie transmisji danych`).
@@ -285,7 +283,7 @@ Do tego stopnia, że przez dłuższy czas nie było nawet mowy o&nbsp;analizie g
 Pierwsze modele `on-device` od Google'a, przetwarzające dyktowany tekst na telefonie, weszły [dopiero w&nbsp;2019 roku](https://ai.googleblog.com/2019/03/an-all-neural-on-device-speech.html).
 
 {:.post-meta .bigspace-after}
-Dla formalności: fakt, że przesyłanie nagrań było powszechne, nie jest dowodem na możliwość ciągłego podsłuchu. Dyktowanie działało tylko przez chwilę, na życzenie użytkownika, wysyłano krótkie fragmenty. Jest więc znacznie bardziej realne od strony praktycznej.
+Dla formalności: fakt, że stosowano przesyłanie nagrań, nie przemawia za teorią ciągłego podsłuchu. Dyktowanie działało tylko przez chwilę, na życzenie użytkownika, wysyłano krótkie fragmenty. Jest więc znacznie bardziej realne od strony praktycznej.
 
 Ten pierwszy model, którym chwalił się Google, ważył 80&nbsp;MB i&nbsp;był w&nbsp;stanie rozpoznawać tylko język angielski. Więc ewentualne podsłuchiwanie Polaków by odpadało.
 
@@ -315,7 +313,7 @@ Patrząc na wszystkie powyższe fakty, zaryzykuję i&nbsp;stwierdzę, że **duż
 Być może kiedyś wścibskie firmy miały swój złoty czas na podsłuchiwanie. Nie było opcji chroniących prywatność, nie było przepisów RODO/GDPR, a&nbsp;rozpoznawanie mowy było już użyteczne w&nbsp;praktyce.  
 Ktoś i&nbsp;tak by je pewnie złapał na tym procederze, więc nie uważam tej opcji za realną. No ale załóżmy, że istniała.
 
-Tym niemniej -- przez ostatnie lata ta furtka się zamknęła. Większe ryzyko prawne oraz mocniejsza ochrona prywatności przez telefony (nawet jeśli głównie na pokaz) sprawiają, że potajemne sięganie po mikrofon już naprawdę nie powinno się aplikacjom opłacać. Ten jeden raz to my, użytkownicy, jesteśmy bliżsi zwycięstwa.
+Tym niemniej -- przez ostatnie lata ta furtka się zamknęła. Ryzyko prawne jest większe, a smartfony mocniej chronią prywatność (choć bardziej dla poklasku niż ze szczerych chęci). Potajemne sięganie po mikrofon już naprawdę nie powinno się aplikacjom opłacać. Ten jeden raz to my, użytkownicy, jesteśmy bliżsi zwycięstwa.
 
 ## Jak nie podsłuch, to co?
 
