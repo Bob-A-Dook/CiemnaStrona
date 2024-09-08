@@ -152,11 +152,11 @@ Zwykle między tymi dwiema rzeczami jest zgodność. Ale nie zawsze.
 
 {% include info.html
 type="Ciekawostka"
-text="W naturze trafiają się też odwrotne sytuacje -- gdy link sugeruje jakiś plik, a&nbsp;dostajemy stronę internetową.  
+text="W naturze trafiają się też odwrotne sytuacje -- gdy link sugeruje nietypowy plik, a&nbsp;dostajemy zwykłą stronę internetową.  
 W przypadku Facebooka niektóre linki kończą się na przykład na `profile.php` (plus zwykle dodatkowe parametry po znaku zapytania). A&nbsp;jednak po kliknięciu nasza przeglądarka wyświetla nie skrypt w&nbsp;języku PHP, tylko jakąś stronę internetową."
 %}
 
-Sama strona jest bardzo krótka, więc dla wygody załączam screena jej pełnej treści:
+Wyświetlony skrypt jest dość krótki, więc dla wygody załączam jego screena:
 
 {:.figure .bigspace-before}
 <img src="/assets/posts/open_source/firefox/make-firefox-private/make-firefox-private-skrypt.jpg" alt="Oznaczona kolorami, pełna treść skryptu ze strony Make Firefox Private Again. Poza pierwszymi dwoma linijkami wszystko jest zaznaczone na niebiesko, jako komentarze"/>

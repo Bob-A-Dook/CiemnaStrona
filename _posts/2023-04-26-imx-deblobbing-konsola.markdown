@@ -69,11 +69,9 @@ Misja autora opierała się na następujących krokach:
 
 Autor opisuje krok po kroku, co zrobił, wkleja treść użytych komend. Dzięki temu można łatwo zweryfikować jego wyniki, za co ma u&nbsp;mnie wielkiego plusa.
 
-Pisze jednak z&nbsp;(uzasadnionym) założeniem, że odbiorcy rozumieją konsolę. A&nbsp;we mnie, na widok ścian tekstu, odżywają wspomnienia dawnych czasów.
+Pisze jednak z&nbsp;założeniem, że odbiorcy rozumieją konsolę. A&nbsp;we mnie, na widok ścian tekstu, odżywają złe wspomnienia. Z&nbsp;dawnych czasów, gdy próbowałem się wgryźć w&nbsp;komputerowe tematy, czytając odpowiedzi na forach.
 
-Próbując się wgryźć w&nbsp;tematy komputerowe, zerkałem na popularne fora.  
-Ktoś tam wklejał komendy, które miały rzekomo rozwiązać cudzy problem. Bez dodatkowego komentarza, tak jakby rozwiązanie było oczywiste.
-
+Ktoś tam wklejał komendy, które miały rzekomo rozwiązać cudzy problem. Bez dodatkowego komentarza, tak jakby rozwiązanie było oczywiste.  
 A ja nawet nie wiedziałem, gdzie to wpisać. Nie wiedziałem, że istnieje coś takiego jak konsola, pozwalająca „rozmawiać” bezpośrednio z&nbsp;komputerem. I&nbsp;innymi programami, które znałem tylko jako ikony do klikania.
 
 Gdy już odkryłem konsolę, to często coś mi nie działało. Bo potrzeba jakiegoś programu. A&nbsp;ja nie wiem, skąd go zdobyć, nie znajduję żadnego instalatora.  
@@ -98,7 +96,7 @@ type="Porada"
 text="
 Mam drobną prośbę do twórców stron. Jeśli chcecie na nich cytować komendy z&nbsp;dolarkiem, to bardzo proszę, niech będzie *nie do zaznaczenia*.  
 Dzięki temu wystarczy dwukrotnie kliknąć myszką linijkę tekstu, żeby zaznaczyć całość, gotową do skopiowania, bez dolara. Nie trzeba go usuwać z&nbsp;zaznaczenia, jest szybciej. Mała rzecz, a&nbsp;cieszy :wink:  
-Jeśli nasz szablon strony nie daje dostępu do arkuszy styli, to w&nbsp;najprostszym przypadku można po prosto robić w&nbsp;takich sytuacjach tabelki. Dolara w&nbsp;pierwszej kolumnie, a&nbsp;resztę komendy w&nbsp;drugiej.
+Jeśli nasz szablon strony nie daje dostępu do arkuszy styli, to w&nbsp;najprostszym przypadku można po prostu robić w&nbsp;takich sytuacjach tabelki. Dolara w&nbsp;pierwszej kolumnie, a&nbsp;resztę komendy w&nbsp;drugiej.
 "%}
 
 Swoją drogą **komendy konsolowe z&nbsp;artykułu odnoszą się do systemu Linux**. To na nim mamy (często z&nbsp;domysłu) zainstalowane programiki, których używa autor. Sam również używałem systemu Linux Mint, tworząc ten wpis.  
@@ -110,20 +108,21 @@ Skoro już wiemy, które fragmenty tekstu to komendy, to po kolei je sobie omów
 
 Zaczynajmy! Pierwsza komenda wpisana przez autora była taka:
 
-```
+{:.bigspace-before}
+<pre class="black-bg mono">
 wget http://www.freescale.com/lgfiles/NMG/MAD/YOCTO/firmware-imx-8.0.bin
-```
+</pre>
 
 {:.figcaption}
-Na urządzeniach mobilnych komendy nie wyświetlają się w&nbsp;całości. Można odsłonić resztę, kładąc palec na czarnym polu i&nbsp;ruszając nim w&nbsp;lewo.
+Niektóre komendy nie mieszczą się na ekranie. Żeby je przeczytać, trzeba przewinąć ich treść kursorem/palcem.
 
-Ogólna zasada -- **w konsoli spacje rozdzielają różne elementy**. Nazwa programu to element pierwszy, najbardziej po lewej. Reszta to wrzucane do niego opcje, takie jak nazwy plików do odczytania.
+Ogólna zasada -- **w konsoli różne elementy rozdzielane są spacjami**. Nazwa programu to element pierwszy, najbardziej po lewej. Reszta to wrzucane do niego opcje, takie jak nazwy plików do odczytania.
 
 {:.post-meta .bigspace-after}
 Nieco się to zmienia, jeśli mamy w&nbsp;linijce specjalne operatory. Jeszcze o&nbsp;nich będzie w&nbsp;tym wpisie.
 
-Użytym programem jest tu zatem `wget`. Odpowiada za pobieranie różnych plików z&nbsp;internetu.  
-Zaś drugi człon, po spacji, to link do konkretnej rzeczy na stronie *freescale.com*, gdzie są przykłady interesującego nas firmware'u.
+Programem użytym w obecnej linijce jest `wget`. Odpowiada za pobieranie różnych plików z&nbsp;internetu.  
+Zaś drugi człon, po spacji, to link do konkretnej rzeczy na stronie *freescale.com* -- firmware'u, który chciał analizować autor.
 
 W tym prostym przypadku użycie `wget`a jest właściwie tym samym, co odwiedzenie strony przez przeglądarkę.  
 Zresztą sami możemy to sprawdzić! Gdybyśmy spróbowali wkleić ten adres w&nbsp;przeglądarkę, to by nas zapytało, czy chcemy pobrać plik:
@@ -139,7 +138,7 @@ Kiedy natomiast prośba o&nbsp;daną rzecz wygląda na coś pochodzącego od pop
 
 ### Rozpakowywanie pliku
 
-Kiedy już mamy plik na dysku, to znaczy że można z&nbsp;nim pracować.
+Kiedy plik znajdzie się na dysku, to można z&nbsp;nim pracować.
 
 Ale czym on w&nbsp;ogóle jest? `.bin` to rozszerzenie pliku oznaczające *binary*, czyli jakiśtam blok zer i&nbsp;jedynek. Mało nam to mówi, a&nbsp;plik może być czymkolwiek.
 
@@ -154,18 +153,20 @@ Skoro plik jest skompresowany, to można spróbować go rozpakować. Autor zrobi
 7z x firmware-imx-8.0.bin
 ```
 
-`7z` to tutaj [programik 7-Zip](https://7-zip.org/download.html) do pracy ze skompresowanymi plikami, takimi jak ZIP czy RAR. Ale póki zna metodę kompresji, działa też na innych.
+Dwie spacje, czyli trzy rzeczy. Po lewej nazwa programu, potem dwa argumenty.
+
+Programem jest tu `7z`, czyli konsolowa wersja [7-Zipa](https://7-zip.org/download.html), do pracy ze skompresowanymi plikami. Często używany na formatach jak ZIP czy RAR, ale wspiera też inne, mniej znane.
 
 Ostatni, trzeci człon polecenia to nasz plik. A&nbsp;co oznacza `x`?  
 To zapewne jakaś opcja programu. A&nbsp;to oznacza, że wyjaśnienie powinno być zawarte w&nbsp;jego instrukcji. Wpisałem w&nbsp;konsolę `7z --help` (bardzo wiele programów ma taką opcję) i&nbsp;zobaczyłem tam:
 
-{:.bigspace .no-right-border}
+{:.bigspace-after .no-right-border}
 > x&nbsp;: eXtract files with full paths
 
-Czyli cała komenda to po prostu rozpakowanie pliku!  
-Właściwie nie potrzeba do tego nawet 7-Zipa, bo wiele domyślnych przeglądarek plików, jak Eksplorator na Windowsie, ma wbudowaną opcję rozpakowywania archiwów.
+Czyli cała komenda to po prostu rozpakowanie pliku! Nawet domyślny program, jak Eksplorator na Windowsie, byłby w&nbsp;stanie to zrobić.  
+Skoro tak, to pozwolę sobie wykonać to samo co autor, tyle że bez konsoli, przez najzwyklejszą klikaninę.
 
-Jednak nasz program do eksplorowania plików musi wiedzieć, że ma traktować plik *bin* jak archiwum. Zatem wybieramy opcję zmiany nazwy pliku i&nbsp;zmieniamy końcówkę na `.zip`.
+Jedynym problemem jest to, że domyślny program umie rozpakowywać tylko konkretne pliki, a&nbsp;formatu *bin* nie zna. Dlatego trzeba go oszukać i&nbsp;zmienić końcówkę na `.zip`.
 
 {:.bigspace-before}
 <img src="/assets/posts/apki/imx_firmware/bin-zip-zmiana-nazwy.jpg" alt="Schemat pokazujący ikonę pliku tekstowego, od której odchodzi strzałka do ikony pliku o&nbsp;takiej samej nazwie, lecz kończącej się na ZIP. Również ikona drugiego pliku pokazuje folder zapięty na zamek. Strzałka jest podpisana nazwą opcji 'Zmień nazwę'." />
@@ -220,7 +221,7 @@ A on z&nbsp;kolei wyłapuje te z&nbsp;nich, które gdzieś w nazwie (tu: gdziek
 {:.figure .bigspace}
 <img src="/assets/posts/apki/imx_firmware/grep-wyniki.jpg" alt="Zrzut ekranu z&nbsp;konsoli pokazujący 5&nbsp;różnych ścieżek, jakie znalazł grep. Słowo 'hdmi' jest w&nbsp;nich wyróżnione na czerwono"/>
 
-To samo osiągnęlibyśmy w&nbsp;zwykłym Eksploratorze Plików, naciskając `Ctrl+F` i&nbsp;wpisując słowo *hdmi*.
+To samo osiągnęlibyśmy w&nbsp;zwykłym Eksploratorze Plików, naciskając w&nbsp;rozpakowanym folderze `Ctrl+F` i&nbsp;wpisując słowo *hdmi*.
 
 {:.figure .bigspace}
 <img src="/assets/posts/apki/imx_firmware/find-alternatywa.jpg" alt="Okno Eksploratora Plików na systemie Linux Mint, pokazujące ikony czterech plików w&nbsp;wynikach wyszukiwania, a&nbsp;nad nimi pasek wyszukiwanie ze wpisanym słowem 'hdmi'."/>
@@ -242,7 +243,7 @@ A dlaczego autor nie musi podawać pełnej ścieżki? Tego, co na Windowsie zacz
 Bo swoją konsolę uruchomił w&nbsp;tym samym folderze co plik *.bin*. To on jest dla niego aktywnym folderem, punktem odniesienia. Wystarczy używać ścieżek *względnych* wobec niego.
 
 A samą ścieżkę sobie po prostu skopiował z&nbsp;wyników wyszukiwania poprzednią komendą.  
-Na podobnej zasadzie moglibyśmy w&nbsp;graficznym Eksploratorze kliknąć dwukrotnie nazwę folderu *hdmi*, żeby do niego przejść.
+Na podobnej zasadzie moglibyśmy w&nbsp;graficznym Eksploratorze kliknąć dwukrotnie nazwę folderu `hdmi`, a potem `cadence`, żeby do niego przejść.
 
 ### Eksploracja pliku
 
@@ -251,7 +252,7 @@ Autora interesował jeden konkretny plik spośród wyników -- *signed_hdmi_imx8
 A skąd wiedział, że akurat o&nbsp;ten plik chodzi? Jego wzrok mogło zwrócić słowo *signed* w&nbsp;nazwie, sugerujące że jest tam coś podpisanego (podpisem cyfrowym).  
 Skoro szukał certyfikatów, to mógł być wyczulony na takie szczególne słowa.
 
-Do eksploracji użył programu [Binwalk](https://github.com/ReFirmLabs/binwalk). Który przemierza takie bloki zero-jedynkowe, porównuje ich ciągi do swojej listy wzorców i&nbsp;na tej podstawie znajduje fragmenty tekstu oraz różne zagnieżdżone pliki.
+Do eksploracji użył programu [Binwalk](https://github.com/ReFirmLabs/binwalk). Który przemierza takie bloki zero-jedynkowe, porównuje ich zawartość ze swoją listą wzorców i&nbsp;na tej podstawie znajduje fragmenty tekstu oraz różne zagnieżdżone pliki.
 
 <pre class="black-bg mono">
 binwalk signed_hdmi_imx8<span class="corr-ins">m</span>.bin
