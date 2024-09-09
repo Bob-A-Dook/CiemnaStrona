@@ -284,10 +284,11 @@ grep <span class="red">TEKST_DO_ZNALEZIENIA</span> <strong>PLIK</strong>
 
 W roli pliku jest tutaj (ścieżka do) jakiegoś *profiles.ini*, również w&nbsp;wewnętrznym folderze Firefoksa.
 
-Żeby zrozumieć sens tego fragmentu, warto wiedzieć, że **Firefox dopuszcza wiele profili użytkowników**, z&nbsp;których każdy ma jakieś własne ustawienia. I&nbsp;własny folder wewnętrzny, którego nazwa to ciąg losowych znaków, inny dla każdego użytkownika.  
-Plik *profiles.ini* jakoś to porządkuje, przypisując rodzaje profili do nazw folderów. A&nbsp;że autor *MFPA* potrzebuje pełnej ścieżki, to do niego zagląda.
+Żeby zrozumieć sens tego fragmentu, warto wiedzieć, że **Firefox dopuszcza wiele profili użytkowników**, z&nbsp;których każdy ma jakieś własne ustawienia. I&nbsp;własny folder wewnętrzny, którego nazwa to ciąg losowych znaków, inny dla każdego użytkownika.
 
-Tekstem do znalezienia w&nbsp;tym pliku jest natomiast `"Default=.*\.default*"`. Dla jasności można zerknąć do pliku i&nbsp;zobaczyć, co w&nbsp;ten sposób znajduje:
+Plik *profiles.ini* to porządkuje. Jest jak taki spis, przypisujący rodzaje profili do wspomnianych nazw folderów. Autor *MFPA* potrzebuje nazwy, żeby ułożyć pełną ścieżkę „w&nbsp;głąb” Firefoksa, więc musi do tego pliku zajrzeć.
+
+Tekstem do znalezienia jest natomiast `"Default=.*\.default*"`. Dla jasności można zerknąć do pliku i&nbsp;zobaczyć, co w&nbsp;ten sposób znajduje:
 
 {:.figure .bigspace}
 <img src="/assets/posts/open_source/firefox/make-firefox-private/firefox-profile.jpg" alt="Zrzut ekranu z&nbsp;notatnika, pokazujący format pliku z&nbsp;profilami. Trzy z&nbsp;nich, których nazwy zakryto różnymi kolorami, pasują do wzorca."/>
@@ -320,8 +321,8 @@ Znaleziony fragment tekstu trafia do programu `cut`. Jego zadaniem, jak angielsk
 {:.post-meta .bigspace-after}
 Choć argumenty są tutaj zapisane bez spacji między nazwą i&nbsp;wartością, to równie dobrze mogłyby ją zawierać. Byłoby czytelniej.
 
-Podsumowując współpracę programów `grep` i&nbsp;`cut` -- pierwszy wyciąga ze spisu profili odpowiednią wartość. Drugi wyciąga z&nbsp;niej tekst odpowiadający nazwie folderu dla danego profilu.  
-Ta nazwa zostaje wstawiona zamiast zmiennej, w&nbsp;której siedzą oba programy. Dzięki temu cały skrypt dostaje pełną ścieżkę do pliku z&nbsp;ustawieniami (a&nbsp;przynajmniej powinien, gdyby mi działał).
+Podsumowując współpracę programów `grep` i&nbsp;`cut` -- pierwszy wyciąga ze spisu rodzaj profilu (domyślny) wraz z&nbsp;nazwą folderu. Drugi wycina z&nbsp;tego samą nazwę folderu.  
+Ta nazwa zostaje wstawiona zamiast zmiennej, w&nbsp;której siedzą oba programy. Dzięki temu cały skrypt dostaje pełną ścieżkę do pliku z&nbsp;ustawieniami (a&nbsp;przynajmniej powinien, gdyby mi działał). I&nbsp;może do niego wrzucić tekst wyłączający reklamy.
 
 ### Podsumowanie w&nbsp;formie schematu
 
