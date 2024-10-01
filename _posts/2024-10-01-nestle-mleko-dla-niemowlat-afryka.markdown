@@ -151,14 +151,14 @@ Książka została przetłumaczona w&nbsp;Szwajcarii na język niemiecki, pod do
 
 Na podstawie raportu napisał później całą książkę, *The Baby Killer Scandal*, niejaki Andrew Chetley, również członek War on Want. Tekst upamiętniający tego człowieka, napisany przez jego syna, można znaleźć [tutaj](http://info.babymilkaction.org/files/Andrew%20Chetley's%20obituary_long%20version.pdf).
 
-Los Nestlé był przesądzony. Rozpoczął się wielki, międzynarodowy bojkot, który sięgnął nawet warstw politycznych. Przystępne [streszczenie sprawy](https://blogs.baruch.cuny.edu/mgt4880nestle/2013/04/22/crisis-development/) można znaleźć na stronie Uniwersytetu Nowojorskiego
+Los Nestlé był przesądzony. Rozpoczął się wielki, międzynarodowy bojkot, który sięgnął nawet warstw politycznych. Przystępne [streszczenie sprawy](https://blogs.baruch.cuny.edu/mgt4880nestle/2013/04/22/crisis-development/) można znaleźć na stronie Uniwersytetu Nowojorskiego.
 
-Szczególnie stanowczo zadziałała Światowa Organizacja Zdrowia. W&nbsp;1981 roku opublikowali szereg wytycznych, ograniczających możliwość reklamowania produktów dla niemowląt, nazwanych *[Międzynarodowy kodeks marketingu produktów zastępujących mleko kobiece](https://pl.wikipedia.org/wiki/Mi%C4%99dzynarodowy_kodeks_marketingu_produkt%C3%B3w_zast%C4%99puj%C4%85cych_mleko_kobiece)*.
+Szczególnie stanowczo zadziałała Światowa Organizacja Zdrowia. W&nbsp;1981 roku opublikowali szereg wytycznych, ograniczających możliwość reklamowania produktów dla niemowląt, nazwanych *[Międzynarodowym kodeksem marketingu produktów zastępujących mleko kobiece](https://pl.wikipedia.org/wiki/Mi%C4%99dzynarodowy_kodeks_marketingu_produkt%C3%B3w_zast%C4%99puj%C4%85cych_mleko_kobiece)*.
 
 Wytyczne zostały następnie przyjęte przez 118&nbsp;krajów, stając się w&nbsp;nich częścią oficjalnego prawa. Głos przeciwko nim był jeden, ze strony USA. Zapamiętajcie ten fakt, bo jeszcze się później pojawi.  
 Wytyczne były obszerne, ale na potrzeby wpisu wystarczy kilka faktów:
 
-* nie można reklamować produktów dla niemowląt poniżej 6&nbsp;miesiąca życia,
+* nie można reklamować produktów dla niemowląt poniżej 6.&nbsp;miesiąca życia,
 * nie można rozdawać bezpłatnych próbek w&nbsp;szpitalach,
 * należy umieszczać na opakowaniach informacje napisane zrozumiałym językiem, w&nbsp;tym zastrzeżenie, że karmienie piersią to najlepsza forma żywienia.
 
@@ -339,12 +339,12 @@ Pod względem narracji silna zgodność z&nbsp;*Fed is Best*, otwarte stawanie p
 {:.figure .bigspace}
 <img src="/assets/posts/korpoafery/nestle-mleko/skepticalob-oblezona-twierdza.jpg" alt="Tytuł wpisu mówiący, że aktywiści laktacyjni, kłócąc się z&nbsp;Fed is Best, jedynie strzelają w&nbsp;posłańca przynoszącego złe wieści"/>
 
-Zwróćmy też uwagę na słowo *lactivists*, sklejkę z&nbsp;laktacji i&nbsp;aktywistów.  
+Zwróćmy też uwagę na pejoratywne użycie *lactivists*, sklejkę z&nbsp;laktacji i&nbsp;aktywistów.  
 To popularny motyw w&nbsp;realiach branżowej propagandy. Przeciwników maluje się jako aktywistów. W&nbsp;domyśle: nienaukowych, emocjonalnych, impulsywnych.
 
 A że to oficjalne stanowisko WHO, organizacji międzynarodowych, wielu lekarzy? Bez znaczenia. Przeciwnik korporacji zawsze ma być głupi i&nbsp;antynaukowy.
 
-Skeptical OB oparła jeden ze swoich wpisów na artykule Senapathy, pisząc po prostu „pisze Kavin Senapathy w&nbsp;Forbesie”. Bez ujawnienia powiązań Senapathy czy faktu, że w&nbsp;tej części Forbesa każdy mógł pisać.
+Skeptical OB oparła [jeden ze swoich wpisów](http://www.skepticalob.com/2017/10/world-health-organization-declares-babies-dying-from-breastfeeding-complications-are-not-a-priority.html) na artykule Senapathy, pisząc po prostu „pisze Kavin Senapathy w&nbsp;Forbesie”. Bez ujawnienia powiązań Senapathy czy faktu, że w&nbsp;tej części Forbesa każdy mógł pisać.
 
 Wisienką na torcie jest ten fragment:
 
@@ -359,7 +359,7 @@ Wisienką na torcie jest ten fragment:
 
 Nie wymyślam tego. Ta osoba naprawdę napisała o&nbsp;„branży laktacyjnej” -- czyli zapewne producentach laktatorów, konsultantkach itd., ale przede wszystkim o&nbsp;karmiących matkach -- jak o&nbsp;bezwzględnej konkurencji.
 
-Ale może to pojedyncza, radykalna opinia, z&nbsp;którą nie po drodze samej Fundacji? Raczej nie. *Fed is Best* [udostępniło u&nbsp;siebie](https://www.facebook.com/fedisbestfoundation/posts/pfbid02gg3tGdMkLff14TaHP1PWHXagtWLpUnscWAvn6CPpttiJgcQfb4dYM9WchcJotBtTl) ten wpis. Poza tym sami insynuowali, że WHO chce przemilczeć niewygodne fakty (przykład na wrzuconym wcześniej kolażu miniaturek).
+Ale może to pojedyncza, radykalna opinia, z&nbsp;którą nie po drodze samej Fundacji? Raczej nie. *Fed is Best* [regularnie udostępnia](https://www.facebook.com/profile/100066823745538/search/?q=skepticalob) wpisy tej osoby, z&nbsp;których wiele ma podobny wydźwięk. Poza tym sami insynuowali, że WHO chce przemilczeć niewygodne fakty (przykład na wrzuconym wcześniej kolażu miniaturek).
 
 ### Thoughtscapism
 
@@ -423,7 +423,7 @@ Powiedziałbym, że dość wyważony wpis. Nie piszą „wypad z&nbsp;tym”, t
 {:.figcaption}
 Tłumaczenie i&nbsp;uzupełnienie moje. Link zmieniałem na taki do archiwum, bo pierwotny już wygasł.
 
-Sanapathy [podała to dalej](https://www.facebook.com/Ksenapathy/posts/pfbid02jug7FmHESd3LUYjuF1gcVvutnPZKZvuDW8myrREaBE8qqMDC5bZUaHmjDVg8Bfzl), nazywając MfS nieprofesjonalnym któryś raz z&nbsp;rzędu. Dołączyły się też inne członkinie oraz zaprzyjaźnione portale, jak Credible Hulk czy Eclectic Science, zgodnie uderzając w&nbsp;organizację.
+Senapathy [podała to dalej](https://www.facebook.com/Ksenapathy/posts/pfbid02jug7FmHESd3LUYjuF1gcVvutnPZKZvuDW8myrREaBE8qqMDC5bZUaHmjDVg8Bfzl), nazywając MfS nieprofesjonalnym któryś raz z&nbsp;rzędu. Dołączyły się też inne członkinie oraz zaprzyjaźnione portale, jak Credible Hulk czy Eclectic Science, zgodnie uderzając w&nbsp;organizację.
 
 {% include info.html
 type="Ciekawostka"
