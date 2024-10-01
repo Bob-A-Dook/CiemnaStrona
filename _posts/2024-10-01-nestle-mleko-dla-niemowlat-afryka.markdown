@@ -145,7 +145,7 @@ Dokładna liczba ofiar jest trudna do ustalenia, bo raczej trudno jednoznacznie 
 
 ### Kara dla korporacji
 
-Praktyki Nestlé nagłośniały różne organizacje, ale szczególnie wybiła się War on Want, krytycy korporacyjnych patologii. W&nbsp;1974&nbsp;roku opublikowali głośny raport *The Baby Killer* (ang. dzieciobójca).
+Praktyki Nestlé nagłaśniały różne organizacje, ale szczególnie wybiła się War on Want, krytycy korporacyjnych patologii. W&nbsp;1974&nbsp;roku opublikowali głośny raport *The Baby Killer* (ang. dzieciobójca).
 
 Książka została przetłumaczona w&nbsp;Szwajcarii na język niemiecki, pod dosadniejszym tytułem „Nestlé zabija niemowlęta”. W odpowiedzi koncern pozwał wydawców, oskarżając ich o&nbsp;zniesławienie. I&nbsp;wygrał, bo teza o&nbsp;bezpośrednim zabijaniu okazała się niemożliwa do udowodnienia. Ale kara była śmiesznie niska i&nbsp;wyniosła w&nbsp;przeliczeniu kilkaset dolarów.
 
