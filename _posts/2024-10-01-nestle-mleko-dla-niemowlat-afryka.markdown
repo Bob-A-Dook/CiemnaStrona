@@ -336,15 +336,15 @@ Kiedyś co najmniej jeden z&nbsp;takich artykułów został usunięty po tym jak
 Tu ponownie mamy dyplomowaną lekarkę, więc działa efekt autorytetu. Opisuje rzekome błędne informacje, jakie jej zdaniem są powszechne wśród mam.  
 Pod względem narracji silna zgodność z&nbsp;*Fed is Best*, otwarte stawanie po ich stronie:
 
-{:.figure .bigspace}
+{:.figure .bigspace-before}
 <img src="/assets/posts/korpoafery/nestle-mleko/skepticalob-oblezona-twierdza.jpg" alt="Tytuł wpisu mówiący, że aktywiści laktacyjni, kłócąc się z&nbsp;Fed is Best, jedynie strzelają w&nbsp;posłańca przynoszącego złe wieści"/>
 
-Zwróćmy też uwagę na pejoratywne użycie *lactivists*, sklejkę z&nbsp;laktacji i&nbsp;aktywistów.  
-To popularny motyw w&nbsp;realiach branżowej propagandy. Przeciwników maluje się jako aktywistów. W&nbsp;domyśle: nienaukowych, emocjonalnych, impulsywnych.
+{:.figcaption}
+Źródło: [ten wpis](https://www.skepticalob.com/2017/04/lactivists-criticize-the-fed-is-best-foundation-because-theyre-desperate-to-shoot-the-messenger.html).
+
+Zwróćmy tutaj uwagę na upchnięcie pod słowem *lactivists* (sklejka z&nbsp;laktacji i&nbsp;aktywistów) szerokiego grona krytyków. To popularny motyw w&nbsp;realiach branżowej propagandy. Przeciwników maluje się jako aktywistów. W&nbsp;domyśle: nienaukowych, emocjonalnych, impulsywnych.
 
 A że to oficjalne stanowisko WHO, organizacji międzynarodowych, wielu lekarzy? Bez znaczenia. Przeciwnik korporacji zawsze ma być głupi i&nbsp;antynaukowy.
-
-Skeptical OB oparła [jeden ze swoich wpisów](http://www.skepticalob.com/2017/10/world-health-organization-declares-babies-dying-from-breastfeeding-complications-are-not-a-priority.html) na artykule Senapathy, pisząc po prostu „pisze Kavin Senapathy w&nbsp;Forbesie”. Bez ujawnienia powiązań Senapathy czy faktu, że w&nbsp;tej części Forbesa każdy mógł pisać.
 
 Wisienką na torcie jest ten fragment:
 
@@ -360,6 +360,8 @@ Wisienką na torcie jest ten fragment:
 Nie wymyślam tego. Ta osoba naprawdę napisała o&nbsp;„branży laktacyjnej” -- czyli zapewne producentach laktatorów, konsultantkach itd., ale przede wszystkim o&nbsp;karmiących matkach -- jak o&nbsp;bezwzględnej konkurencji.
 
 Ale może to pojedyncza, radykalna opinia, z&nbsp;którą nie po drodze samej Fundacji? Raczej nie. *Fed is Best* [regularnie udostępnia](https://www.facebook.com/profile/100066823745538/search/?q=skepticalob) wpisy tej osoby, z&nbsp;których wiele ma podobny wydźwięk. Poza tym sami insynuowali, że WHO chce przemilczeć niewygodne fakty (przykład na wrzuconym wcześniej kolażu miniaturek).
+
+A jakieś powiązanie z SciMoms? Skeptical OB oparła [jeden ze swoich wpisów](http://www.skepticalob.com/2017/10/world-health-organization-declares-babies-dying-from-breastfeeding-complications-are-not-a-priority.html) na artykule Senapathy, pisząc po prostu „pisze Kavin Senapathy w&nbsp;Forbesie”. Bez ujawnienia powiązań Senapathy czy faktu, że w&nbsp;tej części Forbesa każdy mógł pisać.
 
 ### Thoughtscapism
 
