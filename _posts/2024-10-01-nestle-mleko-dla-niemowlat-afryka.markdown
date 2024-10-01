@@ -133,7 +133,7 @@ Mama pozbawiona własnego pokarmu -- albo wierząca w&nbsp;jego niedoskonałoś�
 
 ### Zabójcze konsekwencje
 
-W kraju tak biednym jak Afryka efekty uzależnienia kobiet od mleka w&nbsp;proszku były szczególnie dotkliwe.
+W biednych krajach Afryki efekty uzależnienia kobiet od mleka w&nbsp;proszku były szczególnie dotkliwe.
 
 Po pierwsze: bieda. Po wyczerpaniu się darmowej próbki okazywało się, że mieszanka swoje kosztuje. Nie mając pieniędzy na zalecane porcje, mamy rozcieńczały proszek bardziej niż powinny, co dodatkowo zmniejszało wartość odżywczą. Na powrót do mleka matki już nieraz było za późno, przez wspomniane zatrzymanie laktacji.
 
