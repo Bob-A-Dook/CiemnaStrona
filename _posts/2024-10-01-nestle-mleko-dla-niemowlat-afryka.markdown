@@ -145,14 +145,13 @@ Dokładna liczba ofiar jest trudna do ustalenia, bo raczej trudno jednoznacznie 
 
 ### Kara dla korporacji
 
-Praktyki Nestlé nagłośnił niejaki Andrew Chetley w&nbsp;swojej książce, *The Baby Killer Scandal*.
+Praktyki Nestlé nagłośniały różne organizacje, ale szczególnie wybiła się War on Want, krytycy korporacyjnych patologii. W&nbsp;1974&nbsp;roku opublikowali głośny raport *The Baby Killer* (ang. dzieciobójca).
 
-Tekst upamiętniający tego człowieka po jego śmierci w&nbsp;2012 roku, napisany przez jego syna, można znaleźć [tutaj](http://info.babymilkaction.org/files/Andrew%20Chetley's%20obituary_long%20version.pdf). Według niego Chetley przez dłuższy czas działał w&nbsp;Afryce, a&nbsp;książkę opublikował krótko po dołączeniu do organizacji War on Want, krytykującej korporacyjne patologie.
+Książka została przetłumaczona w&nbsp;Szwajcarii na język niemiecki, pod dosadniejszym tytułem „Nestlé zabija niemowlęta”. W odpowiedzi koncern pozwał wydawców, oskarżając ich o&nbsp;zniesławienie. I&nbsp;wygrał, bo teza o&nbsp;bezpośrednim zabijaniu okazała się niemożliwa do udowodnienia. Ale kara była śmiesznie niska i&nbsp;wyniosła w&nbsp;przeliczeniu kilkaset dolarów.
 
-W maju 1974&nbsp;roku książka została przetłumaczona w&nbsp;Szwajcarii na język niemiecki, pod dosadniejszym tytułem „Nestlé zabija niemowlęta”.  
-Firma pozwała wydawców o&nbsp;zniesławienie. I&nbsp;wygrała, bo teza o&nbsp;bezpośrednim zabijaniu okazała się niemożliwa do udowodnienia. Ale kara była śmiesznie niska i&nbsp;wyniosła w&nbsp;przeliczeniu kilkaset dolarów.
+Na podstawie raportu napisał później całą książkę, *The Baby Killer Scandal*, niejaki Andrew Chetley, również członek War on Want. Tekst upamiętniający tego człowieka, napisany przez jego syna, można znaleźć [tutaj](http://info.babymilkaction.org/files/Andrew%20Chetley's%20obituary_long%20version.pdf).
 
-Dla Nestlé było już za późno. Rozpoczął się wielki, międzynarodowy bojkot, który sięgnął nawet warstw politycznych. Przystępne [streszczenie sprawy](https://blogs.baruch.cuny.edu/mgt4880nestle/2013/04/22/crisis-development/) można znaleźć na stronie Uniwersytetu Nowojorskiego
+Los Nestlé był przesądzony. Rozpoczął się wielki, międzynarodowy bojkot, który sięgnął nawet warstw politycznych. Przystępne [streszczenie sprawy](https://blogs.baruch.cuny.edu/mgt4880nestle/2013/04/22/crisis-development/) można znaleźć na stronie Uniwersytetu Nowojorskiego
 
 Szczególnie stanowczo zadziałała Światowa Organizacja Zdrowia. W&nbsp;1981 roku opublikowali szereg wytycznych, ograniczających możliwość reklamowania produktów dla niemowląt, nazwanych *[Międzynarodowy kodeks marketingu produktów zastępujących mleko kobiece](https://pl.wikipedia.org/wiki/Mi%C4%99dzynarodowy_kodeks_marketingu_produkt%C3%B3w_zast%C4%99puj%C4%85cych_mleko_kobiece)*.
 
