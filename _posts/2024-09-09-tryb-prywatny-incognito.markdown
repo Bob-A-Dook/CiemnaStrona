@@ -61,7 +61,7 @@ Zapraszam! :smile:
 {% include info.html
 type="Krótko"
 text="Gdyby komuś nie chciało się czytać całości -- tryb prywatny to nietypowy miks. Ukrywa szeroki zakres informacji, czasem subtelnych. Ale nie wpływa na adres IP, czyli dość podstawową cechę identyfikującą.  
-Jeśli przed użyciem trybu „zmieni się” adres IP (np. przez użycie innego hotspota niż zwykle), to jego skuteczność znacząco wzrośnie. Jeśli do tego wyłączy się JavaScript, to już w&nbsp;ogóle super.  
+Jeśli przed użyciem trybu „zmieni się” adres IP (np. przez użycie innego hotspota niż zwykle), to jego skuteczność znacząco wzrośnie. Jeśli do tego użyje się dodatku blokującego reklamy śledzące i&nbsp;wyłączy się JavaScript, to już w&nbsp;ogóle super.  
 A bez tych uzupełniających zmian? Lepiej używać trybu co najwyżej do rzeczy prozaicznych."
 %}
 
@@ -74,13 +74,13 @@ Jak za Wielkim G&nbsp;nie przepadam, tak ten wyrok budzi u&nbsp;mnie mieszane uc
 W gronie znajomych osób, wielu całkiem niekomputerowych, był raczej uważany za lekkie udogodnienie, bajer. Jeśli ktoś miał skrajną opinię, to raczej w&nbsp;drugą stronę, uważając go za zabawkę do ukrywania historii.
 
 Z jednej strony chce się machnąć ręką. „Paanie, to USA. Idiokracja i&nbsp;prawnicy”. Ale z&nbsp;drugiej -- może to ja żyłem w&nbsp;bańce? Bo doniesienia o&nbsp;wierze ludzi w&nbsp;ten tryb mają potwierdzenie również w&nbsp;[badaniu z&nbsp;Wielkiej Brytanii](https://brave.com/blog/private-mode-is-not-really-private/).  
-Przeprowadzili je w&nbsp;2018 roku ludzie od przeglądarki Brave i&nbsp;doszli do wniosku, że ludzie mogą wiązać z&nbsp;trybem nierealistyczne oczekiwania.
+Przeprowadzili je w&nbsp;2018 roku ludzie od przeglądarki Brave i&nbsp;doszli do wniosku, że użytkownicy mogą wiązać z&nbsp;trybem nierealistyczne oczekiwania.
 
 ## Prawdziwa natura trybu prywatnego
 
 Zarówno „prywatny”, jak i&nbsp;„incognito” nie do końca oddają istotę tego trybu. Jego działanie nie polega na tym, że celowo dąży do walki z&nbsp;metodami profilowania stosowanymi w&nbsp;internecie przez firmy reklamowe.
 
-Osobiście, gdybym miał wymyślić jakąś definicję od nowa, nazwałbym go „trybem ulotnym”, „trybem nietrwałym” albo „trybem czystej kartki”.
+Osobiście, gdybym miał wymyślić nazwę bliższą działaniu, nazwałbym go „trybem ulotnym”, „trybem nietrwałym” albo „trybem czystej kartki”.
 
 Polega po pierwsze na tym, że **przeglądarka „ignoruje swój dorobek” z&nbsp;normalnego trybu** i&nbsp;pozwala przeglądać internet takim, jakim widziałby go całkiem nowy użytkownik, świeżo po jej zainstalowaniu.  
 Po drugie: na tym, że **dorobek zgromadzony w&nbsp;trybie prywatnym jest ulotny, tymczasowy**. Zostanie wyrzucony po zakończeniu sesji przeglądania. 
@@ -101,13 +101,14 @@ Są one dość zróżnicowane i&nbsp;należą do nich:
 * wątki usługowe (ang. *service workers*),
 * dodatki przeglądarkowe.
 
-Omówię te rzeczy po kolei. Dla lepszej intuicji za każdym razem wskażę najpierw, czemu z&nbsp;założenia służą. A&nbsp;potem -- w&nbsp;jaki sposób mogą być nadużywane do celów rozpoznawania i&nbsp;profilowania użytkowników.
+Omówię te rzeczy po kolei. Na przykładzie Firefoksa, ale sporo zasad jest uniwersalnych.  
+Dla lepszej intuicji przy każdej rzeczy wskażę najpierw, czemu z&nbsp;założenia ma służyć. A&nbsp;potem -- w&nbsp;jaki sposób może być nadużywana do celów rozpoznawania i&nbsp;profilowania użytkowników.
 
 ### Historia przeglądania
 
 Do niektórych stron wraca się często. Dlatego przeglądarki sobie notują odwiedzone przez nas adresy i&nbsp;same je potem podpowiadają, choćby po wpisaniu pierwszych literek w&nbsp;górnym pasku.
 
-Historia przeglądania ma raczej niewielką wartość dla podglądaczy z&nbsp;zewnątrz. Przeglądarka **nie daje cudzym stronom łatwego wglądu do historii**.
+Historia przeglądania może intuicyjnie wydawać się celem numer jeden dla reklamodawców. Ale tak naprawdę jest dla nich mało przydatna, bo niedostępna. Przeglądarki **nie dają cudzym stronom wglądu do historii**.
 
 Istnieje pewna [baaardzo okrężna metoda]({% post_url 2023-08-19-historia-przegladania %}){:.internal}, pozwalająca poznać część historii. W&nbsp;tym celu strony musiałyby zamaskować linki i&nbsp;podpuścić użytkowników, żeby sami kliknęli te do stron, na których byli. Metoda niepewna i&nbsp;łatwa do wykrycia dla czujniejszych oczu. Dlatego raczej nie skorzystają z&nbsp;niej masowi reklamodawcy.
 
@@ -153,7 +154,7 @@ Wydawać by się mogło, że ciasteczka i&nbsp;pamięć podręczna do tego wysta
 
 Te ograniczenia sprawiły, że pojawiło się zapotrzebowanie na inny rodzaj składzików na dane. A&nbsp;twórcy przeglądarek wyszli tej potrzebie naprzeciw, tworząc kilka rodzajów takich składzików -- *localStorage*, *sessionStorage*, *IndexedDB*. Albo i&nbsp;więcej.
 
-Niech twórcy stron wybaczą mi ignorację, ale wrzucę je wszystkie do jednego wora. Jako „pliki ciastkopodobne”, bo **w kontekście śledzenia działają niemal identycznie jak pliki _cookies_**.
+Niech twórcy stron wybaczą mi ignorancję, ale wrzucę je wszystkie do jednego wora. Jako „pliki ciastkopodobne”, bo **w kontekście śledzenia działają niemal identycznie jak pliki _cookies_**.
 
 Gdy ktoś odwiedza stronę A, to obecny na niej reklamodawca każe przeglądarce zapisać jakiś identyfikator do pliku ciastkopodobnego.  
 Gdy ta sama osoba odwiedza stronkę B, na której jest ten sam reklamodawca, to przeglądarka mu wręcza na życzenie to, co wcześniej zapisała. On zaś może sobie zapisać, że osoba odwiedzająca stronkę B&nbsp;była chwilę wcześniej na A.
@@ -183,7 +184,7 @@ Dodatków jest mnóstwo i&nbsp;mogą na wszelkie sposoby zmieniać działanie pr
 
 * Odbiera wówczas, gdy wyłącza blokery reklam śledzących (jak uBlock Origin, o&nbsp;którym jeszcze wspomnę).
 
-  Ingerują one w&nbsp;ruch sieciowy, utrudniając wysyłanie danych do reklamodawców. Gdy są wyłączone, to siłą rzeczy tego nie robią. I&nbsp;jeśli reklamodawca w&nbsp;jakiś sposób dokopie się do prawdziwej tożsamości konta -- to zdoła je sobie wysłać.
+  Ingerują one w&nbsp;ruch sieciowy, utrudniając wysyłanie danych do reklamodawców. Gdy są wyłączone, zaś reklamodawca w&nbsp;jakiś sposób uzyska informacje o&nbsp;prawdziwej tożsamości konta -- to zdoła je sobie wysłać.
 
 ## Luki w&nbsp;trybie prywatnym
 
@@ -201,7 +202,7 @@ Spośród identyfikatorów najbardziej wyróżnia go jednak inny fakt -- [adresu
 W takich realiach reklamodawcy mogą traktować adres IP jak znakomity *identyfikator pomocniczy użytkowników*. Pomost między tożsamościami.
 
 Przykładowa sytuacja? Ktoś sobie czyta artykuły na portalu gazety, zalogowany na swoje konto. Widzi miniaturę, która go interesuje.  
-Nie chcąc, żeby to powiązano z&nbsp;jego profilem, kilka prawym przyciskiem i&nbsp;otwiera nową kartę w&nbsp;trybie prywatnym. W&nbsp;tym momencie jest wylogowany (bo tryb prywatny oczywiście ukrywa ciasteczka), ale nadal może przeglądać artykuły.
+Nie chcąc, żeby to powiązano z&nbsp;jego profilem, klika prawym przyciskiem i&nbsp;otwiera nową kartę w&nbsp;trybie prywatnym. W&nbsp;tym momencie jest wylogowany (bo tryb prywatny oczywiście ukrywa ciasteczka), ale nadal może przeglądać artykuły.
 
 Ale portal medialny od razu skojarzy po adresie: „oho, mam anonima z&nbsp;adresem IP, którego przed sekundą używał zalogowany Andrzej Mruczek”.  
 Czasem z&nbsp;jednego adresu IP korzysta wiele osób. Dlatego przypadki `zalogowany → anonim (ten sam adres)` trafiają do dalszej analizy.  
@@ -242,9 +243,9 @@ Tryb prywatny nic tu nie zmienia, bo nie ingeruje w&nbsp;linki.
 
 ### Analiza ruchu sieciowego
 
-Wszystkie dotąd wymienione metody są czymś, czego odwiedzane stronki -- albo goszczący na nich reklamodawcy -- mogą używać przeciw swoim gościom.
+Wszystkie dotąd wymienione metody są czymś, czego mogą użyć przeciw użytkownikom odwiedzane stronki -- albo goszczący na nich reklamodawcy.
 
-Nie są oni jednak jedynym potencjalnym podglądaczem. Każdy, kto korzysta z&nbsp;internetu, musi bowiem korzystać z&nbsp;usług jakiegoś operatora. Tego, kto zapewnia router albo sieć mobilną. A&nbsp;operatorzy też mogą gromadzić dane.
+Ale potencjalnych podglądaczy jest więcej. Każdy, kto korzysta z&nbsp;internetu, musi bowiem korzystać z&nbsp;usług jakiegoś operatora. Tego, kto zapewnia router albo sieć mobilną. Ci operatorzy też mogą gromadzić dane.
 
 Z ich punktu widzenia tryb prywatny nie robi *żadnej* różnicy. I&nbsp;tak nie widzieli zwykle informacji, które on ukrywa, bo były zaszyfrowane podczas transportu. [Ich metody śledzenia]({% post_url 2024-03-28-analiza-ruchu %}){:.internal} opierają się zamiast tego na adresach IP, nazwach stronek, może rozmiarze danych.
 
@@ -295,7 +296,7 @@ Włączają tryb, otwierają stronę. Wita ich ekran logowania. No to się logu
 **Nie ma czegoś takiego jak anonimowe zalogowanie się na konto**. Logowanie opiera się na tym, że dostaje się *pliki cookies* -- unikalne identyfikatory, przypisane do konkretnego konta. Potem przeglądarka je okazuje stronce przy *każdej* interakcji.
 
 Analogia? To tak, jakby specjalnie zostawić w&nbsp;domu swój firmowy identyfikator przed wyjazdem w&nbsp;Bieszczady. Po czym podjechać do firmy, wyrobić sobie nowy (nadal na swoje prawdziwe dane) i&nbsp;publicznie się z&nbsp;nim obnosić.  
-Logując się na prawdziwe konto po włączeniu trybu prywatnego, tak naprawdę niweczy się cały jego sens. Lepiej używać wówczas jednorazowych trollkont.
+Logując się na prawdziwe konto po włączeniu trybu prywatnego, tak naprawdę niweczy się cały jego sens. Jeśli prywatne logowanie, to na jednorazowe trollkonto.
 
 ### Zamaskować adres IP
 
@@ -305,7 +306,7 @@ Z pozoru to niełatwe -- jak wspominałem, adres IP zawsze musi być prawdziwy. 
 
 * Włączyć hotspota w&nbsp;swoim telefonie i&nbsp;się przez niego połączyć.
 
-  Ważne: jeśli chwilę wcześniej się go używało, to adres IP może być nadal ten sam co przy sesji nieprywatnej. Lepiej chwilę odczekać, aż operator przydzieli nowy. Aktualny adres można sobie [sprawdzać](https://duckduckgo.com/q=what+is+my+ip) na stronce DuckDuckGo, wpisując `what is my ip`.
+  Ważne: jeśli chwilę wcześniej się go używało, to adres IP może być nadal ten sam co przy sesji nieprywatnej. Lepiej chwilę odczekać, aż operator przydzieli nowy. Aktualny adres można sobie [sprawdzać](https://duckduckgo.com/?q=what+is+my+ip) na stronce DuckDuckGo, wpisując `what is my ip`.
 
 * Użyć internetu przez jakiegoś publicznego hotspota, np. w&nbsp;kawiarni czy na dworcu.
 * Użyć VPN-a lub innego pośrednika.
@@ -321,7 +322,7 @@ W dwóch poprzednich przypadkach (własny lub publiczny hotspot) nie ma to znacz
 
   Najmocniejsze rozwiązanie w&nbsp;kwestii prywatności. Jak mocniejszy VPN, do tego w&nbsp;pakiecie pewna ochrona przed JavaScriptem. Wady? Wszystko będzie wolniejsze, bo ruch idzie przez kilku pośredników. Do tego niektóre strony się nie załadują.
 
-  Jest też rozwiązanie kompromisowe -- opcja `Nowe okno prywatne z obsługą sieci Tor` w&nbsp;przeglądarce Brave. Nie daje takich gwarancji jak Tor Browser i&nbsp;też może być spowalniane/blokowane, ale nie wymaga instalowania osobnej przeglądarki.
+  A żeby nie było, że piszę nie na temat i&nbsp;wychodzę z tym Torem poza tryb prywatny -- przeglądarka Brave ma rozwiązanie kompromisowe, opcję `Nowe okno prywatne z obsługą sieci Tor`. Nie daje ono takich gwarancji jak Tor Browser i&nbsp;też może być spowalniane/blokowane, ale nie wymaga instalowania osobnej przeglądarki.
 
 ### Nie wyrażać zgód na profilowanie
 
@@ -376,6 +377,6 @@ Wystarczy jednak, żeby w&nbsp;parze z&nbsp;włączeniem trybu prywatnego poszł
 
 Problem w&nbsp;tym, że mało kto zna realne ograniczenia trybu. Wiele osób może wpadać w&nbsp;pułapkę, ufnie go aktywując, po czym logując się na to konto co zwykle.
 
-...Ale **można to zmienić, szerząc świadomość zagrożeń**. Choćby przez udostępnianie tego wpisu, a&nbsp;przynajmniej faktów na temat adresu IP czy nielogowaniu się na konta. Do czego zachęcam! :smile:
+...Ale **można to zmienić, szerząc świadomość zagrożeń**. Choćby przez udostępnianie tego wpisu, a&nbsp;przynajmniej faktów na temat adresu IP czy wpływu logowania na prywatność. Do czego zachęcam! :smile:
 
 

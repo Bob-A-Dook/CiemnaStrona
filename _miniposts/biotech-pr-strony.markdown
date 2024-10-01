@@ -56,6 +56,8 @@ You WILL NOT GET A&nbsp;BETTER VALUE FOR YOUR DOLLAR than ACSH
 
 ACSH było mocno powiązane z&nbsp;pozostałymi sojusznikami Monsanto.
 
+W innym artykule [negowali skutki](https://www.acsh.org/news/2023/02/27/putting-east-palestine-train-accident-perspective-16909) katastrofy kolejowej w&nbsp;miejscowości East Palestine w&nbsp;USA, twierdząc że media szerzą histerię. Proponuję porównać ogólny wydźwięk ich artykułu z&nbsp;[tym](https://naukatolubie.pl/katastrofa-kolejowa-w-ohio/) z&nbsp;polskiego portalu „Nauka. To Lubię”.
+
 ### Genetic Literacy Project i&nbsp;Jon Entine
 
 Zacznijmy od najkonkretniejszych konkretów -- pieniądze od firm biotechnologicznych otrzymywali czasem wprost. **Tu sto tysięcy od Bayera, za okres 2020-2021**:

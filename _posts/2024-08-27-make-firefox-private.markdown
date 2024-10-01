@@ -144,7 +144,7 @@ Poza tym skrypt nie zadziałałby też na smartfonach z&nbsp;Androidem, wewnątr
 
 Raczej nikogo nie zdziwi fakt, że przeglądarka umie otwierać inne rzeczy niż strony internetowe. W&nbsp;końcu może otwierać nawet pliki PDF, jak [ten losowy przykład](https://research.mozilla.org/files/2018/04/The-Effect-of-Ad-Blocking-on-User-Engagement-with-the-Web.pdf). O&nbsp;ile ktoś ręcznie nie zmieniał opcji, to takie pliki wyświetlą się w&nbsp;trybie specjalnie pod PDF-y. W&nbsp;prostym czytniku.
 
-Zaskoczenie może natomiast budzić fakt, że w&nbsp;górnym pasku nie ma tu żadnej nazwy, która by sugerowała plik tekstowy. Jest tam tylko adres: `https://make-firefox-private-again.com/`.
+Zaskakiwać może natomiast fakt, że górny pasek nie sugeruje żadnego pliku tekstowego. Jest tam tylko adres: `https://make-firefox-private-again.com/`.
 
 To dlatego, że ścieżka z&nbsp;górnego paska jest tak naprawdę czymś innym, niż w&nbsp;świadomości codziennych użytkowników.  
 Intuicyjnie można powiedzieć, że przeglądarka mówi górnym paskiem: „oto, o&nbsp;co poprosiłam czyjś serwer”. Reszta ekranu, pod paskiem, wskazuje z&nbsp;kolei: „oto rzecz, którą dostałam w&nbsp;odpowiedzi, plus wszystkie elementy powiązane”.  
