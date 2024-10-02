@@ -16,7 +16,7 @@ image:
 Witam w&nbsp;kolejnym wpisie z&nbsp;kategorii mniej prywatnościowych, bardziej aferowych!  
 Tym razem czas na koncern Nestlé. Jedną z&nbsp;najsilniej bojkotowanych firm na świecie.
 
-Przyczyn tego bojkotu jest wiele. Zawłaszczanie zasobów wody, wykorzystywanie niewolniczej pracy, nadużywanie cukru w&nbsp;produktach, ogrywanie systemu Nutri-Score czy niewycofanie się z&nbsp;Rosji... No i&nbsp;wielki skandal z&nbsp;masowymi zgonami niemowląt w&nbsp;Afryce, obchodzący 50-lacie swojego ujawnienia. To na nim się skupię.
+Przyczyn tego bojkotu jest wiele. Zawłaszczanie zasobów wody, wykorzystywanie niewolniczej pracy, nadużywanie cukru w&nbsp;produktach, ogrywanie systemu Nutri-Score czy niewycofanie się z&nbsp;Rosji... No i&nbsp;wielki skandal z&nbsp;masowymi zgonami niemowląt w&nbsp;Afryce, obchodzący 50&#8209;lecie swojego ujawnienia. To na nim się skupię.
 
 W przeciwieństwie do niektórych relacji na ten temat, nie poprzestanę na tragicznej przeszłości. Nie mógłbym tego zrobić, skoro **sprawa żyje i&nbsp;ma się dobrze**.
 
@@ -76,7 +76,7 @@ A ile jest w&nbsp;tym prawdy? Czy twórcy mieszanek nie mogą tak po prostu sypn
 Okazuje się, że nie. Są pewne rzeczy, których mleko w&nbsp;proszku nie zastąpi. I&nbsp;nie mówię o abstrakcjach, „mistycznych więziach” itd., tylko o&nbsp;czymś konkretnym. Jak przeciwciała.  
 Można powiedzieć, że mleko w&nbsp;proszku jest „statyczne”, zawsze takie samo. Zaś **mleko matki jest „dynamiczne”. Przystosowane do warunków otoczenia**.
 
-Jakieś naukowe źródło? Proszę bardzo. Po polsku, zresztą ze strony [samego Nestlé Nutrition Institute](https://poland.nestlenutrition-institute.org/zasoby/publikacje-series/publikacje/article/immunologiczne-wlasciwosci-mleka-kobiecego-i-stymulacja-laktacji-po-cieciu-cesarskim), żeby uciąć wszelkie oskarżenia o&nbsp;*aktywizm* czy *antynaukowość*. Polecam fragmenty o&nbsp;siarze i&nbsp;laktoferynie, których nie będą tu cytował.
+Jakieś naukowe źródło? Proszę bardzo. Po polsku, zresztą ze strony [samego Nestlé Nutrition Institute](https://poland.nestlenutrition-institute.org/zasoby/publikacje-series/publikacje/article/immunologiczne-wlasciwosci-mleka-kobiecego-i-stymulacja-laktacji-po-cieciu-cesarskim), żeby uciąć wszelkie oskarżenia o&nbsp;*aktywizm* czy *antynaukowość*. Polecam fragmenty o&nbsp;siarze i&nbsp;laktoferynie, których nie będę tu cytował.
 
 {:.post-meta .bigspace-after}
 Inny artykuł na temat przeciwciał w&nbsp;mleku można znaleźć np. w&nbsp;periodyku naukowym [*The Cell*](https://www.cell.com/cell/fulltext/S0092-8674(21)00220-8).
@@ -141,7 +141,7 @@ Po drugie: brak higieny. Różnie bywało z&nbsp;dostępem do czystej wody, ster
 
 W następstwie pierwszego czynnika dzieci były niedożywione i&nbsp;osłabione. W&nbsp;następstwie drugiego łapały infekcje układu pokarmowego oraz oddechowego. Trafiały do szpitala. A&nbsp;wiele z&nbsp;nich zmarło.
 
-Dokładna liczba ofiar jest trudna do ustalenia, bo raczej trudno jednoznacznie przypisać infekcje do wpływu mieszanek. Szacuje się natomiast, że z&nbsp;ich winy **zmarło kilka milionów dzieci**. I&nbsp;wyraźnie widać wzrost liczby zgonów od czasu spopularyzownia mieszanek.
+Dokładna liczba ofiar jest trudna do ustalenia, bo raczej trudno jednoznacznie przypisać infekcje do wpływu mieszanek. Szacuje się natomiast, że z&nbsp;ich winy **zmarło kilka milionów dzieci**. I&nbsp;wyraźnie widać wzrost liczby zgonów od czasu spopularyzowania mieszanek.
 
 ### Kara dla korporacji
 
@@ -327,7 +327,7 @@ Piszę „wpisu”, bo został umieszczony w&nbsp;tej części serwisu, gdzie [k
 {% include info.html
 type="Ciekawostka"
 text="Tworzenie takich treści to stała strategia amerykańskich marketingowców popularnonaukowych. Podobnie robili, [kwestionując szkodliwość](/2023/05/19/dzien-pszczoly-neonikotynoidy#medialna-ofensywa){:.internal} pewnych środków rolniczych dla pszczół.  
-Tworzą artykuły gościnne (jeśli gazeta coś takiego umożliwia). Później inni znajomi cytują te artykuły, podkreślając nazwę całego portalu „Jak można wyczytać w&nbsp;gazecie X...”, żeby wyglądało to jak poważne śledztwo znanych mediów.  
+Tworzą artykuły gościnne (jeśli gazeta coś takiego umożliwia). Później inni znajomi cytują te artykuły, podkreślając nazwę całego portalu („jak można wyczytać w&nbsp;gazecie X...”), żeby wyglądało to jak poważne śledztwo znanych mediów.  
 Kiedyś co najmniej jeden z&nbsp;takich artykułów został usunięty po tym jak dowiedziono, że współautor Senapathy ukrywał swoje powiązania z&nbsp;branżą."
 %}
 
@@ -361,7 +361,7 @@ Nie wymyślam tego. Ta osoba naprawdę napisała o&nbsp;„branży laktacyjnej�
 
 Ale może to pojedyncza, radykalna opinia, z&nbsp;którą nie po drodze samej Fundacji? Raczej nie. *Fed is Best* [regularnie udostępnia](https://www.facebook.com/profile/100066823745538/search/?q=skepticalob) wpisy tej osoby, z&nbsp;których wiele ma podobny wydźwięk. Poza tym sami insynuowali, że WHO chce przemilczeć niewygodne fakty (przykład na wrzuconym wcześniej kolażu miniaturek).
 
-A jakieś powiązanie z SciMoms? Skeptical OB oparła [jeden ze swoich wpisów](http://www.skepticalob.com/2017/10/world-health-organization-declares-babies-dying-from-breastfeeding-complications-are-not-a-priority.html) na artykule Senapathy, pisząc po prostu „pisze Kavin Senapathy w&nbsp;Forbesie”. Bez ujawnienia powiązań Senapathy czy faktu, że w&nbsp;tej części Forbesa każdy mógł pisać.
+A jakieś powiązanie z SciMoms? Skeptical OB oparła [jeden ze swoich wpisów](http://www.skepticalob.com/2017/10/world-health-organization-declares-babies-dying-from-breastfeeding-complications-are-not-a-priority.html) na artykule Senapathy: „pisze Kavin Senapathy w&nbsp;Forbesie”. Bez ujawnienia jej powiązań czy faktu, że w&nbsp;tej części Forbesa każdy mógł pisać.
 
 ### Thoughtscapism
 
@@ -376,9 +376,9 @@ Muszę przyznać, że jest subtelna. W&nbsp;przypadku pszczół potrafiła na pr
 * cytuje kilka razy *Fed is Best* oraz twórczynię ruchu, nie wskazując natury ich działalności;
 * powołuje się na Kavin Senapathy (nazywając ją po prostu „dziennikarką”, zaś słowa `SciMoms` nie używając ani razu);
 
-  A&nbsp;warto, żeby wspomniała, bo ma z&nbsp;SciMoms relacje, które raczej utrudniałyby krytykę. Prowadziła z&nbsp;nimi [niejeden wspólny projekt](https://www.facebook.com/profile/100024404451845/search/?q=thoughtscapism).
+  A&nbsp;warto, żeby to zrobiła, bo ma z&nbsp;SciMoms relacje, które raczej utrudniałyby krytykę. Prowadziła z&nbsp;nimi [niejeden wspólny projekt](https://www.facebook.com/profile/100024404451845/search/?q=thoughtscapism).
 
-* cytuje fragment [artykułu z&nbsp;*Atlantic*](https://www.theatlantic.com/magazine/archive/2009/04/the-case-against-breast-feeding/307311/) z&nbsp;2009 roku, przemycając stereotyp nowobogackiego karmienia piersią:
+* cytuje fragment [artykułu z&nbsp;*Atlantic*](https://www.theatlantic.com/magazine/archive/2009/04/the-case-against-breast-feeding/307311/) z&nbsp;2009&nbsp;roku, przemycając stereotyp nowobogackiego karmienia piersią:
 
   > From the moment a&nbsp;new mother enters the obstetrician’s waiting room, she is subjected to the upper-class parents’ jingle: “Breast Is Best.”
 
@@ -423,14 +423,14 @@ Powiedziałbym, że dość wyważony wpis. Nie piszą „wypad z&nbsp;tym”, t
 > Jeśli March for Science uważa naszą wyważoną perspektywę za niewłaściwą -- mimo wsparcia wielu pediatrów, badań sugerujących niewielkie różnice \[między piersią a&nbsp;butelką\] w&nbsp;krajach rozwiniętych oraz faktu, że silny nacisk na karmienie piersią faworyzuje uprzywilejowane mamy -- to rozumiemy. Jeśli ktoś chce przeczytać nasz często cytowany artykuł wspierający inicjatywę *Fed is Best*, to można go znaleźć [tutaj](https://web.archive.org/web/20190503211508/https://scimoms.com/is-breast-really-best-and-is-formula-harmful/).
 
 {:.figcaption}
-Tłumaczenie i&nbsp;uzupełnienie moje. Link zmieniałem na taki do archiwum, bo pierwotny już wygasł.
+Tłumaczenie i&nbsp;uzupełnienie moje. Link do wersji zarchiwizowanej, bo pierwotny już wygasł.
 
 Senapathy [podała to dalej](https://www.facebook.com/Ksenapathy/posts/pfbid02jug7FmHESd3LUYjuF1gcVvutnPZKZvuDW8myrREaBE8qqMDC5bZUaHmjDVg8Bfzl), nazywając MfS nieprofesjonalnym któryś raz z&nbsp;rzędu. Dołączyły się też inne członkinie oraz zaprzyjaźnione portale, jak Credible Hulk czy Eclectic Science, zgodnie uderzając w&nbsp;organizację.
 
 {% include info.html
 type="Ciekawostka"
-text="Pod krytycznym postem SciMoms można znaleźć komentarz wychwalający pewien filmik kanału SciShow z&nbsp;YouTube'a na temat mieszanki -- [chodzi o&nbsp;ten](https://www.youtube.com/watch?v=i1UMnKduosE). Konto SciMoms odpowiada wprost, że **to Senapathy od nich napisała scenariusz**.  
-W samym filmie jej imię i&nbsp;nazwisko pojawia się raz, w&nbsp;napisach końcowych. Zero wzmianek o&nbsp;powiązaniach czy działalności.  
+text="W komentarzach pod postem SciMoms można znaleźć wzmiankę o&nbsp;filmiku kanału SciShow z&nbsp;YouTube'a, poruszającym kwestię mieszanek -- [chodzi o&nbsp;ten](https://www.youtube.com/watch?v=i1UMnKduosE). Konto SciMoms odpowiada wprost, że **to Senapathy od nich napisała scenariusz**.  
+W samym filmie jej imię i&nbsp;nazwisko pojawia się raz, w&nbsp;napisach końcowych. Zero informacji o&nbsp;powiązaniach czy działalności.  
 Przesłanie? Mocno za mieszankami. Wzmianka o&nbsp;karygodnych praktykach firm? Jest, ale trwa dosłownie kilka sekund (od 2:43 do 2:51). Nie pada nazwa Nestlé."
 %}
 
@@ -537,7 +537,7 @@ Znając obecne fakty, pozwolę sobie wyjąć szklaną kulę. Gdyby Nestlé kied
 
   Tym razem sztandarowy slogan *Fed is Best* będzie można wzbogacić o&nbsp;rzeczy dotyczące *stricte* precyzyjnej fermentacji. Propagandyści nagłośnią zarzuty naciągane i&nbsp;łatwe do obalenia, przedstawiając je jako oficjalny głos przeciwników.
 
-  „Ta antynaukowa tłuszcza uważa, że nowe mleko powstaje z&nbsp;komórek rakowych!”. To oczywiście fałsz łatwy do obalenia. Dlatego różni młodzi naukowcy, podjudzani w&nbsp;swoich grupkach, zaczną gromić foliarzy. Będą szydzić i rzucać dowcipasami. „To zawiera nie tylko komórki, ale nawet monotlonek diwodoru. Olaboga!”.
+  „Ta antynaukowa tłuszcza uważa, że nowe mleko powstaje z&nbsp;komórek rakowych!”. To oczywiście fałsz łatwy do obalenia. Dlatego różni młodzi naukowcy, podjudzani w&nbsp;swoich grupkach, zaczną gromić foliarzy. Będą szydzić i rzucać dowcipasami. „To zawiera nie tylko komórki, ale nawet monotlenek diwodoru. Olaboga!”.
 
 Nestlé będzie zarabiało i&nbsp;rechotało. A&nbsp;opowieści niespiskowe -- o&nbsp;korporacyjnej chciwości, nieetycznym marketingu, wpływach politycznych -- zostaną zagłuszone głośną plemienną wojenką. Kolejną w coraz bardziej podzielonym świecie.
 
