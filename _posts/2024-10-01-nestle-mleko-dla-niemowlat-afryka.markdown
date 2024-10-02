@@ -155,7 +155,7 @@ Los Nestlé był przesądzony. Rozpoczął się wielki, międzynarodowy bojkot, 
 
 Szczególnie stanowczo zadziałała Światowa Organizacja Zdrowia. W&nbsp;1981 roku opublikowali szereg wytycznych, ograniczających możliwość reklamowania produktów dla niemowląt, nazwanych *[Międzynarodowym kodeksem marketingu produktów zastępujących mleko kobiece](https://pl.wikipedia.org/wiki/Mi%C4%99dzynarodowy_kodeks_marketingu_produkt%C3%B3w_zast%C4%99puj%C4%85cych_mleko_kobiece)*.
 
-Wytyczne zostały następnie przyjęte przez 118&nbsp;krajów, stając się w&nbsp;nich częścią oficjalnego prawa. Głos przeciwko nim był jeden, ze strony USA. Zapamiętajcie ten fakt, bo jeszcze się później pojawi.  
+Wytyczne zostały następnie przyjęte w głosowaniu przez 118&nbsp;krajów. Głos przeciwko nim był jeden, ze strony USA. Zapamiętajcie ten fakt, bo jeszcze się później pojawi.  
 Wytyczne były obszerne, ale na potrzeby wpisu wystarczy kilka faktów:
 
 * nie można reklamować produktów dla niemowląt poniżej 6.&nbsp;miesiąca życia,
@@ -222,7 +222,7 @@ Nie zmienia to jednak faktu, że Nestlé też ma dużo do zyskania na całej kam
 
 Proponuję zacząć od bodaj najbardziej wpływowej grupy. Ich profil na Facebooku, gdzie mają niemal milion obserwujących, [istnieje od marca 2015&nbsp;roku](https://www.facebook.com/fedisbestfoundation/about_profile_transparency).
 
-Oficjalnie twarzą grupki jest Christie del Castillo-Hegyi -- dyplomowana lekarka, która po urodzeniu dziecka dojrzała rzekomo nieprawidłowości związane z&nbsp;karmieniem piersią i postanowiła to nagłaśniać.  
+Oficjalnie twarzą grupki jest Christie del Castillo-Hegyi -- dyplomowana lekarka, która po urodzeniu dziecka dojrzała rzekomo nieprawidłowości związane z&nbsp;karmieniem piersią i&nbsp;postanowiła to nagłaśniać.  
 Idealna kombinacja, nieprawdaż? Zawodowy personel medyczny, więc jest efekt autorytetu (jak stroje pielęgniarek w&nbsp;Afryce). Mama, więc jest efekt bliskości. „Jestem jedną z&nbsp;was”.
 
 W zakładce z&nbsp;informacjami szczegółowymi można znaleźć informację, że są organizacją *non-profit*, która może legalnie utrzymywać się wyłącznie z&nbsp;darowizn. Dzięki temu mają być rzekomo niezależni od producentów mleka dla niemowląt.  
@@ -256,7 +256,7 @@ W początkowych etapach ruch stylizował się na taką pozytywną grupkę. Miel
 
 Po pewnym zakorzenieniu się w świadomości amerykańskich mam, *Fed is Best* zaczęło wzbogacać arsenał technik o&nbsp;nieco mniej niewinne. Takie jak **granie na emocjach**.
 
-Dużą akcję przeprowadzili w&nbsp;2017 roku, [nagłaśniając](https://www.facebook.com/fedisbestfoundation/posts/pfbid0PAjG9ztD7bXBxiGNoFxRpr1Adn34zC78iqeguw6scqzXKsX8BiUprUXKKnfWJEArl) śmierć pewnego niemowlęcia, Landona J. Samo zdarzenie miało miejsce w&nbsp;2012 roku. Podczas pobytu w&nbsp;szpitalu zalecano matce karmienie piersią, nie sprawdzając dokładnie, czy wszystko jest jak powinno. Nie dostrzegli, że niemowlę jest niedożywione, przez co zmarło.
+Dużą akcję przeprowadzili w&nbsp;2017&nbsp;roku, [nagłaśniając](https://www.facebook.com/fedisbestfoundation/posts/pfbid0PAjG9ztD7bXBxiGNoFxRpr1Adn34zC78iqeguw6scqzXKsX8BiUprUXKKnfWJEArl) śmierć pewnego niemowlęcia, Landona&nbsp;J. Samo zdarzenie miało miejsce w&nbsp;2012&nbsp;roku. Podczas pobytu w&nbsp;szpitalu zalecano matce karmienie piersią, nie sprawdzając dokładnie, czy wszystko jest jak powinno. Nie dostrzegli, że niemowlę jest niedożywione, przez co zmarło.
 
 Tragiczny wypadek? Niekompetencja personelu? Zapewne. Natomiast *Fed is Best* przedstawiło historię jako coś ogólniejszego: słabość wytycznych WHO oraz inicjatywy karmienia piersią. Przeprowadzali wywiady z&nbsp;matką Landona, dodając emocjonalne opisy. „Gdyby choć raz dostał butelkę, to by żył”. Dodawali też hasztagi -- `#JustOneBottle` oraz `#LandonsLegacy` („dziedzictwo Landona”).
 
