@@ -39,10 +39,10 @@ Do kontrolowania reputacji często wykorzystują cały parasol podwykonawców. T
 
 Po raz pierwszy wspominałem o&nbsp;nich we [wpisie na temat Syngenty]({% post_url 2022-07-27-syngenta-atrazyna %}){:.internal} -- pierwszym dotykającym tematu branży rolniczej, kiedy jeszcze nie wiedziałem, jak głęboko sięga cała siatka.
 
-ACSH przedstawia się jako niezależni naukowcy. W&nbsp;praktyce pojawiają się, kiedy jakiś koncern ma problem wizerunkowy i&nbsp;potrzeba kogoś, kto powie, że nauka jest po stronie firmy, a&nbsp;jej produkty są super.
+Choć nazwa American Council for Science and Health brzmi poważnie i&nbsp;oficjalnie, są całkiem prywatną i&nbsp;dość niewielką organizacją. Przedstawiają się jako niezależni naukowcy. W&nbsp;praktyce pojawiają się, kiedy jakiś koncern ma problem wizerunkowy i&nbsp;potrzeba kogoś, kto powie, że nauka jest po stronie firmy, a&nbsp;jej produkty są super.
 
-W [mailach](https://www.sourcewatch.org/images/1/10/Syn_2009_PR_Request_for_Proposal.pdf) zwracali się do pracowników Syngenty  *Dear Syngenta friends* i&nbsp;dziękowali za hojne wsparcie finansowe.  
-Okazuje się, że z&nbsp;Monsanto również się lubili. Mamy wątek mailowy, w&nbsp;którym szef ACSH [się do nich przymila](https://s3.documentcloud.org/documents/6380619/ACSH-Asks-Monsanto-for-Money.pdf), pytając czy w&nbsp;tym roku korporacja również skorzysta z&nbsp;ich usług:
+W [mailach](https://www.sourcewatch.org/images/1/10/Syn_2009_PR_Request_for_Proposal.pdf) zwracali się do pracowników Syngenty  „*Dear Syngenta friends*” i&nbsp;dziękowali za hojne wsparcie finansowe.  
+Okazuje się, że z&nbsp;Monsanto również się lubili. Mamy wątek mailowy, w&nbsp;którym szef ACSH [się do nich przymila](https://s3.documentcloud.org/documents/6380619/ACSH-Asks-Monsanto-for-Money.pdf). Pyta, czy w&nbsp;tym roku korporacja również skorzysta z&nbsp;ich usług:
 
 {:.bigspace-after}
 > Each and every day, we work hard to prove our worth to companies such as Monsanto
@@ -178,7 +178,7 @@ Wspierała również dość aktywnie Entine'a z&nbsp;GLP, miała między innymi 
 
 W sprawie takiej jak ta mocne źródła są szczególnie ważne. Dlatego **oparłem się przede wszystkim na dokumentach źródłowych, takich jak firmowe maile**. To informacje zdobyte oficjalnymi kanałami -- przez wnioski o&nbsp;udzielenie informacji publicznej albo ujawnione w&nbsp;toku rozpraw sądowych.
 
-Ale dla przejrzystości wskażę również strony, na których znalazłem omówienia tych dokumentów. Dzięki temu osoby zainteresowane tematem mogą poczytać o&nbsp;innych, podobnych sprawach. A&nbsp;zatem przedstawiam moje główne źródła:
+Ale dla przejrzystości wskażę również strony, na których znalazłem omówienia tych dokumentów. Dzięki temu osoby zainteresowane tematem mogą poczytać o&nbsp;innych, podobnych sprawach. Oto moje główne źródła:
 
 * [Baum Hedlund Law](https://baumhedlundlaw.com) -- kancelaria reprezentująca osoby chore na chłoniaka nieziarniczego (rodzaj raka), które obwiniały produkty Monsanto za swoją chorobę.
 
@@ -189,7 +189,7 @@ Ale dla przejrzystości wskażę również strony, na których znalazłem omówi
 
   Ale robią coś innego. Analizują wewnętrzne maile i&nbsp;inne dokumenty ukazujące machlojki branży rolniczej i&nbsp;spożywczej oraz amerykańskich agencji nadzoru. Ujawniają utajonych lobbystów.
 
-  Po pierwszym wejściu na ich stronę obawiałem się że będzie spiskowo, widząc zakładkę o&nbsp;Billu&nbsp;G. Ale pozory mylą. Jest merytorycznie, w&nbsp;oparciu o&nbsp;dokumenty sądowe. Realna korupcja, a&nbsp;nie fantazyjne spiski.
+  Po pierwszym wejściu na ich stronę obawiałem się, że będzie spiskowo, widząc zakładkę o&nbsp;Billu&nbsp;G. Ale pozory mylą. Jest merytorycznie, w&nbsp;oparciu o&nbsp;dokumenty sądowe. Realna korupcja, a&nbsp;nie fantazyjne spiski.
 
   Nie są również jakimiś *kontrmediami*. Jeden z&nbsp;ich raportów był niedawno cytowany w&nbsp;[artykule New York Timesa o&nbsp;zawodnej kontroli żywności](https://www.nytimes.com/2023/10/04/well/eat/dietary-guidelines-food-industry.html). Jedna z&nbsp;głównych dziennikarek pracowała wcześniej dla Reutersa, a po opuszczeniu USRTK -- dla Guardiana.
 
