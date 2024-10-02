@@ -431,7 +431,7 @@ Senapathy [podała to dalej](https://www.facebook.com/Ksenapathy/posts/pfbid02ju
 type="Ciekawostka"
 text="W komentarzach pod postem SciMoms można znaleźć wzmiankę o&nbsp;filmiku kanału SciShow z&nbsp;YouTube'a, poruszającym kwestię mieszanek -- [chodzi o&nbsp;ten](https://www.youtube.com/watch?v=i1UMnKduosE). Konto SciMoms odpowiada wprost, że **to Senapathy od nich napisała scenariusz**.  
 W samym filmie jej imię i&nbsp;nazwisko pojawia się raz, w&nbsp;napisach końcowych. Zero informacji o&nbsp;powiązaniach czy działalności.  
-Przesłanie? Mocno za mieszankami. Wzmianka o&nbsp;karygodnych praktykach firm? Jest, ale trwa dosłownie kilka sekund (od 2:43 do 2:51). Nie pada nazwa Nestlé."
+Przesłanie? Mocno za mieszankami. Wzmianka o&nbsp;karygodnych praktykach w&nbsp;Afryce? Jest, ale trwa dosłownie kilka sekund (od 2:43 do 2:51). Nie pada nazwa Nestlé."
 %}
 
 ### Parę spekulacji
@@ -512,7 +512,7 @@ Co pewien czas na horyzoncie majaczą jakieś innowacje. A&nbsp;korporacje piln
 W sprawach mleka taką innowacją może być **precyzyjna fermentacja** -- technika namnażania komórek w&nbsp;metalowych zbiornikach, bioreaktorach. Promowana jako możliwość wytwarzania mleka bez udziału krów.  
 Jej entuzjaści cieszą się na myśl o&nbsp;tym, że dzięki temu odejdzie się od masowych farm i&nbsp;potwornego traktowania zwierząt... Ale czy przewidują, w&nbsp;czyje ręce to trafi?
 
-Nestlé można znaleźć na [liście członków Cellular Agriculture Europe](https://www.cellularagriculture.eu/about-us/) -- organizacji zrzeszającej różne firmy zaangażowane w&nbsp;producję żywności z&nbsp;laboratorium.
+Nestlé można znaleźć na [liście członków Cellular Agriculture Europe](https://www.cellularagriculture.eu/about-us/) -- organizacji zrzeszającej różne firmy zaangażowane w&nbsp;produkcję żywności z&nbsp;laboratorium.
 
 Mieli również swoją [prelekcję](https://www.youtube.com/watch?v=onH0XE4K0ek) na wydarzeniu Uni Food Day w&nbsp;2023 roku:
 
@@ -535,7 +535,7 @@ Znając obecne fakty, pozwolę sobie wyjąć szklaną kulę. Gdyby Nestlé kied
 
 * Agencje marketingowe rozkręcą fałszywą debatę.
 
-  Tym razem sztandarowy slogan *Fed is Best* będzie można wzbogacić o&nbsp;rzeczy dotyczące *stricte* precyzyjnej fermentacji. Propagandyści nagłośnią zarzuty naciągane i&nbsp;łatwe do obalenia, przedstawiając je jako oficjalny głos przeciwników.
+  Tym razem sztandarowy slogan *Fed is Best* będzie można wzbogacić o&nbsp;rzeczy dotyczące *stricte* precyzyjnej fermentacji. Propagandyści nagłośnią zarzuty naciągane i&nbsp;łatwe do obalenia, przedstawiając je jako oficjalny głos przeciwników. Postawią chochoła, jak przy *nowobogackich mamach antybutelkowych*.
 
   „Ta antynaukowa tłuszcza uważa, że nowe mleko powstaje z&nbsp;komórek rakowych!”. To oczywiście fałsz łatwy do obalenia. Dlatego różni młodzi naukowcy, podjudzani w&nbsp;swoich grupkach, zaczną gromić foliarzy. Będą szydzić i rzucać dowcipasami. „To zawiera nie tylko komórki, ale nawet monotlenek diwodoru. Olaboga!”.
 
@@ -561,10 +561,10 @@ Produkty i&nbsp;marki występujące w&nbsp;Polsce (z&nbsp;tych mniej oczywistych
 * karma Purina,
 * pokarmy dla dzieci Gerber,
 * przyprawa Maggi,
-* kosmetyki i&nbsp;perfumy L'Oreal, Garnier, Yves Saint Laurent.
+* kosmetyki i&nbsp;perfumy  L'Oréal, Garnier, Yves Saint Laurent.
 
 {:.post-meta .bigspace-after}
-Nie gwarantuję aktualności listy i&nbsp;zachęcam do osobistego wyszukania nazw tych marek, po dopisaniu `nestle`.
+Nie gwarantuję aktualności listy i&nbsp;zachęcam do osobistego wyszukania nazw tych marek, po dopisaniu `nestle`. W&nbsp;niektórych mają tylko część udziałów.
 
 Mając dziecko, warto się trzymać karmienia matczynym mlekiem. Ewentualnie zachować wybredność w&nbsp;wyborze producenta.
 
