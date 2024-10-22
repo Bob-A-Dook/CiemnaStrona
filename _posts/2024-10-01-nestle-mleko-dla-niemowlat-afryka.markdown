@@ -76,7 +76,7 @@ A ile jest w&nbsp;tym prawdy? Czy twórcy mieszanek nie mogą tak po prostu sypn
 Okazuje się, że nie. Są pewne rzeczy, których mleko w&nbsp;proszku nie zastąpi. I&nbsp;nie mówię o abstrakcjach, „mistycznych więziach” itd., tylko o&nbsp;czymś konkretnym. Jak przeciwciała.  
 Można powiedzieć, że mleko w&nbsp;proszku jest „statyczne”, zawsze takie samo. Zaś **mleko matki jest „dynamiczne”. Przystosowane do warunków otoczenia**.
 
-Jakieś naukowe źródło? Proszę bardzo. Po polsku, zresztą ze strony [samego Nestlé Nutrition Institute](https://poland.nestlenutrition-institute.org/zasoby/publikacje-series/publikacje/article/immunologiczne-wlasciwosci-mleka-kobiecego-i-stymulacja-laktacji-po-cieciu-cesarskim), żeby uciąć wszelkie oskarżenia o&nbsp;*aktywizm* czy *antynaukowość*. Polecam fragmenty o&nbsp;siarze i&nbsp;laktoferynie, których nie będę tu cytował.
+Jakieś naukowe źródło? Proszę bardzo. Po polsku, zresztą ze strony [samego Nestlé Nutrition Institute](https://poland.nestlenutrition-institute.org/zasoby/publikacje-series/publikacje/article/immunologiczne-wlasciwosci-mleka-kobiecego-i-stymulacja-laktacji-po-cieciu-cesarskim), żeby uciąć oskarżenia o&nbsp;stronniczość :wink: Polecam fragmenty o&nbsp;siarze i&nbsp;laktoferynie, których nie będę tu cytował.
 
 {:.post-meta .bigspace-after}
 Inny artykuł na temat przeciwciał w&nbsp;mleku można znaleźć np. w&nbsp;periodyku naukowym [*The Cell*](https://www.cell.com/cell/fulltext/S0092-8674(21)00220-8).
@@ -474,7 +474,7 @@ Szukając kombinacji `"nestle" "burson"` na Twitterze, można znaleźć inne pr
 <img src="/assets/posts/korpoafery/nestle-mleko/nestle-burson-fulcrum-awards.jpg" alt="Fragmenty zdjęcia, pokazujące nazwę konferencji Fulcrum Awards oraz srebrne wyróżnienie dla projektu wspólnego Nestlé i&nbsp;Bursona"/>
 
 Kwestię architektów kampanii na tę chwilę muszę niestety odłożyć. Za dużo planów, za mało czasu. Ale może jakaś osoba ze znajomością angielskiego i&nbsp;żyłką detektywistyczną da nura w&nbsp;temat? I&nbsp;odkryje, jaka organizacja stoi za mleczną kampanią?  
-Zachęcam! Świat propagandy branżowej w&nbsp;USA jest fascynujący, a&nbsp;patologii tam więcej niż na jakimś FameMMA :wink:
+Zachęcam! Świat propagandy branżowej w&nbsp;USA jest fascynujący, a&nbsp;patologii tam więcej niż na jakimś Fame MMA :wink:
 
 ## Naciski polityczne
 

@@ -526,6 +526,12 @@ strong {
   box-shadow: 0px 0px 2px $bold-color;
 }
 
+.framed {
+  box-shadow: 0px 0px 2px $bold-color;
+  padding: 5px;
+  border-radius: 0px 10px 10px 0px;
+}
+
 .black-bg {
   background-color:black;
   min-height:30px;

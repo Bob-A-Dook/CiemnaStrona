@@ -35,13 +35,16 @@ Nie wnikam już w&nbsp;to, które zarzuty są słuszne. Ale faktem jest, że du
 
 Do kontrolowania reputacji często wykorzystują cały parasol podwykonawców. Tutaj ich poznamy.
 
-### „Cebula deal” – American Council for Science and Health
+### „Cebula deal” – American Council on Science and Health
 
 Po raz pierwszy wspominałem o&nbsp;nich we [wpisie na temat Syngenty]({% post_url 2022-07-27-syngenta-atrazyna %}){:.internal} -- pierwszym dotykającym tematu branży rolniczej, kiedy jeszcze nie wiedziałem, jak głęboko sięga cała siatka.
 
-Choć nazwa American Council for Science and Health brzmi poważnie i&nbsp;oficjalnie, są całkiem prywatną i&nbsp;dość niewielką organizacją. Przedstawiają się jako niezależni naukowcy. W&nbsp;praktyce pojawiają się, kiedy jakiś koncern ma problem wizerunkowy i&nbsp;potrzeba kogoś, kto powie, że nauka jest po stronie firmy, a&nbsp;jej produkty są super.
+Choć nazwa American Council on Science and Health brzmi poważnie i&nbsp;oficjalnie, są całkiem prywatną i&nbsp;dość niewielką organizacją. Przedstawiają się jako niezależni naukowcy. W&nbsp;praktyce pojawiają się, kiedy jakiś koncern ma problem wizerunkowy i&nbsp;potrzeba kogoś, kto obroni ich produktów i&nbsp;stwierdzi, że nauka jest po ich stronie.
 
-W [mailach](https://www.sourcewatch.org/images/1/10/Syn_2009_PR_Request_for_Proposal.pdf) zwracali się do pracowników Syngenty  „*Dear Syngenta friends*” i&nbsp;dziękowali za hojne wsparcie finansowe.  
+Organizacja ma długą historię, sięgającą lat 70. Kiedyś nawet nie ukrywali swoich powiązań z korporacjami, potem stali się dyskretniejsi.  
+Przekrojowe omówienie ich klientów (w&nbsp;tym koncernów tytoniowych i&nbsp;paliwowych) można znaleźć [na stronie *Disinformation Chronicle*](https://disinformationchronicle.substack.com/p/alex-berezow-hates-science-is-a-menace) (choć artykuł skupia się na jednym z&nbsp;członków).
+
+W [mailach](https://www.sourcewatch.org/images/1/10/Syn_2009_PR_Request_for_Proposal.pdf) zwracali się do pracowników Syngenty *per* „*Dear Syngenta friends*” i&nbsp;dziękowali za hojne wsparcie finansowe.  
 Okazuje się, że z&nbsp;Monsanto również się lubili. Mamy wątek mailowy, w&nbsp;którym szef ACSH [się do nich przymila](https://s3.documentcloud.org/documents/6380619/ACSH-Asks-Monsanto-for-Money.pdf). Pyta, czy w&nbsp;tym roku korporacja również skorzysta z&nbsp;ich usług:
 
 {:.bigspace-after}
@@ -54,9 +57,7 @@ Patrząc po wewnętrznych firmowych mailach, w&nbsp;Monsanto nie do końca za ni
 They have PLENTY of warts- but:  
 You WILL NOT GET A&nbsp;BETTER VALUE FOR YOUR DOLLAR than ACSH
 
-ACSH było mocno powiązane z&nbsp;pozostałymi sojusznikami Monsanto.
-
-W innym artykule [negowali skutki](https://www.acsh.org/news/2023/02/27/putting-east-palestine-train-accident-perspective-16909) katastrofy kolejowej w&nbsp;miejscowości East Palestine w&nbsp;USA, twierdząc że media szerzą histerię. Proponuję porównać ogólny wydźwięk ich artykułu z&nbsp;[tym](https://naukatolubie.pl/katastrofa-kolejowa-w-ohio/) z&nbsp;polskiego portalu „Nauka. To Lubię”.
+Z wydarzeń bardziej współczesnych: [negowali skutki](https://www.acsh.org/news/2023/02/27/putting-east-palestine-train-accident-perspective-16909) katastrofy kolejowej w&nbsp;miejscowości East Palestine w&nbsp;USA i&nbsp;twierdzili, że media szerzą histerię. Proponuję porównać ogólny wydźwięk ich artykułu z&nbsp;[tym](https://naukatolubie.pl/katastrofa-kolejowa-w-ohio/) z&nbsp;polskiego portalu „Nauka. To Lubię”.
 
 ### Genetic Literacy Project i&nbsp;Jon Entine
 
