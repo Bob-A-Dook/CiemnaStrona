@@ -97,8 +97,7 @@ type="Uwaga"
 text="Pisząc o&nbsp;tych chipach, będę nazywał je *enklawami*, ponieważ to moim zdaniem trafna nazwa (sugeruje izolację, odosobnienie).  
 Te niedostępne rejony naszych urządzeń mają jednak wiele nazw. *Trusted enclave* to tylko jedna z&nbsp;wielu, preferowana przez Apple.  
 Ale często używa się ogólnej nazwy *TPM* (*Trusted Platform Module*). Firma ARM nazywa swój wariant TrustZone. U&nbsp;Samsunga to Knox. Komputery z&nbsp;Windowsem mają chip Pluton, w&nbsp;procesorach Intela siedzi Intel Management Engine... I&nbsp;tak dalej.  
-Wiele nazw, wiele wariantów. Ale powtarza się motyw odizolowanej części systemu. Osoby głodne wiedzy mogą poszukać więcej pod hasłem `trusted computing`.
-"
+Wiele nazw, wiele wariantów. Ale powtarza się motyw odizolowanej części systemu. Osoby głodne wiedzy mogą poszukać więcej pod hasłem `trusted computing` albo poczytać moje [przystępne wprowadzenie](/cyfrowy_feudalizm/2024/10/22/trusted-computing-kajdany){:.internal}."
 %}
 
 #### Jasna strona enklaw?
@@ -216,11 +215,11 @@ Pozostała dwójka -- Firefox od Mozilli oraz Safari od Apple -- ma własne siln
 
 ### Sprawa Apple'a
 
-Poza tym mam jeszcze jedną niewesołą wiadomość. Choć to Google zwrócił na siebie największą uwagę, pewna osoba nagłośniła fakt, że [Apple wprowadziło wcześniej bardzo podobny system](https://httptoolkit.com/blog/apple-private-access-tokens-attestation/), zwany *Private Access Token* (tutaj [dyskusja](https://news.ycombinator.com/item?id=36862494)).
+Poza tym mam jeszcze jedną niewesołą wiadomość. Choć to Google zwrócił na siebie największą uwagę, pewna osoba nagłośniła fakt, że [Apple wprowadził wcześniej bardzo podobny system](https://httptoolkit.com/blog/apple-private-access-tokens-attestation/), zwany *Private Access Token* (tutaj [dyskusja](https://news.ycombinator.com/item?id=36862494)).
 
-Serwery firm takich jak Cloudflare czy Fastly (w&nbsp;praktyce -- pośrednicy między nami a&nbsp;wieloma stronami większych firm) mogą sobie zażyczyć dowodu autentyczności od przeglądarki Safari na systemach Apple. Ta przekazuje prośbę systemowi, a&nbsp;system dostarcza dowodu swojej „prawilności”.
+Serwery firm takich jak Cloudflare czy Fastly (w&nbsp;praktyce -- pośrednicy między nami a&nbsp;wieloma stronami większych firm) mogą sobie zażyczyć dowodu autentyczności od przeglądarki Safari na systemach Apple'a. Ta przekazuje prośbę systemowi, a&nbsp;system dostarcza dowodu swojej „prawilności”.
 
-O tej sprawie nie było tak głośno. Być może dlatego, że przedstawiano to jako bonus. Możliwość ominięcia wkurzającej, ręcznej weryfikacji typu Captcha. Wejście poza kolejką, trochę jak *priority boarding* w&nbsp;liniach lotniczych. Tyle że za darmo, dopóki mamy urządzenie od Apple wspierające atestację.
+O tej sprawie nie było tak głośno. Być może dlatego, że przedstawiano to jako bonus. Możliwość ominięcia wkurzającej, ręcznej weryfikacji typu Captcha. Wejście poza kolejką, trochę jak *priority boarding* w&nbsp;liniach lotniczych. Tyle że za darmo, dopóki mamy urządzenie od Apple'a wspierające atestację.
 
 WEI budzi większe kontrowersje, bo jest ogólniejsze i&nbsp;nawet nie ukrywa, że ma na celu ograniczanie, a&nbsp;nie wpuszczanie poza kolejką. Co nie zmienia faktu, że **Apple też okazał się otwarty na ideę atestacji**. Bardzo możliwe, że nie będzie sojusznikiem otwartego internetu w&nbsp;tym sporze.
 
@@ -261,7 +260,7 @@ Samo istnienie nowej możliwości będzie rodziło patologiczne pokusy.
 Wyobraźmy sobie jakąś naradę, *meeting* w&nbsp;korporacji. W&nbsp;takich miejscach nieraz pojawiają się głupie pomysły.
 
 Pojawia się problem! Użytkownicy omijają nachalną reklamę, używając popularnego dodatku do przeglądarki. Menedżer widzi te niechlubne dane. Ale zamiast dostrzec problem po swojej stronie, próbuje go zakleić łatką.  
-Pyta kogoś z&nbsp;działu informatycznego: „Czy da się sprawić, żeby *musieli* to obejrzeć?”.
+Pyta kogoś z&nbsp;działu informatycznego: „czy da się sprawić, żeby *musieli* to obejrzeć?”.
 
 Dawniej odpowiedź brzmiałaby „nie”. Albo „to skomplikowane”. Jasne, istniały systemy od *blokowania blokerów reklam* albo wykrywania automatów. Ale ich metody były inwazyjne i&nbsp;niedokładne. Jeśli ktoś na porządnie się brał za ich obejście, to zwykle się to udawało.
 

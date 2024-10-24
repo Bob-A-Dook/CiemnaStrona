@@ -27,7 +27,7 @@ Zagrożenie jest o&nbsp;tyle subtelne, że jego części składowe są rzeczami 
 Zapraszam! :smile:
 
 {:.bigspace-before}
-<img src="/assets/posts/centralizacja/trusted-computing-wprowadzenie/trusted-computing-rzeczywistosc.jpg" alt="Smutny człowiek z&nbsp;białą flagą oraz uśmiechnięty ludek z&nbsp;Monopoly po przeciwnych stronach znaku yin i&nbsp;yang. W&nbsp;człowieka wymierzone są dwa pistolety maszynowe, wystające z&nbsp;ciemnych obszarów znaku. Wewnątrz czarnego koła na białym obszarze, z&nbsp;którego wystaje jeden z&nbsp;nich, znajduje się chip komputerowy"/>
+<img src="/assets/posts/centralizacja/trusted-computing-wprowadzenie/trusted-computing-rzeczywistosc.jpg" alt="Smutny człowiek z&nbsp;białą flagą oraz uśmiechnięty ludek z&nbsp;Monopoly po przeciwnych stronach znaku yin i&nbsp;yang. W&nbsp;człowieka wymierzone są dwa pistolety maszynowe, wystające z&nbsp;ciemnych obszarów znaku. Wewnątrz mniejszego czarnego koła, z&nbsp;którego wystaje jeden z&nbsp;nich, znajduje się chip komputerowy"/>
 
 <details class="figcaption">
 <summary>Źródła (kliknij, żeby rozwinąć)</summary>
@@ -159,7 +159,7 @@ W tym miejscu wkraczają **cyfrowe podpisy**, czyli metody poświadczenia własn
 
 Można je sobie wyobrazić jak hologram (taki jak na legitymacji studenckiej). Pieczątkę przybijaną na dokumencie. Ogólniej: coś, co z&nbsp;założenia ma tylko osoba upoważniona. Nie dzieli się tym z&nbsp;innymi i&nbsp;używa tego do oznaczania swoich rzeczy. Ktoś inny, znając wygląd tego oznaczenia, może potem weryfikować jego autentyczność.
 
-A przypomnę tu fundamentalną sprawę -- w&nbsp;świecie cyfrowym można dokonywać weryfikacji stuprocentowo dokładnej. O&nbsp;ile w&nbsp;świecie realnym dałoby się podrobić podpis rodzica na zwolnieniu, o&nbsp;tyle w&nbsp;wirtualu to nie przejdzie. Porównany zostanie każdy cyfrowy "atom", zaś osoba porównująca zawsze dokładnie ustali, czy ma do czynienia z&nbsp;tym, czego oczekiwała.
+A przypomnę tu fundamentalną sprawę -- w&nbsp;świecie cyfrowym można dokonywać weryfikacji stuprocentowo dokładnej. O&nbsp;ile w&nbsp;świecie realnym dałoby się podrobić podpis rodzica na zwolnieniu, o&nbsp;tyle w&nbsp;wirtualu to nie przejdzie. Porównany zostanie każdy cyfrowy „atom”, zaś osoba porównująca zawsze dokładnie ustali, czy ma do czynienia z&nbsp;tym, czego oczekiwała.
 
 {:.post-meta .bigspace-after}
 W praktyce z&nbsp;podpisami cyfrowymi wiąże się nieco niuansów (wykorzystanie haszy, ścisły związek z&nbsp;szyframi...). Ale na potrzeby tego wpisu potraktuję je po prostu jak trwałe, unikalne oznaczenie.
@@ -256,7 +256,7 @@ Wszystko sprowadza się do jednej rzeczy, izolacji. I&nbsp;dlatego lubię gromad
 <details class="framed">
 <summary><strong>Analogie</strong></summary>
 
-<p>Takie małe niezależne obszary kojarzą mi się z&nbsp;kilkoma rzeczami z&nbsp;realnego świata. Streszczę je tutaj, bo może ułatwi to intuicyjne złapanie tematu.</p>
+<p>Takie małe niezależne obszary kojarzą mi się z&nbsp;kilkoma rzeczami. Streszczę je tutaj, bo może ułatwi to intuicyjne złapanie tematu.</p>
 
 <p>Po pierwsze: są jak <em>ambasady</em>. Choć każdy kraj ma zwykle pełną kontrolę nad swoim terytorium, może mieć u&nbsp;siebie ambasady innych krajów. A&nbsp;te są niezależne i&nbsp;nawet w&nbsp;świetle <a href="https://pl.wikipedia.org/wiki/Eksterytorialno%C5%9B%C4%87">prawa międzynarodowego</a> są jak malutkie wycinki cudzego terytorium wewnątrz jakiegoś większego kraju.</p>
 
@@ -291,7 +291,7 @@ Przy każdym uruchomieniu urządzenia **piramidka systemowa buduje się od dołu
 {:.post-meta .bigspace-after}
 Słowa *booting* oraz *boot* odnoszą się po prostu do uruchamiania urządzenia. Stąd również *bootloader*.
 
-Enklawy są w&nbsp;stanie być integralną częścią procesu budowania systemu. Na każdym kroku analizują, czy wszystko jest jak powinno, a&nbsp;dolne partie systemu nie są zainfekowane wspomnianymi wcześniej *bootkitami*. Werdykt zostaje szczelnie zamknięty w&nbsp;enklawie i&nbsp;jest okazywany tylko na żądanie.
+Enklawy mogą być integralną częścią procesu budowania systemu. Na każdym kroku analizują, czy wszystko jest jak powinno, a&nbsp;dolne partie systemu nie są zainfekowane wspomnianymi wcześniej *bootkitami*. Werdykt zostaje szczelnie zamknięty w&nbsp;enklawie i&nbsp;jest okazywany tylko na żądanie.
 
 I owszem, przed czymśtam to chroni... Tylko że w&nbsp;ten sposób pojawia się **możliwość ustalenia, poza kontrolą użytkowników, czy ich system jest niemodyfikowany**. Zgodny z&nbsp;fabrycznymi ustawieniami, prosto ze stajni takiego np. Microsoftu. A&nbsp;stąd już krótki krok do ciemnych stron.
 
@@ -311,7 +311,7 @@ To chyba najbardziej jaskrawy przykład nadchodzących patologii, więc to od ni
 * Dociera do programu/aplikacji na naszym urządzeniu... i&nbsp;nie zatrzymuje się tam, lecąc prosto do enklawy.
 * Enklawa odsyła własną kłódkę.
 
-  Cyfrowo podpisaną, więc żaden nasz program jej nie przechwyci ani nie podrobi. Zaś narzędzie do cyfrowych podpisów tkwi wewnątrz enklawy, poza naszym zasięgiem.
+  Cyfrowo podpisaną, więc żaden nasz program jej nie podrobi. Zaś narzędzie do cyfrowych podpisów tkwi wewnątrz enklawy, poza naszym zasięgiem.
 
 * Kłódka od enklawy trafia do zewnętrznego serwisu.
 * Od teraz korespondują ze sobą, wymieniając się informacjami.
@@ -321,7 +321,7 @@ To chyba najbardziej jaskrawy przykład nadchodzących patologii, więc to od ni
 Pamiętacie wcześniejszy punkt o&nbsp;szyfrowaniu, gdy mogliśmy się napawać bezradnością podglądacza? No to **teraz sami jesteśmy bezradni wobec szyfrowanej, podpisanej cyfrowo komunikacji**. Część naszego własnego urządzenia nas zdradza z&nbsp;cudzym serwisem i&nbsp;działa przeciwko nam. Przypomnę obrazek wprowadzający:
 
 {:.bigspace}
-<img src="/assets/posts/centralizacja/trusted-computing-wprowadzenie/trusted-computing-rzeczywistosc.jpg" alt="Smutny człowiek z&nbsp;białą flagą oraz uśmiechnięty ludek z&nbsp;Monopoly po przeciwnych stronach znaku yin i&nbsp;yang. W&nbsp;człowieka wymierzone są dwa pistolety maszynowe, wystające z&nbsp;ciemnych obszarów znaku. Wewnątrz czarnego koła na białym obszarze, z&nbsp;którego wystaje jeden z&nbsp;nich, znajduje się chip komputerowy"/>
+<img src="/assets/posts/centralizacja/trusted-computing-wprowadzenie/trusted-computing-rzeczywistosc.jpg" alt="Smutny człowiek z&nbsp;białą flagą oraz uśmiechnięty ludek z&nbsp;Monopoly po przeciwnych stronach znaku yin i&nbsp;yang. W&nbsp;człowieka wymierzone są dwa pistolety maszynowe, wystające z&nbsp;ciemnych obszarów znaku. Wewnątrz mniejszego czarnego koła, z&nbsp;którego wystaje jeden z&nbsp;nich, znajduje się chip komputerowy"/>
 
 W ten sposób miało działać [Web Environment Integrity]({% post_url 2023-07-29-web-environment-integrity %}){:.internal} -- rozwiązanie proponowane przez Google'a, które pozwoliłoby każdej stronie internetowej wysyłać do przeglądarki Chrome prośbę o&nbsp;weryfikację systemu.  
 Nie dość, że umocniłoby to monopol Chrome'a, to do tego mogłoby służyć wykluczeniu rzadziej używanych systemów, jak Linux czy mobilne alternatywy. Zniknęłoby wyjście bezpieczeństwa na wypadek ogólnej monopolizacji.  
@@ -331,7 +331,7 @@ Na szczęście porzucili feralny pomysł pod naciskiem opinii publicznej... Ale 
 
 Wspomniałem, że fundamentami piramidki są: *hardware*, czyli fizyczny sprzęt, oraz *firmware*, czyli programy sterujące tym sprzętem. Zwykle nieprzeniknione i&nbsp;wgrane przez producentów. Czasem, ze względu na cięcie kosztów, *firmware* nie wykorzystuje w&nbsp;pełni potencjału sprzętu.
 
-Tu jednak może pomóc pewien fakt -- **w świecie cyfrowym zera i&nbsp;jedynki są sobie równe**. Nie ma czegoś takiego jak zera/jedynki „graficzne” czy „dźwiękowe”. Istnieje oczywiście jakiś *właściwy* sposób ich czytania, ale to już poziom wyżej, kwestia interpretacji.
+Tu jednak może pomóc pewien fakt -- **w&nbsp;świecie cyfrowym zera i&nbsp;jedynki są sobie równe**. Nie ma czegoś takiego jak zera/jedynki „graficzne” czy „dźwiękowe”. Istnieje oczywiście jakiś *właściwy* sposób ich czytania, ale to już poziom wyżej, kwestia interpretacji.
 
 Zwykle da się dzięki temu podmienić cudzy, dziadowski *firmware* i&nbsp;wgrać tam coś własnego, lepszego, o&nbsp;otwartym kodzie źródłowym. Dopóki będzie to emitowało ciągi zer i&nbsp;jedynek o&nbsp;odpowiednim formacie, zrozumiałym dla sprzętu, to powinno działać sprawnie.
 

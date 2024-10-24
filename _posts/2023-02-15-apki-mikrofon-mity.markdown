@@ -192,7 +192,7 @@ Aplikacje nie miałyby pojęcia o&nbsp;istnieniu tego rodzaju czujników -- bo s
 
 {% include info.html
 type="Ciekawostka"
-text="Istnieją pewne przypadki, kiedy ta sytuacja się odwraca i&nbsp;apki jednak *są* w&nbsp;stanie sobie zagwarantować, że nikt ich nie analizuje, a&nbsp;odwiedzany przez nie system jest mainstreamowy, prosto z&nbsp;fabryki. To różne rzeczy związane z&nbsp;zagadnieniem *trusted computing*. Temat na osobny wpis, ale warto wiedzieć jak najwcześniej."
+text="Istnieją pewne przypadki, kiedy ta sytuacja się odwraca i&nbsp;apki jednak *są* w&nbsp;stanie sobie zagwarantować, że nikt ich nie analizuje, a&nbsp;odwiedzany przez nie system jest mainstreamowy, prosto z&nbsp;fabryki. Takie możliwości daje im [*trusted computing*](/cyfrowy_feudalizm/2024/10/22/trusted-computing-kajdany){:.internal}."
 %}
 
 Ale nawet gdyby badacze, z&nbsp;tego czy innego powodu, nie byli w&nbsp;stanie kontrolować własnego telefonu, to jeszcze nie koniec walki. Bo aplikacja musi w&nbsp;końcu wysłać nasze sekrety swoim twórcom.

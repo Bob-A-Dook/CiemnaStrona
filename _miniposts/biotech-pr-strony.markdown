@@ -15,7 +15,7 @@ Na chwilę obecną zebrałem tu organizacje, do których stron linkowała grupa
 ### Spis treści
 
 * [Przegląd podwykonawców](#przegląd-podwykonawców)
-  * [„Cebula deal” – American Council on Science and Health](#cebula-deal--american-council-for-science-and-health)
+  * [„Cebula deal” – American Council on Science and Health](#cebula-deal--american-council-on-science-and-health)
   * [Genetic Literacy Project i&nbsp;Jon Entine](#genetic-literacy-project-ijon-entine)
   * [Cornell Alliance for Science](#cornell-alliance-for-science)
   * [„Satyryk” Risk Monger](#satyryk-risk-monger)
@@ -57,7 +57,7 @@ Patrząc po wewnętrznych firmowych mailach, w&nbsp;Monsanto nie do końca za ni
 They have PLENTY of warts- but:  
 You WILL NOT GET A&nbsp;BETTER VALUE FOR YOUR DOLLAR than ACSH
 
-Z wydarzeń bardziej współczesnych: [negowali skutki](https://www.acsh.org/news/2023/02/27/putting-east-palestine-train-accident-perspective-16909) katastrofy kolejowej w&nbsp;miejscowości East Palestine w&nbsp;USA i&nbsp;twierdzili, że media szerzą histerię. Proponuję porównać ogólny wydźwięk ich artykułu z&nbsp;[tym](https://naukatolubie.pl/katastrofa-kolejowa-w-ohio/) z&nbsp;polskiego portalu „Nauka. To Lubię”.
+Z wydarzeń bardziej współczesnych: [negowali skutki](https://www.acsh.org/news/2023/02/27/putting-east-palestine-train-accident-perspective-16909) katastrofy kolejowej i&nbsp;wycieku chemikaliów w&nbsp;miejscowości East Palestine w&nbsp;USA i&nbsp;twierdzili, że media szerzą histerię. Proponuję porównać ogólny wydźwięk ich artykułu z&nbsp;[tym, znacznie bardziej krytycznym](https://naukatolubie.pl/katastrofa-kolejowa-w-ohio/), z&nbsp;polskiego portalu „Nauka. To Lubię”.
 
 ### Genetic Literacy Project i&nbsp;Jon Entine
 
@@ -109,7 +109,7 @@ W 2016&nbsp;roku założyli powiązaną grupę, Hawaii Alliance for Science. Kil
 Jedna z&nbsp;osób z&nbsp;ruchu protestujących Hawajczyków pisze w&nbsp;[gazecie uniwersyteckiej](https://cornellsun.com/2019/11/19/guest-room-students-should-continue-to-question-the-ethics-of-the-cornell-alliance-for-science/), że ludzie z&nbsp;CAS atakowali ich w&nbsp;mediach społecznościowych, podważając ich wiarygodność osobistą i&nbsp;zawodową.
 
 Jednocześnie Alliance for Science, choć pozuje na bardzo naukową organizację, nie wydaje się zbyt otwarta na naukową falsyfikację.  
-Na jednej ze stron, linkowanej przez trójcę z&nbsp;YouTube'a, stwierdzają między innymi, że ["debata na temat bezpieczeństwa GMO się skończyła"](https://allianceforscience.cornell.edu/blog/2016/05/gmo-safety-debate-is-over/). Oczywiście z&nbsp;wynikiem dla nich korzystnym. Koniec, nie potrzeba dalszych badań, można się rozejść.
+Na jednej ze stron, linkowanej przez trójcę z&nbsp;YouTube'a, stwierdzają między innymi, że [„debata na temat bezpieczeństwa GMO się skończyła”](https://allianceforscience.cornell.edu/blog/2016/05/gmo-safety-debate-is-over/). Oczywiście z&nbsp;wynikiem dla nich korzystnym. Koniec, nie potrzeba dalszych badań, można się rozejść.
 
 ### „Satyryk” Risk Monger
 

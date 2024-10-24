@@ -382,7 +382,7 @@ Muszę przyznać, że jest subtelna. W&nbsp;przypadku pszczół potrafiła na pr
 
   > From the moment a&nbsp;new mother enters the obstetrician’s waiting room, she is subjected to the upper-class parents’ jingle: “Breast Is Best.”
 
-* w&nbsp;jednym miejscu cytuje [ACSH](/miniposts/biotech-pr-strony#cebula-deal--american-council-for-science-and-health){:.internal}, jedną z najbardziej zajadłych organizacji branżolubnych;
+* w&nbsp;jednym miejscu cytuje [ACSH](/miniposts/biotech-pr-strony#cebula-deal--american-council-on-science-and-health){:.internal}, jedną z najbardziej zajadłych organizacji branżolubnych;
 
   Kwestionowali choćby szkodliwość palenia czy skutki wycieku chemikaliów po katastrofie kolejowej.
 
