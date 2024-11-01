@@ -228,7 +228,7 @@ Zakładam, że nie działałoby to przy zaszyfrowanym dysku, opisanym poniżej.
 
 Jakim cudem to działa? Zapewne, budząc się do życia po włączeniu systemu, ptaszysko CrowdStrike'a zaczyna robić kilka rzeczy naraz. Wysyła do serwerów firmy pytanie o&nbsp;aktualizacje, a&nbsp;jednocześnie zaczyna szperać w&nbsp;plikach.
 
-Zazwyczaj szperanie kończy się pierwsze. Sokół trafia na bombę ukrytą w&nbsp;pliku 291&nbsp;i wybucha razem z&nbsp;całym systemem, nim doleci aktualizacja.  
+Zazwyczaj szperanie kończy się pierwsze. Sokół trafia na bombę ukrytą w&nbsp;pliku&nbsp;291 i&nbsp;wybucha razem z&nbsp;całym systemem, nim doleci aktualizacja.  
 ...Ale może się też zdarzyć, że aktualizacja dotrze pierwsza i&nbsp;podmieni bombę na coś bezpiecznego (albo powie Sokołowi, żeby nie otwierał pliku -- nie zagłębiałem się w&nbsp;dokładne działanie). 
 
 <h3 id='samozaszyfrowanie'>Samoza<span class='corr-del'>oranie</span>szyfrowanie</h3>

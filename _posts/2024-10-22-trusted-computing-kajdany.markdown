@@ -243,7 +243,7 @@ A przechodząc do przykładów konkretniejszych niż abstrakcyjne „ataki haker
 
 * [*Bootkity* i&nbsp;*rootkity*](https://learn.microsoft.com/en-us/windows/security/operating-system-security/system-security/secure-the-windows-10-boot-process), czyli wirusy infekujące niższe warstwy.
 
-  Niektóre wredne wirusy potrafiły przeniknąć do najgłębszych rejonów piramidki. Nawet jeśli całkiem „ścięło się czubek” (przeinstalowało cało system) -- potrafiły to przeczekać, na przykład wewnątrz *firmware'u*, a&nbsp;potem zainfekować nowy, świeży system.
+  Niektóre wredne wirusy potrafiły przeniknąć do najgłębszych rejonów piramidki. Nawet jeśli całkiem „ścięło się czubek” (przeinstalowało cały system) -- potrafiły to przeczekać, na przykład wewnątrz *firmware'u*, a&nbsp;potem zainfekować nowy, świeży system.
 
 Wszystkie te problemy można rozwiązać, **tworząc na urządzeniach miejsca tak odizolowane, że nawet użytkownik nigdy nie zdoła tam sięgnąć**.
 
@@ -344,7 +344,7 @@ DRM to skrót od *Digital Rights Management*. Jak sugerują pierwsze dwa słowa,
 
 {% include info.html
 type="Więcej informacji"
-text="DRM to pojęcie szerokie, które nie musi się wiązać z&nbsp;TC. Można to uznać za dwa niezależne zbiory, które pokrywają się tylko w&nbsp;niektórych obszarach.  
+text="DRM to pojęcie szerokie, które nie musi się wiązać z&nbsp;TC. Można je uznać za dwa niezależne zbiory, które pokrywają się tylko w&nbsp;niektórych obszarach.  
 Bardzo ciekawe filmy po polsku na temat DRM-ów, w&nbsp;tym również tych klasycznych, sprzed ery TC, stworzył [Kacper Szurek](https://www.youtube.com/watch?v=5JUTni4kgfA&pp=ygURa2FjcGVyIHN6dXJlayBkcm0%3D) (YouTube)."
 %}
 
