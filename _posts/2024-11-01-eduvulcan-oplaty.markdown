@@ -85,12 +85,11 @@ text="W realiach amerykańskich korpo [krąży(-ło?) popularne powiedzenie](htt
 
 ### Ubicie darmowych alternatyw
 
-EduVulcan to platforma autorstwa firmy Vulcan (powiązanej z&nbsp;wydawnictwem szkolnym Nowa Era).
+EduVulcan to platforma autorstwa firmy Vulcan (powiązanej z&nbsp;wydawnictwem szkolnym Nowa Era).  
+Ma konstrukcję jak wiele współczesnych produktów cyfrowych -- jest sobie serwer z&nbsp;danymi, po które można sięgać zarówno przez stronę internetową, jak i&nbsp;aplikację. Przy czym aplikacja nie korzysta zanadto z&nbsp;funkcji smartfona i&nbsp;jest bardziej jak prosta nakładka na stronę internetową.
 
 {:.post-meta .bigspace-after}
 Twórcy oficjalnie zapisują nazwę jako `eduVULCAN`, ale będę się tu trzymał wersji `EduVulcan`, bo wydaje mi się czytelniejsza.
-
-Ma konstrukcję jak wiele współczesnych aplikacji -- apka to w&nbsp;zasadzie jedynie nakładka, okno pozwalające zaglądać do konkretnego serwisu. Ten sam serwis można odwiedzić również przez stronę internetową.
 
 W świecie cyfrowym „zera i&nbsp;jedynki są sobie równe”. Oznacza to, że jeśli wyśle się serwisowi dokładnie taką samą prośbę, jaką wysłałaby aplikacja albo przeglądarka, to dostanie się taką samą treść.  
 A zatem gdyby podejrzeć, jakie dane są wysyłane, gdy przeglądarka prosi o&nbsp;stronkę, i&nbsp;naśladować jej działanie niczym papuga ludzki głos, to dałoby się całkiem obejść oficjalną apkę. Czerpać dane prosto ze źródła.
@@ -134,7 +133,10 @@ Tutaj sytuacja jest nieco lepsza, bo ani towar tak podstawowy, ani opłata tak w
 {:.figure .bigspace}
 <img src="/assets/posts/centralizacja/eduvulcan/vulcan-wprowadzenie-oplat.jpg" alt="Komunikat mówiący, że obecnie korzystam z&nbsp;bezpłatnego, testowego dostępu, który skończy się pierwszego listopada."/>
 
-I w&nbsp;ten sposób dochodzimy do obecnego stanu. Data w&nbsp;kalendarzu właśnie zmienia się na 1.11, więc zapewne za moment nastąpi oficjalne wyłączenie darmowych funkcji.
+I w&nbsp;ten sposób dochodzimy do obecnego stanu. Data w&nbsp;kalendarzu zmieniła się na 1.11, kiedy to miało nastąpić oficjalne wyłączenie darmowych funkcji.
+
+{:.post-meta .bigspace-after}
+Ostatecznie nie nastąpiło, bo przesunęli termin na grudzień. Ale to raczej odwlekanie nieuniknionego. 
 
 ## Pokonywanie trudności
 
