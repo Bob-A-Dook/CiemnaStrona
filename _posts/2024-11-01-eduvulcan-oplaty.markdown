@@ -85,11 +85,14 @@ text="W realiach amerykańskich korpo [krąży(-ło?) popularne powiedzenie](htt
 
 ### Ubicie darmowych alternatyw
 
-EduVulcan to platforma autorstwa firmy Vulcan (powiązanej z&nbsp;wydawnictwem szkolnym Nowa Era).  
-Jest skonstruowany jak wiele współczesnych aplikacji -- apka to w&nbsp;zasadzie jedynie nakładka, okno pozwalające zaglądać do konkretnego serwisu. Ten sam serwis można odwiedzić również przez stronę internetową.
+EduVulcan to platforma autorstwa firmy Vulcan (powiązanej z&nbsp;wydawnictwem szkolnym Nowa Era).
 
-W świecie cyfrowym „zera i&nbsp;jedynki są sobie równe”. Oznacza to, że jeśli wyśle się serwisowi dokładnie taką samą prośbę, jaką wysłałaby aplikacja albo przeglądarka, to dostanie się taką samą treść.
+{:.post-meta .bigspace-after}
+Twórcy oficjalnie zapisują nazwę jako `eduVULCAN`, ale będę się tu trzymał wersji `EduVulcan`, bo wydaje mi się czytelniejsza.
 
+Ma konstrukcję jak wiele współczesnych aplikacji -- apka to w&nbsp;zasadzie jedynie nakładka, okno pozwalające zaglądać do konkretnego serwisu. Ten sam serwis można odwiedzić również przez stronę internetową.
+
+W świecie cyfrowym „zera i&nbsp;jedynki są sobie równe”. Oznacza to, że jeśli wyśle się serwisowi dokładnie taką samą prośbę, jaką wysłałaby aplikacja albo przeglądarka, to dostanie się taką samą treść.  
 A zatem gdyby podejrzeć, jakie dane są wysyłane, gdy przeglądarka prosi o&nbsp;stronkę, i&nbsp;naśladować jej działanie niczym papuga ludzki głos, to dałoby się całkiem obejść oficjalną apkę. Czerpać dane prosto ze źródła.
 
 Na tej zasadzie powstały **aplikacje alternatywne wobec EduVulcana**.  
