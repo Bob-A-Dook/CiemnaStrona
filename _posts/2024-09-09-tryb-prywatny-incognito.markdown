@@ -201,12 +201,13 @@ Spośród identyfikatorów najbardziej wyróżnia go jednak inny fakt -- [adresu
 
 W takich realiach reklamodawcy mogą traktować adres IP jak znakomity *identyfikator pomocniczy użytkowników*. Pomost między tożsamościami.
 
-Przykładowa sytuacja? Ktoś sobie czyta artykuły na portalu gazety, zalogowany na swoje konto. Widzi miniaturę, która go interesuje.  
-Nie chcąc, żeby to powiązano z&nbsp;jego profilem, klika prawym przyciskiem i&nbsp;otwiera nową kartę w&nbsp;trybie prywatnym. W&nbsp;tym momencie jest wylogowany (bo tryb prywatny oczywiście ukrywa ciasteczka), ale nadal może przeglądać artykuły.
+Przykładowa sytuacja? Ktoś sobie czyta artykuł na portalu gazety, zalogowany na swoje konto. W&nbsp;podpowiedziach widzi inny artykuł. Ciekawy, ale kontrowersyjny.  
+Nie chcąc, żeby to powiązano z&nbsp;jego profilem, klika prawym przyciskiem i&nbsp;otwiera nową kartę w&nbsp;trybie prywatnym. W&nbsp;tym momencie jest wylogowany (bo tryb prywatny ukrywa ciasteczka), ale nadal może przeglądać artykuły jako anonimowy gość.
 
-Ale portal medialny od razu skojarzy po adresie: „oho, mam anonima z&nbsp;adresem IP, którego przed sekundą używał zalogowany Andrzej Mruczek”.  
-Czasem z&nbsp;jednego adresu IP korzysta wiele osób. Dlatego przypadki `zalogowany → anonim (ten sam adres)` trafiają do dalszej analizy.  
-Analizator sprawdza listę artykułów, jakie zostały podpowiedziane Andrzejowi. Jest wśród nich ten, który krótko po tym wyświetlił anonim z&nbsp;tego samego adresu. Zbieżność adresu, czasu, linków -- to na 90% był Andrzej!
+Ale portal medialny od razu skojarzy po adresie: „oho, mam anonima z&nbsp;adresem IP, którego przed sekundą używał zalogowany Andrzej Mruczek”.
+
+Czasem z&nbsp;jednego adresu IP korzysta wiele osób. Dlatego przypadki `zalogowany → anonim (ten sam adres)` nie zawsze są z&nbsp;automatu uznawane za jedną osobę i&nbsp;najpierw trafiają do dalszej analizy.  
+Analizator sprawdza listę artykułów, jakie zostały podpowiedziane Andrzejowi. Jest wśród nich ten, który krótko po tym wyświetlił anonim z&nbsp;tego samego adresu. Zbieżność IP, czasu, linków -- to na 90% Andrzej!
 
 ### Profilowanie przez JavaScript
 
@@ -363,7 +364,7 @@ Na przykładzie Firefoksa, ale na innych będzie podobnie:
 
 To chyba najtrudniejsza rzecz, bo JavaScript jest we współczesnej sieci wszechobecny. Dlatego podsuwam to tylko jako ciekawostkę.
 
-uBlock Origin, oprócz blokowania śledzących elementów, zawiera w&nbsp;sobie również przełącznik pozwalający łatwo włączać lub wyłączać kod JavaScript na stronach. Żeby nie wyłączać go na każdej stronie z&nbsp;osobna, można wejść w&nbsp;ustawienia dodatku i&nbsp;tam zaznaczyć, żeby domyślnie *wyłączało* JS-a.
+uBlock Origin, oprócz blokowania śledzących elementów, zawiera w&nbsp;sobie również przełącznik pozwalający łatwo włączać lub wyłączać kod JavaScript na stronach. Żeby nie wyłączać go na każdej stronie z&nbsp;osobna, można wejść w&nbsp;ustawienia dodatku i&nbsp;tam zaznaczyć, żeby domyślnie *wyłączało* JS-a. Instrukcja [tutaj]({%post_url 2021-10-21-ublock-origin-wiecej %}#różne-funkcje-ublock-origin){:.internal}.
 
 Uprzedzam lojalnie, że wiele popularnych stron, zwłaszcza większych platform i&nbsp;portali, nie będzie działało. Ale w&nbsp;takim wypadku wystarczy jedno kliknięcie na ikonę dodatku, potem na opcję, na koniec na przycisk odświeżający stronę, żeby JS-a reaktywować.
 

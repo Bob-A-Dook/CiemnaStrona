@@ -117,14 +117,14 @@ Co gorsza, wszystkie wymienione projekty względnie niedawno otrzymały oficjaln
 {:.figcaption}
 Ciekawić może fakt, że różne apki udostępniły bardzo podobne oświadczenia. Może to sugerować odgórne dyktowanie ich treści. Zwróciła na to uwagę chociażby stronka [„Czy Vulcana...”](https://czyvulcanapojebalo.pl/historia#narzucone-wiadomosci-koncowe).
 
-A krótko po zniknęciu alternatyw oficjalna aplikacja wprowadziła płatne funkcje.
-
 {% include info.html
 type="Inne źródła"
 text="Cenny wgląd w&nbsp;podobne praktyki obu firm dzienniczkowych (Vulcana i&nbsp;Librusa) oraz ich walkę z&nbsp;konkurencją daje [wpis ze strony *szkolny.eu*](https://szkolny.eu/finale)."
 %}
 
 ### Wprowadzenie opłat
+
+Krótko po zniknięciu alternatyw oficjalna aplikacja schowała niektóre, wcześniej darmowe funkcje za płatnościami. To między innymi możliwość usprawiedliwienia nieobecności i&nbsp;dostęp do wiadomości od nauczycieli.
 
 Niewiele jest na świecie straszniejszych rzeczy niż firma, która wie, że nie ma konkurencji. Wiele osób doświadczyło tego na własnej skórze -- chociażby [Boliwijczycy dwadzieścia lat temu]({% post_url 2023-09-23-bechtel-boliwia-woda %}){:.internal}, gdy inżynierskie megakorpo dostało wyłączność na obsługę wodociągów i&nbsp;od razu podniosło opłaty, do poziomów nieakceptowalnych.
 
@@ -160,7 +160,7 @@ Za pewną motywację może służyć historia ze Szwecji, gdzie programujący r
 
 ### Logowanie przez stronę
 
-Spotkałem się na Twitterze z&nbsp;informacją, że ktoś nie widzi na stronce EV (link wyżej) opcji logowania.
+Spotkałem się na Twitterze z&nbsp;informacją, że ktoś nie widzi na [stronce EduVulcana](https://eduvulcan.pl/) opcji logowania.
 
 {:.post-meta .bigspace-after}
 Z początku pomyślałem, że być może EduVulcan robi to co Facebook. Ten po wykryciu, że ktoś odwiedza stronę przez urządzenie mobilne, w&nbsp;ogóle nie dawał możliwości logowania. Wyświetlał jedynie link do aplikacji, zganiając do niej.

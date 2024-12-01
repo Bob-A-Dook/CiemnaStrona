@@ -112,7 +112,7 @@ Jeśli jesteśmy uparci i&nbsp;nie chcemy zmienić go na coś bardziej prywatno�
 <details>
 <summary class="bigspace"><strong>Na telefonach „prywatnościowych” (Pinephone, Librem...)</strong></summary>
 
-<p>Mowa tu o&nbsp;telefonach, które nie korzystają one z&nbsp;popularnego Androida czy iOS, tylko z&nbsp;Linuxa dopasowanego do urządzeń mobilnych.</p>
+<p>Mowa tu o&nbsp;telefonach, które nie korzystają z&nbsp;popularnego Androida czy iOS, tylko z&nbsp;Linuxa dopasowanego do urządzeń mobilnych.</p>
 <p>Jeśli wierzyć <a href="https://www.kirsle.net/status-of-mobile-linux-apps-on-pinephone-screenshots">temu wpisowi na temat Pinephone'a</a>, w&nbsp;ich przypadku najpierw pobieramy przeglądarkę (<strong>wersję komputerową, a&nbsp;nie mobilną</strong>), a&nbsp;następnie instalujemy na niej uBO.<br/>
 Czyli dokładnie jak w&nbsp;przypadku komputerów (patrz wyżej).</p>
 </details>

@@ -376,11 +376,11 @@ Cała ta historia jest dla mnie świetną opowieścią ku przestrodze. Mamy tu:
 * współpracę ze służbami i&nbsp;dodawanie dla nich specjalnych opcji;
 * drętwe PR-owe slogany o&nbsp;bezpieczeńśtwie, kiedy pozostałe działania zbierają krytykę.
 
-Czy cokolwiek możemy zrobić? Niestety, poza bojkotem takich praktyk, niewiele. W&nbsp;przeciwieństwie do mojej serii „Internetowa inwigilacja”, gdzie kontrolujemy przeglądarkę, tutaj mamy ograniczone pole manewru.
+Czy cokolwiek możemy zrobić? Niestety, poza bojkotem takich praktyk, niewiele. W&nbsp;przeciwieństwie do mojej serii [„Internetowa inwigilacja”](/internetowa_inwigilacja){:.internal}, gdzie kontrolujemy przeglądarkę, tutaj mamy ograniczone pole manewru.
 
 Jest niby AMD, ale oni również mają swój odpowiednik IME. Mniej opisany i&nbsp;mniej skandaliczny, ale może również go kiedyś opiszę. Jest Arm (obecnie święcący triumfy w&nbsp;nowych komputerach Apple), ale on też ma elementy zamknięte i&nbsp;„czarnoskrzynkowe”.
 
-Możemy śledzić losy firm wprost sprzeciwiających się IME -- takich jak Purism, System76... A&nbsp;także różnych rzeczy związanych z&nbsp;**ruchem *open hardware***, który próbuje stworzyć od podstaw nowe podzespoły, udostępniając publicznie wszystkie plany.
+Możemy śledzić losy firm wprost sprzeciwiających się IME -- takich jak Purism, System76... A&nbsp;także różne wieści związane z&nbsp;**ruchem *open hardware***, który próbuje stworzyć od podstaw nowe podzespoły, udostępniając publicznie wszystkie plany.
 
 Poza tym jest jedna uniwersalna prawda, jaką możemy wynieść z&nbsp;historii wyłączania IME -- **nie ma czegoś takiego jak furtka, która przepuszcza tylko bohaterów i&nbsp;blokuje złoczyńców**.  
 Specjalny wyłącznik był przeznaczony dla służb, ale zdołali go użyć badacze. Innym razem mogą to być hakerzy.

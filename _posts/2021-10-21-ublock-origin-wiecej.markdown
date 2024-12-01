@@ -98,14 +98,13 @@ Przeróbki moje.
 
 Poprzednikiem był uBlock (bez *Origin*). Został stworzony przez tego samego autora co uBO, Raymonda Hilla.
 
-Hill, z&nbsp;braku czasu, postanowił w&nbsp;pewnym momencie przekazać stery projektu innej osobie, Chrisowi&nbsp;A.  
+Hill, z&nbsp;braku czasu, postanowił w&nbsp;pewnym momencie przekazać stery projektu innej osobie, Chrisowi&nbsp;A. 
 Niestety nie nacieszył się odpoczynkiem. Jego następca podjął sporo [kontrowersyjnych decyzji](http://tuxdiary.com/2015/06/14/ublock-origin/), wyglądających na autopromocję i&nbsp;próby zmonetyzowania dodatku.
 
 Rozgoryczony Hill wrócił zatem do gry i&nbsp;rozpoczął nowy projekt, którym był właśnie uBlock Origin. Na swojej stronie umieścił adnotację, że **nie przyjmuje żadnych wpłat**, a&nbsp;chętni mogą wesprzeć kogoś innego -- twórców list znanych elementów śledzących, „dzięki którym uBO istnieje”.
 
-A co się stało z&nbsp;pierwotnym uBlockiem? Został wykupiony przez AdBlocka i&nbsp;włączony do programu *Acceptable Ads*, przez co kompletnie stracił pazurki.
-
-Stary uBlock wygrał na tym pieniężnie, ale to Origin zjednał sobie użytkowników.
+A co się stało z&nbsp;pierwotnym uBlockiem? Został wykupiony przez AdBlocka i&nbsp;włączony do programu *Acceptable Ads*, przez co kompletnie stracił pazurki.  
+Stary uBlock wygrał na całej sytuacji pieniężnie, ale to Origin zjednał sobie użytkowników.
 
 {% include info.html
 type="Ciekawostka"
@@ -208,20 +207,20 @@ Lubię niszczyć, więc to jedna z&nbsp;moich ulubionych funkcji.
 
 Mówiąc krótko: klikamy w&nbsp;ikonę błyskawicy i&nbsp;zmienia nam się kursor. Teraz, **gdy klikniemy jakiś element na stronie, to go „znikniemy”** (oczywiście tylko u&nbsp;siebie; właścicielom strony niczego nie rozwalimy :wink:).
 
-Przydaje się to do wszelkich irytujących rzeczy, ale ma też przyjemny efekt uboczny.
+Przydaje się to przeciw wszelkim irytującym rzeczom, wyskakującym chatbotom itp. Ale ma też fajne zastosowanie uboczne, jako alternatywa dla niewyrażania zgody.
 
 Po wprowadzeniu RODO/GDPR pojawił się obowiązek pytania użytkowników o&nbsp;zgodę na śledzenie. Firmy teoretycznie nie mogą zbierać informacji, dopóki użytkownik nie kliknie, że się na to zgadza.
 
-Ale niektóre się wycwaniły. Na pierwszy rzut oka mają wyłączone zbieranie informacji. Natomiast gdy klikniemy „Więcej”, to znajdziemy wszystkie zgody automatycznie zaznaczone pod kategorią „Uzasadniony interes”.  
+Ale niektóre się wycwaniły. Gdy wyświetlają nam wyskakujące okienko, to na pierwszy rzut oka mają tam wyłączone zbieranie informacji. Natomiast gdy klikniemy „Więcej”, to znajdziemy wszystkie zgody automatycznie zaznaczone w&nbsp;zakładce „Uzasadniony interes”.  
 Jeśli ich nie odhaczymy, to będą zbierali informacje tak jak wcześniej.
 
-W takiej sytuacji niszczyciel bardzo pomaga. Pojawia nam się okno pytające o&nbsp;zgody na śledzenie? Można po prostu je zniszczyć i&nbsp;czytać dalej. Bez wysiłku, bez wpadnięcia w&nbsp;pułapkę. Żadnej zgody nie kliknęliśmy, więc nie powinni niczego zbierać.
+W takiej sytuacji niszczyciel bardzo pomaga. Pojawia nam się okno pytające o&nbsp;zgody na śledzenie? To je niszczymy i&nbsp;możemy czytać stronę. Bez wysiłku, bez wpadnięcia w&nbsp;pułapkę. Żadnej zgody nie kliknęliśmy, więc nie powinni niczego zbierać.
 
 {% include info.html
 type="Porada"
 text="Czasem elementów do zniszczenia jest wiele (na przykład baner złożony z&nbsp;kilku warstw). A&nbsp;po zwykłym kliknięciu tryb niszczenia się wyłącza i&nbsp;trzeba znowu klikać w&nbsp;błyskawicę.  
-Żeby oszczędzić kliknięć, możemy skorzystać ze [świetnego udogodnienia](https://github.com/gorhill/uBlock/wiki/Element-zapper) -- wystarczy najechać kursorem na element, żeby się podświetlił, i&nbsp;nacisnąć `Delete`. Usuniemy go bez opuszczania trybu niszczenia.  
-Co więcej, w&nbsp;menu uBO, w&nbsp;zakładce „Skróty”, możemy ustawić skrót klawiszowy włączający tryb usuwania. Warto tu dać coś mało używanego (osobiście wybrałem `Ctrl`+`,`)"
+Żeby oszczędzić sobie kliknięć, warto poczytać [instrukcję obsługi niszczyciela](https://github.com/gorhill/uBlock/wiki/Element-zapper) -- po jego włączeniu wystarczy najechać kursorem na element, żeby się podświetlił, i&nbsp;naciskać `Delete` do skutku. Potem `Esc`, żeby zamknąć tryb.  
+Co więcej, w&nbsp;menu uBO (opis poniżej), w&nbsp;zakładce „Skróty”, możemy ustawić skrót klawiszowy włączający tryb usuwania. Warto tu wpisać kombinację nieużywaną w innych przypadkach (osobiście wybrałem `Ctrl`+`,`)"
 %}
 
 # 5. Ustawienia

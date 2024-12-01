@@ -219,7 +219,7 @@ Po nim znajduje się pionowa kreska, czyli „rura” (ang. *pipe*). Jej zasada 
 
 ### Tee
 
-O tym programiku można poczytać choćby [na stronce Linuxize](https://linuxize.com/post/linux-tee-command/). Pozwala on **zapisać otrzymany tekst do jednego lub więcej plików**, jednocześnie wyświetlając go w&nbsp;konsoli. Poświęćmy mu parę sekund.
+O tym programiku można poczytać choćby [na stronce Linuxize](https://linuxize.com/post/linux-tee-command/). Pozwala on **zapisać otrzymany tekst do jednego lub większej liczby plików**, jednocześnie wyświetlając go w&nbsp;konsoli. Poświęćmy mu parę sekund.
 
 {% include info.html
 type="Ciekawostka"
@@ -314,8 +314,8 @@ W każdym razie, gdybym chciał profilu kończącego się słowem *default*, pom
 Znaleziony fragment tekstu trafia do programu `cut`. Jego zadaniem, jak angielska nazwa wskazuje, jest wycięcie z&nbsp;otrzymanej linijki tylko tej części, która go interesuje. Dostaje dwie opcje:
 
 * `-d`, od *delimiter* (znak rozdzielający)  
-  mówi, na jakich znakach program powinien podzielić otrzymany tekst. W&nbsp;tym wypadku na znakach `=`. Kiedy to zrobi, zostaje z&nbsp;kilkoma częściami składowymi. W&nbsp;tym wypadku z&nbsp;dwiema, które sobie numeruje jako 1&nbsp;i 2.
-* `-f`  
+  mówi, na jakich znakach program powinien podzielić otrzymany tekst. W&nbsp;tym wypadku na znakach `=`. Gdy to zrobi, zostaje z&nbsp;kilkoma częściami składowymi -- *polami*. Tu ma dwa, które sobie numeruje jako 1&nbsp;i&nbsp;2.
+* `-f`, od *fields* (wspomniane *pola*)  
   mówi, którą z&nbsp;tych rzeczy powinien wybrać. Jest `2`, czyli drugą. To, co będzie *po* znaku równości.
 
 {:.post-meta .bigspace-after}
@@ -340,7 +340,7 @@ Skoro działanie skryptu już wyjaśnione, to przejdę do paru spraw luźniej po
 
 ### Wątek cyber(nie)bezpieczeństwa
 
-Skrypt zawiera jeszcze parę programów, choć jedynie w&nbsp;części opisowej, instruktażowej. Pod hasłem „jak uruchomić” znajduje się linijka do wykonania w&nbsp;konsoli:
+Skrypt zawiera jeszcze jedną komendę konsolową, choć jedynie w&nbsp;części opisowej, instruktażowej. Pod hasłem „jak uruchomić” znajduje się taka linijka:
 
 <div class="black-bg mono">
 curl https://make-firefox-private-again.com |&nbsp;sh
