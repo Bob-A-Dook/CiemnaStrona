@@ -95,7 +95,7 @@ Wrzucę do tej liczarki jakiś tekst na próbę, podając go rurą. Musi być ot
 echo 'Jakiś tekst' |&nbsp;wc
 </pre>
 
-Takie polecenie już zadziała, tekst trafi do liczarki i&nbsp;wyświetlą się trzy liczby: `1  2&nbsp; 13`. liczba linijek, liczba słów i&nbsp;liczba... znaków? Tyle że z&nbsp;ostatnią coś się nie zgadza, o&nbsp;czym za sekundę. Ale najpierw drobny schemat:
+Takie polecenie już zadziała, tekst trafi do liczarki i&nbsp;wyświetlą się trzy liczby: `1  2 13`. liczba linijek, liczba słów i&nbsp;liczba... znaków? Tyle że z&nbsp;ostatnią coś się nie zgadza, o&nbsp;czym za sekundę. Ale najpierw drobny schemat:
 
 {:.bigspace-before}
 <img src="/assets/posts/konsola/rury/echo-wc-konsola.jpg" alt="Schemat działania rur w&nbsp;konsoli pokazujący, jak słowa 'Jakiś tekst' wpadają do maszynki do mięsa podpisanej 'echo', z&nbsp;niej do zakrzywionej rury, a&nbsp;stamtąd do toalety podpisanej 'wc'. Pod nią wyświetlają się trzy liczby"/>
@@ -120,13 +120,13 @@ To wyjaśnia rozbieżność o&nbsp;1, ale skąd przesunięcie numer 2? Mówiąc 
 <p>Ogólniej, chcąc dokładniej zbadać, co tam <em>echo</em> przyniosło, możemy użyć <a href="https://stackoverflow.com/questions/1765311/how-to-view-files-in-binary-from-bash">prostego sposobu</a> z&nbsp;forum StackOverflow. Korzystając zz niezawodnej <em>rury</em>, wrzucić tekst do programiku <code class="language-plaintext highlighter-rouge">od</code>:</p>
 
 <div class="black-bg mono">
-echo 'Jakiś tekst' |&nbsp;od -c
+echo 'Jakiś tekst' | od -c
 </div>
 
 <p>Pokaże nam wtedy, z&nbsp;czego się on składał:</p>
 
 <pre class="black-bg mono">
-0000000   J&nbsp;  a&nbsp;  k&nbsp;  i&nbsp;305 233&nbsp;      t&nbsp;  e&nbsp;  k&nbsp;  s&nbsp;  t&nbsp; \n
+0000000   J   a   k   i 305 233       t   e   k   s   t  \n
 </pre>
 
 <p>Gdyby zamiast <code class="language-plaintext highlighter-rouge">ś</code> użyć litery <code class="language-plaintext highlighter-rouge">s</code>, a&nbsp;do <em>Echa</em> dopisać po spacji argument <code class="language-plaintext highlighter-rouge">-n</code> (nakaz, żeby nie dodawało znaku końca linii), to liczba na końcu wyniesie oczekiwane 11.</p>
@@ -140,7 +140,7 @@ echo 'Jakiś tekst' |&nbsp;od -c
 I na koniec, żeby `wc` nie jawił się jako zabaweczka, pokażę jedno jego praktyczne zastosowanie w&nbsp;kombinacji z&nbsp;innym mikroprogramem. Będzie to **liczenie elementów w&nbsp;dowolnym folderze**, wykonane w&nbsp;duecie z&nbsp;programem `ls`:
 
 <div class="black-bg mono">
-ls |&nbsp;wc
+ls | wc
 </div>
 
 Działa to w&nbsp;ten sposób, że programik `ls`, wypisujący nazwy rzeczy (plików/folderów...) zawartych w&nbsp;aktywnym folderze, wypluwa *po jednej rzeczy na linijkę*. Gdy do `wc` przerzuci się te wszystkie linijki, to ich liczba siłą rzeczy będzie równa liczbie rzeczy w&nbsp;folderze.
@@ -223,10 +223,10 @@ text="Od teraz wszystkie konsolowe polecenia -- póki nie powiem inaczej -- wyko
 Miałem swój skrypt, zaś w&nbsp;nim wlot, część przetwarzającą i&nbsp;wylot. Pozostało sprawdzić, co się stanie po połączeniu go rurami z&nbsp;konsolową klasyką:
 
 <pre class="black-bg mono">
-echo 'Testowy tekst' |&nbsp;zbiornik |&nbsp;wc
+echo 'Testowy tekst' | zbiornik | wc
 </pre>
 
-A tu *błąd*. Informacja o&nbsp;braku potrzebnych pozwoleń :sad:
+A tu *błąd*. Informacja o&nbsp;braku potrzebnych pozwoleń :roll_eyes:
 
 To dlatego, że na Linuksie jest coś takiego jak **wykonywalność plików**. Nie da się tak po prostu wpinać własnych rzeczy w&nbsp;konsolowy „rurociąg”, odpowiednio ich wcześniej nie oznaczając.  
 Analogia? Mój niewykonywalny plik był jak coś oklejonego czarno-żółtymi taśmami i&nbsp;opatrzonego tabliczką z&nbsp;zakazem korzystania. Żaden szanujący się system-inspektor mi tego nie podłączy, choćbym chciał.
@@ -298,7 +298,7 @@ I dla jasności schemat świeżo dodanego powiązania skryptowo-programowego:
 To co, mogę wreszcie użyć upragnionego polecenia?
 
 <pre class="black-bg mono">
-<span class="red">echo 'Testowy tekst' |&nbsp;zbiornik |&nbsp;wc</span>
+<span class="red">echo 'Testowy tekst' | zbiornik | wc</span>
 </pre>
 
 ...Nie, nadal nie działa. Nie znajduje Zbiornika, choć jest w&nbsp;tym samym folderze. Dlaczego?
@@ -312,7 +312,7 @@ A ja tych ścieżek nie chcę, chcę przywoływać jednym słowem: `zbiornik`. W
 
 Rozpoznawalność opiera się na szczęście na prostej zasadzie -- żeby dało się wołać programy po samej nazwie, muszą się znajdować w&nbsp;którymś ze **specjalnych folderów**. Ich kwestię już kiedyś poruszyłem w&nbsp;[innym wpisie Pythonowo-konsolowym](/2024/03/05/python-skrypty-startowe){:.internal}.
 
-Żeby poznać te specjalne lokalizacje, mogę wpisać w&nbsp;konsolę `echo $PATH`. Wyświetli się lista pełnych ścieżek do folderów, rozdzielana średnikami. Skrypt można umieścić w&nbsp;dowolnym z&nbsp;nich. Na Linuksie nim na przykład `$HOME/.local/bin` (gdzie zamiast `$HOME` będzie nazwa użytkownika, inna dla każdego).  
+Żeby poznać te specjalne lokalizacje, mogę wpisać w&nbsp;konsolę `echo $PATH`. Wyświetli się lista pełnych ścieżek do folderów, rozdzielana średnikami. Skrypt można umieścić w&nbsp;dowolnym z&nbsp;nich. Na Linuksie dobrą opcją jest na przykład `$HOME/.local/bin` (gdzie zamiast `$HOME` będzie nazwa użytkownika, inna dla każdego).  
 Polecenie kopiujące Zbiornik w&nbsp;to miejsce:
 
 <pre class="black-bg mono">
@@ -341,25 +341,25 @@ Czasem wystarczy kilka kroków, żeby stworzyć własny skrypt dobrze współpra
 Efekt tego połączenia jest taki, że zaciera się granica między tym co systemowe, a&nbsp;tym co moje. Mogę przywoływać `zbiornik` jednym słowem i&nbsp;go łączyć z&nbsp;legendami Linuksa:
 
 <pre class="black-bg mono">
-echo 'Kap' |&nbsp;zbiornik |&nbsp;wc
+echo 'Kap' | zbiornik | wc
 </pre>
 
 Do `wc` nie trafi nic, bo pojemność Zbiornika (5) była większa niż 4-bajtowe kapnięcie (trzy litery i&nbsp;znak końca linijki). Zatrzymał wszystko. Ale jeśli wpadnie coś większego, to liczarka nie będzie miała wolnego:
 
 <pre class="black-bg mono">
-echo 'Testowy tekst' |&nbsp;zbiornik |&nbsp;wc
+echo 'Testowy tekst' | zbiornik | wc
 </pre>
 
 Gdybym chciał zapobiec przelaniu, nic nie stoi na przeszkodzie, żebym po prostu postawił na drodze więcej zbiorników:
 
 <pre class="black-bg mono">
-echo 'KapKap' |&nbsp;zbiornik |&nbsp;zbiornik |&nbsp;wc
+echo 'KapKap' | zbiornik | zbiornik | wc
 </pre>
 
 Mogę też skierować przelewające się dane do jakiegoś niefortunnego pliku :smiling_imp:
 
 <pre class="black-bg mono nospace">
-echo 'Duża ilość wody' |&nbsp;zbiornik >> moja_piwnica.txt
+echo 'Duża ilość wody' | zbiornik >> moja_piwnica.txt
 </pre>
 
 {:.figcaption}
@@ -413,4 +413,4 @@ echo 'KapKap' | zbiornik 10 | wc
 
 To tyle na dziś! Na koniec zachęcam do osobistej zabawy z&nbsp;przykładem i&nbsp;dodawania nowych bajerów. Przez zabawę najfajniej przełamać niechęć do konsoli, wiem coś o&nbsp;tym :wink:
 
-Do zobaczenia w&nbsp;kolejnych, już bardziej aferowo-prywatnościowych wpisach! Setka już jest, to czas na marsz po 128.
+Do zobaczenia w&nbsp;kolejnych, już bardziej aferowo-prywatnościowych wpisach! Setka już jest, to czas na marsz po&nbsp;128.
