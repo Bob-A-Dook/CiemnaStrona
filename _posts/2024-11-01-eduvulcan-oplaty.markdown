@@ -94,14 +94,15 @@ Twórcy oficjalnie zapisują nazwę jako `eduVULCAN`, ale będę się tu trzyma�
 W świecie cyfrowym „zera i&nbsp;jedynki są sobie równe”. Oznacza to, że jeśli wyśle się serwisowi dokładnie taką samą prośbę, jaką wysłałaby aplikacja albo przeglądarka, to dostanie się taką samą treść.  
 A zatem gdyby podejrzeć, jakie dane są wysyłane, gdy przeglądarka prosi o&nbsp;stronkę, i&nbsp;naśladować jej działanie niczym papuga ludzki głos, to dałoby się całkiem obejść oficjalną apkę. Czerpać dane prosto ze źródła.
 
-Na tej zasadzie powstały **aplikacje alternatywne wobec EduVulcana**.  
+Na tej zasadzie powstały **aplikacje alternatywne wobec dzienniczka Vulcan**.  
 Nie wczytywałem się w&nbsp;zasady ich działania, ale obstawiam w&nbsp;ciemno: uczniowie musieli w&nbsp;nich wprowadzić swoje dane logowania. A&nbsp;one, legitymując się tymi danymi, pobierały treść serwisu i&nbsp;wyświetlały go wewnątrz siebie, w&nbsp;sposób określony przez twórców. Do tego, zdaniem niektórych uczniów, po prostu robiły to lepiej.  
-Apek stworzonych ściśle wokół EduVulcana było kilka:
+Apek stworzonych wokół naszego dzienniczka było kilka:
 
-* Vulcanova
-* Wezuwiusz
-* Wulkanek
-* Wulkanowy
+* Vulcanova,
+* Wezuwiusz,
+* Wulkanek,
+* Wulkanowy,
+* Szkolny.eu (wspierający również Librusa).
 
 {:.post-meta .bigspace-after}
 Jeśli jakieś pominąłem, to z&nbsp;góry przepraszam!
