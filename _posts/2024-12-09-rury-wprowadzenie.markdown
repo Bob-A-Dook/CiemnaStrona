@@ -31,7 +31,7 @@ Zapraszam! Również osoby mniej konsolowe, żeby się oswajały :smile:
 
 {% include info.html
 type="Uwaga o&nbsp;systemach"
-text="Wpis stworzyłem z&nbsp;myślą o systemie Linux Mint. Te same programiki działają na zwykłym, niemodyfikowanym smartfonie z&nbsp;Androidem (wewnątrz apki [Termux](/tutorial/termux){:.internal}).  
+text="Wpis stworzyłem z&nbsp;myślą o systemie Linux Mint. Te same programiki działają na zwykłym, niemodyfikowanym smartfonie z&nbsp;Androidem (wewnątrz apki [Termux](/tutorials/termux){:.internal}).  
 Nie testowałem ich natomiast na systemie Windows. Ale, z&nbsp;tego co zerknąłem, w&nbsp;windowsowej konsoli PowerShell można znaleźć program [`echo`](https://stackoverflow.com/a/1639960), a&nbsp;także [rury](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pipelines?view=powershell-7.4), zaś odpowiednikiem `wc` wydaje się [`Measure-Object`](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object?view=powershell-7.4).  
 A zatem: jeśli ktoś ma Windowsa, ale też się chce pobawić, to zapraszam! Ale nie gwarantuję, że będzie śmigało."
 %}
