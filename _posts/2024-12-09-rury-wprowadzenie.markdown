@@ -117,7 +117,7 @@ To wyjaśnia rozbieżność o&nbsp;1, ale skąd przesunięcie numer 2? Mówiąc 
 
 <p>Druga nadwyżka wynika z&nbsp;obecności polskiego <code class="language-plaintext highlighter-rouge">ś</code>, które za kulisami jest złożone z&nbsp;dwóch bajtów danych. W&nbsp;przeciwieństwie do podstawowych znaków angielskiego alfabetu, które są jednobajtowe. Polskie znaki to i&nbsp;tak pikuś – emoty (zwłaszcza flagi krajów) są jeszcze cięższe.</p>
 
-<p>Ogólniej, chcąc dokładniej zbadać, co tam <em>echo</em> przyniosło, możemy użyć <a href="https://stackoverflow.com/questions/1765311/how-to-view-files-in-binary-from-bash">prostego sposobu</a> z&nbsp;forum StackOverflow. Korzystając zz niezawodnej <em>rury</em>, wrzucić tekst do programiku <code class="language-plaintext highlighter-rouge">od</code>:</p>
+<p>Ogólniej, chcąc dokładniej zbadać, co tam <em>echo</em> przyniosło, możemy użyć <a href="https://stackoverflow.com/questions/1765311/how-to-view-files-in-binary-from-bash">prostego sposobu</a> z&nbsp;forum StackOverflow. Korzystając z niezawodnej <em>rury</em>, wrzucić tekst do programiku <code class="language-plaintext highlighter-rouge">od</code>:</p>
 
 <div class="black-bg mono">
 echo 'Jakiś tekst' | od -c
@@ -126,7 +126,7 @@ echo 'Jakiś tekst' | od -c
 <p>Pokaże nam wtedy, z&nbsp;czego się on składał:</p>
 
 <pre class="black-bg mono">
-0000000   J   a   k   i 305 233       t   e   k   s   t  \n
+J   a   k   i 305 233       t   e   k   s   t  \n
 </pre>
 
 <p>Gdyby zamiast <code class="language-plaintext highlighter-rouge">ś</code> użyć litery <code class="language-plaintext highlighter-rouge">s</code>, a&nbsp;do <em>Echa</em> dopisać po spacji argument <code class="language-plaintext highlighter-rouge">-n</code> (nakaz, żeby nie dodawało znaku końca linii), to liczba na końcu wyniesie oczekiwane 11.</p>

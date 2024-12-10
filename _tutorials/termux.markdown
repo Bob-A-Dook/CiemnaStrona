@@ -21,10 +21,9 @@ Zanim przejdę do instalacji, dwie kluczowe rzeczy:
 
 2. Google jest niedobrym monopolistą.
 
-   Są teź właścicielami Play Store'a -- oficjalnej i&nbsp;najpopularniejszej bazy z aplikacjami na Androida. Naszego Termuksa potraktowali niesprawiedliwie, zakazując mu dodawania niektórych funkcji, bardzo przydatnych dla majsterkujących użytkowników.
+   Są też właścicielami Play Store'a -- oficjalnej i&nbsp;najpopularniejszej bazy z&nbsp;aplikacjami na Androida. Naszego Termuksa [potraktowali niesprawiedliwie](https://github.com/termux-play-store), zakazując mu dodawania niektórych funkcji, bardzo przydatnych dla majsterkujących użytkowników.
 
-Ze względu na punkt drugi **apka Termux dostępna przez Play Store jest wybrakowana**.
-
+Ze względu na punkt drugi **apka Termux dostępna przez Play Store jest wybrakowana**.  
 Jasne, można jej użyć, jeśli chcemy tylko poćwiczyć w&nbsp;podróży korzystanie z&nbsp;programów konsolowych. Ale gdybyśmy chcieli skorzystać z&nbsp;pełni możliwości telefonu, mocno polecam pobranie wersji z&nbsp;innego źródła niż Play Store.
 
 ### F-Droid na ratunek
@@ -44,7 +43,7 @@ Instalacja *prawdziwego* Termuksa w takim wypadku przebiega następująco:
 
 Kiedy już zrobimy te trzy rzeczy, świat Termuksa stanie przed nami otworem :smile:
 
-## Możliwości
+## Możliwości i ograniczenia
 
 Co można robić, mając Termuksa?  
 Wszystkich zastosowań nie wymienię, bo są niezliczone! Jak dotąd opisałem na blogu:
@@ -59,12 +58,26 @@ A będzie tego więcej :wink:
 Poza tym, ogólniej: można korzystać z wielu przydatnych programów konsolowych znanych z&nbsp;systemu Linux.  
 Wiele fajnych samouczków można znaleźć w&nbsp;sieci pod hasłem `bash tutorial`. Choć nie były tworzone z&nbsp;myślą o&nbsp;Termuksie, nieraz zadziałają również na nim.
 
-{:.post-meta .bigspace-after}
-Oczywiście nie wszystko zadziała. Reguła kciuka: można od razu założyć, że nie ruszą programy, które uruchamiają jakiś graficzny interfejs (choć nawet to da się obejść) albo sięgają do wnętrza innych programów. Na Androidzie to nie przejdzie.
-
 Mało? Można zainstalować więcej programów z&nbsp;oficjalnej bazy. Dostępny jest chociażby język programowania Python, wraz z&nbsp;wieloma stworzonymi w&nbsp;nim pakietami (jak chociażby Matplotlib od wizualizacji danych).
 
 A gdyby ktoś jeszcze czuł niedosyt, to po zainstalowaniu `Termux:API` zyska dostęp do programów zintegrowanych z&nbsp;funkcjami smartfona. Warto poznać ich [oficjalną listę](https://wiki.termux.com/wiki/Termux:API).
+
+### Ograniczenia
+
+Termux wygląda jak konsola, a na systemach Linux konsola jest niejako uprzywilejowana. Z tego względu można zapomnieć o kluczowym fakcie -- **Termux na Androidzie jest zaledwie szeregową aplikacją, jedną spośród wielu**. Nie jest ani trochę bliżej systemu niż jakieś Spotify, Duolingo czy Flo.
+
+Z tego względu nie jest w stanie zaglądać do wewnętrznych plików systemu ani do innych aplikacji. Nie zadziałają na nim przykładowo:
+
+* komendy ingerujące w ruch internetowy,
+* komendy zawierające `sudo` (działanie w trybie administratora),
+* programy zaglądające do plików innych programów  
+  (jak choćby mój drobny [skrypt]({% post_url 2021-12-24-caching %}#bonus-skrypt-do-grzebania-wpamięci-podręcznej){:.internal} od grzebania w pamięci podręcznej przeglądarki).
+
+{:.post-meta .bigspace-after}
+Większe możliwości można zyskać, *rootując* swój telefon. Ale to poza tematem wpisu i dotąd tego nie opisałem na blogu.
+
+Innym ograniczeniem jest fakt, że **domyślnie nie zadziała żaden interfejs graficzny** (na przykład moduł Tkinter z Pythona czy interaktywna edycja przez pakiet OpenCV).  
+To ograniczenie częściowo da się obejść, ale na razie zaledwie liznąłem temat.
 
 ## Python
 
@@ -107,8 +120,7 @@ To teraz potrzebujemy jeszcze składników -- [kilku bibliotek](https://github.c
 pkg install libxml2 libxslt libiconv
 </div>
 
-Na Termuksie ważne, żeby to były właśnie te; wiele internetowych instrukcji odnosi się do zwykłego Linuksa i&nbsp;wspomina o&nbsp;wersjach z&nbsp;przyrostkiem *-dev*. Ale w&nbsp;bazach Termuksa ich po prostu nie mają, są inne.  
-Wpisujemy komendę i potwierdzamy. 
+Na Termuksie ważne, żeby to były właśnie te; wiele internetowych porad i&nbsp;samouczków odnosi się do zwykłego Linuksa i&nbsp;wspomina o&nbsp;wersjach z&nbsp;przyrostkiem *-dev*. Ale w&nbsp;bazach Termuksa ich po prostu nie mają, są zamiast nich te wymienione.
 
 Kiedy już mamy u&nbsp;siebie Clanga, trzy potrzebne biblioteki oraz samego Pythona, możemy się pokusić o&nbsp;zainstalowanie LXML-a. Najprościej byłoby wpisać:
 
@@ -116,16 +128,15 @@ Kiedy już mamy u&nbsp;siebie Clanga, trzy potrzebne biblioteki oraz samego Pyth
 pip install lxml
 </div>
 
-**Ale uwaga**! W&nbsp;przypadku LXML-a po wyświetleniu *building wheel for LXML* zacznie się kompilacja, która długo potrwa, nawet całe godziny. Możemy na ten czas zostawić Termuksa.
-
-Nie mamy cierpliwości? Możemy również wybrać opcję mniej zoptymalizowaną, ale szybszą. W&nbsp;tym celu wpisujemy:
+**Ale uwaga**! W&nbsp;przypadku LXML-a po wyświetleniu *building wheel for LXML* zacznie się kompilacja, która długo potrwa, nawet całe godziny. Możemy na ten czas zostawić Termuksa w&nbsp;spokoju.  
+Nie mamy cierpliwości? To możemy wybrać wersję LXML-a wolniejszą w&nbsp;działaniu, ale szybszą w&nbsp;instalacji. W&nbsp;tym celu wpisujemy:
 
 <div class="bigspace black-bg mono">
 CFLAGS='-O0' pip install lxml
 </div>
 
 Komenda `CFLAGS` oznacza, że chcemy szybkie przerobienie programu, kosztem ewentualnego nieco wolniejszego działania. Ale większej różnicy nam to nie zrobi.  
-Pierwsza litera w&nbsp;wartości to O&nbsp;jak *optymalizacja*, zaś druga to zero.
+Dla jasności: pierwszy znak po myślniczku to duże&nbsp;O (jak *optymalizacja*), a&nbsp;drugi to zero.
 
 Gdyby na tym etapie wyświetliło nam długi błąd, zawierający fragment:
 
