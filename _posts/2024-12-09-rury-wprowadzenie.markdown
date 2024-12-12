@@ -73,7 +73,7 @@ Takie małe programiki są zgodne z&nbsp;tak zwaną *filozofią uniksową* (od s
 
 Jeszcze ważniejszą rzeczą od programów jest natomiast pomost między nimi -- `|`, czyli po angielsku *pipe operator*, inaczej **_pipe_. W&nbsp;dosłownym tłumaczeniu: „rura”**.
 
-To element często stosowany w&nbsp;konsoli. Pozwala przekazywać to, co wypluje program po jego lewej stronie do programu po prawej. Łączyć mikroprogramy w&nbsp;rozwiązywacze codziennych problemów.  
+To element często stosowany w&nbsp;konsoli. Pozwala przekazywać to, co wypluje program po jego lewej stronie, do programu po prawej. Łączyć mikroprogramy w&nbsp;rozwiązywacze codziennych problemów.  
 A że Linux ceni wolność, to nie jesteśmy ograniczeni do programików z&nbsp;zamkniętej, narzuconej odgórnie listy; trzymając się paru zasad, można tworzyć również własne skrypty, w&nbsp;pełni pasujące do wszelkich rurociągów. Co za chwilę uczynię.
 
 Ale do *tanga*{:.corr-del} rury trzeba dwojga, więc przyda się jakiś program, z&nbsp;którym fajnie by się zintegrował ten mój skrypt, który dopiero powstanie. Który z&nbsp;wielu domyślnych by tutaj wybrać?  
@@ -95,7 +95,7 @@ Wrzucę do tej liczarki jakiś tekst na próbę, podając go rurą. Musi być ot
 echo 'Jakiś tekst' |&nbsp;wc
 </pre>
 
-Takie polecenie już zadziała, tekst trafi do liczarki i&nbsp;wyświetlą się trzy liczby: `1  2 13`. liczba linijek, liczba słów i&nbsp;liczba... znaków? Tyle że z&nbsp;ostatnią coś się nie zgadza, o&nbsp;czym za sekundę. Ale najpierw drobny schemat:
+Takie polecenie już zadziała, tekst trafi do liczarki i&nbsp;wyświetlą się trzy liczby: `1  2 13`. Liczba linijek, liczba słów i&nbsp;liczba... znaków? Tyle że z&nbsp;ostatnią coś się nie zgadza, o&nbsp;czym za sekundę. Ale najpierw drobny schemat:
 
 {:.bigspace-before}
 <img src="/assets/posts/konsola/rury/echo-wc-konsola.jpg" alt="Schemat działania rur w&nbsp;konsoli pokazujący, jak słowa 'Jakiś tekst' wpadają do maszynki do mięsa podpisanej 'echo', z&nbsp;niej do zakrzywionej rury, a&nbsp;stamtąd do toalety podpisanej 'wc'. Pod nią wyświetlają się trzy liczby"/>
@@ -278,20 +278,23 @@ Zadbam teraz o&nbsp;to, żeby skrypt był *domyślnie* otwierany przez Pythona i
 Zdobytą ścieżkę należy wstawić w&nbsp;**„magicznej linijce” na samym początku skryptu Pythona**, dopisując przed nią `#!`:
 
 <pre class="black-bg mono">
-#!/usr/bin/python
+#!/usr/bin/python3
 </pre>
 
-W ten sposób skrypt został podpięty do konkretnego Pythona. Będzie automatycznie się z nim "łączył" po uruchomieniu w&nbsp;konsoli.
+W ten sposób skrypt został podpięty do konkretnego Pythona. Będzie automatycznie się z nim „łączył” po uruchomieniu w&nbsp;konsoli.
 
 {% include info.html
 type="Ciekawostki"
 text="Krzyżyk na początku linijki oznacza w&nbsp;Pythonie komentarze. Dzięki jego obecności skrypt zostanie bezproblemowo odczytany nawet przez programy nierozumiejące magicznych linijek (ale rozumiejące Pythona).  
-Poza tym dość ciekawa ścieżka wychodzi na Termuksie -- jako „szeregowa” aplikacja nie zajmuje on żadnego uprzywilejowanego miejsca w&nbsp;systemie. Dlatego przed zwyczajowym `usr/bin/python` jego ścieżka zawiera całą drogę prowadzącą od rdzenia Androida do apki Termux: `/data/data/com.termux/files/`."
+Poza tym dość ciekawa ścieżka wychodzi na Termuksie -- jako „szeregowa” aplikacja nie zajmuje on żadnego uprzywilejowanego miejsca w&nbsp;systemie. Dlatego przed zwyczajowym `usr/bin/python` (przypominam: na Termuksie bez trójki) jego ścieżka zawiera całą drogę prowadzącą od rdzenia Androida do apki Termux: `/data/data/com.termux/files/`."
 %}
 
 I dla jasności schemat świeżo dodanego powiązania skryptowo-programowego:
 
 <img src="/assets/posts/konsola/rury/zbiornik-python-polaczenie.jpg" alt="Schemat pokazujący nakładkę z&nbsp;napisem 'Zbiornik' przymocowaną do maszyny podpisanej 'Python'. Po prawej równolegle przebiega rząd podpisanych, połączonych strzałkami folderów prowadzących do tej samej maszyny Pythona"/>
+
+{:.figcaption}
+Dla uproszczenia dałem tu `python` zamiast `python3`.
 
 ### Ulepszenie: wzywanie z&nbsp;dowolnego miejsca
 
