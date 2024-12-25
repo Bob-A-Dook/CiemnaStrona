@@ -179,6 +179,9 @@ Tym gorzej. Kiedy algorytm myli się notorycznie, ludziom łatwiej uwierzyć w&
 
 Wyobrażam sobie nawet scenariusz, kiedy błędnej klasyfikacji mógłby dokonać i&nbsp;algorytm, i&nbsp;człowiek z&nbsp;drugiej linii. 
 
+{:.post-meta .bigspace-after}
+**Aktualizacja:** nawet nie trzeba sobie wyobrażać -- coś bardzo podobnego [już się zdarzyło](https://www.youtube.com/watch?v=CE0EB5bXj14) (YouTube), tyle że przez standardowy automat Google'a.
+
 * Znów mamy pandemię i teleporady medyczne.
 * Czyjeś dziecko ma wypadek na rowerze, rani się w&nbsp;okolicy pachwiny. Rana kiepsko się goi, więc rodzic wysyła lekarzowi zdjęcie urazu.
 * Algorytm wyłapuje to zdjęcie i&nbsp;wysyła twórcom do ręcznej weryfikacji.

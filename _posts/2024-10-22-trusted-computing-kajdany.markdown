@@ -231,7 +231,7 @@ type="Ciekawostka"
 text="Jest pewna ironia losu w&nbsp;tym, że Microsoft tak bardzo chciał swoim uszczelnianiem świata zabezpieczyć infrastrukturę, w&nbsp;tym linie lotnicze... A&nbsp;tymczasem [najmocniejsze dotychczasowe uderzenie](/cyfrowy_feudalizm/2024/07/24/crowdstrike){:.internal}, paraliżujące wiele lotnisk, nie przyszło ze strony jakichś hakerów. Wynikało z&nbsp;błędnego działania antywirusa (w&nbsp;uproszczeniu) korporacji CrowdStrike, mającego uprzywilejowane możliwości w&nbsp;jądrze systemu Windows."
 %}
 
-A przechodząc do przykładów konkretniejszych niż abstrakcyjne „ataki hakerskie” -- faktycznie było i&nbsp;jest parę problemów, które trudno rozwiązać wyłącznie programowaniem:
+A przechodząc do przykładów konkretniejszych niż abstrakcyjne „ataki hakerskie” -- faktycznie było i&nbsp;jest parę problemów, które trudno rozwiązać wyłącznie programowaniem na poziomie systemu:
 
 * Przechowywanie szczególnie wrażliwych danych.
 
@@ -245,9 +245,10 @@ A przechodząc do przykładów konkretniejszych niż abstrakcyjne „ataki haker
 
   Niektóre wredne wirusy potrafiły przeniknąć do najgłębszych rejonów piramidki. Nawet jeśli całkiem „ścięło się czubek” (przeinstalowało cały system) -- potrafiły to przeczekać, na przykład wewnątrz *firmware'u*, a&nbsp;potem zainfekować nowy, świeży system.
 
-Wszystkie te problemy można rozwiązać, **tworząc na urządzeniach miejsca tak odizolowane, że nawet użytkownik nigdy nie zdoła tam sięgnąć**.
+Wszystkie te problemy można rozwiązać, **tworząc na urządzeniach miejsca tak odizolowane, że nawet użytkownik nigdy nie zdoła tam sięgnąć**.  
+Najniższe warstwy urządzenia, ze względu na swoją uprzywilejowaną rolę, wydają się idealną lokalizacją.
 
-W takich miejscach można trzymać skompresowany odcisk palca. Klucz szyfrujący dysk. Listę kontrolną pozwalającą uruchamiać system w&nbsp;sposób ściśle kontrolowany, żeby znaleźć wszelkie *bootkity*. A&nbsp;to zaledwie początek [listy możliwości](https://github.com/tpm2dev/tpm.dev.tutorials/blob/master/Intro/README.md).
+Można tam trzymać skompresowany odcisk palca. Klucz szyfrujący dysk. Listę kontrolną pozwalającą uruchamiać system w&nbsp;sposób ściśle kontrolowany, żeby znaleźć wszelkie *bootkity*. A&nbsp;to zaledwie początek [listy możliwości](https://github.com/tpm2dev/tpm.dev.tutorials/blob/master/Intro/README.md).
 
 Na bazie tego ogólnego założenia powstały rozmaite wdrożenia. Czasem odizolowane miejsce to jakiś fragment pamięci, odgrodzony jedynie cyfrowymi barierami. Innym razem to część procesora. Albo osobny, wyspecjalizowany chip. TPM, TEE, HSM... Mnóstwo nazw i&nbsp;odmian, których w&nbsp;tym wpisie nie będę omawiał.
 

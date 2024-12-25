@@ -182,7 +182,7 @@ Również w&nbsp;Nowej Zelandii planowano wprowadzenie [podatku od emisji metanu
 Gdyby wszedł w&nbsp;życie, to rolnicy mieliby wyraźną, odgórną zachętę, żeby korzystać ze środków takich jak Bovaer. Trochę by pewnie płacili, ale oszczędność na podatkach byłaby raczej większa.
 
 W Danii poszli o&nbsp;krok dalej, oferując [dopłaty do stosowania dodatku paszowego](https://www.topagrar.pl/articles/zywienie-bydla/doplaty-do-dodatku-paszowego-ograniczajacego-emisje-metanu-2508596) (źródło: artykuł *Top Agrar* z&nbsp;kwietnia 2024&nbsp;roku, więc nowa sprawa).  
-To coś więcej niż zachęcanie uniknięciem opłat; tutaj rząd wprost pokazuje rolnikom: „kupujcie Bovaer, to się wam dorzucimy do kosztów z&nbsp;pieniędzy podatników”.
+To coś więcej niż kuszenie szansą na niższe opłaty; tutaj rząd wprost pokazuje rolnikom: „kupujcie Bovaer, to się wam dorzucimy do kosztów z&nbsp;pieniędzy podatników”.
 
 Wszystkie te zmiany -- zadziwiająco zbieżne ze sobą w&nbsp;czasie -- szczególnie mnie niepokoją, bo kojarzą mi się z&nbsp;[przypadkiem z&nbsp;Boliwii]({% post_url 2023-09-23-bechtel-boliwia-woda %}){:.internal}, który już opisałem na blogu.
 
@@ -194,7 +194,7 @@ Zmowy polityczno-korporacyjne są przerażające. Dlatego należy bardzo wnikliw
 {% include info.html
 type="Miniwątek patentów"
 text="Ale może chociaż -- gdyby już inhibitory metanu musiały być koniecznością -- będzie szeroki wybór ich producentów?  
-Nie liczyłbym na to, chyba że producenci wymyśliliby nową metodę. Bo ta oparta na stosowaniu NPO-3 została [zgłoszona do opatentowania](https://patents.google.com/patent/WO2020212348A1/en).  
+Nie liczyłbym na to, chyba że producenci wymyśliliby nową metodę. Bo ta oparta na stosowaniu 3-NOP została [zgłoszona do opatentowania](https://patents.google.com/patent/WO2020212348A1/en).  
 Oznacza to, że firmy chcące używać tego środka -- w&nbsp;okresie do 20&nbsp;lat od zgłoszenia -- musiałyby kupić od DSM licencję. Albo narażać się na groźbę pozwu."
 %}
 
@@ -215,7 +215,7 @@ Gdyby link nie działał, można zmienić w&nbsp;nim *nitter.poast.org* na *x.co
 Mam natomiast problem z&nbsp;tym, że Simon pisze na początku jedynie „jako chemik \[opiszę fakty...\]”. Stawia się niejako w&nbsp;roli niezależnego naukowca. Zgadza się to z&nbsp;jego biogramem, w&nbsp;którym ma jedynie ogólny slogan: *Chemistry, Science, Innovation*.  
 Wystarczy jednak wyszukać go w&nbsp;ogólnej wyszukiwarce z&nbsp;imienia i&nbsp;nazwiska, żeby trafić na jego profil na LinkedInie. A&nbsp;tam stoi jak byk -- **to aktywny pracownik korporacji Bayer**.
 
-Nie znalazłem na szybko informacji, żeby Bayer był bezpośrednio powiązany z&nbsp;DSM od Bovaera. Ale żyją ze sprzedaży produktów dla rolnictwa masowego -- zwłaszcza związanych z&nbsp;soją i&nbsp;kukurydzą. A&nbsp;to podstawowe rośliny stosowane jako pasza. Filar masowej hodowli.  
+Nie znalazłem na szybko informacji, żeby Bayer był bezpośrednio powiązany z&nbsp;DSM od Bovaera. Ale żyją ze sprzedaży produktów dla rolnictwa masowego -- zwłaszcza związanych z&nbsp;soją i&nbsp;kukurydzą. A&nbsp;to podstawowe rośliny stosowane jako pasza. Filar masowego chowu i&nbsp;hodowli.  
 Wniosek? Bayer jest na jednym końcu łańcuszka, korposy od mięsa i&nbsp;mleka na drugim. Im bardziej rosną te drugie, tym lepiej się żyje Bayerowi. Można zatem mówić o&nbsp;konflikcie interesów Simona.
 
 Nie jest to w&nbsp;żadnym razie moje odkrycie, Simonowi od dawna wytykane są branżowe powiązania. Ma też historię powielania sloganów korporolnictwa:
@@ -241,11 +241,14 @@ On również ma długą historię stawania po stronie branży. Jest zresztą cz
 * W&nbsp;2014&nbsp;roku napisał artykuł, w&nbsp;którym kwestionuje przewagę żywności ekologicznej nad tą z&nbsp;upraw masowych  
   (przykład narracji: „w&nbsp;ekologicznych wykryto mniej pestycydów, ale ich zawartość w&nbsp;konwencjonalnych i&nbsp;tak była poniżej progu ostrzegawczego, więc to bez znaczenia”).
 
+  {:.post-meta .bigspace-after}
+  Osobiście nie kupuję ekożywności; jestem natomiast wyczulony na torpedowanie rolnictwa ekologicznego, bo to stały element narracji gigantów od chemii rolniczej (przykłady: Simon wyżej, do tego [trolle z&nbsp;YouTube'a]({% post_url 2022-12-24-biotechnologia-trolle-youtube %}#rolnictwo-ekologiczne--whataboutism-ichochoły){:.internal}).
+
 {% include info.html
 type="Powiązania"
 text="Ten ostatni artykuł pana M. o&nbsp;żywności ekologicznej był [cytowany](https://thoughtscapism.com/2015/04/27/organic-vs-conventional-food/) przez autorkę bloga *Thoughtscapism* i&nbsp;został użyty na poparcie tezy, że nie ma żadnej przewagi eko nad uprawami masowymi.  
 Jej artykuł ukazał się nie tylko na jej blogu, ale też na Genetic Literacy Project, portalu blisko związanym z&nbsp;branżą rolnictwa masowego.  
-*Thoughtscapisma* już czasem wspominałem u&nbsp;siebie, bo jego autorka [bagatelizowała](/2023/05/20/dzien-pszczoly-neonikotynoidy#thoughtscapism){:.internal} choćby szkodliwość pewnych środków owadobójczych dla pszczół (już wycofanych w&nbsp;Unii), a&nbsp;także [kwestionowała](/2024/10/01/nestle-mleko-dla-niemowlat-afryka#thoughtscapism){:.internal} przewagę karmienia piersią nad karmieniem butelką (wbrew wytycznym Światowej Organizacji Zdrowia; za to ramię w&nbsp;ramię z&nbsp;grupką realizującą interesy producentów mieszanek, takich jak Nestlé)."
+*Thoughtscapism* już nieraz się u&nbsp;mnie pojawiał, bo jego autorka [bagatelizowała](/2023/05/20/dzien-pszczoly-neonikotynoidy#thoughtscapism){:.internal} choćby szkodliwość pewnych środków owadobójczych (zakazanych w&nbsp;Unii) dla pszczół, a&nbsp;także [kwestionowała](/2024/10/01/nestle-mleko-dla-niemowlat-afryka#thoughtscapism){:.internal} przewagę karmienia piersią nad karmieniem butelką (wbrew wytycznym Światowej Organizacji Zdrowia; za to ramię w&nbsp;ramię z&nbsp;grupką realizującą interesy producentów mieszanek, takich jak Nestlé)."
 %}
 
 Znając te wszystkie fakty, mogę nieco wnikliwiej oceniać słowa Iana M. Kiedy pisze:
@@ -311,8 +314,8 @@ Biorąc pod uwagę wszystkie powyższe fakty, **jestem przeciwny Bovaerowi**. Ni
 
 Moim powodem jest to, że Bovaer wydaje się produktem do cna korporacyjnym. Od wielkich graczy dla wielkich graczy, w&nbsp;partnerstwie z&nbsp;politykami, z&nbsp;zacieśnianiem pętli patentów, bez informowania konsumentów, z&nbsp;udziałem niejawnych marketingowców... Jak by to powiedziało młodsze pokolenie: „same *red flagi*”.
 
-Aż się ta sprawa prosi o&nbsp;powszechną krytykę. Ale jeśli krytyka ma wyjść poza kręgi niszowe i&nbsp;trafić do szerszych odbiorców, zwłaszcza ludzi ze środowisk miejsko-uczelnianych, to powinna nieco zmienić swoją postać.  
-Przede wszystkim: warto ją odrzeć ze wzmianek o&nbsp;panu B.G., firmie BR czy o&nbsp;cytowanie ulotki dotyczącej koncentratu. Obecne zarzuty zostaną szybko odparte, a&nbsp;ich głosiciele -- zaszufladkowani. Dyskusja zdegeneruje się do nudnego, prowadzącego donikąd impasu. Wymiany „wy foliarze!” za „wy owce!”. 
+Aż się ta sprawa prosi o&nbsp;powszechną krytykę. Ale jeśli krytyka ma wyjść poza kręgi niszowe i&nbsp;trafić do szerszego grona odbiorców, zwłaszcza ludzi ze środowisk miejsko-uczelnianych, to powinna nieco zmienić swoją postać.  
+Przede wszystkim: warto ją odrzeć ze wzmianek o&nbsp;panu B.G. czy firmie BR. Nie straszyć ulotką dotyczącą koncentratu. Takie zarzuty zostaną szybko odparte, a&nbsp;ich głosiciele -- zaszufladkowani. Dyskusja zdegeneruje się do nudnego, prowadzącego donikąd impasu. Wymiany „wy foliarze!” za „wy owce!”. 
 
 Zwracając się do osób z&nbsp;kręgów wegańskich i&nbsp;lewicowych, lepiej **skupić się na losie zwierząt**: „Bovaer pozwoli wielkim firmom utrzymać obecny chory system i&nbsp;dłużej eksploatować zwierzęta na farmach przemysłowych”.
 
