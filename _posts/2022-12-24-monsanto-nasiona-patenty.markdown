@@ -163,7 +163,7 @@ I tu pojawia się bardzo ciekawy wątek. Bowiem w&nbsp;USA, gdzie precedensy ma
 
 Po stronie Monsanto [stanęły korporacje informatyczne](https://www.sfgate.com/technology/article/Monsanto-seed-suit-and-software-patents-4303103.php). Organizacja reprezentująca interesy między innymi Apple, Adobe, Microsoftu i&nbsp;IBM apelowała, żeby sąd nie orzekał na korzyść rolnika.
 
-A sam sąd? Jeden z&nbsp;jego sędziów, Clarence Thomas, miał dość wyraźny konflikt interesów -- pracował kiedyś jako prawnik dla Monsanto. Mimo to [nie wycofał się z&nbsp;możliwości orzekania](https://theprogressivecynic.com/2013/07/15/justice-clarence-thomas-and-monsanto/) w&nbsp;sprawie Bowmana.
+A sam sąd? Jeden z&nbsp;jego sędziów, Clarence Thomas, miał dość wyraźny konflikt interesów -- pracował kiedyś jako prawnik dla Monsanto. Mimo to [nie wycofał się z&nbsp;możliwości orzekania](https://www.opensecrets.org/news/2013/02/monsanto/) w&nbsp;sprawie Bowmana.
 
 Czy to przez sprawiedliwość, czy też z&nbsp;innych przyczyn -- Bowman przegrał. Precedens pozostał.  
 Czy wiedział, że zdobywa nasiona RR? Bardzo możliwe, że celowo skupował je z&nbsp;silosa zbożowego, bo miał większą szansę na takowe trafić. Choć na jego korzyść przemawiało to, że bądź co bądź zdawał się na los. Nie miał gwarancji, że trafi akurat na nasiona modyfikowane.

@@ -303,7 +303,7 @@ Krowy wypasane i&nbsp;karmiące się trawą emitowałyby mniej. A&nbsp;jednak to
 
 {% include info.html
 type="Paradoks"
-text="Mniej osób wie, że cały ten system stoi również na przemyśle wydobywczym. Paliwach kopalnych. I&nbsp;nie chodzi tu nawet o&nbsp;proste „traktorek potrzebuje paliwa”. Bardzo dużo paliw kopalnych jest zużywanych do produkcji, poprzez [metodę Habera i&nbsp;Boscha](https://awoe.net/Ammonia-Haber-Bosch-Process.html), sztucznych nawozów azotowych, powszechnie stosowanych w&nbsp;rolnictwie masowym.  
+text="Mniej osób wie, że cały ten system stoi również na przemyśle wydobywczym. Paliwach kopalnych. I&nbsp;nie chodzi tu nawet o&nbsp;proste „traktorek potrzebuje paliwa”. Bardzo dużo paliw kopalnych jest zużywanych do produkcji, [metodą Habera i&nbsp;Boscha](https://awoe.net/Ammonia-Haber-Bosch-Process.html), sztucznych nawozów azotowych, powszechnie stosowanych w&nbsp;rolnictwie masowym.  
 A tymczasem można znaleźć osoby, które są: przeciw masowej hodowli (bo cierpienie zwierząt), przeciw koncernom wydobywczym (bo globalne ocieplenie)... ale entuzjastyczne wobec rolnictwa masowego („pestycydy i&nbsp;GMO to owoce nauki!”). Branży, która jest pomostem między dwiema zwalczanymi rzeczami, bo **przyjmuje nawozy, a&nbsp;generuje paszę i&nbsp;dodatki do paliw** :roll_eyes:  
 No cóż, wielkie korposy zapewne bardzo lubią ludzi o&nbsp;takim miksie poglądów."
 %}
