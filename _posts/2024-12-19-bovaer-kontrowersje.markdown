@@ -298,8 +298,10 @@ Ale zamiast tego narodził się nowy trend mierzenia jakości i&nbsp;przyjaznoś
 
 Zacznie podawać środek, wykaże zmniejszone emisje, nagoni więcej inwestorów, a&nbsp;mniej wnikliwi krytycy zostaną udobruchani. Nie będzie trzeba wprowadzać większych zmian w&nbsp;systemie, karuzela kręci się dalej.
 
-Wisienka na torcie? Pasze białkowe, tak chętnie stosowane przez korpohodowców, *zwiększają* emisje metanu ze strony bydła. Zatem **stosując inhibitory metanu, system nakleja plasterek na problem, który sam stworzył**.  
-Krowy wypasane i&nbsp;karmiące się trawą emitowałyby mniej. A&nbsp;jednak to z&nbsp;takim właśnie wypasem swobodnym, zdecentralizowanym, próbują walczyć więksi producenci.
+Wisienka na torcie? Cały ekosystem wokół pasz białkowych, tak chętnie stosowanych przez korpohodowców, może [*zwiększać*](https://www.npr.org/sections/thesalt/2019/08/13/746576239/is-grass-fed-beef-really-better-for-the-planet-heres-the-science) emisje gazów cieplarnianych związane z bydłem. Zatem **stosując inhibitory metanu, więksi producenci naklejają plasterek na problem, który sami stworzyli**. A przy tym zwalczają wypas swobodny i zdecentralizowany.
+
+{:.post-meta .bigspace-after}
+Poprzednio błędnie napisałem o niższych emisjach samego *metanu* przy wypasie; po doczytaniu widzę, że chodziło o gazy cieplarniane w ogólności.
 
 {% include info.html
 type="Paradoks"
