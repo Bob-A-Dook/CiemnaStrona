@@ -357,7 +357,7 @@ Nie jest to zresztą mój wymysł. W&nbsp;przypadku ebooków Microsoft wyłączy
 
 W przypadku filmów istnieją zabezpieczenia takie jak Widevine od Google'a. Ma kilka poziomów restrykcji. Jeśli chce się oglądać filmy w&nbsp;lepszej jakości, to trzeba mieć urządzenie wspierające [poziom najwyższy, L1](https://www.xda-developers.com/check-widevine-drm-status-android/). Wymagający enklawy i&nbsp;niemodyfikowanego systemu.
 
-W tym trybie zarówno przeglądarka, system, jak i&nbsp;procesor działają przeciw użytkownikowi, tworząc szyfrowany „tunel” między platformą streamingową a&nbsp;monitorem. Z&nbsp;założenia taki, żeby na żadnym etapie nie dało się niczego zescreenować ani przechwycić.
+W tym trybie zarówno przeglądarka, system, jak i&nbsp;procesor (lub [karta graficzna](https://mjg59.dreamwidth.org/70954.html)) działają przeciw użytkownikowi, tworząc szyfrowany „tunel” między platformą streamingową a&nbsp;monitorem. Z&nbsp;założenia taki, żeby na żadnym etapie nie dało się niczego zescreenować ani przechwycić.
 
 Użytkownik ma konsumować. A&nbsp;kiedy producent na dobre wycofa coś z&nbsp;repertuaru, nie uwalniając jednak licencji, to konsument ma grzecznie pochylić główkę. I&nbsp;pogodzić się z&nbsp;tym, że dorobek kulturowy zniknął na dobre.
 

@@ -40,7 +40,7 @@ Zapraszam!
   * [Wpływ na zdrowie ludzi (jestem sceptyczny)](#wpływ-na-zdrowie-ludzi-jestem-sceptyczny)
   * [Udziałowcy (jestem sceptyczny)](#udziałowcy-jestem-sceptyczny)
   * [Polityczne kije i&nbsp;marchewki](#polityczne-kije-imarchewki)
-  * [Marketing szeptany](#marketing-szeptany)
+  * [Marketing szeptany?](#marketing-szeptany)
   * [Brak transparentności](#brak-transparentności)
   * [Podtrzymywanie patologicznego systemu](#podtrzymywanie-patologicznego-systemu)
 * [Podsumowanie](#podsumowanie)
@@ -198,7 +198,7 @@ Nie liczyłbym na to, chyba że producenci wymyśliliby nową metodę. Bo ta op
 Oznacza to, że firmy chcące używać tego środka -- w&nbsp;okresie do 20&nbsp;lat od zgłoszenia -- musiałyby kupić od DSM licencję. Albo narażać się na groźbę pozwu."
 %}
 
-### Marketing szeptany
+### Marketing szeptany?
 
 W obronę Bovaera zaangażowały się internetowe postacie, które od dawna zajmują się szerzeniem korporacyjnej narracji, promowaniem „jedynej słusznej” wizji rolnictwa masowego i&nbsp;zniechęcaniem do alternatyw.
 

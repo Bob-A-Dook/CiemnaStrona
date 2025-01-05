@@ -97,7 +97,7 @@ Jest to zresztą ponoć [domyślny stan rzeczy](https://stackoverflow.com/a/4118
 
 A jednak ta apka była faworyzowana i&nbsp;przeskoczyła całą kontrolę. Co więcej, miała szeroki zakres uprawnień.
 
-Nie jest to zresztą jakiś wyjątek. Taki program to **asystent głosowy**. Obecny na wielu smartfonach i&nbsp;dodawany przez poducentów -- Apple ma Siri, Samsung ma Bixby, inni mogą korzystać z&nbsp;Google Assistanta.
+Nie jest to zresztą jakiś wyjątek. Taki program to **asystent głosowy**. Obecny na wielu smartfonach i&nbsp;dodawany przez producentów -- Apple ma Siri, Samsung ma Bixby, inni mogą korzystać z&nbsp;Google Assistanta.
 
 Asystenci usypiają naszą czujność, jeśli chodzi o&nbsp;udzielanie pozwoleń. W&nbsp;końcu mają nam ułatwiać korzystanie z&nbsp;telefonu... więc to chyba logiczne, że muszą być mocno zintegrowani z&nbsp;jego funkcjami?
 
