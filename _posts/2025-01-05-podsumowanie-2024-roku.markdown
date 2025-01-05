@@ -60,7 +60,7 @@ Warto też dodać, że sprawa dotyczyła **wyszukiwarki**. Łatwo o&nbsp;tym zap
 A tymczasem to zaledwie jedna ze spraw czekających na rozstrzygnięcie. Pod lupą sądów jest też rzekoma zmowa z&nbsp;Facebookiem (kryptonim Jedi Blue) czy możliwe zmonopolizowanie giełd reklamowych.  
 A że sąd już zasugerował przy tej „wyszukiwarkowej” sprawie, że kolejni sędziowie mogą łatwo nie darować Google'owi usuwania wewnętrznych wiadomości (potencjalnych dowodów)... To gigant może dostać też na innych frontach.
 
-Ale Google odpowiada ogniem. W&nbsp;tym roku już na pewno przepchną przynajmniej [Manifest v3]({% post_url 2022-05-11-google-manifest-v3 %}){:.internal}, osłabiający dodatki od blokowania reklam. Poza tym zamierzają [poluzować zasady]({% post_url 2022-05-11-google-manifest-v3 %}) swojej platformy reklamowej, pozwalając na identyfikację użytkowników bardziej inwazyjnymi metodami.
+Ale Google odpowiada ogniem. W&nbsp;tym roku już na pewno przepchną przynajmniej [Manifest v3]({% post_url 2022-05-11-google-manifest-v3 %}){:.internal}, osłabiający dodatki od blokowania reklam. Poza tym zamierzają [poluzować zasady](https://blog.lukaszolejnik.com/biggest-privacy-erosion-in-10-years-on-googles-policy-change-towards-fingerprinting/) dla swoich partnerów reklamowych, pozwalając na identyfikację użytkowników bardziej inwazyjnymi metodami.
 
 Tracąc kontrolę w jednym aspekcie, próbuje ją zyskać w&nbsp;innym. Pozostaje mieć nadzieję, że nie zdołają wziąć zakładników, nim dosięgną ich kary.  
 Zaś w międzyczasie zachęcam do [odgooglowania swojego smartfona]({% post_url 2024-02-03-smartfon-degoogle %}){:.internal}.
@@ -79,13 +79,13 @@ Atak był przygotowywany od lat. Haker, przedstawiający się oficjalnie jako Ji
 Dokładna natura zagrożenia nie jest do końca znana, bo złośliwy kod został szybko wykryty -- anomalię dostrzegł pewien programista, widząc że łączenie się z&nbsp;bazą trwa pół sekundy dłużej niż zwykle. A&nbsp;że XZ to program *open source* (o&nbsp;publicznie dostępnym kodzie źródłowym), to szybko go przeszukał i&nbsp;znalazł zagrożenie.
 
 {:.post-meta .bigspace-after}
-Gdyby kogoś interesowała wersja filmowa, to bardzo fajne [omówienie](https://www.youtube.com/watch?v=44HSTVBvAO4&pp=ygUKY2hyb2JvayB4eg%3D%3D) stworzył Mateusz Chrobok (YouTube).
+Gdyby kogoś interesowała wersja filmowa, to bardzo fajne [omówienie](https://www.youtube.com/watch?v=44HSTVBvAO4) stworzył Mateusz Chrobok (YouTube).
 
 Drugą wielką aferą była ta związana z&nbsp;firmą [CrowdStrike]({% post_url 2024-07-24-crowdstrike %}){:.internal}.
 
-Tutaj z&nbsp;kolei nie było cyberataku. Była natomiast wadliwa aktualizacja po stronie korporacji, której inni wielcy gracze płacą w&nbsp;zamian za wykrywanie wirusów. A&nbsp;że programy tej firmy instalują się głęboko w&nbsp;bebechach systemu, to ich błąd prowadzi do wyłączenia całego urządzenia. A&nbsp;nawet „pętli śmierci”, wymagającej ręcznego resetu.
+Tutaj z&nbsp;kolei nie było cyberataku. Była natomiast wadliwa aktualizacja po stronie korporacji, której inni wielcy gracze płacą za *ochronę* przed atakami. A&nbsp;że programy tej firmy instalują się głęboko w&nbsp;bebechach systemu, to ich błąd prowadzi do wyłączenia całego urządzenia. A&nbsp;nawet „pętli śmierci”, wymagającej ręcznego resetu.
 
-Efekt? Cały świat rozjaśnił się na niebiesko, kiedy różne firmowe komputery z&nbsp;systemem Windows przestały działać. Nie działały duże markety, lotniska, centrala Formuły 1... A&nbsp;w USA nawet część szpitali.
+Efekt? Cały świat rozjaśnił się na niebiesko, kiedy różne firmowe komputery z&nbsp;systemem Windows przestały działać. Nie działały duże markety, lotniska, centrala Formuły&nbsp;1... W&nbsp;USA nawet część szpitali.
 
 Choć obie afery nieco wstrząsnęły światem, moim zdaniem wszystko potoczyło się w&nbsp;najlepszy możliwy sposób:
 
@@ -104,13 +104,13 @@ Skoro już jesteśmy przy cyfrowej centralizacji, to wypadałoby też wspomnieć
 
 Rok temu pewien niezależny zakład naprawczy mimo usilnych starań nie był w&nbsp;stanie naprawić pociągów Newaga. Wynajęli firmę Dragon Sector, speców od inżynierii wstecznej (potocznie: „dobrych hakerów”), bo mieli podejrzenia, że problem tkwi w&nbsp;komputerach.
 
-Wyszło na jaw, że w&nbsp;kodzie źródłowym sterującym pociągami znajdował się złośliwy kod. Zatrzymujący je po upływie określonego czasu i&nbsp;wymuszający skorzystanie z&nbsp;serwisu.  
+Wyszło na jaw, że w&nbsp;programach sterujących pociągami znajdował się złośliwy kod. Zatrzymujący je po upływie określonego czasu i&nbsp;wymuszający skorzystanie z&nbsp;serwisu.  
 A także inny kod, który **uniemożliwiał ponowne uruchomienie pociągów, jeśli według GPS-a były u&nbsp;konkurencji**. Czytaj: stały w&nbsp;którejś z&nbsp;zaprogramowanych lokalizacji odpowiadających niezależnym zakładom naprawczym.
 
 {:.post-meta .bigspace-after}
 Tutaj [zbiór linków]({% post_url 2023-12-31-podsumowanie-2023-roku %}#afera-wokół-firmy-newag){:.internal} do przystępnych omówień całej sprawy.
 
-Wybuchł wielki skandal, głos w&nbsp;sprawie zabrali politycy, a&nbsp;także [zagraniczni twórcy](https://www.youtube.com/watch?v=w8NqBXT6Kos&pp=ygUOcm9zc21hbm4gbmV3YWc%3D) (YouTube) internetowi poruszający kwestie centralizacji. Kwestia uzależnienia cyfrowego przez pewien czas stała się tematem całkiem mainstreamowym. Wydawało się, że nastąpi happy end.
+Wybuchł wielki skandal, głos w&nbsp;sprawie zabrali politycy, a&nbsp;także [zagraniczni twórcy](https://www.youtube.com/watch?v=w8NqBXT6Kos) (YouTube) internetowi poruszający kwestie centralizacji. Kwestia uzależnienia cyfrowego przez pewien czas stała się tematem całkiem mainstreamowym. Wydawało się, że nastąpi happy end.
 
 Ale od tamtego czasu niestety wyszła na jaw smutna prawda -- jak świetnie ktoś by nie ogarniał cyfrowego świata, **ostatecznie wszystko rozstrzyga się w świecie realnym. Ze wszystkimi jego układzikami i&nbsp;kruczkami prawnymi**.  
 Nastąpiły spotkania. Różni ludzie w&nbsp;garniakach zapewne stukali teczkami, szeleścili dokumentami, porównywali swoje [wizytówki](https://www.youtube.com/watch?v=BbPCci3XO_I). W&nbsp;efekcie:
