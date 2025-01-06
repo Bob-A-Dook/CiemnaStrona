@@ -48,8 +48,7 @@ Zapraszam na omówienie!
 
 Google'a można uznać za jednego z&nbsp;[głównych antagonistów](/serie/google){:.internal} tego bloga. Głównie ze względu na masowe zbieractwo danych i&nbsp;oddawanie ich -- w&nbsp;pakiecie ze sporą częścią współczesnego internetu -- w&nbsp;ręce reklamodawców i&nbsp;innych korpogigantów.
 
-Sprzeciw wobec praktyk Google'a to nie tylko wymysł buntowniczej blogosfery. Również amerykański Departament Sprawiedliwości się za nich wziął i&nbsp;zarzucił im, że zyskali swoją dominującą pozycję przez wszelkiej maści zmowy i&nbsp;blokowanie konkurencji.
-
+Sprzeciw wobec praktyk Google'a to nie tylko wymysł buntowniczej blogosfery. Również amerykański Departament Sprawiedliwości się za nich wziął i&nbsp;zarzucił im, że zyskali swoją dominującą pozycję przez zmowy i&nbsp;blokowanie konkurencji.  
 Sąd, po długiej analizie dowodów, [orzekł na niekorzyść Google'a]({% post_url 2024-08-07-google-antymonopol-wyrok %}){:.internal}. W&nbsp;wyroku nazwał go monopolistą.
 
 Obecnie trwa planowanie kary; może nią być na przykład nakaz wydzielenia przeglądarki Chrome jako osobnej firmy. Google [błaga](https://www.theverge.com/2024/12/23/24328087/google-proposed-final-judgement-search-monopoly-antitrust-default-contracts), żeby im tego nie kazali robić.  
@@ -110,7 +109,7 @@ A także inny kod, który **uniemożliwiał ponowne uruchomienie pociągów, je�
 {:.post-meta .bigspace-after}
 Tutaj [zbiór linków]({% post_url 2023-12-31-podsumowanie-2023-roku %}#afera-wokół-firmy-newag){:.internal} do przystępnych omówień całej sprawy.
 
-Wybuchł wielki skandal, głos w&nbsp;sprawie zabrali politycy, a&nbsp;także [zagraniczni twórcy](https://www.youtube.com/watch?v=w8NqBXT6Kos) (YouTube) internetowi poruszający kwestie centralizacji. Kwestia uzależnienia cyfrowego przez pewien czas stała się tematem całkiem mainstreamowym. Wydawało się, że nastąpi happy end.
+Wybuchł wielki skandal, głos w&nbsp;sprawie zabrali politycy, a&nbsp;także [zagraniczni twórcy](https://www.youtube.com/watch?v=w8NqBXT6Kos) internetowi poruszający kwestie centralizacji. Cyfrowa zależność przez pewien czas stała się tematem całkiem mainstreamowym. Wydawało się, że nastąpi *happy end*.
 
 Ale od tamtego czasu niestety wyszła na jaw smutna prawda -- jak świetnie ktoś by nie ogarniał cyfrowego świata, **ostatecznie wszystko rozstrzyga się w świecie realnym. Ze wszystkimi jego układzikami i&nbsp;kruczkami prawnymi**.  
 Nastąpiły spotkania. Różni ludzie w&nbsp;garniakach zapewne stukali teczkami, szeleścili dokumentami, porównywali swoje [wizytówki](https://www.youtube.com/watch?v=BbPCci3XO_I). W&nbsp;efekcie:
@@ -156,7 +155,7 @@ Gdy ludzie się dowiedzieli w&nbsp;grudniu 2024&nbsp;roku, że wielcy producenci
 
 W swoim wpisie na początku robię dość typową *weryfikację faktów* i&nbsp;obalam parę obaw, które uznaję za naciągane. Jak rozdmuchiwanie rutynowych ostrzeżeń z&nbsp;ulotki produktu. Albo niesłuszne doszukiwanie się roli nielubianego miliardera w&nbsp;całej sprawie.
 
-Potem jednak zwracam uwagę na realne kontrowersje. Na uzależnienie od jednego producenta (mającego patent na swój środek). Na to, że ekspansja dodatku jest zadziwiająco zgrana ze zmianami w&nbsp;przepisach i&nbsp;dopłatami *spychającymi* ku niemu.
+Potem jednak zwracam uwagę na realne kontrowersje. Na uzależnienie od jednego producenta (mającego patent na antymetanowe stosowanie 3-NOP, składnika aktywnego produktu). Na fakt, że ekspansja dodatku jest zadziwiająco zgrana ze zmianami w&nbsp;przepisach i&nbsp;dopłatami *spychającymi* ku niemu.
 
 {:.post-meta .bigspace-after}
 I to nie tak, że dopłaty były pierwsze, a&nbsp;firma po prostu szybko zajęła niszę; tutaj *najpierw* wprowadzono produkt, a&nbsp;tuż za tym poszły polityczne zachęty. Sprawa do zbadania.
