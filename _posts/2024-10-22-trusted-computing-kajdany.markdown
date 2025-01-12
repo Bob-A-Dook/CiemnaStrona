@@ -317,7 +317,7 @@ To chyba najbardziej jaskrawy przykład nadchodzących patologii, więc to od ni
 * Kłódka od enklawy trafia do zewnętrznego serwisu.
 * Od teraz korespondują ze sobą, wymieniając się informacjami.
 
-  A&nbsp;wśród tych informacji mogą być na przykład fakty na temat naszego systemu, zgromadzone przez enklawę na etapie uruchamiania. Mówiące, czy nasz system jest na przykład niezmienianym Windowsem 11&nbsp;prosto od producenta. Jeśli odpowiedź nie spodoba się zewnętrznemu portalowi, bo np. nasz system jest niestandardowy, to może nas spławić.
+  A&nbsp;wśród tych informacji mogą być fakty na temat naszego systemu, zgromadzone przez enklawę na etapie uruchamiania. Mówiące, czy nasz system jest na przykład niezmienianym Windowsem 11&nbsp;prosto od producenta. Jeśli odpowiedź nie spodoba się zewnętrznemu portalowi, bo nasz system jest niestandardowy, to może nas spławić.
 
 Pamiętacie wcześniejszy punkt o&nbsp;szyfrowaniu, gdy mogliśmy się napawać bezradnością podglądacza? No to **teraz sami jesteśmy bezradni wobec szyfrowanej, podpisanej cyfrowo komunikacji**. Część naszego własnego urządzenia nas zdradza z&nbsp;cudzym serwisem i&nbsp;działa przeciwko nam. Przypomnę obrazek wprowadzający:
 

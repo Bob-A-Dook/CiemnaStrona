@@ -66,7 +66,7 @@ Bovaer to nazwa handlowa ich produktu, natomiast od strony chemicznej składa si
 * dwutlenku krzemu,
 * glikolu propylenowego.
 
-Środek w&nbsp;żadnym razie nie jest nowy, bo badania nad nim trwają od kilkunastu lat. Ale głośno zrobiło się dopiero teraz, bo firma Arla (gigant mleczarski) ogłosiła z&nbsp;dumą, że namawia swoich dostawców do karmienia krów paszą zawierającą Bovaer. Ludziom nie spodobała się tak nagłe postawienie przed faktem dokonanym. Podpytując inne firmy, znaleźli więcej użytkowników wśród korpogigantów -- takich jak Nestlé, Starbucks czy sieć McDonald's.
+Środek w&nbsp;żadnym razie nie jest nowy, bo badania nad nim trwają od kilkunastu lat. Ale głośno zrobiło się dopiero teraz, bo firma Arla (gigant mleczarski) ogłosiła z&nbsp;dumą, że namawia swoich dostawców do karmienia krów paszą zawierającą Bovaer. Ludziom nie spodobało się tak nagłe postawienie przed faktem dokonanym. Podpytując inne firmy, znaleźli więcej użytkowników wśród korpogigantów -- takich jak Nestlé, Starbucks czy sieć McDonald's.
 
 I tak rozpoczął się aktywny bojkot. Jego epicentrum było tak na oko w&nbsp;Wielkiej Brytanii (mocno dostała choćby sieć Tesco), ale dyskusje szybko rozlały się na inne kraje. Parę z&nbsp;nich rozgorzało w Polsce, gdy koncern Mars stwierdził, że Bovaer jest stosowany przez firmę Mlekovita (według Mlekovity -- [to były tylko testy](https://www.portalspozywczy.pl/mleko/wiadomosci/mleko-od-krow-karmionych-pasza-z-dodatkiem-boaver-w-polsce-mlekovita-wydala-komunikat,272974.html)).  
 Wzburzenie zwróciło moją uwagę, wczytałem się w temat. I&nbsp;tak narodził się ten wpis.
