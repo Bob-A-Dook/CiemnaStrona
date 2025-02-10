@@ -15,7 +15,7 @@ image:
   alt: "Zdjęcie ryby żabnicy. Na końcu jej wabika widać link do Youtube'a, a tuż za paszczą logo Facebooka."
 ---
 
-Facebook nie należy do czołówki uwielbianych stron. Przez kilka lat narażał się jednej stronie politycznej, obecnie zmienił front i&nbsp;naraża się drugiej. Zaś powszechność automatycznie generowanego spamu to czynnik odstraszający niezależnie od polityki.
+Facebook nie należy do czołówki uwielbianych portali. Przez kilka lat narażał się jednej stronie politycznej, teraz zmienił front i&nbsp;naraża się drugiej. Zaś powszechność automatycznie generowanego spamu to czynnik odstraszający niezależnie od polityki.
 
 Dorzucę do tego tygla jeszcze inną kontrowersję, na tle prywatnościowym.  
 Mianowicie: w&nbsp;momencie kliknięcia w&nbsp;niektóre linki na stronie *facebook.com* dochodzi do ich podmiany na takie, które **dają Facebookowi pełniejszy wgląd w&nbsp;nasze zachowania, a&nbsp;także możliwość wybiórczej cenzury**.
@@ -173,10 +173,10 @@ Ale teraz Facebook dosłownie wstawia się między nas a&nbsp;stronkę. I&nbsp;m
 * jeśli ta wartość jest na liście stron zakazanych, to wyświetl informację o&nbsp;braku strony;
 * jeśli jej tam nie ma, to przekieruj do tej strony.
 
-Ta sama krótka, niezmienna regułka. A&nbsp;listę stron zakazanych mogliby aktualizować na bieżąco.
+Jedna krótka, niezmienna regułka. A&nbsp;listę stron zakazanych mogliby aktualizować na bieżąco, bez ujawniania jej internautom.
 
 Nie jest to żadna moja paranoja; Facebook [pisał o&nbsp;tym wprost](https://www.facebook.com/notes/facebook-security/link-shim-protecting-the-people-who-use-facebook-from-malicious-urls/10150492832835766/), choć oczywiście w&nbsp;superlatywach.  
-Również strony z&nbsp;branży marketingu internetowego [opisały nieoficjalne możliwości](https://www.glew.io/articles/what-are-facebook-link-shims-and-how-do-they-affect-your-data), tyle że stawiając przekierowania w&nbsp;korzystnym świetle:
+Również strony z&nbsp;branży marketingu internetowego [opisały nieoficjalne możliwości](https://www.glew.io/articles/what-are-facebook-link-shims-and-how-do-they-affect-your-data) przekierowań, tyle że stawiając je w&nbsp;korzystnym świetle:
 
 > If your website is legitimate and safe, you have nothing to worry about.
 
@@ -195,7 +195,7 @@ Na koniec klasyka, która skutecznie uzupełnia poprzednie rzeczy. [Parametry ś
 Do każdego linku po znaku zapytania można dodać dodatkowe informacje. Są rozdzielane znakami `&` i&nbsp;mają postać `nazwa=wartość`.  
 Nie wpływają zwykle na działanie samego linku, ale mogą zawierać -- czasem w&nbsp;skompresowanej postaci -- dowolne informacje. Takie jak identyfikatory użytkowników, wzmianki o&nbsp;tym, z&nbsp;jakiej strony przychodzą itd.
 
-Jeden z&nbsp;nich to klasyczny, istniejący od dawny `fbclid`. Jest dodawany prosto do linku do zewnętrznej strony (czyli do tego prowadzącego np. na *youtube.com*). Poniżej kilka sposobów na jego wykorzystanie:
+Jeden z&nbsp;nich to klasyczny, istniejący od dawna `fbclid`. Jest dodawany prosto do linku do zewnętrznej strony (czyli do tego prowadzącego np. na *youtube.com*). Poniżej kilka sposobów na jego wykorzystanie:
 
 * Skoro jest dodawany do końcowego linku, to strona zewnętrzna też go otrzyma i&nbsp;będzie mogła ustalić, że przychodzimy na nią z&nbsp;Facebooka.
 
@@ -204,16 +204,16 @@ Jeden z&nbsp;nich to klasyczny, istniejący od dawny `fbclid`. Jest dodawany pro
 * Ponadto, jeśli na tej stronie znajdują się gościnnie elementy reklamowe od Facebooka, to będą mogły odczytać identyfikator (bo widzą to samo, co strona-gospodarz), wyszukać go w&nbsp;bazie i&nbsp;wyświetlić na tej podstawie reklamy.
 * Jeśli ktoś skopiuje link i&nbsp;wyśle go do innej osoby -- nawet poza Facebookiem -- to zarówno platforma, jak i&nbsp;odwiedzana strona, mogą powiązać te osoby ze sobą.
 
-  Sytuacja, gdy raz z&nbsp;identyfikatorem `abcd638…` przychodzi jedna osoba, a&nbsp;potem inna, z&nbsp;całkiem innego urządzenia, a&nbsp;do tego na przykład [przez Messengera]({%post_url 2023-08-08-wbudowane-przegladarki %}#ustalanie-marki-czyjegośtelefonu){:.internal}, mogą się wyróżniać.
+  Sytuacje, gdy najpierw z&nbsp;identyfikatorem `abcd638…` przychodzi jedna osoba, a&nbsp;potem inna, z&nbsp;całkiem innego urządzenia, a&nbsp;do tego na przykład [przez Messengera]({%post_url 2023-08-08-wbudowane-przegladarki %}#ustalanie-marki-czyjegośtelefonu){:.internal}, mogą się wyróżniać.
  
   {:.post-meta .bigspace-after}
   Ma to oczywiście swoje ograniczenia; jeśli ktoś wrzuci link na publiczne forum, to liczba odwiedzających z&nbsp;tym samym identyfikatorem zostanie sztucznie zawyżona.
 
-A to dopiero ten pierwszy parametr. Oprócz niego **do nowych linków z&nbsp;przekierowaniem są dodawane jeszcze trzy inne**: `__tn__`, `f` oraz `c[0]`.
+A to dopiero ten pierwszy parametr. Oprócz niego **do linków z&nbsp;przekierowaniem są dodawane jeszcze trzy inne**: `__tn__`, `f` oraz `c[0]`.
 
 Można sobie przyjąć taką intuicyjną regułkę: im dłuższy ciąg znaków oraz im większy ich możliwy zakres (cyfry, litery...), tym więcej informacji się tam zmieści. 
 
-Patrząc w&nbsp;ten sposób, pierwszy parametr `__tn__` to taka klasyka i&nbsp;wydaje się niegroźny na tle innych. Jest krótki, przewidywalny, przyjmuje tylko niewielki zakres wartości.
+Patrząc w&nbsp;ten sposób, parametr `__tn__` wydaje się niegroźny na tle innych. Jest krótki, przewidywalny, przyjmuje niewielki zakres wartości.
 
 Pozostałe dwa są natomiast długimi ciągami znaków. Gdyby ktoś chciał, to mógłby tam wbić na przykład informacje identyfikujące użytkownika, znacznik czasu (moment kliknięcia w&nbsp;link) lub informacje o&nbsp;poście, w&nbsp;którym link się pojawił. 
 
@@ -238,7 +238,7 @@ Mając do czynienia z&nbsp;czymś nieznanym, ale potencjalnie groźnym, lepiej d
 
 ## Jak to obejść?
 
-Zwyczajne parametry śledzące dało się po prostu uzunąć „z palca”. Tym razem trzeba się nieco bardziej namęczyć.  
+Zwyczajne parametry śledzące dało się po prostu usunąć „z palca”. Tym razem trzeba się nieco bardziej namęczyć.  
 Ale nie jest źle, to kwestia kilku kroków. Pokażę teraz różne sposoby.
 
 ### Ręcznie i&nbsp;krok po kroku

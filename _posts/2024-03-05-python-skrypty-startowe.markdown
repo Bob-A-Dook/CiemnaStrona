@@ -189,7 +189,7 @@ Czasem określa się tak pliki nieczytelne dla człowieka, w&nbsp;odróżnieniu 
 Ale w&nbsp;sumie za kulisami i&nbsp;tak każdy plik to zera i&nbsp;jedynki, więc nie będę się wykłócał :smile:"
 %}
 
-Wyświetliłem obok siebie treść kilku innych skryptów-uruchamiaczy. Skleconym na kolanie skryptem, ale równie dobrze mógłbym użyć (linukosowego odpowiednika) Notatnika.
+Wyświetliłem obok siebie treść kilku innych skryptów-uruchamiaczy. Skleconym na kolanie skryptem, ale równie dobrze mógłbym użyć (linuksowego odpowiednika) Notatnika.
 
 Spodziewałem się pewnej różnorodności. Myślałem, że każda osoba publikująca swoje moduły Pythona tworzy również jakiś własny skrypt startowy. A&nbsp;tymczasem po sprawdzeniu innych skryptów odkryłem, że **wiele z&nbsp;nich było niemal identycznych**.
 

@@ -387,9 +387,9 @@ Przede wszystkim -- **szerzyć świadomość zagrożenia, bo jest bardzo niska**
 
 Można też przesiąść się na alternatywne produkty. W&nbsp;miarę możliwości [odgooglować swojego Androida]({% post_url 2024-02-03-smartfon-degoogle %}){:.internal}; spróbować Linuksa zamiast Windowsa (jest naprawdę przystępny; szczególnie w&nbsp;przypadku, gdy większość czasu spędza się w&nbsp;przeglądarce).
 
-Protestować z&nbsp;całą mocą, gdyby państwo próbowało wprowadzić przymusem programy lub aplikacje, nie gwarantując zarazem pełnej otwartości ich kodu.
+Protestować z&nbsp;całą mocą, gdyby państwo próbowało wprowadzić przymusem programy lub aplikacje, nie gwarantując zarazem ich działania na wszystkich systemach (a&nbsp;najlepiej: pełnej otwartości kodu).
 
-Warto wykazać zrozumienie i&nbsp;wsparcie dla pomniejszych projektów *open source*, nawet jeśli mają swoje niedogodności. Im więcej osób wejdzie w&nbsp;ten ekosystem, tym większy opór napotkają korporacje przy próbach jego stłamszenia.
+Warto obdarzyć zrozumieniem i&nbsp;wsparciem alternatywy ze świata *open source*, nawet jeśli mają swoje niedogodności. Im więcej osób wejdzie w&nbsp;ten ekosystem, tym większy opór napotkają korporacje przy próbach jego stłamszenia.
 
 Widzę również pewne możliwości na poziomie społecznym.  
 Warto **publicznie odtrącać gadżety, ślepy konsumpcjonizm i&nbsp;tandetną „nowoczesność”**. Nie wpuszczać do swojego domu pierdół z&nbsp;Doliny Krzemowej czy jej chińskiego odpowiednika, opartych na zamkniętym oprogramowaniu: badziewnych gadżetów, asystentów głosowych, samojezdnych odkurzaczy i&nbsp;podobnego szmelcu.
