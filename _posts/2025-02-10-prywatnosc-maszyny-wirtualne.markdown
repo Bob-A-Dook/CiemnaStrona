@@ -198,7 +198,7 @@ Ale, niezależnie od natury informacji ukrytych w&nbsp;ustawieniach, **czysta VM
 
 Profilowanie przez czcionki jest o&nbsp;tyle ciekawe, że może je wykonywać nawet (mocno ograniczany przez przeglądarkę) [kod ze stron internetowych]({% post_url 2022-06-10-fingerprinting %}#czcionki){:.internal}, które odwiedzamy.
 
-Działa to tak, że kod na stronach prosi przeglądarkę o&nbsp;uformowanie tekstu napisanego konkretną czcionką. Przeglądarka, reagując na prośbę, sięga do wspólnego systemowego folderu. Jeśli nie znajdzie tam szukanej czcionki, to używa zastępczej.
+Działa to tak, że kod na stronach prosi przeglądarkę o&nbsp;uformowanie tekstu z&nbsp;użyciem konkretnej czcionki. Przeglądarka, reagując na prośbę, sięga do wspólnego systemowego folderu. Jeśli nie znajdzie tam szukanej czcionki, to używa zastępczej.
 
 Prosząc o&nbsp;wiele różnych czcionek i&nbsp;analizując efekty końcowe (użyto żądanej czy zastępczej), strony internetowe mogą [ustalać](https://browserleaks.com/fonts), jaki zestaw czcionek u&nbsp;siebie mamy. I&nbsp;odróżniać nas na tej podstawie od innych osób.
 
@@ -256,9 +256,9 @@ Wścibskie programy mogą przeprowadzić serię testów. Trochę w&nbsp;stylu *b
 
 Jeśli ujawnią, że dany procesor zachowuje się nietypowo jak na swój model (inne wzorce przy stopniowym zwiększaniu obciążenia), to program domyśli się, że ktoś właśnie go zamknął w&nbsp;VM&#8209;ce. I&nbsp;odmówi działania.
 
-Takich luk jest sporo i&nbsp;mogą być bardzo trudne do załatania. Pomóc może natomiast fakt, że dyskretniejsze wirtualki rozwijają też badacze cyberbezpieczeństwa, żeby analizować w&nbsp;nich wirusy. Zwykli prywatnościowcy mogą skorzystać z&nbsp;ich dorobku :sunglasses: Przykład? [Projekt Pafish](https://github.com/a0rtega/pafish).
+Takich luk jest sporo i&nbsp;mogą być bardzo trudne do załatania. Pomóc może natomiast fakt, że dyskretniejsze wirtualki rozwijają też badacze cyberbezpieczeństwa, żeby analizować w&nbsp;nich wirusy. Zwykli prywatnościowcy mogą skorzystać z&nbsp;ich dorobku :sunglasses: Przykład? [Projekt Pafish](https://github.com/a0rtega/pafish), zbierający metody wykrywania VM-ek.
 
-W odpowiedzi na rozwój metod wykrywania powstały lepsze metody maskujące. Jak [CloakBox](https://github.com/Batlez/CloakBox), ukrywający fakt, że korzystamy z&nbsp;VirtualBoxa.
+W odpowiedzi na rozwój technik wykrywania powstały lepsze metody maskujące. Jak [CloakBox](https://github.com/Batlez/CloakBox), ukrywający fakt, że korzystamy z&nbsp;VirtualBoxa.
 
 {:.post-meta}
 Uwaga: nie korzystałem z&nbsp;CloakBoxa, więc nie ręczę za niego i&nbsp;przywołuję go wyłącznie jako studium przypadku. Osoby chętne mogą zajrzeć mu w&nbsp;kod źródłowy i&nbsp;spojrzeć na użyte techniki. 
@@ -295,7 +295,7 @@ text="Opisuję tu parę naprawdę wrednych metod, z&nbsp;którymi pewnie mało 
 
 * **Język i&nbsp;strefa czasowa**
 
-  Wiele osób, mimo że oddziela od siebie system realny i&nbsp;wirtualny, może dla wygody ustawić w&nbsp;nich prawdziwy język i&nbsp;strefę czasową. Dla szpicli to dobry sygnał uzupełniający, choć raczej nie główny sygnał demaskujący -- chyba że jesteśmy jedynym polskojęzycznym użytkownikiem z&nbsp;[najmniej zaludnionej strefy czasowej](https://earthscience.stackexchange.com/questions/12504/least-populated-time-zones).
+  Wiele osób, mimo że oddziela od siebie system realny i&nbsp;wirtualny, może dla wygody ustawić w&nbsp;nich prawdziwy język i&nbsp;strefę czasową. Dla szpicli to dobry sygnał uzupełniający, choć raczej nie główna metoda demaskowania -- chyba że jesteśmy jedynym polskojęzycznym użytkownikiem z&nbsp;[najmniej zaludnionej strefy czasowej](https://earthscience.stackexchange.com/questions/12504/least-populated-time-zones).
 
 * **Kamerka i&nbsp;mikrofon**
 
@@ -316,7 +316,7 @@ Choć jest nieco bardziej zmienny niż adres nieruchomości, wciąż pozwala doj
   Załóżmy, że to naprawiliśmy. Ale jeśli program w&nbsp;VM&#8209;ce i&nbsp;program spoza niej mają możliwość sprawdzania aktualnych [hotspotów wokół nas]({% post_url 2023-07-15-sledzenie-lokalizacji %}#wi-fi){:.internal} -- czyli zarówno czytelnych nazw, jak `McD Hotspot`, jak i&nbsp;identyfikatorów BSSID -- to łatwo powiążą tożsamości.
 
   {:.post-meta .bigspace-after}
-  Wyżej pisałem, że VM&#8209;ka pomaga przy ukrywaniu systemowej *historii* połączeń z&nbsp;hotspotami. Tutaj mówię o&nbsp;danych napływających na bieżąco, jeśli mamy łączność z&nbsp;siecią.
+  Wyżej pisałem, że VM&#8209;ka pomaga przy ukrywaniu systemowej *historii* połączeń z&nbsp;hotspotami. Tutaj mówię o&nbsp;czymś innym: danych napływających na bieżąco, gdy mamy łączność z&nbsp;siecią.
 
 * **Procesor, karta graficzna, karta dźwiękowa...**
 
@@ -327,6 +327,9 @@ Choć jest nieco bardziej zmienny niż adres nieruchomości, wciąż pozwala doj
   Można powiedzieć, że elementy fizyczne mają swoje tiki. Jeden procesor szybciej rysuje kształty niż inny, a&nbsp;po osiągnięciu liczby X&nbsp;trójkątów następuje w&nbsp;nim skokowe spowolnienie. Karta dźwiękowa trochę „ścina na brzegach” i&nbsp;„spłyca scenę przy mocnych basach” (pozdrawiam twórczość audiofilską :wink: ).
 
   Do takich informacji [sięgają nawet strony internetowe]({% post_url 2022-06-10-fingerprinting %}){:.internal}, poprzez kod JavaScript. Mimo że przeglądarki narzucają na nie restrykcje i&nbsp;nie ujawniają zbyt wiele. Zainstalowane programy widzą jeszcze więcej, będąc bliżej systemu i&nbsp;sprzętu.
+
+  {:.post-meta .bigspace-after}
+  Osoby zainteresowane tematem mogą znaleźć różne przykłady pod hasłem `hardware fingerprinting`.
 
 ### Złośliwy hardware
 
@@ -341,7 +344,7 @@ Na procesorach AMD jego odpowiednikiem jest Platform Security Processor.
 
 Innym rodzajem tych elementów są mniejsze układy kryptograficzne, takie jak Trusted Platform Module. Wymagany przez nowego Windowsa.
 
-Układy mogą dawać osobom z&nbsp;zewnątrz, jak twórcy wścibskich programów, bardzo silne gwarancje. Szczególnie wredna jest **zdalna atestacja** (omówiona krok po kroku [w tym wpisie]({% post_url 2024-10-22-trusted-computing-kajdany %}){:.internal}; próba jej praktycznego uzycia przez Google'a jest z&nbsp;kolei [tutaj]({% post_url 2023-07-29-web-environment-integrity %}){:.internal}).
+Układy mogą dawać osobom z&nbsp;zewnątrz, jak twórcy wścibskich programów, bardzo silne gwarancje. Szczególnie wredna jest **zdalna atestacja** (omówiona krok po kroku [w tym wpisie]({% post_url 2024-10-22-trusted-computing-kajdany %}){:.internal}; próba jej praktycznego użycia przez Google'a jest z&nbsp;kolei [tutaj]({% post_url 2023-07-29-web-environment-integrity %}){:.internal}).
 
 Atestacja polega na tym, że ktoś może wysłać do fizycznego chipa pytanie o&nbsp;to, czy jest obecnie na realnym, niemodyfikowanym systemie. Odpowiedź z&nbsp;założenia zawsze będzie prawdziwa i&nbsp;niemożliwa do podrobienia -- jest oznaczona cyfrowym podpisem, który może stworzyć wyłącznie element zamknięty w&nbsp;mikroukładzie.
 
@@ -392,7 +395,7 @@ Część Twitterka (tu wyświetlona przez *xcancel.com*) nie wierzy w&nbsp;stude
 
 ## Podsumowanie
 
-Maszyna wirtualna jest przydatnym narzędziem w&nbsp;prywatnościowym arsenale. Czymś w rodzaju drugiej tożsamości lub maski, którą na pewien czas zakładamy.
+Maszyna wirtualna jest przydatnym narzędziem w&nbsp;prywatnościowym arsenale. Czymś w&nbsp;rodzaju drugiej tożsamości lub maski, którą na pewien czas zakładamy.
 
 Ukrywa to, co nagromadziliśmy na głównym dysku, zapisane opcje i&nbsp;preferencje. Zamiast nich pokazuje proste, świeże, dość bezpłciowe oblicze. Jest idealna w&nbsp;przypadku, gdy chcemy u&nbsp;siebie zainstalować jakiś program, któremu nie do końca ufamy.
 
