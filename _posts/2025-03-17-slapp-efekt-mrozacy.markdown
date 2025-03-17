@@ -92,7 +92,7 @@ Sprawy wokół praw autorskich to studnia bez dna i&nbsp;zasługują na osobny w
 
 Firmy mają osobowość prawną, więc również mogą pozywać.
 
-Przykładem Nestlé -- krótko po ujawnieniu [afery z&nbsp;mlekiem dla niemowląt](/2024/10/01/nestle-mleko-dla-niemowlat-afryka){:.internal} pozwali autorów raportu zatytuowanego, w&nbsp;tłumaczeniu na polski: „Nestlé zabija niemowlęta”. Właśnie za ten tytuł, który miał rzekomo naruszać dobre imię spółki, głosząc nieprawdę.
+Przykładem Nestlé -- krótko po ujawnieniu [afery z&nbsp;mlekiem dla niemowląt](/2024/10/01/nestle-mleko-dla-niemowlat-afryka){:.internal} pozwali autorów raportu zatytułowanego, w&nbsp;tłumaczeniu na polski: „Nestlé zabija niemowlęta”. Właśnie za ten tytuł, który miał rzekomo naruszać dobre imię spółki, głosząc nieprawdę.
 
 „Nieprawdę?”, ktoś może pomyśleć. Były przecież mocne dowody na to, że wskutek działań koncernu afrykańskie mamy stawały się zależne od mleka w&nbsp;proszku, produktu ponad ich możliwości finansowe. Przecież wzrosła liczba zgonów wśród niemowląt. A&nbsp;jednak sąd przyznał rację Nestlé, choć zasądził dość symboliczną karę (kilkaset dolarów).
 
@@ -123,7 +123,7 @@ Gdyby zagłębić się w&nbsp;bańkę informacyjną, z&nbsp;której wyciągnął
 
 ## Wątki wokół „pozwów dobroimiennych”
 
-Na chwilę zanurkujmy w&nbsp;świat „Alicji w&nbsp;Krainie Czarów”, w&nbsp;którym w&nbsp;ostatnich rozdziałach odbywała się absurdalna rozprawa sądowa. W&nbsp;ramach literackich wprawek możemy przyjąć, że tamtejszy system prawny oraz internet działają podobnie jak polski -- ale podkreślam, że piszę o&nbsp;fikcyjnej krainie.
+Na chwilę zanurkujmy w&nbsp;świat „Alicji w&nbsp;Krainie Czarów”, w&nbsp;którym w&nbsp;ostatnich rozdziałach odbywała się absurdalna rozprawa sądowa. W&nbsp;ramach literackich wprawek możemy przyjąć, że tamtejszy system prawny oraz internet działają podobnie jak w&nbsp;Polsce -- ale podkreślam, że piszę o&nbsp;fikcyjnej krainie.
 
 {:.bigspace-before}
 > Alicja była w&nbsp;sądzie po raz pierwszy w&nbsp;życiu. Widziała już jednak salę sądową na obrazku, co pozwalało jej orientować się w&nbsp;otoczeniu. *To jest pan sędzia* – powiedziała do siebie – *poznaję go po wielkiej peruce*. Sędzią był zresztą sam Król. Nosił on na peruce koronę, w&nbsp;czym nie było mu z&nbsp;pewnością ani zbyt wygodnie, ani do twarzy
@@ -131,7 +131,7 @@ Na chwilę zanurkujmy w&nbsp;świat „Alicji w&nbsp;Krainie Czarów”, w&nbsp;
 {:.figcaption}
 Źródło cytatów: „Alicja w&nbsp;Krainie Czarów”, przekład Antoniego Marianowicza.
 
-Osoby prawne (ludzie i&nbsp;firmy) mają możliwość pozywania innych za to, że pod wpływem ich słów niektórzy przestali im ufać, a&nbsp;ich życie stało się gorsze.  
+Osoby prawne (ludzie i&nbsp;firmy) mają możliwość pozywania innych za to, że pod wpływem ich słów niektórzy przestali (lub mogliby przestać) im ufać, czyniąc ich życie gorszym.  
 Taką możliwość mają wszyscy -- czy to Król i&nbsp;Królowa z&nbsp;Krainy Czarów, czy nawet oszuści, których oszustwo zostało ujawnione (w&nbsp;końcu gdyby nie zostało, to by zarobili). Dopiero sąd ubija zarzuty z&nbsp;czapy.
 
 Nie ma niestety prostej tarczy ochronnej, która by blokowała samą możliwość pozwania małych przez dużych; jest co najwyżej duża szansa na wygranie sprawy w&nbsp;sądzie.
@@ -242,16 +242,19 @@ Jeśli to portal krajowy, w&nbsp;jurysdykcji (domenie prawnej) Krainy Czarów, t
 
 * Adres mailowy (jeśli był potrzebny do założenia konta).
 
-  Jeśli ktoś używał w&nbsp;mailu imienia i&nbsp;nazwiska, to służby złapią mocny trop; poza tym, jeśli konto mailowe było założone w&nbsp;jurysdykcji Krainy Czarów, to jak wyżej: można zwrócić się do właścicieli platformy mailowej o&nbsp;dane. 
+  Jeśli ktoś używał w&nbsp;mailu imienia i&nbsp;nazwiska, to służby złapią mocny trop; poza tym, jeśli firma przydzielająca konta mailowe będzie skora do współpracy, to jak wyżej: może udostępnić dane, na jakie założono maila. 
 
 * [Adres IP](/internetowa_inwigilacja/2021/06/11/adres-ip){:.internal}, jaki miała osoba dodająca komentarz.
 
 Załóżmy, że ktoś nie podawał nigdzie ważnych danych i&nbsp;służby Krainy Czarów zostały z&nbsp;adresem IP. Mogą się teraz zwrócić do firmy telekomunikacyjnej, która przechowuje logi i&nbsp;mogłaby wskazać, jakiemu urządzeniu odpowiadało to IP w&nbsp;interesującym je okresie.
 
-Istnieje też możliwość, że pozywający sam ma wtyki w&nbsp;firmie telekomunikacyjnej i&nbsp;dostanie te logi na życzenie, bez angażowania państwa. Nie byłoby to zbyt legalne, ale nie takie dziwy się działy w&nbsp;Krainie Czarów.
+Istnieje też możliwość, że pozywający sam ma wtyki w&nbsp;firmie telekomunikacyjnej i&nbsp;dostanie na życzenie logi pasujące czasowo do komentarzy konkretnej osoby, bez angażowania państwa. Nie byłoby to zbyt legalne, ale nie takie dziwy się działy w&nbsp;Krainie Czarów.
 
 <span class="red">Ale nawet jeśli</span> uzyska się adres IP, może on nie być równoznaczny z&nbsp;konkretną osobą.  
 Owszem, może odpowiadać routerowi otrzymanemu od operatora i&nbsp;stojącemu w&nbsp;czyimś domu. Ale jest przecież możliwość, że ten router był zabezpieczony słabym hasłem (albo żadnym). Że połączył się z&nbsp;nim ktoś niepowołany i&nbsp;że to on pisał negatywne komentarze.
+
+{:.post-meta .bigspace-after}
+Zwłaszcza gdyby historia routera wskazywała, że w godzinach napisania komentarzy łączyło się z nim inne urządzenie niż to główne, należące do jego właściciela.
 
 Może się też okazać, że ustalony adres IP prowadzi do hotspota *publicznego*, na przykład `KroliczaNora Open`. Co w&nbsp;takim wypadku -- zwracanie się do właścicieli okolicznych kamer o&nbsp;nagrania, na podstawie których ustali się wygląd osoby używającej hotspota w&nbsp;czasie, gdy dodano komentarz? A&nbsp;potem szukanie tej osoby?
 
@@ -375,7 +378,7 @@ W 2024&nbsp;roku **na obszarze Unii Europejskiej wprowadzono dyrektywę antySLA
 
 Na poziomie krajowym znaczącym graczem w&nbsp;kwestii walki ze SLAPP-ami jest organizacja pozarządowa -- **Sieć Obywatelska Watchdog Polska**.
 
-Zaangażowali się m.in. we wspomnianą tu sprawę Newagu, opracowali [przydatne informacje](https://siecobywatelska.pl/slapp/) (parę wcześniej cytowałem) i&nbsp;działają na rzecz poprawy krajowej sytuacji, wspierając usunięcie kłopotliwej i&nbsp;nadużywanej „dwieście dwunastki”, paragrafu mówiącego o&nbsp;znieważeniu.  
+Zaangażowali się m.in. we wspomnianą tu sprawę Newagu, opracowali [przydatne informacje](https://siecobywatelska.pl/slapp/) (parę wcześniej cytowałem) i&nbsp;działają na rzecz poprawy krajowej sytuacji, wspierając usunięcie kłopotliwej i&nbsp;nadużywanej „dwieście dwunastki”, paragrafu mówiącego o&nbsp;zniesławieniu.  
 Gdyby się udało, to zniknie mocny straszak w&nbsp;postaci teoretycznej kary więzienia, zaś jedyną ścieżką pozostanie cywilny pozew o&nbsp;naruszenie dóbr osobistych.
 
 Muszę przyznać, że w&nbsp;paru kwestiach zdecydowanie nie zgadzam się z&nbsp;Watchdogiem. Przykładowo: z&nbsp;ich wpisem, w&nbsp;którym bagatelizują sprawę USAID (organizacji, od której uzyskali parę grantów, co piszą wprost).
