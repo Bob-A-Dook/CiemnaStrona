@@ -237,7 +237,10 @@ Tytuł i&nbsp;clickbaitowy obrazek budzą jego ciekawość, aż chce sprawdzić.
 
 Dlatego klika link prawym przyciskiem myszy, wybiera `Otwórz w nowej karcie w trybie incognito` i&nbsp;zaczyna czytać. Niezalogowany na swoje konto i&nbsp;przekonany, że nie powiążą artykułu z&nbsp;jego tożsamością.
 
-Problem w&nbsp;tym, że pod koniec tego linku -- i&nbsp;wszystkich innych, jakie portal wysyłał Normiemu -- znajduje się fragment: `?czytelnik=normi_losowski`. Inny link dla każdego zarejestrowanego użytkownika, żeby dało się ich rozróżniać.
+{:.post-meta .bigspace-after}
+Załóżmy, że Normi od dłuższego czasu nie czytał artykułów z&nbsp;odwiedzanej strony, więc ma z&nbsp;jej punktu widzenia nowy i&nbsp;nieznany adres IP.
+
+Problem w&nbsp;tym, że pod koniec tego linku -- i&nbsp;wszystkich innych, jakie portal wysyła Normiemu na maila -- znajduje się fragment: `?czytelnik=normi_losowski`. Inny link dla każdego zarejestrowanego użytkownika, żeby dało się ich rozróżniać.
 
 To tak zwane [parametry śledzące]({% post_url 2021-04-09-internetowa-inwigilacja-parametry %}){:.internal}. Nie dają może gwarancji, że używa ich konkretna osoba (w&nbsp;końcu Normi mógł np. skopiować link z&nbsp;maila i&nbsp;podesłać znajomej)... Ale portal nic nie straci, jeśli tak założy i&nbsp;przypisze informacje do teczki Normiego.  
 Tryb prywatny nic tu nie zmienia, bo nie ingeruje w&nbsp;linki.
@@ -254,9 +257,9 @@ A tryb prywatny, jak już zasugerowałem wyżej, kompletnie na te rzeczy nie wp�
 
 ### Podsumowanie wątku
 
-Widać, że tryb prywatny jest dość nierówny, a&nbsp;jego działanie (lub czasem brak) trudno wytłumaczyć chęcią dbania o&nbsp;prywatność.
+Widać, że tryb prywatny jest dość nierówny, a&nbsp;jego działanie (lub niedziałanie) trudno wytłumaczyć chęcią dbania o&nbsp;prywatność.
 
-Czasem czyści rzeczy mało przydatne dla podglądaczy (historia). Z&nbsp;drugiej strony blokuje nawet całkiem subtelne metody (śledzenie przez pamięć podręczną czy pliki ciastkopodobne)... Ale potem z&nbsp;kolei ujawnia informacje umożliwiające łatwą identyfikację, jak adres IP czy wymiary okna. 
+Czasem czyści rzeczy mało przydatne dla podglądaczy (historia). Z&nbsp;drugiej strony blokuje nawet całkiem subtelne metody (śledzenie przez pamięć podręczną czy pliki ciastkopodobne)... Ale potem z&nbsp;kolei ujawnia informacje umożliwiające łatwą identyfikację, jak adres IP czy wymiary okna.
 
 Bez sensu? Ależ nie. **Istotą trybu jest jego ulotność, niezapisywanie na dysku. Nieco lepsza prywatność jest tylko efektem ubocznym**.
 
@@ -317,7 +320,7 @@ Z pozoru to niełatwe -- jak wspominałem, adres IP zawsze musi być prawdziwy. 
 {% include info.html
 type="Uwaga"
 text="Używając VPN-a, warto też tymczasowo wyłączyć w&nbsp;opcjach [WebRTC](/internetowa_inwigilacja/2023/11/05/webrtc){:.internal} (wideokonferencje). Niektóre wredne stronki mogą tego nadużywać do ujawnienia prawdziwego adresu IP zza pośrednika.  
-W dwóch poprzednich przypadkach (własny lub publiczny hotspot) nie ma to znaczenia; adres IP od hotspota powinien być inny niż ten ze wcześniejszej, nieprywatnej sesji." %}
+Przy pierwszych dwóch punktach (o&nbsp;użyciu innego hotspota) nie ma to znaczenia; adres IP od hotspota powinien być inny niż ten ze wcześniejszej, nieprywatnej sesji." %}
 
 * Użyć przeglądarki Tor Browser.
 
@@ -372,7 +375,7 @@ Mając wyłączony JavaScript, można też pokusić się o&nbsp;korzystanie z&nb
 
 ## Podsumowanie
 
-Nazwa „tryb prywatny” faktycznie jest niefortunna. Jego mechanizm opiera się na *ulotności*, *tymczasowości*, i&nbsp;w tej kwestii daje solidne gwarancje. W&nbsp;pozostałych, bardziej prywatnościowych, już niekoniecznie.
+Nazwa „tryb prywatny” jest niefortunna. Jego mechanizm opiera się na *ulotności*, *tymczasowości*, i&nbsp;w tej kwestii daje solidne gwarancje. W&nbsp;pozostałych, bardziej prywatnościowych, już niekoniecznie.
 
 Wystarczy jednak, żeby w&nbsp;parze z&nbsp;włączeniem trybu prywatnego poszło zamaskowanie adresu IP, a&nbsp;staje się całkiem sensowną ochroną przed prostym profilowaniem. Dodać do tego blokowanie JavaScriptu i&nbsp;już naprawdę trudno się do czegoś przyczepić.
 

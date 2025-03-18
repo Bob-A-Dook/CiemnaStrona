@@ -386,7 +386,7 @@ Przyznam, że w&nbsp;paru innych kwestiach nie zgadzam się z&nbsp;Watchdogiem. 
 {:.figure .bigspace}
 <img src="/assets/posts/corponomicon/slapp/watchdog-usaid-tweet.jpg" alt="Tweet, w&nbsp;którym Watchdog Polska pisze, że według ich wiedzy USAID to program pomocowy działający od 1961&nbsp;roku." loading="lazy"/>
 
-Moim zdaniem to nie był niewinny „program pomocowy” Choć część zarzutów jest naciągana lub motywowana wojenką kulturowo-polityczną, USAID ma na koncie również (realne, niespiskowe, budzące moje obrzydzenie) działania na rzecz korporacyjnej ekspansji. Przemyślenia opisałem [w osobnym miniwpisie](/miniposts/usaid-opinie){:.internal}.
+Moim zdaniem to nie był niewinny „program pomocowy”. Choć część zarzutów jest naciągana lub motywowana wojenką kulturowo-polityczną, USAID ma na koncie również (realne, niespiskowe, budzące moje obrzydzenie) działania na rzecz korporacyjnej ekspansji. Przemyślenia opisałem [w osobnym miniwpisie](/miniposts/usaid-opinie){:.internal}.
 
 Ale świat nie jest czarno-biały i&nbsp;nie skreślam Watchdoga za pojedyncze współprace. Mają długą historię stawania przeciw nadużyciom i&nbsp;walki o&nbsp;dostęp do informacji publicznej (w&nbsp;USA to właśnie to pozwoliło zdemaskować opisanego wyżej Kevina F. od Monsanto).
  

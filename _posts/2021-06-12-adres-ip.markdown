@@ -186,28 +186,24 @@ No ale nie będzie nam Wujek Sam mówił, jak mamy żyć! Mój tajemniczy kolega
 
 Przeglądarka Opera ma bardzo przyjazną opcję łączenia się przez VPN.
 
-Zagram w&nbsp;otwarte karty -- ten VPN jest bardzo nisko oceniany, ma miejsce 76 na 78 na [jednej stronce porównującej](https://thebestvpn.com/reviews/opera-vpn/).
+Zagram w&nbsp;otwarte karty -- ten VPN jest bardzo nisko oceniany, ma miejsce 76 na 78 na [jednej stronce porównującej](https://thebestvpn.com/reviews/opera-vpn/)... Tylko że największą krytykę zbiera za brak bajerów, szyfrowania, mało regionów do wyboru:
 
-...Tylko że największą krytykę zbiera za brak bajerów, szyfrowania, mało regionów do wyboru:
-
+{:.bigspace-after}
 > And to top it all off, it’s not even a&nbsp;VPN.  
 It’s a&nbsp;proxy misrepresenting itself.  
 Which means there is no encryption, no tunneling, no protection, and no device support.
 
-Ale my tu chcemy go użyć **tylko do ukrycia europejskiego IP**. I&nbsp;niczego więcej.  
-Póki ta funkcja działa, niska ocena nie stanowi przeszkody.
+Ale my tu chcemy go użyć *tylko do ukrycia europejskiego IP*. I&nbsp;niczego więcej. Póki ta funkcja działa, niska ocena nie stanowi przeszkody.  
+Poza tym ten VPN jest darmowy i&nbsp;bardzo prosty w&nbsp;obsłudze. Dlatego to właśnie on poszedł na pierwszy ogień.
 
-Poza tym ten VPN jest darmowy i&nbsp;bardzo prosty w&nbsp;obsłudze. Dlatego to właśnie jego kolega wziął na pierwszy ogień.
-
-Aby użyć VPN-a, najpierw pobieramy Operę [z oficjalnej strony](https://www.opera.com/pl). Instalujemy jak każdy inny program.  
-Potem wchodzimy w&nbsp;ustawienia Opery i&nbsp;tam zaznaczamy odpowiednią opcję.
+Aby użyć VPN-a, najpierw pobieramy Operę [z oficjalnej strony](https://www.opera.com/pl). Instalujemy jak każdy inny program. Potem wchodzimy w&nbsp;ustawienia Opery i&nbsp;tam zaznaczamy odpowiednią opcję.
 
 {:.figure .bigspace}
 <img src="/assets/posts/adres-ip/opera-vpn-switch.webp" alt="Zrzut ekranu pokazujący przełącznik w&nbsp;opcjach Opery, uruchamiający VPN-a."/>
 
 Od teraz w&nbsp;górnej części ekranu, na lewo od paska, zobaczymy ikonę z&nbsp;napisem *VPN*.  
 Po kliknięciu w&nbsp;nią najpierw wybieramy opcję u&nbsp;góry, żeby naszego VPN-a włączyć (ikonka przyjmie niebieski kolor).  
-Poza tym z&nbsp;listy rejonów na dole wybieramy ten, który nam pasuje. **W tym przykładzie obie Ameryki**.
+Poza tym z&nbsp;listy rejonów na dole wybieramy ten, który nam pasuje. W tym przykładzie **kontynent amerykański, bo Europa zablokowana**.
 
 {:.figure .bigspace}
 <img src="/assets/posts/adres-ip/opera-vpn-wlaczanie.webp" alt="Zrzut ekranu z&nbsp;Opery pokazujący opcje VPN-a. Zaznaczono pierwszy suwak u&nbsp;góry, który pozwala go włączyć. A&nbsp;także opcje z&nbsp;dołu, umożliwiające wybór rejonu."/>
@@ -310,7 +306,7 @@ Wiemy teraz, jak łatwo i&nbsp;za darmoszkę ukrywać prawdziwy adres IP. Może 
 {:.figure .bigspace}
 <img src="/assets/posts/adres-ip/leon-zawodowiec.jpg" alt="Panel z mangi Kengan Ashura pokazujący z oddali postać siedzącą pod drzewem nad brzegiem klifu. W tle byłby widoczny zachód słońca, ale zamiast niego wstawiony jest kadr z filmu 'Leon Zawodowiec' pokazujący parę głównych bohaterów przy stole."/>
 
-Powoli kończymy też omawiać, jakie informacje wysyła domyślnie nasza przeglądarka. Jeśli śledziliście poprzednie wpisy, to widzicie że:
+Powoli kończę też omawiać, jakie informacje wysyła domyślnie nasza przeglądarka. Jeśli śledziliście poprzednie wpisy, to widzicie że:
 
 * Był *referer*, *user agent* i&nbsp;parametry w&nbsp;linkach.  
   Rzeczy mogące zdradzać o&nbsp;nas ciekawe informacje. Ale często łatwe do zmiany.
