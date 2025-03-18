@@ -378,10 +378,10 @@ W 2024&nbsp;roku **na obszarze Unii Europejskiej wprowadzono dyrektywę antySLA
 
 Na poziomie krajowym znaczącym graczem w&nbsp;kwestii walki ze SLAPP-ami jest organizacja pozarządowa -- **Sieć Obywatelska Watchdog Polska**.
 
-Zaangażowali się m.in. we wspomnianą tu sprawę Newagu, opracowali [przydatne informacje](https://siecobywatelska.pl/slapp/) (parę wcześniej cytowałem) i&nbsp;działają na rzecz poprawy krajowej sytuacji, wspierając usunięcie kłopotliwej i&nbsp;nadużywanej „dwieście dwunastki”, paragrafu mówiącego o&nbsp;zniesławieniu.  
+Zaangażowali się m.in. we wspomnianą na początku sprawę Newagu, opracowali [przydatne informacje](https://siecobywatelska.pl/slapp/) (parę wcześniej cytowałem) i&nbsp;działają na rzecz poprawy krajowej sytuacji, wspierając usunięcie kłopotliwej i&nbsp;nadużywanej „dwieście dwunastki”, paragrafu mówiącego o&nbsp;zniesławieniu.  
 Gdyby się udało, to zniknie mocny straszak w&nbsp;postaci teoretycznej kary więzienia, zaś jedyną ścieżką pozostanie cywilny pozew o&nbsp;naruszenie dóbr osobistych.
 
-Muszę przyznać, że w&nbsp;paru kwestiach zdecydowanie nie zgadzam się z&nbsp;Watchdogiem. Przykładowo: z&nbsp;ich wpisem, w&nbsp;którym bagatelizują sprawę USAID (organizacji, od której uzyskali parę grantów, co piszą wprost).
+Przyznam, że w&nbsp;paru innych kwestiach nie zgadzam się z&nbsp;Watchdogiem. Przykładowo: z&nbsp;ich wpisem, w&nbsp;którym bagatelizują sprawę USAID (organizacji, od której uzyskali trochę środków pieniężnych, [co piszą wprost](https://bip.siecobywatelska.pl/index.php?id=1159&id2=1137)).
 
 {:.figure .bigspace}
 <img src="/assets/posts/corponomicon/slapp/watchdog-usaid-tweet.jpg" alt="Tweet, w&nbsp;którym Watchdog Polska pisze, że według ich wiedzy USAID to program pomocowy działający od 1961&nbsp;roku." loading="lazy"/>
