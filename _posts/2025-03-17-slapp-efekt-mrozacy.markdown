@@ -248,7 +248,7 @@ Jeśli to portal krajowy, w&nbsp;jurysdykcji (domenie prawnej) Krainy Czarów, t
 
 Załóżmy, że ktoś nie podawał nigdzie ważnych danych i&nbsp;służby Krainy Czarów zostały z&nbsp;adresem IP. Mogą się teraz zwrócić do firmy telekomunikacyjnej, która przechowuje logi i&nbsp;mogłaby wskazać, jakiemu urządzeniu odpowiadało to IP w&nbsp;interesującym je okresie.
 
-Istnieje też możliwość, że pozywający sam ma wtyki w&nbsp;firmie telekomunikacyjnej i&nbsp;dostanie na życzenie logi pasujące czasowo do komentarzy konkretnej osoby, bez angażowania państwa. Nie byłoby to zbyt legalne, ale nie takie dziwy się działy w&nbsp;Krainie Czarów.
+Istnieje też możliwość, że pozywający sam ma wtyki w&nbsp;firmie telekomunikacyjnej i&nbsp;dostanie na życzenie logi i&nbsp;[metadane](/internetowa_inwigilacja/2024/03/28/analiza-ruchu){:.internal} pasujące czasowo do komentarzy konkretnej osoby, bez angażowania państwa. Nie byłoby to zbyt legalne, ale nie takie dziwy się działy w&nbsp;Krainie Czarów.
 
 <span class="red">Ale nawet jeśli</span> uzyska się adres IP, może on nie być równoznaczny z&nbsp;konkretną osobą.  
 Owszem, może odpowiadać routerowi otrzymanemu od operatora i&nbsp;stojącemu w&nbsp;czyimś domu. Ale jest przecież możliwość, że ten router był zabezpieczony słabym hasłem (albo żadnym). Że połączył się z&nbsp;nim ktoś niepowołany i&nbsp;że to on pisał negatywne komentarze.
@@ -291,7 +291,7 @@ Załóżmy, że Alicja publicznie zarzuca coś Królowi. Gdybym miał subiektywn
   W&nbsp;niektórych mediach lubią stosować znak zapytania. Zamiast pisać „firma XVZ oszukuje”, piszą: „czy firma XVZ oszukuje?”. Może działa, ale wydaje mi się nieco zbyt brawurowe. Organizacje medialne mogą sobie pozwolić na obrońców, którzy z&nbsp;jednego znaku zapytania ulepią tarczę. Zwykły człowiek niekoniecznie.
 
 * napisanie wprost zarzutu prawdziwego i&nbsp;jednoznacznego;
-* zarzucenie czegoś (może nawet wieloznacznego) w&nbsp;sposób abstrakcyjny -- przez ironię, napisanie o&nbsp;sobie, napisanie o&nbsp;jakieś zmyślonej postaci...
+* zarzucenie czegoś (może nawet wieloznacznego) w&nbsp;sposób abstrakcyjny -- przez ironię, napisanie o&nbsp;sobie, napisanie o&nbsp;jakiejś zmyślonej postaci...
 
 W internecie trafiłem na taką wymianę zdań:
 

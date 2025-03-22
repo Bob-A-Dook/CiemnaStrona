@@ -231,7 +231,9 @@ A tu *błąd*. Informacja o&nbsp;braku potrzebnych pozwoleń :roll_eyes:
 To dlatego, że na Linuksie jest coś takiego jak **wykonywalność plików**. Nie da się tak po prostu wpinać własnych rzeczy w&nbsp;konsolowy „rurociąg”, odpowiednio ich wcześniej nie oznaczając.  
 Analogia? Mój niewykonywalny plik był jak coś oklejonego czarno-żółtymi taśmami i&nbsp;opatrzonego tabliczką z&nbsp;zakazem korzystania. Żaden szanujący się system-inspektor mi tego nie podłączy, choćbym chciał.
 
-W przypadku Linuksa można bardzo łatwo ściągać te ograniczenia. Trzeba w&nbsp;tym celu uruchomić konsolę w&nbsp;tym samym folderze co skrypt, po czym użyć polecenia:
+W przypadku Linuksa można bardzo łatwo ściągać te ograniczenia. Na Mincie: prawy przycisk myszy, `Uprawnienia` i&nbsp;zaznaczyć opcję `Zezwolenie na wykonanie pliku jako programu`.
+
+Jeśli ktoś woli sposób uniwersalny, ale konsolowy, to można uruchomić konsolę w&nbsp;tym samym folderze co skrypt, po czym użyć polecenia:
 
 <div class="black-bg mono">
 chmod +x zbiornik
