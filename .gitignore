@@ -6,3 +6,4 @@ assets/_draft
 assets/draft_imgs
 .sass-cache
 .jekyll-metadata
+Gemfile.lock

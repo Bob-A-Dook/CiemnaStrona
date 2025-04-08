@@ -39,9 +39,9 @@ To proste: kiedy mówimy, że coś jest „w&nbsp;chmurze”, to znaczy że **ni
 
 Takie rozwiązanie wydaje się przydatne, jeśli chodzi o&nbsp;backupy. Na swoim dysku nie mamy miejsca, więc trzymamy na cudzym. W&nbsp;dodatku, gdybyśmy zmieniali urządzenie, możemy zrobić synchronizację i&nbsp;zgrać wszystko na nowe.
 
-Oczywiście może to być szkodliwe dla prywatności, jeśli firma udostępniająca dysk lubi zaglądać w&nbsp;dane. Ale w&nbsp;tym wpisie skupiam się na własności. Dla niej **backupy są niegroźne, bo zachowujemy kontrolę nad danymi**.
+Oczywiście może to być szkodliwe dla prywatności, jeśli firma udostępniająca dysk lubi zaglądać w&nbsp;dane. Ale w&nbsp;tym wpisie skupiam się na *własności*. Dla niej backupy nie są takie groźne, bo zachowujemy kontrolę nad danymi (możliwość ich przeniesienia na własne urządzenia).
 
-Jest jednak wiele innych rzeczy, które kiedyś trzymaliśmy u&nbsp;siebie, a&nbsp;teraz są wepchnięte w&nbsp;sieć. I&nbsp;może się to nawet wydawać wygodne. Do czasu, kiedy coś po stronie firmy się nie zmieni i&nbsp;nas tego nie pozbawi.
+Gorzej, gdy takiej kontroli nie mamy. Jest wiele rzeczy, które kiedyś trzymaliśmy u&nbsp;siebie, a&nbsp;teraz są wepchnięte w&nbsp;sieć i&nbsp;co najwyżej racjonowane użytkownikom. Może się to czasem wydawać wygodne... Ale w&nbsp;tym układzie zmiana po stronie firmy może prowadzić do nienaprawialnej straty.
 
 Pierwszy przykład: **Google**. Można u&nbsp;nich przechowywać mnóstwo różnych rzeczy (maile, zdjęcia, pliki na Dysku). Ilości opcji dorównuje tylko ilość przypadków, kiedy nagle zmieniali zasady gry:
 

@@ -66,7 +66,7 @@ Identyfikator umożliwia branży reklamowej **łączenie naszych danych z&nbsp;r
 Identyfikator nie zawiera danych wrażliwych, jak imię i&nbsp;nazwisko. Ale to małe pocieszenie, bo z&nbsp;dużej ilości danych anonimowych można niepokojąco łatwo wyciągnąć osobowe.  
 Z punktu widzenia prywatności -- coś strasznego. Na szczęście można łatwo wyłączyć dostęp do identyfikatora. Do czego gorąco zachęcam.
 
-Dane opieram na własnych doświadczeniach i&nbsp;paru przewodnikach; polecam w&nbsp;szczególności [ten od *Electronic Frontier Foundation*](https://www.eff.org/deeplinks/2022/05/how-disable-ad-id-tracking-ios-and-android-and-why-you-should-do-it-now) (po angielsku).
+Instrukcje opieram na własnych doświadczeniach i&nbsp;paru przewodnikach; polecam w&nbsp;szczególności [ten od *Electronic Frontier Foundation*](https://www.eff.org/deeplinks/2022/05/how-disable-ad-id-tracking-ios-and-android-and-why-you-should-do-it-now) (po angielsku).
 
 {% include details.html summary="Usuwanie ID reklamowego na smartfonach z&nbsp;Androidem"%}
 Wchodzimy w&nbsp;`Ustawienia`. Te dotyczące ID reklamowego powinny być w&nbsp;którymś z&nbsp;podanych miejsc:
@@ -238,7 +238,7 @@ Dostali zapewne jakąś obiecankę, że dane będę zanonimizowane, dobrze trak
 A kto kupował dane opracowane przez Gravy? Jak podaje Baptiste, w&nbsp;danych z&nbsp;wycieku znajdowała się tabela z&nbsp;bazy danych nazwana `customers`. A&nbsp;w niej: nazwy takich firm jak Google, Uber, eBay, Grindr, Babel Street, LiveRamp, Spotify.
 
 {:.post-meta .bigspace-after}
-Wprawne oko zauważy, że Grindr pojawił się zarówno w&nbsp;przypadku „dawców”, jak i&nbsp;nabywców danych. Nie widzę sprzeczności -- mogli użyć danych od brokerów do poznania faktów, których nie poznaliby przez apkę (bo np. ludzie nie korzystają z&nbsp;Grindra w&nbsp;pracy). A&nbsp;jednocześnie słać inne dane w&nbsp;ramach typowych partnerstw reklamowych.
+Wprawne oko zauważy, że Grindr pojawił się zarówno w&nbsp;przypadku „dawców”, jak i&nbsp;nabywców danych. Nie widzę sprzeczności -- mogli kupować dane od brokerów, żeby poznać fakty, których nie poznaliby przez apkę (bo np. ludzie nie korzystają z&nbsp;Grindra w&nbsp;pracy). A&nbsp;jednocześnie słać inne dane w&nbsp;ramach typowych partnerstw reklamowych.
 
 A sektor prywatny nie był jedyną grupą docelową. Po dane z&nbsp;Gravy sięgały też ręce rządowe.
 
@@ -290,7 +290,7 @@ Ale skutki afery zostaną z&nbsp;Gravy już do (może rychłego) końca.
 
 Na stronie  Wired można znaleźć link do [obszernej listy](https://docs.google.com/spreadsheets/d/1Ukgd0gIWd9gpV6bOx2pcSHsVO6yIUqbjnlM4ewjO6Cs/edit?usp=sharing) aplikacji z&nbsp;Androida i&nbsp;iOS, których nazwy znalazły się rzekomo w&nbsp;udostępnionej próbce danych.
 
-Wśród aplikacji były: Tinder, Grinder, MyFitnessPal, wiele gier mobilnych. Z&nbsp;polskich aplikacji (wyszukałem ciąg `.pl`) mamy na liście Onet Pocztę oraz WP Pocztę. 
+Wśród aplikacji były: Tinder, Grindr, MyFitnessPal, Candy Crush, wiele gier mobilnych. Z&nbsp;polskich aplikacji (wyszukałem ciąg `.pl`) mamy na liście Onet Pocztę oraz WP Pocztę. 
 
 {:.post-meta .bigspace-after}
 **Dupochron:** nie mogę na sto procent wykluczyć przykładowego dopisania losowych nazw aplikacji przez hakerów. Mogliby w&nbsp;ten sposób sztucznie podbić wartość danych. Tak było niedawno z&nbsp;rzekomymi danymi z&nbsp;pewnej polskiej sieciówki.  
@@ -320,7 +320,7 @@ Może to oznaczać dwie rzeczy:
 
 Która wersja jest prawdziwa? Nie rozstrzygnę, nie mając pod ręką próbki danych z&nbsp;Gravy.
 
-Jest tu natomiast ciekawe wyzwanie dla chętnych. Osoby mające wgląd w&nbsp;dane mogłyby sprawdzić kogoś z&nbsp;Tindera: gdyby punkty odpowiadające tej osobie były ułożone precyzyjniej, niż to możliwe przy adresie IP (czyli na przykład wzdłuż ulicy, którą ktoś jechał), to by oznaczało, że apka udostępnia dokładną lokalizację.
+Jest tu natomiast ciekawe wyzwanie dla chętnych mających wgląd w&nbsp;dane: sprawdzić jakąś osobę, przy której źródłem danych jest&nbsp;Tinder. Gdyby odpowiadające jej punkty były ułożone precyzyjniej, niż to możliwe przy adresie IP (czyli na przykład wzdłuż ulicy, którą ktoś jechał), to by oznaczało, że apka udostępnia dokładną lokalizację.
 
 Takie przypadki można porównać z&nbsp;deklaracjami z&nbsp;PlayStore'a i&nbsp;złapać winowajców. Wystarczy jakaś osoba z&nbsp;kopią danych z&nbsp;Gravy chętna na polowanko :smiling_imp:
 
@@ -336,7 +336,7 @@ Czas na małą prasówkę. Wyszukałem w&nbsp;DuckDuckGo (bo w&nbsp;Google by mn
 
 Wiele mainstreamowych portali zaczerpnęło informacje z&nbsp;[krótkiej notki Polskiej Agencji Prasowej](https://www.pap.pl/aktualnosci/mieli-ukrasc-dane-prawie-150-tys-osob-rosyjscy-hakerzy-w-akcji), opublikowanej 10&nbsp;stycznia o&nbsp;8:58. Skąd to wiem? Czasem oznaczały PAP wprost, czasem zbieżność treści była ogromna. Poza tym tak często działają media od newsów.
 
-Problem z&nbsp;notką jest taki, że skupia się ona tylko na wątku norweskim i&nbsp;ogólnie jest dość lakoniczna. Pojawia się w&nbsp;niej:
+Problem z&nbsp;notką jest taki, że skupia się ona tylko na wątku norweskim (bo norweski Unacast, który wchłonął Gravy, zgłosił wyciek w&nbsp;swoim kraju). I&nbsp;ogólnie jest dość lakoniczna. Pojawia się w&nbsp;niej:
 
 * wzmianka, że dane zostały wrzucone na rosyjskim portalu;
 * cytat Tobiasa J. z&nbsp;norweskiego urzędu ds. ochrony danych, mówiący o&nbsp;ogromnej skali kradzieży (ale bardzo ogólnie, żadnych liczb);
@@ -365,7 +365,10 @@ Przykłady portali kopiujących notkę:
 
   Wracamy do powielania notki z&nbsp;PAP. TVN ją wprost oznacza jako źródło, ale, co ciekawe, jako godzinę publikacji mają 6:43 (podobnie parę innych portali). Dwie godziny wcześniej, niż została opublikowana na samej stronie PAP. Jakiś priorytetowy dostęp?
 
-* [RMF24](https://www.rmf24.pl/fakty/swiat/news-dane-wielu-norwegow-wpadly-w-rosyjskie-rece,nId,7888850) -- typowa notka PAP, ale jako bonus dostajemy literówkę pod nagłówkiem -- „Opracownie”.
+* [RMF24](https://www.rmf24.pl/fakty/swiat/news-dane-wielu-norwegow-wpadly-w-rosyjskie-rece,nId,7888850) -- typowa notka PAP. Pod nagłówkiem była literówka „Opracownie”, już jej nie ma.
+
+  {:.post-meta .bigspace-after}
+  Ale w&nbsp;paru innych artykułach [nadal się pojawia](https://duckduckgo.com/?t=ffab&q=%22opracownie%22+site%3Armf24.pl&ia=web) -- tu [przykład](https://web.archive.org/web/20250210004436/https://www.rmf24.pl/regiony/newsamp-12-mln-zlotych-w-grze-cztery-osoby-zatrzymane-poszukiwania-2,nId,7906404).
 
 * [Radio ZET](https://wiadomosci.radiozet.pl/news/europejski-kraj-zaatakowany-przez-rosyjskich-hakerow-skala-moze-byc-ogromna) -- tutaj w&nbsp;miejscu na źródło wpisano „Radio ZET/NRK”, ale treść niemal całkiem się pokrywa z&nbsp;notką PAP.
 
@@ -374,7 +377,7 @@ Spośród mniej technicznych mediów na plus wybił się [artykuł od *pressglob
 {:.post-meta .bigspace-after}
 Artykuł został wprawdzie opublikowany w&nbsp;dziale o&nbsp;technologii, ale sam portal należy raczej do tych ogólnych.
 
-Daje on trochę konkretów, przykłady aplikacji bardziej niemieckich (Focus, WetterOnline). Dający do myślenia przykład kobiety, której dane zdrowotne ustalono na podstawie lokalizacji -- pewnej kliniki.  
+Daje on trochę konkretów, przykłady aplikacji niemieckich (Focus, WetterOnline). Dający do myślenia przykład kobiety, której dane zdrowotne ustalono na podstawie lokalizacji -- pewnej kliniki.  
 Ponadto artykuł jako jeden z&nbsp;niewielu (również spośród technicznych!) wskazuje na rolę identyfikatora reklamowego. Jest rozmowa z&nbsp;urzędem ochrony danych, jest ogólna sugestia dotycząca patologii branży reklamowej. Oraz informacja, że **z danych mogą korzystać też niemieckie służby wywiadowcze**.
 
 ### Stronki bardziej techniczne
@@ -425,7 +428,7 @@ Portale techniczne zrobiły lepszą robotę, ale głównie pod względem opisywa
 
 **Prawie nikt nie wspomniał o&nbsp;identyfikatorach reklamowych**. Mimo że ich ucięcie to bardzo proste i&nbsp;intuicyjne rozwiązanie przynajmniej części problemów.
 
-Swoją drogą ogólna cisza medialna wydaje się zjawiskiem nie tylko polskim -- na YouTubie, jeśli uszereguje się filmy ze słowem `gravy analytics` [według wyświetleń](https://www.youtube.com/results?search_query=gravy+analytics&sp=CAM%253D), to najczęściej wyświetlany ma nieco poniżej 100&nbsp;tys. wyświetleń. Kolejny po nim nieco ponad 2000, resztę już mało kto oglądał.
+Swoją drogą ogólna cisza medialna wydaje się zjawiskiem nie tylko polskim -- na YouTubie, jeśli uszereguje się filmy znalezione pod hasłem `gravy analytics` [według wyświetleń](https://www.youtube.com/results?search_query=gravy+analytics&sp=CAM%253D), najczęściej oglądany ma nieco poniżej 100&nbsp;tys. wyświetleń. Kolejny po nim nieco ponad 2000, resztę już mało kto oglądał.
 
 W porównaniu z&nbsp;taką na przykład [aferą XZ](/cyfrowy_feudalizm/2024/03/31/xz-backdoor){:.internal}, która dotyczyła *niezrealizowanego* ataku, te zasięgi są śmiesznie małe. Sprawa mogłaby zostać nazwana *Cambridge Analytica 2.0* i&nbsp;wywołać masowy bojkot ekosystemu reklam śledzących. Zamiast tego zgasła jak iskra.
 
@@ -436,7 +439,7 @@ A takie znieczulenie jest, moim zdaniem, jeszcze gorsze niż teoretyczna cenzura
 
 ## Jak się chronić – uzupełnienie
 
-Na początku wpisu napisałem, jak wyłączać identyfikator reklamowy i&nbsp;uprawnienia aplikacji do GPS-a. Te proste kroki zaradzą większości problemów, jakie przyniosło Gravy. Jeśli tego jeszcze nie zrobiliście, to zachęcam, żeby tam [przejść](#na-początek--jak-ochronić-prywatność){:.internal} i&nbsp;je wykonać.
+Na początku wpisu napisałem, jak wyłączać identyfikator reklamowy i&nbsp;uprawnienia aplikacji do GPS-a. Te proste działania zaradzą większości problemów, jakie przyniosło Gravy. Jeśli tego jeszcze nie zrobiliście, to zachęcam, żeby wykonać [opisane tam kroki](#na-początek--jak-ochronić-prywatność){:.internal}.
 
 Ale firm analitycznych i&nbsp;brokerów danych jest więcej; dlatego osoby chętne mogą pójść o&nbsp;krok dalej.
 
@@ -453,7 +456,7 @@ W przypadku telefonów z&nbsp;Androidem silnie zrośniętych z&nbsp;Google'em wa
 * usługom Google Play trzeba odbierać dostęp do GPS-a przez osobne menu;
 * nie da się domyślnymi narzędziami odbierać dostępu do internetu konkretnym aplikacjom, ale można to zrobić przez apkę-firewalla jak RethinkDNS.
 
-Wszystkie te rzeczy opisałem w&nbsp;swoim [przewodniku po odgooglowaniu telefonu](/2024/02/03/smartfon-degoogle){:.internal}. Gorąco zachęcam do przeczytania!
+Wszystkie te rzeczy opisałem w&nbsp;[przewodniku po odgooglowywaniu telefonu](/2024/02/03/smartfon-degoogle){:.internal}. Gorąco zachęcam do przeczytania!
 
-I na koniec jeszcze raz, bo nigdy za wiele: trzonem afery, oprócz GPS-a, był identyfikator reklamowy. Rzecz łatwa i&nbsp;szybka do wyłączenia. Jak wiele innych -- **prywatność to spektrum, a&nbsp;pierwsze kroki są osiągalne dla każdego**. Mówienie, że nie da się jej chronić, to bzdura.
+I na koniec jeszcze raz, bo nigdy za wiele: trzonem afery, oprócz GPS-a, był identyfikator reklamowy. Rzecz łatwa i&nbsp;szybka do wyłączenia. Jak wiele innych zagadnień -- **prywatność to spektrum, a&nbsp;pierwsze kroki są osiągalne dla każdego**. Mówienie, że nie da się jej chronić, to bzdura.
 

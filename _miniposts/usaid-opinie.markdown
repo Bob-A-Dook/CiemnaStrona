@@ -66,7 +66,7 @@ Artykuł z&nbsp;*Current Affairs* z&nbsp;2021 roku, zatytułowany w&nbsp;wolnym 
 
 Jednym z&nbsp;istotniejszych było otwarcie Afryki dla korporacji **DuPont**. Firma dostała lukratywne kontrakty w&nbsp;ramach programu o&nbsp;nazwie *Feed the Future*, mimo że nie miała dobrej reputacji -- pod względem produktów i&nbsp;praktyk była bardzo zbliżona do Monsanto; do tego ma na koncie zatajanie informacji na temat szkodliwości chemikaliów używanych do produkcji teflonu.
 
-**CocaCola** dostała zlecenie na dostarczanie czystej wody w&nbsp;Afryce, mimo że mają historię jej agresywnego pozyskiwania w&nbsp;innych krajach -- do tego stopnia, że ludziom na całych obszarach wysychają studnie. Autor stawia pytanie retoryczne: co się stanie z&nbsp;całą inicjatywą, kiedy projekt afrykański przestanie być dla firmy opłacalny? 
+**Coca-Cola** dostała zlecenie na dostarczanie czystej wody w&nbsp;Afryce, mimo że mają historię jej agresywnego pozyskiwania w&nbsp;innych krajach -- do tego stopnia, że ludziom na całych obszarach wysychają studnie. Autor stawia pytanie retoryczne: co się stanie z&nbsp;całą inicjatywą, kiedy projekt afrykański przestanie być dla firmy opłacalny? 
 
 Artykuł wspomina również, że sprzyjanie korporacjom to nie jakieś pojedyncze wybryki w&nbsp;morzu dobroczynnych działań, lecz integralna część działalności USAID. Mają oficjalną politykę dotyczącą współprac z&nbsp;biznesem i&nbsp;piszą tam, w&nbsp;tłumaczeniu na polski: „przyszłość rozwoju międzynarodowego napędzają \[duże\] przedsiębiorstwa”. W&nbsp;innych oświadczeniach ogłaszają: „pomagamy otwierać nowe rynki dla amerykańskich firm”.
 
