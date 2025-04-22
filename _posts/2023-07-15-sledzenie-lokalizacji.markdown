@@ -129,7 +129,7 @@ Kiedy urządzenia chcą się skomunikować przez Bluetooth, to każde z&nbsp;nic
 Różnica polega na tym, że Bluetooth nie jest tak publiczny i&nbsp;stały jak Wi-Fi. Śledzenie nie opiera się zatem na odpytywaniu jakiejś wielkiej bazy.  
 Zamiast tego firma chcąca śledzić użytkowników kupuje zestaw małych nadajników, tak zwanych *beaconów*. Każdy ustawia w&nbsp;innym miejscu. Każdy emituje swój unikalny identyfikator.
 
-Aplikacja na naszym smartfonie, należąca do właściciela *beaconów* (albo innej, współpracującej z&nbsp;nią firmy), prowadzi z&nbsp;kolei nasłuch. Jeśli wyłapie któryś z&nbsp;charakterystycznych identyfikatorów, to może zapytać swojej wewnętrznej bazy, gdzie jesteśmy.
+Aplikacja na naszym smartfonie, należąca do właściciela *beaconów* (albo jakiejś firmy, z&nbsp;którą współpracuje), prowadzi z&nbsp;kolei nasłuch. Jeśli wyłapie któryś z&nbsp;charakterystycznych identyfikatorów, to może zapytać swojej wewnętrznej bazy, gdzie jesteśmy.
 
 {:.bigspace}
 > **Pytanie:** Telefon użytkownika X&nbsp;wykrył sygnał Beacona 7778. Gdzie to jest?  
@@ -164,7 +164,7 @@ Ustalona lokalizacja -- Galeria Invigilada, drugie piętro, placówka okulistycz
 Wstępna analiza -- „Dawid M. może mieć problemy ze wzrokiem.”  
 Wyniki analizy wysłano do Big Bro Sp. z&nbsp;o.o.
 
-Z punktu widzenia śledzących firm ta opcja może być mniej wygodna niż Bluetooth. Nowsze wersje systemów wyświetlają ostrzegawczą kropkę, gdy działa nam mikrofon.
+Z punktu widzenia śledzących firm ta opcja może być mniej wygodna niż Bluetooth. Nowsze wersje systemów Android i&nbsp;iOS wyświetlają ostrzegawczą kropkę, gdy działa nam mikrofon.
 
 Poza tym wszystko mocno zależy od czułości naszego mikrofonu. Zapcha się okruchami po ciastkach albo zatonie między warstwami ciuchów w&nbsp;plecaku? Peszek, śledzenie nie zadziała. Tym niemniej warto wiedzieć o&nbsp;istnieniu tej metody.
 

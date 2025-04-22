@@ -235,7 +235,7 @@ To może wyjaśniać, dlaczego prawie wszystkie firmy zapytane o&nbsp;aferę zgo
 Wina twórców aplikacji polega na tym, że przystali na warunki współpracy polegające na oddawaniu losu użytkowników w&nbsp;ręce cudzego kodu. Gromadzącego dane i&nbsp;wysyłającego je na giełdy.  
 Dostali zapewne jakąś obiecankę, że dane będę zanonimizowane, dobrze traktowane i&nbsp;użyte tylko do przydzielenia reklam. I&nbsp;nie drążyli tematu, gdy leciały w&nbsp;świat.
 
-A kto kupował dane opracowane przez Gravy? Jak podaje Baptiste, w&nbsp;danych z&nbsp;wycieku znajdowała się tabela z&nbsp;bazy danych nazwana `customers`. A&nbsp;w niej: nazwy takich firm jak Google, Uber, eBay, Grindr, Babel Street, LiveRamp, Spotify.
+A kto kupował dane opracowane przez Gravy? Jak podaje Baptiste, częścią wycieku była tabela z&nbsp;bazy danych nazwana `customers`. A&nbsp;w niej: nazwy takich firm jak Google, Uber, eBay, Grindr, Babel Street, LiveRamp, Spotify.
 
 {:.post-meta .bigspace-after}
 Wprawne oko zauważy, że Grindr pojawił się zarówno w&nbsp;przypadku „dawców”, jak i&nbsp;nabywców danych. Nie widzę sprzeczności -- mogli kupować dane od brokerów, żeby poznać fakty, których nie poznaliby przez apkę (bo np. ludzie nie korzystają z&nbsp;Grindra w&nbsp;pracy). A&nbsp;jednocześnie słać inne dane w&nbsp;ramach typowych partnerstw reklamowych.
