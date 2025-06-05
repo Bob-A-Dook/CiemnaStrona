@@ -4,7 +4,7 @@ title: "mObywatel, czyli Polak™ by Google & Apple"
 subtitle: "Tylko pod G lub jabłkiem, tylko pod tym znakiem... możesz być Polakiem."
 description: "Tylko pod G lub jabłkiem, tylko pod tym znakiem... możesz być Polakiem."
 date:   2025-06-05 07:00:30 +0100
-tags: [Centralizacja, Przemyślenia]
+tags: [Apki, Centralizacja, Przemyślenia]
 firmy: [Apple, Google]
 category: cyfrowy_feudalizm
 category_readable: "Cyfrowy&nbsp;feudalizm"
@@ -228,7 +228,7 @@ Aurora nadal działa, ale wymaga korzystania z&nbsp;własnego konta Google -- in
 ### Bezpieczna instalacja z&nbsp;zewnątrz
 
 Nawiązując do etapów opisanych wyżej -- trzeba wykonać krok 3, czyli pobrać plik z&nbsp;apką.  
-Osobiście wybrałem jako swoje źródło stronę *apkmirror.com*, która [ma dobrą reputację](https://www.reddit.com/r/AndroidQuestions/search/?q=apkmirror&type=posts&sort=new&cId=8286cea7-c927-4443-9ad1-3a69483034ea&iId=0e7a63b6-d03a-4bfb-8b80-ec60b3e41e26). Zdobyłem stamtąd mObywatela w&nbsp;formacie APKM.
+Osobiście wybrałem jako swoje źródło stronę *apkmirror.com*, która [ma dobrą reputację](https://www.reddit.com/r/AndroidQuestions/search/?q=apkmirror&type=posts&sort=new). Zdobyłem stamtąd mObywatela w&nbsp;formacie APKM.
 
 {:.post-meta .bigspace-after}
 Choć z&nbsp;kronikarskiego obowiązku przyznam, że goszczą u&nbsp;siebie wielu reklamodawców, do tego kiedyś stosowali własny zamknięty format i&nbsp;zachęcali do swojego instalatora; potem to na szczęście zmienili.
@@ -269,12 +269,12 @@ W ten sposób poznałem hasz SHA-256 certyfikatu. Teraz powinienem go z&nbsp;czy
 
 ...I tu trafiłem na przeszkodę, bo Ministerstwo Cyfryzacji (według mojej wiedzy) niestety nie udostępnia publicznie ani haszy plików, ani wzorca swojego certyfikatu (mimo że jego udostępnienie nie ułatwiłoby hakerom roboty).
 
-Chcąc mieć pewność, musiałbym pobrać choć jeden plik z&nbsp;oficjalnego, namaszczonego Play Store'a i&nbsp;odczytać, jaki certyfikat jest do niego przypięty. Jeśli ten sam co do pliku z&nbsp;*APK Mirrora*, to byłbym spokojny.  
+Chcąc mieć pewność, musiałbym pobrać choć jedną wersję mObywatela z&nbsp;oficjalnego, namaszczonego Play Store'a i&nbsp;odczytać, jaki certyfikat jest do niego przypięty. Jeśli ten sam co do pliku z&nbsp;*APK Mirrora*, to byłbym spokojny.  
 Ale, nie chcąc nawet kijem ruszać Play Store'a, mogłem zastąpić pewne źródło kilkoma niewiele mniej pewnymi: 
 
 * pobrać tę samą wersję apki z&nbsp;innego źródła (na przykład z&nbsp;APK Pure, również mającego względnie dobrą reputację) i&nbsp;porównać certyfikaty.
 
-  Pobieram tę samą wersję jako plik XAPK (bo ta strona ma inny format), rozpakowuję go jak archiwum, sprawdzam główny plik APK `apksigner`em. Ten sam hasz certyfikatu, czyli podpisali ci sami.
+  Pobiera się jako plik XAPK, bo ta strona ma inny format. Również rozpakowuję go jak archiwum, sprawdzam główny plik APK `apksigner`em. Ten sam hasz certyfikatu, czyli podpisali ci sami twórcy.
 
 * znaleźć starszą wersję apki z *APK Mirrora* na zaufanej stronie archiwizującej, jak [*archive.org*](https://web.archive.org/web/20240601000000*/https://www.apkmirror.com/apk/ministerstwo-cyfryzacji/mobywatel-publiczna-aplikacja-mobilna/).
 
