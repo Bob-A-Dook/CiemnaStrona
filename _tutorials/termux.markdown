@@ -150,6 +150,17 @@ Wiele informacji z&nbsp;tej części zdobyłem dzięki [dyskusji](https://github
 
 ## Rozwiązywanie problemów
 
+### Odmowa dostępu do publicznych plików
+
+Jeśli udzieli się Termuksowi pozwolenia na dostęp do plików, to można łatwo przechodzić do folderu `/storage/emulated/0` (czasem dostępnego pod skrótem `/sdcard`) i&nbsp;pracować z&nbsp;obecnymi tam plikami publicznymi: obrazkami, muzyką, pobranymi rzeczami itd.
+
+Po jednej z&nbsp;aktualizacji zaczęło mi to szwankować; mimo pozwolenia Termux wyświetlał odmowę dostępu (`Permission denied`).
+
+Rozwiązanie na szczęście jest proste: wystarczy klasyczna akcja typu wyłącz-włącz godna *IT Crowd*. Trzeba odebrać przez opcje Androida pozwolenie na dostęp do plików, a&nbsp;następnie udzielić go ponownie.
+
+{:.post-meta .bigspace-after}
+Jeśli ktoś nigdy nie bawił się pozwoleniami: trzeba wejść w&nbsp;ustawienia, potem `Aplikacje`, rozwinąć listę i&nbsp;wybrać z&nbsp;niej Termuksa, kliknąć zakładkę `Uprawnienia`. Tam będzie pstryczek od dostępu do plików.
+
 ### Instalowanie przez pkg nie działa
 
 Sam Termux niewiele nam daje bez dodatkowych modułów i&nbsp;bibliotek. Możemy je łatwo instalować, wpisując komendę `pkg install`. Ale co zrobić, kiedy tak podstawowa funkcja nam nie działa?

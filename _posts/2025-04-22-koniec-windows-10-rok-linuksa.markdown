@@ -164,9 +164,9 @@ Podsumowując: TPM-a da się wykorzystać do celów nijak mających się do bezp
 {% include details-end.html %}
 
 Ale nawet użytkownicy, których mniej interesuje autonomia, mogą się wkurzać samym niedziałaniem sprzętu.  
-Etyka konsumpcjonizmu nakazuje wprawdzie, żeby w&nbsp;tej sytuacji wywalić sprzęt na śmietnik i&nbsp;niezwłocznie kupić nowy. Microsoft [w oficjalnych mailach zachęca: „oddajcie do recyklingu”](https://ithardware.pl/aktualnosci/microsoft_windows_10-40015.html).
+Etyka konsumpcjonizmu nakazuje wprawdzie, żeby w&nbsp;tej sytuacji wywalić sprzęt na śmietnik i&nbsp;niezwłocznie kupić nowy (Microsoft [w oficjalnych mailach zachęca: „oddajcie do recyklingu”](https://ithardware.pl/aktualnosci/microsoft_windows_10-40015.html))... Ale ludzie nie są zachwyceni.
 
-Niektórzy mają nadzieję, że MS ustąpi, widząc niezadowolenie ludzi. Ale nie liczyłbym na to -- parę miesięcy temu [całkiem usunęli opis metody obejścia](https://www.neowin.net/news/microsoft-quietly-removes-official-windows-11-cputpm-bypass-for-unsupported-pcs/) ze swojej oficjalnej strony, jasno pokazując swoje nastawienie.
+Niektórzy mają nadzieję, że MS ustąpi, widząc niezadowolenie. Ale nie liczyłbym na to -- parę miesięcy temu [całkiem usunęli opis metody obejścia](https://www.neowin.net/news/microsoft-quietly-removes-official-windows-11-cputpm-bypass-for-unsupported-pcs/) ze swojej oficjalnej strony, jasno pokazując swoje nastawienie.
 
 To ogromna szansa dla alternatyw, które żadnego wsparcia nie planują ucinać i&nbsp;pozwolą dalej korzystać z&nbsp;urządzeń. A&nbsp;że jedna z&nbsp;nich (MacOS) jest mniej przystępna cenowo, to rośnie szansa, że więcej osób przynajmniej spróbuje Linuksa.
 
