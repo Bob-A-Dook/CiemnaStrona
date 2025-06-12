@@ -107,10 +107,11 @@ Co więcej -- gdyby jakaś organizacja udostępniała u&nbsp;siebie do pobrania 
 
 {% include details.html summary="Problem z&nbsp;sugerowaniem legalności (przykład praktyczny)" %}
 
+{:.bigspace-before}
 W kontekście niedawnych wyborów trafiłem na przykład **możliwego „wykluczenia cyfrowego na tle instalacyjnym”** -- jak dziwnie by to nie brzmiało.  
 Ktoś pracujący w&nbsp;komisji wyborczej [twierdzi na Twitterze](https://x.com/SedziwojzSanoka/status/1923771172723802312), że w&nbsp;razie wątpliwości poprosiłby o&nbsp;pokazanie mObywatela w&nbsp;Play Storze lub AppStorze, bo tylko tam jest dostępny.
 
-Skutek? Osoba z&nbsp;pełnoprawnym mObywatelem mogłaby zostać niedopuszczona do głosu przez czyjąś prywatną decyzję. I&nbsp;nie jest to osoba teoretyczna -- może to być ktoś, kto kupił smartfona Huawei, więc z&nbsp;konieczności instaluje z&nbsp;innego źródła (ale ma *dokładnie taką samą apkę jak od Google'a'*).
+Skutek? Osoba z&nbsp;pełnoprawnym mObywatelem mogłaby zostać niedopuszczona do głosu przez czyjąś prywatną decyzję. I&nbsp;nie jest to osoba teoretyczna -- może to być ktoś, kto kupił smartfona Huawei, więc z&nbsp;konieczności instaluje z&nbsp;innego źródła (ale ma *dokładnie taką samą apkę jak od Google'a*).
 
 Ba! Taka decyzyjna samowolka mogłaby uderzyć nawet w&nbsp;tych, którzy pobrali mObywatela z&nbsp;zalecanych źródeł, ale po jego zainstalowaniu dezaktywowali lub stracili konto Google (bez niego nie działa Play Store). Mimo że o&nbsp;wymogu takiego konta nikt nigdzie nie pisze.
 
@@ -152,7 +153,7 @@ W tej części najpierw pokażę, z&nbsp;jakimi wadami wiąże się instalowanie
 
 {% include info.html
 type="Uwaga"
-text="Odtąd skupiam się na systemie Android, bo to jego znam lepiej. Opisane bolączki dotyczą również AppStore'a -- niektóre nawet w&nbsp;większym stopniu, bo Apple do niedawna blokowało inne źródła aplikacji niż swoją bazę. Teraz antymonopoliści wywalczyli dopuszczanie alternatyw... ale mam obawy, że Ministerstwo nie skorzysta z&nbsp;nowej możliwości."
+text="Odtąd skupiam się na systemie Android, bo to jego znam lepiej. Opisane bolączki dotyczą również AppStore'a -- niektóre nawet w&nbsp;większym stopniu, bo Apple do niedawna całkiem blokowało inne źródła aplikacji. Teraz antymonopoliści wywalczyli dopuszczanie alternatyw... ale mam obawy, że Ministerstwo nie skorzysta z&nbsp;nowej możliwości."
 %}
 
 ### Ciemne strony Play Store'a
@@ -186,7 +187,7 @@ Funkcje można wyłączyć w&nbsp;opcjach Play Store'a -- ale mało kto w&nbsp;o
 {% include info.html
 type="Ciekawostka"
 text="Po odwiedzeniu Play Store'a w&nbsp;dziale z&nbsp;[opiniami](https://play.google.com/store/apps/details?id=pl.nask.mobywatel&hl=pl&pli=1) można zauważyć, że konto Ministerstwa Cyfryzacji często odpisuje na komentarze ingliszem: „Prosimy o&nbsp;kontakt z&nbsp;Service Desk”.  
-A gdzie „wżdy Polacy nie gęsi...”? :wink:"
+A gdzie „Polacy nie gęsi...”? :wink:"
 %}
 
 Jeśli ktoś już wykaże się miksem szczęścia i&nbsp;umiejętności -- założy jednorazowe konto, wyłączy złe opcje -- nadal może wszystko stracić. Zdarzało się nieraz, że Google, z&nbsp;taką samą nieprzewidywalnością jak przy Portfelu Samsunga, [usuwał konta realnych osób](https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=%22google%22%20%22deleted%22%20%22account%22&sort=byPopularity&type=all).
@@ -222,7 +223,7 @@ I tu pojawia się pytanie -- jeśli nie od Play Store'a, to skąd? O&nbsp;ile bo
 {% include info.html
 type="Ciekawostka"
 text="Kiedyś dało się korzystać z&nbsp;Aurora Store'a -- pośrednika, który pobierał za nas apkę z&nbsp;oficjalnego Play Store'a. Ale Google'owi się to nie podobało i&nbsp;pobanował im konta.  
-Aurora nadal działa, ale wymaga korzystania z&nbsp;własnego konta Google -- instalując przez nią, zyskujemy co najwyżej brak ingerencji i&nbsp;gwarantowane źródło, ale pełnej wolności od Google'a to nie mamy."
+Aurora nadal działa, ale wymaga korzystania z&nbsp;własnego konta Google -- instalując przez nią, zyskujemy co najwyżej gwarancję oficjalnego źródła bez inwazyjnego skanowania. Ale pełnej wolności od Google'a to nie mamy."
 %}
 
 ### Bezpieczna instalacja z&nbsp;zewnątrz
@@ -231,7 +232,7 @@ Nawiązując do etapów opisanych wyżej -- trzeba wykonać krok 3, czyli pobra�
 Osobiście wybrałem jako swoje źródło stronę *apkmirror.com*, która [ma dobrą reputację](https://www.reddit.com/r/AndroidQuestions/search/?q=apkmirror&type=posts&sort=new). Zdobyłem stamtąd mObywatela w&nbsp;formacie APKM.
 
 {:.post-meta .bigspace-after}
-Choć z&nbsp;kronikarskiego obowiązku przyznam, że goszczą u&nbsp;siebie wielu reklamodawców, do tego kiedyś stosowali własny zamknięty format i&nbsp;zachęcali do swojego instalatora; potem to na szczęście zmienili.
+Co do wad: goszczą u&nbsp;siebie wielu reklamodawców, więc warto mieć blokera i pilnować, żeby kliknąć odpowiedni guzik od pobierania. Do tego kiedyś stosowali własny zamknięty format i&nbsp;zachęcali do swojego instalatora; potem to na szczęście zmienili.
 
 Dla niektórych ryzyk-fizyk, reputacja strony wystarczy. Ale dla mnie gra toczyła się o&nbsp;dość wysoką stawkę, więc poszedłem z&nbsp;weryfikacją o&nbsp;krok dalej: **sprawdziłem cyfrowy podpis**, jakim oznaczony był plik z&nbsp;apką.
 
@@ -306,7 +307,7 @@ Osobiście postawiłem na instalatory o&nbsp;otwartym kodzie źródłowym. W&nbs
 {:.figure .bigspace}
 <img src="/assets/posts/centralizacja/mobywatel/sai-mobywatel-instalacja.jpg" alt="Zrzut ekranu pokazujący zainstalowanego mObywatela wewnątrz apki Split APKs Installer." width="500px"/>
 
-...I już, miałem działającego mObywatela. Ale tylko dlatego, że mój telefon był mimo wszystko standardowym Androidem, tyle że z&nbsp;powyłączanymi bzdetami od Google'a. Osoby z&nbsp;całkiem niezależnymi systemami smartfonowymi dopiero zaczynałyby przygodę.
+...I już, miałem działającego mObywatela, mimo wyłączonych Usług Google Play i&nbsp;innych bzdetów od Google'a. Aż się zdziwiłem, że działało. Ale może to dlatego, że mój telefon był mimo wszystko standardowym Androidem. Osoby z&nbsp;całkiem niezależnymi systemami smartfonowymi dopiero zaczynałyby przygodę.
 
 {% include info.html
 type="Przyczyny odejścia"
@@ -320,9 +321,14 @@ Przede wszystkim: **mogliby opublikować apkę na swojej stronie**. W&nbsp;ten s
 Nie wydaje się to jakimśtam odejściem od misji i&nbsp;uleganiem zrzędliwym blogerom :wink:  
 Ekipa tworząca mObywatela wprost pisze na stronie, że planują kiedyś [upublicznić kod źródłowy apki](https://info.mobywatel.gov.pl/rozwoj-aplikacji), a&nbsp;to dużo większe przedsięwzięcie niż zwykłe umieszczenie na widoku gotowego produktu.
 
-Gdyby z&nbsp;jakiegoś powodu nie chcieli opublikować pliku (obawy, że ludzie się przyzwyczają do pobierania z&nbsp;sieci albo coś), to mogliby chociaż publikować skróty plików zawartych w&nbsp;apce oraz certyfikat używany do składania cyfrowych podpisów.
+Gdyby z&nbsp;jakiegoś powodu nie chcieli opublikować pliku (obawy, że ludzie się przyzwyczają do pobierania z&nbsp;sieci albo coś), to mogliby chociaż udostępniać skróty plików zawartych w&nbsp;apce oraz wzorzec certyfikatu odpowiadający ich cyfrowym podpisom.
 
 W ten sposób ludzie pobierający pliki z&nbsp;zewnątrz mogliby przynajmniej pobieżnie weryfikować, czy zgadzają się one z&nbsp;oryginałem. Ministerstwo nie musiałoby reklamować tej funkcji -- wystarczyłaby jakaś niepozorna zakładka, np. `Historia wersji`, w&nbsp;której chętni znaleźliby potrzebne rzeczy.
+
+Gdyby ktoś szukał przykładu, jak udostępnić apkę lub certyfikat na własnej stronie, to może spojrzeć na [szyfrowany komunikator Signal](https://signal.org/android/apk/):
+
+{:.figure .bigspace-before}
+<img src="/assets/posts/centralizacja/mobywatel/signal-udostepnianie-apki.jpg" alt="Zrzut ekranu ze strony Signala pokazujący link do pliku APK oraz hasz SHA-256 certyfikatu." width="500px"/>
 
 ### Ciekawy przypadek Huaweia
 
@@ -393,18 +399,19 @@ Rozumiem jeszcze wykrywanie zmian i&nbsp;ostrzeganie ludzi, ale powinna być mo�
 Ano po to, żeby wyrwać się z&nbsp;zaklętego kręgu. Być może więcej osób spróbowałoby alternatyw, gdyby nie słyszeli przed próbą ich instalacji: „tylko pamiętaj, że ci aplikacje bankowe i&nbsp;mObywatel nie zadziałają”.
 
 Banki to trudny przypadek, bo raczej za bardzo chcą mieć dupochron i&nbsp;możliwość przesunięcia odpowiedzialności na Google'a w&nbsp;razie hakerskiego ataku.  
-Ale państwo, zwłaszcza w kwestii apki dla ogółu społeczeństwa, powinno zachować elastyczność. Wychodzić naprzeciw obywatelom, a nie monopolistom.
+Ale państwo, zwłaszcza w&nbsp;kwestii apki dla ogółu społeczeństwa, powinno zachować elastyczność. Wychodzić naprzeciw obywatelom, a&nbsp;nie monopolistom.
 
-Po wykryciu roota lub innych zmian twórcy mObywatela mogliby na przykład, w&nbsp;zależności od awersji do ryzyka: 
+Po wykryciu roota lub innych zmian twórcy mObywatela mogliby informować zamiast odrzucać. Oprócz tradycyjnej prośby o&nbsp;zalogowanie mogliby wyświetlić przykładowo, w&nbsp;zależności od awersji do ryzyka: 
 
-* wyświetlić ostrzeżenie, które wystarczy przeklikać;
-* wymagać kliknięcia przycisku „Akceptuję ryzyko” przed załadowaniem apki;
-* wymagać dodatkowego zweryfikowania, że osoba chcąca włączyć apkę to faktycznie jej posiadacz.
+* ostrzeżenie, które wystarczy przeklikać;
+* prośbę o&nbsp;kliknięcie przycisku „Akceptuję ryzyko” przed załadowaniem apki;
+* informację, że potrzebna jest dodatkowa weryfikacja, czy osoba chcąca włączyć apkę to faktycznie jej posiadacz.
 
-  Pomysł: na ekranie mógłby pojawić się kod odpowiadający apce. Ten kod dałoby się pokazać w&nbsp;urzędzie razem ze swoją twarzą i&nbsp;fizycznym dokumentem.  Gdyby wszystko się zgadzało, to dostałoby się jednorazowe hasło aktywacyjne. Po wpisaniu hasła zyskałoby się apkę na zmodyfikowanym systemie. Oczywiście najfajniej, gdyby dało się to zrobić bez ujawniania w&nbsp;urzędzie, po co chcemy kod -- prywatność górą. 
+  Pomysł: na ekranie mógłby pojawić się kod odpowiadający apce oraz pole na wpisanie kodu zwrotnego.  
+Ten pierwszy kod należałoby pokazać w&nbsp;urzędzie razem ze swoją twarzą i&nbsp;fizycznym dokumentem. Gdyby wszystko było OK, to dostałoby się jednorazowy kod aktywacyjny. Po jego wpisaniu zyskałoby się apkę na zmodyfikowanym systemie. Oczywiście najfajniej, gdyby dało się to zrobić bez ujawniania w&nbsp;urzędzie, co chcemy zrobić -- prywatność górą. 
 
-  Można też podejrzeć rozwiązanie z&nbsp;Danii -- [MitID](https://www.mitid.dk/en-gb/get-started-with-mitid/how-to-use-mitid/mitid-app/). To sposob na uwierzytelnienie, ale oprócz apki dostępnych jest kilka innych metod, w&nbsp;tym fizyczny generator kodów, wręczany na własność przez państwo.  
-  Telefon wykrywa zmiany? To prosi o&nbsp;wpisanie kodu. Założenie jest takie, że generator ma przy sobie tylko jego właściciel. Generuje kod, wpisuje, odtąd ma mObywatela na swoim nietypowym systemie. Da się? Da się.
+  Można też podejrzeć rozwiązanie z&nbsp;Danii -- [MitID](https://www.mitid.dk/en-gb/get-started-with-mitid/how-to-use-mitid/mitid-app/). To sposób na uwierzytelnienie, ale oprócz apki dostępnych jest kilka innych metod, w&nbsp;tym mały fizyczny generator kodów, wręczany na własność przez państwo.  
+  Telefon wykrywa zmiany? To prosi o&nbsp;wpisanie kodu z generatora, z założenia „przypiętego” do konkretnej osoby. Generuje ona kod, wpisuje, odtąd ma mObywatela na swoim nietypowym systemie. Da się? Da się.
 
 ## Podsumowanie
 
@@ -415,7 +422,7 @@ Ale w&nbsp;obecnej postaci ta cyfrowa strona kraju jest ściśle zależna od kor
 Ta zależność od korposów jest też czystym ryzykiem. Co by było, gdyby kiedyś automat Google'a przez losowy błąd zablokował naraz wszystkie mObywatele, jak kiedyś Portfel Samsunga? Co by było, gdyby nowe sankcje USA ubiły Play Store'a na innych smartfonach chińskiej produkcji?  
 Dostępność apki poza bazą Google'a poprawiłaby odporność na takie sytuacje.
 
-Niektórzy mogą się łudzić, że apka państwowa, z&nbsp;godłem Polski, byłaby specjalnie traktowana... Ale obstawiałbym, że z&nbsp;punktu widzenia korpo ten orzeł jest wart mniej niż zielona sowa z&nbsp;ikony Duolingo. W&nbsp;końcu te 9&nbsp;milionów użytkowników, którymi tak się chwali rząd, blednie wobec [ponad 500&nbsp;mln](https://play.google.com/store/apps/details?id=com.duolingo&hl=en-US) posiadaczy Duo.
+Niektórzy mogą się łudzić, że apka państwowa, z&nbsp;godłem Polski, byłaby specjalnie traktowana... Obawiam się jednak, że z&nbsp;punktu widzenia korpo ten orzeł jest wart mniej niż zielona sowa z&nbsp;ikony Duolingo. W&nbsp;końcu te 9&nbsp;milionów użytkowników, którymi tak się chwali rząd, blednie wobec [ponad 500&nbsp;mln](https://play.google.com/store/apps/details?id=com.duolingo&hl=en-US) posiadaczy Duo.
 
 Teraz mogą być ostatnie lata na zadbanie o&nbsp;fundamenty i&nbsp;dostępność aplikacji dla wszystkich. Przypomnę rzeczy, które bardzo bym docenił ze strony twórców mObywatela (szczegóły wyżej, we wpisie):
 
