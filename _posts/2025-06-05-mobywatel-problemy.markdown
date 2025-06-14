@@ -222,8 +222,7 @@ I tu pojawia się pytanie -- jeśli nie od Play Store'a, to skąd? O&nbsp;ile bo
 
 {% include info.html
 type="Ciekawostka"
-text="Kiedyś dało się korzystać z&nbsp;Aurora Store'a -- pośrednika, który pobierał za nas apkę z&nbsp;oficjalnego Play Store'a. Ale Google'owi się to nie podobało i&nbsp;pobanował im konta.  
-Aurora nadal działa, ale wymaga korzystania z&nbsp;własnego konta Google -- instalując przez nią, zyskujemy co najwyżej gwarancję oficjalnego źródła bez inwazyjnego skanowania. Ale pełnej wolności od Google'a to nie mamy."
+text="Kiedyś perfekcyjnym wyjściem był Aurora Store -- pośrednik, który pobierał za nas apkę z&nbsp;oficjalnego Play Store'a. Google'owi się to chyba nie podobało, bo zaczął [banować im konta](https://gitlab.com/AuroraOSS/AuroraStore/-/issues/912). Twórcy Aurory się nie zrazili i&nbsp;działają nadal, ale czasy pokojowego współistnienia raczej minęły."
 %}
 
 ### Bezpieczna instalacja z&nbsp;zewnątrz
