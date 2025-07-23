@@ -451,7 +451,7 @@ Pytanie numer dwa -- kto stoi za kampanią?
 Niestety nie wiem na sto procent. Ale mogę spekulować.  
 Pierwsze założenie: zazwyczaj wielkie korpo w&nbsp;takiej sprawie zaufa tylko innemu wielkiemu korpo. Nawet jeśli „mięsem” kampanii zajmie się łańcuszek małych, bezkompromisowych podwykonawców, to płatność od producenta pójdzie do dużej agencji.
 
-Wpis o&nbsp;Nestlé, więc to ich będę się trzymał. Na [stronce branżowej *provokemedia.com*](https://www.provokemedia.com/latest/article/nestl%C3%A9-reviews-global-pr-agency-roster) można znaleźć omówienie ich współpracowników z&nbsp;2018 roku:  
+Wpis o&nbsp;Nestlé, więc to ich będę się trzymał. Na [stronce branżowej *provokemedia.com*](https://www.provokemedia.com/latest/article/nestl%C3%A9-reviews-global-pr-agency-roster) można znaleźć omówienie ich współpracowników z&nbsp;2018&nbsp;roku, kiedy to *Fed is Best* działało w najlepsze:  
 
 > Nestlé's global PR agency roster currently includes Edelman, Ketchum, a&nbsp;Weber Shandwick/Golin team, MSL and Ogilvy.
 
@@ -468,7 +468,7 @@ Na tę chwilę Ketchum wydaje mi się pierwszym tropem do sprawdzenia. Reszta w
 ...Ale czy to na pewno wszystkie możliwości?  
 Na stronie `nestle-mena.com` pod wieloma materiałami promocyjnymi, [jak ten o&nbsp;mleku Nido](https://www.nestle-mena.com/en/media/pr/nido-to-donate-more-glasses-of-milk), widać dwa adresy mailowe do kontaktu. Jeden należy do osoby z&nbsp;firmy **Burson-Marsteller** (obecnie [Burson](https://en.wikipedia.org/wiki/Burson_(company))). To kolejny gigant marketingowy.
 
-Szukając kombinacji `"nestle" "burson"` na Twitterze, można znaleźć inne przykłady współpracy. Niektóre są stare, z&nbsp;okolic 2013&nbsp;roku. Ale jest też świeżynka dosłownie sprzed kilku dni. wspólne wyróżnienie obu firm za ich łączoną strategię w&nbsp;Indiach.
+Szukając kombinacji `"nestle" "burson"` na Twitterze, można znaleźć inne przykłady współpracy. Niektóre są stare, z&nbsp;okolic 2013&nbsp;roku. Ale jest też świeżynka dosłownie sprzed kilku dni. Wspólne wyróżnienie obu firm za ich łączoną strategię w&nbsp;Indiach.
 
 {:.bigspace}
 <img src="/assets/posts/korpoafery/nestle-mleko/nestle-burson-fulcrum-awards.jpg" alt="Fragmenty zdjęcia, pokazujące nazwę konferencji Fulcrum Awards oraz srebrne wyróżnienie dla projektu wspólnego Nestlé i&nbsp;Bursona"/>

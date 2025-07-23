@@ -146,7 +146,7 @@ Megafirmy komputerowe, jak Google i&nbsp;Microsoft, zrobiły sobie z&nbsp;enklaw
 
 * Wielkie wytwórnie chciałyby, żeby nikt nie mógł kopiować ich filmów.
 
-  Enklawy to umożliwiają -- dane są do nich przekazywane w&nbsp;postaci zaszyfrowanej i&nbsp;tam obrabiane. Konwersja na obraz następuje dopiero pod sam koniec, na monitorze, przez co użytkownik nijak ich nie przechwyci.
+  Enklawy pozwalają postawić taką barierę -- dane są do nich przekazywane w&nbsp;postaci zaszyfrowanej i&nbsp;tam obrabiane. Konwersja na obraz następuje dopiero pod sam koniec, na monitorze, przez co użytkownik nijak ich nie przechwyci.
 
 * Twórcy aplikacji chcą mieć pewność, że dostają prawdziwe informacje na temat cech użytkownika, takich jak jego lokalizacja.
 
