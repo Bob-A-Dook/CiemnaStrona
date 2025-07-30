@@ -23,7 +23,7 @@ Istnieje jednak wiele sytuacji, kiedy wolelibyśmy mieć ich filmiki u&nbsp;sieb
 Niezależnie od naszych powodów, **rozwiązaniem jest _youtube-dl_ albo jego alternatywa, _yt-dlp_**.  
 Bardzo wszechstronny program konsolowy, którym da się pobierać filmiki z&nbsp;YouTube'a ([i&nbsp;wielu innych stron](https://github.com/ytdl-org/youtube-dl/blob/master/docs/supportedsites.md)).
 
-A ponieważ konsola może być dla wielu osób czymś nowym, napisałem ten przyjazny samouczek pokazujący, jak się z tym programikiem obchodzić. Sam opis instalacji dopasowałem do użytkowników Windowsa, ale reszta jest uniwersalna.
+A ponieważ konsola może być dla wielu osób czymś nowym, napisałem ten przyjazny samouczek pokazujący, jak się z tym programikiem obchodzić.
 
 {% include info.html
 type="Aktualizacja 2023"
@@ -95,6 +95,48 @@ Tym niemniej instalacja przez `pip` (moduł Pythona) ma nieco więcej zalet.
 Pozwala szybko i&nbsp;łatwo aktualizować program, gdyby coś przestało działać wskutek zmian YouTube'a. Wystarczy jedna komenda w konsoli zamiast pobierania nowego EXE i&nbsp;zastąpienia nim starego.
 
 Gdybyście byli gotowi spróbować, to polecam [opis na stronie *yt-dlp*](https://github.com/yt-dlp/yt-dlp/wiki/Installation). To dosłownie parę komend konsolowych.
+
+## Instalacja na Linuksie
+
+Dawniej polecałbym instalowanie i aktualizowanie przez PIP, opisane parę linijek wyżej.  
+Obecnie jednak sprawy nieco się pogmatwały, bo różne Linuksy zaczęły traktować Pythona systemowego jak osobną wersję, której lepiej nie modyfikować. Po wpisaniu typowej komendy instalującej najnowszą wersję pojawiłby się błąd *Externally managed environment*. Ten problem występuję między innymi na Mincie, czyli Linuksie którego używam.
+
+{:.post-meta .bigspace-after}
+Mint to zresztą ciekawy przypadek, bo jako jeden z&nbsp;niewielu systemów zawiera `yt-dlp` w&nbsp;pakiecie, domyślnie zainstalowany na systemie... Tyle że nie ma co się cieszyć, bo to przestarzała wersja, raczej nieprzydatna do pobierania rzeczy z&nbsp;popularnych serwisów, na których stale coś się zmienia.
+
+Jedna z zalecanych propozycji rozwiązania problemu (używanie Pythona przez środowiska wirtualne) wydaje mi się mało komfortowa dla naszego programiku. Jego atutem powinna być łatwa dostępność: widzi się film, kopiuje link do konsoli, zdobywa film.  
+Jest też metoda nieco brawurowa i&nbsp;wiążąca się z&nbsp;ryzykiem; opisałem ją [pod koniec wpisu](#externally-managed-environment-przy-próbie-aktualizacji){:.internal}.
+
+W tej części pokażę coś pomiędzy: metodę bezawaryjną, ale nieco okrężną, podobną do tej z&nbsp;Windowsa -- pobranie pliku z&nbsp;oficjalnej strony. Gdyby pojawiła się potrzeba aktualizacji, to trzeba wszystko wykonać od nowa dla nowszej wersji i&nbsp;zastąpić nią starszą.
+
+{% include details.html summary="Instalacja krok po kroku" %}
+
+* Odwiedzamy [listę wydań na stronie projektu](https://github.com/yt-dlp/yt-dlp/releases), wybieramy najnowsze i&nbsp;pobieramy plik o&nbsp;nazwie `yt-dlp_linux`.
+
+  Jest tam parę podobnych, zawierających w nazwie tekst *aarch* oraz *arm*. Jeśli jednak mamy typowego laptopa, to te pozostałe nas nie interesują.
+
+* Włączamy plikowi wykonywalność (uprawnienie do działania jako program) -- wystarczy to zrobić raz.
+
+  Na niektórych Linuksach można kliknąć plik prawym przyciskiem myszy, wybrać `Właściwości`, przejść w zakładkę `Uprawnienia` i&nbsp;tam zaznaczyć opcję `Pozwól na uruchamianie pliku jako programu` albo coś zbliżonego.
+
+  Inna, uniwersalna opcja? Sposób konsolowy. Uruchamiamy terminal w&nbsp;tym samym folderze co plik (np. klikając pustą przestrzeń obok pliku prawym przyciskiem myszy i&nbsp;wybierając `Otwórz w terminalu`).  
+  Następnie wpisujemy `chmod +x yt-dlp_linux` (zamiast ręcznie wpisywać nazwę, w&nbsp;przypadku Minta można chwycić plik i&nbsp;upuścić go wewnątrz terminala).
+
+* Uruchamiamy program.
+
+  Tutaj klikanie pliku przez interfejs graficzny może nie działać, więc lepiej otworzyć terminal w&nbsp;tym samym folderze. Od teraz będzie można używać programu zgodnie z&nbsp;przykładami z&nbsp;dalszej części wpisu. Jedyna różnica: we wszystkich poleceniach zamiast `yt-dlp` należy wpisywać na początku `./yt-dlp_linux`.
+
+Osoby chcące wołać program samą jego nazwą, bez konieczności wchodzenia do jego folderu i&nbsp;dopisywania `./` na początku, mogą go skopiować do folderu szybkiego dostępu, jak `/usr/bin`. Polecenie kopiujące:
+
+<pre class="black-bg mono">
+sudo cp yt-dlp_linux /usr/bin
+</pre>
+
+{:.post-meta}
+Zapewne wyświetli się prośba o podanie hasła administratora. Po skopiowaniu pliku wystarczy wpisywać `yt-dlp_linux`, żeby wołać program z dowolnego miejsca.  
+Jeśli jesteście na Mincie: pamiętajcie, żeby nie zawołać przez pomyłkę systemowego, przestarzałego `yt-dlp`. Dla pewności można zmienić temu nowszemu nazwę jeszcze przed skopiowaniem.
+
+{% include details-end.html %}
 
 ## Instalacja na Androidzie
 
@@ -219,6 +261,23 @@ Wyjątkowy pech. Zdarzyło mi się to dosłownie raz, niedawno.
 A Wasz film? Jeśli macie nadal otwartą stronę, to zapewne jesteście w stanie go nadal oglądać (serwis jeszcze będzie przez chwilę podtrzymywał połączenie, zanim usunie sam plik). Być może możecie go nawet odzyskać z pamięci podręcznej.
 
 W każdym razie w takiej sytuacji gra się toczy o wysoką stawkę -- **gdy zamkniecie okno przeglądarki z tym filmem, to możecie już go nie zobaczyć**. Jeśli jest fajny, ale nie umielibyście go wyłuskać z pamięci podręcznej, to może warto nawet odpalić jakieś *OBS Studio* i nagrać ekran wraz z dźwiękiem :wink:
+
+### Externally managed environment przy próbie aktualizacji
+
+Ten błąd może się pojawić, jeśli spróbujemy zainstalować albo zaktualizować *yt-dlp* przez Pythona, a&nbsp;dokładniej przez PIP-a, jeden z jego modułów.  
+Oznacza, że twórcy systemu celowo utrudnili możliwość modyfikacji systemowego Pythona. Tak jest na przykład na systemie Linux Mint.
+
+W tym konkretnym przypadku istnieje rozwiązanie grzeczne, choć nieco okrężne (opisane w części [„Instalacja na Linuksie”](#instalacja-na-linuksie){:.internal}), a&nbsp;także szybkie i&nbsp;potencjalnie ryzykowne, które umieszczę tutaj.
+
+W dniu pisania tej porady (30.07.2025) mogę po prostu olać ostrzeżenia, wpisując w konsoli groźnie brzmiący tekst:
+
+```
+pip install --break-system-packages -U yt-dlp
+```
+
+W przypadku Minta olanie ryzyka wydaje mi się uzasadnione --`yt-dlp` to duży i&nbsp;znany projekt; zachowuje się grzecznie i&nbsp;nie wpycha nosa w&nbsp;kluczowe pliki. Choć jest wśród pakietów systemowych, nie stanowi żadnego filara, a&nbsp;jedynie narzędzie pomocnicze jednego z&nbsp;załączonych programów do streamowania.
+
+Nie mogę jednak ręczyć za inne systemy ani obiecać, że na Mincie coś się nie zmieni. Gdyby twórcy wbrew godności człowieka uznali, że zrobią z&nbsp;tego programu fundament systemu, to wykonanie polecenia wyżej mogłoby coś popsuć. Czujcie się ostrzeżeni :smiling_imp:
 
 ### Inne błędy
 

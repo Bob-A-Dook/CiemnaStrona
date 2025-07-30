@@ -388,7 +388,7 @@ Istnieją sposoby, żeby ukrywać ślady po zmianach i&nbsp;symulować pierwotny
 {:.post-meta .bigspace-after}
 Na wypadek, gdyby to miało kogoś odstraszyć od *rootowania* -- to dość szczególny przypadek, bo piszący chcą uruchomić u&nbsp;siebie kilka różnych aplikacji, być może o&nbsp;sprzecznych zakresach tolerancji. Samo ukrywanie zmian jest natomiast częstym motywem.
 
-Majsterkowicze nieraz podchodzą do tego jak do wyzwania i&nbsp;czasem coś ugrają. Ale mam wrażenie, że to walka z&nbsp;wiatrakami. Oni się starają, może nawet sam mObywatel przymyka oko... Ale potem nagle Google [wprowadza w&nbsp;Androidzie ostrzejsze mechanizmy weryfikacji](https://www.androidauthority.com/google-play-integrity-hardware-attestation-3561592/) (nówka sprzed kilku dni) i&nbsp;coś, co działało, nagle działać przestaje.
+Majsterkowicze nieraz podchodzą do tego jak do wyzwania i&nbsp;czasem coś ugrają. Ale mam wrażenie, że to walka z&nbsp;wiatrakami. Oni się starają, może nawet sam mObywatel przymyka oko... Ale potem Google [wprowadza w&nbsp;Androidzie ostrzejsze mechanizmy weryfikacji](https://www.androidauthority.com/google-play-integrity-hardware-attestation-3561592/) (nówka sprzed kilku dni) i&nbsp;coś, co działało, nagle działać przestaje.
 
 Pewniejszym rozwiązaniem, zamiast ciągłego prześlizgiwania się pod przeszkodami, wydaje mi się głośne protestowanie. Nie powinno tak być, że ktoś jest wykluczany ze społeczeństwa przez niestandardowy system!  
 Rozumiem jeszcze wykrywanie zmian i&nbsp;ostrzeganie ludzi, ale powinna być możliwość potwierdzenia, że owszem, chcę użyć obywatelskiej aplikacji na nietypowym systemie.

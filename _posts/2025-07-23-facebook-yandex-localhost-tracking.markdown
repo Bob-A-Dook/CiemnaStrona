@@ -294,7 +294,7 @@ W związku z&nbsp;całą sytuacją przeciwko Mecie w&nbsp;USA złożono [pozew z
 
 Szczególne możliwości ma jednak Unia Europejska. Jak analizuje autor strony *zeropartydata.es*, Meta mogłaby [oberwać skumulowanym efektem kilku różnych kar](https://www.zeropartydata.es/p/localhost-tracking-explained-it-could) -- związanych z&nbsp;przepisami GDPR (w&nbsp;Polsce znanymi jako RODO), *Digital Markets Act* oraz *Digital Services Act*.
 
-Przepisy te nie opierają się na stałych kwotach, lecz na procencie od przychodów. Autor wylicza, że **Facebook mógłby oberwać teoretyczną karą do 32&nbsp;mld dolarów**.
+Przepisy te nie opierają się na stałych kwotach, lecz na procencie od przychodów. Autor wylicza, że **Facebook mógłby oberwać teoretyczną karą do 32&nbsp;mld euro**.
 
 {:.post-meta .bigspace-after}
 Od razu zaznaczę, że nie znam przepisów na tyle, żeby wiedzieć czy to realne; ale autor podaje źródła, a&nbsp;jego stwierdzenia na temat przepisów są zbieżne z&nbsp;tym, co sam o&nbsp;nich wyczytałem. Dlatego daję jego słowom kredyt zaufania, choć wątpię w&nbsp;pełen wymiar kary.
