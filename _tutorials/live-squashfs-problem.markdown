@@ -19,7 +19,7 @@ Tryb polega zwykle na tym, że wkłada się stworzonego wcześniej pendrive'a in
 ...Ale jeśli ma się pecha, może wystąpić błąd. Firefox nagle wyświetli komunikat, że zakładka przestała działać. Próba otwarcia niektórych programów sprawi, że pojawi się wirujące kółko, po czym zniknie. Nie będzie się dało wyłączyć systemu klikaniem w&nbsp;opcje, a&nbsp;naciśnięcie przycisku zasilania -- choć zadziała -- wyświetli falę błędów. Powtarzać będą się w&nbsp;nich słowa: `SQUASHFS error`.
 
 {:.figure .bigspace-before}
-<img src="/assets/posts/tutorials/squashfs-pendrive-blad/squashfs-error-log.png" alt="Zawartość konsoli, w&nbsp;której widać na czerwono treść różnych błędów, w&nbsp;których powtarzają się słowa 'Squashfs error'."/>
+<img src="/assets/tutorials/squashfs-pendrive-blad/squashfs-error-log.png" alt="Zawartość konsoli, w&nbsp;której widać na czerwono treść różnych błędów, w&nbsp;których powtarzają się słowa 'Squashfs error'."/>
 
 {:.figcaption}
 Tu akurat wpisy odczytane z&nbsp;dziennika systemu po nieudanej próbie uruchomienia programu. Po naciśnięciu przycisku zasilania byłyby podobne, ale bez czerwieni.
@@ -75,7 +75,7 @@ Na tym etapie należy nacisnąć klawisz `E`. Wyświetli się wtedy menu ze szcz
 {:.post-meta .bigspace-after}
 Screena niestety nie mam, bo nie da się go łatwo wykonać przy ładowaniu z&nbsp;pendrive'a; musiałbym uruchomić osobnego Minta w&nbsp;maszynie wirtualnej. Jak to zrobię, to dodam obrazki.
 
-Wypatrujemy tam linijki zaczynającej się od słowa `linux` (u&nbsp;mnie trzecia od góry, licząc jedną pustą). Pod jej koniec znajduje się fragment:
+Wypatrujemy tam linijki zaczynającej się od słowa `linux` (u&nbsp;mnie czwarta od góry, licząc jedną pustą). Pod jej koniec znajduje się fragment:
 
 <div class="black-bg mono">
 quiet splash --
@@ -106,12 +106,12 @@ Logika dyktuje natomiast, że kiedy zgrało się do pamięci więcej rzeczy, to 
 Jeśli menu zostało przełączone w&nbsp;tryb listy programów, to wchodzimy w&nbsp;zakładkę `System Tools` i&nbsp;tam klikamy `System Monitor`.
 
 {:.figure .bigspace}
-<img src="/assets/posts/tutorials/squashfs-pendrive-blad/linux-mint-system-monitor.png" alt="Zrzut ekranu pokazujący menu wyświetlone powyżej dolnego paska i&nbsp;wybrany kafelek System Monitor."/>
+<img src="/assets/tutorials/squashfs-pendrive-blad/linux-mint-system-monitor.png" alt="Zrzut ekranu pokazujący menu wyświetlone powyżej dolnego paska i&nbsp;wybrany kafelek System Monitor."/>
 
 Następnie patrzymy na wykres kołowy zużycia pamięci. W&nbsp;przypadku trybu `toram` system zajmuje niemal 4&nbsp;GB, czyli znacznie więcej niż w&nbsp;zwykłym trybie (oczywiście dokładna liczba będzie się pewnie zmieniała między wersjami Minta).
 
 {:.bigspace}
-<img src="/assets/posts/tutorials/squashfs-pendrive-blad/system-monitor-live-usb-zuzycie-pamieci.png" alt="Zrzut ekranu pokazujący fragment Monitora Systemowego obrazujący zużycie pamięci RAM."/>
+<img src="/assets/tutorials/squashfs-pendrive-blad/system-monitor-live-usb-zuzycie-pamieci.png" alt="Zrzut ekranu pokazujący fragment Monitora Systemowego obrazujący zużycie pamięci RAM."/>
 
 Czyli raczej wszystko się załadowało. Można teraz wziąć głęboki wdech. Wydech. I&nbsp;wyciągnąć pendrive'a. Kliknąć sobie ikonę Firefoksa, otworzyć parę programów. Wszystko powinno działać. Pendrive'a instalacyjnego można gdzieś odłożyć, ciesząc się dodatkowym wolnym portem USB.
 
