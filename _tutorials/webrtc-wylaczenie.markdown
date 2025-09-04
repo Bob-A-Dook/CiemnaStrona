@@ -112,11 +112,26 @@ Możliwe, że ma jakąś nietypową konfigurację albo coś zamotał. W&nbsp;ka
 
 ### Firefox
 
-Tu poszło łatwo.
-
-Musiałem wpisać w&nbsp;górny pasek adresów `about:config`. Wyskoczył komunikat mówiący, żebym zachował ostrożność. Niezbyt ze mną współgrał, ale napis `Akceptuję ryzyko` na przycisku pod nim -- już bardziej. Dlatego go kliknąłem.
+W przypadku Firefoksa na komputerze musiałem wpisać w&nbsp;górny pasek przeglądarki `about:config`. Wyskoczył komunikat mówiący, żebym zachował ostrożność. Niezbyt ze mną współgrał, ale napis `Akceptuję ryzyko` na przycisku pod nim -- już bardziej. Dlatego go kliknąłem.
 
 Aktywował się pasek wyszukiwania. Zacząłem wpisywać w&nbsp;niego `media.peerconnection.enabled`. Kiedy pojawiła się opcja o&nbsp;tej nazwie, to dwukrotnie ją kliknąłem, żeby zmienić `true` na `false`. Gotowe!
+
+W przypadku **mobilnego Firefoksa** trzeba było zamiast tego wpisać w górny pasek dość nietypową inkantację:
+
+```
+chrome://geckoview/content/config.xhtml
+```
+
+Reszta, czyli wyszukanie opcji i&nbsp;zmiana jej wartości, była już dokładnie taka sama jak w&nbsp;wersji komputerowej.
+
+{:.post-meta .bigspace-after}
+Sposób dla mobilnego Firefoksa dostałem mailem od Czytelnika. Bardzo dziękuję!
+
+{% include info.html
+type="Ciekawostka"
+text="A co robi w pasku Firefoksa nazwa `chrome`, jak od konkurencyjnej przeglądarki?  
+Jak się okazuje, to pojęcie ogólniejsze i&nbsp;starsze niż Chrome od Google'a. W&nbsp;żargonie twórców przeglądarek oznacza po prostu graficzny interfejs, „cienką warstwę chromu na wierzchu”."
+%}
 
 ### Tor Browser
 
