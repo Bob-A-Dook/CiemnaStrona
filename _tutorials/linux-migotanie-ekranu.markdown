@@ -40,7 +40,12 @@ Nieprzypadkowo przywołuję tu listę hotspotów. Zauważyłem, że tam szczegó
 
 Opisane dwa oblicza błędu -- pojedyncze błyski albo ich gwałtowna seria -- wydają się pojawiać w&nbsp;całkiem losowych momentach. Dekoncentrują i&nbsp;irytują, zaburzając spokojne sesje przy komputerze.
 
-Problem pojawia się na paru nowych, polecanych i&nbsp;popularnych Linuksach, jak wspomniany już Mint (sprawdzałem warianty Mate i&nbsp;Cinnamon) czy Fedora w&nbsp;wariancie KDE Plasma. To niedobrze, bo **jest spora szansa, że z&nbsp;błędem zderzy się niejedna osoba właśnie migrująca z&nbsp;Windowsa**.
+Problem pojawia się na paru nowych, polecanych i&nbsp;popularnych Linuksach, jak *wspomniany już Mint (sprawdzałem warianty Mate i&nbsp;Cinnamon) czy*{:.corr-del} Fedora w&nbsp;wariancie KDE Plasma. To niedobrze, bo **jest spora szansa, że z&nbsp;błędem zderzy się niejedna osoba właśnie migrująca z&nbsp;Windowsa**.
+
+{% include info.html
+type="Pozytywna aktualizacja"
+text="W ostatnich dniach wyszła nowa wersja Minta, o numerze&nbsp;22.2, zawierająca zaktualizowane jądro systemu. Mogę potwierdzić, że nie pojawia się na niej irytujące migotanie ekranu. Świetna wiadomość dla migrujących z&nbsp;Windowsa :smile:"
+%}
 
 ## Diagnoza
 
