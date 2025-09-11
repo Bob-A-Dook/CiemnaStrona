@@ -11,9 +11,9 @@ Lubię go, cenię i&nbsp;używam na co dzień (dokładniej rzecz biorąc: mój s
 Bo jak nazwać sytuację, kiedy dostaje się, w&nbsp;pracy lub życiu, prosty dokument stworzony w&nbsp;programie Microsoft Word, a&nbsp;po otwarciu go w&nbsp;programie LibreOffice (linuksowym odpowiedniku) tekst wygląda inaczej niż w&nbsp;Wordzie?
 
 Może pojawić się myśl: „to jakieś dziadostwo, nie polubimy się”. Złe pierwsze wrażenie.  
-A jak jest naprawdę? Inny wygląd wynika z&nbsp;tego, że na Linuksie nie ma paru podstawowych czcionek znanych z&nbsp;Windowsa. **Nie mogą ich _domyślnie_ udostępniać w&nbsp;obawie przed krokami prawnymi Microsoftu -- ale wystarczy parę kliknięć, żeby to obejść**.
+A jak jest naprawdę? Inny wygląd wynika z&nbsp;tego, że na Linuksie nie ma paru podstawowych czcionek znanych z&nbsp;Windowsa. **Nie mogą ich _domyślnie_ udostępniać w&nbsp;obawie przed krokami prawnymi Microsoftu -- ale wystarczy parę kliknięć, żeby je zdobyć**.
 
-W tym poradniku pokażę sposób na zdobywanie czcionek z&nbsp;Worda/Windowsa i&nbsp;używanie ich wewnątrz LibreOffice'a; wnioski łatwo można odnieść też do innych czcionek i&nbsp;linuksowych programów.  
+W tym poradniku pokażę sposób na pobranie czcionek z&nbsp;Worda/Windowsa i&nbsp;używanie ich wewnątrz LibreOffice'a; wnioski łatwo można odnieść też do innych czcionek i&nbsp;linuksowych programów.  
 Zapraszam!
 
 {% include info.html
@@ -76,7 +76,7 @@ Po jakimś czasie pojawi się lista programów dostępnych w&nbsp;bazie. Żeby o
 {:.bigspace}
 <img src="/assets/tutorials/loffice-czcionki-microsoftu/linux-package-manager-mscorefonts.png" alt="Zrzut ekranu z&nbsp;instalatora oprogramowania na Mincie, pokazujący znaleziony pakiet czcionek TTF Microsoftu."/>
 
-Lista zawęzi się do jedynej poszukiwanych rzeczy, pakietu *Ttf-mscorefonts-installer*. Należy kliknąć jego miniaturkę, żeby przejść do informacji szczegółowych.
+Lista zawęzi się do jednej rzeczy, pakietu *Ttf-mscorefonts-installer*. Należy kliknąć jego miniaturkę, żeby przejść do informacji szczegółowych.
 
 W górnym prawym rogu przez chwilę powinno kręcić się kółko. Kiedy przestanie, w&nbsp;jego miejscu pojawi się zielony przycisk `Install`. Klikamy go, a&nbsp;następnie klikamy `Continue`.
 

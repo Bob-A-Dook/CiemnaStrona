@@ -68,7 +68,7 @@ dmesg -T
 </div>
 
 {:.figcaption}
-Dla osób całkiem niekonsolowych: trzeba to wkleić w&nbsp;konsolę, po czym nacisnąć *Enter*.
+Dla osób całkiem niekonsolowych: trzeba to wkleić w&nbsp;konsolę (kombinacją <code>Ctrl+<span class="red">Shift</span>+V</code>, bez *Shifta* nie zadziała), po czym nacisnąć *Enter*.
 
 W konsoli wyświetli się dziennik błędów. Można go sobie przewijać myszą/touchpadem, wypatrując takiego komunikatu (wyróżniającego się czerwonym kolorem):
 
