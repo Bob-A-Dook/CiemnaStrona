@@ -106,14 +106,13 @@ Dla osób chcących stąd skopiować: żeby wkleić coś w&nbsp;terminal, trzeba
 
 W tym momencie konsola może poprosić o&nbsp;wpisanie hasła do komputera. Wpisujemy, potwierdzamy *Enterem*. Wyświetli się również informacja, że zainstalowane zostaną nowe pliki. Zgadzamy się, wciskając `Y` i&nbsp;znów potwierdzając *Enterem*. Po pewnym czasie czcionki powinny zostać zainstalowane.
 
+Mógłbym przysiąc, że swego czasu na tym etapie ponadto pojawiło mi się okno (bardzo w&nbsp;stylu retro) z&nbsp;informacją o&nbsp;licencji. Gdyby tak było, to należy nacisnąć strzałkę w&nbsp;bok, żeby zaznaczyć zgodę, a&nbsp;potem potwierdzić ją *Enterem*.
+
 {% include info.html
 type="Uwaga"
-text="Polecenie zadziała na wielu popularnych odmianach Linuksa, które używają menedżera pakietów `apt` (takich jak Debian, Ubuntu, Mint, Zorin...).  
-Ale na takiej Fedorze, również popularnej, jest zamiast niego `yum`. Na Archu to `pacman`, niektóre inne Linuksy mają jeszcze innych menedżerów.  
-Uogólniając: gdyby polecenie wyżej nie działało, należy po prostu użyć *swojego* menedżera. I&nbsp;mieć nadzieję, że ma w&nbsp;bazie szukane czcionki."
+text="Wskazane wyżej polecenie konsolowe zadziała na wielu popularnych odmianach Linuksa, które używają menedżera pakietów `apt` (takich jak Debian, Ubuntu, Mint, Zorin...).  
+Ale na takiej Fedorze, również popularnej, jest zamiast niego *`yum`*{:.corr-del}`dnf`. Na Archu to `pacman`, niektóre inne Linuksy mają jeszcze innych menedżerów, niektóre nie udostępniają czcionek Microsoftu... Po instrukcje instalacji na takich systemach odsyłam póki co do [innego polskojęzycznego poradnika](https://newsblog.pl/jak-zdobyc-podstawowe-czcionki-microsoft-w-systemie-linux/). Można też spróbować ręcznego kopiowania plików TTF (opisałem pod koniec wpisu)."
 %}
-
-Mógłbym przysiąc, że swego czasu na tym etapie ponadto pojawiło mi się okno (bardzo w&nbsp;stylu retro) z&nbsp;informacją o&nbsp;licencji. Gdyby tak było, to należy nacisnąć strzałkę w&nbsp;bok, żeby zaznaczyć zgodę, a&nbsp;potem potwierdzić ją *Enterem*.
 
 {% include details-end.html %}
 
