@@ -193,10 +193,15 @@ A co, jeśli ktoś nie ma Linuksa zainstalowanego na dysku, tylko uruchamia go z
 
 W tym wypadku edycja plików GRUB-a z&nbsp;poprzedniego punktu nic by nie dała, *nie dałaby nic*{:.corr-del}. Sesja *live* jest ulotna, a&nbsp;po wyłączeniu komputera ustawienia z&nbsp;plików zostaną wyczyszczone.
 
-Ale nie wszystko stracone. Te same wartości można ustawiać również *przed* załadowaniem systemu. Kiedy podczas jego uruchamiania wyświetli się czarno-białe [okno GRUB-a](https://linuxmint-user-guide.readthedocs.io/en/latest/grub.html), trzeba:
+Ale nie wszystko stracone. Te same wartości można ustawiać również *przed* załadowaniem systemu.  
+Podczas jego uruchamiania wyświetli się albo [okno powitalne Minta](https://test-multi.readthedocs.io/en/latest/boot_options.html), zawierające jego logo, albo uproszczone czarno-białe [okno GRUB-a](https://linuxmint-user-guide.readthedocs.io/en/latest/grub.html). Trzeba wtedy:
 
-* nacisnąć klawisz `E`,
-* po pojawieniu się menu z&nbsp;opcjami uruchamiania poszukać wzrokiem tekstu `quiet splash` i&nbsp;dopisać w&nbsp;tej linijce nasze ustawienie ratujące sytuację.
+* Nacisnąć klawisz `E`, jeśli to GRUB, albo `Tab`, jeśli to okno Minta.
+
+  {:.post-meta}
+  W przypadku okna Minta trzeba nacisnąć ten przycisk, nim skończy się odliczanie do automatycznego uruchomienia.
+
+* Po pojawieniu się menu z&nbsp;opcjami uruchamiania poszukać wzrokiem tekstu `quiet splash` i&nbsp;dopisać w&nbsp;tej linijce nasze ustawienie ratujące sytuację.
 
   <div class="black-bg mono nospace">
   quiet splash <span class="corr-ins">intel_iommu=igfx_off</span> --
@@ -205,7 +210,7 @@ Ale nie wszystko stracone. Te same wartości można ustawiać również *przed* 
   {:.figcaption}
   Tym razem trzeba wpisać to ręcznie, więc warto zwracać szczególną uwagę na literówki oraz na to, czy ustawienie jest oddzielone spacjami od tych po bokach.
 
-* nacisnąć `F10`, żeby kontynuować uruchamianie z&nbsp;nowymi opcjami.
+* Nacisnąć `F10`, jeśli to okno GRUB-a (albo `Enter` jeśli to okno Minta), żeby kontynuować uruchamianie z&nbsp;nowymi opcjami.
 
 ### Jak sprawdzić, czy zadziałało
 
