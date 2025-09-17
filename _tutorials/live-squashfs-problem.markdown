@@ -68,30 +68,31 @@ Ale zaznaczam, że nie jest to metoda pewna, zwłaszcza przy bardziej złożonyc
 
 ### Rozwiązanie właściwe -- opcja toram
 
-Podczas uruchamiania Minta z&nbsp;pendrive'a powinno się wyświetlić [okno programu Grub](https://linuxmint-user-guide.readthedocs.io/en/latest/grub.html) -- czarne tło, jasne ramki. Do wyboru kilka sposobów na uruchomienie systemu.
-
-Na tym etapie należy nacisnąć klawisz `E`. Wyświetli się wtedy menu ze szczegółowymi ustawieniami.
+Źródłem problemu jest to, że pliki są rozdzielone między pendrive'a a&nbsp;pamięć RAM. Logicznym rozwiązaniem może być zatem przerzucenie *wszystkiego* do RAM-u, żeby pendrive przestał być potrzebny.
 
 {:.post-meta .bigspace-after}
-Screena niestety nie mam, bo nie da się go łatwo wykonać przy ładowaniu z&nbsp;pendrive'a; musiałbym uruchomić osobnego Minta w&nbsp;maszynie wirtualnej. Jak to zrobię, to dodam obrazki.
+Oczywiście należy się najpierw upewnić, że mamy w rezerwie kilka GB pamięci. W&nbsp;przypadku Linuksów takich jak Mint sam system zajmie ok. 4&nbsp;GB, więc komputer powinien mieć *co najmniej* 8&nbsp;GB.
 
-Wypatrujemy tam linijki zaczynającej się od słowa `linux` (u&nbsp;mnie czwarta od góry, licząc jedną pustą). Pod jej koniec znajduje się fragment:
+Podczas uruchamiania Minta z&nbsp;pendrive'a powinno się wyświetlić [któreś z&nbsp;dwóch okien](https://test-multi.readthedocs.io/en/latest/boot_options.html) -- albo okno Minta, zawierające jego logo, albo proste czarno-białe okno programu GRUB. W&nbsp;każdym przypadku będzie tam lista kilku sposobów na uruchomienie systemu.
+
+Na tym etapie należy nacisnąć klawisz `E`, jeśli to okno GRUB-a, albo `Tab`, jeśli to okno Minta. Wejdziemy wtedy w tryb edycji ustawień.  
+Wypatrujemy tam linijki zawierającej pod koniec taki fragment:
 
 <div class="black-bg mono">
 quiet splash --
 </div>
 
-Należy w&nbsp;którymś miejscu, między spacjami, dopisać tam `toram` (dosł. „\[ładowanie\] do RAM-u”). Przykładowo tu:
+Należy w&nbsp;którymś miejscu dopisać tam `toram` (dosł. „\[ładowanie\] do RAM-u”), oddzielając to spacjami od innych opcji. Przykładowo tu:
 
 <div class="black-bg mono">
 quiet splash <span class="corr-ins">toram</span> --
 </div>
 
-Na koniec naciskamy `F10`, żeby uruchomić system z&nbsp;ustawioną nową opcją. Uprzedzam lojalnie, że zajmie to więcej czasu niż zwykle, nawet kilka minut.
+Na koniec naciskamy `F10`, jeśli jesteśmy w oknie GRUB-a (albo `Enter`, jeśli to okno Minta), żeby uruchomić system z&nbsp;ustawioną nową opcją. Uprzedzam lojalnie, że zajmie to więcej czasu niż zwykle, nawet kilka minut.
 
 {% include info.html
 type="Porada"
-text="Chcąc potwierdzić zmianę, można odruchowo nacisnąć *zły* klawisz `Enter`. Nie pytajcie, skąd wiem :wink:  
+text="Chcąc potwierdzić zmianę w trybie GRUB-a, ktoś może odruchowo nacisnąć `Enter`. Nie pytajcie, skąd wiem :wink:  
 Po jego naciśnięciu nie nastąpi oczekiwane uruchomienie. Zamiast tego tekst po kursorze przeskoczy o&nbsp;jedną linijkę w&nbsp;dół. Aby to naprawić, można od razu nacisnąć `Backspace`, żeby tekst wrócił do odpowiedniej linijki."
 %}
 
@@ -108,7 +109,7 @@ Jeśli menu zostało przełączone w&nbsp;tryb listy programów, to wchodzimy w&
 {:.figure .bigspace}
 <img src="/assets/tutorials/squashfs-pendrive-blad/linux-mint-system-monitor.png" alt="Zrzut ekranu pokazujący menu wyświetlone powyżej dolnego paska i&nbsp;wybrany kafelek System Monitor."/>
 
-Następnie patrzymy na wykres kołowy zużycia pamięci. W&nbsp;przypadku trybu `toram` system zajmuje niemal 4&nbsp;GB, czyli znacznie więcej niż w&nbsp;zwykłym trybie (oczywiście dokładna liczba będzie się pewnie zmieniała między wersjami Minta).
+Następnie patrzymy na wykres kołowy zużycia pamięci. W&nbsp;przypadku trybu `toram` system zajmuje niemal 4&nbsp;GB, czyli znacznie więcej niż okolice jednego gigabajta w&nbsp;zwykłym trybie (oczywiście dokładna liczba zależy od wersji Minta, a&nbsp;nawet od komputera).
 
 {:.bigspace}
 <img src="/assets/tutorials/squashfs-pendrive-blad/system-monitor-live-usb-zuzycie-pamieci.png" alt="Zrzut ekranu pokazujący fragment Monitora Systemowego obrazujący zużycie pamięci RAM."/>
@@ -129,4 +130,5 @@ A jak wygląda sprawa błędów `SQUASHFS` na innych Linuksach, których jest mu
 Opisana tu metoda ładowania wszystkiego do RAM-u nie jest niestety uniwersalna. Przykładowo na systemie Fedora KDE występuje ten sam problem w&nbsp;przypadku wypięcia pendrive'a. Tak jak na Mincie, można wejść w&nbsp;menu GRUB-a i&nbsp;dopisać tekst `toram` w&nbsp;ustawieniach początkowych.  
 Ale na tym podobieństwa się kończą, bo wedle moich obserwacji nic to nie zmieniło. Obserwacje innych na forach wydają się [potwierdzać brak efektów](https://unix.stackexchange.com/questions/683945/fedora-liveusb-how-to-boot-to-ram). Działa podobno inna opcja, ale nie miałem okazji jej sprawdzić.
 
-Widzę tu niszę na kolejne samouczki, dopasowane do innych Linuksów i&nbsp;pozwalające szerszemu gronu cieszyć się trybem *live* bez obowiązkowego pendrive'a wystającego z&nbsp;boku. Ale to sprawa na bliżej nieokreśloną przyszłość :wink:
+Widzę tu niszę na kolejne samouczki, dopasowane do innych Linuksów i&nbsp;pozwalające szerszemu gronu cieszyć się trybem *live* bez obowiązkowego pendrive'a wystającego z&nbsp;boku.  
+Ale skupiam się na Mincie, więc inne Linuksy to sprawa na bliżej nieokreśloną przyszłość :wink:
