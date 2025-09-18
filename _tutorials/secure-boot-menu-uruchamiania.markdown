@@ -1,0 +1,155 @@
+---
+layout: page
+title: "Linux z pendrive'a – jak obejść przeszkody"
+description: "Jedyne wyboje na gładkiej drodze do Linuksa"
+---
+
+Proces uruchamiania systemów na bazie Linuksa jest o&nbsp;krok od bycia prostym i&nbsp;przyjemnym.
+
+Zdobywanie programów, tworzenie nimi pendrive'ów instalacyjnych, zdobywanie Linuksów, zgrywanie na pendrive'y... Wszystko to zostało na przestrzeni lat naprawdę dopieszczone i&nbsp;uproszczone. Można swobodnie w&nbsp;to wciągać nowe osoby spoza światka nerdowskiego.
+
+{:.post-meta .bigspace-after}
+Ba! Istnieją nawet „imprezki instalacyjne”, podczas których można dostać gotowego, naszykowanego pendrive'a z&nbsp;Linuksem.
+
+...Ale potem przychodzi ten moment, gdy trzeba wpiąć pendrive'a do portu USB i&nbsp;wybrać, że chce się włączyć zawarty na nim system.
+
+Nagle okazuje się, że każdy producent robi to po swojemu, wymagając wejścia w&nbsp;osobne menu. Nawet jeśli się je odkryje, mogą się pojawiać groźnie brzmiące komunikaty o&nbsp;naruszaniu bezpieczeństwa. Co wymaga zmiany pstryczka w&nbsp;jeszcze innym menu.
+
+Co najgorsze, nie ma jednego uniwersalnego sposobu. Właśnie przez wspomniane różnice między producentami, a&nbsp;nawet modelami. Są co najwyżej podobieństwa.
+
+Etap uruchamiania (czyli *bootowania*) to moim zdaniem wielki, niepotrzebny wybój na drodze do rozpoczęcia przygody z&nbsp;Linuksem. Dlatego chciałbym podzielić się paroma sposobami i&nbsp;przydatnymi źródłami, dzięki którym jak najmniej osób na tym wyboju podskoczy.
+
+Wpis ma służyć jako uzupełnienie [samouczka dotyczącego Ventoya](/tutorials/ventoy){:.internal}.
+
+{% include info.html
+type="Uwaga"
+text="Wpis jest na razie szczątkowy, będę do niego stopniowo dodawał informacje."
+%}
+
+## Spis treści
+
+* [Ogólny opis sytuacji](#ogólny-opis-sytuacji)
+  * [Ustalenie modelu komputera](#ustalenie-modelu-komputera)
+* [Menu uruchamiania](#menu-uruchamiania)
+* [Secure boot](#secure-boot)
+* [Menu BIOS-u/UEFI](#menu-bios-uuefi)
+  * [Wyłączanie secure boota](#wyłączanie-secure-boota)
+  * [Inne możliwe problemy](#inne-możliwe-problemy)
+
+## Ogólny opis sytuacji
+
+Na drodze do ładowania systemu można zwykle się zetknąć z&nbsp;dwoma rodzajami menu.
+
+* Menu uruchamiania (*bootowania*)
+
+  To lista możliwych sposobów na uruchomienie systemu. Chodzi mi tu o&nbsp;miejsce, w&nbsp;którym wybieram, że nie chcę ładować domyślnego systemu z&nbsp;dysku, tylko Linuksa z&nbsp;pendrive'a. 
+
+* Menu BIOS-u/UEFI
+
+  Można je nazwać umownie „menu płyty głównej” albo „menu przedsystemowym”.  
+  W&nbsp;tym miejscu wyłącza się tryb *secure boota* (dosł. „bezpieczny rozruch”), jeśli stoi na drodze do załadowania alternatywnego systemu. Czasami (rzadziej) trzeba też włączyć jakiś pstryczek, żeby w&nbsp;ogóle móc ładować system z&nbsp;pendrive'a.
+
+Czasem mogą też istnieć jakieś menu nadrzędne, które pozwalają przejść do tego pierwszego albo drugiego.
+
+W idealnym przypadku podczas zwykłego włączania komputera przez parę pierwszych sekund pojawia się informacja w&nbsp;stylu „naciśnij klawisz `Esc`, żeby włączyć menu” (w&nbsp;domyśle: ogólne, z&nbsp;którego łatwo przejść do dwóch opisanych).
+
+Taki sposób byłby odkrywalny i&nbsp;przejrzysty dla użytkowników. Takie coś zapewniał stary HP EliteBook, którego miałem przyjemność wypróbować.  
+Ale, niestety, nie jest to normą. Czasem trzeba poszukać w&nbsp;sieci, jak wyświetlić na konkretnym komputerze różne rodzaje menu. I&nbsp;właśnie taką wiedzę chcę zebrać, ułożyć i&nbsp;przystępnie zaserwować w&nbsp;tym wpisie.
+
+{:.post-meta .bigspace-after}
+Domyślnie celuję w&nbsp;osoby używające laptopów, a&nbsp;nie stacjonarnych składaków; stąd skupienie na markach producentów.
+
+### Ustalenie modelu komputera
+
+W każdym przypadku w&nbsp;znalezieniu odpowiednich menu może pomóc świadomość tego, jaki mamy model komputera.
+
+Czasem jest to wprost napisane na naklejce w&nbsp;okolicach klawiatury laptopa -- ale niektórzy ją odrywają.
+
+Kolejna naklejka powinna być na spodniej części laptopa. Można stamtąd odczytać np. `Lenovo IdeaPad C340`. Producentem jest tu Lenovo, *IdeaPad C340* to model laptopa. Ta informacja przyda się do szukania wskazówek w&nbsp;sieci.
+
+## Menu uruchamiania
+
+Może wyglądać bardzo różnie w&nbsp;zależności od modelu i&nbsp;producenta, ale powinno sprowadzać się do względnie krótkiej listy dostępnych opcji. Pendrive instalacyjny powinien być na niej czymś ze słowem `USB` w nazwie.  
+Niżej parę przykładów.
+
+{:.bigspace-before}
+<img src="/assets/tutorials/ventoy/boot-menu-2.jpg" alt="Przykładowe menu uruchamiania, zawierające trzy pozycje, w&nbsp;tm pamięć USB" width="50%"/>
+
+{:.figcaption}
+Z mojego doświadczenia -- ten sam pendrive (stworzony programem Ventoy) pojawił się na jednym komputerze pod nazwą `EFI USB Device`, na innym jako `USB Hard Drive`.
+
+<img src="/assets/tutorials/ventoy/boot-menu-1.jpg" alt="Inne przykładowe menu uruchamiania, pokazujące pojedynczą pamięć USB jako dwie osobne pozycje na liście" />
+
+{:.figcaption}
+Źródło: [film z&nbsp;Youtube'a](https://www.youtube.com/watch?v=MIT3w-EPA9M) (8:26). Ktoś miał tu pendrive'a z&nbsp;Ventoyem, którego wykrywało jako dwie partycje, musiał wybrać właściwą.
+
+Jak wyświetlić to menu? Wedle moich obserwacji: nieraz trzeba nacisnąć jakiś specjalny klawisz podczas uruchamiania komputera. Może to być na przykład `Esc`, `F2`, `F12`...
+
+{% include details.html summary="Przykład konkretny – Lenovo Legion" %}
+
+W przypadku tego laptopa (pozwolę sobie nie podawać pełnej nazwy modelu) musiałem trzymać `F12`, naciskając przycisk uruchamiania. Menu uruchamiania pojawiało się za każdym razem, gdy tylko zniknęło logo Lenovo.
+
+Ale -- co bardzo istotne -- **musiałem nacisnąć klawisz odpowiednio wcześnie**. W&nbsp;innym wypadku menu się pojawiało, ale na liście nie było mojego pendrive'a instalacyjnego. W&nbsp;praktyce odkryłem, że pomaga przytrzymanie klawisza jeszcze *przed* wciśnięciem guzika zasilania.
+
+Co jeszcze ważniejsze -- jeśli wszedłem w&nbsp;menu nadrzędne (otwierane igiełką; szczegóły w&nbsp;dalszej części) i&nbsp;próbowałem stamtąd przejść do menu uruchamiania, to *nigdy* nie wykrywało pendrive'a. Droga przez `F12` była jedyną słuszną. Wygląda mi to na mocne niedopatrzenie.
+
+{% include details-end.html %}
+
+W ogólnym przypadku proponuję poszukać w&nbsp;internecie pod hasłem `<MODEL_KOMPUTERA> boot menu`, jeśli zna się angielski. W&nbsp;tym języku powinno wyskoczyć znacznie więcej stron, zwykle wyjaśniających w&nbsp;paru linijkach, co nacisnąć.
+
+## Secure boot
+
+Czasem menu uruchamiania to dopiero pierwszy krok. Niektórzy po wybraniu z&nbsp;niego pendrive'a stają przed groźnym niebieskim ekranem, mówiącym coś o&nbsp;blokadzie ze względów bezpieczeństwa.
+
+...Ale spokojnie. To tylko *secure boot*. Z&nbsp;założenia zmora dla hakerów, w&nbsp;życiu codziennym przeszkadzajka dla alternatywnych systemów.
+
+W tym miejscu pojawiają się dwie ścieżki. Albo spróbować tę blokadę udobruchać (jeśli mamy pendrive'a instalacyjnego stworzonego programem Ventoy), albo ją wyłączyć, choć tymczasowo. Osobiście jestem zwolennikiem drugiego rozwiązania, bo pierwsze jest niepewne. Ale omówię oba.
+
+{% include details.html summary="Udobruchanie blokady (metoda od Ventoya)" %}
+
+{:.post-meta .bigspace-after}
+Informacje zaczerpnąłem z&nbsp;[przewodnika](https://www.ventoy.net/en/doc_secure.html) z&nbsp;oficjalnej strony Ventoya. Wszystko można obejrzeć w&nbsp;akcji [na YouTubie](https://www.youtube.com/watch?v=6YR8b2c95AY).
+
+Przede wszystkim na etapie tworzenia pendrive'a należy mieć włączoną opcję wsparcia dla *secure boota* (domyślnie włączona, wystarczy nie ruszać).
+
+Potem, kiedy wyświetli się informacja o&nbsp;zablokowaniu przez *secure boota*, to można spróbować go udobruchać, okazując mu swoiste poświadczenie zaufania. Trzeba, o&nbsp;ile się da:
+
+* nacisnąć dowolny klawisz, żeby wejść w&nbsp;tryb *MOK Managera*,
+* wybrać opcję `Enroll key from disk`,
+* wybrać opcję *VTOYEFI* (nazwa jednej z&nbsp;partycji Ventoya),
+* wybrać z&nbsp;listy plik `ENROLL_THIS_KEY_IN_MOKMANAGER`,
+* potwierdzić (`Continue`, potem `Yes`),
+* wybrać opcję `Reboot` i&nbsp;czekać na ponowne uruchomienie (oby do ekranu startowego Ventoya).
+
+{% include details-end.html %}
+
+Jeśli nie zdecydujemy się na metodę Ventoya (albo próbowaliśmy, ale nie działa), to można spróbować po prostu tego *secure boota* wyłączyć.
+
+Ktoś może się zaniepokoić. Jak to, wyłączać coś, co ma *secure* („bezpieczne”) w&nbsp;nazwie?
+
+No cóż, to tylko nazwa, a&nbsp;te bywają niedokładne. Również tu bliższe prawdzie byłoby „liniowe uruchamianie”. Chodzi w&nbsp;skrócie o&nbsp;niedopuszczanie anomalii. I&nbsp;choć mogą być nimi wirusy z&nbsp;dolnych warstw systemu, również alternatywne systemy są zaliczane do takich kategorii. Nawet najbezpieczniejsze Linuksy.
+
+Żeby wyłączyć SB (takiego skrótu użyję :smiling_imp:), trzeba zwykle wejść w&nbsp;menu sterujące pierwotnymi funkcjami systemu. Na starszych komputerach zwie się to BIOS, na nowszych UEFI.
+
+## Menu BIOS-u/UEFI
+
+To ważne menu, które lubię nazywać „przedsystemowym”. Pozwala kontrolować najbardziej fundamentalne rzeczy związane z&nbsp;komputerem. Ale bywa jeszcze trudniejsze do znalezienia niż menu uruchamiania z&nbsp;poprzedniej części wpisu.
+
+{% include details.html summary="Przykład konkretny – Lenovo Legion" %}
+
+W przypadku Legiona trzeba było włożyć cienką igiełkę w&nbsp;otwór z&nbsp;boku obudowy i&nbsp;chwilę przytrzymać. W&nbsp;ten sposób otwierało się ukryte menu. 
+
+{% include details-end.html %}
+
+### Wyłączanie secure boota
+
+Po wejściu w&nbsp;BIOS/UEFI ma się zazwyczaj różne zakładki do dyspozycji. Pstryczek odpowiedzialny za działanie SB mógłby się znaleźć na przykład w&nbsp;zakładce `Security`.
+
+Pocieszę przynajmniej, że po odnalezieniu opcji jej wyłączenie bywa kwestią naciskania strzałek, aż się zaznaczy, a&nbsp;potem naciśnięcia klawisza *Enter*. Zostanie wyłączona. Można wyjść z&nbsp;BIOS-u/UEFI, zapisując po drodze zmiany. I&nbsp;spróbować ponownie uruchomić system z&nbsp;pendrive'a.
+
+### Inne możliwe problemy
+
+Czasem może się zdarzyć, że menu uruchamiania się wyświetla, ale na liście nie ma naszego pendrive'a, i&nbsp;nie pomagają żadne ustawienia podczas jego tworzenia.
+
+W takim wypadku warto wejść w&nbsp;poznany już BIOS/UEFI i&nbsp;poszukać tam zakładki w&nbsp;stylu *boot options* albo *boot devices*. Może się zdarzyć, że opcja ładowania z&nbsp;pendrive'a jest całkiem wyłączona, a&nbsp;dopiero po jej włączeniu wszystko zacznie działać.
+
