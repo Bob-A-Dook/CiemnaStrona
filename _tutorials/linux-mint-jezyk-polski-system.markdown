@@ -346,7 +346,7 @@ Wyżej podzieliłem się różnymi poleceniami konsolowymi. Jeśli ktoś nie boi
 
 Można bowiem układać takie komendy jedną pod drugą, linijkę pod linijką -- i&nbsp;uzyskać w&nbsp;ten sposób **skrypt konsolowy**. Po jego uruchomieniu polecenia zostaną wykonane po kolei. A&nbsp;to ogromna oszczędność czasu. Najszybszy sposób na przełączenie całego Minta na język polski.
 
-Można się upewnić, że mamy na naszym Mincie łączność z&nbsp;siecią, a&nbsp;następnie skopiować cały kikulinijkowy blok tekstu widoczny poniżej, wkleić go do konsoli i nacisnąć `Enter`. Potem można podziwiać *hakierskie*, przewijające się ściany tekstu.
+Można się upewnić, że mamy na naszym Mincie łączność z&nbsp;siecią, a&nbsp;następnie skopiować cały kikulinijkowy blok tekstu widoczny poniżej, wkleić go do konsoli i&nbsp;nacisnąć `Enter`. Potem można podziwiać *hakierskie*, przewijające się ściany tekstu.
 
 <pre class="black-bg mono bigspace-before nospace">
 setxkbmap pl
@@ -365,4 +365,4 @@ Potem można użyć `setxkbmap pl` ponownie, bo wylogowanie resetuje to ustawien
 Ktoś nie chce każdorazowo kopiować stąd tekstu? To można zapisać go do pliku, a&nbsp;następnie nosić go ze sobą na pendrivie. I&nbsp;albo z&nbsp;niego kopiować, albo uruchamiać go kliknięciem (jeśli ktoś wie jak).
 
 {:.post-meta}
-Jeśli ktoś chce dostosować skrypt do [instalacji offline](#pakiety-jezykowe-instalacja-offline){:.internal}, to należy zmienić linijkę trzecią (z&nbsp;`apt-get install…`) na `sudo dpkg -i *.deb`, taką jak w&nbsp;linkowanej zakładce. Oczywiście należy trzymać pobrane pliki DEB w&nbsp;tym samym folderze, w&nbsp;którym uruchamiamy skrypt/konsolę.
+Jeśli ktoś chce dostosować skrypt do [instalacji offline](#pakiety-jezykowe-instalacja-offline){:.internal}, to należy zmienić linijkę czwartą (z&nbsp;`apt-get install…`) na `sudo dpkg -i *.deb`, taką jak w&nbsp;linkowanej zakładce. Oczywiście należy trzymać pobrane pliki DEB w&nbsp;tym samym folderze, w&nbsp;którym uruchamiamy skrypt/konsolę.
