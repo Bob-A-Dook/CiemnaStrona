@@ -365,4 +365,5 @@ Potem można użyć `setxkbmap pl` ponownie, bo wylogowanie resetuje to ustawien
 Ktoś nie chce każdorazowo kopiować stąd tekstu? To można zapisać go do pliku, a&nbsp;następnie nosić go ze sobą na pendrivie. I&nbsp;albo z&nbsp;niego kopiować, albo uruchamiać go kliknięciem (jeśli ktoś wie jak).
 
 {:.post-meta}
-Jeśli ktoś chce dostosować skrypt do [instalacji offline](#pakiety-jezykowe-instalacja-offline){:.internal}, to należy zmienić linijkę czwartą (z&nbsp;`apt-get install…`) na `sudo dpkg -i *.deb`, taką jak w&nbsp;linkowanej zakładce. Oczywiście należy trzymać pobrane pliki DEB w&nbsp;tym samym folderze, w&nbsp;którym uruchamiamy skrypt/konsolę.
+Jeśli ktoś chce dostosować skrypt do [instalacji offline](#pakiety-jezykowe-instalacja-offline){:.internal}, to należy zamiast linijek trzeciej i&nbsp;czwartej (z&nbsp;`apt-get`) dać jedną -- `sudo dpkg -i *.deb`, taką jak w&nbsp;linkowanej zakładce.  
+Oczywiście należy trzymać pobrane pliki DEB w&nbsp;tym samym folderze, w&nbsp;którym uruchamiamy skrypt/konsolę.
