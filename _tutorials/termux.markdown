@@ -89,7 +89,8 @@ Gdy już mamy Termuksa, instalowanie Pythona powinno być bardzo proste. Wpisuje
 
 <div class="bigspace black-bg mono">pkg install python</div>
 
-Natomiast może się zdarzyć, że wyskoczy nam błąd związany z&nbsp;brakującym repozytorium. To nic strasznego. Zapraszam do części [„Rozwiązywanie problemów”](#instalowanie-przez-pkg-nie-działa){:.internal}.
+{:.post-meta}
+Na tym etapie może (a&nbsp;przynajmniej kiedyś mógł) wyskoczyć błąd związany z&nbsp;brakującym repozytorium. To nic strasznego. Zapraszam do części [„Rozwiązywanie problemów”](#instalowanie-przez-pkg-nie-działa){:.internal}.
 
 ### LXML
 
@@ -149,6 +150,24 @@ Gdyby na tym etapie wyświetliło nam długi błąd, zawierający fragment:
 Wiele informacji z&nbsp;tej części zdobyłem dzięki [dyskusji](https://github.com/neovim/pynvim/issues/267) z&nbsp;wątku dotyczącego programu Neovim. Dziękuję jej uczestnikom!
 
 ## Rozwiązywanie problemów
+
+### Pliki pobrane przez Termuksa są niedostępne
+
+Wyobraźmy sobie, że pobieramy przez Termuksa jakiś dowolny plik. Na przykład obrazek albo filmik (polecam przez *yt-dlp*).
+
+Nie znajdujemy go jednak w&nbsp;galerii, nigdzie go nie widać. Co się stało?
+
+Po prostu Termux, jako niezależna aplikacja, ma prywatną przestrzeń na pliki. Zaś Android jest tak skonstruowany, że aplikacje -- również te z pozoru zżyte z&nbsp;systemem, jak Galeria -- nie mają do takich przestrzeni wglądu.
+
+Żeby jakiś plik z Termuksa stał się ogólnodostępny, należy najpierw udzielić Termuksowi pozwolenia na dostęp do plików, a&nbsp;następnie **przenieść wybrany plik do przestrzeni publicznej**. W&nbsp;tym celu można użyć polecenia:
+
+```
+mv PLIK /sdcard
+```
+
+{:.post-meta .bigspace-after}
+Gdyby nie działało, można wpisać `/storage/emulated/0` zamiast `/sdcard`.  
+Żeby nie wpisywać nazwy pliku ręcznie, można wpisać pierwsze litery, a&nbsp;potem nacisnąć ikonkę dwóch strzałek z&nbsp;miniklawiatury wbudowanej w&nbsp;Termuksa.
 
 ### Odmowa dostępu do publicznych plików
 
