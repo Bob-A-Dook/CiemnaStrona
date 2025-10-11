@@ -11,6 +11,22 @@ To nie tyle spójny samouczek, co zbiór luźnych informacji na temat Termuksa -
 
 Wymienione tu porady i&nbsp;problemy są dość uniwersalne, więc nie chciałem ich powtarzać w&nbsp;każdym jednym wpisie i&nbsp;zebrałem je tutaj. Będę do nich odsyłał z&nbsp;innych wpisów.
 
+## Spis treści
+
+* [Instalacja](#instalacja)
+* [Możliwości i&nbsp;ograniczenia](#możliwości-iograniczenia)
+* [Przegląd przydatnych funkcji](#przegląd-przydatnych-funkcji)
+  * [Autouzupełnianie](#autouzupełnianie)
+  * [Historia poleceń](#historia-poleceń)
+  * [Przerywanie działającego programu](#przerywanie-działającego-programu)
+* [Python](#python)
+  * [Instalacja](#instalacja)
+  * [LXML](#lxml)
+* [Rozwiązywanie problemów](#rozwiązywanie-problemów)
+  * [Pliki pobrane przez Termuksa są niedostępne](#pliki-pobrane-przez-termuksa-są-niedostępne)
+  * [Odmowa dostępu do publicznych plików](#odmowa-dostępu-do-publicznych-plików)
+  * [Instalowanie przez pkg nie działa](#instalowanie-przez-pkg-nie-działa)
+
 ## Instalacja
 
 Zanim przejdę do instalacji, dwie kluczowe rzeczy:
@@ -39,9 +55,9 @@ Instalacja *prawdziwego* Termuksa w&nbsp;takim wypadku przebiega następująco:
 2. Następnie ją uruchamiamy i&nbsp;znajdujemy przez wyszukiwarkę apkę Termux. Instalujemy.
 3. Na koniec instalujemy, również przez F-Droida, `Termux:API`.
 
-   To funkcje rozszerzające Termuksa. Pozwalają mu między innymi uzyskać dostęp do schowka, mikrofonu, czujników telefonu -- oczywiście tylko wtedy, kiedy wyrazimy zgodę.
+   To funkcje rozszerzające Termuksa. Dają mu między innymi dostęp do schowka, mikrofonu, czujników telefonu -- oczywiście tylko wtedy, kiedy wyrazimy zgodę.
 
-Kiedy już zrobimy te trzy rzeczy, świat Termuksa stanie przed nami otworem :smile:
+Gdy już zrobimy te trzy rzeczy, świat Termuksa stanie przed nami otworem :smile:
 
 ## Możliwości i&nbsp;ograniczenia
 
@@ -66,7 +82,12 @@ A gdyby ktoś jeszcze czuł niedosyt, to po zainstalowaniu `Termux:API` zyska do
 
 Termux wygląda jak konsola, a&nbsp;na systemach Linux i&nbsp;Windows konsola jest niejako uprzywilejowana. Z&nbsp;tego względu można zapomnieć o&nbsp;kluczowym fakcie -- **Termux na Androidzie jest zaledwie szeregową aplikacją, jedną spośród wielu**. Nie jest ani trochę bliżej systemu niż jakieś Spotify, Duolingo czy Flo.
 
-Z tego względu nie jest w&nbsp;stanie zaglądać do wewnętrznych plików systemu ani do innych aplikacji. Nie zadziałają na nim przykładowo:
+Z tego względu nie jest w&nbsp;stanie zaglądać do wewnętrznych plików systemu ani do innych aplikacji. Jego pliki również będą poza zasięgiem innych apek.
+
+{:.post-meta .bigspace-after}
+Rozwiązanie tej drugiej kwestii opisałem [tutaj](#pliki-pobrane-przez-termuksa-są-niedostępne){:.internal}.
+
+Na Termuksie nie zadziałają też niektóre programy. Przykładowo:
 
 * komendy ingerujące w&nbsp;ruch internetowy,
 * komendy zawierające `sudo` (działanie w&nbsp;trybie administratora),
@@ -89,13 +110,56 @@ I tu pojawia się haczyk, bo dostępność tej opcji zależy od producenta. U&nb
 Osobiście nie rootowałem telefonu, zadowalając się jego [odgooglowaniem](/2024/02/03/smartfon-degoogle){:.internal}. Dlatego nie pomogę osobiście, ale mogę polecić dwa źródła:
 
 * [„lista hańby”](https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame) (po angielsku), wskazująca smartfony, na których dostęp do bootloadera jest utrudniony lub zablokowany subiektywną decyzją producenta.
-* przystępny [poradnik z&nbsp;bloga *Wolność w kieszeni*](https://wolnoscwkieszeni.pl/uwolnic-smartfona-2/), opisujący proces rootowania po polsku i&nbsp;krok po kroku.
+* przystępny [poradnik z&nbsp;bloga *Wolność w&nbsp;kieszeni*](https://wolnoscwkieszeni.pl/uwolnic-smartfona-2/), opisujący proces rootowania po polsku i&nbsp;krok po kroku.
 
 {% include details-end.html %}
 
 Innym ograniczeniem jest fakt, że **domyślnie nie zadziała żaden interfejs graficzny** (na przykład moduł Tkinter z&nbsp;Pythona czy interaktywna edycja obrazków przez pakiet OpenCV).
 
 Brak grafiki częściowo da się obejść, instalując pomocniczą apkę i&nbsp;wykonując [instrukcje ze strony Termuksa](https://wiki.termux.com/wiki/Graphical_Environment). Ale osobiście nie testowałem tej opcji.
+
+## Przegląd przydatnych funkcji
+
+Termux zawiera wiele udogodnień i&nbsp;funkcji ułatwiających życie. Wiele z&nbsp;nich to standard na konsolach, ale też nie każdy z&nbsp;konsol korzysta -- może ktoś chce na przykład tylko wykonywać skrypty stworzone przez inne osoby?
+
+Z myślą o&nbsp;takich osobach omawiam w&nbsp;tym miejscu parę powszechnych konsolowych umilaczy życia, obecnych również na Termuksie. Dzięki nim nawet straszny terminal może być przyjemny!
+
+### Autouzupełnianie
+
+W dolnej części Termuksa (ale nad klawiaturą Androida), w&nbsp;lewym rogu, widać ikonę dwóch strzałek skierowanych w&nbsp;przeciwne strony. To odpowiednik klawisza `Tab`.
+
+Odpowiada on za jedną z&nbsp;najbardziej przydatnych funkcji Termuksa -- **uzupełnianie tekstu**.
+
+Jego dokładne działanie zależy od tego, co znajduje się w&nbsp;konsoli przed aktywnym kursorem (bo to programy ustalają swoje reguły autouzupełniania). Ale ogólnie: opiera się na podsunięciu możliwości z&nbsp;listy.
+
+Załóżmy na przykład, że pobraliśmy sobie przez Termuksa filmik. Chcemy go teraz przenieść do publicznego folderu na filmy, używając programiku konsolowego `mv`. Ale są dwa problemy:
+
+1. nazwa pliku jest długa, jej wpisywanie by trwało;
+2. nazwa zawiera spacje i&nbsp;znaki specjalne, przez co konsola by jej nie przyjęła.
+
+W takim wypadku można wpisać parę pierwszych liter nazwy pliku (o&nbsp;ile to zwykłe litery alfabetu, bez znaków specjalnych). A&nbsp;następnie nacisnąć opisany wyżej `Tab`. 
+
+W efekcie w&nbsp;konsoli pojawi się cała długa nazwa, ze znakami specjalnymi „wyłączonymi” przez ukośniki. Oszczędzimy sobie nerwów i&nbsp;ręcznego pisania.
+
+{:.post-meta}
+Jeśli nazwa się nie pojawi (a&nbsp;my nie zrobiliśmy żadnej literówki) to zapewne mamy w&nbsp;folderze inny plik zaczynający się na te same litery. W&nbsp;takim wypadku ponowne naciśnięcie przycisku `Tab` wyświetli dostępne możliwości.
+
+### Historia poleceń
+
+Częściowo skądś przekleiliśmy, częściowo wpisaliśmy do Termuksa jakąś dłuższą komendę. Wykonujemy ją... po czym wyskakuje informacja o&nbsp;błędzie. Przez głupią literówkę. Czy trzeba wszystko wpisywać od nowa?
+
+Na szczęście nie. Wystarczy **nacisnąć strzałkę w&nbsp;górę, żeby wstawić w&nbsp;konsolę poprzednio użyte polecenie**. Kiedy się pojawi, można przejść strzałkami w&nbsp;bok w&nbsp;odpowiednie miejsce, naprawić literówkę, użyć poprawionej komendy.
+
+{:.post-meta}
+Ogólniej: strzałki w&nbsp;górę/dół pozwalają poruszać się po liście użytych dotąd poleceń.
+
+### Przerywanie działającego programu
+
+Załóżmy, że uruchomiło się coś, co nam przeszkadza. Na przykład zaczęliśmy pobierać plik, ale Wi-Fi zwolniło. Widzimy teraz, że pobieranie trwałoby kilka godzin. Chcemy je przerwać, tyle że miejsce na wpisywanie komend zajął teraz licznik pobranych megabajtów.
+
+Jak odzyskać możliwość wpisywania poleceń? Czy trzeba resetować całego Termuksa przez menu Androida? 
+
+Na szczęście nie. Wystarczy nacisnąć wbudowany w&nbsp;Termuksa klawisz `Ctrl`, a&nbsp;następnie `C`. Wykonywane obecnie polecenie zostanie przerwane i&nbsp;wyświetli się dolar na początku linijki. Sugerujący, że znów można wpisywać komendy.
 
 ## Python
 
@@ -185,7 +249,7 @@ mv PLIK /sdcard
 
 {:.post-meta .bigspace-after}
 Gdyby nie działało, można wpisać `/storage/emulated/0` zamiast `/sdcard`.  
-Żeby nie wpisywać nazwy pliku ręcznie, można wpisać pierwsze litery, a&nbsp;potem nacisnąć ikonkę dwóch strzałek z&nbsp;miniklawiatury wbudowanej w&nbsp;Termuksa.
+Żeby nie wpisywać nazwy pliku ręcznie, warto skorzystać z&nbsp;[autouzupełniania](#autouzupełnianie){:.internal}.
 
 ### Odmowa dostępu do publicznych plików
 
