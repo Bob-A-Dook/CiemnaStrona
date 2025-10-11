@@ -5,7 +5,7 @@ description: "Robimy z telefonu narzędzie pracy."
 ---
 
 {:.figure .bigspace-after}
-<img src="/assets/tutorials/termux/termux-ciemna-edit.jpg" alt="Zrzut ekranu pokazujący nazwę programu Termux, w formie ascii art, wewnątrz konsoli tego programu. Pod spodem widać dopisek 'Ukłony od ciemnastrona.com.pl' i uśmiechniętą emotkę"/>
+<img src="/assets/tutorials/termux/termux-ciemna-edit.jpg" alt="Zrzut ekranu pokazujący nazwę programu Termux, w&nbsp;formie ascii art, wewnątrz konsoli tego programu. Pod spodem widać dopisek 'Ukłony od ciemnastrona.com.pl' i&nbsp;uśmiechniętą emotkę"/>
 
 To nie tyle spójny samouczek, co zbiór luźnych informacji na temat Termuksa -- aplikacji na Androida dającej możliwość korzystania z&nbsp;konsoli i&nbsp;skryptów na naszym własnym telefonie.
 
@@ -15,11 +15,11 @@ Wymienione tu porady i&nbsp;problemy są dość uniwersalne, więc nie chciałem
 
 Zanim przejdę do instalacji, dwie kluczowe rzeczy:
 
-1. Instrukcja dotyczy **wyłącznie telefonów z systemem Android**.
+1. Instrukcja dotyczy **wyłącznie telefonów z&nbsp;systemem Android**.
 
    To system docelowy dla Termuksa. Być może powstały jakieś wersje dla systemu iOS albo bardziej niszowych, alternatywnych systemów (jak mobilny Linux), ale nie miałem z&nbsp;nimi styczności.
 
-2. Google jest niedobrym monopolistą.
+2. Google jest niedobrym monopolistą ([już oficjalnie](/google/2024/08/07/google-antymonopol-wyrok){:.internal}).
 
    Są też właścicielami Play Store'a -- oficjalnej i&nbsp;najpopularniejszej bazy z&nbsp;aplikacjami na Androida. Naszego Termuksa [potraktowali niesprawiedliwie](https://github.com/termux-play-store), zakazując mu dodawania niektórych funkcji, bardzo przydatnych dla majsterkujących użytkowników.
 
@@ -28,12 +28,12 @@ Jasne, można jej użyć, jeśli chcemy tylko poćwiczyć w&nbsp;podróży korzy
 
 ### F-Droid na ratunek
 
-„Inne źródło niż Play Store”? W porządku. Ale przydałoby się, żeby to źródło nie zaserwowało nam jakiejś apki z&nbsp;wirusami, która wykradnie nasze tajemnice z telefonu.
+„Inne źródło niż Play Store”? W&nbsp;porządku. Ale przydałoby się, żeby to źródło nie zaserwowało nam jakiejś apki z&nbsp;wirusami, która wykradnie nasze tajemnice z&nbsp;telefonu.
 
 Takim źródłem jest F-Droid -- baza przechowująca aplikacje *open source*.  
-Jest to źródło dość popularne i wiele osób ma je na oku, więc szybko by wyszło na jaw, gdyby ktoś próbował czegoś szemranego.
+Jest to źródło dość popularne i&nbsp;wiele osób ma je na oku, więc szybko by wyszło na jaw, gdyby ktoś próbował czegoś szemranego.
 
-Instalacja *prawdziwego* Termuksa w takim wypadku przebiega następująco:
+Instalacja *prawdziwego* Termuksa w&nbsp;takim wypadku przebiega następująco:
 
 1. Najpierw pobieramy apkę F-Droid [z&nbsp;oficjalnego źródła](https://f-droid.org/).
 2. Następnie ją uruchamiamy i&nbsp;znajdujemy przez wyszukiwarkę apkę Termux. Instalujemy.
@@ -43,19 +43,19 @@ Instalacja *prawdziwego* Termuksa w takim wypadku przebiega następująco:
 
 Kiedy już zrobimy te trzy rzeczy, świat Termuksa stanie przed nami otworem :smile:
 
-## Możliwości i ograniczenia
+## Możliwości i&nbsp;ograniczenia
 
 Co można robić, mając Termuksa?  
 Wszystkich zastosowań nie wymienię, bo są niezliczone! Jak dotąd opisałem na blogu:
 
-* [walkę z trollami]({% post_url 2022-04-15-trolle-rosja-ukraina %}){:.internal} (kopiowanie danych ze schowka + ich obróbka + otwieranie strony w domyślnej przeglądarce),
+* [walkę z&nbsp;trollami]({% post_url 2022-04-15-trolle-rosja-ukraina %}){:.internal} (kopiowanie danych ze schowka + ich obróbka + otwieranie strony w&nbsp;domyślnej przeglądarce),
 * [chowanie plików]({% post_url 2022-11-16-apki-pliki %}#bonus-ukrywanie-plików-przez-termuksa){:.internal} poza zasięgiem innych (niesystemowych) aplikacji,
 * robienie prowizorycznego [backupu swoich SMS-ów]({% post_url 2022-12-02-apki-historia-sms %}){:.internal},
 * pobieranie filmików i&nbsp;muzyki z&nbsp;użyciem [yt-dlp](/tutorials/yt-dlp-android){:.internal}.
 
 A będzie tego więcej :wink:
 
-Poza tym, ogólniej: można korzystać z wielu przydatnych programów konsolowych znanych z&nbsp;systemu Linux.  
+Poza tym, ogólniej: można korzystać z&nbsp;wielu przydatnych programów konsolowych znanych z&nbsp;systemu Linux.  
 Wiele fajnych samouczków można znaleźć w&nbsp;sieci pod hasłem `bash tutorial`. Choć nie były tworzone z&nbsp;myślą o&nbsp;Termuksie, nieraz zadziałają również na nim.
 
 Mało? Można zainstalować więcej programów z&nbsp;oficjalnej bazy. Dostępny jest chociażby język programowania Python, wraz z&nbsp;wieloma stworzonymi w&nbsp;nim pakietami (jak chociażby Matplotlib od wizualizacji danych).
@@ -64,20 +64,38 @@ A gdyby ktoś jeszcze czuł niedosyt, to po zainstalowaniu `Termux:API` zyska do
 
 ### Ograniczenia
 
-Termux wygląda jak konsola, a na systemach Linux konsola jest niejako uprzywilejowana. Z tego względu można zapomnieć o kluczowym fakcie -- **Termux na Androidzie jest zaledwie szeregową aplikacją, jedną spośród wielu**. Nie jest ani trochę bliżej systemu niż jakieś Spotify, Duolingo czy Flo.
+Termux wygląda jak konsola, a&nbsp;na systemach Linux i&nbsp;Windows konsola jest niejako uprzywilejowana. Z&nbsp;tego względu można zapomnieć o&nbsp;kluczowym fakcie -- **Termux na Androidzie jest zaledwie szeregową aplikacją, jedną spośród wielu**. Nie jest ani trochę bliżej systemu niż jakieś Spotify, Duolingo czy Flo.
 
-Z tego względu nie jest w stanie zaglądać do wewnętrznych plików systemu ani do innych aplikacji. Nie zadziałają na nim przykładowo:
+Z tego względu nie jest w&nbsp;stanie zaglądać do wewnętrznych plików systemu ani do innych aplikacji. Nie zadziałają na nim przykładowo:
 
-* komendy ingerujące w ruch internetowy,
-* komendy zawierające `sudo` (działanie w trybie administratora),
+* komendy ingerujące w&nbsp;ruch internetowy,
+* komendy zawierające `sudo` (działanie w&nbsp;trybie administratora),
 * programy zaglądające do plików innych programów  
-  (jak choćby mój drobny [skrypt]({% post_url 2021-12-24-caching %}#bonus-skrypt-do-grzebania-wpamięci-podręcznej){:.internal} od grzebania w pamięci podręcznej przeglądarki).
+  (jak choćby mój drobny [skrypt]({% post_url 2021-12-24-caching %}#bonus-skrypt-do-grzebania-wpamięci-podręcznej){:.internal} od grzebania w&nbsp;pamięci podręcznej przeglądarki).
 
-{:.post-meta .bigspace-after}
-Większe możliwości można zyskać, *rootując* swój telefon. Ale to poza tematem wpisu i dotąd tego nie opisałem na blogu.
+Większe możliwości -- również wewnątrz Termuksa -- można zyskać poprzez *zrootowanie* swojego telefonu.
 
-Innym ograniczeniem jest fakt, że **domyślnie nie zadziała żaden interfejs graficzny** (na przykład moduł Tkinter z Pythona czy interaktywna edycja przez pakiet OpenCV).  
-To ograniczenie częściowo da się obejść, ale na razie zaledwie liznąłem temat.
+{% include details.html summary="Rootowanie telefonu (dla chętnych i&nbsp;bardziej zaawansowanych)" %}
+
+{:.bigspace-before}
+Rootowanie polega z&nbsp;grubsza na uzyskaniu na smartfonie z&nbsp;Androidem uprawnień administratora (czyli właśnie *roota*); wyższego poziomu niż ten, który ma się domyślnie.
+
+To działanie mniej radykalne niż wymiana całego systemu, ale wciąż dające większą kontrolę nad smartfonem. W&nbsp;takich warunkach Termux pod względem możliwości zbliży się do prawdziwej linuksowej konsoli.
+
+Żeby zrootować telefon, należy najpierw *odblokować bootloadera*. Po ludzku: wyłączyć ogranicznik, które pozwala ładować jedynie domyślny, niezmieniony system.
+
+I tu pojawia się haczyk, bo dostępność tej opcji zależy od producenta. U&nbsp;niektórych jest łatwo, inni wymagają zalogowania się na konto klienta i&nbsp;przesłania wniosku, jeszcze inni całkiem blokują bootloadera.
+
+Osobiście nie rootowałem telefonu, zadowalając się jego [odgooglowaniem](/2024/02/03/smartfon-degoogle){:.internal}. Dlatego nie pomogę osobiście, ale mogę polecić dwa źródła:
+
+* [„lista hańby”](https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame) (po angielsku), wskazująca smartfony, na których dostęp do bootloadera jest utrudniony lub zablokowany subiektywną decyzją producenta.
+* przystępny [poradnik z&nbsp;bloga *Wolność w kieszeni*](https://wolnoscwkieszeni.pl/uwolnic-smartfona-2/), opisujący proces rootowania po polsku i&nbsp;krok po kroku.
+
+{% include details-end.html %}
+
+Innym ograniczeniem jest fakt, że **domyślnie nie zadziała żaden interfejs graficzny** (na przykład moduł Tkinter z&nbsp;Pythona czy interaktywna edycja obrazków przez pakiet OpenCV).
+
+Brak grafiki częściowo da się obejść, instalując pomocniczą apkę i&nbsp;wykonując [instrukcje ze strony Termuksa](https://wiki.termux.com/wiki/Graphical_Environment). Ale osobiście nie testowałem tej opcji.
 
 ## Python
 
@@ -98,7 +116,7 @@ Biblioteka do sprawnej pracy z&nbsp;formatem XML. **Wiele moich skryptów jej ni
 
 Do tej pory starałem się unikać jej oraz innych modułów opartych na innych językach niż Python. Ale stopniowo zaczynam poruszać na blogu kwestie przetwarzania bardziej złożonych plików, jak kod źródłowy dużych portali społecznościowych. Powoli staje się potrzebna.
 
-Przede wszystkim zaktualizujmy swoje biblioteki do najnowszej wersji, żeby nie było między nimi rozbieżności. Wpisujemy w Termuksa:
+Przede wszystkim zaktualizujmy swoje biblioteki do najnowszej wersji, żeby nie było między nimi rozbieżności. Wpisujemy w&nbsp;Termuksa:
 
 <div class="black-bg mono">
 pkg upgrade
@@ -157,9 +175,9 @@ Wyobraźmy sobie, że pobieramy przez Termuksa jakiś dowolny plik. Na przykład
 
 Nie znajdujemy go jednak w&nbsp;galerii, nigdzie go nie widać. Co się stało?
 
-Po prostu Termux, jako niezależna aplikacja, ma prywatną przestrzeń na pliki. Zaś Android jest tak skonstruowany, że aplikacje -- również te z pozoru zżyte z&nbsp;systemem, jak Galeria -- nie mają do takich przestrzeni wglądu.
+Po prostu Termux, jako niezależna aplikacja, ma prywatną przestrzeń na pliki. Zaś Android jest tak skonstruowany, że aplikacje -- również te z&nbsp;pozoru zżyte z&nbsp;systemem, jak Galeria -- nie mają do takich przestrzeni wglądu.
 
-Żeby jakiś plik z Termuksa stał się ogólnodostępny, należy najpierw udzielić Termuksowi pozwolenia na dostęp do plików, a&nbsp;następnie **przenieść wybrany plik do przestrzeni publicznej**. W&nbsp;tym celu można użyć polecenia:
+Żeby jakiś plik z&nbsp;Termuksa stał się ogólnodostępny, należy najpierw udzielić Termuksowi pozwolenia na dostęp do plików, a&nbsp;następnie **przenieść wybrany plik do przestrzeni publicznej**. W&nbsp;tym celu można użyć polecenia:
 
 ```
 mv PLIK /sdcard
