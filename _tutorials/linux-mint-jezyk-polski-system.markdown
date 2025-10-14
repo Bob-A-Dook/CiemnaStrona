@@ -96,7 +96,12 @@ W ten sposób polski układ zostanie dodany do listy -- ale to nie wszystko! Trz
 {:.bigspace}
 <img src="/assets/tutorials/linux-mint-jezyk-polski/linux-mint-keyboard-3-selecting-pl-layout.png" alt="Kolaż pokazujący język polski na drugim miejscu na liście oraz wyróżniony przycisk `Move up`, który przeniesie go wyżej"/>
 
-**Uwaga:** pole na podgląd w&nbsp;dolnej części okna nadal nie będzie przyjmowało polskich liter, to zapewne niedopatrzenie twórców. Ale w&nbsp;innych programach zaczną działać od razu po przesunięciu polskiego na pierwsze miejsce.
+**Uwaga dla MATE:** pole na podgląd w&nbsp;dolnej części okna nadal nie będzie przyjmowało polskich liter, to zapewne niedopatrzenie twórców. Ale w&nbsp;innych programach zaczną działać od razu po przesunięciu polskiego na pierwsze miejsce.
+
+**Uwaga dla Cinnamona:** ogólnie ustawianie polskiej klawiatury na Cinnamonie jest bliźniaczo podobne do robienia tego na MATE. Różnica polega na tym, że przesunięcie polskiego na pierwsze miejsce jeszcze go nie włącza. Należy kliknąć ikonę flagi, która się pojawi na dolnym pasku i&nbsp;to stamtąd wybrać język polski. Obrazki [tutaj](/miniposts/cinnamon-klawiatura#zpunktu-widzenia-użytkowników){:.internal}.
+
+{:.post-meta}
+Jeśli flaga na Cinnamonie zbyt kogoś rozprasza jaskrawością na ciemnym tle, to można ją kliknąć prawym przyciskiem myszy i&nbsp;wybrać opcję `Remove "Keyboard"`. Usunięcie apletu nie wpłynie na działanie polskich znaków.
 
 {% include details-end.html %}
 
