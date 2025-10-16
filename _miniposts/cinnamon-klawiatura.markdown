@@ -50,7 +50,7 @@ Nie był to pierwszy przypadek, gdy wychodziłem od klikania w&nbsp;interfejs, a
 Przykładowo: porównałem kiedyś, jakie pliki otwiera program działający, a&nbsp;jakie niedziałający. Ustaliłem, że w&nbsp;obu przypadkach to te same pliki. A&nbsp;zatem to nie brak czcionek był przyczyną [niewłaściwego wyświetlania azjatyckich znaków](/tutorials/linux-odzyskiwanie-azjatyckich-znakow.html){:.internal}.
 
 Inny przykład: chciałem ustalić, jak działa program rozpakowujący pliki ZIP. Zwłaszcza że użycie programiku `unzip` na pliku, z&nbsp;którym ten graficzny dawał radę, kończyło się błędem.  
-W tamtym przypadku odkryłem, że klikanie w&nbsp;interfejs woła program `7z`, czyli *7Zip*. Mogłem go użyć zamiast *unzipa* i&nbsp;zyskać pożądany efekt.
+W tamtym przypadku odkryłem, że klikanie w&nbsp;interfejs [woła program `7z`, czyli *7-Zip*](/miniposts/linux-mint-engrampa-strace){:.internal}. Mogłem go użyć zamiast *unzipa* i&nbsp;zyskać pożądany efekt.
 
 W tym przypadku również liczyłem, że znajdę którąś z&nbsp;dwóch rzeczy:
 
