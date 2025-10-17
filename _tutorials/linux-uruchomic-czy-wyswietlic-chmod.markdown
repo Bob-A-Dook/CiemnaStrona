@@ -16,7 +16,7 @@ Po kliknięciu, zamiast prostej zawartości pliku, pojawia się taki komunikat:
 <img src="/assets/tutorials/linux-uruchomic-czy-wyswietlic/mint-komunikat-wykonywalnosc-plikow.png" alt="Zrzut ekranu komunikatu mówiącego: 'Uruchomić plik X&nbsp;czy wyświetlić jego zawartość? Plik X&nbsp;jest wykonywalnym plikiem tekstowym'." />
 
 > Uruchomić plik X czy wyświetlić jego zawartość?  
-X jest wykonywalnym plikiem tekstowyym
+X jest wykonywalnym plikiem tekstowym.
 
 {% include details.html summary="Wersja angielska" %}
 > Do you want to run {nazwa_pliku} or display its contents?  

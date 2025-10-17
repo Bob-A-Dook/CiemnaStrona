@@ -134,11 +134,11 @@ Cała powyższa sytuacja to norma na komputerach osobistych, bo tam wszystko dzi
 
    Po pierwsze: zabezpieczenia samego systemu Android. Jego twórcy chyba się czegoś nauczyli z&nbsp;historii komputerów osobistych i&nbsp;tego, do czego prowadziły nieograniczone możliwości ingerowania jednych programów w&nbsp;drugie.
 
-   Na Androidze każda apka ma własną, prywatną przestrzeń i&nbsp;nie może zaglądać do innych aplikacji. Możliwy powinien być tylko wgląd we wspólne przestrzenie. Ten podział to tak zwany *sandboxing*.
+   Na Androidzie każda apka ma własną, prywatną przestrzeń i&nbsp;nie może zaglądać do innych aplikacji. Możliwy powinien być tylko wgląd we wspólne przestrzenie. Ten podział to tak zwany *sandboxing*.
 
    Po drugie: przeglądarkom zależy na reputacji szczelnych, więc są ostrożne i&nbsp;m.in. unikają zapisywania plików do wspólnej przestrzeni. Nawet Chrome, szorujący po prywatnościowym dnie, przynajmniej dba o&nbsp;to, żeby tylko Google mógł żłopać informacje, a&nbsp;cudze apki były od nich odcięte.
 
-Efekt? Nadal zachodzi pięć etapów ze wcześniejszego schematu. Tyle że **Meta nie dostaje ciasteczka-tożsamości w pakiecie z danymi stron internetowych**. Ciastka identyfikujące leżą jedynie wewnątrz ich apki (Facebooka lub Instagrama). Historie wędrówek po internecie gromadzą się zaś w&nbsp;przeglądarce, która nie zamierza ich wręczyć gigantowi.
+Efekt? Nadal zachodzi pięć etapów ze wcześniejszego schematu. Tyle że **Meta nie dostaje ciasteczka-tożsamości w&nbsp;pakiecie z&nbsp;danymi stron internetowych**. Ciastka identyfikujące leżą jedynie wewnątrz ich apki (Facebooka lub Instagrama). Historie wędrówek po internecie gromadzą się zaś w&nbsp;przeglądarce, która nie zamierza ich wręczyć gigantowi.
 
 {:.bigspace-before}
 <img src="/assets/posts/inwigilacja/localhost/apki-piramida-facebook-cookies.jpg" alt="Schemat pokazujący dane z&nbsp;kilku stron zamknięte wewnątrz aplikacji-przeglądarki oraz ikonkę oznaczającą tożsamość zamkniętą w&nbsp;osobnej aplikacji Facebooka. Wspólną podstawą, na której stoją obie aplikacje, jest tu system Android." width="80%"/>
@@ -322,7 +322,7 @@ Proponuję jednak spojrzeć na to inaczej. Ten wyciek istotnie był unikalny i&n
 
 Oto lista rzeczy (nieraz bardzo szybkich i&nbsp;łatwych), dzięki którym cała metoda śledzenia straciłaby rację bytu. Ułożyłem je od najistotniejszych do pobocznych.
 
-* Korzystanie z&nbsp;**dodatku blokującego śledzenie**, takiego jak uBlock Origin (albo z&nbsp;przeglądarki z&nbsp;wbudowanym blokerem).
+* Korzystanie z&nbsp;**dodatku blokującego śledzenie**, takiego jak uBlock Origin (albo z&nbsp;przeglądarki z&nbsp;wbudowanym blokerem)
 
   Rozwiązanie kwestii elementów śledzących na logikę wydaje się proste. „Kiedy jestem na stronie, która nie jest Facebookiem, to nie chcę mu niczego wysyłać”. I&nbsp;taką regułę wdrażają dodatki blokujące, z&nbsp;których w&nbsp;szczególności polecam [uBlock Origin](/2021/10/21/ublock-origin){:.internal}. Skuteczny, darmowy, o&nbsp;otwartym kodzie źródłowym. Już nieraz o&nbsp;nim pisałem na blogu.
 
@@ -338,17 +338,24 @@ Oto lista rzeczy (nieraz bardzo szybkich i&nbsp;łatwych), dzięki którym cała
 
   Ten krok **pomógłby w&nbsp;przypadku Yandeksa, ale nie Facebooka**. Ale ogólnie to rzecz tak prosta i&nbsp;pozbawiona efektów ubocznych, że polecam ją absolutnie wszystkim. Dałaby ochronę przed wieloma innymi nadużyciami, jak choćby afera Gravy Analytics opisana w&nbsp;podlinkowanym wpisie.
 
-* [Wyłączenie kodu JavaScript](/internetowa_inwigilacja/2022/05/03/javascript2#ca%C5%82kowite-wy%C5%82%C4%85czenie-javascriptu){:.internal} na stronach internetowych.
+* [Wyłączenie kodu JavaScript](/internetowa_inwigilacja/2022/05/03/javascript2#ca%C5%82kowite-wy%C5%82%C4%85czenie-javascriptu){:.internal} na stronach internetowych
  
-  Bez niego w&nbsp;ogóle by nie zadziałał etap 5&nbsp;z pierwotnego [schematu](#cookies-schemat){:.internal}. Czyli w&nbsp;przypadku elementów od Mety i&nbsp;Yandeksa: włączenie WebRTC i&nbsp;wysłanie danych.
+  Bez niego w&nbsp;ogóle by nie zadziałał etap&nbsp;5 z&nbsp;pierwotnego [schematu](#cookies-schemat){:.internal}. Czyli w&nbsp;przypadku elementów od Mety i&nbsp;Yandeksa: włączenie WebRTC i&nbsp;wysłanie danych.
 
   To metoda nie dla każdego, bo od JS-a zależy działanie wielu stron internetowych, zwłaszcza większych. Niektóre osoby stykają się z takimi stronami często, inne rzadziej.  
-  Moja sugestia? Zainstalować na mobilnym Firefoksie uBO, który i&nbsp;tak by się przydał. Na próbę wyłączyć JS-a w&nbsp;jego opcjach i&nbsp;w razie czego reaktywować go paroma kliknięciami na kłopotliwych stronach. Ocenić, czy rozwiązanie nam pasuje.
+  Moja sugestia? Zainstalować na mobilnym Firefoksie uBO, który i&nbsp;tak by się przydał. Na próbę wyłączyć JS-a w&nbsp;jego opcjach; w&nbsp;razie czego reaktywować go paroma kliknięciami na kłopotliwych stronach. Ocenić, czy rozwiązanie nam pasuje.
   
-* [Wyłączenie WebRTC](/tutorials/webrtc-wylaczenie){:.internal} w&nbsp;przeglądarce.
+* [Wyłączenie WebRTC](/tutorials/webrtc-wylaczenie){:.internal} w&nbsp;przeglądarce
 
   Na każdej działa to nieco inaczej, więc zachęcam do zerknięcia w&nbsp;link. Uprzedzam, że po zablokowaniu nie będą działały niektóre programydo wideokonferencji, więc warto sobie zapisać sposób na odblokowanie.  
   W&nbsp;przeglądarce anonimizującej Tor Browser ta funkcja jest domyślnie wyłączona, dzięki czemu domyślnie chroni użytkowników przed powiązaniem tożsamości -- nie trzeba uruchamiać dodatkowych funkcji, jak blokada JavaScriptu, mimo że też by pomogły. Tylko pozazdrościć twórcom intuicji do wykrywania zagrożeń :wink:
+
+* Używanie Facebooka przez stronę w&nbsp;przeglądarce, a&nbsp;nie aplikację
+
+  Samo w&nbsp;sobie nie rozwiąże to problemu śledzenia, bo wrócimy do punktu wyjścia omówionego na początku wpisu (ryzyko natknięcia się na elementy Facebook Pixel na stronkach). Ale przejście do przeglądarki plus uBlock Origin? To już mocarna ochrona.
+
+  {:.post-meta .bigspace-after}
+  Poza tym i&nbsp;tak warto to zrobić, jeśli chcemy w&nbsp;ogóle mieć możliwość np. rozbrajania [linków śledzących](/facebook_dane/2025/01/12/facebook-link-shimming){:.internal}. W&nbsp;apce są nie do ruszenia.
 
 * Wyłączanie aplikacji, kiedy z&nbsp;nich nie korzystamy 
 
