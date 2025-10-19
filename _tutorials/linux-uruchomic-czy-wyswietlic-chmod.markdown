@@ -142,8 +142,26 @@ Dając taką pełną ścieżkę, dałoby się użyć konsoli z&nbsp;dowolnego mi
 
 Kiedy plików z&nbsp;niechcianą wykonywalnością jest wiele -- zwłaszcza rozrzuconych po zagnieżdżonych w&nbsp;sobie folderach -- to nie ma sensu gmerać w&nbsp;ustawieniach każdego z&nbsp;nich z&nbsp;osobna. Przydałaby się szybka opcja, która wyłączy wszystko naraz.
 
-Nie znalazłem póki co informacji o&nbsp;domyślnie zainstalowanym, graficznym interfejsie do takich zmian (może pomysł do podsunięcia opiekunom Linuksów?).  
-Jest za to takie przydatne polecenie konsolowe, którego należy użyć na folderze *nadrzędnym* z&nbsp;problematycznymi plikami:
+Mam dobrą wiadomość -- Mint taką opcję zapewnia :smile: Żeby wyłączyć wykonywalność dla wielu plików, należy:
+
+* kliknąć prawym przyciskiem myszy folder, w&nbsp;którym znajdują się kłopotliwe pliki;
+  
+  {:.post-meta}
+  Mogą być zakopane głębiej, w&nbsp;podfolderach -- to nie problem, bo zmiany rozniosą się kaskadowo.
+
+* wybrać opcję `Właściwości` z&nbsp;menu;
+* w nowootwartym okienku wybrać zakładkę `Uprawnienia`;
+* wyłączyć opcję wykonywania pliku (tu: folderu) jako programu;
+* kliknąć przycisk `Zastosowanie uprawnień do zawartych plików`.
+
+  Po kliknięciu dolnego przycisku opcja wykonywalności dla folderu **włączy się na nowo -- ale to dobrze**. W&nbsp;przypadku folderów ma ona inne znaczenie niż przy plikach i&nbsp;jest potrzebna, żeby móc cokolwiek robić z&nbsp;zawartością folderu.
+
+<img src="/assets/tutorials/linux-uruchomic-czy-wyswietlic/linux-mint-chmod-na-wielu-plikach.png" alt="Kolaż pokazujący po kolei wejście w opcje folderu i wyłączenie wykonywalności wszystkich zawartych w nim plików"/>
+
+{% include details.html summary="Sposób konsolowy" %}
+
+{:.bigspace-before}
+Żeby uzyskać ten sam efekt co wyżej bez interfejsu graficznego, należy użyć następującego polecenia na folderze *nadrzędnym* z&nbsp;problematycznymi plikami:
 
 ```
 chmod -R -x+X FOLDER
@@ -152,11 +170,17 @@ chmod -R -x+X FOLDER
 * `-R` oznacza, że program powinien odwiedzać kolejno podfoldery zawarte w&nbsp;tym wskazanym (a&nbsp;także ich podfoldery itd.), aż odwiedzi absolutnie wszystko.
 * `-x+X` wyłącza wykonywalność plików, ale włącza ją dla folderów.
 
-  Ta druga rzecz jest istotna, bo w&nbsp;przypadku folderów bez tej opcji nie byłoby możliwości zaglądania do zawartych w&nbsp;nich plików.
+  Ta druga rzecz jest istotna z&nbsp;przyczyn opisanych wyżej -- przy folderach oznacza możliwość interakcji z&nbsp;ich zawartością.
 
 * `FOLDER` odnosi się do folderu, w&nbsp;którym znajdują się pliki z&nbsp;niechcianą wykonywalnością.
 
   Gdybyśmy chcieli użyć komendy w&nbsp;tym samym folderze, w&nbsp;którym jesteśmy, to można zamiast nazwy folderu wpisać pojedynczą kropkę (`.`).
+
+{:.post-meta .bigspace-after}
+Podobnie jak w przypadku rozwiązania graficznego, zmiany poniosą się kaskadowo.  
+Czyli jeśli np. mamy we wskazanym folderze parę plików z niechcianą wykonywalnością, oprócz tego inny folder, zaś w nim kolejne takie pliki -- to zmiany dotkną ich wszystkich.
+
+{% include details-end.html %}
 
 ## Podsumowanie
 
