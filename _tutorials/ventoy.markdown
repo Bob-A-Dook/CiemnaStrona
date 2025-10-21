@@ -181,7 +181,7 @@ Nie dlatego, że jest tutaj coś obiektywnie trudnego czy technicznego -- ale po
 
 Plan A&nbsp;będzie działaniem przez menu Windowsa. Jeśli nam się poszczęści i&nbsp;trafimy na „złotą ścieżkę” -- to wszystko przebiegnie bez komplikacji oraz w&nbsp;taki sam sposób, niezależnie od producenta naszego komputera.
 
-Ale uprzedzam, że bardziej prawdopodobne jest to, że wyskoczy przeszkoda i&nbsp;trzeba będzie spróbować dalszych planów, znajdując informacje odpowiednie dla urządzenia (na poziomie producenta (Acer, Lenovo itd.), albo i&nbsp;modelu).  
+Ale uprzedzam, że bardziej prawdopodobne jest to, że wyskoczy przeszkoda i&nbsp;trzeba będzie pójść ścieżką dopasowaną do urządzenia -- na poziomie producenta (Acer, Lenovo itd.), albo i&nbsp;modelu. Na szczęście krótką.  
 W takim wypadku odeślę do [przewodnika po uruchamianiu](/tutorials/secure-boot-menu-uruchamiania){:.internal}. Na razie jest szczątkowy, ale będę go rozbudowywał.
 
 ### Wyświetlenie menu uruchamiania
@@ -231,6 +231,8 @@ Gdyby lista się pojawiła, ale bez pen-Ventoya, to można podłubać w&nbsp;jeg
 
 Żaden ze sposobów nie działa? No to trzeba poszukać rozwiązania dopasowanego do modelu swojego komputera. [Zapraszam do przewodnika](/tutorials/secure-boot-menu-uruchamiania#menu-uruchamiania){:.internal}, w&nbsp;którym pokazuję gotowce dla paru modeli, a&nbsp;także ogólniejsze porady. Potem można wrócić do tej części.
 
+<a id="opcje-ventoya"/>
+
 A co, jeśli menu systemowe z&nbsp;planu B&nbsp;się uruchamia, ale na liście dostępnych metod uruchomienia nie ma w&nbsp;ogóle pendrive'a z&nbsp;Ventoyem? W&nbsp;takim wypadku można spróbować stworzyć pen-Ventoya z&nbsp;innymi opcjami.
 
 {% include details.html summary="Grzebanie w&nbsp;opcjach Ventoya" %}
@@ -259,7 +261,7 @@ Kiedy po nie sięgnąć? Proponuję taką regułkę -- tylko wtedy, jeśli uda n
 
 2. Jeśli nadal nie wykrywa pen-Ventoya, to zmieniamy MBR na GPT, tworzymy nowego pendrive'a, próbujemy ponownie.
 
-Trzymam kciuki, żeby któraś z&nbsp;metod zadziałała! Bo jeśli nie, to pozostanie chyba szukanie w&nbsp;sieci `<MODEL_KOMPUTERA> <NAZWA_LINUKSA> ventoy`.
+Trzymam kciuki, żeby któraś z&nbsp;metod zadziałała! Bo jeśli nie, to pozostanie chyba szukanie w&nbsp;sieci `{model_komputera} {nazwa_linuksa} ventoy`.
 
 {% include details-end.html %}
 
