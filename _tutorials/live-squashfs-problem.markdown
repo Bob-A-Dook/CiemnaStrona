@@ -12,7 +12,8 @@ A ponieważ uważam się za pragmatycznego sympatyka, uprzedzę wprost -- niekt�
 
 Istnieje wiele sposobów na zapoznanie się z&nbsp;Mintem, w&nbsp;tym całkiem niezobowiązujące -- od oglądania filmików w&nbsp;internecie, przez [interaktywne platformy jak *Distrosea*](https://distrosea.com/), po instalację w&nbsp;programie zwanym [maszyną wirtualną](/2025/02/10/prywatnosc-maszyny-wirtualne){:.internal} (wtedy Linux jest zaledwie jednym okienkiem wśród innych).
 
-Kolejnym krokiem -- nadal niezobowiązującym, ale już dającym opcję trwałej instalacji -- jest **uruchomienie w&nbsp;_trybie live_**. Taki odpowiednik wersji demo w&nbsp;grach komputerowych. Opiszę go dokładniej w&nbsp;innym wpisie, tutaj tylko streszczenie.
+Kolejnym krokiem -- nadal niezobowiązującym, ale już dającym opcję trwałej instalacji -- jest **uruchomienie w&nbsp;_trybie live_**. Na przykład [przez Ventoya](/tutorials/ventoy){:.internal}.  
+To taki odpowiednik wersji demo w&nbsp;grach komputerowych. Opiszę go dokładniej w&nbsp;innym wpisie, tutaj tylko streszczenie.
 
 Tryb polega zwykle na tym, że wkłada się stworzonego wcześniej pendrive'a instalacyjnego do portu USB. Podczas uruchamiania komputera naciska się pewną kombinację klawiszy, wybiera opcję uruchomienia Linuksa... I&nbsp;już. Ładuje się, działa. Można sobie wszystko wypróbować. Przeglądać internet. Podpinać inne urządzenia i&nbsp;patrzeć, czy się lubią z&nbsp;systemem.
 
@@ -75,8 +76,14 @@ Oczywiście należy się najpierw upewnić, że mamy w rezerwie kilka GB pamięc
 
 Podczas uruchamiania Minta z&nbsp;pendrive'a powinno się wyświetlić [któreś z&nbsp;dwóch okien](https://test-multi.readthedocs.io/en/latest/boot_options.html) -- albo okno Minta, zawierające jego logo, albo proste czarno-białe okno programu GRUB. W&nbsp;każdym przypadku będzie tam lista kilku sposobów na uruchomienie systemu.
 
-Na tym etapie należy nacisnąć klawisz `E`, jeśli to okno GRUB-a, albo `Tab`, jeśli to okno Minta. Wejdziemy wtedy w tryb edycji ustawień.  
-Wypatrujemy tam linijki zawierającej pod koniec taki fragment:
+Na tym etapie należy nacisnąć klawisz `E`, jeśli to okno GRUB-a, albo `Tab`, jeśli to okno Minta. Wejdziemy wtedy w tryb edycji ustawień.
+
+{% include info.html
+type="Uwaga"
+text="Przed naciśnięciem klawisza **należy się upewnić, że mamy zaznaczoną opcję zwykłego uruchomienia** (zwykle pierwsza od góry). Każdej z&nbsp;opcji odpowiada inne menu z&nbsp;parametrami"
+%}
+
+Wypatrujemy linijki zawierającej pod koniec taki fragment:
 
 <div class="black-bg mono">
 quiet splash --

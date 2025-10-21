@@ -218,7 +218,7 @@ Nie działa? To jest jeszcze szansa, że mamy komputer, na którym różne specj
 
 {% include details.html summary="Plan B – nadzieja na widoczne menu producenta" %}
 
-Można spróbować uruchomić ponownie komputer i&nbsp;spojrzeć, czy wyświetla jakąś wskazówkę podczas pierwszych sekund od uruchomienienia. Coś w&nbsp;stylu: „naciśnij `Esc`, żeby wyświetlić menu”.
+Można spróbować uruchomić ponownie komputer i&nbsp;spojrzeć, czy wyświetla jakąś wskazówkę podczas pierwszych sekund od uruchomienia. Coś w&nbsp;stylu: „naciśnij `Esc`, żeby wyświetlić menu”.
 
 Jeśli tak, to można się do niej zastosować, włączyć menu i&nbsp;pochodzić po nim. Różni się między komputerami, ale ogólnie chodzi o&nbsp;to, żeby znaleźć wzrokiem coś w&nbsp;stylu *boot menu* (po polsku „menu rozruchu”, ew. „uruchamiania”).
 
