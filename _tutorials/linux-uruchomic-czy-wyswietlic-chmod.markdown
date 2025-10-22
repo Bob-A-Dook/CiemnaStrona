@@ -182,6 +182,12 @@ Czyli jeśli np. mamy we wskazanym folderze parę plików z niechcianą wykonywa
 
 {% include details-end.html %}
 
+{% include info.html
+type="Uwaga"
+text="Masowe wyłączenie wykonywalności może nieść za sobą pewne nieprzewidziane skutki, zwłaszcza wobec skryptów/programów.  
+Sam niedawno naciąłem się na przypadek, gdy po jej wyłączeniu nie dawał się wywołać moduł Jekyll (na którym opiera się ten blog). Swoją historię [opisałem w osobnym wpisie](/miniposts/brak-jekylla-strace){:.internal}"
+%}
+
 ## Podsumowanie
 
 Komunikaty dotyczące wykonywalności plików na Linuksie pojawiają się w&nbsp;dość szczególnych warunkach, na które nie każda osoba się natknie. Dotyczą zwykle kopiowania plików tekstowych z&nbsp;nośnika o&nbsp;innym systemie plików.
