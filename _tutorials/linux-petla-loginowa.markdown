@@ -8,7 +8,7 @@ Oto kolejny krótki wpis, w&nbsp;którym opisuję przeszkadzajkę, na jaką traf
 
 Mam nadzieję, że takie wpisy pokażą, że wiele problemów na Linuksie jest łatwych do rozwiązania i&nbsp;nieraz nie wynikają one nawet z&nbsp;winy systemu.
 
-Tym razem będzie o&nbsp;**pętli loginowej wskutek braku miejsca na dysku**.  
+Tym razem będzie o&nbsp;**niemożności zalogowania się przez brak miejsca na dysku**.  
 Co zrobić, jeśli po wpisaniu hasła na ekranie startowym nasz Linux się nie uruchamia? Czasem wystarczy wejść w&nbsp;awaryjną konsolę i&nbsp;usunąć trochę dzienników systemowych.
 
 A jak? Już piszę.
@@ -29,14 +29,14 @@ Ale za każdym razem wracam do tego samego ekranu logowania. Jakbym grał w&nbsp
 {:.figcaption}
 Źródło: [losowy filmik](https://www.youtube.com/watch?v=bUxpTtZELkw), okrągła [strzałka](https://www.flaticon.com/free-icon/arrow_14720107) z&nbsp;serwisu *Flaticon* (autor: *onlyhasbi*). Przeróbki moje.
 
-Witajcie w&nbsp;piekle **pętli loginowej** (ang. *login loop*) :smiling_imp: 
+Witajcie w&nbsp;piekle **pętli logowania** (albo loginowej; ang. *login loop*) :smiling_imp: 
 
 {:.post-meta .bigspace-after}
 Albo czyśćcu, skoro to swoista poczekalnia przed głównym systemem.
 
 ## Przyczyną dawne podziały
 
-Pętla loginowa (cytując [tę odpowiedź z&nbsp;forum Minta](https://forums.linuxmint.com/viewtopic.php?p=1769597#p1769597)) może mieć dwie główne przyczyny:
+Pętla logowania (cytując [tę odpowiedź z&nbsp;forum Minta](https://forums.linuxmint.com/viewtopic.php?p=1769597#p1769597)) może mieć dwie główne przyczyny:
 
 * brak miejsca na pliki na partycji systemowej  
   (czyli tej części dysku twardego, na której tkwią pliki wewnętrzne systemu),
@@ -134,7 +134,7 @@ Osobna partycja na folder `/home` nie niesie za sobą już takich korzyści jak 
   {:.post-meta .bigspace-after}
   Dygresja: czasem jednak warto robić pewien przesiew plików z&nbsp;folderu `/home`, zwłaszcza tych z&nbsp;podfolderu `.config`. Może przykładowo zapisane tam ustawienia Firefoksa już nie do końca pasują do jego nowszej wersji, zawartej w&nbsp;świeżo zaktualizowanym Mincie?
 
-I to tyle. Mam nadzieję, że porady z&nbsp;tego wpisu pozwolą wszystkim czytającym osobom nieco oswoić się z&nbsp;problemem pętli loginowej.
+I to tyle. Mam nadzieję, że porady z&nbsp;tego wpisu pozwolą wszystkim czytającym osobom nieco oswoić się z&nbsp;problemem pętli logowania.
 
 Znacznej większości osób nie dotknie on w&nbsp;ogóle, ale jeśli już dotknie -- rozwiązanie bywa proste. Taka cecha otwartego Linuksa :smile:
 
