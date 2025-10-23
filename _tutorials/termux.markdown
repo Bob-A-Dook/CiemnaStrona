@@ -141,6 +141,9 @@ W takim wypadku można wpisać parę pierwszych liter nazwy pliku (o&nbsp;ile to
 
 W efekcie w&nbsp;konsoli pojawi się cała długa nazwa, ze znakami specjalnymi „wyłączonymi” przez ukośniki. Oszczędzimy sobie nerwów i&nbsp;ręcznego pisania.
 
+{:.bigspace}
+<img src="/assets/tutorials/termux/termux-autouzupelnianie.png" alt="Kolaż z elementów interfejsu Termuksa, pokazujący linijkę z niepełną nazwą pliku, pod nią wyróżniony przycisk z ikoną dwóch strzałek, a na dole pełną, autouzupełnioną nazwę"/>
+
 {:.post-meta}
 Jeśli nazwa się nie pojawi (a&nbsp;my nie zrobiliśmy żadnej literówki) to zapewne mamy w&nbsp;folderze inny plik zaczynający się na te same litery. W&nbsp;takim wypadku ponowne naciśnięcie przycisku `Tab` wyświetli dostępne możliwości.
 
@@ -149,6 +152,10 @@ Jeśli nazwa się nie pojawi (a&nbsp;my nie zrobiliśmy żadnej literówki) to z
 Częściowo skądś przekleiliśmy, częściowo wpisaliśmy do Termuksa jakąś dłuższą komendę. Wykonujemy ją... po czym wyskakuje informacja o&nbsp;błędzie. Przez głupią literówkę. Czy trzeba wszystko wpisywać od nowa?
 
 Na szczęście nie. Wystarczy **nacisnąć strzałkę w&nbsp;górę, żeby wstawić w&nbsp;konsolę poprzednio użyte polecenie**. Kiedy się pojawi, można przejść strzałkami w&nbsp;bok w&nbsp;odpowiednie miejsce, naprawić literówkę, użyć poprawionej komendy.
+
+{:.bigspace}
+<img src="/assets/tutorials/termux/termux-historia-wstecz.png" alt="Kolaż z elementów interfejsu Termuksa, pokazujący komendę, pod nią linijkę z informacją o błędzie. Pod nią wyróżniony przycisk z ikoną strzałki w górę. Na samym dole widać to samo pozwolenie co na początku, gotowe do edycji."/>
+
 
 {:.post-meta}
 Ogólniej: strzałki w&nbsp;górę/dół pozwalają poruszać się po liście użytych dotąd poleceń.
