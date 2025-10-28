@@ -246,16 +246,16 @@ Ta lista, a&nbsp;właściwie wyświetlający ją programik `less`, bywa pułapk�
 <a id="pakiety-jezykowe-instalacja-offline"/>
 {% include details.html summary="Instalacja konsolowa bez internetu (dla chętnych)" %}
 
-Ktoś chce zminimalizować zależność od internetu i&nbsp;móc na przykład spolszczyć Linuksa nawet na bezludnej wyspie? :sunglasses: Służę rozwiązaniem.
+Ktoś chce zminimalizować zależność od internetu i&nbsp;móc na przykład spolszczyć Linuksa nawet na bezludnej wyspie? :sunglasses: Służę rozwiązaniem. Internet będzie niezbędny tylko raz, przy pierwszym pobraniu.
 
-W zakładce parę linijek wyżej opisałem instalowanie przez konsolę pakietów językowych. W&nbsp;poleceniu można zmienić `install` na `download`:
+W zakładce parę linijek wyżej opisałem instalowanie przez konsolę pakietów językowych. Żeby jedynie je pobrać, zamiast instalować, można wprowadzić lekkie zmiany:
 
 <pre class="black-bg mono nospace">
-<span class="corr-del">sudo apt install PAKIETY</span><br/>sudo apt download PAKIETY
+<span class="corr-del">sudo apt-get install PAKIETY</span><br/>sudo apt-get download PAKIETY
 </pre>
 
 {:.figcaption}
-Na tym etapie internet będzie potrzebny; ale tylko ten jeden raz.
+**Uwaga**: używam tu `apt-get`, bo pozwala pobierać wiele pakietów naraz. Natomiast ogólnie do pobierania lepszy jest `apt`, który poza pakietem wskazanym pobiera inne, niezbędne do jego działania.
 
 W ten sposób zdobędziemy przenośne instalatory pakietów językowych w&nbsp;formacie `.deb` (jeśli są spakowane w&nbsp;archiwum, to należy je rozpakować, żeby mieć tylko pliki DEB). Wszystkie te instalatory można sobie zgrać na jakiegoś pendrive'a, którego będziemy nosić ze sobą.
 
@@ -369,6 +369,24 @@ Potem można użyć `setxkbmap pl` ponownie, bo wylogowanie resetuje to ustawien
 
 Ktoś nie chce każdorazowo kopiować stąd tekstu? To można zapisać go do pliku, a&nbsp;następnie nosić go ze sobą na pendrivie. I&nbsp;albo z&nbsp;niego kopiować, albo uruchamiać go kliknięciem (jeśli ktoś wie jak).
 
-{:.post-meta}
-Jeśli ktoś chce dostosować skrypt do [instalacji offline](#pakiety-jezykowe-instalacja-offline){:.internal}, to należy zamiast linijek trzeciej i&nbsp;czwartej (z&nbsp;`apt-get`) dać jedną -- `sudo dpkg -i *.deb`, taką jak w&nbsp;linkowanej zakładce.  
-Oczywiście należy trzymać pobrane pliki DEB w&nbsp;tym samym folderze, w&nbsp;którym uruchamiamy skrypt/konsolę.
+{% include details.html summary="Dostosowanie do instalacji offline (dla chętnych)" %}
+
+W przypadku [instalacji offline](#pakiety-jezykowe-instalacja-offline){:.internal}, z&nbsp;plików DEB pobranych wcześniej i&nbsp;skopiowanych na obecnego Linuksa, należy użyć nieco innego skryptu: 
+
+```
+setxkbmap pl
+timedatectl set-timezone Europe/Warsaw
+sudo dpkg -i *.deb
+localectl set-locale LANG=pl_PL.UTF-8
+```
+
+{:.post-meta .bigspace-after}
+Różnica polega na braku linijek odpowiadających programowi `apt-get`; zamiast tego jest `dpkg`, nieco pierwotniejszy instalator.
+
+Ponadto, żeby instalacja zadziałała, należy użyć skryptu **w&nbsp;tym samym folderze co pliki DEB**. W&nbsp;tym celu można:
+
+* otworzyć zwykłą przeglądarkę plików i&nbsp;przejść do tego folderu,
+* kliknąć przycisk `File` z&nbsp;górnego paska, a&nbsp;następnie wybrać opcję `Open in terminal`,
+* wkleić do terminala cały przytoczony wyżej skrypt, po czym nacisnąć *Enter*.
+
+<img src="/assets/tutorials/linux-mint-jezyk-polski/deb-polskie-pakiety-offline.png" alt="Kolaż pokazujący pliki DEB zebrane w jednym folderze oraz wybraną opcję otwarcia tego folderu w terminalu"/>
