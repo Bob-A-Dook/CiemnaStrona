@@ -26,6 +26,7 @@ Na chwilę obecną omawiam tylko dwie funkcje aplikacji, DNS-a oraz *firewalla*
   * [Instalacja](#instalacja)
   * [RethinkDNS – VPN tylko z&nbsp;nazwy](#rethinkdns--vpn-tylko-znazwy)
 * [Obsługa aplikacji](#obsługa-aplikacji)
+  * [Przełącznik główny](#przełącznik-główny)
   * [DNS](#dns)
   * [Firewall](#firewall)
   * [Logi](#logi)
@@ -92,6 +93,28 @@ W każdym razie, jeśli ktoś nie potrzebuje VPN-ów ani ich funkcji, to prawdzi
 
 **Uwaga**: zachęcam do przeczytania części „DNS” nawet osoby, które nie planują ustawiać nic własnego. Warto bowiem pomyśleć o&nbsp;zmianie jednego ustawienia.
 
+### Przełącznik główny
+
+RethinkDNS-a można szybko włączać i&nbsp;wyłączać pojedynczym przyciskiem głównym, widocznym w&nbsp;dolnej części ekranu startowego apki. Naciskając go, wyłączamy wszystkie filtry. Naciskając ponownie -- włączamy.
+
+{:.bigspace-before}
+<img src="/assets/tutorials/rethink-dns/rethink-dns-przelacznik-glowny.png" alt="Zrzut ekranu pokazujący wygląd przycisku głównego apki RethinkDNS, w&nbsp;trybie włączonym i&nbsp;wyłączonym."/>
+
+{:.figcaption}
+**Uwaga:** jeśli w&nbsp;opcjach głównych smartfona (`Sieć i internet > VPN`) włączone są opcje `Stały VPN` oraz `Blokuj połączenia bez VPN`, to wyłączenie RDNS-a wyłączy wszelką łączność. Należy najpierw wyłączyć te opcje. 
+
+Można również *zapauzować* (domyślnie na 15&nbsp;minut) działanie programu. W&nbsp;tym celu należy nacisnąć przycisk pauzy -- dwie pionowe, równoległe kreski -- po lewej stronie przycisku.
+
+Pauza jest słabsza niż całkowite wyłączenie, bo według komunikatu nadal działa [firewall](#firewall){:.internal} blokujący konkretne aplikacje.
+
+{% include info.html
+type="Anegdota"
+text="Parę razy trafił mi się dziwny błąd, kiedy używałem smartfona z&nbsp;włączonym RDNS-em w&nbsp;roli hotspota, do którego podłączył się komputer.  
+Na komputerze nie byłem w&nbsp;stanie kontaktować się z&nbsp;niektórymi stronami, takimi jak `github.com`. Co ciekawe, na samym smartfonie ładowały się normalnie.  
+**Zapauzowanie RDNS-a nie pomogło, ale pełne wyłączenie już tak**, strona w&nbsp;momencie zaczęła działać na komputerze. Dziwne, bo obstawiałem problem z DNS-em, na który pauza powinna wystarczyć.  
+Do przyczyn błędu nie miałem jeszcze okazji się dokopać. Ale dam taką radę: przy dziwnych błędach z&nbsp;siecią można rozważyć wyłączenie na próbę całej apki."
+%}
+
 ### DNS
 
 Czym jest DNS? W&nbsp;uproszczeniu: to książka telefoniczna internetu. W&nbsp;praktyce jakiś serwer.
@@ -108,6 +131,10 @@ DNS udziela odpowiedzi tylko na pierwszym etapie. System zapisuje sobie adres i&
 Apka RethinkDNS domyślnie kieruje wszystkie pytania o&nbsp;strony do serwera DNS kontrolowanego przez jej autorów. Ponoć szyfrującego informacje. To na plus.  
 Niektórzy mogą jednak mimo wszystko **zmienić to ustawienie i&nbsp;pozostać przy tym, co zapewnia system**.
 
+{% include details.html summary="Uzasadnienie (kliknij, żeby rozwinąć)" %}
+
+Dlaczego jestem za pozostaniem przy systemowym DNS-ie?
+
 Po pierwsze: ze względu na (ograniczone) zaufanie.
 
 Do DNS-a podsuniętego przez apkę będą trafiały ogólne nazwy domen, jakie odwiedzamy (bez konkretnych podstron). Jak: *youtube.com*, *ciemnastrona.com.pl*, *niegrzeczne-obrazki.gov.pl*.
@@ -119,6 +146,8 @@ Po drugie: ze względu na stabilność.
 Serwerowi DNS zapewnianemu przez twórców RDNS-a może się coś przytrafić. I&nbsp;[czasem się przytrafia](https://www.reddit.com/r/rethinkdns/comments/xjfnyi/is_rethink_dns_down/). A&nbsp;że apka pośredniczy we wszystkim, to do czasu naprawienia usterki telefon *de facto* straci łączność z&nbsp;internetem.
 
 Z powyższego względu -- zwłaszcza jeśli ustawiamy firewalla osobie mniej lubiącej się z elektroniką -- warto wrócić do domyślnego, systemowego DNS-a, podsuwanego przez hotspota/operatora. Minimalizuje to szansę niemiłych zaskoczeń.
+
+{% include details-end.html %}
 
 Zmiana DNS-a jest bardzo łatwa. Wystarczy kliknąć na ekranie głównym RDNS-a kafelek `DNS` u&nbsp;góry i&nbsp;wybrać z&nbsp;krótkiej listy opcję `System DNS`.
 
