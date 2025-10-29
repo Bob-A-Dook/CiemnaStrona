@@ -117,9 +117,11 @@ Jedna uwaga: po tym poleceniu układ **resetuje się w&nbsp;razie wylogowania** 
 
 Na systemie **Mint MATE** (na Cinnamonie nie zadziała!) można spróbować takiego polecenia, które powinno dać trwalszą zmianę układu na polski:
 
-```
-dconf write /org/mate/desktop/peripherals/keyboard/kbd/layouts "['pl']"
-```
+<div class="black-bg mono nospace bigspace-before">
+dconf write /org/mate/desktop/peripherals/keyboard/kbd/layouts "['pl']"</div>
+
+{:.post-meta .nospace}
+Polecenie odkryte [dzięki wytrwałej eksploracji](/miniposts/linux-mint-mate-klawiatura){:.internal}.
 
 {% include details-end.html %}
 
