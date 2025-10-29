@@ -84,7 +84,7 @@ Należy kliknąć ikonę Minta w&nbsp;dolnym lewym rogu, żeby wyświetlić menu
 Wyświetli się osobne okno. Trzeba kliknąć zakładkę `Layouts`. Pojawi się lista dostępnych układów klawiatury, która domyślnie powinna zawierać tylko angielski. Czas zatem dodać polski! Należy kliknąć przycisk `Add` spod listy.
 
 {:.bigspace}
-<img src="/assets/tutorials/linux-mint-jezyk-polski/linux-mint-keyboard-1-new-layout.png" alt="Kolaż ze zezytów ekranu pokazujący menu układów klawiatury z&nbsp;wyróżnionym przyciskiem 'Add'."/>
+<img src="/assets/tutorials/linux-mint-jezyk-polski/linux-mint-keyboard-1-new-layout.png" alt="Kolaż ze zrzutów ekranu pokazujący menu układów klawiatury z&nbsp;wyróżnionym przyciskiem 'Add'."/>
 
 Otworzy się kolejne okno, domyślnie w&nbsp;zakładce `By country`. Może być. Z&nbsp;rozwijanej listy z&nbsp;górnego lewego rogu wybieramy `Poland`, a&nbsp;potem klikamy przycisk `Add` w&nbsp;dolnym prawym rogu.
 
@@ -113,8 +113,13 @@ Tutaj konsola zdecydowanie wyprzedza sposób graficzny. Wystarczy użyć takiego
 setxkbmap pl
 </div>
 
-{:.figcaption .nospace}
-Jedna uwaga: układ resetuje się w&nbsp;razie wylogowania i&nbsp;ponownego zalogowania, np. po zmianie języka systemu. Należy go wtedy aktywować ponownie.
+Jedna uwaga: po tym poleceniu układ **resetuje się w&nbsp;razie wylogowania** i&nbsp;ponownego zalogowania, np. po zmianie języka systemu. Należy go wtedy aktywować ponownie.
+
+Na systemie **Mint MATE** (na Cinnamonie nie zadziała!) można spróbować takiego polecenia, które powinno dać trwalszą zmianę układu na polski:
+
+```
+dconf write /org/mate/desktop/peripherals/keyboard/kbd/layouts "['pl']"
+```
 
 {% include details-end.html %}
 
@@ -364,8 +369,10 @@ localectl set-locale LANG=pl_PL.UTF-8
 {:.figcaption}
 Ze względu na `sudo` możliwe, że pojawi się prośba o&nbsp;wpisanie hasła; u&nbsp;mnie w&nbsp;trybie *live* nie pyta, ale w&nbsp;przypadku zainstalowanego Linuksa raczej będzie. Bez obaw!
 
-Na koniec trzeba się [wylogować i&nbsp;zalogować ponownie](#odświeżenie-ustawień){:.internal}, żeby podchwyciło zmiany.  
-Potem można użyć `setxkbmap pl` ponownie, bo wylogowanie resetuje to ustawienie.
+Na koniec trzeba się [wylogować i&nbsp;zalogować ponownie](#odświeżenie-ustawień){:.internal}, żeby podchwyciło zmiany. Potem można użyć `setxkbmap pl` ponownie, bo wylogowanie resetuje to ustawienie.
+
+{:.post-meta .bigspace-after}
+W przypadku Minta MATE powtarzanie nie będzie konieczne, jeśli użyjemy w skrypcie innego polecenia, które da trwalsze efekty. Opisałem je w&nbsp;dziale na temat klawiatury, w&nbsp;zakładce o&nbsp;metodzie konsolowej.
 
 Ktoś nie chce każdorazowo kopiować stąd tekstu? To można zapisać go do pliku, a&nbsp;następnie nosić go ze sobą na pendrivie. I&nbsp;albo z&nbsp;niego kopiować, albo uruchamiać go kliknięciem (jeśli ktoś wie jak).
 

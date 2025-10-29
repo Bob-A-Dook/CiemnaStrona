@@ -17,9 +17,9 @@ W jaki sposób sprawić za pomocą konsoli, że na dolnym pasku Cinnamona pojawi
 
 {% include info.html
 type="Uwaga"
-text="Lojalnie uprzedzam, że wpis nie zawiera odpowiedzi.  
-Jeśli ktoś chce po prostu zyskać polskie znaki na Mincie, obojętnie w&nbsp;jaki sposób -- to polecam menu graficzne oraz mój przewodnik, podlinkowany wyżej.  
-Obecny wpis może się natomiast przydać osobom chcącym lepiej poznać Minta i&nbsp;stopniowo przechodzić od interfejsu graficznego do debugowania w&nbsp;konsoli. Opisuję całą eksplorację krok po kroku. Z&nbsp;pozycji ucznia, nie mistrza (do którego mi daleko)."
+text="Lojalnie uprzedzam, że wpis nie zawiera odpowiedzi. Mam na koniec inną, bardzo podobną eksplorację [dla Minta MATE](/miniposts/linux-mint-mate-klawiatura){:.internal}. Tam zakończyło się sukcesem, tutaj nie."
+trailer="<p>Jeśli ktoś chce po prostu zyskać polskie znaki na Mincie, obojętnie w&nbsp;jaki sposób, to polecam menu graficzne oraz mój przewodnik, podlinkowany wyżej.</p>
+<p>Obecny wpis może się natomiast przydać osobom chcącym lepiej poznać Minta i&nbsp;stopniowo przechodzić od interfejsu graficznego do debugowania w&nbsp;konsoli. Opisuję całą eksplorację krok po kroku. Z&nbsp;pozycji ucznia, nie mistrza (do którego mi daleko).</p>"
 %}
 
 ## Z&nbsp;punktu widzenia użytkowników
@@ -298,3 +298,5 @@ Znam natomiast nazwę apletu (`keyboard@cinnamon.org`, odczytana po prawoklikni�
 Póki co była natomiast eksploracja: `xprop`, `locate`, `strace` do pliku, `grep`, `less`, filtrowanie i&nbsp;szukanie na oko... Mam nadzieję, że kronika z&nbsp;tej wyprawy pomoże komuś, kto chce osobiście, krok po kroku, zajrzeć za kurtynę i&nbsp;lepiej odkryć, jak działa Linux.
 
 Ta wiedza się przyda, żeby go doskonalić i&nbsp;pomagać innym osobom w&nbsp;skutecznej migracji (która, mam nadzieję, będzie coraz intensywniejsza).
+
+Jeśli ktoś chce zobaczyć, jaki byłby efekt eksploracji udanej, to zapraszam do wpisu na temat [klawiatury na Mincie MATE](/miniposts/linux-mint-mate-klawiatura){:.internal}.
