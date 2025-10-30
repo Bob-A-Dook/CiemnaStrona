@@ -108,7 +108,8 @@ apt-get download kde-spectacle
 </div>
 
 {:.figcaption}
-Spectacle to narzędzie do screenshotów typowe dla systemów opartych na KDE. Wiele innych korzysta z&nbsp;Gnome'a, więc instalacja na nich wiązałaby się z&nbsp;pobraniem mnóstwa rzeczy.
+Spectacle to narzędzie do screenshotów typowe dla systemów opartych na środowisku KDE.  
+Wiele systemów opiera się na czymś innym. Instalacja rzeczy tak im obcej wiąże się z&nbsp;pobraniem mnóstwa plików.
 
 To ważne, żeby użyć w&nbsp;tym miejscu `apt-get` -- sam `apt` pobrałby cały pakiet razem z&nbsp;jego zależnościami, zaś użyty program jest aktualnie „głupszy” i&nbsp;pobiera jedynie plik główny, niewystarczający do działania.
 
@@ -136,7 +137,7 @@ Jak już wiemy, dotyka wielu rzeczy:
 Gdyby natomiast użyć polecenia:
 
 ```
-apt download xsel
+apt-get download xsel
 ```
 
 ...To APT pobierze wskazany programik. Bez żadnego błędu -- bo samo pobieranie nie wymaga interakcji z&nbsp;DPKG.
@@ -196,7 +197,10 @@ sudo apt-get install -f
 
 Powinna się wyświetlić informacja, że w&nbsp;kolejce na instalację czekają różne pakiety, a&nbsp;także pytanie, czy chcemy pobrać X&nbsp;megabajtów, które zajmą Y&nbsp;miejsca na dysku.
 
-Można to potwierdzić klawiszem `Y`, po czym nacisnąć `Enter`. Zaczną się instalować różne rzeczy -- i&nbsp;jest spora szansa (zwłaszcza jeśli mamy te same błędy), że po tym wszystkim `dpkg` się odkorkuje, zaś instalowanie różnych rzeczy zacznie działać.
+Można to potwierdzić klawiszem `Y`, po czym nacisnąć `Enter`. Zaczną się instalować różne rzeczy -- i&nbsp;jest spora szansa, że po tym wszystkim DPKG się odkorkuje, zaś instalowanie różnych rzeczy zacznie działać.
+
+{:.post-meta}
+Zwłaszcza jeśli błędy wynikają tylko z&nbsp;tymczasowego braku plików-zależności, jak w&nbsp;moim przykładzie.
 
 ## Rozwiązanie 2: użycie graficznego Menedżera Oprogramowania
 
@@ -209,10 +213,10 @@ Menedżer zapewnia również coś znacznie cenniejszego niż graficzny intefejs 
 W praktyce: jeśli otworzymy Menedżera i&nbsp;klikniemy przycisk `Install` przy **dowolnym systemowym pakiecie** (nawet najmniejszym), to wyświetli listę zakolejkowanych pakietów oraz pytanie o&nbsp;zgodę na ich zainstalowanie.
 
 {:.bigspace-before}
-<img src="/assets/tutorials/linux-blad-unmet-dependencies/mint-software-manager-naprawa-dpkg.png" alt=""/>
+<img src="/assets/tutorials/linux-blad-unmet-dependencies/mint-software-manager-naprawa-dpkg.png" alt="Zrzut ekranu pokazujący komunikat z informacją o brakujących pakietach, które należy pobrać."/>
 
 {:.figcaption}
-Komunikat nie wspomina, że to pliki, których zabrakło podczas nieudanej instalacji KDE, a&nbsp;nie coś związanego z&nbsp;aktualnie wybranym (którym był tu malutki `xclip`).
+Komunikat nie wspomina, że to pliki, których zabrakło podczas poprzedniej instalacji, a&nbsp;nie coś związanego z&nbsp;aktualnie wybranym pakietem (którym był tu malutki `xclip`).
 
 Jeśli ją wyrazimy, to pliki zostaną pobrane. Odkorkuje to DPKG i&nbsp;zażegna irytujące komunikaty również dla wszystkich pozostałych metod instalacji.
 
