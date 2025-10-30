@@ -198,6 +198,9 @@ Mint zawiera domyślnie kilka wersji językowych, ale niestety nie ma wśród ni
 {:.post-meta .bigspace-after}
 Przynajmniej raz, na początku. W&nbsp;zakładce dla chętnych pokażę, że po pierwszym zdobyciu instalatorów można zacząć działać offline.
 
+{:.post-meta .bigspace-after}
+**Uwaga:** Jeśli coś kiedyś nam się źle zainstalowało na Linuksie, to na etapie pobierania -- zarówno przez konsolę, jak i&nbsp;interfejs -- może wyskoczyć dość rzadki błąd o&nbsp;treści *Package system is&nbsp;broken* albo *Unmet dependencies*. Jego rozwiązanie omawiam [w&nbsp;tym przewodniku](/tutorials/linux-blad-package-system-is-broken){:.internal}.
+
 {% include details.html summary="Sposób graficzny" %}
 
 Należy kliknąć ikonę Minta w&nbsp;dolnym lewym rogu, z&nbsp;lewej kolumny wybrać `Control Center`, a&nbsp;następnie `Languages` z&nbsp;dostępnych opcji (trzeba przewinąć kawałek w&nbsp;dół; ikona będzie pod nagłówkiem *Look and Feel*).
