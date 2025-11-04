@@ -149,4 +149,4 @@ Przykładowo na systemie Fedora (sprawdzałem tylko wariant KDE Plasma) do opcji
 Za rozwiązanie dziękuję [tej odpowiedzi z forum Fedory](https://discussion.fedoraproject.org/t/booting-a-liveos-image-fully-into-ram/78840).
 
 Widzę tu niszę na kolejne samouczki, dopasowane do innych Linuksów i&nbsp;pozwalające szerszemu gronu cieszyć się trybem *live* bez obowiązkowego pendrive'a wystającego z&nbsp;boku.  
-Ale skupiam się na Mincie, więc inne Linuksy to sprawa na bliżej nieokreśloną przyszłość :wink:
+Ale skupiam się na Mincie, inne Linuksy to sprawa na bliżej nieokreśloną przyszłość :wink:

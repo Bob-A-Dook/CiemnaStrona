@@ -18,7 +18,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url | remove: '.html' }}">
-            {{ post.title | escape }}
+            {{ post.title | escape | replace:" z ", " z&nbsp;" | replace:" o ", " o&nbsp;" | replace:" u ", " u&nbsp;" | replace:" i ", " i&nbsp;" | replace:" w ", " w&nbsp;"}}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
