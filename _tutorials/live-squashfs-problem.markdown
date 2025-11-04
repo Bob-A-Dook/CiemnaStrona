@@ -12,12 +12,17 @@ A ponieważ uważam się za pragmatycznego sympatyka, uprzedzę wprost -- niekt�
 
 Istnieje wiele sposobów na zapoznanie się z&nbsp;Mintem, w&nbsp;tym całkiem niezobowiązujące -- od oglądania filmików w&nbsp;internecie, przez [interaktywne platformy jak *Distrosea*](https://distrosea.com/), po instalację w&nbsp;programie zwanym [maszyną wirtualną](/2025/02/10/prywatnosc-maszyny-wirtualne){:.internal} (wtedy Linux jest zaledwie jednym okienkiem wśród innych).
 
-Kolejnym krokiem -- nadal niezobowiązującym, ale już dającym opcję trwałej instalacji -- jest **uruchomienie w&nbsp;_trybie live_**. Na przykład [przez Ventoya](/tutorials/ventoy){:.internal}.  
-To taki odpowiednik wersji demo w&nbsp;grach komputerowych. Opiszę go dokładniej w&nbsp;innym wpisie, tutaj tylko streszczenie.
+Kolejnym krokiem -- nadal niezobowiązującym, ale już dającym opcję trwałej instalacji -- jest **uruchomienie w&nbsp;_trybie live_**. Na przykład [przez Ventoya](/tutorials/ventoy){:.internal}.
 
-Tryb polega zwykle na tym, że wkłada się stworzonego wcześniej pendrive'a instalacyjnego do portu USB. Podczas uruchamiania komputera naciska się pewną kombinację klawiszy, wybiera opcję uruchomienia Linuksa... I&nbsp;już. Ładuje się, działa. Można sobie wszystko wypróbować. Przeglądać internet. Podpinać inne urządzenia i&nbsp;patrzeć, czy się lubią z&nbsp;systemem.
+To taki odpowiednik wersji demo w&nbsp;grach komputerowych. Streszczając: tryb polega na włożeniu stworzonego wcześniej pendrive'a instalacyjnego do portu USB. Podczas uruchamiania komputera naciska się pewną kombinację klawiszy, wybiera z&nbsp;listy Linuksa... I&nbsp;już. Szczegóły pod linkiem wyżej.
 
-...Ale jeśli ma się pecha, może wystąpić błąd. Firefox nagle wyświetli komunikat, że zakładka przestała działać. Próba otwarcia niektórych programów sprawi, że pojawi się wirujące kółko, po czym zniknie. Nie będzie się dało wyłączyć systemu klikaniem w&nbsp;opcje, a&nbsp;naciśnięcie przycisku zasilania -- choć zadziała -- wyświetli falę błędów. Powtarzać będą się w&nbsp;nich słowa: `SQUASHFS error`.
+Ładuje się, działa. Można sobie wszystko wypróbować. Przeglądać internet. Podpinać inne urządzenia i&nbsp;patrzeć, czy się lubią z&nbsp;systemem.
+
+...Ale jeśli ma się pecha, mogą wystąpić różne dziwne błędy:
+
+* Firefox nagle wyświetli komunikat, że zakładka przestała działać.
+* Próba otwarcia niektórych programów sprawi, że pojawi się wirujące kółko, po czym zniknie.
+* Nie będzie się dało wyłączyć systemu klikaniem w&nbsp;opcje, a&nbsp;naciśnięcie przycisku zasilania -- choć zadziała -- wyświetli falę błędów. Powtarzać będą się w&nbsp;nich słowa: `SQUASHFS error`.
 
 {:.figure .bigspace-before}
 <img src="/assets/tutorials/squashfs-pendrive-blad/squashfs-error-log.png" alt="Zawartość konsoli, w&nbsp;której widać na czerwono treść różnych błędów, w&nbsp;których powtarzają się słowa 'Squashfs error'."/>
@@ -65,7 +70,7 @@ Jeśli mam proste zadanie -- np. napisać na Mincie parę skryptów w&nbsp;prost
 * podłączam nośnik.
 
 Od teraz nawet gdyby pendrive instalacyjny się wysunął, nie mam problemu z&nbsp;dalszym klepaniem rzeczy w&nbsp;notatniku i&nbsp;przerzucaniem ich na zewnątrz.  
-Ale zaznaczam, że nie jest to metoda pewna, zwłaszcza przy bardziej złożonych programach. Taki na przykład Firefox, uruchomiony przed wypięciem pendrive'a, potrafił działać z&nbsp;niektórymi stronami, a&nbsp;na kolejnej (być może wymagającej załadowania czegoś więcej) spektakularnie się zawiesić.
+Ale zaznaczam, że **metoda jest niepewna, zwłaszcza przy bardziej złożonych programach**. Taki na przykład Firefox, uruchomiony przed wypięciem pendrive'a, potrafił działać z&nbsp;niektórymi stronami, a&nbsp;na kolejnej (być może wymagającej załadowania czegoś więcej) spektakularnie się zawiesić.
 
 ### Rozwiązanie właściwe -- opcja toram
 
@@ -80,7 +85,7 @@ Na tym etapie należy nacisnąć klawisz `E`, jeśli to okno GRUB-a, albo `Tab`,
 
 {% include info.html
 type="Uwaga"
-text="Przed naciśnięciem klawisza **należy się upewnić, że mamy zaznaczoną opcję zwykłego uruchomienia** (zwykle pierwsza od góry). Każdej z&nbsp;opcji odpowiada inne menu z&nbsp;parametrami"
+text="Przed naciśnięciem klawisza **należy się upewnić, że mamy zaznaczoną opcję zwykłego uruchomienia** (zwykle pierwsza od góry). Każdej z&nbsp;opcji odpowiada bowiem inne menu z&nbsp;parametrami."
 %}
 
 Wypatrujemy linijki zawierającej pod koniec taki fragment:
@@ -116,12 +121,15 @@ Jeśli menu zostało przełączone w&nbsp;tryb listy programów, to wchodzimy w&
 {:.figure .bigspace}
 <img src="/assets/tutorials/squashfs-pendrive-blad/linux-mint-system-monitor.png" alt="Zrzut ekranu pokazujący menu wyświetlone powyżej dolnego paska i&nbsp;wybrany kafelek System Monitor."/>
 
-Następnie patrzymy na wykres kołowy zużycia pamięci. W&nbsp;przypadku trybu `toram` system zajmuje niemal 4&nbsp;GB, czyli znacznie więcej niż okolice jednego gigabajta w&nbsp;zwykłym trybie (oczywiście dokładna liczba zależy od wersji Minta, a&nbsp;nawet od komputera).
+W oknie Monitora odwiedzamy zakładkę `Resources` i&nbsp;patrzymy na wykres kołowy zużycia pamięci. W&nbsp;przypadku trybu `toram` system zajmuje niemal 4&nbsp;GB, czyli znacznie więcej niż okolice jednego gigabajta w&nbsp;zwykłym trybie (oczywiście dokładna liczba zależy od wersji Minta, a&nbsp;nawet od komputera).
 
 {:.bigspace}
 <img src="/assets/tutorials/squashfs-pendrive-blad/system-monitor-live-usb-zuzycie-pamieci.png" alt="Zrzut ekranu pokazujący fragment Monitora Systemowego obrazujący zużycie pamięci RAM."/>
 
 Czyli raczej wszystko się załadowało. Można teraz wziąć głęboki wdech. Wydech. I&nbsp;wyciągnąć pendrive'a. Kliknąć sobie ikonę Firefoksa, otworzyć parę programów. Wszystko powinno działać. Pendrive'a instalacyjnego można gdzieś odłożyć, ciesząc się dodatkowym wolnym portem USB.
+
+{:.post-meta .bigspace-after}
+Włączanie w trybie `toram` to również jedyny (chyba?) sposób na zrzucenie nowych Linuksów na tego samego pendrive'a, z&nbsp;którego załadowało się system. Próbowałem kiedyś prościej (wypięcie → wpięcie → zgranie), ale [efektem był błąd `Invalid magic number`](/tutorials/linux-blad-invalid-magic-number){:.internal}.
 
 ## Inne przypadki błędu
 
@@ -134,8 +142,11 @@ Następnie należy wybrać z&nbsp;menu w&nbsp;dolnym rogu opcję wyłączenia sy
 
 A jak wygląda sprawa błędów `SQUASHFS` na innych Linuksach, których jest multum?
 
-Opisana tu metoda ładowania wszystkiego do RAM-u nie jest niestety uniwersalna. Przykładowo na systemie Fedora KDE występuje ten sam problem w&nbsp;przypadku wypięcia pendrive'a. Tak jak na Mincie, można wejść w&nbsp;menu GRUB-a i&nbsp;dopisać tekst `toram` w&nbsp;ustawieniach początkowych.  
-Ale na tym podobieństwa się kończą, bo wedle moich obserwacji nic to nie zmieniło. Obserwacje innych na forach wydają się [potwierdzać brak efektów](https://unix.stackexchange.com/questions/683945/fedora-liveusb-how-to-boot-to-ram). Działa podobno inna opcja, ale nie miałem okazji jej sprawdzić.
+Metoda ładowania wszystkiego do RAM-u opisana w&nbsp;tym wpisie nie jest niestety uniwersalna dla wszystkich Linuksów.  
+Przykładowo na systemie Fedora (sprawdzałem tylko wariant KDE Plasma) do opcji uruchamiania wchodzi się tak samo, ale zamiast `toram` należy tam wpisać `rd.live.ram=1`. Na innych systemach może być jeszcze inaczej, niektóre mogą w&nbsp;ogóle nie wspierać ładowania do RAM-u.
+
+{:.post-meta .bigspace-after}
+Za rozwiązanie dziękuję [tej odpowiedzi z forum Fedory](https://discussion.fedoraproject.org/t/booting-a-liveos-image-fully-into-ram/78840).
 
 Widzę tu niszę na kolejne samouczki, dopasowane do innych Linuksów i&nbsp;pozwalające szerszemu gronu cieszyć się trybem *live* bez obowiązkowego pendrive'a wystającego z&nbsp;boku.  
 Ale skupiam się na Mincie, więc inne Linuksy to sprawa na bliżej nieokreśloną przyszłość :wink:

@@ -34,6 +34,11 @@ Witajcie w&nbsp;piekle **pętli logowania** (albo loginowej; ang. *login loop*) 
 {:.post-meta .bigspace-after}
 Albo czyśćcu, skoro to swoista poczekalnia przed głównym systemem.
 
+{% include info.html
+type="Dla niecierpliwych"
+text="Tak już mam, że lubię się rozpisywać i&nbsp;podawać kontekst. Jeśli kogoś interesuje wyłącznie rozwiązanie opisanego problemu, to można do niego [przeskoczyć](#rozwiązanie-doraźne){:.internal}."
+%}
+
 ## Przyczyną dawne podziały
 
 Pętla logowania (cytując [tę odpowiedź z&nbsp;forum Minta](https://forums.linuxmint.com/viewtopic.php?p=1769597#p1769597)) może mieć dwie główne przyczyny:
@@ -119,13 +124,13 @@ Chwila czekania... I&nbsp;ulga. Oto pojawił się znajomy pulpit oraz ikony. Odz
 Osoby, które dopiero wchodzą w&nbsp;świat Linuksa, mogą po prostu **wybrać podczas instalowania opcję domyślną i&nbsp;nie ustawiać żadnych partycji ręcznie**.
 
 {:.post-meta .bigspace-after}
-Pomijam tu przypadku nietypowe, np. instalacji na dysku zewnętrznym, gdy jednak trzeba wprost wskazać partycje. Mówię o&nbsp;klasycznym oddaniu dysku komputera Linuksowi na wyłączność.
+Pomijam tu przypadki nietypowe, np. instalacji na dysku zewnętrznym, gdy jednak trzeba wprost wskazać partycje. Mówię o&nbsp;klasycznym oddaniu dysku komputera Linuksowi na wyłączność.
 
 Przy tej opcji zarówno pliki systemowe, jak i&nbsp;pliki użytkownika zostaną zapisane na jednej wspólnej partycji. W&nbsp;ten sposób powinno być łatwiej kontrolować ilość miejsca, jaka jeszcze pozostała na dysku.
 
-I owszem, zmusza to do odrobinę większej pracy przy aktualizacjach -- ale nie wszystkich. Od jakiegoś czasu Linux Mint [ułatwia drobniejsze aktualizacje](https://blog.linuxmint.com/?p=4629) (np. z&nbsp;22.1 na 22.2) i&nbsp;są kwestią minut.
+I owszem, zmusza to do odrobinę większej pracy przy aktualizacjach -- ale nie wszystkich. Od jakiegoś czasu Linux Mint [ułatwia drobniejsze aktualizacje](https://blog.linuxmint.com/?p=4629) (np. z&nbsp;22.1 na&nbsp;22.2) i&nbsp;są kwestią minut.
 
-Osobna partycja na folder `/home` nie niesie za sobą już takich korzyści jak kiedyś. Można się po prostu nastawić na ciut więcej pracy co kilka lat, przy aktualizacji do większej wersji (np. z&nbsp;22.x na 23.x):
+Osobna partycja na folder `/home` nie niesie za sobą już takich korzyści jak kiedyś. Można się po prostu nastawić na ciut więcej pracy co kilka lat, przy aktualizacji do większej wersji (np. z&nbsp;22.x na&nbsp;23.x). Należy wtedy:
 
 * zgrać sobie pliki z&nbsp;folderu `/home` w&nbsp;bezpieczne miejsce, np. na jakiś dysk zewnętrzny;
 * „odpalić atomówkę” i&nbsp;wyczyścić całą wspólną partycję podczas wgrania nowszej wersji Linuksa;
@@ -134,7 +139,6 @@ Osobna partycja na folder `/home` nie niesie za sobą już takich korzyści jak 
   {:.post-meta .bigspace-after}
   Dygresja: czasem jednak warto robić pewien przesiew plików z&nbsp;folderu `/home`, zwłaszcza tych z&nbsp;podfolderu `.config`. Może przykładowo zapisane tam ustawienia Firefoksa już nie do końca pasują do jego nowszej wersji, zawartej w&nbsp;świeżo zaktualizowanym Mincie?
 
-I to tyle. Mam nadzieję, że porady z&nbsp;tego wpisu pozwolą wszystkim czytającym osobom nieco oswoić się z&nbsp;problemem pętli logowania.
-
-Znacznej większości osób nie dotknie on w&nbsp;ogóle, ale jeśli już dotknie -- rozwiązanie bywa proste. Taka cecha otwartego Linuksa :smile:
+I to tyle. Mam nadzieję, że porady z&nbsp;tego wpisu pozwolą wszystkim czytającym osobom nieco oswoić się z&nbsp;problemem pętli logowania.  
+Znacznej większości nie dotknie on w&nbsp;ogóle, ale jeśli już dotknie -- rozwiązanie bywa proste. Taka cecha otwartego Linuksa :smile:
 
