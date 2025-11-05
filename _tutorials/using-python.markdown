@@ -10,6 +10,7 @@ Zakładam, drodzy czytelnicy, że nie mieliście do czynienia z&nbsp;Pythonem. I
 
 Ale skrypty się same nie włączą. Żeby z nich skorzystać, musimy przynajmniej zainstalować i&nbsp;uruchomić Pythona. Całość trwa maksymalnie kilka minut i&nbsp;jest bardzo prosta. 
 
+{:.post-meta .bigspace-after}
 **Uwaga:** Pokazuję tutaj informacje tylko dla wybranych systemów. Na innych instalacja przebiega nieco inaczej, ale zwykle jest równie prosta.
 
 ## Instalowanie Pythona
@@ -53,6 +54,9 @@ Pewna różnica względem Windowsa polega na tym, że Linux nie jest tak naprawd
 Osobiście korzystam z&nbsp;dystrybucji Linux Mint. Która pod względem działania oraz wyglądu jest dość podobna do Windowsa, więc łatwo się przestawić.
 
 Okej. Więc żeby zainstalować Pythona na Mincie... **Zapewne nie musimy nic robić** :wink: Jest domyślnie dołączony do systemu!
+
+{:.post-meta .bigspace-after}
+...Ma jednak ograniczoną możliwość instalowania modułów z&nbsp;zewnątrz. Gdybyście ich kiedyś potrzebowali, to warto poczytać [mój inny poradnik](/tutorials/python-blad-externally-managed-environment){:.internal}.
 
 Oczywiście może nas najść ochota, żeby zamiast domyślnej wersji skorzystać również z&nbsp;najnowszej. Tu już jest nieco więcej kroków, więc pozwolę sobie podlinkować [fajny poradnik](https://askaholic.io/installing-python-from-source/) po angielsku.
 
@@ -151,7 +155,7 @@ Staram się, żeby każdy skrypt był niezależną całością. Ale nie zawsze 
 
 Dlatego niektóre skrypty **mogą wymagać dodatkowych modułów**. Jeśli tak jest, to zawsze o&nbsp;tym wspominam. Sam skrypt też powinien wyświetlać odpowiedni komunikat, jeśli mu czegoś brakuje.
 
-Stworzyłem również krótki [samouczek na temat pobierania zewnętrznych modułów](/tutorials/using-pip). Przyda się w&nbsp;przypadku trafienia na skrypt wymagający czegoś poza podstawowym Pythonem.
+Stworzyłem również krótki [samouczek na temat pobierania zewnętrznych modułów](/tutorials/using-pip){:.internal}. Przyda się w&nbsp;przypadku trafienia na skrypt wymagający czegoś poza podstawowym Pythonem.
 
 ### Czy to bezpieczne?
 

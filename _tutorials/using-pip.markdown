@@ -9,7 +9,7 @@ Ten wpis to rozwinięcie [podstawowego samouczka]({{site.url}}/tutorials/using-p
 
 Staram się, żeby moje skrypty były niezależne i&nbsp;mieściły się w&nbsp;jednym pliku. Ale czasami to niemożliwe. Niektóre zadania wymagają pomocy modułów zewnętrznych.
 
-Tak jest w&nbsp;przypadku skryptów, które dołączyłem np. do [wpisu o&nbsp;metadanych w&nbsp;obrazkach]({% post_url 2021-02-10-gdzie-jestem-zapytaj-moich-zdjec %}).
+Tak jest w&nbsp;przypadku skryptów, które dołączyłem np. do [wpisu o&nbsp;metadanych w&nbsp;obrazkach]({% post_url 2021-02-10-gdzie-jestem-zapytaj-moich-zdjec %}){:.internal}.
 
 Do otwierania obrazków potrzeba modułu zewnętrznego PIL (*Python Imaging Library*). Jeśli otworzycie mój skrypt w&nbsp;IDLE i&nbsp;naciśniecie `F5`, żeby go odpalić -- a&nbsp;nie macie PIL-a -- to wyświetli się komunikat:
 
@@ -26,6 +26,14 @@ Dzięki PIP-owi uniwersum Pythona stoi otworem. Możemy ściągać z&nbsp;intern
 
 {:.figcaption}
 Źródło: [nexusmods.com](https://staticdelivery.nexusmods.com/images/1151/341894-1515547342.jpg).
+
+## Spis treści
+
+* [PIP na Windowsie](#pip-na-windowsie)
+* [Instalacja na Linuksie](#instalacja-na-linuksie)
+* [Znaj swój moduł](#znaj-swój-moduł)
+
+## PIP na Windowsie
 
 Żeby użyć PIP-a, trzeba skorzystać z&nbsp;PowerShella, domyślnej konsoli Windowsa  
 (konsola to takie okienko, w&nbsp;którym wpisujemy różne polecenia, a&nbsp;komputer je od razu wykonuje).
@@ -62,19 +70,39 @@ I zrobione! Może i&nbsp;metadanych tu nie ma, ale skrypt działa jak powinien.
 Wtedy sprawdzamy jakość swojego połączenia na innej dowolnej stronce i&nbsp;próbujemy znowu.  
 Jeśli to nie pomaga, to znaczy że coś się popsuło po stronie PyPI (stronki z&nbsp;modułami Pythona). Najlepiej się nie zrażać i&nbsp;po jakimś czasie spróbować ponownie." trailer="<p class='figure'><img src='/assets/tutorials/using-pip/pip-error.webp' alt='Zrzut ekranu z&nbsp;PowerShella, pokazujący długi komunikat o&nbsp;błędzie w&nbsp;połączeniu i&nbsp;mówiący, że nie znaleziono odpowiedniej wersji modułu pillow'/></p>" %}
 
-# Dla użytkowników Linuksa
+# Instalacja na Linuksie
 
 Przede wszystkim piąteczka!
 
-W przypadku Linuksa zasadniczy mechanizm jest ten sam -- instalacja przez *pip* -- ale warto wiedzieć o paru rzeczach. Sam nie wiedziałem i&nbsp;straciłem przez to trochę czasu i nerwów, więc może chociaż Wam tego oszczędzę.
+Linux to ciekawa sprawa. Z&nbsp;jednej strony pozwala oszczędzić sobie roboty, bo Python jest na nim domyślnie zainstalowany.
 
-Przede wszystkim warto wiedzieć, że czasem macie zainstalowane dwie wersje Pythona -- starą wersję *2.7* oraz nowszą *3.coś*. To tej drugiej chcecie używać.
+Ale, żeby nie było zbyt fajnie -- to Python systemowy, który od pewnego czasu **ma ograniczone możliwości instalowania zewnętrznych modułów**. To zmiana na gorsze w&nbsp;porównaniu z&nbsp;tym, co było wcześniej. Dlatego ta część samouczka nieco się zdezaktualizowała i&nbsp;wymagała przepisania :disappointed:
 
-Upewnijcie się, jak jest. Wpiszcie w konsoli `pip --version` i&nbsp;spójrzcie, jaką wersję Pythona wyświetla pod koniec.
- 
+Kwestia instalowania zewnętrznych modułów na Linuksie (przez PIP-a i&nbsp;nie tylko) jest teraz opisana [w&nbsp;innym samouczku](/tutorials/python-blad-externally-managed-environment){:.internal}, zapraszam tam serdecznie!
+
+Tutaj zostawię tylko parę uwag uzupełniających, pokazujących różnice między Linuksem a&nbsp;Windowsem pod względem korzystania z&nbsp;PIP-a.
+
+{% include details.html summary="Informacje uzupełniające na temat PIP-a" %}
+
+{:.bigspace-before}
+Zakładam, że odwiedziliście link znad tej zakładki i macie teraz którąś z następujących rzeczy:
+
+* PIP-a w aktywnym środowisku wirtualnym,
+* PIP-a zainstalowanego jako moduł systemowego Pythona (plus gotowość do użycia opcji `--break-system-packages`).
+
+Jeśli tak, to służę paroma informacjami uzupełniającymi.
+
+{:.post-meta .bigspace-before}
+Niektóre z poniższych informacji są już nieaktualne, przynajmniej na Mincie i&nbsp;paru innych popularnych Linuksach. Ale zostawiam, bo może pomogą przy innych systemach.
+
+Przede wszystkim warto wiedzieć, że czasem macie zainstalowane dwie wersje Pythona -- starą wersję `2.7` oraz nowszą `3.coś`. To tej drugiej chcecie używać.  
+Upewnijcie się, jak jest. Wpiszcie w konsoli `pip --version` i&nbsp;spójrzcie, jaką wersję Pythona wyświetla pod koniec.  
 Jeśli pod samym *pip* macie wersję drugą, to&nbsp;w celu użycia trzeciej **musicie, tam gdzie inni wpisują samo `pip`, wpisywać `pip3`**.
 
-Druga sprawa: zapewne przy próbie instalacji będzie Wam wyskakiwał błąd *Permission Denied*. [To normalne](https://stackoverflow.com/questions/33922240/why-i-cant-do-some-things-without-sudo-using-python-and-pip), Linux chroni część systemu przed zmianami. Dlatego musicie dodać też opcję `--user`, żeby instalować dla konkretnego użytkownika.
+{:.post-meta .bigspace-after}
+Koniec części (raczej) nieaktualnej.
+
+Druga sprawa: zapewne przy próbie instalacji będzie Wam wyskakiwał błąd *Permission Denied*. [To normalne](https://stackoverflow.com/questions/33922240/why-i-cant-do-some-things-without-sudo-using-python-and-pip), Linux chroni część systemu przed zmianami. W&nbsp;razie błędu należy dopisać też opcję `--user`, żeby instalować dla konkretnego użytkownika.
 
 Podsumowując: tam, gdzie na Windowsie byście po prostu wpisali:
 
@@ -90,6 +118,8 @@ pip3 install --user jakiś_pakiet
 
 Warto o tym pamiętać, czytając instrukcje z&nbsp;internetu.
 
+{% include details-end.html %}
+
 # Znaj swój moduł
 
 Jak sami widzicie, pobieranie modułów zewnętrznych Pythona jest całkiem bezbolesne.
@@ -98,4 +128,4 @@ Natomiast nie byłbym sobą, gdybym nie wspomniał o&nbsp;ich ciemnej stronie. M
 
 Zawsze kiedy polecam jakiś moduł zewnętrzny, dorzucam też linki do jego źródła. Dzięki temu można osobiście sprawdzić, na ile dany moduł jest popularny i&nbsp;kto za nim stoi.
 
-Nie daje to oczywiście 100% gwarancji bezpieczeństwa (nawet do najbardziej zaufanego modułu ktoś mógł „dorzucić” szemrany kod). Ale nawet taka lekka kontrola jest lepsza niż ślepe zgadzanie się na wszystko -- co przecież często robimy, instalując różne *byznesowe* programy od korpo.
+Nie daje to oczywiście 100% gwarancji bezpieczeństwa (nawet do najbardziej zaufanego modułu ktoś mógł „dorzucić” szemrany kod -- przykładem [afera XZ](/cyfrowy_feudalizm/2024/03/31/xz-backdoor){:.internal}). Ale nawet taka lekka kontrola jest lepsza niż ślepe zgadzanie się na wszystko -- co przecież często robimy, instalując różne *byznesowe* programy od korpo.
