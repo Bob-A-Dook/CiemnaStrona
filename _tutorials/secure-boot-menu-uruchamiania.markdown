@@ -145,7 +145,7 @@ No cóż, to tylko nazwa, a&nbsp;te bywają niedokładne. Również tu bliższe 
 
 To ważne menu, które lubię nazywać „przedsystemowym”. Pozwala kontrolować najbardziej fundamentalne rzeczy związane z&nbsp;komputerem.
 
-W najlepszym przypadku komputer sam podpowiada w&nbsp;pierwszych sekundach, jaki klawisz nacisnąć. Po naciśnięciu może się pojawić menu nadrzędne, zawierające np. pozycję `BIOS Menu` albo `UEFI Menu`. To tam należy przejść.
+W najlepszym przypadku komputer sam podpowiada w&nbsp;pierwszych sekundach po włączeniu, jaki klawisz nacisnąć. Po naciśnięciu może się pojawić menu nadrzędne, zawierające np. pozycję `BIOS Menu` albo `UEFI Menu`. To tam należy przejść.
 
 Jeśli nie ma żadnej podpowiedzi, to pozostaje poszukać w&nbsp;sieci pod hasłem `{model_komputera} bios menu`. Ogólnie: to menu bywa czasem trudniejsze do znalezienia niż menu uruchamiania z&nbsp;poprzedniej części wpisu.
 
@@ -164,15 +164,31 @@ Cała ta metoda w&nbsp;wewnętrznej terminologii Lenovo nosi nazwę Novo.
 
 Po wejściu w&nbsp;BIOS/UEFI ma się zazwyczaj różne zakładki do dyspozycji. Można między nimi przechodzić, naciskając klawisze strzałek. Pstryczek odpowiedzialny za działanie SB mógłby się znaleźć na przykład w&nbsp;zakładce `Security`.
 
-Pocieszę przynajmniej, że po odnalezieniu opcji jej wyłączenie bywa kwestią sekund: zaznaczenia i&nbsp;naciśnięcia klawisza *Enter*. Zostanie wyłączona (ang. `Disabled` albo `Off`).  
+Pocieszę przynajmniej, że po odnalezieniu tej opcji jej wyłączenie bywa kwestią sekund: zaznaczenia i&nbsp;naciśnięcia klawisza *Enter*. Przejdzie w tryb wyłączony (ang. `Disabled` albo `Off`).  
 Można teraz wyjść z&nbsp;BIOS-u/UEFI, zapisując po drodze zmiany. I&nbsp;spróbować ponownie uruchomić system z&nbsp;pendrive'a.
 
 Poniżej przykład ważniejszych elementów menu UEFI na laptopie Lenovo Legion. Znalezienie wyłącznika SB jest łatwe -- należy natomiast **pamiętać o&nbsp;wybraniu opcji `Save and Exit`**, żeby zapisać wprowadzone zmiany.
 
-{:.bigspace}
+{:.bigspace-before}
 <img src="/assets/tutorials/ventoy/uefi-secure-boot-wylaczanie.png" alt="Kolaż pokazujący różne elementy interfejsu UEFI wiążące się z&nbsp;wyłączaniem trybu secure boot" width="100%"/>
 
+{:.figcaption}
+W tym przypadku menu w&nbsp;rogu podpowiada, że należy nacisnąć klawisz `F4`, żeby potwierdzić zmiany.
+
 Przykłady innych możliwych wariantów tego menu i&nbsp;wyłączania przez nie SB można znaleźć na [filmie z&nbsp;kanału Britec](https://www.youtube.com/watch?v=-DKBynugBW8).
+
+{% include details.html summary="Gdyby opcja wyłączenia Secure Boota była nieaktywna" %}
+
+Niedawno pewien bloger opublikował [wpis na temat instalacji Linuksa](https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729) na laptopie Fujitsu Lifebook U729.
+
+Ogólnie wykonywał te same kroki, które tu opisałem, ale po wejściu w&nbsp;menu BIOS-u nie działała opcja wyłączenia Secure Boota. Miała kolor szary i&nbsp;nie dało się jej zmieniać.
+
+Autor musiał uruchomić Windowsa (który był domyślnym systemem na jego laptopie) i&nbsp;zaktualizować przez niego sterowniki od Fujitsu. Następnie uruchomił załączony program DeskUpdate, co zaktualizowało BIOS z&nbsp;wersji 2.17 do 2.31.  
+W tej nowej wersji opcja wyłączania SB już była aktywna i&nbsp;zadziałała jak powinna.
+
+Ogólnie, wychodząc poza przypadek konkretnego laptopa: BIOS/UEFI to normalny program, który można aktualizować. I&nbsp;warto się o&nbsp;to pokusić, gdyby coś nie działało.
+
+{% include details-end.html %}
 
 ### Inne możliwe problemy
 
