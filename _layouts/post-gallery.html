@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "pl" }}">
+  {%- include head.html -%}
+  <body>
+  {%- include header.html -%}
+  <main class="page-content" style="padding-left:5px;padding-right:5px"aria-label="Content">
+    <h2 class="post-list-heading">{{ page.list_title | default: "Galeria wpisów" }}</h2>
+    <p class="post-meta nospace">Lista wpisów jest dostępna również w domyślnym <a href="/" class="internal">widoku uproszczonym</a>.</p>
+    <ul class="post-list">
+    {%- for post in site.posts -%}
+      <li class="framed bigspace" style="width: fit-content">
+        {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y r." -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span><br/>
+        <a href="{{ post.url | relative_url | remove: '.html' }}">
+          <span style="padding-right: 15px">
+          {{ post.title | escape | replace:" z ", " z&nbsp;" | replace:" o ", " o&nbsp;" | replace:" u ", " u&nbsp;" | replace:" i ", " i&nbsp;" | replace:" w ", " w&nbsp;"}}
+          </span>
+          <img src="{{post.image.path}}" alt="{{post.image.alt}}" style="max-height: 500px; margin-left:0px; margin-right:0px" loading="lazy"/>
+        </a>
+      </li>
+    {%- endfor -%}
+    </ul>
+  </body>
+  </main>
+</html>

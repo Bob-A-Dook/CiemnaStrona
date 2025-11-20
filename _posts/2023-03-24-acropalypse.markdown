@@ -7,7 +7,7 @@ date:   2023-03-24 20:00:00 +0100
 tags: [Afera, Inwigilacja, Podstawy, Porady]
 firmy: [Google, Microsoft]
 image:
-  path: /assets/posts/apki/acropalypse-baner.jpg
+  path: /assets/posts/apki/acropalypse/acropalypse-baner.jpg
   width: 1200
   height: 700
   alt: "Zdjęcie rzymskiej rzeźby pokazującej brodatego mężczyznę. Jego twarz jest jaśniejsza niż reszta i otoczona ramką jak do przycinania obrazu, a półnagie ciało jest przyciemnione. Pod spodem widać stylizowany napis Acropalypse."
