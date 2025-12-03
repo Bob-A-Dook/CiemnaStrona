@@ -4,7 +4,7 @@ title: "Podsumowanie 2024 roku"
 subtitle: "Małe szczęścia na wojence ludzi z korpo."
 description: "Małe szczęścia na wojence ludzi z korpo."
 date:   2025-01-05 14:00:00 +0100
-tags: [Afera, Centralizacja, Inwigilacja, Luigi Mangione, Open source]
+tags: [Afera, Centralizacja, Inwigilacja, Luigi Mangione, Open Source]
 firmy: [Cargill, CrowdStrike, DSM, Google]
 image:
   path: /assets/posts/podsumowania/podsumowanie2024/terra-formars-antykorpo-baner.jpg
