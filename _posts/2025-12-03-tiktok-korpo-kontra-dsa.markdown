@@ -53,7 +53,7 @@ Osobiście jestem człowiekiem raczej sprzyjającym Unii. To żadna tajemnica, �
 
 Pozytywny stosunek mam na przykład do dyrektywy Omnibus, nakazującej podawanie najniższej ceny produktu z&nbsp;ostatnich 30&nbsp;dni. Fajny sposób na ukrócenie zjawiska fałszywych promocji.
 
-Cenię także GDPR/RODO od danych osobowych. Mimo paru uciążliwości dla mniejszych organizacji, przepisy dają oręż w&nbsp;walce z&nbsp;naruszaniem prywatności i&nbsp;ujawniają skalę śledzenia w&nbsp;internecie. Nawet jeśli egzekwowanie przepisów często kuleje.
+Cenię także GDPR/RODO od danych osobowych. Mimo paru uciążliwości dla mniejszych organizacji i problemów z egzekwowaniem, przepisy te dają oręż w&nbsp;walce z&nbsp;naruszaniem prywatności i&nbsp;ujawniają skalę śledzenia w&nbsp;internecie.
 
 {:.post-meta .bigspace-after}
 Są też korzyści uboczne. Te przepisy pozwoliły np. francuskiemu urzędowi od ochrony danych [dojechać korporację Bayer](/2022/12/24/monsanto-posilac-roundup#front-szpiegowski){:.internal} za tworzenie „teczek” z&nbsp;dokładnymi danymi krytyków firmy.
@@ -448,7 +448,7 @@ Siedzę trochę w&nbsp;sprawach cyfrowych i&nbsp;wiem, że da się zrobić weryf
 {:.post-meta .bigspace-after}
 Zresztą mObywatel to beniaminek Ministerstwa Cyfryzacji. Michał G., autor kontrowersyjnych słów z&nbsp;tego wpisu, [zbył kiedyś](https://pl.fediverse.pl/@mkljczk/posts/Aid1OYdZRyI6HF4NtY) osobę apelującą o&nbsp;otwarcie jego kodu źródłowego w&nbsp;podobny sposób jak panią Bigaj.
 
-W przypadku weryfikacji mObywatelem TikTok i&nbsp;Meta straciłyby wpływy, ale Google i&nbsp;Apple stałyby się ściśle zrosnięte z&nbsp;państwem, zaś alternatywne systemy smartfonowe straciłyby resztki szans. To też mi się nie podoba.
+W przypadku weryfikacji mObywatelem wpływy TikToka i&nbsp;Mety by osłabły, ale Google i&nbsp;Apple stałyby się ściśle zrośnięte z&nbsp;państwem, zaś alternatywne systemy smartfonowe straciłyby resztki szans. To też mi się nie podoba.
 
 Rozwiązaniem, które mógłbym zaakceptować, byłby **fizyczny dynks** rozdawany na życzenie przez urzędy. Coś jak pendrive albo klucz sprzętowy, poświadczający na żądanie: „tak, używająca mnie osoba jest pełnoletnia”.
 
