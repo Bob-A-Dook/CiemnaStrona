@@ -21,11 +21,6 @@ Etap uruchamiania (czyli *bootowania*) to moim zdaniem największy, niepotrzebny
 
 Wpis stworzyłem w&nbsp;domyśle jako uzupełnienie [samouczka dotyczącego Ventoya](/tutorials/ventoy){:.internal}, ale powinien odnosić się również do innych rodzajów pendrive'ów instalacyjnych.
 
-{% include info.html
-type="Uwaga"
-text="Wpis jest na razie szczątkowy, będę do niego stopniowo dodawał informacje."
-%}
-
 ## Spis treści
 
 * [Ogólny opis sytuacji](#ogólny-opis-sytuacji)
@@ -34,6 +29,7 @@ text="Wpis jest na razie szczątkowy, będę do niego stopniowo dodawał informa
 * [Menu BIOS-u/UEFI](#menu-bios-uuefi)
   * [Wyłączanie secure boota](#wyłączanie-secure-boota)
   * [Inne możliwe problemy](#inne-możliwe-problemy)
+* [Opisy dla konkretnych urządzeń](#opisy-dla-konkretnych-urządzeń)
 
 ## Ogólny opis sytuacji
 
@@ -164,7 +160,7 @@ Cała ta metoda w&nbsp;wewnętrznej terminologii Lenovo nosi nazwę Novo.
 
 Po wejściu w&nbsp;BIOS/UEFI ma się zazwyczaj różne zakładki do dyspozycji. Można między nimi przechodzić, naciskając klawisze strzałek. Pstryczek odpowiedzialny za działanie SB mógłby się znaleźć na przykład w&nbsp;zakładce `Security`.
 
-Pocieszę przynajmniej, że po odnalezieniu tej opcji jej wyłączenie bywa kwestią sekund: zaznaczenia i&nbsp;naciśnięcia klawisza *Enter*. Przejdzie w tryb wyłączony (ang. `Disabled` albo `Off`).  
+Pocieszę przynajmniej, że po odnalezieniu tej opcji jej wyłączenie bywa kwestią sekund: zaznaczenia i&nbsp;naciśnięcia klawisza *Enter*. Przejdzie w&nbsp;tryb wyłączony (ang. `Disabled` albo `Off`).  
 Można teraz wyjść z&nbsp;BIOS-u/UEFI, zapisując po drodze zmiany. I&nbsp;spróbować ponownie uruchomić system z&nbsp;pendrive'a.
 
 Poniżej przykład ważniejszych elementów menu UEFI na laptopie Lenovo Legion. Znalezienie wyłącznika SB jest łatwe -- należy natomiast **pamiętać o&nbsp;wybraniu opcji `Save and Exit`**, żeby zapisać wprowadzone zmiany.
@@ -199,4 +195,47 @@ Może to wynikać z&nbsp;jakiejś niezgodności formatów. W&nbsp;przypadku prog
 Przyczyną problemu (rzadszą) może być również jakaś niekorzystna opcja włączona w&nbsp;menu BIOS-u/UEFI.
 
 W takim wypadku warto w&nbsp;nie wejść i&nbsp;poszukać tam zakładki w&nbsp;stylu *boot options* albo *boot devices*. Może się zdarzyć, że opcja ładowania z&nbsp;pendrive'a jest całkiem wyłączona, a&nbsp;dopiero po jej włączeniu wszystko zacznie działać.
+
+## Opisy dla konkretnych urządzeń
+
+W tej części opiszę przypadki uruchamiania Linuksa na konkretnych urządzeniach, jakie miałem okazję pożyczyć. Może nie najmłodszych, ale sprawnych i&nbsp;wciąż będących w&nbsp;obiegu.  
+Dla każdego z&nbsp;nich będzie komplet informacji zahaczających o&nbsp;kategorie z&nbsp;tego wpisu -- dostęp do różnych menu i&nbsp;wyłączanie *secure boota*.
+
+{% include details.html summary="HP Elitebook 820" %}
+
+Na tym komputerze istnieją wszystkie trzy rodzaje menu, jakie tu omówiłem: uruchamiania, BIOS-u i&nbsp;nadrzędne. Do każdego z&nbsp;nich można przejść zaraz po włączeniu laptopa, naciskając odpowiedni klawisz:
+
+* `Esc`, żeby wejść do menu nadrzędnego;
+* `F9`, żeby wejść do menu uruchamiania;
+* `F10`, żeby wejść do menu BIOS-u.
+
+Najlepiej najpierw nacisnąć wybrany klawisz i, cały czas go trzymając, nacisnąć raz przycisk uruchamiający komputer. Potem trzeba dociskać klawisz jeszcze parę sekund, aż logo HP na chwilę mignie, zniknie i&nbsp;pojawi się ponownie.
+
+{:.post-meta .bigspace-after}
+Gdybyśmy próbowali naciskać klawisz *po* przycisku zasilania i&nbsp;nie wstrzelilibyśmy się w&nbsp;wąskie okno czasowe -- to w&nbsp;dolnej części zacznie wirować kółko sygnalizujące ładowanie. Jeśli się pojawiło, to znaczy że jest już za późno i&nbsp;uruchomi się domyślny system.
+
+**Menu nadrzędne** jest typowe i&nbsp;pozwala przejść m.in. do pozostałych dwóch. Nie widzę konieczności korzystania z&nbsp;niego w&nbsp;naszym przypadku.
+
+**Menu uruchamiania** bardziej się przyda, ale pod względem działania również się nie wyróżnia. Po prostu lista, z&nbsp;której powinno się wybrać pendrive'a z&nbsp;Linuksem i&nbsp;potwierdzć klawiszem *Enter*.
+
+Podobnie jak na wielu innych komputerach -- nie załadujemy systemu z&nbsp;pendrive'a, jeśli mamy włączony tryb *secure boot*. Żeby go wyłączyć, trzeba odwiedzić trzeci rodzaj menu, czyli **menu BIOS-u**.
+
+Znajduje się tam kilka zakładek, widocznych u&nbsp;góry. Zaczynamy w&nbsp;opcjach podstawowych (`Main`). Zakładki można zmieniać strzałkami w&nbsp;lewo i&nbsp;prawo; opcję wyłączenia *secure boota* znajdziemy w&nbsp;opcjach zaawansowanych (`Advanced`).
+
+Po wejściu w&nbsp;tę zakładkę należy:
+
+* zaznaczyć (strzałkami w&nbsp;górę/dół) kategorię `Secure Boot Configuration` i&nbsp;potwierdzić klawiszem *Enter*;
+* wewnątrz menu, które się otworzy -- zaznaczyć linijkę `Configure Legacy Support and Secure Boot`;
+* *Enterem* i&nbsp;strzałkami zmienić wartość opcji na `Legacy Support Disable and Secure Boot Disable`.
+
+Kiedy wyłączymy SB, należy wrócić do pierwszej zakładki, z&nbsp;ogólnymi ustawieniami, i&nbsp;wybrać tam opcję zapisania i&nbsp;wyjścia (`Save Changes and Exit`).
+
+Zapewne pojawi się komunikat informujący, że wyłączyliśmy SB i&nbsp;że należy teraz przepisać wyświetlony kilkucyfrowy kod w&nbsp;celu akceptacji zmian. Przepisujemy, wciskamy *Enter*. Od teraz ładowanie przez pendrive'a powinno działać.
+
+{:.post-meta .bigspace-after}
+Nie wykluczam, że za pojawienie się prośby o&nbsp;przepisanie kodu odpowiada opcja `Physical Presence Interface`, którą też dałoby się wyłączyć w&nbsp;menu BIOS-u. Ale taka jednorazowa przeszkoda nie była dla mnie problemem, więc nie ingerowałem w&nbsp;jej działanie.
+
+{% include details-end.html %}
+
+Życzę owocnego uruchamiania Linuksa! Pokonanie jednego wyboju może dać spokój na całe lata :smile:
 
