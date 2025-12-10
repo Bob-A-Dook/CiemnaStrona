@@ -7,7 +7,7 @@ date:   2025-12-03 10:00:00 +0100
 tags: [Afera, Kolonizacja, Manipulacja, Szkolnictwo]
 firmy: [TikTok, Uber]
 image:
-  path: /assets/korpoafery/tiktok-dsa-walka/tiktok-vs-polski-robin-hood-baner.jpg
+  path: /assets/posts/korpoafery/tiktok-dsa-walka/tiktok-vs-polski-robin-hood-baner.jpg
   width: 1200
   height: 700
   alt: "Dwa kadry z animowanego Robin Hooda umieszczone obok siebie. Na lewym Robin mierzy z łuku. Na prawym widać szarżujących strażników, na których nałożono logo TikToka. Pchają przed sobą księcia Jana, podpisanego jako Ministerstwo Cyfryzacji."
