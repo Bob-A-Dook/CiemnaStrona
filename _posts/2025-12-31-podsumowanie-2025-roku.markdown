@@ -108,7 +108,7 @@ Jak napisałem we [wpisie, w&nbsp;którym go promuję](/2025/04/22/koniec-window
 I jak napisałem, tak zrobiłem. Na blogu zagościły liczne poradniki.
 
 Było o&nbsp;instalowaniu Linuksa z&nbsp;pendrive'a. O&nbsp;rozwiązywaniu popularnych błędów. O&nbsp;ustawianiu języka polskiego, zdobywaniu czcionek Microsoftu w&nbsp;celu poprawienia kompatybilności LibreOffice'a...  
-Ogólnie:rzeczy podstawowe, szczególnie przydatne dla osób wchodzących w&nbsp;nowy, otwarty świat równoległy wobec Windowsa.
+Ogólnie: rzeczy podstawowe, szczególnie przydatne dla osób wchodzących w&nbsp;nowy, otwarty świat równoległy wobec Windowsa.
 
 Odszedłem też od typowego dla siebie skakania po tematach. Każdy post/samouczek rozwiązuje zwykle jeden konkretny problem, z&nbsp;jakim mogą się zderzyć ludzie przechodzący na Linuksa.
 
