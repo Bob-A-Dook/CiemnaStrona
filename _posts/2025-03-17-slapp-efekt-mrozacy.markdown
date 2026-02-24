@@ -234,7 +234,7 @@ Nie zna danych? To kiszka. Może niby zwrócić się do platformy z&nbsp;prośb�
 
 Najczęściej w&nbsp;takim przypadku pozostaje droga karna. Urażony człowiek zgłasza całą sytuację jako zniesławienie. Jeśli jego zgłoszenie zostanie przyjęte, to kolejne zapytanie o&nbsp;dane osobowe wyślą do platformy oficjalne służby Krainy Czarów. A&nbsp;to zmienia postać rzeczy.
 
-Jeśli to portal krajowy, w&nbsp;jurysdykcji (domenie prawnej) Krainy Czarów, to jego właściciel na pewno udostępni dane wskazanego komentatora.
+Jeśli to portal krajowy, w&nbsp;jurysdykcji (domenie prawnej) Krainy Czarów, to lepiej ostrożnie założyć, że jego właściciel udostępni dane wskazanego komentatora.
 
 * Numer telefonu (jeśli portal wymagał jego podania przy rejestracji).
 

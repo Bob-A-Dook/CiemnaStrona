@@ -203,7 +203,7 @@ Co więcej, nie tylko firmy od sprzętu i&nbsp;tworzenia algorytmów rzuciły si
 Microsoft zapowiedział, że Windows to od teraz „agentowy system operacyjny”. Czyli po ludzku: nabity elastycznymi algorytmami, próbującymi na siłę ułatwić użytkownikom życie.
 
 {:.post-meta .bigspace-after}
-To akurat odbieram pozytywnie, bo to kolejna rzecz -- na fali licznych słabości i&nbsp;niedoróbek Windowsa 11&nbsp;-- która może pchnąć ludzi ku alternatywowm.
+To akurat odbieram pozytywnie, bo to kolejna rzecz -- na fali licznych słabości i&nbsp;niedoróbek Windowsa&nbsp;11 -- która może pchnąć ludzi ku alternatywowm.
 
 Nawet **Firefox** poszedł ku gorszemu. Nowy szef Mozilli zapowiedział, że planuje zrobić z&nbsp;niego „współczesną przeglądarkę AI”.
 
@@ -333,9 +333,8 @@ Będzie też o&nbsp;**adresie MAC**, dzięki któremu hotspoty mogą identyfiko
 {:.post-meta .bigspace-after}
 Zarówno tryb *live*, jak i&nbsp;losowy adres MAC to atuty prywatnościowego systemu *Tails*. Będzie dobra okazja, żeby go poznać od podszewki.
 
-Jeśli wena dopisze, to chciałbym też poświęcić nieco uwagi programowi **OpenSnitch**, który pozwala monitorować wszystkie interakcje naszych programów z&nbsp;zewnętrznymi serwisami. A&nbsp;także blokować te niechciane.
- 
-Świetny sposób na podejrzenie, co różne programy wysyłają w&nbsp;świat i&nbsp;na zyskanie odrobiny władzy nad swoim sprzętem. Można nieco się przestraszyć tym, jak „gadatliwy” bywa nawet najspokojniejszy system.
+Jeśli wena dopisze, to chciałbym też poświęcić nieco uwagi programowi **OpenSnitch**, który pozwala monitorować wszystkie interakcje naszych programów z&nbsp;zewnętrznymi serwisami. A&nbsp;także blokować te niechciane.  
+To świetny sposób na podejrzenie, co różne programy wysyłają w&nbsp;świat i&nbsp;na zyskanie odrobiny władzy nad swoim sprzętem. Można nieco się przestraszyć tym, jak „gadatliwy” bywa nawet najspokojniejszy system.
 
 To tyle z&nbsp;zapowiedzi. Życzę sobie i&nbsp;Wam przyjemnego witania 2026&nbsp;roku! :metal:
 
