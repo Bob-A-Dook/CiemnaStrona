@@ -13,7 +13,9 @@ image:
   alt: "Schemat pokazujący strony internetowe w formie elips oraz liczne wychodzące od nich strzałki, symbolizujące linki. Po lewej stronie mamy kilkanaście stron z serwisu YouTube, a po prawej strony zewnętrzne"
 ---
 
-To wpis, który rozrósł się w całą miniserię na temat Monsanto -- koncernu produkującego różne rzeczy związane z&nbsp;rolnictwem. Kto chce, ten może poczytać moje poprzednie wpisy (na temat ich działalności chemicznej i&nbsp;biotechnologicznej). Będę do nich parę razy odsyłał, ale zasadniczo ich znajomość nie jest konieczna.
+To wpis, który rozrósł się w całą miniserię na temat Monsanto -- koncernu produkującego różne rzeczy związane z&nbsp;rolnictwem.
+
+Kto chce, ten może poczytać moje poprzednie wpisy na temat ich działalności chemicznej i&nbsp;biotechnologicznej, zaczynając [od tego](/2022/12/24/monsanto-posilac-roundup){:.internal}. Będę do nich parę razy odsyłał, ale zasadniczo ich znajomość nie jest konieczna.
 
 {% include info.html
 type="Uwaga"
@@ -64,8 +66,9 @@ Zobaczymy też inny smutny fakt, ogólniejszy niż Monsanto czy nawet branża *b
 
 {% include info.html
 type="Porada"
-text="Wpis jest dość długi i&nbsp;nie każdy go pewnie przeczyta za jednym zamachem, można sobie dzielić.  
-W razie czego jego części są w&nbsp;miarę niezależne -- fragment o&nbsp;linkach warto przeczytać razem z&nbsp;omówieniem powiązanych stron. Zaś fragment o&nbsp;narracji to luźne przykłady, które można odwiedzać w&nbsp;dowolnej kolejności."
+text="Wpis jest dość długi i&nbsp;nie każdy go pewnie przeczyta za jednym zamachem. Nic nie szkodzi -- jego części są w miarę niezależne i&nbsp;można czytać na raty.  
+Wprowadzenie i&nbsp;opis powiązań warto przeczytać razem z&nbsp;podlinkowanym omówieniem branżowych stron.  
+Część o&nbsp;narracji i&nbsp;motywach to z&nbsp;kolei luźne przykłady, które można odwiedzać w&nbsp;dowolnej kolejności."
 %}
 
 ## Trójca z&nbsp;YouTube'a
@@ -83,7 +86,7 @@ Klikając w&nbsp;takiego nicka, przejdziecie do profilu, gdzie widać ustawione 
 
 {% include info.html
 type="Ciekawostka"
-text="W komentarzach można też znaleźć nawiązania do innego konta, o&nbsp;mało mówiącej nazwie zaczynającej się od *dnc*. Wiele jego komentarzy zostało usuniętych i&nbsp;pozostało ich w&nbsp;moim zbiorze tylko 5. Jest za to całkiem sporo kierowanych do niego odpowiedzi zwykłych użytkowników. Patrząc po tych odpowiedziach, konto tworzyło bardzo podobne treści jak reszta."
+text="W komentarzach można też znaleźć nawiązania do innego konta, o&nbsp;mało mówiącej nazwie zaczynającej się od *dnc*. Wiele jego komentarzy zostało usuniętych i&nbsp;pozostało ich w&nbsp;moim zbiorze tylko&nbsp;5. Jest za to całkiem sporo kierowanych do niego odpowiedzi zwykłych użytkowników. Patrząc po tych odpowiedziach, konto tworzyło bardzo podobne treści jak reszta."
 %}
 
 Stworzone przeze mnie pliki, w&nbsp;tym listę wszystkich komentarzy, linki oraz wykresy, znajdziecie w&nbsp;[osobnym repozytorium](https://github.com/Bob-A-Dook/Youtube_Biotech_Comments).
@@ -859,26 +862,26 @@ Trwa to do dziś, nawet po przejęciu Monsanto (czy, jak sugerują trzej muszkie
 
 Widzimy, że jest to narracja agresywna, sztuczna, toporna, uciekająca się do manipulacji. Pryskają nią wiele zakamarków internetu, na dużą skalę. Ale mam też nadzieję, że już trochę się na nią uodporniliśmy.
 
-Oczywiście nadal warto wyjaśniać mity i&nbsp;nieporozumienia -- jeśli ktoś twierdzi, że obce DNA od razu zmieni jego własne, to po prostu gada bzdury.
+Oczywiście nadal można wyjaśniać mity i&nbsp;nieporozumienia -- jeśli ktoś twierdzi, że obce DNA od razu zmieni jego własne, to gada bzdury. Nie kłócę się z&nbsp;tym.
 
-Ale po co od razu atakować ludzi, wyzywać ich od nieuków? Takie działanie się tylko zemści, a&nbsp;kulturka zaprocentuje. W&nbsp;końcu ludzi biernie czytających komentarze jest znacznie więcej niż tych, którzy piszą w&nbsp;nich teorie spiskowe. Wywyższając się, tylko zniechęcimy neutralnych do swojej sprawy.
+Ale droga trolli, oparta na wyzywaniu od nieuków, to droga donikąd. Ludzi biernie czytających komentarze jest znacznie więcej niż tych, którzy piszą w&nbsp;nich teorie spiskowe. Wywyższając się, tylko zniechęca się neutralnych do swojej sprawy.
 
-Wyobraźmy sobie, że pod jakimś postem lub filmem ktoś wyraził obawy dotyczące współczesnego korporolnictwa. Jakiekolwiek. A&nbsp;w odpowiedzi został zaatakowany słownie -- podobnie jak kilkanaście innych osób w&nbsp;komentarzach -- przez kogoś podrzucającego różne linki, piszącego „uwierz nauce”, lamentującego że postawa krytyków doprowadzi do głodu.
+Wyobraźmy sobie, że pod jakimś postem lub filmem ktoś wyraził obawy dotyczące współczesnego korporolnictwa. Jakiekolwiek. A&nbsp;w&nbsp;odpowiedzi został zaatakowany słownie -- podobnie jak kilkanaście innych osób w&nbsp;komentarzach -- przez kogoś sypiącego linkami, piszącego „uwierz nauce”, lamentującego że postawa krytyków doprowadzi do głodu.
 
-Kiedyś jeszcze byśmy mogli uwierzyć w&nbsp;to, że oto jakiś młody naukowiec rozpaczliwie walczy z&nbsp;dezinformacją i&nbsp;ciemnotą. Ze szczerych emocji sięgając po dość bezpośrednią retorykę.  
-A teraz? Choć lubimy naukę i&nbsp;serce boli... Niestety czasem, cytując Tuwima -- **„wiedz że to bujda, granda zwykła”**.
+Kiedyś jeszcze bym mógł uwierzyć w&nbsp;to, że oto jakiś młody naukowiec rozpaczliwie walczy z&nbsp;dezinformacją i&nbsp;ciemnotą. Ze szczerych emocji sięgając po dość bezpośrednią retorykę.  
+A teraz? Choć fajnie by było wierzyć w herosów nauki... Niestety czasem, cytując Tuwima -- **„wiedz że to bujda, granda zwykła”**.
 
 Tak jak powtarzam od kilku wpisów -- nie mam mocnych przekonań, jeśli chodzi o&nbsp;bezpośrednią szkodliwość różnych wynalazków Monsanto dla zdrowia. Możliwe, że takowej nie ma. Nie kibicuję wielu organizacjom aktywistycznym, bo czasem są zbyt emocjonalne jak na mój gust. A&nbsp;tym bardziej foliarzom.
 
-Ale fakt faktem, że firma Monsanto wraz z&nbsp;podwykonawcami uczyniła dużo złego. Do ich przewinień można dodać teraz różnej maści internetowe lincze, wyzwiska i&nbsp;psucie nastrojów.
+Ale fakt faktem, że firma Monsanto wraz z&nbsp;podwykonawcami uczyniła dużo złego. Do ich przewinień można dodać teraz różnej maści internetowe lincze, wyzwiska i&nbsp;pogłębianie społecznych podziałów.
 
 Czy mamy im to puścić płazem, byle tylko zająć przeciwny biegun niż foliarze?
 
 ### Na przekór szantażom
 
-Wśród technik stosowanych przez trolle było sporo mocno aspołecznych zachowań. Wmawianie chorób psychicznych, sugerowanie że ktoś nie wie o&nbsp;czym mówi, nieustanne pisanie z&nbsp;wyższością. Same oznaki ludzi, którzy może i&nbsp;są wykształceni, ale pełni kompleksów, bucowatości i&nbsp;zwykłej podłości.
+Wśród technik stosowanych przez trolle były zachowania skrajnie aspołeczne. Wmawianie chorób psychicznych, sugerowanie że ktoś nie wie o&nbsp;czym mówi, nieustanne pisanie z&nbsp;wyższością. Oznaki ludzi, którzy może i&nbsp;są wykształceni, ale pełni kompleksów, bucowatości i&nbsp;zwykłej podłości.
 
-Najgorszą z&nbsp;ich technik jest dla mnie jednak szantaż -- „nie sprzeciwiaj się, albo ktoś zginie z&nbsp;głodu”. Wiemy że to bujda, że to manipulacja, ale jednak możemy czuć wątpliwości. Nie chcemy głodu.
+Najgorszą z&nbsp;ich technik jest dla mnie jednak szantaż -- „nie sprzeciwiaj się, albo ktoś zginie z&nbsp;głodu”. Zapewne to bujda i&nbsp;manipulacja, ale jednak można poczuć wątpliwości. Któż by chciał głodu?
 
 Jak w&nbsp;*grze Pascala* -- negatywny efekt działania wydaje się nam gorszy niż negatywny efekt jego braku. Więc się nie sprzeciwiamy. A&nbsp;może jednak warto?
 
@@ -895,7 +898,7 @@ Wahając się, dajemy się wciągać w&nbsp;tę gierkę. Jakąś dziwną odmian
 A to przecież nie nasza gra. Nie prosiliśmy się o&nbsp;to. To trolle na siłę, cynicznie, próbują stawiać nam ultimatum. Jak Putin sugerujący, że odetnie dostawy i&nbsp;Europa upadnie.
 
 Jest takie ryzyko? Być może.  
-Ale jeśli nic nie zrobimy, to nic się nie zmieni. Nadal będziemy się kisić w&nbsp;tej rzeczywistości. W&nbsp;której jakieś śliskie korpo miesza, manipuluje, rozsmarowuje winę. Tworzy pozwy, patenty, dupochrony. A&nbsp;na szyi całych krajów zaciska się pętla. Mocny, marynarski węzeł.
+Ale jeśli nic nie zrobimy, to nic się nie zmieni. Nadal będziemy się kisić w&nbsp;tej rzeczywistości. W&nbsp;której śliskie korpo miesza, manipuluje, rozsmarowuje winę. Tworzy pozwy, patenty, dupochrony. A&nbsp;na szyi całych krajów zaciska się pętla. Mocny, marynarski węzeł.
 
 ...Właśnie, węzeł.
 
@@ -906,7 +909,7 @@ Pamiętamy, co zrobił Aleksander Wielki z&nbsp;węzłem gordyjskim?
 
 Postawmy się. Tak po prostu.
 
-Jak się skończy nasz opór, to dopiero zobaczymy. Ale zapewne całkiem dobrze. Bo w&nbsp;tym świecie już za dużo jest dezinformacji, trolli, matactw. Każde uderzenie w&nbsp;te rzeczy odrobinę -- minimalnie -- go stabilizuje.
+Jak się skończy nasz opór, to dopiero zobaczymy. Ale zapewne całkiem dobrze. Bo na&nbsp;tym świecie już za dużo jest dezinformacji, trolli, matactw. Każde uderzenie w&nbsp;te rzeczy odrobinę -- minimalnie -- go stabilizuje.
 
 A my możemy cieszyć się uczuciem *katharsis* i&nbsp;świadomością, że żyjemy z&nbsp;podniesioną głową. Nie jako marionetki korporacyjnych szantażystów.
 
