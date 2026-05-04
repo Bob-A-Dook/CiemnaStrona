@@ -120,7 +120,7 @@ Te bajery mają jednak swoją cenę, którą jest powstawanie miniaturek w&nbsp;
 
 Z punktu widzenia prywatności **powstała miniaturka jest ogólnodostępna**. Gdyby na naszym systemie oprócz przeglądarki działał jakiś program, to mógłby co pewien czas wypatrywać folderu `.mozilla/firefox-mpris` i&nbsp;zapisywać sobie zauważone tam obrazki, wraz z&nbsp;godziną utworzenia miniaturki. Miałby małą kronikę naszej historii oglądanych filmów.
 
-...Tylko że to zagrożenie raczej niewielkie na tle tego, co program mógłby wyciągnąć z&nbsp;innego folderu ogólnodostępnego, `.cache/mozilla`, gdzie znajduje się [pamięć podręczna](/2021/12/24/caching){:.internal} Firefoksa. A&nbsp;tam skarby, takie jak miniaturki *wszystkich* obrazków, jakie załadowała przeglądarka.
+...Tylko że to zagrożenie raczej niewielkie na tle tego, co program mógłby wyciągnąć z&nbsp;innego folderu ogólnodostępnego, `.cache/mozilla`, gdzie znajduje się [pamięć podręczna](/2021/12/23/caching){:.internal} Firefoksa. A&nbsp;tam skarby, takie jak miniaturki *wszystkich* obrazków, jakie załadowała przeglądarka.
 
 Teoretycznie może zajść sytuacja, gdy jakiś administrator systemu ustawia taką politykę bezpieczeństwa, żeby żaden program nie miał dostępu do folderu `.cache` (bo wrażliwe rzeczy). Równocześnie mógłby zostawić dostęp do folderu `.mozilla`, żeby ludzie mieli np. możliwość integrowania innych programów z&nbsp;przeglądarką.
 

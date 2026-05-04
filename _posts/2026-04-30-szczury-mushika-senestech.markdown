@@ -34,7 +34,7 @@ Zapraszam w&nbsp;głąb *króliczej*{:.corr-del} szczurzej nory!
 {% include info.html
 type="Zanim zaczniemy"
 text="Skoro mam tu temat okołozwierzęcy (czyli drażliwy), to zagram w&nbsp;otwarte karty, nim mnie ktoś zaszufladkuje.  
-Osobiście nie **jestem wrogiem szczurów**. Są dla mnie raczej neutralne i&nbsp;swobodnie mógłbym poprzeć humanitarne metody deratyzacji. Czytelnicy bloga wiedzą, że daleko mi do darwinisty, co pokazywałem choćby we wpisach na temat chemii rolniczej.  
+Osobiście **nie jestem wrogiem szczurów**. Są dla mnie raczej neutralne i&nbsp;swobodnie mógłbym poprzeć humanitarne metody deratyzacji. Czytelnicy bloga wiedzą, że daleko mi do darwinisty, co pokazywałem choćby we wpisach na temat chemii rolniczej.  
 Kiedy jednak pojawia się wątek monopolizacji, to sympatie przyrodnicze trzeba czasem odłożyć na bok."
 %}
 
@@ -228,7 +228,7 @@ Sprawa nowojorska jest o&nbsp;tyle ciekawa, że metoda walki ze szczurami zosta�
 type="Alternatywa filmikowa"
 text="Jeśli ktoś woli obejrzeć zdarzenia niż tylko o&nbsp;nich czytać, to [NBC News](https://www.youtube.com/watch?v=KD2Hp48H260) ma krótką, parominutową migawkę o&nbsp;wprowadzeniu metod antykoncepcyjnych w&nbsp;Nowym Jorku."
 trailer="<p><img src='/assets/posts/centralizacja/szczury-senestech/nowy-jork-antykoncepcja-szczurow.jpg' alt='Kadr z&nbsp;reportażu NBC, pokazujący pusty plac, po którym spacerują gołębie i&nbsp;kot. Belka na dole mówi o&nbsp;użyciu w&nbsp;mieście szczurzej antykoncepcji'/></p>
-<p class='figcaption nospace'>Co ciekawe -- wspominają nawet w&nbsp;tym filmiku, że próba podawania szczurom antykoncepcji nie jest w&nbsp;żadnym razie pierwszą. Również wcześniej miało to miejsce. Jest na ten temat inny <a href='https://www.youtube.com/watch?v=xG5-Q7ODDUo'>filmik z&nbsp;YouTube'a sprzed 8&nbsp;lat</a>.</p>"
+<p class='figcaption nospace'>Co ciekawe, w&nbsp;tym filmiku wspominają, że obecna próba podawania szczurom antykoncepcji nie jest w&nbsp;żadnym razie pierwszą. Poprzednią omawia <a href='https://www.youtube.com/watch?v=xG5-Q7ODDUo'>filmik z&nbsp;YouTube'a sprzed 8&nbsp;lat</a>.</p>"
 %}
 
 Inny artykuł z&nbsp;Dziennika (wcześniejszy, [z kwietnia 2024&nbsp;roku](https://dziennik.com/radni-nyc-proponuja-dystrybucje-antykoncepcji-dla-szczurow/)) podaje również nazwę wspomnianego wyżej środka. Bez zaskoczenia, SenesTech.
@@ -295,20 +295,20 @@ Sam artykuł z&nbsp;kolei pochodzi z&nbsp;maja 2025&nbsp;roku i&nbsp;zawiera lic
 
 * Porównywanie preparatów antykoncepcyjnych do codziennej żywności.
 
-  > Evolve is made from **cottonseed oil (same stuff that’s in potato chips and mayonnaise)**….and you know how much we humans love those.
+  > Evolve is made from **cottonseed oil (same stuff that’s in potato chips and mayonnaise)**… and you know how much we humans love those.
 
   {:.post-meta .bigspace-after}
   Po polsku to olej z&nbsp;nasion bawełny, zwany też olejem bawełnianym.
 
 {% include info.html
 type="Ciekawostka"
-text="Wspomniany artykuł zawiera również link do strony agencji EPA (amerykańskiego odpowiednika Sanepidu) [mówiącej o&nbsp;ograniczeniach nakładanych na trutki](https://www.epa.gov/safepestcontrol/mouse-and-rat-poisons-pellet-form-banned). Zakazują niektórych substancji aktywnych, ograniczają dozwoloną ilość tych dozwolonych, regulują postać fizyczną trutki.  
-Zmiany wydają się świeże -- artykuł ostatnio aktualizowano w&nbsp;maju 2025&nbsp;roku. I&nbsp;korzystne dla innych, alternatywnych metod."
+text="Wspomniany artykuł zawiera również link do strony agencji EPA (amerykańskiego odpowiednika Sanepidu) [mówiącej o&nbsp;ograniczeniach nakładanych na trutki](https://www.epa.gov/safepestcontrol/mouse-and-rat-poisons-pellet-form-banned). Zakazują niektórych substancji aktywnych, ograniczają ilość tych dozwolonych, regulują postać fizyczną trutki.  
+Zmiany wydają się świeże -- artykuł ostatnio aktualizowano w&nbsp;maju 2025&nbsp;roku. I&nbsp;zadziwiająco korzystne dla alternatywnych metod deratyzacji."
 %}
 
 ## Wątek globalny
 
-Dotąd trzymałem się USA. Ale łatwo znaleźć przykłady ekspansji produktów SenesTechu na inne rynki. W&nbsp;ostatnich miesiącach Evolve dopuszczono na przykład do użytku w&nbsp;Nowej Zelandii. Weszli też [do Singapuru](https://www.prnewswire.com/news-releases/senestech-announces-exclusive-distribution-agreement-and-initial-order-for-evolve-soft-bait-in-singapore-302052837.html).
+Dotąd trzymałem się USA, ale łatwo znaleźć przykłady ekspansji produktów SenesTechu na inne rynki. W&nbsp;ostatnich miesiącach Evolve dopuszczono na przykład do użytku w&nbsp;Nowej Zelandii. Weszli też [do Singapuru](https://www.prnewswire.com/news-releases/senestech-announces-exclusive-distribution-agreement-and-initial-order-for-evolve-soft-bait-in-singapore-302052837.html).
 
 To jednak wciąż sprawy obcych krajów. A&nbsp;czy, poza petycją przeciw lepom, są w&nbsp;toku jakieś działania prawne mogące wpłynąć na sytuację w Polsce?
 
@@ -319,7 +319,7 @@ Okazuje się, że tak. **Na poziomie Unii rozważa się wprowadzenie przepisów 
 
 Artykuł wpasowuje sprawę szczurów w&nbsp;szerszy kontekst, twierdząc że ich liczebność rośnie wskutek globalnego ocieplenia.
 
-Przepisy unijne, które mogą uregulować kwestie deratyzacji, noszą nazwę *BPR (Biocidal Product Regulation)*. Zmiany w tych przepisach mają zostać oficjalnie zaproponowane **w&nbsp;połowie 2027&nbsp;roku**.
+Przepisy unijne, które mogą uregulować kwestie deratyzacji, noszą nazwę *BPR (Biocidal Product Regulation)*. Zmiany w&nbsp;tych przepisach mają zostać oficjalnie zaproponowane **w&nbsp;połowie 2027&nbsp;roku**.
 
 Naciskają na nie różne organizacje, takie jak brytyjska Centre for Wild Animal Welfare. Jej reprezentant twierdzi, że tempo wprowadzania nowych przepisów jest mozolne w porównaniu z&nbsp;USA. I&nbsp;że należy jak najszybciej wprowadzić *humanitarne* metody kontroli szczurzej populacji.
 
@@ -375,7 +375,8 @@ Warto powiadomić potencjalnych zainteresowanych, że realia deratyzacji w&nbsp
 Można publicznie zapytać samej Fundacji, co sądzi o&nbsp;firmie SenesTech i&nbsp;czy dostrzega możliwą groźbę monopolu w&nbsp;branży szczurzej antykoncepcji.
 
 Od jakiegoś czasu w&nbsp;*social mediach* aktywne są różne konta promujące [federalizację Unii Europejskiej](/2025/12/31/podsumowanie-2025-roku#2026rokiem-promowania-federalizacji){:.internal} i&nbsp;piętnujące zależność od USA.  
-Nie do końca im ufam (możliwe, że chodzi o&nbsp;centralizację władzy)... Ale można wykorzystać fakt, że grają przeciw ekspansji firm z&nbsp;USA i&nbsp;podrzucić im SenesTech jako przykład. Może nagłośnią.
+Nie do końca im ufam (możliwe, że chodzi o&nbsp;centralizację władzy)... Ale można wykorzystać fakt, że publicznie sprzeciwiają się ekspansji firm z&nbsp;USA i&nbsp;podrzucić im w&nbsp;komentarzach SenesTech jako przykład.  
+Może nagłośnią. A&nbsp;jeśli nie, to przynajmniej ich odbiorcy zobaczą.
 
 ## Słowo na koniec
 
