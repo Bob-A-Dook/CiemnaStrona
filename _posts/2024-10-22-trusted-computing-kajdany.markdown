@@ -70,21 +70,25 @@ Takie zagonienie kryptografii do pracy, żeby dostawać zawsze to, czego się ch
 {:.figcaption}
 Źródło: [filmik](https://www.youtube.com/watch?v=m3iEU5enn14) sprzed, bagatela, kilkunastu lat. Od początku dostrzegano możliwe zagrożenie.
 
-<details class="framed">
-<summary><strong>Ciekawostka dotycząca słowa „zaufanie”</strong></summary>
+{% include details.html summary="Ciekawostka dotycząca słowa „zaufanie”" %}
 
-<p>Również pierwsze słowo, <em>trusted</em>, niesie za sobą pewien niuans. Dotyczący nie tłumaczenia (bo to po prostu „zaufane”), tylko kontekstu.</p>
-<p>Dla niektórych osób to słowo ma w&nbsp;języku potocznym znaczenie jednoznacznie pozytywne. Na równi z&nbsp;„dobry”, „rzetelny”, „kochany” i&nbsp;podobnymi. Rozumieją zwrot „jest zaufany” jak „na pewno nie wbije mi noża w&nbsp;plecy”.</p>
+{:.bigspace-before}
+Również pierwsze słowo, *trusted*, niesie za sobą pewien niuans. Dotyczący nie tłumaczenia (bo to po prostu „zaufane”), tylko kontekstu.
 
-<p>Tymczasem w&nbsp;kontekście cyberbezpieczeństwa zaufanie ma inne znaczenie. <strong>Jest jak żeton w&nbsp;grze planszowej, który można położyć na wybranej przez siebie rzeczy</strong>. Oczywiście zwykle ma się ku temu jakieś powody, ale nie ma się żadnej gwarancji bezpieczeństwa.<br />
-Niektórzy – i&nbsp;to badacze, nie nihiliści – idą z&nbsp;definicją jeszcze dalej. Pokazują zaufanie jako celowe ujawnienie przed kimś swojego słabego punktu.</p>
+Dla niektórych osób to słowo ma w&nbsp;języku potocznym znaczenie jednoznacznie pozytywne. Na równi z&nbsp;„dobry”, „rzetelny”, „kochany” i&nbsp;podobnymi. Rozumieją zwrot „jest zaufany” jak „na pewno nie wbije mi noża w&nbsp;plecy”.
 
-<p class="figure bigspace-before"><img src="/assets/posts/centralizacja/trusted-computing-wprowadzenie/zaufanie-definicja.jpg" alt="Zwięzła definicja ze slajdu mówiąca, że kiedy komuś/czemuś ufamy, to dajemy mu możliwość zaszkodzenia nam." width="60%" /></p>
+Tymczasem w&nbsp;kontekście cyberbezpieczeństwa zaufanie ma inne znaczenie. **Jest jak żeton w&nbsp;grze planszowej, który można położyć na wybranej przez siebie rzeczy**. Oczywiście zwykle ma się ku temu jakieś powody, ale nie ma się żadnej gwarancji bezpieczeństwa.  
+Niektórzy – i&nbsp;to badacze, nie nihiliści – idą z&nbsp;definicją jeszcze dalej. Pokazują zaufanie jako celowe ujawnienie przed kimś swojego słabego punktu.
 
-<p class="figcaption">Źródło: <a href="https://www.youtube.com/watch?v=_tLi8TnIotM">wykład</a> z&nbsp;2009 roku (YouTube, ok. 2:00).</p>
+{:.figure .bigspace-before}
+<img src="/assets/posts/centralizacja/trusted-computing-wprowadzenie/zaufanie-definicja.jpg" alt="Zwięzła definicja ze slajdu mówiąca, że kiedy komuś/czemuś ufamy, to dajemy mu możliwość zaszkodzenia nam." width="60%"/>
 
-<p>To chyba żadna tajemnica, że w&nbsp;tym wpisie <em>trusted computing</em> pokaże swoje ciemne strony. Ale nie jest to przypadek, gdy ktoś nadaje dobrą nazwę złej rzeczy. To nie jak z&nbsp;Ministerstwem Miłości u&nbsp;Orwella; tutaj od początku użyto pojęcia technicznego, które nie miało niczego obiecywać.</p>
-</details>
+{:.figcaption}
+Źródło: [wykład](https://www.youtube.com/watch?v=_tLi8TnIotM) z&nbsp;2009&nbsp;roku (YouTube; okolice 2.&nbsp;minuty filmu).
+
+To chyba żadna tajemnica, że w&nbsp;tym wpisie *trusted computing* pokaże swoje ciemne strony. Ale nie jest to przypadek, gdy ktoś nadaje dobrą nazwę złej rzeczy. To nie jak z&nbsp;Ministerstwem Miłości u&nbsp;Orwella; tutaj od początku użyto pojęcia technicznego, które nie miało niczego obiecywać.
+
+{% include details-end.html %}
 
 ## Trusted computing krok po kroku
 
@@ -115,8 +119,9 @@ Jak ochronić te dane, żeby nawet po (nieuniknionym) przechwyceniu nie miały w
 Zachodzi za każdym razem, gdy widzimy adres zaczynający się od `https://`. A&nbsp;jak to działa za kulisami? Czysto intuicyjnie:
 
 1. Nasz komputer/smartfon wysyła serwerowi prośbę o&nbsp;szyfrowany kontakt.
-2. Serwer odsyła odpowiednik otwartej kłódki (nie ujawniając klucza do niej).  
-   A&nbsp;że kopiowanie jest łatwe -- zob. wstęp -- to odtąd mamy tyle kłódek, ile tylko chcemy.
+2. Serwer odsyła odpowiednik otwartej kłódki zatrzaskowej.
+
+   Takiej, jaką można zamknąć bez klucza, którego zresztą nam *nie wysyła*. A do tego niemożliwej do sforsowania. Jako&nbsp;że kopiowanie jest łatwe -- zob. wstęp -- to odtąd mamy tyle kłódek, ile tylko chcemy.
 
 3. Nasze urządzenie odsyła serwerowi *swoją* otwartą kłódkę (też nie ujawniając klucza).
 4. Od teraz wszystkie rzeczy wysyłamy między sobą w&nbsp;pancernych pudełkach.
@@ -137,15 +142,16 @@ Podelektujmy się chwilę jego bezradnością, jeszcze do niej nawiążę.
 Morał z&nbsp;całej tej historii? **Szyfrowanie pozwala rozpocząć i&nbsp;utrzymać bezpieczną komunikację między dwoma punktami. Nawet gdy wszystko między tymi punktami to terytorium wroga**.  
 Na tym etapie widać głównie jasne strony. Szyfry znakomicie chronią prywatność.
 
-<details class="framed">
-<summary><strong>Możliwości podglądacza</strong></summary>
+{% include details.html summary="Możliwości podglądacza" %}
 
-<p>Uparty przeciwnik na otarcie łez mógłby próbować coś <a href="/internetowa_inwigilacja/2024/03/28/analiza-ruchu" class="internal">wywróżyć z&nbsp;metadanych</a>, czyli ogólnych informacji o&nbsp;czasie wysłania danych, ich rozmiarze itd.</p>
+{:.bigspace-before}
+Uparty przeciwnik na otarcie łez mógłby próbować coś [wywróżyć z&nbsp;metadanych](/internetowa_inwigilacja/2024/03/28/analiza-ruchu){:.internal}, czyli ogólnych informacji o&nbsp;czasie wysłania danych, ich rozmiarze itd.
 
-<p>Od biedy mógłby też przechwytywać niektóre wysyłane rzeczy i&nbsp;je wyrzucać do kosza, nie pozwalając im trafić do odbiorcy. Ale wtedy przestałby być biernym podglądaczem i&nbsp;stałby się <a href="/2022/09/12/dns-ip-cenzura" class="internal">aktywnym cenzorem</a>.</p>
+Od biedy mógłby też przechwytywać niektóre wysyłane rzeczy i&nbsp;je wyrzucać do kosza, nie pozwalając im trafić do odbiorcy. Ale wtedy przestałby być biernym podglądaczem i&nbsp;stałby się [aktywnym cenzorem](/2022/09/12/dns-ip-cenzura){:.internal}.
 
-<p>Mógłby również masowo kopiować zaszyfrowane dane i&nbsp;je gromadzić. W&nbsp;nadziei na to, że metody deszyfrowania się kiedyś poprawią i&nbsp;zdoła poznać wszystkie tajemnice. To z&nbsp;kolei zagrożenie związane z&nbsp;nadchodzącymi komputerami kwantowymi.</p>
-</details>
+Mógłby również masowo kopiować zaszyfrowane dane i&nbsp;je gromadzić. W&nbsp;nadziei na to, że metody deszyfrowania się kiedyś poprawią i&nbsp;zdoła poznać wszystkie tajemnice. To z&nbsp;kolei zagrożenie związane z&nbsp;nadchodzącymi komputerami kwantowymi.
+
+{% include details-end.html %}
 
 ### Cyfrowe podpisy
 
@@ -157,7 +163,7 @@ Gdyby podglądacz podrzucił obu stronom komunikacji swoje fałszywe kłódki, d
 
 W tym miejscu wkraczają **cyfrowe podpisy**, czyli metody poświadczenia własności i&nbsp;integralności. 
 
-Można je sobie wyobrazić jak hologram (taki jak na legitymacji studenckiej). Pieczątkę przybijaną na dokumencie. Ogólniej: coś, co z&nbsp;założenia ma tylko osoba upoważniona. Nie dzieli się tym z&nbsp;innymi i&nbsp;używa tego do oznaczania swoich rzeczy. Ktoś inny, znając wygląd tego oznaczenia, może potem weryfikować jego autentyczność.
+Można je sobie wyobrazić jak hologram (taki jak na legitymacji studenckiej). Pieczątkę przybijaną na dokumencie. Ogólniej: **misterne, niepodrabialne oznaczenie, które powinna być w stanie nałożyć tylko osoba upoważniona**. Ktoś inny, znając wygląd tego oznaczenia, może potem weryfikować jego autentyczność.
 
 A przypomnę tu fundamentalną sprawę -- w&nbsp;świecie cyfrowym można dokonywać weryfikacji stuprocentowo dokładnej. O&nbsp;ile w&nbsp;świecie realnym dałoby się podrobić podpis rodzica na zwolnieniu, o&nbsp;tyle w&nbsp;wirtualu to nie przejdzie. Porównany zostanie każdy cyfrowy „atom”, zaś osoba porównująca zawsze dokładnie ustali, czy ma do czynienia z&nbsp;tym, czego oczekiwała.
 
@@ -174,13 +180,26 @@ Odnosząc cyfrowy podpis do opisanej wyżej szyfrowanej komunikacji:
   <img src="/assets/posts/centralizacja/trusted-computing-wprowadzenie/cyfrowe-podpisy-lancuch-zaufania.jpg" alt="Rysunkowa otwarta kłódka, na której widnieje napis ciemnastrona.com.pl. Na napis nałożona jest naklejka z&nbsp;napisem R10, a&nbsp;na nią jeszcze inna, z&nbsp;napisem ISRG X1."/>
 
   {:.figcaption}
+  Klikając ikonkę kłódki obok adresu strony, można poznać cały łańcuch.  
   Źródła: Flaticon (kłódka jak wcześniej, [nalepka 1](https://www.flaticon.com/free-icon/approve_8622624) od *mynamepong*, [nalepka 2](https://www.flaticon.com/free-icon/approve_8622624) od *juicy_fish*).
 
-* Kiedy przeglądarka dostaje kłódkę (pkt 2&nbsp;części o&nbsp;szyfrach), to porównuje oznaczenie na wierzchu z&nbsp;krótką, wbudowaną w&nbsp;siebie listą oznaczeń zaufanych.
-* Jeśli znajdzie je na liście, to znaczy że właściciel kłódki dostał oznaczenie od zaufanego certyfikatora. Tylko w&nbsp;tym wypadku przeglądarka nawiąże szyfrowane połączenie; w&nbsp;innym razie wyświetli błąd.
+* Kiedy przeglądarka dostaje kłódkę (pkt&nbsp;2 części o&nbsp;szyfrach), to porównuje oznaczenie na wierzchu z&nbsp;krótką, wbudowaną w&nbsp;siebie listą oznaczeń zaufanych.
+* Jeśli znajdzie oznaczenie na liście, to znaczy że właściciel kłódki dostał je od zaufanego certyfikatora. Tylko w&nbsp;tym wypadku przeglądarka nawiąże szyfrowane połączenie; w&nbsp;innym razie wyświetli błąd.
 
-  {:.post-meta .bigspace-after}
-  Warto jednak pamiętać, że pomyślna weryfikacja oznacza jedynie, że szyfrujemy połączenie z&nbsp;tym, z&nbsp;kim chcieliśmy. Nie mówi natomiast niczego na temat (nie-)złośliwości samej odwiedzanej strony.
+{% include details.html summary="Dodatkowe informacje" %}
+
+{:.bigspace-before}
+Analogia z kłódkami ma swoje luki, co przyznaję otwarcie. Jest intuicyjna przy szyfrowaniu, ale przy cyfrowych podpisach ciut się rozłazi.
+
+{:.post-meta .bigspace-after}
+Dokładniej rzecz biorąc: nieujawniony klucz od kłódki i&nbsp;nieujawnione narzędzie od nakładania oznaczeń jest jednym i&nbsp;tym samym. Nazywa się formalnie *kluczem prywatnym*. Ciężko to przełożyć na świat rzeczywisty.
+
+W ramach uszczelnienia analogii można sobie wyobrazić, że poza oznaczeniem podmiotu na kłódkę nakładane jest *oznaczenie konkretnej interakcji*.  
+Dzięki temu przeglądarka ma pewność, że ktoś nie wysyła jej kłódki zwędzonej podczas jakiejś innej wymianki.
+
+Poza tym warto pamiętać, że pomyślna weryfikacja oznacza jedynie, że szyfrujemy połączenie z&nbsp;tym, z&nbsp;kim chcieliśmy. Nie mówi natomiast niczego na temat (nie-)złośliwości samej odwiedzanej strony.
+
+{% include details-end.html %}
 
 W ten sposób poznaliśmy kolejny element układanki -- **cyfrowy podpis pozwala ustalić, że jakaś konkretna osoba/organizacja oznaczyła jakąś konkretną rzecz**.
 
@@ -254,34 +273,29 @@ Na bazie tego ogólnego założenia powstały rozmaite wdrożenia. Czasem odizol
 
 Wszystko sprowadza się do jednej rzeczy, izolacji. I&nbsp;dlatego lubię gromadzić wszystkie warianty pod zbiorczym pojęciem: **enklawy** (inspirowane *secure enclave*, nazwą używaną przez Apple). Ta nazwa, jako jedna z&nbsp;niewielu, podkreśla nie jakieś abstrakcyjne *zaufanie*, lecz właśnie izolację. Odrębność.
 
-<details class="framed">
-<summary><strong>Analogie</strong></summary>
+{% include details.html summary="Analogie" %}
 
-<p>Takie małe niezależne obszary kojarzą mi się z&nbsp;kilkoma rzeczami. Streszczę je tutaj, bo może ułatwi to intuicyjne złapanie tematu.</p>
+{:.bigspace-before}
+Takie małe niezależne obszary kojarzą mi się z&nbsp;kilkoma rzeczami. Streszczę je tutaj, bo może ułatwi to intuicyjne złapanie tematu.
 
-<p>Po pierwsze: są jak <em>ambasady</em>. Choć każdy kraj ma zwykle pełną kontrolę nad swoim terytorium, może mieć u&nbsp;siebie ambasady innych krajów. A&nbsp;te są niezależne i&nbsp;nawet w&nbsp;świetle <a href="https://pl.wikipedia.org/wiki/Eksterytorialno%C5%9B%C4%87">prawa międzynarodowego</a> są jak malutkie wycinki cudzego terytorium wewnątrz jakiegoś większego kraju.</p>
+Po pierwsze: są jak *ambasady*. Choć każdy kraj ma zwykle pełną kontrolę nad swoim terytorium, może mieć u&nbsp;siebie ambasady innych krajów. A&nbsp;te są niezależne i&nbsp;nawet w&nbsp;świetle [prawa międzynarodowego](https://pl.wikipedia.org/wiki/Eksterytorialno%C5%9B%C4%87) są jak malutkie wycinki cudzego terytorium wewnątrz jakiegoś większego kraju.
 
-<div style="margin-top:3em;margin-bottom:3em">
-  <div class="subcontent-heading">
-<span style="padding-left: 10px; padding-right: 15px">
-Ciekawostka
-</span>
-  </div>
-  <div class="bold-border" style="padding:10px;border-radius:0px 10px 10px 0px">
-    <p style="margin-bottom:0px">Swego czasu wewnątrz ambasady Ekwadoru, takiej enklawy w&nbsp;świecie rzeczywistym, <a href="https://zaufanatrzeciastrona.pl/post/dobry-czy-zly-wikileaks-julian-assange-i-jego-wiele-twarzy/">ukrył się Julian Assange</a>, twórca portalu WikiLeaks. Choć amerykańscy politycy bardzo chcieli go dorwać za ujawnianie ich brudów, nikt nie mógł tak po prostu wtargnąć na teren ambasady. Mogli jedynie czatować na zewnątrz.<br/>
-W podobny sposób hakerzy nie mogą się dorwać do wzorca odcisku palca zamkniętego w&nbsp;enklawie (choć tutaj bariery są techniczne, nie prawne).</p>
-    
-  </div>
-</div>
+{% include info.html
+type="Ciekawostka"
+text="Swego czasu wewnątrz ambasady Ekwadoru, takiej enklawy w&nbsp;świecie rzeczywistym, [ukrył się Julian Assange](https://zaufanatrzeciastrona.pl/post/dobry-czy-zly-wikileaks-julian-assange-i-jego-wiele-twarzy/), twórca portalu *WikiLeaks*. Choć amerykańscy politycy bardzo chcieli go dorwać za ujawnianie ich brudów, nikt nie mógł tak po prostu wtargnąć na teren ambasady. Mogli jedynie czatować na zewnątrz.  
+W podobny sposób hakerzy nie mogą się dorwać do wzorca odcisku palca zamkniętego w&nbsp;enklawie (choć tutaj bariery są techniczne, nie prawne)."
+%}
 
-<p>Inne porównanie: enklawy są jak zdolności z&nbsp;niedawno zakończonej mangi <em>Jujutsu Kaisen</em>.</p>
+Inne porównanie: enklawy są jak zdolności z&nbsp;niedawno zakończonej mangi *Jujutsu Kaisen*.
 
-<p>Nie wchodząc w&nbsp;szczegóły: to manga o&nbsp;walkach czarodziejów. Niektórzy mają specjalną zdolność zwaną <em>rozszerzeniem terytorium</em> (właściwie <em>domeny</em>, ale to mogłoby się zanadto kojarzyć komputerowcom :wink:). Po jej użyciu czarodzieje narzucają na pewnym obszarze swoją rzeczywistość. Ich ataki mogą zyskać gwarancję trafienia <em>itede</em>.</p>
+Nie wchodząc w&nbsp;szczegóły: to manga o&nbsp;walkach czarodziejów. Niektórzy mają specjalną zdolność zwaną *rozszerzeniem terytorium* (właściwie *domeny*, ale to mogłoby się zanadto kojarzyć komputerowcom :wink:). Po jej użyciu czarodzieje narzucają na pewnym obszarze swoją rzeczywistość. Ich ataki mogą zyskać gwarancję trafienia *itede*.
 
-<p>Niektórzy mogą to kontrować różnymi „terytoriami kieszonkowymi”, które tworzą wycinek bezpiecznej przestrzeni w&nbsp;tej wrogiej rzeczywistości. Zupełnie jak enklawy na kontrolowanych przez nas urządzeniach.</p>
+Niektórzy mogą to kontrować różnymi „terytoriami kieszonkowymi”, które tworzą wycinek bezpiecznej przestrzeni w&nbsp;tej wrogiej rzeczywistości. Zupełnie jak enklawy na kontrolowanych przez nas urządzeniach.
 
-<p class="post-meta">…Tylko czy to by nie sugerowało, że ktoś traktuje <em>wnętrze naszego urządzenia</em> jak wrogie terytorium?</p>
-</details>
+{:.post-meta}
+…Tylko czy to by nie sugerowało, że ktoś traktuje *wnętrze naszego urządzenia* jak wrogie terytorium?
+
+{% include details-end.html %}
 
 ### Secure boot
 
