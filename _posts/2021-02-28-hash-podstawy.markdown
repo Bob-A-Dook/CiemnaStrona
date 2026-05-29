@@ -5,6 +5,11 @@ subtitle: "Czyli o tym, jak komputer porównuje rzeczy."
 description: "Czym są funkcje haszujące i jakie są ich zastosowania. Dla absolutnie początkujących."
 date:   2021-02-28 16:40:37 +0100
 tags: [Podstawy]
+image:
+  path: /assets/posts/haszowanie/hasz-sha1-dzielny-maly-toster-baner.jpg
+  width: 1200
+  height: 700
+  alt: "Dwa kadry z filmu Dzielny Mały Toster, pokazujące samochód przed i po zgnieceniu. W pierwszej postaci jest podpisany tekstem, w drugiej haszem SHA1"
 ---
 
 {:.post-meta .bigspace}

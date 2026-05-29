@@ -5,6 +5,11 @@ description: "Świeża afera z Polski. Od firmy UseCrypt aż po dawną sprawę A
 subtitle: "Od prostego sporu do sieci powiązań."
 date:   2021-03-12 00:06:00 +0100
 tags: [UseCrypt, Afera, Analiza danych, Manipulacja, Media]
+image:
+  path: /assets/posts/usecrypt/usecrypt-gora-lodowa-baner.jpg
+  width: 1200
+  height: 700
+  alt: "Loga trzech portali o cyberbezpieczeństwie kontra góra lodowa, na której czubku jest napis Usecrypt Messenger"
 ---
 
 Powitajmy na Ciemnej Stronie pierwszą relację z&nbsp;aferki! :sunglasses:

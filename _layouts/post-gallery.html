@@ -2,8 +2,18 @@
 <html lang="{{ page.lang | default: site.lang | default: "pl" }}">
   {%- include head.html -%}
   <body>
-  {%- include header.html -%}
-  <main class="page-content" style="padding-left:5px;padding-right:5px"aria-label="Content">
+  
+    <header class="site-header" role="banner">
+      <div>
+        <img class="site-logo" style="float: left; padding-left:5px" src="/assets/creepy_emoji.svg" alt=""/>  
+        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+        {{ site.title }}
+        </a>
+      </div>
+      <div class="gradient"></div>
+    </header>
+
+  <main class="page-content" aria-label="Content" style="padding-left:5px;padding-right:5px">
     <h2 class="post-list-heading">{{ page.list_title | default: "Galeria wpisów" }}</h2>
     <p class="post-meta nospace">Lista wpisów jest dostępna również w domyślnym <a href="/" class="internal">widoku uproszczonym</a>.</p>
     <ul class="post-list">
@@ -12,9 +22,9 @@
         {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y r." -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span><br/>
         <a href="{{ post.url | relative_url | remove: '.html' }}">
-          <span style="padding-right: 15px">
+          <h3 style="padding-right: 15px">
           {{ post.title | escape | replace:" z ", " z&nbsp;" | replace:" o ", " o&nbsp;" | replace:" u ", " u&nbsp;" | replace:" i ", " i&nbsp;" | replace:" w ", " w&nbsp;"}}
-          </span>
+          </h3>
           <img src="{{post.image.path}}" alt="{{post.image.alt}}" style="max-height: 500px; margin-left:0px; margin-right:0px" loading="lazy"/>
         </a>
       </li>
