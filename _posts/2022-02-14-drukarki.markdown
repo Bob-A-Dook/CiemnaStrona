@@ -21,14 +21,14 @@ Witam w&nbsp;kolejnym, po dłuższej przerwie, wpisie z&nbsp;serii „Cyfrowy fe
 Tradycyjnie będzie o&nbsp;tym, jak to więksi gracze dogadują się ponad głowami zwykłych ludzi i&nbsp;zacieśniają swoją kontrolę.
 
 Dzisiaj coś -- mam nadzieję -- mocno zaskakującego.  
-Prawdopodobnie **na każdej stronie wydrukowanej przez nas w&nbsp;ciągu ostatnich dwudziestu lat znajduje się ukryty wzór. Identyfikujący nasze drukarki oraz datę i&nbsp;godzinę wykonania wydruków**.
+Prawdopodobnie **na każdej stronie wydrukowanej przez nas w&nbsp;ciągu ostatnich dwudziestu lat znajduje się ukryty wzór. Identyfikujący nasze drukarki oraz datę i&nbsp;godzinę wykonania wydruków**.
 
 Zanim zapytasz, czy wziąłem już proszki, zachęcam do przeczytania przynajmniej „Wstępu dla sceptyków”.
 
-Zobaczysz, że hasło „bez teorii spiskowych”, które dzielnie się trzyma w&nbsp;stopce bloga, nie straciło na znaczeniu :wink:  
+Zobaczysz, że hasło „bez teorii spiskowych”, które dzielnie się trzyma w&nbsp;stopce bloga, nie straciło na znaczeniu :wink:  
 A do czynienia mamy -- jak zwykle -- nie tyle ze spiskiem, co z&nbsp;kolesiostwem i&nbsp;efektem wypadkowym różnych prywatnych dążeń.
 
-<img src="/assets/posts/drukarki/drukarka-baner.jpg" alt="Obrazek pokazujący małą obłą drukarkę na ciemnym tle. Jest otoczona czerwoną obwódką. Z&nbsp;jej górnej szczeliny wystaje kartka, na której widać kontur loga Ciemnej Strony, ułożony z&nbsp;żółtych kropek. Z&nbsp;jej dolnej szczeliny wystają dwa ostre, fioletowe kły, przez co wygląda drapieżnie."/>
+<img src="/assets/posts/drukarki/drukarka-baner.jpg" alt="Obrazek pokazujący małą obłą drukarkę na ciemnym tle. Jest otoczona czerwoną obwódką. Z&nbsp;jej górnej szczeliny wystaje kartka, na której widać kontur loga Ciemnej Strony, ułożony z&nbsp;żółtych kropek. Z&nbsp;jej dolnej szczeliny wystają dwa ostre, fioletowe kły, przez co wygląda drapieżnie."/>
 
 # Spis treści
 
@@ -103,7 +103,7 @@ Badacze z&nbsp;Uniwersytetu w&nbsp;Dreźnie zbadali wydruki z&nbsp;ponad 106 mod
 {:.figcaption}
 Źródło: [prezentacja](https://www.youtube.com/watch?v=riqLLXFwTu4) z&nbsp;YouTube'a, przeróbki moje.
 
-W przypadku niektórych drukarek -- jak *Xerox DocuColor* -- udało się nawet rozpracować, jakie informacje są zawarte we wzorach! Spójrzmy na przykład pojedynczej punktowej wysepki:
+W przypadku niektórych drukarek -- jak *Xerox DocuColor* -- udało się nawet rozpracować, jakie informacje są zawarte we wzorach! Spójrzmy na przykład pojedynczej punktowej wysepki:
 
 <img src="/assets/posts/drukarki/xerox-odczytanie-wzoru.jpg" alt="Przykładowa wyspa punktów z&nbsp;dorysowanymi liniami siatki oraz dopisaną legendą." width="500px"/>
 
@@ -123,7 +123,7 @@ Skoro kropki tam są, to skądś musiały się wziąć. Bardzo fajnie [opisał i
 
 (Jego artykuł, z&nbsp;tego czy innego powodu, jest już niedostępny pod pierwotnym linkiem. Musiałem go wyszperać w&nbsp;*Archive.org*).
 
-Według O'Huiginna pierwsza wzmianka o&nbsp;kodach identyfikacyjnych pojawia się w&nbsp;latach 90. (inne źródła wskazują, że Xerox wynalazł je już w&nbsp;latach 80.; ale możliwe, że był pionierem, a&nbsp;dopiero później się spopularyzowały).
+Według O'Huiginna pierwsza wzmianka o&nbsp;kodach identyfikacyjnych pojawia się w&nbsp;latach 90. (inne źródła wskazują, że Xerox wynalazł je już w&nbsp;latach 80.; ale możliwe, że był pionierem, a&nbsp;dopiero później się spopularyzowały).
   
 Szczypta kontekstu: w&nbsp;tamtych czasach na rynku zaczęły się pojawiać pierwsze kolorowe drukarki laserowe. Niosły za sobą obietnicę szybkiego i&nbsp;łatwego drukowania w&nbsp;kolorze. Rodząc wśród banków centralnych obawy, że lud zacznie masowo podrabiać banknoty.
 
@@ -138,7 +138,7 @@ Dostali również obietnicę, że mogą skontaktować się z&nbsp;producentem da
 {:.figure .bigspace}
 <img src="/assets/posts/drukarki/epic-handshake-printer-tracking.jpg" alt="Znany mem z&nbsp;epickim uściskiem dłoni. Widać na nim zbliżenie na uścisk dłoni dwóch osób, jednej czarnoskórej i&nbsp;jednej białej. Na jedno z&nbsp;ramion nałożono podpis 'Banki centralne', na drugie 'Producenci drukarek'. W&nbsp;miejscu, w&nbsp;którym dłonie się splatają, widać napis 'Żółte kropki'." width="600px"/>
 
-Z systemu ochoczo korzystała Europa. Powołano nawet osobną komórkę w ramach Europolu, która miała zbierać informacje łączące numery seryjne z&nbsp;nabywcami urządzeń:
+Z systemu ochoczo korzystała Europa. Powołano nawet osobną komórkę w ramach Europolu, która miała zbierać informacje łączące numery seryjne z&nbsp;nabywcami urządzeń:
 
 {:.bigspace}
 >  The database shall contain the relevant (technical) data on decoded bitmap-information, investigative data including personal data of companies and persons related with the bitmap subject.
@@ -176,7 +176,7 @@ Krótko: raczej nie. Ale stają się groźne, gdy jesteśmy na bakier ze służb
 
 # Od kropek do ujawnienia tożsamości
 
-Na tym blogu zajmuję się prywatnością, a&nbsp;z jej punktu widzenia najgorszy scenariusz jest taki, że ktoś na podstawie wydrukowanego dokumentu ustala, że wydrukowała go konkretna osoba.
+Na tym blogu zajmuję się prywatnością, a&nbsp;z jej punktu widzenia najgorszy scenariusz jest taki, że ktoś na podstawie wydrukowanego dokumentu ustala, że wydrukowała go konkretna osoba.
 
 Tylko że adwersarz chcący powiązać wydruk z&nbsp;konkretnym człowiekiem musiałby wykonać cały szereg kroków, nazwijmy go *łańcuchem działań*:
 
@@ -184,7 +184,7 @@ Tylko że adwersarz chcący powiązać wydruk z&nbsp;konkretnym człowiekiem mus
 2. Odczytać z&nbsp;nich informację o&nbsp;numerze seryjnym drukarki.
 3. Skontaktować się z&nbsp;producentem i&nbsp;ustalić, dokąd wysłali model o&nbsp;tym numerze. Producent zapewne prowadzi rejestr i&nbsp;może powiedzieć, jaki sklep dostał drukarkę.
 4. Udać się do sklepu i&nbsp;zobaczyć, komu sprzedano konkretną drukarkę.
-5. Może się okazać, że nabywca nie jest poszukiwaną osobą, a&nbsp;drukarkę odsprzedał -- wtedy dochodzą kolejne kroki.
+5. Może się okazać, że nabywca nie jest poszukiwaną osobą, a&nbsp;drukarkę odsprzedał -- wtedy dochodzą kolejne kroki.
 
 Jedynie punkt 1 jest wykonalny dla pierwszego lepszego ludka z&nbsp;ulicy.  
 Punkt 2 raczej wymaga kontaktu z&nbsp;producentem, bo format informacji nie jest udostępniany publicznie. Chyba że to któraś z&nbsp;drukarek „rozpracowanych” przez badaczy albo ktoś ma smykałkę do inżynierii wstecznej.  
@@ -224,7 +224,7 @@ W ten sposób przechodzimy do trzeciej kategorii, gdzie kropki już mogą stanow
 
 # Gdy przeciwnikiem jest państwo 
 
-Tu sytuacja zmienia się diametralnie, bo państwo jest w&nbsp;stanie przejść przez wszystkie ogniwa łańcucha: połączyć kropki z&nbsp;konkretną drukarką, drukarkę ze sprzedawcą, sprzedawcę z&nbsp;nabywcą. Legitymacje służbowe otwierają wiele drzwi.
+Tu sytuacja zmienia się diametralnie, bo państwo jest w&nbsp;stanie przejść przez wszystkie ogniwa łańcucha: połączyć kropki z&nbsp;konkretną drukarką, drukarkę ze sprzedawcą, sprzedawcę z&nbsp;nabywcą. Legitymacje służbowe otwierają wiele drzwi.
 
 Ktoś mógłby się zapieklić: „i dobrze, tylko przestępcy mają się czego bać”.
 
@@ -234,7 +234,7 @@ Historia zna przypadki, kiedy bycie po stronie etyki oznaczało bycie w&nbsp;kon
 Wyobraźmy sobie, że taki ruch oporu ma swoje zaplecze, trzymane w&nbsp;tajemnicy. W&nbsp;tym osobę, która zajmuje się projektowaniem i&nbsp;drukowaniem na prywatnym komputerze broszur ujawniających rządowe brudy.  
 Takie broszury łatwo wpadną w&nbsp;ręce służb, w&nbsp;końcu były przeznaczone dla szerszej publiczności. A&nbsp;służby mogłyby, wychodząc od ukrytego identyfikatora, dotrzeć do autora broszur i&nbsp;rozbić w&nbsp;ten sposób cały ruch. Po nitce do kłębka.
 
-W jaki sposób ruch oporu w&nbsp;jakimś obcym złym kraju może się bronić przed taką sytuacją? Mam parę subiektywnych przemyśleń.
+W jaki sposób ruch oporu w&nbsp;jakimś obcym złym kraju może się bronić przed taką sytuacją? Mam parę subiektywnych przemyśleń.
 
 Pierwsze założenie: muszą coś wydrukować, a&nbsp;usunięcie kropek identyfikujących nie wchodzi w&nbsp;grę. Założenie całkiem realne. Nie znalazłem informacji, żeby ktokolwiek zmodyfikował drukarki, pozbawiając je funkcji dodawania kropek.
 
@@ -269,7 +269,7 @@ Ten [opublikował skany dokumentów](https://www.documentcloud.org/documents/376
 
 Jasne, ta sprawa nie jest czarno-biała i&nbsp;można sobie zadać parę pytań:
 
-* Czy tłumaczka i&nbsp;tak by nie wpadła, nawet gdyby usunięto kropki? Komunikowała się z&nbsp;*Interceptem* ze służbowego komputera, korzystała z&nbsp;firmowej drukarki. Pracując -- przypominam -- dla ludzi związanych z&nbsp;wojskiem.
+* Czy tłumaczka i&nbsp;tak by nie wpadła, nawet gdyby usunięto kropki? Komunikowała się z&nbsp;*Interceptem* ze służbowego komputera, korzystała z&nbsp;firmowej drukarki. Pracując -- przypominam -- dla ludzi związanych z&nbsp;wojskiem.
 * Czy gra była warta świeczki? O&nbsp;rosyjskich działaniach i&nbsp;matactwach już wcześniej było głośno, dokumenty NSA to potwierdziły. Ale nie zawierały przełomowych tez w&nbsp;stylu „Trump wygrał dzięki Rosji”.
 
 Niezależnie od tego, jak ocenimy sytuację, ten wyciek informacji przyniósł parę rzeczy.  
@@ -292,7 +292,7 @@ type="Ciekawostka"
 text="
 Nawet pozostawienie samego tekstu mogłoby nie wystarczyć; czasem dokumenty są pułapką i&nbsp;każda osoba dostaje nieco inne informacje (w dokumencie Marka jest mowa o&nbsp;1220&nbsp;złotych, w&nbsp;dokumencie Basi o&nbsp;1320&nbsp;zł itp.).  
 Gdy dokument wycieknie na zewnątrz, to **na podstawie takich detali-pułapek można od razu ustalić, kto go upublicznił**.  
-Podobny motyw z&nbsp;podpuchami ujawniającymi szpiegów pojawia się całkiem często w&nbsp;kulturze popularnej, zwykle dla podkreślenia czyjegoś sprytu. Znajdziemy to między innymi w&nbsp;„Grze o&nbsp;tron” w&nbsp;wykonaniu Tyriona."
+Podobny motyw z&nbsp;podpuchami ujawniającymi szpiegów pojawia się całkiem często w&nbsp;kulturze popularnej, zwykle dla podkreślenia czyjegoś sprytu. Znajdziemy to między innymi w&nbsp;„Grze o&nbsp;tron” w&nbsp;wykonaniu Tyriona."
 %}
 
 Ideałem byłoby coś, co usuwa kropki identyfikujące, a&nbsp;poza tym zachowuje wygląd skanu. Tak przedstawia się program [DEDA Toolkit](https://github.com/dfd-tud/deda) (*open source*).  

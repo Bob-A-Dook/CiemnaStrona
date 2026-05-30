@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "O cenzurze stron internetowych"
-subtitle: "Wilk przeskoczy, wąż się prześlizgnie. My też."
-description: "Wilk przeskoczy, wąż się prześlizgnie. My też."
+subtitle: "Wilk przeskoczy, wąż się prześlizgnie. My też."
+description: "Wilk przeskoczy, wąż się prześlizgnie. My też."
 date:   2022-09-12 07:10:00 +0100
 tags: [Cenzura, DNS, Internet, Podstawy]
 image:
@@ -14,13 +14,13 @@ image:
 
 Gdzieś w&nbsp;odległych zakątkach tego świata mieszkają ludzie, którzy mieli pecha. Urodzili się w&nbsp;krajach mniej lub bardziej autorytarnych, próbujących ściśle kontrolować ich dostęp do informacji.
 
-Często ta kontrola jest dziurawa i&nbsp;wystarczy parę prostych sposobów, żeby ją ominąć. Nie są one żadną wiedzą tajemną i&nbsp;można je znaleźć w&nbsp;zwykłych komentarzach internautów.
+Często ta kontrola jest dziurawa i&nbsp;wystarczy parę prostych sposobów, żeby ją ominąć. Nie są one żadną wiedzą tajemną i&nbsp;można je znaleźć w&nbsp;zwykłych komentarzach internautów.
 
 Jednak komentarze bywają odpowiednikiem ryby dla głodnego. Spełniają doraźną potrzebę, mówiąc trafnie *co zrobić*; ale nie mówią przy tym, *dlaczego* to robimy.
 
 „Użyj Tora albo VPN-a”. „Zmień DNS-a”. Większości osób mało mówią takie inkantacje. A&nbsp;jeśli nawet ktoś znajdzie konkretne porady i&nbsp;raz obejdzie cenzurę, to kolejna aktualizacja urządzenia albo przeglądarki może go cofnąć do punktu wyjścia.
 
-Stworzyłem ten wpis, żeby nieco wypełnić tę lukę informacyjną, dać wędkę zamiast ryby. Pokazać w&nbsp;przystępny sposób, dlaczego pewne metody -- zarówno cenzury, jak i&nbsp;obejścia -- działają.
+Stworzyłem ten wpis, żeby nieco wypełnić tę lukę informacyjną, dać wędkę zamiast ryby. Pokazać w&nbsp;przystępny sposób, dlaczego pewne metody -- zarówno cenzury, jak i&nbsp;obejścia -- działają.
 
 {:.figure .bigspace-before}
 <img src="/assets/posts/dns/dns-cenzura-baner.jpg" alt="Przejście z&nbsp;barierkami, obok którego w&nbsp;trawie wydeptano ścieżkę. Przejście jest zakryte banerem ostrzegającym, że wchodzimy na nielegalną stronę. Na ścieżkę nałożono napis „Zmiana DNS-a”."/>
@@ -86,7 +86,7 @@ Jeśli chcemy coś wysłać temu Nowakowi, to musimy na kopercie zapisać równi
 
 Problem: w&nbsp;momencie klikania w&nbsp;link do nieznanej wcześniej strony przeglądarka nie zna jej adresu IP. Ma tylko czytelną nazwę domeny, *ciemnastrona.com.pl*. W&nbsp;jakiś sposób musi przejść od tej czytelnej nazwy do właściwego adresu.
 
-W tym celu wysyła pytanie do **DNS-a -- swoistej książki adresowej internetu**. Ten odpisuje, podając liczbowy adres. Jak na przykład:
+W tym celu wysyła pytanie do **DNS-a -- swoistej książki adresowej internetu**. Ten odpisuje, podając liczbowy adres. Jak na przykład:
 
 <div class="black-bg mono bigspace">
 213.186.33.5
@@ -94,7 +94,7 @@ W tym celu wysyła pytanie do **DNS-a -- swoistej książki adresowej internetu
 
 Mając ten ogólny adres, przeglądarka wysyła pod niego prośbę o&nbsp;konkretną rzecz. Czyli w&nbsp;naszym przypadku -- o&nbsp;pierwszy wpis z&nbsp;„Internetowej Inwigilacji”.
 
-Otrzymuje go, a&nbsp;strona wyświetla się na naszym ekranie. Dla wzrokowców schemat całej interakcji, czytamy od góry do dołu:
+Otrzymuje go, a&nbsp;strona wyświetla się na naszym ekranie. Dla wzrokowców schemat całej interakcji, czytamy od góry do dołu:
 
 {:.bigspace-before}
 <img src="/assets/posts/dns/internet-plus-dns-schemat.jpg" alt="Schemat pokazujący w&nbsp;dwóch linijkach interakcje podczas przeglądania internetu. W&nbsp;pierwszej linijce widać dwie strzałki między ikonami laptopa a&nbsp;serwera z&nbsp;napisem DNS. Nad górną strzałką widać kartkę z&nbsp;napisem 'ciemnastrona.com.pl' i&nbsp;znakiem zapytania. Zaraz pod nią widać strzałkę idącą od DNS-a do laptopa, z&nbsp;kartką, na której napisany jest adres. Druga linijka też zawiera dwie strzałki. Od laptopa do innego serwera wysyłana jest kartka z&nbsp;pytaniem o&nbsp;konkretny wpis. Zaraz pod nią jest ostatnia strzałka, od serwera do laptopa. Widać nad nią ikonę z&nbsp;logiem Ciemnej Strony." loading="lazy" width="800"/>
@@ -104,11 +104,11 @@ Otrzymuje go, a&nbsp;strona wyświetla się na naszym ekranie. Dla wzrokowców 
 Dokładna lista [pod koniec wpisu](#źródła-ikonek).
 
 ...Ale co, jeśli coś pójdzie nie tak?  
-Być może Ciemna Strona jest w&nbsp;jakimś obcym, odległym od Polski kraju cenzurowana. W&nbsp;takim wypadku zamiast upragnionej strony moglibyśmy zobaczyć jedynie pustkę. Albo stronę z&nbsp;ostrzeżeniem.
+Być może Ciemna Strona jest w&nbsp;jakimś obcym, odległym od Polski kraju cenzurowana. W&nbsp;takim wypadku zamiast upragnionej strony moglibyśmy zobaczyć jedynie pustkę. Albo stronę z&nbsp;ostrzeżeniem.
 
 ## Metody internetowej cenzury
 
-Cenzura nastąpiła zapewne na którymś z dwóch etapów:
+Cenzura nastąpiła zapewne na którymś z dwóch etapów:
 
 * Na etapie kontaktu z&nbsp;DNS-em (cenzura przez DNS, najczęstszy rodzaj);
 * Na etapie kontaktu z&nbsp;właściwym adresatem (cenzura przez IP).
@@ -136,7 +136,7 @@ Zatem **najczęściej korzystamy z&nbsp;tego, co nam ustawiła firma telekomunik
 Zaś dzięki tej kontroli mogą na przykład ustawić na prośbę rządu, żeby ich DNS wysyłał nieprawdziwą informację, gdy zostanie zapytany o&nbsp;adres cenzurowanej strony.
 
 {:.bigspace}
-<img src="/assets/posts/dns/evil-dns.jpg" alt="Schemat podobny do poprzedniego. Pokazuje strzałkę z&nbsp;pytaniem o&nbsp;domenę ciemnastrona.com.pl. Wychodzi ona od laptopa do serwera z&nbsp;napisem DNS, na który tym razem nałożonę emotkę uśmiechniętego diabełka. Poniżej widać strzałkę idącą od złego serwera do laptopa, a&nbsp;na niej napis 'Nie wiem'." loading="lazy" width="800"/>
+<img src="/assets/posts/dns/evil-dns.jpg" alt="Schemat podobny do poprzedniego. Pokazuje strzałkę z&nbsp;pytaniem o&nbsp;domenę ciemnastrona.com.pl. Wychodzi ona od laptopa do serwera z&nbsp;napisem DNS, na który tym razem nałożonę emotkę uśmiechniętego diabełka. Poniżej widać strzałkę idącą od złego serwera do laptopa, a&nbsp;na niej napis 'Nie wiem'." loading="lazy" width="800"/>
 
 **To najczęściej stosowana metoda cenzury. Jest dla rządów prosta, bo wystarczy wysłać oficjalne żądanie do firmy telekomunikacyjnej**. Jest też dość skuteczna, bo wielu użytkowników korzysta z&nbsp;domyślnych DNS-ów i&nbsp;nie ma pojęcia, jak je zmienić.
 
@@ -156,7 +156,7 @@ Kiedy *DNSSEC* działa, to mamy gwarancję, że DNS udziela nam autentycznej odp
 
 Po drugie: niezależnie od tego, czy działa DNSSEC, [drugą warstwą ochronną jest HTTPS](https://security.stackexchange.com/questions/137855/does-https-protect-against-dns-rebinding).
 
-Za każdym razem, kiedy odwiedzamy stronki zaczynającą się od `https://`, muszą one okazać naszej przeglądarce *certyfikat* -- swoisty „dowód tożsamości”, inny dla każdej strony i&nbsp;wystawiony przez jedną z akceptowanych instytucji. Praktycznie nie do podrobienia.
+Za każdym razem, kiedy odwiedzamy stronki zaczynającą się od `https://`, muszą one okazać naszej przeglądarce *certyfikat* -- swoisty „dowód tożsamości”, inny dla każdej strony i&nbsp;wystawiony przez jedną z akceptowanych instytucji. Praktycznie nie do podrobienia.
 
 Wniosek: o&nbsp;ile nie zajdą jakieś szczególne okoliczności, to DNS raczej nie będzie w&nbsp;stanie całkowicie nas okłamać. Uff.
 
@@ -173,7 +173,7 @@ Nie trafimy wtedy na żadną stronę, ale w&nbsp;naszej przeglądarce wyświetli
 {:.figure .bigspace}
 <img src="/assets/posts/dns/dns-nxdomain.jpg" alt="Komunikat mówiący, że nie udało się wyświetlić domeny. Jej nazwa jest zamazana, a&nbsp;pod spodem widać kod błędu DNS_PROBE_FINISHED_NXDOMAIN" loading="lazy" width="429"/>
 
-Jeśli go zobaczymy, to warto zacząć się rozglądać za sposobem na obejście cenzury. Parę przykładowych za moment.
+Jeśli go zobaczymy, to warto zacząć się rozglądać za sposobem na obejście cenzury. Parę przykładowych za moment.
 
 ### Cenzura przez adresy IP
 
@@ -181,23 +181,23 @@ Nawet jeśli poznaliśmy adres stronki, zagrożenie cenzurą nie znika. Możliwe
 
 Kiedy cokolwiek wysyłamy w&nbsp;sieć -- również prośby o&nbsp;konkretne strony -- adres IP naszego adresata jest widoczny na zewnątrz. Dla każdego, komu tylko chce się patrzeć. A&nbsp;cenzorom się chce.
 
-Nasza prośba o&nbsp;stronkę zapewne będzie przechodziła przez infrastrukturę firmy telekomunikacyjnej -- ich routery i&nbsp;inne bajery. Całkiem możliwe, że **spojrzą na adres IP, zobaczą że jest na liście stron blokowanych i&nbsp;nie prześlą naszej prośby dalej**. Nie dostaniemy upragnionej stronki.
+Nasza prośba o&nbsp;stronkę zapewne będzie przechodziła przez infrastrukturę firmy telekomunikacyjnej -- ich routery i&nbsp;inne bajery. Całkiem możliwe, że **spojrzą na adres IP, zobaczą że jest na liście stron blokowanych i&nbsp;nie prześlą naszej prośby dalej**. Nie dostaniemy upragnionej stronki.
 
 {:.bigspace}
 <img src="/assets/posts/dns/evil-router.jpg" alt="Schemat pokazujący, jak od laptopa odchodzi strzałka i&nbsp;trafia do routera ozdobionego emotką uśmiechniętego diabełka. Od routera wychodzi kolejna strzałka, skierowana do rysunkowego kosza na śmieci, a&nbsp;nad nią widać karteczkę zaadresowaną do 'abcd'. Po prawej stronie widać serwer podpisany 'abcd', do którego ostatecznie nie trafia żadna strzałka." loading="lazy" width="800"/>
 
 Jeśli to taka skuteczna metoda, to dlaczego nie jest częściej stosowana?
 
-A dlatego, że w&nbsp;obecnych czasach pod jednym adresem IP często znajduje się wiele różnych domen. Do tego adresy IP bywają co pewien czas zmieniane.  
+A dlatego, że w&nbsp;obecnych czasach pod jednym adresem IP często znajduje się wiele różnych domen. Do tego adresy IP bywają co pewien czas zmieniane.  
 Gdyby tak po prostu zablokować adres IP, to wiele całkiem przypadkowych stron przestałoby działać. Z&nbsp;punktu widzenia telekomu to niezadowoleni klienci.
 
 Mimo to znane są przypadki, kiedy ich takie wahania nie powstrzymały.  
 Raz zrobiła to nasza autokratyczna Rosja, [uderzając w&nbsp;popularne serwery od Amazona i&nbsp;Google'a](https://www.bleepingcomputer.com/news/government/russia-bans-18-million-amazon-and-google-ips-in-attempt-to-block-telegram/).
 
-Innym przykładem są [blokady nałożone przez pewien austriacki telekom](https://news.ycombinator.com/item?id=32630757). Zapewne pod presją wydawnictwa naukowego Elsevier. Zarówno na domeny, jak też na adresy IP.
+Innym przykładem są [blokady nałożone przez pewien austriacki telekom](https://news.ycombinator.com/item?id=32630757). Zapewne pod presją wydawnictwa naukowego Elsevier. Zarówno na domeny, jak też na adresy IP.
 
 Wśród zablokowanych adresów były największe firmy oferujące infrastrukturę internetową.  
-Telekomy musiały dobrze wiedzieć, że taka blokada będzie małą internetową katastrofą. A&nbsp;jednak podjęły ten krok.
+Telekomy musiały dobrze wiedzieć, że taka blokada będzie małą internetową katastrofą. A&nbsp;jednak podjęły ten krok.
 
 ### Strącenie niewygodnej stronki
 
@@ -208,7 +208,7 @@ Może to zrobić, wysyłając na przykład groźne prawnicze pismo do firmy zape
 Oczywiście w&nbsp;skali międzynarodowej możliwości tej metody są ograniczone.  
 Jest mała szansa na to, że jakaś firma z&nbsp;USA tak od ręki usunie hostowaną przez siebie stronę, bo jakiś Chińczyk napisał, że jej nie lubi.
 
-Natomiast jeśli cenzor ubije stronkę, w&nbsp;ten czy inny sposób, to żadne DNS-y czy VPN-y nie pomogą. Po prostu jej nie ma. Trzeba czekać aż się odrodzi albo ją zastąpić czymś nowym.
+Natomiast jeśli cenzor ubije stronkę, w&nbsp;ten czy inny sposób, to żadne DNS-y czy VPN-y nie pomogą. Po prostu jej nie ma. Trzeba czekać aż się odrodzi albo ją zastąpić czymś nowym.
 
 ## Omijamy blokady
 
@@ -224,14 +224,14 @@ Rozwiązanie rzadko polecane jako sposób na zmianę DNS-a, a&nbsp;jednak całki
 
 Po prostu **zabieramy laptopa na spacer do kawiarni lub galerii handlowej, tam podłączamy się do jakiegoś otwartego hotspota**.
 
-Żeby sprawdzić na komputerze, jakiego proponują nam DNS-a, możemy po połączeniu z&nbsp;siecią kliknąć w&nbsp;ikonę siły sygnału w&nbsp;prawym dolnym rogu i&nbsp;wybrać stamtąd opcję `Informacje o połączeniu` albo coś podobnego.  
+Żeby sprawdzić na komputerze, jakiego proponują nam DNS-a, możemy po połączeniu z&nbsp;siecią kliknąć w&nbsp;ikonę siły sygnału w&nbsp;prawym dolnym rogu i&nbsp;wybrać stamtąd opcję `Informacje o połączeniu` albo coś podobnego.  
 Sprawdzałem na systemach Windows i&nbsp;Linux Mint, tu przykład z&nbsp;tego drugiego:
 
 {:.figure .bigspace-before}
 <img src="/assets/posts/dns/hotspot-galeria-dns.jpg" alt="Zrzut ekranu okna z&nbsp;informacjami na temat hotspota w&nbsp;Galerii Krakowskiej. Czerwoną ramką otoczona pola zawierające liczbowe adresy DNS-ów" loading="lazy" width="437"/>
 
 {:.figcaption}
-Hotspot w&nbsp;pewnej galerii. Proponuje nam dwa adresy DNS, podstawowy i&nbsp;rezerwowy. O&nbsp;ile nie ustawiliśmy własnego, to nasz komputer skorzysta z&nbsp;któregoś z nich.
+Hotspot w&nbsp;pewnej galerii. Proponuje nam dwa adresy DNS, podstawowy i&nbsp;rezerwowy. O&nbsp;ile nie ustawiliśmy własnego, to nasz komputer skorzysta z&nbsp;któregoś z nich.
 
 Czasami administratorzy ręcznie ustawiają w&nbsp;routerach DNS-y spod adresów *1.1.1.1* (Clouflare) albo *8.8.8.8* (Google). Które nie cenzurują krajowych stronek, a&nbsp;przy tym są na tyle powszechne, że ustawianie ich nie budzi podejrzeń.
 
@@ -256,9 +256,9 @@ Jak z&nbsp;nich korzystać?
 
 3. Wklejamy link w&nbsp;pole.
 
-   Zwracamy przy tym uwagę na to, żeby wkleić we właściwe -- w&nbsp;przypadku *archive.ph* górne pole w&nbsp;czerwonej ramce to miejsce na wklejenie strony do zarchiwizowania. Wyszukiwarka stron już zapisanych jest niżej.
+   Zwracamy przy tym uwagę na to, żeby wkleić we właściwe -- w&nbsp;przypadku *archive.ph* górne pole w&nbsp;czerwonej ramce to miejsce na wklejenie strony do zarchiwizowania. Wyszukiwarka stron już zapisanych jest niżej.
 
-Jeśli ktoś wcześniej zapisał treść do archiwum, to wyświetli się kalendarz z&nbsp;datami zrzutów. Klikamy w&nbsp;którąś z&nbsp;nich, żeby wyświetlić treść strony w&nbsp;danym dniu. 
+Jeśli ktoś wcześniej zapisał treść do archiwum, to wyświetli się kalendarz z&nbsp;datami zrzutów. Klikamy w&nbsp;którąś z&nbsp;nich, żeby wyświetlić treść strony w&nbsp;danym dniu. 
 
 Ograniczeniem archiwów jest to, że przechowują jedynie zrzut z&nbsp;określonego momentu w&nbsp;czasie. Jeśli cenzurowana strona się często zmienia, to możliwe że w&nbsp;archiwum nie będzie jej najbardziej aktualnej wersji.
 
@@ -267,7 +267,7 @@ To zamrożenie w&nbsp;czasie może być również zaletą. **Archiwum to nasz je
 {% include info.html
 type="Ciekawostka"
 text="Archiwa czasem same są blokowane na poziomie DNS-ów. Nie zawsze przez cenzurę krajową.  
-Takie na przykład *archive.is*, czyli jedno z&nbsp;najbardziej niepokornych archiwów, nie działało, gdy próbowało się poznać jego adres przez DNS-a od Cloudflare (dziękuję za informację, M.). Według pewnego wpisu, odsyłającego do źródeł, [nie była to taka czarno-biała sprawa](https://jarv.is/notes/cloudflare-dns-archive-is-blocked/).  
+Takie na przykład *archive.is*, czyli jedno z&nbsp;najbardziej niepokornych archiwów, nie działało, gdy próbowało się poznać jego adres przez DNS-a od Cloudflare (dziękuję za informację, M.). Według pewnego wpisu, odsyłającego do źródeł, [nie była to taka czarno-biała sprawa](https://jarv.is/notes/cloudflare-dns-archive-is-blocked/).  
 W każdym razie w&nbsp;internecie nie ma co wierzyć komukolwiek na sto procent, jest pełno odcieni szarości."
 %}
 
@@ -290,7 +290,7 @@ Sposób dość nieoczekiwany, ale wbrew pozorom jak najbardziej ma sens. Możeci
 
 To działa, ponieważ GT też jest *de facto* stronką-posrednikiem. Odwiedza wskazaną stronę swoimi skryptami, pobiera jej treść i&nbsp;pokazuje nam tłumaczenie.
 
-W podobny sposób zadziałałaby jakakolwiek usługa, która pobiera strony za nas. Może oferuje coś podobnego jakiś przyszłościowy startup, który przerabia strony na wersję o&nbsp;wyższym kontraście dla osób z&nbsp;wadami wzroku? Albo zamienia czcionki na stronie na Comic Sans?
+W podobny sposób zadziałałaby jakakolwiek usługa, która pobiera strony za nas. Może oferuje coś podobnego jakiś przyszłościowy startup, który przerabia strony na wersję o&nbsp;wyższym kontraście dla osób z&nbsp;wadami wzroku? Albo zamienia czcionki na stronie na Comic Sans?
 
 Możliwości jest wiele, a&nbsp;ich „katalog” otwarty.  
 **O ile jakiś serwis sam nie jest blokowany i&nbsp;może pobrać stronkę za nas, to nada się na pośrednika**.
@@ -300,7 +300,7 @@ Wady? W&nbsp;przypadku Google fakt, że pewnie dodadzą informację o&nbsp;tym, 
 ### VPN / Tor
 
 Nazwy, które bardzo często wymieniane są razem.  
-VPN-y reklamują się na tyle intensywnie -- również w&nbsp;kontekście omijania blokad na Netflixa -- że większość młodszego pokolenia pewnie coś o nich słyszała. Tor jest raczej mniej znany.
+VPN-y reklamują się na tyle intensywnie -- również w&nbsp;kontekście omijania blokad na Netflixa -- że większość młodszego pokolenia pewnie coś o nich słyszała. Tor jest raczej mniej znany.
 
 Planuję kiedyś stworzyć wpis dokładniej omawiający różnice i&nbsp;synergie między tymi dwoma wynalazkami.
 
@@ -318,13 +318,13 @@ A nas zadowala dosłownie każdy pośrednik, który spełnia następujące warun
 
   Dzięki tym właściwościom ominiemy również potencjalne blokady poprzez adresy IP.
 
-Choć Tor jest potężniejszy, wydaje mi się tu prostszym rozwiązaniem -- możemy po prostu go [pobrać z&nbsp;oficjalnej strony](https://www.torproject.org/download/), zainstalować, odwiedzić cenzurowaną stronkę. A&nbsp;potem zostawić na dysku. Nie będzie nam wchodził w&nbsp;drogę, a&nbsp;czasem pomoże.  
+Choć Tor jest potężniejszy, wydaje mi się tu prostszym rozwiązaniem -- możemy po prostu go [pobrać z&nbsp;oficjalnej strony](https://www.torproject.org/download/), zainstalować, odwiedzić cenzurowaną stronkę. A&nbsp;potem zostawić na dysku. Nie będzie nam wchodził w&nbsp;drogę, a&nbsp;czasem pomoże.  
 Myślę, że można nawet szczerze go polubić. Mimo kilku niedogodności:
 
 * Będzie blokowany przez niektóre strony; inne mogą częściej wyświetlać nam Captchę i&nbsp;podobne przeszkadzajki.
 * Przeglądanie z&nbsp;nim może być dość powolne.
 
-Dla jasności: wady nie wynikają wyłącznie z&nbsp;winy Tora. Spowolnienie jest nieuniknione, kiedy nasze dane są wysyłane przez liczne „węzły przesiadkowe”. Zaś za blokowanie odpowiadają właściciele stron, zapewne korzystający z&nbsp;gotowych list. Tym niemniej wady istnieją.
+Dla jasności: wady nie wynikają wyłącznie z&nbsp;winy Tora. Spowolnienie jest nieuniknione, kiedy nasze dane są wysyłane przez liczne „węzły przesiadkowe”. Zaś za blokowanie odpowiadają właściciele stron, zapewne korzystający z&nbsp;gotowych list. Tym niemniej wady istnieją.
 
 Jeśli Tor to zbyt ciężkie działo na nasze potrzeby, to można również skorzystać z&nbsp;darmowego VPN-a (z nazwy), zintegrowanego z&nbsp;przeglądarką Opera.  
 VPN od Opery nie jest zbyt wysoko oceniany, ale to raczej przez porównanie z&nbsp;konkurencją. Na nasze potrzeby w&nbsp;zupełności wystarczy -- sprawdzałem na przykładowej stronie, cenzurę ominął.
@@ -342,7 +342,7 @@ Istnieją również liczne komercyjne VPN-y, których jednak nie będę tutaj wy
 Kiedy rząd Turcji zablokował w&nbsp;2014 roku Twittera, ludzie wypisywali sprejem na ścianach adres DNS-a, który pozwoliłby ominąć cenzurę (tu akurat DNS od Google'a).  
 Źródło: [blog Cloudflare](https://blog.cloudflare.com/dnssec-an-introduction/).
 
-Jeśli już jesteśmy gotowi grzebać w&nbsp;ustawieniach, to można pokusić się o ustawienie jakiegoś mniej cenzorskiego DNS-a.  
+Jeśli już jesteśmy gotowi grzebać w&nbsp;ustawieniach, to można pokusić się o ustawienie jakiegoś mniej cenzorskiego DNS-a.  
 Nie jest to trudne, ale na każdym systemie i&nbsp;dla każdej przeglądarki robi się to nieco inaczej.
 
 Tutaj ograniczę się jedynie **do zmiany DNS-a w&nbsp;dwóch przeglądarkach -- Brave i&nbsp;Firefox**, w&nbsp;wersjach na komputer.  

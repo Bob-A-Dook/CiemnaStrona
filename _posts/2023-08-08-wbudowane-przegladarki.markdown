@@ -12,18 +12,18 @@ image:
   path: /assets/posts/apki/in-app-browser/fake-browser-baner.jpg
   width: 1200
   height: 700
-  alt: "Obrazek pokazujący czarną taksówkę z przerobionym złotym napisem Fake Browser na boku. Z okna wychyla się kierowca, którego twarz jest zakryta logiem Messengera"
+  alt: "Obrazek pokazujący czarną taksówkę z przerobionym złotym napisem Fake Browser na boku. Z okna wychyla się kierowca, którego twarz jest zakryta logiem Messengera"
 ---
 
-We współczesnym świecie życie kręci się wokół internetu. Przeglądarka to stały element każdego smartfona.
+We współczesnym świecie życie kręci się wokół internetu. Przeglądarka to stały element każdego smartfona.
 
 Jak pokazywałem w&nbsp;innej swojej serii, [„Internetowej inwigilacji”](/serie/internetowa_inwigilacja/){:.internal}, przeglądarki zwykle chronią naszą prywatność podczas internetowych wojaży (niechlubnym wyjątkiem jest Chrome). Owszem, odwiedzane strony wciąż mogą się sporo o&nbsp;nas dowiedzieć. Ale muszą stosować sztuczki.
 
-Ale linki do stron trafiają się nie tylko w&nbsp;przeglądarce. Co się dzieje, gdy klikniemy jakiś w innej aplikacji?
+Ale linki do stron trafiają się nie tylko w&nbsp;przeglądarce. Co się dzieje, gdy klikniemy jakiś w innej aplikacji?
 
 Zwykle po prostu otworzy nam się strona w&nbsp;tej głównej, szczelnej, chroniącej nasz tyłek przeglądarce. Nic strasznego.
 
-Ale może się też zdarzyć, że **zamiast niej otworzy się przeglądarka fałszywa. Wbudowana w&nbsp;aplikację, żeby zbierać nasze informacje**.
+Ale może się też zdarzyć, że **zamiast niej otworzy się przeglądarka fałszywa. Wbudowana w&nbsp;aplikację, żeby zbierać nasze informacje**.
 
 To dość zaskakujący sposób śledzenia i&nbsp;warto go poznać. Zapraszam do lektury!
 
@@ -43,7 +43,7 @@ To dość zaskakujący sposób śledzenia i&nbsp;warto go poznać. Zapraszam do 
   * [Czytanie haseł i wrażliwych danych](czytanie-haseł-iwrażliwych-danych)
   * [Wyciąganie danych przez linki](#wyciąganie-danych-przez-linki)
   * [Doskonalsza replika przeglądarki](#doskonalsza-replika-przeglądarki)
-  * [Ustalanie marki czyjegoś telefonu](#ustalanie-marki-czyjegoś telefonu)
+  * [Ustalanie marki czyjegoś telefonu](#ustalanie-marki-czyjegoś telefonu)
 * [Jak się chronić?](#jak-się-chronić)
 
 ## Zarys tematu
@@ -53,7 +53,7 @@ Mniej więcej rok temu pewien badacz zajmujący się sprawami cyfrowymi, Felix K
 Stworzył również [stronę internetową *inappbrowser.com*](https://krausefx.com/blog/announcing-inappbrowsercom-see-what-javascript-commands-get-executed-in-an-in-app-browser), która pokazuje w&nbsp;zrozumiały sposób, co taki kod jest w&nbsp;stanie zrobić.  
 A może bardzo wiele. W&nbsp;skrajnych przypadkach -- odczytać każdy dotknięty element, każdą wpisaną literkę. Również na stronach cudzych, zupełnie niezwiązanych z&nbsp;daną apką.
 
-W jakich sytuacjach może dojść do wstrzyknięcia w&nbsp;stronę śledzącego kodu? Wtedy, gdy nie odwiedzamy jej przez naszą domyślną przeglądarkę, tylko przez **przeglądarkę wbudowaną** bezpośrednio w&nbsp;aplikację śledzącą (ang. *in-app browser*).
+W jakich sytuacjach może dojść do wstrzyknięcia w&nbsp;stronę śledzącego kodu? Wtedy, gdy nie odwiedzamy jej przez naszą domyślną przeglądarkę, tylko przez **przeglądarkę wbudowaną** bezpośrednio w&nbsp;aplikację śledzącą (ang. *in-app browser*).
 
 I nie są to niszowe przypadki. Dotyczy to między innymi aplikacji od firmy Meta -- Facebooka, Instagrama, Messengera. Znanych recydywistów w&nbsp;sprawie naruszania prywatności.  
 Swoje wbudowane przeglądarki mają również inne duże platformy, jak chociażby Reddit i&nbsp;Twitter.
@@ -68,11 +68,11 @@ Skoro widzimy skalę zagrożenia, to poznajmy je nieco bliżej! Omówmy sobie, c
 
 ### Niezależność aplikacji mobilnych
 
-Przypomnę tu podstawową, wałkowaną przez całą serię zasadę mobilnych systemów operacyjnych. Mianowicie: **każda apka ma własną prywatną przestrzeń. Aplikacje nie mogą zaglądać nawzajem do swoich plików**. 
+Przypomnę tu podstawową, wałkowaną przez całą serię zasadę mobilnych systemów operacyjnych. Mianowicie: **każda apka ma własną prywatną przestrzeń. Aplikacje nie mogą zaglądać nawzajem do swoich plików**. 
 
-Każda apka widzi większość rzeczy, jakie robimy wewnątrz niej samej. Nie widzi, co robimy wewnątrz innych apek. Całą sprawę nieco dokładniej opisałem we [wpisie na temat systemu plików]({% post_url 2022-11-16-apki-pliki %}){:.internal}.
+Każda apka widzi większość rzeczy, jakie robimy wewnątrz niej samej. Nie widzi, co robimy wewnątrz innych apek. Całą sprawę nieco dokładniej opisałem we [wpisie na temat systemu plików]({% post_url 2022-11-16-apki-pliki %}){:.internal}.
 
-Może to być nieintuicyjne dla osób wychowanych na komputerach osobistych. Tam zdarzało się, że programy zaglądały do siebie, a&nbsp;nawet modyfikowały cudzy kod (*cheaty* do gier). Ale w&nbsp;przypadku smartfonów twórcy systemów postawili na coś szczelniejszego.
+Może to być nieintuicyjne dla osób wychowanych na komputerach osobistych. Tam zdarzało się, że programy zaglądały do siebie, a&nbsp;nawet modyfikowały cudzy kod (*cheaty* do gier). Ale w&nbsp;przypadku smartfonów twórcy systemów postawili na coś szczelniejszego.
 
 Jeśli jakaś Apka 1&nbsp;chce mieć oko na nasze ruchy, to jedynym pewnym sposobem jest trzymanie nas jak najdłużej na swoim terytorium. Gdy tylko przejdziemy do Apki 2, to stracą nas z&nbsp;oczu.
 
@@ -104,7 +104,7 @@ W przypadku Apple wszystkie przeglądarki muszą korzystać z&nbsp;tego samego s
 Z kolei ich oficjalną, systemową przeglądarką jest **Safari (też na bazie WebKita)**.
 
 {:.bigspace-before}
-<img src="/assets/posts/internet/ios-android-silniki.jpg" alt="Ikony przeglądarek z&nbsp;dwóch systemów. Po lewej stronie, pod napisem Android, mamy dużą ikonę przeglądarki Samsunga, a&nbsp;pod nią małą ikonę Chromium. Po prawej, pod napisem iOS, mamy dużą ikonę Safari opartą na małej ikonie silnika WebKit." width="400px"/>
+<img src="/assets/posts/internet/ios-android-silniki.jpg" alt="Ikony przeglądarek z&nbsp;dwóch systemów. Po lewej stronie, pod napisem Android, mamy dużą ikonę przeglądarki Samsunga, a&nbsp;pod nią małą ikonę Chromium. Po prawej, pod napisem iOS, mamy dużą ikonę Safari opartą na małej ikonie silnika WebKit." width="400px"/>
 
 {:.figcaption}
 Główne przeglądarki oraz ich fundamenty. W&nbsp;przypadku Androida użyłem ikony przeglądarki Samsunga.  
@@ -114,7 +114,7 @@ Innych, alternatywnych systemów operacyjnych tutaj nie omówię. Ale uznaję ic
 
 Aplikacje mogą otwierać linki na różne sposoby. Zacznijmy od tego najmniej groźnego -- po prostu usuwają się z&nbsp;drogi i&nbsp;każą otworzyć nasz link domyślnej przeglądarce.
 
-* Jesteśmy w&nbsp;jakiejś apce A, jest tam link. Naciskamy go.
+* Jesteśmy w&nbsp;jakiejś apce A, jest tam link. Naciskamy go.
 * Aplikacja A&nbsp;to wyłapuje. Wysyła systemowi prośbę „otwórz ten link”.
 * System słucha i&nbsp;otwiera link w&nbsp;domyślnej przeglądarce, czyli całkiem osobnej apce.
 
@@ -136,7 +136,7 @@ A system otwiera okno, korzystając z&nbsp;dostępnego sobie silnika albo przegl
 
 Wspomniałem wyżej, że WV nie musi być otwierane w&nbsp;złych celach. Ale to w&nbsp;dużej mierze zależy od „szczelności” takiego okna. Od tego, czy aplikacja goszcząca je u&nbsp;siebie może wyciągać z&nbsp;niego informacje.
 
-Omówmy sobie te dwa rodzaje „okien na świat”, szczelne i&nbsp;nieszczelne. Ich rodzaje na systemach iOS i&nbsp;Android są w&nbsp;miarę zbliżone. A&nbsp;bardziej subtelne różnice pozwolę sobie pominąć.
+Omówmy sobie te dwa rodzaje „okien na świat”, szczelne i&nbsp;nieszczelne. Ich rodzaje na systemach iOS i&nbsp;Android są w&nbsp;miarę zbliżone. A&nbsp;bardziej subtelne różnice pozwolę sobie pominąć.
 
 {% include info.html
 type="Ciekawostka"
@@ -148,16 +148,16 @@ Nie wiem natomiast, jaki odsetek ich użytkowników ma świadomość zagrożeń.
 
 Takie okno **nie ma dostępu do danych głównej przeglądarki**. Nie zajrzy w&nbsp;jej historię, pliki cookies ani inne zapisane rzeczy. Może co najwyżej zbierać je od zera, w&nbsp;miarę odwiedzania przez nas kolejnych stron.
 
-Z drugiej strony -- aplikacja, wewnątrz której otwiera się okno, może dodawać do odwiedzanych przez nas stron rzeczy od siebie. Takie jak [kod JavaScript]({% post_url 2022-05-02-javascript1 %}){:.internal}, którego łatwo użyć do zbierania i&nbsp;wysyłania innym dokładnych informacji o&nbsp;nas.
+Z drugiej strony -- aplikacja, wewnątrz której otwiera się okno, może dodawać do odwiedzanych przez nas stron rzeczy od siebie. Takie jak [kod JavaScript]({% post_url 2022-05-02-javascript1 %}){:.internal}, którego łatwo użyć do zbierania i&nbsp;wysyłania innym dokładnych informacji o&nbsp;nas.
 
 W ten sposób apka ma wgląd w&nbsp;nasze działania w&nbsp;szerszym internecie, poza swoim głównym obszarem działań. To właśnie na temat tego zagrożenia wypowiadał się Felix Krause.
 
-W przypadku Androida taki nieszczelny element nazywa się po prostu [`WebView`](https://developer.android.com/develop/ui/views/layout/webapps/webview). Na systemach iOS bardzo podobna rzecz to [`WKWebView`](https://developer.apple.com/documentation/webkit/wkwebview).
+W przypadku Androida taki nieszczelny element nazywa się po prostu [`WebView`](https://developer.android.com/develop/ui/views/layout/webapps/webview). Na systemach iOS bardzo podobna rzecz to [`WKWebView`](https://developer.apple.com/documentation/webkit/wkwebview).
 
 {:.post-meta .bigspace-after}
 Kiedyś na iOS było też coś takiego jak `UIWebView`, jeszcze mniej szczelne. Ale od kilku wersji systemu ten element nie jest wspierany.
 
-<img src="/assets/posts/apki/in-app-browser/webview-nieszczelne-okno.jpg" alt="Schemat pokazujący dwa warianty aplikacji, na Androida i&nbsp;iOS. Są przedstawione jako czerwone trapezy z&nbsp;groźnie wyglądającym okiem w&nbsp;rogu. W&nbsp;każdej z&nbsp;nich znajduje się prostokąt wykonany z&nbsp;przerywanych kresek, z&nbsp;dwiema strzałkami na brzegu (od apki do jego wnętrza i&nbsp;vice versa). Wewnątrz prostokątów widać loga silników: Chromium oraz WebKita."/>
+<img src="/assets/posts/apki/in-app-browser/webview-nieszczelne-okno.jpg" alt="Schemat pokazujący dwa warianty aplikacji, na Androida i&nbsp;iOS. Są przedstawione jako czerwone trapezy z&nbsp;groźnie wyglądającym okiem w&nbsp;rogu. W&nbsp;każdej z&nbsp;nich znajduje się prostokąt wykonany z&nbsp;przerywanych kresek, z&nbsp;dwiema strzałkami na brzegu (od apki do jego wnętrza i&nbsp;vice versa). Wewnątrz prostokątów widać loga silników: Chromium oraz WebKita."/>
 
 {:.figcaption}
 WebView w&nbsp;wariancie nieszczelnym. Na smartfonach z&nbsp;Androidem jest obsługiwane przez Chromium, na iPhone'ach przez WebKita.
@@ -170,12 +170,12 @@ Na systemach Android możemy użyć w&nbsp;swoich apkach elementu zwanego [`Cust
 
 W obu przypadkach wewnątrz cudzej aplikacji otwiera nam się okno naszej głównej przeglądarki. Tej, której zwykle używamy do łażenia po internecie. Wraz ze znajomym interfejsem (wyglądem), zapisanymi hasłami, historią...
 
-Tyle że apka, w&nbsp;której się to okno otworzyło, nie ma możliwości zaglądania do niego, patrzenia co robimy. Nie może też dodawać od siebie żadnego JavaScriptu.
+Tyle że apka, w&nbsp;której się to okno otworzyło, nie ma możliwości zaglądania do niego, patrzenia co robimy. Nie może też dodawać od siebie żadnego JavaScriptu.
 
 Android posiada również nówkę z&nbsp;2020 roku, [`Trusted Web Activity`](https://developer.chrome.com/docs/android/trusted-web-activity/). To coś w&nbsp;rodzaju wersji hybrydowej -- okno oparte na `CustomTab`, ale bez pełnego interfejsu przeglądarki. Jest parę innych różnic, ale dla nas mniej ciekawych. To po prostu inne szczelne okno.
 
 {:.bigspace}
-<img src="/assets/posts/apki/in-app-browser/webview-szczelne-okno.jpg" alt="Schemat pokazujący dwa warianty aplikacji, na Androida i&nbsp;iOS. Są przedstawione jako czerwone trapezy z&nbsp;groźnie wyglądającym okiem w&nbsp;rogu. W&nbsp;każdej z&nbsp;nich znajduje się nieprzezroczysty prostokąt symbolizujący pzeglądarkę otwartą wewnątrz apki. Na jednym z&nbsp;nich widać logo przeglądarki Samsunga, na drugim ikonę przeglądarki Safari."/>
+<img src="/assets/posts/apki/in-app-browser/webview-szczelne-okno.jpg" alt="Schemat pokazujący dwa warianty aplikacji, na Androida i&nbsp;iOS. Są przedstawione jako czerwone trapezy z&nbsp;groźnie wyglądającym okiem w&nbsp;rogu. W&nbsp;każdej z&nbsp;nich znajduje się nieprzezroczysty prostokąt symbolizujący pzeglądarkę otwartą wewnątrz apki. Na jednym z&nbsp;nich widać logo przeglądarki Samsunga, na drugim ikonę przeglądarki Safari."/>
 
 {% include info.html
 type="Ciekawostka"
@@ -193,13 +193,13 @@ Tak, pamiętam, „płynność korzystania”... Ale jestem sceptyczny.
 
 Tutaj przedstawię zagrożenie bardziej teoretyczne, ale realne.
 
-Mianowicie: aplikacje na Androidzie nie muszą wchodzić w interakcje z&nbsp;internetem poprzez WebView. **Mogą również umieścić w&nbsp;sobie własny, niezależny silnik. Nie _otwierać w&nbsp;sobie_ przeglądarki, tylko _być_ przeglądarką**.
+Mianowicie: aplikacje na Androidzie nie muszą wchodzić w interakcje z&nbsp;internetem poprzez WebView. **Mogą również umieścić w&nbsp;sobie własny, niezależny silnik. Nie _otwierać w&nbsp;sobie_ przeglądarki, tylko _być_ przeglądarką**.
 
 W przypadku iOS-a byłoby trudniej, tam wszystko musi korzystać z&nbsp;WebKita. Poza tym Apple [wprost pisze](https://developer.apple.com/design/human-interface-guidelines/web-views), że krzywo patrzą na próby tworzenia replik przeglądarki.
 
 > Attempting to replicate the functionality of Safari in your app is unnecessary and discouraged.
 
-W każdym razie -- załóżmy, że taka aplikacja z&nbsp;własnym silnikiem, *de facto* przeglądarka (ale oficjalnie udająca coś innego), prześlizguje się przez kontrolę wielkich firm i&nbsp;trafia w&nbsp;ręce użytkowników.
+W każdym razie -- załóżmy, że taka aplikacja z&nbsp;własnym silnikiem, *de facto* przeglądarka (ale oficjalnie udająca coś innego), prześlizguje się przez kontrolę wielkich firm i&nbsp;trafia w&nbsp;ręce użytkowników.
 
 Ma wiele możliwości. Może nadać części swojego okna taki wygląd, jak te szczelniejsze wersje WebView na Androidzie i&nbsp;iOS.  
 Oczywiście nie będzie idealną imitacją, bo nie ma chociażby dostępu do historii przeglądania czy zapisanych haseł -- te tkwią jedynie w&nbsp;domyślnej przeglądarce. A&nbsp;apki, pamiętajmy, nie mogą do siebie zerkać.
@@ -218,7 +218,7 @@ Na pocieszenie -- takie zachowanie jest już typowym atakiem na użytkownika, wi
 
 ### Wyciąganie danych przez linki
 
-Wyżej zasugerowałem, że nawet najbezpieczniejsze metody -- otwarcie linku w&nbsp;przeglądarce systemowej albo w&nbsp;jakimś szczelniejszym wariancie WebView -- mają swoją lukę.  
+Wyżej zasugerowałem, że nawet najbezpieczniejsze metody -- otwarcie linku w&nbsp;przeglądarce systemowej albo w&nbsp;jakimś szczelniejszym wariancie WebView -- mają swoją lukę.  
 Apka nie będzie w&nbsp;stanie nas śledzić po oddaniu linku w&nbsp;ręce systemu... Ale **może w&nbsp;tym linku upchnąć nasze sekrety**.
 
 Sam Google pisze na swojej stronie na temat funkcji Trusted Web Activities, czyli tego najszczelniejszego okna (w&nbsp;punkcie 4):
@@ -231,11 +231,11 @@ Sam Google pisze na swojej stronie na temat funkcji Trusted Web Activities, czyl
 Może to brzmieć niejasno, ale prawdopodobnie chodzi im o&nbsp;[parametry w&nbsp;linkach]({% post_url 2021-04-09-internetowa-inwigilacja-parametry %}){:.internal}.
 
 Ich działanie opiera się na fakcie, że na końcu linku, po znaku zapytania, możemy dodać dowolne rzeczy. Byle format się zgadzał, ale to małe ograniczenie.  
-Nie powinno to wpłynąć na działanie samego linku, na stronę do której prowadzi. Ale **nasz adresat odbierze całość, razem z&nbsp;parametrami. I&nbsp;może wyczytać z&nbsp;nich informacje**.
+Nie powinno to wpłynąć na działanie samego linku, na stronę do której prowadzi. Ale **nasz adresat odbierze całość, razem z&nbsp;parametrami. I&nbsp;może wyczytać z&nbsp;nich informacje**.
 
-Przykład? Mamy u&nbsp;siebie złą apkę. Na podstawie różnych analiz (GPS, SMS-y, zawartość plików itp.) ustala nasze dane osobowe i&nbsp;miejsce zamieszkania. Teraz chce to wysłać swoim właścicielom, ale jak najdyskretniej.
+Przykład? Mamy u&nbsp;siebie złą apkę. Na podstawie różnych analiz (GPS, SMS-y, zawartość plików itp.) ustala nasze dane osobowe i&nbsp;miejsce zamieszkania. Teraz chce to wysłać swoim właścicielom, ale jak najdyskretniej.
 
-Może podsunąć nam link do strony, którą kontrolują jej autorzy. Dajmy na to: link do podstrony z&nbsp;regulaminem. A&nbsp;na końcu tego linku, po parametrach, upycha nasze informacje.
+Może podsunąć nam link do strony, którą kontrolują jej autorzy. Dajmy na to: link do podstrony z&nbsp;regulaminem. A&nbsp;na końcu tego linku, po parametrach, upycha nasze informacje.
 
 <div class="black-bg mono">
 https://www.strona-niedobrej-apki.pl/regulamin<span class="red">?name=kazimierz&lastname=nowak&location=warszawa-ulica-fikcyjna-13</span>
@@ -246,7 +246,7 @@ Tutaj dane to imię (Kazimierz), nazwisko (Nowak), miejsce zamieszania (Warszawa
 
 Kiedy otworzy nam się ten regulamin, to dane polecą do właścicieli strony. Czyli zarazem autorów złej apki.
 
-Gdyby próbowali wysyłać dane ludzi do siebie, wprost przez apkę, to może ktoś by ich złapał. Ale kiedy chowają je w&nbsp;linkach, a&nbsp;linki otwierają się w teoretycznie bezpieczny sposób (poza ich oczami)... Mniej osób będzie podejrzewało śledzenie.
+Gdyby próbowali wysyłać dane ludzi do siebie, wprost przez apkę, to może ktoś by ich złapał. Ale kiedy chowają je w&nbsp;linkach, a&nbsp;linki otwierają się w teoretycznie bezpieczny sposób (poza ich oczami)... Mniej osób będzie podejrzewało śledzenie.
 
 ### Doskonalsza replika przeglądarki
 
@@ -256,23 +256,23 @@ Ale gdybyśmy mieli szczególnie wrednego przeciwnika, to **mógłby próbować 
 
 Na początku podsunąłby nam link do kontrolowanej przez siebie strony. I&nbsp;otworzył go w&nbsp;*domyślnej* przeglądarce. Uzasadniając to na przykład tym, że musimy przeczytać regulamin. I&nbsp;wszystko OK, prawda? Domyślna, czyli bezpieczna?
 
-Tyle że odwiedzając tę stronę, nasza przeglądarka wysłałaby trochę informacji o&nbsp;sobie (np. to, że jest Firefoksem albo Brave'em). Inne informacje dałoby się ustalić na podstawie kodu obecnego na stronie. Albo nawet obrazków, jakie pobierze przeglądarka.
+Tyle że odwiedzając tę stronę, nasza przeglądarka wysłałaby trochę informacji o&nbsp;sobie (np. to, że jest Firefoksem albo Brave'em). Inne informacje dałoby się ustalić na podstawie kodu obecnego na stronie. Albo nawet obrazków, jakie pobierze przeglądarka.
 
 Mając te informacje, nasz przeciwnik może sprawdzić w&nbsp;wielkiej bazie, jak powinien wyglądać interfejs naszej przeglądarki.  
 A przy kolejnych interakcjach już nie będzie otwierał linków w&nbsp;przeglądarce domyślnej, jak zrobił w&nbsp;kroku pierwszym. Od teraz może używać własnej wersji (nieszczelnego WebView albo pełnej podróbki). Tyle że wystylizowanej na naszą przeglądarkę. 
 
 Nie będzie to w&nbsp;100% dokładne, bo przeglądarki nie ujawniają stronom swojego pełnego wyglądu. Ale uwiarygodniłoby fałszywą przeglądarkę. Jest szansa, że się nie połapiemy i&nbsp;wpiszemy coś wrażliwego.
 
-### Ustalanie marki czyjegoś telefonu
+### Ustalanie marki czyjegoś telefonu
 
 Tutaj przypadek raczej niegroźny na tle powyższych. Ale pokazuje, że **działanie wbudowanych przeglądarek mogą wykorzystać osoby z&nbsp;zewnątrz, niezwiązane z&nbsp;ich autorami**. Mogą odczytać pewne informacje, których normalnie by nie dostały.
 
 Wyobraźmy sobie, że ktoś znajomy nam pisze, że ma nowy telefon. Nie przyznaje, jakiej marki. Ale układamy w&nbsp;głowie diabelski plan, który pozwoli się tego dowiedzieć. Kontrolujemy własną stronę internetową. Mamy wgląd do jej serwera.
 
 Pierwsza myśl -- napiszemy przez Signala zaproszenie na naszą stronę („O, super! Działa ci na tym telefonie moja animacja?”).  
-Gdy ta osoba tam wejdzie, jej przeglądarka wyśle nam coś zwanego [*user agent*]({% post_url 2021-06-11-user-agent %}){:.internal}. Krótką informację o&nbsp;systemie i&nbsp;przeglądarce. To normalna część działania internetu.
+Gdy ta osoba tam wejdzie, jej przeglądarka wyśle nam coś zwanego [*user agent*]({% post_url 2021-06-11-user-agent %}){:.internal}. Krótką informację o&nbsp;systemie i&nbsp;przeglądarce. To normalna część działania internetu.
 
-Tylko że znajoma osoba jako domyślną przeglądarkę ma ustawionego Firefoksa. A&nbsp;ten wysyła jedynie lakoniczne informacje:
+Tylko że znajoma osoba jako domyślną przeglądarkę ma ustawionego Firefoksa. A&nbsp;ten wysyła jedynie lakoniczne informacje:
 
 <div class="black-bg mono">
 ... Android 10; Mobile; rv:(<span class="red">NR WERSJI FIREFOKSA</span>) ...
@@ -285,12 +285,12 @@ Nasz plan upadł? Niekoniecznie! Bo możemy jeszcze wykorzystać wbudowaną prze
 
 * Wysyłamy link do naszej strony nie przez Signala, tylko przez Messengera.
 
-  Jest spora szansa, że znajoma osoba niczego nie zmieniała w&nbsp;opcjach; zatem link po kliknięciu otworzy się w przeglądarce wbudowanej.
+  Jest spora szansa, że znajoma osoba niczego nie zmieniała w&nbsp;opcjach; zatem link po kliknięciu otworzy się w przeglądarce wbudowanej.
 
 * **Przeglądarka wbudowana zmienia _user-agenta_. Na takiego, który zawiera w&nbsp;sobie nazwę marki telefonu**.  
   Przynajmniej w&nbsp;przypadku pewnego rozsądnego cenowo Huaweia. Innych nie sprawdzałem.
 
-* ...a że odwiedza stronę należącą do nas, to wysyła jej komplet informacji.  
+* ...a że odwiedza stronę należącą do nas, to wysyła jej komplet informacji.  
   W&nbsp;tym *user agenta*.
 
 * ...a że mamy dostęp do serwera, to możemy sprawdzić logi (historię).
@@ -308,7 +308,7 @@ A potem chociażby decydować na tej podstawie, jak drogi chłam będą nam pods
 
 ## Jak się chronić?
 
-Przede wszystkim korzystajmy z&nbsp;zaufanych aplikacji. Szkoda byłoby pobrać coś szemranego, co zawiera własną wbudowaną przeglądarkę i&nbsp;będzie próbowało czytać nasze hasła bankowe.
+Przede wszystkim korzystajmy z&nbsp;zaufanych aplikacji. Szkoda byłoby pobrać coś szemranego, co zawiera własną wbudowaną przeglądarkę i&nbsp;będzie próbowało czytać nasze hasła bankowe.
 
 W przeciwieństwie do spraw z&nbsp;ostatnich wpisów o&nbsp;apkach -- tutaj nie pomoże nam system pozwoleń. Prawie każda aplikacja wymaga dostępu do internetu.
 
@@ -319,21 +319,21 @@ Jak w&nbsp;ogóle się połapać, czy nie jesteśmy przypadkiem zamknięci w&nbs
 Warto pomyśleć nad użyciem przeglądarki innej niż domyślna. Jak Firefox. I&nbsp;jej wystylizowaniem, jeśli jest taka opcja. Możemy na przykład wybrać nietypowy motyw kolorystyczny.
 
 Pisałem wcześniej, w&nbsp;jaki sposób apki mogłyby, we współpracy ze stronami internetowymi, udoskonalać swoje imitacje. Ale do wewnętrznych motywów przeglądarki nie powinny mieć wglądu.  
-Jeśli zatem w&nbsp;cudzej apce otworzy nam się coś wyglądającego jak przeglądarka, ale kolory nie pasują... To czas się niepokoić.
+Jeśli zatem w&nbsp;cudzej apce otworzy nam się coś wyglądającego jak przeglądarka, ale kolory nie pasują... To czas się niepokoić.
 
 {% include info.html
 type="Uwaga"
 text="Motyw kolorystyczny lepiej ustawić w&nbsp;samej przeglądarce. Systemowy motyw ciemny może bowiem zostać wykryty przez stronki-podglądaczy, a&nbsp;potem użyty do pokazania nam lepszej repliki."
 %}
 
-Inna opcja, jeśli nie jesteśmy pewni? Wejdźmy na jakąś (mniej wrażliwą) stronę wymagającą logowania. Jeśli w&nbsp;normalnych warunkach pokazałoby nasze konto, a&nbsp;teraz jest tylko ekran logowania (czytaj: nie jesteśmy zalogowani), to od razu zapalmy czerwoną lampkę w głowie.
+Inna opcja, jeśli nie jesteśmy pewni? Wejdźmy na jakąś (mniej wrażliwą) stronę wymagającą logowania. Jeśli w&nbsp;normalnych warunkach pokazałoby nasze konto, a&nbsp;teraz jest tylko ekran logowania (czytaj: nie jesteśmy zalogowani), to od razu zapalmy czerwoną lampkę w głowie.
 
-Można też sprawdzić wspomnianą [stronkę Felixa K](https://inappbrowser.com/). Powinna wykryć, jeśli ktoś dodał nam do strony kod, którego nie powinno tam być.  
+Można też sprawdzić wspomnianą [stronkę Felixa K](https://inappbrowser.com/). Powinna wykryć, jeśli ktoś dodał nam do strony kod, którego nie powinno tam być.  
 Inna strona: BrowserLeaks (ale tam już musimy wiedzieć, na jakie informacje patrzeć).
 
 ### Trzymanie się domyślnej przeglądarki
 
-Wiedząc, że jakaś aplikacja wpycha nas w&nbsp;WebView pod swoją kontrolą, możemy zacząć walczyć. I&nbsp;otwierać linki na swoich zasadach, we własnej przeglądarce.
+Wiedząc, że jakaś aplikacja wpycha nas w&nbsp;WebView pod swoją kontrolą, możemy zacząć walczyć. I&nbsp;otwierać linki na swoich zasadach, we własnej przeglądarce.
 
 Niektóre apki dają nam możliwość wyboru. Przykładowo, dla **Messengera**:
 
@@ -343,7 +343,7 @@ Niektóre apki dają nam możliwość wyboru. Przykładowo, dla **Messengera**:
 
 Jeśli apka nie daje nam takiej możliwości w&nbsp;opcjach, to możliwe, że pozwala przynajmniej normalnie kopiować linki.
 
-Żeby to zrobić, przytrzymujemy na linku palec i&nbsp;wybieramy opcję `Kopiuj link` (albo *Odnośnik*, albo coś podobnego; to od apki zależy, jak nazwie opcję i czy ją da).
+Żeby to zrobić, przytrzymujemy na linku palec i&nbsp;wybieramy opcję `Kopiuj link` (albo *Odnośnik*, albo coś podobnego; to od apki zależy, jak nazwie opcję i czy ją da).
 
 Następnie zamykamy apkę, otwieramy swoją główną przeglądarkę. Wklejamy link w&nbsp;pasek (często od razu nam to podpowiada). I&nbsp;już! Będziemy poza oczami podglądaczy.
 
@@ -351,7 +351,7 @@ A jeśli mamy przypadki beznadziejne, jak TikTok, które za nic nie chcą nas wy
 
 ### Dla autorów stron
 
-A jeśli jesteśmy autorami stron? Możemy rozpoznać, po *user agencie* oraz innych informacjach, czy ktoś nas odwiedza przez wbudowaną przeglądarkę. Przykład wyżej.
+A jeśli jesteśmy autorami stron? Możemy rozpoznać, po *user agencie* oraz innych informacjach, czy ktoś nas odwiedza przez wbudowaną przeglądarkę. Przykład wyżej.
 
 Potem można wyświetlić odpowiednie ostrzeżenie. „Znam twój model telefonu, wiem że przybywasz z&nbsp;apki”.  
 Można też dopisać, że TikTok, Facebook czy tam inna apka ujawnia te dane całemu internetowi. Taka mała akcja w&nbsp;ramach uświadamiania społeczeństwa :smiling_imp:

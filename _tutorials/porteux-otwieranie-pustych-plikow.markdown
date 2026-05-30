@@ -14,14 +14,14 @@ W tym wpisie pokażę, jak wygładziłem jeden z&nbsp;takich zadziorów, którym
 
 {% include info.html
 type="Na innych systemach"
-text="Choć opisuję sprawę na przykładzie Porteuksa, informacje z&nbsp;tego wpisu powinny być łatwe do przeniesienia na inne Linuksy, gdyby pojawił się na nich ten sam problem (choć raczej się nie pojawi)."
+text="Choć opisuję sprawę na przykładzie Porteuksa, informacje z&nbsp;tego wpisu powinny być łatwe do przeniesienia na inne Linuksy, gdyby pojawił się na nich ten sam problem (choć raczej się nie pojawi)."
 %}
 
 ## Opis i&nbsp;rozwiązanie problemu
 
 Załóżmy, że chcę sobie stworzyć nowy plik tekstowy. Może notatki na jakiś temat, który mi przyszedł do głowy? Krótki opis plików umieszczonych w&nbsp;tym samym folderze? Skrypt?
 
-Bez znaczenia. W&nbsp;każdym razie: klikam prawym przyciskiem myszy pulpit albo pustą przestrzeń wewnątrz przeglądarki plików, żeby przywołać **menu kontekstowe**. Wybieram z&nbsp;niego opcję `Create Document`, a&nbsp;potem `Empty File`. Nowy plik powstaje bez problemu.
+Bez znaczenia. W&nbsp;każdym razie: klikam prawym przyciskiem myszy pulpit albo pustą przestrzeń wewnątrz przeglądarki plików, żeby przywołać **menu kontekstowe**. Wybieram z&nbsp;niego opcję `Create Document`, a&nbsp;potem `Empty File`. Nowy plik powstaje bez problemu.
 
 {:.figure .bigspace}
 <img src="/assets/tutorials/linux/porteux-puste-pliki/porteux-tworzenie-nowego-pliku.png" alt="Zrzut ekranu pokazujący menu kontekstowe z&nbsp;zaznaczoną opcją stworzenia nowego pliku."/>
@@ -41,7 +41,7 @@ Na szczęście niedogodność nie będzie trwała długo, idą dwa sposoby na je
 {% include info.html
 type="Ciekawostka"
 text="Choć zachowanie Porteuksa może budzić zdziwienie, wcale nie jest najgorszym systemem pod względem tworzenia nowych plików.  
-Niektóre Linuksy (również bardzo popularny Ubuntu, gdy ostatnio sprawdzałem) w&nbsp;ogóle nie dają opcji stworzenia nowego pliku przez menu kontekstowe! Obawiam się, że może to zniechęcić niejedną osobę przyzwyczajoną do Windowsa."
+Niektóre Linuksy (również bardzo popularny Ubuntu, gdy ostatnio sprawdzałem) w&nbsp;ogóle nie dają opcji stworzenia nowego pliku przez menu kontekstowe! Obawiam się, że może to zniechęcić niejedną osobę przyzwyczajoną do Windowsa."
 trailer="<p class='post-meta'>To również jeden z&nbsp;kilku powodów, dla których polecam Minta zamiast Ubuntu.</p>"
 %}
 
@@ -64,8 +64,8 @@ Następnie należy się upewnić, że zaznaczona jest **opcja zapamiętania apli
 {:.bigspace-before}
 Gdyby ktoś się zawziął, że nie zmieni domyślnych programów, ale nadal chce tworzyć nowe pliki przez menu kontekstowe i&nbsp;je szybko otwierać, to widzę pewne obejście.
 
-Należy naszykować plik tekstowy z&nbsp;minimalną treścią; może być dosłownie jedna literka.  
-Następnie trzeba go skopiować do folderu `Templates` (po polsku `Szablony`) w&nbsp;folderze domowym -- tam, gdzie są foldery takie jak `Music`, `Videos` itd.
+Należy naszykować plik tekstowy z&nbsp;minimalną treścią; może być dosłownie jedna literka.  
+Następnie trzeba go skopiować do folderu `Templates` (po polsku `Szablony`) w&nbsp;folderze domowym -- tam, gdzie są foldery takie jak `Music`, `Videos` itd.
 
 {:.post-meta .bigspace-after}
 Można to zrobić również konsolowo, komendą `cp PLIK ~/Templates`.
@@ -73,7 +73,7 @@ Można to zrobić również konsolowo, komendą `cp PLIK ~/Templates`.
 Od teraz w&nbsp;menu kontekstowym pod opcją tworzenia pustego pliku pojawi się również opcja stworzenia kopii tego, który dodaliśmy do szablonów.  
 Będzie go można otworzyć zwykłym dwuklikiem, bo w&nbsp;oczach systemu jest plikiem tekstowym, a&nbsp;nie pustym.
  
-Czy warto bawić się w&nbsp;takie obejścia, zamiast zmieniać domyślny program? Niekoniecznie :wink: Ale szablony tak czy siak się przydają, więc równie dobrze można się z&nbsp;nimi oswoić w&nbsp;taki właśnie sposób.
+Czy warto bawić się w&nbsp;takie obejścia, zamiast zmieniać domyślny program? Niekoniecznie :wink: Ale szablony tak czy siak się przydają, więc równie dobrze można się z&nbsp;nimi oswoić w&nbsp;taki właśnie sposób.
 
 {% include details-end.html %}
 

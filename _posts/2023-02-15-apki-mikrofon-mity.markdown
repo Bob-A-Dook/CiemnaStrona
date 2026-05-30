@@ -28,7 +28,7 @@ Stanisław Lem, „Cyberiada” (rozdział o&nbsp;Harmonii Sfer).
 
 Co by powiedziała losowa osoba, gdyby ją zapytać, jak wyobraża sobie śledzenie i&nbsp;naruszanie prywatności? Obstawiam, że padłoby słowo „podsłuch”. Albo „nagrywanie”.
 
-Te słowa dość mocno działają na wyobraźnię, a&nbsp;przy tym nie wydają się czymś odległym i&nbsp;abstrakcyjnym. O&nbsp;podsłuchach słyszymy w&nbsp;wiadomościach. Zazdrośni małżonkowie mogą je kupić w&nbsp;sklepach. Na korpogrupach ludzie sobie czasem doradzają, żeby zbierać dowody ukrytym dyktafonem.
+Te słowa dość mocno działają na wyobraźnię, a&nbsp;przy tym nie wydają się czymś odległym i&nbsp;abstrakcyjnym. O&nbsp;podsłuchach słyszymy w&nbsp;wiadomościach. Zazdrośni małżonkowie mogą je kupić w&nbsp;sklepach. Na korpogrupach ludzie sobie czasem doradzają, żeby zbierać dowody ukrytym dyktafonem.
 
 Nie powinno nas zatem dziwić, że te same wyobrażenia na temat metod śledzenia przeniesiono do świata elektroniki konsumenckiej.
 
@@ -36,7 +36,7 @@ Czasem te obawy są uzasadnione, zwłaszcza gdy mówimy o&nbsp;śledzeniu konkre
 
 Ten wpis rozprawi się z&nbsp;takim popularnym przekonaniem -- o&nbsp;tym, że aplikacje od Facebooka (zwanego teraz Meta) nas podsłuchują. Wnioski będą na tyle ogólne, że śmiało można je odnieść do innych firm i&nbsp;programów.
 
-Mój kolejny wpis na temat mikrofonów przybliży natomiast te bardziej rzeczywiste zagrożenia z&nbsp;ich strony. Bez obaw, są ciekawsze niż proste podsłuchiwanie :wink:
+Mój kolejny wpis na temat mikrofonów przybliży natomiast te bardziej rzeczywiste zagrożenia z&nbsp;ich strony. Bez obaw, są ciekawsze niż proste podsłuchiwanie :wink:
 
 ### Spis treści
 
@@ -56,7 +56,7 @@ Mój kolejny wpis na temat mikrofonów przybliży natomiast te bardziej rzeczywi
 
 ## Podsłuchujący Facebook – wprowadzenie
 
-Nieraz zdarzało się, że ludzie rozmawiali ze sobą o&nbsp;swoich planach albo rzeczach, jakie by się im przydały. Po czym po uruchomieniu którejś z&nbsp;aplikacji od firmy Meta (jak Facebook, Messenger czy Instagram) jedna z&nbsp;osób widziała reklamę tej samej rzeczy, której dotyczyła rozmowa.
+Nieraz zdarzało się, że ludzie rozmawiali ze sobą o&nbsp;swoich planach albo rzeczach, jakie by się im przydały. Po czym po uruchomieniu którejś z&nbsp;aplikacji od firmy Meta (jak Facebook, Messenger czy Instagram) jedna z&nbsp;osób widziała reklamę tej samej rzeczy, której dotyczyła rozmowa.
 
 Wniosek, który pozwolę sobie nazywać *teorią podsłuchu* -- „Facebook mnie podsłuchuje”. Znajdziemy na świecie tysiące takich historii.
 
@@ -73,7 +73,7 @@ W tym wpisie opieram się na własnych przemyśleniach, a&nbsp;także innych źr
 
 Historie o&nbsp;podsłuchiwaniu często sprowadzają się do „rozmawialiśmy o&nbsp;czymś, nie używaliśmy telefonów, a&nbsp;jednak potem pokazało bardzo trafne reklamy”.
 
-Załóżmy na chwilę, że faktycznie ma miejsce słuchanie naszych rozmów. Ale, o&nbsp;ile nie jesteśmy kompletnymi nałogowcami, nasz telefon najczęściej ma zablokowany ekran i&nbsp;spoczywa w&nbsp;naszej kieszeni albo na jakimś stoliku.
+Załóżmy na chwilę, że faktycznie ma miejsce słuchanie naszych rozmów. Ale, o&nbsp;ile nie jesteśmy kompletnymi nałogowcami, nasz telefon najczęściej ma zablokowany ekran i&nbsp;spoczywa w&nbsp;naszej kieszeni albo na jakimś stoliku.
 
 Czy nagrywanie w&nbsp;takiej sytuacji jest w&nbsp;ogóle możliwe?
 
@@ -86,11 +86,11 @@ Po włączeniu nagrywania:
 * nacisnąłem ikonkę domu, żeby przejść do ekranu głównego (i&nbsp;znów parę słów);
 * nacisnąłem przycisk z&nbsp;boku telefonu, żeby włączyć blokadę ekranu i&nbsp;go wygasić (po czym parę słów);
 * włączyłem ekran (parę słów);
-* wprowadziłem kombinację odblokowującą telefon (parę słów);
+* wprowadziłem kombinację odblokowującą telefon (parę słów);
 * otwarłem Termuksa i&nbsp;przerwałem nagrywanie  
   (komendą `termux-microphone-record -q`).
 
-Zajrzałem do otrzymanego pliku. Po cichu miałem nadzieję, że na którymś z&nbsp;etapów przestało nagrywać. Ale nie, nagrały się wszystkie moje wypowiedzi. Również ta przy wyłączonym i&nbsp;zablokowanym ekranie.  
+Zajrzałem do otrzymanego pliku. Po cichu miałem nadzieję, że na którymś z&nbsp;etapów przestało nagrywać. Ale nie, nagrały się wszystkie moje wypowiedzi. Również ta przy wyłączonym i&nbsp;zablokowanym ekranie.  
 Niestety potwierdził się najbardziej niekorzystny wariant -- **aplikacje jak najbardziej mogą słuchać, również z&nbsp;wnętrza naszej kieszeni**. Skoro Termux może, to inne też.
 
 Jest całkiem możliwe, że takie nagrywanie może trwać tylko przez pewien czas; że gdybym poczekał dłużej po zablokowaniu ekranu, to by je samoistnie przerwało. Gdzieś mi mignęła informacja, że apka jest w&nbsp;stanie jedynie *kontynuować* nagrywanie w&nbsp;tle, ale nie jest w&nbsp;stanie go *włączyć* w&nbsp;tym trybie. 
@@ -104,7 +104,7 @@ Na szczęście sama techniczna możliwość to dopiero początek. Spójrzmy na i
 
 ### Kwestia (braku) opłacalności
 
-Od możliwości do czynów jest daleka droga. Zastanówmy się, czy podejrzani w&nbsp;tej sprawie -- megakorpo od produktów cyfrowych -- mieliby motyw. Czy podsłuchiwanie w&nbsp;ogóle by się im opłacało?
+Od możliwości do czynów jest daleka droga. Zastanówmy się, czy podejrzani w&nbsp;tej sprawie -- megakorpo od produktów cyfrowych -- mieliby motyw. Czy podsłuchiwanie w&nbsp;ogóle by się im opłacało?
 
 Pierwsza myśl: „Oczywiście! Przecież poznaliby nasze największe sekrety”.
 
@@ -127,7 +127,7 @@ Dane dźwiękowe są bardzo upierdliwe. Jeśli chodzi o&nbsp;poziom trudności p
 * Ustalenie, że odwiedziliśmy jakąś stronkę albo grupę na Facebooku? Banalnie łatwe.
 
   Chodząc po stronkach, cały czas nosimy ze sobą swoistą [„wizytówkę” z&nbsp;danych]({% post_url 2021-10-22-pliki-cookies %}){:.internal}. Facebook wie, że my to my.  
-  Zaś odwiedzane przez nas profile są już pewnie oznaczone w&nbsp;ich bazie, jako np. *fani motoryzacji*. Kiedy nasza wizytówka pojawi się w takim miejscu, to od razu trafimy do odpowiedniej szufladki.
+  Zaś odwiedzane przez nas profile są już pewnie oznaczone w&nbsp;ich bazie, jako np. *fani motoryzacji*. Kiedy nasza wizytówka pojawi się w takim miejscu, to od razu trafimy do odpowiedniej szufladki.
 
 *  Ustalenie, że odwiedziliśmy stronkę *poza Facebookiem*? To zależy.
 
@@ -135,7 +135,7 @@ Dane dźwiękowe są bardzo upierdliwe. Jeśli chodzi o&nbsp;poziom trudności p
 
 * Analizowanie wiadomości, jakie piszemy na Messengerze? Średnio trudne.
 
-  Problemem byłaby odporność na literówki, odsiewanie ironii, łapanie kontekstu. Napisane z&nbsp;rezygnacją „Ech, fajnie byłoby dupnąć tym wszystkim i&nbsp;jechać w Bieszczady :p” to niekoniecznie znak, że czas reklamować pensjonaty.
+  Problemem byłaby odporność na literówki, odsiewanie ironii, łapanie kontekstu. Napisane z&nbsp;rezygnacją „Ech, fajnie byłoby dupnąć tym wszystkim i&nbsp;jechać w Bieszczady :p” to niekoniecznie znak, że czas reklamować pensjonaty.
 
   Ale gdyby Facebook nie przejmował się niedokładnością i&nbsp;po prostu wychwytywał pewne zbitki słów? Wtedy analiza byłaby znacznie łatwiejsza.
 
@@ -158,7 +158,7 @@ Odpowiedział że nie. Potem rozwinął temat i&nbsp;dodał, że Facebook prosi 
 
 I tak, wiem. „Lisek-chytrusek powiedział, że to nie on. A&nbsp;tak naprawdę to był on”. Tylko że tutaj naprawdę ryzyko byłoby zbyt wielkie.
 
-Bo pomyślmy tylko, co mógłby nagrać taki telefon (który przecież nie wie, że jest w&nbsp;jakimś tajnym miejscu i&nbsp;nagrywać nie powinien). Tajemnice adwokackie. Tajemnice przedsiębiorstw. Poufne rozmowy polityków.
+Bo pomyślmy tylko, co mógłby nagrać taki telefon (który przecież nie wie, że jest w&nbsp;jakimś tajnym miejscu i&nbsp;nagrywać nie powinien). Tajemnice adwokackie. Tajemnice przedsiębiorstw. Poufne rozmowy polityków.
 
 Jak zaraz zobaczymy, dość łatwo byłoby wykryć przypadki nagrywania. Wystarczyłaby jedna wpadka, głodny sławy badacz cyberbezpieczeństwa, żeby zebrać dowody przeciw Facebookowi.  
 A potwierdzenie takiej afery oznaczałoby dla nich koniec. Zarzuty karne, kompletne zrujnowanie reputacji. I&nbsp;to wszystko po to, żeby używać jednej z&nbsp;najbardziej okrężnych i&nbsp;żmudnych metod zbierania danych? Powątpiewam :wink:
@@ -170,7 +170,7 @@ Gdybym był jakimś NSA, to wolałbym się trzymać rzeczy bardziej przyziemnych
 
 ### Kwestia wykrywalności
 
-To, że zainstalujemy u&nbsp;siebie jakąś aplikację, nie oznacza jeszcze, że może ona tak po prostu robić na naszych telefonach co chce. **Jest tylko gościem i&nbsp;może co najwyżej prosić system o&nbsp;pewne rzeczy**.
+To, że zainstalujemy u&nbsp;siebie jakąś aplikację, nie oznacza jeszcze, że może ona tak po prostu robić na naszych telefonach co chce. **Jest tylko gościem i&nbsp;może co najwyżej prosić system o&nbsp;pewne rzeczy**.
 
 Przypomnę tutaj piramidkę obrazującą warstwy naszego urządzenia, stworzoną na potrzeby serii „Apki to pułapki”:
 
@@ -188,7 +188,7 @@ Jeśli jesteśmy szeregowymi użytkownikami, to nie sięgamy zwykle poniżej war
 Takie osoby mogłyby podporządkować sobie niższe warstwy telefonu. Umieścić tam cyfrowe odpowiedniki czujników.  
 „Informuj mnie za każdym razem, kiedy nastąpi przepływ danych między apką a&nbsp;mikrofonem”.
 
-Aplikacje nie miałyby pojęcia o&nbsp;istnieniu tego rodzaju czujników -- bo są w&nbsp;wyższych warstwach. Nawet jeśli zapytają dolnych warstw, to te po prostu mogą je okłamać bez konsekwencji. „Niee, nikt nie patrzy, co tam robisz z&nbsp;mikrofonem. *Trust me, bro*”.
+Aplikacje nie miałyby pojęcia o&nbsp;istnieniu tego rodzaju czujników -- bo są w&nbsp;wyższych warstwach. Nawet jeśli zapytają dolnych warstw, to te po prostu mogą je okłamać bez konsekwencji. „Niee, nikt nie patrzy, co tam robisz z&nbsp;mikrofonem. *Trust me, bro*”.
 
 {% include info.html
 type="Ciekawostka"
@@ -212,7 +212,7 @@ Tym niemniej niektórzy mogliby uznać fragment wyżej za ślepą wiarę w&nbsp;
 
 ### Kwestia zabezpieczeń
 
-Skupię się tu na systemie Android, bo jest mi bliższy.
+Skupię się tu na systemie Android, bo jest mi bliższy.
 
 {:.post-meta .bigspace-after}
 Jeśli ktoś nie wie -- to system obecny na większości smartfonów. Co nie jest iPhone'em, to ma dużą szansę mieć w&nbsp;sobie Androida.
@@ -227,7 +227,7 @@ Pozwolenia odpowiadają z&nbsp;grubsza warstwie `System operacyjny`. Z&nbsp;nasz
 A apka tego zakazu nie przeskoczy, bo **warstwy wyższe są zależne od niższych**. Może co najwyżej prosić nas o&nbsp;pozwolenie na mikrofon, wyświetlając oficjalne systemowe okienko. A&nbsp;my możemy odmawiać.
 
 Czy mogłaby to jakoś obejść i&nbsp;włączyć nagrywanie? Legalnie -- tylko przez uśpienie naszej czujności, bo systemu nie obejdzie.  
-Może poprosić o pozwolenie w&nbsp;sytuacji, kiedy nie brzmi ono podejrzanie albo kiedy robimy coś w&nbsp;pośpiechu. Mam dwa przykłady próśb o&nbsp;dostęp do mikrofonu; jedną wiarygodną, drugą mniej:
+Może poprosić o pozwolenie w&nbsp;sytuacji, kiedy nie brzmi ono podejrzanie albo kiedy robimy coś w&nbsp;pośpiechu. Mam dwa przykłady próśb o&nbsp;dostęp do mikrofonu; jedną wiarygodną, drugą mniej:
 
 1. Messenger
 
@@ -241,7 +241,7 @@ Może poprosić o pozwolenie w&nbsp;sytuacji, kiedy nie brzmi ono podejrzanie a
    Możliwe że chodziło o&nbsp;jakąś niewinną możliwość udzielania poleceń głosowych. Ale, cytując klasyka, niesmak pozostał.
 
 Czy to przez uśpioną czujność, czy to przez pośpiech, czasem udzielimy apce pozwolenia. Wtedy niestety **pozostanie aktywne, póki sami go nie cofniemy**. Taka słabość systemu Android.  
-Ale nawet jeśli aplikacja dostanie pozwolenie na mikrofon, nie oznacza to, że nasz telefon już zmienił się w&nbsp;podsłuch.
+Ale nawet jeśli aplikacja dostanie pozwolenie na mikrofon, nie oznacza to, że nasz telefon już zmienił się w&nbsp;podsłuch.
 
 Przede wszystkim już od wersji 9&nbsp;(Pie) [nie da się włączyć nagrywania, gdy apka jest w&nbsp;tle](https://www.theverge.com/2018/3/7/17091104/android-p-prevents-apps-using-mic-camera-idle-background). Nadal można ją najpierw włączyć, a&nbsp;potem zablokować ekran, zachowując działanie mikrofonu -- jak ja w&nbsp;moim eksperymencie. Ale nikt nie włączy nam podsłuchu zdalnie, w&nbsp;telefonie nieużywanym przez dłuższy czas.
 
@@ -272,7 +272,7 @@ I to wszystko po to, żeby pozyskiwać informacje o&nbsp;użytkownikach jednym z
 Ale to nie wyczerpuje wszystkich możliwości. **Może nagrania są analizowane jeszcze na naszym telefonie, a&nbsp;do Facebooka trafiają jedynie dużo lżejsze wyniki analiz**?
 
 Istnieją metody uczenia maszynowego, określane marketingowo mianem sztucznej inteligencji. Gdzieś w&nbsp;Messengerze lub innej aplikacji mógłby być zagnieżdżony tak zwany *model*. Program wyspecjalizowany w&nbsp;zamianie dźwięku na tekst.  
-Gdyby Facebook użył czegoś takiego, to rozwiązałby sprawę wysyłania danych oraz płacenia za prąd. Przerzuciłby koszty na nas.
+Gdyby Facebook użył czegoś takiego, to rozwiązałby sprawę wysyłania danych oraz płacenia za prąd. Przerzuciłby koszty na nas.
 
 {:.bigspace}
 <img src="/assets/posts/apki/mikrofony/messenger-mikrofon-on-device.jpg" alt="Schemat pokazujący, jak od mikrofonu do ikony apki Messengera wędrują dane, oznaczone przez ciężarek z&nbsp;narysowanymi nutami. Kolejna strzałka prowadzi w&nbsp;dół, do ikony drzewka decyzyjnego. Stamtąd do Messengera wraca strzałka, oznaczona ikoną karteczki z&nbsp;napisem 'Dane'. Na koniec strzałka z&nbsp;taką samą karteczkę prowadzi do loga firmy Meta."/>
@@ -285,12 +285,12 @@ Pierwsze modele `on-device` od Google'a, przetwarzające dyktowany tekst na tele
 {:.post-meta .bigspace-after}
 Dla formalności: fakt, że stosowano przesyłanie nagrań, nie przemawia za teorią ciągłego podsłuchu. Dyktowanie działało tylko przez chwilę, na życzenie użytkownika, wysyłano krótkie fragmenty. Jest więc znacznie bardziej realne od strony praktycznej.
 
-Ten pierwszy model, którym chwalił się Google, ważył 80&nbsp;MB i&nbsp;był w&nbsp;stanie rozpoznawać tylko język angielski. Więc ewentualne podsłuchiwanie Polaków by odpadało.
+Ten pierwszy model, którym chwalił się Google, ważył 80&nbsp;MB i&nbsp;był w&nbsp;stanie rozpoznawać tylko język angielski. Więc ewentualne podsłuchiwanie Polaków by odpadało.
 
 To może spójrzmy -- bardzo luźno i&nbsp;nieoficjalnie -- na nowinkę z&nbsp;ostatnich miesięcy. Model zwany Whisper, zamieniający mowę na tekst i&nbsp;obsługujący wiele języków.
 
 Jego najmniejsza „pełna” wersja, *tiny*, znajduje się [tutaj](https://huggingface.co/openai/whisper-tiny/tree/main). Trzon modelu waży 151&nbsp;MB.  
-Od biedy da się zejść nieco niżej; pewna osoba „odchudziła” model [do rozmiaru 39&nbsp;MB](https://github.com/bjnortier/whisper-tflite-ios/blob/main/whisper-tflite-ios/resources/whisper.tflite), do formatu `.tflite`, przystosowanego do działania na telefonie. Ale nie ma nic za darmo -- takie odchudzanie odbywa się kosztem jakości rozpoznawania mowy.
+Od biedy da się zejść nieco niżej; pewna osoba „odchudziła” model [do rozmiaru 39&nbsp;MB](https://github.com/bjnortier/whisper-tflite-ios/blob/main/whisper-tflite-ios/resources/whisper.tflite), do formatu `.tflite`, przystosowanego do działania na telefonie. Ale nie ma nic za darmo -- takie odchudzanie odbywa się kosztem jakości rozpoznawania mowy.
 
 A, przypomnę, Whisper potrafi jedynie zamieniać nagrania głosu na tekst. Do celów reklamowych trzeba by jeszcze wyciągnąć z&nbsp;tekstu pojęcia -- albo w&nbsp;sposób szybki, lecz pełen niedoróbek, albo dokładny -- co jednak wymagałoby jeszcze jednego, osobnego modelu.
 
@@ -298,11 +298,11 @@ Na tej podstawie możemy stwierdzić, że Messenger, ważący w&nbsp;całości [
 Od biedy zmieściłby się Whisper w&nbsp;wersji `.tflite`, ale nie zostałoby wiele miejsca na inne rzeczy.
 
 Ale może podstawowa apka pobierałaby sobie model później, na raty?  
-Jest to możliwe, ale raczej byłoby do wychwycenia. Mówimy o&nbsp;co najmniej kilkudziesięciu megabajtach, których nie dałoby się wyjaśnić pobieraniem multimediów. Dla niektórych to nic, ale bardziej oszczędni użytkownicy by się mogli połapać.
+Jest to możliwe, ale raczej byłoby do wychwycenia. Mówimy o&nbsp;co najmniej kilkudziesięciu megabajtach, których nie dałoby się wyjaśnić pobieraniem multimediów. Dla niektórych to nic, ale bardziej oszczędni użytkownicy by się mogli połapać.
 
 Zwłaszcza że niektórzy co pewien czas czyszczą dane aplikacji. W&nbsp;takim wypadku model pobrany z&nbsp;zewnątrz, niebędący częścią pierwotnej aplikacji, również zostałby usunięty. Apka musiałaby go pobierać od nowa.
 
-W dodatku podczas pracy modelu szybciej rozładowywałaby się bateria. Coś takiego dostrzegłby nawet szeregowy użytkownik, nie mówiąc już o badaczach.
+W dodatku podczas pracy modelu szybciej rozładowywałaby się bateria. Coś takiego dostrzegłby nawet szeregowy użytkownik, nie mówiąc już o badaczach.
 
 Nie wykluczam całkowicie opcji, że Facebook mógłby wykorzystać jakieś triki, żeby wyciągać dane z&nbsp;nagrań poza telefon. Ale pełnoprawna analiza mowy raczej odpada, podobnie jak wysyłanie surowych nagrań w&nbsp;świat.
 
@@ -319,7 +319,7 @@ Tym niemniej -- przez ostatnie lata ta furtka się zamknęła. Ryzyko prawne jes
 
 Wyżej nawrzucałem trochę argumentów na niekorzyść teorii podsłuchu. Ale przyroda nie znosi pustki. Ubijając jedno wyjaśnienie, przyda się przedstawić alternatywne.
 
-„Okej, pełno dowodów przeciw nagrywaniu. Ale przecież rozmawialiśmy o&nbsp;czymś, a&nbsp;potem to się pojawiło w&nbsp;reklamie. Nie ma bata, musieli podsłuchiwać rozmowę”.
+„Okej, pełno dowodów przeciw nagrywaniu. Ale przecież rozmawialiśmy o&nbsp;czymś, a&nbsp;potem to się pojawiło w&nbsp;reklamie. Nie ma bata, musieli podsłuchiwać rozmowę”.
 
 Nad możliwymi wyjaśnieniami rozwodziłem się w&nbsp;swoim innym wpisie, [omawiającym komentarze]({% post_url 2022-11-02-dyskusja-technostrefa-apki %}){:.internal} spod filmu TechnoStrefy z&nbsp;YouTube'a. Przypomnę krótko najbardziej prawdopodobnych winowajców odpowiedzialnych za celne reklamy:
 
@@ -329,44 +329,44 @@ Nad możliwymi wyjaśnieniami rozwodziłem się w&nbsp;swoim innym wpisie, [omaw
 
 * Korelowanie po lokalizacji.
 
-  Gdy mamy apkę od Facebooka, to da się ustalić, że byliśmy w&nbsp;konkretnym miejscu. Albo jednym i&nbsp;tym samym miejscu co inna osoba.  
+  Gdy mamy apkę od Facebooka, to da się ustalić, że byliśmy w&nbsp;konkretnym miejscu. Albo jednym i&nbsp;tym samym miejscu co inna osoba.  
   Czy to przez koordynaty GPS-a, czy to przez korzystanie z&nbsp;tego samego hotspota. Czy to nawet przez Bluetooth. Albo nietypowe nazwy hotspotów wokół nas, nawet jeśli z&nbsp;żadnym się nie połączyliśmy.
 
 * „Zarażanie preferencjami”.
 
-  Jeśli Facebook akurat nie ma na nas reklamowego pomysłu, może po prostu podpatrzeć coś u osoby, z&nbsp;którą ostatnio wchodziliśmy w&nbsp;interakcje, i&nbsp;podsyłać to samo.
+  Jeśli Facebook akurat nie ma na nas reklamowego pomysłu, może po prostu podpatrzeć coś u osoby, z&nbsp;którą ostatnio wchodziliśmy w&nbsp;interakcje, i&nbsp;podsyłać to samo.
 
-  Przykład? Pisaliśmy z&nbsp;kimś, kto akurat odkrył w&nbsp;sobie zajawkę na komiksy. Facebook wie o&nbsp;tej zajawce przez to, co ta osoba klikała. Wie również o&nbsp;tym, że korespondowaliśmy, więc dla nas również szykuje „przez skojarzenie” reklamy komiksów. **I tak byśmy je dostali, niezależnie od innych czynników**.  
-  Ale zanim reklamy zdążą nam się pokazać, spotykamy tę osobę na żywo; oczywiście mówi o&nbsp;komiksach. Potem, gdy pokazuje nam się ich reklama, obwiniamy mikrofon. Tymczasem to nie jego wina, zarażenie nastąpiło wcześniej.
+  Przykład? Pisaliśmy z&nbsp;kimś, kto akurat odkrył w&nbsp;sobie zajawkę na komiksy. Facebook wie o&nbsp;tej zajawce przez to, co ta osoba klikała. Wie również o&nbsp;tym, że korespondowaliśmy, więc dla nas również szykuje „przez skojarzenie” reklamy komiksów. **I tak byśmy je dostali, niezależnie od innych czynników**.  
+  Ale zanim reklamy zdążą nam się pokazać, spotykamy tę osobę na żywo; oczywiście mówi o&nbsp;komiksach. Potem, gdy pokazuje nam się ich reklama, obwiniamy mikrofon. Tymczasem to nie jego wina, zarażenie nastąpiło wcześniej.
 
-Wiele przypadków „podsłuchiwania” dałoby się wyjaśnić zachodzeniem którejś z&nbsp;tych rzeczy. Co do punktu trzeciego nie mam pewności, bo nie mam wglądu w&nbsp;algorytmy Facebooka, ale sam na ich miejscu bym coś takiego dodał. A&nbsp;dwie pierwsze rzeczy to pewniaki.  
+Wiele przypadków „podsłuchiwania” dałoby się wyjaśnić zachodzeniem którejś z&nbsp;tych rzeczy. Co do punktu trzeciego nie mam pewności, bo nie mam wglądu w&nbsp;algorytmy Facebooka, ale sam na ich miejscu bym coś takiego dodał. A&nbsp;dwie pierwsze rzeczy to pewniaki.  
 Jeszcze obszerniejszą [listę trików Facebooka](https://www.eff.org/deeplinks/2018/04/facebook-doesnt-need-listen-through-your-microphone-serve-you-creepy-ads) stworzyła organizacja EFF.
 
 A jeśli jesteśmy absolutnie przekonani, że ani my, ani rozmówca nie szukaliśmy rzeczy, o&nbsp;której rozmawialiśmy w&nbsp;towarzystwie swoich telefonów? **Możliwe, że nasza trafna reklama to po prostu przypadek**.
 
-Każdemu się chyba zdarzyło pomyśleć o&nbsp;piosence, a&nbsp;chwilę później ją usłyszeć w&nbsp;odbiorniku. Albo spotkać kogoś znajomego w&nbsp;dużym mieście, z&nbsp;dala od naszych typowych rewirów. Niektórzy wygrywają w&nbsp;Lotto.
+Każdemu się chyba zdarzyło pomyśleć o&nbsp;piosence, a&nbsp;chwilę później ją usłyszeć w&nbsp;odbiorniku. Albo spotkać kogoś znajomego w&nbsp;dużym mieście, z&nbsp;dala od naszych typowych rewirów. Niektórzy wygrywają w&nbsp;Lotto.
 
 A my tutaj mamy znacznie węższą przestrzeń możliwości. Facebook już zna nasz ogólny profil zainteresowań, styl życia. Może nas zalewać reklamami rzeczy, które robili inni podobni ludzie.
 
 Może nam się na przykład wydawać, że nasze zainteresowanie rzemiosłem -- pleceniem makram, pszczelarstwem, majsterkowaniem, drukiem 3D -- to nietypowe i&nbsp;fajne hobby.  
-Ale Facebook, patrząc w&nbsp;skali świata, widzi wiele osób takich jak my -- znużonych trybikowaniem w&nbsp;korpo. Próbujących uciec w&nbsp;coś co naturalne, namacalne, fizyczne. Podrzucając rzeczy z&nbsp;tego spektrum, w&nbsp;końcu ugodzi nas celną reklamą.
+Ale Facebook, patrząc w&nbsp;skali świata, widzi wiele osób takich jak my -- znużonych trybikowaniem w&nbsp;korpo. Próbujących uciec w&nbsp;coś co naturalne, namacalne, fizyczne. Podrzucając rzeczy z&nbsp;tego spektrum, w&nbsp;końcu ugodzi nas celną reklamą.
 
-Jako ludzie jesteśmy po prostu przewidywalni. Wiem że to trudne do zaakceptowania. Ale niestety bardziej prawdopodobne niż działanie złego mikrofonu :wink: 
+Jako ludzie jesteśmy po prostu przewidywalni. Wiem że to trudne do zaakceptowania. Ale niestety bardziej prawdopodobne niż działanie złego mikrofonu :wink: 
 
 ## Jak się chronić
 
-Wyżej rozpisałem się o&nbsp;tym, że giganci raczej nas nie podsłuchują, bo im się to nie opłaca. Ale na świecie jest wielu drobniejszych graczy, poza tym opłacalność może się zmieniać. Tak czy siak warto się chronić.
+Wyżej rozpisałem się o&nbsp;tym, że giganci raczej nas nie podsłuchują, bo im się to nie opłaca. Ale na świecie jest wielu drobniejszych graczy, poza tym opłacalność może się zmieniać. Tak czy siak warto się chronić.
 
-Pierwsze, proste rozwiązanie dla Androida -- **wyłączmy dostęp do mikrofonu wszystkim apkom**. Może nawet systemowym, jak aparat/kamera. Kiedy mikrofon będzie potrzebny, to po prostu udzielimy apce zgody. Pamiętając, żeby ją wycofać, kiedy już zrobimy swoje.
+Pierwsze, proste rozwiązanie dla Androida -- **wyłączmy dostęp do mikrofonu wszystkim apkom**. Może nawet systemowym, jak aparat/kamera. Kiedy mikrofon będzie potrzebny, to po prostu udzielimy apce zgody. Pamiętając, żeby ją wycofać, kiedy już zrobimy swoje.
 
 Nie ma wymówek -- to jeden szybki pstryczek w&nbsp;opcjach, a&nbsp;da nam mnóstwo komfortu.
 
 Chcemy wrzucić filmik do *social mediów* albo komunikatora?  
-To nagrajmy go domyślną systemową aplikacją, do pliku. A&nbsp;w cudzej apce wybierzmy opcję załadowania tego pliku. Większość powinna taką mieć.  
+To nagrajmy go domyślną systemową aplikacją, do pliku. A&nbsp;w cudzej apce wybierzmy opcję załadowania tego pliku. Większość powinna taką mieć.  
 Nie korzystajmy z&nbsp;opcji nagrywania bezpośrednio przez komunikator, bo w&nbsp;ten sposób musimy dać mu dostęp do mikrofonu.
 
 Jeśli ktoś mikrofonom zupełnie nie ufa, to może rozejrzeć się za urządzeniami zawierającymi *fizyczny* wyłącznik mikrofonu.  
-Ich przykłady to telefony oparte na systemie Linux -- Pinephone i&nbsp;Librem. Ale ostrzegam, że na obecnym etapie są czymś bardziej dla zapaleńców i&nbsp;majsterkowiczów.
+Ich przykłady to telefony oparte na systemie Linux -- Pinephone i&nbsp;Librem. Ale ostrzegam, że na obecnym etapie są czymś bardziej dla zapaleńców i&nbsp;majsterkowiczów.
 
 No i&nbsp;pamiętajmy, że mikrofony nie są aż takim zagrożeniem w&nbsp;przypadku legalnych, oficjalnych apek mobilnych -- bo ich twórcy po prostu mieliby zbyt wiele do stracenia.
 

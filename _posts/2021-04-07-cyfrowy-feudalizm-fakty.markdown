@@ -9,7 +9,7 @@ category: cyfrowy_feudalizm
 category_readable: "Cyfrowy&nbsp;feudalizm"
 ---
 
-W poprzednim wpisie z&nbsp;tej serii trochę pośmieszkowałem z&nbsp;teorii sugerującej, że słowa *„You'll own nothing”* oznaczają, że spiskujące elity z&nbsp;World Economic Forum chcą nas pozbawić własności.
+W poprzednim wpisie z&nbsp;tej serii trochę pośmieszkowałem z&nbsp;teorii sugerującej, że słowa *„You'll own nothing”* oznaczają, że spiskujące elity z&nbsp;World Economic Forum chcą nas pozbawić własności.
 
 Jednak napisałem też, że centralizacja i&nbsp;monopole to realne zagrożenie. Tyle że ze strony wielu mniejszych graczy, a&nbsp;nie jednej organizacji. W&nbsp;tym wpisie rozwijam tę myśl.
 
@@ -39,7 +39,7 @@ To proste: kiedy mówimy, że coś jest „w&nbsp;chmurze”, to znaczy że **ni
 
 Takie rozwiązanie wydaje się przydatne, jeśli chodzi o&nbsp;backupy. Na swoim dysku nie mamy miejsca, więc trzymamy na cudzym. W&nbsp;dodatku, gdybyśmy zmieniali urządzenie, możemy zrobić synchronizację i&nbsp;zgrać wszystko na nowe.
 
-Oczywiście może to być szkodliwe dla prywatności, jeśli firma udostępniająca dysk lubi zaglądać w&nbsp;dane. Ale w&nbsp;tym wpisie skupiam się na *własności*. Dla niej backupy nie są takie groźne, bo zachowujemy kontrolę nad danymi (możliwość ich przeniesienia na własne urządzenia).
+Oczywiście może to być szkodliwe dla prywatności, jeśli firma udostępniająca dysk lubi zaglądać w&nbsp;dane. Ale w&nbsp;tym wpisie skupiam się na *własności*. Dla niej backupy nie są takie groźne, bo zachowujemy kontrolę nad danymi (możliwość ich przeniesienia na własne urządzenia).
 
 Gorzej, gdy takiej kontroli nie mamy. Jest wiele rzeczy, które kiedyś trzymaliśmy u&nbsp;siebie, a&nbsp;teraz są wepchnięte w&nbsp;sieć i&nbsp;co najwyżej racjonowane użytkownikom. Może się to czasem wydawać wygodne... Ale w&nbsp;tym układzie zmiana po stronie firmy może prowadzić do nienaprawialnej straty.
 
@@ -47,7 +47,7 @@ Pierwszy przykład: **Google**. Można u&nbsp;nich przechowywać mnóstwo różn
 
 * Pod koniec 2020 roku [zakończyli](https://www.cnet.com/news/google-photos-is-ending-unlimited-free-storage-heres-what-you-need-to-know/) możliwość darmowego, nieograniczonego przechowywania zdjęć.
 
-  Wcześniej ilość była nieograniczona, o&nbsp;ile zgadzaliśmy się na kompresowanie. Teraz wszystko liczy się do łącznego limitu 15 GB, potem jest płatne.
+  Wcześniej ilość była nieograniczona, o&nbsp;ile zgadzaliśmy się na kompresowanie. Teraz wszystko liczy się do łącznego limitu 15 GB, potem jest płatne.
 
 * Często przycinają swoją ofertę. Przykładem może być [Reader](https://www.ibtimes.com/google-reader-dies-end-internet-1329741), który pozwalał w&nbsp;przystępny sposób śledzić wiadomości na świecie.
 
@@ -69,7 +69,7 @@ Ale Netflix jest kolosem na glinianych nogach. [Ten artykuł](https://www.forbes
 Netflix pewnie nie upadnie (obecny tryb zdalnego życia mu sprzyja), ale jest spora szansa, że lubiane przez Was filmy na licencji wyparują i&nbsp;znajdą się na innych platformach. Nigdy nie były Wasze. I, jak się okazuje, nigdy nie były również Netflixa.
 
 Streaming to nie tylko filmy, to również muzyka i&nbsp;inne pliki audio. Ikoną takiej działalności jest **Spotify**.  
-Zajmuje się głównie muzyką, ale ja skupię się na podcastach, żeby pokazać inne zjawisko.
+Zajmuje się głównie muzyką, ale ja skupię się na podcastach, żeby pokazać inne zjawisko.
 
 Spotify zawarł umowę na 100 mln dolarów z&nbsp;podcastowym gigantem, Joe Roganem, który wcześniej prowadził kanał na YouTubie. Jego tematem były wywiady z&nbsp;różnymi postaciami. Czasem kontrowersyjnymi, czasem radykalnymi.
 
@@ -122,7 +122,7 @@ Bez Netflixa ludzie nie uznają Waszej przeglądarki? Peszek.
 Uważny obserwator może się zastanowić: czy takie zabezpieczenia mogą w&nbsp;ogóle być skuteczne w&nbsp;przypadku filmów?  
 Przecież w&nbsp;którymś momencie komputer musi je odszyfrować, żeby mogły się wyświetlić na ekranie! Czy nie wystarczy ich wtedy automatycznie kopiować? Albo zrobić screena?
 
-Okazuje się, [że nie](https://www.osnews.com/story/28176/why-rosyna-cant-take-a-movie-screenshot/). Producenci procesorów i&nbsp;kart graficznych, tacy jak Intel, dogadali się z producentami filmów. Nie jesteście w&nbsp;stanie nic zrobić, bo **w momencie włączenia DRM&#8209;a Wasz własny procesor Was wyklucza** i&nbsp;mówi „To ja tu rządzę”.
+Okazuje się, [że nie](https://www.osnews.com/story/28176/why-rosyna-cant-take-a-movie-screenshot/). Producenci procesorów i&nbsp;kart graficznych, tacy jak Intel, dogadali się z producentami filmów. Nie jesteście w&nbsp;stanie nic zrobić, bo **w momencie włączenia DRM&#8209;a Wasz własny procesor Was wyklucza** i&nbsp;mówi „To ja tu rządzę”.
 
 Jednocześnie, dodając taki tryb, podarowali hakerom potencjalną furtkę. Jeśli ci raz odkryją jakieś luki w&nbsp;zabezpieczeniach, to nie będzie się ich dało załatać zwykłymi programami. Bo system operacyjny stoi w&nbsp;hierarchii niżej niż *firmware* (samo „serce” maszyny) i&nbsp;nie ma na niego wpływu.
 
@@ -150,9 +150,9 @@ Niestety wiedza również potrafi być zastrzeżona dla wybranych. Są organizac
 
 To w&nbsp;żadnym razie nie jest nowe, ale dokłada swoją cegiełkę do budowy barier.
 
-Mówi się nieraz górnolotnie, że nauka jest dorobkiem całej ludzkości. Wśród badaczy znajdzie się wielu, którzy chętnie by udostępnili owoce swojej pracy szerszej publiczności.
+Mówi się nieraz górnolotnie, że nauka jest dorobkiem całej ludzkości. Wśród badaczy znajdzie się wielu, którzy chętnie by udostępnili owoce swojej pracy szerszej publiczności.
 
-Nawet gdyby nie robili tego z&nbsp;potrzeb serca, to mogłaby ich przekonać obietnica sławy. W&nbsp;tym świecie bowiem prestiż opiera się na cytowaniach i&nbsp;rozpoznawalności.
+Nawet gdyby nie robili tego z&nbsp;potrzeb serca, to mogłaby ich przekonać obietnica sławy. W&nbsp;tym świecie bowiem prestiż opiera się na cytowaniach i&nbsp;rozpoznawalności.
 
 Ale co zrobić, kiedy ktoś staje na drodze swobodnego przepływu informacji? Przechwytuje je, chomikuje i&nbsp;każe sobie za nie płacić? Albo, co gorsza, każe płacić naukowcom za możliwość udostępniania ich światu za darmo?
 
@@ -161,7 +161,7 @@ Tak działają wielkie korpo-wydawnictwa naukowe [takie jak Elsevier](https://ww
 > Researchers could become trapped in a&nbsp;relationship with Elsevier in which **they are the service and content providers, the product and the consumer**.
 
 {:.figure}
-<img src="/assets/posts/cyfrowy-feudalizm-fakty/elsevier-smaug.webp" alt="Obrazek pokazuje scenę z&nbsp;Hobbita. Smog Smaug leży na stercie złota i&nbsp;patrzy na głównego bohatera, malutkiego w&nbsp;porównaniu z&nbsp;nim. Na pysk Smauga nałożono logo wydawnictwa Elsevier. Stertę złota podpisano 'Wiedza'. Małą postać podpisano 'Naukowcy'."/>
+<img src="/assets/posts/cyfrowy-feudalizm-fakty/elsevier-smaug.webp" alt="Obrazek pokazuje scenę z&nbsp;Hobbita. Smog Smaug leży na stercie złota i&nbsp;patrzy na głównego bohatera, malutkiego w&nbsp;porównaniu z&nbsp;nim. Na pysk Smauga nałożono logo wydawnictwa Elsevier. Stertę złota podpisano 'Wiedza'. Małą postać podpisano 'Naukowcy'."/>
 
 {:.figcaption}
 Źródło: [giantbomb.com](https://www.giantbomb.com/smaug/3005-24871/images/) (przeróbki moje).
@@ -186,7 +186,7 @@ Albo kiedy [normy się zmieniają](https://news.ycombinator.com/item?id=26392629
 
 Nie ma też zmiłuj, jeśli chodzi o&nbsp;ludzi, którzy potrzebują tylko szczypty wiedzy z&nbsp;norm. Takich jak studenci albo tłumacze, potrzebujący dosłownie samych definicji lub nazw podrozdziałów. Nie; oni też muszą szukać [tych kilku miejsc w&nbsp;skali kraju](https://www.nietylkoiso.pl/skad-wziac-polskie-normy-za-darmo/), w&nbsp;których da się zapoznać z&nbsp;normami.
 
-Takie sztuczne bariery są jak podatki wobec sektora prywatnego. Niby nie są wymagane, ale bez nich wszyscy nas oleją. Więc płacimy dużym organizacjom za wiedzę, nawet jeśli jest prozaiczna, a&nbsp;nam zależy tylko na certyfikacie.
+Takie sztuczne bariery są jak podatki wobec sektora prywatnego. Niby nie są wymagane, ale bez nich wszyscy nas oleją. Więc płacimy dużym organizacjom za wiedzę, nawet jeśli jest prozaiczna, a&nbsp;nam zależy tylko na certyfikacie.
 
 Świat komputerów jakoś potrafił stworzyć ruch *open source*. A&nbsp;kiedy sprawa dotyczy czegoś większego, firmy łączą się w&nbsp;konsorcja -- takie jak [World Wide Web Consortium](https://www.w3.org/Consortium/) albo [Khronos](https://www.khronos.org/about/). Udostępniają treść standardów za darmo. Bo to poprawia rynkową dynamikę, a&nbsp;na niej im wszystkim zależy.
 
@@ -201,7 +201,7 @@ Ale na razie *status quo* się trzyma, a&nbsp;mniejsze i&nbsp;większe organizac
 {:.post-meta}
 ([do spisu treści](#spis-treści))
 
-Załóżmy, że ambitni założyciele firmy jakoś pokonali barierę dostępu do wiedzy i&nbsp;sobie tę firmę założyli. Teraz czas wejść do internetu. Najpierw trzeba znaleźć partnerów, ktorzy pomogą przy infrastrukturze.
+Załóżmy, że ambitni założyciele firmy jakoś pokonali barierę dostępu do wiedzy i&nbsp;sobie tę firmę założyli. Teraz czas wejść do internetu. Najpierw trzeba znaleźć partnerów, ktorzy pomogą przy infrastrukturze.
 
 Choć na pozór jest pełno opcji, internet okazuje się niepokojąco scentralizowany. Wiele korpo korzysta tylko z&nbsp;usług innych korpo, a&nbsp;mniejsi gracze mają niewielkie znaczenie. Prowadzi to do powstawania węzłów, od których wszystko zależy.
 
@@ -222,12 +222,12 @@ Producenci często ustawiali w&nbsp;nich [domyślne hasła](https://www.firestor
 Gdybym miał coś wybrać jako największą przestrogę przed wpychaniem świata w&nbsp;internet, to wybrałbym tę sytuację. Bez dwóch zdań.
 
 Nie potrzeba zresztą hakerów. Ponad pół roku temu w&nbsp;Cloudflare (zapewnia hosting, serwery itp.) przez pomyłkę przekierowali cały swój ruch w&nbsp;jedno miejsce, przez co [sami się przeciążyli](https://easydns.com/blog/2020/07/20/turns-out-half-the-internet-has-a-single-point-of-failure-called-cloudflare/).  
-Mnóstwo stron przestało działać. Po analizie sytuacji okazało się, że **jakieś pół internetu zależy od Cloudflare'a**.
+Mnóstwo stron przestało działać. Po analizie sytuacji okazało się, że **jakieś pół internetu zależy od Cloudflare'a**.
 
 Infrastruktura to jedno. Ale firmy, podobnie jak zwykli cywile, często są zależne również od internetowych platform dużych graczy. Tak jak zwykli cywile, cenią sobie wygodę i&nbsp;niskie koszty.  
 I, tak jak cywile, potrafią się na tej zależności przejechać.
 
-Przykład? Poleganie przez firmy na platformie Google. Kiedy w&nbsp;grudniu 2020&nbsp;roku coś im się [popsuło w&nbsp;uwierzy&shy;telnianiu](https://en.wikipedia.org/wiki/2020_Google_services_outages) i&nbsp;wiele osób straciło dostęp do kont i&nbsp;usług, to od razu zrobił się wzmożony ruch na korpo-grupkach i&nbsp;forach dyskusyjnych.  
+Przykład? Poleganie przez firmy na platformie Google. Kiedy w&nbsp;grudniu 2020&nbsp;roku coś im się [popsuło w&nbsp;uwierzy&shy;telnianiu](https://en.wikipedia.org/wiki/2020_Google_services_outages) i&nbsp;wiele osób straciło dostęp do kont i&nbsp;usług, to od razu zrobił się wzmożony ruch na korpo-grupkach i&nbsp;forach dyskusyjnych.  
 „Google nam w&nbsp;firmie padł i&nbsp;teraz nie mam co robić”.
 
 Ale błędy się zdarzają, może nie ma co się tego czepiać. No to spójrzmy na świadomą zmianę warunków. Przykładem **podwyżka cen Google Maps**.
@@ -255,7 +255,7 @@ Choć współczesny internet bywa nazywany siecią, to jednak pod wieloma wzglę
 Źródło: [Science Daily](https://www.sciencedaily.com/releases/2012/02/120201140004.htm).
 
 A ludzki internet? Jak już wyżej napisałem, ma kilka kluczowych punktów. Zazwyczaj należących do dużych firm z&nbsp;USA.  
-Jeśli im się coś dzieje -- albo lekko zmienią warunki -- to mnóstwo mniejszych organizacji z&nbsp;całego świata przeżywa armageddon. Czy tak wygląda zdrowa sieć powiązań?
+Jeśli im się coś dzieje -- albo lekko zmienią warunki -- to mnóstwo mniejszych organizacji z&nbsp;całego świata przeżywa armageddon. Czy tak wygląda zdrowa sieć powiązań?
 
 Powoli zbliżamy się do końca wpisu. Cała seria nazywa się „Cyfrowy feudalizm”. Jak feudalizm, to chłopi. Jak chłopi, to uprawa roli. Więc przejdźmy do rolnictwa.
 
@@ -283,7 +283,7 @@ Kiedy to nie dawało efektów, to poszli na ugodę. Zaczną oferować części, 
 Jak się okazuje, [nie dotrzymali umowy](https://www.extremetech.com/electronics/320183-john-deere-fails-to-uphold-right-to-repair-agreement-signed-in-2018). W&nbsp;2021 roku sprzedają narzędzia, ale te bez oprogramowania są bezużyteczne. A&nbsp;dealerzy nie sprzedają oprogramowania. 
 
 Ta sytuacja jest na swój sposób gorsza niż subskrypcje. Tam wprawdzie wypchnięcie wszystkiego do chmury odbiera nam dostęp do programu... ale przynajmniej płacimy mało, tylko za okres korzystania z&nbsp;usługi.  
-Tutaj zaś ludzie płacą miliony monet za te traktory. Licząc, że będą ich, tak jak każde inne narzędzia. Nie wiedząc, że producent nie planuje nigdy wypuszczać ich z&nbsp;rąk.
+Tutaj zaś ludzie płacą miliony monet za te traktory. Licząc, że będą ich, tak jak każde inne narzędzia. Nie wiedząc, że producent nie planuje nigdy wypuszczać ich z&nbsp;rąk.
 
 Fajnie obrazują to słowa Kyle'a Wiensa, założyciela serwisu naprawczego iFixit:
 
@@ -305,7 +305,7 @@ Moim zdaniem przykłady z&nbsp;życia prawdziwego są nawet bardziej niepokojąc
 
 Gdyby to była jedna grupa knujących złoczyńców, to przynajmniej byłby jasny wróg.
 
-A kiedy to całe mnóstwo firm -- stopniowo umacniających swój udział, tworzących zamknięte platformy, uzależniających od siebie, może nawet mających dobre intencje (ale to rzadko) -- opór wydaje się trudniejszy. Nie wiadomo nawet, na czym się skupić.
+A kiedy to całe mnóstwo firm -- stopniowo umacniających swój udział, tworzących zamknięte platformy, uzależniających od siebie, może nawet mających dobre intencje (ale to rzadko) -- opór wydaje się trudniejszy. Nie wiadomo nawet, na czym się skupić.
 
 Ale jest jedno, co każdy może zrobić. **Nie przywiązywać się**. Nie twierdzić, że sprzęty od Apple, muzyka ze Spotify, drukarki od HP, traktory od Johna Deere'a to przyjaciele i&nbsp;styl życia. Nie. To tylko produkty i&nbsp;kiedyś nas opuszczą, kiedy ich twórcom zmienią się priorytety.
 

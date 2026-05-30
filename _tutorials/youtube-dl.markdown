@@ -23,7 +23,7 @@ Istnieje jednak wiele sytuacji, kiedy wolelibyśmy mieć ich filmiki u&nbsp;sieb
 Niezależnie od naszych powodów, **rozwiązaniem jest _yt-dlp_**.  
 Bardzo wszechstronny program konsolowy, którym da się pobierać filmiki z&nbsp;YouTube'a ([i&nbsp;wielu innych stron](https://github.com/ytdl-org/youtube-dl/blob/master/docs/supportedsites.md)).
 
-A ponieważ konsola może być dla wielu osób czymś nowym, napisałem ten przyjazny samouczek pokazujący, jak się z tym programikiem obchodzić.
+A ponieważ konsola może być dla wielu osób czymś nowym, napisałem ten przyjazny samouczek pokazujący, jak się z tym programikiem obchodzić.
 
 {% include details.html summary="Uwagi na temat starszego youtube-dl" %}
 
@@ -37,7 +37,7 @@ Od tego czasu zaczęto [polecać zamiennik](https://news.ycombinator.com/item?id
 
 {:.post-meta .bigspace-after}
 Gdyby ktoś z&nbsp;jakiegoś powodu wolał sięgnąć po klasycznego *youtube-dl* (niezbyt widzę sens, ale nie wnikam), to można łatwo dostosować samouczek pod siebie.  
-Po pierwsze: starszy program pobiera się [z&nbsp;innego źródła](https://github.com/ytdl-org/youtube-dl). Potem, korzystając z&nbsp;niego w&nbsp;konsoli, wpisuje się `youtube-dl` zamiast `yt-dlp`.
+Po pierwsze: starszy program pobiera się [z&nbsp;innego źródła](https://github.com/ytdl-org/youtube-dl). Potem, korzystając z&nbsp;niego w&nbsp;konsoli, wpisuje się `youtube-dl` zamiast `yt-dlp`.
 
 {% include details-end.html %}
 
@@ -81,13 +81,13 @@ Opcji jest kilka, zaproponuję tu dwie.
 
 * Folder `C:\Windows`. Zwykle jest domyślnie aktywny, przynajmniej na Windowsie&nbsp;10. Tylko trzeba kliknąć, że mamy uprawnienia administratora.
 
-* Można też wyklikać drogę do takiej ścieżki:
+* Można też wyklikać drogę do takiej ścieżki:
  
   ```
   C:\Użytkownicy\NAZWA\AppData\Local\Microsoft\WindowsApps
   ```
 
-  Przy czym `Użytkownicy` będą się nazywali inaczej, jeśli mamy ustawiony inny język systemu. Zamiast `NAZWA` będziemy mieli swój login. A&nbsp;po drodze warto włączyć wyświetlanie ukrytych folderów, żeby pokazał się `AppData`.
+  Przy czym `Użytkownicy` będą się nazywali inaczej, jeśli mamy ustawiony inny język systemu. Zamiast `NAZWA` będziemy mieli swój login. A&nbsp;po drodze warto włączyć wyświetlanie ukrytych folderów, żeby pokazał się `AppData`.
 
 Jeśli z&nbsp;jakiegoś powodu nie pasuje nam żaden z&nbsp;tych dwóch folderów specjalnych, to możliwości jest więcej. Ale tutaj już przyda się użycie konsoli, która na Windowsie nosi nazwę PowerShell.
 
@@ -243,7 +243,7 @@ Czasem jednak nie potrzebujemy najbardziej odpicowanej wersji. W&nbsp;tej sytuac
 yt-dlp -F LINK_DO_FILMU
 ```
 
-Pokaże nam się coś w&nbsp;tym stylu:
+Pokaże nam się coś w&nbsp;tym stylu:
 
 {:.figure .bigspace}
 <img src="/assets/tutorials/youtube-dl/youtube-dl-formaty.jpg" alt="Lista formatów wyświetlonych jeden pod drugim" />
@@ -282,11 +282,11 @@ W przypadku Windowsa wystarczy włączyć Eksploratora, przejść do tego folder
 
 ## Rozwiązywanie błędów
 
-Nasz programik musi niestety stale gonić YouTube'a oraz jego wewnętrzne mechanizmy, które nieraz się zmieniają. Nie unikniemy przez to sytuacji, kiedy raz na jakiś czas wyskoczy nam błąd.
+Nasz programik musi niestety stale gonić YouTube'a oraz jego wewnętrzne mechanizmy, które nieraz się zmieniają. Nie unikniemy przez to sytuacji, kiedy raz na jakiś czas wyskoczy nam błąd.
 
-Ale bez obaw! Zwykle jest więcej osób mających taki problem jak my, a&nbsp;naprawienie nieraz sprowadza się do pobrania nowszej wersji. A&nbsp;potem na długi czas mamy spokój.
+Ale bez obaw! Zwykle jest więcej osób mających taki problem jak my, a&nbsp;naprawienie nieraz sprowadza się do pobrania nowszej wersji. A&nbsp;potem na długi czas mamy spokój.
 
-Ogólna zasada -- jeśli w&nbsp;konsoli wyświetlił nam się tekst, to patrzymy co mamy na dole, po słowie `ERROR:`. Treść takiego komunikatu można wkleić w&nbsp;wyszukiwarkę, żeby poszukać rozwiązania.
+Ogólna zasada -- jeśli w&nbsp;konsoli wyświetlił nam się tekst, to patrzymy co mamy na dole, po słowie `ERROR:`. Treść takiego komunikatu można wkleić w&nbsp;wyszukiwarkę, żeby poszukać rozwiązania.
 
 A parę powszechnych przypadków omówię dla naszej wygody w&nbsp;tym miejscu.
 
@@ -345,14 +345,14 @@ Z czasem trafi się jakiś nieoczekiwany błąd. Może wynikać z&nbsp;tego, że
 Ale autorzy zwykle szybko nadganiają. Wtedy po prostu bierzemy od nich najnowszą wersję i&nbsp;zastępujemy nią poprzednią.
 
 To równocześnie jeden z&nbsp;argumentów przemawiających za tym, żeby korzystać z&nbsp;wersji konsolowej, a&nbsp;nie graficznej.  
-Wszelkie nakładki graficzne może i&nbsp;są przyjaźniejsze, ale nadal zależą od podstawowego, konsolowego programu. Gdy Google coś popsuje, to najpierw źródło musi naprawić to u&nbsp;siebie, a&nbsp;potem autorzy wersji graficznej (którzy mogą np. być akurat na wakacjach) muszą sięgnąć po jego nową wersję.
+Wszelkie nakładki graficzne może i&nbsp;są przyjaźniejsze, ale nadal zależą od podstawowego, konsolowego programu. Gdy Google coś popsuje, to najpierw źródło musi naprawić to u&nbsp;siebie, a&nbsp;potem autorzy wersji graficznej (którzy mogą np. być akurat na wakacjach) muszą sięgnąć po jego nową wersję.
 
 Przy wersji konsolowej wystarczy zaś zwykle szybka aktualizacja prosto od twórców.
 
 ### „Unable to extract uploader_id”
 
 {:.post-meta .bigspace-after}
-**Uwaga:** Ten błąd w&nbsp;moim przypadku dotyczył klasycznego *youtube-dl*. Nie usuwam go stąd, bo ma wartość archiwalną. Ale samo rozwiązanie nie będzie skuteczne, jeśli taki błąd komuś wyskoczy przy nowym *yt-dlp*.
+**Uwaga:** Ten błąd w&nbsp;moim przypadku dotyczył klasycznego *youtube-dl*. Nie usuwam go stąd, bo ma wartość archiwalną. Ale samo rozwiązanie nie będzie skuteczne, jeśli taki błąd komuś wyskoczy przy nowym *yt-dlp*.
 
 {% include details.html summary="Opis starego błędu" %}
 
@@ -362,7 +362,7 @@ W tym wypadku zwykła aktualizacja nie działa, bo numer działającej i&nbsp;ni
 
 Ogólnie: trzeba zdobyć wersję najnowszą i&nbsp;siłowo zastąpić nią wersję poprzednią.
 
-W przypadku „instalacji” przez włożenie pliku EXE do folderu pomogłoby zapewne zdobycie jego nowszej wersji i&nbsp;zastąpienie nią starej (mimo że formalnie mają ten sam numer wersji), ale tego nie testowałem.
+W przypadku „instalacji” przez włożenie pliku EXE do folderu pomogłoby zapewne zdobycie jego nowszej wersji i&nbsp;zastąpienie nią starej (mimo że formalnie mają ten sam numer wersji), ale tego nie testowałem.
 
 Osobiście instalowałem wcześniej `youtube-dl` przez Pythona, a&nbsp;dokładniej `pip`. W&nbsp;takim wypadku pomogło wpisanie komendy:
 

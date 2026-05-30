@@ -24,13 +24,13 @@ Oto one -- a&nbsp;właściwie ich hasz (*skrót*) typu SHA1:
 To tyle. Oryginalny tekst ujawnię, kiedy przyjdzie na to czas. Albo i&nbsp;nie :wink:
 
 {:.post-meta .bigspace-after}
-Zdradzę tylko, że to raczej prozaiczna informacja. Nie ma potrzeby się emocjonować.
+Zdradzę tylko, że to raczej prozaiczna informacja. Nie ma potrzeby się emocjonować.
  
 Ten hasz jest swego rodzaju cyfrową „kapsułą czasu”. **Rzeczą stworzoną tu i&nbsp;teraz, ale przeznaczoną do odczytania w&nbsp;przyszłości**.
 
 ## Dlaczego akurat hasz?
 
-Haszowanie polega na ściśnięciu dowolnych danych do krótkiej, zwięzłej postaci, w&nbsp;sposób nieodwracalny. Jest czymś powszechnym i&nbsp;sprowadza się często do wpisania krótkiej linijki kodu. Albo wklejenia tekstu [na odpowiedniej stronie](https://emn178.github.io/online-tools/sha1.html).
+Haszowanie polega na ściśnięciu dowolnych danych do krótkiej, zwięzłej postaci, w&nbsp;sposób nieodwracalny. Jest czymś powszechnym i&nbsp;sprowadza się często do wpisania krótkiej linijki kodu. Albo wklejenia tekstu [na odpowiedniej stronie](https://emn178.github.io/online-tools/sha1.html).
  
 Otrzymany hasz ma dwie przydatne właściwości:
 
@@ -40,7 +40,7 @@ Otrzymany hasz ma dwie przydatne właściwości:
 Dzięki pierwszej właściwości nikt nie odczyta moich słów, póki sam ich nie ujawnię.  
 A dzięki drugiej -- każdy może zweryfikować, porównując hasze, że napisałem konkretne słowa.
 
-Gdy kiedyś wrzucę oryginalny tekst, to osoby chętne mogą go sobie skopiować i również zahaszować metodą SHA1, taką jak ja. Wyjdzie im ten sam hasz jak powyższy. Wniosek: dnia 26&nbsp;listopada 2023&nbsp;roku miałem konkretne przewidywania.
+Gdy kiedyś wrzucę oryginalny tekst, to osoby chętne mogą go sobie skopiować i również zahaszować metodą SHA1, taką jak ja. Wyjdzie im ten sam hasz jak powyższy. Wniosek: dnia 26&nbsp;listopada 2023&nbsp;roku miałem konkretne przewidywania.
 
 {% include info.html
 type="Powiązane wpisy"
@@ -52,9 +52,9 @@ Ponadto swoje oświadczenia w&nbsp;formie hasza opublikowały swego czasu, przy 
 
 Publikowanie hasza to jeden z&nbsp;wielu sposobów na przekazywanie informacji w&nbsp;sposób niejawny, lecz weryfikowalny.
 
-Jakimśtam sposobem byłoby nawet zwykłe **robienie aluzji**, które dopiero po fakcie staną się zrozumiałe. *Foreshadowing*, że tak zapożyczę z&nbsp;pisarskiego angielskiego.
+Jakimśtam sposobem byłoby nawet zwykłe **robienie aluzji**, które dopiero po fakcie staną się zrozumiałe. *Foreshadowing*, że tak zapożyczę z&nbsp;pisarskiego angielskiego.
 
-Jednak aluzja może się okazać zbyt oczywista. Albo w&nbsp;drugą stronę -- na tyle zagmatwana, że trzeba będzie ją potem tłumaczyć. Jak kiepski dowcip.
+Jednak aluzja może się okazać zbyt oczywista. Albo w&nbsp;drugą stronę -- na tyle zagmatwana, że trzeba będzie ją potem tłumaczyć. Jak kiepski dowcip.
 
 Inna możliwość? Wrzucenie na widok publiczny **pliku zabezpieczonego hasłem** (zaszyfrowanego). A&nbsp;dopiero po fakcie udostępnienie hasła.  
 Osoby chętne mogłyby wtedy wejść na jakąś stronkę deszyfrującą, jak [*hat.sh*](/tutorials/hat-sh-szyfrowanie){:.internal}, wpisać tam hasło i&nbsp;pobrać odkodowaną treść.
@@ -74,12 +74,12 @@ Odkrycie sekretu polegałoby w&nbsp;tym wypadku na opublikowaniu kodu dokonując
 
 {:.post-meta .bigspace-after}
 Jeśli kogoś to zaciekawiło, to na YouTubie znajdzie obszerny [filmik](https://www.youtube.com/watch?v=60D-_xH63fg) po polsku od Gynvaela Coldwinda.  
-Jeden z&nbsp;komentarzy pod spodem sugeruje, że w&nbsp;praktyce używa się bardziej złożonych metod, jak *przekształcenia falkowe*. Po angielsku *wavelet transforms*, gdyby ktoś chciał poszukać. 
+Jeden z&nbsp;komentarzy pod spodem sugeruje, że w&nbsp;praktyce używa się bardziej złożonych metod, jak *przekształcenia falkowe*. Po angielsku *wavelet transforms*, gdyby ktoś chciał poszukać. 
 
-W moim wypadku ta metoda by się jednak nie spisała. Steganografia lubi ciszę.  
-Gdybym wrzucił obrazek i&nbsp;napisał „coś tu ukryłem”, to każda wnikliwa osoba mogłaby się na niego rzucić. Odpalać algorytmy, przekształcać go, szukać prawidłowości. Przedwcześnie odkryć sekret.
+W moim wypadku ta metoda by się jednak nie spisała. Steganografia lubi ciszę.  
+Gdybym wrzucił obrazek i&nbsp;napisał „coś tu ukryłem”, to każda wnikliwa osoba mogłaby się na niego rzucić. Odpalać algorytmy, przekształcać go, szukać prawidłowości. Przedwcześnie odkryć sekret.
 
-Ostatecznie postawiłem na hasza. Krótki i&nbsp;zwięzły. Nieodwracalny. Przyjazny dla osób weryfikujących -- wystarczy skopiować i wkleić na stronce haszującej, takiej jak [Online Tools](https://emn178.github.io/online-tools/sha1.html). Nie trzeba pobierać żadnego pliku.
+Ostatecznie postawiłem na hasza. Krótki i&nbsp;zwięzły. Nieodwracalny. Przyjazny dla osób weryfikujących -- wystarczy skopiować i wkleić na stronce haszującej, takiej jak [Online Tools](https://emn178.github.io/online-tools/sha1.html). Nie trzeba pobierać żadnego pliku.
 
 ## Czy haszowi można wierzyć?
 
@@ -92,13 +92,13 @@ text="W podobny sposób niektórzy [udawali na Twitterze](https://skeptics.stack
 Nim się odbyły, tworzyli wiele tweetów. Po jednym dla *każdej możliwej kombinacji wyników*. A&nbsp;po meczu usuwali wszystkie poza tym jednym, który był zgodny z&nbsp;rzeczywistością. A&nbsp;że data dodania była wcześniejsza niż mecz, to wychodzili na proroków."
 %}
 
-Żebym nie mógł oszukiwać, hasz musi być umieszczony również na zewnętrznej, niezależnej stronce.
+Żebym nie mógł oszukiwać, hasz musi być umieszczony również na zewnętrznej, niezależnej stronce.
 
-Dlatego krótko po publikacji wrzucę ten wpis do internetowego archiwum, [*archive.vn*](https://archive.vn/).  
-Każdy może skopiować link do niego z&nbsp;górnego paska, odwiedzić Archiwum i&nbsp;go tam wkleić (w&nbsp;pole u&nbsp;dołu, nie u&nbsp;góry!).
+Dlatego krótko po publikacji wrzucę ten wpis do internetowego archiwum, [*archive.vn*](https://archive.vn/).  
+Każdy może skopiować link do niego z&nbsp;górnego paska, odwiedzić Archiwum i&nbsp;go tam wkleić (w&nbsp;pole u&nbsp;dołu, nie u&nbsp;góry!).
 
 {:.post-meta .bigspace-after}
-Gdyby strona nie chciała wpuścić i&nbsp;wyswietlała niekończące się Captche, to warto spróbować innego hotspota albo zmienić DNS-a. Na pewno nie lubią się z tym od firmy Cloudflare.
+Gdyby strona nie chciała wpuścić i&nbsp;wyswietlała niekończące się Captche, to warto spróbować innego hotspota albo zmienić DNS-a. Na pewno nie lubią się z tym od firmy Cloudflare.
 
 Po wybraniu najwcześniejszego z&nbsp;dostępnych zrzutów, z&nbsp;26 listopada, ukaże się hasz dodany tego dnia. Archiwum jest poza moim zasięgiem, więc nie mam możliwości mataczenia. Nie żebym zamierzał to robić.
 

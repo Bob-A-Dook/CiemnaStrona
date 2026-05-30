@@ -26,7 +26,7 @@ Część druga będzie poświęcona podporządkowaniu się algorytmom i&nbsp;rek
 Układ będzie przede wszystkim chronologiczny, ale czasem będę rozwijał wątki poboczne, nieco skacząc w&nbsp;czasie.
 
 {:.bigspace}
-<img src="/assets/posts/youtube/youtube-baner.jpg" alt="Kolaż złożony z&nbsp;kilku elementów na ciemnym tle. Pośrodku mamy logo Google. Na nie nałożono logo YouTube'a w&nbsp;taki sposób, że wydaje się przedłużeniem poprzeczki literki G. W&nbsp;jego stronę skierowany jest grot strzałki. Obok tej strzałki znajduje się emota z&nbsp;przerażoną miną. Oprócz tego obrazek zawiera w&nbsp;rogach grupę rysunkowych postaci, miniaturkę z&nbsp;filmiku pokazującą jak jeden ludzik z&nbsp;patyków dusi innego, rysunkową postać z&nbsp;głową Myszki Miki i&nbsp;złośliwą miną uciekającą z&nbsp;porwanym pieskiem, a&nbsp;także przekreśloną ikonę kciuka w&nbsp;dół."/>
+<img src="/assets/posts/youtube/youtube-baner.jpg" alt="Kolaż złożony z&nbsp;kilku elementów na ciemnym tle. Pośrodku mamy logo Google. Na nie nałożono logo YouTube'a w&nbsp;taki sposób, że wydaje się przedłużeniem poprzeczki literki G. W&nbsp;jego stronę skierowany jest grot strzałki. Obok tej strzałki znajduje się emota z&nbsp;przerażoną miną. Oprócz tego obrazek zawiera w&nbsp;rogach grupę rysunkowych postaci, miniaturkę z&nbsp;filmiku pokazującą jak jeden ludzik z&nbsp;patyków dusi innego, rysunkową postać z&nbsp;głową Myszki Miki i&nbsp;złośliwą miną uciekającą z&nbsp;porwanym pieskiem, a&nbsp;także przekreśloną ikonę kciuka w&nbsp;dół."/>
 
 # Spis treści
 
@@ -71,7 +71,7 @@ W sprawach finansowych bywają zadziwiająco tajemniczy. Dopiero w&nbsp;2020 rok
 Faktycznie dostają sporo pieniędzy. Tylko że to przychody. A&nbsp;co z&nbsp;ich kosztami i&nbsp;zyskami?  
 (Przypominajka z&nbsp;ekonomii: **zyski = przychody minus koszty. To pieniądze, które zostają w&nbsp;kieszeni**).
 
-Da się znaleźć informacje o&nbsp;zyskach ich właścicieli, całej grupy Alphabet. Tylko że to podsumowanie dla szerokiego wianuszka firm, bez podziału na szczegóły.  
+Da się znaleźć informacje o&nbsp;zyskach ich właścicieli, całej grupy Alphabet. Tylko że to podsumowanie dla szerokiego wianuszka firm, bez podziału na szczegóły.  
 Nie znalazłem natomiast wzmianki o&nbsp;tym, jakie koszty ponosi sam YouTube -- a&nbsp;w&nbsp;szczególności jakie ponosił w&nbsp;czasach największego wzrostu.
 
 Można obstawiać, że przy serwowaniu tylu wielkich plików mogą być gigantyczne. Zresztą jeszcze w&nbsp;2015 roku w&nbsp;Wall Street Journal pisali, że mimo miliarda widzów [YouTube właściwie wychodzi na zero](https://www.wsj.com/articles/viewers-dont-add-up-to-profit-for-youtube-1424897967). Tyle samo zarabia, co wydaje na utrzymanie.
@@ -106,7 +106,7 @@ Rozpoczęła się sądowa batalia, która miała potrwać jeszcze wiele lat. Wiz
 Sprawa pierwsza: ochocze kasowanie filmów.  
 YouTube, w&nbsp;obliczu prawnych gróźb, postanowił usunąć wskazane filmy. Tylko że Viacom błędnie wskazał część z&nbsp;nich. Doszło do tego, że YouTube [usunął również niewinne](https://www.cnet.com/news/eff-takes-viacom-to-task-over-youtube-takedown/), niezawierające viacomowych treści.
 
-Co gorsza, w&nbsp;miejsce usuniętych filmików wstawili komunikaty informujące wszystkich potencjalnych widzów, że film usunięto przez naruszenie praw autorskich. Tak jakby to było pewne. Pokrzywdzeni oskarżyli ich o&nbsp;zniesławienie.  
+Co gorsza, w&nbsp;miejsce usuniętych filmików wstawili komunikaty informujące wszystkich potencjalnych widzów, że film usunięto przez naruszenie praw autorskich. Tak jakby to było pewne. Pokrzywdzeni oskarżyli ich o&nbsp;zniesławienie.  
 Po tej wpadce YouTube zmienił komunikat; od teraz informował jedynie, że *zgłoszono* naruszenie, nie odnosząc się do prawdziwości zarzutu. Ale, jak zobaczymy, sama szybka ręka do usuwania mu została.
 
 Sprawa druga: działanie z&nbsp;premedytacją.  
@@ -288,7 +288,7 @@ Mam parę równie subiektywnych odczuć, jeśli chodzi o&nbsp;filmiki związane 
   Te dwa zbiory nieraz się pokrywają; skądś zresztą się wzięło zjawisko *clickbaitów*.  
   Poza tym, jeśli spojrzymy na tytuły i&nbsp;opisy filmików w&nbsp;stylu ElsaGate, rzadko kiedy są spójnymi zdaniami. To bardziej zlepki takich popularnych słów.
 
-* Znane postacie -- trochę jak wyżej. A&nbsp;poza tym znajome wizerunki bardziej zachęcają do obejrzenia filmów.
+* Znane postacie -- trochę jak wyżej. A&nbsp;poza tym znajome wizerunki bardziej zachęcają do obejrzenia filmów.
 * Miniaturki -- jak wyżej.
 
   Czasem w&nbsp;ogóle nie pasują do słów kluczowych. A&nbsp;jeśli nawet, to mogły zostać wygenerowane automatycznie albo przy minimalnej ludzkiej interwencji.  

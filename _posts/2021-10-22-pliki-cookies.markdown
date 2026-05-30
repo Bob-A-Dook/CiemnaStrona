@@ -26,7 +26,7 @@ Powoli zbliżamy się do końca, jeśli chodzi o&nbsp;informacje z&nbsp;tych „
 
 Czas na pliki cookies (z angielskiego „ciasteczka”).
 
-W tym wpisie skupię się na jednym z&nbsp;dwóch głownych rodzajów: **na ciasteczkach od stron bezpośrednio odwiedzanych** (ang. *first-party cookies*).
+W tym wpisie skupię się na jednym z&nbsp;dwóch głownych rodzajów: **na ciasteczkach od stron bezpośrednio odwiedzanych** (ang. *first-party cookies*).
 
 Drugi rodzaj (*third-party cookies*; ciasteczka od stron zewnętrznych) zostawimy na przyszły wpis.
 
@@ -137,7 +137,7 @@ Następnie otworzyłem sobie narzędzia przeglądarki (skrót `Ctrl+Shift+I`) i&
 
 # Pierwsza wizyta
 
-Po tych przygotowaniach wszedłem na stronę. Na liście wyświetliły się różne pliki, jakie pobrała moja przeglądarka. Kliknąłem na pierwszy od góry, czyli główną stronę. Potem zerkałem w&nbsp;zakładki `Nagłówki` i&nbsp;`Ciasteczka`.
+Po tych przygotowaniach wszedłem na stronę. Na liście wyświetliły się różne pliki, jakie pobrała moja przeglądarka. Kliknąłem na pierwszy od góry, czyli główną stronę. Potem zerkałem w&nbsp;zakładki `Nagłówki` i&nbsp;`Ciasteczka`.
 
 {:.bigspace}
 <img src="/assets/posts/pliki-cookie/firefox-pliki-cookies.jpg" alt="Połączone zrzuty ekranu z narzędzi przeglądarki Firefoksa. Cyframi 1, 2 i 3 oznaczyłem, co trzeba było kliknąć."/>
@@ -256,7 +256,7 @@ W praktyce oznacza to, że **strony odwiedzane w&nbsp;trybie incognito nie dowie
 Mogą próbować to odgadnąć na podstawie innych informacji. Ale nasza przeglądarka nie powie im tego wprost.
 
 {% include info.html type="Ciekawostka"
-text="Na urządzeniach mobilnych z&nbsp;Androidem przydać się może przeglądarka *[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/)*. Zachowuje się tak, jakby tryb incognito był przez cały czas aktywny, regularnie usuwa pliki cookies.  
+text="Na urządzeniach mobilnych z&nbsp;Androidem przydać się może przeglądarka *[Firefox Focus](https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/)*. Zachowuje się tak, jakby tryb incognito był przez cały czas aktywny, regularnie usuwa pliki cookies.  
 Jest jednak dość niszowa, przez regularne czystki wymaga częstego logowania od nowa i, w&nbsp;przeciwieństwie do głównego mobilnego Firefoksa, nie obsługuje dodatków. Dlatego podaję ją tylko jako ciekawostkę."
 %}
 
@@ -273,7 +273,7 @@ Najlepiej zacząć od [tego krótszego]({% post_url 2021-10-21-ublock-origin %})
 
 ## Podsumowanie
 
-Poznaliśmy ogólną zasadę działania plików cookies -- rzeczy, bez której znany nam internet by zapewne nie działał. A&nbsp;jednocześnie jednego z&nbsp;głównych narzędzi inwigilacji.
+Poznaliśmy ogólną zasadę działania plików cookies -- rzeczy, bez której znany nam internet by zapewne nie działał. A&nbsp;jednocześnie jednego z&nbsp;głównych narzędzi inwigilacji.
 
 W obecnej formie ciężko z&nbsp;nimi cokolwiek zrobić. Możemy co najwyżej pamiętać, że kiedy jesteśmy zalogowani i&nbsp;chodzimy po podstronach czegoś większego (jak *facebook.com*), to możemy zapomnieć o&nbsp;prywatności.
 

@@ -30,7 +30,7 @@ Wiele z&nbsp;tych odkryć to materiał na luźne anegdotki, a&nbsp;nie poważnie
 Natomiast, zupełnym przypadkiem, trafiłem na coś ciekawego.  
 **Swoisty łańcuszek 28 firm założonych przez jednego prawnika i&nbsp;przekazanych później nowym właścicielom**. W&nbsp;tym znanym firmom, takim jak Allegro.
 
-Ostudzę zapał: wątpię, żeby to była jakaś afera.
+Ostudzę zapał: wątpię, żeby to była jakaś afera.
 
 Będzie natomiast luźna eksploracja i&nbsp;zerknięcie za kulisy świata kancelarii i&nbsp;korporacji. Poza tym dodamy do swojego arsenału śledczego możliwość rysowania powiązań między firmami.
 
@@ -70,7 +70,7 @@ Tego dnia wydarzyły się co najmniej trzy rzeczy, widoczne na moich wykresach:
 * **Zmiana zarządu**.  
   Odszedł Maciej G., na jego miejsce weszła inna osoba.
 
-Jeśli znacie hiszpański, to pewnie już coś zwróciło waszą uwagę. Ja nie znam, więc jeszcze niczego nie wyłapałem.
+Jeśli znacie hiszpański, to pewnie już coś zwróciło waszą uwagę. Ja nie znam, więc jeszcze niczego nie wyłapałem.
 
 Byłem natomiast ciekaw, kim byli wcześniejsi udziałowcy Akamaia. Znalazłem w&nbsp;odpisie numer KRS dla *Diecinueve*, wpisałem go w&nbsp;oficjalną wyszukiwarkę (przy czym odkryłem, że zmienili nazwę na *Top Brand*), zrobiłem wykresy:
 
@@ -117,7 +117,7 @@ Po drodze sprawdziłem też samego Macieja G. Według moich informacji pracował
 
 Idąc wstecz, dotarłem do *Cinco* i&nbsp;*Cuatro*, które już nie trafiły do obcych firm, lecz zostały w&nbsp;rękach wspomnianej kancelarii GWW. Czyli wszystkie numerki zapewne zostały naszykowane na polecenie kancelarii, a&nbsp;pan Maciej działał w&nbsp;roli pełnomocnika. 
 
-*Veintidós*, czyli 22, już nie znalazłem (również szukając według polskiej pisowni), zaś firmy nazwane jak wcześniejsze hiszpańskie liczby (*Uno*, *Dos*, *Tres*) wydawały się niezwiązane z&nbsp;kancelarią GWW.
+*Veintidós*, czyli 22, już nie znalazłem (również szukając według polskiej pisowni), zaś firmy nazwane jak wcześniejsze hiszpańskie liczby (*Uno*, *Dos*, *Tres*) wydawały się niezwiązane z&nbsp;kancelarią GWW.
 
 W związku z&nbsp;tym, po zebraniu odpisów dla 28 firm, uznałem poszukiwania za zakończone.
 

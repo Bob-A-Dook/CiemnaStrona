@@ -31,19 +31,19 @@ Przykładowa reklama -- tu dziwnie uboga -- wygląda tak:
 {:.figure .bigspace}
 <img src="/assets/posts/fb-analiza-wprowadzenie/google-reklama-fb.webp" alt="Reklama na Facebooku sponsorowana przez Google, zawierająca tekst 'Darmowe kursy online zaprojektowane z&nbsp;myślą o&nbsp;rzowoju kariery. Wybierz lekcję lub zacznij cały kurs'. Wpis nie zawiera żadnych linków. Jeden z&nbsp;użytkowników w&nbsp;komentarzu pyta 'I gdzie ten kurs?'."/>
 
-W jej prawym górnym rogu znajduje się ikona trzech kropek (1). Po kliknięciu w&nbsp;nią wyświetli się lista opcji. Wybieramy ostatnią, `Dlaczego widzę tę reklamę?` (2).
+W jej prawym górnym rogu znajduje się ikona trzech kropek (1). Po kliknięciu w&nbsp;nią wyświetli się lista opcji. Wybieramy ostatnią, `Dlaczego widzę tę reklamę?` (2).
 
 {:.figure .bigspace}
 <img src="/assets/posts/fb-analiza-wprowadzenie/reklama-info.webp" alt="Rozwinięte okienko z&nbsp;opcjami. W&nbsp;prawym górnym rogu ikona trzech kropek oznaczona jako 1. Wśród opcji cyfrą 2 oznaczona przedostatnia, o&nbsp;treści 'Dlaczego widzę tę reklamę?'."/>
 
-Wyświetlą się informacje o&nbsp;tym, na jakiej podstawie trafiła nam się akurat taka reklama. W&nbsp;moim przypadku zadecydował wiek, lokalizacja, język i&nbsp;zainteresowania:
+Wyświetlą się informacje o&nbsp;tym, na jakiej podstawie trafiła nam się akurat taka reklama. W&nbsp;moim przypadku zadecydował wiek, lokalizacja, język i&nbsp;zainteresowania:
 
 {:.figure .bigspace}
 <img src="/assets/posts/fb-analiza-wprowadzenie/google-reklama-dlaczego.webp" alt="Okno o&nbsp;nagłówku 'Dlaczego widzisz tę reklamę'. Wymienione cztery powody: wśród moich zainteresowań według Facebooka jest Hacker News, znam język polski, jestem osobą w&nbsp;wieku od 18 do 60 lat, moja podstawowa lokalizacja to Polska."/>
 
 W tym przypadku moje zainteresowania odnoszą się po prostu do polubionej stronki (uprzedzając pytania -- to forum stronki ogólnoinformatycznej. *Hacker* w&nbsp;znaczeniu zbliżonym do majsterkowicza, nie włamywacza).
 
-Ale nieraz te moje rzekome zainteresowania potrafią mnie zdziwić. Dlaczego akurat takie?
+Ale nieraz te moje rzekome zainteresowania potrafią mnie zdziwić. Dlaczego akurat takie?
 
 To właśnie motywacja, jaka mi przyświecała. Spojrzeć na te same dane, na jakie patrzyły algorytmy Fejsa i&nbsp;spróbować zrozumieć, dlaczego przypisano mi określone rzeczy. Ale to cel na dłuższą metę.
 
@@ -71,7 +71,7 @@ Wizualizacja układu plików wykonana programem `tree` na Linuksie.
 
 28 plików rozbitych na 7 folderów. Głównie JSON-y. Do tego w&nbsp;folderze na transkrypcje jeden plik tekstowy z&nbsp;informacją o&nbsp;braku danych. Bo z&nbsp;żadnych transkrypcji nie korzystałem.
 
-Po pierwszym kontakcie zacząłem grzebać w&nbsp;plikach i&nbsp;wypatrywać powtarzających się rzeczy.
+Po pierwszym kontakcie zacząłem grzebać w&nbsp;plikach i&nbsp;wypatrywać powtarzających się rzeczy.
 
 O JSON-ie ogólnie nie musicie nic wiedzieć, poza tym że jest dość czytelny i&nbsp;przyjazny. Wnętrze przykładowego pliku *.json* wygląda tak:
 
@@ -92,7 +92,7 @@ def _convert_timestamp( timestamp ):
     return datetime.fromtimestamp( timestamp )
 ```
 
-{% include info.html type="Ciekawostka" text="Co by się stało, gdybyśmy jako znacznik czasu przyjęli *0* i&nbsp;odpalili naszą funkcję? Zobaczymy wtedy, **co jest dla komputerów początkiem czasu**, takim *punktem zero* dla dat!  
+{% include info.html type="Ciekawostka" text="Co by się stało, gdybyśmy jako znacznik czasu przyjęli *0* i&nbsp;odpalili naszą funkcję? Zobaczymy wtedy, **co jest dla komputerów początkiem czasu**, takim *punktem zero* dla dat!  
 Okazuje się, że nasze `_convert_timestamp(0)` dałoby datę... **1.01.1970 r.**! To nasza *data zerowa*.  
 Dlaczego taka? [Z prozaicznych powodów](https://unix.stackexchange.com/questions/26205/why-does-unix-time-start-at-1970-01-01) -- ponoć to we wczesnych latach 70. określano standardy dla komputerów. Dla autorów wygodna była data: *a)* jak najokrąglejsza i&nbsp;*b)* nie sięgająca zbyt daleko w&nbsp;przeszłość.  
 Jeśli czasem zdarzyło Wam się spotkać absurdalne daty i&nbsp;gdzieś było w&nbsp;nich 1970, to już wiecie, skąd się to wzięło.   
@@ -157,7 +157,7 @@ W moim przypadku tym elementem było słowo *timestamp*. Gdyby wszystkie pliki m
 
 Na pewno dałoby się stworzyć jakiś elastyczny program -- zapamiętujący informacje z&nbsp;wyższych poziomów podczas schodzenia w&nbsp;głąb albo nawet odgadujący ich rodzaj.
 
-Ale to zrobię później. Jestem leniwym człowiekiem, więc po prostu nie dzielę na podkategorie, traktując każdy plik jak jedną odrębną. Dodałem też osobne funkcje do obróbki tych dwóch plików, które wyłamują się ze schematu. 
+Ale to zrobię później. Jestem leniwym człowiekiem, więc po prostu nie dzielę na podkategorie, traktując każdy plik jak jedną odrębną. Dodałem też osobne funkcje do obróbki tych dwóch plików, które wyłamują się ze schematu. 
 
 ## Ciekawostki z moich danych
 
@@ -205,7 +205,7 @@ W ten sposób dowiedziałem się kilku rzeczy, które może nie znajdą miejsca 
   
   Jest tam kilkanaście osób. Niektórych mam w&nbsp;znajomych (nawet bliższych), z&nbsp;niektórymi wymieniłem tylko pojedyncze wiadomości. Prawie do nikogo nie mam numeru telefonu, więc pierwsze skojarzenie odpada. Sprawa do zbadania.
 
-Zajrzyjcie w&nbsp;swoje pliki, też na pewno znajdziecie coś ciekawego :wink: To tak osobiste sprawy, że trudno mi uogólniać.
+Zajrzyjcie w&nbsp;swoje pliki, też na pewno znajdziecie coś ciekawego :wink: To tak osobiste sprawy, że trudno mi uogólniać.
 
 ## Moja oś czasu
 
@@ -230,7 +230,7 @@ Tu fragment mojej tekstowej osi czasu:
 {:.figure .bigspace}
 <img src="/assets/posts/fb-analiza-wprowadzenie/os-czasu-przyklad.webp" alt="Zrzut ekranu z&nbsp;Notatnika, pokazujący oś czasu. Po lewej stronie znajdują się daty, z&nbsp;dokładnością do sekund. Po prawej stronie, odpowiednio wcięte, odpowiadające tym datom działania. Nagłówki tych działań to „WYSZUKANE” albo „ODWIEDZONA STRONA/PROFIL”. Łącznie widać informacje dla trzech wyszukań, potem odwiedzonej strony, kolejnego wyszukania i&nbsp;innej odwiedzonej strony."/>
 
-Dzięki połączeniu dwóch rodzajów informacji ukazuje się tutaj krótka historia z&nbsp;mojego życia:
+Dzięki połączeniu dwóch rodzajów informacji ukazuje się tutaj krótka historia z&nbsp;mojego życia:
 
 1. Nie miałem co robić po północy 9.01 (w noc z&nbsp;piątku na sobotę, jeśli wierzyć kalendarzowi).
 2. Szukałem strony, która mi się kojarzyła. Wpisałem w&nbsp;wyszukiwarkę Fejsa fragment jej nazwy.
@@ -242,7 +242,7 @@ Dzięki połączeniu dwóch rodzajów informacji ukazuje się tutaj krótka his
 Ogranicza mnie oczywiście to, że widzę tylko najnowsze odwiedziny na stronie. Ale mimo wszystko da się całkiem znośnie wykorzystać te dane.
 
 Inna historia to wizyta w&nbsp;Hiszpanii w&nbsp;2020 r. W&nbsp;pierwszych dniach, kiedy byliśmy na odludziu, zero aktywności. Potem wyszukiwanie i&nbsp;zwiedzanie lokalnych grup polskich. Interakcje z&nbsp;zewnętrznymi stronami biur podróży (których szukaliśmy na szybko).  
-**Dane układają się w spójną historię**, jeśli się je umieści w&nbsp;szerszym kontekście.
+**Dane układają się w spójną historię**, jeśli się je umieści w&nbsp;szerszym kontekście.
 
 ## Ciemna strona danych
 
@@ -264,7 +264,7 @@ Oprócz nazwy użytkownika jest też pole `uri`. To link do konta na Facebooku. 
 Anonek kopiuje link do przeglądarki i&nbsp;wchodzi na profil wroga. Po miesiącach frustracji może się zemścić.
 
 {% include info.html type="Porada" text="Co zrobić, jeśli na FB mignie Wam jakaś dawno niewidziana znajoma, której nazwisko nijak się Wam nie kojarzy (bo np. w&nbsp;międzyczasie wyszła za mąż)? Jak szybko ustalić tożsamość?  
-Możecie najechać kursorem na jej imię i&nbsp;spojrzeć w&nbsp;lewy dolny róg przeglądarki. Pojawi się tam link do profilu. Jeśli macie szczęście, to się nie zmienił od założenia konta i&nbsp;nadal zawiera nazwisko panieńskie." %}
+Możecie najechać kursorem na jej imię i&nbsp;spojrzeć w&nbsp;lewy dolny róg przeglądarki. Pojawi się tam link do profilu. Jeśli macie szczęście, to się nie zmienił od założenia konta i&nbsp;nadal zawiera nazwisko panieńskie." %}
 
 ## Twoja oś czasu
 

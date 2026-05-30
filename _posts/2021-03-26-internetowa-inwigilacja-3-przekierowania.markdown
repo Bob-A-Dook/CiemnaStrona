@@ -21,7 +21,7 @@ Przyjrzeliśmy się również refererowi, jednej z&nbsp;tych informacji -- zdrad
 
 W tym odcinku nadal trzymamy się tematu linków. Tym razem nie omówię kolejnych rodzajów informacji, jakie mogą się znaleźć na naszej etykiecie, tylko **sztuczkę**, dzięki której istniejące informacje mogą trafić do innej strony.
 
-To trochę jak odwrócony referer -- on mówił, skąd przychodzimy. Zaś dzięki podmianie linków i przekierowaniom **strona A&nbsp;może się dowiedzieć, że odchodzimy z&nbsp;niej na stronę B**.
+To trochę jak odwrócony referer -- on mówił, skąd przychodzimy. Zaś dzięki podmianie linków i przekierowaniom **strona A&nbsp;może się dowiedzieć, że odchodzimy z&nbsp;niej na stronę B**.
 
 Gwiazdą wieczoru będzie Twitter, który takie coś uskutecznia.
 
@@ -52,32 +52,32 @@ Mem nie jest w&nbsp;100% trafny -- strona A&nbsp;tak łatwo się nie dowie, że 
 
 Strona A&nbsp;nie może zmienić działania przeglądarki. Ale może stosować sztuczki, żeby mimo to ustalić, w&nbsp;co klikają jej użytkownicy.
 
-Spójrzmy najpierw na schemat. Gdyby Twitter zachowywał się jak typowe strony, to interakcje z&nbsp;linkami wyglądałyby w&nbsp;taki sposób:
+Spójrzmy najpierw na schemat. Gdyby Twitter zachowywał się jak typowe strony, to interakcje z&nbsp;linkami wyglądałyby w&nbsp;taki sposób:
 
 <img src='/assets/posts/przekierowania/linki-demo1.webp' alt="Schemat pokazujący dwa prostokątne pola odpowiadające dwóm stronom internetowym. U&nbsp;góry widać pole jasnoniebieskie, ozdobione po lewej stronie dużym logiem Twittera. Wewnątrz pola znajduje się zrzut ekranu tweeta. Widać na nim link, wyróżniony tu ciemnoniebieską obwódką. Dolne prostokątne pole, jasnopomarańczowe, zawiera zrzut ekranu z&nbsp;forum Hacker News, z&nbsp;podstrony do którego prowadził wyróżniony link. Po lewej stronie pole jest ozdobione logiem tego forum. Oba pola są połączone grubą, ciemnoniebieską strzałką. Jest przy niej ikona paczki -- miniatura obrazka z&nbsp;pierwszego wpisu z&nbsp;tej serii, symbolizująca nagłówki HTTP."/>
 
 {:.figcaption}
 Treść tweeta to lekki spoiler odnośnie jednego z najbliższych wpisów.
 
-1. Klikamy link do strony B&nbsp;(tu: forum Hacker News) umieszczony w&nbsp;czyimś tweecie.
+1. Klikamy link do strony B&nbsp;(tu: forum Hacker News) umieszczony w&nbsp;czyimś tweecie.
 2. Nasza przeglądarka opuszcza Twittera i&nbsp;wysyła stronie B&nbsp;prośbę o&nbsp;przesłanie treści.
 
    Przy okazji wysyłamy stronie B&nbsp;nagłówki HTTP (naszą „etykietę”) z&nbsp;pewnymi informacjami o&nbsp;sobie -- no ale tak już jest w&nbsp;tym internecie.
 
 3. Przeglądarka otrzymuje i&nbsp;wyświetla stronę B.
 
-W każdym razie -- normalnie Twitter by nie wiedział o&nbsp;tym, że przeszliśmy na inną stronę.
+W każdym razie -- normalnie Twitter by nie wiedział o&nbsp;tym, że przeszliśmy na inną stronę.
 
 ## Śledzące linki Twittera
 
 Ale rzeczywistość jest inna, a&nbsp;ptaszysko jest wścibskie. Gdyby strony zawierały tylko tradycyjne linki, to by nie wiedziały, czy i&nbsp;kiedy w&nbsp;nie klikamy. **Dlatego je podmieniają**. 
 
-Metodą, która umożliwia łatwą podmiankę jest **przekierowanie**. To instrukcja dla przeglądarki, że ma teraz przejść na inną stronkę. Taki odpowiednik spławienia kontrolera zza płota. „A niee, z&nbsp;tym to idź pan do sąsiada”.
+Metodą, która umożliwia łatwą podmiankę jest **przekierowanie**. To instrukcja dla przeglądarki, że ma teraz przejść na inną stronkę. Taki odpowiednik spławienia kontrolera zza płota. „A niee, z&nbsp;tym to idź pan do sąsiada”.
 
-Chytra sztuczka Twittera zaczyna się już na etapie, kiedy ktoś dodaje nową treść:
+Chytra sztuczka Twittera zaczyna się już na etapie, kiedy ktoś dodaje nową treść:
 
 1. Ktoś pisze na Twitterze (stronie A) nowego tweeta, zawierającego link do strony B.
-2. Twitter wykrywa link. Tworzy dla niego mini-stronkę C&nbsp;pod adresem *t.co*, której jedyną zawartością jest przekierowanie do strony B. Podmienia pierwotny link tak, żeby do niej prowadził.
+2. Twitter wykrywa link. Tworzy dla niego mini-stronkę C&nbsp;pod adresem *t.co*, której jedyną zawartością jest przekierowanie do strony B. Podmienia pierwotny link tak, żeby do niej prowadził.
 
    Nie ma tu najmniejszego znaczenia, że tekst linku wygląda nadal, jakby prowadził pod *news.ycombinator...* Tak naprawdę to *t.co...*, własność Twittera.  
 **Tekst linku i&nbsp;strona, do której prowadzi to kompletnie odrębne sprawy**. Zresztą sam na blogu często ukrywam linki pod zwykłymi słowami.
@@ -87,11 +87,11 @@ Dzięki temu, że Twitter podmienił źródło linku na samym początku, będzie
 Etap drugi, czyli interakcja z&nbsp;podmienionym linkiem, wygląda tak:
 
 {:.bigspace}
-<img src='/assets/posts/przekierowania/linki-demo2.webp' alt="Rozbudowana wersja poprzedniego schematu. Z&nbsp;pola odpowiadającego Twitterowi wychodzi przerywana linia zakończona grotem, zmierzająca do jego loga. Obok grotu strzałki narysowany jest symbol nagłówków HTTP. Druga przerywana linia odchodzi z&nbsp;loga Twittera i&nbsp;kieruje się do małego pola ze skróconym adresem zaczynającym się na t.co. To pole ma taki sam kolor tła jak to duże dlas Twittera. Dopiero z&nbsp;tego pola odchodzi duża strzałka połączona z&nbsp;polem Hacker News."/>
+<img src='/assets/posts/przekierowania/linki-demo2.webp' alt="Rozbudowana wersja poprzedniego schematu. Z&nbsp;pola odpowiadającego Twitterowi wychodzi przerywana linia zakończona grotem, zmierzająca do jego loga. Obok grotu strzałki narysowany jest symbol nagłówków HTTP. Druga przerywana linia odchodzi z&nbsp;loga Twittera i&nbsp;kieruje się do małego pola ze skróconym adresem zaczynającym się na t.co. To pole ma taki sam kolor tła jak to duże dlas Twittera. Dopiero z&nbsp;tego pola odchodzi duża strzałka połączona z&nbsp;polem Hacker News."/>
 
 1. Ktoś klika w&nbsp;link z&nbsp;tweeta.
 
-   Chce wejść na stronę B, ale nie wie, że link prowadzi do mini-stronki C.
+   Chce wejść na stronę B, ale nie wie, że link prowadzi do mini-stronki C.
 
 2. Prosząc o&nbsp;stronę spod tego adresu, nasza przeglądarka **wysyła do *t.co* (Twittera) pełen zestaw informacji z&nbsp;nagłówków**.
 3. W&nbsp;zamian otrzymuje mini-stronkę C.
@@ -117,7 +117,7 @@ Wiecie, czemu zaznaczyłem *"such as"*? Bo taki zwrot sugeruje, że to tylko prz
 
 Sprawa z&nbsp;ochroną przed innymi stronami też jest trochę szemrana. Wyobraźmy sobie -- tak czysto teoretycznie -- że Twitter wpada kiedyś w&nbsp;ręce jakiegoś dyktatora (z dowolnej strony spektrum politycznego).
 
-Dyktator wiedziałby dokładnie, które linki prowadzą na które strony. A mając kontrolę nad przekierowaniami, **mógłby jednym pstryczkiem wyłączyć wszystkie linki z&nbsp;Twittera prowadzące do stron, które go krytykują**. Takich jak np. *krytyka-dyktatora.com*.
+Dyktator wiedziałby dokładnie, które linki prowadzą na które strony. A mając kontrolę nad przekierowaniami, **mógłby jednym pstryczkiem wyłączyć wszystkie linki z&nbsp;Twittera prowadzące do stron, które go krytykują**. Takich jak np. *krytyka-dyktatora.com*.
 
 Wystarczyłoby podmienić odpowiednie mini-stronki z&nbsp;serii *t.co*. Żeby zamiast przekierowania zawierały np. materiały propagandowe.
 
@@ -125,8 +125,8 @@ Użytkownicy nieobeznani z&nbsp;takimi trikami mogliby wtedy pomyśleć, że to 
 
 Mogłoby im nie przyjść do głowy, że to władca Twittera stosuje cenzurę. Jeden pstryczek, jedna strona odcięta. Nic nie wymknie się poza Twittera bez jego wiedzy. Uroki scentralizowanej władzy.
 
-**Aktualizacja 2023:** po dwóch i&nbsp;pół roku od napisania posta Twitter zmienił właściciela oraz nazwę (na&nbsp;X).  
-Do tego zyskaliśmy realny przykład nadużycia skracarki. Jak podaje Washington Post, [otwieranie linków do niektórych stron było celowo spowalniane](https://www.washingtonpost.com/technology/2023/08/15/twitter-x-links-delayed/). Gdyby użytkownicy je sobie skopiowali, zamiast klikać i&nbsp;zdawać się na przekierowanie, to dużo szybciej by się ładowały.
+**Aktualizacja 2023:** po dwóch i&nbsp;pół roku od napisania posta Twitter zmienił właściciela oraz nazwę (na&nbsp;X).  
+Do tego zyskaliśmy realny przykład nadużycia skracarki. Jak podaje Washington Post, [otwieranie linków do niektórych stron było celowo spowalniane](https://www.washingtonpost.com/technology/2023/08/15/twitter-x-links-delayed/). Gdyby użytkownicy je sobie skopiowali, zamiast klikać i&nbsp;zdawać się na przekierowanie, to dużo szybciej by się ładowały.
 
 <img src='/assets/posts/przekierowania/twitter-tco.webp' alt="Rysunek pokazuje logo Twittera otoczone z każdej strony półprzezroczystą, zielonkawą sferą wyglądającą jak pole siłowe. Sfera jest podpisaną nazwą twitterowego przycinacza linków."/>
 
@@ -148,11 +148,11 @@ free URL shortener, tiny.cc, also provides basic free link tracking.
 
 Możemy monitorować swoje linki za darmo, na zawsze, do tego zbierać szeroki zakres danych. Cudownie :roll_eyes:
 
-Analitycy mają prawdziwy arsenał. Ale my również nie jesteśmy bezradni, jeśli nie chcemy zdradzać informacji podczas klikania w&nbsp;zamaskowane linki. Zaprezentuję teraz nasze możliwości.
+Analitycy mają prawdziwy arsenał. Ale my również nie jesteśmy bezradni, jeśli nie chcemy zdradzać informacji podczas klikania w&nbsp;zamaskowane linki. Zaprezentuję teraz nasze możliwości.
 
 ## Jak to przechytrzyć?
 
-Przede wszystkim patrzmy czasem, w&nbsp;co klikamy. Nawet jeśli tekst linku mówi *dobrastronka.cool*, to pod tekstem może się kryć link do *niedobrastronka.fuj*.
+Przede wszystkim patrzmy czasem, w&nbsp;co klikamy. Nawet jeśli tekst linku mówi *dobrastronka.cool*, to pod tekstem może się kryć link do *niedobrastronka.fuj*.
 
 Najprostszą metodą, żeby to sprawdzić, jest **najechanie kursorem na link i&nbsp;spojrzenie w&nbsp;lewy dolny róg przeglądarki**. Wyświetli się tam, dokąd on naprawdę prowadzi.  
 (W przypadku urządzeń mobilnych przytrzymujemy palec na linku. Ostrożnie, żeby nie kliknąć!).
@@ -165,14 +165,14 @@ Jeśli widzimy pełen adres strony w&nbsp;formie tekstu, ale ukryty pod nim link
 
 (Jeśli uważnie czytaliście wpis o&nbsp;refererze, to być może zauważyliście, że tam też wklejenie linka w&nbsp;pasek ucinało część informacji. Taka uniwersalna metoda).
 
-{% include info.html type="Porada" text="Czasami widoczny adres strony jest przycięty, ale pokazuje się w całości po najechaniu kursorem. Tak jest w&nbsp;przypadku tego linka z&nbsp;Twittera (obrazek poniżej; widać, że po najechaniu pokazują się obie brakujące cyfry).  
-Jeśli boimy się techniki, to możemy skopiować do paska przeglądarki tę część, którą się da, a&nbsp;resztę wyświetlić i&nbsp;dopisać ręcznie.  
+{% include info.html type="Porada" text="Czasami widoczny adres strony jest przycięty, ale pokazuje się w całości po najechaniu kursorem. Tak jest w&nbsp;przypadku tego linka z&nbsp;Twittera (obrazek poniżej; widać, że po najechaniu pokazują się obie brakujące cyfry).  
+Jeśli boimy się techniki, to możemy skopiować do paska przeglądarki tę część, którą się da, a&nbsp;resztę wyświetlić i&nbsp;dopisać ręcznie.  
 Ale lepiej kliknąć link prawym przyciskiem, wybrać `Zbadaj element` i&nbsp;skopiować potrzebny tekst prosto z&nbsp;kodu strony (w razie potrzeby klikając w&nbsp;strzałki, żeby rozwinąć elementy)." trailer="<p class='figure'><img src='/assets/posts/przekierowania/twitter-link-prawdziwy.webp' alt='Mały zrzut ekranu pokazujący fragment linka z&nbsp;poprzednich przykładów z&nbsp;Twittera. Pod tekstem, który jest częściowo ucięty, widać pasek z&nbsp;tekstem na szarym tle, który pokazał się po najechaniu kursorem na link. Ten tekst zawiera link w&nbsp;całości, razem z&nbsp;uciętymi cyframi.' width='500px'/></p>"%}
 
 No, ale czasem szczęście nam nie sprzyja. Widzimy tylko skrócony link, bez żadnej wskazówki dokąd prowadzi. Albo używamy urządzenia mobilnego i&nbsp;ciężko zajrzeć w&nbsp;kod strony.
 
 Jeśli nie klikniemy w&nbsp;skrócony link, to się nie dowiemy, co się za nim kryje.  
-Ale jeśli klikniemy, to stronka A&nbsp;się dowie, że to zrobiliśmy.
+Ale jeśli klikniemy, to stronka A&nbsp;się dowie, że to zrobiliśmy.
 
 I tak źle, i&nbsp;tak niedobrze. Czy jest jakieś rozwiązanie?
 
@@ -198,13 +198,13 @@ Dodano 16.02.2023 r.
 
 W internecie znajdziemy stronki działające jak pośrednicy -- pobierają zawartość większych portali, a następnie nam ją wyświetlają. Czasem dodają przy tym pewne udogodnienia.
 
-W tym wpisie było sporo o&nbsp;Twitterze, więc wspomnę o&nbsp;alternatywie dla niego. Nazywa się **Nitter** -- to nie tyle strona, co cały zestaw narzędzi pozwalających powielać u&nbsp;siebie Twittera. Najbardziej znaną opartą na nim stroną (*instancją*) jest [*nitter.net*](https://nitter.net/). 
+W tym wpisie było sporo o&nbsp;Twitterze, więc wspomnę o&nbsp;alternatywie dla niego. Nazywa się **Nitter** -- to nie tyle strona, co cały zestaw narzędzi pozwalających powielać u&nbsp;siebie Twittera. Najbardziej znaną opartą na nim stroną (*instancją*) jest [*nitter.net*](https://nitter.net/). 
 
 Kiedy z niego korzystamy, wszystkie **linki przekierowujące _t.co_ są zamienione na linki do oryginalnych źródeł**.
 
 {% include info.html
 type="Uwaga"
-text="Nie zawsze rozwiązuje to całkiem sprawę przekierowań. Czasami ludzie korzystają najpierw z własnej skracarki, zmieniając na przykład link `stronka.pl` na `bit.ly/1234`. A po wrzuceniu na Twittera ten link zmieni się w jakieś `t.co/6789`.  
+text="Nie zawsze rozwiązuje to całkiem sprawę przekierowań. Czasami ludzie korzystają najpierw z własnej skracarki, zmieniając na przykład link `stronka.pl` na `bit.ly/1234`. A po wrzuceniu na Twittera ten link zmieni się w jakieś `t.co/6789`.  
 Nitter rozwinie nam skrócenie od Twittera, ale z&nbsp;tym pierwotnym musimy poradzić sobie sami."
 %}
 

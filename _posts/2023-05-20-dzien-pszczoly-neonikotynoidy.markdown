@@ -29,8 +29,8 @@ Zapraszam do lektury!
 
 {% include info.html
 type="Uwaga"
-text="Tak jak przy innych wpisach poruszających tematy chemiczne -- nie próbuję orzekać, czy coś jest szkodliwe. To nie moja działka, niech każdy sobie wyrobi własne zdanie. Nie jestem też działaczem ani sympatykiem organizacji ekologicznych.  
-Sprawy szkodliwości będą tak naprawdę tłem do pokazania wyraźnych, udokumentowanych przykładów manipulowania opinią społeczną."
+text="Tak jak przy innych wpisach poruszających tematy chemiczne -- nie próbuję orzekać, czy coś jest szkodliwe. To nie moja działka, niech każdy sobie wyrobi własne zdanie. Nie jestem też działaczem ani sympatykiem organizacji ekologicznych.  
+Sprawy szkodliwości będą tak naprawdę tłem do pokazania wyraźnych, udokumentowanych przykładów manipulowania opinią społeczną."
 %}
 
 ### Spis treści
@@ -63,7 +63,7 @@ Sprawy szkodliwości będą tak naprawdę tłem do pokazania wyraźnych, udokume
 
 Do roślin uprawnych dobierają się różne szkodniki. Pozostawione samym sobie, mogłyby przytłoczyć albo wręcz zjeść nasze rośliny. Rolnicy na różne sposoby z&nbsp;nimi walczą. Czasem stosują środki chemiczne zwane ogólnie *pestycydami* (z&nbsp;łaciny: „szkodnikobójcze”). Wśród nich są środki owadobójcze, czyli *insektycydy*. 
 
-To wiele różnych rodzajów substancji. Wśród nich są [neonikotynoidy](https://pl.wikipedia.org/wiki/Neonikotynoidy) (dla zwięzłości będę czasem pisał NN).  
+To wiele różnych rodzajów substancji. Wśród nich są [neonikotynoidy](https://pl.wikipedia.org/wiki/Neonikotynoidy) (dla zwięzłości będę czasem pisał NN).  
 Skojarzenie z&nbsp;nikotyną, która z&nbsp;kolei może się kojarzyć z&nbsp;papierosami, jest nieprzypadkowe. To ta sama „rodzina” chemiczna.
 
 Istnieją różne ich warianty -- tiametoksam, imidakloprid, klotianidyna... Nie tak istotne dla naszej sprawy. Istotniejsze są natomiast dwie główne formy ich stosowania -- **opryski i&nbsp;zaprawa nasienna**.
@@ -81,7 +81,7 @@ Możliwa jest sytuacja, kiedy podczas automatycznego zasiewu takich nasion dojdz
 Nasiona kukurydzy pokryte zaprawą neonikotynoidową.
 
 Dojrzała dyskusja na temat NN dotyczy jednak nie tyle „wlotu w&nbsp;chmurę” i&nbsp;nagłej śmierci, co pozostałości obecnych na roślinach oraz ich pyłku.  
-Jaki jest ich efekt na dłuższą metę? Czy kumulują się w&nbsp;glebie lub w&nbsp;ciałach pszczół? Czy wchodzą w interakcje z&nbsp;innymi pestycydami? Czy osłabiają pszczoły na tyle, że coś innego może je łatwo dobić?
+Jaki jest ich efekt na dłuższą metę? Czy kumulują się w&nbsp;glebie lub w&nbsp;ciałach pszczół? Czy wchodzą w interakcje z&nbsp;innymi pestycydami? Czy osłabiają pszczoły na tyle, że coś innego może je łatwo dobić?
 
 {:.post-meta}
 Istnieje też całkiem osobna dyskusja na temat dostawania się NN do rzek oraz ich wpływu na organizmy wodne. Źródłem jest tu nie tylko rolnictwo, ale też środki przeciw pchłom, jakimi smaruje się sierść zwierząt. To jednak sprawy poza tematem tego wpisu.
@@ -90,10 +90,10 @@ Istnieje też całkiem osobna dyskusja na temat dostawania się NN do rzek oraz 
 
 {% include info.html
 type="Źródła"
-text="Sprawę neonikotynoidów w&nbsp;USA opisuje obszernie [artykuł z&nbsp;*The Intercept*](https://theintercept.com/2020/01/18/bees-insecticides-pesticides-neonicotinoids-bayer-monsanto-syngenta/) z&nbsp;2020 roku.  
+text="Sprawę neonikotynoidów w&nbsp;USA opisuje obszernie [artykuł z&nbsp;*The Intercept*](https://theintercept.com/2020/01/18/bees-insecticides-pesticides-neonicotinoids-bayer-monsanto-syngenta/) z&nbsp;2020 roku.  
 Cennym źródłem odnośnie spraw europejskich jest też dokument [„Bayer i&nbsp;pszczoły”](https://www.youtube.com/watch?v=UaNSByf4sLA), nakręcony przez Deutsche Welle i&nbsp;publicznie dostępny na YouTubie.  
 Bardziej naukowe omówienie wpływu neonikotynoidów (ale przystępnie i&nbsp;po polsku!) znajdziemy w&nbsp;[artykule](https://naukadlaprzyrody.pl/2018/08/08/pszczoly-i-neonikotynoidy-kolacja-z-arszenikiem-czy-wiele-halasu-o-nic/) *Nauki dla Przyrody*.  
-Jeśli w&nbsp;części historycznej wprost nie linkuję do jakiegoś faktu, to znaczy że pochodzi z&nbsp;któregoś z pierwszych dwóch źródeł."
+Jeśli w&nbsp;części historycznej wprost nie linkuję do jakiegoś faktu, to znaczy że pochodzi z&nbsp;któregoś z pierwszych dwóch źródeł."
 %}
 
 Pierwszym neonikotynoidem wprowadzonym na rynek był imidakloprid, w&nbsp;1994 roku. Francja zakazała jego stosowania już w&nbsp;2003 roku, wyrażając obawy wobec jego szkodliwości dla pszczół.
@@ -101,7 +101,7 @@ Pierwszym neonikotynoidem wprowadzonym na rynek był imidakloprid, w&nbsp;1994 r
 Poza tym ogólnie o&nbsp;sprawie NN nie było głośno. Aż nagle w&nbsp;roku 2006&nbsp;doszło do niepokojącego zjawiska w&nbsp;USA. W&nbsp;różnych stanach pszczoły nagle opuściły ule, pozostawiając królową i&nbsp;nieliczne robotnice. **Pszczelarze stracili średnio 30&nbsp;procent rojów**.  
 Było o&nbsp;tym na tyle głośno, że wypowiadała się nawet administracja prezydencka. Samo zjawisko określono mianem CCD (ang. *Colony Collapse Disorder*; dosłownie „syndrom zapaści kolonii pszczelich”).
 
-Kolejny pogrom -- ale łatwiejszy do wyjaśnienia -- mieliśmy w&nbsp;2008 roku w&nbsp;Niemczech, w&nbsp;Badenii-Wirtembergii. Doszło tam do masowego wymarcia pszczół, krótko po tym jak zasiano nasiona kukurydzy potraktowane zaprawą NN. Podczas zasiewu uniosła się chmura, poleciała na pola rzepaku i&nbsp;dosięgła owadów.
+Kolejny pogrom -- ale łatwiejszy do wyjaśnienia -- mieliśmy w&nbsp;2008 roku w&nbsp;Niemczech, w&nbsp;Badenii-Wirtembergii. Doszło tam do masowego wymarcia pszczół, krótko po tym jak zasiano nasiona kukurydzy potraktowane zaprawą NN. Podczas zasiewu uniosła się chmura, poleciała na pola rzepaku i&nbsp;dosięgła owadów.
 
 Bayer szybko wypłacił odszkodowania. Żeby móc je odebrać w&nbsp;trybie szybkim, rolnicy musieli zrzec się wszelkich dalszych roszczeń. Wielu wybrało tę opcję, sprawa przycichła.
 
@@ -113,13 +113,13 @@ Kierowniczka badań, wcześniej niezwiązana z&nbsp;Bayerem, została po ich prz
 
 {% include info.html
 type="Ciekawostka"
-text="Sprawa wyszła na jaw [właściwie przypadkiem](https://www.fastcompany.com/1709448/beekeeper-who-leaked-epa-documents-i-dont-think-we-can-survive-winter), kiedy pewien pszczelarz tworzył artykuł na temat klotianidyny. W&nbsp;rozmowie z&nbsp;osobą z&nbsp;EPA dowiedział się o&nbsp;wewnętrznym dokumencie, w&nbsp;którym pracownicy wyrażają swoje obawy. Poprosił o&nbsp;niego i&nbsp;po prostu go dostał.  
+text="Sprawa wyszła na jaw [właściwie przypadkiem](https://www.fastcompany.com/1709448/beekeeper-who-leaked-epa-documents-i-dont-think-we-can-survive-winter), kiedy pewien pszczelarz tworzył artykuł na temat klotianidyny. W&nbsp;rozmowie z&nbsp;osobą z&nbsp;EPA dowiedział się o&nbsp;wewnętrznym dokumencie, w&nbsp;którym pracownicy wyrażają swoje obawy. Poprosił o&nbsp;niego i&nbsp;po prostu go dostał.  
 Wbrew pogłoskom nie był to zatem żaden *wyciek dokumentów z&nbsp;EPA*. Tylko przypadek prozaiczny, kiedy każdy mógł poprosić, ale nikt na to nie wpadł."
 %}
 
 ### Unijne zakazy
 
-W tym momencie ruszyła lawina. Zaczęły pojawiać się kolejne badania dowodzące, że neonikotynoidy nie tylko przelatują na rośliny kwitnące, ale również utrzymują się w&nbsp;glebie i&nbsp;mogą łatwo przedostawać się do wód. Na ich niekorzyść orzekła [EFSA](https://pl.wikipedia.org/wiki/Europejski_Urz%C4%85d_ds._Bezpiecze%C5%84stwa_%C5%BBywno%C5%9Bci) (Europejski Urząd ds. Bezpieczeństwa Żywności).
+W tym momencie ruszyła lawina. Zaczęły pojawiać się kolejne badania dowodzące, że neonikotynoidy nie tylko przelatują na rośliny kwitnące, ale również utrzymują się w&nbsp;glebie i&nbsp;mogą łatwo przedostawać się do wód. Na ich niekorzyść orzekła [EFSA](https://pl.wikipedia.org/wiki/Europejski_Urz%C4%85d_ds._Bezpiecze%C5%84stwa_%C5%BBywno%C5%9Bci) (Europejski Urząd ds. Bezpieczeństwa Żywności).
 
 W 2013&nbsp;roku Komisja Europejska [zakazała stosowania trzech rodzajów NN](https://modernfarmer.com/2021/03/why-are-banned-bee-killer-neonicotinoids-still-being-used-in-europe/) w&nbsp;formie zaprawy na roślinach kwitnących, przyciągających pszczoły. Były to: tiametoksam od Syngenty, imidakloprid od Bayera, klotianidyna od Takedy i&nbsp;Bayera.
 
@@ -127,7 +127,7 @@ Grupy branżowe oczywiście biły na alarm, że teraz rolnicy będą musieli uż
 
 Ale Unia chyba jakoś przeżyła. Bo kilka lat później, w&nbsp;2018 roku, zakazano stosowania tej trójki na *wszystkich* roślinach, nie tylko kwitnących. Zaś w&nbsp;2020 roku wygasła zgoda na czwarty, tiakloprid.
 
-Bayer [straszył w&nbsp;oficjalnych oświadczeniach](https://www.agropolska.pl/uprawa/ochrona-roslin/bayer-oswiadczenie-w-sprawie-zakazu-stosowania-neonikotynoidow,236.html), że zakazanie tych środków oznacza powrót do starszych, groźniejszych insektycydów. I&nbsp;że opryski będą częstsze, co... zwiększy emisję dwutlenku węgla (bo traktorki będą częściej jeździć).
+Bayer [straszył w&nbsp;oficjalnych oświadczeniach](https://www.agropolska.pl/uprawa/ochrona-roslin/bayer-oswiadczenie-w-sprawie-zakazu-stosowania-neonikotynoidow,236.html), że zakazanie tych środków oznacza powrót do starszych, groźniejszych insektycydów. I&nbsp;że opryski będą częstsze, co... zwiększy emisję dwutlenku węgla (bo traktorki będą częściej jeździć).
 
 Próbowali również odwołać się od unijnego zakazu, ale Trybunał Sprawiedliwości UE w&nbsp;2021 roku [go podtrzymał](https://www.reuters.com/world/europe/eu-top-court-upholds-eu-ban-bayer-pesticides-linked-harming-bees-2021-05-06/).
 
@@ -138,9 +138,9 @@ W przedziale czasowym 2013-2019 udzielono warunkowej zgody na użycie NN równe 
 
 A w&nbsp;USA? W&nbsp;2014 roku administracja Obamy opracowała [zarys strategii ochrony pszczół](https://obamawhitehouse.archives.gov/the-press-office/2014/06/20/presidential-memorandum-creating-federal-strategy-promote-health-honey-b), wprost pisząc w&nbsp;niej o&nbsp;konieczności zbadania wpływu insektycydów.
 
-Wydawało się, że szykują się ograniczenia. Ale lobby (osoby i&nbsp;organizacje reprezentujące branżę i&nbsp;przymilające się do decyzyjnych osób) działało prężnie. Ograniczenia wprowadzono ostatecznie tylko w&nbsp;kilku stanach. A&nbsp;w większej części USA **zaprawy NN pozostały dopuszczone do użytku**.
+Wydawało się, że szykują się ograniczenia. Ale lobby (osoby i&nbsp;organizacje reprezentujące branżę i&nbsp;przymilające się do decyzyjnych osób) działało prężnie. Ograniczenia wprowadzono ostatecznie tylko w&nbsp;kilku stanach. A&nbsp;w większej części USA **zaprawy NN pozostały dopuszczone do użytku**.
 
-Jak wiele innych rzeczy. W&nbsp;Unii rozpatruje się głównie szkodliwość dla istot żywych, w&nbsp;Ameryce dla firm. Często prowadzi to do rozbieżnych decyzji.
+Jak wiele innych rzeczy. W&nbsp;Unii rozpatruje się głównie szkodliwość dla istot żywych, w&nbsp;Ameryce dla firm. Często prowadzi to do rozbieżnych decyzji.
 
 Intercept opisuje ciekawą strategię pozycjonowania w&nbsp;Google'u, jaką opracowała branża.  
 Postawili na liczne kampanie zachęcające do ochrony pszczół. I&nbsp;nie tylko dla poprawienia reputacji -- chodziło też o&nbsp;zalanie internetu artykułami, w&nbsp;których ich nazwa pojawia się w&nbsp;pozytywnym kontekście. Żeby **treści na temat szkodliwości NN zostały zepchnięte na dalsze strony**.
@@ -167,14 +167,14 @@ Pewien [artykuł](https://www.washingtonpost.com/news/wonk/wp/2016/10/10/believe
 
 Pojawiło się też ryzyko, że pszczelarstwo po prostu przestanie się opłacać. A&nbsp;wtedy zapas pszczół niewiele pomoże.
 
-O tym jednak milczy branżowa narracja. Najpierw stawiają naciąganą tezę -- że ktoś na serio myślał o&nbsp;apokalipsie -- a&nbsp;potem ją obalają. W&nbsp;ten sposób przykładowy odbiorca może poczuć ulgę. „Zwykły szum medialny, wszystko jest OK”.  
+O tym jednak milczy branżowa narracja. Najpierw stawiają naciąganą tezę -- że ktoś na serio myślał o&nbsp;apokalipsie -- a&nbsp;potem ją obalają. W&nbsp;ten sposób przykładowy odbiorca może poczuć ulgę. „Zwykły szum medialny, wszystko jest OK”.  
 I umyka gdzieś fakt, że coś się jednak zmieniło na niekorzyść.
 
 ### „Liczebność pszczół ma się dobrze”
 
 To rzecz ściśle powiązana z&nbsp;poprzednią, ale sugerująca coś bardziej optymistycznego. Tak głosi m.in. Bayer w&nbsp;oficjalnych komunikatach -- jak [ten z&nbsp;2016 roku](https://www.croplife.com/crop-inputs/bayer-5-reasons-we-disagree-with-maryland-neonic-ban/), kiedy krytykują zakaz stosowania NN na przydomowych trawnikach, wprowadzony w&nbsp;stanie Maryland (punkt 5):
 
-> Przepisy opierają się na założeniu, że populacja pszczół maleje, a&nbsp;przyczyną są neonikotynoidy. W&nbsp;rzeczywistości populacja pszczół w&nbsp;USA stabilnie rosła przez ostatnie dwadzieścia lat, co ściśle pokrywa się z upowszechnieniem neonikotynoidów.
+> Przepisy opierają się na założeniu, że populacja pszczół maleje, a&nbsp;przyczyną są neonikotynoidy. W&nbsp;rzeczywistości populacja pszczół w&nbsp;USA stabilnie rosła przez ostatnie dwadzieścia lat, co ściśle pokrywa się z upowszechnieniem neonikotynoidów.
 
 {:.figcaption}
 Tłumaczenie moje.
@@ -211,13 +211,13 @@ Ale koncerny chemiczne nie prowadzą sadów ani pasiek, im to obojętne. W&nbsp;
 
 ### „Wszystkiemu winna warroza”
 
-Liczebność liczebnością, ale warto jednak jakoś wyjaśnić straty. Branża znalazła idealnego kozła ofiarnego -- gatunek inwazyjny roztoczy z&nbsp;Azji, o&nbsp;nazwie łacińskiej *varroa destructor* oraz nazwie polskiej *dręcz pszczeli*.
+Liczebność liczebnością, ale warto jednak jakoś wyjaśnić straty. Branża znalazła idealnego kozła ofiarnego -- gatunek inwazyjny roztoczy z&nbsp;Azji, o&nbsp;nazwie łacińskiej *varroa destructor* oraz nazwie polskiej *dręcz pszczeli*.
 
 {:.post-meta .bigspace-after}
 W tej części oprę się na [świetnym filmiku kanału Buczacza](https://www.youtube.com/watch?v=OCb2OjquRuI).
 
 Obie nazwy brzmią groźnie, zresztą słusznie. Te pajęczaki to zmora pszczelarzy.  
-Przyczepiają się do pszczół i&nbsp;wysysają z&nbsp;nich hemolimfę oraz tkankę odpowiadającą za odporność. Po dostaniu się do ula robią to samo z&nbsp;czerwiami (pszczelimi niemowlakami), a&nbsp;do tego składają w&nbsp;ich komorach własne jaja.  
+Przyczepiają się do pszczół i&nbsp;wysysają z&nbsp;nich hemolimfę oraz tkankę odpowiadającą za odporność. Po dostaniu się do ula robią to samo z&nbsp;czerwiami (pszczelimi niemowlakami), a&nbsp;do tego składają w&nbsp;ich komorach własne jaja.  
 Ich działania prowadzą do *warrozy* -- osłabienia pszczół, często prowadzącego do ich śmierci.
 
 Co ciekawe, **dzikie pszczoły radzą sobie z&nbsp;dręczami -- potrafią je z&nbsp;siebie zrzucać**. Do tego co pewien czas odpieczętowują komory z&nbsp;młodymi, przeszkadzając dręczom w&nbsp;rozmnażaniu.
@@ -225,11 +225,11 @@ Co ciekawe, **dzikie pszczoły radzą sobie z&nbsp;dręczami -- potrafią je z&n
 Pszczoły hodowlane zwykle tak nie potrafią. Dlaczego? Bo namnożono je pod kątem cech korzystnych z&nbsp;gospodarczego punktu widzenia. A&nbsp;w naturze przeżywały te, które umiały sobie radzić z&nbsp;zagrożeniami. Dwie ścieżki ewolucji.  
 Hodowlane są trochę jak pracownicy umysłowi ze strzeżonych osiedli. Zaś dzikie -- jak zahartowani poszukiwacze przygód.
 
-Ale nawet te mniej zaradne miodne kiedyś jakoś żyły. Pojawiły się hipotezy, że to NN je osłabiają, przez co dręcz szkodzi im bardziej niż zwykle.  
-A wielkie firmy próbowały to zakrzyczeć. Ogłosiły dręcza wielkim wrogiem, do tego stopnia że Bayer postawił na swoim kampusie jego pomnik (źródło: Intercept). „Tak, tak, to te podłe roztocza!”. Narracja poszła w&nbsp;świat, popularyzatorzy zaczęli podawać ją dalej.
+Ale nawet te mniej zaradne miodne kiedyś jakoś żyły. Pojawiły się hipotezy, że to NN je osłabiają, przez co dręcz szkodzi im bardziej niż zwykle.  
+A wielkie firmy próbowały to zakrzyczeć. Ogłosiły dręcza wielkim wrogiem, do tego stopnia że Bayer postawił na swoim kampusie jego pomnik (źródło: Intercept). „Tak, tak, to te podłe roztocza!”. Narracja poszła w&nbsp;świat, popularyzatorzy zaczęli podawać ją dalej.
 
-A skoro Bayer już miał kozła ofiarnego, to pozostało jeszcze go zmonetyzować. Dlatego stworzyli **serię produktów chemicznych do walki z&nbsp;dręczami**.  
-Przykładem są [plastry](https://www.youtube.com/watch?v=6Y2t81Y8I2Q) nasączone substancją roztoczobójczą, które wsuwa się do ula.  
+A skoro Bayer już miał kozła ofiarnego, to pozostało jeszcze go zmonetyzować. Dlatego stworzyli **serię produktów chemicznych do walki z&nbsp;dręczami**.  
+Przykładem są [plastry](https://www.youtube.com/watch?v=6Y2t81Y8I2Q) nasączone substancją roztoczobójczą, które wsuwa się do ula.  
 Albo [nakładka na wejście](https://www.youtube.com/watch?v=jfIT5vi9buc), która przenosi tę substancję na pszczoły, gdy się przeciskają przez otwory.
 
 {:.bigspace}
@@ -246,7 +246,7 @@ W różnych krajach Europy przez dwa lata trwało badanie wykonywane przez nieza
 
 Dowód na to, że jednak istnieje obiektywizm? Że w&nbsp;zdrowym przypadku pieniądze dają badanie, ale nie wyniki?
 
-Możliwe, ale jest też ciemna strona. Obecność Syngenty oznaczała, że badacze dzielili się z&nbsp;nimi surowymi danymi, również odrzuconymi. Kiedy wnioski okazały się niekorzystne, to **ktoś z&nbsp;Syngenty wziął te nieopublikowane dane i&nbsp;przekazał zaufanej stronce**. A&nbsp;ta ulepiła z&nbsp;nich historię podważającą wyniki badania. 
+Możliwe, ale jest też ciemna strona. Obecność Syngenty oznaczała, że badacze dzielili się z&nbsp;nimi surowymi danymi, również odrzuconymi. Kiedy wnioski okazały się niekorzystne, to **ktoś z&nbsp;Syngenty wziął te nieopublikowane dane i&nbsp;przekazał zaufanej stronce**. A&nbsp;ta ulepiła z&nbsp;nich historię podważającą wyniki badania. 
 
 Stronką była Genetic Literacy Project, a&nbsp;autorem [historii](https://geneticliteracyproject.org/2017/07/03/backlash-flawed-landmark-european-neonicotinoid-study-inconclusive-data-suggest-health-benefits-harm/) -- jej właściciel, Jon Entine (jeszcze do niego wrócimy).
 
@@ -265,7 +265,7 @@ Analogia: Entine wszedł do fabryki, ominął dział gotowych produktów, otworz
 
 To akurat mantra powtarzana przez całą branżę, znacznie ogólniejsza niż kwestia samych NN. Pojawia się praktycznie za każdym razem, kiedy próbuje się ograniczyć stosowanie ich produktów.
 
-Jeśli chcemy zobaczyć, jak popularne jest to hasło, proponuję sprawdzić wspomnianą korpolubną stronkę. I&nbsp;na przykład wpisać w&nbsp;wyszukiwarkę (może być nawet wścibski Wujek Google):
+Jeśli chcemy zobaczyć, jak popularne jest to hasło, proponuję sprawdzić wspomnianą korpolubną stronkę. I&nbsp;na przykład wpisać w&nbsp;wyszukiwarkę (może być nawet wścibski Wujek Google):
 
 <div class="black-bg mono bigspace-before">
 "more toxic pesticides" site:geneticliteracyproject.org
@@ -295,7 +295,7 @@ Entine, oprócz tekstów na łamach GLP, napisał również kilka artykułów o&
 
 * [HuffPost](https://www.huffpost.com/entry/post_b_8913974), z&nbsp;2016 roku.
 
-  Ten artykuł z&nbsp;kolei wychodzi poza pszczołę miodną i kwestionuje spadek populacji dzikich. Entine twierdzi, że te populacje trudno wiarygodnie policzyć, a&nbsp;zatem nie ma co mówić o&nbsp;spadku. A&nbsp;potem... przytacza statystyki o&nbsp;większej liczbie uli.
+  Ten artykuł z&nbsp;kolei wychodzi poza pszczołę miodną i kwestionuje spadek populacji dzikich. Entine twierdzi, że te populacje trudno wiarygodnie policzyć, a&nbsp;zatem nie ma co mówić o&nbsp;spadku. A&nbsp;potem... przytacza statystyki o&nbsp;większej liczbie uli.
 
 * [Slate](https://slate.com/technology/2017/06/the-data-do-not-support-the-idea-that-neonics-hurt-bees.html), z&nbsp;czerwca 2017&nbsp;roku. Zaraz do niego wrócimy.
 * [Quillette](https://quillette.com/2021/07/25/the-insect-apocalypse-that-never-was/) -- nowszy, z&nbsp;2021 roku.
@@ -316,20 +316,20 @@ Po ich zakończeniu napisała również artykuł dla samego GLP oraz [liczne art
 
 30 czerwca 2017&nbsp;roku ukazał się [artykuł Henry'ego Millera](https://web.archive.org/web/20170630235421/https://www.forbes.com/sites/henrymiller/2017/06/30/neonic-study-makes-a-splash-in-the-headlines-but-trashes-science/#6b6d51103f5c) w&nbsp;Forbesie.  Pisze w&nbsp;nim, że europejski zakaz jest oparty na niedbałych badaniach, nadmiernych dawkach. A&nbsp;populacja pszczół przecież urosła.
 
-Linkuję do wersji z&nbsp;*Archive.org* -- bo Forbes usunął oryginalny artykuł, jak i&nbsp;resztę twórczości tego człowieka. Po tym jak maile [ujawniły](https://usrtk.org/industry-pr/henry-i-miller/), że potajemnie przyjmował treści do publikacji bezpośrednio od branży.
+Linkuję do wersji z&nbsp;*Archive.org* -- bo Forbes usunął oryginalny artykuł, jak i&nbsp;resztę twórczości tego człowieka. Po tym jak maile [ujawniły](https://usrtk.org/industry-pr/henry-i-miller/), że potajemnie przyjmował treści do publikacji bezpośrednio od branży.
 
 Metody sympatyków korporolnictwa często polegają na tworzeniu artykułów w&nbsp;miejscach publicznych albo tam, gdzie mają dojścia. Są na tyle stonowane, na ile wymagają tego regulaminy gazet. Nie ujawniają swoich powiązań. I&nbsp;cytują nawzajem swoje artykuły, używając wyłącznie nazw gazety. **Tworząc mylne wrażenie, że znane źródła mówią z&nbsp;nimi jednym głosem**.
 
 ### David Zaruk (Risk Monger)
 
-David Zaruk również jest [powiązany z&nbsp;branżą](/miniposts/biotech-pr-strony#satyryk-risk-monger){:.internal} -- niegdyś pracował jako oficjalny (zarejestrowany) lobbysta, a&nbsp;później był prezesem jednej z&nbsp;firm z&nbsp;parasola PR-owego.
+David Zaruk również jest [powiązany z&nbsp;branżą](/miniposts/biotech-pr-strony#satyryk-risk-monger){:.internal} -- niegdyś pracował jako oficjalny (zarejestrowany) lobbysta, a&nbsp;później był prezesem jednej z&nbsp;firm z&nbsp;parasola PR-owego.
 
 O ile GLP stwarza pozory źródła naukowego, o&nbsp;tyle RM stylizuje się na autentycznego i&nbsp;bezkompromisowego. „Risk Monger mówi jak jest”. „David Zaruk masakruje nieuków”. Być może takie coś trafia do młodych, zbuntowanych naukowców? Ja tam nie wiem.
 
 {:.post-meta .bigspace-after}
 Dopuszczam możliwość, że RM czasem punktuje prawdziwe afery związane z&nbsp;aktywizmem ekologicznym. Ale są w&nbsp;to wmieszane również próby dyskredytowania na siłę krytyków branży.
 
-W każdym razie stworzył kilka wpisów, wymierzonych głównie w&nbsp;samą Unię oraz poszczególne grupy opracowujące raporty niekorzystne dla NN:
+W każdym razie stworzył kilka wpisów, wymierzonych głównie w&nbsp;samą Unię oraz poszczególne grupy opracowujące raporty niekorzystne dla NN:
 
 * [*Requiem for Neonicotinoids*](https://risk-monger.com/2018/05/01/requiem-for-neonicotinoids-a-failure-in-european-leadership/) z&nbsp;marca 2018&nbsp;roku.
 
@@ -344,7 +344,7 @@ W każdym razie stworzył kilka wpisów, wymierzonych głównie w&nbsp;samą Un
 
 {% include info.html
 type="Uwaga"
-text="Od teraz będą głównie strony, które (według mojej wiedzy) nie mają potwierdzonych powiązań z&nbsp;branżą. Zatem **żadnych powiązań nie sugeruję**. Niektórzy mogli uwierzyć w narrację, niektórzy mogą mieć poglądy zbieżne z&nbsp;interesami korporolnictwa.  
+text="Od teraz będą głównie strony, które (według mojej wiedzy) nie mają potwierdzonych powiązań z&nbsp;branżą. Zatem **żadnych powiązań nie sugeruję**. Niektórzy mogli uwierzyć w narrację, niektórzy mogą mieć poglądy zbieżne z&nbsp;interesami korporolnictwa.  
 Jest natomiast niezaprzeczalnym faktem, że konkretne osoby linkowały do konkretnych stron. Będę to ilustrował przykładami. Ujawnienie tych faktów zwiększa przejrzystość wokół spraw rolnictwa, więc leży w&nbsp;interesie społecznym."
 %}
 
@@ -358,12 +358,12 @@ text="*Farm Babe* oznaczałoby dosłownie „laska z&nbsp;farmy”. W&nbsp;USA m
 Pierwowzorem, wedle mojej wiedzy, jest od 2011&nbsp;roku *Food Babe*, besztająca koncerny i&nbsp;niezdrową żywność (i, nie ukrywajmy, promująca własne wyroby). Potem do grona dołączyły inne postacie, często trzymające stronę korpo: *Science Babe*, *Chow Babe*, *SciBabe*, *Food Science Babe*, *Food Hunk*..."
 %}
 
-Jeśli chodzi o&nbsp;Farm Babe i&nbsp;neonikotynoidy, warto wpisać sobie `neonics` w&nbsp;wyszukiwarkę na jej [profilu facebookowym](https://www.facebook.com/IowaFarmBabe) (na komputerze: ikona trzech kropek po prawej, opcja `Szukaj`), żeby zobaczyć różne posty.
+Jeśli chodzi o&nbsp;Farm Babe i&nbsp;neonikotynoidy, warto wpisać sobie `neonics` w&nbsp;wyszukiwarkę na jej [profilu facebookowym](https://www.facebook.com/IowaFarmBabe) (na komputerze: ikona trzech kropek po prawej, opcja `Szukaj`), żeby zobaczyć różne posty.
 
 {:.post-meta .bigspace-after}
 Wyszukiwarka wyłapuje rzeczy również z&nbsp;komentarzy, nie tylko z&nbsp;treści posta; dlatego nie wszystko będzie dla nas interesujące.
 
-* [2 października 2017&nbsp;roku](https://www.facebook.com/IowaFarmBabe/posts/pfbid02d1Motvu8Y4yDzhxu3X78J8721qnQDdmUMg6QcpskFZwKfsnHThRG3uNA3Viv1N6sl) udostępniła artykuł Entine'a ze Slate'a.
+* [2 października 2017&nbsp;roku](https://www.facebook.com/IowaFarmBabe/posts/pfbid02d1Motvu8Y4yDzhxu3X78J8721qnQDdmUMg6QcpskFZwKfsnHThRG3uNA3Viv1N6sl) udostępniła artykuł Entine'a ze Slate'a.
 * [20 marca 2018&nbsp;roku](https://www.facebook.com/IowaFarmBabe/posts/pfbid0GFY8i9MaZ2Jo89yxyzExsnF5fZisyTmexWDoEC3ev4h1xGLc9kbH5g8rXWFb4dJEl) udostępniła filmik strony Freethink, pokazujący że nie ma wymierania pszczół, bo liczba rośnie. Oczywiście wykres tylko dla miodnych.
 * [11 maja 2020&nbsp;roku](https://www.facebook.com/IowaFarmBabe/posts/pfbid0K8C6sR5fF4e8kYxPoXFtmMtoD6vdZwcu4jdVLNDX23S7dJoi9fvZruf4qJrVjupUl) pisze ze smutkiem o&nbsp;wpisaniu amerykańskiego gatunku motyli na listę gatunków zagrożonych... Ale bez obaw! Korzystając z&nbsp;apki od Bayer Crop Science, można mapować populacje owadów, to na pewno im pomoże!
 
@@ -376,7 +376,7 @@ To również stronka popularyzatorska, ale tym razem naukowa, a&nbsp;nie rolnicz
 * [w 2015&nbsp;roku](https://thoughtscapism.com/2015/10/14/if-you-care-about-bees-look-past-neonicotinoids/) wpis bagatelizujący wpływ NN na tle innych czynników.
 * [W 2017&nbsp;roku](https://thoughtscapism.com/2017/07/02/new-study-finds-neonicotinoids-may-have-harmful-beneficial-or-no-effects-on-bees/) twierdzący że badanie CEH nie daje jednoznacznych wyników.
 
-Ma u&nbsp;mnie dużego plusa za to, że wytyka manipulację z podawaniem suchej liczby uli, a&nbsp;nawet zarzuca to samemu GLP. Ale w&nbsp;paru innych kwestiach jednak powiela narrację.
+Ma u&nbsp;mnie dużego plusa za to, że wytyka manipulację z podawaniem suchej liczby uli, a&nbsp;nawet zarzuca to samemu GLP. Ale w&nbsp;paru innych kwestiach jednak powiela narrację.
 
 W pierwszym artykule znajdziemy informację o&nbsp;tym, że wycofanie NN doprowadziłoby do ich zastąpienia przez gorsze pestycydy. Odniesienie do danych Croplife, czyli już całkiem oficjalnej organizacji lobbystycznej. *Poziom 1* według [maili](https://usrtk.org/wp-content/uploads/2017/08/72-Document-Details-Monsantos-Strategy-Regarding-IARC.pdf).  
 Jest również infografika, na&nbsp;której wpływ neonikotynoidów został zepchnięty na sam dół:
@@ -410,7 +410,7 @@ text="Varroa destructor is the biggest bee killer around the world, pesticides a
 
 W naszym kraju nie było pszczelej apokalipsy, a&nbsp;Polska w&nbsp;kwestii NN idzie za Unią. Czyli zakazy stosowania zapraw dotyczyły również nas. Ale w&nbsp;szczególnych przypadkach minister rolnictwa mógł je uchylić.
 
-I tak też zdarzyło się w roku 2017. 19&nbsp;czerwca powołano nowego ministra. Krótko potem, 9&nbsp;lipca, **wydał warunkową zgodę na stosowanie zapraw neonikotynoidowych**. Rozgorzała ostra dyskusja.
+I tak też zdarzyło się w roku 2017. 19&nbsp;czerwca powołano nowego ministra. Krótko potem, 9&nbsp;lipca, **wydał warunkową zgodę na stosowanie zapraw neonikotynoidowych**. Rozgorzała ostra dyskusja.
 
 ### Artykuły w&nbsp;„Polityce”
 
@@ -431,7 +431,7 @@ Co ciekawe, w&nbsp;tej samej „Polityce”, tylko że rok wcześniej, znajdziem
 
 ### To Tylko Teoria
 
-Z autorem tego bloga czasem się zgadzam, czasem nie. Cenię na przykład to, że krytykuje cyfrową inwigilację i&nbsp;wpływ wielkich platform na społeczeństwo. Albo demaskuje popularnych szarlatanów. Mogę się też zgodzić z opisem najnowszego wpisu, „Prawda nie obroni się sama”.
+Z autorem tego bloga czasem się zgadzam, czasem nie. Cenię na przykład to, że krytykuje cyfrową inwigilację i&nbsp;wpływ wielkich platform na społeczeństwo. Albo demaskuje popularnych szarlatanów. Mogę się też zgodzić z opisem najnowszego wpisu, „Prawda nie obroni się sama”.
 
 {:.figure .bigspace}
 <img src="/assets/posts/chemia/neonikotynoidy/totylkoteoria-prawda.jpg" alt="Udostępniony post z&nbsp;bloga To Tylko Teoria, z&nbsp;podpisem mówiącym że prawda nie obroni się sama"/>
@@ -444,9 +444,9 @@ Ale jeśli chodzi o&nbsp;neonikotynoidy... spójrzmy na wpisy z&nbsp;jego bloga 
 
 Autor udostępnił te same wpisy na innych stronach, takich jak Facebook, Twitter, Wykop.
 
-Napisał również artykuł o&nbsp;NN w&nbsp;gazecie Newsweek, na temat [ich nieszkodliwości dla człowieka](http://www.newsweek.pl/polska/neonikotynoidy-czy-te-pestycydy-sa-szkodliwe-dla-czlowieka-,artykuly,430403,1.html) (23&nbsp;lipca 2018&nbsp;roku). Wydaje się to stawianiem chochoła, bo debata kręci się raczej wokół pszczół, nie ludzi.
+Napisał również artykuł o&nbsp;NN w&nbsp;gazecie Newsweek, na temat [ich nieszkodliwości dla człowieka](http://www.newsweek.pl/polska/neonikotynoidy-czy-te-pestycydy-sa-szkodliwe-dla-czlowieka-,artykuly,430403,1.html) (23&nbsp;lipca 2018&nbsp;roku). Wydaje się to stawianiem chochoła, bo debata kręci się raczej wokół pszczół, nie ludzi.
 
-O naszych owadach jest tymczasem tylko jeden akapit (*rolnik opryskał za dnia, pszczoły zmarły. Ale oburzenie niesłuszne, bo gdyby pryskał w&nbsp;nocy, to by żyły*). Ani słowa o&nbsp;tym, że cała afera kręci się wokół zaprawy, która jest czymś trwalszym.
+O naszych owadach jest tymczasem tylko jeden akapit (*rolnik opryskał za dnia, pszczoły zmarły. Ale oburzenie niesłuszne, bo gdyby pryskał w&nbsp;nocy, to by żyły*). Ani słowa o&nbsp;tym, że cała afera kręci się wokół zaprawy, która jest czymś trwalszym.
 
 Skutki zakazania NN? Oczywiście powrót gorszych rzeczy: 
 
@@ -458,7 +458,7 @@ Skutki zakazania NN? Oczywiście powrót gorszych rzeczy:
 Pisze też, że decyzja europejskiej agencji EFSA o&nbsp;zakazie jest krytykowana. Ale źródłem tego stwierdzenia jest strona AgriBusiness Global -- której sama nazwa wiele sugeruje.  
 Linkuje ona do raportu European Crop Protection Association, czyli jawnej grupy interesów (Crop Protection oznacza środki ochrony roślin, czyli pestycydy; nic więcej).
 
-Pod wpisem numer jeden znajdziemy informację -- napisaną niewyróżniającą się czcionką -- że powstał „we współpracy z&nbsp;Polskim Stowarzyszeniem Ochrony Roślin” (PSOR). A&nbsp;cóż to takiego? 
+Pod wpisem numer jeden znajdziemy informację -- napisaną niewyróżniającą się czcionką -- że powstał „we współpracy z&nbsp;Polskim Stowarzyszeniem Ochrony Roślin” (PSOR). A&nbsp;cóż to takiego? 
 
 ### PSOR
 
@@ -482,7 +482,7 @@ Sama kampania wokół pszczół była tylko jedną z&nbsp;kilku, jakie prowadzil
 
 ### Węglowy Szowinista
 
-Krótko po pierwszym wpisie To Tylko Teorii pojawił się inny, również trzymający stronę NN. Opublikował go [15 lipca 2018&nbsp;roku](https://weglowy.blogspot.com/2018/07/prawda-o-wymieraniu-pszczo-i.html) autor bloga Węglowy Szowinista.
+Krótko po pierwszym wpisie To Tylko Teorii pojawił się inny, również trzymający stronę NN. Opublikował go [15 lipca 2018&nbsp;roku](https://weglowy.blogspot.com/2018/07/prawda-o-wymieraniu-pszczo-i.html) autor bloga Węglowy Szowinista.
 
 > Liczebność pszczół w&nbsp;USA jest najwyższa od 20&nbsp;lat. Aha - warto nadmienić, że większość tej notki traktuje o&nbsp;hodowlanych pszczołach (...). Nie oznacza to, że CCD nie dotyka dziko żyjących pszczół.
 
@@ -491,7 +491,7 @@ Mamy tu uczciwe przyznanie, że są dwa rodzaje owadów, ale potem już nic wię
 Te słowa są jednocześnie bezpośrednim linkiem do jakiegoś obrazka ze stronki Agprofessional. Link już niestety wygasł, ale wciąż widać nazwę pliku. To `bees-sygenta4.jpg` \[sic\], co sugeruje jakiś materiał od Syngenty.
 
 {:.post-meta .bigspace-after}
-**Aktualizacja z czerwca 2023**: znalazłem [zarchiwizowaną wersję artykułu](https://web.archive.org/web/20171213120656/https://www.agprofessional.com/article/bee-population-rising-around-world). Okazuje się, że Syngenta jest jego oficjalnym autorem. Zaś obrazki to wykresy liczebności, identyczne jak te na stronce GLP.
+**Aktualizacja z czerwca 2023**: znalazłem [zarchiwizowaną wersję artykułu](https://web.archive.org/web/20171213120656/https://www.agprofessional.com/article/bee-population-rising-around-world). Okazuje się, że Syngenta jest jego oficjalnym autorem. Zaś obrazki to wykresy liczebności, identyczne jak te na stronce GLP.
 
 Równie ciekawe są inne źródła spod wpisu Węglowego. Znajdziemy tam nieco znajomych nazw:
 
@@ -520,7 +520,7 @@ Ten drugi film przeszedł jednak bez większego echa -- zdobył ponad 38&nbsp;ty
 
 O sprawie wypowiedziało się parę profili, które nie prowadzą własnych, zewnętrznych stron, i&nbsp;komunikują się raczej krótkimi notkami. 
 
-Przykładowo profil „Uniwersytety dla nauki, pajace do cyrku” (skądinąd fajnie punktujący szarlatanów) opublikował 11&nbsp;lipca 2018&nbsp;roku notkę będącą głównie krytyką faktu, że skrytykowano ministra za nadzwyczajne zezwolenie.
+Przykładowo profil „Uniwersytety dla nauki, pajace do cyrku” (skądinąd fajnie punktujący szarlatanów) opublikował 11&nbsp;lipca 2018&nbsp;roku notkę będącą głównie krytyką faktu, że skrytykowano ministra za nadzwyczajne zezwolenie.
 
 W poście linkują do *requiem* Risk Mongera. W&nbsp;komentarzu pod spodem dodali też link do artykułu Entine'a z&nbsp;gazety *Slate*.  
 Autor Węglowego Szowinisty śmieszkuje w&nbsp;komentarzach, że głupio udostępniać ich posta, bo bardziej wyróżnia się wtedy nagłówek aktywistów niż link do Risk Mongera.
@@ -560,9 +560,9 @@ Tak to wyglądają sprawy wokół neonikotynoidów. Widzimy, jak narracja płyni
 
 Opinia publiczna się waha. A&nbsp;za kulisami, na poziomie politycznym, stale trwają próby przywrócenia zapraw nasiennych. Firmy chcą obalić zakazy Unii i&nbsp;zrobić z&nbsp;niej drugie USA. A&nbsp;różne profile wrzucają uśmiechnięte pszczoły i&nbsp;szepczą, że nic się nie dzieje.
 
-Nie planuję orzekać, czy neonikotynoidy na pewno są szkodliwe. Z&nbsp;jakimi poglądami ktoś odwiedził tę stronę, z&nbsp;takimi może wyjść, nie będę się gniewał :wink:
+Nie planuję orzekać, czy neonikotynoidy na pewno są szkodliwe. Z&nbsp;jakimi poglądami ktoś odwiedził tę stronę, z&nbsp;takimi może wyjść, nie będę się gniewał :wink:
 
-Mam natomiast nadzieję, że dadzą niektórym do myślenia przykłady międzynarodowych manipulacji i&nbsp;lobbingu. Gdyby coś było nie tak... To czy sieć organizacji tak zwodniczych, tak uciekających od transparentności, kiedykolwiek by nam o&nbsp;tym powiedziała?
+Mam natomiast nadzieję, że dadzą niektórym do myślenia przykłady międzynarodowych manipulacji i&nbsp;lobbingu. Gdyby coś było nie tak... To czy sieć organizacji tak zwodniczych, tak uciekających od transparentności, kiedykolwiek by nam o&nbsp;tym powiedziała?
 
 Ale dobra strona jest taka, że ich lobbyści i&nbsp;sympatycy to nie pszczoły. Jeśli raz się ten cały kram zdemaskuje, wyjaśni i&nbsp;zneutralizuje, to nie będą w&nbsp;stanie szybko go odtworzyć.  
 A my stopniowo się uodparniamy. Trochę jak dzikie pszczoły, które potrafią strząsnąć z&nbsp;siebie dręcza. W&nbsp;czasie gdy potulne miodne są wysysane w&nbsp;najlepsze.

@@ -34,7 +34,7 @@ A jednak jest! Jeśli pobierzecie obrazek (opcją `Zapisz obraz` albo <a href="/
 Proces tworzenia obrazka wyglądał tak:
 
 1. Stworzyłem w&nbsp;Gimpie mały obrazek z&nbsp;tekstem „Test”;
-2. Wszedłem w&nbsp;opcję `Kolory > Jasność i kontrast`, **zmieniłem wartość na -126 (najniższa to -127)**;
+2. Wszedłem w&nbsp;opcję `Kolory > Jasność i kontrast`, **zmieniłem wartość na -126 (najniższa to -127)**;
 3. Zapisałem plik jako JPG z&nbsp;jakością 90/100.
 
 Tak to wyglądało:
@@ -135,17 +135,17 @@ Wtedy po prostu klikamy PDF-a prawym przyciskiem, otwieramy w&nbsp;GIMP-ie. A&nb
 {% include details.html summary="A jeśli nie boimy się konsoli?" %}
 
 {:.bigspace-before}
-Wtedy warto zainstalować Popplera – zestaw programów konsolowych do pracy z plikami PDF. Ma wersje na systemy [Linux](https://poppler.freedesktop.org/), [MacOS](https://macappstore.org/poppler/) oraz [Windows](https://web.archive.org/web/20230419031309/https://blog.alivate.com.au/poppler-windows/).
+Wtedy warto zainstalować Popplera – zestaw programów konsolowych do pracy z plikami PDF. Ma wersje na systemy [Linux](https://poppler.freedesktop.org/), [MacOS](https://macappstore.org/poppler/) oraz [Windows](https://web.archive.org/web/20230419031309/https://blog.alivate.com.au/poppler-windows/).
 
 {:.post-meta .bigspace-after}
 Strona opisująca instalację na Windowsie już chyba wygasła, więc zastąpiłem link innym, prowadzącym do sprawdzonego archiwum.
 
-Jeśli mamy przykładowo PDF-a o nazwie `jakis.pdf`, to otwieramy konsolę w tym samym folderze co on i&nbsp;uruchamiamy przez nią taką komendę (wpisując tekst, a potem wciskając klawisz `Enter`):
+Jeśli mamy przykładowo PDF-a o nazwie `jakis.pdf`, to otwieramy konsolę w tym samym folderze co on i&nbsp;uruchamiamy przez nią taką komendę (wpisując tekst, a potem wciskając klawisz `Enter`):
 
 <div class="black-bg mono">pdftocairo -jpeg jakis.pdf</div>
 
 {:.figcaption .nospace}
-Gdybyśmy kopiowali stąd tekst do wklejenia w konsolę na Linuksie, to warto pamiętać, że robi się to skrótem `Ctrl+Shift+V`.
+Gdybyśmy kopiowali stąd tekst do wklejenia w konsolę na Linuksie, to warto pamiętać, że robi się to skrótem `Ctrl+Shift+V`.
 
 {% include details-end.html %}
 
@@ -170,11 +170,11 @@ Do nałożenia tekstu możemy użyć komercyjnego programu [ABBYY FineReader](ht
 {% include details.html summary="A jeśli nie boimy się konsoli?" %}
 
 {:.bigspace-before}
-Można zamiast płatnego programu zainstalować darmowego Tesseracta (tutaj [nieformalne instrukcje](https://www.pyimagesearch.com/2017/07/03/installing-tesseract-for-ocr/), a tutaj [Tesseract na Windowsa](https://github.com/UB-Mannheim/tesseract/wiki)).
+Można zamiast płatnego programu zainstalować darmowego Tesseracta (tutaj [nieformalne instrukcje](https://www.pyimagesearch.com/2017/07/03/installing-tesseract-for-ocr/), a tutaj [Tesseract na Windowsa](https://github.com/UB-Mannheim/tesseract/wiki)).
 
 Tesseract czyta tylko obrazki, więc **najlepiej go użyć zaraz po kroku&nbsp;1**, pomijając krok&nbsp;2 (łączenie obrazków w&nbsp;PDF-a).
 
-W tym celu w tym samym folderze musimy stworzyć plik tekstowy (powiedzmy `obrazki.txt`), w którym – linijka pod linijką – będą wymienione pliki z obrazkami, które chcemy połączyć w PDF-a.  
+W tym celu w tym samym folderze musimy stworzyć plik tekstowy (powiedzmy `obrazki.txt`), w którym – linijka pod linijką – będą wymienione pliki z obrazkami, które chcemy połączyć w PDF-a.  
 Jeśli obrazków jest tylko kilka, możemy nawet stworzyć ten plik ręcznie. Ale szybciej będzie konsolką. Na Windowsie wpisujemy w nią:
 
 <div class="black-bg mono">dir > obrazki.txt</div>

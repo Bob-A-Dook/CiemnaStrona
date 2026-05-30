@@ -11,7 +11,7 @@ image:
   path: /assets/posts/inwigilacja/historia-przegladania/historia-przegladania-baner.jpg
   width: 1200
   height: 700
-  alt: "Obraz pokazujący dolną komorę klepsydry częściowo zasłoniętą napisem Top Secret. Wysypują się z niej dwa strumienie piasku, niebieski i fioletowy, nad którymi widać linki do różnych stron w zbliżonych kolorach. W tle widać liczne patrzące oczy"
+  alt: "Obraz pokazujący dolną komorę klepsydry częściowo zasłoniętą napisem Top Secret. Wysypują się z niej dwa strumienie piasku, niebieski i fioletowy, nad którymi widać linki do różnych stron w zbliżonych kolorach. W tle widać liczne patrzące oczy"
 ---
 
 Niejedna osoba utonęła w&nbsp;odmętach internetu. Zaczęła przechodzić ze strony na stronę, trafiając w&nbsp;dziwne miejsca. Gdy potem, niczym w&nbsp;„Kac Vegas”, chce odtworzyć przebieg zdarzeń, może zawsze spojrzeć do swojej historii przeglądania.
@@ -19,7 +19,7 @@ Niejedna osoba utonęła w&nbsp;odmętach internetu. Zaczęła przechodzić ze s
 To lista wszystkich odwiedzonych przez nas stron internetowych, wraz z&nbsp;dokładną datą i&nbsp;godziną odwiedzin. Sięga daty ostatniego czyszczenia. A&nbsp;że niektórzy w&nbsp;ogóle nie czyszczą historii... :wink:
 
 Internet jest wszechobecny, więc historia przeglądania bywa częściową historią naszego życia!  
-Ukazuje zmiany zainteresowań, szukanie prezentów, hobby. Wyszukiwania, które trudno by było wytłumaczyć policji (cóż... wciągnęła nas powieść kryminalna i&nbsp;chcieliśmy zweryfikować fakty).
+Ukazuje zmiany zainteresowań, szukanie prezentów, hobby. Wyszukiwania, które trudno by było wytłumaczyć policji (cóż... wciągnęła nas powieść kryminalna i&nbsp;chcieliśmy zweryfikować fakty).
 
 Co w&nbsp;takim razie powiecie na to, że **losowe strony internetowe są w&nbsp;stanie poznać część tej historii**? Nawet gdy dotyczy stronek poza ich kontrolą? Potencjalnie wrażliwych?
 
@@ -49,7 +49,7 @@ Zacznijmy od tego, że **strony internetowe nie są w&nbsp;stanie zajrzeć do hi
 
 „Przeglądarko, daj mi listę wszystkich stron, jakie odwiedziłaś w&nbsp;tym miesiącu”. Nie, to nie przejdzie. Nawet Chrome, który zwykle rozdaje nasze informacje na lewo i&nbsp;prawo, nas w&nbsp;tym przypadku ochroni.
 
-Przykładowa strona A&nbsp;może natomiast gromadzić coś w rodzaju własnej historii. Listę jej własnych podstron (albo stron ściśle powiązanych), jakie odwiedziliśmy.
+Przykładowa strona A&nbsp;może natomiast gromadzić coś w rodzaju własnej historii. Listę jej własnych podstron (albo stron ściśle powiązanych), jakie odwiedziliśmy.
 
 {% include info.html
 type="Powiązane wątki"
@@ -57,8 +57,8 @@ text="To szczególnie łatwe, jeśli dostaliśmy od niej [pliki cookies](/intern
 Ale nawet ich czyszczenie nie pomaga, bo w&nbsp;roli identyfikatora można użyć wielu innych informacji. Poświęciłem im zresztą większość serii „Internetowa inwigilacja”."
 %}
 
-W tym wpisie jednak nie skupimy się na takim przypadku, lecz na rzeczy groźniejszej. Zbieraniu (okrężną drogą) *historii dotyczącej innych stron*.  
-W tym przypadku strona A&nbsp;się dowiaduje, że byliśmy na stronach B, C, D... Niezwiązanych z&nbsp;nią kompletnie.
+W tym wpisie jednak nie skupimy się na takim przypadku, lecz na rzeczy groźniejszej. Zbieraniu (okrężną drogą) *historii dotyczącej innych stron*.  
+W tym przypadku strona A&nbsp;się dowiaduje, że byliśmy na stronach B, C, D... Niezwiązanych z&nbsp;nią kompletnie.
 
 ## Styl linków zdradza wszystko?
 
@@ -98,16 +98,16 @@ Jeśli dodamy coś takiego do arkusza CSS naszej strony, to naszym gościom wszy
 
 ### Zagrożenie
 
-Skoro linki kliknięte się wyrożniają, posiadają inną wartość jakiejś rzeczy... To pojawia się potencjalne zagrożenie. 
+Skoro linki kliknięte się wyrożniają, posiadają inną wartość jakiejś rzeczy... To pojawia się potencjalne zagrożenie. 
 
-Autor strony mógłby stworzyć ogromną listę wszelkich interesujących go linków. Do różnych stron -- światopoglądowych, medycznych, niegrzecznych. I&nbsp;umieścić ją na stronie, niewidoczną dla użytkowników. Taką niewidzialność też można łatwo ustawić przez arkusze styli.
+Autor strony mógłby stworzyć ogromną listę wszelkich interesujących go linków. Do różnych stron -- światopoglądowych, medycznych, niegrzecznych. I&nbsp;umieścić ją na stronie, niewidoczną dla użytkowników. Taką niewidzialność też można łatwo ustawić przez arkusze styli.
 
 Poza tym na stronie mógłby być interaktywny kod, JavaScript. I&nbsp;mógłby poprosić: „Przeglądarko. Daj mi te linki z&nbsp;listy, dla których `:visited` ma wartość True”.
 
 Dostając je, dostałby listę odwiedzonych przez nas stron.
 
-Wystarczyłoby, że raz odwiedzimy taką złowrogą stronę. Gdzieś poza naszym wzrokiem powstanie wielka lista tysięcy linków. Kod ustali, które z&nbsp;nich już zostały odwiedzone i&nbsp;wyśle te informacje swoim właścicielom.  
-A my, nieświadomi, jeszcze trochę posurfujemy po sieci i&nbsp;pójdziemy spać. 
+Wystarczyłoby, że raz odwiedzimy taką złowrogą stronę. Gdzieś poza naszym wzrokiem powstanie wielka lista tysięcy linków. Kod ustali, które z&nbsp;nich już zostały odwiedzone i&nbsp;wyśle te informacje swoim właścicielom.  
+A my, nieświadomi, jeszcze trochę posurfujemy po sieci i&nbsp;pójdziemy spać. 
 
 Brzmi groźnie? Ale na szczęście to tylko teoretyczne zagrożenie. **Przeglądarki nie dają stronom dostępu do wartości parametru `visited`**.
 
@@ -140,12 +140,12 @@ Poza tym samej stylizacji nadal można nadużyć. Tyle że w&nbsp;jeszcze bardzi
 
 ### Tekst linków można swobodnie zmieniać
 
-Strona, do której prowadzi link, może być zupełnie inna niż tekst samego linku. Sam to często stosuję, również w&nbsp;tym wpisie. Wplatam linki w&nbsp;zwykły tekst. Tu na przykład mamy [stronę główną bloga](/).
+Strona, do której prowadzi link, może być zupełnie inna niż tekst samego linku. Sam to często stosuję, również w&nbsp;tym wpisie. Wplatam linki w&nbsp;zwykły tekst. Tu na przykład mamy [stronę główną bloga](/).
 
-Tekst pod moimi linkami zwykle składa się z polskich liter, czasem cyfr, rzadziej znaków specjalnych.  
+Tekst pod moimi linkami zwykle składa się z polskich liter, czasem cyfr, rzadziej znaków specjalnych.  
 Ale nie musi tak być. Zestaw dostępnych znaków jest olbrzymi i&nbsp;znajdziemy tam rzeczy, których byśmy się nie spodziewali.
 
-Przykładem chociażby emoji. Kojarzą się z kolorowym obrazkiem... Ale niektóre z&nbsp;nich istnieją w&nbsp;postaci bardziej pierwotnej. Jako [tekst zrozumiały dla komputera](https://unicode.org/emoji/charts/full-emoji-list.html) (mamy je tutaj w&nbsp;kolumnie *Browser*; pozostałe kolumny to obrazki używane przez konkretne organizacje).
+Przykładem chociażby emoji. Kojarzą się z kolorowym obrazkiem... Ale niektóre z&nbsp;nich istnieją w&nbsp;postaci bardziej pierwotnej. Jako [tekst zrozumiały dla komputera](https://unicode.org/emoji/charts/full-emoji-list.html) (mamy je tutaj w&nbsp;kolumnie *Browser*; pozostałe kolumny to obrazki używane przez konkretne organizacje).
 
 Tutaj mamy na przykład emotkę anioła... A&nbsp;zarazem kolejny link do mojej strony głównej: [😇](/).  
 Ta emota **nie jest obrazkiem, lecz tekstem**. Znakiem o&nbsp;kodzie Unicode `U+1F607`.
@@ -156,11 +156,11 @@ W podobny sposób można ukrywać linki pod znakami wyglądającymi jak figury g
 
 Podsumujmy zebrane dotąd fakty:
 
-* autor strony nie jest w&nbsp;stanie w&nbsp;żaden sposób odczytać, które linki pokazują się użytkownikowi jako kliknięte;
+* autor strony nie jest w&nbsp;stanie w&nbsp;żaden sposób odczytać, które linki pokazują się użytkownikowi jako kliknięte;
 * ale jest w&nbsp;stanie wpływać na kolor tych linków oraz ich tekst;
 * tekst linków może zawierać rzeczy spoza alfabetu, jak niektóre figury geometryczne.
 
-Niektórzy wpadli w&nbsp;tym miejscu na iście szatańskie pomysły -- **postanowili sprawić, żeby użytkownicy sami wskazali, które strony z&nbsp;listy odwiedzili**. Żeby się wkopali.  
+Niektórzy wpadli w&nbsp;tym miejscu na iście szatańskie pomysły -- **postanowili sprawić, żeby użytkownicy sami wskazali, które strony z&nbsp;listy odwiedzili**. Żeby się wkopali.  
 Toporny przykład:
 
 {:.figure .bigspace-before}
@@ -176,9 +176,9 @@ Każdy z&nbsp;nich będzie za kulisami właśnie taką listą jak ta wyżej. Tyl
 
 ### Linki jako test psychologiczny
 
-Ten przykład opracował niejaki [TinSnail](https://tinsnail.neocities.org/). Polega na tym, że użytkownikom wyświetla się ogromna siatka prostokątów. U&nbsp;góry widać prośbę o&nbsp;kliknięcie tych, które są czerwone.
+Ten przykład opracował niejaki [TinSnail](https://tinsnail.neocities.org/). Polega na tym, że użytkownikom wyświetla się ogromna siatka prostokątów. U&nbsp;góry widać prośbę o&nbsp;kliknięcie tych, które są czerwone.
 
-Tylko że każdy prostokąt jest tak naprawdę *tekstem*. Pojedynczym znakiem ▇ ([`U+2587`](https://unicodeplus.com/U+2587)), wyglądającym jak zamalowany prostokąt. A&nbsp;pod nim ukrywa się link do jakiejś anglojęzycznej stronki, głównie z&nbsp;zakresu takich o&nbsp;programowaniu.
+Tylko że każdy prostokąt jest tak naprawdę *tekstem*. Pojedynczym znakiem ▇ ([`U+2587`](https://unicodeplus.com/U+2587)), wyglądającym jak zamalowany prostokąt. A&nbsp;pod nim ukrywa się link do jakiejś anglojęzycznej stronki, głównie z&nbsp;zakresu takich o&nbsp;programowaniu.
 
 Do tego mamy regułkę w&nbsp;arkuszu CSS, mówiącą żeby linki odwiedzone kolorowało na czerwono. Efekt? Odwiedzone przez nas strony są ukryte pod czerwonymi prostokątami.  
 U mnie na przykład jeden z&nbsp;nich odpowiadał stronie *news.ycombinator.com*. To HackerNews, forum które czytuję.
@@ -197,12 +197,12 @@ Natomiast „które prostokąty kliknął użytkownik?”. To już mu wolno. Efe
 
 Ten przykład znajdziemy na stronce [*varun.ch*](https://varun.ch/history). Oprócz tego warto zerknąć na [dyskusję](https://news.ycombinator.com/item?id=36949988) z&nbsp;tego roku na forum HackerNews.
 
-Metoda jest podobna do tej od TinSnaila. Tylko że nie wyświetla ogromnej siatki, lecz mniejszą liczbę pól. Prosi o&nbsp;kliknięcie tych kolorowych, komunikatem bardzo w&nbsp;stylu typowej Captchy.
+Metoda jest podobna do tej od TinSnaila. Tylko że nie wyświetla ogromnej siatki, lecz mniejszą liczbę pól. Prosi o&nbsp;kliknięcie tych kolorowych, komunikatem bardzo w&nbsp;stylu typowej Captchy.
 
 {:.figure .bigspace}
 <img src="/assets/posts/inwigilacja/historia-przegladania/varun-ch-captcha-historia.jpg" alt="Zrzut ekranu pokazujący na niebieskim tle napis (po angielsku): 'Czy jesteś robotem? Wybierz czarne pola, żeby przejść dalej'. Niżej widać siatkę 16&nbsp;białych lub czarnych kwadratów" width="50%"/>
 
-Sprytnym pomysłem jest też dodanie w&nbsp;niektórych miejscach paru *pól kontrolnych*. Są kolorowe -- a&nbsp;kod strony o&nbsp;tym wie i&nbsp;tego pilnuje. Jeśli użytkownik ich nie kliknie, to wyświetli się informacja, że nie rozwiązał Captchy. Pozwala to uwiarygodnić cały pomysł.
+Sprytnym pomysłem jest też dodanie w&nbsp;niektórych miejscach paru *pól kontrolnych*. Są kolorowe -- a&nbsp;kod strony o&nbsp;tym wie i&nbsp;tego pilnuje. Jeśli użytkownik ich nie kliknie, to wyświetli się informacja, że nie rozwiązał Captchy. Pozwala to uwiarygodnić cały pomysł.
 
 Mała liczba pól z&nbsp;jednej strony zwiększa wiarygodność, ale też spowalnia gromadzenie danych. W&nbsp;ten sposób nie pozna się czyjejś historii od razu.
 
@@ -212,16 +212,16 @@ W jaki sposób poznać więcej odwiedzonych stron, a&nbsp;jednocześnie nie odst
 
 Pewien autor stworzył [interaktywną grę typu *space shooter*](https://lcamtuf.blogspot.com/2013/05/some-harmless-old-fashioned-fun-with-css.html). Oficjalnie chodzi w&nbsp;niej o&nbsp;strzelanie do asteroidów.
 
-W tym wypadku linki są wystylizowane na kółka. Linki nieodwiedzone zlewają się z tłem. Odwiedzone mają inny kolor, wyróżniający się na czarnym tle. Kod JavaScript porusza nimi wszystkimi po ekranie.
+W tym wypadku linki są wystylizowane na kółka. Linki nieodwiedzone zlewają się z tłem. Odwiedzone mają inny kolor, wyróżniający się na czarnym tle. Kod JavaScript porusza nimi wszystkimi po ekranie.
 
-A ludzie klikają te kolorowe, ochoczo w&nbsp;ten sposób donosząc, co się kryje w&nbsp;ich historii.
+A ludzie klikają te kolorowe, ochoczo w&nbsp;ten sposób donosząc, co się kryje w&nbsp;ich historii.
 
 {:.figure .bigspace}
-<img src="/assets/posts/inwigilacja/historia-przegladania/asteroidy-wiele.jpg" alt="Zrzut ekranu pokazujący czarne tło i&nbsp;widoczne na nim zamalowane, kolorowe koła. U&nbsp;góry widać punktację oraz polecenie każące bronić naszego statku kosmicznego." width="70%"/>
+<img src="/assets/posts/inwigilacja/historia-przegladania/asteroidy-wiele.jpg" alt="Zrzut ekranu pokazujący czarne tło i&nbsp;widoczne na nim zamalowane, kolorowe koła. U&nbsp;góry widać punktację oraz polecenie każące bronić naszego statku kosmicznego." width="70%"/>
 
-Podobnie jak przy Captchy, tak i&nbsp;tutaj mamy trochę asteroidów kontrolnych (niebędących linkami). Naprawdę nas zniszczą, jeśli się ich nie kliknie.
+Podobnie jak przy Captchy, tak i&nbsp;tutaj mamy trochę asteroidów kontrolnych (niebędących linkami). Naprawdę nas zniszczą, jeśli się ich nie kliknie.
 
-Ale w&nbsp;drugą stronę to nie działa. Gdybyśmy klikali w&nbsp;ciemno, pustą przestrzeń, to nabijemy sobie linków, których w&nbsp;historii nie mamy. A&nbsp;strona nie ma jak tego sprawdzić. Bo, pamiętajmy, nie ma bezpośredniego wglądu do wartości `visible`.
+Ale w&nbsp;drugą stronę to nie działa. Gdybyśmy klikali w&nbsp;ciemno, pustą przestrzeń, to nabijemy sobie linków, których w&nbsp;historii nie mamy. A&nbsp;strona nie ma jak tego sprawdzić. Bo, pamiętajmy, nie ma bezpośredniego wglądu do wartości `visible`.
 
 ### Linki w&nbsp;rzeczywistości wirtualnej?
 
@@ -234,13 +234,13 @@ Gdyby takie strony miały dostęp do informacji o&nbsp;tym, na czym skupia się 
 Linki nieodwiedzone byłyby niewidzialne. A&nbsp;odwiedzone -- jaskrawe.  
 Nagłe pojawienie się czegoś takiego sprawi, że użytkownik odruchowo ucieknie wzrokiem w&nbsp;konkretną stronę. A&nbsp;strona internetowa dostanie tę informację i&nbsp;sobie zapisze, że znalazła link z&nbsp;historii przeglądania.
 
-VR ogólnie wydaje się kopalnią danych biometrycznych i&nbsp;zagrożeniem dla prywatności. Historia przeglądania byłaby jak pojedyncza cegiełka w&nbsp;Wielkim *Bracie*{:.corr-del} Murze.
+VR ogólnie wydaje się kopalnią danych biometrycznych i&nbsp;zagrożeniem dla prywatności. Historia przeglądania byłaby jak pojedyncza cegiełka w&nbsp;Wielkim *Bracie*{:.corr-del} Murze.
 
 ## Jak się chronić
 
-Jak wspomniałem na początku, to zagrożenie jest akurat średnio realne i&nbsp;nie ma potrzeby się nakręcać. Na pewno nie zrobią tego większe firmy, bo za duże ryzyko. Być może mogłoby czegoś takiego próbować lokalne forum jakiejś sekty (żeby ustalić, że członkowie nie wchodzili na coś z&nbsp;indeksu stron zakazanych).
+Jak wspomniałem na początku, to zagrożenie jest akurat średnio realne i&nbsp;nie ma potrzeby się nakręcać. Na pewno nie zrobią tego większe firmy, bo za duże ryzyko. Być może mogłoby czegoś takiego próbować lokalne forum jakiejś sekty (żeby ustalić, że członkowie nie wchodzili na coś z&nbsp;indeksu stron zakazanych).
 
-Najlepiej unikać sekt! Ale jeśli już trafimy na sytuację, gdy mamy dwie tożsamości, których wolimy nie mieszać... Dobrze mieć od każdej z&nbsp;nich całkiem osobną przeglądarkę. To ochroni nas przed stronami gapiącymi się w historię.
+Najlepiej unikać sekt! Ale jeśli już trafimy na sytuację, gdy mamy dwie tożsamości, których wolimy nie mieszać... Dobrze mieć od każdej z&nbsp;nich całkiem osobną przeglądarkę. To ochroni nas przed stronami gapiącymi się w historię.
 
 {:.post-meta .bigspace-after}
 A w ogólniejszym przypadku -- najlepiej, żeby każda z tych przeglądarek korzystała z osobnej sieci/hotspota. Jeszcze lepiej -- mieć je na osobnych urządzeniach. Im pełniejsze rozdzielenie tożsamości, tym lepiej.
@@ -258,13 +258,13 @@ W&nbsp;ten sposób minimalizowałyby ryzyko, że wejdzie jakaś nowinka stylisty
 Niektóre przeglądarki pozwalają wyłączać kolorowanie linków. To też fajna opcja, jeśli nie boimy się zmian ustawień.
 
 W przypadku **Firefoksa** wpisujemy w&nbsp;górny pasek adresu `about:config`. Czytamy ostrzeżenie. Następnie znajdujemy opcję `layout.css.visited_links_enabled` (wystarczy wpisać początek nazwy).  
-Zmieniamy jej wartość na `False`. Wszystkie linki staną się takie same. I&nbsp;dla nas, i&nbsp;dla potencjalnych podglądaczy.
+Zmieniamy jej wartość na `False`. Wszystkie linki staną się takie same. I&nbsp;dla nas, i&nbsp;dla potencjalnych podglądaczy.
 
 ### Dla autorów stron
 
 Nie mamy wpływu na to, jak linki do naszej strony wyświetlają się na stronach cudzych... Ale możemy sprawić, żeby same linki do naszych podstron, obecne w&nbsp;historii naszych gości, nie były dla nich powodem do wstydu.
 
-Pomoże to nie tylko przeciw karkołomnym przykładom z&nbsp;tego wpisu. Ale również w sytuacji, kiedy jakaś osoba fizycznie zerka im do historii.
+Pomoże to nie tylko przeciw karkołomnym przykładom z&nbsp;tego wpisu. Ale również w sytuacji, kiedy jakaś osoba fizycznie zerka im do historii.
 
 W tym celu można stosować **dynamiczne ładowanie elementów**. Link do strony zawsze pozostanie ten sam i&nbsp;niewiele ujawni. Ale użytkownicy, klikając różne rzeczy na naszej stronie (albo ją przewijając), będą dostawali od nas treść.
 

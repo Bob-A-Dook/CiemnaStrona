@@ -24,7 +24,7 @@ Poprzednio [zobaczyliśmy]({% post_url 2022-02-20-youtube-viacom-elsagate %}){:.
 Jedną z&nbsp;nich była *afera ElsaGate*. YouTube zadziwiająco niechętnie podszedł do usuwania spamowych filmików, kierowanych do najmłodszych i&nbsp;zawierających elementy przemocy oraz fetyszu. Niewykluczone, że miała na to wpływ ich oglądalność i&nbsp;wysokie obłożenie reklamami (będącymi dla YT źródłem zysku).
 
 Pisałem również o&nbsp;tym, że YouTube woli zostawić moderację automatycznym systemom, a&nbsp;nie ludzkim moderatorom. Mimo że -- jak widzieliśmy -- analityk z&nbsp;paroma skryptami potrafił zdziałać całkiem sporo, nawet bez dostępu do kulis YouTube'a.  
-Konieczność przy ich rozmiarach? A&nbsp;może chęć oszczędzenia za wszelką cenę na ludzkich moderatorach? 
+Konieczność przy ich rozmiarach? A&nbsp;może chęć oszczędzenia za wszelką cenę na ludzkich moderatorach? 
 
 W tym wpisie dokładniej przyjrzymy się tej wszechobecnej automatyzacji i&nbsp;jej ciemnym stronom. Zobaczymy też wyraźne -- i&nbsp;coraz intensywniejsze -- dociskanie niezależnych twórców i&nbsp;zwrot ku partnerstwom z&nbsp;korporacjami. Tym razem wpis będzie ułożony bardziej tematycznie niż chronologicznie.
 
@@ -87,7 +87,7 @@ Nie mamy wglądu w&nbsp;te systemy, więc bardzo możliwe, że każdy z&nbsp;nic
 {% include info.html
 type="Ciekawostka"
 text="Jednym z&nbsp;automatów mniej znanych szarym widzom jest [wstawiacz reklam](https://support.google.com/youtube/answer/6175006?hl=pl).  
-Chodzi o&nbsp;to, że twórcy mogą wybierać, w&nbsp;jakim miejscu wstawić przerwy reklamowe. Jeśli nie chcą ich ustawiać ręcznie, to algorytm zrobi to za nich, szukając w&nbsp;ich filmikach w&nbsp;miarę spokojnych miejsc."
+Chodzi o&nbsp;to, że twórcy mogą wybierać, w&nbsp;jakim miejscu wstawić przerwy reklamowe. Jeśli nie chcą ich ustawiać ręcznie, to algorytm zrobi to za nich, szukając w&nbsp;ich filmikach w&nbsp;miarę spokojnych miejsc."
 %}
 
 ## YouTube Rewind 2018
@@ -167,7 +167,7 @@ Teoretycznie twórcom przysługuje odwołanie, po którym ich sprawie przyjrzy s
 
 # Demonetyzacja
 
-YouTube sam nie ukrywa, że regulamin swoją drogą, a&nbsp;demonetyzacja swoją:
+YouTube sam nie ukrywa, że regulamin swoją drogą, a&nbsp;demonetyzacja swoją:
 
 > Takie treści, mimo że mogą być odpowiednie do publikacji w&nbsp;YouTube zgodnie z&nbsp;naszymi Wytycznymi dla społeczności, nie zawsze są odpowiednie dla naszych reklamodawców.
 
@@ -201,7 +201,7 @@ Trochę nam to mówi o&nbsp;jego „stabilności”.
 * Zapewne istnieje swego rodzaju „karanie przez skojarzenie”. `Dick Cheney` to zwrot demonetyzowany prawdopodobnie tylko przez to, że algorytm ma pieprzne skojarzenia z&nbsp;jego imieniem.
 
 Platt rozwinął temat w&nbsp;[filmiku z&nbsp;2021 roku](https://www.youtube.com/watch?v=_AFVlGnXMsc). Wspomina, że autorzy dostali możliwość oceniania własnych filmów w&nbsp;krótkich ankietach. W&nbsp;ten sposób mogą się dowiedzieć z&nbsp;wyprzedzeniem, czy pchają się ku demonetyzacji.  
-...Ale potem ten sam film i&nbsp;tak weryfikują automaty, których ankiety nie obchodzą. Więc w&nbsp;praktyce jedyną zmianą jest odsianie najbardziej jaskrawych przypadków i&nbsp;danie twórcom iluzji kontroli.
+...Ale potem ten sam film i&nbsp;tak weryfikują automaty, których ankiety nie obchodzą. Więc w&nbsp;praktyce jedyną zmianą jest odsianie najbardziej jaskrawych przypadków i&nbsp;danie twórcom iluzji kontroli.
 
 {% include info.html
 type="Inne źródła"
@@ -275,7 +275,7 @@ Przeciw temu stanowi rzeczy zbuntowały się duże organizacje -- Blender Founda
 
 Blender [na bieżąco informował](https://www.blender.org/media-exposure/youtube-blocks-blender-videos-worldwide/) o&nbsp;swoich przeprawach z&nbsp;Google'em. Ostatecznie, po ogłoszeniu realnych planów odejścia na inną platformę, udało im się wywalczyć wyjątek i&nbsp;brak reklam.
 
-Ale zanim to się stało... Czytelnicy poprzedniego wpisu być może pamiętają, jak kiedyś, podczas sporu z&nbsp;Viacomem, YouTube usuwał niewinne filmiki i&nbsp;wyświetlał informacje oczerniające autorów? (Bo przedstawiające naruszanie praw autorskich jako fakt, a&nbsp;nie możliwość).
+Ale zanim to się stało... Czytelnicy poprzedniego wpisu być może pamiętają, jak kiedyś, podczas sporu z&nbsp;Viacomem, YouTube usuwał niewinne filmiki i&nbsp;wyświetlał informacje oczerniające autorów? (Bo przedstawiające naruszanie praw autorskich jako fakt, a&nbsp;nie możliwość).
 
 Teraz zdarzyło się coś podobnego. Jak pisze Blender:
 
@@ -341,7 +341,7 @@ Podejście „zero negatywności”, jakim wykazała się pani Wojcicki, wydaje 
 {:.figcaption}
 Nadal mogę sobie kliknąć kciuka w&nbsp;dół; ale ich łączna liczba już nie jest publicznie widoczna.
 
-Jako oficjalny powód podają oczywiście bezpieczeństwo. Wszystko w&nbsp;trosce o&nbsp;mniejszych twórców, którzy mogliby się zrazić negatywnym odzewem. Ach, i&nbsp;piszą że to dopiero początek:
+Jako oficjalny powód podają oczywiście bezpieczeństwo. Wszystko w&nbsp;trosce o&nbsp;mniejszych twórców, którzy mogliby się zrazić negatywnym odzewem. Ach, i&nbsp;piszą że to dopiero początek:
 
 > We want to create an inclusive and respectful environment where creators have the opportunity to succeed and feel safe to express themselves. This is just one of many steps we are taking to continue to **protect** creators from harassment. Our work is not done (...)
 
@@ -375,7 +375,7 @@ Dlatego, choć YouTube'a raczej nie zmienimy, możemy zmienić swoje podejście 
 
 # Ochrona danych
 
-Moje wpisy na temat YouTube'a skupiają się na rzeczach typowych dla tej platformy. Ale nie zapominajmy, że przede wszystkim to część Google'a. Więc **mamy do czynienia z&nbsp;tym samym masowym zbieraniem danych o&nbsp;naszych zwyczajach**.
+Moje wpisy na temat YouTube'a skupiają się na rzeczach typowych dla tej platformy. Ale nie zapominajmy, że przede wszystkim to część Google'a. Więc **mamy do czynienia z&nbsp;tym samym masowym zbieraniem danych o&nbsp;naszych zwyczajach**.
 
 I, tak jak w&nbsp;przypadku innych usług giganta, możemy spróbować to wyłączyć. Europejskie przepisy o&nbsp;prywatności dają przynajmniej cień szansy, że firma uszanuje nasze ustawienia, żeby uniknąć kar.  
 Aby zmienić ustawienia na korzystniejsze dla nas, wchodzimy na [stronkę](https://myaccount.google.com/u/0/yourdata/youtube?hl=pl) i&nbsp;odznaczamy tam trzy opcje związane z&nbsp;analizowaniem naszych zwyczajów.
@@ -418,11 +418,11 @@ Osobiście nie korzystam z&nbsp;alternatywnych apek (wolę pobrać na dysk i&nbs
 
 {% include info.html
 type="Ciekawostka"
-text="Nazwa *Vanced* wzięła się od *Advanced* bez *Ad* (ang. *reklama*).  
+text="Nazwa *Vanced* wzięła się od *Advanced* bez *Ad* (ang. *reklama*).  
 Co do *NewPipe'a* nie mam pewności -- ale może *New* jako rym do *You* i&nbsp;*Pipe* jako synonim *Tube* (oba słowa mogą oznaczać rurę)."
 %}
 
-Jeśli chodzi o&nbsp;alternatywne strony, osobiście z&nbsp;nich nie korzystałem, więc ciężko mi coś polecić. Ale podzielę się pewnym istotnym rozróżnieniem.
+Jeśli chodzi o&nbsp;alternatywne strony, osobiście z&nbsp;nich nie korzystałem, więc ciężko mi coś polecić. Ale podzielę się pewnym istotnym rozróżnieniem.
 
 * Tak zwane *alternatywne frontendy* **zawierają dokładnie te filmy co YouTube**, ponieważ są swego rodzaju pośrednikiem, a&nbsp;swoje zapytania wysyłają do głównego serwisu.
 * Oprócz nich są też kompletnie niezależne strony, jak Vimeo czy Peertube. Rzadko kiedy znajdziemy tam te same filmy co na YouTubie. Co może być zarówno wadą, jak i&nbsp;zaletą.  

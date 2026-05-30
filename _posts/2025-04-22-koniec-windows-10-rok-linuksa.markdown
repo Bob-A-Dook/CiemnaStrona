@@ -38,7 +38,7 @@ Ale *ten* rok (2025), choć pewnie nie postawi spraw na głowie, może przynieś
 Kończy się wsparcie dla Windowsa 10, a&nbsp;jego następca, Windows 11, nieco sobie nagrabił brakiem zgodności z&nbsp;wieloma komputerami. Nie mówiąc o&nbsp;innych jego niedoskonałościach.  
 W tle mamy też rosnący izolacjonizm USA, skłaniający Europę do mocno spóźnionych myśli o&nbsp;niezależności, również cyfrowej.
 
-W tym wpisie przybliżę te czynniki, robiąc przy tym małą reklamę szeroko rozumianemu Linuksowi. Jeśli zainspiruję osoby lubiące pingwina do jego dalszego promowania -- super! Jeśli uda się wciągnąć w&nbsp;ten świat jakieś nowe osoby -- jeszcze lepiej! :smile:
+W tym wpisie przybliżę te czynniki, robiąc przy tym małą reklamę szeroko rozumianemu Linuksowi. Jeśli zainspiruję osoby lubiące pingwina do jego dalszego promowania -- super! Jeśli uda się wciągnąć w&nbsp;ten świat jakieś nowe osoby -- jeszcze lepiej! :smile:
 
 ## Spis treści
 
@@ -106,7 +106,7 @@ W każdym razie: w&nbsp;2021 roku wydano Windowsa 11.
 A że nie chcą równoległe utrzymywać dwóch systemów, to od paru lat konsekwentnie wygaszają dziesiątkę. [Oficjalna strona Microsoftu głosi takie coś](https://www.microsoft.com/pl-pl/windows/end-of-support) (wyróżnienia moje):
 
 {:.bigspace}
-> **Po 14&nbsp;października 2025&nbsp;r.** firma Microsoft nie będzie już zapewniać bezpłatnych aktualizacji oprogramowania za pośrednictwem usługi Windows Update, pomocy technicznej ani poprawek zabezpieczeń dla systemu Windows 10. Twój komputer będzie nadal działać, ale **zalecamy przejście na system Windows 11**.
+> **Po 14&nbsp;października 2025&nbsp;r.** firma Microsoft nie będzie już zapewniać bezpłatnych aktualizacji oprogramowania za pośrednictwem usługi Windows Update, pomocy technicznej ani poprawek zabezpieczeń dla systemu Windows 10. Twój komputer będzie nadal działać, ale **zalecamy przejście na system Windows 11**.
 
 W praktyce: na początku wygaszenie wsparcia może być niezauważalne. Ale z&nbsp;każdym kolejnym miesiącem będzie przybywało nowinek technicznych, których twórcy będą celowali już tylko w&nbsp;Windowsa 11. Będzie też przybywało złośliwych programów mogących łatwo przebić zabezpieczenia systemu.
 

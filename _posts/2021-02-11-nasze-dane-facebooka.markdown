@@ -16,15 +16,15 @@ Spójrzmy, co się zmieniło.
 
 # Wieki ciemne
 
-Pamiętam, jak Fejs dopiero się popularyzował w&nbsp;Polsce w&nbsp;okolicach lat 2008-2010, wyciągając ludzi z&nbsp;realiów Naszej Klasy i&nbsp;Gadu-Gadu (tak, jestem stary :sweat_smile:).
+Pamiętam, jak Fejs dopiero się popularyzował w&nbsp;Polsce w&nbsp;okolicach lat 2008-2010, wyciągając ludzi z&nbsp;realiów Naszej Klasy i&nbsp;Gadu-Gadu (tak, jestem stary :sweat_smile:).
 
-Z czasem stali się komunikatorem, bez którego praktycznie nie dało się nadążyć za bieżącymi sprawami na studiach. Pojawiło się nawet powiedzenie „Nie masz Facebooka? To nie istniejesz”.
+Z czasem stali się komunikatorem, bez którego praktycznie nie dało się nadążyć za bieżącymi sprawami na studiach. Pojawiło się nawet powiedzenie „Nie masz Facebooka? To nie istniejesz”.
 
 Gdzieś w&nbsp;tle zawsze krążyły ostrzeżenia. „Facebook zarabia na reklamach”. „Jeśli coś jest darmowe, to znaczy że to ty jesteś produktem”. Strony, które najpierw zachęcały ludzi do obserwowania, a&nbsp;potem zmieniały się w&nbsp;spam reklamami albo propagandą.
 
 Tak, Facebook zawsze miał ciemne zakamarki i, jako firma, [długą historię szemranych działań](https://www.techrepublic.com/article/facebook-data-privacy-scandal-a-cheat-sheet/). Ale to historia na kilka innych wpisów.
 
-W praktyce, jako użytkownik, wszystko to spychałem na dalszy plan. Na stronie głównej [mieli napis](https://www.dobreprogramy.pl/Facebook-nie-bedzie-zawsze-darmowy-Obietnica-znika-z-serwisu,News,103406.html) **„To jest (i zawsze będzie) darmowe”**. I&nbsp;to wygrywało. Brak opłat i&nbsp;łatwość bycia na bieżąco, rozmów w&nbsp;grupie, planowania... to jednak była oferta nie do odrzucenia.
+W praktyce, jako użytkownik, wszystko to spychałem na dalszy plan. Na stronie głównej [mieli napis](https://www.dobreprogramy.pl/Facebook-nie-bedzie-zawsze-darmowy-Obietnica-znika-z-serwisu,News,103406.html) **„To jest (i zawsze będzie) darmowe”**. I&nbsp;to wygrywało. Brak opłat i&nbsp;łatwość bycia na bieżąco, rozmów w&nbsp;grupie, planowania... to jednak była oferta nie do odrzucenia.
 
 # Epoka prywatności
 
@@ -32,7 +32,7 @@ Jednak niektórzy czuwali. W&nbsp;latach 2011-2012 pojawiły się [pierwsze prop
 
 Dość kontrowersyjna przez liczne niejasności. Ale czasem skuteczna.
 
-Daje ona dość szerokie uprawnienia, jeśli chodzi o&nbsp;ochronę danych. Możemy m.in. nie wyrażać zgody na ich zbieranie (a firmy nie mogą tego robić bez naszej wiedzy). Możemy zwrócić się z&nbsp;żądaniem ich usunięcia. Możemy również zwrócić się do firmy, żeby wysłała nam wszystkie dane osobowe, jakie o&nbsp;nas ma.
+Daje ona dość szerokie uprawnienia, jeśli chodzi o&nbsp;ochronę danych. Możemy m.in. nie wyrażać zgody na ich zbieranie (a firmy nie mogą tego robić bez naszej wiedzy). Możemy zwrócić się z&nbsp;żądaniem ich usunięcia. Możemy również zwrócić się do firmy, żeby wysłała nam wszystkie dane osobowe, jakie o&nbsp;nas ma.
 
 Kary za naruszenia GDPR/RODO mogą wynosić aż do 4% rocznego obrotu firmy, z&nbsp;działalności na całym świecie. Więc nawet najwięksi mają się czego bać.
 
@@ -44,11 +44,11 @@ Mając na uwadze, że Facebook pewnie i&nbsp;tak wie więcej.
 
 {% include info.html type="Heheszki" text="Tytuł tej serii wpisów nawiązuje do pewnego powiedzenia, które mi się skojarzyło.  
 Chcąc je zweryfikować, wyszukałem jego pierwszy człon, *[kochajmy się jak bracia](https://duckduckgo.com/?q=kochajmy+si%C4%99+jak+bracia)*. Podpowiedzi z&nbsp;wyszukiwaniami innych użytkowników były... ciekawe :sweat_smile:  
-(Na dzień 11.02 są nieco inne, ale też w&nbsp;ten deseń)." trailer="<p class='figure'><img src='/assets/posts/bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka/podpowiedzi_heheszki.webp' alt='Screen podpowiedzi wyszukiwania z&nbsp;DuckDuckGo dla hasła „Kochajmy się jak bracia”. Wśród nich między innymi „jak się kochać pozycje”, „kiedy facet kocha naprawdę”, „jak namówić koleżankę na macanie”.'/></p>" %}
+(Na dzień 11.02 są nieco inne, ale też w&nbsp;ten deseń)." trailer="<p class='figure'><img src='/assets/posts/bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka/podpowiedzi_heheszki.webp' alt='Screen podpowiedzi wyszukiwania z&nbsp;DuckDuckGo dla hasła „Kochajmy się jak bracia”. Wśród nich między innymi „jak się kochać pozycje”, „kiedy facet kocha naprawdę”, „jak namówić koleżankę na macanie”.'/></p>" %}
 
 ## Jak pobrać swoje dane od Fejsika
 
-Przejdźmy do rzeczy. Wchodzimy [na stronę główną Facebooka](https://facebook.com). Jeśli nie jesteśmy zalogowani, to się logujemy.
+Przejdźmy do rzeczy. Wchodzimy [na stronę główną Facebooka](https://facebook.com). Jeśli nie jesteśmy zalogowani, to się logujemy.
 
 Klikamy **strzałkę w&nbsp;górnym prawym rogu**, żeby wyświetlić informacje o&nbsp;koncie:
 
@@ -58,7 +58,7 @@ Klikamy **strzałkę w&nbsp;górnym prawym rogu**, żeby wyświetlić informacje
 Wybieramy zakładkę `Ustawienia i prywatność`.
 
 {:.figure .bigspace}
-<img src="/assets/posts/bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka/2.webp" alt="Menu widoczne pod obrazkiem profilowym. Obrazek, imię i nazwisko zakryte czarnym kolorem. Druga opcja od góry to 'Ustawienia i prywatność'"/>
+<img src="/assets/posts/bierzemy-co-nasze-odzyskiwanie-danych-z-facebooka/2.webp" alt="Menu widoczne pod obrazkiem profilowym. Obrazek, imię i nazwisko zakryte czarnym kolorem. Druga opcja od góry to 'Ustawienia i prywatność'"/>
 
 Wybieramy z&nbsp;niej `Ustawienia`:
 
@@ -89,7 +89,7 @@ Osobiście wybrałem:
 * Zakres dat domyślny (`Wszystkie moje dane`), bo chcę pobrać wszystko od początku istnienia konta;
 * `Format: JSON`. Naprawdę.
 
-  Jako format da się wybrać też HTML, ale ten Facebookowy jest głupi, zły, brzydki i&nbsp;go nie lubię :unamused: Jak później zobaczycie, ich JSON również szwankuje, ale przynajmniej da się go odratować.
+  Jako format da się wybrać też HTML, ale ten Facebookowy jest głupi, zły, brzydki i&nbsp;go nie lubię :unamused: Jak później zobaczycie, ich JSON również szwankuje, ale przynajmniej da się go odratować.
 
 {% include info.html type="Uwaga" text="Jeśli chcemy pobrać tylko część informacji, na przykład tylko dane o&nbsp;reklamach, to można najpierw kliknąć opcję `Usuń zaznaczenie wszystkich`, zapisaną małymi literkami po lewej stronie. Następnie zaznaczamy kratki tylko przy tych rodzajach danych, które nas interesują."%}
 

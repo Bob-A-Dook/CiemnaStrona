@@ -12,8 +12,8 @@ Z dobrodziejstw `yt-dlp` można korzystać też na smartfonach :metal: Ale w&nbs
 
 ## Instalacja
 
-Zacznijmy od tego, że smartfonowy system Android nie ma konsoli tak sam z&nbsp;siebie. Trzeba ją zdobyć.  
-Gorąco polecam do tej roli aplikację [Termux](https://termux.dev/en/). Można ją pozyskać na dwa sposoby:
+Zacznijmy od tego, że smartfonowy system Android nie ma konsoli tak sam z&nbsp;siebie. Trzeba ją zdobyć.  
+Gorąco polecam do tej roli aplikację [Termux](https://termux.dev/en/). Można ją pozyskać na dwa sposoby:
 
 * Najlepiej zainstalować najpierw [F-Droida](https://f-droid.org/), czyli alternatywne źródło aplikacji. W&nbsp;nim wyszukujemy apkę Termux (wystarczy podstawowa; bez `Termux:API` i&nbsp;innych rozszerzeń). Instalujemy ją.
 * Można również zainstalować plik APK udostępniany przez twórców Termuksa [na platformie Github](https://github.com/termux/termux-app/releases).
@@ -93,7 +93,7 @@ Otwieramy najzwyklejszą przeglądarkę i&nbsp;odwiedzamy stronkę z&nbsp;konkre
 yt-dlp <span class="red">LINK</span>
 </pre>
 
-Zamiast wpisywać `LINK`, przytrzymujemy palec na ekranie i&nbsp;wybieramy opcję wklejenia. Nasz plik zacznie się pobierać w&nbsp;najlepszej dostępnej jakości.
+Zamiast wpisywać `LINK`, przytrzymujemy palec na ekranie i&nbsp;wybieramy opcję wklejenia. Nasz plik zacznie się pobierać w&nbsp;najlepszej dostępnej jakości.
 
 Interesuje nas sam dźwięk, bo to na przykład piosenka? W&nbsp;takim wypadku lekko modyfikujemy komendę:
 

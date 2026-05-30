@@ -12,10 +12,10 @@ image:
   alt: "Obrazek pokazujący krzyczącą twarz uwięzioną w galarecie z plakatu filmu The Blob. Całość widać zza półprzezroczystej ściany zer i jedynek"
 ---
 
-Swego czasu ukazał się ciekawy post na stronie *devever.net*, zatytułowany [*The i.MX8 cannot be deblobbed*](https://www.devever.net/~hl/imx8).
+Swego czasu ukazał się ciekawy post na stronie *devever.net*, zatytułowany [*The i.MX8 cannot be deblobbed*](https://www.devever.net/~hl/imx8).
 
 Odwołuje się on do smutnego faktu, że **podstawowe części naszych telefonów opierają się na zamkniętych, nieprzeniknionych programach**.  
-Nawet telefony stawiające na prywatność i&nbsp;otwarty kod muszą, chcąc nie chcąc, polegać na takich podzespołach. Bo nie ma alternatyw.
+Nawet telefony stawiające na prywatność i&nbsp;otwarty kod muszą, chcąc nie chcąc, polegać na takich podzespołach. Bo nie ma alternatyw.
 
 Autor potwierdził w&nbsp;swoim wpisie, że kontrola sięga głębiej. Nawet gdyby ktoś stworzył wierny zamiennik dla zamkniętego programu, to nie wszystko by działało. Bo **programy mogą być ściśle przypisane do części poprzez szyfrowanie** (a&nbsp;dokładniej: przez bazujący na nim cyfrowy podpis).
 
@@ -55,8 +55,8 @@ Konieczność bazowania na niezaufanym kodzie byłaby dla nich szczególnie mocn
 
 {% include info.html
 type="Ciekawostka"
-text="Dokładniej rzecz biorąc, autor skupił się na kodzie odpowiedzialnym za obsługę popularnego złącza od multimediów, [HDMI](https://pl.wikipedia.org/wiki/HDMI).  
-Na forum HackerNews znajdziemy [spekulacje](https://news.ycombinator.com/item?id=35684859) o&nbsp;tym, że uszczelnianie tego konkretnego kodu może wynikać z&nbsp;chęci przypodobania się producentom filmów. To grupa często naciskająca na to, żeby chronić ich treści przed użytkownikami.
+text="Dokładniej rzecz biorąc, autor skupił się na kodzie odpowiedzialnym za obsługę popularnego złącza od multimediów, [HDMI](https://pl.wikipedia.org/wiki/HDMI).  
+Na forum HackerNews znajdziemy [spekulacje](https://news.ycombinator.com/item?id=35684859) o&nbsp;tym, że uszczelnianie tego konkretnego kodu może wynikać z&nbsp;chęci przypodobania się producentom filmów. To grupa często naciskająca na to, żeby chronić ich treści przed użytkownikami.
 "%}
 
 Misja autora opierała się na następujących krokach:
@@ -74,7 +74,7 @@ Pisze jednak z&nbsp;założeniem, że odbiorcy rozumieją konsolę. A&nbsp;we mn
 Ktoś tam wklejał komendy, które miały rzekomo rozwiązać cudzy problem. Bez dodatkowego komentarza, tak jakby rozwiązanie było oczywiste.  
 A ja nawet nie wiedziałem, gdzie to wpisać. Nie wiedziałem, że istnieje coś takiego jak konsola, pozwalająca „rozmawiać” bezpośrednio z&nbsp;komputerem. I&nbsp;innymi programami, które znałem tylko jako ikony do klikania.
 
-Gdy już odkryłem konsolę, to często coś mi nie działało. Bo potrzeba jakiegoś programu. A&nbsp;ja nie wiem, skąd go zdobyć, nie znajduję żadnego instalatora.  
+Gdy już odkryłem konsolę, to często coś mi nie działało. Bo potrzeba jakiegoś programu. A&nbsp;ja nie wiem, skąd go zdobyć, nie znajduję żadnego instalatora.  
 Czasem po chwili szukania odkrywałem, że cała podana komenda działa tylko na systemie Linux. A&nbsp;na swoim ówczesnym Windowsie musiałbym użyć jakiegoś zamiennika.
 
 I tak dalej. Odbijałem się od tematu jak od ściany. **Rzeczy proste wydawały się magią, kiedy tyle osób „cytowało konsolę” bez dodatkowego kontekstu**.
@@ -100,7 +100,7 @@ Jeśli nasz szablon strony nie daje dostępu do arkuszy styli, to w&nbsp;najpros
 "%}
 
 Swoją drogą **komendy konsolowe z&nbsp;artykułu odnoszą się do systemu Linux**. To na nim mamy (często z&nbsp;domysłu) zainstalowane programiki, których używa autor. Sam również używałem systemu Linux Mint, tworząc ten wpis.  
-Ale niech użytkownicy Windowsa się nie zrażają. Na nim też da się powtórzyć większość kroków, tylko parę ostatnich wymaga więcej pracy.
+Ale niech użytkownicy Windowsa się nie zrażają. Na nim też da się powtórzyć większość kroków, tylko parę ostatnich wymaga więcej pracy.
 
 Skoro już wiemy, które fragmenty tekstu to komendy, to po kolei je sobie omówmy.
 
@@ -119,7 +119,7 @@ Niektóre komendy nie mieszczą się na ekranie. Żeby je przeczytać, trzeba pr
 Ogólna zasada -- **w konsoli różne elementy rozdzielane są spacjami**. Nazwa programu to element pierwszy, najbardziej po lewej. Reszta to wrzucane do niego opcje, takie jak nazwy plików do odczytania.
 
 {:.post-meta .bigspace-after}
-Nieco się to zmienia, jeśli mamy w&nbsp;linijce specjalne operatory. Jeszcze o&nbsp;nich będzie w&nbsp;tym wpisie.
+Nieco się to zmienia, jeśli mamy w&nbsp;linijce specjalne operatory. Jeszcze o&nbsp;nich będzie w&nbsp;tym wpisie.
 
 Programem użytym w obecnej linijce jest `wget`. Odpowiada za pobieranie różnych plików z&nbsp;internetu.  
 Zaś drugi człon, po spacji, to link do konkretnej rzeczy na stronie *freescale.com* -- firmware'u, który chciał analizować autor.
@@ -158,7 +158,7 @@ Dwie spacje, czyli trzy rzeczy. Po lewej nazwa programu, potem dwa argumenty.
 Programem jest tu `7z`, czyli konsolowa wersja [7-Zipa](https://7-zip.org/download.html), do pracy ze skompresowanymi plikami. Często używany na formatach jak ZIP czy RAR, ale wspiera też inne, mniej znane.
 
 Ostatni, trzeci człon polecenia to nasz plik. A&nbsp;co oznacza `x`?  
-To zapewne jakaś opcja programu. A&nbsp;to oznacza, że wyjaśnienie powinno być zawarte w&nbsp;jego instrukcji. Wpisałem w&nbsp;konsolę `7z --help` (bardzo wiele programów ma taką opcję) i&nbsp;zobaczyłem tam:
+To zapewne jakaś opcja programu. A&nbsp;to oznacza, że wyjaśnienie powinno być zawarte w&nbsp;jego instrukcji. Wpisałem w&nbsp;konsolę `7z --help` (bardzo wiele programów ma taką opcję) i&nbsp;zobaczyłem tam:
 
 {:.bigspace-after .no-right-border}
 > x&nbsp;: eXtract files with full paths
@@ -174,7 +174,7 @@ Jedynym problemem jest to, że domyślny program umie rozpakowywać tylko konkre
 {:.figcaption}
 Źródło ikonek i&nbsp;opcji: system Linux Mint. Strzałka ze strony Flaticon. Przeróbki moje.
 
-Potem mój Linux Mint się nie buntował, kiedy kliknąłem plik prawym przyciskiem myszy i&nbsp;wybrałem opcję `Rozpakuj tutaj`. Wydobył z&nbsp;pliku jego zawartość, również o&nbsp;nazwie *firmware-imx-8.0*.
+Potem mój Linux Mint się nie buntował, kiedy kliknąłem plik prawym przyciskiem myszy i&nbsp;wybrałem opcję `Rozpakuj tutaj`. Wydobył z&nbsp;pliku jego zawartość, również o&nbsp;nazwie *firmware-imx-8.0*.
 
 {:.bigspace}
 <img src="/assets/posts/apki/imx_firmware/zip-rozpakowanie.jpg" alt="Schemat pokazujący ikonę pliku ZIP, od której odchodzi strzałka do srebrnej ikony ogólnego skompresowanego pliku. Strzałka jest podpisana nazwą opcji 'Wypakuj tutaj'."/>
@@ -215,8 +215,8 @@ To nieco inna komenda, bo złożona właściwie z&nbsp;dwóch niezależnych prog
 Oznacza ona po prostu tyle, że **wynik działania programiku po lewej stronie wrzucamy do tego po prawej**.
 
 Program `find` znajduje w&nbsp;podanym folderze wszystkie pliki (co sugeruje nam dopisek `-type f`, gdzie f&nbsp;to skrót od *file*).  
-Poprzez rurę ich lista trafia do `grep`a.  
-A on z&nbsp;kolei wyłapuje te z&nbsp;nich, które gdzieś w nazwie (tu: gdziekolwiek w&nbsp;ścieżce) mają tekst *hdmi*.
+Poprzez rurę ich lista trafia do `grep`a.  
+A on z&nbsp;kolei wyłapuje te z&nbsp;nich, które gdzieś w nazwie (tu: gdziekolwiek w&nbsp;ścieżce) mają tekst *hdmi*.
 
 {:.figure .bigspace}
 <img src="/assets/posts/apki/imx_firmware/grep-wyniki.jpg" alt="Zrzut ekranu z&nbsp;konsoli pokazujący 5&nbsp;różnych ścieżek, jakie znalazł grep. Słowo 'hdmi' jest w&nbsp;nich wyróżnione na czerwono"/>
@@ -238,11 +238,11 @@ cd firmware-imx-8.0/firmware/hdmi/cadence
 
 Jego nazwa to skrót od *change directory*. „Przejdź do innego folderu”. I&nbsp;dokładnie to robi ten program, kiedy poda mu się ścieżkę tegoż folderu.
 
-A dlaczego autor nie musi podawać pełnej ścieżki? Tego, co na Windowsie zaczynałoby się na przykład od `C:\`?
+A dlaczego autor nie musi podawać pełnej ścieżki? Tego, co na Windowsie zaczynałoby się na przykład od `C:\`?
 
 Bo swoją konsolę uruchomił w&nbsp;tym samym folderze co plik *.bin*. To on jest dla niego aktywnym folderem, punktem odniesienia. Wystarczy używać ścieżek *względnych* wobec niego.
 
-A samą ścieżkę sobie po prostu skopiował z&nbsp;wyników wyszukiwania poprzednią komendą.  
+A samą ścieżkę sobie po prostu skopiował z&nbsp;wyników wyszukiwania poprzednią komendą.  
 Na podobnej zasadzie moglibyśmy w&nbsp;graficznym Eksploratorze kliknąć dwukrotnie nazwę folderu `hdmi`, a potem `cadence`, żeby do niego przejść.
 
 ### Eksploracja pliku
@@ -268,7 +268,7 @@ Binwalk odnalazł w&nbsp;naszym pliku tajemniczy „certyfikat w&nbsp;formacie D
 Tutaj niestety mam złą wiadomość dla użytkowników Windowsa chcących sprawdzić wyniki. **Binwalk jest dość mocno przystosowany do Linuksa**; do tego stopnia, że oficjalna strona ma instrukcje instalacji działające tylko na nim.
 
 Chętni daliby radę go zainstalować również na Windzie, ale wymagałoby to trochę zachodu. Podobnie będzie z&nbsp;pozostałymi dwoma krokami.  
-Jeśli znajdę jakiś sposób na łatwe odtworzenie tego i&nbsp;kolejnych kroków na Windowsie, to zaktualizuję wpis. Ale póki co pozostaje chyba uwierzyć na słowo w&nbsp;pokazywane tu rzeczy :wink:
+Jeśli znajdę jakiś sposób na łatwe odtworzenie tego i&nbsp;kolejnych kroków na Windowsie, to zaktualizuję wpis. Ale póki co pozostaje chyba uwierzyć na słowo w&nbsp;pokazywane tu rzeczy :wink:
 
 ### Wyciągnięcie certyfikatu
 

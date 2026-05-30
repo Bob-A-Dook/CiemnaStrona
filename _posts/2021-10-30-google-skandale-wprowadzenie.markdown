@@ -25,7 +25,7 @@ W [dokumencie](https://storage.courtlistener.com/recap/gov.uscourts.nysd.564903/
 Google dyskretnie lobbował za osłabieniem unijnych przepisów chroniących prywatność (choć na zewnątrz je popierał).  
 I **był w&nbsp;zmowie z&nbsp;Facebookiem**; wspólnie manipulowali giełdą reklam internetowych.
 
-Od kilku lat czytuję o&nbsp;przewinieniach Google'a, więc to dobry czas na dołożenie swojej cegiełki do oskarżeń. Będzie nią cała seria o&nbsp;tym kolosie.
+Od kilku lat czytuję o&nbsp;przewinieniach Google'a, więc to dobry czas na dołożenie swojej cegiełki do oskarżeń. Będzie nią cała seria o&nbsp;tym kolosie.
 
 A na początek ten wpis, poświęcony jego wybranym popularnym produktom. Wyszukiwarce, Chrome'owi, Androidowi, systemowi kont.
 
@@ -86,7 +86,7 @@ Usprawiedliwiał się, że nie pobierał osobiście niczyjej bazy, tylko kupił 
 {:.bigspace}
 > it may have unknowingly sourced Genius lyrics from another location
 
-Przy łańcuchu pośredników odpowiedzialność się rozmywa...
+Przy łańcuchu pośredników odpowiedzialność się rozmywa...
 
 A wracając do wyników wyszukiwania: czasem gotowiec od Google'a nie wystarczy i&nbsp;jednak klikamy w&nbsp;linki. Co wtedy?
 
@@ -235,7 +235,7 @@ Oficjalnie ma to na celu walkę z&nbsp;wirusami. Ale dziwnym trafem **z&nbsp;Goo
 * *Universal Bypass*
 
   Dodatek pozwalający omijać linki śledzące (pisałem o&nbsp;nich [tutaj]({% post_url 2021-03-26-internetowa-inwigilacja-3-przekierowania %}){:.internal}).  
-  Autor przez chwilę walczył, ale nie przebił betonu moderacji Google'a. Zakończył pracę nad dodatkiem.
+  Autor przez chwilę walczył, ale nie przebił betonu moderacji Google'a. Zakończył pracę nad dodatkiem.
 
   > I&nbsp;asked for details (...), but it's Google, so of course I&nbsp;didn't get a&nbsp;response.
 
@@ -320,7 +320,7 @@ SafetyNet sprawia, że nie mamy swobody wprowadzania zmian w&nbsp;swoich telefon
 
 To zabezpieczenie daje autorom aplikacji gwarancję, że użytkownicy korzystają z&nbsp;apek na ich zasadach.
 
-Nie wierzę w&nbsp;wielkie spiskowe plany i&nbsp;zakładam, że SafetyNet powstało dla pieniędzy (za taką kontrolę zapłaciłyby np. duże serwisy streamingowe, żeby utrudnić nam kopiowanie filmów). Ale jego efekt uboczny jest dystopijny.
+Nie wierzę w&nbsp;wielkie spiskowe plany i&nbsp;zakładam, że SafetyNet powstało dla pieniędzy (za taką kontrolę zapłaciłyby np. duże serwisy streamingowe, żeby utrudnić nam kopiowanie filmów). Ale jego efekt uboczny jest dystopijny.
 
 Wyobraźmy sobie, że u&nbsp;władzy są ci, których nie lubimy. Obojętnie którzy.   
 Gdyby kiedyś wprowadzili aplikację śledzącą, którą każdy obywatel musi mieć („dla swojego dobra”!), to **przez SafetyNet byłaby ona nie do oszukania i&nbsp;nie do obejścia**.

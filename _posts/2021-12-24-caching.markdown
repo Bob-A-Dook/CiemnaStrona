@@ -60,7 +60,7 @@ Najpierw spójrzmy krótko na znaczenie angielskiego terminu *cache*. Dosłownie
 Już w&nbsp;nieśmiertelnych *Heroesach 3* pojawiało się słowo *cache* w&nbsp;odniesieniu do ukrytego skarbu.  
 P.S. Prawie zawsze wybierałem punkty doświadczenia zamiast złota.
 
-Czytając o&nbsp;sprawach komputerowych, z&nbsp;pojęciem *cache'a* możemy się zetknąć praktycznie na każdym poziomie -- od procesorów, przez programy, po szersze zagadnienie komunikacji internetowej.
+Czytając o&nbsp;sprawach komputerowych, z&nbsp;pojęciem *cache'a* możemy się zetknąć praktycznie na każdym poziomie -- od procesorów, przez programy, po szersze zagadnienie komunikacji internetowej.
 
 To tak powszechna rzecz, ponieważ pozwala osiągnąć coś, co pewnie większość z&nbsp;nas sobie ceni -- oszczędzić sobie niepotrzebnej i&nbsp;powtarzalnej roboty.
 
@@ -97,7 +97,7 @@ Dzięki tablicom nie musimy podstawiać liczb do dużych wzorów i&nbsp;liczyć 
 
 Tyle tytułem ogólników, pasujących do każdego rodzaju pamięci podręcznej. Teraz skupimy się *stricte* na tej w&nbsp;przeglądarce.
 
-We wszystkich przeglądarkach **pamięć podręczna jest folderem**. Znajdują się w nim różne pliki:
+We wszystkich przeglądarkach **pamięć podręczna jest folderem**. Znajdują się w nim różne pliki:
 
 {:.figure}
 <img src="/assets/posts/caching/cache-folder-full.jpg" alt="Zrzut ekranu pokazujący folder pamięci podręcznej dla Chromium. Tym razem znajduje się w&nbsp;nim kilkanaście plików, których miniaturki wyglądają jak małe kwadraty pokryte bladymi zerami i&nbsp;jedynkami."/>
@@ -106,7 +106,7 @@ We wszystkich przeglądarkach **pamięć podręczna jest folderem**. Znajdują s
 Jeśli ikonki wydają się Wam obce, to dlatego że to przeglądarka systemu Linux Mint. Swoją drogą polecam.
 
 {% include info.html type="Porada"
-text="W przypadku Firefoksa możecie łatwo sprawdzić, gdzie jest Wasz folder z&nbsp;pamięcią podręczną, wpisując w&nbsp;pasek adresu `about:cache`.  
+text="W przypadku Firefoksa możecie łatwo sprawdzić, gdzie jest Wasz folder z&nbsp;pamięcią podręczną, wpisując w&nbsp;pasek adresu `about:cache`.  
 Swoją drogą to fajny sposób na przeglądanie, co mamy w&nbsp;*cache'u*; są tam również pliki, które nie zostaną zapisane na dysku.  
 Co do innych przeglądarek:  
 Chromium na Linuksie -- pamięć podręczna znajduje się w&nbsp;folderze `.cache/chromium/Default/Cache`.  
@@ -132,7 +132,7 @@ Na potrzeby testów odpaliłem w&nbsp;jednym oknie Chromium (nie Chrome'a!) i&nb
 
 Następnie wkleiłem w&nbsp;pasek przeglądarki link prowadzący do wpisu. Przeniosło mnie na oczekiwaną stronę. A&nbsp;w mojej pamięci podręcznej przybyło plików! Zresztą tych samych, które pokazałem na wcześniejszym screenie.
 
-Użyłem swojego skryptu badawczego, żeby wybrać spośród tych plików obrazki i&nbsp;skopiować je do osobnego folderu. Tak się w nim prezentowały:
+Użyłem swojego skryptu badawczego, żeby wybrać spośród tych plików obrazki i&nbsp;skopiować je do osobnego folderu. Tak się w nim prezentowały:
 
 {:.figure .bigspace}
 <img src="/assets/posts/caching/ciemna-strona-cache-thumbnails.jpg" alt="Zrzut ekranu z&nbsp;przeglądarki plików pokazujący 9 miniaturek w&nbsp;jednym folderze. Dwie z&nbsp;nich to ikony emoji, jedna to logo Ciemnej Strony, reszta to większe obrazki z&nbsp;treści wpisu."/>
@@ -161,7 +161,7 @@ Dlatego, gdy po swoim teście zerknąłem na historię przeglądania, znalazłem
 {:.figcaption}
 W moim przypadku to bardziej dwie strony, bo jedna to ekran logowania, a&nbsp;druga to główna *facebook.com*.
 
-A w&nbsp;cache'u? **Zapisały się tam (chyba) wszystkie obrazki, jakie mi się wyświetliły**. Zarówno na stronie, jak i&nbsp;na czacie. Miniaturki znajomych, z&nbsp;którymi coś pisałem. Reklamy i&nbsp;ilustracje do wpisów, jakie akurat mi pokazało na tablicy.
+A w&nbsp;cache'u? **Zapisały się tam (chyba) wszystkie obrazki, jakie mi się wyświetliły**. Zarówno na stronie, jak i&nbsp;na czacie. Miniaturki znajomych, z&nbsp;którymi coś pisałem. Reklamy i&nbsp;ilustracje do wpisów, jakie akurat mi pokazało na tablicy.
 
 Tutaj przykład jednego niewinnego zdjęcia, które mój znajomy dodał do grupowej konwersacji:
 
@@ -204,7 +204,7 @@ W przypadku takiego Facebooka na pewno pomaga fakt, że w pierwszej kolejności 
 Nawet gdybyśmy korzystali z publicznego komputera, gdzie pamięć podręczna przyjmuje obrazki od różnych osób, ktoś mógłby łatwo porozdzielać zdjęcia z&nbsp;różnych kont, patrząc na godziny ich otrzymania.  
 Nowa duża porcja obrazków = nowy zalogowany użytkownik, któremu załadowały się inne miniaturki. 
 
-Poza tym wśród obrazków będą również te z naszych prywatnych konwersacji. Nowy dowód osobisty, który wysłaliśmy siostrze? Pinezka na mapie i kod do drzwi, jaki podaliśmy bliskiemu znajomemu dokarmiającemu kota pod naszą nieobecność? Zdjęcia, które powinny pozostać prywatne?
+Poza tym wśród obrazków będą również te z naszych prywatnych konwersacji. Nowy dowód osobisty, który wysłaliśmy siostrze? Pinezka na mapie i kod do drzwi, jaki podaliśmy bliskiemu znajomemu dokarmiającemu kota pod naszą nieobecność? Zdjęcia, które powinny pozostać prywatne?
 
 W pamięci podręcznej **wszelkie wrażliwe dane mogą być na widoku**. Jeśli ktoś je dorwie i połączy z naszą tożsamością, to wszystko może się zdarzyć.
 

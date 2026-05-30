@@ -10,15 +10,15 @@ Jedną z&nbsp;rzeczy, które opisałem, było [ustawianie języka polskiego](/tu
 
 ...Ale od tamtego czasu odkryłem, że konsola nie do końca daje to samo. W&nbsp;szczególności na **Cinnamonie**, czyli jednym z&nbsp;wariantów Minta.
 
-Jeśli wyklikam w&nbsp;menu systemu, że chcę polski układ klawiatury, to nie tylko będę mógł wstawiać literę `ą` przez naciśnięcie `Alt+A`, ale również zyskam nową ikonę na dolnym pasku. Dzięki niej można przełączać się między układami.  
-Szybkie polecenie konsolowe `setxkbmap pl` mi tego nie daje; literki działają, ale pasek się nie zmienia. Do tego układ wraca do poprzedniego stanu po ponownym zalogowaniu.
+Jeśli wyklikam w&nbsp;menu systemu, że chcę polski układ klawiatury, to nie tylko będę mógł wstawiać literę `ą` przez naciśnięcie `Alt+A`, ale również zyskam nową ikonę na dolnym pasku. Dzięki niej można przełączać się między układami.  
+Szybkie polecenie konsolowe `setxkbmap pl` mi tego nie daje; literki działają, ale pasek się nie zmienia. Do tego układ wraca do poprzedniego stanu po ponownym zalogowaniu.
 
 W jaki sposób sprawić za pomocą konsoli, że na dolnym pasku Cinnamona pojawi się kontrolka od układu klawiatury, ustawiona na język polski? Postanowiłem zanurkować w&nbsp;bebechy systemu, szukając odpowiedzi na to pytanie.
 
 {% include info.html
 type="Uwaga"
 text="Lojalnie uprzedzam, że wpis nie zawiera odpowiedzi. Mam na koniec inną, bardzo podobną eksplorację [dla Minta MATE](/miniposts/linux-mint-mate-klawiatura){:.internal}. Tam zakończyło się sukcesem, tutaj nie."
-trailer="<p>Jeśli ktoś chce po prostu zyskać polskie znaki na Mincie, obojętnie w&nbsp;jaki sposób, to polecam menu graficzne oraz mój przewodnik, podlinkowany wyżej.</p>
+trailer="<p>Jeśli ktoś chce po prostu zyskać polskie znaki na Mincie, obojętnie w&nbsp;jaki sposób, to polecam menu graficzne oraz mój przewodnik, podlinkowany wyżej.</p>
 <p>Obecny wpis może się natomiast przydać osobom chcącym lepiej poznać Minta i&nbsp;stopniowo przechodzić od interfejsu graficznego do debugowania w&nbsp;konsoli. Opisuję całą eksplorację krok po kroku. Z&nbsp;pozycji ucznia, nie mistrza (do którego mi daleko).</p>"
 %}
 
@@ -26,7 +26,7 @@ trailer="<p>Jeśli ktoś chce po prostu zyskać polskie znaki na Mincie, obojęt
 
 Najpierw zobrazuję dokładniej, na ilustracjach, na jakim efekcie mi zależało.
 
-Każda osoba mająca pod ręką myszkę lub touchpada może kliknąć znak Minta w&nbsp;lewym dolnym rogu, następnie ikonkę z lewej kolumny otwierającą Centrum Sterowania *Światem*{:.corr-del}. Tam można znaleźć ikonkę odsyłającą do menu odpowiedzialnego za klawiaturę.
+Każda osoba mająca pod ręką myszkę lub touchpada może kliknąć znak Minta w&nbsp;lewym dolnym rogu, następnie ikonkę z lewej kolumny otwierającą Centrum Sterowania *Światem*{:.corr-del}. Tam można znaleźć ikonkę odsyłającą do menu odpowiedzialnego za klawiaturę.
 
 {:.bigspace}
 <img src="/assets/tutorials/mint-cinnamon-klawiatura-strace/mint-cinnamon-menu-klawiatury.png" alt="Trzy ikonki: logo Minta, ikona Centrum Ustawień, ikona ustawień od klawiatury"/>
@@ -36,7 +36,7 @@ W tym menu można z&nbsp;kolei wejść w&nbsp;zakładkę `Layouts`. Pokaże się
 {:.bigspace}
 <img src="/assets/tutorials/mint-cinnamon-klawiatura-strace/cinnamon-polska-klawiatura.png" alt="Kolaż pokazujący przyciski, jakie należy kliknąć, żeby dodać polski układ klawiatury do listy wspieranych"/>
 
-Efektem tych działań będzie dodanie flagi USA do dolnego paska. Po jej kliknięciu rozwinie się menu, z&nbsp;którego można wybrać flagę polską. A&nbsp;po jej kliknięciu -- zaczną nam działać polskie znaki.
+Efektem tych działań będzie dodanie flagi USA do dolnego paska. Po jej kliknięciu rozwinie się menu, z&nbsp;którego można wybrać flagę polską. A&nbsp;po jej kliknięciu -- zaczną nam działać polskie znaki.
 
 {:.bigspace}
 <img src="/assets/tutorials/mint-cinnamon-klawiatura-strace/cinnamon-polska-klawiatura-wybor.png" alt="Zrzut ekranu pokazujący wybranie polskiej flagi z&nbsp;dolnego paska Cinnamona"/>
@@ -49,7 +49,7 @@ Nie był to pierwszy przypadek, gdy wychodziłem od klikania w&nbsp;interfejs, a
 
 Przykładowo: porównałem kiedyś, jakie pliki otwiera program działający, a&nbsp;jakie niedziałający. Ustaliłem, że w&nbsp;obu przypadkach to te same pliki. A&nbsp;zatem to nie brak czcionek był przyczyną [niewłaściwego wyświetlania azjatyckich znaków](/tutorials/linux-odzyskiwanie-azjatyckich-znakow.html){:.internal}.
 
-Inny przykład: chciałem ustalić, jak działa program rozpakowujący pliki ZIP. Zwłaszcza że użycie programiku `unzip` na pliku, z&nbsp;którym ten graficzny dawał radę, kończyło się błędem.  
+Inny przykład: chciałem ustalić, jak działa program rozpakowujący pliki ZIP. Zwłaszcza że użycie programiku `unzip` na pliku, z&nbsp;którym ten graficzny dawał radę, kończyło się błędem.  
 W tamtym przypadku odkryłem, że klikanie w&nbsp;interfejs [woła program `7z`, czyli *7-Zip*](/miniposts/linux-mint-engrampa-strace){:.internal}. Mogłem go użyć zamiast *unzipa* i&nbsp;zyskać pożądany efekt.
 
 W tym przypadku również liczyłem, że znajdę którąś z&nbsp;dwóch rzeczy:
@@ -63,13 +63,13 @@ Nie do końca poszło po mojej myśli, ale wyprzedzam fakty. Póki co -- plecak 
 
 ## Zaglądanie za kulisy
 
-Na początek uruchomiłem konsolę kombinacją `Ctrl+Alt+T`. Obok niej ustawiłem najzwyklejsze okno Centrum Sterowania, z&nbsp;otwartą zakładką od układu klawiatury (jak na obrazku z&nbsp;poprzedniej sekcji, zawierającym słowo *Layouts*). 
+Na początek uruchomiłem konsolę kombinacją `Ctrl+Alt+T`. Obok niej ustawiłem najzwyklejsze okno Centrum Sterowania, z&nbsp;otwartą zakładką od układu klawiatury (jak na obrazku z&nbsp;poprzedniej sekcji, zawierającym słowo *Layouts*). 
 
 ### Ustalanie odpowiedzialnego programu
 
 Wiedziałem, że za widocznym oknem z&nbsp;ustawieniami musi stać jakiś program-opiekun. Zależało mi na poznaniu jego nazwy, bo była potrzebna do dalszego konsolowego monitoringu.
 
-W konsolę wpisałem polecenie:
+W konsolę wpisałem polecenie:
 
 ```
 xprop | grep WM_CLASS
@@ -95,7 +95,7 @@ WM_CLASS(STRING) = "cinnamon-settings.py", "Cinnamon-settings.py"
 
 Znaleziony tekst oznacza, że za okno ustawień odpowiada programik `cinnamon-settings.py`. Skrypt Pythona, bardzo dobrze! W&nbsp;tym języku akurat cośtam „mówię”. Gdybym nie miał innego pomysłu, to zawsze mogę spróbować się w&nbsp;nim rozczytać.
  
-Na razie nie chciałem natomiast zaglądać do kodu, tylko potraktować program jak czarną skrzynkę, którą będę analizował.
+Na razie nie chciałem natomiast zaglądać do kodu, tylko potraktować program jak czarną skrzynkę, którą będę analizował.
 
 Pierwsza rzecz do sprawdzenia: czy dałoby się go wykonać przez konsolę? Tak po prostu wpisując nazwę?
 
@@ -126,7 +126,7 @@ Takim analizatorem jest choćby *strace*, domyślnie zainstalowany na Mincie.
 
 {% include info.html
 type="Jak działa strace"
-text="Za każdym razem, kiedy programy chcą na przykład zajrzeć do wnętrza plików, muszą prosić o&nbsp;to jądro systemu (czyli *de facto* Linuksa). Te prośby to po angielsku *syscalle* i&nbsp;dzielą się na różne rodzaje.  
+text="Za każdym razem, kiedy programy chcą na przykład zajrzeć do wnętrza plików, muszą prosić o&nbsp;to jądro systemu (czyli *de facto* Linuksa). Te prośby to po angielsku *syscalle* i&nbsp;dzielą się na różne rodzaje.  
 Jeśli uznamy, że jądro systemu jest jak król udzielający programom audiencji -- to *strace* jest jak kronikarz, którego wysyłamy do sali tronowej. Zapisuje sobie wszystkie prośby, a&nbsp;następnie zdaje nam dokładną relację."
 %}
 
@@ -141,7 +141,7 @@ strace -f -o PLIK PROGRAM
 
 Po użyciu polecenia uruchamia się typowe okno z&nbsp;ustawieniami -- w&nbsp;końcu aktywowałem program, który nim steruje.
 
-Zależało mi na śledzeniu zmian dotyczących układu klawiatury, więc wykonałem wszystkie kroki opisane [na początku wpisu](#zpunktu-widzenia-użytkowników){:.internal}, zyskując flagę na dolnym pasku. W&nbsp;tym momencie zamknąłem okno z&nbsp;ustawieniami, a&nbsp;*strace* przestał notować.
+Zależało mi na śledzeniu zmian dotyczących układu klawiatury, więc wykonałem wszystkie kroki opisane [na początku wpisu](#zpunktu-widzenia-użytkowników){:.internal}, zyskując flagę na dolnym pasku. W&nbsp;tym momencie zamknąłem okno z&nbsp;ustawieniami, a&nbsp;*strace* przestał notować.
 
 Rezultatem tej dość krótkiej interakcji był spory plik, liczący w&nbsp;moim przypadku 3,9 MB.
 
@@ -153,7 +153,7 @@ Czego szukać w&nbsp;kronice *strace'a*? Dotąd miałem dobre doświadczenia ze 
 grep 'openat' PLIK
 ```
 
-Wyskoczy bardzo dużo linijek, z&nbsp;których większość odpowiada ładowaniu elementów podczas samego uruchamiania programu. Może się to wydawać przytłaczające, ale parę intuicyjnych regułek pomaga okiełznać złożoność.
+Wyskoczy bardzo dużo linijek, z&nbsp;których większość odpowiada ładowaniu elementów podczas samego uruchamiania programu. Może się to wydawać przytłaczające, ale parę intuicyjnych regułek pomaga okiełznać złożoność.
 
 {% include details.html summary="Sposób na odsiewanie wyników ze strace'a" %}
 
@@ -171,7 +171,7 @@ Poza tym przypomnę, że zawęziłem wyniki do funkcji *openat*, od otwierania p
 
 * Pliki zawierające w&nbsp;ścieżce `.config/cinnamon/spices` to zapewne elementy interfejsu.
 
-  Z&nbsp;pozoru wydają się czymś ciekawym; ale w&nbsp;nazwach widać rzeczy takie jak *printers* („drukarki”), więc może to być po prostu lista rzeczy ładowanych każdorazowo. Niezwiązana z&nbsp;układem klawiatury.
+  Z&nbsp;pozoru wydają się czymś ciekawym; ale w&nbsp;nazwach widać rzeczy takie jak *printers* („drukarki”), więc może to być po prostu lista rzeczy ładowanych każdorazowo. Niezwiązana z&nbsp;układem klawiatury.
 
 * Pliki nieznalezione (z&nbsp;wiadomością *No such file or directory* na końcu) były dla mnie mało interesujące, bo liczyłem na coś, do czego zapisano ustawienia.
 
@@ -216,7 +216,7 @@ To też mocny trop, bo X11 odpowiada za różne rzeczy na Linuksie. Zarządzanie
 
 Odczytując ten plik, mogłem zobaczyć, że istotnie dotyczy różnych układów klawiatury.
 
-Ale nie ma co się cieszyć na wyrost, bo oprócz plików liczy się to, co robił z&nbsp;nimi program. Za chwilę zobaczymy, że jedynie *odczytywał* stąd informacje. Nie mogły to być zatem poszukiwane pliki konfiguracyjne.
+Ale nie ma co się cieszyć na wyrost, bo oprócz plików liczy się to, co robił z&nbsp;nimi program. Za chwilę zobaczymy, że jedynie *odczytywał* stąd informacje. Nie mogły to być zatem poszukiwane pliki konfiguracyjne.
 
 {% include details-end.html %}
 
@@ -234,7 +234,7 @@ Występowało tu parę ciekawych, charakterystycznych słów:
 * *panel* (określenie na dolny pasek),
 * *chooser* (element odpowiedzialny za wybieranie).
 
-Miałem mocne podejrzenie, że to ten plik odpowiada za wszystko. Pojawił się zatem nowy pomysł: wyświetlić teraz *wszystkie* zapiski ze *strace'a*, już bez zawężania do funkcji *openat*. Ale trzymać się tylko tej linijki i&nbsp;późniejszych.
+Miałem mocne podejrzenie, że to ten plik odpowiada za wszystko. Pojawił się zatem nowy pomysł: wyświetlić teraz *wszystkie* zapiski ze *strace'a*, już bez zawężania do funkcji *openat*. Ale trzymać się tylko tej linijki i&nbsp;późniejszych.
 
 ### Przegląd pełnych wyników strace'a
 
@@ -261,11 +261,11 @@ grep -F -v -e recvmsg -e poll PLIK | less
   Poprzednio tego nie używałem, ale teraz to robię, bo chcę znaleźć kilka rzeczy jedną komendą.
 
   {:.post-meta}
-  Szukanie kilku wzorców naraz można też zapisać jako `'rzecz1|rzecz2'`, ale wyraźne wskazywanie każdej z&nbsp;nich z&nbsp;osobna wydaje mi się bardziej przejrzyste.
+  Szukanie kilku wzorców naraz można też zapisać jako `'rzecz1|rzecz2'`, ale wyraźne wskazywanie każdej z&nbsp;nich z&nbsp;osobna wydaje mi się bardziej przejrzyste.
 
 {% include details-end.html %}
 
-Po użyciu komendy w&nbsp;konsoli zrobiło się znacznie czyściej. Ale wciąż nie chciało mi się przewijać wielu linijek dotyczących zwykłego ładowania menu.
+Po użyciu komendy w&nbsp;konsoli zrobiło się znacznie czyściej. Ale wciąż nie chciało mi się przewijać wielu linijek dotyczących zwykłego ładowania menu.
 
 Żeby przejść w&nbsp;dobre miejsce, użyłem funkcji szukania wbudowanej w&nbsp;*lessa*: nacisnąłem ukośnik (`/`), wpisałem `layout-chooser` (charakterystyczny fragment nazwy pliku, który mnie interesował), po czym nacisnąłem `Enter`. Przewinęło do odpowiedniej linijki.
 
@@ -287,15 +287,15 @@ Podobny wzorzec -- wczytanie danych i&nbsp;natychmiastowe zamknięcie -- widać 
 
 A co takiego zrobił nasz program? Tego niestety nie ustaliłem. Kolejne linijki *strace'a* pokazują między innymi użycie komendy `sendmsg`, na oko z&nbsp;danymi niebędącymi tekstem -- może program ulepił coś z&nbsp;informacji i&nbsp;wysłał to do jakiegoś innego procesu systemowego?
 
-W każdym razie nie znalazłem ani zmiany pliku konfiguracyjnego, ani przywołania znanego podprogramu. Inne mechanizmy działania Linuksa są mi na razie mniej znane, więc odłożyłem sprawę na później.
+W każdym razie nie znalazłem ani zmiany pliku konfiguracyjnego, ani przywołania znanego podprogramu. Inne mechanizmy działania Linuksa są mi na razie mniej znane, więc odłożyłem sprawę na później.
 
 ## Podsumowanie
 
 Na ten moment nie wyłapałem, co dokładnie zachodzi od momentu wybrania polskiej klawiatury z&nbsp;graficznego menu do pojawienia się ikonki na dolnym pasku Cinnamona.
 
-Znam natomiast nazwę apletu (`keyboard@cinnamon.org`, odczytana po prawokliknięciu ikony flagi). Wiem również, gdzie szukać programu sterującego całym działaniem. To skrypt Pythona, więc będę w stanie się w&nbsp;nim rozczytać i&nbsp;może wyciągnąć jakieś wnioski. Ogólnie: wyzwanie na później :sunglasses:
+Znam natomiast nazwę apletu (`keyboard@cinnamon.org`, odczytana po prawokliknięciu ikony flagi). Wiem również, gdzie szukać programu sterującego całym działaniem. To skrypt Pythona, więc będę w stanie się w&nbsp;nim rozczytać i&nbsp;może wyciągnąć jakieś wnioski. Ogólnie: wyzwanie na później :sunglasses:
 
-Póki co była natomiast eksploracja: `xprop`, `locate`, `strace` do pliku, `grep`, `less`, filtrowanie i&nbsp;szukanie na oko... Mam nadzieję, że kronika z&nbsp;tej wyprawy pomoże komuś, kto chce osobiście, krok po kroku, zajrzeć za kurtynę i&nbsp;lepiej odkryć, jak działa Linux.
+Póki co była natomiast eksploracja: `xprop`, `locate`, `strace` do pliku, `grep`, `less`, filtrowanie i&nbsp;szukanie na oko... Mam nadzieję, że kronika z&nbsp;tej wyprawy pomoże komuś, kto chce osobiście, krok po kroku, zajrzeć za kurtynę i&nbsp;lepiej odkryć, jak działa Linux.
 
 Ta wiedza się przyda, żeby go doskonalić i&nbsp;pomagać innym osobom w&nbsp;skutecznej migracji (która, mam nadzieję, będzie coraz intensywniejsza).
 

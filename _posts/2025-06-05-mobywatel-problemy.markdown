@@ -353,7 +353,7 @@ Twórcy mObywatela nie muszą w&nbsp;sumie specjalnie się fatygować do App Gal
 
 ## Blokowanie alternatywnych systemów
 
-> Czy mogę korzystać z aplikacji, kiedy na moim urządzeniu mam włączone <span class="red">uprawnienia root?</span>  
+> Czy mogę korzystać z aplikacji, kiedy na moim urządzeniu mam włączone <span class="red">uprawnienia root?</span>  
 Nie, wówczas nie ma możliwości korzystania z&nbsp;aplikacji.
 
 Takie coś piszą na oficjalnej stronie twórcy mObywatela. Nie musicie znać pojęcia „uprawnienia *root*” -- wystarczy wiedzieć, że to rodzaj modyfikacji systemu dający na nim więcej możliwości, na przykład w&nbsp;sferze prywatności. Innym rodzajem modyfikacji jest np. wymiana Androida na inny system. 

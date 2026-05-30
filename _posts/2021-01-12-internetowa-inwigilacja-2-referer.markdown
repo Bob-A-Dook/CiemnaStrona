@@ -70,8 +70,8 @@ Mimo to jest kilka sposobów, w&nbsp;jakie może zostać użyty przeciwko nam:
 
 * **Sam link do strony może sugerować coś wstydliwego**
 
-  Przykład: [9 na 10 stron poświęconych problemom zdrowotnym łączyło się z innymi stronkami, przekazując przy tym nagłówki użytkowników](https://nakedsecurity.sophos.com/2015/02/26/how-nine-out-of-ten-healthcare-pages-leak-private-data/).  
-  Dzięki temu firmy analityczne i&nbsp;reklamowe dostawały paczkę informacji. Na podstawie niektórych, na przykład plików *cookies*, mogły zapewne rozpoznać konkretnych użytkowników. A&nbsp;do tego w&nbsp;pakiecie dostawały referera pokazującego, że ta osoba oglądała właśnie podstrony o&nbsp;chorobach wenerycznych.
+  Przykład: [9 na 10 stron poświęconych problemom zdrowotnym łączyło się z innymi stronkami, przekazując przy tym nagłówki użytkowników](https://nakedsecurity.sophos.com/2015/02/26/how-nine-out-of-ten-healthcare-pages-leak-private-data/).  
+  Dzięki temu firmy analityczne i&nbsp;reklamowe dostawały paczkę informacji. Na podstawie niektórych, na przykład plików *cookies*, mogły zapewne rozpoznać konkretnych użytkowników. A&nbsp;do tego w&nbsp;pakiecie dostawały referera pokazującego, że ta osoba oglądała właśnie podstrony o&nbsp;chorobach wenerycznych.
 
 * **Referer może być częścią naszej „teczki”**
 
@@ -84,11 +84,11 @@ Mimo to jest kilka sposobów, w&nbsp;jakie może zostać użyty przeciwko nam:
 
 * **Umacnia kontrolę internetowych gigantów**.
 
-  Trochę jak poprzedni punkt, ale w&nbsp;wersji na dużą skalę. Referery to cenne informacje o&nbsp;dynamice powiązań w&nbsp;internecie. Firmy takie jak Google mogą dawać innym [możliwość analizowania ruchu](https://support.google.com/google-ads/answer/2382957?hl=pl-PL) na stronie. Ale kto im zabroni liczyć przy tym referery i&nbsp;mieć wgląd w&nbsp;kawał internetu?  
+  Trochę jak poprzedni punkt, ale w&nbsp;wersji na dużą skalę. Referery to cenne informacje o&nbsp;dynamice powiązań w&nbsp;internecie. Firmy takie jak Google mogą dawać innym [możliwość analizowania ruchu](https://support.google.com/google-ads/answer/2382957?hl=pl-PL) na stronie. Ale kto im zabroni liczyć przy tym referery i&nbsp;mieć wgląd w&nbsp;kawał internetu?  
 Dzięki temu widzą jako jedni z&nbsp;pierwszych, jakie strony (a&nbsp;zatem również poglądy, organizacje itp.) rosną w&nbsp;siłę, a&nbsp;jakie słabną. Dokąd warto włożyć ręce, żeby jeszcze bardziej umocnić swoją pozycję.  
-Czy tak robią? Na chwilę obecną chcę bardziej wczytać się w&nbsp;temat, więc nie powiem. Ale sama możliwość nie napawa optymizmem.
+Czy tak robią? Na chwilę obecną chcę bardziej wczytać się w&nbsp;temat, więc nie powiem. Ale sama możliwość nie napawa optymizmem.
 
-To tyle tytułem wiedzy. Mam nadzieję że trochę Cię zaskoczyłem.  
+To tyle tytułem wiedzy. Mam nadzieję że trochę Cię zaskoczyłem.  
 Jeśli chcesz coś z&nbsp;tym zrobić (jako użytkownik lub właściciel strony), to czytaj dalej! 
 
 ## Jak ukrywać referery
@@ -99,10 +99,10 @@ Można to zrobić bardzo łatwo. Zależy od tego, do której grupy należysz:
 
 ...W sumie niezbyt Cię obchodzą te całe referery. Albo może nie używasz swojego komputera i&nbsp;nie chcesz tak po prostu czegoś na nim zmieniać.
 
-Ale załóżmy, że chcesz jednorazowo ukryć referera. Na przykład jesteś na jakiejś dość „osobistej” stronce A. Jest na niej link do strony B. I&nbsp;trochę jednak nie chcesz, żeby ktoś ze strony B&nbsp;zobaczył, skąd przychodzisz.
+Ale załóżmy, że chcesz jednorazowo ukryć referera. Na przykład jesteś na jakiejś dość „osobistej” stronce A. Jest na niej link do strony B. I&nbsp;trochę jednak nie chcesz, żeby ktoś ze strony B&nbsp;zobaczył, skąd przychodzisz.
 
 Rozwiązanie: **zamiast klikać w&nbsp;link, skopiuj go do głównego paska przeglądarki**.  
-Znane mi przeglądarki (Firefox, mobilny Firefox Focus i&nbsp;Chrome, a&nbsp;pewnie wiele innych) nie wysyłają wtedy referera. A&nbsp;na stronkę wejdziesz.
+Znane mi przeglądarki (Firefox, mobilny Firefox Focus i&nbsp;Chrome, a&nbsp;pewnie wiele innych) nie wysyłają wtedy referera. A&nbsp;na stronkę wejdziesz.
 
 Możesz to przetestować, kopiując do paska <a href="https://browserleaks.com/ip">ten link, który normalnie przesłałby referera</a> (do BrowserLeaks).
 
@@ -121,7 +121,7 @@ W&nbsp;ramkach poniżej opisałem, jak je instalować w&nbsp;różnych przegląd
 Pójdzie szybko i&nbsp;bezboleśnie, do tego na początku nic Ci się nie zmieni.</p>
 </li>
 <li>
-<p>Wchodzimy w&nbsp;menu tego dodatku, na przykład klikając ikonę po prawej stronie od górnego paska z&nbsp;adresem:</p>
+<p>Wchodzimy w&nbsp;menu tego dodatku, na przykład klikając ikonę po prawej stronie od górnego paska z&nbsp;adresem:</p>
 <p class='figure bigspace'>
 <img src='/assets/posts/internetowa-inwigilacja-2-referer/chrome_extensions.webp' alt='Ikona dodatku Referer Control na górnym pasku.'/>
 </p></li>
@@ -137,7 +137,7 @@ Pójdzie szybko i&nbsp;bezboleśnie, do tego na początku nic Ci się nie zmieni
 </ol>" %}
 
 {% include info.html type="Heheszki" text="Jeśli masz nastrój na śmieszkowanie, możesz ustawić jako referer dowolny tekst, jaki tylko Ci się podoba -- wystarczy kliknąć zakładkę `Custom` i&nbsp;wpisać go w&nbsp;polu.  
-Według [tego źródła](https://stackoverflow.com/questions/11798451/what-is-the-maximum-length-of-referer) referer może liczyć do 2000 znaków, więc całkiem długa rozprawka by się zmieściła.  
+Według [tego źródła](https://stackoverflow.com/questions/11798451/what-is-the-maximum-length-of-referer) referer może liczyć do 2000 znaków, więc całkiem długa rozprawka by się zmieściła.  
 Sam natomiast zachęcam do trollowania podglądaczy czymś krótkim, treściwym i&nbsp;wyglądającym jak prawdziwy adres strony:" trailer="<p class='figure'><img src='/assets/posts/internetowa-inwigilacja-2-referer/referer-control-custom.webp' alt='Menu Referer Controla z ustawioną opcją Custom i wpisanym tekstem google-is-evil.com.'/></p>" %}
 
 
@@ -183,7 +183,7 @@ To się ceni! :+1:
 
 Jeśli używasz do tworzenia swojej strony popularnego Wordpressa, to możliwe że nie musisz nic robić. Według [tego artykułu](https://www.reliablesoft.net/noreferrer-noopener/) **Wordpress automatycznie wyłącza przekazywanie refererów**.
 
-Natomiast jeśli musisz samodzielnie usunąć referery, jednym ze sposobów jest dodanie atrybutu `rel="noreferrer"` do tych linków, które nie powinny ich przekazywać. Wyglądają wtedy tak:
+Natomiast jeśli musisz samodzielnie usunąć referery, jednym ze sposobów jest dodanie atrybutu `rel="noreferrer"` do tych linków, które nie powinny ich przekazywać. Wyglądają wtedy tak:
 
 <div class="black-bg mono">&lt;a href="TWÓJ_LINK" <span class="red">rel="noreferrer"</span>&gt;</div>
 

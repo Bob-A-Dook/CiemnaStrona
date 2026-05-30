@@ -50,7 +50,7 @@ Zatem w&nbsp;przypadku tego linku wyżej mamy dwa parametry:
 2. o nazwie `seria` i&nbsp;wartości `internetowa_inwigilacja`.
 
 {% include info.html type="Porada" text="Nie ma co psuć sobie wzroku, przeglądając parametry gołym okiem. Można je łatwo wyświetlić w&nbsp;narzędziach przeglądarki.  
-Naciskamy `Ctrl+Shift+I`, wybieramy zakładkę `Sieć` u&nbsp;góry. Odświeżamy stronę. Po załadowaniu listy elementów klikamy na dowolny z&nbsp;nich. Na dole, w&nbsp;zakładce `Parametry`, zobaczymy parametry w&nbsp;czytelnej formie:" trailer="<p class='figure'><img src='/assets/posts/linki-parametry/dev-tools-parametry.webp' width='500px' alt='Zrzut ekranu z Inspektora pokazujący listę z dwoma parametrami z linka do aktualnej strony oraz ich wartościami.'/></p>" %}
+Naciskamy `Ctrl+Shift+I`, wybieramy zakładkę `Sieć` u&nbsp;góry. Odświeżamy stronę. Po załadowaniu listy elementów klikamy na dowolny z&nbsp;nich. Na dole, w&nbsp;zakładce `Parametry`, zobaczymy parametry w&nbsp;czytelnej formie:" trailer="<p class='figure'><img src='/assets/posts/linki-parametry/dev-tools-parametry.webp' width='500px' alt='Zrzut ekranu z Inspektora pokazujący listę z dwoma parametrami z linka do aktualnej strony oraz ich wartościami.'/></p>" %}
 
 Parametry z&nbsp;założenia są elementami opcjonalnymi. Czyli: grzeczne serwery nie powinny się obrażać, jeśli za znakiem zapytania znajdą jakieś bzdury. Powinny to zignorować.  
 (Mój wewnętrzny troll już widzi potencjał na wpychanie tam spamu :smiling_imp:).
@@ -115,18 +115,18 @@ Domyślam się, że skrót `ayi` rozwija się w&nbsp;`Access Your Information`, 
 
 Mogę tylko zgadywać, co serwery Facebooka robią z&nbsp;tymi parametrami. W&nbsp;niewinnym przypadku po prostu jakoś sobie optymalizuje stronkę, żeby np. nie ładować czegoś niepotrzebnego.
 
-Ale gdyby chciał, to mógłby też łatwo sobie notować, kto korzystał z&nbsp;dobrodziejstw RODO i&nbsp;interesował się swoimi informacjami. Albo liczyć, jaki ogólnie jest w&nbsp;narodzie trend ku sprawdzaniu swojej prywatności.
+Ale gdyby chciał, to mógłby też łatwo sobie notować, kto korzystał z&nbsp;dobrodziejstw RODO i&nbsp;interesował się swoimi informacjami. Albo liczyć, jaki ogólnie jest w&nbsp;narodzie trend ku sprawdzaniu swojej prywatności.
 
 Brzmi jak teoria spiskowa? Może, ale kiedyś Facebook już kusił ludzi darmową apką, która potem wysyłała mu listę innych zainstalowanych aplikacji. Dzięki temu [wykrywał na bieżąco](https://businessinsider.com.pl/technologie/nowe-technologie/facebook-onavo-aplikacja-wycofana-z-rynku/2k1bhhr), czy wyrasta mu konkurencja. I&nbsp;**wykupił WhatsAppa, nim ten urósł w&nbsp;siłę**.
 
-{% include info.html type="Ciekawostka" text="Już od jakiegoś czasu ich nie widziałem, ale kiedyś Facebook potrafił dodawać do różnych nowinek na tablicy parametr `cft[0]`, którego wartością był dłuuuuugi ciąg znaków. Inny dla każdego posta, ale taki sam dla wszystkich linków z&nbsp;tego posta (czyli np. obrazka, linku do profilu autora, linku z&nbsp;treści...).  
+{% include info.html type="Ciekawostka" text="Już od jakiegoś czasu ich nie widziałem, ale kiedyś Facebook potrafił dodawać do różnych nowinek na tablicy parametr `cft[0]`, którego wartością był dłuuuuugi ciąg znaków. Inny dla każdego posta, ale taki sam dla wszystkich linków z&nbsp;tego posta (czyli np. obrazka, linku do profilu autora, linku z&nbsp;treści...).  
 Jakiś unikalny identyfikator?  
-Chcąc poszukać, o&nbsp;co chodzi z&nbsp;tymi parametrami, wpisałem w&nbsp;wyszukiwarkę *cft[0] in facebook*. Okazało się, że [ktoś już o&nbsp;to zapytał](https://stackoverflow.com/questions/64092454/what-is-the-purpose-of-the-new-cft-0-and-tn-parameters-in-facebook-po), ale nie dostał żadnej odpowiedzi.  
-Dowiedziałem się jedynie, że według autora to `__cft[0]__` to coś względnie nowego, z&nbsp;maja 2020 r." %}
+Chcąc poszukać, o&nbsp;co chodzi z&nbsp;tymi parametrami, wpisałem w&nbsp;wyszukiwarkę *cft[0] in facebook*. Okazało się, że [ktoś już o&nbsp;to zapytał](https://stackoverflow.com/questions/64092454/what-is-the-purpose-of-the-new-cft-0-and-tn-parameters-in-facebook-po), ale nie dostał żadnej odpowiedzi.  
+Dowiedziałem się jedynie, że według autora to `__cft[0]__` to coś względnie nowego, z&nbsp;maja 2020 r." %}
 
 # Parametry + przekierowania
 
-Nawiążę teraz do poprzedniego wpisu, o&nbsp;podmianie linków i&nbsp;przekierowaniach. Twitter dla każdego linku tworzył osobną mini-stronkę. Jak się okazuje, nie trzeba być tak rozrzutnym.
+Nawiążę teraz do poprzedniego wpisu, o&nbsp;podmianie linków i&nbsp;przekierowaniach. Twitter dla każdego linku tworzył osobną mini-stronkę. Jak się okazuje, nie trzeba być tak rozrzutnym.
 
 Dzięki parametrom można naszykować jedną i&nbsp;tę samą stronę dla wszystkich przekierowań. A&nbsp;adresy stron, do których mają zostać przekierowani ludzie, upychać w&nbsp;parametrach.
 
@@ -142,14 +142,14 @@ Ma jeden parametr: `url`, o&nbsp;wartości `https://getfedora.org/`. To link doc
 1. Klikniemy w&nbsp;ten ich podmieniony link;
 2. Przeniesie nas do strony *linkfilter*.  
 
-   Oprócz parametrów serwer dostanie teraz naszą etykietę z informacjami (w tym zapewne m.in. pliki cookies Steama, identyfikujące nasze konto). Będzie wiedział, że ta konkretna osoba kliknęła w&nbsp;ten konkretny link.
+   Oprócz parametrów serwer dostanie teraz naszą etykietę z informacjami (w tym zapewne m.in. pliki cookies Steama, identyfikujące nasze konto). Będzie wiedział, że ta konkretna osoba kliknęła w&nbsp;ten konkretny link.
   
 3. Serwer przeanalizuje parametr *url*.
 4. Przekieruje nas do strony z&nbsp;tego parametru.  
   
    Albo i&nbsp;nie. Jeśli strona mu się nie spodoba, to może nas nie przepuścić; poza tym mógłby zapisać sobie w&nbsp;bazie, że ten konkretny użytkownik klika w&nbsp;nieodpowiednie linki.
 
-A jak będzie, jeśli dysponujemy odpowiednim dodatkiem do przeglądarki? Wtedy wszystko odbędzie się w nieco inny sposób, przyjaźniejszy dla nas.
+A jak będzie, jeśli dysponujemy odpowiednim dodatkiem do przeglądarki? Wtedy wszystko odbędzie się w nieco inny sposób, przyjaźniejszy dla nas.
 
 **Jeśli przechytrzymy Steama:**
 
@@ -166,11 +166,11 @@ A jak będzie, jeśli dysponujemy odpowiednim dodatkiem do przeglądarki? Wtedy 
 
 # Podsumowanie linków
 
-Możemy zauważyć, że wszystkie trzy sprawy związane z&nbsp;linkami (referer, przekierowania, parametry) nieco się ze sobą łączą:
+Możemy zauważyć, że wszystkie trzy sprawy związane z&nbsp;linkami (referer, przekierowania, parametry) nieco się ze sobą łączą:
 
-* jeśli kliknięty link robi nam przekierowanie, to wysyłamy swoje informacje stronkom, którym może nie chcieliśmy;
+* jeśli kliknięty link robi nam przekierowanie, to wysyłamy swoje informacje stronkom, którym może nie chcieliśmy;
 * wśród tych informacji jest referer, który zdradza gdzie byliśmy.
-* w&nbsp;dodatku zarówno w&nbsp;refererze, jak i&nbsp;w klikniętym linku mogą być parametry, które mówią o&nbsp;nas jeszcze więcej.
+* w&nbsp;dodatku zarówno w&nbsp;refererze, jak i&nbsp;w klikniętym linku mogą być parametry, które mówią o&nbsp;nas jeszcze więcej.
 
 Myślę, że ta porcja informacji wystarczająco obniżyła naszą ufność do parametrów.  
 W poprzednich wpisach mówiłem, że referera można zwykle usuwać bez obaw, a&nbsp;przekierowania da się obejść. A&nbsp;co zrobić z&nbsp;parametrami?
@@ -195,7 +195,7 @@ Innym razem parametry są wręcz niezbędne i&nbsp;strona bez nich nie działa. 
 Jeśli usuniemy z&nbsp;linku parametry, czyli wszystko po znaku zapytania, to zostaniemy praktycznie z&nbsp;niczym. A po wejściu w&nbsp;taki link wyświetli nam błąd:
 
 {:.bigspace}
-<img src="/assets/posts/linki-parametry/po-co-parametry.webp" alt="Fragmenty dwóch screenów. Jeden pokazuje stronę HackerNews, kiedy w pasku adresu jest pełen link. Parametr id jest w nim podkreślony na czerwono. Drugi pokazuje tę samą stronę bez parametrów. Widać wyświetlony komunikat o błędzie."/>
+<img src="/assets/posts/linki-parametry/po-co-parametry.webp" alt="Fragmenty dwóch screenów. Jeden pokazuje stronę HackerNews, kiedy w pasku adresu jest pełen link. Parametr id jest w nim podkreślony na czerwono. Drugi pokazuje tę samą stronę bez parametrów. Widać wyświetlony komunikat o błędzie."/>
 
 Jak widać, **bez parametru _id_ z&nbsp;określoną wartością nie dostaniemy tego, na co liczyliśmy**. Gdybyśmy automatycznie usuwali wszystkie parametry, to strona by w&nbsp;ogóle nie działała.
 
@@ -237,7 +237,7 @@ Dlatego **jedyną trwalszą ochroną jest własna wiedza**.
 
 Żeby osoba chcąca prywatności wiedziała przynajmniej, żeby korzystać z&nbsp;jak najsilniejszej blokady. A&nbsp;kiedy jakieś strony nie będą działały, to żeby umiała tę blokadę tymczasowo wyłączyć.
 
-Nie wydaje mi się, żeby to przerastało ludzi -- w&nbsp;końcu już teraz podobnie wygląda sytuacja z&nbsp;*ad blockerami*. A&nbsp;w różnych korpo szkolenia z&nbsp;ochrony przed *phishingiem* są powszechne.  
+Nie wydaje mi się, żeby to przerastało ludzi -- w&nbsp;końcu już teraz podobnie wygląda sytuacja z&nbsp;*ad blockerami*. A&nbsp;w różnych korpo szkolenia z&nbsp;ochrony przed *phishingiem* są powszechne.  
 Takie „ABC” prywatności w&nbsp;sieci nie wydaje się poza zasięgiem, a&nbsp;dużo by zmieniło.
 
 Ale koniec rozważań, robota czeka :smile:

@@ -22,7 +22,7 @@ Ale tym razem pojawiła się współczesna nowość. **Popularny e&#8209;dzienni
 Gdyby to była jakaś zwykła, dobrowolna apka ułatwiająca życie, to pół biedy. Ale jest inaczej. Dzienniczek jest narzucony odgórnie, segment zdominowany przez dwie firmy, darmowa konkurencja niedawno została stłamszona.  
 Tu i&nbsp;teraz 38&nbsp;zł może nie przerażać. Ale zapewne jeszcze nieraz przyjdzie zapłacić za skutki uboczne cyfryzacji i&nbsp;oddawania kluczowych części państwa w&nbsp;ręce sektora prywatnego.
 
-...Jest jednak iskierka nadziei, którą nie wszyscy dostrzegli. Mianowicie: **mimo płatnej apki strona pozostaje darmowa -- musi taka być, bo uczniów częściowo chronią przepisy**. W&nbsp;tym wpisie rozwinę ten temat. Poświęcę też nieco uwagi obecności turboreklamowców, Google'a i&nbsp;Mety (Facebooka), na stronie dzienniczka. Pokażę, jak się ukryć przed ich wzrokiem.
+...Jest jednak iskierka nadziei, którą nie wszyscy dostrzegli. Mianowicie: **mimo płatnej apki strona pozostaje darmowa -- musi taka być, bo uczniów częściowo chronią przepisy**. W&nbsp;tym wpisie rozwinę ten temat. Poświęcę też nieco uwagi obecności turboreklamowców, Google'a i&nbsp;Mety (Facebooka), na stronie dzienniczka. Pokażę, jak się ukryć przed ich wzrokiem.
 
 Zapraszam! Również osoby, dla których szkoła to dawne dzieje, już wyparte z&nbsp;pamięci :smile:
 
@@ -49,14 +49,14 @@ Zapraszam! Również osoby, dla których szkoła to dawne dzieje, już wyparte z
 ## Zarys sytuacji
 
 Współczesne szkoły są nieco lepiej zbratane z&nbsp;cyfrowym światem niż te sprzed lat. Jedną z&nbsp;często stosowanych nowinek są **elektroniczne dzienniczki**.  
-To sposób na wymianę informacji między nauczycielami a&nbsp;uczniami i&nbsp;ich rodzicami. Nauczyciele mogą tam wpisywać, co będzie potrzebne na zajęcia, czy będą jakieś zastępstwa itd. Uczniowie i&nbsp;rodzice mogą odczytywać te informacje i&nbsp;się dostosowywać, przepływ informacji jest sprawny.
+To sposób na wymianę informacji między nauczycielami a&nbsp;uczniami i&nbsp;ich rodzicami. Nauczyciele mogą tam wpisywać, co będzie potrzebne na zajęcia, czy będą jakieś zastępstwa itd. Uczniowie i&nbsp;rodzice mogą odczytywać te informacje i&nbsp;się dostosowywać, przepływ informacji jest sprawny.
 
-Nim przejdę dalej, obalę pewien argument krzykaczy z&nbsp;Twittera/X, brzmiący mniej więcej: „firma musi na czymś zarabiać! Za darmo to każdy by chciał”.  
+Nim przejdę dalej, obalę pewien argument krzykaczy z&nbsp;Twittera/X, brzmiący mniej więcej: „firma musi na czymś zarabiać! Za darmo to każdy by chciał”.  
 Żadnego tłamszenia czy wyciskania biednej firmy tu nie ma. Twórcy dzienniczków otrzymują spore pieniądze (od szkół i&nbsp;gmin, czyli *de facto* podatników) za licencje na swoje platformy. Choć dokładnie nie śledzi się tych liczb, wedle szacunków „Dziennika Gazety Prawnej” wydatki na dzienniczki [sięgają co roku ok. 40&nbsp;mln złotych](https://www.wnp.pl/parlamentarny/wydarzenia/dgp-men-slepy-w-sprawie-e-dziennikow,881972.html).
 
-Umowa społeczna wydawała się obustronnie korzystna: dają polskim szkołom cyfryzację, zaś w&nbsp;zamian mają źródło sporych, pewnych zarobków. Do tego niskie ryzyko, godne pozazdroszczenia: szkolnictwo nie rozsypie się z&nbsp;dnia na dzień, cyfryzacja nie wydaje się zanikającym trendem; do tego, dzięki cyfrowej naturze produktu, wystarczy rozwijać dla wszystkich jeden i&nbsp;ten sam kod. Żyć nie umierać.
+Umowa społeczna wydawała się obustronnie korzystna: dają polskim szkołom cyfryzację, zaś w&nbsp;zamian mają źródło sporych, pewnych zarobków. Do tego niskie ryzyko, godne pozazdroszczenia: szkolnictwo nie rozsypie się z&nbsp;dnia na dzień, cyfryzacja nie wydaje się zanikającym trendem; do tego, dzięki cyfrowej naturze produktu, wystarczy rozwijać dla wszystkich jeden i&nbsp;ten sam kod. Żyć nie umierać.
 
-Ale firma postanowiła naruszyć tę delikatną równowagę i&nbsp;sięgnąć po coś więcej. I&nbsp;tak się składa, że przez szereg czynników mogła czuć, że i&nbsp;tak nikt jej nie podskoczy.
+Ale firma postanowiła naruszyć tę delikatną równowagę i&nbsp;sięgnąć po coś więcej. I&nbsp;tak się składa, że przez szereg czynników mogła czuć, że i&nbsp;tak nikt jej nie podskoczy.
 
 ### Zabetonowanie rynku
 
@@ -76,7 +76,7 @@ Gdyby link nie działał, można zmienić w&nbsp;nim `nitter.poast.org` na `x.co
 
 W obecnych warunkach można nieco przewrotnie uznać sytuację z&nbsp;dzienniczkami za [duopol naturalny](https://pl.wikipedia.org/wiki/Monopol_naturalny) -- wszystkie karty już zostały rozdane i&nbsp;nie ma miejsca dla graczy z&nbsp;zewnątrz.
 
-Samorządy chcą się wykazać cyfryzacją, ale mogą mieć raczej niewielką skłonność do dawania szansy mniejszym graczom, widząc w&nbsp;tym ryzyko. Dlatego sięgają po ofertę którejś z&nbsp;dwóch mocno zakorzenionych firm. I&nbsp;powstaje błędne koło -- wiele osób bierze produkty tych firm, bo wiele osób bierze ich produkty. 
+Samorządy chcą się wykazać cyfryzacją, ale mogą mieć raczej niewielką skłonność do dawania szansy mniejszym graczom, widząc w&nbsp;tym ryzyko. Dlatego sięgają po ofertę którejś z&nbsp;dwóch mocno zakorzenionych firm. I&nbsp;powstaje błędne koło -- wiele osób bierze produkty tych firm, bo wiele osób bierze ich produkty. 
 
 {% include info.html
 type="Ciekawostka"
@@ -86,16 +86,16 @@ text="W realiach amerykańskich korpo [krąży(-ło?) popularne powiedzenie](htt
 ### Ubicie darmowych alternatyw
 
 EduVulcan to platforma autorstwa firmy Vulcan (powiązanej z&nbsp;wydawnictwem szkolnym Nowa Era).  
-Ma konstrukcję jak wiele współczesnych produktów cyfrowych -- jest sobie serwer z&nbsp;danymi, po które można sięgać zarówno przez stronę internetową, jak i&nbsp;aplikację. Przy czym aplikacja nie korzysta zanadto z&nbsp;funkcji smartfona i&nbsp;jest bardziej jak prosta nakładka na stronę internetową.
+Ma konstrukcję jak wiele współczesnych produktów cyfrowych -- jest sobie serwer z&nbsp;danymi, po które można sięgać zarówno przez stronę internetową, jak i&nbsp;aplikację. Przy czym aplikacja nie korzysta zanadto z&nbsp;funkcji smartfona i&nbsp;jest bardziej jak prosta nakładka na stronę internetową.
 
 {:.post-meta .bigspace-after}
 Twórcy oficjalnie zapisują nazwę jako `eduVULCAN`, ale będę się tu trzymał wersji `EduVulcan`, bo wydaje mi się czytelniejsza.
 
-W świecie cyfrowym „zera i&nbsp;jedynki są sobie równe”. Oznacza to, że jeśli wyśle się serwisowi dokładnie taką samą prośbę, jaką wysłałaby aplikacja albo przeglądarka, to dostanie się taką samą treść.  
-A zatem gdyby podejrzeć, jakie dane są wysyłane, gdy przeglądarka prosi o&nbsp;stronkę, i&nbsp;naśladować jej działanie niczym papuga ludzki głos, to dałoby się całkiem obejść oficjalną apkę. Czerpać dane prosto ze źródła.
+W świecie cyfrowym „zera i&nbsp;jedynki są sobie równe”. Oznacza to, że jeśli wyśle się serwisowi dokładnie taką samą prośbę, jaką wysłałaby aplikacja albo przeglądarka, to dostanie się taką samą treść.  
+A zatem gdyby podejrzeć, jakie dane są wysyłane, gdy przeglądarka prosi o&nbsp;stronkę, i&nbsp;naśladować jej działanie niczym papuga ludzki głos, to dałoby się całkiem obejść oficjalną apkę. Czerpać dane prosto ze źródła.
 
 Na tej zasadzie powstały **aplikacje alternatywne wobec dzienniczka Vulcan**.  
-Nie wczytywałem się w&nbsp;zasady ich działania, ale obstawiam w&nbsp;ciemno: uczniowie musieli w&nbsp;nich wprowadzić swoje dane logowania. A&nbsp;one, legitymując się tymi danymi, pobierały treść serwisu i&nbsp;wyświetlały go wewnątrz siebie, w&nbsp;sposób określony przez twórców. Do tego, zdaniem niektórych uczniów, po prostu robiły to lepiej.  
+Nie wczytywałem się w&nbsp;zasady ich działania, ale obstawiam w&nbsp;ciemno: uczniowie musieli w&nbsp;nich wprowadzić swoje dane logowania. A&nbsp;one, legitymując się tymi danymi, pobierały treść serwisu i&nbsp;wyświetlały go wewnątrz siebie, w&nbsp;sposób określony przez twórców. Do tego, zdaniem niektórych uczniów, po prostu robiły to lepiej.  
 Apek stworzonych wokół naszego dzienniczka było kilka:
 
 * Vulcanova,
@@ -107,13 +107,13 @@ Apek stworzonych wokół naszego dzienniczka było kilka:
 {:.post-meta .bigspace-after}
 Jeśli jakieś pominąłem, to z&nbsp;góry przepraszam!
 
-Od strony moralnej nie było tu żadnego okradania firmy, bo w&nbsp;końcu samorządy już zapłaciły za ich e&#8209;dzienniczki. Ta opłata miała dać uczniom dostęp do informacji. No i&nbsp;uczniowie korzystali z&nbsp;tego dostępu, tyle że inną drogą niż oficjalna.
+Od strony moralnej nie było tu żadnego okradania firmy, bo w&nbsp;końcu samorządy już zapłaciły za ich e&#8209;dzienniczki. Ta opłata miała dać uczniom dostęp do informacji. No i&nbsp;uczniowie korzystali z&nbsp;tego dostępu, tyle że inną drogą niż oficjalna.
 
 A jednak z&nbsp;jakiegoś powodu oficjalna stronka czasem rzucała kłody pod nogi, zmieniając format danych w&nbsp;taki sposób, żeby nieoficjalne apki miały trudności z&nbsp;ich odczytaniem.  
 Co gorsza, wszystkie wymienione projekty względnie niedawno otrzymały oficjalne pisma, po których zaprzestały działalności. Oto oświadczenie opublikowane przez Wulkanowego:
 
 {:.bigspace-before .figure}
-<img src="/assets/posts/centralizacja/eduvulcan/wulkanowy-koniec.jpg" alt="Oświadczenie informujące o&nbsp;zakończeniu działalności aplikacji Wulkanowy. Autor twierdzi, że decyzję podjął świadomie i&nbsp;że nie chce hejtu wobec firmy Vulcan."/> 
+<img src="/assets/posts/centralizacja/eduvulcan/wulkanowy-koniec.jpg" alt="Oświadczenie informujące o&nbsp;zakończeniu działalności aplikacji Wulkanowy. Autor twierdzi, że decyzję podjął świadomie i&nbsp;że nie chce hejtu wobec firmy Vulcan."/> 
 
 {:.figcaption}
 Ciekawić może fakt, że różne apki udostępniły bardzo podobne oświadczenia. Może to sugerować odgórne dyktowanie ich treści. Zwróciła na to uwagę chociażby stronka [„Czy Vulcana...”](https://czyvulcanapojebalo.pl/historia#narzucone-wiadomosci-koncowe).
@@ -145,9 +145,9 @@ Pewnym ratunkiem w&nbsp;tej całej sytuacji jest fakt, o&nbsp;którym nie każdy
 
 Kluczowe jest tu rozróżnienie między stroną a&nbsp;aplikacją. Coś z&nbsp;pozoru oczywistego, ale w&nbsp;obecnych czasach granica potrafi się zacierać. Podsumowując realia na smartfonach:
 
-* Kiedy używa się aplikacji EduVulcan -- to pojawi się zapora i&nbsp;informacja, że trzeba zapłacić za niektóre funkcje.
-* Kiedy używa się aplikacji-przeglądarki (Firefox, Brave, Opera... Albo nawet Chrome, choć nie polecam) i&nbsp;zaloguje się na stronę [*eduvulcan.pl*](https://eduvulcan.pl/) -- to te same funkcje będą na niej **darmowe**.
-* Gdyby używało się alternatywnej apki (którejś z ubitych) -- to byłoby jak przy korzystaniu ze strony, ale może wygodniej.
+* Kiedy używa się aplikacji EduVulcan -- to pojawi się zapora i&nbsp;informacja, że trzeba zapłacić za niektóre funkcje.
+* Kiedy używa się aplikacji-przeglądarki (Firefox, Brave, Opera... Albo nawet Chrome, choć nie polecam) i&nbsp;zaloguje się na stronę [*eduvulcan.pl*](https://eduvulcan.pl/) -- to te same funkcje będą na niej **darmowe**.
+* Gdyby używało się alternatywnej apki (którejś z ubitych) -- to byłoby jak przy korzystaniu ze strony, ale może wygodniej.
 
 Widać, że opcja środkowa ratuje sytuację. Zaś opcja trzecia, choć chwilowo nierealna, może kiedyś ożyć. W&nbsp;dalszej części wpisu omówię te dwie opcje.
 
@@ -156,49 +156,49 @@ type="Ruchy oporu"
 text="Zanim przejdę do własnych przemyśleń, podrzucę coś od innych, którzy wydają się bardziej zdeterminowani.  
 Powstała mianowicie stronka o&nbsp;wdzięcznej nazwie *[czyvulcanapo*ebalo.pl](https://czyvulcanapojebalo.pl/)* (mikrocenzura moja). Zawiera opis technicznych wpadek oficjalnej apki, historię zwalczania alternatyw, linki do petycji oraz inne cenne fakty.  
 Drogę oficjalną obrała strona [*szkolabezoplat.pl*](https://szkolabezoplat.pl/), zachęcając do podpisywania petycji do Ministerstwa.  
-Za pewną motywację może służyć historia ze Szwecji, gdzie programujący rodzice skrzyknęli się, żeby stworzyć [zamiennik dla apki Skolplattform](https://www.wired.com/story/sweden-stockholm-school-app-open-source/), narzuconej oficjalnie w&nbsp;obrębie Sztokholmu i&nbsp;dość dziadowskiej. Doświadczyli utrudnień technicznych i&nbsp;gróźb, ale ich inicjatywa wygrała."
+Za pewną motywację może służyć historia ze Szwecji, gdzie programujący rodzice skrzyknęli się, żeby stworzyć [zamiennik dla apki Skolplattform](https://www.wired.com/story/sweden-stockholm-school-app-open-source/), narzuconej oficjalnie w&nbsp;obrębie Sztokholmu i&nbsp;dość dziadowskiej. Doświadczyli utrudnień technicznych i&nbsp;gróźb, ale ich inicjatywa wygrała."
 %}
 
 ### Logowanie przez stronę
 
-Spotkałem się na Twitterze z&nbsp;informacją, że ktoś nie widzi na [stronce EduVulcana](https://eduvulcan.pl/) opcji logowania.
+Spotkałem się na Twitterze z&nbsp;informacją, że ktoś nie widzi na [stronce EduVulcana](https://eduvulcan.pl/) opcji logowania.
 
 {:.post-meta .bigspace-after}
 Z początku pomyślałem, że być może EduVulcan robi to co Facebook. Ten po wykryciu, że ktoś odwiedza stronę przez urządzenie mobilne, w&nbsp;ogóle nie dawał możliwości logowania. Wyświetlał jedynie link do aplikacji, zganiając do niej.
 
 Na szczęście **opcja logowania tam jest, ale niepodpisana. Po wejściu na stronę trzeba kliknąć sylwetkę człowieka w&nbsp;górnym rogu**. Wyświetlą się wtedy dwie opcje: założenia konta albo zalogowania do istniejącego.
 
-Co ciekawe, strona w&nbsp;przeglądarce mobilnej nieco się różni od wersji na komputery:
+Co ciekawe, strona w&nbsp;przeglądarce mobilnej nieco się różni od wersji na komputery:
 
 {:.bigspace}
-<img src="/assets/posts/centralizacja/eduvulcan/eduvulcan-logowanie-roznice.jpg" alt="Porównanie górnego paska strony na telefonie i&nbsp;na komputerze. Widać, że na telefonie zamiast tekstu jest ikonka umieszczona tuż obok innych opcji"/>
+<img src="/assets/posts/centralizacja/eduvulcan/eduvulcan-logowanie-roznice.jpg" alt="Porównanie górnego paska strony na telefonie i&nbsp;na komputerze. Widać, że na telefonie zamiast tekstu jest ikonka umieszczona tuż obok innych opcji"/>
 
 Moim zdaniem wersja mobilna to taka szara strefa interfejsów.  
 Z jednej strony obrazek profilowy w&nbsp;górnym rogu, umożliwiający (wy-)logowanie, to konwencja na wielu stronach (YouTube, Gmail...). Mógł przeniknąć do powszechnej świadomości.  
-Z drugiej jednak -- nie jest podpisany żadnym tekstem i&nbsp;jest umieszczony zaraz obok opcji dostosowania wyglądu strony, które są czymś pomocniczym. W&nbsp;takim sąsiedztwie nie od razu widać istotność tej opcji.
+Z drugiej jednak -- nie jest podpisany żadnym tekstem i&nbsp;jest umieszczony zaraz obok opcji dostosowania wyglądu strony, które są czymś pomocniczym. W&nbsp;takim sąsiedztwie nie od razu widać istotność tej opcji.
 
 Nie dziwi mnie zatem, że niektórzy omijali obrazek, przewijając ekran w&nbsp;dół, gdzie jest jedynie link do mobilnej aplikacji. Ale gdy już wiemy, w&nbsp;czym rzecz, to nic nas nie zatrzyma. **Klik w&nbsp;górny obrazek, logujemy się. I&nbsp;zawartość dzienniczka stanie otworem**.
 
 ### Alternatywy?
 
-Na chwilę opuszczę świat realny i&nbsp;zanurzę się w&nbsp;fikcyjnym. Jest o&nbsp;tyle fajny, że jest całkiem bezpieczny -- nie zakazano jeszcze kreatywnej twórczości :smile:
+Na chwilę opuszczę świat realny i&nbsp;zanurzę się w&nbsp;fikcyjnym. Jest o&nbsp;tyle fajny, że jest całkiem bezpieczny -- nie zakazano jeszcze kreatywnej twórczości :smile:
 
 {:.post-meta .bigspace-after}
 Oczywiście nawet w&nbsp;tym fikcyjnym świecie nie jestem prawnikiem i&nbsp;nie udzielam porad prawnych.
 
 Jest tu platforma zwana Wilszkołak. Niepodobna do niczego, co istnieje w&nbsp;rzeczywistym świecie. Równie fikcyjni są jej twórcy, Ważna Firma™. Oraz mniejsza alternatywa, apka Wilczek, która działa na zasadzie pobierania danych z&nbsp;tej oficjalnej.
 
-Ten alternatywny Wilczek nagle został zamknięty. Co mogło być tego przyczyną?  
+Ten alternatywny Wilczek nagle został zamknięty. Co mogło być tego przyczyną?  
 Ogólnie: Ważna Firma™ wysłała zapewne list, podpisany przez kogoś z&nbsp;Ważnej Kancelarii™. Sugerujący, że autorzy Wilczka robią coś złego i&nbsp;powinni przestać.
 
-A co takiego sugerowali? **Obstawiam coś na gruncie praw autorskich lub znaku towarowego** -- Wilczek brzmi podobnie jak Wilszkołak i&nbsp;działał w&nbsp;tej samej branży. Powołując się na te dwa czynniki razem wzięte (i&nbsp;może inne cechy, jak podobieństwo ikon czy motywów kolorystycznych), większy gracz mógł zarzucać, że nazwa celowo wprowadza w&nbsp;błąd i&nbsp;podpina się pod renomę ich oficjalnej aplikacji.
+A co takiego sugerowali? **Obstawiam coś na gruncie praw autorskich lub znaku towarowego** -- Wilczek brzmi podobnie jak Wilszkołak i&nbsp;działał w&nbsp;tej samej branży. Powołując się na te dwa czynniki razem wzięte (i&nbsp;może inne cechy, jak podobieństwo ikon czy motywów kolorystycznych), większy gracz mógł zarzucać, że nazwa celowo wprowadza w&nbsp;błąd i&nbsp;podpina się pod renomę ich oficjalnej aplikacji.
 
 {:.post-meta .bigspace-after}
-Z tego względu w&nbsp;realiach amerykańskich czasem zaleca się wyraźne wskazanie w&nbsp;nazwie apki jej niezależności. Zamiast *Facebook Downloader* -- coś w&nbsp;stylu *Downloader for Facebook*. A&nbsp;najlepiej dać jakąś nazwę własną.
+Z tego względu w&nbsp;realiach amerykańskich czasem zaleca się wyraźne wskazanie w&nbsp;nazwie apki jej niezależności. Zamiast *Facebook Downloader* -- coś w&nbsp;stylu *Downloader for Facebook*. A&nbsp;najlepiej dać jakąś nazwę własną.
 
-Jeśli chodzi o&nbsp;samo działanie aplikacji, to *scraping* (automatyczne pobieranie danych) sam w&nbsp;sobie nie jest żadnym zakazanym „hakerstwem”. Argument Wilszkołaka „to odwiedza naszą stronę i&nbsp;sięga do naszych zasobów” nie miałby uzasadnienia. Pomijam oczywiście fakt, że papier wszystko przyjmie i&nbsp;ktoś tak czy siak mógłby sugerować różne rzeczy.
+Jeśli chodzi o&nbsp;samo działanie aplikacji, to *scraping* (automatyczne pobieranie danych) sam w&nbsp;sobie nie jest żadnym zakazanym „hakerstwem”. Argument Wilszkołaka „to odwiedza naszą stronę i&nbsp;sięga do naszych zasobów” nie miałby uzasadnienia. Pomijam oczywiście fakt, że papier wszystko przyjmie i&nbsp;ktoś tak czy siak mógłby sugerować różne rzeczy.
 
-Najbardziej prawdopodobną przyczyną zamknięcia jest natomiast zwyczajna **niechęć hobbystów do konfliktu**. Ludzie tacy jak ci od Wilczka to nieraz spokojni rzemieślnicy. Lubią oddawać się kreatywności, z&nbsp;dala od prawniczych wojenek.
+Najbardziej prawdopodobną przyczyną zamknięcia jest natomiast zwyczajna **niechęć hobbystów do konfliktu**. Ludzie tacy jak ci od Wilczka to nieraz spokojni rzemieślnicy. Lubią oddawać się kreatywności, z&nbsp;dala od prawniczych wojenek.
 
 Nie każdy ma świadomość, że wezwanie przedsądowe to tylko list. Że podpisy prawników nie są gwarancją czyjejś słuszności. Że nawet gdyby sprawa wyszła poza straszenie i&nbsp;zostałby wniesiony pozew cywilny, to nie robi on z&nbsp;człowieka przestępcy. Jest zaledwie prywatnym zaproszeniem do pojedynku, który można wygrać.  
 ...Ale, niestety, istnienie efektu mrożącego jest faktem. Wiele osób woli na starcie odpuścić walkę.
@@ -206,10 +206,10 @@ Nie każdy ma świadomość, że wezwanie przedsądowe to tylko list. Że podpis
 Skoro już jestem w&nbsp;temacie szkolnym: prawnicze Wilszkołaki w&nbsp;garniakach są wobec niszowych Wilczków jak głośni szkolni prześladowcy wobec spokojnych uczniów. Ta nasza fikcyjna opowieść nie zawsze jest fair, jak życie.  
 ...Ale powyższe fakty sugerują, że przy odrobinie przetasowania mogłaby taka być. Gdyby:
 
-* zebrała się grupa osób z&nbsp;umiejętnościami technicznymi z&nbsp;zakresu *scrapingu*...
+* zebrała się grupa osób z&nbsp;umiejętnościami technicznymi z&nbsp;zakresu *scrapingu*...
 * znająca swoje prawa i&nbsp;niepodatna na ewentualne wezwania przedsądowe...
 * stworzyła coś o&nbsp;nazwie nawiązującej ogólnie do funkcji apki, bez jakiegokolwiek „wilczego” brandingu...
-* i&nbsp;zebrała wokół siebie lojalną społeczność, gotową rozkręcić efekt Streisand w&nbsp;razie nacisków, a&nbsp;nawet zrzucić się na prawnicze konsultacje...
+* i&nbsp;zebrała wokół siebie lojalną społeczność, gotową rozkręcić efekt Streisand w&nbsp;razie nacisków, a&nbsp;nawet zrzucić się na prawnicze konsultacje...
 
 ...To być może alternatywa dla Wilszkołaka byłaby w&nbsp;stanie powstać i&nbsp;funkcjonować wbrew utrudnieniom. Ta historia z&nbsp;naszego całkiem fikcyjnego świata mogłaby mieć swój *happy end* :wink:
 
@@ -223,7 +223,7 @@ Po wejściu na stronę EduVulcana wyświetla się informacja o&nbsp;zbieranych d
 <img src="/assets/posts/centralizacja/eduvulcan/eduvulcan-profilowanie-zgoda.jpg" alt="Fragment okna mówiącego, że strna ceni moją prywatność, a&nbsp;także wymieniającego, jakie zbiera informacje"/>
 
 Ogólne działanie takich rzeczy opisałem dokładniej we [wpisie o&nbsp;plikach *cookies*]({% post_url 2021-12-08-cookies-piksele-sledzace %}){:.internal}.  
-Póki co można je sobie wyobrazić jak małe stoiska jakiejś sieciówki, do których zawsze podchodzimy, odwiedzając różne budynki. Obsługa stoiska sobie notuje, że nas widzieli, i&nbsp;wysyła to centrali. W&nbsp;ten sposób sieciówka z&nbsp;czasem kompletuje nasz profil.
+Póki co można je sobie wyobrazić jak małe stoiska jakiejś sieciówki, do których zawsze podchodzimy, odwiedzając różne budynki. Obsługa stoiska sobie notuje, że nas widzieli, i&nbsp;wysyła to centrali. W&nbsp;ten sposób sieciówka z&nbsp;czasem kompletuje nasz profil.
 
 Stronka EduVulcana jest tu jednym z&nbsp;odwiedzanych budynków. Zaś Facebook i&nbsp;Google to sieciówki stawiające tam stoiska.
 
@@ -243,7 +243,7 @@ A jak w&nbsp;praktyce może zaszkodzić obecność tych elementów na stronie dz
 
   Ten sam adres IP w&nbsp;podobnym czasie, wynikający z&nbsp;faktu, że zwykle sprawdzają e&#8209;dzienniczek po południu, siedząc w&nbsp;domu, przez swój wspólny mieszkaniowy internet.
 
-A wszystko to **wyłącznie na podstawie aktywności w&nbsp;przeglądarce internetowej**. Nie sprawdzałem, czy *aplikacja* EduVulcana też ma w&nbsp;sobie jakieś elementy reklamowe. Ale jeśli tak, to mogłaby zbierać znacznie więcej informacji, na przykład [listę innych zainstalowanych aplikacji]({% post_url 2022-11-16-apki-pliki %}){:.internal}, i&nbsp;na tej podstawie wzbogacać profil.
+A wszystko to **wyłącznie na podstawie aktywności w&nbsp;przeglądarce internetowej**. Nie sprawdzałem, czy *aplikacja* EduVulcana też ma w&nbsp;sobie jakieś elementy reklamowe. Ale jeśli tak, to mogłaby zbierać znacznie więcej informacji, na przykład [listę innych zainstalowanych aplikacji]({% post_url 2022-11-16-apki-pliki %}){:.internal}, i&nbsp;na tej podstawie wzbogacać profil.
 
 Po ustaleniu powiązania `rodzic-dziecko` mogłyby się ziścić różne naruszenia prywatności.
 
@@ -254,10 +254,10 @@ Przykład? Giganci reklamowi mogą potem w&nbsp;jednym momencie, w&nbsp;ramach j
 
 W ten sposób, wskutek dwustronnej ofensywy marketingowej, dramatycznie rośnie szansa, że dziecko dostanie jakiś drogi, korporacyjny chłam. Wokół było pełno cenniejszych potencjalnych prezentów... Ale ich twórcy nie wydali wielkich pieniędzy na reklamę online.
 
-Inna opcja? Po e&#8209;dzienniczku Facebook pozna, że jakiś rodzic i&nbsp;dziecko często trzymają się jednej sieci. Ale w&nbsp;swoich zasobach widzi ponadto, że jest osoba o&nbsp;takim samym nazwisku, też aktywna na Facebooku i&nbsp;powiązana osobowo z&nbsp;tymi dwiema, ale używająca odrębnej sieci.  
+Inna opcja? Po e&#8209;dzienniczku Facebook pozna, że jakiś rodzic i&nbsp;dziecko często trzymają się jednej sieci. Ale w&nbsp;swoich zasobach widzi ponadto, że jest osoba o&nbsp;takim samym nazwisku, też aktywna na Facebooku i&nbsp;powiązana osobowo z&nbsp;tymi dwiema, ale używająca odrębnej sieci.  
 Wniosek? Rozwód lub separacja, dziecko przebywa z&nbsp;jednym z&nbsp;rodziców. Jakaś mniej etyczna firma (którą oczywiście Fejsik nie jest!) mogłaby to wykorzystać do targetowania.
 
-I tak się bez skrępowania toczy to śledząco-manipulacyjno-konsumpcyjne koło. Ale można postawić na jego drodze przeszkody, co niniejszym uczynię.
+I tak się bez skrępowania toczy to śledząco-manipulacyjno-konsumpcyjne koło. Ale można postawić na jego drodze przeszkody, co niniejszym uczynię.
 
 ### Niewyrażenie zgody
 
@@ -274,10 +274,10 @@ Proponuję porównać to okno z&nbsp;poprzednim, ogólniejszym. Tamto nie wspomi
 
 {% include info.html
 type="Porada"
-text="Jeśli po pierwszym uruchomieniu strony przeoczyliście okno, nieświadomie udzielając zgody, to jeszcze nic straconego! Na samym dole, w&nbsp;prawym rogu, znajduje się ikona ciasteczka. Można ją kliknąć, żeby ponownie wyświetlić wspomniane okno i&nbsp;powyłączać wszystkie niepotrzebne funkcje."
+text="Jeśli po pierwszym uruchomieniu strony przeoczyliście okno, nieświadomie udzielając zgody, to jeszcze nic straconego! Na samym dole, w&nbsp;prawym rogu, znajduje się ikona ciasteczka. Można ją kliknąć, żeby ponownie wyświetlić wspomniane okno i&nbsp;powyłączać wszystkie niepotrzebne funkcje."
 %}
 
-Zrobienie tego co wyżej da trochę wolności od śledzących oczu (o&nbsp;ile prawidłowo wdrożyli nieudzielenie zgód)... Ale tylko na tej konkretnej stronie EduVulcana. Dlatego dla osób chętnych mam coś jeszcze!
+Zrobienie tego co wyżej da trochę wolności od śledzących oczu (o&nbsp;ile prawidłowo wdrożyli nieudzielenie zgód)... Ale tylko na tej konkretnej stronie EduVulcana. Dlatego dla osób chętnych mam coś jeszcze!
 
 ### Mocniejsze uderzenie w&nbsp;reklamy śledzące
 
@@ -305,9 +305,9 @@ W przypadku Facebooka można wskazać w&nbsp;ustawieniach swojego konta, że nie
 <p>I załatwione! O&nbsp;ile Facebook nie spróbuje działać wbrew zasadom, to jego kontrola nad nami przestanie się rozciągać na inne stronki niż jego własne.</p>
 </details>
 
-Chętne osoby mogą również poczytać mój wpis o&nbsp;darmowym, bardzo popularnym dodatku przeglądarkowym [uBlock Origin]({% post_url 2021-10-21-ublock-origin %}){:.internal}, który automatycznie blokuje zarówno Pixele od Facebooka, analitykę Google'a, jak i&nbsp;wiele innych elementów śledzących.
+Chętne osoby mogą również poczytać mój wpis o&nbsp;darmowym, bardzo popularnym dodatku przeglądarkowym [uBlock Origin]({% post_url 2021-10-21-ublock-origin %}){:.internal}, który automatycznie blokuje zarówno Pixele od Facebooka, analitykę Google'a, jak i&nbsp;wiele innych elementów śledzących.
 
-Jeśli używacie przeglądarki Firefox na smartfonie z&nbsp;Androidem, to możecie korzystać z&nbsp;pełni dobrodziejstw tego dodatku (instrukcja jego instalacji w&nbsp;podlinkowanym wpisie). W&nbsp;innym wypadku pozostaje korzystanie z&nbsp;niego na laptopach -- wspiera wszystkie większe przeglądarki, choć Chrome'a w&nbsp;najmniejszym stopniu, a&nbsp;Firefoksa w&nbsp;największym.
+Jeśli używacie przeglądarki Firefox na smartfonie z&nbsp;Androidem, to możecie korzystać z&nbsp;pełni dobrodziejstw tego dodatku (instrukcja jego instalacji w&nbsp;podlinkowanym wpisie). W&nbsp;innym wypadku pozostaje korzystanie z&nbsp;niego na laptopach -- wspiera wszystkie większe przeglądarki, choć Chrome'a w&nbsp;najmniejszym stopniu, a&nbsp;Firefoksa w&nbsp;największym.
 
 I to tyle na dziś! Życzę wszystkim, których sprawa dotyczy, przetrwania erupcji płatnych usług :smile:
 

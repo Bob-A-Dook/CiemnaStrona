@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Internetowa inwigilacja 8 – pliki cookies i piksele śledzące"
-subtitle: "„Już cię u kogoś widziałem...”"
+subtitle: "„Już cię u kogoś widziałem...”"
 description: "Opowieść o kawie i ciasteczkach"
 date:   2021-12-08 08:30:00 +0100
 tags: [Internet, Inwigilacja]
@@ -47,7 +47,7 @@ Postaram się opisać wszystko w&nbsp;sposób przystępny, zaczynając od histor
 
 ## Historyjka o kawie i ciasteczkach
 
-W niektórych wpisach porównywałem internet do sieci placówek pocztowych. Ale tym razem użyję innej analogii, która lepiej mi pasuje. Będzie to fikcyjna historyjka z&nbsp;życia.
+W niektórych wpisach porównywałem internet do sieci placówek pocztowych. Ale tym razem użyję innej analogii, która lepiej mi pasuje. Będzie to fikcyjna historyjka z&nbsp;życia.
 
 Wyobraźmy sobie, że wykonujemy pracę biurową w&nbsp;dużym mieście (czyt. jesteśmy korpoludkiem). Tym miastem jest internet.
 
@@ -135,7 +135,7 @@ Tworzą coś, co by się przydało wielu mniejszym stronom. Udostępniają to za
 * Twitter -- opcję łatwego umieszczania treści tweetów na stronach zewnętrznych;
 * Google -- cały arsenał darmowych narzędzi. Google Fonts, Google Analytics, reCaptcha...
 
-Właściciele stron z&nbsp;tego korzystają i&nbsp;dodają te „elementy gościnne” do siebie. Efekt uboczny: gdy odwiedzamy takie strony, to dowiadują się o tym nie tylko one, ale również właściciele internetowych korporacji.
+Właściciele stron z&nbsp;tego korzystają i&nbsp;dodają te „elementy gościnne” do siebie. Efekt uboczny: gdy odwiedzamy takie strony, to dowiadują się o tym nie tylko one, ale również właściciele internetowych korporacji.
 
 A ci goście goszczą w&nbsp;wielu miejscach.  
 Przykładowo: skrypty od Google Analytics już w&nbsp;2009 roku znajdowały się na ponad połowie z&nbsp;10 000 najpopularniejszych stron. A&nbsp;w ostatnich latach? Według strony analizującej ruch w&nbsp;sieci, *w3techs.com*:
@@ -156,7 +156,7 @@ Będą wiedzieli, że byliśmy tu i&nbsp;tam, o&nbsp;porze takiej i&nbsp;takiej.
 
 Istnieje wiele metod rozpoznawania użytkowników, sam je opisywałem w&nbsp;poprzednich wpisach. Ale strony nawet nie muszą po nie sięgać, jeśli użytkownicy sami im się przedstawiają. **Pliki cookies to takie internetowe odpowiedniki legitymacji albo dowodów osobistych**.
 
-Były ogólne rozważania, więc po nich tradycyjnie czas na coś konkretniejszego. Pokażę, czym są piksele śledzące, bardzo ściśle związane z&nbsp;plikami cookies.
+Były ogólne rozważania, więc po nich tradycyjnie czas na coś konkretniejszego. Pokażę, czym są piksele śledzące, bardzo ściśle związane z&nbsp;plikami cookies.
 
 ## Kulisy śledzenia
 
@@ -192,10 +192,10 @@ Natomiast **źródłem drugiego pliku jest link do obcej strony** -- *commons.wi
 
 Wyobraźmy sobie, że cała ta strona z&nbsp;dwoma obrazkami wisi sobie gdzieś w&nbsp;internecie, na przykład pod adresem *example.com*.
 
-Gdybyśmy weszli w&nbsp;link do niej, mielibyśmy wrażenie, że od razu „pojawiła” nam się kompletna strona. Ale to iluzja, po prostu internet jest szybki.  
+Gdybyśmy weszli w&nbsp;link do niej, mielibyśmy wrażenie, że od razu „pojawiła” nam się kompletna strona. Ale to iluzja, po prostu internet jest szybki.  
 W rzeczywistości dostajemy stronkę „na raty”, a&nbsp;za kulisami dzieją się następujące rzeczy:
 
-1. Przeglądarka wysyła do *example.com* prośbę o&nbsp;stronę główną.
+1. Przeglądarka wysyła do *example.com* prośbę o&nbsp;stronę główną.
 
    Przy okazji wysyła parę informacji o&nbsp;sobie, jak przy każdej internetowej interakcji. Wśród tych informacji mogą być pliki cookies.
 
@@ -231,7 +231,7 @@ W ten sposób rozwiązaliśmy zagadkę. **W&nbsp;pikselach nie ma nic wyjątkowe
 
 Tym, co umożliwia śledzenie, jest tak naprawdę sama „zewnętrzność” elementu, sprawienie żeby był pobierany od firmy śledzącej. Jego wygląd to detal bez większego znaczenia. Zresztą prawdopodobnie i&nbsp;tak go nie zobaczymy, bo będzie ukryty.
 
-Piksele, filmiki czy obrazy Leonarda... Jakiejkolwiek formy nie przyjęłyby elementy śledzące, warto się chronić przed wścibskim wzrokiem ich właścicieli. Opiszę teraz, w&nbsp;jaki sposób możemy to zrobić.
+Piksele, filmiki czy obrazy Leonarda... Jakiejkolwiek formy nie przyjęłyby elementy śledzące, warto się chronić przed wścibskim wzrokiem ich właścicieli. Opiszę teraz, w&nbsp;jaki sposób możemy to zrobić.
 
 ## Jak się chronić?
 
@@ -300,7 +300,7 @@ Ale wydaje mi się, że jeśli jakaś strona nie potrafi nam zapewnić normalneg
 
 ## Co przyniesie przyszłość
 
-Jako zwykli użytkownicy możemy po prostu zainstalować dodatek, zmienić przeglądarkę i&nbsp;żyć dalej. Ale warto wiedzieć, że **za kulisami od wielu lat trwa konflikt w&nbsp;sprawie plików cookies** i&nbsp;ich losy mogą różnie się potoczyć.
+Jako zwykli użytkownicy możemy po prostu zainstalować dodatek, zmienić przeglądarkę i&nbsp;żyć dalej. Ale warto wiedzieć, że **za kulisami od wielu lat trwa konflikt w&nbsp;sprawie plików cookies** i&nbsp;ich losy mogą różnie się potoczyć.
 
 Już kiedyś mieliśmy unijne przepisy nakazujące informować użytkowników, że strona zbiera ciasteczka. Niestety przyniosły one tylko wkurzające banery z&nbsp;informacjami, które zaczęliśmy odruchowo zamykać.
 

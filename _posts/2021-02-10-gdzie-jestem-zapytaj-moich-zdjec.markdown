@@ -20,9 +20,9 @@ Historia jeszcze świeża, więc pewnie wiele osób ją kojarzy. Ale dla formaln
 1. W&nbsp;2018 roku powstaje [Parler](https://en.wikipedia.org/wiki/Parler), portal społecznościowy reklamujący się jako ostoja wolności słowa.
 2. Parler stopniowo zyskuje popularność wśród amerykańskiej prawicy. Szczególnie w&nbsp;związku z&nbsp;cenzurowaniem wypowiedzi republikańskiego prezydenta, Donalda Trumpa, przez większe organizacje.
 3. Trump przegrywa wybory, nowym prezydentem ma zostać demokrata Joe Biden.
-4. 6 stycznia 2021 r. w&nbsp;Waszyngtonie grupa protestujących zwolenników Donalda Trumpa [wchodzi siłą do budynku Kapitolu](https://pl.wikipedia.org/wiki/Atak_na_Kapitol_Stan%C3%B3w_Zjednoczonych).
-5. W&nbsp;stronę Parlera padają oskarżenia. Przeciwnicy zarzucają mu, że był jednym z&nbsp;miejsc, w&nbsp;których buntownicy koordynowali swoje działania. Google i&nbsp;Apple blokują możliwość pobierania aplikacji Parlera.
-6. Badacze szybko zlatują się pobierać dane, zanim strona upadnie. W&nbsp;tym dowody obciążające ekipę z&nbsp;Kapitolu. Jak się okazuje, strona Parlera była słabo zabezpieczona i&nbsp;można było automatycznie pobrać całą treść.
+4. 6 stycznia 2021 r. w&nbsp;Waszyngtonie grupa protestujących zwolenników Donalda Trumpa [wchodzi siłą do budynku Kapitolu](https://pl.wikipedia.org/wiki/Atak_na_Kapitol_Stan%C3%B3w_Zjednoczonych).
+5. W&nbsp;stronę Parlera padają oskarżenia. Przeciwnicy zarzucają mu, że był jednym z&nbsp;miejsc, w&nbsp;których buntownicy koordynowali swoje działania. Google i&nbsp;Apple blokują możliwość pobierania aplikacji Parlera.
+6. Badacze szybko zlatują się pobierać dane, zanim strona upadnie. W&nbsp;tym dowody obciążające ekipę z&nbsp;Kapitolu. Jak się okazuje, strona Parlera była słabo zabezpieczona i&nbsp;można było automatycznie pobrać całą treść.
 7. Amazon przestaje zapewniać Parlerowi hosting. Strona znika.
 
 Parler zaliczył fakapa nie tylko w&nbsp;kwestii zabezpieczeń. [Jak się okazało](https://twitter.com/donk_enby/status/1348294151712944128), **nie usuwał ze zdjęć użytkowników informacji o&nbsp;lokalizacji**.
@@ -51,7 +51,7 @@ Czyli miejsce wykonania zdjęcia to **Katowice**. Kładka na ul. Sokolskiej, nie
 Owszem, nieco mnie przesunęło i&nbsp;wychodzi na to, że zamiast na kładce stałem sobie na środku ruchliwej drogi. Ale to tylko kilkanaście metrów różnicy.
 
 {% include info.html type="Ciekawostka" text="Z kronikarskiego obowiązku: zrobiłem też inne zdjęcie, w&nbsp;trochę dzikszych rejonach. Tam pokazało znacznik ponad kilometr od prawdziwego położenia. Ale może nie czekałem wystarczająco długo po włączeniu i&nbsp;nie złapało dokładnej lokalizacji? W&nbsp;każdym razie lepiej nie liczyć na niedokładność urządzenia.  
-Pewien [artykuł](https://www.gps.gov/systems/gps/performance/accuracy/) na stronie rządowej podaje, że dokładność smartfonowych GPS-ów, pod gołym niebem i&nbsp;bez dodatkowego wspomagania, może wynosić do ok. 4,9 m. I&nbsp;na takie coś lepiej się nastawiać."%}
+Pewien [artykuł](https://www.gps.gov/systems/gps/performance/accuracy/) na stronie rządowej podaje, że dokładność smartfonowych GPS-ów, pod gołym niebem i&nbsp;bez dodatkowego wspomagania, może wynosić do ok. 4,9 m. I&nbsp;na takie coś lepiej się nastawiać."%}
 
 Ktoś mógłby pomyśleć, że te znaczniki to taki bajer telefonu. Że kiedy mamy włączoną lokalizację, to podczas robienia zdjęcia dodaje do osobnej, prywatnej bazy informację o&nbsp;tym, gdzie je zrobiliśmy.
 
@@ -68,7 +68,7 @@ To współrzędne w&nbsp;tzw. formacie DMS (stopnie, minuty i&nbsp;sekundy dług
 
 Domyślne okno Windowsa, z&nbsp;tego co widzę, nie daje możliwości ich skopiowania. Gdyby ktoś chciał, mógłby na tym etapie znaleźć osobny program do odczytywania metadanych.
 
-Ale mogę też otworzyć sobie Google Maps i&nbsp;wklepać liczby „z palca” w&nbsp;pasek wyszukiwarki. Najpierw szerokość, potem długość, oddzielone przecinkiem. Po pierwszej liczbie daję znak stopnia (`°`), po drugiej pojedynczy apostrof, kropkę jako oddzielenie części dziesiętnej:
+Ale mogę też otworzyć sobie Google Maps i&nbsp;wklepać liczby „z palca” w&nbsp;pasek wyszukiwarki. Najpierw szerokość, potem długość, oddzielone przecinkiem. Po pierwszej liczbie daję znak stopnia (`°`), po drugiej pojedynczy apostrof, kropkę jako oddzielenie części dziesiętnej:
 
 <div class="black-bg">
 50°15'54.7805, 19°1'10.0309
@@ -96,7 +96,7 @@ Czyli metadane można łatwo odczytać i&nbsp;niełatwo znikają. A&nbsp;jakie z
 
 Dwie osoby studiują na jednym kierunku. Jedna z&nbsp;nich to zwykła losowa, nieświadoma osoba. A&nbsp;druga to jakiś stalker (albo stalkerka! Nikogo nie dyskryminuję :wink:). Stalker(-ka) chce się dowiedzieć, gdzie mieszka ofiara. Ale wprost nie zapyta, żeby nie budzić podejrzeń i&nbsp;nie zostawiać śladów.
 
-Czeka zatem do okolic sesji, żeby mieć pretekst. Oczywiście może też łapać dowolny inny dzień, jeśli ofiara się wygadała, że będzie wtedy w&nbsp;domu.
+Czeka zatem do okolic sesji, żeby mieć pretekst. Oczywiście może też łapać dowolny inny dzień, jeśli ofiara się wygadała, że będzie wtedy w&nbsp;domu.
 
 Potem pisze przez Messengera:
 
@@ -179,7 +179,7 @@ Dla każdego systemu wygląda to nieco inaczej.
 **Windowsa** już pokazałem -- w&nbsp;tym wypadku otwieracie okno z&nbsp;informacjami o&nbsp;zdjęciu (prawy przycisk na pliku, `Właściwości`, zakładka `Szczegóły`). Potem klikacie na dole opcję `Usuń właściwości oraz informacje osobiste`. I&nbsp;już, metadane znikną!
 
 Dla **Androida** znalazłem porady, które jednak się nie sprawdziły.  
-Według nich można otworzyć zdjęcia w&nbsp;domyślnej Galerii, przytrzymać palcem na jednym z&nbsp;nich, żeby pokazały się opcje. W&nbsp;dolnym prawym rogu mamy `Więcej`, a&nbsp;potem `Szczegóły`. Tylko że powinna tu być opcja edycji, a&nbsp;u mnie się nie pojawiła.  
+Według nich można otworzyć zdjęcia w&nbsp;domyślnej Galerii, przytrzymać palcem na jednym z&nbsp;nich, żeby pokazały się opcje. W&nbsp;dolnym prawym rogu mamy `Więcej`, a&nbsp;potem `Szczegóły`. Tylko że powinna tu być opcja edycji, a&nbsp;u mnie się nie pojawiła.  
 Rozwiązaniem może być apka. Na Reddicie, w&nbsp;wątkach poświęconych prywatności, mignął mi czasem Scrambled Exif.
 
 W kwestii **urządzeń od Apple'a** nie jestem w&nbsp;temacie, ale [ten wpis](https://www.canto.com/blog/remove-metadata-from-photo/) wydaje się solidnym poradnikiem. Reddit poleca również apkę Exif Viewer na iOS.
@@ -222,7 +222,7 @@ Zanim użyjecie skryptów, trzeba zdobyć Pythona i&nbsp;jeden moduł pomocniczy
 * Wpiszcie w&nbsp;PowerShella `pip install pillow`.
 
   *pillow* to inaczej *PIL* -- biblioteka do przetwarzania obrazków. Python nie ma czegoś takiego w&nbsp;pakiecie, więc trzeba pobrać z&nbsp;zewnątrz. Żeby to zrobić, musicie mieć połączenie z&nbsp;internetem.  
-   Boicie się instalować nieznane rzeczy z&nbsp;sieci? Bardzo słusznie! :+1: Warto najpierw sprawdzić [oficjalną stronę tej biblioteki na PyPI](https://pypi.org/project/Pillow/), a&nbsp;z niej przejść na [stronę z kodem źródłowym](https://github.com/python-pillow/Pillow).  
+   Boicie się instalować nieznane rzeczy z&nbsp;sieci? Bardzo słusznie! :+1: Warto najpierw sprawdzić [oficjalną stronę tej biblioteki na PyPI](https://pypi.org/project/Pillow/), a&nbsp;z niej przejść na [stronę z kodem źródłowym](https://github.com/python-pillow/Pillow).  
 I tak bez odrobiny zaufania się nie obejdzie, ale prawie 8200 gwiazdek (pozytywnych ocen) jest jakąś rekomendacją.  
 Całe okno po zainstalowaniu PIL-a powinno wyglądać tak:
 

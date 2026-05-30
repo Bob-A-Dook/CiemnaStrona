@@ -12,12 +12,12 @@ image:
   alt: "Schemat pokazujący strzałkami przepływ danych od telefonu komórkowego do anteny i potem do serwera. W dole widać samotny router, a nad nim ikonę oka ze łzą w kąciku"
 ---
 
-Niedawno ukazał się [artykuł w&nbsp;„Gazecie Wyborczej”](https://wyborcza.pl/7,75398,29639901,szkolny-big-brother-do-szuflady.html) na temat systemu B3 (po angielsku czytałoby się jak *be free*, „bądź wolny”), przeznaczonego dla szkół.
+Niedawno ukazał się [artykuł w&nbsp;„Gazecie Wyborczej”](https://wyborcza.pl/7,75398,29639901,szkolny-big-brother-do-szuflady.html) na temat systemu B3 (po angielsku czytałoby się jak *be free*, „bądź wolny”), przeznaczonego dla szkół.
 
 Artykuł zawiera w&nbsp;opisie słowa: „Ten system może zapobiec samobójstwom dzieci. Ale raporty idą do szuflady”.
 
 Tekst opiera się na założeniu, które może być groźne -- że ciągłe monitorowanie, co dzieci robią w&nbsp;internecie, byłoby drogą ku ich bezpieczeństwu.  
-I że szkoły mają do dyspozycji świetny system do ich *śledzenia*{:.corr-del} ochrony. „Oparty o&nbsp;AI”. Który to system jest niestety mało używany, więc czas to zmienić.
+I że szkoły mają do dyspozycji świetny system do ich *śledzenia*{:.corr-del} ochrony. „Oparty o&nbsp;AI”. Który to system jest niestety mało używany, więc czas to zmienić.
 
 Ale, choć spojrzenie na prywatność mam inne, ten wpis nie będzie polemiką. Zamiast tego pokażę w&nbsp;przystępny sposób ograniczenia takich systemów. Bo zarówno sam artykuł, jak i&nbsp;komentarze pod nim, przypisują B3 niestworzone cechy.
 
@@ -26,7 +26,7 @@ Zapraszam!
 {% include info.html
 type="Uwaga"
 text="Osobiście interesuję się tematem cyfrowej prywatności jedynie hobbystycznie, a&nbsp;to temat pełen niuansów. Mój wpis nijak go nie wyczerpuje.  
-Ale nie trzeba być fizykiem, żeby nieco wątpić w&nbsp;dziecięce przechwałki. „Mój tata to umie tak wysoko skakać, że doskoczy do Księżyca!”. A&nbsp;mniej więcej do tego sprowadzają się niektóre wyobrażenia na temat skuteczności systemu :wink:"
+Ale nie trzeba być fizykiem, żeby nieco wątpić w&nbsp;dziecięce przechwałki. „Mój tata to umie tak wysoko skakać, że doskoczy do Księżyca!”. A&nbsp;mniej więcej do tego sprowadzają się niektóre wyobrażenia na temat skuteczności systemu :wink:"
 %}
 
 ### Spis treści
@@ -49,7 +49,7 @@ Możliwe, że jest w&nbsp;tym całkiem dobry. Że, karmiony strumieniami danych,
 
 Ale z&nbsp;pustego i&nbsp;Salomon nie naleje. Mam mocne przeczucie, że w&nbsp;szkolnych realiach algorytm nie znalazłby dobrych danych wejściowych.
 
-Artykuł wydaje się sugerować, że do B3 trafiają dane zebrane przez szkolne urządzenia -- komputery szkolne albo sieć wi-fi. Pierwsza opcja jest niezbyt praktyczna, a&nbsp;druga może dawać tylko śladowe informacje.
+Artykuł wydaje się sugerować, że do B3 trafiają dane zebrane przez szkolne urządzenia -- komputery szkolne albo sieć wi-fi. Pierwsza opcja jest niezbyt praktyczna, a&nbsp;druga może dawać tylko śladowe informacje.
 
 Zobaczmy, dlaczego tak jest.
 
@@ -65,14 +65,14 @@ Ale zamiast tego będzie nieco ogólniej. Pokażę informacje bardziej uniwersal
 
 To dlatego, że nie wiemy, co ktoś wcześniej zainstalował na komputerze, do którego siadamy. Może być naszpikowany programami śledzącymi.
 
-Nawet jeśli wysyłamy między sobą szyfrowane wiadomości, to przecież w&nbsp;którymś momencie musi nastąpić odszyfrowanie. Żebyśmy zobaczyli ich tekst na ekranie. A&nbsp;gdzieś na tym etapie program-podglądacz może po prostu chwycić tę treść i&nbsp;do niej zerknąć.
+Nawet jeśli wysyłamy między sobą szyfrowane wiadomości, to przecież w&nbsp;którymś momencie musi nastąpić odszyfrowanie. Żebyśmy zobaczyli ich tekst na ekranie. A&nbsp;gdzieś na tym etapie program-podglądacz może po prostu chwycić tę treść i&nbsp;do niej zerknąć.
 
 A to tylko jedna z&nbsp;wielu opcji. Programy mogą na bieżąco kopiować obraz widoczny na ekranie, odczytywać z&nbsp;niego tekst. Albo [rejestrować każde naciśnięcie klawiszy](https://pl.wikipedia.org/wiki/Keylogger) i&nbsp;odtwarzać sobie, co napisaliśmy. Wszystko potajemnie.
 
 Werdykt? Gdy uczniowie korzystają z&nbsp;komputerów szkoły, to faktycznie mogłaby widzieć wszystko, co robią.  
 Ale techniczna możliwość to tylko pierwszy krok. Poza nią istnieje szereg przeszkód, które raczej skreślają taką formę zbierania danych. I&nbsp;pomińmy nawet kwestie prawne.
 
-* Lekcje informatyki odbywają się tylko parę razy w&nbsp;tygodniu; zakładam optymistycznie, że czasem uczniowie się na nich uczą, a&nbsp;nie tylko mają czas dla siebie :wink:
+* Lekcje informatyki odbywają się tylko parę razy w&nbsp;tygodniu; zakładam optymistycznie, że czasem uczniowie się na nich uczą, a&nbsp;nie tylko mają czas dla siebie :wink:
 * Nawet gdy mają czas, to niekoniecznie zaczną czytać o&nbsp;drażliwych tematach, kiedy po bokach siedzą rówieśnicy.
 
   Czy wyobrażamy sobie na przykład, że jakaś prześladowana osoba zaczyna czytać depresyjne blogi albo opisywać komuś swój stan, kiedy każdy może jej zerknąć w&nbsp;ekran?
@@ -81,7 +81,7 @@ Ale techniczna możliwość to tylko pierwszy krok. Poza nią istnieje szereg pr
 
   Platformy (jak Instagram, TikTok) są przystosowane do smartfonów. Zaś ich wersje komputerowe są na tyle ograniczone, że mogłyby tylko odstraszać uczniów.
 
-Podsumowując: szkolne komputery mogłyby zdobyć pełno danych. Ale ze względu na realia (wiele osób w&nbsp;jednej sali, interfejsy mniej lubiane przez młodych) drastycznie spada szansa, że zdobędą jakieś informacje o&nbsp;problemach uczniów.
+Podsumowując: szkolne komputery mogłyby zdobyć pełno danych. Ale ze względu na realia (wiele osób w&nbsp;jednej sali, interfejsy mniej lubiane przez młodych) drastycznie spada szansa, że zdobędą jakieś informacje o&nbsp;problemach uczniów.
 
 Drugim potencjalnym zbieraczem jest sieć wi-fi. A&nbsp;ta z&nbsp;kolei ma potężne ograniczenia.
 
@@ -90,7 +90,7 @@ Drugim potencjalnym zbieraczem jest sieć wi-fi. A&nbsp;ta z&nbsp;kolei ma potę
 Korzystanie z&nbsp;internetu przypomina często korespondencję. Wysyłanie listów między nami a&nbsp;właścicielami strony, na którą zaglądamy.
 
 Zaufane apki korzystające z&nbsp;internetu (przeglądarka, komunikatory...) są jak poczta.  
-Mówimy, że chcemy się z&nbsp;kimś skontaktować. Za kulisami szykują naszą prośbę, a&nbsp;po jakimś czasie powinniśmy otrzymać odpowiedź od adresata.  
+Mówimy, że chcemy się z&nbsp;kimś skontaktować. Za kulisami szykują naszą prośbę, a&nbsp;po jakimś czasie powinniśmy otrzymać odpowiedź od adresata.  
 Szkoła nie ma możliwości przechwycenia danych prosto od apek.
 
 **Infrastrukturę sieciową**, jak routery, można z&nbsp;kolei porównać do firmy kurierskiej. Bierze przesyłki od poczty i&nbsp;zawozi je we wskazane miejsce.  
@@ -127,7 +127,7 @@ Obecnie często korzysta się z&nbsp;danych mobilnych. Wtedy to operatorzy sieci
 Źródło elementów: Flaticon i&nbsp;Emojipedia. Szczegóły pod koniec wpisu.
 
 Szkoła może co najwyżej zachęcać. Internet szybszy niż w&nbsp;komórce! Mniejsze zużycie danych mobilnych!  
-Ale gdy część uczniów się połączy i&nbsp;zacznie zasysać filmy z&nbsp;TikToka, to internet zwolni dla pozostałych. Wtedy **mogą wrócić do swojego internetu mobilnego. A&nbsp;szkoła nie ma nad tym kontroli**.
+Ale gdy część uczniów się połączy i&nbsp;zacznie zasysać filmy z&nbsp;TikToka, to internet zwolni dla pozostałych. Wtedy **mogą wrócić do swojego internetu mobilnego. A&nbsp;szkoła nie ma nad tym kontroli**.
 
 {:.post-meta}
 Chyba że w&nbsp;jakiś sposób OSE dogadałaby się z&nbsp;telekomami i&nbsp;dostawała od nich wszystkie dane. Ale to raczej nierealne. 
@@ -149,7 +149,7 @@ Magda czyta szczególnie depresyjny post i&nbsp;dodaje pod nim komentarz mówią
 Oto, co mogłyby zobaczyć osoby monitorujące ruch sieciowy, gdyby blog Juli był oparty o&nbsp;HTTP.
 
 {:.figure .bigspace-before}
-<img src="/assets/posts/inwigilacja/szkola-big-brother/dane-przyklad-http.jpg" alt="Obrazek pokazujący tekst na niebieskim tle. Wyróżnione są trzy nagłówki. Pod pierwszym, Metadane, widać nazwę strony blog-juli.pl oraz jego adres IP. Pod drugim, Nagłówki HTTP, jest trochę informacji technicznych, w&nbsp;tym pełniejsza nazwa strony, układająca się w słowa 'mam dość życia'. Pod ostatnim, Wysłane Dane, widać przykładową treśc komentarza mówiącą 'Też już mam dość'."/>
+<img src="/assets/posts/inwigilacja/szkola-big-brother/dane-przyklad-http.jpg" alt="Obrazek pokazujący tekst na niebieskim tle. Wyróżnione są trzy nagłówki. Pod pierwszym, Metadane, widać nazwę strony blog-juli.pl oraz jego adres IP. Pod drugim, Nagłówki HTTP, jest trochę informacji technicznych, w&nbsp;tym pełniejsza nazwa strony, układająca się w słowa 'mam dość życia'. Pod ostatnim, Wysłane Dane, widać przykładową treśc komentarza mówiącą 'Też już mam dość'."/>
 
 {:.figcaption}
 Informacje uproszczone, nazwy pól zmieniłem. JSON niepoprawny.
@@ -167,7 +167,7 @@ Dowiedzieliby się tylko, że Magda nawiązała ze stronką Juli szyfrowaną kor
 
   A&nbsp;gdyby Magda używała pośrednika sieciowego (*proxy*, VPN, Tor), to ta ostatnia informacja byłaby bezużyteczna. Wskazywałaby pośrednika, nie faktycznego adresata.
 
-I zanim ktoś spróbuje się naindyczać, że brak HTTPS-a by tu pomógł, a&nbsp;zatem może trzeba go zakazać -- myślę że znacznie więcej osób zostałoby poszkodowanych taką zmianą. Przechwycone hasła bankowe, prywatna korespondencja użyta potem do szantażu...
+I zanim ktoś spróbuje się naindyczać, że brak HTTPS-a by tu pomógł, a&nbsp;zatem może trzeba go zakazać -- myślę że znacznie więcej osób zostałoby poszkodowanych taką zmianą. Przechwycone hasła bankowe, prywatna korespondencja użyta potem do szantażu...
 
 Uderzając w&nbsp;szyfrowanie, pewnie posłałoby się do grobu więcej osób, niż by się znad niego wyciągnęło. Może lepiej się skupić na wsparciu w&nbsp;świecie fizycznym? Albo na walce z&nbsp;efektami, jakie wywierają na psychikę produkty cyfrowych korpo?
 
@@ -198,18 +198,18 @@ Od tej pory mógłby czytać korespondencję obu stron. Taki atak nosi nazwę [M
 I nie jest jakąś moją fantazją, tylko [realiami w&nbsp;niektórych organizacjach](https://security.stackexchange.com/questions/107542/is-it-common-practice-for-companies-to-mitm-https-traffic).
 
 Tylko że szans na tajny podsłuch to tu nie ma. Właściciel strony korzystającej z&nbsp;HTTPS dostaje od „producenta kłódek” swoje własne, tylko dla siebie. Oznaczone certyfikatem producenta.  
-Zaś zamkniętą listę zaufanych certyfikatów trzyma u&nbsp;siebie nasza przeglądarka.
+Zaś zamkniętą listę zaufanych certyfikatów trzyma u&nbsp;siebie nasza przeglądarka.
 
 Jeśli zatem Magda pisała do stronki *blog-juli.pl*, a&nbsp;dostanie w&nbsp;odpowiedzi kłódkę *szkolny-wielki-brat.org*, to jej przeglądarka się zorientuje. I&nbsp;wyświetli wielkie, groźne ostrzeżenie. Czasem da się przez nie przeklikać, ale zwykle odstraszy ludzi.
 
 {:.post-meta .bigspace-after}
 Jeśli ktoś chce zobaczyć przykład, to można odwiedzić [demo na stronce *badssl.com*](https://self-signed.badssl.com/).
 
-Szkoła mogłaby teoretycznie wyciszyć ostrzeżenia, prosząc uczniów o&nbsp;dodanie jej certyfikatów do tej przeglądarkowej listy dozwolonych. Tak już robił [co najmniej jeden amerykański college](https://security.stackexchange.com/questions/104576/my-college-is-forcing-me-to-install-their-ssl-certificate-how-to-protect-my-pri).
+Szkoła mogłaby teoretycznie wyciszyć ostrzeżenia, prosząc uczniów o&nbsp;dodanie jej certyfikatów do tej przeglądarkowej listy dozwolonych. Tak już robił [co najmniej jeden amerykański college](https://security.stackexchange.com/questions/104576/my-college-is-forcing-me-to-install-their-ssl-certificate-how-to-protect-my-pri).
 
 Ale w&nbsp;wątku widać, jakie wzbudziło to oburzenie. Poza tym wymaga odrobiny zabawy z&nbsp;technikaliami. Wielu uczniów na tym etapie by zapewne uznało, że szkoda zachodu i&nbsp;woli jednak używać danych mobilnych.
 
-Pomińmy już fakt, że to wszystko dotyczy wyłącznie *przeglądarki*. Która siłą rzeczy musi być elastyczna w&nbsp;kwestiach internetu, więc dopuszcza alternatywne certyfikaty.  
+Pomińmy już fakt, że to wszystko dotyczy wyłącznie *przeglądarki*. Która siłą rzeczy musi być elastyczna w&nbsp;kwestiach internetu, więc dopuszcza alternatywne certyfikaty.  
 Zaś inne aplikacje mogą mieć w&nbsp;siebie wkodowane [instrukcje absolutne](https://approov.io/blog/how-certificate-pinning-helps-thwart-mobile-mitm-attacks). „Ufaj tylko kłódce od *facebook.com*. I&nbsp;żadnej innej”.
 
 ### Metadane – hit czy kit?
@@ -217,9 +217,9 @@ Zaś inne aplikacje mogą mieć w&nbsp;siebie wkodowane [instrukcje absolutne](h
 Szkoła zostanie najprawdopodobniej z&nbsp;samymi ogólnikami. Metadanymi. Czy są w&nbsp;stanie ujawnić cokolwiek o&nbsp;nastroju uczniów?  
 Właściwie tylko wtedy, kiedy sama nazwa odwiedzanej strony coś sugeruje. Jak `mam-straszna-depresje.pl` (zmyśliłem, nie patrzyłem czy istnieje).
 
-W innym razie? Ogólnie rzecz biorąc, **z&nbsp;metadanych da się trochę wyczytać. Ale raczej w&nbsp;dłuższym okresie**. Gdy widzimy czyjeś zachowanie dzień w&nbsp;dzień, bo na przykład jesteśmy firmą telekomunikacyjną. 
+W innym razie? Ogólnie rzecz biorąc, **z&nbsp;metadanych da się trochę wyczytać. Ale raczej w&nbsp;dłuższym okresie**. Gdy widzimy czyjeś zachowanie dzień w&nbsp;dzień, bo na przykład jesteśmy firmą telekomunikacyjną. 
 
-Szkoła nie ma takiej opcji, bo widzi dzieci tylko przez wycinek ich dnia. I&nbsp;to ten, kiedy mogą nie mieć poczucia prywatności, więc się nie zwierzają ani nie szukają prochów w&nbsp;sieci.
+Szkoła nie ma takiej opcji, bo widzi dzieci tylko przez wycinek ich dnia. I&nbsp;to ten, kiedy mogą nie mieć poczucia prywatności, więc się nie zwierzają ani nie szukają prochów w&nbsp;sieci.
 
 A nawet jeśli coś robią, ale tylko przez większe platformy, to i&nbsp;tak system nie wyłapie nic ciekawego.
 
@@ -235,7 +235,7 @@ Osoba analizująca ruch mogłaby zdobyć informację, że jakiś uczeń wszedł 
 
 Ale to opcja nierealna przy większych platformach albo prywatnej komunikacji.
 
-O ile nie trafią się jakieś ciekawe nazwy domen, a&nbsp;jedynie popularne usługi, szkoła mogłaby co najwyżej oceniać czyjś stopień uzależnienia albo preferowane apki.  
+O ile nie trafią się jakieś ciekawe nazwy domen, a&nbsp;jedynie popularne usługi, szkoła mogłaby co najwyżej oceniać czyjś stopień uzależnienia albo preferowane apki.  
 „Wysyła dane cały czas, nawet podczas zajęć. To nałóg”.  
 „Dużo Instagrama, może nabawić się kompleksów”.
 
@@ -243,15 +243,15 @@ Ale nie dowie się, co dana osoba ma w&nbsp;głowie. I&nbsp;może dobrze?
 
 ## Uwaga o&nbsp;czytaniu Messengera
 
-Wszystkie rzeczy wyżej to teorie, bo nie wczytywałem się w&nbsp;działanie tego konkretnego systemu. Ale pewne rzeczy są niezmiennikami, nie do przeskoczenia.  
+Wszystkie rzeczy wyżej to teorie, bo nie wczytywałem się w&nbsp;działanie tego konkretnego systemu. Ale pewne rzeczy są niezmiennikami, nie do przeskoczenia.  
 Jak wysportowany nie byłby rodzic, nie podskoczy do Księżyca.
 
 Tym bardziej mnie zdziwiło jedno zdanie, które pojawia się w&nbsp;[artykule](https://wyborcza.pl/7,75398,29639901,szkolny-big-brother-do-szuflady.html):
 
 {:.bigspace}
-> \[system\] błyskawicznie się zorientuje, o&nbsp;co tak naprawdę chodzi. Wystarczy że uczeń, wysyłając wiadomość, np. na Messengerze, dołączy zdjęcie
+> \[system\] błyskawicznie się zorientuje, o&nbsp;co tak naprawdę chodzi. Wystarczy że uczeń, wysyłając wiadomość, np. na Messengerze, dołączy zdjęcie
 
-Osobom widzącym tę luźną wzmiankę o&nbsp;czytaniu Messengera może się tutaj zapalić czerwona lampka w&nbsp;głowie. I&nbsp;nie dlatego, że to narusza prywatność. Tylko dlatego, że **to praktycznie niemożliwe od strony technicznej**.
+Osobom widzącym tę luźną wzmiankę o&nbsp;czytaniu Messengera może się tutaj zapalić czerwona lampka w&nbsp;głowie. I&nbsp;nie dlatego, że to narusza prywatność. Tylko dlatego, że **to praktycznie niemożliwe od strony technicznej**.
 
 Co gorsza, nie są to jakieś domysły dziennikarzy; **to słowa samego założyciela firmy**. Autorów systemu.
 
@@ -319,7 +319,7 @@ Nazwa firmy niezmienna od lat, prezes -- niezmienny. Pewna dynamika była natomi
 Widzimy, że od pewnego czasu niezmiennie jest tu para osób o&nbsp;tym samym nazwisku. Nie rodzeństwo, bo dwa miesiące różnicy, więc obstawiam męża i&nbsp;żonę.  
 Od końca lipca 2018&nbsp;r. dołączyła spółka T-Hub.
 
-Zaś od marca 2022&nbsp;roku -- EquiTech. FIZAN, czyli Fundusz Inwestycyjny Zamknięty Aktywów Niepublicznych. Forma dość egzotyczna, więc aż poszukałem o&nbsp;niej [informacji](https://www.linkedin.com/pulse/fizan-co-takiego-i-czy-warto-go-wybra%C4%87-kamila-napiera%C5%82a):
+Zaś od marca 2022&nbsp;roku -- EquiTech. FIZAN, czyli Fundusz Inwestycyjny Zamknięty Aktywów Niepublicznych. Forma dość egzotyczna, więc aż poszukałem o&nbsp;niej [informacji](https://www.linkedin.com/pulse/fizan-co-takiego-i-czy-warto-go-wybra%C4%87-kamila-napiera%C5%82a):
 
 {:.bigspace}
 > FIZAN podlegają szczególnym ograniczeniom ustawowym, jak i&nbsp;kontrolnym. Oznacza to tyle, że niewiele jest o&nbsp;nich informacji ogólnodostępnych, ponieważ takie informacje mogą być kierowane wyłącznie do jego uczestników, czyli posiadaczy certyfikatów. \[oferta\] może być skierowana jedynie do 149&nbsp;inwestorów, a&nbsp;minimalna kwota inwestycji, zgodnie z&nbsp;zapisem ustawowym, stanowi równowartość kwoty 40.000 EUR

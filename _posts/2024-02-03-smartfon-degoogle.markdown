@@ -10,7 +10,7 @@ image:
   path: /assets/posts/google/smartfon-degoogle/degoogle-baner.jpg
   width: 1200
   height: 700
-  alt: "Kadr z anime Jojo's Bizarre Adventure, pokazujący przestraszoną postać o siwych włosach patrzącą na swoje ramię. Wyrasta z niego mała twarz ze złośliwą miną. Ma te same kolory, co logo firmy Google"
+  alt: "Kadr z anime Jojo's Bizarre Adventure, pokazujący przestraszoną postać o siwych włosach patrzącą na swoje ramię. Wyrasta z niego mała twarz ze złośliwą miną. Ma te same kolory, co logo firmy Google"
 ---
 
 Firmę Google bardzo ceniłem w&nbsp;czasach, gdy byli pionierami. Obecnie budzą moją niechęć.
@@ -24,7 +24,7 @@ To część pierwsza, dotycząca ogólnych ustawień. [Część druga]({% post_u
 Zapraszam do lektury!
 
 {:.figure .bigspace-before}
-<img src="/assets/posts/google/smartfon-degoogle/degoogle-baner.jpg" alt="Kadr z&nbsp;anime Jojo's Bizarre Adventure, pokazujący przestraszoną postać o&nbsp;siwych włosach i&nbsp;brodzie patrzącą na swoje ramię, z&nbsp;którego wyrasta mała twarz ze złośliwą miną. Ma te same kolory, co logo firmy Google."/>
+<img src="/assets/posts/google/smartfon-degoogle/degoogle-baner.jpg" alt="Kadr z&nbsp;anime Jojo's Bizarre Adventure, pokazujący przestraszoną postać o&nbsp;siwych włosach i&nbsp;brodzie patrzącą na swoje ramię, z&nbsp;którego wyrasta mała twarz ze złośliwą miną. Ma te same kolory, co logo firmy Google."/>
 
 {:.figcaption}
 Sytuacja jest niewesoła, ale bez obaw. Da się wygrać!  
@@ -69,7 +69,7 @@ Jedynie część o&nbsp;ogólnych ustawieniach prywatnościowych kłóci się z&
 
 ## Pierwsze kroki
 
-Nieraz słyszałem, że macki Google'a na smartfonach sięgają głęboko. Ale nie widziałem tego, siedząc w&nbsp;bańce Huaweia. Pozbawionego usług Wielkiego G&nbsp;ze względu na sankcje ze strony USA.
+Nieraz słyszałem, że macki Google'a na smartfonach sięgają głęboko. Ale nie widziałem tego, siedząc w&nbsp;bańce Huaweia. Pozbawionego usług Wielkiego G&nbsp;ze względu na sankcje ze strony USA.
 
 Szerszy świat pokazał mi smartfon G22 od Motoroli. Rzekomo od niej. Ale równie dobrze mogłaby usunąć wzmianki o&nbsp;sobie. Telefon był kompletnie zdominowany przez Google'a i&nbsp;prawie nie miał niezależnych od niego funkcji.
 
@@ -81,13 +81,13 @@ W przypadku Motoroli G22 ekran główny całkiem dobitnie pokazuje, kto na tym t
 <img src="/assets/posts/google/smartfon-degoogle/google-widget-ikony.jpg" alt="Fragment ekranu głównego smartfona. Widać tutaj pole tekstowe z&nbsp;logiem firmy Google, a&nbsp;pod nim 8&nbsp;ikonek, z&nbsp;których większość również ma cztery firmowe kolory: niebieski, żółty, zielony i&nbsp;czerwony." style="max-width:50%"/>
 
 Skąd takie priorytetowe miejsce dla Google'a? Za ich jakość?  
-A może stąd, że płacili miliardy za taki przywilej, co wyszło podczas rozprawy antymonopolowej? [Samsungowi zapłacili 8&nbsp;miliardów](https://www.androidauthority.com/google-samsung-play-store-monopoly-payment-3385238/). Innym producentom podobne kwoty.
+A może stąd, że płacili miliardy za taki przywilej, co wyszło podczas rozprawy antymonopolowej? [Samsungowi zapłacili 8&nbsp;miliardów](https://www.androidauthority.com/google-samsung-play-store-monopoly-payment-3385238/). Innym producentom podobne kwoty.
 
 Druga rzecz: pod paskiem są ikony kilku podstawowych aplikacji. **Wszystkie albo są apkami Google'a, albo są z&nbsp;nim mocno zrośnięte**.  
-Również te bez czterech kolorków. Duo, Telefon i&nbsp;Wiadomości. Mimo że dwie ostatnie wydają się czymś domyślnym, podstawą każdego smartfona.  
+Również te bez czterech kolorków. Duo, Telefon i&nbsp;Wiadomości. Mimo że dwie ostatnie wydają się czymś domyślnym, podstawą każdego smartfona.  
 Najmniej „googlowy” jest tu Aparat. Ale on również ma domyślnie włączoną integrację z&nbsp;Obiektywem Google.
 
-Potem pokażę, jak je zastąpić. A&nbsp;na tę chwilę, w&nbsp;ramach symbolicznego buntu, można się pozbyć wielkiego paska wyszukiwania (tzw. *widżeta*).  
+Potem pokażę, jak je zastąpić. A&nbsp;na tę chwilę, w&nbsp;ramach symbolicznego buntu, można się pozbyć wielkiego paska wyszukiwania (tzw. *widżeta*).  
 W tym celu trzeba go nacisnąć palcem i&nbsp;przytrzymać. Wyświetli się siatka ułatwiająca rozmieszczanie elementów. A&nbsp;w górnej części -- ikonka usuwania. Wystarczy przeciągnąć na nią trzymany pasek, żeby pozbyć się go z&nbsp;ekranu.
 
 {:.bigspace}
@@ -102,11 +102,11 @@ Nie lubię pisać instrukcji do bezrozumnego wykonania. Wolę, gdy moje wpisy co
 
 > **Fundament działania Androida** -- system ma swoje warstwy. Te wyższe są zależne od niższych.
 
-To jednocześnie zaleta i&nbsp;wada. Zaleta, bo aplikacje nie mogą ominąć zakazów nałożonych przez użytkowników. Wada, bo kontrola użytkowników nie sięga do głębin systemu. A&nbsp;kontrola Google'a częściowo już tak.  
-Tę sytuację można przedstawić jako piramidkę. Użytkownicy mogą się tu poruszać po środkowej warstwie:
+To jednocześnie zaleta i&nbsp;wada. Zaleta, bo aplikacje nie mogą ominąć zakazów nałożonych przez użytkowników. Wada, bo kontrola użytkowników nie sięga do głębin systemu. A&nbsp;kontrola Google'a częściowo już tak.  
+Tę sytuację można przedstawić jako piramidkę. Użytkownicy mogą się tu poruszać po środkowej warstwie:
 
 {:.bigspace-before}
-<img src="/assets/posts/google/smartfon-degoogle/google_apki_piramida.jpg" alt="Piramida złożona z&nbsp;kilku warstw. Najwyższa jest podpisana 'Apki' i&nbsp;obejmuje cztery trapezy tego samego rozmiaru. Na każdym widać czterokolorowe logo innej aplikacji firmy Google. Poniżej mamy warstwę podpisaną 'System Operacyjny'. Znajduje się tam tabliczka podpisana Ad ID, do której prowadzą złotego koloru rurki od aplikacji u&nbsp;góry. Widać również czerwone przełączniki na rurkach. Jeszcze niżej mamy warstwę podpisaną 'Jądro Systemu'. Jest tam tabliczka podpisana GPS, do której również prowadzą rurki z&nbsp;samej góry." />
+<img src="/assets/posts/google/smartfon-degoogle/google_apki_piramida.jpg" alt="Piramida złożona z&nbsp;kilku warstw. Najwyższa jest podpisana 'Apki' i&nbsp;obejmuje cztery trapezy tego samego rozmiaru. Na każdym widać czterokolorowe logo innej aplikacji firmy Google. Poniżej mamy warstwę podpisaną 'System Operacyjny'. Znajduje się tam tabliczka podpisana Ad ID, do której prowadzą złotego koloru rurki od aplikacji u&nbsp;góry. Widać również czerwone przełączniki na rurkach. Jeszcze niżej mamy warstwę podpisaną 'Jądro Systemu'. Jest tam tabliczka podpisana GPS, do której również prowadzą rurki z&nbsp;samej góry." />
 
 {:.figcaption}
 Schemat to tylko ogólna ilustracja, dokładne zależności raczej są inne.  
@@ -118,22 +118,22 @@ Jako użytkownicy możemy się poruszać po warstwie `System operacyjny` i&nbsp;
 Warstwa niższa, którą nazwałem `Jądrem systemu`, jest domyślnie poza naszym zasięgiem. Nie mamy zatem możliwości usuwania niektórych apek albo np. zmiany niektórych ustawień sieci. Ale bez tego też da się przeżyć :wink:
 
 {:.post-meta .bigspace-after}
-Istnieją również opcje pomiędzy systemem a&nbsp;jądrem, takie jak tryb programisty, który liznę w jednym miejscu. Albo tryb debugowania (ADB), którego można użyć po podłączeniu smartfona do komputera. Jego z&nbsp;kolei nie będę tu omawiał.
+Istnieją również opcje pomiędzy systemem a&nbsp;jądrem, takie jak tryb programisty, który liznę w jednym miejscu. Albo tryb debugowania (ADB), którego można użyć po podłączeniu smartfona do komputera. Jego z&nbsp;kolei nie będę tu omawiał.
 
-Co w&nbsp;takiej sytuacji mogą zrobić użytkownicy?
+Co w&nbsp;takiej sytuacji mogą zrobić użytkownicy?
 
 ### Aplikacje są niepewne
 
-Dla formalności wspomnę o tym, że czasem można zmienić **ustawienia na poziomie konkretnych aplikacji**. Otworzyć sobie menu apki, znaleźć opcje odpowiedzialne za profilowanie, personalizację reklam i&nbsp;tak dalej. Wyłączyć takie funkcje.
+Dla formalności wspomnę o tym, że czasem można zmienić **ustawienia na poziomie konkretnych aplikacji**. Otworzyć sobie menu apki, znaleźć opcje odpowiedzialne za profilowanie, personalizację reklam i&nbsp;tak dalej. Wyłączyć takie funkcje.
 
-Ale to niepewne rozwiązanie. Każda aplikacja może działać po swojemu. Niejasno opisywać opcje. Naciskać na użytkowników, aż zmienią zdanie. A&nbsp;nawet zaryzykować i&nbsp;całkiem olać brak zgody.
+Ale to niepewne rozwiązanie. Każda aplikacja może działać po swojemu. Niejasno opisywać opcje. Naciskać na użytkowników, aż zmienią zdanie. A&nbsp;nawet zaryzykować i&nbsp;całkiem olać brak zgody.
 
 Jak pokazały badania sprzed paru lat, [tylko 3,5% aplikacji prawidłowo obsługiwało zgody użytkowników](https://www.usenix.org/system/files/soups2021-kollnig.pdf). Reszta wciągała prywatne informacje jak odkurzacz.  
 Wprawdzie dotyczy to aplikacji wszelakich, nie tylko tych od Google'a, ale dobrze ilustruje problem. Zdawanie się na opcje producentów powinno być najniżej na liście priorytetów.
 
 ### System jest pewniejszy
 
-Z powyższego względu **proponuję nie polegać na apkach i&nbsp;zmieniać ustawienia na poziomie systemu**. Apki są od niego zależne i&nbsp;nie obejdą takich ustawień. Na tym poziomie osoby korzystające ze smartfonów mają następujące opcje (w&nbsp;kolejności od najsłabszych):
+Z powyższego względu **proponuję nie polegać na apkach i&nbsp;zmieniać ustawienia na poziomie systemu**. Apki są od niego zależne i&nbsp;nie obejdą takich ustawień. Na tym poziomie osoby korzystające ze smartfonów mają następujące opcje (w&nbsp;kolejności od najsłabszych):
 
 1. Wyłączenie konkretnym apkom możliwości przesyłania danych w&nbsp;tle.
 2. Odebranie konkretnym apkom dostępu do elementów smartfona, np. mikrofonu.
@@ -146,7 +146,7 @@ Tyle że my tu mamy większy problem. **Przeciwnikiem jest Google. I&nbsp;ta „
 
 ### Plan działania
 
-Biorąc pod uwagę wszystkie powyższe rzeczy, proponuję następujący plan działania:
+Biorąc pod uwagę wszystkie powyższe rzeczy, proponuję następujący plan działania:
 
 * powyłączać aplikacjom Google'a wszystko co się da;
 * zainstalować aplikacje alternatywne;
@@ -159,7 +159,7 @@ Poza tym kilka kroków dla osób chętnych:
 * użyć aplikacji-firewalla i&nbsp;zablokować apkom Google'a połączenia z&nbsp;siecią;
 * całkowicie usunąć Usługi Play.
 
-W tym wpisie skupię się na destrukcji, czyli wyłączaniu i&nbsp;usuwaniu :smiling_imp: Uwagi na temat instalowania alternatyw będą natomiast we wpisie numer dwa.
+W tym wpisie skupię się na destrukcji, czyli wyłączaniu i&nbsp;usuwaniu :smiling_imp: Uwagi na temat instalowania alternatyw będą natomiast we wpisie numer dwa.
 
 ## Wyłączniki systemowe
 
@@ -169,7 +169,7 @@ Istnieje kilka pstryczków, które wystarczy nacisnąć raz, żeby odebrać dost
 
 Na rozgrzewkę coś łatwego i&nbsp;jednoznacznie wrogiego użytkownikom. Można ciąć śmiało.
 
-Trzeba wejść w&nbsp;`Ustawienia` (np. przez ikonę zębatki na głównym ekranie), potem w&nbsp;zakładkę `Prywatność`. Powinna być tam opcja `Reklamy`.
+Trzeba wejść w&nbsp;`Ustawienia` (np. przez ikonę zębatki na głównym ekranie), potem w&nbsp;zakładkę `Prywatność`. Powinna być tam opcja `Reklamy`.
 
 To [AAID](https://www.eff.org/deeplinks/2022/05/how-disable-ad-id-tracking-ios-and-android-and-why-you-should-do-it-now). **Unikalny identyfikator, przypisany do telefonu do celów reklamowych**.  
 Pod pewnymi względami można go uznać za odpowiednik „ciasteczek” (*plików cookies*) w&nbsp;internecie. Dzięki niemu reklamodawcy mogą powiązać czyjeś działania w&nbsp;apce A&nbsp;z&nbsp;działaniami w&nbsp;apce B.
@@ -214,25 +214,25 @@ Warto przejrzeć wszystko z&nbsp;tej zakładki i&nbsp;**wybrać najbardziej rest
 
 * `Powiadomienia na ekranie blokady`
 
-  Na samego Google'a bezużyteczne. On i&nbsp;tak ma zwykle dostęp do treści. Ale pozwoli uniknąć sytuacji, gdy ktoś np. wyśle prywatnego SMS-a, a&nbsp;ktoś niepowołany zobaczy jego treść na ekranie telefonu leżącego na stoliku.
+  Na samego Google'a bezużyteczne. On i&nbsp;tak ma zwykle dostęp do treści. Ale pozwoli uniknąć sytuacji, gdy ktoś np. wyśle prywatnego SMS-a, a&nbsp;ktoś niepowołany zobaczy jego treść na ekranie telefonu leżącego na stoliku.
 
 Nie polegałbym za bardzo na tych ogólnych opcjach, bo prawdziwe zbieranie danych jest ukryte głębiej. Ale zawsze to coś na dobry początek.
 
 ### Personalizacja pstryczków
 
-Na chwilę można opuścić `Ustawienia` i&nbsp;wrócić do ekranu głównego. Telefony z&nbsp;Androidem posiadają tu fajną funkcję -- szybkie „pstryczki globalne”.
+Na chwilę można opuścić `Ustawienia` i&nbsp;wrócić do ekranu głównego. Telefony z&nbsp;Androidem posiadają tu fajną funkcję -- szybkie „pstryczki globalne”.
 
-Będąc na ekranie głównym, można przyłożyć palec do górnej krawędzi i&nbsp;przesunąć w&nbsp;dół, ściągając listę kilku opcji. Po kolejnym pociągnięciu wyświetli się lista na cały ekran. Potem można też przesuwać na boki, wyświetlając jej dalszą część.
+Będąc na ekranie głównym, można przyłożyć palec do górnej krawędzi i&nbsp;przesunąć w&nbsp;dół, ściągając listę kilku opcji. Po kolejnym pociągnięciu wyświetli się lista na cały ekran. Potem można też przesuwać na boki, wyświetlając jej dalszą część.
 
 Z tego menu można szybko włączać lub wyłączać wybrane funkcje. *Wszystkim* aplikacjom. Niezależnie od tego, czy mają indywidualne pozwolenia. **Warto jak najczęściej wyłączać nieużywane rzeczy**, a&nbsp;menu ułożyć tak, żeby najczęściej używane pstryczki mieć u&nbsp;góry.
 
 Problem w&nbsp;tym, że zauważyłem tu istotną różnicę między Huaweiem a&nbsp;Motorolą. Huawei miał na widoku **pstryczek szczególnie ważny, odpowiedzialny za GPS-a**. Motorola nie.  
 W żadnej zakładce, nawet tych dalszych. Według [filmiku](https://www.youtube.com/watch?v=MsLaxP7q3NE) ze stronki *HardReset.info*, powinien tam być. Ale u&nbsp;mnie go nie było.
 
-Okazuje się, że trzeba było nacisnąć ikonę (ołówka?) w&nbsp;lewym dolnym rogu. Wtedy pojawiła się lista wszystkich możliwych kafelków. Mogłem je sobie ustawiać i&nbsp;przenieść ten odpowiedzialny za GPS-a (`Lokalizacja`) na samą górę.
+Okazuje się, że trzeba było nacisnąć ikonę (ołówka?) w&nbsp;lewym dolnym rogu. Wtedy pojawiła się lista wszystkich możliwych kafelków. Mogłem je sobie ustawiać i&nbsp;przenieść ten odpowiedzialny za GPS-a (`Lokalizacja`) na samą górę.
 
 {:.bigspace-before}
-<img src="/assets/posts/google/smartfon-degoogle/kafelki-ustawienie.jpg" alt="Zrzut ekranu, na którym zaznaczono ikonkę ołówka pozwalającą przestawiać pstryczki szybkiego dostępu. Pod spodem widać ułożenie ośmiu z&nbsp;nich, podpisanych: internet, hotspot, lokalizacja, tryb samolotowy, Bluetooth, wyłącz czujniki, autoobracanie, latarka" width="600px"/>
+<img src="/assets/posts/google/smartfon-degoogle/kafelki-ustawienie.jpg" alt="Zrzut ekranu, na którym zaznaczono ikonkę ołówka pozwalającą przestawiać pstryczki szybkiego dostępu. Pod spodem widać ułożenie ośmiu z&nbsp;nich, podpisanych: internet, hotspot, lokalizacja, tryb samolotowy, Bluetooth, wyłącz czujniki, autoobracanie, latarka" width="600px"/>
 
 {:.figcaption}
 Opcja pozwalająca przestawić kafelki oraz ułożenie mojego głównego ekranu.  
@@ -247,18 +247,18 @@ Dlatego naciskali na producentów. Według dokumentów udało im się namówić 
 
 ### Wyłączenie ciągłego skanowania hotspotów
 
-Wiele osób kiedyś w&nbsp;życiu łączyło się przez hotspota. Czy to dla oszczędzenia danych mobilnych, czy to z&nbsp;braku zasięgu. Kliknęli opcję *Wi-Fi*, wyświetlając listę czytelnych nazw hotspotów. Jak *Netia 123456* albo *iPhone (Bolek)*. Połączyli się z&nbsp;którymś z nich i&nbsp;zyskali internet.
+Wiele osób kiedyś w&nbsp;życiu łączyło się przez hotspota. Czy to dla oszczędzenia danych mobilnych, czy to z&nbsp;braku zasięgu. Kliknęli opcję *Wi-Fi*, wyświetlając listę czytelnych nazw hotspotów. Jak *Netia 123456* albo *iPhone (Bolek)*. Połączyli się z&nbsp;którymś z nich i&nbsp;zyskali internet.
 
-Ale znacznie mniej osób wie, że [Google zbiera takie listy hotspotów](https://security.stackexchange.com/a/137425). Na masową skalę. Gromadzą nie tylko te widoczne, czytelne nazwy, ale również odpowiadające im identyfikatory (BSSID). Dzięki temu [mogą ustalić]({% post_url 2023-07-15-sledzenie-lokalizacji %}#wi-fi){:.internal}, na podstawie samej listy hotspotów w&nbsp;sąsiedztwie, w&nbsp;jakim kto jest miejscu.
+Ale znacznie mniej osób wie, że [Google zbiera takie listy hotspotów](https://security.stackexchange.com/a/137425). Na masową skalę. Gromadzą nie tylko te widoczne, czytelne nazwy, ale również odpowiadające im identyfikatory (BSSID). Dzięki temu [mogą ustalić]({% post_url 2023-07-15-sledzenie-lokalizacji %}#wi-fi){:.internal}, na podstawie samej listy hotspotów w&nbsp;sąsiedztwie, w&nbsp;jakim kto jest miejscu.
 
-Jeszcze mniej osób wie, że **to zbieractwo może działać również wtedy, kiedy Wi-Fi jest wyłączone**. Nieświadomie pozwalają się lokalizować i&nbsp;wykonują darmową pracę na rzecz Google'a, pomagając mu mapować świat hotspotów.
+Jeszcze mniej osób wie, że **to zbieractwo może działać również wtedy, kiedy Wi-Fi jest wyłączone**. Nieświadomie pozwalają się lokalizować i&nbsp;wykonują darmową pracę na rzecz Google'a, pomagając mu mapować świat hotspotów.
 
-Ustawienie ubijające tę funkcję powinno być gdzieś w&nbsp;zakładce `Google` opisanej wyżej. Nie mam pewności, bo się jej pozbyłem.
+Ustawienie ubijające tę funkcję powinno być gdzieś w&nbsp;zakładce `Google` opisanej wyżej. Nie mam pewności, bo się jej pozbyłem.
 
 Ale można też inaczej -- wejść w&nbsp;`Ustawienia`, potem w&nbsp;`Sieć i internet`. Kliknąć `Wi-Fi` (nie pstryczek, tylko na polu). A&nbsp;potem link mówiący o&nbsp;ustawieniach skanowania Wi-Fi.  
 Tam będzie to kluczowe ustawienie. Oraz przyznanie się do winy.
 
-<img src="/assets/posts/google/smartfon-degoogle/skanowanie-wifi.jpg" alt="Zrzuty ekranu pokazujące kolejne etapy wyłączania skanowania Wi-Fi. Na pierwzym zaznaczono czerwoną ramką pole podpisane Wi-Fi w&nbsp;opcjach. Na drugim widać link prowadzący do ustawień skanowania. Na ostatnim widać sam przełącznik od skanowania hotspotów oraz zaznaczoną informację o&nbsp;tym, że działa nawet przy wyłączonym samym Wi-Fi." width="600px"/>
+<img src="/assets/posts/google/smartfon-degoogle/skanowanie-wifi.jpg" alt="Zrzuty ekranu pokazujące kolejne etapy wyłączania skanowania Wi-Fi. Na pierwzym zaznaczono czerwoną ramką pole podpisane Wi-Fi w&nbsp;opcjach. Na drugim widać link prowadzący do ustawień skanowania. Na ostatnim widać sam przełącznik od skanowania hotspotów oraz zaznaczoną informację o&nbsp;tym, że działa nawet przy wyłączonym samym Wi-Fi." width="600px"/>
 
 ### Dla chętnych: pstryczek od czujników
 
@@ -269,7 +269,7 @@ Z pozoru wydają się drobnostką. Ale mogą wyciągać całkiem subtelne dane -
 Co więcej, **pozwolenie na dostęp do czujników jest nadawane domyślnie**, a&nbsp;użytkownik nie ma jak tego kontrolować na poziomie konkretnych aplikacji.  
 Pozostaje pstryczek „globalny”, zakopany głęboko w&nbsp;opcjach. Żeby go zdobyć, trzeba najpierw [uruchomić *Tryb programisty*](https://www.lifewire.com/how-to-enable-developer-mode-on-android-4684044). Brzmi groźnie, ale to naprawdę prosta sprawa!
 
-W tym celu trzeba wejść w&nbsp;`Ustawienia`, potem w&nbsp;zakładkę `O telefonie` i&nbsp;znaleźć na dole kafelek z&nbsp;napisem `Numer kompilacji`. Trzeba w&nbsp;niego **stuknąć siedem razy pod rząd**, po czym wpisać kod odblokowujący telefon, żeby włączyć tryb.
+W tym celu trzeba wejść w&nbsp;`Ustawienia`, potem w&nbsp;zakładkę `O telefonie` i&nbsp;znaleźć na dole kafelek z&nbsp;napisem `Numer kompilacji`. Trzeba w&nbsp;niego **stuknąć siedem razy pod rząd**, po czym wpisać kod odblokowujący telefon, żeby włączyć tryb.
 
 Po włączeniu trybu można wejść w&nbsp;`Ustawienia`, potem w&nbsp;zakładkę `System`. Będzie tam nowa zakładka, `Opcje programisty`.
 
@@ -288,9 +288,9 @@ Tę część opisuję dokładniej [we wpisie numer dwa]({% post_url 2024-02-19-s
 Choć wycinanie Google'a to frajda, głupio by było zostać bez aplikacji.  
 Bo, przypominam, **apki podstawowe, takie jak Telefon, też zwykle należą do Google'a**. Zanim odbierze im się pozwolenia, warto zdobyć zamienniki.
 
-Proponuję zrobić to w&nbsp;kilku prostych krokach:
+Proponuję zrobić to w&nbsp;kilku prostych krokach:
 
-* Zainstalować [aplikację F-Droid](https://f-droid.org/) (można przez Play Store, można przez przeglądarkę).
+* Zainstalować [aplikację F-Droid](https://f-droid.org/) (można przez Play Store, można przez przeglądarkę).
 
   To alternatywne źródło aplikacji. Wszystkie muszą mieć otwarty kod źródłowy i&nbsp;są sprawdzane pod kątem bezpieczeństwa.
 
@@ -301,13 +301,13 @@ Proponuję zrobić to w&nbsp;kilku prostych krokach:
   {:.post-meta .bigspace-after}
   Za pierwszym razem wyświetli się prośba o&nbsp;pozwolenie na instalowanie aplikacji. To naturalne, wymaga tego Android.
 
-* W&nbsp;razie potrzeby zainstalować parę apek spoza serii Fossify.
+* W&nbsp;razie potrzeby zainstalować parę apek spoza serii Fossify.
 
-  Sam przykładowo używam jako odtwarzacza multimediów niezawodnego VLC. Jako programu do otwierania PDF-ów (np. pobranych biletów) -- MuPDF Mini. Oba również z&nbsp;F-Droida.
+  Sam przykładowo używam jako odtwarzacza multimediów niezawodnego VLC. Jako programu do otwierania PDF-ów (np. pobranych biletów) -- MuPDF Mini. Oba również z&nbsp;F-Droida.
 
 {% include info.html
 type="Uwaga"
-text="Poprzednio zalecałem aplikacje z&nbsp;serii *Simple Mobile Tools*, ale niestety [zostały sprzedane](https://github.com/SimpleMobileTools/General-Discussion/issues/241) obcej firmie ZipoApps, a&nbsp;ich dalszy los jest niepewny. Choć F-Droid powinien jakoś odfiltrować niekorzystne zmiany, lepiej trzymać się Fossify -- ich *forka* (kopii rozwijanej niezależnie przez osobę z&nbsp;dawnego Simple).  
+text="Poprzednio zalecałem aplikacje z&nbsp;serii *Simple Mobile Tools*, ale niestety [zostały sprzedane](https://github.com/SimpleMobileTools/General-Discussion/issues/241) obcej firmie ZipoApps, a&nbsp;ich dalszy los jest niepewny. Choć F-Droid powinien jakoś odfiltrować niekorzystne zmiany, lepiej trzymać się Fossify -- ich *forka* (kopii rozwijanej niezależnie przez osobę z&nbsp;dawnego Simple).  
 Dziękuję wszystkim osobom, które dały mi znać na maila, a&nbsp;Tymoteuszowi za gotową propozycję zmian!"
 %}
 
@@ -315,12 +315,12 @@ Dziękuję wszystkim osobom, które dały mi znać na maila, a&nbsp;Tymoteuszowi
 
 System pozwoleń to główny sposób na okiełznanie aplikacji na telefonie. Dlatego w&nbsp;wielu wpisach na blogu doradzam, żeby udzielać ich jak najmniej. Tylko wybranym apkom. Na jak najkrótszy czas.
 
-Najłatwiej i&nbsp;najszybciej **odbierać pozwolenia przez _menedżera uprawnień_**, w&nbsp;którym lista jest ułożona według rodzajów pozwoleń. Żeby go otworzyć, trzeba wejść w&nbsp;`Ustawienia`, potem nacisnąć `Prywatność`, a&nbsp;potem `Menedżer uprawnień`.
+Najłatwiej i&nbsp;najszybciej **odbierać pozwolenia przez _menedżera uprawnień_**, w&nbsp;którym lista jest ułożona według rodzajów pozwoleń. Żeby go otworzyć, trzeba wejść w&nbsp;`Ustawienia`, potem nacisnąć `Prywatność`, a&nbsp;potem `Menedżer uprawnień`.
 
 {% include info.html
 type="Uwaga"
-text="Nie wszystkie pozwolenia będzie się dało odebrać przez to menu.  
-Niektóre wymagają jakiejś aplikacji zastępczej. Jeśli dobrze pamiętam, trzeba zdobyć inną aplikację od przeglądania plików, żeby dało się odebrać dostęp do nich apce Files by Google.  
+text="Nie wszystkie pozwolenia będzie się dało odebrać przez to menu.  
+Niektóre wymagają jakiejś aplikacji zastępczej. Jeśli dobrze pamiętam, trzeba zdobyć inną aplikację od przeglądania plików, żeby dało się odebrać dostęp do nich apce Files by Google.  
 Poza tym **do Usług Google Play nie da się sięgnąć przez to menu**, trzeba przez menu aplikacji. O&nbsp;tym pod koniec."
 %}
 
@@ -410,7 +410,7 @@ Niektórzy skorzystali z&nbsp;tej możliwości i&nbsp;stworzyli **_firewalle_ --
 
 Osobiście zainstalowałem apkę [RethinkDNS](https://rethinkdns.com/app) (darmowa, *open source*) i&nbsp;w&nbsp;ten sposób zyskałem upragnione pstryczki od internetu. Szczegóły na temat jej (łatwej) instalacji i&nbsp;obsługi opisałem [w&nbsp;osobnym samouczku](/tutorials/rethink-dns){:.internal}.
 
-<img src="/assets/posts/google/smartfon-degoogle/rethink-dns-blokada-google.jpg" alt="Zrzuty ekranu z&nbsp;aplikacji RethinkDNS. Pierwszy pokazuje, że jest ustawiona jako VPN. Na drugim widać, że dwie aplikacje Google'a zostały zablokowane, a&nbsp;ikonki ich łączności z&nbsp;siecią świecą się na czerwono"/>
+<img src="/assets/posts/google/smartfon-degoogle/rethink-dns-blokada-google.jpg" alt="Zrzuty ekranu z&nbsp;aplikacji RethinkDNS. Pierwszy pokazuje, że jest ustawiona jako VPN. Na drugim widać, że dwie aplikacje Google'a zostały zablokowane, a&nbsp;ikonki ich łączności z&nbsp;siecią świecą się na czerwono"/>
 
 ### Pozwolenia specjalne
 
@@ -418,11 +418,11 @@ Istnieje szereg pozwoleń, których nie znajdzie się wewnątrz *Menedżera upra
 
 Żeby otworzyć to menu, trzeba kliknąć `Ustawienia`, następnie `Aplikacje` i&nbsp;tam, u&nbsp;dołu, wybrać `Specjalny dostęp do aplikacji`. Wyświetli się lista różnych kategorii. Po kliknięciu dowolnej z&nbsp;nich: lista aplikacji, które mogą mieć takie pozwolenie.
 
-Proponuję **powyłączać, co się tylko da**. W&nbsp;szczególności odciąć od tych danych aplikacje Google'a. Poniżej przykłady opcji szczególnie moim zdaniem wrażliwych.
+Proponuję **powyłączać, co się tylko da**. W&nbsp;szczególności odciąć od tych danych aplikacje Google'a. Poniżej przykłady opcji szczególnie moim zdaniem wrażliwych.
 
 * `Zezwól aplikacji na sterowanie Wi-Fi`
 
-  Dostęp do listy *gorących*{:.corr-del} hotspotów w&nbsp;twojej okolicy. Jak już pisałem, można tego użyć do ustalania lokalizacji. Co gorsza, to pozwolenie daje też możliwość *edycji* tej listy.
+  Dostęp do listy *gorących*{:.corr-del} hotspotów w&nbsp;twojej okolicy. Jak już pisałem, można tego użyć do ustalania lokalizacji. Co gorsza, to pozwolenie daje też możliwość *edycji* tej listy.
 
 * `Dostęp do danych o użyciu`
 
@@ -434,7 +434,7 @@ Proponuję **powyłączać, co się tylko da**. W&nbsp;szczególności odciąć
 
 * `Wyświetlanie nad innymi`
 
-  Brzmi niegroźnie? Ale, ze względu na specyfikę Androida: „aplikacja **będzie widzieć, gdzie klikasz**, lub przełączać to, co widzisz na ekranie”.
+  Brzmi niegroźnie? Ale, ze względu na specyfikę Androida: „aplikacja **będzie widzieć, gdzie klikasz**, lub przełączać to, co widzisz na ekranie”.
 
 * `Powiadomienia na urządzeniu i w aplikacjach`
 
@@ -447,15 +447,15 @@ W praktyce dzięki niemu aplikacje mogą choćby [reaktywować](https://news.yco
 
 ## Usuwanie i&nbsp;wyłączanie
 
-W obu przypadkach to proste. `Ustawienia`, potem `Aplikacje`, potem wyświetlenie listy wszystkich. Klika się je po kolei i&nbsp;wybiera opcję odinstalowania u góry. Albo wyłączenia, bo czasem jest tylko taka opcja.  
+W obu przypadkach to proste. `Ustawienia`, potem `Aplikacje`, potem wyświetlenie listy wszystkich. Klika się je po kolei i&nbsp;wybiera opcję odinstalowania u góry. Albo wyłączenia, bo czasem jest tylko taka opcja.  
 Będą się wyświetlały groźne ostrzeżenia, ale bez obaw; apkę wyłączoną można w razie potrzeby włączyć.
 
 {:.post-meta .bigspace-after}
-Jedynie Usług Google Play proponuję nie ruszać zbyt pochopnie. Szczegóły za moment.
+Jedynie Usług Google Play proponuję nie ruszać zbyt pochopnie. Szczegóły za moment.
 
 Ktoś może się zastanowić -- po co usuwać? Jeśli odebrałem aplikacjom pozwolenia, nawet te zaawansowane, a&nbsp;do tego z&nbsp;nich nie korzystam, to co mi mogą zrobić?
 
-Sam też tak myślałem. Ale po kilku tygodniach od odebrania zgód postanowiłem sprawdzić statystyki zużycia danych (`Ustawienia`, `Aplikacje`, potem wybrać sobie jakąś z&nbsp;listy i&nbsp;kliknąć `Dane komórkowe i Wi-Fi`).
+Sam też tak myślałem. Ale po kilku tygodniach od odebrania zgód postanowiłem sprawdzić statystyki zużycia danych (`Ustawienia`, `Aplikacje`, potem wybrać sobie jakąś z&nbsp;listy i&nbsp;kliknąć `Dane komórkowe i Wi-Fi`).
 
 Dane są pokazane w&nbsp;podziale na pierwszy plan (podczas korzystania z&nbsp;apki) oraz na te wysłane w&nbsp;tle, po kryjomu. Naprawdę mało co robiłem na telefonie, a&nbsp;apek Google'a nie tykałem. Ale na tym etapie nie miałem jeszcze *firewalla*, więc apki mogły wysyłać dane. I&nbsp;to robiły:
 
@@ -497,7 +497,7 @@ To Usługi Google Play (_Play Services_). Finałowy boss tego wpisu, czyhający 
 
 {% include info.html
 type="Uwaga"
-text="Warto podkreślić, że Usługi Google Play to coś innego niż (Sklep) Google Play. Ten drugi jest aplikacją. Ze specjalnymi pozwoleniami (jak instalowanie, skanowanie i&nbsp;usuwanie innych aplikacji)... ale nadal aplikacją, którą da się uruchomić.  
+text="Warto podkreślić, że Usługi Google Play to coś innego niż (Sklep) Google Play. Ten drugi jest aplikacją. Ze specjalnymi pozwoleniami (jak instalowanie, skanowanie i&nbsp;usuwanie innych aplikacji)... ale nadal aplikacją, którą da się uruchomić.  
 Z kolei Usługi to [pakiet różnych rzeczy](https://android.stackexchange.com/tags/google-play-services/info), rozszerzających podstawowe funkcje Androida. Przeznaczony dla *innych aplikacji*, a&nbsp;nie ludzi."
 %}
 
@@ -509,13 +509,13 @@ Dobra strona: najtrudniejsze jest samo odkrycie, że takie coś istnieje i&nbsp;
 
 ### Odbieranie Usługom pozwoleń
 
-Do Usług nie da się dobrać przez *Menedżera Uprawnień*, trzeba inaczej.  
+Do Usług nie da się dobrać przez *Menedżera Uprawnień*, trzeba inaczej.  
 Najpierw wchodzimy w&nbsp;Ustawienia, potem `Aplikacje`, potem `Wyświetl wszystkie aplikacje`. Trzeba znaleźć na długiej liście `Usługi Google Play` i&nbsp;kliknąć `Uprawnienia`. Po czym odhaczyć co się da.
 
 {:.post-meta .bigspace-after}
 Nie miałem możliwości wycofania pozwolenia `Aktywność fizyczna`, było na szaro. Ale i&nbsp;tak nie łączyłem z&nbsp;telefonem żadnych zegarków czy opasek, więc mnie to nie dotknęło.
 
-Jeśli Google jakkolwiek boi się konsekwencji, to powinien uszanować brak pozwoleń.  
+Jeśli Google jakkolwiek boi się konsekwencji, to powinien uszanować brak pozwoleń.  
 Ale skoro już zaszliśmy tak daleko, to proponuję wypróbować opcję nuklearną. Wyłączyć Usługi Google Play całkowicie.
 
 ### Dla chętnych -- wyłączenie Usług
@@ -525,18 +525,18 @@ Ale skoro już zaszliśmy tak daleko, to proponuję wypróbować opcję nuklearn
 
 Samo wyłączenie jest banalnie proste. Będąc w&nbsp;tym samym menu, o&nbsp;którym wspomniałem wyżej, wystarczy kliknąć opcję `Wyłącz` u&nbsp;góry. Olać ostrzeżenia.
 
-Kiedy to zrobimy, zaleje nas fala alarmujących komunikatów. Różne inne aplikacje [zaczną się buntować](https://news.ycombinator.com/item?id=28973527). Wyświetlać powiadomienia, że bez Usług nie mogą działać prawidłowo. **Nawet Zegar zaczął się skarżyć**.
+Kiedy to zrobimy, zaleje nas fala alarmujących komunikatów. Różne inne aplikacje [zaczną się buntować](https://news.ycombinator.com/item?id=28973527). Wyświetlać powiadomienia, że bez Usług nie mogą działać prawidłowo. **Nawet Zegar zaczął się skarżyć**.
 
-Kłamstwa i&nbsp;histeria, ale powtarzające się powiadomienia mogą wkurzać. Dlatego je również warto wyłączyć!
+Kłamstwa i&nbsp;histeria, ale powtarzające się powiadomienia mogą wkurzać. Dlatego je również warto wyłączyć!
 
 W tym celu znowu trzeba wejść w&nbsp;menu `Aplikacje` i&nbsp;wyświetlić pełną listę. Ale tym razem dodatkowo kliknąć kropki w&nbsp;górnym rogu i&nbsp;włączyć opcję wyświetlenia aplikacji systemowych.
 
-Następnie można odczytać z&nbsp;powiadomień nazwy aplikacji, które się skarżą. Po czym klikać każdą z&nbsp;nich na liście, wybierać `Powiadomienia` i&nbsp;je wyłączać. Z&nbsp;czasem aplikacje przestaną lamentować, a&nbsp;na smartfonie zapanuje spokój.
+Następnie można odczytać z&nbsp;powiadomień nazwy aplikacji, które się skarżą. Po czym klikać każdą z&nbsp;nich na liście, wybierać `Powiadomienia` i&nbsp;je wyłączać. Z&nbsp;czasem aplikacje przestaną lamentować, a&nbsp;na smartfonie zapanuje spokój.
 
 {% include info.html
 type="Porada"
-text="Jedną z aplikacji [narzekających](https://github.com/signalapp/Signal-Android/issues/12858) na brak Usług był o&nbsp;dziwo komunikator prywatnościowy Signal. Którego powiadomień akurat wolałem nie wyciszać.  
-Na szczęście sprawa się łatwo rozwiązała. Signal jojczał, bo został zainstalowany, gdy jeszcze miałem Usługi. Ale kiedy go usunąłem i&nbsp;zainstalowałem ponownie, to wszystko się naprawiło. Podobnie może być w przypadku innych aplikacji."
+text="Jedną z aplikacji [narzekających](https://github.com/signalapp/Signal-Android/issues/12858) na brak Usług był o&nbsp;dziwo komunikator prywatnościowy Signal. Którego powiadomień akurat wolałem nie wyciszać.  
+Na szczęście sprawa się łatwo rozwiązała. Signal jojczał, bo został zainstalowany, gdy jeszcze miałem Usługi. Ale kiedy go usunąłem i&nbsp;zainstalowałem ponownie, to wszystko się naprawiło. Podobnie może być w przypadku innych aplikacji."
 %}
 
 Dopiero po wyłączeniu Usług osiągnąłem błogi spokój bliski temu na Huaweiu. Ta nuklearna opcja nie jest dla każdego i&nbsp;na pewno niektóre aplikacje przestaną działać (choćby Mapa Turystyczna, jeśli dobrze pamiętam; również w&nbsp;Uberze nie działa miniaturka mapy, ale reszta śmiga).
@@ -549,9 +549,9 @@ Udało się, czterokolorak usunięty!
 
 ...Ale czy na długo? Jak [wspominają niektórzy](https://android.stackexchange.com/q/227035), zdarzał się nawrót po okresie remisji. Wyłączone Usługi Google'a potrafiły samoistnie się reaktywować.
 
-Usługi są czymś na poziomie głębszego systemu, więc tak, mają *techniczną* możliwość wrócić. Przywrócić inne wyłączone apki. Nadać im oraz sobie wszystkie cofnięte pozwolenia. Obejść firewalla i&nbsp;wysłać dane firmie Google.
+Usługi są czymś na poziomie głębszego systemu, więc tak, mają *techniczną* możliwość wrócić. Przywrócić inne wyłączone apki. Nadać im oraz sobie wszystkie cofnięte pozwolenia. Obejść firewalla i&nbsp;wysłać dane firmie Google.
 
-Nie kłócę się z tym. Ale uważam, że możliwość techniczna nie oznacza, że coś się stanie. Gdyby Google tak ostentacyjnie fikał, to ktoś by to zauważył. A&nbsp;wierzę, że jednak mają w&nbsp;sobie jakąś ostrożność.  
+Nie kłócę się z tym. Ale uważam, że możliwość techniczna nie oznacza, że coś się stanie. Gdyby Google tak ostentacyjnie fikał, to ktoś by to zauważył. A&nbsp;wierzę, że jednak mają w&nbsp;sobie jakąś ostrożność.  
 Zwłaszcza teraz, kiedy są pod lupą antymonopolistów.
 
 Bez rootowania -- wymiany głębszych warstw systemu -- można mieć mocne przekonanie, ale nie ma gwarancji. Może być jak w&nbsp;schematycznych horrorach z&nbsp;lat 80., gdy ostatni kadr filmu pokazuje, że pokonane zło jeszcze dycha.

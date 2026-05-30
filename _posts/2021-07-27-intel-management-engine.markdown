@@ -29,7 +29,7 @@ Co to znaczy „pełną władzę”? Przede wszystkim ma wgląd do pamięci komp
 
 Po drugie, oprócz oglądania może te informacje swobodnie zmieniać. Szyfrując część danych i&nbsp;trzymając je poza naszym zasięgiem. A&nbsp;nawet kontrolując wyświetlany obraz bez wiedzy naszego systemu.
 
-<img src="/assets/posts/intel-management-engine/intel-management-engine-hellsing.jpg" alt="Przerobiony kadr z&nbsp;anime Hellsing. Pokazuje mężczyznę w&nbsp;białym stroju stojącego w&nbsp;ciemnościach tyłem do widza. Jego postawa wyraża strach. Wokół znajduje się wiele czerwonych oczu patrzących na niego. Zamiast jednego z&nbsp;nich wklejono opakowanie procesora Intela w&nbsp;kształcie bryły o&nbsp;wielu ścianach, otoczone czerwoną aurą."/>
+<img src="/assets/posts/intel-management-engine/intel-management-engine-hellsing.jpg" alt="Przerobiony kadr z&nbsp;anime Hellsing. Pokazuje mężczyznę w&nbsp;białym stroju stojącego w&nbsp;ciemnościach tyłem do widza. Jego postawa wyraża strach. Wokół znajduje się wiele czerwonych oczu patrzących na niego. Zamiast jednego z&nbsp;nich wklejono opakowanie procesora Intela w&nbsp;kształcie bryły o&nbsp;wielu ścianach, otoczone czerwoną aurą."/>
 
 {:.figcaption}
 Źródło: anime *Hellsing* (z moimi przeróbkami).
@@ -45,7 +45,7 @@ Temat dość niszowy, ale niesłychanie ciekawy. Zapraszam do lektury!
 
 {% include info.html
 type="Więcej informacji"
-text="Mój wpis przycina stronę techniczną i&nbsp;akronimy do minimum. Jeśli chcecie zagłębić się w temat, to polecam:  
+text="Mój wpis przycina stronę techniczną i&nbsp;akronimy do minimum. Jeśli chcecie zagłębić się w temat, to polecam:  
 Bardzo fajny, przekrojowy artykuł od Zaufanej Trzeciej Strony, nazywający IME [jedynym legalnym trojanem](https://zaufanatrzeciastrona.pl/post/intel-management-engine-jedyny-legalny-trojan-sprzetowy/) (rodzaj wirusa).  
 [Przystępne objaśnienie IME](https://www.howtogeek.com/334013/intel-management-engine-explained-the-tiny-computer-inside-your-cpu/) ze strony HowToGeek.  
 Są również całkiem konkretne [informacje z&nbsp;Wikipedii](https://en.wikipedia.org/wiki/Intel_Management_Engine)."
@@ -74,7 +74,7 @@ Takie położenie i&nbsp;budowa dają mu szereg niezwykłych możliwości:
 * umożliwia sterowanie wieloma komputerami naraz,
 * pozwala wyświetlać na ekranie konsolę i&nbsp;przesyłać różne komendy. Bez udziału systemu operacyjnego. Również zdalnie.
 
-Nie wszystkie możliwości są dostępne na naszych komputerach, część jest dodatkowo płatna i&nbsp;wymaga osobnych umów. Ale wszystko mieści się w możliwościach IME. 
+Nie wszystkie możliwości są dostępne na naszych komputerach, część jest dodatkowo płatna i&nbsp;wymaga osobnych umów. Ale wszystko mieści się w możliwościach IME. 
 
 Broszura Intela zawiera fragmenty brzmiące jak reklama. Czytając między wierszami, można zobaczyć, czym próbują skusić klientów korporacyjnych.
 
@@ -177,7 +177,7 @@ List kończy się słowami:
 {:.bigspace}
 > Umieszczenie potencjalnego szpiega w&nbsp;każdym komputerze to okropny finał dla tej historii.
 
-Na tym kończy się część z&nbsp;nadużyciem cudzego dzieła. W&nbsp;późniejszych latach historia IME i&nbsp;zawartego w&nbsp;nim Minixa to głównie odkrywanie luk i&nbsp;niebezpieczne zbliżanie się do przejęcia nad nim kontroli.
+Na tym kończy się część z&nbsp;nadużyciem cudzego dzieła. W&nbsp;późniejszych latach historia IME i&nbsp;zawartego w&nbsp;nim Minixa to głównie odkrywanie luk i&nbsp;niebezpieczne zbliżanie się do przejęcia nad nim kontroli.
 
 # Okres analiz i&nbsp;znajdowania błędów
 
@@ -255,7 +255,7 @@ IME można co najwyżej uśpić. Zaśnie snem wiecznym, w&nbsp;komnacie w&nbsp;c
 
 Po fali skandali i&nbsp;odkryciu sposobu -- nawet tymczasowego -- na wyłączenie IME, niektóre firmy się zbuntowały. Nastąpił swoisty *exodus*:
 
-* Purism, firma od początku reklamująca się chronieniem prywatności, zapowiedziała blokowanie ME na swoich laptopach.
+* Purism, firma od początku reklamująca się chronieniem prywatności, zapowiedziała blokowanie ME na swoich laptopach.
 * To samo zrobił inny producent laptopów, System76.
 * Pod koniec 2017 roku również Dell dodał do oferty biznesowe [laptopy z&nbsp;wyłączonym ME](https://liliputing.com/2017/12/dell-also-sells-laptops-intel-management-engine-disabled.html). Za dodatkową opłatą.
 
@@ -292,7 +292,7 @@ Niedopatrzenie z&nbsp;winy Apple? Trochę pewnie tak, nie mam interesu w&nbsp;ty
 {:.bigspace}
 > Jednak ten tryb i&nbsp;potencjalne ryzyko **nie zostały opisane nigdzie w&nbsp;publicznej dokumentacji Intela**.
 
-Czy to trochę nie przypomina problemów z&nbsp;Minixem i&nbsp;płytką Intela w&nbsp;1981 roku? :wink: Pewne rzeczy się nie zmieniają.
+Czy to trochę nie przypomina problemów z&nbsp;Minixem i&nbsp;płytką Intela w&nbsp;1981 roku? :wink: Pewne rzeczy się nie zmieniają.
 
 Redaktorzy z&nbsp;*The Register* zwrócili się do Intela z&nbsp;prośbą o&nbsp;komentarz. Rzecznik odpisał im:
 
@@ -367,7 +367,7 @@ Wychodzi na to, że nieprędko pozbędziemy się małego, lecz wszechmocnego cho
 
 Intelowi za bardzo zależy na jego obecności. Do tego stopnia, że nawet opór ze strony innych wielkich korpo go nie przekonał do poluzowania kontroli nad tym, co w&nbsp;procesorze siedzi. Poświęcając jedną relację, nawiązuje inną.
 
-Cała ta historia jest dla mnie świetną opowieścią ku przestrodze. Mamy tu:
+Cała ta historia jest dla mnie świetną opowieścią ku przestrodze. Mamy tu:
 
 * wielką firmę, której klientami są inne wielkie firmy, o&nbsp;interesach niekoniecznie zgodnych z&nbsp;naszymi;
 * próbę odebrania nam kontroli nad własnymi urządzeniami;

@@ -19,16 +19,16 @@ image:
 Witam w&nbsp;trzecim wpisie rozszerzającym serię „Internetowa inwigilacja”! Nadal walczymy z&nbsp;podglądaczami usadowionymi na drodze naszej korespondencji, takimi jak firmy telekomunikacyjne.
 
 Gorąco zachęcam, żeby przed tym wpisem zapoznać się z&nbsp;dwoma poprzednimi.  
-W pierwszym przedstawiam szyfrowaną [komunikację przez HTTPS]({% post_url 2022-08-13-https %}){:.internal} oraz nietypową analogię z kłódkami i&nbsp;skrzynkami.  
+W pierwszym przedstawiam szyfrowaną [komunikację przez HTTPS]({% post_url 2022-08-13-https %}){:.internal} oraz nietypową analogię z kłódkami i&nbsp;skrzynkami.  
 W drugim -- [szyfrowanie metadanych]({% post_url 2022-08-13-metadane-esni-ech %}){:.internal}, czyli m.in. informacji o&nbsp;odwiedzanych stronach, wcześniej publicznie widocznych.
 
-Ten wpis przedstawi sposoby na **szyfrowanie komunikacji z&nbsp;DNS-em -- swoistą książką telefoniczną internetu**.  
+Ten wpis przedstawi sposoby na **szyfrowanie komunikacji z&nbsp;DNS-em -- swoistą książką telefoniczną internetu**.  
 Razem z&nbsp;poprzednim wpisem tworzą całość. Samo chowanie metadanych raczej nic by nam nie dało bez uszczelnienia DNS-a. I&nbsp;*vice versa*.
 
 Zapraszam do lektury!
 
 {:.post-meta .bigspace-before}
-Wpis skupia się na roli DNS-a w&nbsp;większej prywatnościowej układance i&nbsp;omawia go pobieżnie. Parę ciekawych technikaliów przesunę do osobnego wpisu, o&nbsp;zastosowaniach cenzorskich.  
+Wpis skupia się na roli DNS-a w&nbsp;większej prywatnościowej układance i&nbsp;omawia go pobieżnie. Parę ciekawych technikaliów przesunę do osobnego wpisu, o&nbsp;zastosowaniach cenzorskich.  
 Poza tym nie zajmuję się zawodowo cyberbezpieczeństwem, nie wierzcie mi na ślepo.
 
 # Spis treści
@@ -52,7 +52,7 @@ W naszej pocztowej analogii pomijaliśmy dotąd pewną rzecz.
 Mianowicie: w&nbsp;przypadku korespondencji pocztowej sami musimy zapisać dokładny adres na kopercie. Zaś w&nbsp;przeglądarce wystarczy że klikniemy link albo wpiszemy w&nbsp;pasek nazwę strony.
 
 To tak, jakbyśmy na kopercie listu napisali jedynie „Jan Kowalski”, nie podając adresu. No, może coś bardziej go identyfikującego, jak PESEL. A&nbsp;jednak jakimś cudem to działa. Nasza „poczta” doręcza prośbę o&nbsp;stronkę, a&nbsp;my ją otrzymujemy.  
-Jak? Logika dyktuje, że mają gdzieś jakieś źródło, w&nbsp;którym są w&nbsp;stanie znaleźć aktualny adres (*IP*) wskazanej im z&nbsp;nazwy osoby (*stronki*).
+Jak? Logika dyktuje, że mają gdzieś jakieś źródło, w&nbsp;którym są w&nbsp;stanie znaleźć aktualny adres (*IP*) wskazanej im z&nbsp;nazwy osoby (*stronki*).
 
 Hipoteza: może na naszym komputerze jest wielka baza z&nbsp;informacjami? Łącząca wszystkie możliwe nazwy stron z&nbsp;ich adresami?  
 Pudło -- choć faktycznie niektóre pary nazwa-adres są zapisywane na naszym dysku, dla szybszego dostępu w&nbsp;przyszłości.  
@@ -138,7 +138,7 @@ Najzwyklejsza szyfrowana korespondencja z&nbsp;innymi stronami, poprzez HTTPS, w
 type="Ciekawostka"
 text="Na korzyść mojego porównania portów do drzwi -- *porta* to [po łacińsku](https://en.wiktionary.org/wiki/Port) właśnie *brama* albo *wejście*. Już Rzymianie, przestraszeni podbojami Hannibala, używali zwrotu *Hannibal ante portas*, czyli „Hannibal u&nbsp;bram”.  
 Z kolei przodkiem współczesnego portu (morskiego, lotniczego...) jest według tego samego źródła łaciński *portus*.  
-A czy słowa *portus* i&nbsp;*porta* są jakoś powiązane? Według losowego tweeta tak -- [mają wspólne źródło](https://nitter.net/Walkyrjenny/status/1480901226296483842#m) od słowa oznaczającego z&nbsp;grubsza *przekraczać*.  
+A czy słowa *portus* i&nbsp;*porta* są jakoś powiązane? Według losowego tweeta tak -- [mają wspólne źródło](https://nitter.net/Walkyrjenny/status/1480901226296483842#m) od słowa oznaczającego z&nbsp;grubsza *przekraczać*.  
 Etymologia to fajna sprawa :smile:"
 %}
 
@@ -146,7 +146,7 @@ Etymologia to fajna sprawa :smile:"
 
 Wiemy już, czym DoH i&nbsp;DoT się różnią -- „wychodzą różnymi drzwiami”. Co to oznacza w&nbsp;praktyce?
 
-DoT ma osobny port, więc się wyróżnia; gdyby ktoś chciał nam zablokować tę formę komunikacji, mógłby po prostu zapieczętować drzwi numer 853. Byłoby to łatwe i&nbsp;raczej pozbawione efektów ubocznych.
+DoT ma osobny port, więc się wyróżnia; gdyby ktoś chciał nam zablokować tę formę komunikacji, mógłby po prostu zapieczętować drzwi numer 853. Byłoby to łatwe i&nbsp;raczej pozbawione efektów ubocznych.
 
 W przypadku DoH-a jest inaczej; szyfrowane listy do DNS-a wychodzą tymi samymi „drzwiami” co nasza najbardziej typowa korespondencja.  
 Nie ma zatem łatwej opcji ich zablokowania albo przechwytywania przez czyhanie przy konkretnych drzwiach.
@@ -159,7 +159,7 @@ Z tego względu DoH nie jest lubiany przez administratorów sieci, którzy chcie
 
 Różne stronki, zwykle piszące z&nbsp;punktu widzenia firmowych działów bezpieczeństwa, przedstawiają właściwości DoH-a jako wadę. Mnie tam los adminów ani ziębi, ani grzeje, więc nie podzielam obaw. Im mniej ktoś ma nade mną kontroli, tym lepiej :wink:
 
-Jako użytkownik bardziej obawiam się wykorzystania tej właściwości do obejścia blokad antyreklamowych.  
+Jako użytkownik bardziej obawiam się wykorzystania tej właściwości do obejścia blokad antyreklamowych.  
 Bo widzicie... istnieją skuteczne, choć nieco bardziej wymagające, metody blokowania reklam przez DNS. Takie jak [PiHole](https://www.reddit.com/r/pihole/comments/7qbg57/what_are_the_benefits_of_using_pihole_instead_of/).  
 Ich działanie opiera się właśnie na przechwytywaniu i&nbsp;olewaniu próśb wysyłanych pod adresy z&nbsp;czarnej listy. Mogą działać na poziomie całej domowej sieci, chroniąc nas np. przed reklamami pobieranymi przez *Smart TV*.
 
@@ -182,7 +182,7 @@ Działa tu zasada „wszystko albo nic”. Nasza interakcja musi spełniać szer
 1. Mamy zaufanego DNS-a poza kontrolą firmy telekomunikacyjnej.
 2. Łączymy się z&nbsp;nim w&nbsp;sposób szyfrowany (DoH/DoT).
 3. Pozyskujemy z&nbsp;niego kłódkę do zamknięcia metadanych metodą ESNI/ECH.
-4. Piszemy na adres IP, pod którym znajduje się wiele różnych stronek.  
+4. Piszemy na adres IP, pod którym znajduje się wiele różnych stronek.  
    Dane wskazujące konkretną spośród&nbsp;nich zamykamy na wspomnianą kłódkę.
 5. Serwer, z&nbsp;którym piszemy, musi wspierać ESNI/ECH. Odczytuje zaszyfrowany adres i&nbsp;przekazuje adresatowi naszą przesyłkę.
 6. Nasz adresat musi wspierać HTTPS, żeby komunikacja z&nbsp;nim była szyfrowana (ale w&nbsp;obecnych czasach to norma).
@@ -210,9 +210,9 @@ Jeśli kogoś interesuje ten temat, to polecam bardziej obszerne [omówienie spr
 
 ## Podsumowanie i&nbsp;przestroga
 
-Tym wpisem domykam mini-trylogię o&nbsp;ukrywaniu się przed podglądaczami, takimi jak dostawcy internetu. Podczas tej podróży poznaliśmy kilka groźnie brzmiących akronimów (HTTPS + DoT/DoH + TLS 1.3 + ESNI/ECH), które, mam nadzieję, objaśniłem w&nbsp;przystępny sposób.
+Tym wpisem domykam mini-trylogię o&nbsp;ukrywaniu się przed podglądaczami, takimi jak dostawcy internetu. Podczas tej podróży poznaliśmy kilka groźnie brzmiących akronimów (HTTPS + DoT/DoH + TLS 1.3 + ESNI/ECH), które, mam nadzieję, objaśniłem w&nbsp;przystępny sposób.
 
-Kiedy wszystkie naraz są aktywne -- zarówno u&nbsp;nas, jak też u&nbsp;odwiedzanej stronki -- zyskujemy prywatność. Domyślnie, w&nbsp;tle, bez korzystania z&nbsp;VPN-ów i&nbsp;pośredników. A&nbsp;jest szansa, że te rozwiązania się upowszechnią, jak kiedyś HTTPS.
+Kiedy wszystkie naraz są aktywne -- zarówno u&nbsp;nas, jak też u&nbsp;odwiedzanej stronki -- zyskujemy prywatność. Domyślnie, w&nbsp;tle, bez korzystania z&nbsp;VPN-ów i&nbsp;pośredników. A&nbsp;jest szansa, że te rozwiązania się upowszechnią, jak kiedyś HTTPS.
 
 Ale oprócz blasków są też cienie.  
 Powtórzę jeszcze raz, że to dość nowe wynalazki. **Wiele serwerów DNS nie wspiera jeszcze DoH i&nbsp;DoT**. Nie mówiąc o&nbsp;takich nowinkach jak ESNI/ECH.  
@@ -237,7 +237,7 @@ DNS, z&nbsp;jakiego korzysta nasze urządzenie, może być ustawiany na kilku po
 * Proponowany przez hotspota.
 
   Domyślny. Kiedy się łączymy z&nbsp;jakimś hotspotem, to zwykle proponuje nam ustawionego u&nbsp;siebie DNS-a. Na przykład jeden hotspot na dworcu potrafi domyślnie używać DNS-a od Google, inny od Cloudflare'a itp.  
-Zarówno na Windowsie, jak i&nbsp;na Linuksie możemy go sprawdzić, klikając ikonę połączenia internetowego na dolnym pasku i&nbsp;wybierając opcję w stylu `Informacje o połączeniu`.
+Zarówno na Windowsie, jak i&nbsp;na Linuksie możemy go sprawdzić, klikając ikonę połączenia internetowego na dolnym pasku i&nbsp;wybierając opcję w stylu `Informacje o połączeniu`.
 
 * Na poziomie systemu.
 

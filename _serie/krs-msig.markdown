@@ -11,7 +11,7 @@ Wiedzieliście, że większość oficjalnych wydarzeń z&nbsp;życia polskich fi
 
 Niestety format danych nie zachęca do takiego sprawdzania. Są dostępne w&nbsp;formie plików PDF, ciężkostrawnych dla komputera i&nbsp;niewiele bardziej czytelnych dla człowieka.
 
-Przy odrobinie wysiłku da się jednak do nich dobrać i&nbsp;przedstawić je w&nbsp;czytelniejszy sposób. Tym się zajmę w tej serii. Patrząc na polskie firmy, zobaczymy różne ciekawostki:
+Przy odrobinie wysiłku da się jednak do nich dobrać i&nbsp;przedstawić je w&nbsp;czytelniejszy sposób. Tym się zajmę w tej serii. Patrząc na polskie firmy, zobaczymy różne ciekawostki:
 
 * Za znanymi markami czasem kryją się dość tajemnicze spółki;
 * Dokumenty finansowe zawierają metadane, po których można rozpoznać autorów dokumentów;

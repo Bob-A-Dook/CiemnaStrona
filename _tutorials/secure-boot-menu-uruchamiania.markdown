@@ -203,16 +203,16 @@ Dla każdego z&nbsp;nich będzie komplet informacji zahaczających o&nbsp;katego
 
 {% include details.html summary="HP Elitebook 820" %}
 
-Na tym komputerze istnieją wszystkie trzy rodzaje menu, jakie tu omówiłem: uruchamiania, BIOS-u i&nbsp;nadrzędne. Do każdego z&nbsp;nich można przejść zaraz po włączeniu laptopa, naciskając odpowiedni klawisz:
+Na tym komputerze istnieją wszystkie trzy rodzaje menu, jakie tu omówiłem: uruchamiania, BIOS-u i&nbsp;nadrzędne. Do każdego z&nbsp;nich można przejść zaraz po włączeniu laptopa, naciskając odpowiedni klawisz:
 
 * `Esc`, żeby wejść do menu nadrzędnego;
 * `F9`, żeby wejść do menu uruchamiania;
 * `F10`, żeby wejść do menu BIOS-u.
 
-Najlepiej najpierw nacisnąć wybrany klawisz i, cały czas go trzymając, nacisnąć raz przycisk uruchamiający komputer. Potem trzeba dociskać klawisz jeszcze parę sekund, aż logo HP na chwilę mignie, zniknie i&nbsp;pojawi się ponownie.
+Najlepiej najpierw nacisnąć wybrany klawisz i, cały czas go trzymając, nacisnąć raz przycisk uruchamiający komputer. Potem trzeba dociskać klawisz jeszcze parę sekund, aż logo HP na chwilę mignie, zniknie i&nbsp;pojawi się ponownie.
 
 {:.post-meta .bigspace-after}
-Gdybyśmy próbowali naciskać klawisz *po* przycisku zasilania i&nbsp;nie wstrzelilibyśmy się w&nbsp;wąskie okno czasowe -- to w&nbsp;dolnej części zacznie wirować kółko sygnalizujące ładowanie. Jeśli się pojawiło, to znaczy że jest już za późno i&nbsp;uruchomi się domyślny system.
+Gdybyśmy próbowali naciskać klawisz *po* przycisku zasilania i&nbsp;nie wstrzelilibyśmy się w&nbsp;wąskie okno czasowe -- to w&nbsp;dolnej części zacznie wirować kółko sygnalizujące ładowanie. Jeśli się pojawiło, to znaczy że jest już za późno i&nbsp;uruchomi się domyślny system.
 
 **Menu nadrzędne** jest typowe i&nbsp;pozwala przejść m.in. do pozostałych dwóch. Nie widzę konieczności korzystania z&nbsp;niego w&nbsp;naszym przypadku.
 

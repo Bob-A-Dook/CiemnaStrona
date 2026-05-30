@@ -19,7 +19,7 @@ Będzie prosto i&nbsp;przystępnie. Nie trzeba znać konsoli, wystarczy gotowoś
 {% include info.html
 type="Drobne uwagi"
 text="Zrzuty ekranu z&nbsp;tego wpisu pochodzą z&nbsp;minimalistycznego systemu PorteuX. Na innych, popularniejszych Linuksach interfejs będzie wyglądał inaczej/lepiej.  
-Jeśli ktoś czyta na wąskim ekranie, to część kodu nie zmieści się na szerokość. Ciemne pola można w&nbsp;takim wypadku przewijać w&nbsp;poziomie."
+Jeśli ktoś czyta na wąskim ekranie, to część kodu nie zmieści się na szerokość. Ciemne pola można w&nbsp;takim wypadku przewijać w&nbsp;poziomie."
 %}
 
 ## Konsola i&nbsp;Dconf -- pierwsze kroki
@@ -28,7 +28,7 @@ Wpis kręci się wokół konsoli, zwanej też Terminalem, więc można zacząć 
 
 W tym celu można kliknąć ikonę z&nbsp;paska (powiedziałbym „dolnego”, ale na niektórych Linuksach jest domyślnie boczny). Taką czarną, nieraz z&nbsp;dolarkiem w&nbsp;rogu. Często działa też skrót klawiszowy `Ctrl+Alt+T`.
 
-Pojawi się okno z&nbsp;nazwą użytkownika i&nbsp;migającym kursorem. Można tu wpisywać polecenia dla komputera, a&nbsp;ten będzie je wykonywał.
+Pojawi się okno z&nbsp;nazwą użytkownika i&nbsp;migającym kursorem. Można tu wpisywać polecenia dla komputera, a&nbsp;ten będzie je wykonywał.
 
 Proponuję najpierw zobaczyć, czy nasz system ma w&nbsp;ogóle ustawienia w&nbsp;formacie pasującym do tego samouczka.  
 W tym celu trzeba wpisać w&nbsp;konsolę:
@@ -42,7 +42,7 @@ Następnie należy nacisnąć `Enter`.
 {:.post-meta .bigspace-after}
 Takie coś -- wpisanie polecenia i&nbsp;potwierdzenie klawiszem -- to *użycie (albo wykonanie) polecenia (albo komendy)*. Tak to od teraz będę określał.
 
-Jeśli pojawi się tekst zaczynający się od takich linijek:
+Jeśli pojawi się tekst zaczynający się od takich linijek:
 
 {:.post-meta}
 ```
@@ -58,20 +58,20 @@ Jeśli wyskoczy informacja, że polecenie `dconf` jest nieznane, to znaczy że D
 
 {% include info.html
 type="Porada"
-text="Domyślnie do konsoli wkleja się rzeczy skrótem `Ctrl+Shift+V`, a&nbsp;kopiuje przez `Ctrl+Shift+C`. Sporo osób się na tym nacina.  
+text="Domyślnie do konsoli wkleja się rzeczy skrótem `Ctrl+Shift+V`, a&nbsp;kopiuje przez `Ctrl+Shift+C`. Sporo osób się na tym nacina.  
 Osoby bardziej myszkowe będą miały łatwiej; po kliknięciu obszaru konsoli prawym przyciskiem myszy, mogą po prostu wybrać opcję kopiowania/wklejania z&nbsp;menu."
 %}
 
 ### O&nbsp;programie Dconf
 
-Każdy pstryczek, jaki da się zmieniać przez czytelne menu, ma jakiś swój zakulisowy odpowiednik. Zapewne jakiś plik, w&nbsp;którym znajduje się etykieta, zaś obok niej -- wartość.  
+Każdy pstryczek, jaki da się zmieniać przez czytelne menu, ma jakiś swój zakulisowy odpowiednik. Zapewne jakiś plik, w&nbsp;którym znajduje się etykieta, zaś obok niej -- wartość.  
 Programy wczytują te ustawienia i&nbsp;zmieniają na ich podstawie swoje zachowanie.
 
-W dawnych czasach niemal każdy program trzymał własne pliki z&nbsp;ustawieniami. Ale było to nieporęczne, więc niektórzy twórcy Linuksów pokusili się o standaryzację.
+W dawnych czasach niemal każdy program trzymał własne pliki z&nbsp;ustawieniami. Ale było to nieporęczne, więc niektórzy twórcy Linuksów pokusili się o standaryzację.
 
 Tak powstał **_Dconf_ -- centralna baza z&nbsp;ustawieniami**. Coś w&nbsp;stylu rejestru Windowsa, ale prostsze i&nbsp;pod wieloma względami czytelniejsze.
 
-Nie każdy program korzysta z&nbsp;tej bazy, nawet jeśli jest dostępna. Przykładowo duże i&nbsp;niezależne, jak Firefox, raczej zarządzają własnymi ustawieniami i&nbsp;nie integrują się z&nbsp;systemem.
+Nie każdy program korzysta z&nbsp;tej bazy, nawet jeśli jest dostępna. Przykładowo duże i&nbsp;niezależne, jak Firefox, raczej zarządzają własnymi ustawieniami i&nbsp;nie integrują się z&nbsp;systemem.
 
 Jest natomiast spora szansa, że jeśli mamy Dconfa, to korzystają z&nbsp;niego **programy systemowe**. Wszelkiej maści menu od sterowania zasilaniem, systemowymi skrótami klawiszowymi, zachowaniem myszki...
 
@@ -88,10 +88,10 @@ Postanowiłem stworzyć sobie skrypt, który wyłącza mi na życzenie tryb oszc
 U siebie zmieniam właściwie dwie opcje, ale dla uproszczenia skupię się tu na jednej.
 
 Gdybym chciał zmienić ustawienie metodą klasyczną, to kliknąłbym w&nbsp;ikonę na pasku, wybrał zakładkę `System`, potem `Preferences`, `Hardware` i&nbsp;`Power Management`.  
-W otwartym w&nbsp;ten sposób menu wszedłbym w&nbsp;zakładkę `On Battery Power` i&nbsp;zmienił tam opcję odpowiedzialną za przyciemnianie.
+W otwartym w&nbsp;ten sposób menu wszedłbym w&nbsp;zakładkę `On Battery Power` i&nbsp;zmienił tam opcję odpowiedzialną za przyciemnianie.
 
 {:.post-meta}
-Ale jeszcze się wstrzymajmy z klikaniem, na razie tylko gdybam.
+Ale jeszcze się wstrzymajmy z klikaniem, na razie tylko gdybam.
 
 {:.bigspace}
 <img src="/assets/tutorials/linux/dconf/porteux-bateria-brak-przyciemniania-ekranu.png" alt="Kolaż pokazujący różne okna, jakie należy kliknąć, żeby wyłączyć przyciemnanie ekranu na Porteuksie"/>
@@ -109,15 +109,15 @@ dconf dump / > dc1
 
 Zacznę od rzeczy przed strzałką. Ogólnie mamy tu `dconf dump ŚCIEŻKA`, gdzie `dconf` to program nadrzędny, `dump` to jego podprogram. Całość mówi „zrób zrzut tej części bazy”, albo inaczej: „pokaż mi wszystkie ustawienia, jakie masz w&nbsp;tym miejscu”.
 
-„To miejsce”, czyli `ŚCIEŻKA`, odwołuje się do hierarchii wewnątrz Dconfa. Wstawiając tu sam ukośnik (`/`), wskazuję, żeby zacząć zrzut od samej góry. Czyli w&nbsp;praktyce mówię: „zrób zrzut *wszystkich* ustawień”.
+„To miejsce”, czyli `ŚCIEŻKA`, odwołuje się do hierarchii wewnątrz Dconfa. Wstawiając tu sam ukośnik (`/`), wskazuję, żeby zacząć zrzut od samej góry. Czyli w&nbsp;praktyce mówię: „zrób zrzut *wszystkich* ustawień”.
 
-Normalnie ustawienia te wyświetliłyby się w konsoli. Ale dzięki strzałce (`>`) trafią zamiast tego do pliku o&nbsp;nazwie wskazanej po jej prawej stronie.
+Normalnie ustawienia te wyświetliłyby się w konsoli. Ale dzięki strzałce (`>`) trafią zamiast tego do pliku o&nbsp;nazwie wskazanej po jej prawej stronie.
 
-Z kolei `dc1` to czysto subiektywna nazwa pliku, do którego chcę zapisać zrzut. Na Linuksie nie trzeba dodawać końcówki w&nbsp;stylu `.txt`. I&nbsp;tak wyjdzie plik tekstowy, a&nbsp;do tego bez końcówki będzie można łatwiej edytować nazwę w kolejnym punkcie.
+Z kolei `dc1` to czysto subiektywna nazwa pliku, do którego chcę zapisać zrzut. Na Linuksie nie trzeba dodawać końcówki w&nbsp;stylu `.txt`. I&nbsp;tak wyjdzie plik tekstowy, a&nbsp;do tego bez końcówki będzie można łatwiej edytować nazwę w kolejnym punkcie.
 
 {% include details-end.html %}
 
-Po wykonaniu zrzutu wracam do graficznego menu. Odznaczam tam niechcianą opcję -- ustawiam, żeby nie przyciemniało ekranu. Mogę też zamknąć menu graficzne, nie będzie mi potrzebne.
+Po wykonaniu zrzutu wracam do graficznego menu. Odznaczam tam niechcianą opcję -- ustawiam, żeby nie przyciemniało ekranu. Mogę też zamknąć menu graficzne, nie będzie mi potrzebne.
 
 Teraz czas na kolejny zrzut przez konsolę (ważne: do pliku o&nbsp;innej nazwie niż poprzednio!).
 
@@ -144,21 +144,21 @@ Powinna pojawić się linijka w&nbsp;tym stylu:
 > idle-dim-battery=false
 ```
 
-Liczba u&nbsp;góry nie ma większego znaczenia; liczą się linijki rozpoczynające się od strzałek.
+Liczba u&nbsp;góry nie ma większego znaczenia; liczą się linijki rozpoczynające się od strzałek.
 
 Czy to tego szukałem? Trzeba się zdać na znajomość angielskiego.  
 Jest `battery`, `idle` to bezczynność, `dim` to przyciemnianie. Wartość `false` -- czyli przyciemnienie zostało zapewne *wyłączone*. Pasuje idealnie!
 
-{% include details.html summary="Gdyby pokazały się inne rzeczy" %}
-Jeśli po użyciu polecenia `diff` nic się nie pokazało, to znaczy że nasza zmiana wykonana przez klikanie menu nie pociągnęła za sobą zmian w&nbsp;Dconfie. **Zapewne badany program zapisuje ustawienia gdzie indziej**.
+{% include details.html summary="Gdyby pokazały się inne rzeczy" %}
+Jeśli po użyciu polecenia `diff` nic się nie pokazało, to znaczy że nasza zmiana wykonana przez klikanie menu nie pociągnęła za sobą zmian w&nbsp;Dconfie. **Zapewne badany program zapisuje ustawienia gdzie indziej**.
 
-Ustalenie miejsca, w&nbsp;którym to robi, może być ciutkę bardziej upierdliwe, ale nadal do przeżycia. W&nbsp;takim wypadku zapraszam do [miniwpisu o programie *strace*](/miniposts/linux-mint-mate-klawiatura.html){:.internal}.
+Ustalenie miejsca, w&nbsp;którym to robi, może być ciutkę bardziej upierdliwe, ale nadal do przeżycia. W&nbsp;takim wypadku zapraszam do [miniwpisu o programie *strace*](/miniposts/linux-mint-mate-klawiatura.html){:.internal}.
 
-Czasem, jeśli zmiana opcji stworzyła nową kategorię, oprócz linijki z&nbsp;wartością pojawi się ścieżka zawierająca ukośniki i&nbsp;nawiasy kwadratowe po bokach; na razie można się nią nie przejmować, jeszcze o&nbsp;niej wspomnę.
+Czasem, jeśli zmiana opcji stworzyła nową kategorię, oprócz linijki z&nbsp;wartością pojawi się ścieżka zawierająca ukośniki i&nbsp;nawiasy kwadratowe po bokach; na razie można się nią nie przejmować, jeszcze o&nbsp;niej wspomnę.
 
-Czasem może się też pojawić więcej linijek, które niekoniecznie dotyczą naszego ustawienia.
+Czasem może się też pojawić więcej linijek, które niekoniecznie dotyczą naszego ustawienia.
 
-Przykładowo: jeśli niektóre sugerują coś związanego z&nbsp;rozmiarem lub ustawieniem okien (jak np. `size=(1002, 716)`), to można je zignorować. Wynikają zapewne z&nbsp;tego, że między zrzutami ustawień lekko zmieniliśmy rozmiar okna. A&nbsp;Dconf zapamiętuje nawet takie detale.
+Przykładowo: jeśli niektóre sugerują coś związanego z&nbsp;rozmiarem lub ustawieniem okien (jak np. `size=(1002, 716)`), to można je zignorować. Wynikają zapewne z&nbsp;tego, że między zrzutami ustawień lekko zmieniliśmy rozmiar okna. A&nbsp;Dconf zapamiętuje nawet takie detale.
 
 To dlatego gorąco radzę, żeby zrobić zrzut tuż przed zmianą i&nbsp;tuż po niej, nie ruszając niczego innego. Będzie mniej szumu w&nbsp;danych.
 
@@ -166,12 +166,12 @@ To dlatego gorąco radzę, żeby zrobić zrzut tuż przed zmianą i&nbsp;tuż po
 
 ## Ustalenie pełnej ścieżki
 
-Znamy nazwę i wartość nowego ustawienia. To już o&nbsp;krok od sukcesu... Tylko że to tak, jakbyśmy ustalili, jakie konkretne słowa powiedzieć konkretnemu człowiekowi. A&nbsp;nie wiemy, pod jakim adresem go znaleźć.
+Znamy nazwę i wartość nowego ustawienia. To już o&nbsp;krok od sukcesu... Tylko że to tak, jakbyśmy ustalili, jakie konkretne słowa powiedzieć konkretnemu człowiekowi. A&nbsp;nie wiemy, pod jakim adresem go znaleźć.
 
 Przed nami jeszcze ustalenie **kategorii (ścieżki wewnątrz Dconfa)**.  
 W praktyce: chcemy znaleźć pierwszy tekst w&nbsp;**nawiasach kwadratowych** nad nowo dodanym ustawieniem.
 
-Można to zrobić przez dopisanie do komendy porównującej pliki argumentu `-U 10`. Wyśwetli on wtedy *kontekst*: po 10&nbsp;linijek przed zmianą i&nbsp;po zmianie:
+Można to zrobić przez dopisanie do komendy porównującej pliki argumentu `-U 10`. Wyśwetli on wtedy *kontekst*: po 10&nbsp;linijek przed zmianą i&nbsp;po zmianie:
 
 ```
 diff -U 10 dc1 dc2
@@ -179,7 +179,7 @@ diff -U 10 dc1 dc2
 
 Jedziemy wzrokiem od nazwy ustawienia (`idle-dim-battery`) w&nbsp;górę. Jeśli nie widać jeszcze niczego z&nbsp;nawiasami kwadratowymi -- to trzeba poszerzyć kontekst, zwiększając liczbę linijek.
 
-W końcu naszym oczom powinna się ukazać pełna ścieżka do zmienionego ustawienia. Zaznaczyłem na czerwono ją oraz ustawienie, od którego wyszliśmy:
+W końcu naszym oczom powinna się ukazać pełna ścieżka do zmienionego ustawienia. Zaznaczyłem na czerwono ją oraz ustawienie, od którego wyszliśmy:
 
 <div class="black-bg mono">
 <br/>
@@ -201,7 +201,7 @@ Jeśli podgląd przez program `diff` nie do końca nam pasuje, to można też ot
 less dc2
 ```
 
-Potem można nacisnąć ukośnik (`/`) (żeby przejść w&nbsp;tryb wyszukiwania) i&nbsp;wkleić po nim charakterystyczny fragment znalezionej nazwy ustawienia. Tu na przykład `idle-dim`.
+Potem można nacisnąć ukośnik (`/`) (żeby przejść w&nbsp;tryb wyszukiwania) i&nbsp;wkleić po nim charakterystyczny fragment znalezionej nazwy ustawienia. Tu na przykład `idle-dim`.
 
 Potem można przewinąć ekran myszą albo strzałką w&nbsp;górę, aż pokaże się pełna ścieżka.
 
@@ -257,8 +257,8 @@ Czyli na przykład ustawienie z&nbsp;Dconfa:
 wyglądałoby w&nbsp;skrypcie tak:  
 `button-power "'shutdown'"`.
 
-Dlaczego tak jest? Bo końcowy Dconf *musi* otrzymać dokładnie to, co wyświetla się w zrzucie ustawień. Czyli tutaj: tekst otoczony cudzysłowami.  
-A podajemy mu ten tekst przez konsolę, która robi po drodze różne przekształcenia i&nbsp;**usuwa najbardziej zewnętrzną parę cudzysłowów** (jeśli jakaś jest).
+Dlaczego tak jest? Bo końcowy Dconf *musi* otrzymać dokładnie to, co wyświetla się w zrzucie ustawień. Czyli tutaj: tekst otoczony cudzysłowami.  
+A podajemy mu ten tekst przez konsolę, która robi po drodze różne przekształcenia i&nbsp;**usuwa najbardziej zewnętrzną parę cudzysłowów** (jeśli jakaś jest).
 
 Użycie dwóch par pozwala sprostać tym ograniczeniom. Konsola zerwie sobie jedną, druga zostanie dla Dconfa.
 
@@ -283,17 +283,17 @@ Poza tym jest też kwestia tego, *kiedy* warto zmieniać Dconfa przez konsolę.
 Przykład pozytywny? Proste, jednorazowe opcje. Gdy na przykład chcemy sobie zrobić prowizoryczny przełącznik między dwoma trybami, z&nbsp;których każdy ma inne ustawienia (zostawiam waszej kreatywności).
 
 Przykład negatywny? **Nie polecam dodawania ikon na pasku przez bezpośrednie zmiany Dconfa**.  
-To dlatego, że reguły ich dodawania są ciut bardziej złożone -- ikony są numerowane i&nbsp;ma spore znaczenie, co było dodawane pierwsze, ile ikon mamy obecnie itd.
+To dlatego, że reguły ich dodawania są ciut bardziej złożone -- ikony są numerowane i&nbsp;ma spore znaczenie, co było dodawane pierwsze, ile ikon mamy obecnie itd.
 
 Gdyby skrypt mówił zawsze i&nbsp;niezmiennie: „dodaj skrót do narzędzia X&nbsp;w czwartej zakładce” -- to mógłby coś popsuć,  gdyby nasz pasek został w&nbsp;jakikolwiek sposób zmieniony względem stanu domyślnego.
 
 ## Bonus: przykład praktyczny
 
-Osobiście wkręciłem się w używanie systemów w&nbsp;trybie *live*. Oznacza to, że za każdym razem ładuję z pendrive'a nowy, świeży system z&nbsp;domyślnymi ustawieniami. Taki jak wspomniany już PorteuX w&nbsp;wersji MATE.
+Osobiście wkręciłem się w używanie systemów w&nbsp;trybie *live*. Oznacza to, że za każdym razem ładuję z pendrive'a nowy, świeży system z&nbsp;domyślnymi ustawieniami. Taki jak wspomniany już PorteuX w&nbsp;wersji MATE.
 
 A że parę jego domyślnych ustawień wybitnie mi nie leży, to lubię je każdorazowo zmieniać. Gdybym musiał to ciągle robić przez menu graficzne, to bym chyba osiwiał.
 
-Ale dzięki istnieniu sposobu konsolowego po prostu podpatrzyłem, co się zmienia wewnątrz Dconfa. I&nbsp;stworzyłem skrypt, który wydaje mu bezpośrednie polecenia.
+Ale dzięki istnieniu sposobu konsolowego po prostu podpatrzyłem, co się zmienia wewnątrz Dconfa. I&nbsp;stworzyłem skrypt, który wydaje mu bezpośrednie polecenia.
 
 {% include details.html summary="Fragment mojego skryptu" %}
 
@@ -313,13 +313,13 @@ dconf write /org/mate/power-manager/idle-dim-battery false
 {:.post-meta .bigspace-after}
 Uczulam osoby, które chciałyby skopiować komendy, że zadziała to tylko na Linuksach ze środowiskiem MATE. Na innych, nawet mających Dconfa, byłyby inne ścieżki.
 
-Dzięki temu mogę nosić ze sobą znajome środowisko, nawet jeśli za każdym razem ładuję świeży system. Parę dodatkowych sekund -- i&nbsp;wszystko ustawia się pode mnie.
+Dzięki temu mogę nosić ze sobą znajome środowisko, nawet jeśli za każdym razem ładuję świeży system. Parę dodatkowych sekund -- i&nbsp;wszystko ustawia się pode mnie.
 
 Polecam takie życie. To jak każdorazowe resetowanie mieszkania do stanu surowego, po czym teleportowanie do niego sprawdzonych sprzętów :smile:
 
 {% include info.html
 type="Powiązane wpisy"
 text="Wpis jest częścią wielkiej fali poradników ułatwiających przechodzenie na Linuksa. To rodzina systemów znacznie bardziej szanujących użytkowników niz Windows. Ma teraz [niepowtarzalną okazję, żeby się przebić](/2025/04/22/koniec-windows-10-rok-linuksa){:.internal} i&nbsp;zjednać sobie szersze grono.  
-Jeśli ktoś chce dać głębszego nura w&nbsp;odkrywanie, co się dzieje w&nbsp;ustawieniach pod powierzchnią, to polecam [wpis na temat języka na Mincie MATE](/miniposts/linux-mint-mate-klawiatura.html){:.internal}. Ostatecznie kończę tam na Dconfie, ale jest przy okazji cała ścieżka rozumowania, która pomogłaby też przy innych plikach z&nbsp;ustawieniami.  
-Mam też wpis, w&nbsp;którym próbuję tego samego [na Mincie Cinnamonie, ale bezskutecznie](/miniposts/cinnamon-klawiatura.html){:.internal}. W&nbsp;końcu cały czas się uczę :wink:"
+Jeśli ktoś chce dać głębszego nura w&nbsp;odkrywanie, co się dzieje w&nbsp;ustawieniach pod powierzchnią, to polecam [wpis na temat języka na Mincie MATE](/miniposts/linux-mint-mate-klawiatura.html){:.internal}. Ostatecznie kończę tam na Dconfie, ale jest przy okazji cała ścieżka rozumowania, która pomogłaby też przy innych plikach z&nbsp;ustawieniami.  
+Mam też wpis, w&nbsp;którym próbuję tego samego [na Mincie Cinnamonie, ale bezskutecznie](/miniposts/cinnamon-klawiatura.html){:.internal}. W&nbsp;końcu cały czas się uczę :wink:"
 %}

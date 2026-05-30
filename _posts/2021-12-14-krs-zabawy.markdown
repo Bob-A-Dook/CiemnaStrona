@@ -30,7 +30,7 @@ Co więcej, **w&nbsp;niektórych dokumentach finansowych skrywały się dane ich
 
 Zaciekawieni? Idealnie! W&nbsp;takim razie zapraszam na wspólne zwiedzanie zakamarków KRS-u i&nbsp;oglądanie bida-wykresów.
 
-<img src="/assets/posts/krs-zabawy/they-live-fullsize.jpg" alt="Przeróbka mema złożona z&nbsp;czterech paneli. Pierwszy z&nbsp;nich pokazuje mężczyznę o&nbsp;blond włosach, który właśnie szykuje się do założenia okularów przeciwsłonecznych. Drugi pokazuje billboard widziany oczami tego mężczyzny. Widać na nim loga czterech firm lub marek: ptaka CD Projektu, kaczkę Donald.pl, napis Moliera 2 oraz herb podpisany All in UJ. Kolejny panel pokazuje mężczyznę już z&nbsp;założonymi okularami. Na ostatnim panelu widać ten sam billboard, ale tym razem zamiast symboli widać na nim miniatury wykresów."/>
+<img src="/assets/posts/krs-zabawy/they-live-fullsize.jpg" alt="Przeróbka mema złożona z&nbsp;czterech paneli. Pierwszy z&nbsp;nich pokazuje mężczyznę o&nbsp;blond włosach, który właśnie szykuje się do założenia okularów przeciwsłonecznych. Drugi pokazuje billboard widziany oczami tego mężczyzny. Widać na nim loga czterech firm lub marek: ptaka CD Projektu, kaczkę Donald.pl, napis Moliera 2 oraz herb podpisany All in UJ. Kolejny panel pokazuje mężczyznę już z&nbsp;założonymi okularami. Na ostatnim panelu widać ten sam billboard, ale tym razem zamiast symboli widać na nim miniatury wykresów."/>
 
 {:.figcaption}
 Moja przeróbka mema opartego na filmie *„They Live”*.  
@@ -114,9 +114,9 @@ Część jest w&nbsp;formacie PDF, więc można je sobie po prostu otworzyć. Ni
 Robi się gorzej, jeśli dokument to hybryda: XML z&nbsp;plikiem PDF zaszytym w&nbsp;środku. Jeśli zajrzymy do wnętrza takiego pliku, to -- o&nbsp;ile Notatnik czy inny program nam się nie zawiesi od długiego tekstu -- zobaczymy po prostu wielki blok złożony z&nbsp;liter, cyferek i&nbsp;innych znaków. Wygląda on tak:
 
 {:.bigspace}
-<img src="/assets/posts/krs-zabawy/sprawozdanie-zalacznik-pdf.jpg" alt="Zrzut ekranu pokazujący wnętrze pliku XML zawierającego zakodowany załącznik. Widać, że od pewnego miejsca, po tagu Dane Załącznika, zaczyna się bardzo długi ciąg liter i&nbsp;znaków. Zrzut pokazuje tylko jego fragment, a&nbsp;poniżej znajduje się napis 'Dużo takiego tekstu jak wyżej'."/>
+<img src="/assets/posts/krs-zabawy/sprawozdanie-zalacznik-pdf.jpg" alt="Zrzut ekranu pokazujący wnętrze pliku XML zawierającego zakodowany załącznik. Widać, że od pewnego miejsca, po tagu Dane Załącznika, zaczyna się bardzo długi ciąg liter i&nbsp;znaków. Zrzut pokazuje tylko jego fragment, a&nbsp;poniżej znajduje się napis 'Dużo takiego tekstu jak wyżej'."/>
 
-Interesujący nas PDF znajduje się między tagami `str:DaneZalacznika`. Dałoby się go wyciągnąć „ręcznie”: kopiując ten wielki blok tekstu, wklejając go na jakąś stronę konwertującą kodowanie *base64* (bo takie jest stosowane), zapisując na dysku z&nbsp;rozszerzeniem *.pdf*. Ale byłaby to żmudna i&nbsp;niewdzięczna robota.
+Interesujący nas PDF znajduje się między tagami `str:DaneZalacznika`. Dałoby się go wyciągnąć „ręcznie”: kopiując ten wielki blok tekstu, wklejając go na jakąś stronę konwertującą kodowanie *base64* (bo takie jest stosowane), zapisując na dysku z&nbsp;rozszerzeniem *.pdf*. Ale byłaby to żmudna i&nbsp;niewdzięczna robota.
 
 ## Część praktyczna 
 
@@ -178,7 +178,7 @@ Na osi pionowej macie imiona i&nbsp;(zakryte) nazwiska osób. Na wysokości każ
 Wykres dla zarządu ma kształt stromych, krótkich schodków, co oznacza że osoby zmieniały się często i&nbsp;mało kto zagrzał miejsce na dłużej.  
 Mówiąc konkretniej: w&nbsp;ciągu około 9 lat przez zarząd przewinęły się 24 osoby. Całkiem mocny argument za tym, że nie było u&nbsp;nich zbyt stabilnie.
 
-A potem przyszły czasy wchłonięcia przez CD Projekt i&nbsp;uspokojenie sytuacji. Od tej pory mamy tylko kilka kresek, konsekwentnie ciągnących się aż do teraz. Kto raz trafił do zarządu za czasów CDP, ten już w&nbsp;nim został (za wyjątkiem jednej osoby).
+A potem przyszły czasy wchłonięcia przez CD Projekt i&nbsp;uspokojenie sytuacji. Od tej pory mamy tylko kilka kresek, konsekwentnie ciągnących się aż do teraz. Kto raz trafił do zarządu za czasów CDP, ten już w&nbsp;nim został (za wyjątkiem jednej osoby).
 
 Cały ten przykład pokazuje nam kilka rzeczy:
 
@@ -298,7 +298,7 @@ Poza tym uważni obserwatorzy zobaczą, że czasem zmiany na wykresie są pozorn
 To częściowo natura KRS-u, a&nbsp;częściowo ograniczenie mojego skryptu. Zdarza się, że ktoś zmieni stanowisko, na przykład z&nbsp;Koordynatora Filaru Nauka na Koordynatora Filaru Impreza -- to ich autentyczne nazwy stanowisk.  
 W takim przypadku ta osoba zyskuje nową, osobną pozycję w&nbsp;KRS-ie, już z&nbsp;inną nazwą stanowiska. Mój skrypt jeszcze nie umie „rozpleść” takich przypadków, więc daje takiej osobie nowy słupek.
 
-Czy dałoby się zmienić stanowisko bez pełnego wykreślenia i&nbsp;ponownego wpisania? Niestety nie wiem, to pewnie zależy od interfejsu, z&nbsp;jakiego korzystają.
+Czy dałoby się zmienić stanowisko bez pełnego wykreślenia i&nbsp;ponownego wpisania? Niestety nie wiem, to pewnie zależy od interfejsu, z&nbsp;jakiego korzystają.
 
 {% include info.html
 type="Ciekawostka"
@@ -344,7 +344,7 @@ Ale jakimś cudem zewnętrzne strony, takie jak *rejestr.io*, potrafią pokazywa
 (któremu niedawno zarzucono [kontrowersyjne przejęcie](https://www.facebook.com/natematcompl/posts/4484169778299200) cudzej domeny internetowej. Przy współpracy z&nbsp;kancelarią, która swego czasu kazała Niebezpiecznikowi [usunąć z&nbsp;komentarzy](https://niebezpiecznik.pl/post/oswiadczenie-w-sprawie-wymierzonej-w-niebezpiecznika-i-inne-redakcje-kampanii-oszczerstw/#akt) imię pewnej osoby).
 
 {:.figure}
-<img src="/assets/posts/krs-zabawy/glob360-powiazania-edit.jpg" alt="Graf powiązań ze strony Rejestr.io. W&nbsp;jego centrum widać firmę Glob 360. Prowadzi do niej pięć strzałek, łączących z&nbsp;nią miniaturki podpisane imiona i&nbsp;nazwiskami osób (nazwiska zakryłem). Na grafie widać również dwie strzałki odchodzace od Glob 360 i&nbsp;łączące firmę z&nbsp;dwiema innymi, Asz Dziennik oraz Mamadu. Te dwie firmy wraz z&nbsp;Glob 360 są otoczone czerwoną obwódką."/>
+<img src="/assets/posts/krs-zabawy/glob360-powiazania-edit.jpg" alt="Graf powiązań ze strony Rejestr.io. W&nbsp;jego centrum widać firmę Glob 360. Prowadzi do niej pięć strzałek, łączących z&nbsp;nią miniaturki podpisane imiona i&nbsp;nazwiskami osób (nazwiska zakryłem). Na grafie widać również dwie strzałki odchodzace od Glob 360 i&nbsp;łączące firmę z&nbsp;dwiema innymi, Asz Dziennik oraz Mamadu. Te dwie firmy wraz z&nbsp;Glob 360 są otoczone czerwoną obwódką."/>
 
 {:.figcaption}
 Czerwoną obwódką otoczyłem powiązania, które nie byłyby widoczne w&nbsp;odpisie dla spółki Glob360.  

@@ -41,7 +41,7 @@ Dzięki PIP-owi uniwersum Pythona stoi otworem. Możemy ściągać z&nbsp;intern
 Otwieramy Eksplorator Windows. W&nbsp;lewym górnym rogu klikamy opcję `Plik`. Wybieramy `Otwórz program Windows PowerShell`.
 
 {:.figure}
-<img src="/assets/tutorials/using-pip/2.webp" alt="Zrzut ekranu pokazujący lewy górny róg programu Eksplorator Windows, z&nbsp;klikniętą zakładką 'Plik'. Czerwoną obwódką otoczono drugą z&nbsp;wymienionych opcji, 'Otwórz program Windows PowerShell'."/>
+<img src="/assets/tutorials/using-pip/2.webp" alt="Zrzut ekranu pokazujący lewy górny róg programu Eksplorator Windows, z&nbsp;klikniętą zakładką 'Plik'. Czerwoną obwódką otoczono drugą z&nbsp;wymienionych opcji, 'Otwórz program Windows PowerShell'."/>
 
 {:.figcaption}
 Jeden z&nbsp;wielu sposobów na włączenie PowerShella.
@@ -68,7 +68,7 @@ I zrobione! Może i&nbsp;metadanych tu nie ma, ale skrypt działa jak powinien.
 
 {% include info.html type="Porada" text="Instalowanie modułów Pythona wymaga łączności z&nbsp;internetem. Jeśli jej nie ma albo coś przerywa, to może wyskoczyć kilka ostrzeżeń i&nbsp;błąd jak z&nbsp;obrazka poniżej.  
 Wtedy sprawdzamy jakość swojego połączenia na innej dowolnej stronce i&nbsp;próbujemy znowu.  
-Jeśli to nie pomaga, to znaczy że coś się popsuło po stronie PyPI (stronki z&nbsp;modułami Pythona). Najlepiej się nie zrażać i&nbsp;po jakimś czasie spróbować ponownie." trailer="<p class='figure'><img src='/assets/tutorials/using-pip/pip-error.webp' alt='Zrzut ekranu z&nbsp;PowerShella, pokazujący długi komunikat o&nbsp;błędzie w&nbsp;połączeniu i&nbsp;mówiący, że nie znaleziono odpowiedniej wersji modułu pillow'/></p>" %}
+Jeśli to nie pomaga, to znaczy że coś się popsuło po stronie PyPI (stronki z&nbsp;modułami Pythona). Najlepiej się nie zrażać i&nbsp;po jakimś czasie spróbować ponownie." trailer="<p class='figure'><img src='/assets/tutorials/using-pip/pip-error.webp' alt='Zrzut ekranu z&nbsp;PowerShella, pokazujący długi komunikat o&nbsp;błędzie w&nbsp;połączeniu i&nbsp;mówiący, że nie znaleziono odpowiedniej wersji modułu pillow'/></p>" %}
 
 # Instalacja na Linuksie
 
@@ -95,8 +95,8 @@ Jeśli tak, to służę paroma informacjami uzupełniającymi.
 {:.post-meta .bigspace-before}
 Niektóre z poniższych informacji są już nieaktualne, przynajmniej na Mincie i&nbsp;paru innych popularnych Linuksach. Ale zostawiam, bo może pomogą przy innych systemach.
 
-Przede wszystkim warto wiedzieć, że czasem macie zainstalowane dwie wersje Pythona -- starą wersję `2.7` oraz nowszą `3.coś`. To tej drugiej chcecie używać.  
-Upewnijcie się, jak jest. Wpiszcie w konsoli `pip --version` i&nbsp;spójrzcie, jaką wersję Pythona wyświetla pod koniec.  
+Przede wszystkim warto wiedzieć, że czasem macie zainstalowane dwie wersje Pythona -- starą wersję `2.7` oraz nowszą `3.coś`. To tej drugiej chcecie używać.  
+Upewnijcie się, jak jest. Wpiszcie w konsoli `pip --version` i&nbsp;spójrzcie, jaką wersję Pythona wyświetla pod koniec.  
 Jeśli pod samym *pip* macie wersję drugą, to&nbsp;w celu użycia trzeciej **musicie, tam gdzie inni wpisują samo `pip`, wpisywać `pip3`**.
 
 {:.post-meta .bigspace-after}
@@ -122,7 +122,7 @@ Warto o tym pamiętać, czytając instrukcje z&nbsp;internetu.
 
 # Znaj swój moduł
 
-Jak sami widzicie, pobieranie modułów zewnętrznych Pythona jest całkiem bezbolesne.
+Jak sami widzicie, pobieranie modułów zewnętrznych Pythona jest całkiem bezbolesne.
 
 Natomiast nie byłbym sobą, gdybym nie wspomniał o&nbsp;ich ciemnej stronie. Moduły zewnętrzne **nie podlegają żadnym rygorystycznym weryfikacjom**, dlatego warto czasem osobiście je sprawdzić. Zwłaszcza jeśli poleca je Wam jakaś nieznana strona.
 

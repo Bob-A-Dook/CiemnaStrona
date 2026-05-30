@@ -78,7 +78,7 @@ Zaraz omówię z&nbsp;osobna warstwy tego prowizorycznego modelu. Ale najpierw k
 
 ## Omówienie poszczególnych warstw
 
-Serię opracowałem z&nbsp;myślą o smartfonach, ale powyższy model jak najbardziej pasuje również do komputerów osobistych. Spójrzmy teraz na typowe cechy poszczególnych warstw oraz przykłady ich ciemnych stron. I&nbsp;ze świata smartfonów, i&nbsp;komputerów.  
+Serię opracowałem z&nbsp;myślą o smartfonach, ale powyższy model jak najbardziej pasuje również do komputerów osobistych. Spójrzmy teraz na typowe cechy poszczególnych warstw oraz przykłady ich ciemnych stron. I&nbsp;ze świata smartfonów, i&nbsp;komputerów.  
 Zacznijmy od góry.
 
 {% include info.html
@@ -108,7 +108,7 @@ Przykładem jest kontrowersyjny [dodatek do przeglądarki firmy Proctorio](https
 
 Bodajże najszersza kategoria. Na każdym systemie możemy ich zwykle mieć tyle, ile tylko chcemy. Ale są spore różnice w&nbsp;sposobie korzystania z&nbsp;nich.
 
-W przypadku pecetów (a przynajmniej Linuksa i&nbsp;Windowsa, które sprawdzałem) da się po prostu wziąć plik w&nbsp;odpowiednim formacie, jak EXE, i&nbsp;go kliknąć. Uruchomimy program bez żadnej instalacji.
+W przypadku pecetów (a przynajmniej Linuksa i&nbsp;Windowsa, które sprawdzałem) da się po prostu wziąć plik w&nbsp;odpowiednim formacie, jak EXE, i&nbsp;go kliknąć. Uruchomimy program bez żadnej instalacji.
 
 W przypadku Androida można wprawdzie pobrać plik z&nbsp;apką w&nbsp;formacie APK... Ale, z&nbsp;tego co wiem, po kliknięciu musimy go zainstalować, a&nbsp;na ekranie głównym pojawi nam się jego ikona. Nie unikniemy tego.
 
@@ -182,7 +182,7 @@ Choć każda warstwa może działać przeciwko nam, nie jesteśmy bezbronni.
 W przypadku komputerów osobistych jest moim zdaniem łatwiej. Zwykle zachowujemy jakąś kontrolę nad swoim systemem, nie jesteśmy naganiani na aplikacje.  
 Nie oznacza to, że nikt nie będzie próbował nas śledzić. Ale łatwiej nam ograniczyć liczbę programów do minimum, a&nbsp;internetu używać głównie przez przeglądarkę, ujawniając o&nbsp;sobie mniej rzeczy.
 
-W przypadku urządzeń mobilnych sytuacja jest znacznie cięższa. Chrapkę na nasze dane mają zarówno autorzy aplikacji, jak i&nbsp;producenci naszego telefonu.
+W przypadku urządzeń mobilnych sytuacja jest znacznie cięższa. Chrapkę na nasze dane mają zarówno autorzy aplikacji, jak i&nbsp;producenci naszego telefonu.
 Tym niemniej wciąż jest parę rzeczy, które warto zrobić dla poprawienia prywatności.
 
 {% include info.html
@@ -196,7 +196,7 @@ Jeśli ktoś bardziej obawia się celowych ataków, to znaczy że dotykamy spraw
 Czasem, kiedy podczas przeglądania internetu wyświetla nam się nachalny baner naganiający dla aplikacji, możemy go obejść -- **udając że nie jesteśmy urządzeniem mobilnym**.
 
 W tym celu wchodzimy w&nbsp;ustawienia przeglądarki. Zwykle znajdziemy tam opcję `Wersja na komputery`.  
-Po jej kliknięciu strona powinna nam się załadować ponownie -- większa, cięższa i&nbsp;nieprzystosowana do urządzenia mobilnego... Ale działająca.
+Po jej kliknięciu strona powinna nam się załadować ponownie -- większa, cięższa i&nbsp;nieprzystosowana do urządzenia mobilnego... Ale działająca.
 
 Jeśli kogoś interesuje, jak to działa za kulisami, to polecam mój wpis na temat *[user agenta]({% post_url 2021-06-11-user-agent %})*{:.internal}.
 
@@ -206,7 +206,7 @@ W przypadku systemów mobilnych (zarówno Androida, jak i&nbsp;iOS) pewną kontr
 
 Jak by to wyglądało na naszej piramidce? Ano tak, że wchodząc w&nbsp;ustawienia telefonu, poruszamy się po warstwie *systemu operacyjnego*. Możemy jednym pstryczkiem zablokować wybranej apce dostęp do mikrofonu.
 
-Same aplikacje są warstwę wyżej, więc muszą porozumiewać się z systemem na jego zasadach. Chcąc coś nagrać, muszą grzecznie poprosić system. „Użyczysz mi mikrofonu?”. A&nbsp;jeśli nie daliśmy pozwolenia, to ten odmówi.  
+Same aplikacje są warstwę wyżej, więc muszą porozumiewać się z systemem na jego zasadach. Chcąc coś nagrać, muszą grzecznie poprosić system. „Użyczysz mi mikrofonu?”. A&nbsp;jeśli nie daliśmy pozwolenia, to ten odmówi.  
 W takiej sytuacji apka może co najwyżej wyświetlić nam komunikat o&nbsp;błędzie, ale nie jest w&nbsp;stanie zawetować naszej decyzji.
 
 Ciemna strona pozwoleń? Niektóre rzeczy uznano na smartfonach za tak powszechne, że **nie można ich wyłączyć w&nbsp;dowolnym momencie. Taki przywilej ma na przykład łączność z&nbsp;internetem**. Każda połączona apka może wysłać zebrane o&nbsp;nas informacje swoim twórcom.
@@ -225,7 +225,7 @@ Możliwość raczej nie dla każdego użytkownika, ale jak najbardziej realna.
 
 Dane i&nbsp;pliki przesyłane między różnymi warstwami systemu są „martwe”. Nie oznacza to, że są niegroźne -- czasem czytanie danych wywołuje efekty uboczne. Swego czasu istniał chociażby „znaczek śmierci”, [zawieszający smartfony od Apple](https://serhack.me/articles/crash-iphone-telugu-character-en/).
 
-Ale **dane nigdy nie zadziałają same z&nbsp;siebie. Zawsze musi je zacząć przetwarzać jakiś program**.
+Ale **dane nigdy nie zadziałają same z&nbsp;siebie. Zawsze musi je zacząć przetwarzać jakiś program**.
 
 Co to nam daje? Załóżmy, że na naszym urządzeniu jest program szpiegowski. Zbiera o&nbsp;nas trochę informacji i&nbsp;wysyła je w&nbsp;świat przez internet.
 

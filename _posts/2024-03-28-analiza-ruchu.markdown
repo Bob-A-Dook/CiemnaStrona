@@ -26,9 +26,9 @@ Podobnie jest z&nbsp;danymi wysyłanymi przez internet. Jak pobierane przez kogo
 <img src="/assets/posts/inwigilacja/ruch-sieciowy/analiza-ruchu-baner.jpg" alt="Mechaniczne oko spogląda na taśmociąg, którym jadą metalowe pudła w&nbsp;różnych rozmiarach z&nbsp;różowymi sercami na ściankach"/>
 
 {:.figcaption}
-Źródło: Bing Create. Zdołałem stworzyć kilkanaście obrazków, nim dostałem losowego bana.
+Źródło: Bing Create. Zdołałem stworzyć kilkanaście obrazków, nim dostałem losowego bana.
 
-To obszerne zagadnienie, które można nazwać ogólnie **analizą ruchu sieciowego** (ang. *traffic analysis*). Pokażę tu pobieżnie jej potęgę, a&nbsp;także sposoby, w&nbsp;jakie można się przed nią chronić.
+To obszerne zagadnienie, które można nazwać ogólnie **analizą ruchu sieciowego** (ang. *traffic analysis*). Pokażę tu pobieżnie jej potęgę, a&nbsp;także sposoby, w&nbsp;jakie można się przed nią chronić.
 
 Zapraszam, będzie przystępnie!
 
@@ -89,11 +89,11 @@ type="Ciekawostka"
 text="Co więcej, podglądacz może również *modyfikować* takie nieszyfrowane informacje. W&nbsp;2014 roku jeden z&nbsp;największych operatorów telekomunikacyjnych w&nbsp;USA, Verizon, dodawał do nich [identyfikator](https://www.eff.org/deeplinks/2014/11/verizon-x-uidh) pozwalający reklamodawcom rozpoznawać ludzi."
 %}
  
-Ale to przykład dość skrajny. Obecnie większość stron z&nbsp;automatu szyfruje komunikację, zwłaszcza te większe. Jeśli adres strony zaczyna się od `https://`, to dane są zaszyfrowane, niemożliwe do odczytania i&nbsp;zmodyfikowania przez zewnętrzne podmioty. Również w&nbsp;tym wpisie **zakładam, że cała treść jest szyfrowana**.
+Ale to przykład dość skrajny. Obecnie większość stron z&nbsp;automatu szyfruje komunikację, zwłaszcza te większe. Jeśli adres strony zaczyna się od `https://`, to dane są zaszyfrowane, niemożliwe do odczytania i&nbsp;zmodyfikowania przez zewnętrzne podmioty. Również w&nbsp;tym wpisie **zakładam, że cała treść jest szyfrowana**.
 
 Co pozostaje na widoku? *Metadane*. Adres IP i&nbsp;czytelna nazwa domeny, jak `www.ciemnastrona.com.pl`.
 
-Podrzucę tutaj adres dawnego wpisu, w&nbsp;którym trochę pisałem o&nbsp;metadanych (ale głównie o&nbsp;samych nazwach domen). Na czerwono oznaczyłem to, czego *nie widzą* podglądacze. Widzą natomiast to, co na biało.
+Podrzucę tutaj adres dawnego wpisu, w&nbsp;którym trochę pisałem o&nbsp;metadanych (ale głównie o&nbsp;samych nazwach domen). Na czerwono oznaczyłem to, czego *nie widzą* podglądacze. Widzą natomiast to, co na biało.
 
 <div class="black-bg mono bigspace-before">
 https://www.ciemnastrona.com.pl<span class="red">/internetowa_inwigilacja/2022/08/13/https</span>
@@ -110,12 +110,12 @@ Oprócz tego podglądacze widzą:
 Istnieje kilka sposobów na to, żeby podejrzeć własny ruch sieciowy i&nbsp;lepiej sobie uzmysłowić, co mogą widzieć podglądacze.
 
 Pierwszy z&nbsp;nich to **narzędzia przeglądarki**. Ograniczone tylko do niej, ale bardzo intuicyjne.  
-Są wbudowane w&nbsp;chyba wszystkie popularne przeglądarki. Wystarczy nacisnąć kombinację `Ctrl+Shift+I`, żeby je wyświetlić. Potem trzeba kliknąć zakładkę `Sieć` w&nbsp;ich górnej części i&nbsp;w razie potrzeby odświeżyć stronę. Wyświetli się lista pobranych elementów oraz garść informacji o&nbsp;nich.
+Są wbudowane w&nbsp;chyba wszystkie popularne przeglądarki. Wystarczy nacisnąć kombinację `Ctrl+Shift+I`, żeby je wyświetlić. Potem trzeba kliknąć zakładkę `Sieć` w&nbsp;ich górnej części i&nbsp;w razie potrzeby odświeżyć stronę. Wyświetli się lista pobranych elementów oraz garść informacji o&nbsp;nich.
 
 {:.figure .bigspace}
 <img src="/assets/posts/inwigilacja/ruch-sieciowy/ruch-internetowy-pobrane.jpg" alt="Widok na listę pobranych plików w&nbsp;Narzędziach Przeglądarki. Ich nazwy i&nbsp;rodzaje są zakryte czarnymi prostokątami"/>
 
-To przybliżenie tego, co widzą podglądacze -- rozmiar plików, rodzaj interakcji (pobranie/wysłanie; tu tylko pobrania) oraz domeny, z&nbsp;jakimi się kontaktujemy. Czerwoną ramką wyróżniłem domenę `github.githubassets.com`, z&nbsp;której pobrana została emota. Ma inne źródło niż reszta treści.
+To przybliżenie tego, co widzą podglądacze -- rozmiar plików, rodzaj interakcji (pobranie/wysłanie; tu tylko pobrania) oraz domeny, z&nbsp;jakimi się kontaktujemy. Czerwoną ramką wyróżniłem domenę `github.githubassets.com`, z&nbsp;której pobrana została emota. Ma inne źródło niż reszta treści.
 
 Podglądacze nie widzieliby natomiast, że przeglądarka coś wzięła z&nbsp;pamięci podręcznej, czyli sięgnęła do wcześniej zapisanego pliku, żeby nie pobierać po raz kolejny.
 
@@ -130,7 +130,7 @@ A jak podejrzeć ruch na smartfonie? Jeśli ktoś nie chce *rootować*, to ma og
 Można jednak zyskać pewien wgląd, instalując na Androidzie *firewalla*, takiego jak aplikacja Rethink DNS. Wyłapuje ona, na poziomie całego telefonu, z&nbsp;jakimi domenami łączyły się różne aplikacje.
 
 {:.figure .bigspace-before}
-<img src="/assets/tutorials/rethink-dns/rdns-logi-sieciowe-przyklad.jpg" alt="Pojedyncza pozycja z&nbsp;listy pokazująca ikonkę przeglądarki Firefox, stronę news.ycmbinator.com, jej adres IP oraz godzinę połączenia i&nbsp;parę pomniejszych informacji"/>
+<img src="/assets/tutorials/rethink-dns/rdns-logi-sieciowe-przyklad.jpg" alt="Pojedyncza pozycja z&nbsp;listy pokazująca ikonkę przeglądarki Firefox, stronę news.ycmbinator.com, jej adres IP oraz godzinę połączenia i&nbsp;parę pomniejszych informacji"/>
 
 {:.figcaption}
 Podglądacz nie widziałby, w&nbsp;przeciwieństwie do użytkowników apki, że jakaś prośba wyszła od Firefoksa. Resztę by widział.
@@ -157,7 +157,7 @@ Nawet gdyby podglądacz całkiem olał inne detale i&nbsp;patrzył na same nazwy
 
 Ta sprawa bardziej pasuje do mojej innej serii, [„Apki to pułapki”](/serie/apki){:.internal}. Ale jest na tyle istotna, że przynajmniej ją streszczę. 
 
-Wiele popularnych systemów i&nbsp;programów regularnie łączy się ze swoimi twórcami. Czy to w&nbsp;celu automatycznej aktualizacji, czy też wysłania danych *telemetrycznych* (ogólnych informacji dotyczących korzystania z&nbsp;aplikacji).
+Wiele popularnych systemów i&nbsp;programów regularnie łączy się ze swoimi twórcami. Czy to w&nbsp;celu automatycznej aktualizacji, czy też wysłania danych *telemetrycznych* (ogólnych informacji dotyczących korzystania z&nbsp;aplikacji).
 
 Zaobserwowałem takie połączenia na smartfonie, w&nbsp;logach apki Rethink DNS. Niekoniecznie wykonane w&nbsp;złych celach... Co nie zmienia faktu, że podglądacz też widzi te domeny (zapewne; zakładam brak szyfrowania metadanych). Kilka przykładów:
 
@@ -179,11 +179,11 @@ Odgadnięcie nazwy aplikacji może być zaledwie początkiem śledzenia.
 
 Jedna apka może w&nbsp;końcu obsługiwać różne tryby działania. Dla każdego z&nbsp;nich powiązane domeny i&nbsp;rozmiar danych mogą nieco się różnić. Jeśli podglądacz zna się na działaniu apki, to może **odczytać z&nbsp;ruchu sieciowego, w&nbsp;jakim trybie jej używałem**.
 
-Z ciekawości zrobiłem sobie na przykład reset hasła w&nbsp;apce linii Ryanair. Potem w&nbsp;historii Rethink DNS-a mogłem zobaczyć dość nietypową kombinację domen, z&nbsp;jakimi mnie połączyło. W&nbsp;tym jakąś zewnętrzną usługę weryfikacyjną -- `risk-api.inauth.com`. Podczas normalnego korzystania się nie pojawiała.
+Z ciekawości zrobiłem sobie na przykład reset hasła w&nbsp;apce linii Ryanair. Potem w&nbsp;historii Rethink DNS-a mogłem zobaczyć dość nietypową kombinację domen, z&nbsp;jakimi mnie połączyło. W&nbsp;tym jakąś zewnętrzną usługę weryfikacyjną -- `risk-api.inauth.com`. Podczas normalnego korzystania się nie pojawiała.
 
 {% include info.html
 type="Ciekawostka"
-text="To już sprawa mniej związana z&nbsp;prywatnością *osobistą*, ale w&nbsp;ten sposób użytkownicy aplikacji mogliby poznawać powiązania biznesowe jej twórców. W&nbsp;końcu jeśli regularnie łączą się z czyimś serwisem, to zapewne korzystają z&nbsp;jego usług."
+text="To już sprawa mniej związana z&nbsp;prywatnością *osobistą*, ale w&nbsp;ten sposób użytkownicy aplikacji mogliby poznawać powiązania biznesowe jej twórców. W&nbsp;końcu jeśli regularnie łączą się z czyimś serwisem, to zapewne korzystają z&nbsp;jego usług."
 %}
   
 Nieszkodliwa anegdotka? To mam groźniejszy przykład.
@@ -198,7 +198,7 @@ A potem -- znając dokładny czas wrzucenia, twarz tej osoby (z&nbsp;monitoringu
 Inny przykład: komunikatory. Zapewne część z&nbsp;nich nie dba o&nbsp;ochronę przed analizą ruchu. Chlubnym wyjątkiem jest Signal, który nawet dopycha pliki pustymi danymi, żeby [ukryć, jakie pobrano *gify*](https://signal.org/blog/signal-and-giphy-update/).
 
 Podglądacz widzi pojedynczy wyrzut danych ku domenie komunikatora? Czyli pewnie wysłaliśmy wiadomość.  
-Jeśli nijak nie dopychają danych, to jej rozmiar odpowiadałby jej długości. A&nbsp;to aż się prosi o&nbsp;analizę :smiling_imp:. Podobną do tej, jaką kiedyś przeprowadziłem na swoich [wiadomościach z&nbsp;Messengera]({% post_url 2021-05-14-messenger-analiza %}){:.internal}.
+Jeśli nijak nie dopychają danych, to jej rozmiar odpowiadałby jej długości. A&nbsp;to aż się prosi o&nbsp;analizę :smiling_imp:. Podobną do tej, jaką kiedyś przeprowadziłem na swoich [wiadomościach z&nbsp;Messengera]({% post_url 2021-05-14-messenger-analiza %}){:.internal}.
 
 Ktoś obserwujący ruch mógłby odgadnąć, czy strzelamy krótkimi wiadomościami, czy komponujemy dłuższe. Jak często wysyłamy obrazki (duże wyrzuty danych) i&nbsp;filmy (największe wyrzuty).  
 A nawet... Jaka jest nasza szybkość pisania. Byłby to rozmiar wyrzutów danych -- ale tylko tych drobniejszych -- podzielony przez czas między wyrzutami.
@@ -213,7 +213,7 @@ Było o&nbsp;stalkerze widzącym twarz, to teraz o&nbsp;firmie telekomunikacyjne
 
 * skłonność do konsumpcji multimediów,
 
-  Jeśli odwiedzam domenę znaną z tego, że hostuje materiały wideo, a&nbsp;w dodatku pobieram sporo danych... To jest spora szansa, że te filmy oglądam. Podglądacz nie dowie się, *które dokładnie*. Ale dowie się, *jak często*.
+  Jeśli odwiedzam domenę znaną z tego, że hostuje materiały wideo, a&nbsp;w dodatku pobieram sporo danych... To jest spora szansa, że te filmy oglądam. Podglądacz nie dowie się, *które dokładnie*. Ale dowie się, *jak często*.
 
 * podzielność uwagi w&nbsp;pracy (:wink:).
 
@@ -221,17 +221,17 @@ Było o&nbsp;stalkerze widzącym twarz, to teraz o&nbsp;firmie telekomunikacyjne
 
 ### Powiązania między osobami 
 
-Ktoś planuje zgadać się z inną osobą przez wideokonferencję. Loguje się na odpowiednią platformę, zaprasza osobę z&nbsp;listy kontaktów. Czeka na połączenie, zaczynają rozmawiać.
+Ktoś planuje zgadać się z inną osobą przez wideokonferencję. Loguje się na odpowiednią platformę, zaprasza osobę z&nbsp;listy kontaktów. Czeka na połączenie, zaczynają rozmawiać.
 
 A podczas wideokonferencji często dochodzi do [ujawnienia prawdziwych adresów IP]({% post_url 2023-11-05-webrtc %}){:.internal}. Takie zeswatanie ze sobą dwóch urządzeń, żeby nie obciążały platformy pośrednictwem między sobą. Adresy trafiają na widok publiczny.
 
 W oczach podglądacza: najpierw było pobranie danych z&nbsp;domeny należącej do platformy wideokonferencyjnej. Potem duża ilość danych wymieniona z&nbsp;konkretnym adresem IP (nienależącym do znanego portalu). Diagnoza: obserwowana osoba **rozpoczęła wideorozmowę z&nbsp;tym drugim adresem IP**.
 
-Czasem adres może być statyczny (niezmienny) i&nbsp;przypisany do konkretnej organizacji. Gdyby podglądacz mógł to sprawdzić w&nbsp;jakiejś bazie, to by wiedział, z&nbsp;kim dana osoba weszła w&nbsp;interakcje. Być może adres IP pasuje do kogoś ciekawego, jak kancelaria od spraw rozwodowych? Albo klinika leczenia nowotworów?
+Czasem adres może być statyczny (niezmienny) i&nbsp;przypisany do konkretnej organizacji. Gdyby podglądacz mógł to sprawdzić w&nbsp;jakiejś bazie, to by wiedział, z&nbsp;kim dana osoba weszła w&nbsp;interakcje. Być może adres IP pasuje do kogoś ciekawego, jak kancelaria od spraw rozwodowych? Albo klinika leczenia nowotworów?
 
-Takie dane mógłby zdobyć nawet prosty kawiarniany stalker. Ale jego możliwości bledną przy tym, co może operator sieci komórkowej, jeśli to przez nią odbyła się rozmowa. Ten drugi mógłby nawet **ustalić tożsamość rozmawiających osób**.
+Takie dane mógłby zdobyć nawet prosty kawiarniany stalker. Ale jego możliwości bledną przy tym, co może operator sieci komórkowej, jeśli to przez nią odbyła się rozmowa. Ten drugi mógłby nawet **ustalić tożsamość rozmawiających osób**.
 
-Przez jedną bazę wykonuje przejście `adres IP → numer telefonu` (w&nbsp;końcu wie, komu przydzielił adres). Przez drugą bazę `numer telefonu → dane osobowe` (wymóg rejestracji karty SIM).  
+Przez jedną bazę wykonuje przejście `adres IP → numer telefonu` (w&nbsp;końcu wie, komu przydzielił adres). Przez drugą bazę `numer telefonu → dane osobowe` (wymóg rejestracji karty SIM).  
 Na pewno pozna co najmniej jedną osobę. A&nbsp;jeśli obie są jego klientami, to pozna konkretne powiązania osobowe. O&nbsp;ochronie przed takim czymś stworzyłem [osobny samouczek](/tutorials/webrtc-wylaczenie){:.internal}.
 
 ## Jak się chronić
@@ -241,14 +241,14 @@ Wnikliwe osoby zauważą, że wszystkie powyższe zagrożenia opierały się na 
 {:.post-meta .bigspace-after}
 A przynajmniej powinny. Pod koniec tego wpisu i&nbsp;wewnątrz kolejnego będą kontrprzykłady.
 
-Żeby móc tę informację ukryć, trzeba wiedzieć, gdzie się znajduje. Są co najmniej dwa główne etapy interakcji, kiedy to nazwa domeny znajduje się na widoku:
+Żeby móc tę informację ukryć, trzeba wiedzieć, gdzie się znajduje. Są co najmniej dwa główne etapy interakcji, kiedy to nazwa domeny znajduje się na widoku:
 
-1. Kontakt z&nbsp;DNS-em, swoistą „książką telefoniczną internetu”, w&nbsp;celu poznania adresu strony. Nie ma szyfrowania, dane są widoczne.  
+1. Kontakt z&nbsp;DNS-em, swoistą „książką telefoniczną internetu”, w&nbsp;celu poznania adresu strony. Nie ma szyfrowania, dane są widoczne.  
 2. Kontakt ze stroną docelową. Szyfrowany, ale na pancernych pudłach są etykiety z&nbsp;nazwą odbiorcy.
 
 Oto schemat interakcji podczas odwiedzania zmyślonej stronki *przyklad.pl*:
 
-<img src="/assets/posts/inwigilacja/ruch-sieciowy/https-komunikacja.jpg" alt="Schemat komunikacji ze stroną internetową przyklad.pl. Widać na nim laptopa połączonego strzałkami z&nbsp;dwoma serwerami, z&nbsp;których jeden jest podpisany DNS, a&nbsp;drugi przyklad.pl. W&nbsp;kilku miejscach widać nazwy tego drugiego."/>
+<img src="/assets/posts/inwigilacja/ruch-sieciowy/https-komunikacja.jpg" alt="Schemat komunikacji ze stroną internetową przyklad.pl. Widać na nim laptopa połączonego strzałkami z&nbsp;dwoma serwerami, z&nbsp;których jeden jest podpisany DNS, a&nbsp;drugi przyklad.pl. W&nbsp;kilku miejscach widać nazwy tego drugiego."/>
 
 {:.figcaption}
 Źródło obrazków na tym i kolejnych schematach: Flaticon, skrzynka z gry *Portal*.  
@@ -268,18 +268,18 @@ Tak na logikę -- jeśli nie połączymy się z&nbsp;internetem, to podglądacz 
 W ten sposób, choć nie ukrywamy aktywnie nazw domen, przynajmniej rozdzielamy informacje między podglądaczy. Nie ma jednego stalkera/reklamodawcy, który znałby i&nbsp;twarz, i&nbsp;personalia, i&nbsp;wrażliwe wędrówki po sieci.
 
 Można też odebrać dostęp do internetu programom, które go nie potrzebują.  
-Na smartfonie [blokuję apki przez Rethink DNS](/tutorials/rethink-dns#firewall){:.internal}. Między innymi aplikację od map, bo korzystam z&nbsp;nich w&nbsp;wersji *offline*, po pobraniu na telefon. Operator nie zobaczy, jak często z&nbsp;nich korzystam, a&nbsp;śmigają normalnie.
+Na smartfonie [blokuję apki przez Rethink DNS](/tutorials/rethink-dns#firewall){:.internal}. Między innymi aplikację od map, bo korzystam z&nbsp;nich w&nbsp;wersji *offline*, po pobraniu na telefon. Operator nie zobaczy, jak często z&nbsp;nich korzystam, a&nbsp;śmigają normalnie.
 
 Mając rozwiązanie intuicyjne z&nbsp;głowy, przejdę do aktywnych sposobów ukrywania domen.
 
 ### Szyfrowany DNS i&nbsp;ECH
 
 Jednym ze sposobów na prywatność jest zaszyfrowanie nazwy domeny we wszystkich miejscach, w&nbsp;których się pojawia.  
-Podczas interakcji z&nbsp;DNS-em można ją ukryć, korzystając z&nbsp;metody [DoH (albo DoT)]({% post_url 2022-08-14-dns-dot-doh %}){:.internal}. Podczas interakcji ze stroną docelową wykorzystuje się z kolei [ECH]({% post_url 2022-08-13-metadane-esni-ech %}){:.internal}. Obie metody opisałem dokładniej w&nbsp;podlinkowanych wpisach, więc pominę szczegóły.
+Podczas interakcji z&nbsp;DNS-em można ją ukryć, korzystając z&nbsp;metody [DoH (albo DoT)]({% post_url 2022-08-14-dns-dot-doh %}){:.internal}. Podczas interakcji ze stroną docelową wykorzystuje się z kolei [ECH]({% post_url 2022-08-13-metadane-esni-ech %}){:.internal}. Obie metody opisałem dokładniej w&nbsp;podlinkowanych wpisach, więc pominę szczegóły.
 
 Sedno sprawy -- zaszyfrowane jest wszystko poza adresem IP:
 
-<img src="/assets/posts/inwigilacja/ruch-sieciowy/https-doh-ech-komunikacja.jpg" alt="Schemat komunikacji ze stroną internetową przyklad.pl. Widać na nim laptopa połączonego strzałkami z&nbsp;dwoma serwerami, z&nbsp;których jeden jest podpisany DNS, a&nbsp;drugi przyklad.pl. Ale nazwy serwera docelowego są w&nbsp;każdym miejscu zakryte."/>
+<img src="/assets/posts/inwigilacja/ruch-sieciowy/https-doh-ech-komunikacja.jpg" alt="Schemat komunikacji ze stroną internetową przyklad.pl. Widać na nim laptopa połączonego strzałkami z&nbsp;dwoma serwerami, z&nbsp;których jeden jest podpisany DNS, a&nbsp;drugi przyklad.pl. Ale nazwy serwera docelowego są w&nbsp;każdym miejscu zakryte."/>
 
 Wielką zaletą tych metod jest fakt, że są wspierane za kulisami. Bez widocznych zmian po stronie użytkowników. W&nbsp;przyszłości być może z&nbsp;automatu.
 
@@ -303,17 +303,17 @@ Wzrok podglądaczy nie sięga zwykle dalej niż do pierwszego adresata. A&nbsp;j
 
 Wszystkie dane w&nbsp;ich oczach będą zaszyfrowane i&nbsp;będą miały tego samego adresata. Pośrednika. Nie zobaczą końcowej domeny ani jej adresu. Jedynie rozmiar i&nbsp;ilość danych, które trudno by było do czegoś przypisać.
 
-<img src="/assets/posts/inwigilacja/ruch-sieciowy/https-vpn-komunikacja.jpg" alt="Schemat komunikacji ze stroną internetową przyklad.pl przez VPN-a. Widać na nim laptopa połączonego strzałkami z&nbsp;VPN-em. Ten z&nbsp;kolei jest połączony z&nbsp;dwoma serwerami, z&nbsp;których jeden jest podpisany DNS, a&nbsp;drugi przyklad.pl."/>
+<img src="/assets/posts/inwigilacja/ruch-sieciowy/https-vpn-komunikacja.jpg" alt="Schemat komunikacji ze stroną internetową przyklad.pl przez VPN-a. Widać na nim laptopa połączonego strzałkami z&nbsp;VPN-em. Ten z&nbsp;kolei jest połączony z&nbsp;dwoma serwerami, z&nbsp;których jeden jest podpisany DNS, a&nbsp;drugi przyklad.pl."/>
 
 Wielką zaletą pośredników jest fakt, że przy odpowiednich ustawieniach można pod nich podpiąć cały swój ruch. Nie tylko z&nbsp;przeglądarki, o&nbsp;której piszę tu najwięcej, ale również ten wychodzący z&nbsp;innych programów.
 
-Są też niezależni od tego, czy strona docelowa wspiera szyfrowanie danych. Zapewniają je po swojej stronie, podczas interakcji z&nbsp;nimi. Można nawet odwiedzać z&nbsp;nimi stronki nieobsługujące szyfrowania, zaczynające się od `http://`, a&nbsp;podglądacz i&nbsp;tak nic nie odczyta.
+Są też niezależni od tego, czy strona docelowa wspiera szyfrowanie danych. Zapewniają je po swojej stronie, podczas interakcji z&nbsp;nimi. Można nawet odwiedzać z&nbsp;nimi stronki nieobsługujące szyfrowania, zaczynające się od `http://`, a&nbsp;podglądacz i&nbsp;tak nic nie odczyta.
 
 {:.post-meta .bigspace-after}
-Ale nadal odradzam *logowanie się* na tego rodzaju stronki, bo VPN mógłby sobie gromadzić hasła dostępu. Stronki nieszyfrowane są do przełknięcia tylko wtedy, gdy to statyczna treść.
+Ale nadal odradzam *logowanie się* na tego rodzaju stronki, bo VPN mógłby sobie gromadzić hasła dostępu. Stronki nieszyfrowane są do przełknięcia tylko wtedy, gdy to statyczna treść.
 
 Wada rozwiązania, jeśli po drodze stoi tylko jeden VPN? Wymaga **przeniesienia zaufania na tego pośrednika**. Ten nadal będzie widział, z&nbsp;kim się kontaktujemy. Nie mamy gwarancji, poza jego obietnicami, że nie dzieli się tymi informacjami.  
-Z tego względu nie będę tutaj polecał żadnego konkretnego VPN-a. Nie chcę mieć nikogo na sumieniu :wink:
+Z tego względu nie będę tutaj polecał żadnego konkretnego VPN-a. Nie chcę mieć nikogo na sumieniu :wink:
 
 ### Sieć Tor
 
@@ -324,17 +324,17 @@ To cała pajęczyna pośredników, rozrzuconych po świecie i&nbsp;przydzielanyc
 
 A to zaledwie początek. Sieć Tor celowo [miesza, żeby utrudnić analizę ruchu](https://youtu.be/trMLnwZAqEM?feature=shared&t=151) (YouTube). Dodaje od siebie trochę sztucznych pakietów, wprowadza nieregularne opóźnienia... Aktywnie utrudnia podglądaczom życie.
 
-Sieć Tor, wbrew powszechnym przekonaniom, nie jest uwiązana do jednego programu. To rozwiązanie ogólne, z&nbsp;którego mogą korzystać różne przeglądarki, jak choćby Brave. Ale to Tor Browser, autorska przeglądarka od ekipy tworzącej sieć, zawiera najwięcej bajerów chroniących prywatność.
+Sieć Tor, wbrew powszechnym przekonaniom, nie jest uwiązana do jednego programu. To rozwiązanie ogólne, z&nbsp;którego mogą korzystać różne przeglądarki, jak choćby Brave. Ale to Tor Browser, autorska przeglądarka od ekipy tworzącej sieć, zawiera najwięcej bajerów chroniących prywatność.
 
 {% include info.html
 type="Uwaga"
-text="Przeglądarka Tor Browser, choć w&nbsp;mediach bywa demonizowana i&nbsp;nazywana „przeglądarką od darknetu”, nie zmusza nikogo do wchodzenia w&nbsp;ciemniejsze zakamarki sieci. Wystarczy nie odwiedzać stron zakończonych na `.onion`, a&nbsp;jedynie te co zwykle. Wtedy Tor to po prostu VPN na sterydach.  
+text="Przeglądarka Tor Browser, choć w&nbsp;mediach bywa demonizowana i&nbsp;nazywana „przeglądarką od darknetu”, nie zmusza nikogo do wchodzenia w&nbsp;ciemniejsze zakamarki sieci. Wystarczy nie odwiedzać stron zakończonych na `.onion`, a&nbsp;jedynie te co zwykle. Wtedy Tor to po prostu VPN na sterydach.  
 [Problemem nie jest żaden darknet](/2023/06/02/clearnet-deepnet-darknet){:.internal}. Tylko co najwyżej fakt, że niektóre strony rozpoznają ruch idący przez Tora i&nbsp;złośliwie go nie wpuszczają albo każą rozwiązywać Captche.
 "%}
 
 ## Pułapka korelacji czasowej
 
-Tor jest super. Ale nawet on nie ocali tych, którzy całkiem się nie pilnują.
+Tor jest super. Ale nawet on nie ocali tych, którzy całkiem się nie pilnują.
 
 Znany jest przypadek pewnego studenta z&nbsp;USA, który [wpadł mimo korzystania z&nbsp;Tora](https://www.forbes.com/sites/runasandvik/2013/12/18/harvard-student-receives-f-for-tor-failure-while-sending-anonymous-bomb-threat/). I&nbsp;nie musiało go demaskować żadne FBI czy NSA. Mógłby to zrobić nawet zwykły administrator sieci uczelnianej.
 
@@ -349,14 +349,14 @@ Student → <span class="red">sieć uczelni</span> → sieć Tor → <span class
 
 Uczelnia znała godzinę otrzymania maila. Widziała, że przyszedł z&nbsp;sieci Tor, bo istnieją publiczne bazy związanych z nią adresów IP.  
 Skoro wyszło z&nbsp;Tora, to musiało też wejść do Tora. Sprawdzono w&nbsp;historii kampusowej sieci, jakie urządzenia o&nbsp;podobnej godzinie kontaktowały się z&nbsp;innym IP ze znanej listy.  
-Jak się okazało, student był jedyną osobą pasującą do wzorca. Tor nie był jakimś hitem kampusu. 
+Jak się okazało, student był jedyną osobą pasującą do wzorca. Tor nie był jakimś hitem kampusu. 
 
 Ta historia nie pokazuje słabości sieci Tor, bo ta dobrze robiła swoją robotę. Ale, wciśnięta między dwa wrogie punkty, traciła swoje właściwości.  
 Z kolei fakt, że istnieją listy związanych z&nbsp;nią adresów IP, jest raczej nieunikniony. Serwery są trochę jak nieruchomości, nie są w&nbsp;stanie ciągle się przemieszczać.
 
 Gdyby kogoś zainteresował temat, to proponuję poszukać w&nbsp;sieci frazy `tor correlation attack`. To cały obszar badań i&nbsp;można znaleźć różne ciekawe prace.
 
-Na ten wpis to tyle! Dla zainteresowanych osób mam zaś kolejny, opisujący [*website fingerprinting*]({% post_url 2024-06-19-website-fingerprinting %}){:.internal} -- wzbogacenie analizy ruchu o&nbsp;aktywne mapowanie stron internetowych.
+Na ten wpis to tyle! Dla zainteresowanych osób mam zaś kolejny, opisujący [*website fingerprinting*]({% post_url 2024-06-19-website-fingerprinting %}){:.internal} -- wzbogacenie analizy ruchu o&nbsp;aktywne mapowanie stron internetowych.
 
 {% include info.html
 type="Źródło obrazków"

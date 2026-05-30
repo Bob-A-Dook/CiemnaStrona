@@ -24,8 +24,8 @@ Zobaczymy, że wyciąganie danych z&nbsp;Monitorów to bolesna sprawa. Ale możn
 
 * **Kilkadziesiąt tysięcy wpisów jest wybrakowanych**. Są całkiem lub prawie całkiem pozbawione treści albo mają luki w&nbsp;tekście.
 * Liczba najgorszych przypadków była znacznie większa w&nbsp;2020 roku niż w&nbsp;pozostałych latach.
-* Czasem coś się w formacie zmienia, z&nbsp;roku na rok znikają niektóre kategorie błędów (na przykład trzy kreski zamiast niektórych numerów pól). Ale bywa, że na ich miejsce przychodzą nowe.
-* Literówki potrafią się trafiać nawet w&nbsp;miejscach, które w&nbsp;każdym rozsądnym świecie byłyby wypełniane przez komputer.
+* Czasem coś się w formacie zmienia, z&nbsp;roku na rok znikają niektóre kategorie błędów (na przykład trzy kreski zamiast niektórych numerów pól). Ale bywa, że na ich miejsce przychodzą nowe.
+* Literówki potrafią się trafiać nawet w&nbsp;miejscach, które w&nbsp;każdym rozsądnym świecie byłyby wypełniane przez komputer.
 * Mimo błędów nadal można liczyć pewne rzeczy. I&nbsp;zobaczyć na przykład, że w&nbsp;roku 2020&nbsp;**ponad 15-krotnie wzrosła liczba przypadków zawieszenia lub wznowienia działalności**. I&nbsp;jest ich coraz więcej.
 * Programy do edycji plików mogą zostawiać w&nbsp;nich swój ślad. Zadziwiająco wiele informacji o&nbsp;tym, co i&nbsp;jak zmieniał użytkownik.
 
@@ -56,7 +56,7 @@ Gwoli przypomnienia: swoje Monitory pobrałem z&nbsp;[oficjalnego źródła](htt
 
 Miałem 2832&nbsp;egzemplarze. Od egzemplarza nr 1&nbsp;z 2011&nbsp;roku do egzemplarza 73&nbsp;z tego roku. Prawie 8&nbsp;gigabajtów na dysku, tylko czekających na obróbkę. Wszystkie w&nbsp;formacie PDF, o&nbsp;którym napiszę tutaj kilka słów, bo będzie dość istotny.
 
-PDF to skrót od *Portable Document Format*. Do życia powołała go korporacja Adobe. To również format, w&nbsp;jakim dostępne są egzemplarze Monitora i&nbsp;wcześniej omawiane odpisy z&nbsp;KRS-u.  
+PDF to skrót od *Portable Document Format*. Do życia powołała go korporacja Adobe. To również format, w&nbsp;jakim dostępne są egzemplarze Monitora i&nbsp;wcześniej omawiane odpisy z&nbsp;KRS-u.  
 Jego głównym założeniem jest to, żeby na każdym urządzeniu *wyświetlał się dokładnie tak samo*. Tekst ma się nie rozjeżdżać i&nbsp;nie robić niespodzianek, a&nbsp;po wydrukowaniu wyglądać jak na ekranie.
 
 Też miałem trochę założeń i&nbsp;nadziei, kiedy zaczynałem szperać w&nbsp;tych plikach. W&nbsp;pierwszej części wpisu zobaczmy, jak to powinno wyglądać, kiedy wszystko działa. W&nbsp;części drugiej zobaczymy gorzką rzeczywistość. Ale na osłodę będzie parę ciekawostek.
@@ -79,7 +79,7 @@ Postanowiłem sprowadzić tekst do formatu XML, w&nbsp;którym lepiej mi się pr
 {:.figcaption}
 Parametr *-i* od tego, żeby nie wyciągać obrazków. Czyli w&nbsp;praktyce godła razy kilkaset.
 
-Efektem działania są linijki tekstu wraz z&nbsp;informacjami o&nbsp;położeniu lewej i&nbsp;górnej krawędzi, rozmiarze czcionki, fragmentach pogrubionych.
+Efektem działania są linijki tekstu wraz z&nbsp;informacjami o&nbsp;położeniu lewej i&nbsp;górnej krawędzi, rozmiarze czcionki, fragmentach pogrubionych.
 
 Popplera można łatwo przywoływać przez Pythona, żeby przetwarzać pliki tysiącami, w&nbsp;sposób powtarzalny.
 
@@ -114,7 +114,7 @@ Tekst w&nbsp;Monitorze jest zawsze ułożony w&nbsp;trzy kolumny. To czytelne, a
 Potem trzeba jeszcze połączyć linijki. I&nbsp;nie jest to kwestia zwykłego sklejenia ich ze sobą. Trzeba bowiem pamiętać o&nbsp;rozbitych słowach.  
 Gdyby na końcu jakiejś linijki było *moni-*, a&nbsp;na początku kolejnej *tor*, to by to trzeba połączyć w&nbsp;jedno słowo, usuwając kreseczkę (oficjalnie: [dywiz](https://pl.wikipedia.org/wiki/Dywiz)).
 
-Ale gdyby kreseczka „dzieląca” pokrywała się z kreską wcześniej obecną w&nbsp;słowie, to już byłby problem. Fikcyjna Kasia Nowak-Słowak stałaby się Kasią NowakSłowak.
+Ale gdyby kreseczka „dzieląca” pokrywała się z kreską wcześniej obecną w&nbsp;słowie, to już byłby problem. Fikcyjna Kasia Nowak-Słowak stałaby się Kasią NowakSłowak.
 
 Na szczęście w&nbsp;tekście Monitorów odeszli od zaleceń typografii i&nbsp;zawsze dodają kreseczkę; jeśli pokrywa się z&nbsp;istniejącą, to **mamy po prostu dwie pod rząd, jedną można usunąć**. Ogromne ułatwienie. Choć nie mamy go niestety w&nbsp;przypadku dat oraz nazw firm z&nbsp;nagłówka:
 
@@ -220,7 +220,7 @@ OK. To tyle ze świata idealnego i&nbsp;przyjemnego. A&nbsp;teraz przejdźmy do 
 
 ## W&nbsp;prawdziwym świecie
 
-Powiem wprost: **właściwie każde moje założenie okazało się błędne**.
+Powiem wprost: **właściwie każde moje założenie okazało się błędne**.
 
 Spis mówi prawdę? Numery zawsze będą pogrubione? Kolejność elementów będzie się zgadzała? A&nbsp;takiego!
 
@@ -265,7 +265,7 @@ Nie znam zaplecza KRS-u i&nbsp;Monitora, ale obstawiałbym następujący obieg i
    Od teraz można je pobrać w&nbsp;formie odpisów KRS.
 3. Autorzy Monitora otrzymują swego rodzaju „wydruk” informacji z&nbsp;systemu. Układają to w&nbsp;postać względnie czytelną dla ludzi.
 
-W centrum zdarzeń jest komputer. Zaś komputery są przewidywalne i&nbsp;często przechowują dane jako najprostszy tekst. Bez informacji o&nbsp;jakichś odstępach między słowami, bo dla nich to zupełnie niepotrzebne.
+W centrum zdarzeń jest komputer. Zaś komputery są przewidywalne i&nbsp;często przechowują dane jako najprostszy tekst. Bez informacji o&nbsp;jakichś odstępach między słowami, bo dla nich to zupełnie niepotrzebne.
 
 Dlatego, jeśli na końcu wyjdą jakieś zmiany -- zwłaszcza takie dotyczące pojedynczych przypadków, a&nbsp;nie wszystkich wpisów naraz -- to prawdopodobnie zostały wprowadzone przez ludzi. A&nbsp;gdyby coś było bardzo powtarzalne, to zapewne wynika z&nbsp;winy komputera.
 
@@ -277,11 +277,11 @@ Takie coś mogło powstać na przykład wskutek ręcznego edytowania wpisu, gdyb
 
 „*Zaufaj spisowi treści*, mówili. *Będzie fajnie*, mówili”.
 
-Pomysł, żeby kierować się spisem i&nbsp;nie czytać całego dokumentu, zazwyczaj działał. Ale okazało się, że **numery podane w&nbsp;spisie mogą zawierać błędy**. Musiałem dopisać parę regułek, żeby skrypt nigdy nie wierzył spisowi na ślepo i&nbsp;sprawdzał, czy znajduje się tam gdzie powinien.
+Pomysł, żeby kierować się spisem i&nbsp;nie czytać całego dokumentu, zazwyczaj działał. Ale okazało się, że **numery podane w&nbsp;spisie mogą zawierać błędy**. Musiałem dopisać parę regułek, żeby skrypt nigdy nie wierzył spisowi na ślepo i&nbsp;sprawdzał, czy znajduje się tam gdzie powinien.
 
 Błędy w&nbsp;spisie dotyczyły zarówno numerów stron, jak i&nbsp;numerów wpisów. Występowały w&nbsp;różnych odmianach.
 
-* Najprostszy -- ewidentna literówka. Na przykład strona pierwsza ma numer wyższy niż ostatnia albo numery sekcji nakładają się na siebie.
+* Najprostszy -- ewidentna literówka. Na przykład strona pierwsza ma numer wyższy niż ostatnia albo numery sekcji nakładają się na siebie.
 * Groźniejszy -- literówka wiarygodna. Kiedy wpisy dla firm powinny np. zaczynać się od strony 165, a&nbsp;tak naprawdę są od 156.
 * Dziwny -- całkowity brak numerów stron.
 * Jeszcze dziwniejszy -- literówka w&nbsp;innej, szablonowej części spisu treści.
@@ -317,7 +317,7 @@ Kiedy dopracuję i&nbsp;upowszechnię skrypt, to polecam autorom wypróbować. C
 # Kapryśne kolumny
 
 Po okiełznaniu spisu zabieramy się za nasz trójkolumnowy układ tekstu.  
-Ale czy na pewno? Okazuje się, że niektóre elementy nie trzymają się reguł i&nbsp;potrafią zaczynać się w niestandardowych położeniach.
+Ale czy na pewno? Okazuje się, że niektóre elementy nie trzymają się reguł i&nbsp;potrafią zaczynać się w niestandardowych położeniach.
 
 Nie nazwałbym tego błędem, ale na pewno jest pewnym odejściem od normy; zwykle mamy linijkę pod linijką. Nietypowe wymiary pojawiają się w&nbsp;XML-u od Popplera na przykład wtedy, kiedy tekst w&nbsp;Monitorze jest wyjustowany:
 
@@ -363,11 +363,11 @@ Mamy też znacznie rzadsze przypadki Monitorów, w&nbsp;których układ kolumn w
 * z&nbsp;roku 2017: nr 165;
 * z&nbsp;roku 2018: nr 166, 173.
 
-Każda strona miała w&nbsp;nich trzy kolumny, tylko że różniące się szerokością od typowych. Najbardziej prawdopodobna przyczyna to moim zdaniem użycie innych programów niż zazwyczaj, z&nbsp;odmiennymi ustawieniami. Może jakiś komputer się popsuł i&nbsp;pracowano na rezerwowym.
+Każda strona miała w&nbsp;nich trzy kolumny, tylko że różniące się szerokością od typowych. Najbardziej prawdopodobna przyczyna to moim zdaniem użycie innych programów niż zazwyczaj, z&nbsp;odmiennymi ustawieniami. Może jakiś komputer się popsuł i&nbsp;pracowano na rezerwowym.
 
 # Nietypowe Monitory, ciąg dalszy
 
-W poprzednim wpisie, patrząc na same metadane, znalazłem 8&nbsp;Monitorów nie pasujących do reszty, z&nbsp;których aż połowę wydano w&nbsp;2020 roku. Postanowiłem bliżej im się przyjrzeć i&nbsp;zobaczyć, czy wyróżniają się również pod względem błędów i&nbsp;dziwów.
+W poprzednim wpisie, patrząc na same metadane, znalazłem 8&nbsp;Monitorów nie pasujących do reszty, z&nbsp;których aż połowę wydano w&nbsp;2020 roku. Postanowiłem bliżej im się przyjrzeć i&nbsp;zobaczyć, czy wyróżniają się również pod względem błędów i&nbsp;dziwów.
 
 Przy sześciu z&nbsp;nich -- nie. Stety-niestety. Okazały się dość typowe. Parę braków miały, ale raczej z&nbsp;gatunku tych powszechniejszych. Albo coś przeoczyłem.
 
@@ -432,7 +432,7 @@ Rok 2019:  1<br/>
 {:.figcaption}
 Liczba wpisów z&nbsp;niekompletnym środkiem nagłówka.
 
-Ale wstrzymajmy się z&nbsp;zachwytami. W&nbsp;nieco późniejszych latach tak się bowiem zdarzało, że nagłówek był kompletny i&nbsp;elegancki... A&nbsp;**wpisy zawierały wyłącznie pustkę**. Ewentualnie samą informację o&nbsp;rubryce.
+Ale wstrzymajmy się z&nbsp;zachwytami. W&nbsp;nieco późniejszych latach tak się bowiem zdarzało, że nagłówek był kompletny i&nbsp;elegancki... A&nbsp;**wpisy zawierały wyłącznie pustkę**. Ewentualnie samą informację o&nbsp;rubryce.
 
 <img src="/assets/posts/msig-problemy/puste-wpisy.jpg" alt="Przykład jednego wpisu całkiem pustego oraz jednego zawierającego wyłącznie informację o dziale i rubryce. Miejsca, w których są brakujące dane, oznaczyłem znakami zapytania" width="500px"/>
 
@@ -449,7 +449,7 @@ Liczba wpisów całkiem pozbawionych informacji po nagłówku.
 
 Miejmy nadzieję, że ich zerowa liczba w&nbsp;tym roku już z&nbsp;nami zostanie.
 
-Powoli wygasa również liczba wpisów niepełnych. Które też zaliczyły pewien skok w&nbsp;roku pandemicznym. Ale, o&nbsp;dziwo, wciąż nieporównywalnie mniejszy niż w&nbsp;latach 2015-2017:
+Powoli wygasa również liczba wpisów niepełnych. Które też zaliczyły pewien skok w&nbsp;roku pandemicznym. Ale, o&nbsp;dziwo, wciąż nieporównywalnie mniejszy niż w&nbsp;latach 2015-2017:
 
 <div class="black-bg mono">
 <span class="post-meta">(wcześniej jeszcze mniej)</span><br/>
@@ -472,12 +472,12 @@ Z pustego i&nbsp;Salomon nie naleje, więc stajemy przed brutalną prawdą -- **
 Ale hej, to nie koniec świata!
 
 {:.bigspace-before}
-> Lecz jeśli chcemy, te wszystkie dziury *miłością*{:.corr-del} KRS-em da się załatać.
+> Lecz jeśli chcemy, te wszystkie dziury *miłością*{:.corr-del} KRS-em da się załatać.
 
 {:.figcaption}
 Inspiracja: motyw muzyczny z&nbsp;„Rodziny Zastępczej”.
 
-Znając numery KRS z&nbsp;nagłówków, możemy kiedyś pobrać odpisy dla feralnych firm i&nbsp;zobaczyć, jakich informacji brakowało. Ale to sprawa na kolejny wpis. Tymczasem lećmy dalej; do tekstu tych wpisów, które w&nbsp;ogóle go mają.
+Znając numery KRS z&nbsp;nagłówków, możemy kiedyś pobrać odpisy dla feralnych firm i&nbsp;zobaczyć, jakich informacji brakowało. Ale to sprawa na kolejny wpis. Tymczasem lećmy dalej; do tekstu tych wpisów, które w&nbsp;ogóle go mają.
 
 # Tagi terroru i&nbsp;szokujące szczegóły
 
@@ -543,7 +543,7 @@ Rok 2021:  1
 {:.figcaption}
 Liczba wpisów nagle urwanych po nazwie rubryki.
 
-Patrząc na te i&nbsp;poprzednie rodzaje błędów, można się cieszyć, że wiele z&nbsp;nich staje się coraz rzadszych. Ale jest coś, w&nbsp;czym rok 2022&nbsp;zdecydowanie króluje -- **liczba niedomkniętych nawiasów**.
+Patrząc na te i&nbsp;poprzednie rodzaje błędów, można się cieszyć, że wiele z&nbsp;nich staje się coraz rzadszych. Ale jest coś, w&nbsp;czym rok 2022&nbsp;zdecydowanie króluje -- **liczba niedomkniętych nawiasów**.
 
 <div class="black-bg mono">
 <span class="post-meta">(wcześniej ok. 100&nbsp;na rok)</span><br/>
@@ -584,7 +584,7 @@ Na szczęście większość wpisów z&nbsp;lukami była poza tym kompletna, wię
 Braki danych dotyczące Działu 6&nbsp;**wiązały się z&nbsp;zawieszaniem albo wznawianiem działalności**. System z&nbsp;jakiegoś powodu nie lubi tej rubryki i&nbsp;ciągle pojawia się ona w&nbsp;Monitorze z&nbsp;kreskami zamiast informacji.  
 Potraktowałem ją jak osobny przypadek i&nbsp;oddzieliłem od innych przykładów luk. Zaraz do niej wrócimy.
 
-A na razie skupię się na luce pokazanej na początku, dotyczącej przeważnie dość rzadkiej kategorii przedsiębiorstw państwowych.  
+A na razie skupię się na luce pokazanej na początku, dotyczącej przeważnie dość rzadkiej kategorii przedsiębiorstw państwowych.  
 To dość ciekawy przypadek; z&nbsp;jednej strony brak danych, więc wina komputera. Ale z&nbsp;drugiej strony występuje tylko przy konkretnych wpisach.
 
 Może nam to sugerować, że **przedsiębiorstwom państwowym odpowiadała oddzielna część systemu albo ich wpisy były dodawane osobnym kanałem**. I&nbsp;gdzieś po drodze system dostawał czkawki od ich danych.
@@ -621,14 +621,14 @@ Rok 2018:  66<br/>
 {:.figcaption}
 Liczba wykreskowanych luk zamiast niektórych informacji szczegółowych (nie licząc tych we wpisach o&nbsp;zawieszeniu firm).
 
-W roku 2012&nbsp;ich liczba wprost eksplodowała! W&nbsp;roku 2015&nbsp;ponownie. A&nbsp;potem, w&nbsp;2018 roku, nagle się gwałtownie skurczyła i&nbsp;taka już została.
+W roku 2012&nbsp;ich liczba wprost eksplodowała! W&nbsp;roku 2015&nbsp;ponownie. A&nbsp;potem, w&nbsp;2018 roku, nagle się gwałtownie skurczyła i&nbsp;taka już została.
 
 Wyjaśnienie jest proste; **najczęstszym źródłem takich luk była numeracja pól dotyczących e-maili, stron internetowych i&nbsp;klasyfikacji PKD**. Trzy kreski pojawiały się dosłownie w&nbsp;każdym takim przypadku, więc nie dziwota, że jest ich tak wiele.
 
 {:.bigspace}
 <img src="/assets/posts/msig-problemy/pkd-mail-luki.jpg"/>
 
-Być może w&nbsp;2018 roku komuś w&nbsp;końcu przestały podobać się kreski i&nbsp;ustawił problematycznym rubrykom jakiś numer. Większość luk wyparowała z&nbsp;dnia na dzień.
+Być może w&nbsp;2018 roku komuś w&nbsp;końcu przestały podobać się kreski i&nbsp;ustawił problematycznym rubrykom jakiś numer. Większość luk wyparowała z&nbsp;dnia na dzień.
 
 Ale nie zniknęły całkowicie; te, które zostały, są mniej przewidywalne.  
 Czasem brakuje numeru lokalu (co akurat ma sens... tylko czemu po prostu go nie olać zamiast wypluwać trzy kreski?). Czasem nazwiska. Na razie nie dostrzegam w&nbsp;tym reguły.

@@ -19,7 +19,7 @@ Witam w&nbsp;kolejnym -- po dłuższej przerwie -- wpisie z&nbsp;serii „Apki t
 
 Tradycyjnie omówię różne informacje, jakie wścibskie firmy mogą odczytać z&nbsp;naszego telefonu, głównie przez zainstalowane na nim aplikacje.
 
-Tym razem skupimy się na różnorodnych czujnikach, które mogą -- z&nbsp;osobna albo we współpracy ze sobą -- **pokazać z&nbsp;dużą dokładnością, w&nbsp;jakim miejscu się znajdujemy**. I&nbsp;śledzić na tej podstawie nasze wędrówki.
+Tym razem skupimy się na różnorodnych czujnikach, które mogą -- z&nbsp;osobna albo we współpracy ze sobą -- **pokazać z&nbsp;dużą dokładnością, w&nbsp;jakim miejscu się znajdujemy**. I&nbsp;śledzić na tej podstawie nasze wędrówki.
 
 Spojrzymy na rzeczy oczywiste, takie jak wbudowany GPS. A&nbsp;także nieco bardziej zaskakujące, jak mikrofon czy nawet akcelerometr.
 
@@ -62,7 +62,7 @@ Jeśli w&nbsp;ciągu dnia nie wyłączamy GPS-a, to apka może cały czas żłop
 
 I tak dalej, opcji jest multum. Niektóre informacje może pozyskać każda apka. Te dotyczące zgromadzeń i&nbsp;korelacji międzyludzkich to raczej domena apek popularniejszych. Taki na przykład Google zdobyłby je bez problemu.
 
-GPS działa niezależnie od sieci komórkowej. Jak najbardziej może się zdarzyć, że nie mamy zasięgu, ale geolokalizacja śmiga całkiem nieźle. Nie zadzwonimy, nie zajrzymy do internetu... Ale wiemy, gdzie jesteśmy. Wiedzą to również apki mające dostęp do odczytów GPS-a.
+GPS działa niezależnie od sieci komórkowej. Jak najbardziej może się zdarzyć, że nie mamy zasięgu, ale geolokalizacja śmiga całkiem nieźle. Nie zadzwonimy, nie zajrzymy do internetu... Ale wiemy, gdzie jesteśmy. Wiedzą to również apki mające dostęp do odczytów GPS-a.
 
 {:.figure}
 <img src="/assets/posts/inwigilacja/sledzenie-lokalizacji/gps-bez-sieci.jpg" width="450px" alt="Zrzut ekranu z&nbsp;telefonu, pokazujący fragment mapy turystycznej oraz niebieską kropkę odpowiadającą aktualnemu położeniu właściciela. W&nbsp;górnym pasku z&nbsp;informacjami wyróżniono tekst mówiący o&nbsp;braku zasięgu sieci. Jest tam również ikona pinezki, oznaczająca że GPS jest włączony i&nbsp;działa."/>
@@ -78,13 +78,13 @@ Warto pamiętać, że GPS może być dla nas groźny również w&nbsp;sposób po
 
 To funkcja dostępna zwykle w&nbsp;systemowej apce Aparat. Jeśli ją włączymy, to do każdego zrobionego zdjęcia [zostaną dodane nasze współrzędne]({% post_url 2021-02-10-gdzie-jestem-zapytaj-moich-zdjec %}){:.internal} w&nbsp;momencie jego robienia.
 
-I tak -- trafią one bezpośrednio do pliku ze zdjęciem, nie do jakiejś wewnętrznej bazy telefonu. Co oznacza, że każda apka mająca dostęp do plików (nawet jeśli nie ma dostępu do GPS-a) może sobie te koordynaty łatwo odczytać.
+I tak -- trafią one bezpośrednio do pliku ze zdjęciem, nie do jakiejś wewnętrznej bazy telefonu. Co oznacza, że każda apka mająca dostęp do plików (nawet jeśli nie ma dostępu do GPS-a) może sobie te koordynaty łatwo odczytać.
 
 {% include info.html
 type="Ciekawostka"
 text="Choć śledzenie konkretnych osób najbardziej narusza prywatność, czasem nawet informacje zanonimizowane i&nbsp;uśrednione mogą ujawniać sekrety.  
 Przykład? Aplikacja Strava (od statystyk dotyczących aktywności fizycznej) tworzyła na podstawie anonimowych statystyk mapy cieplne pokazujące, jak często różni ludzie trenują na danej trasie.  
-Użytkownicy wypatrzyli dziwne ślady treningów pośrodku pustyni. Jak się okazało -- były to trasy [patroli w&nbsp;bazie wojskowej](https://businessinsider.com.pl/technologie/nowe-technologie/aplikacja-strava-dane-z-map-ujawnily-tajne-bazy-wojskowe/9rvwvt9)."
+Użytkownicy wypatrzyli dziwne ślady treningów pośrodku pustyni. Jak się okazało -- były to trasy [patroli w&nbsp;bazie wojskowej](https://businessinsider.com.pl/technologie/nowe-technologie/aplikacja-strava-dane-z-map-ujawnily-tajne-bazy-wojskowe/9rvwvt9)."
 %}
 
 ## Śledzenie przez inne moduły
@@ -99,7 +99,7 @@ Ta czytelna, widoczna dla nas nazwa (jak *Hostel Guest*, *Uczelnia Free*, *McD H
 
 Jeśli hotspot nie jest czymś tymczasowym, tylko fizycznym routerem, to jest spora szansa, że nie ruszy się z&nbsp;miejsca. Zarówno jego fizyczne położenie, jak i&nbsp;cyfrowy identyfikator, długo pozostaną niezmienne.
 
-A ta stałość otwiera furtkę do śledzenia -- **można tworzyć wielkie bazy danych łączące numery hotspotów z&nbsp;ich konkretnymi położeniami w&nbsp;świecie fizycznym**. Zbieranie tych danych określa się jako *wardriving*.
+A ta stałość otwiera furtkę do śledzenia -- **można tworzyć wielkie bazy danych łączące numery hotspotów z&nbsp;ich konkretnymi położeniami w&nbsp;świecie fizycznym**. Zbieranie tych danych określa się jako *wardriving*.
 
 I takie bazy hulają w&nbsp;najlepsze:
 
@@ -118,7 +118,7 @@ Jeśli autorzy apki-szpiega z&nbsp;naszego telefonu mają dostęp do takiej bazy
 
 Nasz telefon wykona skan, szukając hotspotów w&nbsp;okolicy. Zbierze ich identyfikatory. Apka sięgnie do tej listy i&nbsp;wyśle ją autorom. A&nbsp;ich serwery sprawdzą, jakiej lokalizacji odpowiadają te identyfikatory. Dowiedzą się, gdzie jesteśmy. *Nawet jeśli ostatecznie nie połączymy się z&nbsp;żadnym z&nbsp;tych hotspotów*.
 
-Czasem apka mogłaby nawet odgadywać miejsce na podstawie samych nazw, nie mając dostępu do bazy geograficznej. Jeśli wśród nazw hotspotów wokół nas powtarza się nazwa znanego parku rozrywki... No to gdzie my możemy być? :wink:
+Czasem apka mogłaby nawet odgadywać miejsce na podstawie samych nazw, nie mając dostępu do bazy geograficznej. Jeśli wśród nazw hotspotów wokół nas powtarza się nazwa znanego parku rozrywki... No to gdzie my możemy być? :wink:
 
 ### Bluetooth
 
@@ -126,7 +126,7 @@ Bluetooth, czyli wszechstronny protokół od przesyłania danych. Dzięki niemu 
 
 Kiedy urządzenia chcą się skomunikować przez Bluetooth, to każde z&nbsp;nich wysyła w&nbsp;eter swój unikalny identyfikator. Inne mogą je znaleźć i&nbsp;poprosić o&nbsp;połączenie. Trochę jak w&nbsp;przypadku hotspotów.
 
-Różnica polega na tym, że Bluetooth nie jest tak publiczny i&nbsp;stały jak Wi-Fi. Śledzenie nie opiera się zatem na odpytywaniu jakiejś wielkiej bazy.  
+Różnica polega na tym, że Bluetooth nie jest tak publiczny i&nbsp;stały jak Wi-Fi. Śledzenie nie opiera się zatem na odpytywaniu jakiejś wielkiej bazy.  
 Zamiast tego firma chcąca śledzić użytkowników kupuje zestaw małych nadajników, tak zwanych *beaconów*. Każdy ustawia w&nbsp;innym miejscu. Każdy emituje swój unikalny identyfikator.
 
 Aplikacja na naszym smartfonie, należąca do właściciela *beaconów* (albo jakiejś firmy, z&nbsp;którą współpracuje), prowadzi z&nbsp;kolei nasłuch. Jeśli wyłapie któryś z&nbsp;charakterystycznych identyfikatorów, to może zapytać swojej wewnętrznej bazy, gdzie jesteśmy.
@@ -152,7 +152,7 @@ Zaznaczę, że Google'a staram się nie wpuszczać w&nbsp;swoje życie. Apki nie
 
 Tutaj sprawa jest bardzo podobna jak z&nbsp;Bluetoothem. Autor wścibskiej apki (albo jego partner biznesowy) nabywa *beacony* -- małe nadajniki, tylko że wysyłające [dźwięk na skraju słyszalności]({% post_url 2023-03-26-apki-mikrofon-zagrozenia %}#dźwięk-wsłużbie-śledzenia){:.internal}.
 
-Każdy z&nbsp;tych dźwięków jest nieco inny. Mikrofon, czulszy niż ludzkie ucho, powinien być w&nbsp;stanie to wyłapać. A&nbsp;wtedy apka dostanie jednoznaczną informację -- jesteśmy w&nbsp;pobliżu konkretnego nadajnika, a&nbsp;zatem w&nbsp;konkretnym miejscu.
+Każdy z&nbsp;tych dźwięków jest nieco inny. Mikrofon, czulszy niż ludzkie ucho, powinien być w&nbsp;stanie to wyłapać. A&nbsp;wtedy apka dostanie jednoznaczną informację -- jesteśmy w&nbsp;pobliżu konkretnego nadajnika, a&nbsp;zatem w&nbsp;konkretnym miejscu.
 
 {:.bigspace}
 > \[ LOGI APLIKACJI „NASŁUCH” OD BIG BRO SP. Z&nbsp;O.O. \]  
@@ -164,9 +164,9 @@ Ustalona lokalizacja -- Galeria Invigilada, drugie piętro, placówka okulistycz
 Wstępna analiza -- „Dawid M. może mieć problemy ze wzrokiem.”  
 Wyniki analizy wysłano do Big Bro Sp. z&nbsp;o.o.
 
-Z punktu widzenia śledzących firm ta opcja może być mniej wygodna niż Bluetooth. Nowsze wersje systemów Android i&nbsp;iOS wyświetlają ostrzegawczą kropkę, gdy działa nam mikrofon.
+Z punktu widzenia śledzących firm ta opcja może być mniej wygodna niż Bluetooth. Nowsze wersje systemów Android i&nbsp;iOS wyświetlają ostrzegawczą kropkę, gdy działa nam mikrofon.
 
-Poza tym wszystko mocno zależy od czułości naszego mikrofonu. Zapcha się okruchami po ciastkach albo zatonie między warstwami ciuchów w&nbsp;plecaku? Peszek, śledzenie nie zadziała. Tym niemniej warto wiedzieć o&nbsp;istnieniu tej metody.
+Poza tym wszystko mocno zależy od czułości naszego mikrofonu. Zapcha się okruchami po ciastkach albo zatonie między warstwami ciuchów w&nbsp;plecaku? Peszek, śledzenie nie zadziała. Tym niemniej warto wiedzieć o&nbsp;istnieniu tej metody.
 
 ### Akcelerometr
 
@@ -174,7 +174,7 @@ To może być dla niektórych największym szokiem, ale tak -- najzwyklejszy akc
 
 Jest wykorzystywany chociażby do liczenia naszych kroków albo wykrywania, czy się przewróciliśmy. Jest na tyle dokładny, że może nawet wyłapywać drgania powietrza i&nbsp;działać w&nbsp;roli ubogiego mikrofonu (nie na tyle dokładny, żeby nagrywać; ale może np. [odgadnąć płeć rozmówcy](https://dl.acm.org/doi/pdf/10.1145/3309074.3309076) na podstawie barwy głosu).
 
-Poświęcę mu jeszcze osobny wpis, ale póki co skupmy się na śledzeniu lokalizacji. Akcelerometr gromadzi i&nbsp;analizuje dane o&nbsp;przyspieszeniach, jakie oddziaływały na telefon. Na tej podstawie może wyłapać, *skąd i&nbsp;dokąd* się przemieściliśmy oraz jakiego użyliśmy środka transportu.
+Poświęcę mu jeszcze osobny wpis, ale póki co skupmy się na śledzeniu lokalizacji. Akcelerometr gromadzi i&nbsp;analizuje dane o&nbsp;przyspieszeniach, jakie oddziaływały na telefon. Na tej podstawie może wyłapać, *skąd i&nbsp;dokąd* się przemieściliśmy oraz jakiego użyliśmy środka transportu.
 
 Akcelerometr nie ujawni naszego dokładnego położenia sam z&nbsp;siebie. Ale jeśli apka-szpieg znajdzie jakiś punkt zaczepienia, to może użyć danych z&nbsp;niego do uzupełnienia obrazu naszej lokalizacji.
 
@@ -186,12 +186,12 @@ Wyobraźmy sobie przykład z&nbsp;życia. Wyjeżdżamy w&nbsp;Bieszczady, skusze
 
 * Wiemy już, dokąd iść. Wyłączamy wszystkie czujniki (w&nbsp;tym Wi-Fi i&nbsp;GPS-a). Drepczemy do bazy.
 
-  Na tym etapie pałeczkę przejmuje akcelerometr. Zapisuje sobie naszą prawdopodobną trasę od ostatniej znanej lokalizacji. Najpierw żwawy ruch pieszy, potem tylko minimalne drgania.  
+  Na tym etapie pałeczkę przejmuje akcelerometr. Zapisuje sobie naszą prawdopodobną trasę od ostatniej znanej lokalizacji. Najpierw żwawy ruch pieszy, potem tylko minimalne drgania.  
   Do tego, pytając system o&nbsp;godzinę, apka ustala, że brak ruchu koreluje z&nbsp;nocną porą. Wniosek? Dotarliśmy do noclegu. A&nbsp;po połączeniu danych odczyta, że była nim baza PTTK.
 
 * Mamy wyłączony internet, więc na razie zapisuje to wszystko *offline*, do plików. Ale kiedy odzyskamy łączność, to komplet danych poleci do autorów aplikacji.
 
-  Algorytmy zdiagnozują nas jako turystów. Zaczną nam się wyświetlać reklamy promujące drogie, komercyjne wyjazdy namiotowe i&nbsp;*glampingowe*. Tyle z&nbsp;naszego detoksu.
+  Algorytmy zdiagnozują nas jako turystów. Zaczną nam się wyświetlać reklamy promujące drogie, komercyjne wyjazdy namiotowe i&nbsp;*glampingowe*. Tyle z&nbsp;naszego detoksu.
 
 <img src="/assets/posts/inwigilacja/sledzenie-lokalizacji/gps-akcelerometr-osobne-dane.jpg" alt="Dwa zrzuty ekranu obok siebie, pokazujące działanie różnych czujników. Pierwszy, podpisany 'Sam GPS', pokazuje mały fragment mapy z&nbsp;oznaczoną pinezką-położeniem. Drugi, podpisany 'sam akcelerometr', pokazuje niebieski ślad idący z&nbsp;północy na południe. W&nbsp;tle widać jednak tylko czerń, nie ma żadnej mapy."/>
 
@@ -208,10 +208,10 @@ Jest też o&nbsp;tyle wredna, że **aplikacje nie muszą pytać o&nbsp;pozwoleni
 Przy tylu sposobach na ustalanie lokalizacji można zwątpić w&nbsp;smartfony.  
 I załóżmy, że zwątpiliśmy. Wyłączamy wszystkie dodatkowe moduły, cofamy pozwolenia wszystkim aplikacjom.
 
-Albo w&nbsp;ogóle nie używamy smartfona, tylko *oldschoolowego* telefonu komórkowego. Jak te z&nbsp;wielkimi klawiszami, przeznaczone dla osób starszych (miałem, polecam; dało się nawet robić zdjęcia w&nbsp;jakości tostera i&nbsp;wysyłać znajomym przez wiadomości MMS).
+Albo w&nbsp;ogóle nie używamy smartfona, tylko *oldschoolowego* telefonu komórkowego. Jak te z&nbsp;wielkimi klawiszami, przeznaczone dla osób starszych (miałem, polecam; dało się nawet robić zdjęcia w&nbsp;jakości tostera i&nbsp;wysyłać znajomym przez wiadomości MMS).
 
 {:.bigspace-before}
-<img src="/assets/posts/inwigilacja/sledzenie-lokalizacji/stara-nokia-3310.jpg" alt="Zdjęcie pokazujące stary telefon komórkowy, Nokię 3310, z&nbsp;fizycznymi klawiszami oraz emotką wyświetloną na ekranie" width="300px"/>
+<img src="/assets/posts/inwigilacja/sledzenie-lokalizacji/stara-nokia-3310.jpg" alt="Zdjęcie pokazujące stary telefon komórkowy, Nokię 3310, z&nbsp;fizycznymi klawiszami oraz emotką wyświetloną na ekranie" width="300px"/>
 
 {:.figcaption}
 Klasyczna Nokia 3310. Niezniszczalna, ale nawet ona nas nie ocali przed śledzeniem.  
@@ -221,7 +221,7 @@ Czy nasza prywatność jest chroniona? Przed większością firm -- tak. Ale nie
 
 Istnieje bowiem **metoda ustalania lokalizacji przez sieć komórkową. Nie wymaga żadnej apki i&nbsp;żaden telefon nie będzie na nią odporny. Przez sam fakt, że jest telefonem**.
 
-Cała metoda działania jest z&nbsp;grubsza podobna do tego, co widzieliśmy wcześniej przy hotspotach. Cały świat jest obstawiony jakimiś punktami wejścia do sieci -- tyle że tym razem komórkowej. Stacje bazowe, nadajniki GSM, jak zwał.
+Cała metoda działania jest z&nbsp;grubsza podobna do tego, co widzieliśmy wcześniej przy hotspotach. Cały świat jest obstawiony jakimiś punktami wejścia do sieci -- tyle że tym razem komórkowej. Stacje bazowe, nadajniki GSM, jak zwał.
 
 {:.post-meta .bigspace-after}
 Gdybyśmy chcieli lepiej sobie wyobrazić zagęszczenie nadajników, to proponuję zerknąć do otwartej bazy [OpenCelliD](https://opencellid.org).
@@ -249,7 +249,7 @@ A nawet jeśli same telekomy będą niegroźne, to mogą istnieć prywatne firmy
 
 ## Jak się chronić
 
-Żeby aplikacje nie mogły tak łatwo się dowiedzieć, gdzie jesteśmy, przyda się wyrobienie paru dobrych nawyków. Przede wszystkim minimalizacja.
+Żeby aplikacje nie mogły tak łatwo się dowiedzieć, gdzie jesteśmy, przyda się wyrobienie paru dobrych nawyków. Przede wszystkim minimalizacja.
 
 Po pierwsze -- **ograniczamy się tylko do kilku zaufanych aplikacji**. I&nbsp;nie mam tutaj na myśli „bierzemy tylko z&nbsp;oficjalnego źródła, PlayStore'a”. Całkiem przydatne i&nbsp;minimalistyczne aplikacje *open source* możemy na przykład znaleźć w&nbsp;alternatywnym F-Droidzie.
 
@@ -266,7 +266,7 @@ Dodatkowa zaleta: pomijając kwestie prywatnościowe, w&nbsp;ten sposób oszczę
 <img src="/assets/posts/inwigilacja/sledzenie-lokalizacji/telefon-ustawienia-dobre-niedobre.jpg" alt="Dwa zrzuty ekranu, jeden pod drugim, pokazujące ikony odpowiadające za włączanie różnych funkcji na smartfonie. U&nbsp;góry, przy obrazku oznaczonym czerwonym krzyżykiem, większośc czujników jest włączona. U&nbsp;dołu, przy obrazku oznaczonym zielonym znaczkiem OK, włączony jest tylko internet mobilny." width="500px"/>
 
 {:.figcaption}
-Na systemie Android można łatwo włączać i&nbsp;wyłączać niektóre funkcje przez główne menu. W&nbsp;tym celu przykładamy palec do górnej części ekranu i&nbsp;kilka razy ciągniemy w&nbsp;dół.
+Na systemie Android można łatwo włączać i&nbsp;wyłączać niektóre funkcje przez główne menu. W&nbsp;tym celu przykładamy palec do górnej części ekranu i&nbsp;kilka razy ciągniemy w&nbsp;dół.
 
 Wszystkie powyższe rzeczy nie ocalą nas przed akcelerometrem. Nie wymaga on żadnych pozwoleń i&nbsp;nie ma pstryczka, który by go wyłączył. Ale pamiętajmy, że w&nbsp;odosobnieniu nie jest aż taki groźny. Dbajmy o&nbsp;inne sprawy wskazane powyżej, a&nbsp;powinno być w&nbsp;porządku.
 
@@ -281,6 +281,6 @@ Nawet jeśli siedzi u&nbsp;nas wścibska apka gapiąca się w&nbsp;akcelerometr,
 
 A jeśli chcemy prywatności przed operatorem telekomunikacyjnym, to pomóc nam może **tryb samolotowy** -- jeśli działa prawidłowo, to na czas jego aktywacji wyłączają nam się wszelkie formy łączności bezprzewodowej.
 
-To moim zdaniem wszystko, co potrzebne zwykłemu człowiekowi przeciw śledzeniu korporacyjnemu. Jakieś ruchy oporu we wrogich reżimach mogłyby zamiast tego postawić na telefony jednorazowe (*burner phone'y*) oraz torebki Faradaya, blokujące wszelkie wychodzące sygnały. Ale ta seria nie skupia się na takich tematach.
+To moim zdaniem wszystko, co potrzebne zwykłemu człowiekowi przeciw śledzeniu korporacyjnemu. Jakieś ruchy oporu we wrogich reżimach mogłyby zamiast tego postawić na telefony jednorazowe (*burner phone'y*) oraz torebki Faradaya, blokujące wszelkie wychodzące sygnały. Ale ta seria nie skupia się na takich tematach.
 
-I z&nbsp;tym zestawem porad Was zostawiam. Życzę, żebyście przez te wakacje poznali jakieś fajne miejsca. I&nbsp;oby nie poznały ich szpiegujące aplikacje :smile:
+I z&nbsp;tym zestawem porad Was zostawiam. Życzę, żebyście przez te wakacje poznali jakieś fajne miejsca. I&nbsp;oby nie poznały ich szpiegujące aplikacje :smile:

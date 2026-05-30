@@ -19,7 +19,7 @@ Witam w&nbsp;trzecim wpisie na temat firmy Monsanto!
 type="Uwaga"
 text="**To nie jest wpis na temat bezpieczeństwa roślin GMO**. Nie wierzę w&nbsp;ich szkodliwość dla zdrowia. Nie jest to również krytyka pestycydów (choć, bez urazy, osobiście wolę mieć w&nbsp;żyłach kofeinę).  
 Czym zatem jest ten wpis? Wypunktowaniem nieetycznych zachowań jednej konkretnej korporacji. Mających potwierdzenie w&nbsp;oficjalnych mailach i&nbsp;dokumentach.  
-Piszę to ja, ten sam autor Ciemnej Strony co zawsze. Niezwiązany z żadną organizacją ekologiczną czy aktywistyczną. Ba, za niektórymi nawet nie przepadam."
+Piszę to ja, ten sam autor Ciemnej Strony co zawsze. Niezwiązany z żadną organizacją ekologiczną czy aktywistyczną. Ba, za niektórymi nawet nie przepadam."
 %}
 
 Wyjaśnienie właściwie skopiowałem z&nbsp;poprzedniego wpisu, ale uznałem je za konieczne. Szufladkować w&nbsp;obecnych czasach jest łatwo. A&nbsp;wśród przeciwników Monsanto zdarzają się osoby, z&nbsp;którymi nie chciałbym dzielić szufladki (choć przyznam, że niektóre ich memy to [czyste złoto](https://www.facebook.com/niedorozwojswiadomosci/posts/pfbid0TmocXb5BC29sEphXrHGWzHJfqyeDZC9SptJdjAXu1XxKVZYbEmum577sMSFLraqcl)).
@@ -49,10 +49,10 @@ Tak jak obiecałem na początku, *nie będę tutaj poruszał kwestii bezpieczeń
 
 Przede wszystkim: przez rośliny modyfikowane genetycznie rozumiem takie, które stworzono metodami bioinżynierii, nie żadnej klasycznej hodowli (mimo że ewolucja też zmienia geny). Zgodnie zresztą z&nbsp;[oficjalną definicją](https://www.britannica.com/science/genetically-modified-organism).
 
-Druga sprawa. Badając temat, natknąłem się na dziesiątki internetowych dyskusji na temat roślin GMO. I&nbsp;mam niestety wrażenie, że **wiele osób wrzuca wszystko do wielkiego zbiorczego wora „GMO”**.
+Druga sprawa. Badając temat, natknąłem się na dziesiątki internetowych dyskusji na temat roślin GMO. I&nbsp;mam niestety wrażenie, że **wiele osób wrzuca wszystko do wielkiego zbiorczego wora „GMO”**.
 
-**To tak, jakby ktoś mówił stanowczo: „programy komputerowe są dobre”**.  
-Zakładamy brak celowej szkodliwości, więc pomińmy istnienie wirusów. Ale nadal pozostają niejasności. Mówimy o&nbsp;programach ułatwiających życie czy tych służących do kontroli pracowników? Potrzebują łączności z&nbsp;centralą czy działają bez internetu? Comiesięczne płatności czy *open source*?
+**To tak, jakby ktoś mówił stanowczo: „programy komputerowe są dobre”**.  
+Zakładamy brak celowej szkodliwości, więc pomińmy istnienie wirusów. Ale nadal pozostają niejasności. Mówimy o&nbsp;programach ułatwiających życie czy tych służących do kontroli pracowników? Potrzebują łączności z&nbsp;centralą czy działają bez internetu? Comiesięczne płatności czy *open source*?
 
 Kontekst ma znaczenie. Dlatego rozdzielmy sobie rośliny GMO na trzy rodzaje:
 
@@ -68,7 +68,7 @@ Kontekst ma znaczenie. Dlatego rozdzielmy sobie rośliny GMO na trzy rodzaje:
 
   Dzięki modyfikacjom są odporne na herbicydy, środki chwastobójcze. Można je bezpiecznie pryskać nawet po wykiełkowaniu. Przeżyją, w&nbsp;przeciwieństwie do otaczających je chwastów.
  
-  <img src="/assets/posts/monsanto/glifosat-roundup-ready.jpg" alt="Schemat pokazujący po lewej stronie dwie rysunkowe rośliny, oset i&nbsp;kukurydzę obok siebie. Następnie mamy strzałkę, a&nbsp;nad nią ikonę kropli substancji. Po prawej stronie strzałki mamy te same dwie rośliny. Oset wyschnięty i&nbsp;brązowy, a kukurydza nic się nie zmieniła."/>
+  <img src="/assets/posts/monsanto/glifosat-roundup-ready.jpg" alt="Schemat pokazujący po lewej stronie dwie rysunkowe rośliny, oset i&nbsp;kukurydzę obok siebie. Następnie mamy strzałkę, a&nbsp;nad nią ikonę kropli substancji. Po prawej stronie strzałki mamy te same dwie rośliny. Oset wyschnięty i&nbsp;brązowy, a kukurydza nic się nie zmieniła."/>
 
 Rośliny mogą mieć kilka modyfikacji naraz, chociażby HT+Bt. To zresztą dominujący wariant w&nbsp;USA, gdzie taki rodzaj GMO stanowi [ponad 90&nbsp;procent](https://www.ers.usda.gov/webdocs/DataFiles/47649/BiotechCropsAllTables2022.xlsx?v=8928.3) wszystkich upraw kukurydzy i&nbsp;bawełny.
 
@@ -85,7 +85,7 @@ Spośród tych roślin:
 
 * soja, wbrew dowcipkom o&nbsp;pewnym rodzaju mężczyzn, nie jest szczególnie częstym pokarmem człowieka. Idzie głównie na paszę.
 
-  No, może czasem bywa składnikiem żywności mocno przetworzonej (jeśli coś ma w&nbsp;składzie „emulgator: lecytyna”, to chodzi właśnie o&nbsp;lecytynę sojową).
+  No, może czasem bywa składnikiem żywności mocno przetworzonej (jeśli coś ma w&nbsp;składzie „emulgator: lecytyna”, to chodzi właśnie o&nbsp;lecytynę sojową).
 
 * kukurydza (*maize*) idzie na biopaliwa i&nbsp;paszę. W&nbsp;żywności może się trafiać jako syrop glukozowo-fruktozowy.
 * bawełna -- do produkcji ubrań, podpasek, innych akcesoriów. Nie do jedzenia.
@@ -117,22 +117,22 @@ Albo może *oporności*? Widziałem już w&nbsp;internecie obie wersje, ale nie 
 W naszym przypadku będzie o&nbsp;chwastach, ale samo pojęcie jest znacznie ogólniejsze -- odnosi się między innymi do bakterii oraz antybiotyków.  
 Nabywanie odporności przebiega następująco:
 
-1. Chcemy się pozbyć jakiejś grupy organizmów, więc stosujemy środek, który je zabije.
+1. Chcemy się pozbyć jakiejś grupy organizmów, więc stosujemy środek, który je zabije.
 2. Środek zrobi swoje. Ale, jeśli jego dawka nie była powyżej wszelkiej tolerancji, niektóre osobniki ją przeżyją.
-3. Te wytrzymałe niedobitki krzyżują się ze sobą, a&nbsp;swojemu potomstwu przekazują tę wytrzymałość.
+3. Te wytrzymałe niedobitki krzyżują się ze sobą, a&nbsp;swojemu potomstwu przekazują tę wytrzymałość.
 4. Jeśli sytuacja będzie się powtarzać, pozostaną tylko jednostki odporne. Mnożą się i&nbsp;odtwarzają populację. Nasz środek staje się na nie niewystarczający.
 
-<img src="/assets/posts/monsanto/silka-darwina.jpg" alt="Schemat składający się z trzech linijek. Każda z&nbsp;nich jest podzielona na dwie części, lewą i&nbsp;prawą, połączone ze sobą strzałką. Powtarzają się ikony piesełów z&nbsp;memów, słabych i&nbsp;silnych. Pierwsza linijka pokazuje, jak z&nbsp;dwóch psów słabych i&nbsp;jednego silnego pozostają dwa nagrobki i&nbsp;pies silny. Druga linijka pokazuje, że z&nbsp;jednego psa silnego powstają trzy identyczne. Ostatnia pokazuje identyczne trzy silne psy po obu stronach. Jest podpisana popularnym hasłem z&nbsp;gier o&nbsp;Pokemonach, oznaczającym po polsku 'to niezbyt skuteczne'."/>
+<img src="/assets/posts/monsanto/silka-darwina.jpg" alt="Schemat składający się z trzech linijek. Każda z&nbsp;nich jest podzielona na dwie części, lewą i&nbsp;prawą, połączone ze sobą strzałką. Powtarzają się ikony piesełów z&nbsp;memów, słabych i&nbsp;silnych. Pierwsza linijka pokazuje, jak z&nbsp;dwóch psów słabych i&nbsp;jednego silnego pozostają dwa nagrobki i&nbsp;pies silny. Druga linijka pokazuje, że z&nbsp;jednego psa silnego powstają trzy identyczne. Ostatnia pokazuje identyczne trzy silne psy po obu stronach. Jest podpisana popularnym hasłem z&nbsp;gier o&nbsp;Pokemonach, oznaczającym po polsku 'to niezbyt skuteczne'."/>
 
 {:.figcaption}
 Źrodła: memy, Emojipedia, dawne gry Pokemon. Szczegóły pod koniec wpisu.
 
-Wielkie, jednolite obszary upraw i&nbsp;hodowli przemysłowych tworzą wymarzone warunki ku nabywaniu odporności. Rośnie szansa, że odporny niedobitek skrzyżuje się z kimś podobnym sobie, a&nbsp;nie słabszym, kto „rozcieńczyłby” odporne geny.
+Wielkie, jednolite obszary upraw i&nbsp;hodowli przemysłowych tworzą wymarzone warunki ku nabywaniu odporności. Rośnie szansa, że odporny niedobitek skrzyżuje się z kimś podobnym sobie, a&nbsp;nie słabszym, kto „rozcieńczyłby” odporne geny.
 
 Takie miejsca są jak swoista „siłka Darwina” -- sztucznie stworzona przestrzeń sprzyjająca wzrostowi krzepy.
 
 A co to oznacza dla ludzi? Ano to, że z&nbsp;czasem trzeba podkręcić metody walki. Więcej pryskać. Albo mieszać opryski. Albo tworzyć strefy buforowe, niepryskane, służące rozwojowi słabszych chwastów.  
-W każdym razie obietnice wielkich zysków przy niskich kosztach nieraz potrafią nagle wyparować, a&nbsp;rolnicy zderzają się z rzeczywistością. *Rolnictwo przemysłowe stoi na kruchych podstawach*.
+W każdym razie obietnice wielkich zysków przy niskich kosztach nieraz potrafią nagle wyparować, a&nbsp;rolnicy zderzają się z rzeczywistością. *Rolnictwo przemysłowe stoi na kruchych podstawach*.
 
 Kwestia odporności dotyczy zarówno pestycydów naturalnie wytwarzanych (rośliny Bt), jak i&nbsp;syntetycznych (które są kuszącym wyjściem, gdy mamy rośliny Roundup Ready).
 
@@ -148,13 +148,13 @@ Przenieśmy się na chwilę do Indii. To kraj mocno rolniczy -- jeszcze w&nbsp;2
 Pierwszą rośliną GMO wprowadzoną w&nbsp;Indiach (i bodajże do teraz jedyną legalną) była bawełna Bt. Wytwarzająca naturalne środki owadobójcze pozwalające zabijać uciążliwe ćmy. Wprowadzono ją w&nbsp;2002&nbsp;roku.  
 Ludzie poszli na całość. W&nbsp;ciągu trzech lat odsetek bawełny Bt wzrósł z&nbsp;12&nbsp;do ponad 90&nbsp;procent upraw. W&nbsp;tym czasie olewano nasiona klasyczne.
 
-Problem w&nbsp;tym, że interes okazał się [mniej opłacalny niż obiecywano](https://youtu.be/qrM1ygNvLVA). **Właściwości owadobójcze nowej rośliny, na początku świetne, z&nbsp;czasem się wyczerpywały**. Zadziałała „siłka Darwina”, owady wykształciły wspomnianą wcześniej odporność. 
+Problem w&nbsp;tym, że interes okazał się [mniej opłacalny niż obiecywano](https://youtu.be/qrM1ygNvLVA). **Właściwości owadobójcze nowej rośliny, na początku świetne, z&nbsp;czasem się wyczerpywały**. Zadziałała „siłka Darwina”, owady wykształciły wspomnianą wcześniej odporność. 
 
 Zależność od nowych nasion trudno było odwrócić, a&nbsp;wymagania rosły.  
 Konkretniej? Jak podaje [Reuters](https://www.reuters.com/article/us-india-monsanto-idUSKCN10E05C), w&nbsp;2006 roku (gdy bawełna Bt jeszcze radziła sobie świetnie), rolnicy zużywali około 0,5 kg środków owadobójczych na hektar. Do roku&nbsp;2015 ta ilość urosła do 1,2&nbsp;kg. Podwoiło się również zużycie nawozów na polach bawełny.
 
 {:.post-meta .bigspace-after}
-Choć to raczej oczywiste, podkreślę że mówimy o&nbsp;wartości *względnej*, w&nbsp;przeliczeniu na obszar. Zatem nie da się tego wyjaśnić np. wzrostem liczby pól uprawnych.
+Choć to raczej oczywiste, podkreślę że mówimy o&nbsp;wartości *względnej*, w&nbsp;przeliczeniu na obszar. Zatem nie da się tego wyjaśnić np. wzrostem liczby pól uprawnych.
 
 Niektórzy twierdzą, że bankructwa wywołane postawieniem na bawełnę Bt były jedną z&nbsp;przyczyn fali samobójstw. Szczerze mówiąc, jestem sceptyczny wobec tych zarzutów. Gdyby rolników nie zawodził własny kraj, to jeden nieudany interes nie byłby końcem wszystkiego.
 
@@ -172,13 +172,13 @@ Wokół Roundupu (najpopularniejszego środka chwastobójczego od Monsanto) oraz
 Groźne słowa. Łatwo je znaleźć na różnych stronach, blogach naukowych, w&nbsp;komentarzach.  
 Problem? **Te gorsze herbicydy przyszły również do tych, którzy nie planowali Roundupu zakazywać**. Ale po kolei.
 
-Koncern Bayer zaczyna [jedną ze swoich reklam](https://www.youtube.com/watch?v=hfUIQTQ5OFY) od słów *Weeds are getting harder to fight than ever* („walka z&nbsp;chwastami jest trudniejsza niż kiedykolwiek”). Paradoksalnie to ich produkty mogą być temu współwinne.
+Koncern Bayer zaczyna [jedną ze swoich reklam](https://www.youtube.com/watch?v=hfUIQTQ5OFY) od słów *Weeds are getting harder to fight than ever* („walka z&nbsp;chwastami jest trudniejsza niż kiedykolwiek”). Paradoksalnie to ich produkty mogą być temu współwinne.
 
-Pamiętacie sprawę *siłki Darwina*? Rolnicy pryskają pola, żeby pozbyć się niechcianych organizmów. Przeżywają tylko te najodporniejsze, a&nbsp;potem są dla nich problemem. Tak było i&nbsp;będzie.  
-A teraz dorzucamy do mieszanki rośliny RR, które można pryskać do woli. Obietnica? Będziemy pryskać mniej, ale skuteczniej (czekając na dogodniejszy moment). Rzeczywistość? Pryskamy coraz więcej, a&nbsp;efekty coraz mizerniejsze.
+Pamiętacie sprawę *siłki Darwina*? Rolnicy pryskają pola, żeby pozbyć się niechcianych organizmów. Przeżywają tylko te najodporniejsze, a&nbsp;potem są dla nich problemem. Tak było i&nbsp;będzie.  
+A teraz dorzucamy do mieszanki rośliny RR, które można pryskać do woli. Obietnica? Będziemy pryskać mniej, ale skuteczniej (czekając na dogodniejszy moment). Rzeczywistość? Pryskamy coraz więcej, a&nbsp;efekty coraz mizerniejsze.
 
 W dyskusjach widuję argument: „Przecież rolnicy płacą za ten środek. Nikomu nie zależy na tym, żeby zużywać go więcej”.  
-Istotnie, pewnie nie mają z pryskania jakiejś wielkiej frajdy. Ale jak myślicie -- co zrobią, widząc że chwasty przetrwały pierwszy oprysk (bo nabywają odporności) i&nbsp;wyprzedzają w&nbsp;wyścigu po słońce rośliny uprawne? Oczywiście puszczą kolejną porcję. Czyli jednak pryskają więcej.
+Istotnie, pewnie nie mają z pryskania jakiejś wielkiej frajdy. Ale jak myślicie -- co zrobią, widząc że chwasty przetrwały pierwszy oprysk (bo nabywają odporności) i&nbsp;wyprzedzają w&nbsp;wyścigu po słońce rośliny uprawne? Oczywiście puszczą kolejną porcję. Czyli jednak pryskają więcej.
 
 A teraz czas na konkrety zamiast gdybania. Jak podaje artykuł z&nbsp;2016 roku, zużycie glifosatu na świecie [wzrosło 15-krotnie](https://enveurope.springeropen.com/articles/10.1186/s12302-016-0070-0) od czasu wprowadzenia roślin RR.  
 Ale może źle to interpretuję? Może większe zużycie wynika tylko z&nbsp;tego, że jest coraz więcej upraw, świat się rozwija? 
@@ -191,14 +191,14 @@ Ale może gdyby nie RR, to zamiast Roundupu leciałyby jeszcze gorsze rzeczy?
 Tylko że i&nbsp;tak lecą. W&nbsp;miarę pojawiania się coraz odporniejszych chwastów, do łask wróciły te mocniejsze, wcześniej odstawione pestycydy. Roundup jest używany *oprócz* nich, a&nbsp;nie *zamiast* nich.
 
 {:.figure .bigspace-before}
-<img src="/assets/posts/monsanto/herbicydy-wykres.jpg" alt="Wykres pokazujący zużycie pestycydów na polach uprawnych. Na osi poziomej mamy lata, a&nbsp;na pionowej ilość funtów na akr (z dopiskiem, ile to w&nbsp;kilogramach na hektar). Osobną linią oznaczony jest moment wprowadzenia roślin Roundup Ready."/>
+<img src="/assets/posts/monsanto/herbicydy-wykres.jpg" alt="Wykres pokazujący zużycie pestycydów na polach uprawnych. Na osi poziomej mamy lata, a&nbsp;na pionowej ilość funtów na akr (z dopiskiem, ile to w&nbsp;kilogramach na hektar). Osobną linią oznaczony jest moment wprowadzenia roślin Roundup Ready."/>
 
 {:.figcaption}
 Ilość herbicydów zużywanych na uprawach soi. Źródło: [Seed Money](https://www.youtube.com/watch?v=habCAUNcEVg) (czas: 31:08). Tłumaczenie i&nbsp;zmiany moje.
 
 Ale może chociaż ta dodatkowa ilość pestycydów zostaje na polu, z&nbsp;dala od ludzi?
 
-Chciałbym. Ale kto czytał poprzedni wpis, ten już się chyba domyśla ciągu dalszego.  
+Chciałbym. Ale kto czytał poprzedni wpis, ten już się chyba domyśla ciągu dalszego.  
 Nawet w&nbsp;Europie -- gdzie roślin RR nie ma, a&nbsp;jedynym źródłem glifosatu jest oprysk przed zasiewem i&nbsp;desykacja zbóż -- wciąż znajdziemy go w&nbsp;próbkach żywności i&nbsp;moczu.
 
 W USA, krainie Roundup Ready, [jest go jeszcze więcej](https://www.medonet.pl/zdrowie/zdrowie-dla-kazdego,glifosat---czy-powinien-byc-zakazany--gdzie-go-mozna-znalezc-,artykul,08853159.html). Badanie z&nbsp;2017 r., opublikowane w&nbsp;*Journal of the American Medical Association*, wykazało sześciokrotny wzrost ekspozycji Amerykanów na glifosat (od czasu wprowadzenia upraw RR).
@@ -206,24 +206,24 @@ W USA, krainie Roundup Ready, [jest go jeszcze więcej](https://www.medonet.pl/z
 Ale może to manipulacja danymi? A&nbsp;malutka liczba razy sześć to nadal malutka liczba?
 
 Nie jest mała. W&nbsp;tym (2022) roku glifosat [wykryto w&nbsp;80% próbek moczu zbadanych w&nbsp;USA](https://www.theguardian.com/us-news/2022/jul/09/weedkiller-glyphosate-cdc-study-urine-samples?CMP=share_btn_tw).  
-Jedyną pociechą, jaka nam zostaje, są zapewnienia o&nbsp;nieszkodliwości glifosatu. Bo to, że jako Amerykanie mielibyśmy ten boski nektar w&nbsp;sobie, jest raczej pewne.
+Jedyną pociechą, jaka nam zostaje, są zapewnienia o&nbsp;nieszkodliwości glifosatu. Bo to, że jako Amerykanie mielibyśmy ten boski nektar w&nbsp;sobie, jest raczej pewne.
 
 ### Kto ponosi winę?
 
 Na chwilę wcielę się w&nbsp;adwokata diabła.  
-Czy można obwiniać Monsanto o&nbsp;to, że szkodniki się uodparniają? Tak przecież działa natura. Oni tylko sprzedają produkty. A&nbsp;rolnicy mogliby przecież stosować inne metody oprócz pestycydów. Choćby przeznaczać część pól na inne uprawy, żeby pogorszyć chwastom warunki.
+Czy można obwiniać Monsanto o&nbsp;to, że szkodniki się uodparniają? Tak przecież działa natura. Oni tylko sprzedają produkty. A&nbsp;rolnicy mogliby przecież stosować inne metody oprócz pestycydów. Choćby przeznaczać część pól na inne uprawy, żeby pogorszyć chwastom warunki.
 
 Problem w&nbsp;tym, że **Monsanto aktywnie zniechęcało do innych metod albo traktowało je po łebkach**.
 
 Wspominałem wcześniej o&nbsp;Indiach i&nbsp;o tym, że uprawy Bt tylko na początku były piękne. Nieszczęśliwy wypadek? Może tak, gdyby nie było w&nbsp;tym winy Monsanto.
 
 Przepisy indyjskie narzucały, żeby do każdej paczki nasion Bt dodawać pewien odsetek nasion zwykłych; dzięki temu owady odporne mieszałyby się z&nbsp;nieodpornymi („wychowanymi” na zwykłych roślinach).  
-Jednak te zwykłe nasiona od Monsanto [nie spełniały wymogów](https://www.youtube.com/watch?v=qrM1ygNvLVA&t=362s) -- były strasznie dziadowskie, do tego ich odsetek okazywał się mniejszy niż powinien. W&nbsp;takich warunkach trudno było zahamować ewolucję owadów. Wydatki rosły.
+Jednak te zwykłe nasiona od Monsanto [nie spełniały wymogów](https://www.youtube.com/watch?v=qrM1ygNvLVA&t=362s) -- były strasznie dziadowskie, do tego ich odsetek okazywał się mniejszy niż powinien. W&nbsp;takich warunkach trudno było zahamować ewolucję owadów. Wydatki rosły.
 
 W USA, choć panel doradczy agencji EPA zalecał stosowanie na polach 50%&nbsp;roślin bez cechy Bt, agencja pod naciskiem producentów nasion [obniżyła](https://www.triplepundit.com/story/2011/monsantos-bt-corn-losing-its-pop/74291) ten wymóg do&nbsp;20%. Jednocześnie Monsanto bagatelizowało w&nbsp;komunikatach doniesienia o&nbsp;wykształcaniu się odporności.
 
 Podobną nonszalancję wykazywali w&nbsp;przypadku cechy odporności na herbicydy.  
-Jeśli tylko jakiejś roślinie dało się ją nadać, to ją dodawali. Co więcej, w&nbsp;[późniejszych odmianach](https://www.agry.purdue.edu/ext/corn/news/timeless/BiotechTraits.html) czysta modyfikacja Bt, przeciw owadom, poszła w&nbsp;odstawkę. [Zaczęły dominować Bt+HT](https://www.ers.usda.gov/webdocs/DataFiles/47649/BiotechCropsAllTables2022.xlsx?v=8928.3) (Roundup Ready).
+Jeśli tylko jakiejś roślinie dało się ją nadać, to ją dodawali. Co więcej, w&nbsp;[późniejszych odmianach](https://www.agry.purdue.edu/ext/corn/news/timeless/BiotechTraits.html) czysta modyfikacja Bt, przeciw owadom, poszła w&nbsp;odstawkę. [Zaczęły dominować Bt+HT](https://www.ers.usda.gov/webdocs/DataFiles/47649/BiotechCropsAllTables2022.xlsx?v=8928.3) (Roundup Ready).
 
 Wyobraźmy sobie, że jakiemuś rolnikowi zależy głównie na ochronie przed owadami. Ale skoro musi w&nbsp;tym celu kupować nasiona z&nbsp;cechą Roundup Ready, to jak myślimy -- jaki herbicyd do tego weźmie?
 
@@ -243,16 +243,16 @@ A problem z&nbsp;samą dikambą? Była [bardzo lotna](https://www.youtube.com/wa
 
 Gdyby był to oprysk na początku sezonu -- gdy jeszcze nic nie rośnie, a&nbsp;na polu są tylko chwasty -- to jeszcze pół biedy. Nasza latająca dikamba załatwiłaby jedynie nasze chwasty. I&nbsp;chwasty sąsiada. I&nbsp;parę dzikich roślin. No ale z&nbsp;nich nie ma zysku, więc *chill*.
 
-Ale Monsanto, lubiąc zestawy, wzbogaciło ofertę o&nbsp;odpowiednie rośliny HT, oznaczane jako XtendiFlex. Bawełnę Dicamba Ready, odporną na dikambę. Potem dołączyła do niej również soja DR.  
+Ale Monsanto, lubiąc zestawy, wzbogaciło ofertę o&nbsp;odpowiednie rośliny HT, oznaczane jako XtendiFlex. Bawełnę Dicamba Ready, odporną na dikambę. Potem dołączyła do niej również soja DR.  
 Te rośliny można było opryskiwać dikambą również podczas dojrzewania.
 
 {:.figure .bigspace}
-<img src="/assets/posts/monsanto/dikamba-zakres-soja.jpg" alt="Schemat pokazujący oś czasu dla wzrostu roślin soi, zawierający co kilka minut jej szkic na danym etapie. Prawie do końca sięga klamra podpisana jako czas, kiedy można prowadzić oprysk dikambą"/>
+<img src="/assets/posts/monsanto/dikamba-zakres-soja.jpg" alt="Schemat pokazujący oś czasu dla wzrostu roślin soi, zawierający co kilka minut jej szkic na danym etapie. Prawie do końca sięga klamra podpisana jako czas, kiedy można prowadzić oprysk dikambą"/>
 
-Zapewne wyobrażamy sobie czarny scenariusz, nieprawdaż? Wokół już całkiem spore rośliny, wszystko się rozwija. Ale chwasty tłamszą nasze uprawy DR, więc je opryskujemy. A&nbsp;że dikamba lubi latać, to ginie wszystko wokół.
+Zapewne wyobrażamy sobie czarny scenariusz, nieprawdaż? Wokół już całkiem spore rośliny, wszystko się rozwija. Ale chwasty tłamszą nasze uprawy DR, więc je opryskujemy. A&nbsp;że dikamba lubi latać, to ginie wszystko wokół.
 
-Monsanto też to sobie wyobrażało, bo opracowali równolegle nową odmianę preparatu XtendiMax. O&nbsp;lepszej „przyczepności”, żeby nie odlatywał tak daleko.  
-Problem zażegnany? Nie. Bo wypuścili odporne rośliny na rynek, zanim dotarł tam stabilniejszy preparat. Rolnikom zakomunikowali, że jak najbardziej mogą kupować nasiona DR, ale niech traktują je jak zwykłą odmianę i&nbsp;nie opryskują.
+Monsanto też to sobie wyobrażało, bo opracowali równolegle nową odmianę preparatu XtendiMax. O&nbsp;lepszej „przyczepności”, żeby nie odlatywał tak daleko.  
+Problem zażegnany? Nie. Bo wypuścili odporne rośliny na rynek, zanim dotarł tam stabilniejszy preparat. Rolnikom zakomunikowali, że jak najbardziej mogą kupować nasiona DR, ale niech traktują je jak zwykłą odmianę i&nbsp;nie opryskują.
 
 Efektu możecie się domyślać. Nabywcy roślin DR nie czekali i&nbsp;**użyli starej dikamby w&nbsp;szczycie sezonu, na dojrzałych roślinach DR. Ich uprawy przeżyły, sąsiedzkie oberwały**.
 
@@ -265,7 +265,7 @@ Z tym „wypadkiem” bym nie przesadzał. Wewnętrzne maile ujawniły, że ludz
 Nie dość, że nie wypadek, to jeszcze nie jednorazowy. Bowiem nowy, bardziej przyczepny XtendiMax nadal miał w&nbsp;sobie *wanderlust*. Umiał czasem odlatywać i&nbsp;powodować szkody.
 
 Monsanto wyjaśniało to słabym przeszkoleniem rolników i&nbsp;niewłaściwymi dyszami w&nbsp;opryskiwaczach. Jednocześnie instrukcja korzystania z&nbsp;preparatu [zawierała szereg bardzo precyzyjnych wymagań](https://modernfarmer.com/2017/08/farmers-say-nearly-impossible-follow-monsantos-dicamba-directions/).  
-Być może są uzasadnione, ja tam nie wiem. Ale na pewno utrudniają wskazanie koncernu jako winnego, jeśli coś pójdzie nie tak. „Nasz środek jest bez zarzutu. To oni nie umieją czytać instrukcji”.
+Być może są uzasadnione, ja tam nie wiem. Ale na pewno utrudniają wskazanie koncernu jako winnego, jeśli coś pójdzie nie tak. „Nasz środek jest bez zarzutu. To oni nie umieją czytać instrukcji”.
 
 Przykład z&nbsp;życia znajdziemy choćby na Facebooku, pod jednym z&nbsp;postów *DEKALB Asgrow Southern Illinois* chwalącym Xtendimax:
 
@@ -302,11 +302,11 @@ A tymczasem efekty stosowania dikamby można było odczuć we wszelkich możliwy
 
 * Winiarzom z&nbsp;Teksasu zepsuło [nawet do 90&nbsp;procent](https://modernfarmer.com/2021/06/texas-wine-grape-growers-sue-bayer-monsanto-over-dicamba-drift-damage/) upraw winogron.
   
-  To o&nbsp;tyle dotkliwe, że w&nbsp;przeciwieństwie do wielu innych odmian nie mogą tak po prostu posadzić nowych roślin i&nbsp;cieszyć się winogronami rok później. Ich uprawa i&nbsp;dojrzewanie to procesy długotrwałe.
+  To o&nbsp;tyle dotkliwe, że w&nbsp;przeciwieństwie do wielu innych odmian nie mogą tak po prostu posadzić nowych roślin i&nbsp;cieszyć się winogronami rok później. Ich uprawa i&nbsp;dojrzewanie to procesy długotrwałe.
 
 * Pszczelarz z&nbsp;Arkansas miał [dwa razy mniejsze](https://usrtk.org/wp-content/uploads/2020/03/Arkansas-honeybees-and-Dicamba-from-Coys-Honey-Farm.pdf) zbiory miodu.
 
-* Producenci nasion Stine Seed Company od kilku lat [tracą poletka testowe z&nbsp;soją](https://www.agriculture.com/news/crops/harry-stine-takes-off-the-gloves-regarding-dicamba). Modyfikowaną pod kątem odporności na herbicydy -- ale niestety nie na dikambę.
+* Producenci nasion Stine Seed Company od kilku lat [tracą poletka testowe z&nbsp;soją](https://www.agriculture.com/news/crops/harry-stine-takes-off-the-gloves-regarding-dicamba). Modyfikowaną pod kątem odporności na herbicydy -- ale niestety nie na dikambę.
 
 * W&nbsp;samym 2021 roku do EPA, agencji ochrony środowiska, wpłynęło ponad 3500&nbsp;zgłoszeń o&nbsp;szkodach (a&nbsp;ta liczba zwykle jest zaniżona w&nbsp;porównaniu z&nbsp;rzeczywistością).
 
@@ -314,10 +314,10 @@ A tymczasem efekty stosowania dikamby można było odczuć we wszelkich możliwy
 
 Pomijając wymierne efekty, warto też spojrzeć na ogólny efekt psychologiczny, jaki zapewne spowodowała dikamba. Wprowadzała podziały, podobnie jak wcześniej groźba oskarżeń o&nbsp;roślinne piractwo. „Jeśli nie używasz odpornych roślin od Monsanto, to coś ci się stanie”. Albo „ten sąsiad, dupek od GMO, niszczy moje uprawy”.
 
-Tylko że tym razem ryzyko było większe niż siepacze grożący pozwami. Sąsiedzki oprysk może zdziesiątkować twoje rośliny, odebrać źródło dochodu. A&nbsp;jeśli masz takie, których uodpornić się nie da, to chyba pozostaje wyprowadzka. Jakaś korpofarma zapewne chętnie przejmie twoją działkę, żeby uprawiać tam masówkę.
+Tylko że tym razem ryzyko było większe niż siepacze grożący pozwami. Sąsiedzki oprysk może zdziesiątkować twoje rośliny, odebrać źródło dochodu. A&nbsp;jeśli masz takie, których uodpornić się nie da, to chyba pozostaje wyprowadzka. Jakaś korpofarma zapewne chętnie przejmie twoją działkę, żeby uprawiać tam masówkę.
 
 Niezamierzony efekt? Monsanto nie zależy na podziałach? Niestety, jeśli spojrzymy na historię ekspansji ich roślin RR, można mieć wątpliwości.  
-Poza tym w&nbsp;materiałach instruktażowych dla swoich sprzedawców [wprost pisali](https://youtu.be/habCAUNcEVg?t=2205) (film na YT), żeby **przedstawiać ochronę przed dikambą sąsiadów jako argument za kupnem nasion DR**.
+Poza tym w&nbsp;materiałach instruktażowych dla swoich sprzedawców [wprost pisali](https://youtu.be/habCAUNcEVg?t=2205) (film na YT), żeby **przedstawiać ochronę przed dikambą sąsiadów jako argument za kupnem nasion DR**.
 
 Wisienką na torcie może być fakt, że dikamba doprowadziła nawet pośrednio do śmierci.  
 Pewien rolnik, któremu zniszczyło uprawy, poszedł się wykłócać o&nbsp;swoje. Znaleziono go martwego, z&nbsp;raną postrzałową. Zarzuty postawiono pracownikowi sąsiedniej farmy. Tego zgonu nie znajdziemy zapewne w&nbsp;prognozach z&nbsp;Excela.
@@ -343,7 +343,7 @@ Jaki będzie następny herbicyd w&nbsp;kolejce?
 
 ## Podsumowanie
 
-W tym wpisie zobaczyliśmy, że sprawy pestycydów i&nbsp;roślin GMO wydają się niestety nierozerwalne. Mamy wprawdzie odmiany, w&nbsp;których modyfikacje prowadzą do poprawienia naturalnych cech... Ale lwia część biznesu opiera się na odporności na opryski.
+W tym wpisie zobaczyliśmy, że sprawy pestycydów i&nbsp;roślin GMO wydają się niestety nierozerwalne. Mamy wprawdzie odmiany, w&nbsp;których modyfikacje prowadzą do poprawienia naturalnych cech... Ale lwia część biznesu opiera się na odporności na opryski.
 
 Nie wiem, co myślicie na temat samych roślin GMO, i&nbsp;szczerze mówiąc nie planuję w&nbsp;żaden sposób tych poglądów zmieniać. Osobiście nie wierzę, żeby wprost szkodziły zdrowiu.
 
@@ -363,7 +363,7 @@ Możemy tylko pomarzyć -- co by było, gdyby firma nie mogła trzymać jednocze
 
 ### Szerszy kontekst
 
-A druga, ogólniejsza sprawa -- **korporacje absolutnie uwielbiają regularne, przewidywalne strumienie gotówki**. Łatwiej im wtedy mieć wszystko pod kontrolą. Sprzedać potencjalnym inwestorom bajeczki o&nbsp;stabilnym i&nbsp;nieskończonym wzroście.
+A druga, ogólniejsza sprawa -- **korporacje absolutnie uwielbiają regularne, przewidywalne strumienie gotówki**. Łatwiej im wtedy mieć wszystko pod kontrolą. Sprzedać potencjalnym inwestorom bajeczki o&nbsp;stabilnym i&nbsp;nieskończonym wzroście.
 
 Aby zyskać tę regularność, często sięgają po wszelkie formy uzależnienia od siebie konsumentów. Żeby ci ciągle wracali po więcej.
 
@@ -378,21 +378,21 @@ Aby zyskać tę regularność, często sięgają po wszelkie formy uzależnienia
   <li>…A czasem sprawienie, żeby te naprawy były dość częste.<br>
 <p>Znamy to jako <em>planowane postarzanie produktów</em> (ang. <em>planned obsolence</em>).</p></li>
   <li>Przemilczanie faktu, że walory produktu są niemożliwe do utrzymania.<br>
-  <p>Przykładem Google Maps, które oferowało firmom opcję osadzania i&nbsp;personalizacji map. Za bajecznie niską cenę. Ale kiedy więksi gracze się od nich uzależnili, to bajka się skończyła i&nbsp;nastąpiła drastyczna podwyżka tych cen.</p>
+  <p>Przykładem Google Maps, które oferowało firmom opcję osadzania i&nbsp;personalizacji map. Za bajecznie niską cenę. Ale kiedy więksi gracze się od nich uzależnili, to bajka się skończyła i&nbsp;nastąpiła drastyczna podwyżka tych cen.</p>
 </li>
 </ul>
 </details>
 
-Sprzedawanie środków chemicznych i&nbsp;nasion w&nbsp;zestawach. Wymuszanie corocznych zakupów. Reklamowanie się skutecznością, która okaże się nietrwała. A&nbsp;wtedy oferowanie nowych, mocniejszych preparatów.  
+Sprzedawanie środków chemicznych i&nbsp;nasion w&nbsp;zestawach. Wymuszanie corocznych zakupów. Reklamowanie się skutecznością, która okaże się nietrwała. A&nbsp;wtedy oferowanie nowych, mocniejszych preparatów.  
 Jeśli pominąć branżę, to wiele działań Monsanto jest taką korporacyjną klasyką.
 
-Choć niechlubnie się wyróżniali pod pewnymi względami, dopuśćmy też niepokojącą możliwość.  
+Choć niechlubnie się wyróżniali pod pewnymi względami, dopuśćmy też niepokojącą możliwość.  
 To nie tak, że są jedyną czy też najgorszą organizacją o&nbsp;skłonnościach socjopatycznych.  
 Może po prostu inni lepiej się ukrywają.
 
-A teraz, kiedy już poznaliśmy Monsanto nieco lepiej, zapraszam do kolejnego wpisu. Tym razem bardziej w&nbsp;stylu tego bloga. Będą skrypty i&nbsp;analizowanie powiązań.
+A teraz, kiedy już poznaliśmy Monsanto nieco lepiej, zapraszam do kolejnego wpisu. Tym razem bardziej w&nbsp;stylu tego bloga. Będą skrypty i&nbsp;analizowanie powiązań.
 
-Spojrzymy na działalność internetową Monsanto oraz paru innych koncernów, bezpardonową walkę z&nbsp;krytykami i&nbsp;kontrolowanie narracji na swój temat. W&nbsp;sposób, jakiego nie powstydziłyby się farmy trolli.
+Spojrzymy na działalność internetową Monsanto oraz paru innych koncernów, bezpardonową walkę z&nbsp;krytykami i&nbsp;kontrolowanie narracji na swój temat. W&nbsp;sposób, jakiego nie powstydziłyby się farmy trolli.
 
 ## Źródła obrazków
 

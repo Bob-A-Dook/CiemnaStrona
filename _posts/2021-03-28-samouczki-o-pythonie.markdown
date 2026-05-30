@@ -9,11 +9,11 @@ tags: [Podstawy, Porady, Python]
 
 Interaktywność to fajna sprawa. Po co macie tylko czytać, jak analizuję swoje dane, jeśli możecie odpalić takie same analizy na własnych?
 
-Dlatego, kiedy tylko się da, dodaję do wpisów linki do swoich skryptów, napisanych w&nbsp;języku Python.
+Dlatego, kiedy tylko się da, dodaję do wpisów linki do swoich skryptów, napisanych w&nbsp;języku Python.
 
 Pythona trzeba najpierw zainstalować. To tylko parę prostych kroków, ale dotąd musiałem je opisywać w&nbsp;każdym wpisie, do którego dodaję skrypt. 
 
-Żeby się nie powtarzać, zebrałem informacje o&nbsp;Pythonie w&nbsp;parę samouczków:
+Żeby się nie powtarzać, zebrałem informacje o&nbsp;Pythonie w&nbsp;parę samouczków:
 
 1. <a href="{{site.url}}/tutorials/using-python">instalacja i&nbsp;korzystanie</a>;
 2. <a href="{{site.url}}/tutorials/using-pip">pobieranie modułów zewnętrznych</a>;

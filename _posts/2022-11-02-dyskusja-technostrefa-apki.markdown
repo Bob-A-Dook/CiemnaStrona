@@ -19,9 +19,9 @@ Istnieje jednak spora bariera między teorią a&nbsp;życiem. Wiele osób wychod
 
 Znaleźliby wyjaśnienie zjawiska, gdyby poszukali pod określonym hasłem. W&nbsp;tym wypadku na przykład *pliki cookies*. Ale skąd niby mają wiedzieć, że to takie hasło odpowiada ich problemowi?
 
-Żeby pogodzić życie z&nbsp;teorią, postanowiłem wrzucać czasem wpisy w&nbsp;nieco innym formacie. *Wyruszyć w&nbsp;teren*. Będę odwiedzał popularne dyskusje na temat internetowego śledzenia, zbierał wybrane komentarze i&nbsp;omawiał na łamach bloga, jakie zjawiska są w nich pokazane.
+Żeby pogodzić życie z&nbsp;teorią, postanowiłem wrzucać czasem wpisy w&nbsp;nieco innym formacie. *Wyruszyć w&nbsp;teren*. Będę odwiedzał popularne dyskusje na temat internetowego śledzenia, zbierał wybrane komentarze i&nbsp;omawiał na łamach bloga, jakie zjawiska są w nich pokazane.
 
-Kto wie, być może parę osób natknie się na wyjaśnienie intrygujących je kwestii? A&nbsp;prywatnościowi wyjadacze spojrzą na świat oczami większości? Budujmy mosty :wink:
+Kto wie, być może parę osób natknie się na wyjaśnienie intrygujących je kwestii? A&nbsp;prywatnościowi wyjadacze spojrzą na świat oczami większości? Budujmy mosty :wink:
 
 To będzie pierwszy wpis w&nbsp;tym stylu. Przyjrzę się filmikowi użytkownika TechnoStrefa na YouTubie, poświęconemu śledzeniu przez apkę Instagram. Zobaczymy różne ciekawostki w&nbsp;temacie prywatności. Między innymi to, że czasem do śledzenia nie potrzeba mikrofonu. Wystarczy ciasteczko.
 
@@ -29,23 +29,23 @@ To będzie pierwszy wpis w&nbsp;tym stylu. Przyjrzę się filmikowi użytkownika
 
 ## Film TechnoStrefy
 
-Sam film chętni mogą obejrzeć [na YouTubie](https://www.youtube.com/watch?v=7-14dTx_R_0). Nie będę się odnosił do jego treści, choć może jeszcze nawiążę do niej w&nbsp;jakimś wpisie o&nbsp;mikrofonie.
+Sam film chętni mogą obejrzeć [na YouTubie](https://www.youtube.com/watch?v=7-14dTx_R_0). Nie będę się odnosił do jego treści, choć może jeszcze nawiążę do niej w&nbsp;jakimś wpisie o&nbsp;mikrofonie.
 
-Zatem tylko krótkie streszczenie: autorzy przyglądają się reklamom wyświetlanym przez aplikację Instagram. Jeśli ktoś nie zna -- to taka od dzielenia się zdjęciami. Własność koncernu Meta, czyli Facebooka.
+Zatem tylko krótkie streszczenie: autorzy przyglądają się reklamom wyświetlanym przez aplikację Instagram. Jeśli ktoś nie zna -- to taka od dzielenia się zdjęciami. Własność koncernu Meta, czyli Facebooka.
 
 Chłopaki sprawdzają, czy aplikacja podsłuchuje ich rozmowy poprzez mikrofony w&nbsp;telefonach. Po kolei mówią o&nbsp;różnych rzeczach -- butach, podróżach i&nbsp;tym podobnych. Jeśli komuś z&nbsp;nich się to później wyświetli w&nbsp;formie reklamy w&nbsp;aplikacji, to ją pokazuje pozostałym oraz widzom.
 
 Całość jest utrzymana w&nbsp;luźnej konwencji, nie jest żadnym badaniem.  
-Zadbali o&nbsp;kontrolowanie paru czynników (testują na fabrycznie nowych telefonach, zwykle po jednym temacie naraz), ale nie wiemy na przykład, czy korzystają z&nbsp;jednej sieci oraz jakie pozwolenia dali aplikacjom.
+Zadbali o&nbsp;kontrolowanie paru czynników (testują na fabrycznie nowych telefonach, zwykle po jednym temacie naraz), ale nie wiemy na przykład, czy korzystają z&nbsp;jednej sieci oraz jakie pozwolenia dali aplikacjom.
 
-Mimo przykładów, które mogłyby świadczyć o&nbsp;podsłuchiwaniu, pozostaję nieco sceptyczny. Przynajmniej jeśli chodzi o&nbsp;mikrofon w&nbsp;telefonie, a&nbsp;nie urządzenia typu Alexa.  
+Mimo przykładów, które mogłyby świadczyć o&nbsp;podsłuchiwaniu, pozostaję nieco sceptyczny. Przynajmniej jeśli chodzi o&nbsp;mikrofon w&nbsp;telefonie, a&nbsp;nie urządzenia typu Alexa.  
 Ale o&nbsp;tym innym razem. Bo wpis nie jest o&nbsp;filmie, tylko o&nbsp;treściach z&nbsp;komentarzy.
 
 ## Komentuję komentarze
 
-Wśród uwag pod filmem znajdziemy trochę ciekawych przemyśleń. Ale widać też nieco błędnych wyobrażeń na temat działania współczesnej inwigilacji. Przyjrzyjmy się im.
+Wśród uwag pod filmem znajdziemy trochę ciekawych przemyśleń. Ale widać też nieco błędnych wyobrażeń na temat działania współczesnej inwigilacji. Przyjrzyjmy się im.
 
-Wszystkie komentarze pochodzą ze wspomnianego wyżej filmu, każdy od innej osoby. Nazwy użytkowników zanonimizowałem, czasem poskracałem i&nbsp;zrobiłem lekką korektę, zamiast awatarów użyłem emoty Ciemnej Strony.
+Wszystkie komentarze pochodzą ze wspomnianego wyżej filmu, każdy od innej osoby. Nazwy użytkowników zanonimizowałem, czasem poskracałem i&nbsp;zrobiłem lekką korektę, zamiast awatarów użyłem emoty Ciemnej Strony.
 
 **Kategorie komentarzy:**
 
@@ -62,7 +62,7 @@ Wszystkie komentarze pochodzą ze wspomnianego wyżej filmu, każdy od innej oso
 
 ### Śledzenie poprzez pliki cookies
 
-Niektóre osoby wspominają o&nbsp;śledzeniu, z&nbsp;jakim się zetknęły podczas ogólnego korzystania z&nbsp;internetu. Spójrzmy na parę przykładów.
+Niektóre osoby wspominają o&nbsp;śledzeniu, z&nbsp;jakim się zetknęły podczas ogólnego korzystania z&nbsp;internetu. Spójrzmy na parę przykładów.
 
 {% include comment.html
 source="YouTube"
@@ -89,7 +89,7 @@ Przykłady, jakie podają tu autorzy, nie są raczej związane z&nbsp;tematem fi
 
 Wszystko to natomiast całkiem realne przykłady reklam śledzących. Mamy z&nbsp;nimi często do czynienia podczas surfowania po internecie. Stworzyłem na ten temat całą serię, [„Internetową inwigilację”](/serie/internetowa_inwigilacja){:.internal}.
 
-Metod internetowego śledzenia jest wiele. Natomiast ta konkretna sytuacja -- „chodzą za mną reklamy czegoś, co niedawno widziałem” -- wiąże się zapewne ze **śledzeniem przez _pliki cookies_, czyli tzw. _ciasteczka_**.
+Metod internetowego śledzenia jest wiele. Natomiast ta konkretna sytuacja -- „chodzą za mną reklamy czegoś, co niedawno widziałem” -- wiąże się zapewne ze **śledzeniem przez _pliki cookies_, czyli tzw. _ciasteczka_**.
   
 W opisanych przypadkach mamy zapewne do czynienia z&nbsp;plikami cookies od stron-gości (ang. *third party cookies*). Ich zasadę działania pokazałem [w osobnym wpisie]({% post_url 2021-12-08-cookies-piksele-sledzace %}){:.internal}. W&nbsp;wielkim skrócie:
 
@@ -104,14 +104,14 @@ W opisanych przypadkach mamy zapewne do czynienia z&nbsp;plikami cookies od stro
 
 Analogicznie działa Facebook Pixel, osadzone tweety z&nbsp;Twittera i&nbsp;wiele innych rzeczy.
 
-Możemy się bulwersować, że przeglądarka tak po prostu na życzenie okazuje, kim jesteśmy. Ale tak już działa internet. Zasady opracowano w&nbsp;czasach, kiedy mało kto podejrzewał, jak powszechna stanie się inwigilacja.  
+Możemy się bulwersować, że przeglądarka tak po prostu na życzenie okazuje, kim jesteśmy. Ale tak już działa internet. Zasady opracowano w&nbsp;czasach, kiedy mało kto podejrzewał, jak powszechna stanie się inwigilacja.  
 Zresztą niektóre przeglądarki już zmieniają zasadę działania na bardziej chroniącą prywatność. Tylko Chrome od Google odwleka to w&nbsp;czasie. Być może ze względu na potencjalną utratę zarobków.
 
 A dopóki pliki cookies jeszcze istnieją, to jak się z&nbsp;nimi uporać?  
 Korzystać z&nbsp;przeglądarek [Brave](https://brave.com/) lub [Firefox](https://www.mozilla.org/pl/firefox/new/).  
 Jeśli korzystamy z&nbsp;komputera albo Firefoksa na Androidzie, to dodatkowo warto zainstalować [dodatek uBlock Origin](https://ublockorigin.com/) (mam też na blogu [wpisy na jego temat]({% post_url 2021-10-21-ublock-origin %}){:.internal}).
 
-Poza tym, niezależnie od przeglądarki, warto co pewien czas czyścić ciasteczka przez jej ustawienia. Będziemy musieli od nowa się logować do różnych stron, ale myślę że tę niedogodność da się przeżyć.
+Poza tym, niezależnie od przeglądarki, warto co pewien czas czyścić ciasteczka przez jej ustawienia. Będziemy musieli od nowa się logować do różnych stron, ale myślę że tę niedogodność da się przeżyć.
 
 Na szczęście reklamy śledzące nie zawsze działają, czego przykładem komentarz numer 3&nbsp;:wink:
 
@@ -126,14 +126,14 @@ text="Zamontowałam ostatnio aplikację EMPiK. Oglądałam książki, ale żadne
  Co Wy na to, mieliście podobne zjawiska?"
 %}
 
-Autorka pisze o&nbsp;aplikacji (której nie sprawdzałem), ale dokładnie to samo mogłoby się zdarzyć przy korzystaniu ze strony internetowej.
+Autorka pisze o&nbsp;aplikacji (której nie sprawdzałem), ale dokładnie to samo mogłoby się zdarzyć przy korzystaniu ze strony internetowej.
 
 Po pierwsze, na pewno założyła jakieś konto przez stronę Empik i&nbsp;podała przy tym swojego maila. Empik ma teraz w&nbsp;bazie zestaw -- jej mail plus jakiś wewnętrzny identyfikator.
 
 Podczas każdego logowania na konto autorka dostaje plik cookie, który jasno ją identyfikuje. Od tej samej strony, którą odwiedza, więc to „ciasteczko od strony-gospodarza” (ang. *first party cookie*).
 
-Empik na wiele różnych sposobów może ustalić, czy ktoś dokonał zakupu. Może na przykład mają mały skrypt, który po wejściu użytkownika na stronę produktu wysyła im parę `(kod produktu, identyfikator użytkownika)`.  
-Zaś strona wyświetlająca się po tym, jak coś kupimy, może zawierać inny skrypt, wysyłający Empikowi informację o&nbsp;zakupie. Nie dostali tej informacji, ale mają kod odwiedzanego produktu? To znaczy że go oglądaliśmy, ale nie kupiliśmy.
+Empik na wiele różnych sposobów może ustalić, czy ktoś dokonał zakupu. Może na przykład mają mały skrypt, który po wejściu użytkownika na stronę produktu wysyła im parę `(kod produktu, identyfikator użytkownika)`.  
+Zaś strona wyświetlająca się po tym, jak coś kupimy, może zawierać inny skrypt, wysyłający Empikowi informację o&nbsp;zakupie. Nie dostali tej informacji, ale mają kod odwiedzanego produktu? To znaczy że go oglądaliśmy, ale nie kupiliśmy.
 
 Mając w&nbsp;bazie identyfikator użytkowniczki, jej maila oraz identyfikatory produktów niezakupionych, mogą łatwo stworzyć automatyczną przypominajkę.
 
@@ -152,7 +152,7 @@ Jak pokazałem, Google Analytics dotyczy głównie stron internetowych. Film pok
 Dla porządku dodam, że istnieje wersja GA [dla aplikacji mobilnych](https://developers.google.com/analytics/solutions/mobile). Tyle że Meta, właściciel Instagrama, jest rywalem Google'a. Wątpię, żeby opierali na ich kodzie swój system reklam.
 
 A odnosząc się do użytkowników potwierdzających w&nbsp;ciemno -- chodzi o&nbsp;to, że strony od reklam śledzących muszą, ze względu na RODO/GDPR, wyświetlić nam baner z&nbsp;pytaniem o&nbsp;zgodę.  Żeby jej nie udzielić, **klikamy przycisk inny niż „Zgoda na wszystko”** (zapewne będzie mniejszy i&nbsp;zlewający się z&nbsp;tłem :wink:).  
-Upewniamy się, że zgody są wyłączone (uwaga, czasem mogą być pod kategorią `Uzasadniony interes`). Następnie klikamy opcję `Zapisz`.  
+Upewniamy się, że zgody są wyłączone (uwaga, czasem mogą być pod kategorią `Uzasadniony interes`). Następnie klikamy opcję `Zapisz`.  
 Jest to jakieś wyjście, jeśli strona działa zgodnie z&nbsp;prawem, ale dość nużące na dłuższą metę.
 
 ### Śledzenie poprzez Messengera
@@ -164,7 +164,7 @@ text="Już to zauważyłem na laptopie lata temu, teraz nawet jak szukam czegoś
 %}
 
 {:.post-meta}
-Pierwsza część komentarza odnosi się zapewne do działania plików cookies, opisanego wyżej.
+Pierwsza część komentarza odnosi się zapewne do działania plików cookies, opisanego wyżej.
 
 {:.bigspace-after}
 {% include comment.html
@@ -173,21 +173,21 @@ author="W*???????*{:.cover}"
 text="Pamiętam raz jak na Messengerze kolega napisał, że widział Agustina Egurrolę, a&nbsp;następnego dnia wszędzie wyskakiwały mi reklamy jego obozu tanecznego 😬"
 %}
 
-Niektórzy wydają się traktować Messengera jak mniej inwazyjny sposób śledzenia niż mikrofon. A&nbsp;jest dokładnie odwrotnie! **Pisanie przez komunikator może ujawniać mnóstwo informacji**.
+Niektórzy wydają się traktować Messengera jak mniej inwazyjny sposób śledzenia niż mikrofon. A&nbsp;jest dokładnie odwrotnie! **Pisanie przez komunikator może ujawniać mnóstwo informacji**.
 
 Po pierwsze: z&nbsp;tego co mi wiadomo, Facebook nigdy nie zaprzeczał, że analizuje wiadomości z&nbsp;Messengera.
 
 Po drugie: to łatwe od strony technicznej. Komputery mają tekst jak na dłoni, w&nbsp;formie cyfrowej. Wystarczy choćby, że poszukają w&nbsp;nim słów kluczowych.  
-Sam zresztą stworzyłem [serię wpisów](/serie/facebook_dane){:.internal}, w&nbsp;której bawię się w facebookowego analityka, przeglądając swoją historię wiadomości. Nie potrzeba wiele, żeby wyciągać z&nbsp;nich dane.
+Sam zresztą stworzyłem [serię wpisów](/serie/facebook_dane){:.internal}, w&nbsp;której bawię się w facebookowego analityka, przeglądając swoją historię wiadomości. Nie potrzeba wiele, żeby wyciągać z&nbsp;nich dane.
 
-Analizowanie tekstu mówionego jest znacznie większym wyzwaniem. Komputery najpierw muszą zamienić dźwięki na tekst w&nbsp;postaci cyfrowej. A&nbsp;ten dodatkowy krok zwiększa szansę, że nie odczytają niektórych informacji.
+Analizowanie tekstu mówionego jest znacznie większym wyzwaniem. Komputery najpierw muszą zamienić dźwięki na tekst w&nbsp;postaci cyfrowej. A&nbsp;ten dodatkowy krok zwiększa szansę, że nie odczytają niektórych informacji.
 
 Może ufność użytkowników wynika z&nbsp;wyobrażenia, że Messenger w&nbsp;jakiś sposób wysyła wiadomość bezpośrednio od nas do odbiorcy?  
 Niestety jest inaczej. **Wiadomość najpierw trafia do Facebooka, a&nbsp;ten potem przekazuje ją dalej, do odbiorcy**. Postronni nie za bardzo mogą ją odczytać, ale sam Facebook jak najbardziej.
 
-Dowodem może być zresztą fakt, że możemy przez stronę Facebooka pobrać całą historię wysłanych i&nbsp;odebranych wiadomości. Skoro są w&nbsp;stanie nam ją dać na życzenie, w&nbsp;czytelnym formacie, to znaczy że przechowują wszystko u&nbsp;siebie.
+Dowodem może być zresztą fakt, że możemy przez stronę Facebooka pobrać całą historię wysłanych i&nbsp;odebranych wiadomości. Skoro są w&nbsp;stanie nam ją dać na życzenie, w&nbsp;czytelnym formacie, to znaczy że przechowują wszystko u&nbsp;siebie.
 
-Gdybyśmy chcieli faktycznie zyskać prywatność korespondencji, bez pośrednika zdolnego czytać wiadomości, to proponuję szukać pod hasłem `end-to-end encryption`. Czyli na przykład korzystać z&nbsp;darmowego, szyfrowanego komunikatora [Signal](https://signal.org/download/). I&nbsp;nie dać się nagonić do niszowych, płatnych komunikatorów.
+Gdybyśmy chcieli faktycznie zyskać prywatność korespondencji, bez pośrednika zdolnego czytać wiadomości, to proponuję szukać pod hasłem `end-to-end encryption`. Czyli na przykład korzystać z&nbsp;darmowego, szyfrowanego komunikatora [Signal](https://signal.org/download/). I&nbsp;nie dać się nagonić do niszowych, płatnych komunikatorów.
 
 ### Śledzenie poprzez lokalizację
 
@@ -203,13 +203,13 @@ text="Google mnie podsluchuje i&nbsp;lokalizuje, byłem w&nbsp;Energylandi i&nbs
 Choć teoretycznie podsłuchiwanie przez mikrofon i&nbsp;rozpoznawanie miejsc po typowych dźwiękach byłoby możliwe, **w grę wchodzi raczej (dużo, dużo łatwiejsze) wyłapywanie po geolokalizacji**.  
 Kiedy mamy włączonego GPS-a, a&nbsp;aplikacje mają do niego dostęp, to mogą dokładnie ustalić, w&nbsp;jakim rejonie jesteśmy. I&nbsp;na tej podstawie podsuwać nam reklamy.
 
-Wyłączony GPS? Nic nie szkodzi. Jeśli połączymy się z&nbsp;internetem przez hotspota, to naszą „wizytówką” stanie się konkretny adres IP. Autorzy apek już mogą mieć w&nbsp;bazie, że dany adres odpowiada Energylandii.
+Wyłączony GPS? Nic nie szkodzi. Jeśli połączymy się z&nbsp;internetem przez hotspota, to naszą „wizytówką” stanie się konkretny adres IP. Autorzy apek już mogą mieć w&nbsp;bazie, że dany adres odpowiada Energylandii.
 
 Wyłączony GPS i&nbsp;nie łączymy się z&nbsp;hotspotem? Autorzy popularnych apek nadal mogliby ustalić naszą lokalizację.
 
 Taki na przykład Google ma dane od mnóstwa użytkowników. Część z&nbsp;nich miała włączoną i&nbsp;geolokalizację, i&nbsp;szukanie hotspotów. Google mógł sobie powiązać za kulisami współrzędne geograficzne Energylandii oraz konkretne hotspoty. *EnergyFree*, *EnergyGuest* i&nbsp;inne (nazwy zmyślam).
 
-Kiedy potem pojawimy się my -- z&nbsp;wyłączonym GPS-em, ale włączonym Bluetoothem albo skanowaniem hotspotów -- to Google może być w&nbsp;stanie odgadnąć po nazwach innych urządzeń, w&nbsp;jakim miejscu jesteśmy.
+Kiedy potem pojawimy się my -- z&nbsp;wyłączonym GPS-em, ale włączonym Bluetoothem albo skanowaniem hotspotów -- to Google może być w&nbsp;stanie odgadnąć po nazwach innych urządzeń, w&nbsp;jakim miejscu jesteśmy.
 
 Inne firmy raczej nie mają tak wielkiej bazy hotspotów jak Wujek G, ale również mogłyby stosować takie same metody.
 
@@ -261,7 +261,7 @@ Niestety, jak pisze [Komputer Świat](https://www.komputerswiat.pl/wideo/wydarze
 {:.bigspace-after}
 > Krążący już od dawna po sieci „magiczny” kod *#21# to bzdura - z&nbsp;jego pomocą sprawdzimy co najwyżej status przekierowania połączeń
 
-Dodam od siebie, że informacje ujawniane po wpisaniu kodu dotyczą wyłącznie połączeń. Czyli sytuacji, kiedy rozmawiamy z&nbsp;kimś przez telefon. Zaś dyskretne nagrywanie mikrofonem, o&nbsp;którym mowa w&nbsp;komentowanym filmiku TechnoStrefy, nie wymaga żadnego dzwonienia.
+Dodam od siebie, że informacje ujawniane po wpisaniu kodu dotyczą wyłącznie połączeń. Czyli sytuacji, kiedy rozmawiamy z&nbsp;kimś przez telefon. Zaś dyskretne nagrywanie mikrofonem, o&nbsp;którym mowa w&nbsp;komentowanym filmiku TechnoStrefy, nie wymaga żadnego dzwonienia.
 
 A w&nbsp;ogólnym przypadku? Fakt, że aplikacje [mogą inicjować połączenia telefoniczne](https://www.youtube.com/watch?v=UDwj5j4tBYg). Jeśli udzielimy im pozwolenia. Tylko że polega to na tym, że wysyłają prośbę do systemu. *A&nbsp;ten wyświetla nam na cały ekran standardowe okno wykonywania połączenia*{:.corr-del}.
 
@@ -304,7 +304,7 @@ author="Przemek W*????????*{:.cover}"
 text="Błędem jest to, że jesteście wszyscy połączeni do tego samego Wi-Fi. Wystarczy, ze jeden telefon np. z&nbsp;Androidem, podsłuchuje a&nbsp;inne mimo to wyświetlą reklamę, bo znajdują się pod tym samym adresem Wi-Fi 💁🏻‍♂ ️"
 %}
 
-O możliwościach śledzenia przez wspólnego hotspota już pisałem wyżej. Kiedy nasze urządzenia są blisko siebie -- co reklamodawcy wykryją w&nbsp;ten czy inny sposób -- to bardzo możliwe, że w&nbsp;ich oczach staniemy się jedną grupą, a&nbsp;wysyłane nam reklamy będą się powielać.
+O możliwościach śledzenia przez wspólnego hotspota już pisałem wyżej. Kiedy nasze urządzenia są blisko siebie -- co reklamodawcy wykryją w&nbsp;ten czy inny sposób -- to bardzo możliwe, że w&nbsp;ich oczach staniemy się jedną grupą, a&nbsp;wysyłane nam reklamy będą się powielać.
 
 W tej sytuacji wystarczyłoby, że tylko jednej osobie „wylosuje” na przykład reklamy trampków -- niekoniecznie przez podsłuchanie słowa, tylko na przykład przez sam fakt, że jest w&nbsp;dużym mieście. A&nbsp;reklama się powieli i&nbsp;wyświetli też pozostałym.
 
@@ -325,12 +325,12 @@ Komentarz pełen wiedzy, pewnie długo gromadzonej przez autora... I&nbsp;komple
 Chodzi o&nbsp;to, że jeśli mamy telefon z&nbsp;Androidem, to możemy zwykle wgrać zamiast niego inny, nieoficjalny system operacyjny (*custom OS*). Przykładowym systemem jest LineageOS, którego używa autor.  
 Alternatywny system może nam dać więcej kontroli nad tym, co robią u&nbsp;nas aplikacje.  Największe forum z&nbsp;instrukcjami instalowania takich systemów to [XDA Developers](https://www.xda-developers.com/).
 
-Wątek z&nbsp;tym, jak często Google wysyła informacje w świat? Bardzo ciekawy. Istnieje również dodatek do przeglądarki, *[googerteller](https://github.com/berthubert/googerteller)*, który wydaje dźwięk za każdym razem, gdy napotka w&nbsp;internecie elementy od Google'a. Jak wspomniane Google Analytics.  
+Wątek z&nbsp;tym, jak często Google wysyła informacje w świat? Bardzo ciekawy. Istnieje również dodatek do przeglądarki, *[googerteller](https://github.com/berthubert/googerteller)*, który wydaje dźwięk za każdym razem, gdy napotka w&nbsp;internecie elementy od Google'a. Jak wspomniane Google Analytics.  
 Efekt? Piszczy non stop.
 
 ### Śledzenie przez mikrofon?
 
-Niektórzy komentujący potwierdzają, że o&nbsp;czymś rozmawiali, a&nbsp;potem zobaczyli reklamy tej rzeczy. Ale, w&nbsp;odróżnieniu od poprzedników, zapewniają że nie ujawnili informacji w&nbsp;żaden inny sposób niż przez mikrofon.
+Niektórzy komentujący potwierdzają, że o&nbsp;czymś rozmawiali, a&nbsp;potem zobaczyli reklamy tej rzeczy. Ale, w&nbsp;odróżnieniu od poprzedników, zapewniają że nie ujawnili informacji w&nbsp;żaden inny sposób niż przez mikrofon.
 
 Takie przypadki na razie odłożę do *Archiwum X* -- spraw ciekawych, ale trudnych do zbadania. Bądź co bądź, choć wyżej zobaczyliśmy parę opinii sceptycznych wobec tej metody śledzenia, współczesne telefony mają ku temu techniczne możliwości.
 
@@ -370,7 +370,7 @@ Już raz ogólnie opisałem [rolę takich pośredników]({% post_url 2022-08-13-
 
 ### Ciekawe tropy
 
-Niektóre komentarze również nie trzymają się tematu filmu, ale wspominają zamiast tego o&nbsp;ciekawych wątkach pobocznych. Już nieraz znalazłem w&nbsp;komentarzach perełki, więc lubię zachowywać takie nietypowe informacje na później.
+Niektóre komentarze również nie trzymają się tematu filmu, ale wspominają zamiast tego o&nbsp;ciekawych wątkach pobocznych. Już nieraz znalazłem w&nbsp;komentarzach perełki, więc lubię zachowywać takie nietypowe informacje na później.
 
 {:.bigspace}
 {% include comment.html
@@ -392,7 +392,7 @@ Jako handlowiec znam może inne metody badania rynku i&nbsp;profilowania niż kt
 Choć pierwsze zdanie brzmi jak zupełny odlot, to taka historia jak najbardziej miała miejsce!  
 Ale jeśli myślimy o&nbsp;tym samym, to nie było w&nbsp;niej Facebooka -- chodzi zapewne o&nbsp;[Tay](https://knowyourmeme.com/memes/sites/tay-ai), program komputerowy stworzony przez Microsoft i&nbsp;symulujący użytkowniczkę Twittera. Tak zwanego *chatbota*.
 
-Każdy mógł wchodzić z&nbsp;Tay w&nbsp;interakcje, a&nbsp;ta mogła „uczyć się” na podstawie danych z&nbsp;rozmów. Ale śmieszki internetowe przechytrzyły algorytmy i&nbsp;sprawiły, że w&nbsp;ciągu 24&nbsp;godzin chatbot zaczął tworzyć tweety dość niecenzuralne.
+Każdy mógł wchodzić z&nbsp;Tay w&nbsp;interakcje, a&nbsp;ta mogła „uczyć się” na podstawie danych z&nbsp;rozmów. Ale śmieszki internetowe przechytrzyły algorytmy i&nbsp;sprawiły, że w&nbsp;ciągu 24&nbsp;godzin chatbot zaczął tworzyć tweety dość niecenzuralne.
 
 Druga historia autora jest ciekawa i&nbsp;potencjalnie do sprawdzenia. Wykorzystanie polityki zwrotów, żeby odzyskać czasem produkt i&nbsp;historię zapisaną w&nbsp;czujnikach? Brzmi całkiem realnie! I&nbsp;pokazywałoby nam, że firmowe śledzenie wyprzedzało cyfryzację.
 
@@ -406,17 +406,17 @@ text="Ja to od wielu lat wiedziałem. Dlatego nigdy nie zakładałem konta FB i&
 %}
 
 Przyznam, że jestem nieco sceptyczny wobec tych zarzutów o&nbsp;sprzedawanie danych. I&nbsp;nie dlatego, że lubię Facebooka. Wręcz przeciwnie!  
-Tylko że cały ich model biznesowy opiera się na tym, że dają reklamodawcom dostęp na swoich zasadach, wsuwają się między nich a&nbsp;klientów jako pośrednicy. Sprzedając dane, wypuszczaliby je z&nbsp;rąk.
+Tylko że cały ich model biznesowy opiera się na tym, że dają reklamodawcom dostęp na swoich zasadach, wsuwają się między nich a&nbsp;klientów jako pośrednicy. Sprzedając dane, wypuszczaliby je z&nbsp;rąk.
 
 Bardziej prawdopodobne jest to, że w&nbsp;ręce autora oddano jakąś bazę z&nbsp;wycieku albo sprzedaną na lewo, na przykład przez konkretnego pracownika. Ale też prawda, że kiedyś panował dziki zachód pod względem prywatności, więc niczego nie wykluczam.
 
-Zachowam ten komentarz, na wypadek gdyby kiedyś wypłynęły jakieś skandale z&nbsp;przeszłości Fejsa.
+Zachowam ten komentarz, na wypadek gdyby kiedyś wypłynęły jakieś skandale z&nbsp;przeszłości Fejsa.
 
 ### Strefa spiskowa?
 
-W wielu dyskusjach związanych z&nbsp;prywatnością znajdziemy komentarze osób, które już chyba za bardzo wsiąkły w&nbsp;temat. „Gdy długo spoglądasz w&nbsp;otchłań, również otchłań spogląda w&nbsp;ciebie”.
+W wielu dyskusjach związanych z&nbsp;prywatnością znajdziemy komentarze osób, które już chyba za bardzo wsiąkły w&nbsp;temat. „Gdy długo spoglądasz w&nbsp;otchłań, również otchłań spogląda w&nbsp;ciebie”.
 
-Ich wnioski bywają spiskowe, ale czasem stoi za nimi faktyczna historia i&nbsp;można znaleźć ciekawe nawiązania. Zatem biorę się do roboty.
+Ich wnioski bywają spiskowe, ale czasem stoi za nimi faktyczna historia i&nbsp;można znaleźć ciekawe nawiązania. Zatem biorę się do roboty.
 
 {% include comment.html
 source="YouTube"
@@ -433,12 +433,12 @@ text="Dostosowywanie reklam do naszych upodobań może wskazywać na obecność 
 
 Pomijając teksty o&nbsp;skanowaniu myśli, które włożę między bajki, znajdziemy tu parę tropów.
 
-Walmart to amerykańska sieć wielkich sklepów. Zaś wiadomości podprogowe (ang. *subliminal messaging*) to realna [technika marketingowa](https://pl.wikipedia.org/wiki/Percepcja_podprogowa), choć są wątpliwości co do jej skuteczności.
+Walmart to amerykańska sieć wielkich sklepów. Zaś wiadomości podprogowe (ang. *subliminal messaging*) to realna [technika marketingowa](https://pl.wikipedia.org/wiki/Percepcja_podprogowa), choć są wątpliwości co do jej skuteczności.
 
 Nie znalazłem konkretów, ale nie zdziwiłbym się, gdyby Walmart celowo eksperymentował z&nbsp;muzyką w&nbsp;sklepach -- nawet dźwiękami niesłyszalnymi -- trzymając się tej skorelowanej z&nbsp;największymi zakupami. Niedawno byli oskarżeni o&nbsp;użycie przekazu podprogowego w&nbsp;[reklamie telewizyjnej](https://www.buzzfeednews.com/article/coralewis/is-there-a-subliminal-message-in-walmarts-minimum-wage-tv-ad).
 
 z kolei [Pegasus](https://zaufanatrzeciastrona.pl/post/jak-wykryc-pegasusa-na-iphonie-i-inne-ciekawe-pytania-od-uzytkownikow-telefonow-apple/) oraz [Predator](https://thenextweb.com/news/cytrox-predator-spyware-hacking-pegasus-analysis) to całkiem osobne sprawy, niezwiązane z&nbsp;branżą reklamową. Można o&nbsp;nich myśleć jak o&nbsp;programach szpiegowskich, choć sprzedawane są jako całe pakiety usług.  
-Pierwszy komentarz nie wspomina żadnego z&nbsp;nich z&nbsp;nazwy, ale mocno mi się z nimi kojarzy („jakby wchodzili do naszego sprzętu”).
+Pierwszy komentarz nie wspomina żadnego z&nbsp;nich z&nbsp;nazwy, ale mocno mi się z nimi kojarzy („jakby wchodzili do naszego sprzętu”).
 
 Czym są? To narzędzia dla służb państwowych, pozwalające im na bieżąco pozyskiwać informacje z&nbsp;telefonów podejrzanych. Oficjalnie mają ułatwiać walkę z&nbsp;terroryzmem. Ale w&nbsp;praktyce były używane przeciw opozycji, aktywistom i&nbsp;innym niewygodnym ludziom.
 
@@ -458,7 +458,7 @@ text="Ekspert... aplikacje go podsłuchują... a&nbsp;o wlutowanym w&nbsp;każdy
 %}
 
 Słowo *mikrochipy* oznaczałoby coś wbudowanego w&nbsp;fizyczny sprzęt. Tyle że **Google zwykle nie produkuje telefonów** (wyjątkiem są średnio popularne Pixele).  
-Oni tworzą oprogramowanie -- system operacyjny Android i&nbsp;niektóre apki. A&nbsp;fizyczny telefon wytwarzają inne firmy, zwykle poza kontrolą Google'a. Jak Samsung czy Xiaomi. Zatem mało prawdopodobne są jakieś „mikrochipy Google'a”.
+Oni tworzą oprogramowanie -- system operacyjny Android i&nbsp;niektóre apki. A&nbsp;fizyczny telefon wytwarzają inne firmy, zwykle poza kontrolą Google'a. Jak Samsung czy Xiaomi. Zatem mało prawdopodobne są jakieś „mikrochipy Google'a”.
 
 Oba komentarze przypisują ukrytym chipom coś, co mogłoby wynikać ze wspomnianego już korelowania po lokalizacji. Choć drugi autor nieco umniejsza takiej formie śledzenia, czasem warto przyjmować wyjaśnienia prozaiczne. Zasada brzytwy Ockhama.
 
@@ -471,9 +471,9 @@ Elementy tego typu są kuszące dla potencjalnych hakerów i&nbsp;być może kie
 
 Na tym skończę przegląd komentarzy. Trochę ich było, a&nbsp;tematy też najróżniejsze.
 
-W szerszym internecie jest wiele różnych wyobrażeń na temat tego, jak działa internetowe śledzenie. Niektóre nieco mijają się z prawdą, a&nbsp;inne mogą dawać ciekawą perspektywę.
+W szerszym internecie jest wiele różnych wyobrażeń na temat tego, jak działa internetowe śledzenie. Niektóre nieco mijają się z prawdą, a&nbsp;inne mogą dawać ciekawą perspektywę.
 
-Mam nadzieję, że mój wpis wyjaśni parę popularnych nieporozumień, a&nbsp;weteranom prywatnościowym przybliży wyobrażenia codziennych użytkowników. Kiedy następnym razem będziemy chcieli pomóc komuś ochronić prywatność, może uda się nadawać na tych samych falach.
+Mam nadzieję, że mój wpis wyjaśni parę popularnych nieporozumień, a&nbsp;weteranom prywatnościowym przybliży wyobrażenia codziennych użytkowników. Kiedy następnym razem będziemy chcieli pomóc komuś ochronić prywatność, może uda się nadawać na tych samych falach.
 
-Więcej o&nbsp;samym śledzeniu w&nbsp;kolejnych wpisach, mam nadzieję że już niebawem. Do zobaczenia!
+Więcej o&nbsp;samym śledzeniu w&nbsp;kolejnych wpisach, mam nadzieję że już niebawem. Do zobaczenia!
 

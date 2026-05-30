@@ -21,7 +21,7 @@ SMS&#8209;y są stałą częścią życia prawie wszystkich posiadaczy telefonó
 Choć ich *pisanie* może być coraz rzadsze -- są wypierane przez komunikatory internetowe -- nadal całkiem często je *otrzymujemy*.  
 Potwierdzenia odbioru, alerty RCB, kody uwierzytelniające... SMS&#8209;y dostajemy od różnych firm i&nbsp;instytucji, którym podaliśmy swój numer telefonu.
 
-I tutaj pojawia się problem. Wszystkie te wiadomości są zapisywane na naszym telefonie bezterminowo (z tego co wiem). Żeby się ich pozbyć, musielibyśmy sami je usunąć z&nbsp;historii. A&nbsp;mało komu się chce.  
+I tutaj pojawia się problem. Wszystkie te wiadomości są zapisywane na naszym telefonie bezterminowo (z tego co wiem). Żeby się ich pozbyć, musielibyśmy sami je usunąć z&nbsp;historii. A&nbsp;mało komu się chce.  
 Co by się stało, gdyby zajrzał do nich ktoś niepowołany, ktoś wścibski? Jakie informacje by z&nbsp;nich odczytał?
 
 Temu jest poświęcony mój obecny wpis. Zobaczymy pozwolenia na systemie Android pozwalające aplikacjom zaglądać do naszych SMS&#8209;ów, aplikację pozwalającą osobiście to przetestować. Oraz sposoby na ochronę swojej prywatności.
@@ -47,7 +47,7 @@ SMS&#8209;y są w&nbsp;niej pogrupowane w&nbsp;wątki -- według nazwy odbiorcy 
 
 {% include info.html
 type="Porada"
-text="Pozwolę sobie na błagalny apel w&nbsp;imieniu wielu użytkowników starszych, klasycznych telefonów – jeśli piszecie do kogoś takiego, to nie wysyłajcie wiadomości krótkich, po kilka słów, jak na czacie. Dajcie cały tekst za jednym razem.  
+text="Pozwolę sobie na błagalny apel w&nbsp;imieniu wielu użytkowników starszych, klasycznych telefonów – jeśli piszecie do kogoś takiego, to nie wysyłajcie wiadomości krótkich, po kilka słów, jak na czacie. Dajcie cały tekst za jednym razem.  
 To dlatego, że na *starofonach* nie ma grupowania w&nbsp;wątki. Mikrowiadomości trzeba otwierać i&nbsp;zamykać jedną po drugiej, a&nbsp;potem po kolei kasować (jeśli nie chcemy czyścić całej skrzynki). Na dłuższą metę to męczące."
 %}
 
@@ -58,13 +58,13 @@ Natomiast na Androidzie aplikacje cudze, pozasystemowe, również mogą zagląda
 Według [bloga firmy Symantec](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/mobile-privacy-apps) to pozwolenie stosunkowo rzadko wymagane. O&nbsp;dostęp do SMS&#8209;ów prosiło 15&nbsp;procent badanych przez nich, potencjalnie wścibskich apek na Androida.
 
 {:.figure .bigspace}
-<img src="/assets/posts/apki/sms/sms-pozwolenie-popularnosc.jpg" alt="Fragment listy pokazującej częstość, z&nbsp;jaką apki proszą o&nbsp;pozwolenia. Są na niej dwie pozycje, historia połączeń oraz SMS&#8209;y."/>
+<img src="/assets/posts/apki/sms/sms-pozwolenie-popularnosc.jpg" alt="Fragment listy pokazującej częstość, z&nbsp;jaką apki proszą o&nbsp;pozwolenia. Są na niej dwie pozycje, historia połączeń oraz SMS&#8209;y."/>
 
 Ale tutaj możemy zadać sobie pytanie -- ile aplikacji potrzebowałoby tego pozwolenia *tak naprawdę, serio-serio*?
 
 ### Dwie minuty krytyki
 
-Skorzystam z&nbsp;okazji i&nbsp;zbiorę w&nbsp;tym miejscu trochę krytyki wobec Google. Żeby nieco zrekompensować fakt, że mało ostatnio dodaję do [serii na ich temat](/serie/google){:.internal}.
+Skorzystam z&nbsp;okazji i&nbsp;zbiorę w&nbsp;tym miejscu trochę krytyki wobec Google. Żeby nieco zrekompensować fakt, że mało ostatnio dodaję do [serii na ich temat](/serie/google){:.internal}.
 
 Głównym źródłem aplikacji na świecie są centralne, publiczne bazy. Jak [Play Store](https://play.google.com/store/games) od tegoż Google.  
 W teorii powinny weryfikować, czy apka naprawdę potrzebuje szczególnych uprawnień, jak możliwość czytania SMS&#8209;ów. I&nbsp;usuwać szemrane towarzystwo. Sęk w&nbsp;tym, że nawet naciągany powód wystarczy, żeby dostać pozytywną notę.
@@ -77,7 +77,7 @@ Innym problemem są komunikaty kierowane do użytkowników. Mamy niestety [jedno
 {:.bigspace}
 <img src="/assets/posts/apki/sms/android-sms-permission.jpg" alt="Komunikat mówiący, że aplikacja prosi o&nbsp;pozwolenie na czytanie SMS&#8209;ów i&nbsp;dający na dole trzy opcje: wyrażenie zgody, niewyrażenie zgody albo niewyrażenie plus żądanie, żeby więcej nie pytać." width="300px"/>
 
-Wyobraźmy sobie, że instalowana apka ma jakiś powód, żeby wysyłać wiadomości. Może na przykład twierdzi, że może wysyłać SMS&#8209;a z&nbsp;powiadomieniem, gdy coś zrobimy. Myślimy sobie: „brzmi sensownie”. I&nbsp;kiedy pokazuje się pytanie jak wyżej, to nasza czujność jest uśpiona. Zezwalamy. Zaś apka zyskuje również możliwość zerkania do naszej skrzynki.
+Wyobraźmy sobie, że instalowana apka ma jakiś powód, żeby wysyłać wiadomości. Może na przykład twierdzi, że może wysyłać SMS&#8209;a z&nbsp;powiadomieniem, gdy coś zrobimy. Myślimy sobie: „brzmi sensownie”. I&nbsp;kiedy pokazuje się pytanie jak wyżej, to nasza czujność jest uśpiona. Zezwalamy. Zaś apka zyskuje również możliwość zerkania do naszej skrzynki.
 
 Gdyby to zerkanie wymagało odrębnego, wyrażonego wprost pozwolenia, to może budziłoby ono większe podejrzenia. Byłoby znacznie mniej rodzajów apek, które *tak serio-serio* by go potrzebowały.  
 Ba, nie byłoby potrzebne nawet wtedy, gdy aplikacja chce nam wysłać SMS&#8209;a i&nbsp;potem upewnić się że dotarł. Bo takie coś mogą [zrobić osobnym kanałem](https://android.stackexchange.com/a/218890), bez konieczności czytania całej skrzynki (choć niestety wymaga Usług Google, więc systemy alternatywne względem Androida są pokrzywdzone).
@@ -97,12 +97,12 @@ No ale dość dygresji. Skoro już wiemy, że Google zły, a&nbsp;Termux dobry..
 
 Żeby nie rzucać tu technikaliami, proces instalowania Termuksa opisałem na końcu. Tu powiem tylko, że jest prosty. A&nbsp;kiedy już mamy co trzeba, wystarczy wpisywać polecenie `termux-sms-list`, żeby wyświetlać dane dotyczące SMS&#8209;ów.
 
-Nie będę tu omawiał formatu, bo zasadniczo mamy te same informacje co w domyślnej aplikacji naszego telefonu. Różnica jest taka, że SMS&#8209;y nie są pogrupowane w&nbsp;wątki, tylko mają postać jednej płaskiej listy. Informacja o&nbsp;wątku ma natomiast nazwę `threadid` i&nbsp;jest częścią każdego SMS&#8209;a.
+Nie będę tu omawiał formatu, bo zasadniczo mamy te same informacje co w domyślnej aplikacji naszego telefonu. Różnica jest taka, że SMS&#8209;y nie są pogrupowane w&nbsp;wątki, tylko mają postać jednej płaskiej listy. Informacja o&nbsp;wątku ma natomiast nazwę `threadid` i&nbsp;jest częścią każdego SMS&#8209;a.
 
 Co można z&nbsp;tych SMS&#8209;ów odczytać?
 
-Pozwolę sobie pominąć SMS&#8209;y prywatne, wymienione z&nbsp;innymi ludźmi. Tam może być absolutnie wszystko :wink:  
-Spójrzmy natomiast na informacje bardziej usystematyzowane. SMS&#8209;y otrzymane od wszelkiej maści firm i&nbsp;organizacji państwowych. Z&nbsp;nich też da się całkiem sporo wyłuskać.
+Pozwolę sobie pominąć SMS&#8209;y prywatne, wymienione z&nbsp;innymi ludźmi. Tam może być absolutnie wszystko :wink:  
+Spójrzmy natomiast na informacje bardziej usystematyzowane. SMS&#8209;y otrzymane od wszelkiej maści firm i&nbsp;organizacji państwowych. Z&nbsp;nich też da się całkiem sporo wyłuskać.
 
 ### Alerty RCB
 
@@ -138,7 +138,7 @@ Owszem, taka szczegółowość nie jest w&nbsp;alertach RCB dostępna na co dzie
 
 ### Powiadomienia od zagranicznych operatorów
 
-Pociągnijmy dalej wątek podróżniczy. Poza granice kraju -- bo kiedy ją przekraczamy, często dostajemy z&nbsp;automatu jakieś powiadomienie.
+Pociągnijmy dalej wątek podróżniczy. Poza granice kraju -- bo kiedy ją przekraczamy, często dostajemy z&nbsp;automatu jakieś powiadomienie.
 
 Jasne, nie jest to metoda stuprocentowo dokładna. Czasem wystarczy zbliżyć się do granicy, żeby dostać wiadomość od zagranicznego operatora.  
 Jest tu ktoś, kogo w&nbsp;polskich górach złapała sieć czeska lub słowacka? Albo, co gorsza, ktoś kto stracił w&nbsp;Bieszczadach majątek przez nagłe przejście na taryfę ukraińską? :smiling_imp:
@@ -157,7 +157,7 @@ Pisownia oryginalna, tam też nie dawali spacji po kropkach. Przez co dwie rzecz
 
 Choć może to brzmieć nieintuicyjnie, **nasze prawdziwe imię i&nbsp;nazwisko to często tajemnica dla aplikacji**. Nie mają łatwego sposobu na ich poznanie, bo podczas zakładania kont (i na Androidzie, i&nbsp;na różnych portalach) zwykle nie musimy nigdzie podawać prawdziwych danych.
 
-Ale SMS&#8209;y łatwo mogą nas ujawnić. Wystarczy że zapiszemy się do jakiejś rzeczy poważnej i&nbsp;urzędowej, gdzie użytkownik *Kubuś Puchatek* by nie przeszedł. Dostaniemy potwierdzenie na skrzynkę. A&nbsp;dla wścibskich aplikacji to tak, jakbyśmy się im przedstawili.
+Ale SMS&#8209;y łatwo mogą nas ujawnić. Wystarczy że zapiszemy się do jakiejś rzeczy poważnej i&nbsp;urzędowej, gdzie użytkownik *Kubuś Puchatek* by nie przeszedł. Dostaniemy potwierdzenie na skrzynkę. A&nbsp;dla wścibskich aplikacji to tak, jakbyśmy się im przedstawili.
 
 ### Konta i&nbsp;subskrypcje
 
@@ -228,7 +228,7 @@ author="+48 737&nbsp;*??? ???*{:.cover}"
 text="Wyn. nieof. **NAZWA ZAWODÓW** dla **NAZWISKO I&nbsp;IMIĘ**. Czas **CZAS UKOŃCZENIA**, Msc: **MIEJSCE W&nbsp;KLASYFIKACJI OGÓLNEJ** wiecej na WYNIKI.B4SPORT.PL"
 %}
 
-Pomijając fakt, że ujawniamy w&nbsp;ten sposób z&nbsp;grubsza swoją kondycję i&nbsp;zainteresowania, te informacje mogłyby być punktem wyjścia do dalszego stalkingu. Zawsze można potem wejść na listę wyników na stronie organizatora ([przykład](http://www.online.datasport.pl/results3611/index.php)) i&nbsp;wyszukać konkretne imię i&nbsp;nazwisko na liście startowej.
+Pomijając fakt, że ujawniamy w&nbsp;ten sposób z&nbsp;grubsza swoją kondycję i&nbsp;zainteresowania, te informacje mogłyby być punktem wyjścia do dalszego stalkingu. Zawsze można potem wejść na listę wyników na stronie organizatora ([przykład](http://www.online.datasport.pl/results3611/index.php)) i&nbsp;wyszukać konkretne imię i&nbsp;nazwisko na liście startowej.
 
 Zwykle będzie tam również nazwa miasta, z&nbsp;którego jesteśmy, a&nbsp;czasem nazwa drużyny. Na podstawie identycznej, nieczęstej nazwy można ustalić, kto jest naszymi znajomymi. A&nbsp;przez nich na przykład znaleźć nasze konto na Facebooku, nawet jeśli używamy pseudonimu. Możliwości nadużyć jest multum.
 
@@ -253,14 +253,14 @@ Tym razem natomiast nie wystarczy nam wersja podstawowa. Potrzebujemy rozszerzon
 
 Jak wspomniałem, oficjalna wersja z&nbsp;Play Store'a jest wybrakowana. Zatem trzeba wykonać trzy kroki, żeby zyskać możliwość czytania SMS&#8209;ów przez Termuksa:
 
-1. Pobrać aplikację [F-Droid](https://f-droid.org/).
+1. Pobrać aplikację [F-Droid](https://f-droid.org/).
 2. Zainstalować **przez F-Droida** dwie aplikacje: Termux oraz Termux:API.
 
    To ważne, bo na Google Play są wybrakowane wersje. A&nbsp;po co dwie apki? Bo Termux:API jest potrzebna, żeby mieć dostęp do rozszerzonych funkcji.
 
 3. Włączyć Termux:API pozwolenie na dostęp do listy SMS&#8209;ów. 
 
-Kiedy już wszystko naszykujemy, jesteśmy w&nbsp;stanie wpisywać w&nbsp;Termuksa komendę odczytującą SMS&#8209;y:
+Kiedy już wszystko naszykujemy, jesteśmy w&nbsp;stanie wpisywać w&nbsp;Termuksa komendę odczytującą SMS&#8209;y:
 
 <div class="black-bg mono">
 termux-sms-list

@@ -185,7 +185,7 @@ Podsumujmy sobie to, co dotychczas wiemy. Facebook ma:
 * swój mały element załadowany w&nbsp;przeglądarce, który może z&nbsp;nią rozmawiać i&nbsp;ma dane na temat aktywności na stronie;
 * barierę między tymi dwoma światami, którą chciałby przekroczyć.
 
-Żeby nie było nudno i&nbsp;technicznie, spróbujmy się wczuć w&nbsp;Facebooka. A&nbsp;konkretniej -- w&nbsp;jakiegoś (zmyślonego, fikcyjnego) klepacza kodu zatrudnionego w&nbsp;tej firmie.  
+Żeby nie było nudno i&nbsp;technicznie, spróbujmy się wczuć w&nbsp;Facebooka. A&nbsp;konkretniej -- w&nbsp;jakiegoś (zmyślonego, fikcyjnego) klepacza kodu zatrudnionego w&nbsp;tej firmie.  
 Być może menedżer kazał mu znaleźć sposób na powiązanie aktywności internetowej z&nbsp;apką. Oczywiście wątpię, żeby w&nbsp;rozmowie użył słowa „śledzenie”. Prędzej frazesu w&nbsp;stylu „*bridge app and website experiences*”. Bo w&nbsp;końcu w&nbsp;korporealiach zawsze są „przeżycia”, rzadziej konkrety.
 
 I teraz ten biedny pracownik stuka w&nbsp;klawiaturę, jak w&nbsp;[perkusję z&nbsp;filmu *Whiplash*](https://www.youtube.com/watch?v=LCSN7WwV534) (uwaga: YouTube), wyobrażając sobie w&nbsp;głowie, że właśnie dąży do perfekcji i&nbsp;Czyni Dobro™. Buduje rzeczy wielkie. Rozwój, postęp. Postęp, rozwój.  
@@ -204,9 +204,9 @@ Pomysł 2: schowek (znany jako „kopiuj-wklej”). Strona internetowa skopiuje 
 
 Tylko że to by, po pierwsze, nadpisywało dane użytkowników już obecne w&nbsp;schowku, wywołując chaos. Po drugie: nie byłoby dyskrecji, bo Android wyświetla systemowy komunikat, gdy apka sięga po dane ze schowka. Ten pomysł też odpadał.
 
-Zdesperowany pracownik oblewa się zimnym potem. Już widzi w&nbsp;wyobraźni, jak menedżer nazywa go *non-performant* i&nbsp;wyznacza mu za karę *obóz reedukacyjny*{:.corr-del} *Performance Improvement Plan*. Zdalnie, bezdusznie, podczas wideokonferencji.
+Zdesperowany pracownik oblewa się zimnym potem. Już widzi w&nbsp;wyobraźni, jak menedżer nazywa go *non-performant* i&nbsp;wyznacza mu za karę *obóz reedukacyjny*{:.corr-del} *Performance Improvement Plan*. Zdalnie, bezdusznie, podczas wideokonferencji.
 
-...I w&nbsp;tym momencie doznaje olśnienia. Wideokonferencja. I&nbsp;obsługujący ją protokół, **WebRTC**.
+...I w&nbsp;tym momencie doznaje olśnienia. Wideokonferencja. I&nbsp;obsługujący ją protokół, **WebRTC**.
 
 ### WebRTC – sposób wysłania
 
@@ -294,7 +294,7 @@ W związku z&nbsp;całą sytuacją przeciwko Mecie w&nbsp;USA złożono [pozew z
 
 Szczególne możliwości ma jednak Unia Europejska. Jak analizuje autor strony *zeropartydata.es*, Meta mogłaby [oberwać skumulowanym efektem kilku różnych kar](https://www.zeropartydata.es/p/localhost-tracking-explained-it-could) -- związanych z&nbsp;przepisami GDPR (w&nbsp;Polsce znanymi jako RODO), *Digital Markets Act* oraz *Digital Services Act*.
 
-Przepisy te nie opierają się na stałych kwotach, lecz na procencie od przychodów. Autor wylicza, że **Facebook mógłby oberwać teoretyczną karą do 32&nbsp;mld euro**.
+Przepisy te nie opierają się na stałych kwotach, lecz na procencie od przychodów. Autor wylicza, że **Facebook mógłby oberwać teoretyczną karą do 32&nbsp;mld euro**.
 
 {:.post-meta .bigspace-after}
 Od razu zaznaczę, że nie znam przepisów na tyle, żeby wiedzieć czy to realne; ale autor podaje źródła, a&nbsp;jego stwierdzenia na temat przepisów są zbieżne z&nbsp;tym, co sam o&nbsp;nich wyczytałem. Dlatego daję jego słowom kredyt zaufania, choć wątpię w&nbsp;pełen wymiar kary.
@@ -342,8 +342,8 @@ Oto lista rzeczy (nieraz bardzo szybkich i&nbsp;łatwych), dzięki którym cała
  
   Bez niego w&nbsp;ogóle by nie zadziałał etap&nbsp;5 z&nbsp;pierwotnego [schematu](#cookies-schemat){:.internal}. Czyli w&nbsp;przypadku elementów od Mety i&nbsp;Yandeksa: włączenie WebRTC i&nbsp;wysłanie danych.
 
-  To metoda nie dla każdego, bo od JS-a zależy działanie wielu stron internetowych, zwłaszcza większych. Niektóre osoby stykają się z takimi stronami często, inne rzadziej.  
-  Moja sugestia? Zainstalować na mobilnym Firefoksie uBO, który i&nbsp;tak by się przydał. Na próbę wyłączyć JS-a w&nbsp;jego opcjach; w&nbsp;razie czego reaktywować go paroma kliknięciami na kłopotliwych stronach. Ocenić, czy rozwiązanie nam pasuje.
+  To metoda nie dla każdego, bo od JS-a zależy działanie wielu stron internetowych, zwłaszcza większych. Niektóre osoby stykają się z takimi stronami często, inne rzadziej.  
+  Moja sugestia? Zainstalować na mobilnym Firefoksie uBO, który i&nbsp;tak by się przydał. Na próbę wyłączyć JS-a w&nbsp;jego opcjach; w&nbsp;razie czego reaktywować go paroma kliknięciami na kłopotliwych stronach. Ocenić, czy rozwiązanie nam pasuje.
   
 * [Wyłączenie WebRTC](/tutorials/webrtc-wylaczenie){:.internal} w&nbsp;przeglądarce
 

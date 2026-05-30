@@ -13,14 +13,14 @@ image:
   alt: "Dwa kadry z animowanego Robin Hooda umieszczone obok siebie. Na lewym Robin mierzy z łuku. Na prawym widać szarżujących strażników, na których nałożono logo TikToka. Pchają przed sobą księcia Jana, podpisanego jako Ministerstwo Cyfryzacji."
 ---
 
-Kolejny raz robię małą przerwę od tworzenia samouczków na temat Linuksa, bo oto kilka tygodni temu wypłynęła aferka, którą uważam za wartą nagłośnienia.
+Kolejny raz robię małą przerwę od tworzenia samouczków na temat Linuksa, bo oto kilka tygodni temu wypłynęła aferka, którą uważam za wartą nagłośnienia.
 
 {:.bigspace}
 > brzydki atak ze strony Pani Magdaleny Bigaj, samozwańczego Robin Hooda polskiego internetu.
 
 Takich słów użył Wiceminister Cyfryzacji, kiedy właścicielka pewnej fundacji skrytykowała kampanię **TikToka**. Popularnej platformy, która wypromowała koncepcję social mediów opartych na krótkich, uzależniających filmikach.
 
-Skrytykowana kampania ociepla wizerunek firmy i&nbsp;przedstawia ją jako potencjalne rozwiązanie problemów, a&nbsp;nie ich źródło. Wydaje się odpowiedzią na nadciągające zmiany prawne, które mogą oderwać od TikToka sporą część najmłodszych, najsilniej wciągniętych odbiorców.
+Skrytykowana kampania ociepla wizerunek firmy i&nbsp;przedstawia ją jako potencjalne rozwiązanie problemów, a&nbsp;nie ich źródło. Wydaje się odpowiedzią na nadciągające zmiany prawne, które mogą oderwać od TikToka sporą część najmłodszych, najsilniej wciągniętych odbiorców.
 
 Pod fasadą życia codziennego trwa niewidoczna wojenka. Przepychanka między Unią a&nbsp;korporacjami, która może zmienić życie młodszych pokoleń. Mam przyjemność nieco ją przybliżyć w&nbsp;tym wpisie.
 
@@ -65,7 +65,7 @@ Przepychana łokciem i&nbsp;kolanem, rok w&nbsp;rok, w&nbsp;sposób niejawny, z&
 Umawiany tutaj DSA umieściłbym gdzieś pomiędzy wymienionymi skrajnościami. W&nbsp;najogólniejszym ujęciu: to przepisy, które mają ukrócić samowolę dużych platform (jak TikTok, YouTube, Facebook...).  
 **Zacieśnią wymogi dotyczące moderacji treści**, a&nbsp;także wymuszą sprawniejszą komunikację między dużymi platformami a&nbsp;instytucjami krajowymi (np. polskim Urzędem Komunikacji Elektronicznej).
 
-To, czym przepisy są na powierzchni, mógłbym nawet docenić. Ale kiedy pomyślę o&nbsp;tym, do czego mogą zostać użyte w&nbsp;praktyce, to już zapala się mała żółta lampka w&nbsp;głowie.
+To, czym przepisy są na powierzchni, mógłbym nawet docenić. Ale kiedy pomyślę o&nbsp;tym, do czego mogą zostać użyte w&nbsp;praktyce, to już zapala się mała żółta lampka w&nbsp;głowie.
 
 {% include details.html summary="Więcej przemyśleń na temat DSA" %}
 
@@ -74,7 +74,7 @@ Za najciekawsze [cechy nowych przepisów](https://pl.wikipedia.org/wiki/Akt_o_us
 
 * Wprost wskazują z&nbsp;nazwy duże platformy, do których się odnoszą.
 
-  Moim zdaniem powiew świeżości w&nbsp;świecie, gdzie dotąd próbowało się tworzyć przepisy jednolite i&nbsp;zarzucić jedną sieć na wszystkie możliwe podmioty. A&nbsp;to niezbyt się sprawdzało.  
+  Moim zdaniem powiew świeżości w&nbsp;świecie, gdzie dotąd próbowało się tworzyć przepisy jednolite i&nbsp;zarzucić jedną sieć na wszystkie możliwe podmioty. A&nbsp;to niezbyt się sprawdzało.  
   DSA już nie udaje, że małe portale są tym samym co cyfrowi giganci. Wprost bierze na celownik tych drugich.
 
 * Narzucają wymóg większej współpracy tych platform z&nbsp;organami państwowymi.
@@ -108,26 +108,26 @@ Właściciele dużych platform, dociśnięci na poziomie unijnym, mają jeszcze 
 
 Powiedzmy, że Unia mówi ogólnik: „duże platformy muszą stosować zabezpieczenia, żeby nie dopuszczać dzieci do szkodliwych treści”. A&nbsp;teraz prawodawcy krajowi mają na tej podstawie stworzyć przepisy. Korporacje zastanawiają się zaś, jak to rozcieńczyć.
 
-* Czym są „zabezpieczenia”? Może wystarczy pod to podpiąć zwykłe okno z&nbsp;pytaniem, łatwe do odkliknięcia?
-* Czym są „dzieci”? Może uda się pod to podczepić tylko osoby tak młode, że i&nbsp;tak nie korzystają z platformy?
-* Czym są „szkodliwe treści”? Może dałoby się tak nagiąć definicję, żeby nie obejmowała na przykład „miękkiego hazardu”, a&nbsp;jedynie rzeczy tak czy siak nielegalne?
+* Czym są „zabezpieczenia”? Może wystarczy pod to podpiąć zwykłe okno z&nbsp;pytaniem, łatwe do odkliknięcia?
+* Czym są „dzieci”? Może uda się pod to podczepić tylko osoby tak młode, że i&nbsp;tak nie korzystają z platformy?
+* Czym są „szkodliwe treści”? Może dałoby się tak nagiąć definicję, żeby nie obejmowała na przykład „miękkiego hazardu”, a&nbsp;jedynie rzeczy tak czy siak nielegalne?
 
 Jakieś pozory zostają oczywiście zachowane. Spotykając się z&nbsp;politykami, żaden lobbysta nie powie wprost: „nie ograniczajcie, bo nie chcę!”.  
-Powie coś w stylu: „nadmierna regulacja może odebrać dzieciom dostęp do treści edukacyjnych”. I&nbsp;powoła się na jakieś korzystne dla siebie badanie, wyciągając je z&nbsp;teczki na oczach polityków.
+Powie coś w stylu: „nadmierna regulacja może odebrać dzieciom dostęp do treści edukacyjnych”. I&nbsp;powoła się na jakieś korzystne dla siebie badanie, wyciągając je z&nbsp;teczki na oczach polityków.
 
 {:.post-meta .bigspace-after}
 Jakieś na pewno znajdzie, niezależnie od stanu faktycznego. Gwarantuję.
 
 Politycy słuchają i&nbsp;kiwają głowami. Ale nadal jest pewien element wahania. Czy pójście korposowi na rękę nie zaszkodzi politycznej karierze?
 
-Z tego względu w&nbsp;takich sytuacjach trwa równoległe urabianie opinii publicznej. Jak smarowanie brytfanny masłem. Można włożyć do piekarnika i&nbsp;bez tego, ale wtedy coś się może sfajczyć.
+Z tego względu w&nbsp;takich sytuacjach trwa równoległe urabianie opinii publicznej. Jak smarowanie brytfanny masłem. Można włożyć do piekarnika i&nbsp;bez tego, ale wtedy coś się może sfajczyć.
 
 Korporacja liczy na to, że pewne minimum społecznego poparcia -- plus badania i&nbsp;inne rzeczy pokazywane politykom, wyciągane z&nbsp;teczki -- doprowadzą do korzystnej dla niej interpretacji.
 
 Tak wyglądają kontakty polityczno-korporacyjne, tak wygląda budowanie wpływów. Tak, niestety, wygląda świat. Mnóstwo korporacji napiera w&nbsp;ten sposób, gdy tylko mają okazję.
 
-W naszej historii możemy wyróżnić **trzy strony sporu -- korporacyjną, niekorporacyjną oraz rządową**. Dwie pierwsze się spierają, rządowa słucha (choć czasem, jak pokazałem na początku, coś wtrąci).  
-Przybliżę teraz pokrótce dwie aktywniejsze, przeciwstawne strony.
+W naszej historii możemy wyróżnić **trzy strony sporu -- korporacyjną, niekorporacyjną oraz rządową**. Dwie pierwsze się spierają, rządowa słucha (choć czasem, jak pokazałem na początku, coś wtrąci).  
+Przybliżę teraz pokrótce dwie aktywniejsze, przeciwstawne strony.
  
 ## Strona niekorporacyjna
 
@@ -135,7 +135,7 @@ W tej historii za główną twarz oporu można uznać **Magdalenę Bigaj**.
 
 To prezeska fundacji Instytut Cyfrowego Obywatelstwa. Od dawna zwraca uwagę na uzależniające działanie różnych internetowych platform i&nbsp;ich patologie, a&nbsp;także na zalety płynące z&nbsp;utrzymywania higieny cyfrowej.
 
-Nieraz wchodziła w&nbsp;[interakcje](https://xcancel.com/panoptykon/status/1644013377763540993) z&nbsp;Fundacją Panoptykon, która skupia się w szczególności na prywatności.
+Nieraz wchodziła w&nbsp;[interakcje](https://xcancel.com/panoptykon/status/1644013377763540993) z&nbsp;Fundacją Panoptykon, która skupia się w szczególności na prywatności.
 
 {:.post-meta .bigspace-after}
 Gdyby link nie działał, to można w&nbsp;nim zmienić *xcancel.com* na *x.com*. Podobnie w&nbsp;przypadku innych linków do Twittera/X.
@@ -154,7 +154,7 @@ Raport pokazuje, że młode osoby chłoną to, co w&nbsp;internecie najgorsze. C
 
 Osobiście, widząc jakieś raporty „w obronie dzieci”, odruchowo się najeżam. Już zbyt często robiono z&nbsp;młodocianych wymówkę, żeby przepchnąć drakońskie przepisy.
 
-W tym przypadku zalecenia raportu wydają się jednak całkiem racjonalne (str. 75&nbsp;pliku PDF) i&nbsp;nie wygląda mi na konia trojańskiego. Jest o&nbsp;poprawie edukacji, ograniczeniach dla reklamodawców, niepublikowaniu wizerunków. Nie ma patologicznej walki z&nbsp;szyfrowaniem, a&nbsp;to cieszy.
+W tym przypadku zalecenia raportu wydają się jednak całkiem racjonalne (str. 75&nbsp;pliku PDF) i&nbsp;nie wygląda mi na konia trojańskiego. Jest o&nbsp;poprawie edukacji, ograniczeniach dla reklamodawców, niepublikowaniu wizerunków. Nie ma patologicznej walki z&nbsp;szyfrowaniem, a&nbsp;to cieszy.
 
 {:.post-meta .bigspace-after}
 Dodam jednak, że punkt o&nbsp;dyrektywie 2011/93/UE brzmi enigmatycznie. Mam też parę zastrzeżeń do poglądów współtwórcy raportu. Ale o&nbsp;tym bliżej końca wpisu.
@@ -169,12 +169,12 @@ Obie panie wymienione z&nbsp;nazwiska mają długą historię punktowania wielki
 
 {% include info.html
 type="Drobna uwaga"
-text="Zgodnie z&nbsp;konwencją przyjętą od początku istnienia tego bloga -- skracam nazwiska niektórych osób i&nbsp;częściowo zakrywam wizerunki. Nie ma potrzeby doszukiwać się tu drugiego dna, po prostu taki drobny kaprys :wink:"
+text="Zgodnie z&nbsp;konwencją przyjętą od początku istnienia tego bloga -- skracam nazwiska niektórych osób i&nbsp;częściowo zakrywam wizerunki. Nie ma potrzeby doszukiwać się tu drugiego dna, po prostu taki drobny kaprys :wink:"
 %}
 
-Głównym graczem po przeciwnej stronie jest TikTok. Platforma z&nbsp;krótkimi filmikami, której zarzuca się [uzależnianie użytkowników](https://sites.brown.edu/publichealthjournal/2021/12/13/tiktok/) oraz spychanie ich ku [treściom szkodliwym dla zdrowia](https://www.amnesty.org/en/latest/news/2023/11/tiktok-risks-pushing-children-towards-harmful-content/). Ten wizerunek to ciężar, który chętnie by z&nbsp;siebie zrzucili.
+Głównym graczem po przeciwnej stronie jest TikTok. Platforma z&nbsp;krótkimi filmikami, której zarzuca się [uzależnianie użytkowników](https://sites.brown.edu/publichealthjournal/2021/12/13/tiktok/) oraz spychanie ich ku [treściom szkodliwym dla zdrowia](https://www.amnesty.org/en/latest/news/2023/11/tiktok-risks-pushing-children-towards-harmful-content/). Ten wizerunek to ciężar, który chętnie by z&nbsp;siebie zrzucili.
 
-Zanim napiszę, w&nbsp;jaki sposób się za to wzięli, spójrzmy na pewną organizowaną przez nich konferencję, którą odwiedziło grono potencjalnych sojuszników.
+Zanim napiszę, w&nbsp;jaki sposób się za to wzięli, spójrzmy na pewną organizowaną przez nich konferencję, którą odwiedziło grono potencjalnych sojuszników.
 
 Można ich wszystkich podejrzeć w&nbsp;jednym [poście z&nbsp;Instagrama](https://www.instagram.com/marcelina_maciag/p/DRAoroDkt6O/). Dzięki uprzejmości niejakiej Marceliny M., działającej w&nbsp;„młodzieżówce” TikToka (*TikTok Global Youth Council*), która wszystkich oznaczyła.
 
@@ -184,7 +184,7 @@ text="Wspomniana Marcelina, przebywająca w&nbsp;USA, działa publicznie nie tyl
 Byłaby ta całkiem niezła dywersyfikacja od strony geopolitycznej, gdyby nie to, że TikTok [nie jest już tak całkiem chiński](https://www.brookings.edu/articles/tiktok-may-not-be-chinese-owned-anymore-but-there-still-is-a-privacy-problem/)."
 %}
 
-A wracając do wymienionych organizacji i&nbsp;osób, które pojawiły się na konferencji:
+A wracając do wymienionych organizacji i&nbsp;osób, które pojawiły się na konferencji:
 
 * Fundacja SEXEDPL
 
@@ -225,16 +225,16 @@ W każdym razie obecność kogoś z&nbsp;WHO na wydarzeniu promującym spojrzeni
 
 {% include details-end.html %}
 
-Filarem całej akcji jest Fundacja SEXEDPL, więc poświęcę nieco uwagi im oraz ich współpracy z&nbsp;**Uberem**. Mającej pewne znaczenie dla sprawy, bo historia lubi się powtarzać.
+Filarem całej akcji jest Fundacja SEXEDPL, więc poświęcę nieco uwagi im oraz ich współpracy z&nbsp;**Uberem**. Mającej pewne znaczenie dla sprawy, bo historia lubi się powtarzać.
 
 ### Więcej o&nbsp;Fundacji SEXEDPL
 
-Oficjalnie to fundacja zajmująca się promowaniem edukacji seksualnej wśród młodzieży. Swoją twarzą firmuje ją znana modelka i&nbsp;była uczestniczka programu „Top Model”, Anja R.
+Oficjalnie to fundacja zajmująca się promowaniem edukacji seksualnej wśród młodzieży. Swoją twarzą firmuje ją znana modelka i&nbsp;była uczestniczka programu „Top Model”, Anja R.
 
 {:.post-meta .bigspace-after}
 Tak, przez *jot*. „Ja nie jestem taka pierwsza lepsza Ania”.
 
-Ich inicjatywy budzą raczej pozytywne emocje. „Tam, gdzie szkoła sobie nie radzi, tam uzupełnimy wiedzę”. „Jesteśmy pełni zrozumienia”. „Jesteśmy otwarci na pytania, nikogo nie wykluczamy”.  
+Ich inicjatywy budzą raczej pozytywne emocje. „Tam, gdzie szkoła sobie nie radzi, tam uzupełnimy wiedzę”. „Jesteśmy pełni zrozumienia”. „Jesteśmy otwarci na pytania, nikogo nie wykluczamy”.  
 Taki przekaz płynie z&nbsp;ich komunikatów -- niekiedy wyświetlanych nawet na miejskich teleekranach reklamowych. Na których biedniejsze fundacje raczej nie zagoszczą.
 
 
@@ -244,7 +244,7 @@ Gdyby spojrzeć na [historię zmian](https://pl.wikipedia.org/w/index.php?title=
 
 Pierwszą wersję wpisu opublikowała użytkowniczka o&nbsp;nicku Jagodela dnia 18&nbsp;maja 2021&nbsp;roku, w&nbsp;dniu założenia konta. Była ona (wersja!) dość sucha i&nbsp;pozbawiona jakichkolwiek odnośników do źródeł.
 
-25 maja jakiś wikipedysta A&nbsp;wycofał wpis do poczekalni z&nbsp;adnotacją „Artykuł należy dopracować”. Jagodela się obruszyła i&nbsp;przywróciła go, dodając dopisek w&nbsp;tonie ciutkę korporacyjno-wilanowskim:
+25 maja jakiś wikipedysta A&nbsp;wycofał wpis do poczekalni z&nbsp;adnotacją „Artykuł należy dopracować”. Jagodela się obruszyła i&nbsp;przywróciła go, dodając dopisek w&nbsp;tonie ciutkę korporacyjno-wilanowskim:
 
 > artykuł został profesjonalnie przygotowany i&nbsp;jest gotowy do publikacji, prosiłabym o&nbsp;nie usuwanie go.
 
@@ -254,7 +254,7 @@ Autorka przywróciła go 27&nbsp;maja po paru edycjach. [Dodała linki](https://
 
 {% include details-end.html %}
 
-Ta zaufana marka miała jednak okazję pojawić się obok organizacji budzącej mniejszą sympatię. Jakby użyczając jej reputacyjnego parasola.  
+Ta zaufana marka miała jednak okazję pojawić się obok organizacji budzącej mniejszą sympatię. Jakby użyczając jej reputacyjnego parasola.  
 Jak zauważyła pod pewnym postem wspomniana już Sylwia Czubkowska z&nbsp;obozu niekorporacyjnego:
 
 > to co dla twórców/badaczy jest działaniem społecznym, dla tech korporacji jest po prostu washingową strategią. (...) po to je w&nbsp;Bóg Techach opisałam, w&nbsp;tym choćby **współpracę @sexedpl z&nbsp;Uberem po skandalu z&nbsp;gwałtami w&nbsp;przewozach**
@@ -268,7 +268,7 @@ Reputacja firmy oberwała i&nbsp;pojawiła się groźba nałożenia na nią wię
 Od tego czasu firma przyjęła imidż szlachetnego szeryfa antyprzemocowego.
 
 * Wprowadzili aplikację [*Uber by Women*](https://warszawa.wyborcza.pl/warszawa/7,54420,30334988,uber-wprowadzil-usluge-dla-kobiet-firmowana-przez-sexedpl-anji.html), pozwalającą zamawiać przejazdy wyłącznie z&nbsp;kobietami.
-* Uber został partnerem strategicznym telefonicznej linii wsparcia prowadzonej przez SEXEDPL.
+* Uber został partnerem strategicznym telefonicznej linii wsparcia prowadzonej przez SEXEDPL.
 * W&nbsp;tym roku wprowadzili kolejną apkę, tym razem do komunikowania się z&nbsp;zaufaną osobą w&nbsp;celu bezpiecznego powrotu do domu.
 
 {:.bigspace}
@@ -278,7 +278,7 @@ Wszystko to przy pełnym wsparciu Fundacji. Brzmi tak pięknie i&nbsp;szlachetni
 
 ...Tylko czemu w&nbsp;samym środku sprawy, między kolejnymi inicjatywami społecznymi, Uber nie ujawniał statystyk dotyczących zgłoszonych napaści? Czemu aktywnie walczył z&nbsp;wymogiem posiadania polskiego prawa jazdy (który pozwalałby lepiej kontrolować, kto u&nbsp;nich jeździ)? A&nbsp;kiedy wymóg już został wprowadzony, to czemu weryfikacja [była dziurawa](https://www.auto-swiat.pl/wiadomosci/aktualnosci/uberowcy-maja-w-nosie-polskie-prawo-jazdy-szokujace-dane-po-kontrolach-policji/nzgxrgw?srcc=undefined)?
 
-Gdy czyta się takie coś, to spod lukru wsparcia, troski i&nbsp;empatii może wyjrzeć mroczniejsza myśl. „Co, jeśli inicjatywy społeczne nie miały *wesprzeć* realnych zmian modelu biznesowego? Co, jeśli miały je tylko *zastąpić*?”.
+Gdy czyta się takie coś, to spod lukru wsparcia, troski i&nbsp;empatii może wyjrzeć mroczniejsza myśl. „Co, jeśli inicjatywy społeczne nie miały *wesprzeć* realnych zmian modelu biznesowego? Co, jeśli miały je tylko *zastąpić*?”.
 
 A Fundacja reklamowała te inicjatywy swoją reputacją. Ale pewnie w&nbsp;dobrej wierze, prawda? „Fundacja jest Dobra™”.
 
@@ -286,7 +286,7 @@ A Fundacja reklamowała te inicjatywy swoją reputacją. Ale pewnie w&nbsp;dobre
 
 Poznaliśmy kontekst, poznaliśmy ważnych graczy, więc czas wreszcie przejść do sedna.
 
-Kształtują się polskie przepisy, które mogą się okazać niekorzystne dla TikToka. Firma odpowiedzialna za apkę zrobi wiele, żeby je zmiękczyć.
+Kształtują się polskie przepisy, które mogą się okazać niekorzystne dla TikToka. Firma odpowiedzialna za apkę zrobi wiele, żeby je zmiękczyć.
 
 TikTok zaczął działać na kilku frontach. Tym bardziej pozytywnym były **„Karty Bez Tabu”**. Zestaw kart z&nbsp;pytaniami, na&nbsp;które młode osoby powinny odpowiadać razem z&nbsp;rodzicami, poznając nawzajem swoje poglądy na temat różnych internetowych spraw. Opracowała je Tosia K., wspomniana wyżej współpracowniczka Fundacji.
 
@@ -298,15 +298,15 @@ Problem w&nbsp;tym, że są zaledwie cząstką większej kampanii. Równocześni
 * Filmik Fundacji na temat [funkcji ograniczeń rodzicielskich](https://www.youtube.com/shorts/B8ga0cl09e0) pokazuje TikToka jako narzędzie łatwe do okiełznania i&nbsp;ściśle sterowane przez rodziców, zmienione niemal w&nbsp;pomoc edukacyjną.
 
   {:.figure}
-  <img src="/assets/posts/korpoafery/tiktok-dsa-walka/tiktok-niby-edukacyjny.jpg" alt="Przycięty kadr z&nbsp;filmu pokazujący ogolonego mężczyznę w&nbsp;koszuli, odgrywającego rolę dziecka. W&nbsp;dolnej części widać słowa: 'Mamo, czemu ja widzę tylko tiktoki o&nbsp;chemii, fizyce, matematyce?'."/>
+  <img src="/assets/posts/korpoafery/tiktok-dsa-walka/tiktok-niby-edukacyjny.jpg" alt="Przycięty kadr z&nbsp;filmu pokazujący ogolonego mężczyznę w&nbsp;koszuli, odgrywającego rolę dziecka. W&nbsp;dolnej części widać słowa: 'Mamo, czemu ja widzę tylko tiktoki o&nbsp;chemii, fizyce, matematyce?'."/>
 
-* Inny ich [filmik](https://www.youtube.com/shorts/qslTu5-iAZY) promuje integrację aplikacji z&nbsp;telefoniczną linią wsparcia Fundacji *(deja vu?)*{:.corr-del}. Na filmik nałożony jest pasek z&nbsp;nazwami partnerów: sieci T-Mobile, Ubera... A&nbsp;teraz również TikToka.
+* Inny ich [filmik](https://www.youtube.com/shorts/qslTu5-iAZY) promuje integrację aplikacji z&nbsp;telefoniczną linią wsparcia Fundacji *(deja vu?)*{:.corr-del}. Na filmik nałożony jest pasek z&nbsp;nazwami partnerów: sieci T-Mobile, Ubera... A&nbsp;teraz również TikToka.
 
 Równocześnie opublikowano raport o&nbsp;nazwie „Bez tabu: o&nbsp;czym (nie) rozmawiamy w&nbsp;domach”. Oznaczony jako wspólne dzieło TikToka, Fundacji SEXED oraz Socjolożek. To te ostatnie odegrały szczególną rolę przy jego powstaniu.
 
 Streszczenie swoich wniosków [opublikowały](https://www.instagram.com/p/DQuIYlOiL8i) w&nbsp;mediach społecznościowych. Na slajdach widać między innymi **sugestię, że większość młodych osób używa TikToka do celów edukacyjnych**.
 
-Pojawiły się też artykuły w&nbsp;mediach internetowych, [takie jak ten](https://www.eska.pl/news/tiktok-socjolozki-pl-i-fundacja-sexedpl-sprawdzaja-czy-umiemy-rozmawiac-o-relacjach-i-bezpieczenstwie-w-sieci-raport-aa-xsSz-72kR-27Gx.html). Zaś w nim:
+Pojawiły się też artykuły w&nbsp;mediach internetowych, [takie jak ten](https://www.eska.pl/news/tiktok-socjolozki-pl-i-fundacja-sexedpl-sprawdzaja-czy-umiemy-rozmawiac-o-relacjach-i-bezpieczenstwie-w-sieci-raport-aa-xsSz-72kR-27Gx.html). Zaś w nim:
 
 * cytat szefowej SEXEDPL mówiący, że fajnie rozmawiać z&nbsp;dziećmi o&nbsp;tym, co widziały w&nbsp;cyfrowym świecie (implikacja: powinny być z&nbsp;nim na bieżąco);
 * wspomniana wyżej informacja, że większość używa TikToka do celów edukacyjnych;
@@ -331,7 +331,7 @@ Te liczby pięknie wyglądają w&nbsp;raportach PR, ale nie wierzcie im za grosz
 Skróty w nawiasach moje.
 
 
-Swoją krytykę opublikowała również Magdalena Bigaj na portalach społecznościowych: [Instagramie](https://www.instagram.com/magbigaj/p/DQuIYlOiL8i/) oraz [Facebooku](https://www.facebook.com/share/p/1BfMNi9B4P).
+Swoją krytykę opublikowała również Magdalena Bigaj na portalach społecznościowych: [Instagramie](https://www.instagram.com/magbigaj/p/DQuIYlOiL8i/) oraz [Facebooku](https://www.facebook.com/share/p/1BfMNi9B4P).
 
 Używa tam konkretnego określenia na działania TikToka -- **_goodwashing_**. Pranie brudnej reputacji przez zalanie jej różnymi inicjatywami mogącymi wzbudzić pozytywne uczucia społeczeństwa.
 
@@ -340,7 +340,7 @@ W&nbsp;komentarzach od zwykłych użytkowników też pojawiło się niemało gł
 
 ### Reakcja na krytykę
 
-Osobom promującym kampanię najwidoczniej nie spodobało się punktowanie związanych z&nbsp;nią rzeczy, bo odpowiedziały publicznie i&nbsp;dość ostro.
+Osobom promującym kampanię najwidoczniej nie spodobało się punktowanie związanych z&nbsp;nią rzeczy, bo odpowiedziały publicznie i&nbsp;dość ostro.
 
 Socjolożki odniosły się do krytyki w&nbsp;[krótkim filmiku](https://www.instagram.com/socjolozki.pl/reel/DQrpfoYjKpB/) na Instagramie. Nie ma tu argumentów broniących metodologii badań, jest za to naburmuszenie:
 
@@ -356,11 +356,11 @@ Socjolożki dodały też drugi film, w&nbsp;którym jedna z&nbsp;nich mówi, że
 
 W tym momencie zaangażował się również Przemek S. Twórca internetowy, uczestnik konferencji TikToka, wprost wspomniany w&nbsp;mediach jako osoba wspierająca kampanię.
 
-Opublikował [filmik](https://www.instagram.com/przemek_staron/reel/DQ2PK12iig3/), w&nbsp;którym, z&nbsp;tego co rozumiem, wypowiada się o kartach w&nbsp;samych superlatywach.
+Opublikował [filmik](https://www.instagram.com/przemek_staron/reel/DQ2PK12iig3/), w&nbsp;którym, z&nbsp;tego co rozumiem, wypowiada się o kartach w&nbsp;samych superlatywach.
 
 > Boże, jak ja się tym jaram. Ja naprawdę jestem metodofilem. I&nbsp;to co jest po prostu tym to tutaj -- Karty Bez Tabu
 
-W opisie filmiku odnosi się również do zarzutów i&nbsp;je zbywa, powołując się na dobrą reputację uczestników kampanii.
+W opisie filmiku odnosi się również do zarzutów i&nbsp;je zbywa, powołując się na dobrą reputację uczestników kampanii.
 
 > i&nbsp;nie, nie jest to tzw. prywatyzacja odpowiedzialności, co chyba powinno być oczywiste dla każdego, kto zna działalność SEXEDPL, Tosi, Socjolożek czy moją 😈
 
@@ -375,7 +375,7 @@ Jednocześnie na ekranie pojawia się klasyczny cytat o&nbsp;tym, że ludzie wal
 
 Socjolożki doceniły wsparcie Przemka S. i&nbsp;podziękowały mu w&nbsp;opisie jednego z&nbsp;filmików, nazywając go mistrzem empatii.
 
-To w&nbsp;tym miejscu miał również okazję wypowiedzieć się Michał G., **Wiceminister Cyfryzacji**. Przedstawiciel strony rządowej, teoretycznie neutralnej i&nbsp;wysłuchującej argumentów stron. [A powiedział to](https://www.facebook.com/share/p/15KxrhRTjnB/?mibextid=wwXIfr):
+To w&nbsp;tym miejscu miał również okazję wypowiedzieć się Michał G., **Wiceminister Cyfryzacji**. Przedstawiciel strony rządowej, teoretycznie neutralnej i&nbsp;wysłuchującej argumentów stron. [A powiedział to](https://www.facebook.com/share/p/15KxrhRTjnB/?mibextid=wwXIfr):
 
 {% include comment.html
 author="Poseł Michał G*????????*{:.cover} - Wiceminister Cyfryzacji"
@@ -405,7 +405,7 @@ Któż śmiałby podnosić na to rękę i&nbsp;stać się potworem?
 Socjolożki w&nbsp;jednym z&nbsp;postów z&nbsp;6 listopada piszą wprost, że [ich obecne badanie to dopiero początek](https://www.instagram.com/socjolozki.pl/p/DQuCFJ0jG-d/?img_index=10):
 
 {:.figure bigspace}
-<img src="/assets/posts/korpoafery/tiktok-dsa-walka/tiktok-socjolozki-ciag-dalszy.png" alt="Informacja mówiąca, że badanie jest częścią nowej platformy komunikacyjnej o&nbsp;nazwie 'Kocham, ale nie lubię'."/>
+<img src="/assets/posts/korpoafery/tiktok-dsa-walka/tiktok-socjolozki-ciag-dalszy.png" alt="Informacja mówiąca, że badanie jest częścią nowej platformy komunikacyjnej o&nbsp;nazwie 'Kocham, ale nie lubię'."/>
 
 > A&nbsp;my już dziś zapowiadamy, że w&nbsp;2026 roku startujemy z&nbsp;nową platformą komunikacyjną „Kocham, ale nie lubię”, która będzie przestrzenią do porozumienia nie tylko w&nbsp;rodzinach, ale szerzej. Dziękujemy agencji @ancy_agencja za zaproszenie do tej inicjatywy
 
@@ -413,9 +413,9 @@ Wchodząc na podlinkowany profil krakowskiej agencji marketingowej (pełna nazwa
 
 Wiele wskazuje na to, że w&nbsp;przyszłym roku kampania, w&nbsp;bardzo podobnym składzie osobowym jak teraz, nabierze rozpędu. Kto i&nbsp;co będzie głosił, co będzie promowane?
 
-Obecnie uczestnicy kampanii wydają się obruszeni krytyką. Może to faktycznie było niefortunne nieporozumienie, ale intencje mieli dobre? Skoro akcja trwa, to będą mieli świetną okazję, żeby publicznie odnieść się do zarzutów wobec TikToka i&nbsp;na nowo zjednać ludzi!
+Obecnie uczestnicy kampanii wydają się obruszeni krytyką. Może to faktycznie było niefortunne nieporozumienie, ale intencje mieli dobre? Skoro akcja trwa, to będą mieli świetną okazję, żeby publicznie odnieść się do zarzutów wobec TikToka i&nbsp;na nowo zjednać ludzi!
 
-A gdyby jakimś niefortunnym trafem zapomnieli o&nbsp;TikToku wspomnieć, to zawsze można o&nbsp;tym grzecznie przypomnieć w&nbsp;komentarzach. W&nbsp;końcu mistrzowie empatii doskonale zrozumieją wątpliwości swoich odbiorców :wink:
+A gdyby jakimś niefortunnym trafem zapomnieli o&nbsp;TikToku wspomnieć, to zawsze można o&nbsp;tym grzecznie przypomnieć w&nbsp;komentarzach. W&nbsp;końcu mistrzowie empatii doskonale zrozumieją wątpliwości swoich odbiorców :wink:
 
 Poza promotorami mamy też stronę rządową. Zachowanie Wiceministra może sugerować pewne **niefortunne sympatie rządzących**, dlatego tym bardziej warto obserwować, jak będą się kształtowały nowe przepisy.
 
@@ -446,7 +446,7 @@ A to byłby w&nbsp;moich oczach najgorszy, najbardziej dystopijny scenariusz.
 Siedzę trochę w&nbsp;sprawach cyfrowych i&nbsp;wiem, że da się zrobić weryfikację wieku bez weryfikacji tożsamości. Ale przy obecnych trendach najpewniej nastąpiłaby próba wepchnięcia tej funkcji do mObywatela. Który z&nbsp;kolei jest, jak na mój gust, [zbyt zależny od Google'a i&nbsp;Apple](/cyfrowy_feudalizm/2025/06/05/mobywatel-problemy){:.internal}.
 
 {:.post-meta .bigspace-after}
-Zresztą mObywatel to beniaminek Ministerstwa Cyfryzacji. Michał G., autor kontrowersyjnych słów z&nbsp;tego wpisu, [zbył kiedyś](https://pl.fediverse.pl/@mkljczk/posts/Aid1OYdZRyI6HF4NtY) osobę apelującą o&nbsp;otwarcie jego kodu źródłowego w&nbsp;podobny sposób jak panią Bigaj.
+Zresztą mObywatel to beniaminek Ministerstwa Cyfryzacji. Michał G., autor kontrowersyjnych słów z&nbsp;tego wpisu, [zbył kiedyś](https://pl.fediverse.pl/@mkljczk/posts/Aid1OYdZRyI6HF4NtY) osobę apelującą o&nbsp;otwarcie jego kodu źródłowego w&nbsp;podobny sposób jak panią Bigaj.
 
 W przypadku weryfikacji mObywatelem wpływy TikToka i&nbsp;Mety by osłabły, ale Google i&nbsp;Apple stałyby się ściśle zrośnięte z&nbsp;państwem, zaś alternatywne systemy smartfonowe straciłyby resztki szans. To też mi się nie podoba.
 
@@ -459,9 +459,9 @@ Mógłbym zajrzeć w&nbsp;wysyłane dane i&nbsp;zobaczyć tam proste „tak”, 
 {% include details.html summary="Bonus: goodwashing z&nbsp;branży chemii rolniczej" %}
 
 {:.bigspace-before}
-Na koniec, skoro już tu padło pojęcie *goodwashingu*, pozwolę sobie wyjść poza banieczkę cyfrową i&nbsp;może zachwiać czyimś obrazem świata.
+Na koniec, skoro już tu padło pojęcie *goodwashingu*, pozwolę sobie wyjść poza banieczkę cyfrową i&nbsp;może zachwiać czyimś obrazem świata.
 
-Niejedna osoba słusznie krytykująca *big techy* i&nbsp;dostrzegająca ich sztuczki potrafi -- z&nbsp;jakichś niepojętych dla mnie przyczyn -- ulegać niemal identycznym chwytom, jeśli zastosuje je inna branża, zwłaszcza jakaś powołująca się na nauki ścisłe.
+Niejedna osoba słusznie krytykująca *big techy* i&nbsp;dostrzegająca ich sztuczki potrafi -- z&nbsp;jakichś niepojętych dla mnie przyczyn -- ulegać niemal identycznym chwytom, jeśli zastosuje je inna branża, zwłaszcza jakaś powołująca się na nauki ścisłe.
 
 Przykładem producenci chemii dla rolnictwa. Korposami z&nbsp;tego świata są chociażby Bayer, Syngenta, BASF. Ich narrację powielają zaś różne „niezależne ośrodki”, jak CropLife czy Genetic Literacy Project.
 
@@ -472,7 +472,7 @@ Producenci i&nbsp;różni *propagandyści*{:.corr-del} popularyzatorzy próbują
 Stosują również manipulację opartą na upoczywym powtarzaniu, że liczba pszczół *miodnych* rośnie, więc obawy są zbędne.  
 A to chochoł, bo w&nbsp;sprawie od początku chodziło o&nbsp;dzikie zapylacze, a&nbsp;nie pszczoły hodowlane, trzymane w&nbsp;bardziej kontrolowanych warunkach, które można łatwo domnożyć.
 
-Sprawę nagłaśniały różne gazety zajmujące się dziennikarstwem śledczym, [w&nbsp;tym znany *Intercept*](https://theintercept.com/2020/01/18/bees-insecticides-pesticides-neonicotinoids-bayer-monsanto-syngenta/). Ale wielu popularyzatorów to ignoruje, podając dalej jedynie (dez-)informację o&nbsp;liczbie pszczół miodnych oraz tematy zastępcze.
+Sprawę nagłaśniały różne gazety zajmujące się dziennikarstwem śledczym, [w&nbsp;tym znany *Intercept*](https://theintercept.com/2020/01/18/bees-insecticides-pesticides-neonicotinoids-bayer-monsanto-syngenta/). Ale wielu popularyzatorów to ignoruje, podając dalej jedynie (dez-)informację o&nbsp;liczbie pszczół miodnych oraz tematy zastępcze.
 
 {:.post-meta .bigspace-after}
 Sylwia Cz., jedna z&nbsp;bohaterek pozytywnych tego wpisu, [poleciła niedawno kilkoro twórców](https://xcancel.com/sylvcz/status/1992257927978369065) jako autorytety od nauki -- niestety część z&nbsp;nich w&nbsp;temacie rolniczym akurat powieliła korporolniczą narrację. Co najmniej jedna z&nbsp;poleconych grup/osób robi to nagminnie.

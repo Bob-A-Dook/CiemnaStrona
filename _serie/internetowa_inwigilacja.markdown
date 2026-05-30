@@ -13,7 +13,7 @@ Czy zdarzyło Ci się odnieść wrażenie, że strony internetowe wiedzą o&nbsp
 
 Omawiam w&nbsp;niej rolę:
 
-* nagłówków HTTP wysyłanych za każdym razem, kiedy łączymy się z&nbsp;jakąś stroną,
+* nagłówków HTTP wysyłanych za każdym razem, kiedy łączymy się z&nbsp;jakąś stroną,
 * plików *cookies*,
 * parametrów dodawanych do linków,
 * informacji sprawdzanych przez *JavaScript*,

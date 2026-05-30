@@ -51,15 +51,15 @@ To kolejna kropla w&nbsp;morzu argumentów przeciw Wujkowi G. Przyjrzyjmy się j
 ## Kontekst
 
 Znany wszystkim Google jest częścią grupy [Alphabet](https://pl.wikipedia.org/wiki/Alphabet_(holding)). Należy do niej również platforma YouTube czy Waymo od samojezdnych aut.  
-**Cała grupa Alphabet opiera się na reklamach**. Są one źródłem [około 80% ich przychodów](https://www.cnbc.com/2021/05/18/how-does-google-make-money-advertising-business-breakdown-.html).
+**Cała grupa Alphabet opiera się na reklamach**. Są one źródłem [około 80% ich przychodów](https://www.cnbc.com/2021/05/18/how-does-google-make-money-advertising-business-breakdown-.html).
 
 Ich strategia opiera się na tworzeniu licznych projektów we wszelkich możliwych branżach. A&nbsp;następnie wykorzystaniu całej swojej maszynerii -- od algorytmów po dopracowane techniki sprzedaży -- żeby te projekty forsować.
 
-Jeśli któryś się przyjmie, to dołącza do grona stałych produktów, używanych przez miliony użytkowników. A&nbsp;jeśli tylu nie uzbiera, to zostaje szybko ubity. Niezależnie od swojej jakości. Olbrzym albo trup, nic pomiędzy.
+Jeśli któryś się przyjmie, to dołącza do grona stałych produktów, używanych przez miliony użytkowników. A&nbsp;jeśli tylu nie uzbiera, to zostaje szybko ubity. Niezależnie od swojej jakości. Olbrzym albo trup, nic pomiędzy.
 
 Jest to zresztą obiektem żartów w&nbsp;całej branży -- powstała stronka [*Killed by Google*](https://killedbygoogle.com/), gromadząca „cmentarzysko” takich nieudanych projektów.
 
-Ale nawet jeśli coś nie trafi na cmentarz, same metody promowania mogą budzić kontrowersje.
+Ale nawet jeśli coś nie trafi na cmentarz, same metody promowania mogą budzić kontrowersje.
 
 ### Rozprawa
 
@@ -70,7 +70,7 @@ Google może użyć tych pewniaków do faworyzowania nowinek. Naciskać na twór
 
 Innymi słowy -- **mając parę kluczowych produktów, może stopniowo pochłaniać świat i&nbsp;blokować konkurencję**. A&nbsp;monopole są szkodliwe, co potwierdzi wielu [ekonomistów](https://www.nytimes.com/2021/08/03/books/the-two-economists-who-fought-over-how-free-the-free-market-should-be.html). Również wolnorynkowych.
 
-Google ochoczo dążył ku dominacji -- przekrój przez różne aferki znajdziemy choćby w&nbsp;[pierwszym wpisie z&nbsp;serii](/google/2021/10/30/google-skandale-wprowadzenie){:.internal}. Aż przyszła kryska na matyska. Pierwsza wzięła się za nich Europa.
+Google ochoczo dążył ku dominacji -- przekrój przez różne aferki znajdziemy choćby w&nbsp;[pierwszym wpisie z&nbsp;serii](/google/2021/10/30/google-skandale-wprowadzenie){:.internal}. Aż przyszła kryska na matyska. Pierwsza wzięła się za nich Europa.
 
 A teraz zostali oskarżeni o&nbsp;działania monopolistyczne [przez amerykański Departament Sprawiedliwości](https://www.theverge.com/23869483/us-v-google-search-antitrust-case-updates). Sprawa nosi oficjalną, groźnie brzmiącą nazwę *US vs Google*. Bo jedną ze stron jest państwowa instytucja.
 
@@ -97,12 +97,12 @@ Tłumaczenie moje.
 
 No i&nbsp;potraktował. Spora część spotkań (przesłuchań?) w&nbsp;salach sądowych odbyła się za zamkniętymi drzwiami. Ku utrapieniu dziennikarzy i&nbsp;obserwatorów.
 
-Ale potem trochę się otwarło. 27&nbsp;września sąd orzekł, że materiały będą mogły trafiać na widok publiczny po tym, jak pojawią się w sali sądowej. Google ma możliwość wnoszenia zastrzeżeń, ale to sąd ma decydujący głos w&nbsp;tej kwestii.  
+Ale potem trochę się otwarło. 27&nbsp;września sąd orzekł, że materiały będą mogły trafiać na widok publiczny po tym, jak pojawią się w sali sądowej. Google ma możliwość wnoszenia zastrzeżeń, ale to sąd ma decydujący głos w&nbsp;tej kwestii.  
 Odtąd pliki trafiają [na stronę *justice.gov*](https://www.justice.gov/atr/us-and-plaintiff-states-v-google-llc-2020-trial-exhibits).
 
 ### Zagadka
 
-Wśród ujawnionych dokumentów znajdziemy różne ciekawostki. Ale zostawię je na inny raz, zaś w&nbsp;tym wpisie skupię się na celowym pogarszaniu Chrome'a.
+Wśród ujawnionych dokumentów znajdziemy różne ciekawostki. Ale zostawię je na inny raz, zaś w&nbsp;tym wpisie skupię się na celowym pogarszaniu Chrome'a.
 
 Jest o&nbsp;tym mowa w&nbsp;pliku `UPX0522` z&nbsp;wyżej podlinkowanej listy ([bezpośredni link](https://www.justice.gov/d9/2023-09/416646.pdf)).
 
@@ -111,7 +111,7 @@ Wszyscy są blisko szczytu hierarchii, mają poziom [VP](https://www.levels.fyi/
 
 Maile z&nbsp;rozprawy, choć upublicznione, nie zawsze są przyjemnym źródłem informacji.
 
-* To obrazki, nie da się przeszukiwać tekstu
+* To obrazki, nie da się przeszukiwać tekstu
 
   Jeśli ktoś chce, może użyć [OCR-a](https://github.com/ocrmypdf/OCRmyPDF), żeby nałożyć warstwę tekstową. Ale dokładność nie będzie stuprocentowa.
 
@@ -129,15 +129,15 @@ Maile z&nbsp;rozprawy, choć upublicznione, nie zawsze są przyjemnym źródłem
 {:.figcaption}
 Tak to wygląda w&nbsp;mailu. Wiemy, że jest link, ale nie wiemy jaki.
 
-Chcąc dokopać się do prawdy, trzeba zgadywać z&nbsp;kontekstu, patrzeć po datach, poczytać trochę o&nbsp;żargonie Google'a. Taka łamigłówka. [Ale mądre głowy z&nbsp;forum HN rozpracowały temat](https://news.ycombinator.com/item?id=37675467).
+Chcąc dokopać się do prawdy, trzeba zgadywać z&nbsp;kontekstu, patrzeć po datach, poczytać trochę o&nbsp;żargonie Google'a. Taka łamigłówka. [Ale mądre głowy z&nbsp;forum HN rozpracowały temat](https://news.ycombinator.com/item?id=37675467).
 
 ## Propozycje zmian na gorsze
 
 W mailach mamy dyskusję na temat kilku funkcji Chrome'a. Oraz ich wpływu na *SQV*, liczbę wyszukań. Czyli to, co przekłada się na reklamowy zysk i&nbsp;dolarki dla firmy Google.
 
-Jedna z&nbsp;funkcji, ta starsza, jest określana jako `#7` (*Numer 7*). Rozmawiali wcześniej o&nbsp;jej wycofaniu. Ale Anil od Chrome'a sugeruje, żeby się z tym wstrzymać.
+Jedna z&nbsp;funkcji, ta starsza, jest określana jako `#7` (*Numer 7*). Rozmawiali wcześniej o&nbsp;jej wycofaniu. Ale Anil od Chrome'a sugeruje, żeby się z tym wstrzymać.
 
-Oprócz tajemniczej siódemki są jeszcze trzy proponowane przez Anila zamienniki. Dwa mogą być w jakimśtam stopniu pomocne dla ludzi. Ale jeden jest bardziej kontrowersyjny. Mowa o&nbsp;**sztucznym podbiciu w&nbsp;górnym pasku wyników z&nbsp;Google'a**.
+Oprócz tajemniczej siódemki są jeszcze trzy proponowane przez Anila zamienniki. Dwa mogą być w jakimśtam stopniu pomocne dla ludzi. Ale jeden jest bardziej kontrowersyjny. Mowa o&nbsp;**sztucznym podbiciu w&nbsp;górnym pasku wyników z&nbsp;Google'a**.
 
 Do funkcji 7&nbsp;i ogólniejszej dyskusji jeszcze wrócimy. A&nbsp;póki co przyjrzyjmy się tej zmianie.
 
@@ -148,7 +148,7 @@ Jak pisze sam Anil:
 {:.bigspace}
 > Niezwłocznie rozpoczniemy eksperymenty nad poprawieniem znaczenia wyszukiwań w&nbsp;omniboksie (większa ilość i&nbsp;wyższe położenie)
 
-Jak odkrył jeden z&nbsp;dyskutantów z&nbsp;forum HN, 10&nbsp;dni po zamknięciu mailowego wątku [zmieniło się działanie paska wyszukiwania](https://www.ghacks.net/2019/05/14/fix-chrome-prioritizing-search-words-over-visited-sites-in-address-bar/). Tego widocznego w&nbsp;górnej części Chrome'a, nazywanego *omnibox*.
+Jak odkrył jeden z&nbsp;dyskutantów z&nbsp;forum HN, 10&nbsp;dni po zamknięciu mailowego wątku [zmieniło się działanie paska wyszukiwania](https://www.ghacks.net/2019/05/14/fix-chrome-prioritizing-search-words-over-visited-sites-in-address-bar/). Tego widocznego w&nbsp;górnej części Chrome'a, nazywanego *omnibox*.
 
 Omówmy sobie krok po kroku typową interakcję z&nbsp;tym elementem.
 
@@ -160,10 +160,10 @@ Informacja o&nbsp;tym wyszukaniu trafia do historii przeglądarki (oznaczmy umow
 * Google wyświetla nam różne wyniki. Może parę cudzych wzmianek o&nbsp;blogu, ale głównie wpisy z&nbsp;niego.
 
 * Klikamy któryś z&nbsp;nich.  
-  W&nbsp;ten sposób odwiedzamy konkretną podstronę od *ciemnastrona.com.pl*. Co również trafia do historii przeglądania (`H2`).
+  W&nbsp;ten sposób odwiedzamy konkretną podstronę od *ciemnastrona.com.pl*. Co również trafia do historii przeglądania (`H2`).
 
 * Po kilku godzinach/dniach chcemy jeszcze raz zajrzeć do tego wpisu.  
-  Klikamy górny pasek i&nbsp;zaczynamy wpisywać: `ciemnastro`... Wyskakują podpowiedzi.
+  Klikamy górny pasek i&nbsp;zaczynamy wpisywać: `ciemnastro`... Wyskakują podpowiedzi.
 
 
 Zmiana wspomniana przez Anila dotyczy właśnie kolejności tych podpowiedzi.
@@ -183,7 +183,7 @@ Nowy, gorszy świat *omniboksa*.
 Wielu użytkowników już się przyzwyczaiło, że omnibox dawał u&nbsp;góry bezpośrednie linki. Zapewne niejedna osoba odruchowo wybrała pierwszą podpowiedź. Po czym, ku swojemu utrapieniu, musiała jeszcze zrobić przesiadkę na stronce Google'a.
 
 I tak wiele razy, nim wyzbyła się nawyku. Niezadowolenie było widoczne, co pokazuje chociażby linkowany wyżej artykuł. Albo ten [post na forum](https://support.google.com/chrome/thread/6240767/behaviour-of-the-omnibox-changed-how-to-change-back?hl=en).  
-Ale cyferki się zgadzały. Dział reklamowy wyrobił normę.
+Ale cyferki się zgadzały. Dział reklamowy wyrobił normę.
 
 ### Mailowy spór i&nbsp;zmiana układu strony
 
@@ -201,7 +201,7 @@ Ale weźmy pod uwagę, że mogą dość specyficznie pojmować nasz interes. Alb
 
 Ale Jerry, rozmówca z&nbsp;działu reklam, naciskał na większe skupienie na liczbie wyszukań. Wbijał lekkie, korporacyjne, pasywnoagresywne szpileczki:
 
-* > Ta dyskusja nieco się zaostrzy, jeśli suma \[efektów zmian\] nie zbliży nas do celu albo jeśli terminy będą zbyt odległe.
+* > Ta dyskusja nieco się zaostrzy, jeśli suma \[efektów zmian\] nie zbliży nas do celu albo jeśli terminy będą zbyt odległe.
 
 * > Jeśli nie wykonamy planu, nasz dział sprzedaży nie osiągnie celów drugi kwartał z&nbsp;rzędu
 
@@ -214,7 +214,7 @@ Przy okazji Jerry sugeruje jedną konkretną zmianę. Zacytuję w&nbsp;oryginale
 {:.bigspace}
 > For example, can we increase vertical space between the search box/icons/feed on new tab to make search more prominent?
 
-Chodzi o&nbsp;to, że po otwarciu w&nbsp;Chromie nowej karty (*new tab*) -- pustego, wewnętrznego okna, bez załadowanej strony internetowej -- pokazuje się zwyczajowo pasek na wyszukiwania (*search box*). A&nbsp;pod nim ikonki stron, które już wcześniej odwiedziliśmy.
+Chodzi o&nbsp;to, że po otwarciu w&nbsp;Chromie nowej karty (*new tab*) -- pustego, wewnętrznego okna, bez załadowanej strony internetowej -- pokazuje się zwyczajowo pasek na wyszukiwania (*search box*). A&nbsp;pod nim ikonki stron, które już wcześniej odwiedziliśmy.
 
 Jerry sugeruje, żeby rozsunąć elementy w&nbsp;pionie (*increase vertical space*). **Żeby skróty mniej przykuwały wzrok niż pasek, co zachęci nas do wyszukiwania**.  
 Być może na urządzeniach mobilnych byłyby nawet całkiem poza widokiem; musielibyśmy zjechać w&nbsp;dół, żeby je zobaczyć. 
@@ -237,28 +237,28 @@ Na tej podstawie parę osób z&nbsp;forum HN połączyło kropki (w&nbsp;niespis
 
 Wyniki pokazywały się od razu pod paskiem, dawały użytkownikom szybkie odpowiedzi na niektóre kwestie.
 
-Ale nie były to pełnoprawne odwiedziny na stronie Google'a, przekładające się na korzystny miernik SQV. *Hajs się nie zgadzał*. Dlatego poważnie dyskutowali nad wyłączeniem tej funkcji.  
-I fakt, że Anil od Chrome'a nieco się opierał, nie zmienia ogólnego wydźwięku. Jeśli równowaga sił za bardzo się przesunie w&nbsp;stronę użytkowników, to Google coś nam odbierze.
+Ale nie były to pełnoprawne odwiedziny na stronie Google'a, przekładające się na korzystny miernik SQV. *Hajs się nie zgadzał*. Dlatego poważnie dyskutowali nad wyłączeniem tej funkcji.  
+I fakt, że Anil od Chrome'a nieco się opierał, nie zmienia ogólnego wydźwięku. Jeśli równowaga sił za bardzo się przesunie w&nbsp;stronę użytkowników, to Google coś nam odbierze.
 
 {% include info.html
 type="Ciekawostka"
-text="W tej samej wersji Chrome'a wprowadzono również coś mniej pozytywnego, o&nbsp;czym [wspomniałem na blogu](/google/2021/10/30/google-skandale-wprowadzenie#chrome-przegl%C4%85darka){:.internal}. Zwykłe logowanie się do konta Google, wykonywane przez Chrome'a, zaczęło oznaczać jednocześnie włączenie synchronizacji. W&nbsp;tym trybie do Wujka G trafiała jeszcze większa ilość naszych danych."
+text="W tej samej wersji Chrome'a wprowadzono również coś mniej pozytywnego, o&nbsp;czym [wspomniałem na blogu](/google/2021/10/30/google-skandale-wprowadzenie#chrome-przegl%C4%85darka){:.internal}. Zwykłe logowanie się do konta Google, wykonywane przez Chrome'a, zaczęło oznaczać jednocześnie włączenie synchronizacji. W&nbsp;tym trybie do Wujka G trafiała jeszcze większa ilość naszych danych."
 %}
 
 ## Podsumowanie
 
-Być może nikogo nie zszokują fakty ze sprawy. Pokazują coś, co wiele osób wiedziało od dawna -- że Google, a&nbsp;w szczególności ich przeglądarka, nie działa w&nbsp;interesie użytkowników.
+Być może nikogo nie zszokują fakty ze sprawy. Pokazują coś, co wiele osób wiedziało od dawna -- że Google, a&nbsp;w szczególności ich przeglądarka, nie działa w&nbsp;interesie użytkowników.
 
 Pierwszeństwo ma szeroko pojęta branża reklamowa. My jesteśmy kartą przetargową. Nasza uwaga -- produktem, jaki Wujek G&nbsp;oferuje swoim lepiej płacącym klientom.
 
-Przeprowadza się eksperymenty. Jednym użytkownikom Chrome'a się coś wyłącza, innym zostawia. Wprowadza się subtelne zmiany, żeby zachęcić ludzi do określonych zachowań. Jak szczurki w&nbsp;laboratorium.
+Przeprowadza się eksperymenty. Jednym użytkownikom Chrome'a się coś wyłącza, innym zostawia. Wprowadza się subtelne zmiany, żeby zachęcić ludzi do określonych zachowań. Jak szczurki w&nbsp;laboratorium.
 
 **Odtajniona dyskusja menedżerów nie jest niczym szokującym. Ale doskonale potwierdza obawy**.  
-To już nie typowe googlowskie „dodamy nową funkcję. Dla waszego bezpieczeństwa. A&nbsp;że odbiera wam kontrolę i oddaje ją reklamodawcom? Przypadek!”.
+To już nie typowe googlowskie „dodamy nową funkcję. Dla waszego bezpieczeństwa. A&nbsp;że odbiera wam kontrolę i oddaje ją reklamodawcom? Przypadek!”.
 
-Nie, tu ktoś mówi wprost: „Potrzebujemy więcej kliknięć. Usuńcie ludziom usprawnienia, które kłócą się z tym celem”.
+Nie, tu ktoś mówi wprost: „Potrzebujemy więcej kliknięć. Usuńcie ludziom usprawnienia, które kłócą się z tym celem”.
 
-A Chrome niedługo po takim *meetingu* się zmienia. Automatyczna aktualizacja coś nam pogarsza. Działa przeciwko nam. Jak *malware*, złośliwe oprogramowanie.
+A Chrome niedługo po takim *meetingu* się zmienia. Automatyczna aktualizacja coś nam pogarsza. Działa przeciwko nam. Jak *malware*, złośliwe oprogramowanie.
 
 Środek zaradczy? Prosty. Podczas gdy Google dostaje oklep w&nbsp;sądzie, wybierzmy którąś z&nbsp;wielu innych przeglądarek.
 
@@ -267,6 +267,6 @@ Jeśli za bardzo przywykliśmy do Chrome'a -- może nam podpasować [Brave](http
 
 Albo coś z&nbsp;nowinek -- [przeglądarka](https://duckduckgo.com/app) od DuckDuckGo. Albo [Mullvad Browser](https://mullvad.net/browser).
 
-Jest trochę opcji. Warto je sprawdzić i&nbsp;zrobić ten jeden drobny krok do krainy, w&nbsp;której nie jesteś produktem.  
+Jest trochę opcji. Warto je sprawdzić i&nbsp;zrobić ten jeden drobny krok do krainy, w&nbsp;której nie jesteś produktem.  
 Nie pożałujesz! :smile:
 

@@ -137,7 +137,7 @@ W najnowszej wersji skryptu ta opcja jest domyślnie włączona. Więc **po pros
 
 * Plik SVG z grafem powiązań;
 * Plik GV.  
-  (Bardziej zaawansowani użytkownicy mogą go edytować, żeby na przykład wyróżnić niektóre połączenia, zakryć część danych itp. Po edycji trzeba własnoręcznie użyć na pliku programu `dot`, żeby otrzymać zmieniony graf).
+  (Bardziej zaawansowani użytkownicy mogą go edytować, żeby na przykład wyróżnić niektóre połączenia, zakryć część danych itp. Po edycji trzeba własnoręcznie użyć na pliku programu `dot`, żeby otrzymać zmieniony graf).
 
 Jeśli chcecie zmienić domyślne ustawienia, to w&nbsp;przypadku grafów macie następujące zmienne:
 

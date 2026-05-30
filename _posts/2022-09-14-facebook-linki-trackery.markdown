@@ -25,7 +25,7 @@ Oszczędzę Wam suspensu i&nbsp;od razu napiszę -- **eksperymenty tego nie potw
 Pokażę, o&nbsp;co chodzi w&nbsp;tej całej aferce z&nbsp;linkami. Zobaczymy też, że nawet te istniejące na Facebooku od dawien dawna mogą mieć swoje „szpiegowskie” zastosowania. A&nbsp;na deser będą wskazówki, jak się przed nimi chronić.
 
 {:.bigspace-before}
-<img src="/assets/posts/facebook_linki/fb-links-baner-small.jpg" alt="Kolaż złożony z&nbsp;małej planety z&nbsp;okładki Małego Księcia, na której stoi tytułowy bohater. Na planetę nałożono logo Facebooka, literkę F&nbsp;na niebieskim tle. Obok planety unosi się rysunkowa głowa z&nbsp;miną wyrażającą radość. Jej oczy są skierowane na Małego Księcia. Szkła jej okularów są niebieskie jak logo Facebooka. Na jednym z&nbsp;nich widać napis cft i&nbsp;zero w&nbsp;nawiasach kwadratowych, a&nbsp;na drugim pfbid."/>
+<img src="/assets/posts/facebook_linki/fb-links-baner-small.jpg" alt="Kolaż złożony z&nbsp;małej planety z&nbsp;okładki Małego Księcia, na której stoi tytułowy bohater. Na planetę nałożono logo Facebooka, literkę F&nbsp;na niebieskim tle. Obok planety unosi się rysunkowa głowa z&nbsp;miną wyrażającą radość. Jej oczy są skierowane na Małego Księcia. Szkła jej okularów są niebieskie jak logo Facebooka. Na jednym z&nbsp;nich widać napis cft i&nbsp;zero w&nbsp;nawiasach kwadratowych, a&nbsp;na drugim pfbid."/>
 
 {:.figcaption}
 Źródła: okładka „Małego Księcia”, logo Facebooka, plakat *X-Ray Vision*. Aranżacja moja. 
@@ -120,7 +120,7 @@ Znalazłem też ciekawy [wpis polemizujący z&nbsp;Ghacks](https://ws-dl.blogspo
 
 # Wnioski
 
-Jeśli linki nie identyfikują ludzi, ale mają więcej niż jeden wariant... to czym mogą być?
+Jeśli linki nie identyfikują ludzi, ale mają więcej niż jeden wariant... to czym mogą być?
 
 Facebook wysłał do Ghacks oświadczenie, dostępne pod [pierwotnym artykułem](https://www.ghacks.net/2022/07/17/facebook-has-started-to-encrypt-links-to-counter-privacy-improving-url-stripping/). Piszą, że **nowe linki to zabezpieczenie przeciw _scrapingowi_** (automatycznemu pobieraniu danych).
 
@@ -153,7 +153,7 @@ Co więcej -- **takich identyfikatorów nie dałoby się usuwać**. Spróbowalib
 
 Nowe linki zostały z&nbsp;nami jak uśpieni agenci, którzy może okażą kiedyś szpiegowską naturę. A&nbsp;może nie zdążą, nim portal całkiem odpłynie ku Metawersum.
 
-W tej całej aferze wiele osób pomija jednak jedną zasadniczą kwestię -- **Facebook już wcześniej mógł śledzić użytkowników poprzez linki**.
+W tej całej aferze wiele osób pomija jednak jedną zasadniczą kwestię -- **Facebook już wcześniej mógł śledzić użytkowników poprzez linki**.
 
 Pokażę tu kilka dodawanych do nich informacji. Mogłyby umożliwić zarówno Facebookowi, jak i&nbsp;jego partnerom rozpoznawanie konkretnych osób.
 
@@ -174,7 +174,7 @@ Jeśli chcemy dowiedzieć się czegoś więcej w&nbsp;temacie, to zapraszam do [
 
 ### Linki do stron zewnętrznych
 
-Niektóre strony internetowe żyją z&nbsp;Facebookiem w&nbsp;symbiozie. Płacą portalowi za to, że umieści u&nbsp;siebie reklamy odsyłające do ich strony.
+Niektóre strony internetowe żyją z&nbsp;Facebookiem w&nbsp;symbiozie. Płacą portalowi za to, że umieści u&nbsp;siebie reklamy odsyłające do ich strony.
 
 Często link ukryty w&nbsp;takiej reklamie zawiera parametry specjalne, zaczynające się od `utm`. Mówią firmie, że dany użytkownik przychodzi z&nbsp;Facebooka. Taki odpowiednik pytania „Skąd pan(-i) o&nbsp;nas usłyszał(-a)” z&nbsp;ankiety, tyle że to cyfrowe i&nbsp;dzieje się w&nbsp;tle. Raczej niegroźna rzecz.
 
@@ -195,7 +195,7 @@ Zaś nowy, *pfbid*, w&nbsp;ogóle nie dotyczy odnośników prowadzących poza te
 Poza nowym *pfbid* są jeszcze dwie rzeczy, które goszczą w&nbsp;linkach prowadzących do postów na Facebooku. Obie z&nbsp;nich to parametry. 
 
 Jednym z&nbsp;tych parametrów jest `__tn__`. Ale wydaje mi się zbyt krótki i&nbsp;powtarzalny, żeby mógł jakoś realnie nas identyfikować.  
-Znacznie gorszą sprawą jest parametr `__cft[0]__`. Pozwolę sobie nazywać go krótko „parametrem *cft*”. To ten najdłuższy ciąg znaków, jaki znajdziemy w&nbsp;linku. **Moim zdaniem to jego powinniśmy się najbardziej obawiać**, mógłby nas jednoznacznie identyfikować.
+Znacznie gorszą sprawą jest parametr `__cft[0]__`. Pozwolę sobie nazywać go krótko „parametrem *cft*”. To ten najdłuższy ciąg znaków, jaki znajdziemy w&nbsp;linku. **Moim zdaniem to jego powinniśmy się najbardziej obawiać**, mógłby nas jednoznacznie identyfikować.
 
 Już od jakiegoś czasu interesuję się tym parametrem. O&nbsp;jego usuwaniu pisałem między innymi we [wpisie o&nbsp;walce z&nbsp;trollami]({% post_url 2022-04-15-trolle-rosja-ukraina%}#wrzucanie-oczyszczonych-linków){:.internal}, a&nbsp;także we wspomnianym wyżej wprowadzeniu do parametrów.
 
@@ -204,17 +204,17 @@ Dotychczasowe fakty, jakie odkryłem na jego temat:
 * Ktoś [pytał o&nbsp;niego](https://stackoverflow.com/questions/64092454/what-is-the-purpose-of-the-new-cft-0-and-tn-parameters-in-facebook-po) na słynnym forum StackOverflow, ale nie dostał odpowiedzi.
 * Występuje w&nbsp;wersji na komputery (*www.facebook.com*). Nie pojawia się w&nbsp;wersji mobilnej ani uproszczonej (*m.facebook.com* oraz *mbasic.facebook.com*). Linki z&nbsp;tych stron zawierają natomiast nieco inne, krótsze ciągi znaków.
 * Dodawany przez Facebooka do niemal wszystkich linków do postów. A&nbsp;także do komentarzy pod nimi.
-* Nie jest dodawany m.in. do filmów, te mają format `<PROFIL>/videos/<LICZBA>`. Ani do komentarzy pod nimi.
+* Nie jest dodawany m.in. do filmów, te mają format `<PROFIL>/videos/<LICZBA>`. Ani do komentarzy pod nimi.
 * Jego wartość ma długość 216&nbsp;znaków.
 
   {:.post-meta}
 **Aktualizacja:** od czasu stworzenia wpisu znalazłem również parametry *cft* z krótszymi wartościami. Raz 110&nbsp;znaków, innym razem 174. Nie znalazłem w&nbsp;tym póki co reguły. Tym niemniej długie ciągi również się trafiają.
 
-* Sam początek regularny, często (zawsze?) zaczyna się od liter *AZ*. Trzecia litera to często coś z&nbsp;dalszej części alfabetu. *U*, *V*, *W*, *X*...  
+* Sam początek regularny, często (zawsze?) zaczyna się od liter *AZ*. Trzecia litera to często coś z&nbsp;dalszej części alfabetu. *U*, *V*, *W*, *X*...  
   Przykład? [Wystąpienia](https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=facebook%20cft%20AZ&sort=byDate&type=all) na forum Hacker News.
  
 * Reszta tekstu wydaje się losowa. Składa się z&nbsp;liter, cyfr, znaków `_` oraz `-`.
-* Zmienia się za każdym razem, kiedy odświeżamy stronę.
+* Zmienia się za każdym razem, kiedy odświeżamy stronę.
 
   Prosty eksperyment: wejdźmy na komputerze na swój własny profil, skopiujmy gdzieś link do pierwszego posta, naciśnijmy `F5`, porównajmy. Trzon będzie ten sam, ale *cft* każdorazowo się zmieni.  
   Wniosek? Zapewne zawiera w&nbsp;sobie jakiś znacznik czasu. Oczywiście oprócz tego może tam być informacja o&nbsp;konkretnym użytkowniku.
@@ -243,7 +243,7 @@ Mimo to Facebook od lat napycha do swoich linków nowe rzeczy:
 Problem w&nbsp;tym, że mało kto o&nbsp;tym wie. I&nbsp;linki są udostępniane w&nbsp;postaci nieoczyszczonej -- na samym Facebooku, Messengerze, stronkach całkiem zewnętrznych.   
 Wyobraźmy sobie, ile się tego nazbiera w&nbsp;skali świata. Ile giga- albo terabajtów zostanie zapchanych samymi tylko wartościami *cft* oraz *tn*.
 
-Oczywiście, że w&nbsp;skali świata to kropla w&nbsp;morzu. Nie ma co wyobrażać sobie kominów i&nbsp;dymu pochodzącego za spalanych fejsowych parametrów.
+Oczywiście, że w&nbsp;skali świata to kropla w&nbsp;morzu. Nie ma co wyobrażać sobie kominów i&nbsp;dymu pochodzącego za spalanych fejsowych parametrów.
   
 Ale firmy lubią nam mówić, że każda, najdrobniejsza rzecz coś zmienia. Jak w&nbsp;takim kontekście ocenić Facebooka? Czy nie dokłada cegiełki do kultu cyfrowego marnotrawstwa?  
 Zostawiam to pod rozwagę. A&nbsp;jeśli my nie chcemy marnowania miejsca na dyskach -- albo śledzenia -- to usuwajmy parametry. Poniżej dokładniejsze wskazówki.
@@ -317,7 +317,7 @@ Musimy teraz zamienić go na bezpieczną postać, zastępując dwukropek na pocz
 {:.post-meta .bigspace}
 Odkryłem, że tylko zmiana dwukropka była obowiązkowa na moich przeglądarkach. Ale inne przekształcenia, jak zmianę każdego `/` na `%2F`, również można wykonać bez obaw.
 
-Jeśli nie obawiamy się o kwestie prywatności, możemy zamienić niewygodne znaki, używając stronki [takiej jak Utilities Online](https://www.utilities-online.info/urlencode).
+Jeśli nie obawiamy się o kwestie prywatności, możemy zamienić niewygodne znaki, używając stronki [takiej jak Utilities Online](https://www.utilities-online.info/urlencode).
 
 Następnie kopiujemy do paska poniższy adres (nazwę go umownie *konwerterem*):
 

@@ -15,11 +15,11 @@ image:
 Po kilku latach jest i&nbsp;on -- okrągły wpis numer 100&nbsp;na stronie głównej bloga :smile:
 
 Zastanawiałem się, którą z&nbsp;rzeczy z&nbsp;wirtualnej szuflady powinienem z&nbsp;tej okazji dokończyć.  
-„Niespiskową teorię świata” z&nbsp;ogólnymi przemyśleniami na temat korupcji i&nbsp;współczesnego kolonializmu? Wpis o&nbsp;największej branżowej akcji dezinformacyjnej, z&nbsp;jaką się spotkałem? O&nbsp;potencjale śledzącym akcelerometru? Może coś o&nbsp;ciemnych stronach Play Store'a?
+„Niespiskową teorię świata” z&nbsp;ogólnymi przemyśleniami na temat korupcji i&nbsp;współczesnego kolonializmu? Wpis o&nbsp;największej branżowej akcji dezinformacyjnej, z&nbsp;jaką się spotkałem? O&nbsp;potencjale śledzącym akcelerometru? Może coś o&nbsp;ciemnych stronach Play Store'a?
 
-Ale ostatecznie uznałem, że nie ma co się spinać. Okrągła liczba ma znaczenie chyba tylko dla mnie, bo raczej mało kto czyta bloga liniowo. A&nbsp;zatem: zamiast wielkich, smoczych spraw będzie wpis luźniejszy, który bawi i&nbsp;uczy. A&nbsp;zamiast smoczego ognia będzie woda, bo niedawno było o&nbsp;niej głośno. Jak nie powódź w&nbsp;Polsce, to w&nbsp;Hiszpanii.
+Ale ostatecznie uznałem, że nie ma co się spinać. Okrągła liczba ma znaczenie chyba tylko dla mnie, bo raczej mało kto czyta bloga liniowo. A&nbsp;zatem: zamiast wielkich, smoczych spraw będzie wpis luźniejszy, który bawi i&nbsp;uczy. A&nbsp;zamiast smoczego ognia będzie woda, bo niedawno było o&nbsp;niej głośno. Jak nie powódź w&nbsp;Polsce, to w&nbsp;Hiszpanii.
 
-A jak woda, to rury. Przybliżę, intuicyjnie i&nbsp;na schematach, **rury w&nbsp;konsoli systemu Linux**, pozwalające „przelewać” dane z&nbsp;jednego programu do drugiego. Krok po kroku stworzę też drobny skrypt w&nbsp;języku Python, po każdej poprawce coraz lepiej zintegrowany z&nbsp;systemem.
+A jak woda, to rury. Przybliżę, intuicyjnie i&nbsp;na schematach, **rury w&nbsp;konsoli systemu Linux**, pozwalające „przelewać” dane z&nbsp;jednego programu do drugiego. Krok po kroku stworzę też drobny skrypt w&nbsp;języku Python, po każdej poprawce coraz lepiej zintegrowany z&nbsp;systemem.
 
 Zapraszam! Również osoby mniej konsolowe, żeby się oswajały :smile:
 
@@ -31,9 +31,9 @@ Zapraszam! Również osoby mniej konsolowe, żeby się oswajały :smile:
 
 {% include info.html
 type="Uwaga o&nbsp;systemach"
-text="Wpis stworzyłem z&nbsp;myślą o systemie Linux Mint. Te same programiki działają na zwykłym, niemodyfikowanym smartfonie z&nbsp;Androidem (wewnątrz apki [Termux](/tutorials/termux){:.internal}).  
+text="Wpis stworzyłem z&nbsp;myślą o systemie Linux Mint. Te same programiki działają na zwykłym, niemodyfikowanym smartfonie z&nbsp;Androidem (wewnątrz apki [Termux](/tutorials/termux){:.internal}).  
 Nie testowałem ich natomiast na systemie Windows. Ale, z&nbsp;tego co zerknąłem, w&nbsp;windowsowej konsoli PowerShell można znaleźć program [`echo`](https://stackoverflow.com/a/1639960), a&nbsp;także [rury](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pipelines?view=powershell-7.4), zaś odpowiednikiem `wc` wydaje się [`Measure-Object`](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object?view=powershell-7.4).  
-A zatem: jeśli ktoś ma Windowsa, ale też się chce pobawić, to zapraszam! Ale nie gwarantuję, że będzie śmigało."
+A zatem: jeśli ktoś ma Windowsa, ale też się chce pobawić, to zapraszam! Ale nie gwarantuję, że będzie śmigało."
 %}
 
 ## Spis treści
@@ -51,9 +51,9 @@ A zatem: jeśli ktoś ma Windowsa, ale też się chce pobawić, to zapraszam! 
 
 ## Wprowadzenie
 
-Choć postronnym konsola może kojarzyć się z hakerstwem i&nbsp;jakimśtam stopniem wtajemniczenia, tak naprawdę można się z&nbsp;nią spotkać w&nbsp;całkiem codziennych i&nbsp;prozaicznych sytuacjach.
+Choć postronnym konsola może kojarzyć się z hakerstwem i&nbsp;jakimśtam stopniem wtajemniczenia, tak naprawdę można się z&nbsp;nią spotkać w&nbsp;całkiem codziennych i&nbsp;prozaicznych sytuacjach.
 
-Ot na przykład: nie pamiętam, jaką mam w&nbsp;laptopie kartę graficzną i&nbsp;chcę to sobie sprawdzić. A&nbsp;zatem wpisuję w&nbsp;zwykłą internetową wyszukiwarkę: `linux how to check graphics card`. Wyskakuje mi jakaś stronka, [być może ta](https://itsfoss.com/check-graphics-card-linux/). A&nbsp;tam krótkie polecenie, które powinno rozwiązać moje problemy:
+Ot na przykład: nie pamiętam, jaką mam w&nbsp;laptopie kartę graficzną i&nbsp;chcę to sobie sprawdzić. A&nbsp;zatem wpisuję w&nbsp;zwykłą internetową wyszukiwarkę: `linux how to check graphics card`. Wyskakuje mi jakaś stronka, [być może ta](https://itsfoss.com/check-graphics-card-linux/). A&nbsp;tam krótkie polecenie, które powinno rozwiązać moje problemy:
 
 <div class="black-bg mono">
 lspci |&nbsp;grep VGA
@@ -66,17 +66,17 @@ Dla jasności: bardzo możliwe, że te same informacje byłyby do wyklikania w&n
 
 Sposób konsolowy ma natomiast wielką, ogromną zaletę -- jest uniwersalny. Powinien zadziałać wszędzie, na każdej z&nbsp;wielu odmian (*dystrybucji*) Linuksa. Nawiązując do konsoli, autor artykułu trafia do szerszego grona, niż gdyby pisał o&nbsp;jednej nakładce graficznej.
 
-Inną zaletą jest szybkość i&nbsp;prostota. Wystarczy po prostu skopiować podany tekst, uruchomić konsolę (przez ikonkę z dolnego paska albo kombinację klawiszy `Ctrl+Alt+T`), wkleić komendę i&nbsp;nacisnąć `Enter`. I&nbsp;zrobione, wyświetli się szukana nazwa karty graficznej.
+Inną zaletą jest szybkość i&nbsp;prostota. Wystarczy po prostu skopiować podany tekst, uruchomić konsolę (przez ikonkę z dolnego paska albo kombinację klawiszy `Ctrl+Alt+T`), wkleić komendę i&nbsp;nacisnąć `Enter`. I&nbsp;zrobione, wyświetli się szukana nazwa karty graficznej.
 
 Uniwersalność metody konsolowej wynika z&nbsp;tego, że system często zawiera zestaw domyślnie zainstalowanych programów, prostych i&nbsp;niezawodnych. Jak tutaj: `lspci` od wypisywania informacji o&nbsp;częściach komputera, `grep` od wyszukiwania konkretnego tekstu (tu akurat: `VGA`, bo taki jest przy karcie graficznej).  
-Takie małe programiki są zgodne z&nbsp;tak zwaną *filozofią uniksową* (od systemu Unix, praprzodka wielu współczesnych systemów) -- „rób jedną prostą rzecz, ale rób ją dobrze”. Aprobuję.
+Takie małe programiki są zgodne z&nbsp;tak zwaną *filozofią uniksową* (od systemu Unix, praprzodka wielu współczesnych systemów) -- „rób jedną prostą rzecz, ale rób ją dobrze”. Aprobuję.
 
 Jeszcze ważniejszą rzeczą od programów jest natomiast pomost między nimi -- `|`, czyli po angielsku *pipe operator*, inaczej **_pipe_. W&nbsp;dosłownym tłumaczeniu: „rura”**.
 
 To element często stosowany w&nbsp;konsoli. Pozwala przekazywać to, co wypluje program po jego lewej stronie, do programu po prawej. Łączyć mikroprogramy w&nbsp;rozwiązywacze codziennych problemów.  
 A że Linux ceni wolność, to nie jesteśmy ograniczeni do programików z&nbsp;zamkniętej, narzuconej odgórnie listy; trzymając się paru zasad, można tworzyć również własne skrypty, w&nbsp;pełni pasujące do wszelkich rurociągów. Co za chwilę uczynię.
 
-Ale do *tanga*{:.corr-del} rury trzeba dwojga, więc przyda się jakiś program, z&nbsp;którym fajnie by się zintegrował ten mój skrypt, który dopiero powstanie. Który z&nbsp;wielu domyślnych by tutaj wybrać?  
+Ale do *tanga*{:.corr-del} rury trzeba dwojga, więc przyda się jakiś program, z&nbsp;którym fajnie by się zintegrował ten mój skrypt, który dopiero powstanie. Który z&nbsp;wielu domyślnych by tutaj wybrać?  
 Jestem prostym człowiekiem. Jak rury, to woda. Jak woda, to WC.
 
 ## WC i&nbsp;inne mikroprogramy
@@ -95,10 +95,10 @@ Wrzucę do tej liczarki jakiś tekst na próbę, podając go rurą. Musi być ot
 echo 'Jakiś tekst' |&nbsp;wc
 </pre>
 
-Takie polecenie już zadziała, tekst trafi do liczarki i&nbsp;wyświetlą się trzy liczby: `1  2 13`. Liczba linijek, liczba słów i&nbsp;liczba... znaków? Tyle że z&nbsp;ostatnią coś się nie zgadza, o&nbsp;czym za sekundę. Ale najpierw drobny schemat:
+Takie polecenie już zadziała, tekst trafi do liczarki i&nbsp;wyświetlą się trzy liczby: `1  2 13`. Liczba linijek, liczba słów i&nbsp;liczba... znaków? Tyle że z&nbsp;ostatnią coś się nie zgadza, o&nbsp;czym za sekundę. Ale najpierw drobny schemat:
 
 {:.bigspace-before}
-<img src="/assets/posts/konsola/rury/echo-wc-konsola.jpg" alt="Schemat działania rur w&nbsp;konsoli pokazujący, jak słowa 'Jakiś tekst' wpadają do maszynki do mięsa podpisanej 'echo', z&nbsp;niej do zakrzywionej rury, a&nbsp;stamtąd do toalety podpisanej 'wc'. Pod nią wyświetlają się trzy liczby"/>
+<img src="/assets/posts/konsola/rury/echo-wc-konsola.jpg" alt="Schemat działania rur w&nbsp;konsoli pokazujący, jak słowa 'Jakiś tekst' wpadają do maszynki do mięsa podpisanej 'echo', z&nbsp;niej do zakrzywionej rury, a&nbsp;stamtąd do toalety podpisanej 'wc'. Pod nią wyświetlają się trzy liczby"/>
 
 {:.figcaption}
 Wybaczcie mi kloaczny humor.  
@@ -137,7 +137,7 @@ J   a   k   i 305 233       t   e   k   s   t  \n
 
 </details>
 
-I na koniec, żeby `wc` nie jawił się jako zabaweczka, pokażę jedno jego praktyczne zastosowanie w&nbsp;kombinacji z&nbsp;innym mikroprogramem. Będzie to **liczenie elementów w&nbsp;dowolnym folderze**, wykonane w&nbsp;duecie z&nbsp;programem `ls`:
+I na koniec, żeby `wc` nie jawił się jako zabaweczka, pokażę jedno jego praktyczne zastosowanie w&nbsp;kombinacji z&nbsp;innym mikroprogramem. Będzie to **liczenie elementów w&nbsp;dowolnym folderze**, wykonane w&nbsp;duecie z&nbsp;programem `ls`:
 
 <div class="black-bg mono">
 ls | wc
@@ -152,7 +152,7 @@ Można też napisać `wc -l`, żeby pokazało *jedynie* liczbę linijek.
 
 Przedstawiłem cegiełki, więc teraz czas z&nbsp;nich coś zbudować.
 
-Skoro już mamy rury i&nbsp;WC, to przyda się coś również nawiązującego do motywu wody. Dlatego **swój mikroprogram nazwę `zbiornik`**. I&nbsp;niech działa podobnie jak zbiorniki retencyjne -- zatrzymuje część lecących danych. Jeśli ich ilość będzie większa niż jego pojemność, to reszta danych się „przeleje” i&nbsp;poleci dalej.  
+Skoro już mamy rury i&nbsp;WC, to przyda się coś również nawiązującego do motywu wody. Dlatego **swój mikroprogram nazwę `zbiornik`**. I&nbsp;niech działa podobnie jak zbiorniki retencyjne -- zatrzymuje część lecących danych. Jeśli ich ilość będzie większa niż jego pojemność, to reszta danych się „przeleje” i&nbsp;poleci dalej.  
 Programik ten docelowo ustawię między `echo` a&nbsp;`wc`.
 
 To do dzieła! Stworzyłem sobie plik o&nbsp;nazwie `zbiornik` (na Linuksie nie ma problemów, jeśli nie dopiszę końcówki `.py`, typowej dla skryptów Pythona). A&nbsp;teraz co do niego wpisać?
@@ -160,9 +160,9 @@ To do dzieła! Stworzyłem sobie plik o&nbsp;nazwie `zbiornik` (na Linuksie nie 
 ### Przyjmowanie i&nbsp;wyrzucanie tekstu
 
 {:.post-meta .bigspace-after}
-Ta część jest napisana w&nbsp;Pythonie, ale nie zrażajcie się, jeśli go nie znacie; można wziąć na wiarę, że działa, i&nbsp;przejść do dalszych spraw wokół rur.
+Ta część jest napisana w&nbsp;Pythonie, ale nie zrażajcie się, jeśli go nie znacie; można wziąć na wiarę, że działa, i&nbsp;przejść do dalszych spraw wokół rur.
 
-Skoro chcę stawiać swój zbiornik na drodze lecących danych, to siłą rzeczy musi mieć jakiś wlot i&nbsp;wylot. W&nbsp;jaki sposób mogę sprawić, żeby:
+Skoro chcę stawiać swój zbiornik na drodze lecących danych, to siłą rzeczy musi mieć jakiś wlot i&nbsp;wylot. W&nbsp;jaki sposób mogę sprawić, żeby:
 
 1. przyjął to, co wypluł program przed nim,
 2. podał dalej coś innego?
@@ -174,7 +174,7 @@ import sys
 
 for stream in sys.stdin:
 
-    # W tym miejscu mogę coś zrobić
+    # W tym miejscu mogę coś zrobić
 
     sys.stdout.write( stream )
 ```
@@ -229,9 +229,9 @@ echo 'Testowy tekst' | zbiornik | wc
 A tu *błąd*. Informacja o&nbsp;braku potrzebnych pozwoleń :roll_eyes:
 
 To dlatego, że na Linuksie jest coś takiego jak **wykonywalność plików**. Nie da się tak po prostu wpinać własnych rzeczy w&nbsp;konsolowy „rurociąg”, odpowiednio ich wcześniej nie oznaczając.  
-Analogia? Mój niewykonywalny plik był jak coś oklejonego czarno-żółtymi taśmami i&nbsp;opatrzonego tabliczką z&nbsp;zakazem korzystania. Żaden szanujący się system-inspektor mi tego nie podłączy, choćbym chciał.
+Analogia? Mój niewykonywalny plik był jak coś oklejonego czarno-żółtymi taśmami i&nbsp;opatrzonego tabliczką z&nbsp;zakazem korzystania. Żaden szanujący się system-inspektor mi tego nie podłączy, choćbym chciał.
 
-W przypadku Linuksa można bardzo łatwo ściągać te ograniczenia. Na Mincie: prawy przycisk myszy, `Uprawnienia` i&nbsp;zaznaczyć opcję `Zezwolenie na wykonanie pliku jako programu`.
+W przypadku Linuksa można bardzo łatwo ściągać te ograniczenia. Na Mincie: prawy przycisk myszy, `Uprawnienia` i&nbsp;zaznaczyć opcję `Zezwolenie na wykonanie pliku jako programu`.
 
 Jeśli ktoś woli sposób uniwersalny, ale konsolowy, to można uruchomić konsolę w&nbsp;tym samym folderze co skrypt, po czym użyć polecenia:
 
@@ -283,7 +283,7 @@ Zdobytą ścieżkę należy wstawić w&nbsp;**„magicznej linijce” na samym p
 #!/usr/bin/python3
 </pre>
 
-W ten sposób skrypt został podpięty do konkretnego Pythona. Będzie automatycznie się z nim „łączył” po uruchomieniu w&nbsp;konsoli.
+W ten sposób skrypt został podpięty do konkretnego Pythona. Będzie automatycznie się z nim „łączył” po uruchomieniu w&nbsp;konsoli.
 
 {% include info.html
 type="Ciekawostki"
@@ -313,9 +313,9 @@ Otóż mój skrypt jest dla systemu taką płotką, nikim. System go nie zna i&n
 * jeśli jestem w&nbsp;tym samym folderze -- mogę napisać `./zbiornik` (gdzie `./` oznacza „patrz w&nbsp;aktywnym folderze”);
 * jeśli jestem w&nbsp;innym folderze, to muszę podać dłuższą ścieżkę do pliku ze skryptem -- pełną albo względną.
 
-A ja tych ścieżek nie chcę, chcę przywoływać jednym słowem: `zbiornik`. W&nbsp;jaki sposób mogę dać mojemu skryptowi przywileje, które na to pozwolą?
+A ja tych ścieżek nie chcę, chcę przywoływać jednym słowem: `zbiornik`. W&nbsp;jaki sposób mogę dać mojemu skryptowi przywileje, które na to pozwolą?
 
-Rozpoznawalność opiera się na szczęście na prostej zasadzie -- żeby dało się wołać programy po samej nazwie, muszą się znajdować w&nbsp;którymś ze **specjalnych folderów**. Ich kwestię już kiedyś poruszyłem w&nbsp;[innym wpisie Pythonowo-konsolowym](/2024/03/05/python-skrypty-startowe){:.internal}.
+Rozpoznawalność opiera się na szczęście na prostej zasadzie -- żeby dało się wołać programy po samej nazwie, muszą się znajdować w&nbsp;którymś ze **specjalnych folderów**. Ich kwestię już kiedyś poruszyłem w&nbsp;[innym wpisie Pythonowo-konsolowym](/2024/03/05/python-skrypty-startowe){:.internal}.
 
 Żeby poznać te specjalne lokalizacje, mogę wpisać w&nbsp;konsolę `echo $PATH`. Wyświetli się lista pełnych ścieżek do folderów, rozdzielana średnikami. Skrypt można umieścić w&nbsp;dowolnym z&nbsp;nich. Na Linuksie dobrą opcją jest na przykład `$HOME/.local/bin` (gdzie zamiast `$HOME` będzie nazwa użytkownika, inna dla każdego).  
 Polecenie kopiujące Zbiornik w&nbsp;to miejsce:
@@ -332,7 +332,7 @@ Gdybyśmy natomiast spróbowali przenieść plik do `/usr/bin` czy innej lokaliz
 
 Od teraz wszystko działa jak powinno -- krótkie polecenie `echo 'Testowy tekst' | zbiornik | wc` da ten sam wynik w&nbsp;każdym folderze. W&nbsp;roli wisienki na torcie dam tu pełen schemat działania:
 
-<img src="/assets/posts/konsola/rury/echo-rury-zbiornik-wc.jpg" alt="Spory schemat pokazujący, jak słowa 'Testowy tekst' wpadają do programu Echo. Z&nbsp;niego, już z&nbsp;oznaczeniem końca linii, lecą do nakładki podpisanej Zbiornik, połączonej z&nbsp;programem podpsanym Python. Stamtąd wylatuje sam tekst 'wy tekst' ze znakiem końca. Wpada do toalety podpisanej WC, a&nbsp;pod nią wyświetlają się trzy liczby"/>
+<img src="/assets/posts/konsola/rury/echo-rury-zbiornik-wc.jpg" alt="Spory schemat pokazujący, jak słowa 'Testowy tekst' wpadają do programu Echo. Z&nbsp;niego, już z&nbsp;oznaczeniem końca linii, lecą do nakładki podpisanej Zbiornik, połączonej z&nbsp;programem podpsanym Python. Stamtąd wylatuje sam tekst 'wy tekst' ze znakiem końca. Wpada do toalety podpisanej WC, a&nbsp;pod nią wyświetlają się trzy liczby"/>
 
 ## Podsumowanie
 
@@ -364,13 +364,13 @@ echo 'KapKap' | zbiornik | zbiornik | wc
 Mogę też skierować przelewające się dane do jakiegoś niefortunnego pliku :smiling_imp:
 
 <pre class="black-bg mono nospace">
-echo 'Duża ilość wody' | zbiornik >> moja_piwnica.txt
+echo 'Duża ilość wody' | zbiornik >> moja_piwnica.txt
 </pre>
 
 {:.figcaption}
 Znak `>` to również taka rura, tylko że kierująca dane do pliku, a&nbsp;nie programu. Z&nbsp;kolei użycie podwójnego znaku (`>>`) dopisuje dane do końca pliku, zamiast całkiem go nadpisywać.
 
-Potencjał Linuksa jest ogromny. Jak wspomniałem na początku, konsola nie jest żadną koniecznością. Ale znając parę zasad, można szybko i&nbsp;sprawnie tworzyć własne rzeczy, integrować je ze sobą i&nbsp;dopasować urządzenie do własnych potrzeb i&nbsp;zachcianek. Zyskać poczucie wolności, o&nbsp;jakie czasem coraz trudniej na tym świecie :smile:
+Potencjał Linuksa jest ogromny. Jak wspomniałem na początku, konsola nie jest żadną koniecznością. Ale znając parę zasad, można szybko i&nbsp;sprawnie tworzyć własne rzeczy, integrować je ze sobą i&nbsp;dopasować urządzenie do własnych potrzeb i&nbsp;zachcianek. Zyskać poczucie wolności, o&nbsp;jakie czasem coraz trudniej na tym świecie :smile:
 
 I na tym skończę główną część wpisu. Dalej będzie już parę możliwych usprawnień, które pozwoliłyby jeszcze lepiej wykorzystać potencjał konsolki (a&nbsp;dokładniej strumienie błędów oraz argumenty).
 
@@ -406,7 +406,7 @@ if len(sys.argv) == 2:
 ```
 
 {:.figcaption}
-Lojalnie uprzedzam: kod czysto ilustracyjny, z&nbsp;zerową odpornością na rzeczy nietypowe. Jeśli użytkownik wpisze w&nbsp;konsoli coś innego niż dodatnią liczbę, to się wszystko posypie.
+Lojalnie uprzedzam: kod czysto ilustracyjny, z&nbsp;zerową odpornością na rzeczy nietypowe. Jeśli użytkownik wpisze w&nbsp;konsoli coś innego niż dodatnią liczbę, to się wszystko posypie.
 
 Efekt? Jeśli chcemy, możemy od teraz dopisywać po zbiorniku jego pojemność. I, jeśli zajdzie taka potrzeba, postawić na drodze przepływu większy zbiornik:
 

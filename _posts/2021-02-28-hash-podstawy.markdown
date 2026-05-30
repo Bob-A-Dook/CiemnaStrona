@@ -63,7 +63,7 @@ Dzięki tej czułości na zmiany hasze są idealne do porównywania, czy dwie rz
 
 Kolejna ważna sprawa: funkcja haszująca działa tylko w&nbsp;jedną stronę. Praktycznie **nie da się na podstawie hasza ustalić, jakie dane mieliśmy na początku**.
 
-Dzięki tej własności świat się nie zawali, jeśli ktoś zobaczy hasz jakichś naszych danych. Nie dojdzie do tego, że ktoś z&nbsp;nich wyczyta pierwotne informacje -- takie jak treść pracy magisterskiej, którą wrzuciliśmy w&nbsp;Antyplagiat.
+Dzięki tej własności świat się nie zawali, jeśli ktoś zobaczy hasz jakichś naszych danych. Nie dojdzie do tego, że ktoś z&nbsp;nich wyczyta pierwotne informacje -- takie jak treść pracy magisterskiej, którą wrzuciliśmy w&nbsp;Antyplagiat.
 
 {% include info.html
 type="Uwaga"
@@ -77,7 +77,7 @@ Jako wisienka na torcie jeszcze to, że [hasz ma stałą długość](https://cry
 {% include info.html type="Ciekawostka" text="Funkcje haszujące występują w&nbsp;wielu różnych odmianach.  
 Na przykład ta z&nbsp;Pythona daje inny wynik za każdym razem, kiedy go uruchomimy. Byłaby nieprzydatna do zadań wymagających stabilności, np. do weryfikacji haseł.  
 Od takich przypadków są wersje, które zawsze dają taki sam wynik. Ich przykład zawiera [ten wpis](https://nitratine.net/blog/post/how-to-hash-passwords-in-python/).  
-Istnieją również bardziej egzotyczne wersje, takie jak *SimHash* -- tworzy hasze tym bardziej podobne, im bardziej podobne były dane początkowe. Przydaje się np. w&nbsp;wyszukiwarkach obrazków."%}
+Istnieją również bardziej egzotyczne wersje, takie jak *SimHash* -- tworzy hasze tym bardziej podobne, im bardziej podobne były dane początkowe. Przydaje się np. w&nbsp;wyszukiwarkach obrazków."%}
 
 ## Haszowanie w&nbsp;praktyce
 
@@ -109,7 +109,7 @@ Ich przykłady w&nbsp;naturze:
   Nawiązując do naszej serii o&nbsp;internetowej inwigilacji -- wyobraźmy sobie, że przy każdym kontakcie ze stroną A&nbsp;wysyłamy jej pakiet informacji: adres IP + informacje o&nbsp;urządzeniu + ustawienia językowe + coś charakterystycznego.  
   Nie wiemy, że strona A&nbsp;przesyła te informacje jakiejś organizacji gromadzącej dane -- na przykład fikcyjnej SpyCorp.  
 SpyCorp nie ma nas w&nbsp;bazie, ale oblicza hasz naszych informacji i&nbsp;go do niej dodaje, wraz z&nbsp;informacją że ktoś z&nbsp;takim haszem był na stronie A.  
-  Potem odwiedzamy stronę B, o&nbsp;czymś zupełnie innym. Ona również spiskuje przeciw nam i&nbsp;wysyła nasze informacje do SpyCorp. Nie zmieniły się od czasu wizyty na stronie A. Więc kiedy SpyCorp oblicza hasz, to odkrywa, że już go ma w&nbsp;bazie. Teraz **wie, że odwiedziliśmy zarówno B, jak i&nbsp;A**. Może zrobić z&nbsp;tą wiedzą różne rzeczy.
+  Potem odwiedzamy stronę B, o&nbsp;czymś zupełnie innym. Ona również spiskuje przeciw nam i&nbsp;wysyła nasze informacje do SpyCorp. Nie zmieniły się od czasu wizyty na stronie A. Więc kiedy SpyCorp oblicza hasz, to odkrywa, że już go ma w&nbsp;bazie. Teraz **wie, że odwiedziliśmy zarówno B, jak i&nbsp;A**. Może zrobić z&nbsp;tą wiedzą różne rzeczy.
   
 ## Bonus: jak i&nbsp;po co sprawdzać hasz?
 
@@ -169,7 +169,7 @@ Domyślnie Windows używa funkcji SHA256. Ale w&nbsp;naturze często spotykamy t
 
 {% include info.html type="Uwaga" text="Pamiętajcie o&nbsp;pojedynczych cudzysłowach przed i&nbsp;po nazwie pliku. Gdybyście ich nie dali, a&nbsp;w nazwie pliku byłyby jakieś spacje, to wyskoczy błąd." %}
 
-Jeśli natomiast chcemy **porównać hasz pliku z&nbsp;innym haszem, który sami wkleimy**, to używamy komendy:
+Jeśli natomiast chcemy **porównać hasz pliku z&nbsp;innym haszem, który sami wkleimy**, to używamy komendy:
 
 <div class="black-bg mono">(Get-FileHash '<span class="red">PLIK</span>').Hash -eq '<span class="red">HASH</span>'</div>
 
@@ -217,7 +217,7 @@ A teraz czas na praktyczne zastosowania.
 
 # Sprawdzanie programów
 
-Wyobraźmy sobie, że pobraliśmy jakiś program z&nbsp;nieznanej, dość szemranej strony. Albo, jeśli nie wyobrażamy sobie takiej sytuacji, że pobrał go jakiś rodzic/wujek.
+Wyobraźmy sobie, że pobraliśmy jakiś program z&nbsp;nieznanej, dość szemranej strony. Albo, jeśli nie wyobrażamy sobie takiej sytuacji, że pobrał go jakiś rodzic/wujek.
 
 Chcemy się upewnić, czy program jest bezpieczny. Przeszukujemy internet i&nbsp;znajdujemy stronę jego twórcy. Wydaje się rzetelna, ocen sporo, pozytywne.
 
@@ -270,6 +270,6 @@ A 2&nbsp;marca, gdy plotki okazały się prawdziwe, dodali [jego pełną treść
 {:.post-meta .bigspace}
 Aktualizacja: sam również stworzyłem wpisy na temat tej sprawy -- [po wybuchu afery]({% post_url 2021-03-12-usecrypt-afera %}){:.internal} i [po wejściu celebrytów]({% post_url 2021-07-16-powrot-usecrypta %}){:.internal}.
 
-Wadą rozwiązania jest to, że inni muszą mieć przynajmniej podstawowe pojęcie o&nbsp;haszach (a przynajmniej wiedzieć, że są nie do podrobienia). *Drugą wadą*{:.corr-del}Zaletą to, że zapewne zostaniecie uznani za nerdów.
+Wadą rozwiązania jest to, że inni muszą mieć przynajmniej podstawowe pojęcie o&nbsp;haszach (a przynajmniej wiedzieć, że są nie do podrobienia). *Drugą wadą*{:.corr-del}Zaletą to, że zapewne zostaniecie uznani za nerdów.
 
 I z&nbsp;tymi nerdowskimi metodami Was zostawiam. Miłego haszowania i&nbsp;do zobaczenia przy kolejnych wpisach! :smile:

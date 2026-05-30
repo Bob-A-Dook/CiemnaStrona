@@ -29,7 +29,7 @@ W tym wpisie natomiast przejdę do rzeczy, których dotąd nie było i&nbsp;któ
 type="Krótko"
 text="Jeśli przyszliście tu po rozwiązania, a&nbsp;nie szczyptę wiedzy, to służę :smile:  
 Pobieracie dodatek [uBlock Origin](https://ublockorigin.com/). Włączacie w&nbsp;jego ustawieniach blokowanie JavaScriptu.  
-Niektóre strony nie będą wtedy działały, to nieuniknione. Gdy na taką traficie, wyłączacie blokowanie i&nbsp;ją odświeżacie."
+Niektóre strony nie będą wtedy działały, to nieuniknione. Gdy na taką traficie, wyłączacie blokowanie i&nbsp;ją odświeżacie."
 %}
 
 # Spis treści
@@ -75,7 +75,7 @@ Jeśli chcecie sprawdzić, co JS wie na temat waszej przeglądarki, możecie to 
 
 ## Różne oblicza śledzenia
 
-Sposób, w&nbsp;jaki JavaScript może podpytać o&nbsp;właściwości systemu, opisałem w&nbsp;poprzednim wpisie. Żeby się nie powtarzać: najczęściej po prostu odnosi się do obiektu `navigator`, który każda przeglądarka udostępnia. Tam może znaleźć wiele ciekawych informacji. 
+Sposób, w&nbsp;jaki JavaScript może podpytać o&nbsp;właściwości systemu, opisałem w&nbsp;poprzednim wpisie. Żeby się nie powtarzać: najczęściej po prostu odnosi się do obiektu `navigator`, który każda przeglądarka udostępnia. Tam może znaleźć wiele ciekawych informacji. 
 
 # Wymiary ekranu
 
@@ -87,7 +87,7 @@ Jeśli dorzucimy do tego wymiary okna, to już robi się bardzo ciekawie. Porów
 
 Wymyśliłem na poczekaniu pewien przykład. Mianowicie: wiele systemów operacyjnych (Windows, Linux Mint...) ma w&nbsp;dolnej części ekranu nieruchomy pasek z&nbsp;opcjami.
 
-JavaScript może spojrzeć na różnicę między wysokością okna a&nbsp;wysokością ekranu. W&nbsp;tej różnicy wysokości zawiera się nasz dolny, systemowy pasek, a&nbsp;także pasek górny przeglądarki.
+JavaScript może spojrzeć na różnicę między wysokością okna a&nbsp;wysokością ekranu. W&nbsp;tej różnicy wysokości zawiera się nasz dolny, systemowy pasek, a&nbsp;także pasek górny przeglądarki.
 
 Ale wysokość paska od przeglądarki zwykle jest standardowa! JS może sprawdzić w&nbsp;jakiejś bazie paski typowe dla naszej przeglądarki, w&nbsp;końcu ją zna. A&nbsp;po odjęciu wymiarów przeglądarkowych zostanie wysokość naszego dolnego, systemowego paska.  
 Jeśli jego wysokość nie pasuje do typowych wartości -- również zebranych w&nbsp;jakiejś bazie -- to może trafić do naszej „teczki” jako cecha szczególna.
@@ -103,7 +103,7 @@ JavaScript może wyłapać kolejne anomalie, porównując wymiary pasków wewną
 Okna dwóch przeglądarek, Opery i&nbsp;Brave'a. Choć ich granice mają podobne wymiary, w&nbsp;Operze obszar strony jest mniejszy. Przez pasek boczny.
 
 Inny przykład -- **wykrywanie, czy otwarliśmy narzędzia przeglądarki**.
-Kiedy otwieramy te narzędzia, żeby zajrzeć stronce w&nbsp;bebechy, to w&nbsp;domyślnym trybie wysuwają się z dołu, zmniejszając obszar wyświetlanej strony.  
+Kiedy otwieramy te narzędzia, żeby zajrzeć stronce w&nbsp;bebechy, to w&nbsp;domyślnym trybie wysuwają się z dołu, zmniejszając obszar wyświetlanej strony.  
 JavaScript może wypatrywać takich zmian i&nbsp;odgadnąć, co właśnie otwieramy. Nie jest to zresztą teoria -- na Githubie wprost znajdziemy [projekt](https://github.com/sindresorhus/devtools-detect), który oferuje takie możliwości. Dość popularny, ponad 1700&nbsp;gwiazdek.
 
 Otwieranie narzędzi może być dla szpiegowskiej strony sygnałem, że zaraz sama będzie szpiegowana. Niektóre **zmieniają swoje zachowanie, kiedy to wykryją**. Chowają śledzący JavaScript, żeby wyglądać niewinnie.
@@ -213,7 +213,7 @@ Przykład? Załóżmy że zwykle przeglądamy strony, korzystając z&nbsp;komór
 
 Na tej podstawie **trafimy do mało licznej przegródki** „Preferencje: telefon + duży monitor”. Nie jest to sam w&nbsp;sobie jakiś unikalny sygnał. Ale jako wstępny odsiew albo sygnał wzmacniający sprawdzi się świetnie.
 
-Nawet jeśli się wylogujemy, zmienimy adres IP, parametry naszej komórki są typowe, zaś monitorów takich jak nasz jest wiele -- możemy zostać rozpoznani. Dane z&nbsp;osobna nas nie zdradzają, ale ich połączenie już mocno zawęża krąg poszukiwanych.
+Nawet jeśli się wylogujemy, zmienimy adres IP, parametry naszej komórki są typowe, zaś monitorów takich jak nasz jest wiele -- możemy zostać rozpoznani. Dane z&nbsp;osobna nas nie zdradzają, ale ich połączenie już mocno zawęża krąg poszukiwanych.
 
 Do tego chwilę przed tym, jak weszliśmy na stronkę anonimowo, z&nbsp;innego adresu IP, swoją aktywność na niej wstrzymał Adam Znany z&nbsp;tej samej rzadkiej przegródki.  
 Czyżbyśmy byli nim?
@@ -237,7 +237,7 @@ Ale to w&nbsp;żadnym razie nie znaczy, że trzeba się poddać! Po prostu, zami
 
 Jesteśmy zwykłym użytkownikiem, który czasem chce zaznać trochę rozrywki. Czasem odwiedzamy też strony wścibskich amerykańskich korporacji. Nie chcemy ciągle być na bieżąco z&nbsp;metodami śledzenia, jak z&nbsp;jakimiś trendami w&nbsp;(*tfu*) modzie.
 
-Ale równocześnie zgadzamy się z tym, że byłoby fajnie żyć bez świadomości, że jesteśmy pod lupą jakiegoś zbieracza danych.
+Ale równocześnie zgadzamy się z tym, że byłoby fajnie żyć bez świadomości, że jesteśmy pod lupą jakiegoś zbieracza danych.
 
 Jeśli powyższy opis do nas pasuje, proponuję rozwiązanie łatwe, a&nbsp;skuteczne. **Mieć domyślnie wyłączony JavaScript. I&nbsp;włączać go jednym kliknięciem, kiedy sytuacja tego wymaga**. Ze świadomością, że wtedy odwiedzana strona może poznać sporo naszych danych.
 
@@ -254,7 +254,7 @@ Otworzy się osobne okno z&nbsp;opcjami. Wybieramy z&nbsp;nich wyłączenie Java
 <img src="/assets/posts/javascript-tracking/ubo-javascript-blokowanie.jpg" alt="Dwa rzuty ekranu pokazujące fragmenty okien dodatku uBlock Origin. Na pierwszym z&nbsp;nich wyróżniono kolorową ramką ikonę dodatku na górnym pasku oraz ikonę zębatki, od opcji. Na drugim widać zaznaczoną opcję pozwalającą wyłączyć JavaScript."/>
 
 A kiedy trafimy na stronę, która bez skryptów nam nie zadziała?  
-Klikamy ikonę dodatku, potem przekreślony znaczek z&nbsp;nawiasami ostrymi po prawej stronie. Gdy się "odkreśli", to znaczy że włączyliśmy JS-a. Powyżej pojawi się duży przycisk, który po kliknięciu odświeży stronę.
+Klikamy ikonę dodatku, potem przekreślony znaczek z&nbsp;nawiasami ostrymi po prawej stronie. Gdy się "odkreśli", to znaczy że włączyliśmy JS-a. Powyżej pojawi się duży przycisk, który po kliknięciu odświeży stronę.
 
 {:.figure .bigspace}
 <img src="/assets/posts/javascript-tracking/ubo-javascript-odblokowanie.jpg" alt="Zrzut ekranu z&nbsp;okna dodatku uBlock Origin. Czerwonymi ramkami oznaczono trzy elementy. Numerem jeden podpisano ikonę dodatku na górnym pasku, numerem dwa przekreśloną ikonkę, numerem trzy ikonkę ze strzałkami, standardowo oznaczającą odświeżenie strony."/>
@@ -320,7 +320,7 @@ Jeśli ktoś korzysta z&nbsp;iPhone'a, to mam złe wieści -- **jakiej przegląd
 
 Tu coś dla osób, które chcą zaglądać za kulisy szemranych stron.
 
-Pokazałem w&nbsp;tym wpisie, w&nbsp;jaki sposób strona może się zorientować, że otworzyliśmy narzędzia przeglądarki:
+Pokazałem w&nbsp;tym wpisie, w&nbsp;jaki sposób strona może się zorientować, że otworzyliśmy narzędzia przeglądarki:
 
 * użyliśmy konkretnego skrótu klawiszowego,
 * nagle zmieniły się nam rozmiary okna.

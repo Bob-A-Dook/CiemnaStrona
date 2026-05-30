@@ -43,7 +43,7 @@ Zanim przejdziemy do sensacyjnej historii, przyda nam się trochę kontekstu.
 
 Wyobraźmy sobie, że jesteśmy rolnikami. Mamy wielkie pole, które chcemy obsiać kukurydzą.
 
-Wiemy jednak, że po jego obsianiu różne upierdliwe chwasty wmieszają się między nasze rośliny. Będą szybko rosły na żyznej ziemi, kradnąc im zasoby i&nbsp;światło.
+Wiemy jednak, że po jego obsianiu różne upierdliwe chwasty wmieszają się między nasze rośliny. Będą szybko rosły na żyznej ziemi, kradnąc im zasoby i&nbsp;światło.
 
 Gdyby to był domowy ogródek, to moglibyśmy po prostu się trochę poschylać i&nbsp;wyrwać je wszystkie. Ale to niezbyt realna metoda dla naszego pola, liczącego kilkadziesiąt hektarów.  
 To może zatrudnić pracowników? Tylko że to koszty, do tego musielibyśmy mieć tych rąk do pracy naprawdę sporo.
@@ -52,13 +52,13 @@ W związku z&nbsp;tym kusi nas rozwiązanie chemiczne -- skropić wszystko subst
 
 1. zabijać chwasty,
 2. nie zabijać naszej kukurydzy,
-3. być w miarę odporny na warunki atmosferyczne.
+3. być w miarę odporny na warunki atmosferyczne.
 
    Dzięki temu nie będziemy musieli go zbyt często nakładać; nie powinien mieć skłonności do odparowywania na słońcu i&nbsp;szybkiego rozpuszczania się w&nbsp;wodzie.
 
 
 Chemicy dość wcześnie wyszli naprzeciw tym potrzebom, **przedstawiając w&nbsp;1958 roku [atrazynę](https://pl.wikipedia.org/wiki/Atrazyna)**. W&nbsp;skrócie *ATZ*.  
-Bardzo szybko zyskała popularność; jest stosowana w&nbsp;wielu zakątkach świata. W&nbsp;samym USA każdego roku zużywa się jej *dziesiątki milionów kilogramów*.
+Bardzo szybko zyskała popularność; jest stosowana w&nbsp;wielu zakątkach świata. W&nbsp;samym USA każdego roku zużywa się jej *dziesiątki milionów kilogramów*.
 
 I nie dziwota, bo atrazyna posiada wszystkie cechy idealnego herbicydu, przynajmniej dla kukurydzy i&nbsp;kilku innych gatunków.  
 Zabija chwasty, [podkradając im elektrony](https://www.youtube.com/watch?v=Wr0Hf1duBvo) potrzebne do fotosyntezy. Nie ubija naszych roślin. Zaś w&nbsp;czasie deszczu nie rozpuści się z&nbsp;taką łatwością jak sól czy cukier. Co najwyżej popłynie z&nbsp;prądem, jak krople tłuszczu.
@@ -82,16 +82,16 @@ Powiedział jednak, że dopuszcza formę hybrydową, która korzystałaby z&nbsp
 # EPA i&nbsp;kwestie bezpieczeństwa
 
 Pewnym potencjalnym problemem atrazyny jest to, że ma wpływ na układ hormonalny (mówiąc bardziej naukowo: jest [substancją endokrynnie czynną](https://pl.wikipedia.org/wiki/Zwi%C4%85zki_endokrynnie_czynne)).  
-Drugim problemem jest jej wytrzymałość. Spływając z&nbsp;pól, może trafiać do rzek i&nbsp;zbiorników wodnych. Utrzymuje się na tyle długo, że ma czas nawet przenikać przez glebę i&nbsp;dostawać się do wody pitnej.
+Drugim problemem jest jej wytrzymałość. Spływając z&nbsp;pól, może trafiać do rzek i&nbsp;zbiorników wodnych. Utrzymuje się na tyle długo, że ma czas nawet przenikać przez glebę i&nbsp;dostawać się do wody pitnej.
 
-Z tego względu substancja znalazła się na oku amerykańskiej [EPA](https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency) (*Environmental Protection Agency*), agencji zajmującej się ochroną środowiska.
+Z tego względu substancja znalazła się na oku amerykańskiej [EPA](https://en.wikipedia.org/wiki/United_States_Environmental_Protection_Agency) (*Environmental Protection Agency*), agencji zajmującej się ochroną środowiska.
 
 Prywatne przedsiębiorstwa lubią mieć takie sytuację pod kontrolą i&nbsp;same chętnie zlecają badania, zanim agencje rządowe zakończą swoje dochodzenie.  
 Dzięki temu mają czas się przygotować na ewentualne trudności i&nbsp;nie muszą robić buźki jak zdziwiony Pikachu, kiedy administracja zakaże stosowania ich produktów. Taka forma samonadzoru.
 
 Tak zrobiła również Syngenta -- jeszcze jako Novartis -- kiedy w&nbsp;1997 roku zatrudniła Tyrone'a Hayesa jako niezależnego konsultanta, mającego badać efekty uboczne atrazyny w&nbsp;ramach projektu nazwanego EcoRisk. Tylko że współpraca nie poszła po ich myśli.
 
-W ten sposób zaczęła się nasza historia.
+W ten sposób zaczęła się nasza historia.
 
 ## Pierwsze wyniki badań
 
@@ -102,7 +102,7 @@ Tyrone Hayes uniósł żabę na wysokość oczu, przyglądając się jej zaniepo
 
 ...Dobra, wróć. Nie wiem, czy padał wtedy deszcz. Równie dobrze odkrycie mogło nastąpić pod dachem, w&nbsp;laboratorium. Ale jakiś *storytelling* być musi :wink:
 
-Faktem jest natomiast, że praca Hayesa wiązała się z&nbsp;przyglądaniem się żabom. Jako pracownik Uniwersytetu w&nbsp;Berkeley był specjalistą od układu hormonalnego płazów.
+Faktem jest natomiast, że praca Hayesa wiązała się z&nbsp;przyglądaniem się żabom. Jako pracownik Uniwersytetu w&nbsp;Berkeley był specjalistą od układu hormonalnego płazów.
 
 Dlaczego żaby są ciekawym okazem do badania? Jak [wyjaśnia](https://www.npr.org/transcripts/497844694) Hayes: bo dzieciństwo spędzają w&nbsp;wodzie, niechronione przed otoczeniem. Nie są w&nbsp;stanie regulować temperatury ciała, nie osłania ich żaden worek owodniowy ani skorupka jajka. W&nbsp;dodatku ich okres godowy pokrywa się z&nbsp;sezonem na opryskiwanie pól atrazyną.
 
@@ -120,7 +120,7 @@ Spadała ilość plemników produkowanych przez żabie samce. U&nbsp;części z&
 U góry żabie gonady pod mikroskopem, widoczny wyraźny spadek w&nbsp;ilości plemników. Pod spodem wykres pokazujący spadek przeciętnych poziomów testosteronu.  
 Źródło: wykład i&nbsp;[artykuł](https://www.pnas.org/doi/epdf/10.1073/pnas.082121499) Hayesa.
 
-Kiedy Hayes dzielił się swoimi obawami z&nbsp;kierownictwem projektu, nie spotkał się z&nbsp;zaniepokojeniem. Sugerowano raczej, żeby nie poświęcał temu tyle uwagi. Zniechęcony, zakończył współpracę w&nbsp;roli konsultanta i&nbsp;rozpoczął własne badania nad żabami.
+Kiedy Hayes dzielił się swoimi obawami z&nbsp;kierownictwem projektu, nie spotkał się z&nbsp;zaniepokojeniem. Sugerowano raczej, żeby nie poświęcał temu tyle uwagi. Zniechęcony, zakończył współpracę w&nbsp;roli konsultanta i&nbsp;rozpoczął własne badania nad żabami.
 
 Korporacji się to nie spodobało. Od początku zaczęli wytykać Hayesowi najdrobniejsze błędy. Jak wspomina jeden ze znajomych naukowca, opisując uwagi pewnego konsultanta wysunięte w&nbsp;2001 roku:
 
@@ -140,7 +140,7 @@ Podkreślał, że badane żaby nie były wystawione na działanie wysokich, nier
 
 A u&nbsp;ludzi? Choć wyniki dla żab i&nbsp;szczurów niekoniecznie mają przełożenie jeden do jednego, naukowiec uważał, że zachwianie proporcjami hormonów może mieć [konsekwencje](https://youtu.be/Hu0IXMTFY9Q?t=471). Na przykład tworzyć warunki do rozwoju raka piersi, poronień, zaburzeń płodności.
 
-Hayes nie poprzestał na publikacji badań i&nbsp;aktywnie popularyzował ich wyniki. W&nbsp;ten sposób rozpoczęła się walka naukowca z&nbsp;korporacją.
+Hayes nie poprzestał na publikacji badań i&nbsp;aktywnie popularyzował ich wyniki. W&nbsp;ten sposób rozpoczęła się walka naukowca z&nbsp;korporacją.
 
 ## Walka z&nbsp;Syngentą
 
@@ -150,11 +150,11 @@ Trwało to i&nbsp;trwało. Niektórzy znajomi Hayesa odnosili wrażenie, że zac
 
 Ale na chwilę przeskoczymy sporo do przodu, do roku 2012. Zakończył się wtedy ośmioletni spór sądowy. Mieszkańcy dwudziestu trzech miejscowości oskarżali Syngentę o&nbsp;wprowadzenie atrazyny do wód gruntowych i domagali się zwrotu kosztów jej odfiltrowania.
 
-Proces rozpoczął się krótko po doniesieniach Hayesa. Przypadek? Nie sądzę! Prawnik reprezentujący poszkodowanych mówił wprost, że badania Hayesa odegrały w&nbsp;sprawie dużą rolę. 
+Proces rozpoczął się krótko po doniesieniach Hayesa. Przypadek? Nie sądzę! Prawnik reprezentujący poszkodowanych mówił wprost, że badania Hayesa odegrały w&nbsp;sprawie dużą rolę. 
 
 Syngenta poszła na ugodę, ponosząc koszty filtrowania wody w&nbsp;wysokości 105&nbsp;mln dolarów. Przypomnę: ugoda nie równa się przyznaniu się do winy. Więc za ten fakt akurat ich nie złapiemy.
 
-Natomiast w&nbsp;toku procesu sąd hrabstwa Madison [odtajnił](https://madisonrecord.com/stories/510574762-madison-county-atrazine-suits-dismissed-syngenta-defendants-appeal-order-to-unseal-documents) i&nbsp;upublicznił część wewnętrznych maili i&nbsp;dokumentów Syngenty. Nie uznał przy tym sprzeciwu firmy, która twierdziła, że zawierają one tajemnice przedsiębiorstwa.
+Natomiast w&nbsp;toku procesu sąd hrabstwa Madison [odtajnił](https://madisonrecord.com/stories/510574762-madison-county-atrazine-suits-dismissed-syngenta-defendants-appeal-order-to-unseal-documents) i&nbsp;upublicznił część wewnętrznych maili i&nbsp;dokumentów Syngenty. Nie uznał przy tym sprzeciwu firmy, która twierdziła, że zawierają one tajemnice przedsiębiorstwa.
 
 W&nbsp;realiach amerykańskich taki etap gromadzenia dowodów nazywamy *discovery* (dosł. *odkrycie*). Istotnie, pozwoliły odkryć nowe fakty również w&nbsp;sprawie Hayesa.
 
@@ -258,7 +258,7 @@ and bow down to the wolf in black clothing
 Źródło wszystkich rapsów: maile Tyrone'a Hayesa.  
 Tutaj nawiązuje zapewne do siebie i&nbsp;czarnych ciuchów, które lubił nosić.
 
-Jego wypowiedzi publicznie krytykuje parę stronek, które oficjalnie do żadnych powiązań z&nbsp;Syngentą się nie przyznają i stylizują się na niezależne zrzeszenia rolników. Co by się zgadzało ze strategią:
+Jego wypowiedzi publicznie krytykuje parę stronek, które oficjalnie do żadnych powiązań z&nbsp;Syngentą się nie przyznają i stylizują się na niezależne zrzeszenia rolników. Co by się zgadzało ze strategią:
 
 > Once we launch the website (...), we will have a platform that we control, but is not Syngenta branded
 
@@ -326,7 +326,7 @@ Najpierw ustalmy, kto walczył. Hayes do samego końca pokazywał pazur. Ale ost
 
 Pamiętacie, od czego ta historia się zaczęła? Od zlecenia przez Syngentę własnych badań, zanim ich atrazynie przyjrzy się EPA. Czyli, przypomnę, agencja ds. ochrony środowiska. Decydująca co pewien czas w&nbsp;kwestii dopuszczalnych substancji lub dawek.
 
-Ostatecznie **to EPA miała w&nbsp;2012 roku zdecydować o&nbsp;losach atrazyny w&nbsp;USA**. Opierając się wyłącznie na badaniach, a&nbsp;nie opinii publicznej. Powoływanie się na rolników nic by nie dało. Z&nbsp;oczywistych względów przełożyło się to na wielkie ożywienie w&nbsp;Syngencie. 
+Ostatecznie **to EPA miała w&nbsp;2012 roku zdecydować o&nbsp;losach atrazyny w&nbsp;USA**. Opierając się wyłącznie na badaniach, a&nbsp;nie opinii publicznej. Powoływanie się na rolników nic by nie dało. Z&nbsp;oczywistych względów przełożyło się to na wielkie ożywienie w&nbsp;Syngencie. 
 
 Jak pokazują maile ujawnione podczas rozprawy, wynajęli agencję detektywistyczną, która miała dostarczyć informacje na temat składu grupy naukowców doradzających EPA. Dokumenty nie ujawniają niestety, czy i&nbsp;w jaki sposób je wykorzystali. 
 
@@ -347,9 +347,9 @@ Pozostały badania przeprowadzone przez berlińskiego profesora. Były finansowa
 
 Werdykt? W&nbsp;2012&nbsp;roku **utrzymano dotąd dozwolone stężenie atrazyny, uznając je za bezpieczne**. Syngenta wygrała.
 
-Samych badań nie będę kwestionował, nie mając wiedzy w&nbsp;temacie -- choć kontekst, w&nbsp;jakim to akurat one zostały wybrane, uważam za mocno kontrowersyjny.
+Samych badań nie będę kwestionował, nie mając wiedzy w&nbsp;temacie -- choć kontekst, w&nbsp;jakim to akurat one zostały wybrane, uważam za mocno kontrowersyjny.
 
-Gdyby kogoś to interesowało, polecam [filmik](https://www.youtube.com/watch?v=i5uSbp0YDhc) od Oki's Weird Stories zagłębiający się w temat. Autor wychodzi od memicznych wypowiedzi pewnego kontrowersyjnego showmana, ale potem funduje nam solidną porcję faktów.  
+Gdyby kogoś to interesowało, polecam [filmik](https://www.youtube.com/watch?v=i5uSbp0YDhc) od Oki's Weird Stories zagłębiający się w temat. Autor wychodzi od memicznych wypowiedzi pewnego kontrowersyjnego showmana, ale potem funduje nam solidną porcję faktów.  
 W tym właśnie o&nbsp;kontrowersyjnych kulisach wybierania dopuszczalnych badań przez EPA.
 
 # Pyrrusowe zwycięstwo?
@@ -363,13 +363,13 @@ Choć w&nbsp;USA atrazyna wygrała i&nbsp;nadal może być masowo używana do op
 
 * Agencja EPA przeprowadziła od tamtego czasu ocenę ryzyka natury ekologicznej. Ustalili, że bezpieczne poziomy atrazyny w ich testach [były przekroczone](https://www.regulations.gov/document?D=EPA-HQ-OPP-2013-0266-0315); 22-krotnie dla ptaków, 62-krotnie dla ryb i&nbsp;198-krotnie dla ssaków.
 
-* W&nbsp;Kalifornii w&nbsp;2016 roku wprowadzono poprawkę numer&nbsp;65, uznającą atrazynę za [szkodliwą dla układu rozrodczego](https://oehha.ca.gov/proposition-65/chemicals/atrazine). Na poziomie całego USA agencja EPA zajęła się opracowywaniem raportu na temat szkodliwości substancji dla ludzi.
+* W&nbsp;Kalifornii w&nbsp;2016 roku wprowadzono poprawkę numer&nbsp;65, uznającą atrazynę za [szkodliwą dla układu rozrodczego](https://oehha.ca.gov/proposition-65/chemicals/atrazine). Na poziomie całego USA agencja EPA zajęła się opracowywaniem raportu na temat szkodliwości substancji dla ludzi.
 
 * 2019&nbsp;-- naukowcy z&nbsp;Uniwersytetu w Melbourne wykryli związek między ATZ a&nbsp;[spadkiem płodności](https://medicalxpress.com/news/2019-01-safe-herbicide-australian-affects-male.html) u&nbsp;samców myszy. Ich [artykuł](https://www.publish.csiro.au/RD/RD18505) wieńczy stwierdzenie o&nbsp;możliwym wpływie na ludzkich mężczyzn.
 
 * Sprawa z&nbsp;tego roku (2022). EPA chce obniżyć dopuszczalne stężenie atrazyny w&nbsp;wodzie, z&nbsp;poziomu 15&nbsp;jednostek do&nbsp;3,4. Organizacje takie jak AgSense już <a rel="nofollow" href="https://agsense.org/articles/growers-get-ready-to-fight-epa-again-on-atrazine-read-our-letter-to-epa/">szykują listy protestacyjne</a>.
 
-Kontrowersje -- z&nbsp;których niektóre mogą brzmieć dla nas znajomo -- otaczają również parę innych produktów firmy.
+Kontrowersje -- z&nbsp;których niektóre mogą brzmieć dla nas znajomo -- otaczają również parę innych produktów firmy.
 
 * Tiametoksam (ang. *thiametoxam*).
 
@@ -394,7 +394,7 @@ Historia samotnego naukowca walczącego z&nbsp;gigantem może wciągać i&nbsp;i
 Tylko że thrillery są fikcją. Widząc taką historię, mój wewnętrzny sceptyk kręci głową i&nbsp;zastanawia się, gdzie w&nbsp;tym haczyk.
 
 Już nieraz się w&nbsp;końcu zdarzało, że w&nbsp;obieg puszczano wesołe fejki. O&nbsp;wilku alfa idącym za stadem, żeby w&nbsp;razie czego się poświęcić. O&nbsp;delfinach wracających do Wenecji, kiedy na czas pandemii ustał ruch turystyczny. Pierdoły ku pokrzepieniu serc.  
-Co, jeśli ta historia również została mocno podkoloryzowana?
+Co, jeśli ta historia również została mocno podkoloryzowana?
 
 Tyrone Hayes jest człowiekiem i&nbsp;zapewne ma swoje ludzkie wady. No i&nbsp;nie ukrywajmy, ma w&nbsp;sobie pewien pierwiastek showmaństwa.
 
@@ -412,9 +412,9 @@ Co zrobili? Wynajmowali firmy PR-owe, oczerniali przeciwników, zasłaniali się
 W ich planie antykryzysowym zeszło na dalszy plan coś takiego jak profilaktyczne ostrzeganie o&nbsp;konsekwencjach czy zostawienie oceny *faktycznie* niezależnym podmiotom. O&nbsp;ile w&nbsp;ogóle przeszło im przez myśl.
 
 Nawet jeśli atrazyna nie jest tak istotna dla nas, Europejczyków, afera wokół niej może być dla nas ostrzeżeniem.  
-Gdyby coś było nie tak z&nbsp;jakąś chemią od wielkiego koncernu -- w&nbsp;końcu błędy się zdarzają -- to istnieje niezerowa szansa, że **fakty będą się przebijały niemrawo, w&nbsp;bólach i&nbsp;przy aktywnym oporze firmy**.
+Gdyby coś było nie tak z&nbsp;jakąś chemią od wielkiego koncernu -- w&nbsp;końcu błędy się zdarzają -- to istnieje niezerowa szansa, że **fakty będą się przebijały niemrawo, w&nbsp;bólach i&nbsp;przy aktywnym oporze firmy**.
 
-I na tym zakończę. Mam nadzieję, że nawet osoby bardziej sceptyczne zauważą, iż w&nbsp;podejściu wielkich korporacji dałoby się co nieco poprawić.
+I na tym zakończę. Mam nadzieję, że nawet osoby bardziej sceptyczne zauważą, iż w&nbsp;podejściu wielkich korporacji dałoby się co nieco poprawić.
 
 Na szczęście niektóre niewygodne dla nich chwasty -- naukowcy, krytycy i&nbsp;blogerzy -- są trudne do ubicia herbicydem. Bądźmy takimi chwastami :metal:
 

@@ -18,16 +18,16 @@ image:
 Jednym z&nbsp;najczęstszych pozwoleń, o&nbsp;jakie proszą nas mobilne aplikacje -- a&nbsp;na komputerach osobistych nic nawet nie pyta -- jest możliwość odczytywania i&nbsp;zapisywania plików.  
 Równie powszechna jest łączność z&nbsp;internetem, która pozwala programom wysyłać informacje w&nbsp;świat.
 
-W takich warunkach pokusa śledzenia wydaje się oczywista.  
+W takich warunkach pokusa śledzenia wydaje się oczywista.  
 Skoro aplikacja może czytać pliki, to po prostu sobie do nich zajrzy, odczyta z&nbsp;nich nasze dane i&nbsp;komuś je wyśle.  
-Z jakiegoś zdjęcia faktury pozna nazwę naszej firmy. Z&nbsp;biletów kolejowych w&nbsp;formacie PDF nasze imię, nazwisko i&nbsp;szczegóły podróży.
+Z jakiegoś zdjęcia faktury pozna nazwę naszej firmy. Z&nbsp;biletów kolejowych w&nbsp;formacie PDF nasze imię, nazwisko i&nbsp;szczegóły podróży.
 
 Tak, to realne zagrożenie. Ale nie chcę zanudzać moich czytelników oczywistościami.
 
 Dlatego dorzućmy sobie dodatkowe ograniczenie -- w&nbsp;tym wpisie **nie rozważam przypadku, kiedy apka zagląda do wnętrza plików**.   
-Zakładamy tu, że jedynie wędruje po folderach i&nbsp;patrzy na ogólne informacje. Nazwy plików, ich rozmiar i&nbsp;datę modyfikacji. Tak jak my, kiedy rozglądamy się za jakimś konkretnym plikiem.
+Zakładamy tu, że jedynie wędruje po folderach i&nbsp;patrzy na ogólne informacje. Nazwy plików, ich rozmiar i&nbsp;datę modyfikacji. Tak jak my, kiedy rozglądamy się za jakimś konkretnym plikiem.
 
-Jak zobaczymy, nawet przy takich ograniczeniach programy mogą wyciągnąć naprawdę sporo szczegółów. Zapraszam do lektury!
+Jak zobaczymy, nawet przy takich ograniczeniach programy mogą wyciągnąć naprawdę sporo szczegółów. Zapraszam do lektury!
 
 {% include info.html
 type="Uwaga"
@@ -65,7 +65,7 @@ System Android daje nam możliwość intuicyjnego przeglądania niektórych fold
 * po podłączeniu smartfona do komputera przez USB  
   (trzeba też wtedy wybrać na telefonie tryb transferowania plików).
 
-Ale czy to prawdziwy obraz rzeczywistości? Nie -- mamy wgląd tylko w&nbsp;wybrane foldery, ze wspólnej i&nbsp;publicznej części telefonu. **Aplikacje widzą nieco więcej**.
+Ale czy to prawdziwy obraz rzeczywistości? Nie -- mamy wgląd tylko w&nbsp;wybrane foldery, ze wspólnej i&nbsp;publicznej części telefonu. **Aplikacje widzą nieco więcej**.
 
 Żeby lepiej to pokazać, potrzebowałem w&nbsp;tym miejscu apki mającej szerokie możliwości zaglądania do plików. A&nbsp;przy tym dającej nam wgląd w&nbsp;to, co sama „widzi”. Na szczęście takowa istnieje. I&nbsp;jest bardzo fajna.
 
@@ -80,7 +80,7 @@ Termux ma wygląd dość spartański -- ot, konsola z&nbsp;czarnym tłem, w&nbsp
 
 Na potrzeby tego wpisu nie musimy wiedzieć o&nbsp;Termuksie praktycznie nic. Poza tym, że wpisujemy w&nbsp;niego komendy. Do eksploracji wystarczą nam w&nbsp;zasadzie dwie:
 
-1. Komenda `ls` -- wyświetla listę rzeczy (plików i&nbsp;folderów) znajdujących się w&nbsp;aktywnym folderze.
+1. Komenda `ls` -- wyświetla listę rzeczy (plików i&nbsp;folderów) znajdujących się w&nbsp;aktywnym folderze.
 
 2. Komenda `cd ŚCIEŻKA` -- pozwala przejść do folderu o&nbsp;podanej ścieżce. Jeśli istnieje i&nbsp;jest dostępny, to staje się naszym folderem aktywnym. Do czasu kolejnej zmiany.
 
@@ -91,7 +91,7 @@ Jako człowiek skłonny do literówek szczególnie to doceniam :wink:
 
 ## Pliki oczami aplikacji
 
-W poprzednim wpisie z&nbsp;serii pokazałem z&nbsp;grubsza hierarchię w&nbsp;naszym systemie -- w&nbsp;formie piramidki. Tym razem nie potrzebujemy całej. Odpuścimy sobie zarówno warstwę dodatków, jak i&nbsp;warstwy najniższe, odpowiadające fizycznym elementom.
+W poprzednim wpisie z&nbsp;serii pokazałem z&nbsp;grubsza hierarchię w&nbsp;naszym systemie -- w&nbsp;formie piramidki. Tym razem nie potrzebujemy całej. Odpuścimy sobie zarówno warstwę dodatków, jak i&nbsp;warstwy najniższe, odpowiadające fizycznym elementom.
 
 Zostaje nam system i&nbsp;nasza apka Termux. Dla porównania weźmiemy też jedną inną. Niech będzie Messenger.  
 Zostajemy z&nbsp;takim układem:
@@ -106,7 +106,7 @@ Zaznaczę, że do pojęcia jądra systemu podchodzę tu mocno nieoficjalnie. Int
 A teraz nałóżmy sobie na tę hierarchię układ folderów. Przedstawiam Wam system plików widziany „oczami” Termuksa. 
 
 {:.bigspace-before}
-<img src="/assets/posts/apki/apki-system-plikow-graf.jpg" alt="Schemat pokazujący hierarchię folderów w&nbsp;systemie Android. Mamy tu cztery obszary. Wychodząc od dołu: jądro systemu, potem system operacyjny, potem na jednej wysokości Messenger i&nbsp;Termux"/>
+<img src="/assets/posts/apki/apki-system-plikow-graf.jpg" alt="Schemat pokazujący hierarchię folderów w&nbsp;systemie Android. Mamy tu cztery obszary. Wychodząc od dołu: jądro systemu, potem system operacyjny, potem na jednej wysokości Messenger i&nbsp;Termux"/>
 
 {:.figcaption}
 Schemat lekko edytowany w&nbsp;Gimpie. Gdyby kogoś interesował jego kod źródłowy w&nbsp;Graphvizie, to <a download href="/assets/posts/apki/android_pliki.gv">proszę bardzo</a>.
@@ -156,7 +156,7 @@ Korzystają z&nbsp;niego w&nbsp;końcu apki pozwalające pracować z&nbsp;plikam
 Pozwolenie możemy w&nbsp;dowolnym momencie wycofywać. W&nbsp;tym celu odwiedzamy `Ustawienia`, potem `Menedżera uprawnień`. Klikając w&nbsp;poszczególne pozwolenia, widzimy listę apek, jakim je przyznaliśmy. To samo menu pozwala cofać pozwolenia.
 
 Jak wygląda cofnięcie pozwolenia z&nbsp;punktu widzenia użytkownika?  
-Aplikacje zaczną prosić o&nbsp;jego udzielenie przy dość typowych rzeczach. Jeśli na przykład klikniemy ikonę zdjęcia, chcąc dodać fotkę z&nbsp;galerii do wiadomości pisanej przez Messengera, pojawi się systemowy komunikat:
+Aplikacje zaczną prosić o&nbsp;jego udzielenie przy dość typowych rzeczach. Jeśli na przykład klikniemy ikonę zdjęcia, chcąc dodać fotkę z&nbsp;galerii do wiadomości pisanej przez Messengera, pojawi się systemowy komunikat:
 
 {:.figure .bigspace}
 <img src="/assets/posts/apki/messenger-filesystem-permission.jpg" alt="Komunikat z&nbsp;Androida pytający, czy chcę zezwolić aplikacji Messenger na dostęp do systemu plików" width="350px"/>
@@ -164,7 +164,7 @@ Aplikacje zaczną prosić o&nbsp;jego udzielenie przy dość typowych rzeczach. 
 A jak to wygląda oczami aplikacji?  
 Wyobraźmy sobie, że wszystkie foldery zebrane na schemacie pod kategorią „System operacyjny” stają się pomarańczowymi elipsami. Możemy odwiedzać, ale nie możemy nic robić z&nbsp;plikami. Nawet wyświetlać ich listy.
 
-Podsumowując kwestię pozwoleń:
+Podsumowując kwestię pozwoleń:
 
 1. Żadna aplikacja nie ma dostępu do plików podlegających pod jądro (ale może odwiedzać wybrane foldery)
 2. Żadna aplikacja nie ma dostępu do folderów prywatnych innych aplikacji.
@@ -184,7 +184,7 @@ Pokażę tutaj trzy przykłady informacji, jakie mogłaby wyciągnąć aplikacja
 
 Żadna aplikacja nie jest w&nbsp;stanie wejść do prywatnego folderu obcej aplikacji -- patrz punkt drugi wyżej. Ale jest w&nbsp;stanie ustalić, które ze znanych apek mamy na swoim urządzeniu.
 
-Jeśli spojrzymy na górną część schematu, strefę aplikacji, to zobaczymy dość dziwne nazwy folderów zaczynające się od *com*. To tak zwane nazwy pakietów (ang. *package names*).  
+Jeśli spojrzymy na górną część schematu, strefę aplikacji, to zobaczymy dość dziwne nazwy folderów zaczynające się od *com*. To tak zwane nazwy pakietów (ang. *package names*).  
 Każda aplikacja zarejestrowana w&nbsp;oficjalnych bazach ma taką własną, wewnętrzną, unikalną nazwę. Nieraz inną niż oficjalna nazwa apki.
 
 Żeby ustalić wewnętrzną nazwę jakiejś aplikacji, można na przykład włączyć przeglądarkę, wyszukać „potoczną” nazwę tej apki na stronie Play Store. Potem patrzymy na link do niej i&nbsp;na wartość parametru `id`. Dla Messengera mamy na przykład:
@@ -202,17 +202,17 @@ https://play.google.com/store/apps/details?id=<span class="red">com.ss.android.u
 Na czerwono oznaczyłem interesujące nas nazwy pakietów.
 
 I teraz cały myk -- mam u&nbsp;siebie na telefonie Messengera. Nie mam i&nbsp;nigdy nie miałem TikToka.  
-Kiedy przez Termuksa spróbuję wejść do odpowiadających tym apkom folderów, to **pokażą mi się różne rzeczy. Zakaz dostępu, jeśli mam daną apkę. Jeśli nie mam, to informacja o&nbsp;braku takiego folderu**.
+Kiedy przez Termuksa spróbuję wejść do odpowiadających tym apkom folderów, to **pokażą mi się różne rzeczy. Zakaz dostępu, jeśli mam daną apkę. Jeśli nie mam, to informacja o&nbsp;braku takiego folderu**.
 
 {:.figure .bigspace-before}
-<img src="/assets/posts/apki/termux-brak-dostepu.jpg" alt="Zrzut ekranu z&nbsp;aplikacji Termux, pokazujący dwa różne wyniki dla komendy cd, kiedy próbuję wejść do fodleru Messengera i&nbsp;folderu Tiktoka" width="600px"/>
+<img src="/assets/posts/apki/termux-brak-dostepu.jpg" alt="Zrzut ekranu z&nbsp;aplikacji Termux, pokazujący dwa różne wyniki dla komendy cd, kiedy próbuję wejść do fodleru Messengera i&nbsp;folderu Tiktoka" width="600px"/>
 
 {:.figcaption}
 Screen z&nbsp;apki Termux. Kolorowe tło dodałem w&nbsp;Gimpie.
 
 W ten sposób jakaś wścibska apka mogłaby po kolei sprawdzać nazwy odpowiadające różnym znanym aplikacjom. I&nbsp;na podstawie informacji o&nbsp;zakazach ustalić, które z&nbsp;nich mamy na swoim telefonie.
 
-I takie coś *już miało miejsce*, choć nie wiem czy akurat przy użyciu tej metody. Facebook oferował kiedyś darmową apkę Onavo, działającą jako VPN. Która przy okazji [zbierała dane o&nbsp;innych zainstalowanych aplikacjach](https://www.theverge.com/2019/2/22/18235908/facebook-onavo-vpn-privacy-service-data-collection).  
+I takie coś *już miało miejsce*, choć nie wiem czy akurat przy użyciu tej metody. Facebook oferował kiedyś darmową apkę Onavo, działającą jako VPN. Która przy okazji [zbierała dane o&nbsp;innych zainstalowanych aplikacjach](https://www.theverge.com/2019/2/22/18235908/facebook-onavo-vpn-privacy-service-data-collection).  
 W ten sposób ustalili, że komunikator WhatsApp, konkurencyjny wobec ich Messengera, zyskuje na popularności. I&nbsp;go kupili.
 
 {% include info.html
@@ -226,7 +226,7 @@ Każda nazwa pliku zawiera na końcu nazwę aplikacji, z&nbsp;której dany *scre
 
 Mocno powiązane z&nbsp;poprzednim, bo korzysta z&nbsp;tej samej metody. Tyle że nie odpytuje o&nbsp;foldery prywatne aplikacji, lecz o&nbsp;te wbudowane prosto w&nbsp;nasz system.
 
-Spójrzmy na przykład na [lokalizację bazy z&nbsp;SMS-ami](https://www.fonedog.com/android-data-recovery/android-text-message-folder-location.html) w&nbsp;różnych wersjach Androida:
+Spójrzmy na przykład na [lokalizację bazy z&nbsp;SMS-ami](https://www.fonedog.com/android-data-recovery/android-text-message-folder-location.html) w&nbsp;różnych wersjach Androida:
 
 * W&nbsp;wersji 4.3 i&nbsp;wcześniejszych:  
   <div class="black-bg mono oneline">
@@ -241,16 +241,16 @@ Spójrzmy na przykład na [lokalizację bazy z&nbsp;SMS-ami](https://www.fonedo
   /data/user_de/0/com.android.providers.telephony/databases
   </div>
 
-Wścibska aplikacja mogłaby po kolei próbować zajrzeć do tych folderów. **Jeśli wyświetli jej odmowę dostępu, a&nbsp;nie informację o&nbsp;nieistniejącym folderze, to znaczy że folder istnieje**. Aplikacja będzie wiedziała z&nbsp;grubsza, jaką mamy wersję Androida.
+Wścibska aplikacja mogłaby po kolei próbować zajrzeć do tych folderów. **Jeśli wyświetli jej odmowę dostępu, a&nbsp;nie informację o&nbsp;nieistniejącym folderze, to znaczy że folder istnieje**. Aplikacja będzie wiedziała z&nbsp;grubsza, jaką mamy wersję Androida.
 
 Słaby sygnał, powiecie? Pewnie tak, ale w&nbsp;połączeniu z&nbsp;innymi może zdradzić więcej. Przez lata w&nbsp;systemie Android mogło się naprawdę sporo pozmieniać.  
-Zresztą pokazuję to bardziej jako eksperyment myślowy. Zazwyczaj aplikacje mają łatwiejszy sposób na uzyskanie informacji o&nbsp;systemie. Mogą po prostu zapytać.
+Zresztą pokazuję to bardziej jako eksperyment myślowy. Zazwyczaj aplikacje mają łatwiejszy sposób na uzyskanie informacji o&nbsp;systemie. Mogą po prostu zapytać.
 
 Ale jeśli na przykład majsterkowaliśmy ze swoim telefonem, żeby ujawniał apkom nieprawdziwe dane, to warto pamiętać również o&nbsp;dopracowaniu takich detali jak ścieżki w&nbsp;systemie plików. Inaczej kłamstwo na nic i&nbsp;tylko byśmy się wyróżnili.
 
 Ten ogólny motyw -- złapanie naszego urządzenia na kłamstwie poprzez porównanie detali faktycznych z&nbsp;oczekiwanymi -- może się kojarzyć niektórym czytelnikom z&nbsp;dawnym [wpisem na temat *User Agenta*]({% post_url 2021-06-11-user-agent %}){:.internal}, którym przedstawiają się w&nbsp;sieci przeglądarki. Oraz jego [demaskowaniem przez JavaScript]({% post_url 2022-05-02-javascript1 %}){:.internal}.
 
-Pewne reguły śledzenia pozostają uniwersalne. Niezależnie od tego, jak się nazywają i&nbsp;jakich urządzeń dotyczą.
+Pewne reguły śledzenia pozostają uniwersalne. Niezależnie od tego, jak się nazywają i&nbsp;jakich urządzeń dotyczą.
 
 ### Eksplorowanie metodą *brute force*
 
@@ -296,7 +296,7 @@ Stalker(-ka) z&nbsp;zaraźliwym entuzjazmem namawia ludzi z&nbsp;roku do pobiera
 
    Pobiera, klika, sprawdza funkcje. Jednocześnie monitoruje przez chwilę dane, jakie apka wysyła w&nbsp;świat. Nic podejrzanego.
 
-Już spokojni, pobieramy apkę i&nbsp;zaczynamy z&nbsp;niej korzystać.  
+Już spokojni, pobieramy apkę i&nbsp;zaczynamy z&nbsp;niej korzystać.  
 Cały problem polega na tym, że ta może zachowywać się inaczej, kiedy ustali że jesteśmy konkretną osobą.
 
 A w&nbsp;jaki sposób tę tożsamość ustala? Może w&nbsp;bardzo prosty, bez zgadywania. Po prostu na każdym urządzeniu, na którym jest, **wypatruje konkretnego sygnału do działania**. Jak obecność pliku o&nbsp;ustalonej nazwie.  
@@ -353,7 +353,7 @@ Nadchodzące chłodne dni będą dobrą okazją, żeby owinąć się w&nbsp;koc 
 Do głowy przyszedł mi jeszcze jeden sposób na chowanie plików. Możemy wykorzystać możliwości Termuksa i&nbsp;fakt, że apki nie mogą zaglądać do siebie nawzajem.
 
 {:.post-meta .bigspace}
-**Uwaga:** Pomysł dobry tylko dla osób, które będą umiały potem skopiować sobie pliki z&nbsp;powrotem. Wszystko na własną odpowiedzialność. Ale pocieszę, że powinno być bezpieczne.
+**Uwaga:** Pomysł dobry tylko dla osób, które będą umiały potem skopiować sobie pliki z&nbsp;powrotem. Wszystko na własną odpowiedzialność. Ale pocieszę, że powinno być bezpieczne.
 
 Najpierw wrzucamy prywatne pliki do osobnego folderu. Możemy to zrobić chociażby przez najzwyklejszą, systemową przeglądarkę plików.  
 Załóżmy, że nasz folder nazywa się `Tajne`, spoczywa w&nbsp;folderze `Download`, układ plików mamy jak na schemacie z&nbsp;początku wpisu.

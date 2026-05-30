@@ -17,7 +17,7 @@ image:
 
 Z przeglądarek internetowych korzystamy wszyscy. Jakoś w&nbsp;końcu czytacie stronę, na której teraz jesteście.
 
-Natomiast wiele osób nie zadowala się domyślną, „łysą” wersją przeglądarki.  
+Natomiast wiele osób nie zadowala się domyślną, „łysą” wersją przeglądarki.  
 Często instalujemy również jakieś dodatki. Od nauki słówek, od sprawdzania pisowni, od blokowania reklam (dygresja: nie polecam najpopularniejszego, AdBlocka).
 
 Przeglądarka zapewniała nam solidną podstawę, zaś dodatki dawały upragnione możliwości. Internet stał otworem, świat był radosny, trawa soczyście zielona, ptaki ćwierkały.
@@ -48,14 +48,14 @@ Zacznijmy może od samego pojęcia *Manifest v3*. Nie zdziwiłbym się, gdyby ni
 
 Rzecz w&nbsp;tym, że dodatki są całkowicie zależne od przeglądarki. To ona udostępnia im zestaw wybranych możliwości i&nbsp;narzędzi. Zestaw dostępny do tej pory nazywano zbiorczo wersją&nbsp;2.
 
-Teraz Google planuje wprowadzić zmianę na tyle istotną, że zyskamy bonus +1&nbsp;do numeru wersji (co do tej pory rzadko się zdarzało w&nbsp;całej długiej historii Chrome'a). Obecnie dopuszczane są obie wersje, 2&nbsp;i&nbsp;3. Ale **wraz z&nbsp;początkiem 2023&nbsp;roku przeglądarka będzie dopuszczała jedynie wersję&nbsp;3**.
+Teraz Google planuje wprowadzić zmianę na tyle istotną, że zyskamy bonus +1&nbsp;do numeru wersji (co do tej pory rzadko się zdarzało w&nbsp;całej długiej historii Chrome'a). Obecnie dopuszczane są obie wersje, 2&nbsp;i&nbsp;3. Ale **wraz z&nbsp;początkiem 2023&nbsp;roku przeglądarka będzie dopuszczała jedynie wersję&nbsp;3**.
 
 Mam drobną analogię: załóżmy, że w&nbsp;komunikacji miejskiej zamontowana jest teraz wersja 2&nbsp;automatów biletowych. Można w&nbsp;nich płacić i&nbsp;monetami, i&nbsp;zbliżeniowo. W&nbsp;wersji 1&nbsp;dało się tylko monetami.  
 W planach jest stopniowa wymiana tych automatów na wersję&nbsp;3, mniejszą i&nbsp;lżejszą, która pozwoli jedynie na płatności zbliżeniowe. Niby krok w&nbsp;przyszłość, ale jednak coś tracimy względem poprzedniej wersji. Podobnie jest z&nbsp;Manifestem.
 
 {% include info.html
 type="Ciekawostka"
-text="A dlaczego akurat słowo „manifest”, a&nbsp;nie jakiś „interfejs” czy coś takiego? Bo to pojęcie techniczne. Manifestem nazywa się zwyczajowo plik z&nbsp;ważnymi informacjami na temat czegoś, zwykle programu. Samo pojęcie jest [zapożyczeniem](https://en.wikipedia.org/wiki/Manifest_file) z&nbsp;branży transportu morskiego.  
+text="A dlaczego akurat słowo „manifest”, a&nbsp;nie jakiś „interfejs” czy coś takiego? Bo to pojęcie techniczne. Manifestem nazywa się zwyczajowo plik z&nbsp;ważnymi informacjami na temat czegoś, zwykle programu. Samo pojęcie jest [zapożyczeniem](https://en.wikipedia.org/wiki/Manifest_file) z&nbsp;branży transportu morskiego.  
 Każdy dodatek do przeglądarki musi zawierać plik *manifest.json*, odczytywany przez nią jako pierwszy. A&nbsp;w nim, zazwyczaj u&nbsp;samej góry, zapisuje się numer wersji. Do tej pory wpisywaliśmy tu&nbsp;2, teraz trzeba będzie&nbsp;3."
 trailer="<p class='figure bigspace-before'><img src='/assets/posts/manifest/manifest-deprecated.jpg' alt='Zrzut ekranu z przeglądarki pokazujący pierwsze linijki pliku manifestu. Jest tam zapisana wersja 2. U góry widać również komunikat mówiący, że w 2023 roku wsparcie dla wersji 2 manifestu zostanie wycofane.'/></p>"
 %}
@@ -103,7 +103,7 @@ Wywierało to presję na pozostałych autorów przeglądarek. Niby są niezależ
 Większość przeglądarek jest w&nbsp;pułapce punktu numer 2. Z&nbsp;kolei Firefox, posiadając niezależny silnik, ma większą swobodę w&nbsp;robieniu rzeczy po swojemu; ale jego z&nbsp;kolei dopada punkt 1&nbsp;i&nbsp;topniejąca popularność.  
 Dlatego również goni Chrome'a i&nbsp;stara się *zachować kompatybilność* -- udostępniać swoim dodatkom to samo, żeby ludziom chciało się je tworzyć.
 
-W takich realiach Google staje się swego rodzaju dyktatorem mody. Zaś pozostali, chcąc nie chcąc, podporządkowują się zmianom.  
+W takich realiach Google staje się swego rodzaju dyktatorem mody. Zaś pozostali, chcąc nie chcąc, podporządkowują się zmianom.  
 Dlatego nie mieli zbyt wiele do powiedzenia, kiedy w&nbsp;2019 roku ogłoszono feralną Wersję 3. Od tego czasu wszystko nieuchronnie ku niej zmierza.
 
 ## Co Mv3 oznacza dla dodatków
@@ -178,7 +178,7 @@ A co uważają o&nbsp;tej sprawie autorzy dodatków blokujących, przez Google n
 # Pogrom dodatków blokujących reklamy
 
 Spójrzmy do innego oficjalnego [dokumentu](https://developer.chrome.com/docs/extensions/mv3/intro/mv3-overview/) Google'a z&nbsp;2020&nbsp;roku.  
-Opisują w&nbsp;nim, co zmieni Mv3. Sporo rzeczy to technikalia i&nbsp;nie będę udawał, że wszystko rozumiem. Natomiast źródłem największych problemów dla dodatków wydaje się zmiana metody komunikacji i&nbsp;związane z&nbsp;tym odgórne limity.
+Opisują w&nbsp;nim, co zmieni Mv3. Sporo rzeczy to technikalia i&nbsp;nie będę udawał, że wszystko rozumiem. Natomiast źródłem największych problemów dla dodatków wydaje się zmiana metody komunikacji i&nbsp;związane z&nbsp;tym odgórne limity.
 
 Kiedyś do komunikacji z&nbsp;innymi stronami dodatki mogły używać interfejsu o&nbsp;nazwie `webRequest`. Dawał wiele możliwości. Wraz z&nbsp;wejściem wersji 3&nbsp;będą musiały korzystać z&nbsp;innego, `declarativeNetRequest`, dającego ich znacznie mniej.
 
@@ -194,7 +194,7 @@ github.com amazonaws.com * noop
 {:.figcaption}
 Przykład regułek dynamicznych; słowo `noop` ma specjalne znaczenie. Z&nbsp;tego co rozumiem, w&nbsp;tym wypadku blokują skrypty ze stron obcych (linijka&nbsp;1), ale przepuszczają w&nbsp;ramach wyjątku niektóre ze strony *github.com*.
 
-Wersja&nbsp;3 ogranicza liczbę takich reguł do najwyżej&nbsp;5000. Po ich wyczerpaniu pozostają reguły statyczne, w&nbsp;których nie działają znaki specjalne. I&nbsp;będzie można dodać takich reguł najwyżej 30&nbsp;000 (autor uBO sam pisze, że to za mało). Da się również stosować inny rodzaj reguł (*regex*; elastyczne dopasowywanie tekstu), ale tych z&nbsp;kolei można dodać maksymalnie&nbsp;1000.
+Wersja&nbsp;3 ogranicza liczbę takich reguł do najwyżej&nbsp;5000. Po ich wyczerpaniu pozostają reguły statyczne, w&nbsp;których nie działają znaki specjalne. I&nbsp;będzie można dodać takich reguł najwyżej 30&nbsp;000 (autor uBO sam pisze, że to za mało). Da się również stosować inny rodzaj reguł (*regex*; elastyczne dopasowywanie tekstu), ale tych z&nbsp;kolei można dodać maksymalnie&nbsp;1000.
 
 W ten sposób **możliwości blokowania zostaną znacząco ograniczone, do poziomu najprostszych dodatków**. Chyba że twórcy spróbują się zmieśćić w&nbsp;wyśrubowanych limitach, wpychając w&nbsp;nie jak najwięcej regułek.  
 Cały wątek jest pełen główkowania nad tym, w&nbsp;jaki sposób dałoby się to zrobić. Ale to wszystko przypomina wybieranie wody z&nbsp;tonącego okrętu.
@@ -224,9 +224,9 @@ A sam gigant? Powtarza jak mantrę swoje słowa o&nbsp;bezpieczeństwie, prywatn
 
 ## Reakcje twórców przeglądarek
 
-Widać, że *Wersja 3* to bardzo złe wieści dla dodatków. Do tego stopnia, że jedyną nadzieją dla nich mogą być przeglądarki stojące po ich stronie i&nbsp;celowo zachowujące zgodność z&nbsp;*Wersją&nbsp;2*.
+Widać, że *Wersja 3* to bardzo złe wieści dla dodatków. Do tego stopnia, że jedyną nadzieją dla nich mogą być przeglądarki stojące po ich stronie i&nbsp;celowo zachowujące zgodność z&nbsp;*Wersją&nbsp;2*.
 
-Jednak wiele z&nbsp;nich jest zależnych od Chromium, zaś wprowadzanie zmian byłoby dla nich drogą pod górkę. Dlatego nie dziwota, że niektóre odpuszczają. Niektóre przepraszały użytkowników mniej, niektóre bardziej; nieliczne stawiły opór.
+Jednak wiele z&nbsp;nich jest zależnych od Chromium, zaś wprowadzanie zmian byłoby dla nich drogą pod górkę. Dlatego nie dziwota, że niektóre odpuszczają. Niektóre przepraszały użytkowników mniej, niektóre bardziej; nieliczne stawiły opór.
 
 * [Edge](https://docs.microsoft.com/en-us/microsoft-edge/extensions-chromium/developer-guide/manifest-v3)
 
@@ -236,11 +236,11 @@ Jednak wiele z&nbsp;nich jest zależnych od Chromium, zaś wprowadzanie zmian b
 
 * [Vivaldi](https://vivaldi.com/blog/chromium-ad-blockers-choice/)
   
-  Opisali sytuację w&nbsp;sposób sugerujący, że nie trzymają strony Google'a. Natomiast wprost podkreślają, że wcielą zmiany wprowadzone do Chromium również do swojej przeglądarki.
+  Opisali sytuację w&nbsp;sposób sugerujący, że nie trzymają strony Google'a. Natomiast wprost podkreślają, że wcielą zmiany wprowadzone do Chromium również do swojej przeglądarki.
 
 * [Opera](https://forums.opera.com/post/258864)
 
-  Mamy opinię ich pracownika z&nbsp;oficjalnego forum. Planują jeszcze wspierać wersję 2&nbsp;i&nbsp;pozwalać na dodawanie takich dodatków do swojej bazy. Ale jeśli jakiś zostanie wydany w&nbsp;wersji&nbsp;3, to będzie działał z&nbsp;ograniczeniami typowymi dla Chromium.
+  Mamy opinię ich pracownika z&nbsp;oficjalnego forum. Planują jeszcze wspierać wersję 2&nbsp;i&nbsp;pozwalać na dodawanie takich dodatków do swojej bazy. Ale jeśli jakiś zostanie wydany w&nbsp;wersji&nbsp;3, to będzie działał z&nbsp;ograniczeniami typowymi dla Chromium.
 
   > Like Chrome we don't support webRequest API in v3 but we still support it in v2 (also in Opera addons portal) and we don't have strict dates to remove it.
 
@@ -299,6 +299,6 @@ To taka postawa napędza przeglądarkowy wyścig szczurów. Wywierając presję,
 
 Na dłuższą metę prawie żadna organizacja tego nie zapewni, to nierealne. Dlatego uzależniają się od kodu Chromium, tracąc część swojej autonomii.
 
-Gdyby użytkownicy kładli większy nacisk na działania w&nbsp;ich interesie niż na nowinki -- i&nbsp;to okazywali w&nbsp;ankietach, na forach itp. -- to rzeczywistość nieco by się mogła zmienić. I&nbsp;takiej zmiany nam życzę.
+Gdyby użytkownicy kładli większy nacisk na działania w&nbsp;ich interesie niż na nowinki -- i&nbsp;to okazywali w&nbsp;ankietach, na forach itp. -- to rzeczywistość nieco by się mogła zmienić. I&nbsp;takiej zmiany nam życzę.
 
 Do zobaczenia w&nbsp;kolejnych wpisach!

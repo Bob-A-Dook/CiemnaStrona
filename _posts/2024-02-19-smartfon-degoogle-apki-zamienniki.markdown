@@ -70,7 +70,7 @@ Tu akurat zrzut ekranu ze strony mObywatela, oficjalnej apki dla obywateli Polsk
 
 Czasem, bardzo rzadko, jest tu również AppGallery od Huaweia (co wiele nie zmienia; ot, kolejne korpo). Ale zazwyczaj są tylko dwie opcje. App Store dla tych, którzy korzystają z&nbsp;iPhone'a. Google Play, jeśli ktoś ma Androida.
 
-Po kliknięciu cegiełki Google Play otwiera się **Play Store**. Jeśli ktoś nie jest zalogowany na konto Google, to prosi, żeby to zrobić. Potem trzeba kliknąć odpowiedni przycisk i&nbsp;czekać, aż aplikacja się zainstaluje.
+Po kliknięciu cegiełki Google Play otwiera się **Play Store**. Jeśli ktoś nie jest zalogowany na konto Google, to prosi, żeby to zrobić. Potem trzeba kliknąć odpowiedni przycisk i&nbsp;czekać, aż aplikacja się zainstaluje.
 
 Ktoś mógłby pomyśleć, że nie ma wyboru, trzeba w&nbsp;taki sposób.  
 A nie trzeba. Play Store nie jest *jedyną* opcją. Czasem nie jest nawet *najlepszą*. Dlatego, nim przejdę do konkretnych aplikacji, omówię ich możliwe źródła.
@@ -82,7 +82,7 @@ W instalowaniu aplikacji -- szok i&nbsp;niedowierzanie -- nie ma żadnej magii. 
 {% include info.html
 type="Ciekawostka"
 text="APK to tak naprawdę umowne rozszerzenie, a&nbsp;pod względem budowy jest to spakowane archiwum.  
-Można pobrać taki plik na komputer (tu [przykład](https://signal.org/android/apk/), apka Signala), zmienić rozszerzenie z&nbsp;`.apk` na `.zip` i&nbsp;rozpakować. Na systemie Linux nie trzeba nawet zmieniać rozszerzenia, bo on widzi „prawdziwą naturę” plików."
+Można pobrać taki plik na komputer (tu [przykład](https://signal.org/android/apk/), apka Signala), zmienić rozszerzenie z&nbsp;`.apk` na `.zip` i&nbsp;rozpakować. Na systemie Linux nie trzeba nawet zmieniać rozszerzenia, bo on widzi „prawdziwą naturę” plików."
 %}
 
 Instalacja apki przez Play Store'a polega po prostu na tym, że:
@@ -93,11 +93,11 @@ Instalacja apki przez Play Store'a polega po prostu na tym, że:
 
 Punkt pierwszy jest wybitnie niekorzystny z&nbsp;punktu widzenia prywatności. Korzystanie z&nbsp;Play Store'a **wymaga zalogowania się na konto Google**. Będą zatem jednoznacznie widzieli, kto co instaluje.
 
-Jeśli ktoś używa apki od śledzenia cyklu miesiączkowego, to poznają płeć. Jeśli ma apkę od modlitw, to wyznanie. Aplikacje randkowe, zdrowotne, od diet... Sam fakt ich posiadania ukaże rzeczy, których raczej by się nie wpisało w&nbsp;pierwszy lepszy formularz.
+Jeśli ktoś używa apki od śledzenia cyklu miesiączkowego, to poznają płeć. Jeśli ma apkę od modlitw, to wyznanie. Aplikacje randkowe, zdrowotne, od diet... Sam fakt ich posiadania ukaże rzeczy, których raczej by się nie wpisało w&nbsp;pierwszy lepszy formularz.
 
 ### Alternatywne źródła
 
-W związku z&nbsp;tym pojawia się zasadnicze pytanie -- czy można obejść punkt 1&nbsp;i wykonać całą instalację na własną rękę? Tak! I&nbsp;wcale nie wymaga to większego nakładu pracy niż przez Play Store'a.
+W związku z&nbsp;tym pojawia się zasadnicze pytanie -- czy można obejść punkt 1&nbsp;i wykonać całą instalację na własną rękę? Tak! I&nbsp;wcale nie wymaga to większego nakładu pracy niż przez Play Store'a.
 
 Można to zrobić na kilka równie łatwych sposobów:
 
@@ -110,13 +110,13 @@ W idealnym świecie każdy twórca umieszczałby u&nbsp;siebie, obok linku do Pl
 {:.post-meta .bigspace-after}
 Właściwie Google i&nbsp;tak może się dowiedzieć, póki nie wyłączy się skanowania aplikacji. O&nbsp;tym za moment.
 
-Ale świat nie jest idealny, a&nbsp;apki na stronach to mniejszość. Wiele osób rozprowadza je tylko przez bazę Google'a.
+Ale świat nie jest idealny, a&nbsp;apki na stronach to mniejszość. Wiele osób rozprowadza je tylko przez bazę Google'a.
 
 Teoretycznie wiele apek można zdobyć przez strony zwane *mirrorami*, jak APK Mirror, które oficjalnie pobierają pliki APK przez Play Store'a, a&nbsp;potem umieszczają je u&nbsp;siebie.
 
 Pojawia się tu jednak **problem zaufania**. Skąd mamy pewność, że mObywatel lub aplikacja banku z&nbsp;mirrora jest prawdziwą wersją, a&nbsp;nie podpuchą od kradzieży tożsamości? W&nbsp;nazwie i&nbsp;wyglądzie nie ma nic magicznego, każdy mógł stworzyć kopię.
 
-Z tego względu *jakaś* weryfikacja jednak się przydaje. I&nbsp;tutaj wyróżniają się **aplikacje _open source_ -- ich kod źródłowy jest publicznie dostępny i&nbsp;chętni mogą go prześwietlić**. Automatyczne narzędzia i&nbsp;czujne oczy upewniają się, że aplikacje nie zawierają syfu.
+Z tego względu *jakaś* weryfikacja jednak się przydaje. I&nbsp;tutaj wyróżniają się **aplikacje _open source_ -- ich kod źródłowy jest publicznie dostępny i&nbsp;chętni mogą go prześwietlić**. Automatyczne narzędzia i&nbsp;czujne oczy upewniają się, że aplikacje nie zawierają syfu.
 
 Ludzie ze świata *open source* stworzyli całą bazę takich aplikacji -- **F-Droid**. Alternatywę dla Play Store'a. Apki są sprawdzane przez autorów i&nbsp;budowane przez nich z&nbsp;kodu źródłowego.
 
@@ -129,7 +129,7 @@ W związku z&nbsp;powyższymi faktami proponuję:
    Pobrać z&nbsp;niego tylko rzeczy od większych organizacji, które strach by było brać z&nbsp;nieznanych źródeł. Na przykład przeglądarkę, aplikacje własne firm.
 
 2. Pobrać F-Droida w&nbsp;roli sprawdzonego źródła alternatywnego.
-3. Resztę aplikacji zainstalować właśnie przez F-Droida.
+3. Resztę aplikacji zainstalować właśnie przez F-Droida.
 4. Odebrać Play Store'owi jak najwięcej możliwości.
 
 {:.bigspace}
@@ -146,12 +146,12 @@ Aplikacja Play Store pozwala sobie na wiele. Między innymi na używanie funkcji
 {:.bigspace}
 <img src="/assets/posts/google/smartfon-degoogle-apki/play-protect-duperele.jpg" alt="Powiadomienie smartfonowe mówiące, że Ochrona Google Play Protect jest włączona i&nbsp;chroni przed szkodliwymi aplikacjami" width="500px"/>
 
-Jak to w&nbsp;przypadku Google'a, skan zapewne opiera się na algorytmach uczenia maszynowego, nazywanych marketingowo AI. Które bywają zawodne. Niedawno ten antywirus Play Store'a **automatycznie usunął ludziom niegroźne aplikacje**.
+Jak to w&nbsp;przypadku Google'a, skan zapewne opiera się na algorytmach uczenia maszynowego, nazywanych marketingowo AI. Które bywają zawodne. Niedawno ten antywirus Play Store'a **automatycznie usunął ludziom niegroźne aplikacje**.
 
 Jedną z&nbsp;nich były [oficjalne apki Samsunga](https://futurebeat.pl/newsroom/dziwny-ruch-google-aplikacje-samsunga-wydaja-mu-sie-szkodliwe-wie/zc27199): Portfel i&nbsp;Wiadomości.  
 Kolejną -- przydatna i&nbsp;ceniona [aplikacja KDE Connect](https://old.reddit.com/r/kde/comments/175upzi/has_play_protect_removed_kde_connect_from_your/), służąca do synchronizacji plików między urządzeniami.
 
-Pikanterii sprawie dodaje fakt, że **usunięta apka była pobrana z&nbsp;F-Droida. Spoza rewiru Play Store'a i&nbsp;Google'a**. Może nawet specjalnie po to, żeby ominąć kontrolę Wujka G. Ale wszystko na nic, bo ten zrobił ze smartfona swój osobisty folwark.
+Pikanterii sprawie dodaje fakt, że **usunięta apka była pobrana z&nbsp;F-Droida. Spoza rewiru Play Store'a i&nbsp;Google'a**. Może nawet specjalnie po to, żeby ominąć kontrolę Wujka G. Ale wszystko na nic, bo ten zrobił ze smartfona swój osobisty folwark.
 
 {:.figure .bigspace-before}
 <img src="/assets/posts/google/smartfon-degoogle-apki/kde-connect-uninstall.jpg" alt="Komunikat od aplikacji Google Play Protect mowiący, że usunął aplikację KDE Connect, którą uznał za szkodliwą." width="500px"/>
@@ -161,14 +161,14 @@ Pikanterii sprawie dodaje fakt, że **usunięta apka była pobrana z&nbsp;F-Droi
 
 Żeby wyłączyć agresywne skanowanie i&nbsp;zmienić ustawienia Play Protect, trzeba:
 
-* uruchomić apkę Play Store (czyli siłą rzeczy zalogować się na konto),
-* kliknąć ikonę swojego konta w górnym rogu,
-* wybrać opcję `Play Protect`.
+* uruchomić apkę Play Store (czyli siłą rzeczy zalogować się na konto),
+* kliknąć ikonę swojego konta w górnym rogu,
+* wybrać opcję `Play Protect`.
 
 Będą tam dwa pstryczki. Dolny to funkcja rozszerzona -- sprawia, że **Play Store wysyła Google'owi do analizy nieznane aplikacje znalezione na telefonie**.  
 Tę opcję można od razu wyłączyć. Zwłaszcza jeśli ktoś testuje prototyp czegoś rewolucyjnego i&nbsp;nie chce, żeby kolorowy gigant podkradł pomysł :wink:
 
-Górna opcja to z&nbsp;kolei skanowanie i&nbsp;usuwanie aplikacji pobranych z&nbsp;Play Store'a. Żeby nie irytować ludzi od cyberbezpieczeństwa, proponuję kompromis -- nim się to wyłączy, trzeba sobie obiecać, że:
+Górna opcja to z&nbsp;kolei skanowanie i&nbsp;usuwanie aplikacji pobranych z&nbsp;Play Store'a. Żeby nie irytować ludzi od cyberbezpieczeństwa, proponuję kompromis -- nim się to wyłączy, trzeba sobie obiecać, że:
 
 * będzie się instalowało jak najmniej aplikacji, jedynie te naprawdę potrzebne;
 * w&nbsp;miarę możliwości tylko z&nbsp;F-Droida albo stron autorów;
@@ -180,7 +180,7 @@ To tyle co do instalowania apek. Przejdę teraz do polecania zamienników. Oczyw
 
 ## Przeglądarka internetowa – Firefox
 
-Gdyby jakaś osoba mi powiedziała, że ma lenia i&nbsp;może wymienić najwyżej jedną aplikację od Google'a, to powiedziałbym: „wymień Chrome'a”. Bez wahania.
+Gdyby jakaś osoba mi powiedziała, że ma lenia i&nbsp;może wymienić najwyżej jedną aplikację od Google'a, to powiedziałbym: „wymień Chrome'a”. Bez wahania.
 
 **Przeglądarka to jeden z&nbsp;najważniejszych elementów smartfona**. Jeśli chce się minimalizować liczbę apek na telefonie, używając zamiast nich stron internetowych, to wszystko będzie się kręciło wokół niej.
 
@@ -191,7 +191,7 @@ Wersja mobilna Chrome'a oczywiście też niesie za sobą te kontrowersje.
 Lepszych alternatyw jest kilka, dwie znane to Firefox i&nbsp;Brave. Lis i&nbsp;lew. Osobiście postawiłem na Firefoksa z&nbsp;dodatkiem blokującym (o&nbsp;nim za moment).
 
 {:.post-meta .bigspace-after}
-Są też nowsze alternatywy od znanych graczy w&nbsp;świecie prywatności -- jak przeglądarka DuckDuckGo czy [Mullvad Browser](https://mullvad.net/en/browser) -- ale nie miałem okazji ich lepiej poznać.
+Są też nowsze alternatywy od znanych graczy w&nbsp;świecie prywatności -- jak przeglądarka DuckDuckGo czy [Mullvad Browser](https://mullvad.net/en/browser) -- ale nie miałem okazji ich lepiej poznać.
 
 <img src="/assets/posts/google/smartfon-degoogle-apki/chrome-firefox-zmiana.jpg" alt="Ikona przeglądarki Chrome z&nbsp;dorobionym niebieskim okiem pośrodku. Prowadzi od niej zielona strzałka ku ikonie Firefoksa" width="50%"/>
 
@@ -207,7 +207,7 @@ Kolejna sprawa to źródło. Zainstalowałem Firefoksa przez Play Store'a, mimo 
 {% include info.html
 type="Porada"
 text="A gdyby ktoś koniecznie chciał Firefoksa spoza Play Store'a, to można go znaleźć w&nbsp;[zakładce](https://github.com/mozilla-mobile/firefox-android/releases) na oficjalnej stronie z&nbsp;kodem źródłowym. Trzeba spojrzeć pod nagłówkiem `Firefox Beta`, kliknąć `Assets`, żeby wyświetlić dostępne pliki APK, i&nbsp;wybrać ten pasujący do swojego procesora mobilnego. 
-Większość telefonów ma 64-bitowe, więc powinna pasować pozycja kończąca się na `arm64-v8a.apk`."
+Większość telefonów ma 64-bitowe, więc powinna pasować pozycja kończąca się na `arm64-v8a.apk`."
 %}
 
 ### Zmiana wyszukiwarki na DuckDuckGo
@@ -215,13 +215,13 @@ Większość telefonów ma 64-bitowe, więc powinna pasować pozycja kończąca
 Mamy naszego Firefoksa... ale to dopiero początek. Po pierwszym uruchomieniu obok paska wyszukiwania ukaże się znajoma czterokolorowa narośl w&nbsp;kształcie literki G.  
 Tak. **Domyślną wyszukiwarką na Firefoksie jest Google, bo kupił sobie ten przywilej**.
 
-Co gorsza, jest to [główne źródło zarobków Firefoksa](https://www.pcmag.com/news/mozilla-signs-lucrative-3-year-google-search-deal-for-firefox). Pojawiają się nawet głosy, że Google trzyma Lisa przy życiu, żeby móc twierdzić, że ma konkurencję i&nbsp;nie trzeba go karać za monopolizację. Ponura perspektywa, nieprawdaż?
+Co gorsza, jest to [główne źródło zarobków Firefoksa](https://www.pcmag.com/news/mozilla-signs-lucrative-3-year-google-search-deal-for-firefox). Pojawiają się nawet głosy, że Google trzyma Lisa przy życiu, żeby móc twierdzić, że ma konkurencję i&nbsp;nie trzeba go karać za monopolizację. Ponura perspektywa, nieprawdaż?
 
 Na szczęście użytkowników nie obowiązują żadne *byznesowe deale* i&nbsp;mogą łatwo zmienić wyszukiwarkę. Osobiście wybrałem DuckDuckGo i&nbsp;od tamtego czasu rzadko muszę wchodzić na Google'a.  
-Żeby to zrobić, trzeba kliknąć ikonkę wyszukiwarki w&nbsp;rogu, potem wejść w&nbsp;opcję `Domyślna wyszukiwarka` i&nbsp;tam sobie wybrać z&nbsp;listy zamiennik.
+Żeby to zrobić, trzeba kliknąć ikonkę wyszukiwarki w&nbsp;rogu, potem wejść w&nbsp;opcję `Domyślna wyszukiwarka` i&nbsp;tam sobie wybrać z&nbsp;listy zamiennik.
 
 {:.bigspace-before}
-<img src="/assets/posts/google/smartfon-degoogle-apki/google-duckduckgo-zmiana.jpg" alt="Zrzuty ekranu pokazujące po kolei, jak zmienić domyślną wyszukiwarkę z Google na DuckDuckGo" width="50%"/>
+<img src="/assets/posts/google/smartfon-degoogle-apki/google-duckduckgo-zmiana.jpg" alt="Zrzuty ekranu pokazujące po kolei, jak zmienić domyślną wyszukiwarkę z Google na DuckDuckGo" width="50%"/>
 
 {% include info.html
 type="Porada"
@@ -244,7 +244,7 @@ Choć jest niepozorny, skutecznie zwalcza jedną z&nbsp;najgorszych metod śledz
 Nieliczne, lecz głośne osoby demonizują takie dodatki, mówiąc że to odbieranie zarobków twórcom stron. Tyle że uBO to dużo więcej niż *bloker reklam* -- on blokuje *śledzenie*.
 
 Gdyby internetowe reklamy były zwykłymi obrazkami wśród treści, to filtr domen by ich nie odsiewał. Słusznie by je uznał za część strony.  
-A że są pobierane z&nbsp;zewnątrz, od firm reklamowych, i&nbsp;używają piramid kodu JavaScript do analizowania ludzi? To są blokowane. Takie życie.
+A że są pobierane z&nbsp;zewnątrz, od firm reklamowych, i&nbsp;używają piramid kodu JavaScript do analizowania ludzi? To są blokowane. Takie życie.
 
 Co do instalowania uBO na Firefoksie:
 
@@ -267,7 +267,7 @@ System Android jest rozwijany przez Google publicznie, każda osoba na świecie 
 
 W dawnych, dobrych czasach ten kod zawierał podstawowe aplikacje od dzwonienia i&nbsp;SMS-ów. Teoretycznie wszyscy chętni mieli dobry fundament pod własny system smartfonowy.
 
-Potem Google stworzył własne aplikacje na bazie tego publicznego kodu. Rzekomo po to, żeby wnieść jakąś *wartość dodaną* dzięki swoim usługom. Producenci zaczęli instalować je na telefonach. Niedawno [ugięło się Xiaomi](https://cellularnews.com/mobile-apps/google-phone-messages-apps-to-be-pre-installed-on-xiaomi-smartphones/).
+Potem Google stworzył własne aplikacje na bazie tego publicznego kodu. Rzekomo po to, żeby wnieść jakąś *wartość dodaną* dzięki swoim usługom. Producenci zaczęli instalować je na telefonach. Niedawno [ugięło się Xiaomi](https://cellularnews.com/mobile-apps/google-phone-messages-apps-to-be-pre-installed-on-xiaomi-smartphones/).
 
 W 2022&nbsp;roku wyszło na jaw, że ta *wartość dodana* może być ujemna dla użytkowników. Badacz z&nbsp;Trinity College w&nbsp;Dublinie stworzył artykuł opisujący [zakres danych](https://www.scss.tcd.ie/doug.leith/privacyofdialerandsmsapps.pdf), jakie zbierają bajery Google'a. Po konsultacjach z&nbsp;nim Google rzekomo wszystko załatał (tutaj przystępniejsza [dyskusja](https://news.ycombinator.com/item?id=30751751) o&nbsp;sprawie).
 
@@ -300,7 +300,7 @@ Wiele tych aplikacji można zainstalować przez F-Droida. W&nbsp;dniu tworzenia 
 
 {% include info.html
 type="Uwaga"
-text="Wśród aplikacji z&nbsp;F-Droida można też trafić na takie z&nbsp;bardzo podobnymi, choć pomarańczowymi ikonami, o&nbsp;nazwach w&nbsp;stylu *Prosty Aparat*.  
+text="Wśród aplikacji z&nbsp;F-Droida można też trafić na takie z&nbsp;bardzo podobnymi, choć pomarańczowymi ikonami, o&nbsp;nazwach w&nbsp;stylu *Prosty Aparat*.  
 To seria Simple Mobile Tools. Twórca sprzedał prawa do niej firmie reklamowej, a&nbsp;niektórzy uczestnicy projektu wzięli publiczny kod i&nbsp;założyli Fossify jako alternatywę.  
 Choć F-Droid czuwa i&nbsp;może nie pozwolić na niekorzystne, śledzące aktualizacje, lepiej zachować ostrożność. I&nbsp;wybrać serię zieloną, a&nbsp;nie pomarańczową."
 %}
@@ -309,13 +309,13 @@ Choć F-Droid czuwa i&nbsp;może nie pozwolić na niekorzystne, śledzące aktua
 
 Nim poznałem Fossify, zainstalowałem sobie jako aplikację od SMS-ów [QKSMS](https://github.com/moezbhatti/qksms), również z&nbsp;F-Droida i&nbsp;z otwartym kodem źródłowym. Ponad 3&nbsp;tysiące gwiazdek na stronie z&nbsp;kodem źródłowym, więc popularna i&nbsp;lubiana. Cenię ją sobie.
 
-Kolejna sprawa to **przeglądarka plików**. Na smartfonie nie tak kluczowa jak na pececie (bo wiele aplikacji ma własną wbudowaną). Ale przydatna, żeby coś pobrać, zapisać i&nbsp;wysłać dalej. Domyślnie chciałoby nią być Files by Google.
+Kolejna sprawa to **przeglądarka plików**. Na smartfonie nie tak kluczowa jak na pececie (bo wiele aplikacji ma własną wbudowaną). Ale przydatna, żeby coś pobrać, zapisać i&nbsp;wysłać dalej. Domyślnie chciałoby nią być Files by Google.
 
 Osobiście korzystam z&nbsp;przeglądarki plików od Fossify. Niedawno mignęła mi też ciekawa alternatywa, [Little File Explorer](https://github.com/martinmimigames/little-file-explorer). *Open source*, waży tylko kilkadziesiąt kB, wspiera wszystkie wersje systemu Android.
 
-Jeśli chodzi o&nbsp;przeglądarkę plików PDF, domyślnie chciały tę rolę Arkusze Google. A&nbsp;ja postawiłem na [MuPDF Mini](https://f-droid.org/packages/com.artifex.mupdf.mini.app/) z&nbsp;F-Droida.
+Jeśli chodzi o&nbsp;przeglądarkę plików PDF, domyślnie chciały tę rolę Arkusze Google. A&nbsp;ja postawiłem na [MuPDF Mini](https://f-droid.org/packages/com.artifex.mupdf.mini.app/) z&nbsp;F-Droida.
 
-W tym miejscu pokażę również przykładowy łańcuszek działań z&nbsp;życia. Co zrobić, gdy jestem w&nbsp;podróży i&nbsp;chcę kupić przez internet bilet na pociąg?
+W tym miejscu pokażę również przykładowy łańcuszek działań z&nbsp;życia. Co zrobić, gdy jestem w&nbsp;podróży i&nbsp;chcę kupić przez internet bilet na pociąg?
 
 1. Wchodzę przez Firefoksa na stronę przewoźnika.  
    Nie używam ich aplikacji, bo jest zamknięta, dostępna tylko przez Play Store. Chcę jak najmniej takich.
@@ -335,7 +335,7 @@ Tam można paroma kliknięciami ustawić:
 
 A po co? Bo w&nbsp;ten sposób kontrolujemy te funkcje telefonu, które nie wychodzą od nas, lecz od systemu.
 
-Jeśli na przykład wewnątrz jakiejś aplikacji *niebędącej przeglądarką* klikniemy link, to może się ona zwrócić do systemu. „Systemie, otwórz to swoją domyślną przeglądarką, jaka by nie była”.
+Jeśli na przykład wewnątrz jakiejś aplikacji *niebędącej przeglądarką* klikniemy link, to może się ona zwrócić do systemu. „Systemie, otwórz to swoją domyślną przeglądarką, jaka by nie była”.
 
 Gdyby domyślną był Chrome, a&nbsp;strona zawierałaby jakieś cenne informacje, to mógłby je poznać również Google. A&nbsp;to niedobrze!
 
@@ -343,10 +343,10 @@ Gdyby domyślną był Chrome, a&nbsp;strona zawierałaby jakieś cenne informacj
 
 Domyślnie od plików multimedialnych miałbym zestaw rozstrzelonych aplikacji. YouTube, YouTube Music... 
 
-Ale ja wolę muzykę offline, w&nbsp;formie plików, więc wybór odtwarzacza był prosty. **VLC**, jedna z&nbsp;najsolidniejszych aplikacji *open source*, dostępna również przez F-Droida.
+Ale ja wolę muzykę offline, w&nbsp;formie plików, więc wybór odtwarzacza był prosty. **VLC**, jedna z&nbsp;najsolidniejszych aplikacji *open source*, dostępna również przez F-Droida.
 
-Nie będę się o&nbsp;niej rozpisywał, bo jest bardzo intuicyjna. Wybiera się piosenkę lub film z&nbsp;listy, naciska jego nazwę i&nbsp;zaczyna się odtwarzać.  
-VLC w&nbsp;kombinacji z&nbsp;paroma innymi programami pozwala uwolnić się od internetu i&nbsp;YouTube'a. O&nbsp;tym więcej pod koniec wpisu.
+Nie będę się o&nbsp;niej rozpisywał, bo jest bardzo intuicyjna. Wybiera się piosenkę lub film z&nbsp;listy, naciska jego nazwę i&nbsp;zaczyna się odtwarzać.  
+VLC w&nbsp;kombinacji z&nbsp;paroma innymi programami pozwala uwolnić się od internetu i&nbsp;YouTube'a. O&nbsp;tym więcej pod koniec wpisu.
 
 ## Klawiatura ekranowa – OpenBoard
 
@@ -356,7 +356,7 @@ VLC w&nbsp;kombinacji z&nbsp;paroma innymi programami pozwala uwolnić się od 
 Dla niektórych może to być szokiem, ale **standardowa klawiatura, która wysuwa się czasem z&nbsp;dołu ekranu, również należy do Google'a**.  
 To widżet zwany `GBoard`. Jak pokazałem w&nbsp;poprzednim wpisie, w&nbsp;ciągu paru tygodni testowego korzystania [wysłał do sieci](/2024/02/03/smartfon-degoogle#usuwanie-iwyłączanie){:.internal} całe megabajty bliżej nieokreślonych danych.
 
-Klawiatura jest czymś szczególnie newralgicznym, bo ma dostęp na żywo do całego wpisywanego tekstu. Jak mocnego szyfrowania by nie używał czyjś komunikator -- klawiatura „zobaczy” wpisywane informacje wcześniej. Niezaszyfrowane.
+Klawiatura jest czymś szczególnie newralgicznym, bo ma dostęp na żywo do całego wpisywanego tekstu. Jak mocnego szyfrowania by nie używał czyjś komunikator -- klawiatura „zobaczy” wpisywane informacje wcześniej. Niezaszyfrowane.
 
 Nawet gdyby nie wysyłała nikomu tekstu, wciąż może analizować czyjeś unikalne zachowania. Szybkość pisania, często stosowane emoty i&nbsp;zwroty, korzystanie z&nbsp;autokorekty... Dane niemalże biometryczne, unikalnie identyfikujące.  
 Wiele można odczytać nawet [z historii wiadomości](/facebook_dane/2022/01/16/messenger-dalsza-analiza){:.internal}, a&nbsp;co dopiero na żywo z&nbsp;klawiatury. 
@@ -383,13 +383,13 @@ Może małe porównanie? Oto widok z&nbsp;obu map na to samo, dość popularne m
 
 Kolejną zaletą jest to, że *Mapy.cz* nie potrzebują do działania Usług Google Play -- śmigają zarówno na Huaweiu, który nigdy ich nie miał, jak i&nbsp;na Motoroli, na której je zablokowałem.
 
-Mapy wybranych okolic można pobrać na telefon i&nbsp;korzystać z&nbsp;nich offline, bez łączności z&nbsp;internetem. W&nbsp;tym celu trzeba kliknąć ikonę w&nbsp;dolnym lewym rogu, wybrać `Mapy offline` i&nbsp;obszar, jaki chcemy pobrać. W&nbsp;Polsce można pobierać województwami.
+Mapy wybranych okolic można pobrać na telefon i&nbsp;korzystać z&nbsp;nich offline, bez łączności z&nbsp;internetem. W&nbsp;tym celu trzeba kliknąć ikonę w&nbsp;dolnym lewym rogu, wybrać `Mapy offline` i&nbsp;obszar, jaki chcemy pobrać. W&nbsp;Polsce można pobierać województwami.
 
 Ta funkcja przydaje się zwłaszcza tam, gdzie zasięg jest niepewny albo dane mobilne byłyby kosztowne (jak Bieszczady przy granicy z&nbsp;Ukrainą, gdzie niektórym zjadło setki złotych). Poza tym odciąża to trochę serwery autorów.
 
 {% include info.html
 type="Uwaga"
-text="W przeciwieństwie do innych aplikacji z&nbsp;tego wpisu, *Mapy.cz* nie są *open source* (udostępniają jedynie [parę modułów](https://github.com/mapycz)).  
+text="W przeciwieństwie do innych aplikacji z&nbsp;tego wpisu, *Mapy.cz* nie są *open source* (udostępniają jedynie [parę modułów](https://github.com/mapycz)).  
 Osobiście nie mam z&nbsp;tym problemu, zresztą i&nbsp;tak nie daję im łączności z&nbsp;siecią (używam w&nbsp;trybie offline, a&nbsp;do tego odcinam im internet *firewallem*, o&nbsp;którym będzie później).  
 Purystów otwartego kodu może natomiast zainteresować aplikacja [Organic Maps](https://organicmaps.app/pl/), też oparta na danych OpenStreetMap.  
 Z kolei osoby, które chciałyby wnieść coś od siebie w&nbsp;rozwój publicznych map, mogą dodawać do nich informacje przez apki takie jak [StreetComplete](https://github.com/streetcomplete/StreetComplete) (dostępna w&nbsp;F-Droidzie oraz luzem, jako plik APK)."
@@ -418,7 +418,7 @@ Po poznaniu warunków na drodze można zapamiętać trasę, ustawić ją w&nbsp;
 
 ## Dla chętnych: firewall
 
-Wspominałem wcześniej, że przydałyby się pstryczki wyłączające aplikacjom dostęp do internetu. Domyślnie ich nie ma. Ale da się je zdobyć, instalując **firewalla -- aplikację od przechwytywania i&nbsp;modyfikowania ruchu internetowego**. Osobiście wybrałem RethinkDNS.
+Wspominałem wcześniej, że przydałyby się pstryczki wyłączające aplikacjom dostęp do internetu. Domyślnie ich nie ma. Ale da się je zdobyć, instalując **firewalla -- aplikację od przechwytywania i&nbsp;modyfikowania ruchu internetowego**. Osobiście wybrałem RethinkDNS.
 
 Zapewne jeszcze nieraz wrócę do tematu, więc dokładniej opisałem instalację i&nbsp;korzystanie z&nbsp;apki w&nbsp;[osobnym samouczku](/tutorials/rethink-dns){:.internal}. A&nbsp;streszczając:
 
@@ -435,23 +435,23 @@ Oczywiście odebrałem dostęp wszystkim rzeczom od Google'a -- pamiętając, ż
 
 ## Dla chętnych: Termux
 
-Termux nie każdemu się spodoba, bo bardzo się różni od tradycyjnych aplikacji. Ma postać *konsoli*, w&nbsp;którą można wpisywać różne polecenia.  
+Termux nie każdemu się spodoba, bo bardzo się różni od tradycyjnych aplikacji. Ma postać *konsoli*, w&nbsp;którą można wpisywać różne polecenia.  
 To fajna sprawa dla osób, które chcą:
 
-* wprawić się w używaniu konsoli, nie mając komputera pod ręką;
+* wprawić się w używaniu konsoli, nie mając komputera pod ręką;
 * użyć sprawdzonych konsolowych programów na telefonie;
 * zmienić smartfona z&nbsp;narzędzia konsumpcji w&nbsp;pełnoprawne narzędzie pracy.
 
 Radzę brać wersję z&nbsp;F-Droida. [Ta z&nbsp;Play Store'a jest przestarzała](https://wiki.termux.com/wiki/Termux_Google_Play), bo Google rzucał twórcom kłody pod nogi.
 
-Choć możliwości Termuksa są ogromne, nie trzeba wiedzy technicznej, żeby używać gotowych, przydatnych programików. To tylko kwestia wpisywania odpowiednich rzeczy. Już spieszę z&nbsp;przykładem.
+Choć możliwości Termuksa są ogromne, nie trzeba wiedzy technicznej, żeby używać gotowych, przydatnych programików. To tylko kwestia wpisywania odpowiednich rzeczy. Już spieszę z&nbsp;przykładem.
 
 ## Open source kontra YouTube
 
 Uwolnienie smartfona nie oznacza jeszcze uwolnienia się od Google'a.  
 Niektóre ich usługi nie mają swoich odpowiedników. Przykładem YouTube. Wielu materiałów -- również tych pomocnych przeciw samemu gigantowi -- zwyczajnie nie znajdziemy poza tą platformą.
 
-Motorola G22 miała zainstalowane aplikacje YouTube oraz YouTube Music. Oczekiwania duetu Google-Motorola były zapewne takie, że odwiedzam stronę przez aplikację i tylko streamuję sobie multimedia.
+Motorola G22 miała zainstalowane aplikacje YouTube oraz YouTube Music. Oczekiwania duetu Google-Motorola były zapewne takie, że odwiedzam stronę przez aplikację i tylko streamuję sobie multimedia.
 
 Nie mam niczego na własność i&nbsp;jest mi z&nbsp;tym źle. Wszystko może wyparować, gdy twórca dostanie [losowego bana](/google/2022/04/18/youtube-ai-reklamy#banowanie-idemonetyzacja){:.internal}.
 
@@ -459,9 +459,9 @@ Z tego względu wolę mieć multimedia u&nbsp;siebie, na „dysku” smartfona. 
 
 Do uzyskania niezależności można użyć `yt-dlp`, uniwersalnego pobieracza multimediów ([z wielu stron](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md); w&nbsp;żadnym razie nie zmuszam do odwiedzania YouTube'a).
 
-To programik konsolowy, więc do działania wymaga Termuksa. No i&nbsp;przyda się odtwarzacz, jak wspomniany już VLC, żeby posłuchać pobranych rzeczy. Z&nbsp;kolei na temat instalacji i&nbsp;używania `yt-dlp` na Androidzie już się kiedyś [rozpisałem](/tutorials/yt-dlp-android){:.internal}.
+To programik konsolowy, więc do działania wymaga Termuksa. No i&nbsp;przyda się odtwarzacz, jak wspomniany już VLC, żeby posłuchać pobranych rzeczy. Z&nbsp;kolei na temat instalacji i&nbsp;używania `yt-dlp` na Androidzie już się kiedyś [rozpisałem](/tutorials/yt-dlp-android){:.internal}.
 
-Mając ten programik, mógłbym odwiedzić dowolną wspieraną stronkę przez Firefoksa. Skopiować sobie link do strony z&nbsp;piosenką. A&nbsp;wewnątrz Termuksa przejść do publicznego folderu na muzykę i&nbsp;użyć komendy:
+Mając ten programik, mógłbym odwiedzić dowolną wspieraną stronkę przez Firefoksa. Skopiować sobie link do strony z&nbsp;piosenką. A&nbsp;wewnątrz Termuksa przejść do publicznego folderu na muzykę i&nbsp;użyć komendy:
 
 ```
 yt-dlp -f bestaudio SKOPIOWANY_LINK

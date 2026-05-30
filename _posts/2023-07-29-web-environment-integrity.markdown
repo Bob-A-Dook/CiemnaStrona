@@ -19,14 +19,14 @@ Już dawno nie było na tym blogu wpisu *ściśle poświęconego Google'owi*. Oc
 
 Ale teraz, jak rzadko kiedy, warto skierować całą artylerię *konkretnie na nich*. Ponieważ w&nbsp;ostatnich dniach zaproponowali wbudowanie w&nbsp;swoją przeglądarkę -- Chrome'a -- nowej, dość dystopijnej funkcji.
 
-Jeśli to wejdzie w&nbsp;życie, to przeglądarka będzie mogła na nas donosić. **Gwarantować stronom internetowym, że nasze urządzenia nie były modyfikowane w&nbsp;sposób, który by się tym stronom nie podobał**.
+Jeśli to wejdzie w&nbsp;życie, to przeglądarka będzie mogła na nas donosić. **Gwarantować stronom internetowym, że nasze urządzenia nie były modyfikowane w&nbsp;sposób, który by się tym stronom nie podobał**.
 
-Pomysł dopiero się krystalizuje, ale już budzi sprzeciw.  
+Pomysł dopiero się krystalizuje, ale już budzi sprzeciw.  
 W skrajnych przypadkach właściciele stron mogliby nie wpuszczać ludzi mających mniej popularne systemy operacyjne (jak mobilne Linuksy), nietypowe przeglądarki (jak Tor Browser)... A&nbsp;może nawet dodatki do przeglądarek, jak te od blokowania śledzących reklam.
 
 Internet użytkowników może zacząć zanikać na rzecz internetu firm (w&nbsp;domyśle: większych korpo).
 
-Dlaczego to takie ważne? Dlaczego nowej funkcji nie będzie się dało w&nbsp;prosty sposób obejść? I&nbsp;dlaczego działania jednego Google'a uderzają we wszystkich?
+Dlaczego to takie ważne? Dlaczego nowej funkcji nie będzie się dało w&nbsp;prosty sposób obejść? I&nbsp;dlaczego działania jednego Google'a uderzają we wszystkich?
 
 Na te pytania -- w&nbsp;sposób jak najprzystępniejszy -- odpowiem w&nbsp;tym wpisie. Zapraszam!
 
@@ -59,7 +59,7 @@ Dla niektórych psinka to dodatek do przeglądarki. Dla innych alternatywny syst
 
 ## Zarys problemu
 
-Wszystko zaczęło się od opublikowania przez pracownika Google'a paru luźnych [notatek](https://github.com/RupertBenWiser/Web-Environment-Integrity) dotyczących nowej funkcji. Zasugerował publicznie, że jest testowana w&nbsp;przeglądarce Chromium. Jej nazwa -- *Web Environment Integrity API*. W&nbsp;skrócie **WEI**.
+Wszystko zaczęło się od opublikowania przez pracownika Google'a paru luźnych [notatek](https://github.com/RupertBenWiser/Web-Environment-Integrity) dotyczących nowej funkcji. Zasugerował publicznie, że jest testowana w&nbsp;przeglądarce Chromium. Jej nazwa -- *Web Environment Integrity API*. W&nbsp;skrócie **WEI**.
 
 To wystarczyło, żeby wywołać burzę. Bo sama nazwa mogła zapalić czerwoną lampkę w&nbsp;głowach osób śledzących tematy prywatności.  
 *Integrity* w&nbsp;rozumieniu Google'a to sposób na weryfikację „zwyczajności” systemu (o&nbsp;tym później). Zaś słowo *Web* sugerowało, że chcą to przenieść do realiów sieci.
@@ -76,7 +76,7 @@ Rozgorzały dyskusje na wielu forach.
 
 ## Web Environment Integrity – krok po kroku
 
-Człowiek kreatywny mógłby w&nbsp;tym momencie pomyśleć: „skoro Chrome na czyjeś życzenie zagląda w&nbsp;głąb naszego komputera/smartfona i&nbsp;stawia diagnozę... To czy nie dałoby się trochę w&nbsp;niej naściemniać? Że wszystko OK, strona może nas wpuścić?”.
+Człowiek kreatywny mógłby w&nbsp;tym momencie pomyśleć: „skoro Chrome na czyjeś życzenie zagląda w&nbsp;głąb naszego komputera/smartfona i&nbsp;stawia diagnozę... To czy nie dałoby się trochę w&nbsp;niej naściemniać? Że wszystko OK, strona może nas wpuścić?”.
 
 Niestety to nie takie proste. Ze względu na trzy rzeczy:
 
@@ -88,33 +88,33 @@ Omówmy je sobie po kolei. Będzie po ludzku, ale pobieżnie. Niestety musicie m
 
 ### Cyfrowe enklawy
 
-Żeby zrozumieć cały problem, musimy sobie uzmysłowić jedną bardzo ważną rzecz. Może ciut nieintuicyjną. **Wiele urządzeń elektronicznych zawiera chip niedostępny dla użytkowników. Jak by się nie starali, nie uzyskają dostępu do jego zawartości**.
+Żeby zrozumieć cały problem, musimy sobie uzmysłowić jedną bardzo ważną rzecz. Może ciut nieintuicyjną. **Wiele urządzeń elektronicznych zawiera chip niedostępny dla użytkowników. Jak by się nie starali, nie uzyskają dostępu do jego zawartości**.
 
 I nie mam tutaj na myśli, że to rzecz niedostępna dla szaraków, ale lepsi wymiatacze mogą złamać zabezpieczenia i&nbsp;podarować zwykłym ludziom *cracka*. Nie; te chipy z&nbsp;założenia mają być maksymalnie odizolowane od systemu. Jak nieprzeniknione, czarne skrzynki.
 
 {% include info.html
 type="Uwaga"
-text="Pisząc o&nbsp;tych chipach, będę nazywał je *enklawami*, ponieważ to moim zdaniem trafna nazwa (sugeruje izolację, odosobnienie).  
-Te niedostępne rejony naszych urządzeń mają jednak wiele nazw. *Trusted enclave* to tylko jedna z&nbsp;wielu, preferowana przez Apple.  
+text="Pisząc o&nbsp;tych chipach, będę nazywał je *enklawami*, ponieważ to moim zdaniem trafna nazwa (sugeruje izolację, odosobnienie).  
+Te niedostępne rejony naszych urządzeń mają jednak wiele nazw. *Trusted enclave* to tylko jedna z&nbsp;wielu, preferowana przez Apple.  
 Ale często używa się ogólnej nazwy *TPM* (*Trusted Platform Module*). Firma ARM nazywa swój wariant TrustZone. U&nbsp;Samsunga to Knox. Komputery z&nbsp;Windowsem mają chip Pluton, w&nbsp;procesorach Intela siedzi Intel Management Engine... I&nbsp;tak dalej.  
-Wiele nazw, wiele wariantów. Ale powtarza się motyw odizolowanej części systemu. Osoby głodne wiedzy mogą poszukać więcej pod hasłem `trusted computing` albo poczytać moje [przystępne wprowadzenie](/cyfrowy_feudalizm/2024/10/22/trusted-computing-kajdany){:.internal}."
+Wiele nazw, wiele wariantów. Ale powtarza się motyw odizolowanej części systemu. Osoby głodne wiedzy mogą poszukać więcej pod hasłem `trusted computing` albo poczytać moje [przystępne wprowadzenie](/cyfrowy_feudalizm/2024/10/22/trusted-computing-kajdany){:.internal}."
 %}
 
 #### Jasna strona enklaw?
 
-Choć chipy poza kontrolą ludzi brzmią dystopijnie, można jakoś racjonalizować ich istnienie. Nawet ludzie skądinąd doświadczeni w&nbsp;sprawach cyfrowej prywatności (jak [twórca internetowy *The Hated One* oraz autor systemu GrapheneOS](https://www.youtube.com/watch?v=yTeAFoQnQPo)) wypowiadali się o&nbsp;nich pozytywnie.
+Choć chipy poza kontrolą ludzi brzmią dystopijnie, można jakoś racjonalizować ich istnienie. Nawet ludzie skądinąd doświadczeni w&nbsp;sprawach cyfrowej prywatności (jak [twórca internetowy *The Hated One* oraz autor systemu GrapheneOS](https://www.youtube.com/watch?v=yTeAFoQnQPo)) wypowiadali się o&nbsp;nich pozytywnie.
 
-Przykładem ich zastosowań są czytniki linii papilarnych w&nbsp;smartfonach. Kiedy po raz pierwszy „uczymy” urządzenia naszego odcisku palca, to musi gdzieś go sobie zapisać. Żeby potem porównywać z&nbsp;tym wzorcem palec na czytniku.
+Przykładem ich zastosowań są czytniki linii papilarnych w&nbsp;smartfonach. Kiedy po raz pierwszy „uczymy” urządzenia naszego odcisku palca, to musi gdzieś go sobie zapisać. Żeby potem porównywać z&nbsp;tym wzorcem palec na czytniku.
 
-Wyobraźmy sobie, że zapisuje go do jakiegoś zwykłego folderu. A&nbsp;potem ktoś kradnie nam telefon i&nbsp;zdobywa ten plik. Niewesoła perspektywa, nieprawdaż?
+Wyobraźmy sobie, że zapisuje go do jakiegoś zwykłego folderu. A&nbsp;potem ktoś kradnie nam telefon i&nbsp;zdobywa ten plik. Niewesoła perspektywa, nieprawdaż?
 
 {:.post-meta .bigspace-after}
-W tym miejscu nieco upraszczam, bo smartfon trzymałby raczej nie obrazek, lecz zwięzłą postać, do której go „ścisnął”. Tak czy siak to dość wrażliwa rzecz.
+W tym miejscu nieco upraszczam, bo smartfon trzymałby raczej nie obrazek, lecz zwięzłą postać, do której go „ścisnął”. Tak czy siak to dość wrażliwa rzecz.
 
 Dlatego odcisk zostaje zapisany w&nbsp;enklawie. Nikt się do niego nie dostanie. System może tam co najwyżej wysyłać inne odciski z&nbsp;pytaniem: „czy ten zapisany wygląda tak samo?”.
 
 Inny przykład to zabezpieczenie przed łamaniem kodów PIN.  
-Ktoś mógłby podpiąć pod telefon urządzenie próbujące z&nbsp;wielką szybkością wszystkich możliwych kombinacji. `1111`, `1112`... W&nbsp;końcu by trafił.
+Ktoś mógłby podpiąć pod telefon urządzenie próbujące z&nbsp;wielką szybkością wszystkich możliwych kombinacji. `1111`, `1112`... W&nbsp;końcu by trafił.
 
 Ale jeśli w&nbsp;enklawie umieści się jej własny, niezależny zegar, to będzie ona w&nbsp;stanie ściśle kontrolować tempo wprowadzania haseł. Po kilku nieudanych próbach -- blokada na jakiś czas. Koniec z&nbsp;łamaniem haseł na siłę.
 
@@ -122,7 +122,7 @@ Ale jeśli w&nbsp;enklawie umieści się jej własny, niezależny zegar, to będ
 
 Kolejnym elementem układanki jest **cyfrowy podpis**.
 
-Choć nazywa się to „podpisem”, nie musimy od razu sobie wyobrażać pióra lub długopisu w&nbsp;czyjejś dłoni. W&nbsp;świecie komputerów chodzi ogólnie o&nbsp;*oznaczenie niemożliwe do podrobienia*. Oparte o&nbsp;kryptografię, czyli szyfry.
+Choć nazywa się to „podpisem”, nie musimy od razu sobie wyobrażać pióra lub długopisu w&nbsp;czyjejś dłoni. W&nbsp;świecie komputerów chodzi ogólnie o&nbsp;*oznaczenie niemożliwe do podrobienia*. Oparte o&nbsp;kryptografię, czyli szyfry.
 
 Analogia? Już w&nbsp;średniowieczu królowie mieli sposób na gwarantowanie autentyczności listów. Zamykano je lakiem. A&nbsp;król odciskał na tym laku swoją charakterystyczną [pieczęć](https://e-pieczatki24.pl/pytania/pieczec-lakowa/). Odbiorca znający wygląd pieczęci -- i&nbsp;widzący, że jest nienaruszona -- miał pewność, że dostał list od króla, i&nbsp;że nikt do niego nie zaglądał.
 
@@ -131,7 +131,7 @@ Z jednej strony -- właściciel pieczątki jest w&nbsp;stanie ją przybijać w&n
 
 W takich warunkach mielibyśmy pewność, że korespondencja faktycznie pochodzi od króla. Jeśli do tego założymy, że tylko on ma dostęp do pieczęci, i&nbsp;że trzyma ją w&nbsp;bezpiecznym miejscu (chronionym zamku)... To wszelkie próby podrobienia listów spalą na panewce.
 
-Wróćmy do rzeczywistości cyfrowej. Taki odpowiednik pieczęci tkwi wewnątrz enklawy. Sterujący nią program może dzięki temu podpisywać cyfrowo różne rzeczy. Ich odbiorcy będą mieli gwarancję, że dostali coś od enklawy, a&nbsp;nie podróbkę.
+Wróćmy do rzeczywistości cyfrowej. Taki odpowiednik pieczęci tkwi wewnątrz enklawy. Sterujący nią program może dzięki temu podpisywać cyfrowo różne rzeczy. Ich odbiorcy będą mieli gwarancję, że dostali coś od enklawy, a&nbsp;nie podróbkę.
 
 <img src="/assets/posts/google/web_environment_integrity/secure-enclave-schemat.jpg" alt="Schemat pokazujący enklawę jako czarną skrzynkę w&nbsp;przekroju poprzecznym. Po lewej stronie widać rurę łączącą ją z&nbsp;otoczeniem. Na ścianie wisi zegar, a&nbsp;w rogu stoi stół, na którym leżą: przedmiot przypominający odcisk palca oraz notes z&nbsp;listą. Niektóre punkty zawierają przy sobie zielone haczyki, a&nbsp;przy ostatnim stoi czerwony krzyżyk. Pośrodku stoi robot C3PO z&nbsp;klocków Lego, symbolizujący program obsługujący enklawę."/>
 
@@ -144,7 +144,7 @@ Mamy tutaj: niezależny zegar, narzędzie do podpisów cyfrowych, listę kontrol
 
 Wiemy już, że enklawa jest niezależna od reszty systemu. I&nbsp;że może składać swoje cyfrowe podpisy, niemożliwe do podrobienia. A&nbsp;teraz spójrzmy, do czego mogłaby je wykorzystać.
 
-Wyobraźmy sobie, że naciskamy przycisk włączający nasz komputer. Odpływamy myślami, podczas gdy coś się wyświetla w&nbsp;rogu ekranu, zaczynają pojawiać się ikony producentów... A&nbsp;potem ekran logowania do naszego systemu.
+Wyobraźmy sobie, że naciskamy przycisk włączający nasz komputer. Odpływamy myślami, podczas gdy coś się wyświetla w&nbsp;rogu ekranu, zaczynają pojawiać się ikony producentów... A&nbsp;potem ekran logowania do naszego systemu.
 
 A za kulisami? Cały łańcuszek zdarzeń. Pierwszy sygnał elektryczny *budzi* naszą płytę główną i&nbsp;wbudowany w&nbsp;nią bardzo mały program. Ten budzi kolejny, nieco większy. I&nbsp;tak dalej, aż ruszy cały nasz system.
 
@@ -160,14 +160,14 @@ Po angielsku znamy ten proces jako [*trusted boot*](https://learn.microsoft.com/
 
 Mamy już wszystkie cegiełki, więc zbudujmy z&nbsp;nich nasze dzieło. *Web Environment Integrity*.
 
-Na samym, samiuśkim początku producent urządzeń umieszcza w&nbsp;nich enklawy. Każdą wyposaża w&nbsp;narzędzie do cyfrowych podpisów. Jednocześnie udostępnia publicznie informację, jak taki podpis powinien wyglądać.
+Na samym, samiuśkim początku producent urządzeń umieszcza w&nbsp;nich enklawy. Każdą wyposaża w&nbsp;narzędzie do cyfrowych podpisów. Jednocześnie udostępnia publicznie informację, jak taki podpis powinien wyglądać.
 
 {:.post-meta .bigspace-after}
 Nie jest to tajemnicą. W&nbsp;świecie cyfrowym wiedza na temat wyglądu podpisu nijak nie ułatwi jego podrobienia.
 
 Następnie kupujemy takie urządzenie z&nbsp;enklawą i&nbsp;je uruchamiamy. A&nbsp;że mamy włączony tryb *secure boot*, to każdy etap jest dokładnie weryfikowany. Werdykt z&nbsp;weryfikacji zostaje szczelnie zamknięty w&nbsp;enklawie.
 
-Potem zaczynamy korzystać z&nbsp;przeglądarki Chrome. I&nbsp;tu zaczynają się nadużycia.
+Potem zaczynamy korzystać z&nbsp;przeglądarki Chrome. I&nbsp;tu zaczynają się nadużycia.
 
 * Istnieje strona internetowa, która chce zweryfikować, czy używamy prawilnego (w&nbsp;korpojęzyku: *appropriate*) systemu operacyjnego.
 * Wysyła do Chrome'a prostą prośbę. „Sprawdź integralność systemu użytkownika X”.
@@ -207,11 +207,11 @@ Ale nie tylko, bo korzysta z&nbsp;niego wiele innych przeglądarek. Opera, Vival
 
 Ci wszyscy twórcy mogliby próbować wyłuskiwać z&nbsp;Chromium tylko wybrane rzeczy (jak łatki bezpieczeństwa, poprawki do szybkości działania). I&nbsp;wyrzucać kontrowersyjne, jak nasze WEI.
 
-Ale z&nbsp;czasem ich przeglądarka coraz bardziej by odjeżdżała od Chromium. Google może dodawać nowe funkcje, oparte na starych. Jeśli jakaś nowinka opiera się na WEI, a&nbsp;oni go nie mają... To musieliby tę nowinkę napisać od nowa. A&nbsp;mieli przecież „płynąć z&nbsp;nurtem Chromium”, a&nbsp;nie pod prąd. 
+Ale z&nbsp;czasem ich przeglądarka coraz bardziej by odjeżdżała od Chromium. Google może dodawać nowe funkcje, oparte na starych. Jeśli jakaś nowinka opiera się na WEI, a&nbsp;oni go nie mają... To musieliby tę nowinkę napisać od nowa. A&nbsp;mieli przecież „płynąć z&nbsp;nurtem Chromium”, a&nbsp;nie pod prąd. 
 
 Pozostała dwójka -- Firefox od Mozilli oraz Safari od Apple -- ma własne silniki, więc jest nieco mniej uwiązana. Ale na nich mogą z&nbsp;kolei naciskać użytkownicy.
 
-> Strona banku mi u&nbsp;was nie działa. Że co, wymaga jakiejś atestacji? To ją dodajcie, chcę żeby działało.
+> Strona banku mi u&nbsp;was nie działa. Że co, wymaga jakiejś atestacji? To ją dodajcie, chcę żeby działało.
 
 ### Sprawa Apple'a
 
@@ -247,7 +247,7 @@ Ktoś mógłby stwierdzić, że nowa propozycja Google'a to nic nowego, więc af
 Co do zdalnej atestacji -- oczywiście, była ograniczeniem i&nbsp;utrapieniem dla alternatywnych systemów smartfonowych, jak LineageOS.  
 Ale, po pierwsze, nie wychodziła poza sprawdzanie samego systemu. Nie oceniała nam aplikacji. A&nbsp;sposób, w jaki Google prezentuje WEI, sugeruje możliwość oceniania przeglądarki. A&nbsp;nawet jej dodatków.
 
-Po drugie: jeśli jakaś apka nie pozwalała z&nbsp;siebie korzystać, to często mogliśmy wejść na odpowiadającą jej stronę internetową. Wiele firm udostępniało taki wariant. A&nbsp;tam, z racji używania ogólnej przeglądarki, mieliśmy nieco więcej kontroli.
+Po drugie: jeśli jakaś apka nie pozwalała z&nbsp;siebie korzystać, to często mogliśmy wejść na odpowiadającą jej stronę internetową. Wiele firm udostępniało taki wariant. A&nbsp;tam, z racji używania ogólnej przeglądarki, mieliśmy nieco więcej kontroli.
 
 A DRM? Jasne, odbiera wolność. Ale jest stosunkowo rzadki. Odnosi się tylko do multimediów i&nbsp;do niektórych stron. Głównie dużych platform, takich jak Netflix.
 
@@ -260,11 +260,11 @@ Samo istnienie nowej możliwości będzie rodziło patologiczne pokusy.
 Wyobraźmy sobie jakąś naradę, *meeting* w&nbsp;korporacji. W&nbsp;takich miejscach nieraz pojawiają się głupie pomysły.
 
 Pojawia się problem! Użytkownicy omijają nachalną reklamę, używając popularnego dodatku do przeglądarki. Menedżer widzi te niechlubne dane. Ale zamiast dostrzec problem po swojej stronie, próbuje go zakleić łatką.  
-Pyta kogoś z&nbsp;działu informatycznego: „czy da się sprawić, żeby *musieli* to obejrzeć?”.
+Pyta kogoś z&nbsp;działu informatycznego: „czy da się sprawić, żeby *musieli* to obejrzeć?”.
 
 Dawniej odpowiedź brzmiałaby „nie”. Albo „to skomplikowane”. Jasne, istniały systemy od *blokowania blokerów reklam* albo wykrywania automatów. Ale ich metody były inwazyjne i&nbsp;niedokładne. Jeśli ktoś na porządnie się brał za ich obejście, to zwykle się to udawało.
 
-A teraz? Osoba z&nbsp;działu informatycznego musiałaby niechętnie przyznać, że Chrome pozwala wymusić kontrolę paroma linijkami kodu. A&nbsp;zadowolony menedżer każe wtedy dodać WEI do strony. Nie patrząc na efekty uboczne.
+A teraz? Osoba z&nbsp;działu informatycznego musiałaby niechętnie przyznać, że Chrome pozwala wymusić kontrolę paroma linijkami kodu. A&nbsp;zadowolony menedżer każe wtedy dodać WEI do strony. Nie patrząc na efekty uboczne.
 
 Ta łatwość izolowania stron może szybko i&nbsp;radykalnie zmienić obraz internetu.
 
@@ -277,13 +277,13 @@ Dosłownie to „agent użytkownika”. Ale nie chodzi o&nbsp;„agenta” w&nbs
 
 Zatem **pierwsze przeglądarki w&nbsp;samej swojej nazwie miały obietnicę. Miały działać w&nbsp;naszym interesie**. Miały być dla nas! Pozwalać nam oglądać internet, ale zostawiać nam kontrolę i&nbsp;ostatnie słowo.
 
-Jak tu oceniać działania Google'a oraz ich inicjatywy osłabiające użytkowników? DRM-y, usuwanie z&nbsp;przeglądarki niektórych opcji... A&nbsp;teraz WEI, czyli przeglądarka-donosiciel.
+Jak tu oceniać działania Google'a oraz ich inicjatywy osłabiające użytkowników? DRM-y, usuwanie z&nbsp;przeglądarki niektórych opcji... A&nbsp;teraz WEI, czyli przeglądarka-donosiciel.
 
 Pod względem etycznym działania Google'a są sprzeczne z&nbsp;samą ideą przeglądarek. Ale co się dziwić? Kiedyś szczycili się sloganem *Don't be evil*. Potem od niego odeszli.
 
 ### Wiarygodny scenariusz
 
-Wyobraźmy sobie sytuację, która ma dużą szansę się wydarzyć.
+Wyobraźmy sobie sytuację, która ma dużą szansę się wydarzyć.
 
 Ktoś stworzył alternatywny system operacyjny. Fajny, uwzględniający potrzeby użytkowników. Może na przykład coś na bazie Linuksa? Dajmy na to -- KumpeLinux (nazwa zmyślona).
 
@@ -337,7 +337,7 @@ Podsumowując: automaty pozwoliły niezależnym osobom uzyskać informacje cenne
 
 A teraz **Google staje po stronie platform, dając im łatwe blokowanie automatów. W&nbsp;takich realiach wspomniane pożyteczne inicjatywy mogłyby nigdy nie powstać**. Bariera byłaby za wysoka dla hobbystów, a&nbsp;duzi gracze nadal umywaliby ręce.
 
-Tym przykładem zakończę wpis. WEI byłoby zmianą na gorsze. Uderzy w&nbsp;wiele aspektów internetu, nieraz w&nbsp;sposób nieprzewidywalny. Dlatego -- nawet jeśli czujemy znużenie gierkami Google'a -- jeszcze raz stawmy opór.
+Tym przykładem zakończę wpis. WEI byłoby zmianą na gorsze. Uderzy w&nbsp;wiele aspektów internetu, nieraz w&nbsp;sposób nieprzewidywalny. Dlatego -- nawet jeśli czujemy znużenie gierkami Google'a -- jeszcze raz stawmy opór.
 
 Bądźmy kreatywni w&nbsp;walce z&nbsp;nowym zagrożeniem. Życzę nam powodzenia! :smile:
 

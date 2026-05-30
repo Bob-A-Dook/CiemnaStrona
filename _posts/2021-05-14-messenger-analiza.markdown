@@ -115,14 +115,14 @@ Odrobinę tutaj pomagają konwersacje grupowe, ponieważ ludzie mogą pisać o&n
 
 No i&nbsp;marzenie nadgorliwego menedżera -- mając znacznik czasu, można łatwo sprawdzić, czy ktoś wysłał wiadomość w&nbsp;czasie pracy!
 
-Wprowadziłem osobną statystykę: **jaki procent wszystkich wiadomości został wysłany między poniedziałkiem a&nbsp;piątkiem i&nbsp;między 8:00 a&nbsp;16:00**? Zobaczymy, kto się messengeruje zamiast pracować!
+Wprowadziłem osobną statystykę: **jaki procent wszystkich wiadomości został wysłany między poniedziałkiem a&nbsp;piątkiem i&nbsp;między 8:00 a&nbsp;16:00**? Zobaczymy, kto się messengeruje zamiast pracować!
 
 U mnie wyszło 25%, z&nbsp;czego część zapewne w&nbsp;czasie wolnym. Nuuda.  
 Ale u&nbsp;rekordzistki to już 70,5%. Bez obaw, M., nie wypaplam nikomu.
 
 Żeby dopracować metodę, mógłbym zebrać listę dni ustawowo wolnych i&nbsp;nie liczyć tego, co napisano w&nbsp;ich trakcie. Ale wciąż nie miałbym sposobu na odjęcie dni urlopowych, które mogą wypadać kiedykolwiek.
 
-Natomiast, jeśli korpolobby zniesie kiedyś przepisy o&nbsp;ochronie danych, to mam taką wizję:
+Natomiast, jeśli korpolobby zniesie kiedyś przepisy o&nbsp;ochronie danych, to mam taką wizję:
 
 > Facebook zakłada usługę *Employee Productivity by Facebook*.  
 Korpo w&nbsp;ramach subskrypcji mogą im wysyłać arkusze z grafikiem swoich pracowników sprzed jakiegoś czasu. A&nbsp;w odpowiedzi dostaną elegancki raporcik z&nbsp;informacją, ile wiadomości wysłały te osoby przez Messengera w&nbsp;czasie pracy.  
@@ -211,7 +211,7 @@ W nim mamy pięć podfolderów:
 <tr><td>archived<wbr>_threads</td><td>konwersacje, które opuściliśmy – wiadomości tylko do momentu odejścia</td></tr>
 </table>
 
-W czterech ostatnich folderach znajdują się podfoldery. Każdy odpowiada jednej konwersacji i&nbsp;zawiera materiały dodatkowe (wysłane w&nbsp;tej konwersacji zdjęcia, GIF-y itp.). A&nbsp;także plik albo pliki w&nbsp;formacie JSON z&nbsp;wiadomościami wymienionymi w&nbsp;konwersacji.
+W czterech ostatnich folderach znajdują się podfoldery. Każdy odpowiada jednej konwersacji i&nbsp;zawiera materiały dodatkowe (wysłane w&nbsp;tej konwersacji zdjęcia, GIF-y itp.). A&nbsp;także plik albo pliki w&nbsp;formacie JSON z&nbsp;wiadomościami wymienionymi w&nbsp;konwersacji.
 
 To te pliki JSON analizujemy.
 
@@ -224,7 +224,7 @@ Tak wygląda treść przykładowego pliku z&nbsp;konwersacją dwóch osób w&nbs
 {:.figure .bigspace}
 <img src="/assets/posts/messenger-analiza/json-wiadomosc.webp" alt="Zrzut ekranu z&nbsp;pliku JSON z&nbsp;wiadomościami. Kolorem pomarańczowym otoczono element pierwszy, nazwany 'participants', a zielonym treść jednej z&nbsp;kilku wiadomości z&nbsp;listy."/>
 
-Nawiasy kwadratowe wydzielają proste listy, a&nbsp;nawiasy wąsate -- tzw. słowniki (listy złożone z par nazwa-wartość). Te dwa rodzaje elementów mogą być w&nbsp;sobie zagnieżdżone.
+Nawiasy kwadratowe wydzielają proste listy, a&nbsp;nawiasy wąsate -- tzw. słowniki (listy złożone z par nazwa-wartość). Te dwa rodzaje elementów mogą być w&nbsp;sobie zagnieżdżone.
 
 W pliku są dwa najważniejsze elementy: `participants` (lista uczestników) i&nbsp;`messages` (wiadomości). Jest też parę innych rzeczy, ale nie znalazłem dla nich zastosowania.
 
@@ -235,7 +235,7 @@ Zieloną ramką otoczyłem przykładową wiadomość. Jej atrybuty to:
 <tr><td><code>timestamp<wbr>_ms</code></td><td>Znacznik czasu; kiedy wysłano.</td></tr>
 <tr><td><code>content</code></td><td>Tekst wiadomości.</td></tr>
 <tr><td><code>reactions</code></td><td>Lista reakcji w&nbsp;formie emoji pod wiadomością. Każda z&nbsp;nich ma atrybut <code>reaction</code> (jaka to emota) oraz <code>actor</code> (kto ją wysłał).</td></tr>
-<tr><td><code>type</code></td><td>Mówi, czy to wiadomość od kogoś czy komunikat od Messengera.</td></tr>
+<tr><td><code>type</code></td><td>Mówi, czy to wiadomość od kogoś czy komunikat od Messengera.</td></tr>
 <tr><td><code>is_<wbr>unsent</code></td><td>Czy wiadomość została usunięta.</td></tr>
 </table>
 
@@ -248,7 +248,7 @@ Niestety, **jeśli ktoś opuścił konwersację, to go na tej liście nie będzi
 
 Dlatego dla pewności, zamiast patrzeć na listę spod `participants`, po prostu zbierałem wszystkie wiadomości i&nbsp;odczytywałem ich autorów.
 
-Zatem sposób na jeden z dwóch głównych elementów to zignorowanie :sunglasses:  
+Zatem sposób na jeden z dwóch głównych elementów to zignorowanie :sunglasses:  
 A co z&nbsp;samymi wiadomościami? Każda zawiera kilka cennych elementów, które trzeba rozpracować na różne sposoby.
 
 # Daty
@@ -269,11 +269,11 @@ date = datetime.fromtimestamp( timestamp )
 
 # Emoji
 
-Mogą pojawiać się zarówno w&nbsp;samym tekście wiadomości, jak i&nbsp;na liście otrzymanych reakcji.
+Mogą pojawiać się zarówno w&nbsp;samym tekście wiadomości, jak i&nbsp;na liście otrzymanych reakcji.
 
 Reakcje muszą być „prawilnymi” emoji z&nbsp;zamkniętej listy, więc nie sprawiają kłopotów. Pewien niuans pojawia się za to przy wiadomościach.
 
-Z punktu widzenia użytkownika sprawa jest prosta. Korzystając z&nbsp;Messengera, wpisujemy skrót emoty z klawiatury (np. `:P`, `:|` itp.) albo wybieramy ją z&nbsp;przybornika. Emota się pojawia.
+Z punktu widzenia użytkownika sprawa jest prosta. Korzystając z&nbsp;Messengera, wpisujemy skrót emoty z klawiatury (np. `:P`, `:|` itp.) albo wybieramy ją z&nbsp;przybornika. Emota się pojawia.
 
 Okazuje się jednak, że Facebook zapisuje te dwie odmiany zupełnie inaczej.  
 **Jeśli wpiszemy emoji jako skrót tekstowy, to właśnie tak zapisze się w&nbsp;pliku**. Jeśli wstawimy jako obrazek, to w&nbsp;pliku JSON-a zapisze się kod odpowiadający emoji.
@@ -301,7 +301,7 @@ To na przykład wszelkie emoty pokazujące postacie o&nbsp;jakimś odcieniu skó
 
 Na chwilę obecną nie rozwiązałem jeszcze tej sprawy. Znalazłem kod, który pozwala dokładniej grupować emoty, ale wymaga dodatkowego modułu Pythona (więc zdradziłbym ideę „pobierz i&nbsp;odpal”). Do tego działa raczej powoli. Dlatego póki co nastawcie się na rozszczepione emotki.
 
-Ostatnia zagwozdka to dłuższe ciągi emoji. Liczyć każdy z&nbsp;nich jako osobną rzecz czy patrzeć tylko na emoty, z&nbsp;jakich się składa?
+Ostatnia zagwozdka to dłuższe ciągi emoji. Liczyć każdy z&nbsp;nich jako osobną rzecz czy patrzeć tylko na emoty, z&nbsp;jakich się składa?
 
 Jeśli ktoś używa dwóch rodzajów uśmieszków, ale urozmaica (raz da jeden, raz kilka identycznych, czasem wymiesza), to ma sztucznie zawyżoną liczbę. Bo często kilka emot pod rząd ma tylko zwiększać efekt (tak jak np. potrójny wykrzyknik w&nbsp;zdaniu).
 
@@ -309,7 +309,7 @@ Ale niektóre takie kombinacje mają specjalne znaczenie -- choćby [zestaw oko-
 
 Gdybym chciał tu być perfekcjonistą, to bym musiał przechowywać listę takich specjalnych kombinacji. A&nbsp;i tak nie byłoby to stuprocentowo skuteczne.
 
-Na szczęście poprzednia sprawa niejako narzuca rozwiązanie. Nie rozdzielam emoji, bo w&nbsp;obecnym stanie bym przez to rozbijał niektóre z&nbsp;nich na części. Patrzę na całe ich ciągi. Więc trzy uśmieszki jeden po drugim traktuję jak coś innego niż pojedynczy.
+Na szczęście poprzednia sprawa niejako narzuca rozwiązanie. Nie rozdzielam emoji, bo w&nbsp;obecnym stanie bym przez to rozbijał niektóre z&nbsp;nich na części. Patrzę na całe ich ciągi. Więc trzy uśmieszki jeden po drugim traktuję jak coś innego niż pojedynczy.
 
 # Tekst
 
@@ -333,7 +333,7 @@ Oprócz samych znaków patrzę również na słowa. Proces rozbijania zdania na 
 * W&nbsp;tym przypadku zadziała, ale skróty takie jak *m.in.* rozbije na `m` oraz `in`. Trzeba by mieć listę wyjątków, których nie dzielimy.
 
 Dlatego dokładna tokenizacja wymaga dużo, bardzo dużo pracy. Albo pobrania cięższych modułów.  
-Ja poszedłem na łatwiznę i&nbsp;po prostu rozbijam na spacjach i&nbsp;popularnych znakach interpunkcyjnych. A&nbsp;potem biorę tylko te tokeny, które składają się wyłącznie z&nbsp;liter. Na koniec sprowadzam wszystko do małych liter.
+Ja poszedłem na łatwiznę i&nbsp;po prostu rozbijam na spacjach i&nbsp;popularnych znakach interpunkcyjnych. A&nbsp;potem biorę tylko te tokeny, które składają się wyłącznie z&nbsp;liter. Na koniec sprowadzam wszystko do małych liter.
 
 ```python
 import re
@@ -368,7 +368,7 @@ Efekt? Odpaliłem skrypt i&nbsp;wyszło mi, że najczęściej dodawana rzecz to 
 
 Problemy mniej więcej rozwiązane, działa! :smile:
 
-Ale wszystko jest fajnie, dopóki ładuję tylko konwersacje, w&nbsp;których brałem udział (czyli *de facto* wszystko).  
+Ale wszystko jest fajnie, dopóki ładuję tylko konwersacje, w&nbsp;których brałem udział (czyli *de facto* wszystko).  
 A co, jeśli chcę sprawdzić wiadomości dla innej osoby?
 
 Wtedy jest sporo marnotrawstwa. Program ładuje i&nbsp;sprawdza wszystkie 700+ konwersacji, nawet jeśli wybrana osoba jest tylko w&nbsp;kilku.

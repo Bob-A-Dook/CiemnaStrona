@@ -24,7 +24,7 @@ One również prowadzą swoistą inwazję. Tyle że nie są od nas oddalone o&nb
 
 Po krótkim omówieniu sytuacji pokażę kilka sposobów na znajdowanie i&nbsp;zgłaszanie trolli. Od najprostszych, dostępnych dla każdego, po półautomatyczne, wymagające większego zaangażowania. Wcielając je w&nbsp;życie, możemy walczyć na internetowym froncie w&nbsp;sposób systematyczny i&nbsp;zorganizowany.
 
-<img src="/assets/posts/trolle/demon-slayer-trolle-baner.jpg" alt="Kadr z&nbsp;anime pokazujący postać wykonującą znad głowy płomienne cięcie uderzające w&nbsp;kark drugiej postaci. Postać zadająca cios ma twarz zakrytą logiem tego bloga, a&nbsp;postać uderzona ma zamiast twarzy rysunkową twarz typu trollface, tu w&nbsp;wersji przestraszonej."/>
+<img src="/assets/posts/trolle/demon-slayer-trolle-baner.jpg" alt="Kadr z&nbsp;anime pokazujący postać wykonującą znad głowy płomienne cięcie uderzające w&nbsp;kark drugiej postaci. Postać zadająca cios ma twarz zakrytą logiem tego bloga, a&nbsp;postać uderzona ma zamiast twarzy rysunkową twarz typu trollface, tu w&nbsp;wersji przestraszonej."/>
 
 {:.figcaption}
 Źródło: anime *Demon Slayer* (jap. *Kimetsu no Yaiba*). Przeróbki moje.
@@ -55,10 +55,10 @@ Ale świat nie jest czarno-biały, wątpliwości można mieć zawsze.
 „Czy nagonka na trolle nie pogłębia klimatu polowania na czarownice?”.  
 „Czy zgłaszanie nie będzie miało skutku ubocznego -- normalizowania cenzury i&nbsp;oddawania władzy wielkim organizacjom?”.
 
-To sensowne wątpliwości, więc krótko się do nich odniosę.
+To sensowne wątpliwości, więc krótko się do nich odniosę.
 
 Jeśli chodzi o&nbsp;polowanie na czarownice, to rozumiem obawy. Widziałem już, jak ruskimi onucami nazywano osoby, które po prostu chciały dyskutować w&nbsp;sposób mniej emocjonalny.  
-Natomiast w&nbsp;tym przypadku, mówiąc o&nbsp;trollach, mam na myśli bardzo szczególne konta -- pod względem aktywności, zasięgów, powiązań. Nie nawołuję do emocjonalnej nagonki, tylko do precyzyjnych działań. Przeciw prowokatorom, którzy ów klimat wrogości tworzą.
+Natomiast w&nbsp;tym przypadku, mówiąc o&nbsp;trollach, mam na myśli bardzo szczególne konta -- pod względem aktywności, zasięgów, powiązań. Nie nawołuję do emocjonalnej nagonki, tylko do precyzyjnych działań. Przeciw prowokatorom, którzy ów klimat wrogości tworzą.
 
 Kolejna sprawa: cenzura. Jeśli walka z&nbsp;trollami, to pewnie zgłaszanie Facebookowi i&nbsp;spółce. Czy w&nbsp;ten sposób nie wzmacniamy ich władzy?  
 Te obawy też mogę uspokoić. **W walce z&nbsp;trollami internetowi giganci są częściej przeszkodą niż sojusznikiem**. Wpis będzie właśnie o&nbsp;tym, w&nbsp;jaki sposób można się organizować i&nbsp;działać niezależnie od nich.
@@ -124,9 +124,9 @@ Jeśli treść jest ewidentnie propagandowa, ale zdjęcie pokazuje prawdziwego c
 # Kapryśne mocarstwa -- Facebook i&nbsp;Twitter
 
 Dwaj giganci mediów społecznościowych, na których skupię się w&nbsp;tym wpisie.  
-Na pozór mogą się wydawać naszymi sojusznikami. W&nbsp;końcu oferują opcje zgłaszania postów i&nbsp;komentarzy. Poza tym twierdzą że coś robią. Czasem pochwalą się, że [zbanowali jakieś grupy](https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-meta-usuwa-grupy-z-facebooka-nawolywaly-m-in-do-protestow-pr,nId,5946692#crp_state=1) siejące dezinformację.
+Na pozór mogą się wydawać naszymi sojusznikami. W&nbsp;końcu oferują opcje zgłaszania postów i&nbsp;komentarzy. Poza tym twierdzą że coś robią. Czasem pochwalą się, że [zbanowali jakieś grupy](https://www.rmf24.pl/raporty/raport-wojna-z-rosja/news-meta-usuwa-grupy-z-facebooka-nawolywaly-m-in-do-protestow-pr,nId,5946692#crp_state=1) siejące dezinformację.
 
-Tylko że, niestety, wszystko dzieje się za zamkniętymi drzwiami. **Poza okazjonalnym komunikatem PR-owym nie dostajemy wielu informacji**. Jakie konta należały do zbanowanych grup? Jaki przekaz je łączył? Jakie wnioski na przyszłość możemy wyciągnąć? Nie dowiemy się.
+Tylko że, niestety, wszystko dzieje się za zamkniętymi drzwiami. **Poza okazjonalnym komunikatem PR-owym nie dostajemy wielu informacji**. Jakie konta należały do zbanowanych grup? Jaki przekaz je łączył? Jakie wnioski na przyszłość możemy wyciągnąć? Nie dowiemy się.
 
 Zresztą z&nbsp;tym banowaniem też bywa różnie. Czasem można „spaść z&nbsp;rowerka” przez naprawdę niewinne rzeczy. Innym razem, po zgłoszeniu czegoś poważnego, użytkownicy dostają wiadomość że platforma [nie widzi problemu](https://nitter.net/search?f=tweets&q=facebook+%22standard%C3%B3w%22&e-nativeretweets=on&since=&until=&near=).
 
@@ -207,7 +207,7 @@ odgryzł palec ratownikowi
 
 Albo „Putin wyzwolił”, „ukraińskie laboratoria”, „ukraina wielki reset”... Ogranicza nas jedynie wyobraźnia :wink: Kto się napatrzył na twórczość trolli lub spiskowych świrków, ten mniej więcej zna ten styl.
 
-Po znalezieniu podejrzanych komentarzy patrzymy na ich autora. Mało informacji na profilu, dużo propagandy? Jeśli tak, to jest duża szansa, że trafiliśmy na trolla.  
+Po znalezieniu podejrzanych komentarzy patrzymy na ich autora. Mało informacji na profilu, dużo propagandy? Jeśli tak, to jest duża szansa, że trafiliśmy na trolla.  
 Po złapaniu jednego możemy spojrzeć, kto powielał jego treści (*retweety*, udostępnienia) i&nbsp;w ten sposób być może złapać kolejnych.
 
 {% include info.html
@@ -215,7 +215,7 @@ type="Ciekawostka"
 text="Analizowanie tekstu -- a&nbsp;konkretnie powtarzających się, nietypowych zwrotów, udostępnianych w&nbsp;podobnym czasie -- pozwoliło między innymi [złapać właścicielkę popularnej strony propagandowej](https://www.facebook.com/marcinrey/posts/10221865438009670), nauczycielkę z&nbsp;Sosnowca."
 %}
 
-Pod komentarzami możemy oczywiście coś napisać od siebie, ale nie będę się na tym skupiał w&nbsp;tym wpisie. Mam co najwyżej jedną uwagę -- zazwyczaj **znacznie więcej jest osób czytających niż komentujących**. Proponuję pisać z&nbsp;myślą o publiczności; jakbyśmy byli przewodnikami, pokazującymi okaz trolla grupie zwiedzającej zoo.  
+Pod komentarzami możemy oczywiście coś napisać od siebie, ale nie będę się na tym skupiał w&nbsp;tym wpisie. Mam co najwyżej jedną uwagę -- zazwyczaj **znacznie więcej jest osób czytających niż komentujących**. Proponuję pisać z&nbsp;myślą o publiczności; jakbyśmy byli przewodnikami, pokazującymi okaz trolla grupie zwiedzającej zoo.  
 Moim zdaniem lepiej publicznie zdemaskować i&nbsp;rozbroić propagandę niż dawać upust emocjom i&nbsp;pisać teksty niskich lotów w&nbsp;stylu „won, ruska onuco”. W&nbsp;oczach postronnych wygląda to tak, jakbyśmy to my byli agresorami.
 
 A teraz przejdźmy do różnych form zgłaszania, lepszych i&nbsp;gorszych.
@@ -262,7 +262,7 @@ text="Strony mogą mieć wiele wariantów. Osobiście spotkałem się z&nbsp;co 
 # Wrzucanie oczyszczonych linków
 
 {:.post-meta .bigspace-after}
-**To część dla chętnych** -- jeśli będziemy po prostu kopiowali i&nbsp;wrzucali linki, też powinno być OK.
+**To część dla chętnych** -- jeśli będziemy po prostu kopiowali i&nbsp;wrzucali linki, też powinno być OK.
 
 Jak wspominałem, obie wielkie platformy dodają do linków teksty od siebie. Często w&nbsp;formie parametrów, czyli tekstu po znaku zapytania.  
 W najlepszym razie to nieszkodliwe śmieci, w&nbsp;najgorszym -- informacja wskazująca nasze konto jako źródło linku.
@@ -366,10 +366,10 @@ text="Nazwa dodatku to gra słów.
 
 Czujcie się ostrzeżeni! A&nbsp;teraz przejdźmy do instalacji i&nbsp;korzystania.
 
-Na początku odwiedzamy [stronę mojego dodatku](https://github.com/Bob-A-Dook/SelSword) na Githubie. Jest tam cały kod źródłowy, możemy się upewnić że jest bezpieczny.  
+Na początku odwiedzamy [stronę mojego dodatku](https://github.com/Bob-A-Dook/SelSword) na Githubie. Jest tam cały kod źródłowy, możemy się upewnić że jest bezpieczny.  
 Znajdujemy zielony przycisk `Code` i&nbsp;wybieramy opcję pobrania wszystkiego w&nbsp;formie pliku ZIP.
 
-Dalsze działania zależą od tego, jaką mamy przeglądarkę.
+Dalsze działania zależą od tego, jaką mamy przeglądarkę.
 
 {% include details.html summary="Chrome, Brave, Edge, Opera oraz inne na silniku Chromium" %}
 
@@ -415,9 +415,9 @@ Zarówno dodatek, jak i&nbsp;skrypt są w&nbsp;stanie robić swoje również na 
 
 {% include info.html
 type="Aktualizacja 2026"
-text="Autor Kiwi Browser jakiś czas temu ogłosił, że [przestaje ją rozwijać](https://old.reddit.com/r/Android/comments/1i86ybn/kiwi_browser_is_officially_discontinued/).  
+text="Autor Kiwi Browser jakiś czas temu ogłosił, że [przestaje ją rozwijać](https://old.reddit.com/r/Android/comments/1i86ybn/kiwi_browser_is_officially_discontinued/).  
 Pozostaje teraz albo znalezienie zamiennika (autor wspomina, że część funkcji przejął Edge; niestety korporacyjny), albo w&nbsp;ostateczności użycie ostatniej wypuszczonej wersji.  
-Póki co zostawiam swoje instrukcje w niezmienionej postaci, ale obawiam się, że mogą być nieaktualne."
+Póki co zostawiam swoje instrukcje w niezmienionej postaci, ale obawiam się, że mogą być nieaktualne."
 %} 
 
 {% include details.html summary="1. Skrypt w apce Termux" %}
@@ -488,7 +488,7 @@ Ten problem, wraz ze sposobami na jego obejście, [opisałem nieco wcześniej](#
 
 W obecnych czasach informacje to klucz do zwycięstwa. Fajnie jest wyłapywać skupiska trolli w&nbsp;sposób szybki, metodyczny, przy użyciu współczesnych narzędzi. Mam nadzieję, że parę pokazanych tu metod się Wam przyda!
 
-Ale, jeśli dotrwaliście do końca, być może widzicie w&nbsp;tej sprawie drugie dno. A&nbsp;mianowicie -- trzeba się mocno natrudzić, żeby ominąć zawodne systemy Facebooka i&nbsp;Twittera, nie być zależnym od widzimisię ich moderatorów.
+Ale, jeśli dotrwaliście do końca, być może widzicie w&nbsp;tej sprawie drugie dno. A&nbsp;mianowicie -- trzeba się mocno natrudzić, żeby ominąć zawodne systemy Facebooka i&nbsp;Twittera, nie być zależnym od widzimisię ich moderatorów.
 
 Jeśli spojrzymy na to, ilu starań wymagało zrobienie z&nbsp;telefonu przydatnego narzędzia do zgłaszania trolli, to wyłania się dość ponury obraz rzeczywistości.
 

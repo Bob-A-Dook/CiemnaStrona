@@ -81,7 +81,7 @@ Parę lat temu to było wszystko. Komentarze w&nbsp;social mediach, ogólne śmi
 
 W 2020 roku przyszedł kolejny etap. Zamiast pogłosek w&nbsp;mediach społecznościowych -- konkretne liczby.
 
-Amerykański programista, Rashiq Zahid, był zniechęcony niską dostępnością lodów i&nbsp;wziął sprawy w&nbsp;swoje ręce. Stworzył stronę do sprawdzania, gdzie można je zdobyć.
+Amerykański programista, Rashiq Zahid, był zniechęcony niską dostępnością lodów i&nbsp;wziął sprawy w&nbsp;swoje ręce. Stworzył stronę do sprawdzania, gdzie można je zdobyć.
 
 W USA można nieco okrężną drogą sprawdzić dostępność produktów -- **jeśli spróbujemy zamówić lody przez internet, a&nbsp;maszyna nie działa, to wyskoczy komunikat o&nbsp;ich braku**.
 
@@ -96,7 +96,7 @@ Rashiq napisał program regularnie próbujący składać zamówienia, a&nbsp;w p
 W USA strona McBroken spotkała się ze sporym uznaniem klientów.  
 [Pochwalił ją](https://twitter.com/dwtovar/status/1319436160268226560?ref_src=twsrc%5Etfw) nawet członek zarządu McD, David Tovar.
 
-W Polsce? Reakcje były zgoła inne, przynajmniej oceniając po komentarzach pod artykułami. Jeden użytkownik ulepił na przykład takie coś:
+W Polsce? Reakcje były zgoła inne, przynajmniej oceniając po komentarzach pod artykułami. Jeden użytkownik ulepił na przykład takie coś:
 
 {% include comment.html text="
 ja cie krece......jakim trzeba byc zje......zeby zrobic to wszystko co ten gosc..to sie w&nbsp;pale nie miesci jak niektorych zaczyna wyginac psychiczna choroba ctwilizacyjna. jeszcze raz -jaki faktyczny pozytyw jast z&nbsp;tej aplikacji bo nie rozumiem.....wiem-wiecej otylych. nie widze innego! teraz wyobrazcie sobie, ze pojawia sie inny typ spod ciemnej gwiazdy i&nbsp;przzejezdza Polske wzdluz i&nbsp;wszerz sprawdzajac dostepnosc coca coli w&nbsp;spozywczaku i&nbsp;nastepny sprawdzajact jeden i&nbsp;tylko jeden gatunek makaronu bez ktorego nie da sie zyc i&nbsp;inny zje.... i&nbsp;kolejny..........kuzwa to jest chore ale autora to podniecilo. chlopie opowiedz o&nbsp;tym psychologowi. zaufaj mi to nie jest normalne!"
@@ -126,7 +126,7 @@ Co się okazuje? Otóż **firmie Taylor jest na rękę, żeby maszyny się psuł
 
 Właścicieli restauracji McD w&nbsp;USA wiąże ścisła umowa z&nbsp;centralą. Muszą używać maszyn od Taylora.
 
-Jeśli taka maszyna wymaga serwisu, to muszą się zwrócić do techników namaszczonych przez Taylora. Zwróciliby się do kogoś innego? Stracą gwarancję na drogą maszynę. Albo jeszcze gorzej -- jeśli McD uzna to za naruszenie umowy, to może ją zerwać.  
+Jeśli taka maszyna wymaga serwisu, to muszą się zwrócić do techników namaszczonych przez Taylora. Zwróciliby się do kogoś innego? Stracą gwarancję na drogą maszynę. Albo jeszcze gorzej -- jeśli McD uzna to za naruszenie umowy, to może ją zerwać.  
 Pozostanie bieda i&nbsp;solenie ziemniaków łzami.
 
 Według [filmiku](https://youtu.be/SrDEtSlqJC4?t=869) wezwanie technika kosztuje **ponad 140 dolarów za pół godziny pracy**. Ponad 300 za każde kolejne 15 minut.
@@ -142,7 +142,7 @@ A jeśli mają na ten serwis monopol, tak jak dzięki współpracy z&nbsp;McD? T
 
 No dobra. Czyli Taylor się okopał, w&nbsp;sprawie napraw można uderzać tylko do nich.
 
-Ale ktoś mógłby zrzucić winę na restaurację: „To może niech nauczą się używać maszyn i&nbsp;ich nie psują? Nie będzie trzeba dzwonić po techników”.
+Ale ktoś mógłby zrzucić winę na restaurację: „To może niech nauczą się używać maszyn i&nbsp;ich nie psują? Nie będzie trzeba dzwonić po techników”.
 
 Problem w&nbsp;tym, że często tak naprawdę nie są zepsute. Gdyby pracownicy znali przyczynę, to sami łatwo by rozwiązali niektóre problemy. Ale **cały system jest tak ustawiony, żeby byli zależni od techników**.
 

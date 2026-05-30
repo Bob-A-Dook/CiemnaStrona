@@ -19,10 +19,10 @@ Pokazywałem, że pewne metody istniały od dawna, ale pod bardziej neutralnymi 
 
 Na bazie tej mylącej nazwy powstało wiele sztucznych oczekiwań. Bańkę pompują startupy, próbując wabić inwestorów. Oraz media, naganiając czytelników na reklamy. Ich podejście jest krótkowzroczne i&nbsp;może doprowadzić do rozczarowań. Tak myślałem wtedy i&nbsp;tak myślę nadal. 
 
-Ale muszę przyznać, że postępy w&nbsp;ostatnich latach mnie zaskoczyły. Modele tworzące treści stały się naprawdę niezłe. Przez co popularna obawa „AI zabierze mi pracę” wydaje się coraz bardziej uzasadniona.  
+Ale muszę przyznać, że postępy w&nbsp;ostatnich latach mnie zaskoczyły. Modele tworzące treści stały się naprawdę niezłe. Przez co popularna obawa „AI zabierze mi pracę” wydaje się coraz bardziej uzasadniona.  
 Ktoś mógłby powiedzieć, że to niespójne -- skoro w&nbsp;AI nie ma prawdziwej inteligencji, to nie przewyższy człowieka. A&nbsp;skoro go nie przewyższy, to również nie zastąpi.
 
-Obawiam się jednak, że **poprzeczka dla algorytmów jest zawieszona niżej niż poziom człowieka. I&nbsp;obniżana na siłę przez kadry kierownicze dużych firm**.
+Obawiam się jednak, że **poprzeczka dla algorytmów jest zawieszona niżej niż poziom człowieka. I&nbsp;obniżana na siłę przez kadry kierownicze dużych firm**.
 
 Ci ludzie w&nbsp;swoich motywacjach i&nbsp;działaniach sami bowiem przypominają automaty. Tak do nich, jak i&nbsp;do AI, można odnieść pewien eksperyment myślowy zwany *maksymalizatorem spinaczy*. I&nbsp;to właśnie zrobię w&nbsp;tym wpisie.
 
@@ -50,7 +50,7 @@ Aranżacja moja (bez żadnego AI!).
 
 ## Inteligencji tu nie ma
 
-Zanim opowiem, czym w&nbsp;ogóle jest ten maksymalizator, ustalmy pewne ramy i&nbsp;wyjaśnijmy jedną podstawową kwestię. **AI to nazwa marketingowa na określony rodzaj programów. Nie stoi za tym inteligencja taka jak u&nbsp;istot żywych**.
+Zanim opowiem, czym w&nbsp;ogóle jest ten maksymalizator, ustalmy pewne ramy i&nbsp;wyjaśnijmy jedną podstawową kwestię. **AI to nazwa marketingowa na określony rodzaj programów. Nie stoi za tym inteligencja taka jak u&nbsp;istot żywych**.
 
 Mówię rzeczy oczywiste? Dla niektórych niestety nie:
 
@@ -80,9 +80,9 @@ text="@Francesco Uh, I&nbsp;don't know if you know this but AI means Artificial 
 Źródło: [YouTube](https://www.youtube.com/watch?v=3C5jfstiYOE), komentarze pod filmem. Lekka korekta moja.
 
 „AI potrafi myśleć”. „AI zda sobie sprawę”. „Ma jeszcze słabą pamięć, ale myśli”.  
-I to nie tylko wypowiedzi losowych, może małoletnich internautów. Coś o [świadomości generatorów tekstu](https://www.theguardian.com/technology/2022/jun/12/google-engineer-ai-bot-sentient-blake-lemoine) palnął nawet jeden z&nbsp;pracowników Google'a (jak się okazało -- przynależący do [sekty](https://www.axios.com/2022/06/22/fellowship-ai-lamda-google-god-cult)).
+I to nie tylko wypowiedzi losowych, może małoletnich internautów. Coś o [świadomości generatorów tekstu](https://www.theguardian.com/technology/2022/jun/12/google-engineer-ai-bot-sentient-blake-lemoine) palnął nawet jeden z&nbsp;pracowników Google'a (jak się okazało -- przynależący do [sekty](https://www.axios.com/2022/06/22/fellowship-ai-lamda-google-god-cult)).
 
-Istnieją ludzie, którzy na serio stosują taką personifikację. Moim zdaniem samo słowo *inteligencja*, dodane na siłę, ponosi za to sporą winę. Bo sugeruje coś, czego tam nie ma. A&nbsp;medialna narracja i&nbsp;zdjęcia humanoidalnych robotów tylko pogarszają sprawę.
+Istnieją ludzie, którzy na serio stosują taką personifikację. Moim zdaniem samo słowo *inteligencja*, dodane na siłę, ponosi za to sporą winę. Bo sugeruje coś, czego tam nie ma. A&nbsp;medialna narracja i&nbsp;zdjęcia humanoidalnych robotów tylko pogarszają sprawę.
 
 ### Algorytmy jak blender
 
@@ -119,17 +119,17 @@ Spójrzmy dla rozluźnienia na parę historycznych przypadków takich spektakula
   Problem? Nie stała tam. Było to tylko jej zdjęcie z&nbsp;reklamy umieszczonej na boku autobusu.
 
 * Podczas pewnego meczu kamera miała automatycznie podążać za piłką.  
-  Ale zamiast tego skupiała się na czymś innym o&nbsp;zbliżonym kształcie -- [łysej głowie sędziego](https://www.youtube.com/shorts/GD7_W-jarzs).
+  Ale zamiast tego skupiała się na czymś innym o&nbsp;zbliżonym kształcie -- [łysej głowie sędziego](https://www.youtube.com/shorts/GD7_W-jarzs).
 
 Błędy zaskakujące, nieoczekiwane. Ale dające się wyjaśnić. Często brakiem danych treningowych z&nbsp;jakiejś niszowej kategorii.  
-Nikt nie wpadł na to, żeby algorytm rozpoznający okrągłe kształty dostał próbkę łysych głów. Ale jeśli zostanie wytrenowany od nowa, już z&nbsp;kompletem łysin, to zapewne zacznie prawidłowo je odróżniać od piłek.
+Nikt nie wpadł na to, żeby algorytm rozpoznający okrągłe kształty dostał próbkę łysych głów. Ale jeśli zostanie wytrenowany od nowa, już z&nbsp;kompletem łysin, to zapewne zacznie prawidłowo je odróżniać od piłek.
 
 Niemożliwy jest z&nbsp;kolei przypadek, kiedy nasz blender nagle puści ogień z&nbsp;dołu i&nbsp;poleci w&nbsp;kosmos. Albo powie nam ludzkim głosem, że nie chce mu się pracować. Ograniczają go prawa fizyki i&nbsp;brak odpowiednich części. Pewne rzeczy są po prostu niemożliwe.
 
 I tak samo **nie jest możliwe, że obecnie stosowane algorytmy zaczną myśleć** i&nbsp;celowo działać przeciw nam.
 
 Co nie zmienia faktu, że bywają zawodne. A&nbsp;jednak są masowo, bezrefleksyjnie wypuszczane w&nbsp;świat. Mimo że istnieje wielka rozbieżność między tym, czym są naprawdę, a&nbsp;tym, czym są w&nbsp;oczach zwykłego człowieka.  
-Co więcej -- już teraz powierza im się sprawy wrażliwe, jak ocenianie ludzi. Albo służenie im za źródło informacji o&nbsp;świecie, czego przykładem jest Bing.
+Co więcej -- już teraz powierza im się sprawy wrażliwe, jak ocenianie ludzi. Albo służenie im za źródło informacji o&nbsp;świecie, czego przykładem jest Bing.
 
 ### Przypadek Binga
 
@@ -139,11 +139,11 @@ Dlatego, gdy tylko pojawiła się możliwość, [nawiązali współpracę z&nbsp
 
 {% include info.html
 type="Ciekawostka"
-text="Nie byłby to pierwszy przypadek, kiedy Microsoft pospieszył się z wprowadzaniem algorytmów do swoich produktów. Kiedyś wypuścili na Twittera [*chatbota* nazwanego Tay](https://knowyourmeme.com/memes/sites/tay-ai), ale skończyło się to spektakularną klapą. W&nbsp;ciągu doby ludzie przechytrzyli system i&nbsp;sprawili, że zaczął tworzyć treści wulgarne i&nbsp;mocno niepoprawne politycznie."
+text="Nie byłby to pierwszy przypadek, kiedy Microsoft pospieszył się z wprowadzaniem algorytmów do swoich produktów. Kiedyś wypuścili na Twittera [*chatbota* nazwanego Tay](https://knowyourmeme.com/memes/sites/tay-ai), ale skończyło się to spektakularną klapą. W&nbsp;ciągu doby ludzie przechytrzyli system i&nbsp;sprawili, że zaczął tworzyć treści wulgarne i&nbsp;mocno niepoprawne politycznie."
 %}
 
 Bingowi trzeba przyznać, że tworzy piękne, prawidłowe zdania. Brzmi mądrze i&nbsp;pewnie.  
-Ale to tylko cienka fasada, a&nbsp;model potrafi tymi mądrymi i&nbsp;pewnymi zdaniami przekazywać bzdury. [Nie radzi sobie z&nbsp;arytmetyką](https://news.ycombinator.com/item?id=34811678). Potrafi się pomylić w najprostszych obliczeniach:
+Ale to tylko cienka fasada, a&nbsp;model potrafi tymi mądrymi i&nbsp;pewnymi zdaniami przekazywać bzdury. [Nie radzi sobie z&nbsp;arytmetyką](https://news.ycombinator.com/item?id=34811678). Potrafi się pomylić w najprostszych obliczeniach:
 
 > 150&nbsp;000 x&nbsp;0,7 \[centa\] - 475&nbsp;= 600&nbsp;$
 
@@ -152,7 +152,7 @@ A **powinno tam być 575&nbsp;dolarów**. Dlaczego ta rzekoma sztuczna inteligen
 Bo to model *językowy*. Nie wnioskuje matematycznie, a&nbsp;liczby nie są dla niego żadną specjalną kategorią. Patrzy na nie jak na każdy inny tekst.  
 „Gdzieś były bardzo podobne znaczki i&nbsp;stało przy nich 600, więc teraz też to wyświetlę”. Logika modelu.
 
-A ponieważ to dość nowoczesny model, to nie robi gaf spektakularnych, jak nagłe wymieszanie liczb z&nbsp;literami albo podanie wyniku ujemnego.  
+A ponieważ to dość nowoczesny model, to nie robi gaf spektakularnych, jak nagłe wymieszanie liczb z&nbsp;literami albo podanie wyniku ujemnego.  
 To usypia naszą czujność. Wszystko brzmi wiarygodnie, moglibyśmy prawie uwierzyć, że stoi za tym świadomość. Ale to mylne założenie, na którym ludzie jeszcze nieraz się przejadą.
 
 W takich warunkach sugerowanie jakiejś *inteligencji* -- i, co gorsza, nadawanie automatom konwersacyjnego tonu -- wydaje się niezbyt odpowiedzialne. Więc dlaczego różne firmy (bo Microsoft jest jedną z&nbsp;wielu) tak się na to rzuciły?
@@ -167,7 +167,7 @@ Brzmi nieszkodliwie? Ale gdyby ta SI wszystkie swoje działania optymalizowała 
 
 Nie ma w&nbsp;tym moralności, zła czy dobra. Maszyna nie uwzględnia tych kwestii. Ona po prostu realizuje określone wytyczne. „Ma być jak najwięcej spinaczy”. Reszta nie ma znaczenia.
 
-Ten przypadek ilustruje, że do katastrofy nie potrzeba robotów-złoczyńców, którymi kieruje jakaś chęć dokuczenia ludziom. Wystarczy **wydajna machina, której konfiguracja nie pokrywa się z&nbsp;interesem ludzkości**.
+Ten przypadek ilustruje, że do katastrofy nie potrzeba robotów-złoczyńców, którymi kieruje jakaś chęć dokuczenia ludziom. Wystarczy **wydajna machina, której konfiguracja nie pokrywa się z&nbsp;interesem ludzkości**.
 
 Przykładem takiego maksymalizatora może być oczywiście AI. Ale nie tylko. Bezmyślne maksymalizatory znajdziemy czasem w&nbsp;zarządach wielkich firm.
 
@@ -182,15 +182,15 @@ trailer="
 
 ### Maksymalizatory w&nbsp;zarządzie
 
-Nieprzypadkowo piszę o&nbsp;„*wielkich* firmach”. Nie chodzi tutaj tylko o&nbsp;moją antypatię do korporacji (choć jej nie ukrywam), tylko po prostu o&nbsp;to, że pod wieloma względami różnią się od firm mniejszych.
+Nieprzypadkowo piszę o&nbsp;„*wielkich* firmach”. Nie chodzi tutaj tylko o&nbsp;moją antypatię do korporacji (choć jej nie ukrywam), tylko po prostu o&nbsp;to, że pod wieloma względami różnią się od firm mniejszych.
 
 Niektórym się wydaje, że zarząd to zawsze to samo. Właściciele firm, decydujący o&nbsp;ich losach. I&nbsp;często faktycznie tak jest, zwłaszcza przy małych firmach. Ale nie jest to żadna reguła.
 
 Ważniejsze od stanowiska są bowiem posiadane udziały. **Jeśli ludzie z&nbsp;zarządu mają mniejszość udziałów, to są _de facto_ pracownikami**. Dobrze wynagradzanymi, ale pracownikami. I&nbsp;mogą zostać odwołani, jeśli nie spełnią oczekiwań udziałowców.
 
-Takie coś zauważymy w&nbsp;spółkach giełdowych, ale nie tylko. Również startupy, w&nbsp;które inwestują fundusze *VC* (*venture capital*), mają przykazane -- muszą rosnąć. I&nbsp;to błyskawicznie, bo inaczej finansowanie się skończy, a&nbsp;inwestorzy zaczną pompować nowego, atrakcyjniejszego jednorożca.
+Takie coś zauważymy w&nbsp;spółkach giełdowych, ale nie tylko. Również startupy, w&nbsp;które inwestują fundusze *VC* (*venture capital*), mają przykazane -- muszą rosnąć. I&nbsp;to błyskawicznie, bo inaczej finansowanie się skończy, a&nbsp;inwestorzy zaczną pompować nowego, atrakcyjniejszego jednorożca.
 
-Zarząd ocenia się według różnych metryk, nie ma tutaj reguły (od jakiegoś czasu patrzy się na przykład na kryteria ESG). Ale jedną z&nbsp;klasycznych miar jest zysk, jaki wygenerowała firma w&nbsp;danym roku.
+Zarząd ocenia się według różnych metryk, nie ma tutaj reguły (od jakiegoś czasu patrzy się na przykład na kryteria ESG). Ale jedną z&nbsp;klasycznych miar jest zysk, jaki wygenerowała firma w&nbsp;danym roku.
 
 {% include info.html
 type="Wyjaśnienie"
@@ -212,7 +212,7 @@ Zresztą sami spójrzmy, co ma do powiedzenia o&nbsp;AI strona dla menedżerów:
 {:.figcaption}
 Źródło: [post](https://www.facebook.com/mitsloanmanagementreviewpolska/posts/pfbid0RCL6Gx1mRNmG4qbP2ucGZaZsNRuZVzjwL66RGWzpoodFYoTJpdUUWoYBaYrFhT4fl) MIT Sloan Management Review Polska na Facebooku
 
-I tak, na dłuższą metę firma może się przejechać na redukcji kosztów. Staje się zależna od innych, psuje sobie reputację.
+I tak, na dłuższą metę firma może się przejechać na redukcji kosztów. Staje się zależna od innych, psuje sobie reputację.
 
 Ale **na papierze oba rozwiązania prowadzą do tego samego. Atrakcyjniejszej wartości w&nbsp;polu `Zysk`**.  
 Liczba spinaczy wzrosła, jest dobrze. A&nbsp;inne rzeczy się nie liczą. Pracownicy zarządzający przetrwają parę lat pod rząd z&nbsp;dobrym wynikiem, zdobędą premię. A&nbsp;potem mogą zmienić firmę.
@@ -231,7 +231,7 @@ Maksymalizatory w&nbsp;ludzkiej skórze są podatne na wpływy. Jeśli jakaś ze
 A zatem menedżer kupuje system, nakazuje wdrożenie. Rozsyła do pracowników ankiety z&nbsp;prośbą o&nbsp;ocenę. A&nbsp;tu lipa, bo system jest niedopracowany, ciągle trzeba po nim sprawdzać, tylko spowolnił pracę. 
 
 W takiej sytuacji niejeden menedżer się zaniepokoi, zapoci, zaśmierdzi. Ale nie można dać po sobie poznać. *Good vibes only*, trzeba mieć *mindset*.  
-Wysyła nową, tendencyjną ankietę. Pytania zamknięte. „W jaki sposób nowy system poprawił twoją pracę? Ułóż wymienione zalety w&nbsp;kolejności od tej, którą doceniasz najbardziej”.
+Wysyła nową, tendencyjną ankietę. Pytania zamknięte. „W jaki sposób nowy system poprawił twoją pracę? Ułóż wymienione zalety w&nbsp;kolejności od tej, którą doceniasz najbardziej”.
 
 Potem przedstawia wyniki ankiet, zadowolony wpisuje do CV wymarzone uwagi o&nbsp;usprawnieniu procesu. Po jakimś czasie zmienia dział, zostawiając pracowników z&nbsp;całym bajzlem.
 
@@ -248,7 +248,7 @@ Analizuje on liczne parametry. Patrzy po ruchach myszki, czy pracownik jest akty
 
 A mówimy tutaj o&nbsp;wielkim banku inwestycyjnym. Kojarzącym się niektórym z&nbsp;prestiżem, specjalistami, pracą umysłową na wysokich obrotach. Jak widać, możliwość kontroli jest dla szefostwa cenniejsza niż ta reputacja.
 
-Ale zostawmy już w&nbsp;spokoju nasze maksymalizatory w&nbsp;krawatach, myślę że już wystarczająco po nich pojechałem. Jeśli zgodzicie się ze mną, że sporo rzeczy wynika z&nbsp;ich fiksacji na mierzalnych wynikach, to parę rzeczy stanie się jasnych.
+Ale zostawmy już w&nbsp;spokoju nasze maksymalizatory w&nbsp;krawatach, myślę że już wystarczająco po nich pojechałem. Jeśli zgodzicie się ze mną, że sporo rzeczy wynika z&nbsp;ich fiksacji na mierzalnych wynikach, to parę rzeczy stanie się jasnych.
 
 To dlatego są tak otwarci na automatyzację. Dlatego wypychają algorytmy na szybko, byle być *first to market*. Dlatego trzymają się nazw takich jak *sztuczna inteligencja*, obiecujących niestworzone rzeczy.  
 Nie ma w&nbsp;tym wielkich spisków. Tylko chęć zysku. Liczba spinaczy musi rosnąć.
@@ -271,12 +271,12 @@ Ten styl miał też inną cechę -- był prosty do tworzenia i&nbsp;*przenośny*
 
 Jasne, firmy mogłyby postawić na unikalność, coś bliższego sztuce, bardziej dopasowanego do nich. Ale wybierały to, co robią inni, co jest jak wymienialne bateryjki. 
 
-A jak to było z&nbsp;generatorami obrazu? Już kiedyś tworzyły całkiem realistyczne ludzkie twarze. Albo koty, już z różnym efektem ([*This Cat Does Not Exist*](https://news.ycombinator.com/item?id=19208484)). Modeli było sporo, ale każdy miał jedną, wąską dziedzinę, do której był przystosowany. Graficy byli bezpieczni.
+A jak to było z&nbsp;generatorami obrazu? Już kiedyś tworzyły całkiem realistyczne ludzkie twarze. Albo koty, już z różnym efektem ([*This Cat Does Not Exist*](https://news.ycombinator.com/item?id=19208484)). Modeli było sporo, ale każdy miał jedną, wąską dziedzinę, do której był przystosowany. Graficy byli bezpieczni.
 
 Potem nastąpiła rewolucja. DALL-E -- automat łączący w&nbsp;sobie rozpoznawanie tekstu i&nbsp;generowanie obrazu. **My zapewniamy opis jakiejś sceny, a&nbsp;on ją tworzy**.  
 Obrazki były w&nbsp;oczywisty sposób pokraczne, ale niektórzy uważali to za ich urok. Obietnica swobodnego, darmowego tworzenia ilustracji przyciągała jak magnes.
 
-Krótko potem pojawiły się modele Midjourney oraz Stable Diffusion. Które nie tylko tworzą obrazy na podstawie opisów... ale do tego mogą tworzyć w&nbsp;różnych stylach, określonych przez użytkownika. I&nbsp;to całkiem nieźle. Do tego stopnia, że jeden z&nbsp;nich [wygrał konkurs fotograficzny](https://legalneportfolio.pl/sztuczna-inteligencja-wygrala-konkurs-plastyczny/).
+Krótko potem pojawiły się modele Midjourney oraz Stable Diffusion. Które nie tylko tworzą obrazy na podstawie opisów... ale do tego mogą tworzyć w&nbsp;różnych stylach, określonych przez użytkownika. I&nbsp;to całkiem nieźle. Do tego stopnia, że jeden z&nbsp;nich [wygrał konkurs fotograficzny](https://legalneportfolio.pl/sztuczna-inteligencja-wygrala-konkurs-plastyczny/).
 
 {:.bigspace-before}
 <img src="/assets/posts/ai/spinacze/dalle-mini-midjourney-porownanie.jpg" alt="Przykład dwóch obrazków. U&nbsp;góry widać wynik dla DALL-E Mini. Pod napisem Matematyk wpisanym w&nbsp;pole widzimy kilka obrazków, pokazujących głównie czarno-białe zdjęcia brodatych mężczyzn, nie do końca zgadza się anatomia. Na dolnym obrazku widać kilka postaci w&nbsp;szatach stojących w&nbsp;dużej komnacie, na tle ogrągłego okna lub obiektu przypominającego portal."/>
@@ -289,7 +289,7 @@ Z jednej strony można podnieść argument, że to pozwoli rozwinąć skrzydła 
 
 Ale to tylko jedna strona medalu. Już teraz znajdziemy przypadki, kiedy ktoś wprost pisze, że [korzystał z&nbsp;usług ludzi, ale przechodzi na AI](https://nitter.cz/dhinchcliffe/status/1644016198273626112#m).
 
-Skoro robią tak mniejsze działalności, to co powstrzyma wielkich graczy? Wielu z&nbsp;nich od dawna wystarczyła Alegria na masową skalę. A&nbsp;teraz mają ją prawie za darmo i&nbsp;w lepszej jakości. Ludzie mogą się burzyć, ale oburzenie nie jest uwzględniane przez maksymalizator.
+Skoro robią tak mniejsze działalności, to co powstrzyma wielkich graczy? Wielu z&nbsp;nich od dawna wystarczyła Alegria na masową skalę. A&nbsp;teraz mają ją prawie za darmo i&nbsp;w lepszej jakości. Ludzie mogą się burzyć, ale oburzenie nie jest uwzględniane przez maksymalizator.
 
 ### Pisanie tekstów
 
@@ -301,7 +301,7 @@ W związku z&nbsp;tym powstawały strony pełne treści dopchanej na siłę, byl
 
 Dla użytkowników? Sieczka nie do zniesienia. Ale jeśli weszli, długo przewijali w&nbsp;poszukiwaniu konkretów, reklamy się wyświetliły... To spinacze zmaksymalizowane. Zaś opcja, że od teraz będą unikali strony jak ognia, nie jest wliczona w&nbsp;metryki.
 
-Logika podpowiada, że generatory tworzące wiarygodny tekst, jak seria GPT, mogłyby kompletnie zmienić tę branżę.  
+Logika podpowiada, że generatory tworzące wiarygodny tekst, jak seria GPT, mogłyby kompletnie zmienić tę branżę.  
 „Napisz mi długą, wzruszającą historię o&nbsp;szarlotce Babci Eli. O&nbsp;tym, że jedliście ją na wsi nad rzeką. A&nbsp;na końcu dodaj przepis na szarlotkę”. I&nbsp;już, nie trzeba nikogo zatrudniać. Jakość i&nbsp;tak nie miała większego znaczenia.
 
 Postanowiłem poszukać naturalnych dyskusji na Reddicie. Hasło `chat gpt copywriting site:reddit.com` w&nbsp;DuckDuckGo. I&nbsp;trafiłem na wątek z&nbsp;dyskusją na temat [wpływu ChatGPT na branżę](https://www.reddit.com/r/copywriting/comments/1189zwp/lets_talk_about_chatgpt_is_this_the_end_of/).
@@ -316,7 +316,7 @@ Kolejne, coraz lepsze algorytmy stopniowo zmieniały specyfikę pracy tłumaczy.
 
 Jeśli chcemy dowodów, można [poszukać wątków](https://www.proz.com/?sp=forum&action=SearchForum&advanced=y) zawierających hasło `PEMT` (*Post-editing Machine Translation*) na forum Proz, jednym z&nbsp;głównych miejsc zrzeszających tłumaczy. Pierwsze pojawiały się już w&nbsp;2011&nbsp;roku!
 
-Ogólnie tłumaczenia wydają się branżą pełną niuansów, co fajnie (i&nbsp;po polsku!) opisał [Informatyk Zakładowy](https://informatykzakladowy.pl/grosza-daj-tlumaczowi/).  
+Ogólnie tłumaczenia wydają się branżą pełną niuansów, co fajnie (i&nbsp;po polsku!) opisał [Informatyk Zakładowy](https://informatykzakladowy.pl/grosza-daj-tlumaczowi/).  
 Żeby komputer mógł wiernie tłumaczyć *wszystko* -- w&nbsp;tym miksy gier słownych, nawiązań kulturowych, rymy -- bardzo możliwe, że musiałby dysponować inteligencją ogólną. 
 
 Ale ludzkie maksymalizatory z&nbsp;dużych firm nie miałyby nic przeciwko wywaleniu niuansów, jeśli oznacza to oszczędności. Mogą nakazać tworzenie tekstów uproszczonych, szablonowych, nijakich. Byle tylko były lekkostrawne dla (coraz lepszych) algorytmów tłumaczących.
@@ -329,7 +329,7 @@ A w&nbsp;ocenie rocznej znajdzie się jedynie informacja o&nbsp;tym, że *maksym
 
 Wydawać by się mogło, że to zawód trudny do zastąpienia -- o&nbsp;ile mówimy o&nbsp;dziennikarzach śledczych i&nbsp;korespondentach z&nbsp;prawdziwego zdarzenia. W&nbsp;końcu ta praca wymaga zbierania informacji, docierania do źródeł, często przemieszczania się po świecie fizycznym i&nbsp;rozmów w&nbsp;cztery oczy.
 
-I faktycznie -- gdyby poziom miał jakieś znaczenie, to generatory tekstu wyparłyby co najwyżej *dziennikarstwo masowe, tabloidowe*. Takie, w&nbsp;którym zarabia się na reklamach, więc liczą się wyłącznie krzykliwe nagłówki i&nbsp;wabienie użytkowników na stronę.
+I faktycznie -- gdyby poziom miał jakieś znaczenie, to generatory tekstu wyparłyby co najwyżej *dziennikarstwo masowe, tabloidowe*. Takie, w&nbsp;którym zarabia się na reklamach, więc liczą się wyłącznie krzykliwe nagłówki i&nbsp;wabienie użytkowników na stronę.
 
 Ale niestety jest inaczej. Maksymalizuje się spinacze, a&nbsp;nie jakość. Dobrze nam to pokazuje [przykład portalu Buzzfeed](https://www.theguardian.com/media/2023/apr/20/buzzfeed-news-close-layoffs-shutting-down).
 
@@ -354,17 +354,17 @@ Co nie zmienia faktu, że masowa rekrutacja była owczym pędem. „Inni rekrutu
 
 A jeśli chodzi o&nbsp;sprawy AI...
 
-Pierwszym (według mojej wiedzy) popularniejszym generatorem kodu był [Copilot](https://github.com/features/copilot). Oferowany przez Githuba, platformę zajmującą się przechowywaniem kodu źródłowego. Na jego podstawie stworzyli swój generator, wyświetlający podpowiedzi w&nbsp;trakcie pisania kodu.  
+Pierwszym (według mojej wiedzy) popularniejszym generatorem kodu był [Copilot](https://github.com/features/copilot). Oferowany przez Githuba, platformę zajmującą się przechowywaniem kodu źródłowego. Na jego podstawie stworzyli swój generator, wyświetlający podpowiedzi w&nbsp;trakcie pisania kodu.  
 Był podobno całkiem w&nbsp;porządku, ale nie uznawano go za rewolucję.
 
 Większe poruszenie wywołały natomiast modele GPT od OpenAI.  
 Są one, przypominam, generatorami tekstu wszelakiego. Nie stworzono ich z&nbsp;myślą *stricte* o&nbsp;kodzie. A&nbsp;jednak radziły sobie naprawdę dobrze -- pisało im się, żeby stworzyły kod robiący to i&nbsp;to, a&nbsp;one go tworzyły. Skądinąd poprawny. Pomijając przypadki, gdy kazały importować jakieś nieistniejące moduły.
 
-Na razie niektórzy się cieszą, że mają te same zarobki, a&nbsp;GPT pozwala im pracować szybciej. Ale gdy szefostwo to zauważy, to zastanowiłbym się nad trwałością tego stanu rzeczy. 
+Na razie niektórzy się cieszą, że mają te same zarobki, a&nbsp;GPT pozwala im pracować szybciej. Ale gdy szefostwo to zauważy, to zastanowiłbym się nad trwałością tego stanu rzeczy. 
 
 Branża reaguje różnie. Niektórzy to pozytywni ludzie i&nbsp;mówią z&nbsp;uśmiechem, że będzie co będzie. Już od jakiegoś czasu myśleli o&nbsp;własnym gospodarstwie.
 
-Ale trafiają się też koguciki głoszące z&nbsp;pełną powagą „Rynek wytnie słabych, ale nigdy nie przestanie cenić Specjalistów” (w&nbsp;domyśle: właśnie ich, niezastąpionych, pracujących za ułamek pensji Amerykanina).  
+Ale trafiają się też koguciki głoszące z&nbsp;pełną powagą „Rynek wytnie słabych, ale nigdy nie przestanie cenić Specjalistów” (w&nbsp;domyśle: właśnie ich, niezastąpionych, pracujących za ułamek pensji Amerykanina).  
 No cóż, ego nie przegadam :wink: Dlatego zostawię tu tylko jednego mema.
 
 {:.figure .bigspace-before}
@@ -372,7 +372,7 @@ No cóż, ego nie przegadam :wink: Dlatego zostawię tu tylko jednego mema.
 
 ## Podsumowanie
 
-Cały ten wpis kręci się wokół jednego prostego pytania: „Czy sztuczna inteligencja zabierze mi pracę?”.
+Cały ten wpis kręci się wokół jednego prostego pytania: „Czy sztuczna inteligencja zabierze mi pracę?”.
 
 Moja odpowiedź -- **nie, nie zabierze. Ale mogą ją zabrać krawaciarze**. Myślący krótkoterminowo, skupieni na wąskim zestawie metryk i&nbsp;własnych karierach. Maksymalizatory spinaczy z&nbsp;ludzką twarzą.
 

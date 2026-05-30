@@ -47,7 +47,7 @@ Obrazek, wybrany na podstawie tych informacji, wyświetla się dopiero na końcu
 
 {% include info.html type="Podobne wpisy" text="O informacjach składających się na nasz internetowy odcisk palca piszę więcej w&nbsp;swojej serii, [„Internetowej inwigilacji”](/serie/internetowa_inwigilacja/){:.internal}." %}
 
-W takim układzie kod i&nbsp;obrazek są nierozłączne -- **nie da się zablokować śledzenia, pozostawiając sam obrazek**. Chcąc nie chcąc, musimy ciąć szeroko.
+W takim układzie kod i&nbsp;obrazek są nierozłączne -- **nie da się zablokować śledzenia, pozostawiając sam obrazek**. Chcąc nie chcąc, musimy ciąć szeroko.
 
 Drobni blogerzy i&nbsp;właściciele stron, gdyby chcieli, mogliby znaleźć inny model zarobkowy.  
 Dogadać się z&nbsp;firmami z&nbsp;podobnej branży i&nbsp;umieszczać u&nbsp;siebie zdjęcia ich produktów, bez żadnego kodu.  
@@ -63,7 +63,7 @@ Kto wie, może by to wyszło większości na dobre?
 Proste reklamy obrazkowe na stronach, dopasowane do ich tematyki, mogłyby się okazać skuteczniejsze niż te profilujące.  
 A pustkę po firmach *ad techowych* mogłyby wypełnić na przykład portale „swatające” właścicieli stron z&nbsp;reklamodawcami.
 
-Dlatego proponuję pozbyć się wahań natury etycznej. Chodząc po internecie z&nbsp;*ad blockerami*, **nie uderzamy w&nbsp;blogerów -- uderzamy w&nbsp;reklamowych gigantów**, którzy mają na swoim koncie liczne szemrane działania. I&nbsp;delikatnie sugerujemy, że warto zmienić system.
+Dlatego proponuję pozbyć się wahań natury etycznej. Chodząc po internecie z&nbsp;*ad blockerami*, **nie uderzamy w&nbsp;blogerów -- uderzamy w&nbsp;reklamowych gigantów**, którzy mają na swoim koncie liczne szemrane działania. I&nbsp;delikatnie sugerujemy, że warto zmienić system.
 
 No i&nbsp;wreszcie: jeśli jakichś twórców szczególnie lubimy i&nbsp;chcemy widzieć ich reklamy (mimo że nas śledzą), to można łatwo wyłączyć uBO dla wybranych stron. Opisuję to w&nbsp;dalszej części wpisu.
 
@@ -127,11 +127,11 @@ Analizował krok po kroku zmiany wprowadzone w&nbsp;kodzie i&nbsp;doszedł do wn
 Poświęcił na to czas i&nbsp;wysiłek. Mimo że nie ponosił żadnej winy za to, jak ktoś inny wykorzystał jego publicznie dostępny kod.
 
 Obie sytuacje -- ze starym uBlockiem i&nbsp;Nano -- pokazują pewne strony autora uBO, które szanuję.  
-Ktoś z&nbsp;silnym poczuciem odpowiedzialności za swoje dzieło. Dbający o&nbsp;reputację. Zmotywowany czymś innym niż pieniądze.
+Ktoś z&nbsp;silnym poczuciem odpowiedzialności za swoje dzieło. Dbający o&nbsp;reputację. Zmotywowany czymś innym niż pieniądze.
 
 Oczywiście ludzie się zmieniają, więc nie traktujmy tego jak gwarancji. Ale na chwilę obecną **postać autora możemy policzyć na plus uBO -- raczej łatwo go nie podkupią** :+1:
 
-Podsumowując: z&nbsp;uBO jest jak z&nbsp;wieloma innymi rzeczami w&nbsp;życiu. Nie ufajmy w&nbsp;ciemno, warto przed instalacją się upewnić (np. wyszukać jego nazwę i&nbsp;spojrzeć, czy nie ma jakiegoś skandalu).  
+Podsumowując: z&nbsp;uBO jest jak z&nbsp;wieloma innymi rzeczami w&nbsp;życiu. Nie ufajmy w&nbsp;ciemno, warto przed instalacją się upewnić (np. wyszukać jego nazwę i&nbsp;spojrzeć, czy nie ma jakiegoś skandalu).  
 Ale póki co jest po prostu najlepszą opcją.
 
 {:.bigspace}
@@ -180,7 +180,7 @@ Mają na komputerze duże, wielomegabajtowe zdjęcia? Po prostu wrzucają je na 
 
 Takie marnotrawstwo może być dla nas bolesne, szczególnie jeśli korzystamy z&nbsp;internetu mobilnego i&nbsp;możemy odebrać tylko ograniczoną ilość danych.
 
-W takiej sytuacji z&nbsp;pomocą przychodzi funkcja blokowania dużych elementów w&nbsp;uBO. **Jeśli jakiś element będzie „ważył” więcej kB niż ustalona wartość, to nie zostanie pobrany**. Zamiast niego wyświetli się czerwona ramka (i ewentualnie tekst alternatywny).
+W takiej sytuacji z&nbsp;pomocą przychodzi funkcja blokowania dużych elementów w&nbsp;uBO. **Jeśli jakiś element będzie „ważył” więcej kB niż ustalona wartość, to nie zostanie pobrany**. Zamiast niego wyświetli się czerwona ramka (i ewentualnie tekst alternatywny).
 
 Maksymalną dopuszczalną wielkość możemy zmieniać w&nbsp;ustawieniach (opcja obok cyfry&nbsp;`5`).  
 Osobiście ustawiłem tam 300&nbsp;kB. Dla porównania: na Ciemnej Stronie jeden z&nbsp;większych banerów ([ten z&nbsp;wpisu o&nbsp;bankach](/assets/posts/bank-ochrona/bank-sejf.jpg)) waży nieco ponad 130&nbsp;kB.
@@ -193,7 +193,7 @@ trailer="<p class='figure'><img src='/assets/posts/ublock-origin/ublock-blokowan
 
 # 3. Wyłączanie kodu JavaScript
 
-JavaScript to kod odpowiadający na stronach internetowych za elementy interaktywne. To dzięki niemu podczas wpisywania informacji pojawiają nam się np. ostrzeżenia mówiące, że nie wypełniliśmy jakiegoś pola.
+JavaScript to kod odpowiadający na stronach internetowych za elementy interaktywne. To dzięki niemu podczas wpisywania informacji pojawiają nam się np. ostrzeżenia mówiące, że nie wypełniliśmy jakiegoś pola.
 
 JS ma jednak ciemne strony. Dzięki dostępowi do wielu informacji o&nbsp;naszym komputerze (takich jak lista czcionek, parametry sprzętu, położenie kursora myszki...) jest w&nbsp;stanie sprofilować nas dokładniej niż inne metody.
 

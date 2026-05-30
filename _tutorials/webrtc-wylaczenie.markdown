@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wyłączanie WebRTC w różnych programach
-description: "Gdy nie chcemy być swatani."
+description: "Gdy nie chcemy być swatani."
 ---
 
 Ten samouczek uzupełnia mój [wpis na temat WebRTC]({% post_url 2023-11-05-webrtc %}){:.internal} -- standardu odpowiedzialnego głównie za wideorozmowy. Jednym z&nbsp;jego filarów jest odsunięcie pośrednika i&nbsp;komunikacja *peer-to-peer*, między użytkownikami.
@@ -40,7 +40,7 @@ W przypadku przeglądarek praktycznie każda stronka, która doda do siebie odpo
 
 Ta łatwość to zagrożenie, ale z&nbsp;drugiej strony -- zaleta. Połączenie może otworzyć też stronka sprzyjająca prywatności. Po czym w&nbsp;przystępny sposób ostrzec użytkownika, że mu prawdziwe IP wystaje.
 
-Jedną z takich stronek jest [BrowserLeaks](https://browserleaks.com/webrtc), zawierająca wiele innych cennych informacji związanych z&nbsp;profilowaniem użytkowników. To jej użyję w&nbsp;tym przykładzie.  
+Jedną z takich stronek jest [BrowserLeaks](https://browserleaks.com/webrtc), zawierająca wiele innych cennych informacji związanych z&nbsp;profilowaniem użytkowników. To jej użyję w&nbsp;tym przykładzie.  
 A żeby nie było, że nie polecam alternatyw -- jest też [*ipleak.net*](https://ipleak.net).
 
 Gdy odwiedziłem powyższy link do BrowserLeaks przez Operę *bez* włączonego VPN-a czy innego pośrednika, to wyświetliło, że nie ma wycieku. 
@@ -53,7 +53,7 @@ Ale to żadne pocieszenie. **Jeśli ktoś w&nbsp;ogóle nie maskuje adresu IP, t
 Załóżmy, że ktoś jednak idzie o&nbsp;krok dalej i&nbsp;wykorzystuje jakiegoś pośrednika. Chociażby tego nisko ocenianego, ale darmowego VPN-a wbudowanego w&nbsp;Operę. Włączyłem go, a&nbsp;BrowserLeaks pokazał, że spod oficjalnego (szwedzkiego) IP widać ten prawdziwy:
 
 {:.figure .bigspace}
-<img src="/assets/posts/inwigilacja/webrtc/vpn-wyciek.jpg"  alt="Zrzut ekranu z&nbsp;Opery. U&nbsp;góry widać ikonkę VPN świecącą się na niebiesko. Poniżej widać stronę Browserleaks. Są tam dwa adresy IP ze szwedzkimi flagami, ale na dole znajduje się wzmianka, wyróżniona czerwonym kolorem, że wykryto inny adres IP, niezgodny z&nbsp;tym oficjalnym. To jeden z&nbsp;adresów z&nbsp;poprzedniego przykładu. Obok niego znajduje się polska flaga." />
+<img src="/assets/posts/inwigilacja/webrtc/vpn-wyciek.jpg"  alt="Zrzut ekranu z&nbsp;Opery. U&nbsp;góry widać ikonkę VPN świecącą się na niebiesko. Poniżej widać stronę Browserleaks. Są tam dwa adresy IP ze szwedzkimi flagami, ale na dole znajduje się wzmianka, wyróżniona czerwonym kolorem, że wykryto inny adres IP, niezgodny z&nbsp;tym oficjalnym. To jeden z&nbsp;adresów z&nbsp;poprzedniego przykładu. Obok niego znajduje się polska flaga." />
 
 W takiej sytuacji wszedłem w&nbsp;opcje Opery i&nbsp;paroma kliknięciami wyłączyłem całkowicie WebRTC. Kiedy to zrobiłem, to BrowserLeaks zaczął pokazywać, że wykrywa tylko szwedzkie IP i&nbsp;żadnego innego. Wyciek zatkany!
 
@@ -67,7 +67,7 @@ Proste? Proste. A&nbsp;teraz pokażę, jak wyłączać WebRTC w&nbsp;różnych p
 ### Chrome
 
 Zacznę od najpopularniejszego Chrome'a, żeby mieć go z&nbsp;głowy.  
-W jego przypadku stronka BrowserLeaks [radzi](https://browserleaks.com/webrtc#howto-disable-webrtc), żeby użyć oficjalnego dodatku od Google'a, [*WebRTC Network Limiter*](https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia). To samo proponuje IPLeak.
+W jego przypadku stronka BrowserLeaks [radzi](https://browserleaks.com/webrtc#howto-disable-webrtc), żeby użyć oficjalnego dodatku od Google'a, [*WebRTC Network Limiter*](https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia). To samo proponuje IPLeak.
 
 Oznacza to jednak zależność od Wujka G, dla którego prywatność nie jest sprawą priorytetową. Sam dodatek miał w&nbsp;ostatnich latach czas, gdy [przez półtora roku nie działała ważna funkcja](https://bugs.chromium.org/p/chromium/issues/detail?id=1247217).
 
@@ -108,13 +108,13 @@ A jak *w „Porach roku”*{:.corr-del} u&nbsp;Vivaldiego? Według ich forum -- 
   Osobiście nie sprawdzałem, więc faktyczne polskie tłumaczenie może nieco się różnić; sens ten sam.
 
 Warto zaznaczyć, że jeden z&nbsp;użytkowników pisze na forum, że mu to nie działa. Inni piszą, że działa.  
-Możliwe, że ma jakąś nietypową konfigurację albo coś zamotał. W&nbsp;każdym razie, jak zawsze, warto sprawdzić efekt przez BrowserLeaks.
+Możliwe, że ma jakąś nietypową konfigurację albo coś zamotał. W&nbsp;każdym razie, jak zawsze, warto sprawdzić efekt przez BrowserLeaks.
 
 ### Firefox
 
 W przypadku Firefoksa na komputerze musiałem wpisać w&nbsp;górny pasek przeglądarki `about:config`. Wyskoczył komunikat mówiący, żebym zachował ostrożność. Niezbyt ze mną współgrał, ale napis `Akceptuję ryzyko` na przycisku pod nim -- już bardziej. Dlatego go kliknąłem.
 
-Aktywował się pasek wyszukiwania. Zacząłem wpisywać w&nbsp;niego `media.peerconnection.enabled`. Kiedy pojawiła się opcja o&nbsp;tej nazwie, to dwukrotnie ją kliknąłem, żeby zmienić `true` na `false`. Gotowe!
+Aktywował się pasek wyszukiwania. Zacząłem wpisywać w&nbsp;niego `media.peerconnection.enabled`. Kiedy pojawiła się opcja o&nbsp;tej nazwie, to dwukrotnie ją kliknąłem, żeby zmienić `true` na `false`. Gotowe!
 
 W przypadku **mobilnego Firefoksa** trzeba było zamiast tego wpisać w górny pasek dość nietypową inkantację:
 
@@ -149,12 +149,12 @@ Fajnie pokazuje to [film użytkownika AKM](https://www.youtube.com/watch?v=u4jF3
 Wideorozmowy przez WebRTC obsługują nie tylko przeglądarki, ale również wiele komunikatorów. W&nbsp;tym szyfrowanych, które nie mają wglądu do treści wiadomości.  
 Przejście na *peer-to-peer* to dla nich oszczędność danych, więc chętnie parują w&nbsp;ten sposób użytkowników.
 
-W przypadku komunikatorów **zagrożenie wydaje mi się mniejsze niż w&nbsp;przypadku stron internetowych**.
+W przypadku komunikatorów **zagrożenie wydaje mi się mniejsze niż w&nbsp;przypadku stron internetowych**.
 
 Podczas surfowania po sieci adres IP mogą demaskować podmioty zawodowo profilujące użytkowników.  
 Obecne na wielu stronach. Gromadzące poza adresami również pliki *cookies* i&nbsp;inne dane, dokładniej mapujące wędrówki ludzi po sieci.
 
-W porównaniu z&nbsp;tym zagrożeniem komunikatory mało mogą. Wspierając *peer-to-peer*, raczej nie mają złych intencji. Opcja nadużyć jest niewielka. A&nbsp;gdyby wszyscy korzystali z&nbsp;ich pośrednictwa, to by je dobili rachunkiem za serwery.
+W porównaniu z&nbsp;tym zagrożeniem komunikatory mało mogą. Wspierając *peer-to-peer*, raczej nie mają złych intencji. Opcja nadużyć jest niewielka. A&nbsp;gdyby wszyscy korzystali z&nbsp;ich pośrednictwa, to by je dobili rachunkiem za serwery.
 
 Tym niemniej fakt jest faktem. Podczas wideorozmowy *peer-to-peer* **telekom wyraźnie zobaczy, że dwa adresy IP wymieniają między sobą informacje**.
 
@@ -187,7 +187,7 @@ Podobnie jak Signal, te komunikatory stosują *peer-to-peer* tylko między ludź
 Ale jeśli nie ufają infrastrukturze po drodze, to zawsze mogą wrócić do pośrednictwa serwerów.
 
 Zdam się na porady z&nbsp;podlinkowanego wyżej artykułu TechCrunch oraz drugiego, o&nbsp;[Telegramie](https://techcrunch.com/2023/10/19/telegram-is-still-leaking-user-ip-addresses-to-contacts).  
-Tłumaczenie moje, więc może nie zgadzać się co do litery. Ale sens powinien być zachowany.
+Tłumaczenie moje, więc może nie zgadzać się co do litery. Ale sens powinien być zachowany.
 
 * **Telegram**
 

@@ -61,7 +61,7 @@ Lećmy dalej. Na początku felietonu, jak i pod jego treścią, znajdziemy takie
 Czy autorka dodałaby coś takiego, gdyby ten tekst miał przedstawiać agendę WEF?  
 To nie jest nieznaczący dupochronik w&nbsp;stylu „tekst zawiera moje osobiste poglądy i&nbsp;nie jest oficjalnym stanowiskiem World Economic Forum”. Nie; Ida Auken wprost pisze, że nie chciała tworzyć peanu na cześć zniknięcia własności prywatnej.
 
-Ktoś sceptyczny powie, że mogła dodać wyjaśnienie dla zmyły. Już po tym, jak się zrobił szum. No OK, to spójrzmy na samą treść.
+Ktoś sceptyczny powie, że mogła dodać wyjaśnienie dla zmyły. Już po tym, jak się zrobił szum. No OK, to spójrzmy na samą treść.
 
 Tekst faktycznie przedstawia realia, w&nbsp;których ma się mniej wszystkiego, w&nbsp;dość utopijny sposób. Ale wspomina też o&nbsp;ciemnych stronach takiego stanu rzeczy. Jak o&nbsp;odejściu od ważniejszych spraw na rzecz rozrywki:
 
@@ -103,18 +103,18 @@ W tym streszczeniu również przedstawiają wizję z&nbsp;tekstu jako coś, co n
 
 Gdyby dla ludzi z&nbsp;WEF był to oficjalny plan i&nbsp;ideał, to czy w&nbsp;taki sposób by go przedstawiali?
 
-Jeśli moja próba weryfikacji Was nie przekonuje, to możecie też się zapoznać z&nbsp;[tą od Reutersa](https://www.reuters.com/article/uk-factcheck-wef-idUSKBN2AP2T0). Pokazują tam, że cytowane słowa nie wychodzą poza materiały PR-owe, a&nbsp;oficjalne wytyczne WEF nie mówią o&nbsp;zakończeniu własności prywatnej.
+Jeśli moja próba weryfikacji Was nie przekonuje, to możecie też się zapoznać z&nbsp;[tą od Reutersa](https://www.reuters.com/article/uk-factcheck-wef-idUSKBN2AP2T0). Pokazują tam, że cytowane słowa nie wychodzą poza materiały PR-owe, a&nbsp;oficjalne wytyczne WEF nie mówią o&nbsp;zakończeniu własności prywatnej.
 
 ## Podsumowanie
 
 Przedstawianie słów *“You'll own nothing”* jako oficjalnej deklaracji WEF uważam za straszną przesadę. Od początku były nazwane prognozą, autorka napisała sprostowanie, nie są odzwierciedlone w&nbsp;ważniejszych dokumentach.
 
 Przypomnę: **o&nbsp;WEF poczytałem tylko pobieżnie, więc nie oceniam samej organizacji**. Tylko sposób przedstawiania jednego cytatu.  
-Ale, no... Jeśli artykuł dość jasno pokazuje&nbsp;A, ale ktoś bierze z&nbsp;niego kilka słów i&nbsp;mówi że pokazują&nbsp;B, to jak to nazwać? Kłamstwem, manipulacją, *fake newsem*?
+Ale, no... Jeśli artykuł dość jasno pokazuje&nbsp;A, ale ktoś bierze z&nbsp;niego kilka słów i&nbsp;mówi że pokazują&nbsp;B, to jak to nazwać? Kłamstwem, manipulacją, *fake newsem*?
 
 Przejdę do tego, co myślę o&nbsp;samym felietonie.
 
-Z jednej strony: fajnie widzieć prognozę biorącą pod uwagę kilka równoległych, na razie raczkujących zjawisk i&nbsp;łączącą je w&nbsp;całość. Lubię eksperymenty myślowe.
+Z jednej strony: fajnie widzieć prognozę biorącą pod uwagę kilka równoległych, na razie raczkujących zjawisk i&nbsp;łączącą je w&nbsp;całość. Lubię eksperymenty myślowe.
 
 Z drugiej: jest moim zdaniem dość płytki i&nbsp;utopijny. Patrzy na pozytywne strony dzielenia własności -- rowery miejskie, tymczasowe mieszkania i&nbsp;biura -- i&nbsp;na tej podstawie prognozuje. Gloryfikuje rzeczy, które nie do końca się obecnie sprawdzają.
 
@@ -125,4 +125,4 @@ Dzielenie przestrzeni biurowych? Coś może o&nbsp;tym powiedzieć WeWork, któr
 Poza tym jak ma wyglądać przejście od korpo radykalnie dbających o&nbsp;swój interes do pełnego współdzielenia z&nbsp;wizji autorki? Od niedoskonałych algorytmów do zastąpienia ludzi przez maszyny?  
 Widzę tu dość spory przeskok myślowy. Nie wydaje się wiarygodny.
 
-Dlatego nie będę się sugerował wizją utopijną, wizją spiskową ani żadną inną. Po prostu wezmę sobie słowa z&nbsp;tytułu (bo fajne) i&nbsp;pokażę obrazki z&nbsp;rzeczywistości. Zapraszam do części drugiej.
+Dlatego nie będę się sugerował wizją utopijną, wizją spiskową ani żadną inną. Po prostu wezmę sobie słowa z&nbsp;tytułu (bo fajne) i&nbsp;pokażę obrazki z&nbsp;rzeczywistości. Zapraszam do części drugiej.

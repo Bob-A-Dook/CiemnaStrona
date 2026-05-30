@@ -30,11 +30,11 @@ Na rusztach łóżek milczy przerażenie
 Jacek Kaczmarski, [„A my nie chcemy uciekać stąd”](https://www.youtube.com/watch?v=YLXvyCJSOwk)  
 (w linku wykonanie Przemysława Gintrowskiego).
 
-Wybaczcie mi proszę słowo „przebudzenie”. Wiem że w&nbsp;obecnych czasach może się kojarzyć z&nbsp;bełkotem teoretyków spiskowych. Ale ta piosenka bardzo mi pasowała do grafiki i&nbsp;po prostu musiałem jej użyć :wink:  
+Wybaczcie mi proszę słowo „przebudzenie”. Wiem że w&nbsp;obecnych czasach może się kojarzyć z&nbsp;bełkotem teoretyków spiskowych. Ale ta piosenka bardzo mi pasowała do grafiki i&nbsp;po prostu musiałem jej użyć :wink:  
 A co do samej treści obiecuję, że będzie niespiskowo i&nbsp;praktycznie. Jak zawsze!
 
 Bo widzicie -- mamy na świecie całkiem realny problem z&nbsp;moderowaniem komentarzy na wielkich portalach internetowych. Pomijając niechęć niektórych osób do samej *idei* moderacji, zwyczajnie nie starczyłoby do tego ludzi.  
-Zatem na pierwszą linię rzuca się automaty. Wykrywające, usuwające albo chowające wypowiedzi, które są w&nbsp;ich oczach spamem. Rozwiązuje to niektóre problemy, ale też tworzy zupełnie nowe.
+Zatem na pierwszą linię rzuca się automaty. Wykrywające, usuwające albo chowające wypowiedzi, które są w&nbsp;ich oczach spamem. Rozwiązuje to niektóre problemy, ale też tworzy zupełnie nowe.
 
 Pokażę tutaj, w&nbsp;jaki sposób algorytmy Facebooka chowają niekiedy całkiem ciekawe i&nbsp;wartościowe treści. Przyczyniając się do zamykania ludzi w&nbsp;ich własnych bańkach informacyjnych. I&nbsp;dając amunicję wszelkiej maści spiskowcom i&nbsp;trollom, którzy mogą potem twierdzić, że serwis ukrywa prawdę o&nbsp;świecie.
 
@@ -91,7 +91,7 @@ Dotyczy to jednak dłuższych wymian komentarzy, gdy luki utrudniałyby czytanie
 
 Wiemy już, *jak* odsłaniać komentarze. Spójrzmy teraz, *co* się w&nbsp;nich kryje.
 
-Czasem to rzeczy prozaiczne, faktyczny spam. Gdybyśmy wyłączyli filtr komentarzy pod jakimś mainstreamowym artykułem, to bardzo możliwe, że jedynymi nowinkami byłyby takie wypowiedzi:
+Czasem to rzeczy prozaiczne, faktyczny spam. Gdybyśmy wyłączyli filtr komentarzy pod jakimś mainstreamowym artykułem, to bardzo możliwe, że jedynymi nowinkami byłyby takie wypowiedzi:
 
 {:.bigspace}
 {% include comment.html
@@ -100,21 +100,21 @@ source="facebook"
 text="**@Jakaś Inna Osoba**{:.red} zobacz haha"
 %}
 
-Ale nie dziękujmy jeszcze Facebookowi za to, że chowa przed nami te mądrości. Niestety trafiają się też przypadki bardziej kontrowersyjne.
+Ale nie dziękujmy jeszcze Facebookowi za to, że chowa przed nami te mądrości. Niestety trafiają się też przypadki bardziej kontrowersyjne.
 
 ### Przypadek EFF
 
 Zacznijmy od [profilu *Electronic Frontier Foundation*](https://www.facebook.com/eff/). Jednej z&nbsp;większych organizacji nagłaśniających problemy nadużyć w&nbsp;świecie cyfrowym. Merytorycznej i&nbsp;niespiskowej.
 
-Dygresja: trochę mnie dziwi, że przy ponad 190&nbsp;000 obserwujących rzadko zbierają więcej niż kilkadziesiąt polubień pod postami. Niektóre inne strony, które omawiam w&nbsp;tym wpisie, mają podobne albo kilka razy mniejsze grono odbiorców, ale zaangażowanie dużo większe.
+Dygresja: trochę mnie dziwi, że przy ponad 190&nbsp;000 obserwujących rzadko zbierają więcej niż kilkadziesiąt polubień pod postami. Niektóre inne strony, które omawiam w&nbsp;tym wpisie, mają podobne albo kilka razy mniejsze grono odbiorców, ale zaangażowanie dużo większe.
 
 No ale wróćmy do wątku głównego. Po odwiedzeniu ich profilu przewijam w&nbsp;dół i&nbsp;znajduję post z&nbsp;4&nbsp;grudnia 2022, wspominający o&nbsp;platformie [Mastodon](https://joinmastodon.org/) (coraz popularniejszej alternatywie dla Twittera).
 
 {:.bigspace}
 {% include info.html
 type="Porada"
-text="Nie podaję bezpośrednich linków do postów, żebyśmy mogli trochę poćwiczyć szukanie treści.  
-Jeśli już minęło sporo czasu od publikacji tego wpisu, to mój przykład z&nbsp;EFF pewnie odpłynął daleko w&nbsp;dół. Żeby łatwo go znaleźć, najpierw wchodzimy na profil EFF. Klikamy w&nbsp;ikonę lupy po prawej stronie, pod nagłówkiem profilu. Wpisujemy `Mastodon`. Potem wybieramy z&nbsp;menu opcję `Wyszukaj \"Mastodon\" na tej stronie`.  
+text="Nie podaję bezpośrednich linków do postów, żebyśmy mogli trochę poćwiczyć szukanie treści.  
+Jeśli już minęło sporo czasu od publikacji tego wpisu, to mój przykład z&nbsp;EFF pewnie odpłynął daleko w&nbsp;dół. Żeby łatwo go znaleźć, najpierw wchodzimy na profil EFF. Klikamy w&nbsp;ikonę lupy po prawej stronie, pod nagłówkiem profilu. Wpisujemy `Mastodon`. Potem wybieramy z&nbsp;menu opcję `Wyszukaj \"Mastodon\" na tej stronie`.  
 Analogicznie przy kolejnych przykładach. Będę podawał daty dodania postów i&nbsp;słowa pozwalające je znaleźć."
 %}
 
@@ -166,7 +166,7 @@ Ale to odznaczenie nic nie zmienia, komentarz jest domyślnie ukryty. Zresztą p
 Ten przypadek może być dla nas cenną poszlaką. Być może przy ukrywaniu komentarzy Facebook bierze pod uwagę jakąś abstrakcyjnie rozumianą *reputację użytkowników*.
 
 Pod spodem na profilu EFF znajdziemy jeszcze inny post, z&nbsp;17&nbsp;listopada. Na temat nie tyle Mastodona, co szerszego zjawiska *Fediverse*.  
-Tam również są usunięte komentarze. Jeden od tego samego F.M.A. co wcześniej (tym razem nieco bardziej bojowniczy). A&nbsp;także komentarz linkujący do instrukcji przechodzenia na nową platformę:
+Tam również są usunięte komentarze. Jeden od tego samego F.M.A. co wcześniej (tym razem nieco bardziej bojowniczy). A&nbsp;także komentarz linkujący do instrukcji przechodzenia na nową platformę:
 
 {:.bigspace}
 {% include comment.html
@@ -179,16 +179,16 @@ Może jakiś użytkownik wypatrywał informacji o&nbsp;alternatywach, chciał zm
 
 ### Przypadek DuckDuckGo
 
-DuckDuckGo to przede wszystkim alternatywa dla Google, reklamująca się większym szanowaniem prywatności użytkowników. Czy słusznie -- to osobna sprawa, ale zawsze to kolejny krok z&nbsp;dala od ekosystemu Wujka&nbsp;G.
+DuckDuckGo to przede wszystkim alternatywa dla Google, reklamująca się większym szanowaniem prywatności użytkowników. Czy słusznie -- to osobna sprawa, ale zawsze to kolejny krok z&nbsp;dala od ekosystemu Wujka&nbsp;G.
 
 Pod niektórym postami na [ich profilu](https://www.facebook.com/duckduckgo), które sprawdziłem wyrywkowo, ukryte komentarze faktycznie były głównie spamem, oznaczaniem znajomych i&nbsp;tak dalej.
 
-Ale pod postem nawiązującym do mistrzostw w&nbsp;Katarze (z&nbsp;18&nbsp;listopada, słowa kluczowe `World Cup`) znajdziemy coś ciekawszego. Dwa ukryte linki, podesłane przez osoby bojkotujące zawody. Oto jeden z&nbsp;nich:
+Ale pod postem nawiązującym do mistrzostw w&nbsp;Katarze (z&nbsp;18&nbsp;listopada, słowa kluczowe `World Cup`) znajdziemy coś ciekawszego. Dwa ukryte linki, podesłane przez osoby bojkotujące zawody. Oto jeden z&nbsp;nich:
 
 {:.figure .bigspace}
 <img src="/assets/posts/fb-cenzura/katar-anty-komentarz.jpg" alt="Zrzut ekranu pokazujący komentarz z&nbsp;Facebooka mówiący, że jego autor nie popiera krwawego sportu. Pod spodem znajduje się link do artykułu z&nbsp;Guardiana"/>
 
-Link do *Guardiana*. Nie każdy musi się zgadzać z&nbsp;ich linią redakcyjną; sam mam neutralne podejście, choć cenię niektóre dokonania ich dziennikarstwa śledczego.  
+Link do *Guardiana*. Nie każdy musi się zgadzać z&nbsp;ich linią redakcyjną; sam mam neutralne podejście, choć cenię niektóre dokonania ich dziennikarstwa śledczego.  
 Tak czy siak nie sposób im odmówić, że są gazetą dużą i&nbsp;znaną. To nie jest jakiś link do stronki spiskowej. A&nbsp;jednak komentarz został ukryty.
 
 Nawet gdyby algorytm Facebooka odrzucał z&nbsp;automatu te komentarze, które zawierają sam link i&nbsp;zero treści, to i&nbsp;tak nie dotyczyłoby to tego przypadku. Bo oprócz linku jest parę słów od autora. Krótkich i&nbsp;zrozumiałych.
@@ -205,7 +205,7 @@ W odpowiedzi ten prawdziwy Niebezpiecznik opublikował posta (3 listopada, słow
 
 Poukrywane komentarze są różne. Mem z&nbsp;Clintem Eastwoodem, jakieś losowe śmieszki. Komentarz nieironicznie twierdzący, że... powinni się cieszyć zainteresowaniem od Apple :roll_eyes: Ale schowano też konkrety, jak link do strony pozwalającej zgłaszać Apple naruszanie praw autorskich. 
 
-Tak jak wyżej, raczej nie rozpracujemy zasad, jakimi kierował się algorytm.  
+Tak jak wyżej, raczej nie rozpracujemy zasad, jakimi kierował się algorytm.  
 Ale ten przykład jest dla nas ciekawy pod innym względem. Ukryto również komentarz, który zebrał 21&nbsp;reakcji (polubień i&nbsp;śmiechów) oraz odpowiedź samego Niebezpiecznika. Co doprowadziło do ukrycia również tejże odpowiedzi.
 
 {% include comment.html
@@ -225,7 +225,7 @@ text="**Tomasz** byle nie kazali płacić za reklamę na każdym iPhonie, bo bę
 
 Gdyby ktoś postawił tezę „*Odpowiedzi od strony-autora zawsze chronią komentarze przed schowaniem*”, to tu mielibyśmy dowód na jej fałszywość.
 
-**Lajki oraz odpowiedzi od autora posta nie chronią przed ukryciem komentarza**. Albo trochę chronią, ale nie zawsze. W&nbsp;każdym razie autorzy raczej nie uratują swoich użytkowników przez wchodzenie z&nbsp;nimi w&nbsp;interakcje.
+**Lajki oraz odpowiedzi od autora posta nie chronią przed ukryciem komentarza**. Albo trochę chronią, ale nie zawsze. W&nbsp;każdym razie autorzy raczej nie uratują swoich użytkowników przez wchodzenie z&nbsp;nimi w&nbsp;interakcje.
 
 ### Przypadek Doniesień z&nbsp;putinowskiej Polski
 
@@ -233,11 +233,11 @@ Tutaj spojrzymy na wątek, który jest mi dość bliski. Bo sam też o&nbsp;nim 
 
 W skrócie: substancja ta miała zwyczaj przedostawać się do wód gruntowych i&nbsp;źle wpływać na układ hormonalny organizmów wodnych. Kiedy różni naukowcy zaczęli nagłaśniać sprawę, to koncern, zamiast dokładniej to zbadać, wziął się za niszczenie ich reputacji.
 
-*[Doniesienia z&nbsp;putinowskiej Polski](https://www.facebook.com/PutinowaPolska)* to profil, na którym nie spodziewalibyśmy się tej sprawy. Na co dzień pisze o&nbsp;aferach i&nbsp;skandalach polityczno-militarnych, zwykle z&nbsp;Rosją w&nbsp;tle. A&nbsp;jednak, o&nbsp;dziwo, sprawa żab również trafiła do komentarzy.
+*[Doniesienia z&nbsp;putinowskiej Polski](https://www.facebook.com/PutinowaPolska)* to profil, na którym nie spodziewalibyśmy się tej sprawy. Na co dzień pisze o&nbsp;aferach i&nbsp;skandalach polityczno-militarnych, zwykle z&nbsp;Rosją w&nbsp;tle. A&nbsp;jednak, o&nbsp;dziwo, sprawa żab również trafiła do komentarzy.
 
 Kiedyś mianowicie na *Doniesieniach* zagościła informacja o&nbsp;tym, że sąd nakazał znanemu showmanowi z&nbsp;USA wypłatę odszkodowania. Opublikowano ją 13&nbsp;października, można wyszukać po słowach `była mistyfikacją`.
 
-Chodzi o&nbsp;osobę o inicjałach A.J. Zapewne kojarzycie. Facet miał zwyczaj brać różne informacje, czasem oparte na faktach, i&nbsp;klecić z nich niestworzone teorie spiskowe. Nie wymienię go z&nbsp;nazwiska, żeby nie przyciągnąć foliarzy na bloga :wink:.
+Chodzi o&nbsp;osobę o inicjałach A.J. Zapewne kojarzycie. Facet miał zwyczaj brać różne informacje, czasem oparte na faktach, i&nbsp;klecić z nich niestworzone teorie spiskowe. Nie wymienię go z&nbsp;nazwiska, żeby nie przyciągnąć foliarzy na bloga :wink:.
 
 Jedna z&nbsp;teorii showmana bazowała właśnie na „żabiej aferze”. W&nbsp;komentarzach pojawiły się zatem zarówno osoby śmieszkujące z&nbsp;interpretacji A.J., jak też ludzie wyjaśniający, o&nbsp;co w&nbsp;tym naprawdę chodziło. **I nie, Facebook nie pousuwał faktów na temat afery**. Wykazał się natomiast kolejną niekonsekwencją. Spójrzmy:
 
@@ -247,9 +247,9 @@ Jedna z&nbsp;teorii showmana bazowała właśnie na „żabiej aferze”. W&nbsp
 Dwa linki od tej samej osoby, w&nbsp;zbliżonym czasie. Pierwszy do artykułu naukowego na stronie uczelni, w&nbsp;domenie *gov*. Drugi do filmiku na YouTubie.  
 Link numer jeden był ukryty, ten do YouTube'a przetrwał.
 
-I choć nie mam nic do filmu Okiego -- jest bardzo solidnym omówieniem sprawy! -- to jednak decyzja algorytmu jest ciut dziwna. Sugeruje, że chowanie linków niekoniecznie bazuje na jakiejś *reputacji domen*. I&nbsp;nie chodzi tu raczej o&nbsp;reputację linkującego, bo ten w&nbsp;obu przypadkach był ten sam.
+I choć nie mam nic do filmu Okiego -- jest bardzo solidnym omówieniem sprawy! -- to jednak decyzja algorytmu jest ciut dziwna. Sugeruje, że chowanie linków niekoniecznie bazuje na jakiejś *reputacji domen*. I&nbsp;nie chodzi tu raczej o&nbsp;reputację linkującego, bo ten w&nbsp;obu przypadkach był ten sam.
 
-Bardzo podobną niekonsekwencję zobaczymy w&nbsp;ukrywaniu komentarzy twierdzących, że to samo mogłoby spotkać znanego polskiego znachora:
+Bardzo podobną niekonsekwencję zobaczymy w&nbsp;ukrywaniu komentarzy twierdzących, że to samo mogłoby spotkać znanego polskiego znachora:
 
 {% include comment.html
 author="Jakub"
@@ -266,7 +266,7 @@ text="**Doniesienia z&nbsp;putinowskiej Polski**{:.red} przydałoby się żeby t
 
 Ten sam wydźwięk. Pierwszy komentarz schowany, drugi nie. Skąd różnica? Czy możliwe, że „powinien tak skończyć” skojarzyło się algorytmowi z&nbsp;jakimiś agresywniejszymi komentarzami i&nbsp;dlatego oberwało?
 
-Możemy też pomyśleć, że krótkie komentarze są gorzej punktowane; na przykład skojarzą się algorytmom z&nbsp;kłótniami internetowymi, zakończonymi zbanowaniem jakiegoś uczestnika.  
+Możemy też pomyśleć, że krótkie komentarze są gorzej punktowane; na przykład skojarzą się algorytmom z&nbsp;kłótniami internetowymi, zakończonymi zbanowaniem jakiegoś uczestnika.  
 Ale Facebook schował również inny komentarz. Który wprawdzie wywołał drobną dyskusję, ale był dość refleksyjny, bez bluzgów. I&nbsp;długi:
 
 {:.bigspace}
@@ -304,7 +304,7 @@ Najpierw oddajmy głos samemu Facebookowi. W&nbsp;zakładce z&nbsp;informacjami 
 
 W zakładce [*making public comments more meaningful*](https://about.fb.com/news/2019/06/making-public-comments-more-meaningful/) przedstawicielka Facebooka pokazuje więcej przykładów. Przy szeregowaniu komentarzy brane są ponoć pod uwagę opinie z&nbsp;losowych ankiet wśród użytkowników. Albo historia interakcji (co było najczęściej lajkowane i&nbsp;wywoływało dyskusję).
 
-Oba teksty sugerują, że jakieś znaczenie ma fakt, czy pod komentarzem napisał coś sam autor posta. Ale, jak widzieliśmy przy Niebezpieczniku, nie jest to reguła absolutna. Potrafiło schować lajkowany komentarz wraz z&nbsp;ich odpowiedzią (mimo że są nie tylko autorami posta, ale też kontem oficjalnie zweryfikowanym).
+Oba teksty sugerują, że jakieś znaczenie ma fakt, czy pod komentarzem napisał coś sam autor posta. Ale, jak widzieliśmy przy Niebezpieczniku, nie jest to reguła absolutna. Potrafiło schować lajkowany komentarz wraz z&nbsp;ich odpowiedzią (mimo że są nie tylko autorami posta, ale też kontem oficjalnie zweryfikowanym).
 
 Informacje od Fejsa dają niby jakiś wgląd w&nbsp;algorytm. Tylko że to wszystko jest wymienione po magicznym słowie *including*, co oznacza że tak naprawdę kryteriów może być znacznie więcej. I&nbsp;zapewne tak jest, bo Facebook bez wątpienia stosuje metody uczenia maszynowego.
 
@@ -319,13 +319,13 @@ W ramach uczenia maszynowego wrzucamy komputerowi wiele różnych danych. A&nbsp
 Komputer drąży, mieli, znajduje jakieś swoje powiązania. Tylko że kompletnie nie muszą one odpowiadać temu, co pomyślałby żywy, świadomy człowiek. To wypadkowa wielu rzeczy, jak na przykład długość komentarza, data, liczba wszystkich komentarzy danej osoby...
 
 Nie wyobrazimy sobie tego wszystkiego, podobnie jak nie bylibyśmy w&nbsp;stanie przeprowadzić w&nbsp;głowie fizycznej symulacji.  
-Ale pozwolę sobie chwilę poteoretyzować. Jeśli komputer chciałby rozdzielić komentarze na różne grupy, to jakie cechy mógłby uznać za istotne?
+Ale pozwolę sobie chwilę poteoretyzować. Jeśli komputer chciałby rozdzielić komentarze na różne grupy, to jakie cechy mógłby uznać za istotne?
 
-* Do banowania kont zapewne nieraz dochodzi po kłótniach w&nbsp;komentarzach. Jak kłótnie, to wulgaryzmy. Zatem algorytm mógłby sobie stworzyć nieformalne „czarne listy słów”.
+* Do banowania kont zapewne nieraz dochodzi po kłótniach w&nbsp;komentarzach. Jak kłótnie, to wulgaryzmy. Zatem algorytm mógłby sobie stworzyć nieformalne „czarne listy słów”.
 
   Efektem ubocznym mogłoby być chowanie wszelkich komentarzy z&nbsp;wulgaryzmami. Nawet jeśli ich wydźwięk był pozytywny (*it's f\*cking delicious*). Albo, co gorsza, jeśli pojawi się jakieś słowo dwuznaczne dla algorytmu („jakie polecacie pedały do roweru górskiego?” na grupce sportowej).
 
-* W&nbsp;czasach Covida było wiele ożywionych dyskusji. Ludzie mogli się licytować na artykuły naukowe, zanim ktoś stracił cierpliwość i&nbsp;dostał bana za agresję.
+* W&nbsp;czasach Covida było wiele ożywionych dyskusji. Ludzie mogli się licytować na artykuły naukowe, zanim ktoś stracił cierpliwość i&nbsp;dostał bana za agresję.
 
   Ale algorytm, patrząc na takie przypadki, mógłby uznać *każdy* komentarz z&nbsp;linkiem do strony amerykańskiej agencji ds. zdrowia za coś drażliwego. Mimo że to artykuły naukowe. Jest szansa, że częściej pojawiają się w&nbsp;komentarzach podczas ostrych dyskusji niż przyjaznych rozmów.
 
@@ -335,7 +335,7 @@ Ale pozwolę sobie chwilę poteoretyzować. Jeśli komputer chciałby rozdzieli
   Tylko że obstawiałbym, że ci ludzie nie przyjęli tego ciepło. Nie chcą widzieć ciemnych stron, chcą widzieć kopanie piłki. W&nbsp;takich warunkach komentarze nie zebrałyby lajków, a&nbsp;może nawet byłyby zgłaszane do usunięcia.  
   Na ogólniejszych grupach te skandale mogłyby lepiej się przyjąć, zaskoczyć ludzi, zebrać reakcje. Ale nie zbiorą niczego, jeśli algorytm już do tej pory sobie ubzdurał, że te linki lepiej chować.
 
-Oczywiście wszystkie powyższe przemyślenia musiałbym wyrzucić do kosza, gdyby dla algorytmu miały znaczenie nie tylko cechy komentarzy, ale również mojego własnego konta.  
+Oczywiście wszystkie powyższe przemyślenia musiałbym wyrzucić do kosza, gdyby dla algorytmu miały znaczenie nie tylko cechy komentarzy, ale również mojego własnego konta.  
 Czy tak jest? Nie wiem. Jak już podkreślałem, algorytm to trochę czarna skrzynka. Choć słowa „*zobaczysz komentarze odpowiednie dla siebie*” z&nbsp;oficjalnych wyjaśnień Fejsa niestety to sugerują.
 
 Ale wiem coś innego. Gdyby algorytm kierował się cechami naszego konta, to **każdy dostawałby własny, szyty na miarę mikroświat. Tylko że niekompletny w&nbsp;porównaniu z&nbsp;tym prawdziwym**. Odarty z&nbsp;tego, co zdaniem komputerów Facebooka do nas nie pasuje.
@@ -358,15 +358,15 @@ Dochodzi do swoistego *sprzężenia zwrotnego*:
 * Kręgi spiskowe to zauważają i&nbsp;pokazują wyraźne dowody na to, że platforma coś chowa. Nie nazywają tego wadami algorytmu, tylko celowym „ukrywaniem prawdy”.
 * Takie argumenty przekonują nawet osoby nieco bardziej umiarkowane. Po zradykalizowaniu zaczynają spamować platformę dezinformacją...
 
-I tak dalej. Krąg się zamyka, świat się radykalizuje.
+I tak dalej. Krąg się zamyka, świat się radykalizuje.
 
 Gdyby chodziło tylko o&nbsp;komentarze, to jeszcze pół biedy. Ale na podobnie niejasnych zasadach może dochodzić również [do banowania kont -- firmowych i&nbsp;nie tylko](https://itbiznes.pl/felieton/biznes-na-facebooku-blokada/).  
 I nie jest to problem samego Facebooka. Również YouTube „szczyci się” [nieprzeniknionymi regułami]({% post_url 2022-04-18-youtube-ai-reklamy %}){:.internal}  usuwania kont i&nbsp;wyłączania opcji zarobkowania.
 
 Wielkie platformy chętnie przygarniają użytkowników, twierdząc że miejsca starczy dla wszystkich. Wabią inwestorów, mówiąc że mają nowoczesne techniki moderacji, że to świetna przestrzeń do zarabiania na reklamach.  
-Brakuje refleksji nad tym, że cały ten system jest niestabilny, a&nbsp;jego słabości są cały czas wykorzystywane. Również przez siewców dezinformacji.
+Brakuje refleksji nad tym, że cały ten system jest niestabilny, a&nbsp;jego słabości są cały czas wykorzystywane. Również przez siewców dezinformacji.
 
-W takich realiach wniosek wydaje mi się prosty -- **bycie przeciwko algorytmicznej cenzurze nie jest oznaką myślenia spiskowego. To wręcz racjonalna próba uspokojenia świata**. Który w&nbsp;obecnym układzie tylko coraz bardziej się radykalizuje.
+W takich realiach wniosek wydaje mi się prosty -- **bycie przeciwko algorytmicznej cenzurze nie jest oznaką myślenia spiskowego. To wręcz racjonalna próba uspokojenia świata**. Który w&nbsp;obecnym układzie tylko coraz bardziej się radykalizuje.
 
 ## Co zrobić?
 
@@ -382,7 +382,7 @@ Osoby piszące komentarze mogłyby się starać, żeby były nieco dłuższe i&n
 
 A my, czytelnicy komentarzy? Rozwiązanie jest póki co proste. Zawsze po rozwinięciu komentarzy klikajmy opcję `Wszystkie`. Zobaczymy świat takim, jakim jest naprawdę.
 
-Jeśli odkryjemy, że jakieś ciekawe komentarze zostały schowane, to możemy o&nbsp;tym napisać własny komentarz pod tym samym postem, przekonując ludzi do odhaczenia filtra.  
+Jeśli odkryjemy, że jakieś ciekawe komentarze zostały schowane, to możemy o&nbsp;tym napisać własny komentarz pod tym samym postem, przekonując ludzi do odhaczenia filtra.  
 Gdyby ktoś się nam dziwił i napisał, że wszystko widzi, to pamiętajmy że filtry mogą różnie działać dla różnych osób.
 
 To tyle na dziś! Chyba że ktoś chce osobiście wyłapać parę przypadków poukrywanych komentarzy. W&nbsp;takim wypadku służę sprawdzonym (choć tylko przez siebie) skryptem ułatwiającym pracę.

@@ -5,7 +5,7 @@ description: "Robimy z telefonu narzędzie pracy."
 ---
 
 {:.figure .bigspace-after}
-<img src="/assets/tutorials/termux/termux-ciemna-edit.jpg" alt="Zrzut ekranu pokazujący nazwę programu Termux, w&nbsp;formie ascii art, wewnątrz konsoli tego programu. Pod spodem widać dopisek 'Ukłony od ciemnastrona.com.pl' i&nbsp;uśmiechniętą emotkę"/>
+<img src="/assets/tutorials/termux/termux-ciemna-edit.jpg" alt="Zrzut ekranu pokazujący nazwę programu Termux, w&nbsp;formie ascii art, wewnątrz konsoli tego programu. Pod spodem widać dopisek 'Ukłony od ciemnastrona.com.pl' i&nbsp;uśmiechniętą emotkę"/>
 
 To nie tyle spójny samouczek, co zbiór luźnych informacji na temat Termuksa -- aplikacji na Androida dającej możliwość korzystania z&nbsp;konsoli i&nbsp;skryptów na naszym własnym telefonie.
 
@@ -72,7 +72,7 @@ Wszystkich zastosowań nie wymienię, bo są niezliczone! Jak dotąd opisałem n
 A będzie tego więcej :wink:
 
 Poza tym, ogólniej: można korzystać z&nbsp;wielu przydatnych programów konsolowych znanych z&nbsp;systemu Linux.  
-Wiele fajnych samouczków można znaleźć w&nbsp;sieci pod hasłem `bash tutorial`. Choć nie były tworzone z&nbsp;myślą o&nbsp;Termuksie, nieraz zadziałają również na nim.
+Wiele fajnych samouczków można znaleźć w&nbsp;sieci pod hasłem `bash tutorial`. Choć nie były tworzone z&nbsp;myślą o&nbsp;Termuksie, nieraz zadziałają również na nim.
 
 Mało? Można zainstalować więcej programów z&nbsp;oficjalnej bazy. Dostępny jest chociażby język programowania Python, wraz z&nbsp;wieloma stworzonymi w&nbsp;nim pakietami (jak chociażby Matplotlib od wizualizacji danych).
 
@@ -116,7 +116,7 @@ Osobiście nie rootowałem telefonu, zadowalając się jego [odgooglowaniem](/20
 
 Innym ograniczeniem jest fakt, że **domyślnie nie zadziała żaden interfejs graficzny** (na przykład moduł Tkinter z&nbsp;Pythona czy interaktywna edycja obrazków przez pakiet OpenCV).
 
-Brak grafiki częściowo da się obejść, instalując pomocniczą apkę i&nbsp;wykonując [instrukcje ze strony Termuksa](https://wiki.termux.com/wiki/Graphical_Environment). Ale osobiście nie testowałem tej opcji.
+Brak grafiki częściowo da się obejść, instalując pomocniczą apkę i&nbsp;wykonując [instrukcje ze strony Termuksa](https://wiki.termux.com/wiki/Graphical_Environment). Ale osobiście nie testowałem tej opcji.
 
 ## Przegląd przydatnych funkcji
 
@@ -170,7 +170,7 @@ Na szczęście nie. Wystarczy nacisnąć wbudowany w&nbsp;Termuksa klawisz `Ctrl
 
 ## Python
 
-Nie będzie potrzebny osobom używającym gotowych programów. Ja jednak chciałem wzbogacić Termuksa o&nbsp;własne skrypty od przetwarzania stron internetowych. A&nbsp;że piszę je w&nbsp;języku Python, to go potrzebowałem.
+Nie będzie potrzebny osobom używającym gotowych programów. Ja jednak chciałem wzbogacić Termuksa o&nbsp;własne skrypty od przetwarzania stron internetowych. A&nbsp;że piszę je w&nbsp;języku Python, to go potrzebowałem.
 
 ### Instalacja
 
@@ -271,7 +271,7 @@ Jeśli ktoś nigdy nie bawił się pozwoleniami: trzeba wejść w&nbsp;ustawieni
 
 ### Instalowanie przez pkg nie działa
 
-Sam Termux niewiele nam daje bez dodatkowych modułów i&nbsp;bibliotek. Możemy je łatwo instalować, wpisując komendę `pkg install`. Ale co zrobić, kiedy tak podstawowa funkcja nam nie działa?
+Sam Termux niewiele nam daje bez dodatkowych modułów i&nbsp;bibliotek. Możemy je łatwo instalować, wpisując komendę `pkg install`. Ale co zrobić, kiedy tak podstawowa funkcja nam nie działa?
 
 Po wpisaniu pewnej takiej komendy wyskoczył mi długi błąd, którego główne przesłanie znalazłem na końcu:
 

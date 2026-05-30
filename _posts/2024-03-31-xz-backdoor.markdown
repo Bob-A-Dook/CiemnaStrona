@@ -11,13 +11,13 @@ image:
   path: /assets/posts/centralizacja/xz/xz-backdoor-baner.jpg
   width: 1200
   height: 700
-  alt: "Postać z logo tukana zamiast głowy i w koszulce z napisem XZ trzyma na barkach kulę ziemską z napisem SSH. W jej stronę leci kopniak wymierzony przez inną postać, w stroju mnicha Shaolin, z emotą diabełka zamiast głowy"
+  alt: "Postać z logo tukana zamiast głowy i w koszulce z napisem XZ trzyma na barkach kulę ziemską z napisem SSH. W jej stronę leci kopniak wymierzony przez inną postać, w stroju mnicha Shaolin, z emotą diabełka zamiast głowy"
 ---
 
 29 marca. Święta, za oknem ciepło, na poranek była zaplanowana uczta. W&nbsp;dobrym humorze siadłem do wieczornego przeglądania ulubionego forum, HN.  
 W oczy rzucił mi się wątek u&nbsp;samej góry. Ponad 700&nbsp;komentarzy w&nbsp;kilka godzin (parę dni później ponad 1700). Grubsza akcja.
 
-Jak się okazuje, **wykryto złośliwy kod w&nbsp;nowej wersji programu często używanego na serwerach**. Zagrożenie udało się rozpoznać, nim doprowadziło do większych szkód.  
+Jak się okazuje, **wykryto złośliwy kod w&nbsp;nowej wersji programu często używanego na serwerach**. Zagrożenie udało się rozpoznać, nim doprowadziło do większych szkód.  
 Teraz trwają analizy. Ukazują póki co wyrafinowany atak, rozwijany *przez lata*. Obejmujący hakerskie triki i&nbsp;psychologiczne usypianie czujności.
 
 Rok temu stworzyłem wielkanocny wpis o&nbsp;[ataku pewnej firmy](/2023/04/10/wielkanoc-tiry-walka.html){:.internal} na jej własnych kierowców. Tym razem coś cyfrowego. Aferkowa Wielkanoc zaczyna być tradycją!
@@ -50,10 +50,10 @@ Sprawa dotyczy programu o&nbsp;nazwie XZ oraz jego narzędzi pomocnicznych. Jest
 Do programu wprowadzono dyskretną zmianę, robiąc z&nbsp;niego potencjalny wytrych. Zamkami, które miał otwierać, miały być rzekomo połączenia przez [SSH](https://www.cloudflare.com/learning/access-management/what-is-ssh/) -- powszechną, szyfrowaną metodę panowania nad serwerami.
 
 Potem pojawiły się głosy, że jest jeszcze gorzej, a&nbsp;atak mógł mieć na celu [nie tylko włamanie, ale i&nbsp;sabotaż](https://bsky.app/profile/filippo.abyssdomain.expert/post/3kowjkx2njy2b) (RCE; uruchomienie złośliwego kodu).  
-Czym by się nie okazał; byłby groźny i&nbsp;miałby wielki obszar rażenia.
+Czym by się nie okazał; byłby groźny i&nbsp;miałby wielki obszar rażenia.
 
 {:.figure .bigspace-before}
-<img src="/assets/posts/centralizacja/xz/xz-backdoor-baner.jpg" alt="Postać z&nbsp;logo tukana zamiast głowy i&nbsp;w koszulce z&nbsp;napisem XZ trzyma na barkach kulę ziemską z&nbsp;napisem SSH. W&nbsp;jej stronę leci kopniak wymierzony przez inną postać, w&nbsp;stroju mnicha Shaolin, z&nbsp;emotą diabełka zamiast głowy."/>
+<img src="/assets/posts/centralizacja/xz/xz-backdoor-baner.jpg" alt="Postać z&nbsp;logo tukana zamiast głowy i&nbsp;w koszulce z&nbsp;napisem XZ trzyma na barkach kulę ziemską z&nbsp;napisem SSH. W&nbsp;jej stronę leci kopniak wymierzony przez inną postać, w&nbsp;stroju mnicha Shaolin, z&nbsp;emotą diabełka zamiast głowy."/>
 
 {:.figcaption}
 Źródło: Emojipedia, ikona projektu Tukaani, Freepik.  
@@ -77,7 +77,7 @@ Dzięki lekkości i&nbsp;wszechstronności jego wynalazki zwróciły uwagę inny
 
 ### Cyfrowy łańcuch dostaw
 
-Istotną częścią całej sprawy są różne powiązania między projektami *open source*. Można powiedzieć, że **kod spływa z&nbsp;góry, od źródła**. W&nbsp;języku angielskim jest ono zresztą nazywane *upstream*, jak źródło rzeki.
+Istotną częścią całej sprawy są różne powiązania między projektami *open source*. Można powiedzieć, że **kod spływa z&nbsp;góry, od źródła**. W&nbsp;języku angielskim jest ono zresztą nazywane *upstream*, jak źródło rzeki.
 
 Na początku łańcuszka jest jakiś projekt, jak wspomniany Tukaani. Kod źródłowy jego programów jest na widoku, przechowywany w&nbsp;tak zwanym *repozytorium*. Tak było też z&nbsp;XZ, choć [jego strona](https://github.com/tukaani-project/xz/releases) jest obecnie zawieszona.
 
@@ -90,7 +90,7 @@ Każdy program może się przebić i zwrócić uwagę innych projektów, jak Lin
 
 Twórcy Linuksów biorą przydatne według nich programy i&nbsp;dodają je do swoich systemów. Czasem jako udogodnienia dla użytkowników, a&nbsp;czasem wręcz jako filary systemu. Kod od XZ bywał bliżej tej drugiej kategorii.
 
-Ostatnim ogniwem łańcuszka są właściciele komputerów (tu głównie firmy mające swoje serwery). Decydują się na Linuksa, bo to system wszechstronny i&nbsp;przyjazny w&nbsp;obsłudze. Wybierają którąś z wielu jego wersji, instalują.
+Ostatnim ogniwem łańcuszka są właściciele komputerów (tu głównie firmy mające swoje serwery). Decydują się na Linuksa, bo to system wszechstronny i&nbsp;przyjazny w&nbsp;obsłudze. Wybierają którąś z wielu jego wersji, instalują.
 
 Na tych serwerach opiera się sieć, z&nbsp;której korzystają zwykli użytkownicy. Nie mając pojęcia, że świat stoi na Linuksie.
 
@@ -106,7 +106,7 @@ Infekowanie popularnych źródeł nazywa się oficjalnie „atakami na łańcuch
  
 Czyżby otwartość kodu na cudzy wkład była wadą? Nie. Powiedziałbym wręcz, że **to dzięki tej otwartości w&nbsp;ogóle udało się wychwycić zagrożenie**.
 
-Gdzieś na świecie istnieją projekty komercyjne, do których również ktoś dodał niespodzianki. Przez brak przejrzystości trudniej jest taki kod przeszukać i&nbsp;wykryć pułapki. Ale to temat na inną opowieść. Na razie wszystko toczy się w świecie *open source*.
+Gdzieś na świecie istnieją projekty komercyjne, do których również ktoś dodał niespodzianki. Przez brak przejrzystości trudniej jest taki kod przeszukać i&nbsp;wykryć pułapki. Ale to temat na inną opowieść. Na razie wszystko toczy się w świecie *open source*.
 ## Atak krok po kroku
 
 Cała historia jest moim zdaniem dużo ciekawsza, jeśli wyjdzie się poza technikalia. Jest to wtedy opowieść o&nbsp;presji społecznej, zdobywaniu zaufania i&nbsp;zdradzie.
@@ -118,34 +118,34 @@ Jednym z&nbsp;najciekawszych faktów w&nbsp;sprawie jest to, że **cała akcja r
 Tworzenie własnych projektów *open source* może być przyjemną odskocznią. Przykład: ja i&nbsp;ten blog. Do tej pory dał mi dużo radości, a&nbsp;interakcje z&nbsp;innymi ludźmi były niemal wyłącznie pozytywne.
 
 Ale nie każdy ma tak fajnie. Czasem zdarza się, że osoba prowadząca popularny projekt doświadcza presji, żeby dodawać nowe rzeczy.  
-Jakiś korpoludek potrzebuje programu, ale nie umiałby samodzielnie go zmodyfikować. Więc naciska na twórców, żeby wprowadzili potrzebne mu zmiany.
+Jakiś korpoludek potrzebuje programu, ale nie umiałby samodzielnie go zmodyfikować. Więc naciska na twórców, żeby wprowadzili potrzebne mu zmiany.
 
 Im większy projekt, tym większa presja. U&nbsp;niektórych osób z&nbsp;własnymi projektami rośnie również poczucie odpowiedzialności.  
-Gdy zaczynali, projekt mógł być małą, radośnie szlifowaną kulką. Ale presja społeczna potrafi zrobić z&nbsp;niego glob, który muszą trzymać na barkach. Jak tytan [Atlas](https://pl.wikipedia.org/wiki/Atlas_(mitologia)).
+Gdy zaczynali, projekt mógł być małą, radośnie szlifowaną kulką. Ale presja społeczna potrafi zrobić z&nbsp;niego glob, który muszą trzymać na barkach. Jak tytan [Atlas](https://pl.wikipedia.org/wiki/Atlas_(mitologia)).
 
 Na ten temat powstał nawet bardzo trafny obrazek:
 
 {:.figure .bigspace-before}
-<img src="/assets/posts/centralizacja/xz/xkcd-2347-dependency.jpg" alt="Obrazek pokazujący stos klocków ułożonych na sobie, podpisanych 'współczesna cyfrowa infrastruktura'. Prawie cała piramida opiera się na drobnym, pojedynczym klocku, podpisanym jako element utrzymywany przez losową, niedocenianą osobę od 20023&nbsp;roku."/>
+<img src="/assets/posts/centralizacja/xz/xkcd-2347-dependency.jpg" alt="Obrazek pokazujący stos klocków ułożonych na sobie, podpisanych 'współczesna cyfrowa infrastruktura'. Prawie cała piramida opiera się na drobnym, pojedynczym klocku, podpisanym jako element utrzymywany przez losową, niedocenianą osobę od 20023&nbsp;roku."/>
 
 {:.figcaption}
 Źródło: [XKCD](https://xkcd.com/2347/).
 
-Podobna sytuacja dotknęła Lassego od XZ, którego projekt miał na karku już kilkanaście lat. I&nbsp;zaczynał budzić u&nbsp;autora poczucie wypalenia. Wtedy pojawiła się postać skora do pomocy, przedstawiająca się jako Jia Tan.
+Podobna sytuacja dotknęła Lassego od XZ, którego projekt miał na karku już kilkanaście lat. I&nbsp;zaczynał budzić u&nbsp;autora poczucie wypalenia. Wtedy pojawiła się postać skora do pomocy, przedstawiająca się jako Jia Tan.
 
-Ciekawą [chronologię zdarzeń](https://boehs.org/node/everything-i-know-about-the-xz-backdoor), obejmującą pierwsze kroki JT w&nbsp;świecie *open source*, można znaleźć na stronie *boehs.org*.
+Ciekawą [chronologię zdarzeń](https://boehs.org/node/everything-i-know-about-the-xz-backdoor), obejmującą pierwsze kroki JT w&nbsp;świecie *open source*, można znaleźć na stronie *boehs.org*.
 
 ### Dobry i&nbsp;zły glina
 
 Znaną metodą prowadzenia przesłuchań jest podział ról na dobrego i&nbsp;złego.  
 Jedna postać jest wyjątkowo niesympatyczna, pomiata przesłuchiwanym. Druga zapewnia z&nbsp;kolei ludzkie ciepło i&nbsp;zrozumienie. Dzięki temu osłabia czujność i&nbsp;może wyciągnąć informacje.
 
-Opis z&nbsp;*boehs.org* wydaje się sugerować, że coś takiego zaszło w&nbsp;tym przypadku. Pojawiło się konto, które wywierało presję na Lassego, właściciela całego projektu. 
+Opis z&nbsp;*boehs.org* wydaje się sugerować, że coś takiego zaszło w&nbsp;tym przypadku. Pojawiło się konto, które wywierało presję na Lassego, właściciela całego projektu. 
 
 Interakcje można znaleźć na publicznej liście mailingowej. W&nbsp;[dyskusji z&nbsp;kwietnia 2022&nbsp;roku](https://www.mail-archive.com/xz-devel@tukaani.org/msg00555.html) biorą udział zarówno Jia, jak i&nbsp;niejaki Jigar K. Ten drugi narzeka na opieszałość Lassego:
 
 {:.bigspace-before}
-> Patrząc na powolne tempo aktualizacji, niestety miną lata, zanim społeczność w&nbsp;ogóle dostanie tę przydatną poprawkę.
+> Patrząc na powolne tempo aktualizacji, niestety miną lata, zanim społeczność w&nbsp;ogóle dostanie tę przydatną poprawkę.
 
 {:.figcaption}
 Tłumaczenia wszystkich maili i&nbsp;postów moje.
@@ -166,15 +166,15 @@ Ale Jigar wciąż naciska, wprost sugerując, żeby Jia wziął sprawy w&nbsp;sw
 Takie komentarze się powtarzały również w&nbsp;innych wątkach. W&nbsp;jednym z&nbsp;nich Lasse w&nbsp;końcu [nie wytrzymał](https://www.mail-archive.com/xz-devel@tukaani.org/msg00567.html) i&nbsp;wprost napisał, że jest zmęczony całym projektem. Przy okazji wypowiedział słowa, które niestety okazały się prorocze.
 
 {:.bigspace}
-> Ostatnio Jia Tan i&nbsp;ja trochę współpracowaliśmy nad XZ Utils poza listą \[mailingową\], **być może odegra w&nbsp;przyszłości większą rolę**, zobaczymy.  
+> Ostatnio Jia Tan i&nbsp;ja trochę współpracowaliśmy nad XZ Utils poza listą \[mailingową\], **być może odegra w&nbsp;przyszłości większą rolę**, zobaczymy.  
 Warto też pamiętać, że to projekt hobbystyczny, za który nikt nie płaci. 
 
 Nawet po tych słowach Jigar nie dawał za wygraną i&nbsp;naciskał na zmiany.
 
 {:.bigspace}
-> Dusisz teraz własne repo. Po co czekasz ze zmianą właściciela do wersji 5.4.0? Po co opóźniasz to, czego potrzebuje twoje repo?
+> Dusisz teraz własne repo. Po co czekasz ze zmianą właściciela do wersji 5.4.0? Po co opóźniasz to, czego potrzebuje twoje repo?
 
-„Dej, dej”. Jak pewien znany typ ludzi, gdy wrzuci się coś darmowego na OLX-a. Możliwe, że wobec takiej presji autor nie miał nic przeciwko, żeby Jia zdjął mu z&nbsp;barków nieco ciężaru.
+„Dej, dej”. Jak pewien znany typ ludzi, gdy wrzuci się coś darmowego na OLX-a. Możliwe, że wobec takiej presji autor nie miał nic przeciwko, żeby Jia zdjął mu z&nbsp;barków nieco ciężaru.
 
 {:.post-meta .bigspace-after}
 Nie wykluczam, że Jigar to zwykły dupek, a&nbsp;JT wykorzystał okazję, i&nbsp;że nie współpracowali. Ale późniejszy wątek forsowania aktualizacji stawia te naciski w&nbsp;ciekawym świetle. 
@@ -198,10 +198,10 @@ Z czasem Jia stał się *de facto* motorem napędowym XZ. Na [zarchiwizowanej st
 Po zyskaniu zaufania Jia zaczął wprowadzać w&nbsp;tym roku subtelne, groźne zmiany w&nbsp;kodzie.
 
 {:.figure .bigspace-before}
-<img src="/assets/posts/centralizacja/xz/jia-historia-aktywnosci.jpg" alt="Schemat pokazujący, w&nbsp;jakich dniach i&nbsp;godzinach Jia wprowadzał zmiany w&nbsp;kodzie. Zmiany złośliwe wyróżniają się tym, że dodano je w&nbsp;środku nocy."/>
+<img src="/assets/posts/centralizacja/xz/jia-historia-aktywnosci.jpg" alt="Schemat pokazujący, w&nbsp;jakich dniach i&nbsp;godzinach Jia wprowadzał zmiany w&nbsp;kodzie. Zmiany złośliwe wyróżniają się tym, że dodano je w&nbsp;środku nocy."/>
 
 {:.figcaption}
-Groźne zmiany wyróżniają się tym, że dodano je w&nbsp;innych godzinach niż zwykle. Do wątku naprawienia błędów Valgrinda jeszcze wrócę.  
+Groźne zmiany wyróżniają się tym, że dodano je w&nbsp;innych godzinach niż zwykle. Do wątku naprawienia błędów Valgrinda jeszcze wrócę.  
 Źródło: [tweet użytkownika *birchb0y*](https://twitter.com/birchb0y/status/1773871381890924872).
 
 26 lutego dokonał sabotażu „kropką nienawiści”. Przez umieszczenie jej w&nbsp;kodzie powodował błąd, przez który [nie włączał się Landlock](https://old.reddit.com/r/linux/comments/1brhlur/xz_utils_backdoor/kx9b9wc/). Taki dobrowolny ogranicznik stosowany przez XZ, dzięki któremu odbierał sobie dostęp do wrażliwych funkcji systemu.
@@ -214,7 +214,7 @@ Przy tym interfejsie, wśród wielu zmian, łatwo przeoczyć kropkę na początk
 
 ### Broń ukryta w&nbsp;testach
 
-Zabójcza kropka była tylko pomocą przy ataku. *Opus magnum* naszego hakera to **wykorzystanie plików testowych do ukrycia swoich narzędzi**. Tak; tych samych plików, które dodawał, wydając się umacniać fundamenty projektu.
+Zabójcza kropka była tylko pomocą przy ataku. *Opus magnum* naszego hakera to **wykorzystanie plików testowych do ukrycia swoich narzędzi**. Tak; tych samych plików, które dodawał, wydając się umacniać fundamenty projektu.
 
 Jeden z&nbsp;plików z&nbsp;założenia miał być popsuty, żeby testy sprawdzały działanie XZ przy wadach formatu. Drugi miał normalną treść, rozpakowywał się, działał jak powinien.
 
@@ -236,7 +236,7 @@ To dlatego atakujący mógł stworzyć pełnoprawny, działający plik, w&nbsp;k
 
 {% include details-end.html %}
 
-Jeśli chodzi o&nbsp;zawartość hakerskich skryptów, mało się znam na temacie, więc zdam się tu na [opracowanie Gynvaela Coldwinda](https://gynvael.coldwind.pl/?lang=en&id=782). Jeśli dobrze interpretuję:
+Jeśli chodzi o&nbsp;zawartość hakerskich skryptów, mało się znam na temacie, więc zdam się tu na [opracowanie Gynvaela Coldwinda](https://gynvael.coldwind.pl/?lang=en&id=782). Jeśli dobrze interpretuję:
 
 * Punktem początkowym jest zwięzły skrypt umieszczony wśród innych plików projektu.
 
@@ -249,9 +249,9 @@ Jeśli chodzi o&nbsp;zawartość hakerskich skryptów, mało się znam na temaci
 * Wyciągnięty skrypt zostaje uruchomiony i&nbsp;sięga do drugiego pliku testowego, `large_compressed.lzma`.  
   Tym razem naprzemiennie olewa i&nbsp;wyciąga niektóre jego elementy. Układając z&nbsp;nich sobie kolejny skrypt.
 
-* Na tym etapie kończy się wyciąganie hakerskich narzędzi z&nbsp;plików testowych. Skrypt hakera gmera przy różnych ustawieniach kompilacji, a&nbsp;także wrzuca do wnętrza XZ własny zero-jedynkowy plik, zapewne najgroźniejszą część.
+* Na tym etapie kończy się wyciąganie hakerskich narzędzi z&nbsp;plików testowych. Skrypt hakera gmera przy różnych ustawieniach kompilacji, a&nbsp;także wrzuca do wnętrza XZ własny zero-jedynkowy plik, zapewne najgroźniejszą część.
   
-  Pełna treść skryptu jest [tutaj](https://www.openwall.com/lists/oss-security/2024/03/29/4/1). Nie będę udawał, że go rozumiem, ale widać że zmienia różne parametry, jak [`CPPFLAGS`](https://stackoverflow.com/questions/2754966/cflags-vs-cppflags).
+  Pełna treść skryptu jest [tutaj](https://www.openwall.com/lists/oss-security/2024/03/29/4/1). Nie będę udawał, że go rozumiem, ale widać że zmienia różne parametry, jak [`CPPFLAGS`](https://stackoverflow.com/questions/2754966/cflags-vs-cppflags).
 
 {% include info.html
 type="Ciekawostka"
@@ -271,8 +271,8 @@ Jednym z&nbsp;problemów był fakt, że program Valgrind (do analizowania zużyc
 
 A to niedobrze dla hakera. Ostrzeżenia, nawet jeśli nie mówią wprost o&nbsp;czymś złym, kłócą się z&nbsp;dyskrecją.
 
-Dlatego... po prostu nie ukrywał błędu, pytając innych o&nbsp;porady i&nbsp;[dziękując za poprawki](https://git.rootprojects.org/root/xz/commit/72d2933bfae514e0dbb123488e9f1eb7cf64175f?ref=connortumbleson.com). Oczywiście nie ujawniał prawdziwych intencji. Wspólną pracą, między innymi z&nbsp;ludźmi od&nbsp;linuksowych projektów Red Hat i&nbsp;Fedora, udało się [załatać błędy](https://bugzilla.redhat.com/show_bug.cgi?id=2267598). Jia wypuścił udoskonaloną wersję 5.6.1.  
-Nikt się nie połapał, że coś jest na rzeczy.
+Dlatego... po prostu nie ukrywał błędu, pytając innych o&nbsp;porady i&nbsp;[dziękując za poprawki](https://git.rootprojects.org/root/xz/commit/72d2933bfae514e0dbb123488e9f1eb7cf64175f?ref=connortumbleson.com). Oczywiście nie ujawniał prawdziwych intencji. Wspólną pracą, między innymi z&nbsp;ludźmi od&nbsp;linuksowych projektów Red Hat i&nbsp;Fedora, udało się [załatać błędy](https://bugzilla.redhat.com/show_bug.cgi?id=2267598). Jia wypuścił udoskonaloną wersję 5.6.1.  
+Nikt się nie połapał, że coś jest na rzeczy.
 
 ### Lobbowanie za przyjęciem nowinek
 
@@ -283,7 +283,7 @@ Kolejnym krokiem było rozpowszechnienie kodu. Sprawienie, żeby różne wariant
 Jak wspomina ktoś na forum HN, napastnik już wcześniej krążył wokół decyzyjnych osób od różnych Linuksów i&nbsp;zachęcał do przyjęcia nowej, zaminowanej wersji XZ:
 
 {:.bigspace-before}
-> autor tej furtki kontaktował się ze mną przez kilka tygodni, chcąc żebym dodał XZ w&nbsp;wersji 5.6.x do Fedory 40&nbsp;i 41, ze względu na jego „świetne nowe funkcje” 
+> autor tej furtki kontaktował się ze mną przez kilka tygodni, chcąc żebym dodał XZ w&nbsp;wersji 5.6.x do Fedory 40&nbsp;i 41, ze względu na jego „świetne nowe funkcje” 
 
 {:.figcaption}
 Źródło: [komentarz z&nbsp;HN](https://news.ycombinator.com/item?id=39866275). Fedora to jeden z&nbsp;wielu wariantów systemu Linux, całkiem popularny.
@@ -300,13 +300,13 @@ Pod względem skuteczności ten lobbing mógłby zawstydzić nawet [trolle od fi
 Złośliwy kod wykrył pewien programista, Andres Freund. Łączył się z&nbsp;bazą i&nbsp;zauważył anomalię. Wszystko działało wolniej.
 
 Dostrzegł, że dziwne działanie było związane z&nbsp;programem `sshd`. Obecnym na serwerach i&nbsp;pozwalającym łączyć się z&nbsp;nimi w&nbsp;szyfrowany sposób.  
-To trochę jak wpisywanie hasła do swojego laptopa, żeby wyświetlił się pulpit. Tyle że maszyna może być dużo dalej, a&nbsp;zamiast pulpitu jest tekstowa konsola.
+To trochę jak wpisywanie hasła do swojego laptopa, żeby wyświetlił się pulpit. Tyle że maszyna może być dużo dalej, a&nbsp;zamiast pulpitu jest tekstowa konsola.
 
 Kiedy Freund dostrzegł, co się święci, dał znać autorom projektów. A&nbsp;po ustalonym czasie [wszczął alarm](https://www.openwall.com/lists/oss-security/2024/03/29/4). W&nbsp;linku artykuł, który wywołał poruszenie na forum HN, wspomniane na początku wpisu.
 
-Na tym etapie różne dystrybucje Linuksa przywróciły awaryjnie starszą wersję XZ i&nbsp;powiązanych narzędzi. Serwis Github zablokował konta hakera i&nbsp;samego projektu.
+Na tym etapie różne dystrybucje Linuksa przywróciły awaryjnie starszą wersję XZ i&nbsp;powiązanych narzędzi. Serwis Github zablokował konta hakera i&nbsp;samego projektu.
 
-Zaś Lasse od XZ -- co widać na innej, niezablokowanej stronie z&nbsp;kodem źródłowym -- zaczął usuwać niekorzystne zmiany, takie jak wspomniana kropka grozy.
+Zaś Lasse od XZ -- co widać na innej, niezablokowanej stronie z&nbsp;kodem źródłowym -- zaczął usuwać niekorzystne zmiany, takie jak wspomniana kropka grozy.
 
 Póki repozytorium nie zostało usunięte, widać było komentarze różnych ludzi pod jego adresem. Zarzucające, że niedostatecznie mocno trzymał glob, na którym siedli.
 
@@ -325,7 +325,7 @@ Trwa również analizowanie tej bardziej tajemniczej, nieprzejrzystej części z
 
 ## Podsumowanie
 
-Sprawa wokół XZ nie jest niczym nowym. Choć zaskakuje wyrafinowaniem, jest jednym z&nbsp;wielu ataków na źródła powszechnie używanych programów.  
+Sprawa wokół XZ nie jest niczym nowym. Choć zaskakuje wyrafinowaniem, jest jednym z&nbsp;wielu ataków na źródła powszechnie używanych programów.  
 Innym głośnym przykładem, tyle że z&nbsp;korpoświata, była afera wokół [SolarWinds](https://www.reuters.com/article/us-cyber-solarwinds-microsoft-idUSKBN2AF03R/).
 
 Cała historia potwierdza, że **centralizacja to miecz obosieczny. Również w&nbsp;świecie cyfrowym**.
@@ -334,23 +334,23 @@ Z jednej strony pozwala uniknąć powtarzania się, wielokrotnego wymyślania ko
 
 Z drugiej -- to zależność od kogoś innego. Być może nieco mniej groźna w&nbsp;cyfrowym świecie, gdzie łatwiej skopiować kod i&nbsp;się uniezależnić... Ale wciąż pozostaje wkładaniem wszystkich jajek do jednego koszyka. Jak rypnie, to potężnie.
 
-A większość przegapia moment, gdy wiklina koszyka zaczyna się rozłazić. Bo każdy sobie myśli, że inni na pewno uważnie patrzą. Że można olać temat.
+A większość przegapia moment, gdy wiklina koszyka zaczyna się rozłazić. Bo każdy sobie myśli, że inni na pewno uważnie patrzą. Że można olać temat.
 
 ### Wątek roszczeniowości
 
-Afera ukazuje również wątek niedocenianych twórców *open source*. Być może Jigar z&nbsp;tej konkretnej historii był akurat podstawionym „złym gliną”, nie wiem. Ale wokół znalazłoby się [wielu innych](https://news.ycombinator.com/item?id=9873125), którzy przejąć projektu nie planują, a&nbsp;są tak samo roszczeniowi.
+Afera ukazuje również wątek niedocenianych twórców *open source*. Być może Jigar z&nbsp;tej konkretnej historii był akurat podstawionym „złym gliną”, nie wiem. Ale wokół znalazłoby się [wielu innych](https://news.ycombinator.com/item?id=9873125), którzy przejąć projektu nie planują, a&nbsp;są tak samo roszczeniowi.
 
 A twórcy, próbując sprostać oczekiwaniom, z&nbsp;czasem tracą radochę z&nbsp;dzieła, które tak długo dopracowywali.
 
 Dlatego w&nbsp;tym miejscu podzielę się radą.  
 Czytelniczko, czytelniku. Jeśli tworzysz publiczny kod albo inne utwory i&nbsp;ktoś wywiera presję, to pamiętaj -- **twoje życie ponad wszystko, masz jedno**.
 
-Póki ludzie kontaktują się w sposób cywilizowany, to super. Można powymieniać się przemyśleniami, posłuchać sugestii.
+Póki ludzie kontaktują się w sposób cywilizowany, to super. Można powymieniać się przemyśleniami, posłuchać sugestii.
 
-Ale gdy jakiś Jigar naciska z&nbsp;pasywną agresją, publicznie cię upokarza, pisze „potrzebujemy” albo „wiele osób potrzebuje” -- to robi taki psychologiczny odpowiednik nadymania się jak ropucha. Próbuje wydać się większy. Rozgnieć go.
+Ale gdy jakiś Jigar naciska z&nbsp;pasywną agresją, publicznie cię upokarza, pisze „potrzebujemy” albo „wiele osób potrzebuje” -- to robi taki psychologiczny odpowiednik nadymania się jak ropucha. Próbuje wydać się większy. Rozgnieć go.
 
-Nie ma żadnej grupy, żadnego wyższego interesu, nie trzeba trzymać globu. To tylko jakiś „dej-dej” próbuje pogorszyć twoje życie, żeby poprawić własne.  
-Uzasadnioną odpowiedzią wobec takiego kogoś jest blokada. Albo „spieprzaj”.
+Nie ma żadnej grupy, żadnego wyższego interesu, nie trzeba trzymać globu. To tylko jakiś „dej-dej” próbuje pogorszyć twoje życie, żeby poprawić własne.  
+Uzasadnioną odpowiedzią wobec takiego kogoś jest blokada. Albo „spieprzaj”.
 
 {:.post-meta .bigspace-after}
 A na wypadek, gdyby agresor chciał się zemścić za asertywność donosem do pracodawcy -- można prowadzić projekty anonimowo. Bez wiązania ich z&nbsp;prawdziwą tożsamością. 

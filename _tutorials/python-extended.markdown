@@ -7,7 +7,7 @@ description: "Samouczek o tym, jak sprawnie używać Pythona na Windowsie. Skró
 {% include info.html
 type="Aktualizacja 2026"
 text="Ten poradnik jest przeznaczony dla systemu Windows (konkretniej: wszystko jest na przykładzie Windowsa&nbsp;10, nowszych nie uznaję).  
-Na etapie jego tworzenia nawet nie myślałem, że otwarta alternatywa, Linux, tak się spopularyzuje. Obecnie polecam system Linux Mint wszystkim, którzy mają możliwość przesiadki. Mam też odpowiednik linuksowy tego poradnika, pokazujący [foldery specjalne i&nbsp;integrowanie skryptów z&nbsp;systemem](/2024/12/09/rury-wprowadzenie){:.internal}."
+Na etapie jego tworzenia nawet nie myślałem, że otwarta alternatywa, Linux, tak się spopularyzuje. Obecnie polecam system Linux Mint wszystkim, którzy mają możliwość przesiadki. Mam też odpowiednik linuksowy tego poradnika, pokazujący [foldery specjalne i&nbsp;integrowanie skryptów z&nbsp;systemem](/2024/12/09/rury-wprowadzenie){:.internal}."
 %}
 
 Do swoich wpisów dorzucam czasem autorskie skrypty Pythona, które pozwalają Wam sprawdzić pewne rzeczy na własną rękę.
@@ -39,7 +39,7 @@ Jeśli chcecie sprawdzać wszystko na przykładzie, to możecie pobrać <a href=
 
 ## 0. Znajdowanie folderu Pythona
 
-Zanim zaczniemy ułatwiać sobie życie, trzeba ustalić, gdzie Python przechowuje różne swoje moduły. Sposobów na to jest mnóstwo -- póki efektem naszych działań będzie odnalezienie folderu Pythona, to każdy z&nbsp;nich jest dobry.
+Zanim zaczniemy ułatwiać sobie życie, trzeba ustalić, gdzie Python przechowuje różne swoje moduły. Sposobów na to jest mnóstwo -- póki efektem naszych działań będzie odnalezienie folderu Pythona, to każdy z&nbsp;nich jest dobry.
 
 W rozwijanych zakładkach znajdują się dwa możliwe sposoby, zilustrowane screenami z&nbsp;Windowsa.
 
@@ -51,12 +51,12 @@ Ten sposób powinien działać niezależnie od tego, w&nbsp;jakim folderze zains
 Na początku otwieramy menu *Start* (ikona w lewym dolnym rogu).  
 Przewijając listę po lewej, znajdujemy tam zakładkę `Python`. Rozwijamy ją. Powinien tam być m.in. edytor IDLE (jeśli podczas instalacji Pythona zaznaczyliśmy, żeby jego też instalowało).
 
-Klikamy jego nazwę prawym przyciskiem myszy, najeżdżamy na opcję `Więcej`, a&nbsp;potem klikamy `Otwórz lokalizację pliku`:
+Klikamy jego nazwę prawym przyciskiem myszy, najeżdżamy na opcję `Więcej`, a&nbsp;potem klikamy `Otwórz lokalizację pliku`:
 
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/1-1-python-lokalizacja.webp" width="400px" alt="Pasek z opcjami systemu Windows. Widać rozwiniętą zakładkę o nazwie Python, pod nią zakreśloną opcję 'Więcej', a na końcu zakreśloną opcję 'Otwórz lokalizację pliku'."/>
 
-Włączy się okno Eksploratora Windows z&nbsp;kilkoma skrótami do różnych elementów Pythona. Klikamy dowolny z&nbsp;nich prawym przyciskiem i&nbsp;znów wybieramy `Otwórz lokalizację pliku`.
+Włączy się okno Eksploratora Windows z&nbsp;kilkoma skrótami do różnych elementów Pythona. Klikamy dowolny z&nbsp;nich prawym przyciskiem i&nbsp;znów wybieramy `Otwórz lokalizację pliku`.
 
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/1-2-python-lokalizacja.webp" alt="Fragment okna Eksploratora Plików systemu Windows. W górnym z nich zaznaczony jest skrót do programu IDLE, a na dole widać rozwijane menu z wyróżnioną opcją 'Otwórz lokalizację pliku'."/>
@@ -64,7 +64,7 @@ Włączy się okno Eksploratora Windows z&nbsp;kilkoma skrótami do różnych e
 Powinien nam się otworzyć folder główny Pythona, zawierający między innymi takie rzeczy:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/1-3-python-folder.webp" alt="Fragment okna programu Eksplorator Windows. Widać tutaj listę podfolderów i plików znajdujących się w folderze o nazwie Python."/>
+<img src="/assets/tutorials/python-extended/1-3-python-folder.webp" alt="Fragment okna programu Eksplorator Windows. Widać tutaj listę podfolderów i plików znajdujących się w folderze o nazwie Python."/>
 
 {:.post-meta .bigspace-after}
 Spoiler: później skorzystamy z&nbsp;podfolderów *Lib*, *libs* oraz *Scripts*.
@@ -74,7 +74,7 @@ Teraz fajna sztuczka, o&nbsp;której sam wcześniej nie wiedziałem. Kliknijcie 
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/1-4-sciezka.webp" width="400px" alt="Górny pasek Eksploratora. Puste miejsce po prawej stronie od ostatniego elementu otoczono czerwoną ramką. Jest w nią wpisane słowo 'KLIK'."/>
 
-W ten sposób pełna ścieżka do folderu zaznaczy się Wam na niebiesko, w&nbsp;formie tekstu. Wystarczy jedno `Ctrl+C`, żeby ją skopiować. Przyda się później w&nbsp;paru miejscach!
+W ten sposób pełna ścieżka do folderu zaznaczy się Wam na niebiesko, w&nbsp;formie tekstu. Wystarczy jedno `Ctrl+C`, żeby ją skopiować. Przyda się później w&nbsp;paru miejscach!
 
 {% include details-end.html %}
 
@@ -97,7 +97,7 @@ for p in sys.path: print(p)
 ```
 
 To pętla, więc tym razem musimy wcisnąć `Enter` dwa razy.  
-Wyświetli się lista różnych folderów Pythona, coś w tym stylu:
+Wyświetli się lista różnych folderów Pythona, coś w tym stylu:
 
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/1-5-sciezka-przez-idle.webp" alt="Zrzut ekranu z edytora IDLE, pokazujący pięć ścieżek do plików na dysku C Windowsa, wyświetlonych na niebiesko, jedna pod drugą"/>
@@ -119,7 +119,7 @@ Ale mam dobrą wiadomość -- **można łatwo sprawić, że dwukrotne kliknięci
 To do dzieła! Klikamy prawym przyciskiem na jakikolwiek plik *py* i&nbsp;wybieramy `Otwórz za pomocą > Wybierz inną aplikację`.
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/2-1-wybor-aplikacji.webp" alt="Kolaż złożony z trzech przyciętych zrzutów ekranu. Pierwszy pokazuje samą nazwę pliku, drugi to rozwijane menu z zaznaczoną opcją 'Otwórz za pomocą' a trzeci to zaznaczona opcja 'Wybierz inną aplikację'."/>
+<img src="/assets/tutorials/python-extended/2-1-wybor-aplikacji.webp" alt="Kolaż złożony z trzech przyciętych zrzutów ekranu. Pierwszy pokazuje samą nazwę pliku, drugi to rozwijane menu z zaznaczoną opcją 'Otwórz za pomocą' a trzeci to zaznaczona opcja 'Wybierz inną aplikację'."/>
 
 Klikamy `Więcej aplikacji`, żeby rozwinąć listę. Przewijamy na sam dół.  
 Tam najpierw zaznaczamy opcję, żeby zawsze otwierać pliki w&nbsp;taki sposób. A&nbsp;potem klikamy `Wyszukaj inną aplikację...`:
@@ -127,7 +127,7 @@ Tam najpierw zaznaczamy opcję, żeby zawsze otwierać pliki w&nbsp;taki sposób
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/2-2-wybor-aplikacji.webp" alt="Zrzuty ekranu pokazujące fragmenty dwóch okienek i trzy elementy podpisane cyframi od 1 do 3. 1 to opcja 'Więcej aplikacji', 2 to opcja 'Zawsze otwieraj pliki py przy użyciu tej aplikacji', a 3 to opcja 'Wyszukaj inną aplikację na tym komputerze'."/>
 
-Włączy się okno wyboru pliku. Możemy się przeklikać do naszego folderu Pythona. Ale nie musimy. Jeśli w [poprzednim kroku](#0-znajdowanie-folderu-pythona) skopiowaliśmy sobie ścieżkę, to teraz można ją wkleić.
+Włączy się okno wyboru pliku. Możemy się przeklikać do naszego folderu Pythona. Ale nie musimy. Jeśli w [poprzednim kroku](#0-znajdowanie-folderu-pythona) skopiowaliśmy sobie ścieżkę, to teraz można ją wkleić.
 
 Żeby to zrobić, klikamy po prawej stronie paska, żeby przełączył się w&nbsp;tryb tekstu:
 
@@ -145,7 +145,7 @@ Otwieramy go, a&nbsp;z listy plików wybieramy `idle.bat`:
 Potwierdzamy nasz wybór:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/2-4-wybor-idle2.webp" alt="Dolna część okna wyboru plików, pokazująca że zaznaczonym plikiem jest idle.bat. Widać również wyróżnioną opcję 'Otwórz'."/>
+<img src="/assets/tutorials/python-extended/2-4-wybor-idle2.webp" alt="Dolna część okna wyboru plików, pokazująca że zaznaczonym plikiem jest idle.bat. Widać również wyróżnioną opcję 'Otwórz'."/>
 
 I zrobione! Od teraz, przeglądając pliki w&nbsp;Eksploratorze, możemy po prostu dwukrotnie klikać skrypty Pythona, żeby wyświetlać je w&nbsp;IDLE'u.
 
@@ -172,14 +172,14 @@ Możemy go na przykład importować, wpisując w&nbsp;IDLE jego nazwę bez końc
 W&nbsp;jakim folderze byśmy nie byli, odpali nam nasz kod:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/3-2-witaj-import.webp" alt="Konsola z IDLE z wpisaną komendą 'import witaj' i wyświetlonymi poniżej słowami 'Witaj po ciemnej stronie'."/>
+<img src="/assets/tutorials/python-extended/3-2-witaj-import.webp" alt="Konsola z IDLE z wpisaną komendą 'import witaj' i wyświetlonymi poniżej słowami 'Witaj po ciemnej stronie'."/>
 
 Nie każdy skrypt jest jednak przystosowany do importowania. Jeśli chcemy w&nbsp;pełni wykorzystać jego dostępność z&nbsp;każdego miejsca, to **warto odejść od IDLE'a na rzecz PowerShella** (lub podobnych konsol).
 
 Ten drugi jest silniej zintegrowany z&nbsp;Windowsem, można go szybko uruchomić w&nbsp;każdym folderze. Wygląda to tak:
 
 * Uruchamiamy domyślny Eksplorator Plików.
-* Chodzimy po folderach, aż znajdziemy plik/folder, z&nbsp;którym chcemy coś zrobić.
+* Chodzimy po folderach, aż znajdziemy plik/folder, z&nbsp;którym chcemy coś zrobić.
 * Wybieramy z&nbsp;górnego paska `Plik`, a&nbsp;następnie `Otwórz program Windows PowerShell`.
 
 I tyle! Pojawi się okno PowerShella, a&nbsp;folderem aktywnym będzie ten, w&nbsp;którym byliśmy, klikając w opcję. Wpisujemy:
@@ -191,7 +191,7 @@ python -m witaj
 Pamiętajmy o&nbsp;`-m`, bo bez tego nie zadziała. A&nbsp;jeśli działa, to wyświetli nasz kod:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/3-3-witaj-powershell.webp" width="400px" alt="PowerShell z wpisaną powyższą komendą i wyświetlonymi pod nią słowami 'Witaj po ciemnej stronie'."/>
+<img src="/assets/tutorials/python-extended/3-3-witaj-powershell.webp" width="400px" alt="PowerShell z wpisaną powyższą komendą i wyświetlonymi pod nią słowami 'Witaj po ciemnej stronie'."/>
 
 W ten sposób, po prostu dorzucając skrypty do konkretnego folderu, mamy do nich szybki dostęp. Możemy pozostać przy domyślnym pythonowym `site_packages`, i jedynie przypiąć gdzieś skrót do tego folderu.
 
@@ -211,7 +211,7 @@ Najpierw tworzymy nowy folder, gdzie tylko chcemy -- u&nbsp;mnie `C:\Skrypty`. K
 
 Teraz trzeba dać znać Pythonowi, że ma patrzeć do naszego folderu. Przechodzimy do `site_packages` i tworzymy tam nowy plik tekstowy. O&nbsp;dowolnej nazwie, bo liczy się tylko treść i&nbsp;rozszerzenie. Ja go nazwałem *moje.txt*.
 
-Otwieramy ten plik w&nbsp;Notatniku i&nbsp;wklejamy tam ścieżkę do naszego folderu. Zapisujemy. Zmieniamy rozszerzenie pliku z&nbsp;*.txt* na *.pth*. Całość wygląda tak:
+Otwieramy ten plik w&nbsp;Notatniku i&nbsp;wklejamy tam ścieżkę do naszego folderu. Zapisujemy. Zmieniamy rozszerzenie pliku z&nbsp;*.txt* na *.pth*. Całość wygląda tak:
 
 {:.bigspace-before}
 <img src="/assets/tutorials/python-extended/4-1-pth-file.webp" alt="Kolaż pokazujący kawałek folderu site_packages z dodanym plikiem pth, a także sam ten plik otwarty w notatniku. Zawiera jedną linijkę: C, dwukropek, ukośnik lewy, Skrypty."/>
@@ -256,7 +256,7 @@ Dzięki temu mamy PowerShella w&nbsp;sekundę, w&nbsp;dowolnym folderze!
 {% include info.html type="Porada"
 text="Jeśli macie wersję Windowsa w&nbsp;innym języku, to możecie po prostu przytrzymać `Alt` przez dłuższą chwilę, żeby wyświetliły się litery odpowiadające różnym elementom Eksploratora.  
 Potem patrzycie, jakie klawisze odpowiadają opcji `Plik` i&nbsp;otwieraniu PowerShella. To te klawisze musicie nacisnąć w&nbsp;swojej wersji."
-trailer="<p class='bigspace-before nospace'><img src='/assets/tutorials/python-extended/5-1-skroty-powershell.webp' alt='Zrzut ekranu z Eksploratora, pokazujący rozwiniętą zakładkę Plik z górnego rogu oraz parę pierwszych opcji. W ich rogach wyświetlają się literki na tle przypominającym klawisze z klawiatury' width='400px'/></p>"%}
+trailer="<p class='bigspace-before nospace'><img src='/assets/tutorials/python-extended/5-1-skroty-powershell.webp' alt='Zrzut ekranu z Eksploratora, pokazujący rozwiniętą zakładkę Plik z górnego rogu oraz parę pierwszych opcji. W ich rogach wyświetlają się literki na tle przypominającym klawisze z klawiatury' width='400px'/></p>"%}
 
 Z&nbsp;kolei żeby **szybko włączyć PowerShella w domyślnym folderze** -- bez otwierania Eksploratora Plików -- naciskamy `Przycisk z ikoną Windowsa + X`, żeby wyświetlić okno z&nbsp;opcjami. A&nbsp;następnie `I` (literę podkreśloną w&nbsp;nazwie odpowiadającej PowerShellowi).
 
@@ -300,15 +300,15 @@ Całość wygląda tak:
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/6-2-bat-file.webp" alt="Kolaż z trzech okien Windowsa. U góry widać pełną ścieżkę do folderu Scripts, poniżej jego zawartość z jednym dodanym plikiem 'z.txt'. Na samym dole znajduje się okno pokazujące plik z.txt otwarty w Notatniku, z podanym wyżej tekstem."/>
 
-Zmieniamy nazwę pliku na *z.bat*. Od teraz po otwarciu PowerShella dałoby się po prostu nacisnąć `z` i&nbsp;`Enter`, żeby odpalić nasz skrypt. Jednoliterkowiec! :metal:
+Zmieniamy nazwę pliku na *z.bat*. Od teraz po otwarciu PowerShella dałoby się po prostu nacisnąć `z` i&nbsp;`Enter`, żeby odpalić nasz skrypt. Jednoliterkowiec! :metal:
 
 {:.bigspace}
-<img src="/assets/tutorials/python-extended/6-3-witaj-bat.webp" width="300px" alt="Zrzut ekranu z PowerShella pokazujący wpisaną komendę 'z' i wyświetlone pod spodem słowa 'Witaj po ciemnej stronie'."/>
+<img src="/assets/tutorials/python-extended/6-3-witaj-bat.webp" width="300px" alt="Zrzut ekranu z PowerShella pokazujący wpisaną komendę 'z' i wyświetlone pod spodem słowa 'Witaj po ciemnej stronie'."/>
 
 Gdybyśmy chcieli jeszcze bardziej ułatwić pracę -- na przykład uruchamiać coś jednym klawiszem, bez włączania PowerShella -- to już by mogło wymagać grzebania w&nbsp;systemie albo instalacji dodatków, takich jak *AutoHotKey*. Dlatego na tym etapie się zatrzymam.
 
 {% include info.html type="Porada" text="Jeśli chcecie, żeby wasze pliki BAT miały bardziej opisowe nazwy zamiast jednoliterkowych, a&nbsp;przy tym chcecie dość szybko je wpisywać, to istnieje przydatna opcja.  
-Jeśli Wasz plik jest w którymś z folderów z `PATH`, to po wpisaniu w&nbsp;PowerShellu pierwszych liter nazwy możecie nacisnąć `Tab`. Wstawi Wam pełną nazwę pliku.  
+Jeśli Wasz plik jest w którymś z folderów z `PATH`, to po wpisaniu w&nbsp;PowerShellu pierwszych liter nazwy możecie nacisnąć `Tab`. Wstawi Wam pełną nazwę pliku.  
 Upewnijcie się tylko, że nazwa Waszego pliku nie koliduje z&nbsp;innymi programami dostępnymi przez PATH. Polecam dać coś mało ogólnego, np. dodać na końcu nazwy swoje inicjały."%}
 
 ## Podsumowanie
@@ -325,7 +325,7 @@ Jeśli czujecie się zawaleni powtarzalną robotą, to życzę gorąco, żeby sk
 
 A jeśli też darzycie ich antypatią? Zapraszam do czytania moich wpisów :smile:
 
-{% include info.html type="Dygresja" text="Zachęcałem na początku, powtórzę na końcu: jeśli ktoś ma możlwość zmiany systemu, to **Linux (u mnie: Mint) jest dużo przyjemniejszy w&nbsp;pracy z&nbsp;Pythonem niż Windows**.  
+{% include info.html type="Dygresja" text="Zachęcałem na początku, powtórzę na końcu: jeśli ktoś ma możlwość zmiany systemu, to **Linux (u mnie: Mint) jest dużo przyjemniejszy w&nbsp;pracy z&nbsp;Pythonem niż Windows**.  
 Nie trzeba specjalnie zmieniać nazw plików, żeby móc je edytować w&nbsp;notatniku.  
 Nie trzeba szukać IDLE'a po folderach. Po instalacji staje się domyślnym otwieraczem plików *py*.  
 Nie trzeba dopisywać żadnego *ECHO OFF*. Skrypty Linuxa (*.sh*, odpowiednik *.bat*) nie wyświetlają nic od siebie i&nbsp;wystarczy wpisać do nich samą nazwę komendy.  

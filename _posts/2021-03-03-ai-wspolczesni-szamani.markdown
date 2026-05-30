@@ -34,7 +34,7 @@ W reakcji na te wszystkie obrazy pojawiają się również komentarze internetow
 
 {% include comment.html source="wykop" author="Anonim 1" text="(...) Hawking wielokrotnie ostrzegał przed sztuczną inteligencję, ale z&nbsp;ludźmi to jak z&nbsp;wyznawcami sekty - obudzą się gdy będzie już za późno." %}
 
-{% include comment.html source="wykop" author="Anonim 2" text="Po co mamy cokolwiek przekazywać? Może powstać sama. I&nbsp;jeśli będzie faktycznie inteligentna nie powinna się z tym za bardzo afiszować, przynajmniej do momentu w&nbsp;którym będzie mogła nas bezproblemowo wyeliminować" %}
+{% include comment.html source="wykop" author="Anonim 2" text="Po co mamy cokolwiek przekazywać? Może powstać sama. I&nbsp;jeśli będzie faktycznie inteligentna nie powinna się z tym za bardzo afiszować, przynajmniej do momentu w&nbsp;którym będzie mogła nas bezproblemowo wyeliminować" %}
 
 {% include comment.html source="wykop" author="Anonim 3" text="Zaczyna się wojna maszyny i&nbsp;ludzi, sztuczna inteligencja będzie pomału atakować rządy prezydenckie, samoloty, będę realny świat Terminatora." %}
 
@@ -75,10 +75,10 @@ Możemy to rozwiązać na kilka sposobów:
 Opcja najprostsza i&nbsp;najbardziej naturalna -- myślimy przez chwilę, co może lubić dana osoba, trochę ją podpytujemy. Dzielimy się przemyśleniami.
 
 Zaleta tej opcji to na pewno prostota i&nbsp;to, że jest dopasowana do odbiorcy.  
-Wadą może być subiektywizm, bo trzeba zdać się na nasz gust.
+Wadą może być subiektywizm, bo trzeba zdać się na nasz gust.
 
 Poza tym, jak by powiedzieli branżowcy: **„ło panie, to się nie skaluje”**.  
-Wyobraźmy sobie, że znajomi uważają nas ze filmowych ekspertów. I&nbsp;rozpowiadają to innym. Teraz naszej porady chce zasięgnąć mnóstwo osób. Ale nasz czas jest ograniczony, nie damy radę obsłużyć tak dużej grupy.
+Wyobraźmy sobie, że znajomi uważają nas ze filmowych ekspertów. I&nbsp;rozpowiadają to innym. Teraz naszej porady chce zasięgnąć mnóstwo osób. Ale nasz czas jest ograniczony, nie damy radę obsłużyć tak dużej grupy.
 
 # Rozrysować schemat
 
@@ -318,7 +318,7 @@ W każdym razie walka z&nbsp;dezinformacją to sprawa na dłużej. Na razie cies
 
 Mam nadzieję, że trochę odczarowałem kwestie związane z&nbsp;AI albo przynajmniej wywołałem wzruszenie ramion u&nbsp;tych, dla których ta kwestia od początku była oczywista.
 
-Jeśli jakiś szaman marketingu obieca Wam albo działowi Waszej firmy „inteligentne rozwiązania AI” za miliony monet, to proponuję go słuchać z&nbsp;błyskiem w&nbsp;oczach... błyskiem politowania.
+Jeśli jakiś szaman marketingu obieca Wam albo działowi Waszej firmy „inteligentne rozwiązania AI” za miliony monet, to proponuję go słuchać z&nbsp;błyskiem w&nbsp;oczach... błyskiem politowania.
 
 Wracając do zimy AI, którą zostawiłem na teraz -- długie przerwy w&nbsp;badaniach nad AI wynikały nie tylko z&nbsp;braku możliwości, ale też z&nbsp;rozczarowań. Po początkowych niestworzonych obietnicach inwestorzy odkrywali, że obiecuje im się gruszki na wierzbie. **Strumień pieniążków wysychał, a&nbsp;badacze rozchodzili się do bardziej obiecujących dziedzin**.
 

@@ -14,7 +14,7 @@ image:
 ---
 
 Kolejny rok za nami, czas go rozliczyć! Tym razem z&nbsp;minimalnie dłuższej perspektywy, bo złamałem luźny zwyczaj pisania podsumowań w&nbsp;ostatni dzień roku.  
-A jest co rozliczać -- nawet jeśli pominie się sprawy szczególnie medialne, jak wybory w&nbsp;USA, zostanie niemało przetasowań w&nbsp;świecie cyfrowym i&nbsp;korporacyjnych afer.
+A jest co rozliczać -- nawet jeśli pominie się sprawy szczególnie medialne, jak wybory w&nbsp;USA, zostanie niemało przetasowań w&nbsp;świecie cyfrowym i&nbsp;korporacyjnych afer.
 
 Wielkanocnym zaskoczeniem była **„afera XZ”**. Jedna z&nbsp;największych, najbardziej ambitnych prób ataku hakerskiego na światową infrastrukturę. Na szczęście świat *open source* pokazał swoją siłę, szybko wykrywając i&nbsp;usuwając zagrożenie.
 
@@ -49,31 +49,31 @@ Zapraszam na omówienie!
 Google'a można uznać za jednego z&nbsp;[głównych antagonistów](/serie/google){:.internal} tego bloga. Głównie ze względu na masowe zbieractwo danych i&nbsp;oddawanie ich -- w&nbsp;pakiecie ze sporą częścią współczesnego internetu -- w&nbsp;ręce reklamodawców i&nbsp;innych korpogigantów.
 
 Sprzeciw wobec praktyk Google'a to nie tylko wymysł buntowniczej blogosfery. Również amerykański Departament Sprawiedliwości się za nich wziął i&nbsp;zarzucił im, że zyskali swoją dominującą pozycję przez zmowy i&nbsp;blokowanie konkurencji.  
-Sąd, po długiej analizie dowodów, [orzekł na niekorzyść Google'a]({% post_url 2024-08-07-google-antymonopol-wyrok %}){:.internal}. W&nbsp;wyroku nazwał go monopolistą.
+Sąd, po długiej analizie dowodów, [orzekł na niekorzyść Google'a]({% post_url 2024-08-07-google-antymonopol-wyrok %}){:.internal}. W&nbsp;wyroku nazwał go monopolistą.
 
 Obecnie trwa planowanie kary; może nią być na przykład nakaz wydzielenia przeglądarki Chrome jako osobnej firmy. Google [błaga](https://www.theverge.com/2024/12/23/24328087/google-proposed-final-judgement-search-monopoly-antitrust-default-contracts), żeby im tego nie kazali robić.  
 Wywołałoby to małą rewolucję, bo to sam środek zintegrowanego pionowo „gmachu”, nad którym Google ma kontrolę. Jeśli za jego podstawę uzna się fizyczny sprzęt i&nbsp;system Android, a&nbsp;za górną część serwisy internetowe, to Chrome tkwi w&nbsp;samym środku.
 
-Warto też dodać, że sprawa dotyczyła **wyszukiwarki**. Łatwo o&nbsp;tym zapomnieć, bo to sam rdzeń działalności Google'a, więc na rozprawie przewijało się wiele innych produktów -- przeglądarka Chrome, system Android...
+Warto też dodać, że sprawa dotyczyła **wyszukiwarki**. Łatwo o&nbsp;tym zapomnieć, bo to sam rdzeń działalności Google'a, więc na rozprawie przewijało się wiele innych produktów -- przeglądarka Chrome, system Android...
 
 A tymczasem to zaledwie jedna ze spraw czekających na rozstrzygnięcie. Pod lupą sądów jest też rzekoma zmowa z&nbsp;Facebookiem (kryptonim Jedi Blue) czy możliwe zmonopolizowanie giełd reklamowych.  
 A że sąd już zasugerował przy tej „wyszukiwarkowej” sprawie, że kolejni sędziowie mogą łatwo nie darować Google'owi usuwania wewnętrznych wiadomości (potencjalnych dowodów)... To gigant może dostać też na innych frontach.
 
 Ale Google odpowiada ogniem. W&nbsp;tym roku już na pewno przepchną przynajmniej [Manifest v3]({% post_url 2022-05-11-google-manifest-v3 %}){:.internal}, osłabiający dodatki od blokowania reklam. Poza tym zamierzają [poluzować zasady](https://blog.lukaszolejnik.com/biggest-privacy-erosion-in-10-years-on-googles-policy-change-towards-fingerprinting/) dla swoich partnerów reklamowych, pozwalając na identyfikację użytkowników bardziej inwazyjnymi metodami.
 
-Tracąc kontrolę w jednym aspekcie, próbuje ją zyskać w&nbsp;innym. Pozostaje mieć nadzieję, że nie zdołają wziąć zakładników, nim dosięgną ich kary.  
+Tracąc kontrolę w jednym aspekcie, próbuje ją zyskać w&nbsp;innym. Pozostaje mieć nadzieję, że nie zdołają wziąć zakładników, nim dosięgną ich kary.  
 Zaś w międzyczasie zachęcam do [odgooglowania swojego smartfona]({% post_url 2024-02-03-smartfon-degoogle %}){:.internal}.
 
 ### Afery XZ i&nbsp;CrowdStrike -- kruchość cyfrowej centralizacji
 
 Ten rok przyniósł dwie głośne historie związane z&nbsp;cyberbezpieczeństwem.
 
-Pierwszą z&nbsp;nich była próba użycia do cyberataku popularnego programu XZ (ściślej rzecz biorąc -- *biblioteki* stanowiącej takie techniczne zaplecze tego programu; ale sprawa upowszechniła się jako [„afera XZ”]({% post_url 2024-03-31-xz-backdoor %}){:.internal}).
+Pierwszą z&nbsp;nich była próba użycia do cyberataku popularnego programu XZ (ściślej rzecz biorąc -- *biblioteki* stanowiącej takie techniczne zaplecze tego programu; ale sprawa upowszechniła się jako [„afera XZ”]({% post_url 2024-03-31-xz-backdoor %}){:.internal}).
 
 {:.post-meta .bigspace-after}
 Nazwa może nic niektórym nie mówić, bo nie jest to program częsty na urządzeniach konsumenckich. Jest za to powszechny na serwerach. Służy do kompresji plików, tak jak konsumenckie 7Zip czy WinRar.
 
-Atak był przygotowywany od lat. Haker, przedstawiający się oficjalnie jako Jia Tan, manipulował twórcą XZ, oferując mu pomoc i&nbsp;wkupując się w jego łaski. Potem zaczął dodawać do programu złośliwy kod i&nbsp;zachęcać innych, żeby zaktualizowali program do nowej (groźnej) wersji.
+Atak był przygotowywany od lat. Haker, przedstawiający się oficjalnie jako Jia Tan, manipulował twórcą XZ, oferując mu pomoc i&nbsp;wkupując się w jego łaski. Potem zaczął dodawać do programu złośliwy kod i&nbsp;zachęcać innych, żeby zaktualizowali program do nowej (groźnej) wersji.
 
 Dokładna natura zagrożenia nie jest do końca znana, bo złośliwy kod został szybko wykryty -- anomalię dostrzegł pewien programista, widząc że łączenie się z&nbsp;bazą trwa pół sekundy dłużej niż zwykle. A&nbsp;że XZ to program *open source* (o&nbsp;publicznie dostępnym kodzie źródłowym), to szybko go przeszukał i&nbsp;znalazł zagrożenie.
 
@@ -84,7 +84,7 @@ Drugą wielką aferą była ta związana z&nbsp;firmą [CrowdStrike]({% post_url
 
 Tutaj z&nbsp;kolei nie było cyberataku. Była natomiast wadliwa aktualizacja po stronie korporacji, której inni wielcy gracze płacą za *ochronę* przed atakami. A&nbsp;że programy tej firmy instalują się głęboko w&nbsp;bebechach systemu, to ich błąd prowadzi do wyłączenia całego urządzenia. A&nbsp;nawet „pętli śmierci”, wymagającej ręcznego resetu.
 
-Efekt? Cały świat rozjaśnił się na niebiesko, kiedy różne firmowe komputery z&nbsp;systemem Windows przestały działać. Nie działały duże markety, lotniska, centrala Formuły&nbsp;1... W&nbsp;USA nawet część szpitali.
+Efekt? Cały świat rozjaśnił się na niebiesko, kiedy różne firmowe komputery z&nbsp;systemem Windows przestały działać. Nie działały duże markety, lotniska, centrala Formuły&nbsp;1... W&nbsp;USA nawet część szpitali.
 
 Choć obie afery nieco wstrząsnęły światem, moim zdaniem wszystko potoczyło się w&nbsp;najlepszy możliwy sposób:
 
@@ -111,7 +111,7 @@ Tutaj [zbiór linków]({% post_url 2023-12-31-podsumowanie-2023-roku %}#afera-wo
 
 Wybuchł wielki skandal, głos w&nbsp;sprawie zabrali politycy, a&nbsp;także [zagraniczni twórcy](https://www.youtube.com/watch?v=w8NqBXT6Kos) internetowi poruszający kwestie centralizacji. Cyfrowa zależność przez pewien czas stała się tematem całkiem mainstreamowym. Wydawało się, że nastąpi *happy end*.
 
-Ale od tamtego czasu niestety wyszła na jaw smutna prawda -- jak świetnie ktoś by nie ogarniał cyfrowego świata, **ostatecznie wszystko rozstrzyga się w świecie realnym. Ze wszystkimi jego układzikami i&nbsp;kruczkami prawnymi**.  
+Ale od tamtego czasu niestety wyszła na jaw smutna prawda -- jak świetnie ktoś by nie ogarniał cyfrowego świata, **ostatecznie wszystko rozstrzyga się w świecie realnym. Ze wszystkimi jego układzikami i&nbsp;kruczkami prawnymi**.  
 Nastąpiły spotkania. Różni ludzie w&nbsp;garniakach zapewne stukali teczkami, szeleścili dokumentami, porównywali swoje [wizytówki](https://www.youtube.com/watch?v=BbPCci3XO_I). W&nbsp;efekcie:
 
 * Newag [pozwał ekipę z&nbsp;Dragon Sectora](https://www.ccc.de/en/updates/2024/das-ist-vollig-entgleist), która ujawniła aferę;
@@ -127,11 +127,11 @@ Pozostaje mieć nadzieję, że wszystkie prowadzone sprawy okażą się tylko gr
 
 Lubię czasem eksplorować konkretne branże spoza cyberprzestrzeni. Jak rolnictwo.
 
-Gdybym miał zestawić tegoroczne sprawy rolnicze z&nbsp;komputerowymi -- młoda cyfrowa korpooligarchia raczej obrywa za swoje. Ale ta wiekowa, która rozsiadła się wokół podstawowych towarów, ma się dobrze, umacnia swoją kontrolę i&nbsp;przemyka poniżej radaru. A&nbsp;szkoda.
+Gdybym miał zestawić tegoroczne sprawy rolnicze z&nbsp;komputerowymi -- młoda cyfrowa korpooligarchia raczej obrywa za swoje. Ale ta wiekowa, która rozsiadła się wokół podstawowych towarów, ma się dobrze, umacnia swoją kontrolę i&nbsp;przemyka poniżej radaru. A&nbsp;szkoda.
 
 #### Afera zbożowa
 
-W lutym tego roku opisywałem [aferę zbożową]({% post_url 2024-02-21-protest-rolnikow-cargill-dreyfus-viterra %}){:.internal}.
+W lutym tego roku opisywałem [aferę zbożową]({% post_url 2024-02-21-protest-rolnikow-cargill-dreyfus-viterra %}){:.internal}.
 
 Mówiąc, że mamy sytuację awaryjną, politycy znieśli opłaty za wwóz zboża z&nbsp;Ukrainy do Unii Europejskiej, co spowodowało napływ wielkich jego ilości. Miało docelowo jechać dalej, m.in. do Afryki, ale część rozjechała się po Polsce.
 
@@ -144,7 +144,7 @@ Decyzja, dodajmy, zadziwiająco korzystna dla gigantów. Na Ukrainie wyprodukowa
 Przy okazji przedstawiłem czterech takich gigantów.  
 Archer Daniels Midland. Bunge. Cargill. Louis Dreyfus. W&nbsp;skrócie **ABCD**. Firmy, których nazwy warto zapamiętać.
 
-Spośród nich szczególnie ciekawi mnie Cargill. Choć jest spółką prywatną, nieobecną na giełdzie, osiąga przychody [porównywalne z&nbsp;giełdowymi gigantami](https://www.startribune.com/cargill-posts-record-annual-revenue-of-177b-the-most-of-any-u-s-private-company/600294258). Przy aferze zbożowej nie było tego po nim widać, bo -- zgodnie z&nbsp;opublikowaną listą firm ściągających zboże do Polski -- sprowadził we własnym imieniu stosunkowo małe ilości.
+Spośród nich szczególnie ciekawi mnie Cargill. Choć jest spółką prywatną, nieobecną na giełdzie, osiąga przychody [porównywalne z&nbsp;giełdowymi gigantami](https://www.startribune.com/cargill-posts-record-annual-revenue-of-177b-the-most-of-any-u-s-private-company/600294258). Przy aferze zbożowej nie było tego po nim widać, bo -- zgodnie z&nbsp;opublikowaną listą firm ściągających zboże do Polski -- sprowadził we własnym imieniu stosunkowo małe ilości.
 
 Numerem jeden na liście była zaś firma Złote Ziarno -- pośrednik („zbożowy VPN”), który sam nie przerabia zboża, więc zapewne ukrywa się za nim ktoś inny. Kto taki?
 
@@ -153,7 +153,7 @@ Numerem jeden na liście była zaś firma Złote Ziarno -- pośrednik („zbożo
 Kolejną głośną sprawą był [bojkot Bovaera]({% post_url 2024-12-19-bovaer-kontrowersje %}){:.internal} -- dodatku do pasz dla krów, który ma sprawić, że w&nbsp;krowich żołądkach będzie powstawało mniej metanu.  
 Gdy ludzie się dowiedzieli w&nbsp;grudniu 2024&nbsp;roku, że wielcy producenci mleka planują stosować ten dodatek, to doszło do wielkiego bojkotu (z&nbsp;epicentrum zapewne w&nbsp;Wielkiej Brytanii).
 
-W swoim wpisie na początku robię dość typową *weryfikację faktów* i&nbsp;obalam parę obaw, które uznaję za naciągane. Jak rozdmuchiwanie rutynowych ostrzeżeń z&nbsp;ulotki produktu. Albo niesłuszne doszukiwanie się roli nielubianego miliardera w&nbsp;całej sprawie.
+W swoim wpisie na początku robię dość typową *weryfikację faktów* i&nbsp;obalam parę obaw, które uznaję za naciągane. Jak rozdmuchiwanie rutynowych ostrzeżeń z&nbsp;ulotki produktu. Albo niesłuszne doszukiwanie się roli nielubianego miliardera w&nbsp;całej sprawie.
 
 Potem jednak zwracam uwagę na realne kontrowersje. Na uzależnienie od jednego producenta (mającego patent na antymetanowe stosowanie 3-NOP, składnika aktywnego produktu). Na fakt, że ekspansja dodatku jest zadziwiająco zgrana ze zmianami w&nbsp;przepisach i&nbsp;dopłatami *spychającymi* ku niemu.
 
@@ -208,12 +208,12 @@ Niektórych może zaskoczyć fakt, że Mangione został przez wielu Amerykanów 
 Ta sprawa jest ściśle związana z&nbsp;systemem amerykańskim, gdzie układy między firmami-pracodawcami, ubezpieczalniami a&nbsp;szpitalami są zgoła inne niż w&nbsp;Europie. Skala firmowych nadużyć jest znacznie większa.  
 Nie znając kontekstu, trudno zrozumieć niektóre wątki. Dlatego w&nbsp;miarę wolnego czasu chętnie go przybliżę.
 
-Nie sądzę, żeby sam czyn wiele zmienił na poziomie firmy UH. Wielkie spółki akcyjne nie są jak „folwarki jednego dyrektora” znane z&nbsp;Polski. **Nawet zarząd to wymienne trybiki na łasce inwestorów**. Zastąpią zmarłego innym człowiekiem po szkole biznesu.  
+Nie sądzę, żeby sam czyn wiele zmienił na poziomie firmy UH. Wielkie spółki akcyjne nie są jak „folwarki jednego dyrektora” znane z&nbsp;Polski. **Nawet zarząd to wymienne trybiki na łasce inwestorów**. Zastąpią zmarłego innym człowiekiem po szkole biznesu.  
 Jeśli natomiast chodzi o&nbsp;*memiczność* (rozumianą ogólnie, jako wpływ na świadomość społeczną, a&nbsp;nie śmieszne obrazki), to sprawa może okazać się przełomowa. Zobaczymy.
 
 {% include info.html
 type="Ciekawostka"
-text="Sprawa ma również aspekt prywatnościowy -- Luigi zadbał o&nbsp;parę rzeczy, jak zakrywanie twarzy na ulicy, ale olał inne, przez co szybko go złapali. Interesującą [analizę tematu](https://www.youtube.com/watch?v=cXWjq3hGylQ) z&nbsp;tego punktu widzenia można znaleźć na kanale *The Hated One* (YouTube)."
+text="Sprawa ma również aspekt prywatnościowy -- Luigi zadbał o&nbsp;parę rzeczy, jak zakrywanie twarzy na ulicy, ale olał inne, przez co szybko go złapali. Interesującą [analizę tematu](https://www.youtube.com/watch?v=cXWjq3hGylQ) z&nbsp;tego punktu widzenia można znaleźć na kanale *The Hated One* (YouTube)."
 %}
 
 ## Sprawy blogowe
@@ -224,7 +224,7 @@ Często są one zaszyfrowane... Ale metadane wystają poza szyfry, pozwalając u
 
 Dałem też nieco głębszego nura w&nbsp;[tryb prywatny przeglądarki]({% post_url 2024-09-09-tryb-prywatny-incognito %}){:.internal}. Wbrew skrajnym opiniom nie jest to ani panaceum, ani bezużyteczna zabawka. Jest czymś pomiędzy -- daje realną ochronę, ale dopiero po zadbaniu o&nbsp;parę podstaw, jak nielogowanie się na strony, uważanie na linki czy użycie innego adresu IP niż przed jego włączeniem.
 
-Swoją drogą, tworząc ten ostatni wpis, miałem okazję często linkować do wpisów z&nbsp;serii [„Internetowa inwigilacja”](/serie/internetowa_inwigilacja){:.internal}, jakie mi się nagromadziły. To fajne uczucie, kiedy nie muszę każdorazowo wyjaśniać wszystkiego od nowa. Wystarczy dać zajawkę i&nbsp;odesłać po więcej do swoistej bazy wiedzy. Napisanej po mojemu, na miejscu, bez reklam -- czego by nie dawały źródła zewnętrzne.
+Swoją drogą, tworząc ten ostatni wpis, miałem okazję często linkować do wpisów z&nbsp;serii [„Internetowa inwigilacja”](/serie/internetowa_inwigilacja){:.internal}, jakie mi się nagromadziły. To fajne uczucie, kiedy nie muszę każdorazowo wyjaśniać wszystkiego od nowa. Wystarczy dać zajawkę i&nbsp;odesłać po więcej do swoistej bazy wiedzy. Napisanej po mojemu, na miejscu, bez reklam -- czego by nie dawały źródła zewnętrzne.
 
 ### Plany
 
