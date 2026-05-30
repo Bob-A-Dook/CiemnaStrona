@@ -263,31 +263,27 @@ Punktem wyjścia do profilowania są nazwy domen. Jeśli staną się niewidoczn
 
 Po więcej szczegółów i&nbsp;schematy graficzne odsyłam do [poprzedniego wpisu]({% post_url 2024-03-28-analiza-ruchu %}#jak-się-chronić){:.internal}; poniżej jedynie ogólna przypominajka.
 
-{:.bigspace}
-<details>
-<summary><strong>Streszczenie metod ochrony (dla chętnych)</strong></summary>
+{% include details.html summary="Streszczenie metod ochrony (dla chętnych)" %}
 
-<ul>
-  <li>
-    <p>HTTPS plus szyfrowanie metadanych (DoH plus ECH)</p>
+* HTTPS plus szyfrowanie metadanych (DoH plus ECH)
 
-    <p>W tym przypadku przeciwnik nie widzi nazwy odwiedzanej domeny. Widzi za to adresy IP, rozmiar danych, czas ich wysłania.<br />
-Ograniczeniem metody jest to, że musi być wspierana przez odwiedzane strony. A&nbsp;że jest względnie nowa, to póki co nie jest zbyt popularna. Lepiej zakładać jej brak.</p>
-  </li>
-  <li>
-    <p>pośrednik/VPN</p>
+  W tym przypadku przeciwnik nie widzi nazwy odwiedzanej domeny. Widzi za to adresy IP, rozmiar danych, czas ich wysłania.  
+Ograniczeniem metody jest to, że musi być wspierana przez odwiedzane strony. A&nbsp;że jest względnie nowa, to póki co nie jest zbyt popularna. Lepiej zakładać jej brak.
 
-    <p>Przeciwnik widzi jedynie adres IP pośrednika i&nbsp;nie wie, jakie części internetu są po jego drugiej stronie. Widzi też rozmiar i&nbsp;czas wysłania danych, ale to może niewiele pomóc.<br />
-Wadą rozwiązania jest konieczność zaufania pośrednikowi. Trzeba mu powierzyć prawdziwe nazwy domen i&nbsp;adresy... A&nbsp;nie ma gwarancji, że sam tych danych nie gromadzi.</p>
-  </li>
-  <li>
-    <p>sieć Tor</p>
+* pośrednik/VPN
 
-    <p>Jak VPN na sterydach. Zamiast jednego pośrednika – łańcuszek kilku rozsianych po świecie, z&nbsp;których każdy jest losowo dobierany i&nbsp;ma tylko strzępki informacji. Zewnętrzny podglądacz zobaczyłby tylko adres IP pierwszego z&nbsp;nich.<br />
-Co więcej, Tor stosuje dodatkowe mechanizmy ochronne. Dane są wysyłane w&nbsp;nieregularnych, losowych odstępach czasu. Koszmar dla podglądaczy.</p>
-  </li>
-</ul>
-</details>
+  Przeciwnik widzi jedynie adres IP pośrednika i&nbsp;nie wie, jakie części internetu są po jego drugiej stronie. Widzi też rozmiar i&nbsp;czas wysłania danych, ale to może niewiele pomóc.  
+Wadą rozwiązania jest konieczność powierzenia pośrednikowi prawdziwych nazw domen i&nbsp;adresów... A&nbsp;nie ma gwarancji, że sam tych danych nie gromadzi.
+
+* sieć Tor
+
+  {:.post-meta .bigspace-after}
+  W praktyce najczęściej używana przez przeglądarkę Tor Browser, która też dokłada sporo własnej ochrony.
+
+  Jak VPN na sterydach. Zamiast jednego pośrednika – łańcuszek kilku rozsianych po świecie, z&nbsp;których każdy jest losowo dobierany i&nbsp;ma tylko strzępki informacji. Zewnętrzny podglądacz zobaczyłby tylko adres IP pierwszego z&nbsp;nich.  
+  Co więcej, Tor stosuje dodatkowe mechanizmy ochronne. Dane są wysyłane w&nbsp;nieregularnych, losowych odstępach czasu. Koszmar dla podglądaczy.
+
+{% include details-end.html %}
 
 A co, jeśli nie ma się dostępu do żadnego pośrednika typu Tor/VPN, a&nbsp;jedyną opcją jest bezpośrednie odwiedzanie stron? Można wtedy **skorzystać z&nbsp;większych stron zdolnych wyświetlać cudze treści pod swoim „szyldem”**.
 

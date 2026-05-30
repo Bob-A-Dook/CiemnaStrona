@@ -220,23 +220,21 @@ Jeden z&nbsp;plików z&nbsp;założenia miał być popsuty, żeby testy sprawdza
 
 Oba zawierały w&nbsp;sobie narzędzia hakera, głównie skrypty w&nbsp;[języku Bash](https://stackoverflow.com/a/28693815). Ukryte w&nbsp;plikach jak bronie partyzantów w&nbsp;skrytce pod ściółką leśną.
 
-{:.bigspace-after}
-<details>
-<summary><strong>Intuicyjne wyjaśnienie</strong></summary>
+{% include details.html summary="Intuicyjne wyjaśnienie" %}
 
-<p class="bigspace-before">Ta dwoista natura (normalność, a&nbsp;zarazem złośliwość) wynika z&nbsp;prostego faktu – <strong>każdy plik jest ciągiem zer i&nbsp;jedynek</strong>.<br />
-Owszem, istnieje jakiś <em>właściwy</em> sposób ich czytania, przy którym plik zadziała tak, jak oczekują tego użytkownicy. Ale można również brać te same zera i&nbsp;jedynki, robiąc z&nbsp;nimi rzeczy kreatywne.</p>
+{:.bigspace-before}
+Ta dwoista natura (normalność, a&nbsp;zarazem złośliwość) wynika z&nbsp;prostego faktu – **każdy plik jest ciągiem zer i&nbsp;jedynek**.  
+Owszem, istnieje jakiś *właściwy* sposób ich czytania, przy którym plik zadziała tak, jak oczekują tego użytkownicy. Ale można również brać te same zera i&nbsp;jedynki, robiąc z&nbsp;nimi rzeczy kreatywne.
 
-<p>Przykład? Ktoś może wskazać swojemu programowi jakiś zero-jedynkowy plik i&nbsp;nakazać: „weź sześćdziesiąty piąty element (zero/jedynkę). Potem bierz kolejne, do numeru 72&nbsp;włącznie”. Program po kolei je zbiera i&nbsp;zostaje z&nbsp;ciągiem <code class="language-plaintext highlighter-rouge">01100001</code>.</p>
+Przykład? Ktoś może wskazać swojemu programowi jakiś zero-jedynkowy plik i&nbsp;nakazać: „weź sześćdziesiąty piąty element (zero/jedynkę). Potem bierz kolejne, do numeru 72&nbsp;włącznie”. Program po kolei je zbiera i&nbsp;zostaje z&nbsp;ciągiem `01100001`.
 
-<p>Następnie autor każe: „zrób z&nbsp;tego literę w&nbsp;podstawowym kodowaniu (ASCII)”. Wynik to <code class="language-plaintext highlighter-rouge">a</code>, bo właśnie taka litera <a href="http://sticksandstones.kstrom.com/appen.html">odpowiada tym zerom i&nbsp;jedynkom</a>.</p>
+Następnie autor każe: „zrób z&nbsp;tego literę w&nbsp;podstawowym kodowaniu (ASCII)”. Wynik to `a`, bo właśnie taka litera [odpowiada tym zerom i&nbsp;jedynkom](http://sticksandstones.kstrom.com/appen.html).
 
-<p>Te zera i&nbsp;jedynki z&nbsp;założenia nie miały być żadną literą. Były cząstką całkiem innej struktury. Ale jeśli ktoś każe zrobić z&nbsp;nich literę… to program posłucha.</p>
+Te zera i&nbsp;jedynki z&nbsp;założenia nie miały być żadną literą. Były cząstką całkiem innej struktury. Ale jeśli ktoś każe zrobić z&nbsp;nich literę… to program posłucha.
 
-<p>To dlatego atakujący mógł stworzyć pełnoprawny, działający plik. W&nbsp;którym jednocześnie ukrywa sobie różne rzeczy. Po odpowiednich przekształceniach może je sobie wyciagnąć.</p>
+To dlatego atakujący mógł stworzyć pełnoprawny, działający plik, w&nbsp;którym jednocześnie ukrywa sobie różne rzeczy. Po odpowiednich przekształceniach może je sobie wyciagnąć.
 
-<p class="post-meta">Koniec wyjaśnienia</p>
-</details>
+{% include details-end.html %}
 
 Jeśli chodzi o&nbsp;zawartość hakerskich skryptów, mało się znam na temacie, więc zdam się tu na [opracowanie Gynvaela Coldwinda](https://gynvael.coldwind.pl/?lang=en&id=782). Jeśli dobrze interpretuję:
 
