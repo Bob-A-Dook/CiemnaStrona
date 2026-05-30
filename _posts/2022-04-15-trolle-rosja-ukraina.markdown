@@ -10,9 +10,7 @@ image:
    path: /assets/posts/trolle/demon-slayer-trolle-baner.jpg
    width: 1200
    height: 700
-
-image-width: 1200
-image-height: 700
+   alt: "Przerobiony kadr z anime Demon Slayer. Postać z logo Ciemnej Strony zamiast głowy uderza płomiennym cięciem w kark trolla"
 ---
 
 Dawno się nie widzieliśmy! Poprzedni wpis stworzyłem pod koniec lutego, zapowiadając kolejne „w najbliższym czasie”.
@@ -373,36 +371,33 @@ Znajdujemy zielony przycisk `Code` i&nbsp;wybieramy opcję pobrania wszystkiego 
 
 Dalsze działania zależą od tego, jaką mamy przeglądarkę.
 
-<details>
- <summary>
-  <strong>Chrome, Brave, Edge, Opera oraz inne na silniku Chromium</strong>
- </summary>
+{% include details.html summary="Chrome, Brave, Edge, Opera oraz inne na silniku Chromium" %}
 
-<p class="post-meta">Niestety przeglądarki mają tu pewne różnice między sobą, nie testowałem wszystkich. Niektóre nazwy mogą się różnić, ale procedura jest podobna.</p>
+{:.post-meta .bigspace-before}
+Między tyloma przeglądarkami wystąpią zapewne różnice, wszystkich nie testowałem. Obstawiam jednak, że procedura będzie podobna, a&nbsp;różnić będą się głównie nazwy zakładek.
 
-<ol>
-  <li>Pobieramy dodatek w&nbsp;formie pliku ZIP, rozpakowujemy go gdzieś (większość przeglądarek tego wymaga).</li>
-  <li>Otwieramy menu dodatków
-(trzy kropki w&nbsp;prawym górnym rogu, w niektórych przeglądarkach <code class="language-plaintext highlighter-rouge">Więcej narzędzi</code>, <code class="language-plaintext highlighter-rouge">Rozszerzenia</code>).</li>
-  <li>Włączamy pstryczek podpisany <code class="language-plaintext highlighter-rouge">tryb programisty</code> (albo <code class="language-plaintext highlighter-rouge">tryb dewelopera</code>).</li>
-  <li>Pojawią się opcje ładowania dodatków; wybieramy <code class="language-plaintext highlighter-rouge">Załaduj rozpakowane</code> (na Edge'u błędnie przetłumaczone jako „nierozpakowane”).</li>
-  <li>Wchodzimy do folderu, w którym wcześniej rozpakowaliśmy pliki i potwierdzamy wybór. Gdyby nie działało, to wybieramy cały plik ZIP.</li>
-</ol>
-</details>
+1. Pobieramy dodatek w&nbsp;formie pliku ZIP, rozpakowujemy go gdzieś  
+   (większość przeglądarek tego wymaga).
+2. Otwieramy menu dodatków  
+   (trzy kropki w&nbsp;prawym górnym rogu, w niektórych przeglądarkach `Więcej narzędzi`, `Rozszerzenia`).
+3. Włączamy pstryczek podpisany `tryb programisty` (albo `tryb dewelopera`).
+4. Pojawią się opcje ładowania dodatków; wybieramy `Załaduj rozpakowane`  
+   (na Edge'u w&nbsp;dniu tworzenia wpisu błędnie przetłumaczone jako „nierozpakowane”).
+5. Wchodzimy do folderu, w&nbsp;którym rozpakowaliśmy pliki i&nbsp;potwierdzamy wybór.  
+   Gdyby nie działało, to wybieramy cały plik ZIP.
 
-{:.bigspace-after}
-<details>
- <summary>
-  <strong>Firefox oraz inne na jego silniku</strong>
- </summary>
-<ol>
-  <li>Pobieramy dodatek w&nbsp;formie pliku ZIP, rozpakowujemy.</li>
-  <li>Wpisujemy <code class="language-plaintext highlighter-rouge">about:debugging</code> w&nbsp;pasku przeglądarki.</li>
-  <li>Klikamy opcję <code class="language-plaintext highlighter-rouge">Ten Firefox</code> po lewej.</li>
-  <li>Klikamy <code class="language-plaintext highlighter-rouge">Tymczasowo wczytaj dodatek</code> i&nbsp;wybieramy dowolny plik z&nbsp;rozpakowanego folderu, np. <em>manifest.json</em>.<br/><strong>Kroki 2-4 trzeba wykonać przy każdym uruchomieniu Firefoksa</strong>.
-</li>
-</ol>
-</details>
+{% include details-end.html %}
+
+{% include details.html summary="Firefox oraz inne na jego silniku" %}
+
+1. Pobieramy dodatek w&nbsp;formie pliku ZIP i&nbsp;go rozpakowujemy.
+2. Wpisujemy `about:debugging` w&nbsp;pasku przeglądarki.
+3. Klikamy opcję `Ten Firefox` po lewej.
+4. Klikamy `Tymczasowo wczytaj dodatek` i&nbsp;wybieramy dowolny plik z&nbsp;rozpakowanego folderu, np. `manifest.json`.
+
+**Kroki 2-4 trzeba wykonać przy każdym uruchomieniu Firefoksa**.
+
+{% include details-end.html %}
 
 Po załadowaniu dodatku odwiedzacie Twittera, Nittera albo Facebooka. Znajdujecie jakiś trollkomentarz. Dwukrotnie na niego klikacie. Kliknięty element zostanie otoczony czerwoną obwódką, a&nbsp;do Waszego schowka trafi jego treść w&nbsp;formacie HTML.
 
@@ -418,46 +413,59 @@ Wystarczy teraz uruchomić Antitrolla, a&nbsp;ten zrobi swoje.
 
 Zarówno dodatek, jak i&nbsp;skrypt są w&nbsp;stanie robić swoje również na komórce, dzięki fantastycznej apce Termux. Wymaga to jednak dwóch rzeczy: zainstalowania Pythona na Termuksie, a&nbsp;mojego dodatku w&nbsp;przeglądarce Kiwi Browser.
 
+{% include info.html
+type="Aktualizacja 2026"
+text="Autor Kiwi Browser jakiś czas temu ogłosił, że [przestaje ją rozwijać](https://old.reddit.com/r/Android/comments/1i86ybn/kiwi_browser_is_officially_discontinued/).  
+Pozostaje teraz albo znalezienie zamiennika (autor wspomina, że część funkcji przejął Edge; niestety korporacyjny), albo w&nbsp;ostateczności użycie ostatniej wypuszczonej wersji.  
+Póki co zostawiam swoje instrukcje w niezmienionej postaci, ale obawiam się, że mogą być nieaktualne."
+%} 
+
+{% include details.html summary="1. Skrypt w apce Termux" %}
+
 {:.bigspace-before}
-<details>
-<summary>
-<strong>Jak naszykować skrypt w&nbsp;apce Termux</strong>
-</summary>
-<p>Aby <code class="language-plaintext highlighter-rouge">antitroll</code> zadziałał na telefonie, trzeba:</p>
+Aby `antitroll` zadziałał na telefonie, trzeba:
 
-<ol>
-  <li>Posiadać telefon z&nbsp;systemem Android;</li>
-  <li>Zainstalować aplikację <em>F-Droid</em>;</li>
-  <li>Zainstalować przez <em>F-Droida</em> aplikacje <em>Termux</em> oraz <em>Termux:API</em><br>
-(przez działania Google’a wersja z&nbsp;ich domyślnego Play Store’a <a href="https://github.com/termux/termux-packages/wiki/Termux-and-Android-10">nie działa</a>);</li>
-  <li>Zainstalować Pythona<br>
-(powinno zadziałać wpisanie w&nbsp;Termuksa komendy <code class="language-plaintext highlighter-rouge">pkg install python</code>);</li>
-  <li>Umieścić mój skrypt w&nbsp;folderze domyślnie dostępnym dla Pythona.</li>
-</ol>
-<p>Co do ostatniego punktu. Jeśli nie zmienimy nazwy skryptu i&nbsp;go po prostu pobierzemy ode mnie, to powinien trafić do folderu <code class="language-plaintext highlighter-rouge">Download</code>.</p>
-<p>Wówczas, żeby skopiować skrypt do folderu głównego, gdzie będzie zawsze dostępny dla Pythona, musimy wpisać w&nbsp;Termuksie:</p>
-<div class="black-bg mono">cp /storage/emulated/0/Download/antitroll.py ~</div>
-<p>Pamiętajmy przy tym o&nbsp;spacjach po <code class="language-plaintext highlighter-rouge">cp</code> i&nbsp;przed <code class="language-plaintext highlighter-rouge">~</code>.</p>
-<p>Mam nadzieję, że zadziała. Ale wersji Androida jest wiele i&nbsp;nie każda może się lubić z&nbsp;Termuksem.</p>
-</details>
+1. posiadać telefon z&nbsp;systemem Android;
+2. zainstalować aplikację *F-Droid*;
+3. zainstalować przez *F-Droida* aplikacje *Termux* oraz *Termux:API*
+   (przez działania Google’a wersja z&nbsp;ich domyślnego Play Store’a [nie działa](https://github.com/termux/termux-packages/wiki/Termux-and-Android-10));
+4. zainstalować Pythona  
+   (powinno zadziałać wpisanie w&nbsp;Termuksa komendy `pkg install python`);
+5. umieścić mój skrypt w&nbsp;folderze domyślnie dostępnym dla Pythona.
 
-{:.bigspace-after}
-<details>
-<summary>
-  <strong>Jak naszykować dodatek w&nbsp;apce Kiwi Browser</strong>
-</summary>
- <ol>
-  <li>Instalujemy przeglądarkę <em><a href="https://kiwibrowser.com/">Kiwi Browser</a></em> (oparta na silniku Chromium).</li>
-  <li>Instalujemy mój dodatek przez jej opcje<br>
-(w ten sam sposób co na komputerze; jedyna różnica taka, że <strong>nie rozpakowujemy pliku ZIP</strong> i&nbsp;wybieramy go w menu).</li>
-  <li>Używamy tej przeglądarki<br>
-(niby oczywiste, ale podkreślę: przez apki Facebooka i&nbsp;Twittera dodatek by nie działał).</li>
-</ol>
-</details>
+**Uwaga odnośnie ostatniego punktu:** jeśli po prostu pobierzesz skrypt ode mnie, to trafi do domyślnego smartfonowego folderu na pliki pobrane (zapewne `Download`). Wówczas, żeby skopiować go do folderu Termuksa (żeby był dostępny dla Pythona), wpisz w&nbsp;Termuksie:
 
-Dlaczego Kiwi? Bo niestety **inne mobilne przeglądarki nie dają możliwości instalowania dodatków**. Tak, dotyczy to również mobilnego Firefoksa. Mimo że Mozilla w&nbsp;innych sferach raczej działa na rzecz użytkowników.
+<div class="black-bg mono nospace big-wordspace">cp /storage/emulated/0/Download/antitroll.py ~</div>
 
-Dodatek działa jak na komputerze; dwa razy pod rząd naciskamy element palcem. Jeśli pojawiła się obwódka, to znaczy że się skopiował.  
+{:.figcaption}
+Wyeksponowałem tu spacje po `cp` i&nbsp;przed `~`, bo nie można ich pominąć.  
+Czasem zamiast `/storage/emulated/0` zadziała krótsze `sdcard`.
+
+Mam nadzieję, że zadziała! Warto jednak pamiętać, że wersji Androida jest wiele i&nbsp;nie każda musi się lubić z&nbsp;Termuksem.  
+Parę potencjalnych problemów i usprawnień omawiam w&nbsp;[przewodniku po Termuksie](/tutorials/termux){:.internal}.
+
+{% include details-end.html %}
+
+
+{% include details.html summary="2. Dodatek w apce Kiwi Browser" %}
+
+{:.bigspace-before}
+Kiwi Browser to przeglądarka względnie niszowa, choć oparta na znanym silniku Chromium.  
+Dlaczego więc ona? Bo **inne mobilne przeglądarki raczej nie dają możliwości instalowania dodatków**. Tak, dotyczy to również mobilnego Firefoksa. Mimo że Mozilla w&nbsp;innych sferach raczej działa na rzecz użytkowników.
+
+Żeby móc przez nią używać SelSworda:
+
+1. Instalujemy przeglądarkę *[Kiwi Browser](https://github.com/kiwibrowser/src.next)*  
+   (link do wersji zarchiwizowanej na Githubie).
+2. Instalujemy mój dodatek przez jej opcje  
+   (w ten sam sposób co na komputerze, zgodnie z moim wcześniejszym opisem; jedyna różnica taka, że **nie rozpakowujemy pliku ZIP** i&nbsp;to jego wybieramy w&nbsp;menu wyboru dodatku).
+3. Używamy tej przeglądarki  
+   (niby oczywiste, ale podkreślę: przez apki Facebooka i&nbsp;Twittera dodatek by nie działał).
+
+{% include details-end.html %}
+
+Gdy już wykonamy obie rzeczy, to dodatek będzie działał jak na komputerze.  
+Najpierw wewnątrz Kiwi Browser dwa razy pod rząd naciskamy palcem post/komentarz do zgłoszenia. Jeśli pojawiła się obwódka, to znaczy że się skopiował.  
 Następnie otwieramy Termuksa i wpisujemy:
 
 <div class="black-bg mono">python -m antitroll</div>
