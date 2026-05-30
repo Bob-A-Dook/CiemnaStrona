@@ -34,7 +34,7 @@ A teraz mamy ten wpis. Będzie o&nbsp;pewnych efektach ubocznych wspomnianych ro
 
 * [Garść faktów na początek](#garść-faktów-na-początek)
   * [Rośliny genetycznie modyfikowane](#rośliny-genetycznie-modyfikowane)
-  * [Siłka Darwina, czyli nabywanie odporności](#siłka-darwina,-czyli-nabywanie-odporności)
+  * [Siłka Darwina, czyli nabywanie odporności](#siłka-darwina-czyli-nabywanie-odporności)
 * [Rośliny Bt i&nbsp;niespełnione obietnice](#rośliny-bt-iniespełnione-obietnice)
 * [Kwestia zwiększonych oprysków](#kwestia-zwiększonych-oprysków)
 * [Dikamba](#dikamba)

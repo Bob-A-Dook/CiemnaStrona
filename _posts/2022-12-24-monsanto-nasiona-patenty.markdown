@@ -30,7 +30,7 @@ Zapraszam do lektury!
 
 * [Garść faktów na początek](#garść-faktów-na-początek)
 * [Rośliny GMO a&nbsp;przejrzystość](#rośliny-gmo-aprzejrzystość)
-* [Licencje, patenty, ograniczenia](#licencje-patenty,-ograniczenia)
+* [Licencje, patenty, ograniczenia](#licencje-patenty-ograniczenia)
 * [Polowanie na piratów](#polowanie-na-piratów)
   * [Dobra wola koncernu?](#dobra-wola-koncernu)
   * [Nasiona jak programy](#nasiona-jak-programy)

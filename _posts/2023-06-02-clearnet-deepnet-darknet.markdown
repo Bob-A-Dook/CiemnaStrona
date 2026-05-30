@@ -49,11 +49,11 @@ Skupiam się tu na wyjaśnianiu pojęć *clearnetu*, *deepnetu* i&nbsp;*darknet
 ### Spis treści
 
 * [Medialne mity](#medialne-mity)
-  * [Najciemniej pod latarnią?](#najciemniej-pod-latarnią?)
+  * [Najciemniej pod latarnią?](#najciemniej-pod-latarnią)
   * [Skutki demonizowania](#skutki-demonizowania)
 * [Clearnet](#clearnet)
 * [Deepnet](#deepnet)
-  * [Plik robots.txt](#plik-robots.txt)
+  * [Plik robots.txt](#plik-robotstxt)
   * [Deepnetujemy swój profil](#deepnetujemy-swój-profil)
   * [Deepnet a&nbsp;logowanie](#deepnet-alogowanie)
 * [Darknet](#darknet)

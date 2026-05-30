@@ -261,7 +261,7 @@ Choć profilowanie dotyczy stron, na które internauci nie mają bezpośredniego
 Zasada ogólna -- **trzeba ustawić między sobą a&nbsp;łatwą do sprofilowania stronką jakiegoś pośrednika**.  
 Punktem wyjścia do profilowania są nazwy domen. Jeśli staną się niewidoczne, to podglądacz niewiele zdziała. Wór wymieszanych stron do sprawdzenia stałby się wielki jak internet.
 
-Po więcej szczegółów i&nbsp;schematy graficzne odsyłam do [poprzedniego wpisu]({% post_url 2024-03-28-analiza-ruchu %}##jak-się-chronić){:.internal}; poniżej jedynie ogólna przypominajka.
+Po więcej szczegółów i&nbsp;schematy graficzne odsyłam do [poprzedniego wpisu]({% post_url 2024-03-28-analiza-ruchu %}#jak-się-chronić){:.internal}; poniżej jedynie ogólna przypominajka.
 
 {:.bigspace}
 <details>

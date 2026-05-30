@@ -51,7 +51,7 @@ Zobaczymy też inny smutny fakt, ogólniejszy niż Monsanto czy nawet branża *b
   * [Zwykła agresja](#zwykła-agresja)
   * [Diagnozy psychiatryczne](#diagnozy-psychiatryczne)
   * [„Glifosat mniej szkodliwy niż sól kuchenna”](#glifosat-mniej-szkodliwy-niż-sól-kuchenna)
-  * [„Nauka to my, przeciwnicy są antynaukowi”](#nauka-to-my,-przeciwnicy-są-antynaukowi)
+  * [„Nauka to my, przeciwnicy są antynaukowi”](#nauka-to-my-przeciwnicy-są-antynaukowi)
   * [„Krytycy to fani teorii spiskowych”](#krytycy-to-fani-teorii-spiskowych)
   * [„Cudowny indyjski bakłażan”](#cudowny-indyjski-bakłażan)
   * [Ośmieszanie IARC](#ośmieszanie-iarc)

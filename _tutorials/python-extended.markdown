@@ -213,7 +213,7 @@ Teraz trzeba dać znać Pythonowi, że ma patrzeć do naszego folderu. Przechodz
 
 Otwieramy ten plik w&nbsp;Notatniku i&nbsp;wklejamy tam ścieżkę do naszego folderu. Zapisujemy. Zmieniamy rozszerzenie pliku z&nbsp;*.txt* na *.pth*. Całość wygląda tak:
 
-{:.bigspace}
+{:.bigspace-before}
 <img src="/assets/tutorials/python-extended/4-1-pth-file.webp" alt="Kolaż pokazujący kawałek folderu site_packages z dodanym plikiem pth, a także sam ten plik otwarty w notatniku. Zawiera jedną linijkę: C, dwukropek, ukośnik lewy, Skrypty."/>
 
 {:.figcaption}
@@ -256,7 +256,7 @@ Dzięki temu mamy PowerShella w&nbsp;sekundę, w&nbsp;dowolnym folderze!
 {% include info.html type="Porada"
 text="Jeśli macie wersję Windowsa w&nbsp;innym języku, to możecie po prostu przytrzymać `Alt` przez dłuższą chwilę, żeby wyświetliły się litery odpowiadające różnym elementom Eksploratora.  
 Potem patrzycie, jakie klawisze odpowiadają opcji `Plik` i&nbsp;otwieraniu PowerShella. To te klawisze musicie nacisnąć w&nbsp;swojej wersji."
-trailer="<p class='bigspace' style='margin-bottom:0px'><img src='/assets/tutorials/python-extended/5-1-skroty-powershell.webp' alt='Zrzut ekranu z Eksploratora, pokazujący rozwiniętą zakładkę Plik z górnego rogu oraz parę pierwszych opcji. W ich rogach wyświetlają się literki na tle przypominającym klawisze z klawiatury' width='400px'/></p>"%}
+trailer="<p class='bigspace-before nospace'><img src='/assets/tutorials/python-extended/5-1-skroty-powershell.webp' alt='Zrzut ekranu z Eksploratora, pokazujący rozwiniętą zakładkę Plik z górnego rogu oraz parę pierwszych opcji. W ich rogach wyświetlają się literki na tle przypominającym klawisze z klawiatury' width='400px'/></p>"%}
 
 Z&nbsp;kolei żeby **szybko włączyć PowerShella w domyślnym folderze** -- bez otwierania Eksploratora Plików -- naciskamy `Przycisk z ikoną Windowsa + X`, żeby wyświetlić okno z&nbsp;opcjami. A&nbsp;następnie `I` (literę podkreśloną w&nbsp;nazwie odpowiadającej PowerShellowi).
 
