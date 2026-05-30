@@ -1,42 +1,57 @@
 ---
 layout: page
-title: Przyjemniejsza praca z Pythonem
+title: "Przyjemniejsza praca z Pythonem"
 description: "Samouczek o tym, jak sprawnie używać Pythona na Windowsie. Skróty klawiszowe, własny folder na skrypty, PowerShell i pliki BAT."
 ---
 
+{% include info.html
+type="Aktualizacja 2026"
+text="Ten poradnik jest przeznaczony dla systemu Windows (konkretniej: wszystko jest na przykładzie Windowsa&nbsp;10, nowszych nie uznaję).  
+Na etapie jego tworzenia nawet nie myślałem, że otwarta alternatywa, Linux, tak się spopularyzuje. Obecnie polecam system Linux Mint wszystkim, którzy mają możliwość przesiadki. Mam też odpowiednik linuksowy tego poradnika, pokazujący [foldery specjalne i&nbsp;integrowanie skryptów z&nbsp;systemem](/2024/12/09/rury-wprowadzenie){:.internal}."
+%}
+
 Do swoich wpisów dorzucam czasem autorskie skrypty Pythona, które pozwalają Wam sprawdzić pewne rzeczy na własną rękę.
 
-Podstawy instalacji Pythona i&nbsp;otwierania skryptów w&nbsp;domyślnym, załączonym edytorze IDLE pokazałem w&nbsp;[podstawowym samouczku](tutorials/using-python){:.internal}.
+Podstawy instalacji Pythona i&nbsp;otwierania skryptów w&nbsp;domyślnym, załączonym (na Windowsie) edytorze IDLE pokazałem w&nbsp;[podstawowym samouczku](tutorials/using-python){:.internal}.
 
 {:.post-meta .bigspace-after}
-A dlaczego IDLE? Ano dlatego, że wiele skryptów nie jest przystosowanych do uruchamiania przez podwójne kliknięcie myszką. Na ekranie na krótko pojawia się czarne okno, a potem znika. 
+A dlaczego IDLE? Ano dlatego, że wiele skryptów nie jest przystosowanych do uruchamiania przez podwójne kliknięcie myszką. Na ekranie na krótko pojawia się czarne okno, a potem znika. Z kolei konsola może niektórych odstraszać.
 
 Przyznam, że praca z&nbsp;Pythonem w&nbsp;IDLE może być na początku toporna.  
 Za każdym razem musimy kopiować skrypty do folderu, w którym chcemy ich użyć. A&nbsp;potem jeszcze musimy włączać edytor i&nbsp;wyklikać drogę do odpowiedniego pliku.
 
-Na szczęście jest kilka sposobów na znaczne ułatwienie sobie pracy. Będziemy w&nbsp;stanie łatwo otwierać skrypty, wzywać je z&nbsp;dowolnego miejsca, uruchamiać prostymi kombinacjami klawiszy.  
+Na szczęście jest kilka sposobów na znaczne ułatwienie sobie pracy: łatwe otwieranie skryptów, wzywanie ich z&nbsp;dowolnego miejsca, uruchamianie prostymi kombinacjami.  
 Co więcej, **to całkiem bezpieczne i&nbsp;nie wymaga dotykania żadnych funkcji systemu**. Wystarczy stworzyć parę plików i&nbsp;folderów.
 
 Przekonałem Was? Jeśli tak, to zapraszam do lektury! Porady ułożyłem w&nbsp;kolejności od najprzydatniejszych do całkowicie opcjonalnych.
 
 Jeśli chcecie sprawdzać wszystko na przykładzie, to możecie pobrać <a href="/assets/tutorials/python-basics/witaj.py" download>mój skrypt <i>witaj.py</i></a>{:.internal}.
 
+## Spis treści
+
+* [0. Znajdowanie folderu Pythona](#0-znajdowanie-folderu-pythona)
+* [1. Ustawienie IDLE jako programu otwierającego skrypty](#1-ustawienie-idle-jako-programu-otwierającego-skrypty)
+* [2. Uruchamianie skryptów z&nbsp;dowolnego folderu](#2-uruchamianie-skryptów-zdowolnego-folderu)
+* [3. Stworzenie własnego folderu na skrypty](#3-stworzenie-własnego-folderu-na-skrypty)
+* [4. Szybkie włączanie PowerShella](#4-szybkie-włączanie-powershella)
+* [5. Skrócenie komend dzięki plikowi BAT](#5-skrócenie-komend-dzięki-plikowi-bat)
+* [Podsumowanie](#podsumowanie)
+
 ## 0. Znajdowanie folderu Pythona
 
-Zanim zaczniemy ułatwiać sobie życie, trzeba ustalić, gdzie Python przechowuje różne swoje moduły.
+Zanim zaczniemy ułatwiać sobie życie, trzeba ustalić, gdzie Python przechowuje różne swoje moduły. Sposobów na to jest mnóstwo -- póki efektem naszych działań będzie odnalezienie folderu Pythona, to każdy z&nbsp;nich jest dobry.
 
-Sposobów na to jest mnóstwo -- póki efektem naszych działań będzie odnalezienie folderu Pythona, to każdy z&nbsp;nich jest dobry.
+W rozwijanych zakładkach znajdują się dwa możliwe sposoby, zilustrowane screenami z&nbsp;Windowsa.
 
-Zademonstruję tu parę z&nbsp;nich, używając screenów z&nbsp;Windowsa jako przykładów.
+{% include details.html summary="Poznanie folderu Pythona przez klikaninę" %}
 
-# Wyklikanie sobie drogi
+{:.bigspace-before}
+Ten sposób powinien działać niezależnie od tego, w&nbsp;jakim folderze zainstalujemy Pythona.
 
-Sposób graficzny na przykładzie **Windowsa** (na innych systemach niestety będzie inaczej). Powinien działać niezależnie od tego, w&nbsp;jakim folderze zainstalujemy Pythona.
+Na początku otwieramy menu *Start* (ikona w lewym dolnym rogu).  
+Przewijając listę po lewej, znajdujemy tam zakładkę `Python`. Rozwijamy ją. Powinien tam być m.in. edytor IDLE (jeśli podczas instalacji Pythona zaznaczyliśmy, żeby jego też instalowało).
 
-Otwieramy menu Start (ikona w lewym dolnym rogu).
-
-Przewijając listę po lewej, znajdujemy tam zakładkę `Python`. Rozwijamy ją, wyświetlając m.in. IDLE.  
-Klikamy tę opcję prawym przyciskiem myszy, najeżdżamy na opcję `Więcej`, a&nbsp;potem klikamy `Otwórz lokalizację pliku`:
+Klikamy jego nazwę prawym przyciskiem myszy, najeżdżamy na opcję `Więcej`, a&nbsp;potem klikamy `Otwórz lokalizację pliku`:
 
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/1-1-python-lokalizacja.webp" width="400px" alt="Pasek z opcjami systemu Windows. Widać rozwiniętą zakładkę o nazwie Python, pod nią zakreśloną opcję 'Więcej', a na końcu zakreśloną opcję 'Otwórz lokalizację pliku'."/>
@@ -51,6 +66,7 @@ Powinien nam się otworzyć folder główny Pythona, zawierający między innymi
 {:.bigspace}
 <img src="/assets/tutorials/python-extended/1-3-python-folder.webp" alt="Fragment okna programu Eksplorator Windows. Widać tutaj listę podfolderów i plików znajdujących się w folderze o nazwie Python."/>
 
+{:.post-meta .bigspace-after}
 Spoiler: później skorzystamy z&nbsp;podfolderów *Lib*, *libs* oraz *Scripts*.
 
 Teraz fajna sztuczka, o&nbsp;której sam wcześniej nie wiedziałem. Kliknijcie w&nbsp;puste pole **w&nbsp;prawej części górnego paska** (ale przed strzałką w dół na jego skraju):
@@ -60,7 +76,9 @@ Teraz fajna sztuczka, o&nbsp;której sam wcześniej nie wiedziałem. Kliknijcie 
 
 W ten sposób pełna ścieżka do folderu zaznaczy się Wam na niebiesko, w&nbsp;formie tekstu. Wystarczy jedno `Ctrl+C`, żeby ją skopiować. Przyda się później w&nbsp;paru miejscach!
 
-# Zapytanie przez IDLE
+{% include details-end.html %}
+
+{% include details.html summary="Poznanie folderu Pythona przez edytor IDLE" %}
 
 Alternatywa dla sposobu powyżej. Bardziej „hakerska”, bo wymaga włączenia IDLE i&nbsp;skopiowania całych dwóch linijek kodu! Zaleta: to sposób uniwersalny i&nbsp;powinien zadziałać na wszystkich systemach (**Windows, Linux, MacOS...**).
 
@@ -86,11 +104,13 @@ Wyświetli się lista różnych folderów Pythona, coś w tym stylu:
 
 Główny folder Pythona to najkrótsza ścieżka, kończąca się słowem `Python` i&nbsp;numerem wersji (zaznaczyłem na obrazku). Możemy ją skopiować.
 
+{% include details-end.html %}
+
 ## 1. Ustawienie IDLE jako programu otwierającego skrypty
 
 Pierwsze kroki z&nbsp;Pythonem na Windowsie mogą być nieintuicyjne. Mówię to jako wielki fan tego języka.
 
-Przyczynę opisałem wyżej -- jeśli po prostu dwukrotnie klikniemy skrypt, to często tylko mignie nam okienko. Może zadziała, ale nie zdążymy odczytać żadnych komunikatów. Dlatego otwieramy skrypt przez IDLE, a tam z kolei czeka nas klikanina.
+Przyczynę opisałem wyżej -- jeśli po prostu dwukrotnie klikniemy skrypt, to często tylko mignie nam okienko. Może zadziała, ale nie zdążymy odczytać żadnych komunikatów. Żeby je zobaczyć, możemy np. uruchomić skrypt przez IDLE; a&nbsp;tam z&nbsp;kolei czeka nas klikanina.
 
 Jeśli pobieracie tylko parę skryptów raz na ruski rok (np. ode mnie), to taka klikanina jest do przyjęcia. Ale jeśli musicie otwierać je częściej, to staje się to uciążliwe.
 
@@ -305,8 +325,8 @@ Jeśli czujecie się zawaleni powtarzalną robotą, to życzę gorąco, żeby sk
 
 A jeśli też darzycie ich antypatią? Zapraszam do czytania moich wpisów :smile:
 
-{% include info.html type="Dygresja" text="Moje słowa raczej nic nie zmienią, ale **Linux (u mnie: Mint) jest dużo przyjemniejszy w&nbsp;pracy z&nbsp;Pythonem niż Windows**.  
+{% include info.html type="Dygresja" text="Zachęcałem na początku, powtórzę na końcu: jeśli ktoś ma możlwość zmiany systemu, to **Linux (u mnie: Mint) jest dużo przyjemniejszy w&nbsp;pracy z&nbsp;Pythonem niż Windows**.  
 Nie trzeba specjalnie zmieniać nazw plików, żeby móc je edytować w&nbsp;notatniku.  
-Nie trzeba szukać IDLE'a po folderach. Jest domyślną opcją do otwierania plików *py*.  
+Nie trzeba szukać IDLE'a po folderach. Po instalacji staje się domyślnym otwieraczem plików *py*.  
 Nie trzeba dopisywać żadnego *ECHO OFF*. Skrypty Linuxa (*.sh*, odpowiednik *.bat*) nie wyświetlają nic od siebie i&nbsp;wystarczy wpisać do nich samą nazwę komendy.  
-...Zresztą w&nbsp;ogóle nie trzeba plików pośrednich. Wystarczy szybka zmiana, żeby każdy plik (w tym skrypty Pythona) dało się odpalać przez samo wpisanie jego nazwy."%}
+...Zresztą w&nbsp;ogóle nie trzeba plików pośrednich. Wystarczy [jedna linijka](/2024/12/09/rury-wprowadzenie#ulepszenie-magiczna-linijka){:.internal}, żeby każdy plik (w tym skrypty Pythona) dało się odpalać przez samo wpisanie jego nazwy."%}

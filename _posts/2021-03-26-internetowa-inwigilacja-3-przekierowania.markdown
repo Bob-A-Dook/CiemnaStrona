@@ -8,6 +8,11 @@ tags: [Internet, Inwigilacja, Centralizacja, Porady]
 firmy: [Twitter, Google]
 category: internetowa_inwigilacja
 category_readable: "Internetowa&nbsp;inwigilacja"
+image:
+  path: /assets/posts/przekierowania/przekierowania-sledzace-baner.jpg
+  width: 1200
+  height: 700
+  alt: "Przekierowania jako przeróbka kadru z gry Super Mario. Postać ze wszechwidzącym okiem zamiast głowy mówi, że książniczka jest w innym zamku"
 ---
 
 W poprzednich częściach „Internetowej inwigilacji” porównałem informacje, jakie wysyłamy innym stronom internetowym, do etykiet naklejanych na paczki i&nbsp;listy.

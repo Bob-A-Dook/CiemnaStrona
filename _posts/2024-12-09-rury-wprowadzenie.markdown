@@ -44,7 +44,7 @@ A zatem: jeśli ktoś ma Windowsa, ale też się chce pobawić, to zapraszam! 
   * [Przyjmowanie i&nbsp;wyrzucanie tekstu](#przyjmowanie-iwyrzucanie-tekstu)
   * [Problem pierwszy: niewykonywalność](#problem-pierwszy-niewykonywalność)
   * [Problem drugi: niewskazanie Pythona](#problem-drugi-niewskazanie-pythona)
-  * [Ulepszenie: magiczna linijka](#ulepszenie:-magiczna-linijka)
+  * [Ulepszenie: magiczna linijka](#ulepszenie-magiczna-linijka)
   * [Ulepszenie: wzywanie z&nbsp;dowolnego miejsca](#ulepszenie-wzywanie-zdowolnego-miejsca)
 * [Podsumowanie](#podsumowanie)
 * [Bonus: możliwe modyfikacje](#bonus-możliwe-modyfikacje)

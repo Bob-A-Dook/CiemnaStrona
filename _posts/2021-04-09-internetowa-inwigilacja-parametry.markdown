@@ -8,6 +8,11 @@ tags: [Internet, Inwigilacja, Porady]
 firmy: [Twitter, Facebook, Google]
 category: internetowa_inwigilacja
 category_readable: "Internetowa inwigilacja"
+image:
+  path: /assets/posts/linki-parametry/linki-parametry-sledzace-baner.jpg
+  width: 1200
+  height: 700
+  alt: "Mem z zamkiem jasnym i mrocznym, pod którym widnieje link. Jego część po znaku zapytania ma za tło część mroczną"
 ---
 
 W pierwszym wpisie z&nbsp;tej serii pokazałem po raz pierwszy nagłówki HTTP -- informacje, jakie nasza przeglądarka wysyła stronom internetowym, kiedy surfujemy po sieci.  
