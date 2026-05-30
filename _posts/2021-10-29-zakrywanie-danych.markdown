@@ -8,9 +8,7 @@ image:
    path: /assets/posts/zakrywanie-danych/zakryty-tekst.jpg
    width: 1200
    height: 700
-
-image-width: 1200
-image-height: 700
+   alt: "Słowa mówiące 'Zakryty tekst', przy czym jedno jest zasłonięte tylko półprzezroczystym prostokątem"
 ---
 
 Ten wpis będzie krótki i&nbsp;treściwy. Do jego stworzenia zainspirowała mnie poboczna dyskusja na forum *Hacker News* dotycząca pewnego artykułu prasowego.
@@ -22,7 +20,7 @@ Dlatego powstał ten wpis. Pokażę tu kilka pułapek związanych z&nbsp;ukrywan
 
 Może się czegoś nauczymy. A&nbsp;jeśli nie, to przynajmniej można spojrzeć na wtopki innych i&nbsp;się cieszyć, że to (jeszcze) nie nasze :smile:
 
-# Zakrywanie informacji na obrazkach
+## Zakrywanie informacji na obrazkach
 
 Przedstawiam Wam piękny szary prostokąt w&nbsp;stylu *modern art*:
 
@@ -60,7 +58,7 @@ Ta metoda jest prosta i&nbsp;skuteczna.
 Ale -- ważne! -- odnosi się to tylko do prostych obrazków. JPG, PNG itp.  
 **Próbując zrobić coś takiego z&nbsp;innymi plikami, takimi jak PDF, wpadlibyśmy w&nbsp;pułapkę**. Już ją opisuję.
 
-# Zakrywanie informacji w&nbsp;PDF-ach
+## Zakrywanie informacji w&nbsp;PDF-ach
 
 Dokładniej rzecz biorąc: nie tylko w&nbsp;nich. Dotyczy to wszelkich formatów, które przechowują nie tylko piksele, ale również tekst.
 
@@ -87,7 +85,7 @@ W formie screenshota, żeby tekst nie „wylewał się” poza ekran.
 Pomarańczową ramką otoczyłem element odpowiadający szaremu prostokątowi.  
 A nad nim? **Wyraźnie widać cały nasz tekst**. 
 
-Jeśli chcecie sami to sprawdzić, możecie <a href="/assets/posts/zakrywanie-danych/niezbyt-zakryty-napis.svg" download>pobrać mój plik</a>.  
+Jeśli chcecie sami to sprawdzić, możecie <a class="internal" href="/assets/posts/zakrywanie-danych/niezbyt-zakryty-napis.svg" download>pobrać mój plik</a>.  
 Następnie otwieramy go jako tekst, na przykład w&nbsp;Notatniku.  
 W tym celu klikamy go prawym przyciskiem myszy, wybieramy `Otwórz za pomocą...` i&nbsp;znajdujemy Notatnik na liście.
 
@@ -120,7 +118,7 @@ W każdym razie po takim przemieleniu w&nbsp;pliku nie zostaną już żadne sekr
 
 Gdybyście kiedyś musieli usuwać tajemnice z&nbsp;dokumentów, to życzę powodzenia! A&nbsp;gdyby była wtopa, to pamiętajcie, że zawsze mogło być gorzej. Jak u&nbsp;naszych elitarno-prawniczych Amerykanów.
 
-# Bonus: konkretne programy
+## Bonus: konkretne programy
 
 Wyżej były ogólniki, a&nbsp;tutaj będą konkretne nazwy!
 
@@ -134,20 +132,22 @@ Do samego zakrywania obrazków prostokątami wystarczy [GIMP](https://www.gimp.o
 To również można zrobić przez GIMP-a, o&nbsp;ile korzystamy z&nbsp;wersji *2.10* lub nowszej.  
 Wtedy po prostu klikamy PDF-a prawym przyciskiem, otwieramy w&nbsp;GIMP-ie. A&nbsp;następnie działamy [zgodnie z&nbsp;tą instrukcją](https://askubuntu.com/a/1098603) (po angielsku).
 
-{:.bigspace}
-<details>
-<summary>A jeśli nie boimy się konsoli?</summary>
+{% include details.html summary="A jeśli nie boimy się konsoli?" %}
 
-<p>Wtedy warto zainstalować Popplera – zestaw programów konsolowych do pracy z PDF-ami.<br>
-(Ma wersje na <a href="https://poppler.freedesktop.org/">Linuxa</a>, na <a href="https://macappstore.org/poppler/">Maca</a> i <a href="https://blog.alivate.com.au/poppler-windows/">na Windowsa</a>).</p>
+{:.bigspace-before}
+Wtedy warto zainstalować Popplera – zestaw programów konsolowych do pracy z plikami PDF. Ma wersje na systemy [Linux](https://poppler.freedesktop.org/), [MacOS](https://macappstore.org/poppler/) oraz [Windows](https://web.archive.org/web/20230419031309/https://blog.alivate.com.au/poppler-windows/).
 
-<p>Jeśli mamy przykładowo PDF-a o nazwie <code class="language-plaintext highlighter-rouge">jakis.pdf</code>, to otwieramy konsolę w tym samym folderze co on i wpisujemy:</p>
+{:.post-meta .bigspace-after}
+Strona opisująca instalację na Windowsie już chyba wygasła, więc zastąpiłem link innym, prowadzącym do sprawdzonego archiwum.
 
-<div class="black-bg mono">
-pdftocairo -jpeg jakis.pdf
-</div>
+Jeśli mamy przykładowo PDF-a o nazwie `jakis.pdf`, to otwieramy konsolę w tym samym folderze co on i&nbsp;uruchamiamy przez nią taką komendę (wpisując tekst, a potem wciskając klawisz `Enter`):
 
-</details>
+<div class="black-bg mono">pdftocairo -jpeg jakis.pdf</div>
+
+{:.figcaption .nospace}
+Gdybyśmy kopiowali stąd tekst do wklejenia w konsolę na Linuksie, to warto pamiętać, że robi się to skrótem `Ctrl+Shift+V`.
+
+{% include details-end.html %}
 
 Skończymy z&nbsp;plikami *JPG* -- po jednym na jedną stronę. Jeśli jeszcze nie zakrywaliśmy informacji jednolitymi prostokątami, to teraz jest na to dobry czas.
 
@@ -167,38 +167,33 @@ OCR nigdy nie będzie w&nbsp;100% dokładny, ale zawsze daje jakąś możliwoś�
 
 Do nałożenia tekstu możemy użyć komercyjnego programu [ABBYY FineReader](https://pdf.abbyy.com/) (tylko na Windowsa i&nbsp;Maca). Gdy już nam rozpozna co trzeba, wybieramy opcję zapisania pliku jako PDF, z tekstem pod warstwą obrazkową.
 
-{:.bigspace}
-<details>
-<summary>A jeśli nie boimy się konsoli?</summary>
+{% include details.html summary="A jeśli nie boimy się konsoli?" %}
 
-<p>Można zamiast płatnego programu zainstalować darmowego Tesseracta (tutaj <a href="https://www.pyimagesearch.com/2017/07/03/installing-tesseract-for-ocr/">nieformalne instrukcje</a>, a tutaj wersja <a href="https://github.com/UB-Mannheim/tesseract/wiki">na Windowsa</a>).</p>
+{:.bigspace-before}
+Można zamiast płatnego programu zainstalować darmowego Tesseracta (tutaj [nieformalne instrukcje](https://www.pyimagesearch.com/2017/07/03/installing-tesseract-for-ocr/), a tutaj [Tesseract na Windowsa](https://github.com/UB-Mannheim/tesseract/wiki)).
 
-<p>Tesseract czyta tylko obrazki, więc <strong>najlepiej go użyć zaraz po kroku&nbsp;1</strong>, pomijając krok&nbsp;2 (łączenie w PDF-a).</p>
+Tesseract czyta tylko obrazki, więc **najlepiej go użyć zaraz po kroku&nbsp;1**, pomijając krok&nbsp;2 (łączenie obrazków w&nbsp;PDF-a).
 
-<p>W tym celu w tym samym folderze musimy stworzyć plik tekstowy (powiedzmy <code class="language-plaintext highlighter-rouge">obrazki.txt</code>), w którym – linijka pod linijką – będą wymienione pliki z obrazkami, które chcemy połączyć w PDF-a.</p>
+W tym celu w tym samym folderze musimy stworzyć plik tekstowy (powiedzmy `obrazki.txt`), w którym – linijka pod linijką – będą wymienione pliki z obrazkami, które chcemy połączyć w PDF-a.  
+Jeśli obrazków jest tylko kilka, możemy nawet stworzyć ten plik ręcznie. Ale szybciej będzie konsolką. Na Windowsie wpisujemy w nią:
 
-<p>Jeśli obrazków jest tylko kilka, możemy nawet stworzyć ten plik ręcznie. Ale szybciej będzie konsolką. Na Windowsie wpisujemy w nią:</p>
+<div class="black-bg mono">dir > obrazki.txt</div>
 
-<div class="black-bg mono">
-dir > obrazki.txt
-</div>
+Na systemach Linux i MacOS:
 
-<p>Na Linuksie i MacOS:</p>
+<div class="black-bg mono">ls > obrazki.txt</div>
 
-<div class="black-bg mono">
-ls > obrazki.txt
-</div>
+Usuwamy z pliku tekstowego te nazwy plików, które nie są obrazkami. Upewniamy się, że mamy go w&nbsp;tym samym folderze co obrazki. Po czym odpalamy Tesseracta:
 
-<p>Usuwamy z pliku tekstowego te nazwy plików, które nie są obrazkami. Upewniamy się, że mamy go w&nbsp;tym samym folderze co obrazki. Po czym odpalamy Tesseracta:</p>
+<div class="black-bg mono big-wordspace">tesseract -l eng obrazki.txt po_ocr pdf</div>
 
-<div class="black-bg mono">
-tesseract -l eng obrazki.txt po_ocr pdf
-</div>
+{:.post-meta .bigspace-after}
+Dałem duże spacje, bo należy na nie uważać; szczególnie na tę przed ostatnim słowem `pdf`!  
+Zamiast `eng` można wpisać inny język lub języki dokumentu, zgodnie z&nbsp;[kodami Tesseracta](https://tesseract-ocr.github.io/tessdoc/Data-Files-in-different-versions.html).
 
-<p>(Uwaga na spację przed ostatnim <code class="language-plaintext highlighter-rouge">pdf</code>! A&nbsp;zamiast <code class="language-plaintext highlighter-rouge">eng</code> można wpisać inny język lub języki dokumentu, zgodnie z&nbsp;kodami Tesseracta).<br>
-Po powyższej komendzie powstanie nam plik <em>po_ocr.pdf</em>. Zawierający zarówno obrazki stron, jak i&nbsp;rozpoznany tekst.</p>
+Po powyższej komendzie powstanie nam plik `po_ocr.pdf`. Zawierający zarówno obrazki stron, jak i&nbsp;rozpoznany tekst.
 
-</details>
+{% include details-end.html %}
 
 Jeśli spróbujemy w&nbsp;naszym końcowym PDF-ie zaznaczyć i&nbsp;skopiować jakiś widoczny tekst, to zobaczymy że to działa -- lepiej lub gorzej.  
 Ale jeśli spróbujemy coś skopiować spod miejsc zakrytych prostokątami, to wyjdą nam co najwyżej losowe znaki. Co miało być niemożliwe do odczytania, to takie jest.

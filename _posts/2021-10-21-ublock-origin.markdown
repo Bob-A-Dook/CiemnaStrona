@@ -105,7 +105,7 @@ Tak jak pisałem, uBlock Origin nie działa na nowej wersji Safari. Instalacja n
 1. Wejdź na [stronę projektu uBlock Origin](https://github.com/gorhill/uBlock) i&nbsp;kliknij w&nbsp;link obok ikony twojej przeglądarki.
   
    {:.post-meta}
-   Jeśli jej tam nie ma, to jest szansa, że zadziała wersja zainstalowana ręcznie, z&nbsp;lpliku (ostatnia pozycja na liście, podpisana *Github -- Releases*. Jeśli ją wybierzesz, to zignoruj pozostałe punkty.
+   Jeśli jej tam nie ma, to jest szansa, że zadziała wersja zainstalowana ręcznie, z&nbsp;pliku (ostatnia pozycja na liście, podpisana *Github -- Releases*. Jeśli ją wybierzesz, to zignoruj pozostałe punkty.
 
 2. Przejdziesz na stronę oficjalnego archiwum dodatków. Kliknij tam przycisk „Instaluj” lub podobnie brzmiący.
 3. Przeklikaj się przez okienka.  
