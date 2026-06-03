@@ -7,7 +7,7 @@ description: "Obrazki wyrażają więcej niż tysiąc słów. A słowa też tu s
 W tym pomocniczym miniwpisie zebrałem kilka schematów pokazujących różne etapy **walki z&nbsp;aplikacją Usługi Google o&nbsp;kontrolę nad swoim smartfonem**. Pod każdym schematem znajdziecie rozwijane streszczenie całej sytuacji.
 
 {:.post-meta .bigspace-after}
-Z założenia nie ma to być wpis samowystarczalny, tylko uzupełnienie innych. Będę do niego linkował.
+Z założenia nie ma to być wpis samowystarczalny, tylko uzupełnienie innych, takich jak [główny wpis na temat Usług](/google/2026/06/03/uslugi-google-play-ciemne-strony){:.internal}.
 
 ### Tryb domyślny
 

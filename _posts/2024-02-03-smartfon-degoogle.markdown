@@ -495,6 +495,12 @@ To Usługi Google Play (_Play Services_). Finałowy boss tego wpisu, czyhający 
 {:.figcaption}
 Źródło: ponownie *JJBA: Stardust Crusaders*, odcinek 12.
 
+
+{% include info.html
+type="Powiązane wpisy"
+text="Usługi to tak mocny złol, że po paru latach doczekały się [własnego wpisu](/google/2026/06/03/uslugi-google-play-ciemne-strony){:.internal}. Opisuję tam dokładniej metody walki z&nbsp;nimi."
+%}
+
 {% include info.html
 type="Uwaga"
 text="Warto podkreślić, że Usługi Google Play to coś innego niż (Sklep) Google Play. Ten drugi jest aplikacją. Ze specjalnymi pozwoleniami (jak instalowanie, skanowanie i&nbsp;usuwanie innych aplikacji)... ale nadal aplikacją, którą da się uruchomić.  
