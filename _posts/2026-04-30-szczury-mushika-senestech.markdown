@@ -173,7 +173,7 @@ Kurs akcji tej spółki nie jest na zbyt wysokim poziomie... Ale to oznacza, że
 
 {% include info.html
 type="Ciekawostka"
-text="SenesTech jest notowany na giełdze pod skrótem SNES, który może się ciepło kojarzyć osobom ceniącym klimaty retro :wink:"
+text="SenesTech jest notowany na giełdzie pod skrótem SNES, który może się ciepło kojarzyć osobom ceniącym klimaty retro :wink:"
 %}
 
 W streszczeniu z&nbsp;DuckDuckGo mam również trochę informacji o&nbsp;produktach firmy:

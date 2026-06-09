@@ -355,7 +355,7 @@ Wyżej opisałem, jak się obecne sprawy mają. Ale świat nie stoi w&nbsp;miejs
 
 ### Zacieśnianie kontroli
 
-Jedna z&nbsp;polskich partii politycznych, Trzecia Droga (Polska 2050), optuje za wprowadzeniem [ślepego pozwu](https://polska2050.pl/informacja-prasowa/slepy-pozew-hejterze-widzimy-sie-w-sadzie/) -- możliwości pozywania o&nbsp;naruszenie dóbr osobistych bez podawania danych osobowych. Byłyby ona ustalane przez sądy.
+Jedna z&nbsp;polskich partii politycznych, Trzecia Droga (Polska 2050), optuje za wprowadzeniem [ślepego pozwu](https://polska2050.pl/informacja-prasowa/slepy-pozew-hejterze-widzimy-sie-w-sadzie/) -- możliwości pozywania o&nbsp;naruszenie dóbr osobistych bez podawania danych osobowych. Byłyby one ustalane przez sądy.
 
 {:.post-meta .bigspace-after}
 Przypominajka: wcześniej dane były ustalane tylko podczas drogi karnej, zaś w&nbsp;przypadku cywilnej pozywający musiał je znać i&nbsp;podać.

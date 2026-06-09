@@ -5,6 +5,11 @@ subtitle: "...czyli dlaczego przed marszem na Kapitol wyłączamy geotagowanie."
 description: "Metadane EXIF w zdjęciach mogą zdradzić naszą dokładną lokalizację. Pokazuję przykłady i zagrożenia."
 date:   2021-02-10 03:12:18 +0100
 tags: [Porady, Inwigilacja, Analiza danych]
+image:
+  path: /assets/posts/gdzie-jestem-zapytaj-moich-zdjec/exif-metadane-baner.jpg
+  width: 1200
+  height: 700
+  alt: "Kolaż pokazujący zdjęcie alejki parkowej oraz jej współrzędne i położenie na OpenStreetMapie"
 ---
 
 Wydarzenia z&nbsp;pierwszych dni stycznia 2021 r. -- mówię tu o&nbsp;wtargnięciu do Kapitolu -- pokazały wiele rzeczy. Zwłaszcza jeśli chodzi o&nbsp;obecny stan USA i&nbsp;potęgę informatycznych korporacji.

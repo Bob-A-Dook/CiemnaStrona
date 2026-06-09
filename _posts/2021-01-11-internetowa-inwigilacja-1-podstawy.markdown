@@ -7,6 +7,11 @@ date:   2021-01-11 16:28:41 +0100
 tags: [Internet, Inwigilacja, Porady]
 category: internetowa_inwigilacja
 category_readable: "Internetowa&nbsp;inwigilacja"
+image:
+  path: /assets/posts/internetowa-inwigilacja-1-podstawy/internetowa-inwigilacja-naglowki-http-baner.jpg
+  width: 1200
+  height: 700
+  alt: "Groźnie wyglądająca kobieta (przez odwrócenie barw) odbiera paczkę oklejoną informacjami z nagłówków HTTP"
 ---
 
 Zdarzyło Wam się podczas przeglądania internetu zderzyć się z&nbsp;blokadą? Albo odnieść wrażenie, że jakaś strona wie o&nbsp;Was więcej, niż byście chcieli?

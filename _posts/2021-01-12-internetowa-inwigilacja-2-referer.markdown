@@ -9,6 +9,11 @@ firmy: [Google]
 keep_referers: true
 category: internetowa_inwigilacja
 category_readable: "Internetowa&nbsp;inwigilacja"
+image:
+  path: /assets/posts/internetowa-inwigilacja-2-referer/referer-came-from-outer-space-baner.jpg
+  width: 1200
+  height: 700
+  alt: "Przerobiony plakat filmu pokazujący wielkie oko w kosmosie, a pod nim napis mówiący po angielsku: 'To przybyło z poprzednio-odwiedzona-strona.pl'."
 ---
 
 W poprzednim wpisie pokazałem krótko nagłówki HTTP -- rodzaj naszej wizytówki przesyłanej za każdym razem, kiedy odwiedzamy jakąś stronę. 
