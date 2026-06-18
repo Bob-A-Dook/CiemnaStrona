@@ -310,7 +310,7 @@ Czasem obejścia działają i&nbsp;pozwalają odpalić niepokorne aplikacje na z
 Gdyby wtrąciło się uzurpatora do lochu i&nbsp;nie zrobiło nic więcej, to znów mielibyśmy scenariusz z&nbsp;buntem jego zaufanych ludzi. Dlatego zamiast tego albo robi się z&nbsp;niego zakładnika (obstawiając go strażnikami), albo podstawia zamiennika.
 
 Żadna z&nbsp;metod nie jest niestety pewna.  
-Ludzie z&nbsp;zewnątrz mogą poznać, że zamiennik nie ogarnia wszystkiego w&nbsp;ten sam sposob.  
+Ludzie z&nbsp;zewnątrz mogą poznać, że zamiennik nie ogarnia wszystkiego w&nbsp;ten sam sposób.  
 Z kolei w&nbsp;przypadku pilnowania uzurpatora może on zaalarmować kontaktujących się z&nbsp;nim ludzi, jaka jest sytuacja i&nbsp;że nie ma już władzy. Widząc to, jego zawzięci stronnicy ponownie odmówią współpracy.
 
 {% include details-end.html %}
@@ -380,7 +380,7 @@ Bonus: kojarzy się z&nbsp;pamiętnymi złolami z&nbsp;„*Fallouta 2*”.
 
 Enklawy mają swoje pozytywne zastosowania przy ochronie danych. Przykładowo: mogą przechowywać informacje wrażliwe, takie jak wzorzec odcisku palca, jeśli ktoś ustawi taki tryb odblokowania ekranu.
 
-Problem jednak w&nbsp;tym, że ich możliwości są nadużywane. Enklawy biorą udział w&nbsp;procesie kontrolowanego uruchamiania systemu (to tzw. *secure boot*). Zapisują w&nbsp;sobie jego stan, [ściskając dane do krótkich ciągóœ znaków](/2021/02/28/hash-podstawy){:.internal}.
+Problem jednak w&nbsp;tym, że ich możliwości są nadużywane. Enklawy biorą udział w&nbsp;procesie kontrolowanego uruchamiania systemu (to tzw. *secure boot*). Zapisują w&nbsp;sobie jego stan, [ściskając dane do krótkich ciągów znaków](/2021/02/28/hash-podstawy){:.internal}.
 
 Potem mogą okazywać te informacje na żądanie. **Mówić pytającym Usługom, czy są na fabrycznym Androidzie, czy też na zmienionym systemie**. Ten poziom weryfikacji nosi nazwę wewnętrzną `MEETS_DEVICE_INTEGRITY` (albo `MEETS_STRONG_INTEGRITY`, jeśli do tego Android ma wszystkie aktualizacje).
 

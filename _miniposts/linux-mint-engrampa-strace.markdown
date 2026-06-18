@@ -66,9 +66,10 @@ Szukając odpowiedzi na te pytania, rozpocząłem krótkie śledztwo.
 
 Zależało mi na nazwie programu, jakiemu odpowiadało okienko interfejsu pytające o&nbsp;hasło.
 
-Mógłbym teoretycznie kliknąć pierwszą opcję z&nbsp;menu z&nbsp;pierwszego screena. Jest tam o&nbsp;otwarciu archiwum, więc mógłbym założyć, że pojawi się ten sam program, który rozpakowuje. Po jego uruchomieniu zajrzałbym w&nbsp;zakładkę `O programie` i&nbsp;poznał nazwę.
+{:.post-meta .bigspace-after}
+Mógłbym teoretycznie kliknąć pierwszą opcję z&nbsp;menu z&nbsp;pierwszego screena. Jest tam o&nbsp;otwarciu archiwum, więc mógłbym założyć, że pojawi się ten sam program, który rozpakowuje archiwa. Ale w pełnej postaci, umożliwiającej poznanie nazwy.
 
-Ale nie zawsze jest możliwość prostego przejścia od okna/opcji do programu. Sposobem bardziej uniwersalnym jest uruchomienie konsoli/terminala (np. kombinacją `Ctrl+Alt+T`) i&nbsp;użycie polecenia:
+Bardziej uniwersalnym sposobem na przejście od okna do nazwy jest uruchomienie konsoli/terminala (np. kombinacją `Ctrl+Alt+T`) i&nbsp;użycie polecenia:
 
 ```
 xprop | grep WM_CLASS
@@ -84,6 +85,9 @@ WM_CLASS(STRING) = "engrampa", "Engrampa"
 ```
 
 **_Engrampa_**. Nazwa trochę kojarzy mi się z&nbsp;[n-gramami](https://pl.wikipedia.org/wiki/N-gram), trochę z&nbsp;dziadkiem -- i&nbsp;faktycznie program jest już nieco leciwy. Ale wciąż sprawny.
+
+{:.post-meta .bigspace-after}
+A tak naprawdę nazwa pochodzi od hiszpańskiego słowa, jak wiele programów na MATE.
 
 ### Krótka lektura dokumentacji
 
