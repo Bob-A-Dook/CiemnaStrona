@@ -199,7 +199,7 @@ Będą wyrównane do prawej strony paska, a&nbsp;nie lewej, jak na Windowsie. Do
 
 ### Przemeblowanie paska
 
-Najpierw sprawmy, żeby aplet z&nbsp;listą okien się pokazał. Jeśli nie mamy żadnych okien na pasku, to uruchamiamy dowolny program, żeby jego nazwa zagościła na pasku. Nie zamykamy jego okna.
+Najpierw sprawmy, żeby aplet z&nbsp;listą okien się pokazał. Jeśli nie mamy żadnych otwartych okien, to uruchamiamy dowolny program, żeby jego nazwa zagościła na pasku. Nie zamykamy jego okna.
 
 Teraz należy wejść w&nbsp;tryb edycji paska. Znowu -- klikamy go prawym przyciskiem w&nbsp;jakimś pustym miejscu, niebędącym apletem. Następnie klikamy przełącznik podpisany `Panel edit mode`: 
 
@@ -222,7 +222,7 @@ Najeżdżamy kursorem na obszar po lewej (z&nbsp;czerwonym tłem), cały czas go
 <img src="/assets/tutorials/linux/cinnamon-dolny-pasek/cinnamon-pasek-przenoszenie-pierwszego-apletu.png" alt="Ilustracja przenoszenia apletu-uruchamiacza na lewą stronę paska"/>
 
 {:.figcaption}
-Można zauważyć, że po upuszczeniu apletu jego ikony automatycznie się powiększą, zyskając właściwy rozmiar. To dlatego, że każdy z&nbsp;trzech obszarów paska ma własne, niezależne ustawienia.
+Można zauważyć, że po upuszczeniu apletu jego ikony automatycznie się powiększą, zyskując właściwy rozmiar. To dlatego, że każdy z&nbsp;trzech obszarów paska ma własne, niezależne ustawienia.
 
 W podobny sposób przeciągamy listę okien, również kładąc ją w&nbsp;obszarze po lewej (ale po prawej stronie apletu z&nbsp;ikonami programów):
 
@@ -231,14 +231,14 @@ W podobny sposób przeciągamy listę okien, również kładąc ją w&nbsp;obsza
 
 Po przeniesieniu apletów znów otwieramy menu kontekstowe paska i&nbsp;wyłączamy tryb edycji.
 
-Można sobie poklikać i&nbsp;upewnić się, że wszystko działa jak powinno. W&nbsp;ten sposób zyskaliśmy pasek klasyczny: ikona menu, potem ikony programów, potem lista otwartych okien. Prawie nie do odróżnienia od Windowsa 10.
+Można sobie poklikać i&nbsp;upewnić się, że wszystko działa jak powinno. W&nbsp;ten sposób zyskaliśmy pasek klasyczny: ikona menu, potem ikony przypiętych programów, potem lista otwartych okien. Prawie nie do odróżnienia od Windowsa&nbsp;10.
 
 {% include details.html summary="O problemach z&nbsp;automatyzacją zmian" %}
 
 {:.bigspace-before}
 Liczyłem na to, że pasek można zmienić skryptem równie łatwo jak ustawienia pogrupowanej listy. Ale niestety na tym poległem.
 
-Na początku wydawało się to łatwe. Ustawienia paska są zapisywane wewnątrz centralnej bazy Dconf (którą można [łatwo modyfikować skryptami](/tutorials/linux-dconf-skryptowanie){:.internal}). Paska dotyczą dwa główne ustawienia:
+Na początku wydawało się to łatwe. Ustawienia paska są zapisywane wewnątrz centralnej bazy *Dconf* (którą można [łatwo modyfikować skryptami](/tutorials/linux-dconf-skryptowanie){:.internal}). Paska dotyczą dwa główne ustawienia:
 
 * `/org/cinnamon/enabled-applets` -- lista wszystkich apletów na wszystkich paskach oraz ich położenie i&nbsp;liczby porządkowe. Składnia własna Cinnamona, dość czytelna.
 * `/org/cinnamon/next-applet-id` -- numer poprzednio dodanego apletu plus jeden.

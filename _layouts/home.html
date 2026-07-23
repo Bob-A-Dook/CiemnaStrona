@@ -11,6 +11,7 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Wpisy" }}</h2>
+    <p class="post-meta">Dostępne również w&nbsp;formie <a href="/galeria" class="internal">galerii obrazków</a>.</p>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>

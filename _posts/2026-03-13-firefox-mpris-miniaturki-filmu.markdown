@@ -69,7 +69,7 @@ Ta pierwsza liczba wbrew pozorom nie jest losowa; to **numer procesu** odpowiada
 To dokładnie ta sama liczba, którą wyświetliłby program `xprop` po kliknięciu okna Firefoksa.  
 Swoją drogą: przydatna właściwość, gdyby ktoś chciał ustalić numer procesu najprostszymi narzędziami, bez konsoli czy włączania Monitora Systemu.
 
-Druga liczba z&nbsp;kolei zaczyna się od zera i&nbsp;rośnie o&nbsp;1 z każdym kolejnym załadowanym filmem. Do jakiej wartości? Na pewno osiąga dwucyfrową, tyle sprawdziłem. Nie testowałem limitów, a&nbsp;w kodzie źródłowym Lisa/Wilka nie planuję póki co szperać.
+Druga liczba z&nbsp;kolei zaczyna się od zera i&nbsp;rośnie o&nbsp;1&nbsp;z&nbsp;każdym kolejnym załadowanym filmem. Do jakiej wartości? Na pewno osiąga dwucyfrową, tyle sprawdziłem. Nie testowałem limitów, a&nbsp;w kodzie źródłowym Lisa/Wilka nie planuję póki co szperać.
 
 Z ciekawości zacząłem sobie eksperymentować i&nbsp;sprawdzać, w&nbsp;jakich sytuacjach pojawia się miniaturka.
 
@@ -118,7 +118,7 @@ Te bajery mają jednak swoją cenę, którą jest powstawanie miniaturek w&nbsp;
 
 ## Ocena ryzyka
 
-Z punktu widzenia prywatności **powstała miniaturka jest ogólnodostępna**. Gdyby na naszym systemie oprócz przeglądarki działał jakiś program, to mógłby co pewien czas wypatrywać folderu `.mozilla/firefox-mpris` i&nbsp;zapisywać sobie zauważone tam obrazki, wraz z&nbsp;godziną utworzenia miniaturki. Miałby małą kronikę naszej historii oglądanych filmów.
+Z punktu widzenia prywatności **powstała miniaturka jest ogólnodostępna**. Gdyby na naszym systemie oprócz przeglądarki działał jakiś zły program, to mógłby co pewien czas wypatrywać folderu `.mozilla/firefox-mpris` i&nbsp;zapisywać sobie zauważone tam obrazki, wraz z&nbsp;godziną utworzenia miniaturki. Miałby małą kronikę naszej historii oglądanych filmów.
 
 ...Tylko że to zagrożenie raczej niewielkie na tle tego, co program mógłby wyciągnąć z&nbsp;innego folderu ogólnodostępnego, `.cache/mozilla`, gdzie znajduje się [pamięć podręczna](/2021/12/23/caching){:.internal} Firefoksa. A&nbsp;tam skarby, takie jak miniaturki *wszystkich* obrazków, jakie załadowała przeglądarka.
 
@@ -133,7 +133,7 @@ A w&nbsp;przypadku typowym? Nieznaczące zagrożenie na tle pamięci podręcznej
 Niezależnie od skali zagrożenia, ktoś mógłby zechcieć nie tworzyć miniaturek. Jak je wyłączyć?  
 Ktoś już o to [zapytał na Reddicie](https://www.reddit.com/r/firefox/comments/q1vnns/what_is_firefoxmpris/) i&nbsp;dostał bardzo konkretną odpowiedź.
 
-Po pierwsze: według komentarza **miniaturka nie pojawia się, jeśli ogląda się film w&nbsp;zakładce prywatnej/_incognito_**. Kolejny dowód na to, że w&nbsp;tryb prywatny jednak włożoną jakąśtam pracę i&nbsp;[nie jest tylko zabawką do ukrywania historii](/2024/09/09/tryb-prywatny-incognito){:.internal}.
+Po pierwsze: według komentarza **miniaturka nie pojawia się, jeśli ogląda się film w&nbsp;zakładce prywatnej/_incognito_**. Kolejny dowód na to, że w&nbsp;tryb prywatny jednak włożono jakąśtam pracę i&nbsp;[nie jest tylko zabawką do ukrywania historii](/2024/09/09/tryb-prywatny-incognito){:.internal}.
 
 A co, jeśli nie chcemy każdorazowo używać tego trybu? W&nbsp;takim wypadku można wyłączyć tworzenie miniaturek w&nbsp;ustawieniach, żeby uczynić ich brak stanem domyślnym całego Firefoksa.
 
