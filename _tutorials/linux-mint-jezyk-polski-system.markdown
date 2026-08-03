@@ -127,6 +127,12 @@ Polecenie odkryte [dzięki wytrwałej eksploracji](/miniposts/linux-mint-mate-kl
 
 Po włączeniu polskiej klawiatury można na próbę uruchomić jakiś program pozwalający wpisywać tekst i&nbsp;upewnić się, że kombinacje klawiszy działają, polskie ogonki i&nbsp;inne znaki się pojawiają, a&nbsp;my możemy teraz [zażółcić gęślą jaźń](https://pl.wikipedia.org/wiki/Za%C5%BC%C3%B3%C5%82%C4%87_g%C4%99%C5%9Bl%C4%85_ja%C5%BA%C5%84).
 
+{% include info.html
+type="Uwaga"
+text="Domyślny układ polski ma pewną cechę, która może zaskakiwać. Mianowicie: klawisz `Alt` w&nbsp;kombinacji z&nbsp;innymi może wstawiać nie tylko znaki polskie, ale też obcojęzyczne. Oraz, co gorsza, niewidoczne spacje niełamliwe.  
+Żeby uniknąć tych spacji, można zamiast układu `Polish` wybrać `Polish (legacy)` albo układ międzynarodowy. Więcej szczegółów [w osobnym wpisie](/2026/08/03/linux-polska-klawiatura-bez-niechcianych-spacji-znakow){:.internal}."
+%}
+
 ## Ustawianie strefy czasowej
 
 Mint świeżo po załadowaniu z&nbsp;pendrive'a nie ma pojęcia, z&nbsp;jakiego jesteśmy kraju. Pole z&nbsp;datą i&nbsp;godziną w&nbsp;dolnym prawym rogu będzie zapewne pokazywało „punkt zero” stref czasowych. Czyli w&nbsp;praktyce dwie godziny wcześniej niż w&nbsp;Polsce.

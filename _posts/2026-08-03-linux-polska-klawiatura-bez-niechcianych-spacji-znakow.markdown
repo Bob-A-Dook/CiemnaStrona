@@ -380,7 +380,7 @@ Po najechaniu na niego kursorem pokaże się pełna nazwa aktywnego układu. Mo�
 {% include details.html summary="Mint MATE i&nbsp;PorteuX MATE (jedną linijką w&nbsp;konsoli)" %}
 
 {:.bigspace-before}
-Ustawienia klawiatury na MATE wyróżniają się tym, że nazwy układów są zapisywane **z tabulatorem, a&nbsp;nie plusem** -- dla układu najlepszego, międzynarodowego, mamy na przykład `pl\tintl`.  
+Ustawienia klawiatury na MATE wyróżniają się tym, że nazwy układów są zapisywane **z&nbsp;tabulatorem, a&nbsp;nie plusem** -- dla układu najlepszego, międzynarodowego, mamy na przykład `pl\tintl`.  
 A żeby zmienić na ten układ, należy użyć komendy:
 
 <pre class="black-bg mono nospace">
@@ -403,7 +403,7 @@ Dla innych systemów:
 {% include details.html summary="Mint LMDE" %}
 
 {:.bigspace-before}
-Na Mincie LMDE klawiaturę ustawia się właściwie dokładnie tak samo jak na Mincie Cinnamonie. Żeby się nie powtarzać, proponuję po prostu przewinąć w&nbsp;górę, do odpowiedniej [zakładki](#cinnamon-menu-klawiatury){:.internal} i&nbsp;działać zgodnie z&nbsp;instrukcją.
+Na Mincie LMDE klawiaturę ustawia się przez menu właściwie tak samo jak na Mincie Cinnamonie. Żeby się nie powtarzać, proponuję po prostu przewinąć w&nbsp;górę, do odpowiedniej [zakładki](#cinnamon-menu-klawiatury){:.internal} i&nbsp;działać zgodnie z&nbsp;instrukcją.
 
 Różnica pojawia się jednak na poziomie konsoli. **Na LMDE należy użyć innej komendy, żeby ustawić układ polski międzynarodowy**:
 
