@@ -4,7 +4,7 @@ title: "Dziwne znaki, spacje i stylometria – polska klawiatura na Linuksie"
 subtitle: "Niemiłe niespodzianki od klawisza Alt."
 description: "Niemiłe niespodzianki od klawisza Alt."
 date:   2026-08-03 18:00:00 +0100
-tags: [Inwigilacja, Linux, Open source, Stylometria, UX]
+tags: [Inwigilacja, Linux, Open Source, Stylometria, UX]
 image:
   path: /assets/posts/open_source/linux-polska-klawiatura/uklad-klawiatury-polski-baner.jpg
   width: 1200
@@ -64,7 +64,7 @@ Jeśli jednak wciśnie się `Alt` w&nbsp;połączeniu z&nbsp;innymi literami, na
 * `Alt+W` daje `œ`.
 
 {:.post-meta .bigspace-after}
-Nie mam pod ręką Windowsa, żeby to jednoznacznie potwierdzić, ale wydaje mi się, że tam znaków obcych nie ma. Albo przynajmniej kiedyś nie było. Pamiętam, że były dla mnie zaskoczeniem po przesiadce na Linuksa.
+Na świeżym Windowsie&nbsp;10 z&nbsp;domyślnymi ustawieniami i&nbsp;polską klawiaturą wygląda to inaczej. Powyższe kombinacje, a&nbsp;także inne niezwiązane z&nbsp;polskimi literami, nie robią zupełnie nic. Nie wstawia się po nich żadna litera. Osoby przechodzące na Linuksa mogą zatem poczuć różnicę.
 
 Te obce litery są pewnym utrapieniem, ale przynajmniej je widać i&nbsp;da się przywyknąć. Zwłaszcza jeśli z&nbsp;czasem nabierze się wprawy w&nbsp;pisaniu, liczba literówek spadnie, a&nbsp;szybkość ich poprawiania wzrośnie.
 
