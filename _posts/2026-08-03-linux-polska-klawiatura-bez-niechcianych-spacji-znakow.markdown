@@ -403,7 +403,11 @@ Dla innych systemów:
 {% include details.html summary="Mint LMDE" %}
 
 {:.bigspace-before}
-Na Mincie LMDE klawiaturę ustawia się przez menu właściwie tak samo jak na Mincie Cinnamonie. Żeby się nie powtarzać, proponuję po prostu przewinąć w&nbsp;górę, do odpowiedniej [zakładki](#cinnamon-menu-klawiatury){:.internal} i&nbsp;działać zgodnie z&nbsp;instrukcją.
+Na świeżym LMDE 7, który sprawdzałem, **spacje nierozdzielające były wyłączone nawet w zwykłym polskim układzie**. Jeśli tylko one komuś przeszkadzają, to nie trzeba nic robić. Nadal jednak warto zmienić układ, żeby pozbyć się obcych liter.
+
+Na tym systemie klawiaturę ustawia się przez menu właściwie tak samo jak na Mincie Cinnamonie. Jedyne różnice są kosmetyczne: znak plusa zamiast przycisku `Add`, opcja pokazywania rzadszych układów umieszczona obok listy, a&nbsp;nie pod nią...
+
+Żeby się nie powtarzać, proponuję po prostu przewinąć w&nbsp;górę, do odpowiedniej [zakładki](#cinnamon-menu-klawiatury){:.internal} i&nbsp;działać zgodnie z&nbsp;instrukcją.
 
 Różnica pojawia się jednak na poziomie konsoli. **Na LMDE należy użyć innej komendy, żeby ustawić układ polski międzynarodowy**:
 
