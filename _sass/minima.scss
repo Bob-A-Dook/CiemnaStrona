@@ -75,6 +75,11 @@ $on-laptop:        800px !default;
   strong, .subcontent-heading, .link-nav-heading {color:black; font-weight:bold}
   blockquote, .bigspace {margin-top:0.5cm !important; margin-bottom:0.5cm !important}
   .figcaption {color: #828282 !important; margin-bottom: 0.5cm !important}
-  .post-meta {font-size: 9px !important}  
+  .post-meta {font-size: 9px !important}
+  //Open all details elements
+  ::details-content {
+    content-visibility: visible;
+    height: auto !important;
+  }
 }
 
