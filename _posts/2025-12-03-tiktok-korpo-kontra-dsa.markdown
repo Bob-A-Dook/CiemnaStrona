@@ -331,7 +331,7 @@ Te liczby pięknie wyglądają w&nbsp;raportach PR, ale nie wierzcie im za grosz
 Skróty w nawiasach moje.
 
 
-Swoją krytykę opublikowała również Magdalena Bigaj na portalach społecznościowych: [Instagramie](https://www.instagram.com/magbigaj/p/DQuIYlOiL8i/) oraz [Facebooku](https://www.facebook.com/share/p/1BfMNi9B4P).
+Swoją krytykę opublikowała również Magdalena Bigaj na portalach społecznościowych: [Instagramie](https://www.instagram.com/magbigaj/p/DQuIYlOiL8i/) oraz [Facebooku](https://www.facebook.com/magda.bigaj/posts/goodwashing-to-dezinformacja-a-dezinformacja-jest-dzia%C5%82aniem-na-szkod%C4%99-obywateli/10235513251950129/).
 
 Używa tam konkretnego określenia na działania TikToka -- **_goodwashing_**. Pranie brudnej reputacji przez zalanie jej różnymi inicjatywami mogącymi wzbudzić pozytywne uczucia społeczeństwa.
 
